@@ -1,4 +1,4 @@
-;version=201001301307
+;version=201001301616
 ;author=Vokins [郭]
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -10,7 +10,7 @@
 0.0.0.0	dh.pplive.com
 0.0.0.0	g.pplive.com
 0.0.0.0	live.v2.pplive.com
-0.0.0.0	pp.pplive.com (Play tips)
+0.0.0.0	pp.pplive.com
 0.0.0.0	pp1.pplive.com
 0.0.0.0	p.g1d.net
 0.0.0.0	ppva.g1d.net
