@@ -1,8 +1,8 @@
-;version=201001301616
+;version=201001302352
 ;author=Vokins [郭]
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
-#PPLive
+#PPLive（PPVA）
 0.0.0.0	pp.v2.pplive.cn
 0.0.0.0	afp.pplive.com
 0.0.0.0	afv.pplive.com
@@ -35,8 +35,8 @@
 #Vagaa
 0.0.0.0	btjoy.com
 0.0.0.0	img.daodao001.cn
-0.0.0.0	text.mplayer.org.cn
 0.0.0.0	stbnnr.allyes.com
+0.0.0.0	text.mplayer.org.cn
 #Windows Media Player
 0.0.0.0	itv.ifeng.com
 0.0.0.0	locator.metadata.windowsmedia.com
@@ -56,22 +56,22 @@
 0.0.0.0	ttmsg.qianqian.com
 0.0.0.0	ttpack.qianqian.com
 0.0.0.0	ttplayer.qianqian.com
-#天翼电视
+#天翼网络电视
 0.0.0.0	sm2.netitv.com
-#暴风
-0.0.0.0	conf.p2p.baofeng.net
-0.0.0.0	pvlog.moviebox.baofeng.net
-0.0.0.0	pop.baofeng.net
+#暴风影音
 0.0.0.0	active.baofeng.com
 0.0.0.0	areacode.baofeng.com
 0.0.0.0	ass.baofeng.com
 0.0.0.0	baidu.baofeng.com
+0.0.0.0	conf.p2p.baofeng.net
 0.0.0.0	coop.pop.baofeng.com
 0.0.0.0	download.baofeng.com
 0.0.0.0	event.game.baofeng.com
 0.0.0.0	live.baofeng.com
 0.0.0.0	middown.baofeng.com
 0.0.0.0	midInfo.baofeng.com
+0.0.0.0	pop.baofeng.net
+0.0.0.0	pvlog.moviebox.baofeng.net
 0.0.0.0	tipsdata.baofeng.com
 0.0.0.0	tipsdown.baofeng.com
 0.0.0.0	titledown.baofeng.com
@@ -85,19 +85,17 @@
 0.0.0.0	wa.kuwo.cn
 0.0.0.0	wa.koowo.com
 #酷狗
-0.0.0.0	softstat.kugou.com
 0.0.0.0	links.kugoo.com
 0.0.0.0	mkg.kugou.com
 0.0.0.0	myonline.kugou.com
 0.0.0.0	sdn.kugoo.com
+0.0.0.0	softstat.kugou.com
 #风行
 0.0.0.0	ad.funshion.com
 0.0.0.0	adk.funshion.com
 0.0.0.0	adm.funshion.com
 0.0.0.0	gstat.funshion.com
 0.0.0.0	partner.funshion.com
-
-
 @HostsX 软件广告过滤/验证类
 #ACD Systems
 0.0.0.0	acdupdater.acdsystems.com
@@ -106,17 +104,17 @@
 0.0.0.0	sams.nikonimaging.com
 #Swiftdog
 0.0.0.0	www.swiftdog.com
-#Emurasoft
+#Emurasoft(EmEditor)
 0.0.0.0	www.emurasoft.com
 #XMLSoap
 0.0.0.0	schemas.xmlsoap.org
-#SRS-Store
+#SRS Audio Sandbox
 0.0.0.0	www.srs-store.com
-#Martau
+#Martau(Total Uninstall)
 0.0.0.0	www.martau.com
-#Lonely Cat Games
+#Lonely Cat Games(X-plore)
 82.197.131.24 www.lonelycatgames.com
-#Adobe
+#Adobe 系列软件
 0.0.0.0	3dns-2.adobe.com
 0.0.0.0	3dns-3.adobe.com
 0.0.0.0	activate-sea.adobe.com
@@ -133,24 +131,7 @@
 0.0.0.0	wip3.adobe.com
 0.0.0.0	wwis-dubc1-vip60.adobe.com
 0.0.0.0	www.adobeereg.com
-#Company of Heroes
-0.0.0.0	cohlive-1.quazal.net
-0.0.0.0	cohlive.quazal.net
-0.0.0.0	reliclive-1.quazal.net
-0.0.0.0	reliclive.quazal.net
-#EA Games
-0.0.0.0	mangler1.generals.ea.com
-0.0.0.0	mangler2.generals.ea.com 
-0.0.0.0	mangler3.generals.ea.com 
-0.0.0.0	mangler4.generals.ea.com
-0.0.0.0	mangler5.generals.ea.com
-0.0.0.0	mangler6.generals.ea.com
-0.0.0.0	mangler7.generals.ea.com
-0.0.0.0	mangler8.generals.ea.com
-0.0.0.0	mangler9.generals.ea.com
-0.0.0.0	mangler10.generals.ea.com
-0.0.0.0	servserv.generals.ea.com
-#Internet Download Manager
+#IDM 系列软件
 0.0.0.0	internetdownloadmanager.com
 0.0.0.0	mirror.internetdownloadmanager.com
 0.0.0.0	mirror2.internetdownloadmanager.com
@@ -162,41 +143,42 @@
 0.0.0.0	www.registeridm.com
 0.0.0.0	tonec.com
 0.0.0.0	www.tonec.com
+#游戏 英雄连
+0.0.0.0	cohlive-1.quazal.net
+0.0.0.0	cohlive.quazal.net
+0.0.0.0	reliclive-1.quazal.net
+0.0.0.0	reliclive.quazal.net
+#EA 系列游戏
+0.0.0.0	mangler1.generals.ea.com
+0.0.0.0	mangler2.generals.ea.com 
+0.0.0.0	mangler3.generals.ea.com 
+0.0.0.0	mangler4.generals.ea.com
+0.0.0.0	mangler5.generals.ea.com
+0.0.0.0	mangler6.generals.ea.com
+0.0.0.0	mangler7.generals.ea.com
+0.0.0.0	mangler8.generals.ea.com
+0.0.0.0	mangler9.generals.ea.com
+0.0.0.0	mangler10.generals.ea.com
+0.0.0.0	servserv.generals.ea.com
 @HostsX 软件广告过滤/其他类
-#360 安全卫士
-0.0.0.0	pinst.360.cn
+#奇虎360安全卫士
 0.0.0.0	qd.code.360.cn
 0.0.0.0	rd.360.cn
-0.0.0.0	inst.360safe.com
 0.0.0.0	stat.360safe.com
 0.0.0.0	updatem.360safe.com
 0.0.0.0	x.360safe.com
 0.0.0.0	aimg.qihoo.com
 0.0.0.0	clkstat.qihoo.com
 0.0.0.0	rd.qikoo.com
-0.0.0.0	activate.adobe.com
-0.0.0.0	adobe-dns.adobe.com
-0.0.0.0	ereg.adobe.com
-0.0.0.0	ns.adobe.com
-0.0.0.0	practivate.adobe.com
-0.0.0.0	wip3.adobe.com
-0.0.0.0	www.adobeereg.com
-0.0.0.0	3dns-2.adobe.com
-0.0.0.0	3dns-3.adobe.com
-0.0.0.0	activate-sea.adobe.com
-0.0.0.0	activate-sjc0.adobe.com
-0.0.0.0	adobe-dns-2.adobe.com
-0.0.0.0	adobe-dns-3.adobe.com
-0.0.0.0	wwis-dubc1-vip60.adobe.com
 #超级兔子
-0.0.0.0	info.pcpc8.com
-0.0.0.0	m.pcpc8.com
 0.0.0.0	info.klplayer.com
-0.0.0.0	update.klplayer.com
+0.0.0.0	info.pcpc8.com
 0.0.0.0	info.pctutu.net
 0.0.0.0	link.pctutu.com
+0.0.0.0	m.pcpc8.com
 0.0.0.0	srtj.pctutu.net
 0.0.0.0	tj.pctutu.net
+0.0.0.0	update.klplayer.com
 0.0.0.0	update.pctutu.com
 0.0.0.0	update.pctutu.net
 #搜狗拼音
@@ -228,7 +210,7 @@
 0.0.0.0	crl.microsoft.com
 0.0.0.0	rad.live.com
 0.0.0.0	rad.msn.com
-#QQ
+#腾讯QQ
 0.0.0.0	ad.qq.com
 0.0.0.0	adping.qq.com
 0.0.0.0	adsclick.qq.com
@@ -246,36 +228,36 @@
 0.0.0.0	rich.qq.com
 0.0.0.0	union.qq.com
 0.0.0.0	w.l.qq.com
-#迅雷
+#迅雷系列
+0.0.0.0	advstat.xunlei.com
+0.0.0.0	areainfo.xunlei.com
+0.0.0.0	cl.kankan.xunlei.com
+0.0.0.0	client.stat.xunlei.com
+0.0.0.0	gouwu.vip.xunlei.com
+0.0.0.0	kkpgv.xunlei.com
+0.0.0.0	mediapv.xunlei.com
+0.0.0.0	mtips.xunlei.com
+0.0.0.0	recommend.xunlei.com
+0.0.0.0	res.stat.xunlei.com
+0.0.0.0	stat.xunlei.com
+0.0.0.0	web.stat.xunlei.com
+0.0.0.0	xmlconf.client.xunlei.com
+0.0.0.0	s.gougou.com
+0.0.0.0	un.so.gougou.com
+0.0.0.0	analytics-union.sandai.net
 0.0.0.0	biz4.sandai.net
 0.0.0.0	biz5.sandai.net
 0.0.0.0	biz5c.sandai.net
-0.0.0.0	ub.dphub.sandai.net
-0.0.0.0	mpv.sandai.net
-0.0.0.0	mediapv.xunlei.com
-0.0.0.0	client.stat.xunlei.com
-0.0.0.0	res.stat.xunlei.com
-0.0.0.0	recommend.xunlei.com
-0.0.0.0	xmlconf.client.xunlei.com
-0.0.0.0	advstat.xunlei.com
-0.0.0.0	analytics-union.sandai.net
 0.0.0.0	cknum.sandai.net
-0.0.0.0	gouwu.vip.xunlei.com
-0.0.0.0	s.gougou.com
-0.0.0.0	un.so.gougou.com
-0.0.0.0	web.stat.xunlei.com
-0.0.0.0	areainfo.xunlei.com
-0.0.0.0	cl.kankan.xunlei.com
-0.0.0.0	kkpgv.xunlei.com
-0.0.0.0	mtips.xunlei.com
-0.0.0.0	stat.xunlei.com
 0.0.0.0	float.sandai.net
 0.0.0.0	mcfg.sandai.net
-#Maxthon 傲游
+0.0.0.0	mpv.sandai.net
+0.0.0.0	ub.dphub.sandai.net
+#推广下载系列
+0.0.0.0	inst.360safe.com
+0.0.0.0	pinst.360.cn
 0.0.0.0	statcn-c.maxthon.com
-#瑞星
 0.0.0.0	union.rising.com.cn
-#ZCom
 0.0.0.0	zcomcdl.zcominc.com
 @HostsX 网站广告过滤
 @HostsX 网站广告过滤/IT 电脑类网站
@@ -306,7 +288,7 @@
 0.0.0.0 gg.donews.com
 #Techweb
 0.0.0.0 techweb.adsame.com
-#Yahoo
+#小熊在线
 0.0.0.0 yahoo1.beareyes.com.cn
 #天极网
 0.0.0.0 media.yesky.com
@@ -354,15 +336,19 @@
 0.0.0.0 pv.cheshi.com
 0.0.0.0 fallyesbjafa.allyes.com
 @HostsX 网站广告过滤/游戏类网站
+#7pk小游戏
+0.0.0.0 al.7pk.com
+0.0.0.0 client.7pk.com
+0.0.0.0 imgcache.7pk.com
 #九城
 0.0.0.0 allyes.the9.com
-#Ali213
+#游侠网
 0.0.0.0 bmp.ali213.net
-#Webgame.com.cn
+#叶网游戏
 0.0.0.0 g.webgame.com.cn
-#CDCGames.net
+#CDC游戏
 0.0.0.0 gg.cdcgames.net
-#uuu9.com
+#游久网
 0.0.0.0 stat.uuu9.com
 #多玩
 0.0.0.0 market.duowan.com
@@ -372,7 +358,7 @@
 0.0.0.0 g.tgbus.com
 0.0.0.0 g.tgbusdata.cn
 @HostsX 网站广告过滤/小说类网站
-#17K
+#17K小说
 0.0.0.0 ad.17k.com
 #86661
 0.0.0.0 image.86661.com
@@ -386,13 +372,26 @@
 0.0.0.0 images2.zhulang.com
 0.0.0.0 stbnnr.allyes.com
 @HostsX 网站广告过滤/视频类网站
-#56
-0.0.0.0 acs.56.com
-0.0.0.0 union.56.com
-#6间房
-0.0.0.0 simba.6.cn
-0.0.0.0 pole.6rooms.com
-0.0.0.0 shrek.6.cn
+#优酷
+0.0.0.0 static.atm.youku.com
+0.0.0.0 static.lstat.youku.com
+0.0.0.0 vid.atm.youku.com
+#土豆
+0.0.0.0 adextensioncontrol.tudou.com
+0.0.0.0 adplay.tudou.com
+0.0.0.0 iwstat.tudou.com
+0.0.0.0 stat.tudou.com
+0.0.0.0 stats.tudou.com
+#酷6
+0.0.0.0 analytics.ku6.com
+0.0.0.0 stat1.888.ku6.com
+0.0.0.0 stat2.888.ku6.com
+0.0.0.0 stat3.888.ku6.com
+0.0.0.0 888.cn
+#激动网
+0.0.0.0 86file.megajoy.com
+0.0.0.0 86get.joy.cn
+0.0.0.0 86log.joy.cn
 #iCast
 0.0.0.0 js.icast.cn
 0.0.0.0 kw.ra.icast.cn
@@ -400,13 +399,6 @@
 0.0.0.0 pre.ra.icast.cn
 0.0.0.0 pv.ra.icast.cn
 0.0.0.0 track.ra.icast.cn
-#Joy
-0.0.0.0 86file.megajoy.com
-0.0.0.0 86get.joy.cn
-0.0.0.0 86log.joy.cn
-#UniSky
-0.0.0.0 pics.unionsky.cn
-0.0.0.0 play.unionsky.cn
 #Vodone
 0.0.0.0 autou.vodone.cn
 0.0.0.0 bus.vodone.com
@@ -417,32 +409,23 @@
 0.0.0.0 pic.vodone.com
 0.0.0.0 uflv.vodone.com
 0.0.0.0 v.vodone.com
-#优酷
-0.0.0.0 static.atm.youku.com
-0.0.0.0 static.lstat.youku.com
-0.0.0.0 vid.atm.youku.com
-#MDBChina
-0.0.0.0 uid.mdbchina.com
-#OpenV
+#56
+0.0.0.0 acs.56.com
+0.0.0.0 union.56.com
+#6间房
+0.0.0.0 simba.6.cn
+0.0.0.0 pole.6rooms.com
+0.0.0.0 shrek.6.cn
+#天线视频
 0.0.0.0 uniclick.openv.com
-#Pomoho
+#爆米花网
 0.0.0.0 union.pomoho.com
-#土豆
-0.0.0.0 adextensioncontrol.tudou.com
-0.0.0.0 adplay.tudou.com
-0.0.0.0 iwstat.tudou.com
-0.0.0.0 stat.tudou.com
-0.0.0.0 stats.tudou.com
-0.0.0.0 888.cn
-#波波
+#BOo网影在线
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
 0.0.0.0 union.boodvd.com
-#酷6
-0.0.0.0 analytics.ku6.com
-0.0.0.0 stat1.888.ku6.com
-0.0.0.0 stat2.888.ku6.com
-0.0.0.0 stat3.888.ku6.com
+#中国影视库
+0.0.0.0 uid.mdbchina.com
 @HostsX 网站广告过滤/财经类网站
 #东方财富网
 0.0.0.0 ay.eastmoney.com
@@ -452,12 +435,12 @@
 0.0.0.0 allyes.jrj.com
 #证券之星
 0.0.0.0 allyes.stockstar.com
-#CNFol
+#中金在线
 0.0.0.0 click.cnfol.com
 0.0.0.0 wanmoafa7.allyes.com
 #MACD财经导航
 0.0.0.0 xc.macd.cn
-#和讯
+#和讯财经
 0.0.0.0 analytics.tool.hexun.com
 0.0.0.0 hx.hexun.com
 0.0.0.0 itv.hexun.com
@@ -481,68 +464,6 @@
 0.0.0.0 union.163.com
 0.0.0.0 163.wrating.com
 0.0.0.0 ht.hao120.cc
-#21Cn
-0.0.0.0 analytics.21cn.com
-0.0.0.0 click.21cn.com
-0.0.0.0 market.21cn.com
-0.0.0.0 ranking.21cn.com
-#39健康网
-0.0.0.0 app-g.39.net
-0.0.0.0 dpvc.39.net
-0.0.0.0 dy.39.net
-0.0.0.0 39net.datamaster.com.cn
-#CCTV
-0.0.0.0 a.cctv.com
-0.0.0.0 ad.cctv.com
-0.0.0.0 cctv.adsunion.com
-0.0.0.0 cctv.wrating.com
-0.0.0.0 adguanggao.eee114.com
-#Tom
-0.0.0.0 ad.tom.com
-0.0.0.0 sc.tom.com
-0.0.0.0 tom.allyes.com
-0.0.0.0 tom.wrating.com
-0.0.0.0 xtrack.tomonline-inc.com
-#中华网
-0.0.0.0 dvs.china.com
-0.0.0.0 dvsend.china.com
-#人人
-0.0.0.0 click.jebe.renren.com
-0.0.0.0 cupid.jebe.renren.com
-0.0.0.0 shaft.jebe.renren.com
-0.0.0.0 jebe.renren.com
-0.0.0.0 jebe.xnimg.cn
-#人民网
-0.0.0.0 ads.people.com.cn
-0.0.0.0 pro.people.com.cn
-#凤凰网
-0.0.0.0 sc.ifeng.com
-0.0.0.0 sta.ifeng.com
-#天涯
-0.0.0.0 801.tianya.cn
-0.0.0.0 802.tianya.cn
-0.0.0.0 803.tianya.cn
-0.0.0.0 adview.tianya.cn
-0.0.0.0 advertisement.tianya.cn
-#搜狐
-0.0.0.0 sohusc.allyes.com
-0.0.0.0 adclick.bai.sohu.com
-0.0.0.0 cpc.sohu.com
-0.0.0.0 doc.go.sohu.com
-0.0.0.0 images.sohu.com
-0.0.0.0 partner.search.sohu.com
-0.0.0.0 pv.sohu.com
-0.0.0.0 scalink.sohu.com
-0.0.0.0 suvset.sohu.com
-0.0.0.0 txt.go.sohu.com
-0.0.0.0 imp.ad-plus.cn
-0.0.0.0 sohu.ad-plus.cn
-0.0.0.0 u.ad-plus.cn
-0.0.0.0 sohu.wrating.com
-#新华网
-0.0.0.0 adcenter.xinhuanet.com
-0.0.0.0 embed.xinhuanet.com
-0.0.0.0 entity.xinhuanet.com
 #新浪
 0.0.0.0 49.adsina.allyes.com
 0.0.0.0 adsina.allyes.com
@@ -562,6 +483,12 @@
 0.0.0.0 pfp.sina.com.cn
 0.0.0.0 pfpip.sina.com
 0.0.0.0 sina.wrating.com
+#天涯
+0.0.0.0 801.tianya.cn
+0.0.0.0 802.tianya.cn
+0.0.0.0 803.tianya.cn
+0.0.0.0 adview.tianya.cn
+0.0.0.0 advertisement.tianya.cn
 #猫扑
 0.0.0.0 gg.mop.com
 0.0.0.0 in.dg.mop.com
@@ -575,6 +502,39 @@
 0.0.0.0 tj.itv.mop.com
 0.0.0.0 tj.pet.mop.com
 0.0.0.0 yx.mop.com
+#搜狐
+0.0.0.0 sohusc.allyes.com
+0.0.0.0 adclick.bai.sohu.com
+0.0.0.0 cpc.sohu.com
+0.0.0.0 doc.go.sohu.com
+0.0.0.0 images.sohu.com
+0.0.0.0 partner.search.sohu.com
+0.0.0.0 pv.sohu.com
+0.0.0.0 scalink.sohu.com
+0.0.0.0 suvset.sohu.com
+0.0.0.0 txt.go.sohu.com
+0.0.0.0 imp.ad-plus.cn
+0.0.0.0 sohu.ad-plus.cn
+0.0.0.0 u.ad-plus.cn
+0.0.0.0 sohu.wrating.com
+#Tom
+0.0.0.0 ad.tom.com
+0.0.0.0 sc.tom.com
+0.0.0.0 tom.allyes.com
+0.0.0.0 tom.wrating.com
+0.0.0.0 xtrack.tomonline-inc.com
+#人人
+0.0.0.0 click.jebe.renren.com
+0.0.0.0 cupid.jebe.renren.com
+0.0.0.0 shaft.jebe.renren.com
+0.0.0.0 jebe.renren.com
+0.0.0.0 jebe.xnimg.cn
+#凤凰网
+0.0.0.0 sc.ifeng.com
+0.0.0.0 sta.ifeng.com
+#铁血网
+0.0.0.0 ads.tiexue.net
+0.0.0.0 x.itiexue.net
 #联合早报
 0.0.0.0 ads.zaobao.com
 0.0.0.0 lhzbafp.allyes.com
@@ -585,27 +545,49 @@
 0.0.0.0 ad.xici.net
 0.0.0.0 afpxici.allyes.com
 0.0.0.0 xiciafp.allyes.com
-#铁血
-0.0.0.0 ads.tiexue.net
-0.0.0.0 x.itiexue.net
+#21CN
+0.0.0.0 analytics.21cn.com
+0.0.0.0 click.21cn.com
+0.0.0.0 market.21cn.com
+0.0.0.0 ranking.21cn.com
+#39健康网
+0.0.0.0 app-g.39.net
+0.0.0.0 dpvc.39.net
+0.0.0.0 dy.39.net
+0.0.0.0 39net.datamaster.com.cn
+#CCTV
+0.0.0.0 a.cctv.com
+0.0.0.0 ad.cctv.com
+0.0.0.0 cctv.adsunion.com
+0.0.0.0 cctv.wrating.com
+0.0.0.0 adguanggao.eee114.com
+#人民网
+0.0.0.0 ads.people.com.cn
+0.0.0.0 pro.people.com.cn
+#新华网
+0.0.0.0 adcenter.xinhuanet.com
+0.0.0.0 embed.xinhuanet.com
+0.0.0.0 entity.xinhuanet.com
+#中华网
+0.0.0.0 dvs.china.com
+0.0.0.0 dvsend.china.com
 @HostsX 网站广告过滤/大广告商
 #Doubleclick & Google
 0.0.0.0 ad-apac.doubleclick.net
 0.0.0.0 ad.cn.doubleclick.net
 0.0.0.0 ad.doubleclick.net
+0.0.0.0 afs.googleadservices.com
 0.0.0.0 amn.doubleclick.net
 0.0.0.0 doubleclick.net
 0.0.0.0 ebaycn.doubleclick.net
 0.0.0.0 ebaytw.doubleclick.net
 0.0.0.0 feedads.g.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 afs.googleadservices.com
 0.0.0.0 feedads.googleadservices.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googlesyndication.com
 0.0.0.0 image.j-a-net.jp
 0.0.0.0 imageads.googleadservices.com
+0.0.0.0 m.doubleclick.net
 0.0.0.0 pagead.googlesyndication.com
 0.0.0.0 pagead1.googlesyndication.com
 0.0.0.0 pagead2.googleadservices.com
@@ -620,39 +602,83 @@
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
-#台湾
-0.0.0.0 ad.wretch.cc
-0.0.0.0 admd.yam.com
-0.0.0.0 adsense.scupio.com
-0.0.0.0 gwc.iblinx.com
-0.0.0.0 hwachun.webplus.com.tw
-0.0.0.0 money.scupio.com
-0.0.0.0 mx3.hotrank.com.tw
-0.0.0.0 pic.addeliver.biz
-0.0.0.0 www.iasoho.com
-#国外
-0.0.0.0 ad.media-servers.net
-0.0.0.0 content.media-servers.net
-0.0.0.0 media-servers.net
-0.0.0.0 b1.adbrite.com
-0.0.0.0 click.adbrite.com
-0.0.0.0 files.adbrite.com
-0.0.0.0 www.adbrite.com
-0.0.0.0 mi.adinterax.com
-0.0.0.0 tr.adinterax.com
-0.0.0.0 counter.ixlink.net
-0.0.0.0 textlink.ixlink.net
-0.0.0.0 amch.questionmarket.com
-0.0.0.0 ch.questionmarket.com
-0.0.0.0 static02.linkedin.com
-0.0.0.0 adlog.com.com
-0.0.0.0 marketing.xineurope.com
-0.0.0.0 pub.softonic.cn
-0.0.0.0 s3.buysellads.com
-0.0.0.0 servedby.adsfactor.cn
-0.0.0.0 static.addtoany.com
-0.0.0.0 track.effiliation.asia
-#大陆
+#百度
+0.0.0.0 a.baidu.com
+0.0.0.0 baidutv.baidu.com
+0.0.0.0 bar.baidu.com
+0.0.0.0 c.baidu.com
+0.0.0.0 cjhq.baidu.com
+0.0.0.0 cpro.baidu.com
+0.0.0.0 drmcmm.baidu.com
+0.0.0.0 e.baidu.com
+0.0.0.0 eiv.baidu.com
+0.0.0.0 hc.baidu.com
+0.0.0.0 hm.baidu.com
+0.0.0.0 ma.baidu.com
+0.0.0.0 nsclick.baidu.com
+0.0.0.0 spcode.baidu.com
+0.0.0.0 tk.baidu.com
+0.0.0.0 toolbar.baidu.com
+0.0.0.0 ucstat.baidu.com
+0.0.0.0 union.baidu.com
+0.0.0.0 unstat.baidu.com
+0.0.0.0 utility.baidu.com
+0.0.0.0 utk.baidu.com
+#阿里
+0.0.0.0 a.alimama.cn
+0.0.0.0 bmvip.alimama.cn
+0.0.0.0 cpc.click.alimama.com
+0.0.0.0 gouwu.alimama.com
+0.0.0.0 p.alimama.com
+0.0.0.0 z.alimama.com
+0.0.0.0 adtaobao.allyes.cn
+0.0.0.0 taobaoafp.allyes.cn
+0.0.0.0 taobaoafp.allyes.com
+#雅虎
+0.0.0.0 ads.yimg.com
+0.0.0.0 api.ads.vip.cnh.yahoo.com
+0.0.0.0 cm.p4p.cn.yahoo.com
+0.0.0.0 cn.adserver.yahoo.com
+0.0.0.0 cn.promo.yahoo.com
+0.0.0.0 cn.rd.yahoo.com
+0.0.0.0 new.rd.cn.yahoo.com
+0.0.0.0 union.yahoo.com.cn
+0.0.0.0 yui.yahooapis.com
+#搜狗
+0.0.0.0 a1click.cpc.sogou.com
+0.0.0.0 alpha.brand.sogou.com
+0.0.0.0 images.brand.sogou.com
+0.0.0.0 lk.brand.sogou.com
+0.0.0.0 wb.brand.sogou.com
+0.0.0.0 adsence.sogou.com
+0.0.0.0 cpc.sogou.com
+0.0.0.0 fair.sogou.com
+0.0.0.0 goto.sogou.com
+0.0.0.0 inte.sogou.com
+0.0.0.0 pbd.sogou.com
+0.0.0.0 ping.ie.sogou.com
+0.0.0.0 pv.sogou.com
+0.0.0.0 union.sogou.com
+#好耶广告
+0.0.0.0 allyesshafa.allyes.com
+0.0.0.0 bokee.allyes.com
+0.0.0.0 demoafp.allyes.com
+0.0.0.0 focusbaiduafp.allyes.com
+0.0.0.0 goqoafp6.allyes.com
+0.0.0.0 iplus.allyes.com
+0.0.0.0 mscdn.allyes.cn
+0.0.0.0 mscdn.allyes.com
+0.0.0.0 mso.allyes.com
+0.0.0.0 rayliafp.allyes.cn
+0.0.0.0 smartmedia.allyes.com
+0.0.0.0 smarttrade.allyes.com
+0.0.0.0 smcommon.allyes.com
+0.0.0.0 smcreative.allyes.com
+0.0.0.0 smjs.allyes.com
+0.0.0.0 sroomafp.allyes.com
+0.0.0.0 stbanner.allyes.com
+0.0.0.0 stm.allyes.com
+#大陆地区常用
 0.0.0.0 a.dlqm.net
 0.0.0.0 a4.yeshj.com
 0.0.0.0 action.utops.cc
@@ -698,41 +724,39 @@
 0.0.0.0 www.cbsinteractive.com
 0.0.0.0 www.clicki.cn
 0.0.0.0 www.cxgglm.com
-#好耶
-0.0.0.0 allyesshafa.allyes.com
-0.0.0.0 bokee.allyes.com
-0.0.0.0 demoafp.allyes.com
-0.0.0.0 focusbaiduafp.allyes.com
-0.0.0.0 goqoafp6.allyes.com
-0.0.0.0 iplus.allyes.com
-0.0.0.0 mscdn.allyes.cn
-0.0.0.0 mscdn.allyes.com
-0.0.0.0 mso.allyes.com
-0.0.0.0 rayliafp.allyes.cn
-0.0.0.0 smartmedia.allyes.com
-0.0.0.0 smarttrade.allyes.com
-0.0.0.0 smcommon.allyes.com
-0.0.0.0 smcreative.allyes.com
-0.0.0.0 smjs.allyes.com
-0.0.0.0 sroomafp.allyes.com
-0.0.0.0 stbanner.allyes.com
-0.0.0.0 stm.allyes.com
-#搜狗
-0.0.0.0 a1click.cpc.sogou.com
-0.0.0.0 alpha.brand.sogou.com
-0.0.0.0 images.brand.sogou.com
-0.0.0.0 lk.brand.sogou.com
-0.0.0.0 wb.brand.sogou.com
-0.0.0.0 adsence.sogou.com
-0.0.0.0 cpc.sogou.com
-0.0.0.0 fair.sogou.com
-0.0.0.0 goto.sogou.com
-0.0.0.0 inte.sogou.com
-0.0.0.0 pbd.sogou.com
-0.0.0.0 ping.ie.sogou.com
-0.0.0.0 pv.sogou.com
-0.0.0.0 union.sogou.com
-#混合测试
+#台湾地区常用
+0.0.0.0 ad.wretch.cc
+0.0.0.0 admd.yam.com
+0.0.0.0 adsense.scupio.com
+0.0.0.0 gwc.iblinx.com
+0.0.0.0 hwachun.webplus.com.tw
+0.0.0.0 money.scupio.com
+0.0.0.0 mx3.hotrank.com.tw
+0.0.0.0 pic.addeliver.biz
+0.0.0.0 www.iasoho.com
+#国外地区常用
+0.0.0.0 ad.media-servers.net
+0.0.0.0 content.media-servers.net
+0.0.0.0 media-servers.net
+0.0.0.0 b1.adbrite.com
+0.0.0.0 click.adbrite.com
+0.0.0.0 files.adbrite.com
+0.0.0.0 www.adbrite.com
+0.0.0.0 mi.adinterax.com
+0.0.0.0 tr.adinterax.com
+0.0.0.0 counter.ixlink.net
+0.0.0.0 textlink.ixlink.net
+0.0.0.0 amch.questionmarket.com
+0.0.0.0 ch.questionmarket.com
+0.0.0.0 static02.linkedin.com
+0.0.0.0 adlog.com.com
+0.0.0.0 marketing.xineurope.com
+0.0.0.0 pub.softonic.cn
+0.0.0.0 s3.buysellads.com
+0.0.0.0 servedby.adsfactor.cn
+0.0.0.0 static.addtoany.com
+0.0.0.0 track.effiliation.asia
+#Misc&Test
 0.0.0.0 ad.16wan.com
 0.0.0.0 c.91wan.com
 0.0.0.0 doc.70yx.com
@@ -748,67 +772,20 @@
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.p.cn
 0.0.0.0 asiafind1.com
-#百度
-0.0.0.0 a.baidu.com
-0.0.0.0 baidutv.baidu.com
-0.0.0.0 bar.baidu.com
-0.0.0.0 c.baidu.com
-0.0.0.0 cjhq.baidu.com
-0.0.0.0 cpro.baidu.com
-0.0.0.0 drmcmm.baidu.com
-0.0.0.0 e.baidu.com
-0.0.0.0 eiv.baidu.com
-0.0.0.0 hc.baidu.com
-0.0.0.0 hm.baidu.com
-0.0.0.0 ma.baidu.com
-0.0.0.0 nsclick.baidu.com
-0.0.0.0 spcode.baidu.com
-0.0.0.0 tk.baidu.com
-0.0.0.0 toolbar.baidu.com
-0.0.0.0 ucstat.baidu.com
-0.0.0.0 union.baidu.com
-0.0.0.0 unstat.baidu.com
-0.0.0.0 utility.baidu.com
-0.0.0.0 utk.baidu.com
-#阿里
-0.0.0.0 a.alimama.cn
-0.0.0.0 bmvip.alimama.cn
-0.0.0.0 cpc.click.alimama.com
-0.0.0.0 gouwu.alimama.com
-0.0.0.0 p.alimama.com
-0.0.0.0 z.alimama.com
-0.0.0.0 adtaobao.allyes.cn
-0.0.0.0 taobaoafp.allyes.cn
-0.0.0.0 taobaoafp.allyes.com
-#雅虎
-0.0.0.0 ads.yimg.com
-0.0.0.0 api.ads.vip.cnh.yahoo.com
-0.0.0.0 cm.p4p.cn.yahoo.com
-0.0.0.0 cn.adserver.yahoo.com
-0.0.0.0 cn.promo.yahoo.com
-0.0.0.0 cn.rd.yahoo.com
-0.0.0.0 new.rd.cn.yahoo.com
-0.0.0.0 union.yahoo.com.cn
-0.0.0.0 yui.yahooapis.com
 @HostsX 网站广告过滤/常用广告联盟
-#1133
-0.0.0.0 code36.1133.cc
-0.0.0.0 images1.1133.cc
-0.0.0.0 img7.1133.cc
-0.0.0.0 z.1133.cc
 #265
 0.0.0.0 link.265.com
 0.0.0.0 un.265.com
 #37cs
 0.0.0.0 c.37cs.com
 0.0.0.0 code.37cs.com
-#51la
+#51la统计
 0.0.0.0 img4.user.55.la
 0.0.0.0 js.users.51.la
 0.0.0.0 vip.51.la
 0.0.0.0 web.51.la
 0.0.0.0 www.51.la
-#51yes
+#51yes统计
 0.0.0.0 count.51yes.com
 0.0.0.0 count17.51yes.com
 0.0.0.0 count28.51yes.com
@@ -819,10 +796,13 @@
 0.0.0.0 count42.51yes.com
 0.0.0.0 count43.51yes.com
 0.0.0.0 count7.51yes.com
-#7pk
-0.0.0.0 al.7pk.com
-0.0.0.0 client.7pk.com
-0.0.0.0 imgcache.7pk.com
+#尼尔森统计
+0.0.0.0 secure-cn.imrworldwide.com
+0.0.0.0 secure-sg.imrworldwide.com
+#量子统计
+0.0.0.0 dt.tongji.linezing.com
+0.0.0.0 js.tongji.linezing.com
+0.0.0.0 tongji.linezing.com
 #99click
 0.0.0.0 573.oadz.com
 0.0.0.0 a.oadz.com
@@ -836,26 +816,13 @@
 0.0.0.0 afp.adpolestar.net
 0.0.0.0 gfyoyo.adpolestar.net
 0.0.0.0 server1.adpolestar.net
-#adpower
+#ADPower
 0.0.0.0 db1.adpower.cn
 0.0.0.0 p.adpower.cn
-#all4ad
+#All4ad
 0.0.0.0 jump.all4ad.cn
 0.0.0.0 nad1.all4ad.cn
-#chanet
-0.0.0.0 count.chanet.com.cn
-0.0.0.0 file.chanet.com.cn
-#clickeye
-0.0.0.0 cactus.clickeye.com.cn
-0.0.0.0 free.clickeye.com.cn
-0.0.0.0 images.clickeye.com.cn
-0.0.0.0 main.clickeye.com.cn
-0.0.0.0 web.clickeye.cn
-#cnxad
-0.0.0.0 c.cnxad.com
-0.0.0.0 g.cnxad.com
-0.0.0.0 js.cnxad.com
-#cnzz
+#CNZZ
 0.0.0.0 a166.cnzz.com
 0.0.0.0 b159.cnzz.com
 0.0.0.0 b175.cnzz.com
@@ -869,40 +836,54 @@
 0.0.0.0 icon.cnzz.com
 0.0.0.0 w.cnzz.com
 0.0.0.0 www.cnzz.com
-#heima8
+#成果网
+0.0.0.0 count.chanet.com.cn
+0.0.0.0 file.chanet.com.cn
+#点睛
+0.0.0.0 cactus.clickeye.com.cn
+0.0.0.0 free.clickeye.com.cn
+0.0.0.0 images.clickeye.com.cn
+0.0.0.0 main.clickeye.com.cn
+0.0.0.0 web.clickeye.cn
+#多来米
+0.0.0.0 al.myrice.com
+0.0.0.0 all.myrice.com
+0.0.0.0 client.myrice.com
+#黑马联盟
 0.0.0.0 c.heima8.com
 0.0.0.0 u.heima8.com
 0.0.0.0 www.heima8.com
-#imrworldwide
-0.0.0.0 secure-cn.imrworldwide.com
-0.0.0.0 secure-sg.imrworldwide.com
-#keduo
+#可多商机
 0.0.0.0 images.keduo.cc
 0.0.0.0 qy.keduo.cc
 0.0.0.0 www.keduo.cc
-#keyrun
+#极限广告
+0.0.0.0 c.cnxad.com
+0.0.0.0 g.cnxad.com
+0.0.0.0 js.cnxad.com
+#麒润广告
 0.0.0.0 a.keyrun.com
 0.0.0.0 pic0.keyrun.com
 0.0.0.0 pic1.keyrun.com
 0.0.0.0 pic2.keyrun.com
 0.0.0.0 pp.keyrun.com
 0.0.0.0 www1.keyrun.com
-#linezing
-0.0.0.0 dt.tongji.linezing.com
-0.0.0.0 js.tongji.linezing.com
-0.0.0.0 tongji.linezing.com
-#myrice
-0.0.0.0 al.myrice.com
-0.0.0.0 all.myrice.com
-0.0.0.0 client.myrice.com
-#wrating
+#弈天广告
+0.0.0.0 pics.unionsky.cn
+0.0.0.0 play.unionsky.cn
+#万瑞数据
 0.0.0.0 c.wrating.com
 0.0.0.0 tongji.wrating.com
 0.0.0.0 www.wrating.com
-#zdy
+#宣传易
+0.0.0.0 code36.1133.cc
+0.0.0.0 images1.1133.cc
+0.0.0.0 img7.1133.cc
+0.0.0.0 z.1133.cc
+#做第一传媒
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
-#其他常用
+#网络&软件常用
 0.0.0.0 adrs.sdo.com
 0.0.0.0 adsresult.joywell.com.cn
 0.0.0.0 bs.serving-sys.com
