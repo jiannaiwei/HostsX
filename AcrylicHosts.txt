@@ -1,12 +1,3 @@
-
-127.1 local
-127.0.0.1 localhost
-127.0.0.1 localhost.localdomain
-127.0.0.1 lh
-127.0.0.1 *.lh
-74.125.19.102 chrome.google.com
-74.125.53.141 *.appspot.com
-
 #常用通配符过滤
 0.0.0.0 *click.*
 0.0.0.0 ad*.*
