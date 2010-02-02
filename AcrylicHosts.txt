@@ -26,7 +26,7 @@
 0.0.0.0 recommend.*
 0.0.0.0 redirect.*
 0.0.0.0 sc.*
-0.0.0.0 sta*.* static.tianya.cn,static.rayfile.com,
+0.0.0.0 sta*.* static.tianya.cn,static.rayfile.com
 0.0.0.0 *stat.*
 0.0.0.0 tongji.*
 0.0.0.0 u.*
