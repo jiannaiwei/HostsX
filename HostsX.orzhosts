@@ -1,5 +1,5 @@
-;version=201001302352
-;author=Vokins [郭]
+;version=201002021032
+;author=Jock Kwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
@@ -104,15 +104,15 @@
 0.0.0.0	sams.nikonimaging.com
 #Swiftdog
 0.0.0.0	www.swiftdog.com
-#Emurasoft(EmEditor)
+#Emurasoft（EmEditor）
 0.0.0.0	www.emurasoft.com
 #XMLSoap
 0.0.0.0	schemas.xmlsoap.org
 #SRS Audio Sandbox
 0.0.0.0	www.srs-store.com
-#Martau(Total Uninstall)
+#Martau（Total Uninstall）
 0.0.0.0	www.martau.com
-#Lonely Cat Games(X-plore)
+#Lonely Cat Games（X-plore）
 82.197.131.24 www.lonelycatgames.com
 #Adobe 系列软件
 0.0.0.0	3dns-2.adobe.com
@@ -204,7 +204,7 @@
 0.0.0.0	gift.neoimaging.cn
 0.0.0.0	jump.neoimaging.cn
 0.0.0.0	recommend.neoimaging.cn
-#MSN(WLM)
+#MSN（WLM）
 0.0.0.0	msn.allyes.com
 0.0.0.0	ads1.msn.com
 0.0.0.0	crl.microsoft.com
