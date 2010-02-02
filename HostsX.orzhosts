@@ -1,5 +1,5 @@
-;version=201002021736
-;author=JocKwok
+;version=201002022023
+;author=Jock Kwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
@@ -101,9 +101,9 @@
 0.0.0.0	acdupdater.acdsystems.com
 0.0.0.0	soapintouch.acdnet.com
 #Emurasoft（EmEditor）
+0.0.0.0	www.emurasoft.com
 #LonelyCat（X-plore）
 82.197.131.24 www.lonelycatgames.com
-0.0.0.0	www.emurasoft.com
 #Martau（Total Uninstall）
 0.0.0.0	www.martau.com
 #Nikon Imaging
