@@ -1,3 +1,6 @@
+127.0.0.1       localhost
+127.0.0.1       lh
+127.0.0.1       *.lh
 #常用通配符过滤
 0.0.0.0 *click.*
 0.0.0.0 ad*.*
@@ -8,7 +11,7 @@
 0.0.0.0 count*.*
 0.0.0.0 cpc.*
 0.0.0.0 g.*
-0.0.0.0 gg.* gg.a.5d6d.com,
+0.0.0.0 gg.* gg.a.5d6d.com
 0.0.0.0 goto.*
 0.0.0.0 inst.*
 0.0.0.0 inte.*
@@ -26,8 +29,8 @@
 0.0.0.0 recommend.*
 0.0.0.0 redirect.*
 0.0.0.0 sc.*
-0.0.0.0 sta*.* static.tianya.cn,static.rayfile.com
-0.0.0.0 *stat.*
+0.0.0.0 sta*.* static.tianya.cn,static.rayfile.com,status.renren.com
+0.0.0.0 *stat.* istat.tudou.com
 0.0.0.0 tongji.*
 0.0.0.0 u.*
 0.0.0.0 union.*
@@ -403,6 +406,4 @@
 127.1 schemas.xmlsoap.org
 127.1 www.srs-store.com
 127.1 www.martau.com
-82.197.131.24 www.lonelycatgames.com
-
 ****************************Soft The End******************************
