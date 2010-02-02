@@ -29,7 +29,7 @@
 0.0.0.0 sta*.* static.tianya.cn,static.rayfile.com,status.renren.com,statics.verycd.com
 0.0.0.0 *stat.* istat.tudou.com
 0.0.0.0 tongji.*
-0.0.0.0 u.*
+0.0.0.0 u.* u.115.com
 0.0.0.0 union.*
 0.0.0.0 x.*
 
