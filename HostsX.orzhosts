@@ -1,4 +1,4 @@
-;version=201002021032
+;version=201002021629
 ;author=Jock Kwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -745,6 +745,7 @@
 0.0.0.0 union.51ditu.com
 0.0.0.0 union.88go.cc
 0.0.0.0 union.dangdang.com
+0.0.0.0 union.360buy.com
 0.0.0.0 union.the999.com
 0.0.0.0 union.uume.com
 0.0.0.0 union.vancl.com
@@ -854,6 +855,7 @@
 0.0.0.0 db1.adpower.cn
 0.0.0.0 p.adpower.cn
 #All4ad
+0.0.0.0 go.all4ad.cn
 0.0.0.0 jump.all4ad.cn
 0.0.0.0 nad1.all4ad.cn
 #CNZZ
