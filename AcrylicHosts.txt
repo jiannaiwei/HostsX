@@ -8,7 +8,7 @@
 0.0.0.0 count*.*
 0.0.0.0 cpc.*
 0.0.0.0 g.*
-0.0.0.0 gg.*
+0.0.0.0 gg.* gg.a.5d6d.com,
 0.0.0.0 goto.*
 0.0.0.0 inst.*
 0.0.0.0 inte.*
@@ -26,8 +26,7 @@
 0.0.0.0 recommend.*
 0.0.0.0 redirect.*
 0.0.0.0 sc.*
-0.0.0.0 sta.*
-0.0.0.0 stat.*
+0.0.0.0 sta*.* static.tianya.cn,static.rayfile.com,
 0.0.0.0 *stat.*
 0.0.0.0 tongji.*
 0.0.0.0 u.*
@@ -260,7 +259,6 @@
 0.0.0.0 *.effiliation.asia
 ! Misc&test
 0.0.0.0 img.8977.com
-0.0.0.0 static.u966.com
 0.0.0.0 u.30so.com
 0.0.0.0 u.7town.com
 0.0.0.0 u4.778669.com
@@ -386,8 +384,7 @@
 127.1 3dns*.adobe.com
 127.1 activate*.adobe.com
 127.1 adobe-dns*.adobe.com
-127.1 ereg.adobe.com
-127.1 ereg.wip3.adobe.com
+127.1 ereg*.adobe.com
 127.1 ns.adobe.com
 127.1 practivate.adobe.com
 127.1 wip3.adobe.com
