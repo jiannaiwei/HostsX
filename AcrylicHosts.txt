@@ -26,6 +26,7 @@
 0.0.0.0 recommend.*
 0.0.0.0 redirect.*
 0.0.0.0 sc.*
+0.0.0.0 stat.*
 0.0.0.0 *stat.* istat.tudou.com
 0.0.0.0 tongji.*
 0.0.0.0 u.* u.115.com
