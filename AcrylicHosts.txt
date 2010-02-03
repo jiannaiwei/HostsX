@@ -1,5 +1,5 @@
 #常用通配符过滤
-0.0.0.0 *click.*
+0.0.0.0 *click.* click.simba.taobao.com
 0.0.0.0 ad*.*
 0.0.0.0 allyes.*
 0.0.0.0 analytics-union.*
