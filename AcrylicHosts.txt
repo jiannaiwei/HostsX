@@ -2,8 +2,7 @@
 0.0.0.0 *click.* click.simba.taobao.com
 0.0.0.0 ad*.*
 0.0.0.0 allyes.*
-0.0.0.0 analytics-union.*
-0.0.0.0 analytics.*
+0.0.0.0 analytic*.*
 0.0.0.0 clkstat.*
 0.0.0.0 count*.*
 0.0.0.0 cpc.*
@@ -35,6 +34,7 @@
 
 #常用广告联盟
 0.0.0.0 *.0252.com
+0.0.0.0 *.100fenlm.cn
 0.0.0.0 *.1133.cc
 0.0.0.0 *.37cs.com
 0.0.0.0 *.51.la
@@ -83,7 +83,6 @@
 0.0.0.0 *.zdy.cc
 0.0.0.0 *jebe.renren.com
 0.0.0.0 *ra.icast.cn
-0.0.0.0 *wan.com
 0.0.0.0 acs.*.com 
 0.0.0.0 dvs*.china.com
 0.0.0.0 activate.*.com
@@ -199,21 +198,15 @@
 0.0.0.0 *.urchin.com
 #! Baidu
 0.0.0.0 a.baidu.com
-0.0.0.0 baidutv.baidu.com
-0.0.0.0 bar.baidu.com
-0.0.0.0 c.baidu.com
-0.0.0.0 cjhq.baidu.com
-0.0.0.0 cpro.baidu.com
+0.0.0.0 ba*.baidu.com
+0.0.0.0 c*.baidu.com
 0.0.0.0 drmcmm.baidu.com
-0.0.0.0 e.baidu.com
-0.0.0.0 eiv.baidu.com
-0.0.0.0 hc.baidu.com
-0.0.0.0 hm.baidu.com
+0.0.0.0 e*.baidu.com
+0.0.0.0 h*.baidu.com
 0.0.0.0 ma.baidu.com
 0.0.0.0 nsclick.baidu.com
 0.0.0.0 spcode.baidu.com
-0.0.0.0 tk.baidu.com
-0.0.0.0 toolbar.baidu.com
+0.0.0.0 t*.baidu.com
 0.0.0.0 ut*.baidu.com
 #! Sogou
 0.0.0.0 *cpc.sogou.com
@@ -264,8 +257,8 @@
 0.0.0.0 u4.778669.com
 0.0.0.0 u493025.778669.com
 0.0.0.0 www.leeuu.net
-0.0.0.0 www.p.cn
-0.0.0.0 asiafind1.com
+0.0.0.0 *.p.cn
+0.0.0.0 asiaf*d.com
 #*****************************Web The End******************************
 
 # MediaPlayer
@@ -303,21 +296,16 @@
 0.0.0.0 sdn.kugoo.com
 #! TTplayer
 0.0.0.0 p2plog.qianqian.com
-0.0.0.0 ttmsg.qianqian.com
-0.0.0.0 ttpack.qianqian.com
-0.0.0.0 ttplayer.qianqian.com
+0.0.0.0 tt*.qianqian.com
 #! Vagaa
 0.0.0.0 btjoy.com
 0.0.0.0 img.daodao001.cn
 0.0.0.0 text.mplayer.org.cn
 #! Win Media Player
-0.0.0.0 64.235.53.203
-0.0.0.0 itv.ifeng.com
 0.0.0.0 locator.metadata.windowsmedia.com
-0.0.0.0 metaservices.microsoft.com
+0.0.0.0 *metaservices.microsoft.com
 0.0.0.0 music.poptang.com
 0.0.0.0 onlinestore.smgbb.cn
-0.0.0.0 onlinestores.metaservices.microsoft.com
 0.0.0.0 tienda.farolatino.com
 0.0.0.0 wmp.bjxrtc.com.cn
 0.0.0.0 wmp.phoenixtv.com
@@ -335,7 +323,7 @@
 0.0.0.0 kkpgv.xunlei.com
 #! QQ
 0.0.0.0 ad*.qq.com
-0.0.0.0 *.l.qq.com
+0.0.0.0 *l.qq.com
 0.0.0.0 ping*.qq.com
 #! MSN
 0.0.0.0 crl.microsoft.com
@@ -357,23 +345,16 @@
 0.0.0.0 dll.flashget.com
 0.0.0.0 fetch.flashget.com
 #! PcTuTu
-0.0.0.0 info.pcpc8.com
-0.0.0.0 m.pcpc8.com
-0.0.0.0 info.klplayer.com
-0.0.0.0 update.klplayer.com
-0.0.0.0 info.pctutu.net
-0.0.0.0 link.pctutu.com
-0.0.0.0 srtj.pctutu.net
-0.0.0.0 tj.pctutu.net
-0.0.0.0 update.pctutu.com
-0.0.0.0 update.pctutu.net
+0.0.0.0 *.pcpc8.com
+0.0.0.0 *.klplayer.com
+0.0.0.0 *.pctutu.*
 #! 360
 0.0.0.0 *inst.360.cn
 0.0.0.0 qd.code.360.cn
 0.0.0.0 updatem.360safe.com
 0.0.0.0 aimg.qihoo.com
 #! OtherSoft
-0.0.0.0 statcn-c.maxthon.com
+0.0.0.0 statcn-*.maxthon.com
 0.0.0.0 union.rising.com.cn
 0.0.0.0 zcomcdl.zcominc.com
 # Reg
@@ -398,8 +379,8 @@
 127.1 acdupdater.acdsystems.com
 127.1 soapintouch.acdnet.com
 127.1 sams.nikonimaging.com
-127.1 www.swiftdog.com
-127.1 www.emurasoft.com
+127.1 *.swiftdog.com
+127.1 *.emurasoft.com
 127.1 schemas.xmlsoap.org
 127.1 www.srs-store.com
 127.1 www.martau.com
