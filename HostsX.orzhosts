@@ -1,5 +1,5 @@
-;version=201002041330
-;author=Jock Kwok
+;version=201002042046
+;author=JocKwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
@@ -162,14 +162,15 @@
 0.0.0.0	servserv.generals.ea.com
 @HostsX 软件广告过滤/其他类
 #奇虎360
-0.0.0.0	qd.code.360.cn
+0.0.0.0	aimg.qihoo.com
+0.0.0.0	clkstat.qihoo.com
+0.0.0.0	inst.360safe.com
+0.0.0.0	pinst.360.cn60.cn
 0.0.0.0	rd.360.cn
+0.0.0.0	rd.qikoo.com
 0.0.0.0	stat.360safe.com
 0.0.0.0	updatem.360safe.com
 0.0.0.0	x.360safe.com
-0.0.0.0	aimg.qihoo.com
-0.0.0.0	clkstat.qihoo.com
-0.0.0.0	rd.qikoo.com
 #超级兔子系列
 0.0.0.0	info.klplayer.com
 0.0.0.0	update.klplayer.com
@@ -245,10 +246,10 @@
 0.0.0.0 stat.xunlei.com
 0.0.0.0 web.stat.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
-#推广下载系列
-0.0.0.0	inst.360safe.com
-0.0.0.0	pinst.360.cn
+#Maxthon
+0.0.0.0 stat-w.maxthon.com
 0.0.0.0	statcn-c.maxthon.com
+#推广下载系列
 0.0.0.0	union.rising.com.cn
 0.0.0.0	zcomcdl.zcominc.com
 @HostsX 网站广告过滤
@@ -375,6 +376,7 @@
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
 0.0.0.0 iwstat.tudou.com
+0.0.0.0 nstat.tudou.com
 0.0.0.0 stat.tudou.com
 0.0.0.0 stats.tudou.com
 0.0.0.0 888.cn
@@ -794,20 +796,21 @@
 0.0.0.0 track.effiliation.asia
 #Misc & Test
 0.0.0.0 ad.16wan.com
+0.0.0.0 asiafind1.com
 0.0.0.0 c.91wan.com
 0.0.0.0 doc.70yx.com
-0.0.0.0 tg.70yx.com
 0.0.0.0 img.8977.com
 0.0.0.0 static.u966.com
 0.0.0.0 tao.37wan.com
+0.0.0.0 tg.70yx.com
 0.0.0.0 u.30so.com
 0.0.0.0 u.56wan.com
 0.0.0.0 u.7town.com
 0.0.0.0 u4.778669.com
 0.0.0.0 u493025.778669.com
+0.0.0.0 unigg.kunlun.com
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.p.cn
-0.0.0.0 asiafind1.com
 @HostsX 网站广告过滤/常用广告联盟
 #265
 0.0.0.0 link.265.com
@@ -870,14 +873,16 @@
 0.0.0.0 b177.cnzz.com
 0.0.0.0 b65.cnzz.com
 0.0.0.0 b66.cnzz.com
+0.0.0.0 b68.cnzz.com
 0.0.0.0 b80.cnzz.com
 0.0.0.0 icon.cnzz.com
 0.0.0.0 qs1.cnzz.com
 0.0.0.0 s108.cnzz.com
 0.0.0.0 s15.cnzz.com
-0.0.0.0 s19.cnzz.com
 0.0.0.0 s175.cnzz.com
+0.0.0.0 s19.cnzz.com
 0.0.0.0 s33.cnzz.com
+0.0.0.0 v3.cnzz.com
 0.0.0.0 w.cnzz.com
 0.0.0.0 www.cnzz.com
 #成果网
@@ -901,6 +906,8 @@
 0.0.0.0 images.keduo.cc
 0.0.0.0 qy.keduo.cc
 0.0.0.0 www.keduo.cc
+#百分百广告
+0.0.0.0 engine.100fenlm.cn
 #极限广告
 0.0.0.0 c.cnxad.com
 0.0.0.0 g.cnxad.com
