@@ -1,4 +1,4 @@
-;version=201002042046
+;version=201002042102
 ;author=JocKwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -610,6 +610,31 @@
 #中华网
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
+@HostsX 网站广告过滤/流氓类网站
+#电信劫持
+0.0.0.0 114.allyes.com
+0.0.0.0 114.com.cn
+0.0.0.0 partner.114.com.cn
+0.0.0.0 union.114.com.cn
+0.0.0.0 114search.118114.cn
+0.0.0.0 118114.cn
+0.0.0.0 so.118114.cn
+0.0.0.0 dianxin.cn
+0.0.0.0 dianxin.com
+0.0.0.0 www.dianxin.cn
+0.0.0.0 ads.iisdoor.com
+#联通劫持
+0.0.0.0 sddns1.cncmax.cn
+0.0.0.0 sddns2.cncmax.cn
+0.0.0.0 sddns5.cncmax.cn
+0.0.0.0 sddns7.cncmax.cn
+0.0.0.0 uninewspace.allyes.com
+#亚洲交友
+0.0.0.0 asiafind1.com
+0.0.0.0 asiafriendfinder.com
+#多特
+0.0.0.0 www.duote.com
+0.0.0.0 img.duote.com
 @HostsX 网站广告过滤/大广告商
 #Google（Doubleclick）
 0.0.0.0 ad-apac.doubleclick.net
@@ -796,7 +821,6 @@
 0.0.0.0 track.effiliation.asia
 #Misc & Test
 0.0.0.0 ad.16wan.com
-0.0.0.0 asiafind1.com
 0.0.0.0 c.91wan.com
 0.0.0.0 doc.70yx.com
 0.0.0.0 img.8977.com
