@@ -1,4 +1,4 @@
-;version=201002022023
+;version=201002041330
 ;author=Jock Kwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -517,8 +517,10 @@
 0.0.0.0 801.tianya.cn
 0.0.0.0 802.tianya.cn
 0.0.0.0 803.tianya.cn
+0.0.0.0 806.tianya.cn
 0.0.0.0 adview.tianya.cn
 0.0.0.0 advertisement.tianya.cn
+0.0.0.0 stat.tianya.cn
 #猫扑
 0.0.0.0 gg.mop.com
 0.0.0.0 in.dg.mop.com
