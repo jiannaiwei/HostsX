@@ -1,4 +1,4 @@
-;version=201002050825
+;version=201002051630
 ;author=JocKwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -826,6 +826,7 @@
 0.0.0.0 cpc.haowzz.com.cn
 0.0.0.0 doc.70yx.com
 0.0.0.0 img.8977.com
+0.0.0.0 search.ok365.com
 0.0.0.0 static.u966.com
 0.0.0.0 tao.37wan.com
 0.0.0.0 tg.70yx.com
