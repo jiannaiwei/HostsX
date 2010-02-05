@@ -1,6 +1,6 @@
 ***************************************
 ∂Ò“‚Õ¯’æ µ—È “(MWSL)
-∂Ò“‚Õ¯’æHOSTS∆¡±ŒŒƒº˛-2010.1.18
+∂Ò“‚Õ¯’æHOSTS∆¡±ŒŒƒº˛-2010.2.1
 www.mwsl.org.cn
 All Rights Reserved 2007-2010
 ***************************************
@@ -14,6 +14,7 @@ All Rights Reserved 2007-2010
 127.1 001.bbexe.cn
 127.1 0012.ff-freehosting.com
 127.1 001dh.com
+127.1 001fans.com
 127.1 00333.cn
 127.1 005.70o2.cn
 127.1 006001.com
@@ -437,6 +438,7 @@ All Rights Reserved 2007-2010
 127.1 111.ksetu.cn
 127.1 111.mmnnps.cn
 127.1 111.pvs007.cn
+127.1 111.qa222.8866.org
 127.1 111.sdfsdg.3322.org
 127.1 111.xxoozjz.com
 127.1 1111.845845.cn
@@ -705,6 +707,7 @@ All Rights Reserved 2007-2010
 127.1 180cpw.cn
 127.1 1817555.cn
 127.1 18237.800z.net
+127.1 1859yhu.qa111.8866.org
 127.1 188.gck6.cn
 127.1 188218.com
 127.1 188718.com
@@ -946,6 +949,7 @@ All Rights Reserved 2007-2010
 127.1 2009t.8qbe.cn
 127.1 2009v8.cn
 127.1 2009viv.cn
+127.1 2010.zdfdgf.3322.org
 127.1 201001.8866.org
 127.1 201001.9966.org
 127.1 2010down.cn
@@ -1379,6 +1383,7 @@ All Rights Reserved 2007-2010
 127.1 360.xl.cx
 127.1 360.zik.dj
 127.1 360avva.akvvv.cn
+127.1 360caonima01.3322.org
 127.1 360ccccc.se0.3322.org
 127.1 360cn.com.risinimenma360.9966.org
 127.1 360cn.se0.3322.org
@@ -1586,6 +1591,7 @@ All Rights Reserved 2007-2010
 127.1 436032.cn
 127.1 4399.4399kk.cn
 127.1 43bobo.com
+127.1 43iii.2288.org
 127.1 44.44box.com
 127.1 441pp.net
 127.1 444.123120.net
@@ -1840,6 +1846,7 @@ All Rights Reserved 2007-2010
 127.1 544888.com
 127.1 549885.3322.org
 127.1 54dj3.cn
+127.1 54g.qa222.8866.org
 127.1 54s.com
 127.1 54sese.com
 127.1 55.sewo.9966.org
@@ -1856,6 +1863,7 @@ All Rights Reserved 2007-2010
 127.1 555-search.info
 127.1 555.1480et258.com
 127.1 555.97sese.com
+127.1 555.afsdff.3322.org
 127.1 555.caojj.com
 127.1 555.hfdy1515.net
 127.1 555129.com
@@ -2068,6 +2076,7 @@ All Rights Reserved 2007-2010
 127.1 65gd.cn
 127.1 65uttt.cn
 127.1 66.66666123.net
+127.1 66.qq99.in
 127.1 66.sewo.9966.org
 127.1 6600.cc
 127.1 6610.net
@@ -2196,6 +2205,7 @@ All Rights Reserved 2007-2010
 127.1 70968.com
 127.1 70987.com
 127.1 70data.cn
+127.1 70kxw.com
 127.1 70sss.com
 127.1 710wyt.com
 127.1 711pp.com
@@ -2774,6 +2784,7 @@ All Rights Reserved 2007-2010
 127.1 97sese.com
 127.1 97sese.suduhao.cn
 127.1 97sese.xxxtt.org
+127.1 97sexsexbaidu.info
 127.1 97smm.3322.org
 127.1 97sos.com
 127.1 97ssl.cn
@@ -2908,6 +2919,7 @@ All Rights Reserved 2007-2010
 127.1 a.07ss.com
 127.1 a.08kao.com
 127.1 a.111mi.com
+127.1 a.11didi.com
 127.1 a.11ri.com
 127.1 a.11sss.com
 127.1 a.11xxoo.com
@@ -3024,6 +3036,7 @@ All Rights Reserved 2007-2010
 127.1 a.dazaza.cn
 127.1 a.dieoa.net
 127.1 a.dingxiang.biz
+127.1 a.dlzyjx.com
 127.1 a.dyxxdy.cn
 127.1 a.f5nn.com
 127.1 a.f6nn.com
@@ -3058,6 +3071,7 @@ All Rights Reserved 2007-2010
 127.1 a.qs512.com
 127.1 a.qsemm.com
 127.1 a.qsesky.com
+127.1 a.release.51edm.net
 127.1 a.rtbn2.cn
 127.1 a.s102-cnzz.com
 127.1 a.saomm.us
@@ -3076,6 +3090,7 @@ All Rights Reserved 2007-2010
 127.1 a.tribalfusion.com
 127.1 a.tuxiao77.info
 127.1 a.ugu123.com
+127.1 a.update.51edm.net
 127.1 a.uuzhijia.info
 127.1 a.wacsy.com
 127.1 a.woaigan.com
@@ -3122,6 +3137,7 @@ All Rights Reserved 2007-2010
 127.1 a1r.zhao123.info
 127.1 a1s.9966.org
 127.1 a2.1a2b3c1.com
+127.1 a2.364736.com
 127.1 a2.dfm832.cn
 127.1 a2.us-ok.com
 127.1 a222.dnf5.com
@@ -3186,6 +3202,7 @@ All Rights Reserved 2007-2010
 127.1 aa33fer.8866.org
 127.1 aa345.7766.org
 127.1 aa434g.8866.org
+127.1 aa44.qq66.in
 127.1 aa88567.poloi999.cn
 127.1 aa8hkds9.cn
 127.1 aa8pp.3322.org
@@ -3251,14 +3268,17 @@ All Rights Reserved 2007-2010
 127.1 aah.xnum.cn
 127.1 aaijehght.com
 127.1 aaqarkznvb.com
+127.1 aar.bij.pl
 127.1 aas.tok99.com
 127.1 aasese.com
 127.1 aattt.com
+127.1 aau.bij.pl
 127.1 aaw79.cn
 127.1 ab.buyilai.net
 127.1 ab.wansuiwansui.net
 127.1 ab1.x7js.com
 127.1 ab6922.com
+127.1 aba.bij.pl
 127.1 aba.dns0755.net
 127.1 abakos.com.es
 127.1 abaozhuce.cn
@@ -3543,6 +3563,7 @@ All Rights Reserved 2007-2010
 127.1 amelia10.50webs.com
 127.1 amerika.by
 127.1 amirsda.cn
+127.1 amjc.3322.org
 127.1 aml.ch.ma
 127.1 amnepofig.ru
 127.1 amoravela.com.sapo.pt
@@ -3634,7 +3655,9 @@ All Rights Reserved 2007-2010
 127.1 asd.xl.cx
 127.1 asd12.com
 127.1 asd6u.com
+127.1 asd9wea.3322.org
 127.1 asdawe.cn
+127.1 asdf.52zy.com
 127.1 asdf.dnf5.com
 127.1 asdfg.512j.com
 127.1 asdkdfg.3322.org
@@ -4051,6 +4074,7 @@ All Rights Reserved 2007-2010
 127.1 baiduyuxire.cn
 127.1 baiduyuxirebn.cn
 127.1 baike-360.cn
+127.1 baikeqi.com
 127.1 balamall.cn
 127.1 bally1.bally-bally.net
 127.1 bally2.bally-bally.net
@@ -4398,6 +4422,7 @@ All Rights Reserved 2007-2010
 127.1 bobo.4ffdd.com
 127.1 bobo.4gghh.com
 127.1 bobo.4ggss.com
+127.1 bobo.4qqbb.com
 127.1 bobo.4qqcc.com
 127.1 bobo.4qquu.com
 127.1 bobo.4qqww.com
@@ -4622,6 +4647,7 @@ All Rights Reserved 2007-2010
 127.1 c.456wyt.com
 127.1 c.51x51.org
 127.1 c.59ri.com
+127.1 c.5qqbb.com
 127.1 c.5x2x.com
 127.1 c.6000se.com
 127.1 c.67sese.com
@@ -4649,6 +4675,7 @@ All Rights Reserved 2007-2010
 127.1 c.j8j8.biz
 127.1 c.kcy-0009.cn
 127.1 c.lcwyt.com
+127.1 c.link88.be
 127.1 c.mimi100.info
 127.1 c.mmx17.cn
 127.1 c.nec8.cn
@@ -4800,7 +4827,7 @@ All Rights Reserved 2007-2010
 127.1 cc.18dd.net
 127.1 cc.441xx.net
 127.1 cc.78797987898.com
-127.1 cc.buHaoyisHi.com
+127.1 cc.buhaoyishi.com
 127.1 cc.cc06.cn
 127.1 cc.fockfock.com
 127.1 cc.fsdfefw.cn
@@ -4888,6 +4915,7 @@ All Rights Reserved 2007-2010
 127.1 cctv383.com
 127.1 cctv3dv.com
 127.1 cctv3e.com
+127.1 cctv3fei61.com
 127.1 cctv3r.com
 127.1 cctv3tao.com
 127.1 cctv3vip.com
@@ -5089,6 +5117,7 @@ All Rights Reserved 2007-2010
 127.1 cncp8.com
 127.1 cndownz.com
 127.1 cnksp.cn
+127.1 cnn.get-download.info
 127.1 cnn.vn.cx
 127.1 cnn.vu.cx
 127.1 cnnic.ch.ma
@@ -5118,6 +5147,7 @@ All Rights Reserved 2007-2010
 127.1 code01.1133.cc
 127.1 code01.qvodplus04.cn
 127.1 code02.1133.cc
+127.1 code02.qvodplus04.cn
 127.1 code03.1133.cc
 127.1 code04.1133.cc
 127.1 code05.1133.cc
@@ -5399,6 +5429,7 @@ All Rights Reserved 2007-2010
 127.1 d.228xx.com
 127.1 d.2rrrr.com
 127.1 d.32xx.com
+127.1 d.364736.com
 127.1 d.38ssss.com
 127.1 d.40ri.com
 127.1 d.44xp.com
@@ -5423,6 +5454,7 @@ All Rights Reserved 2007-2010
 127.1 d.bc-s350.cn
 127.1 d.bgsew.com
 127.1 d.bnksw.com
+127.1 d.brsqb.cn
 127.1 d.caxiao77.com
 127.1 d.cdwsx.com
 127.1 d.cndydy.com
@@ -5906,6 +5938,7 @@ All Rights Reserved 2007-2010
 127.1 down.nihao29.cn
 127.1 down.nihao69.cn
 127.1 down.ongameworld.com
+127.1 down.p2pplay.com
 127.1 down.pk19-1.cn
 127.1 down.privacyboan.com
 127.1 down.ptlang.cn
@@ -5938,6 +5971,7 @@ All Rights Reserved 2007-2010
 127.1 down008.feng6.us
 127.1 down009.feng6.us
 127.1 down1.1a2b3c1.com
+127.1 down1.57px.com
 127.1 down2.1a2b3c1.com
 127.1 down3.alibaba99.com
 127.1 down5ud6.5ud.com
@@ -5966,6 +6000,7 @@ All Rights Reserved 2007-2010
 127.1 download.tkgame.com
 127.1 download.virusremover2008.com
 127.1 download.wav2008.com
+127.1 download11.subo.me
 127.1 downloadavr14.com
 127.1 downloadavr3.com
 127.1 downloadpoint.cn
@@ -6029,6 +6064,7 @@ All Rights Reserved 2007-2010
 127.1 dw.mtsou.com
 127.1 dw1.azm8.com
 127.1 dw2.azm8.com
+127.1 dweer.klkl111.8866.org
 127.1 dwl.av2008dl.com
 127.1 dx.1155k.cn
 127.1 dx.1234ye.com
@@ -6057,6 +6093,7 @@ All Rights Reserved 2007-2010
 127.1 dy.1234bt.com
 127.1 dy.339.la
 127.1 dy.51qs.info
+127.1 dy.93iii.com
 127.1 dy.kz178.com
 127.1 dy3839.cn
 127.1 dyf1.com
@@ -6402,9 +6439,11 @@ All Rights Reserved 2007-2010
 127.1 feixxwinhuposheqingyilongbo.xmntu.com
 127.1 fenda20.com
 127.1 feng6.com
-127.1 fengshenge.cn
+127.1 fengsHenge.cn
 127.1 fengsini.net
 127.1 fengying.52qqbicom.cn
+127.1 ferrari03.8866.org
+127.1 ferrari03.9966.org
 127.1 fetion-cctv.cn
 127.1 fetion.52666.net
 127.1 fetion.to.7766.org
@@ -6418,6 +6457,7 @@ All Rights Reserved 2007-2010
 127.1 fetionu.com.cn
 127.1 fetionxi.cn
 127.1 fetioy.com.cn
+127.1 fewf.qa444.8866.org
 127.1 fewfwee.cn
 127.1 fewwe322.cn
 127.1 ff.c5c3.com
@@ -6474,6 +6514,7 @@ All Rights Reserved 2007-2010
 127.1 files4.brothersoft.com
 127.1 files5.brothersoft.com
 127.1 files7.brothersoft.com
+127.1 filoups.info
 127.1 findbigwords.cn
 127.1 findfriendmail7.com
 127.1 firefox-888.cn
@@ -7200,6 +7241,7 @@ All Rights Reserved 2007-2010
 127.1 hhggff.cn
 127.1 hhhh5555.cn
 127.1 hhhhdd123.3322.org
+127.1 hhhhhhh1.klkl333.8866.org
 127.1 hhhhhttt.cn
 127.1 hhhhx.com
 127.1 hhhhzzzss.cn
@@ -7333,6 +7375,7 @@ All Rights Reserved 2007-2010
 127.1 hueiwu.cn
 127.1 hugebestbuys.cn
 127.1 hugoandco.com
+127.1 hulala1.vicp.net
 127.1 humano.ya.com
 127.1 hunymepi.hotbox.ru
 127.1 huo119.com
@@ -7388,6 +7431,7 @@ All Rights Reserved 2007-2010
 127.1 idc.gzce.cn
 127.1 idc.windowsupdeta.cn
 127.1 idunef.cn
+127.1 ie1.bv123.com
 127.1 iebar.t2t2.com
 127.1 ieopen.yhgames.com
 127.1 iexx.com
@@ -8008,6 +8052,7 @@ All Rights Reserved 2007-2010
 127.1 l.tyuopr.cn
 127.1 l.uye123.com
 127.1 l11.6600.org
+127.1 l11l10oo0.qaqa126.8866.org
 127.1 l3ie445b.cn
 127.1 l9l9i.cn
 127.1 l9sk.com
@@ -8444,6 +8489,7 @@ All Rights Reserved 2007-2010
 127.1 miumiu.9966.org
 127.1 mixlong.cn
 127.1 mjh8.cn
+127.1 mjjia.cn
 127.1 mk.cxaaaa.cn
 127.1 mk667700.cn
 127.1 mkchess.com
@@ -8781,6 +8827,7 @@ All Rights Reserved 2007-2010
 127.1 newhua.bitspirit.com.cn
 127.1 newlifeyearsite.com
 127.1 newote.cn
+127.1 news.21npc.com
 127.1 news.85580000.com
 127.1 news.chinaons.net
 127.1 news.hohoye.com
@@ -8853,6 +8900,7 @@ All Rights Reserved 2007-2010
 127.1 nje6.cn
 127.1 nje7.cn
 127.1 nje8.cn
+127.1 njfr.klkl111.8866.org
 127.1 nju7yd.3322.org
 127.1 njyw.njenet.net.cn
 127.1 nka.youlaiyou.net
@@ -9259,6 +9307,8 @@ All Rights Reserved 2007-2010
 127.1 postmaster.web31.f3.k8.com.br
 127.1 powerdigi.com
 127.1 powerfulvirusremover2008.com
+127.1 pozeml.com
+127.1 pozemle.cn
 127.1 pp.08xunlei.cn
 127.1 pp.900666.com
 127.1 pp.92x8.com
@@ -9285,6 +9335,7 @@ All Rights Reserved 2007-2010
 127.1 ppp.buyaoni.com
 127.1 ppp.doulaba.cn
 127.1 ppp.imsee.info
+127.1 ppp.qa111.8866.org
 127.1 ppp.u668u.com
 127.1 ppp456.com
 127.1 pppphhhss.cn
@@ -9419,6 +9470,7 @@ All Rights Reserved 2007-2010
 127.1 qisihuisheng.net
 127.1 qizi123.ww.ybdns.org
 127.1 qjdiejs.cn
+127.1 qjvod.3322.org
 127.1 qk102.com
 127.1 qkyygo.com
 127.1 qm.cnmrx.net
@@ -9505,6 +9557,7 @@ All Rights Reserved 2007-2010
 127.1 qq.wfj1.cn
 127.1 qq.xiaobaixing.com
 127.1 qq.ziyuan6.com
+127.1 qq01.cptiandi.com
 127.1 qq01.zj.pl
 127.1 qq08-vip1.cn
 127.1 qq08d74.cn
@@ -9864,6 +9917,7 @@ All Rights Reserved 2007-2010
 127.1 qvod.com-2.cn
 127.1 Qvod.Down.vbn5.cn
 127.1 qvod.down.xzx6.cn
+127.1 qvod.dyshy.com
 127.1 qvod.play.fde1.cn
 127.1 qvod.xxoo888.cn
 127.1 qvod.y2y2dfa.cn
@@ -10434,6 +10488,7 @@ All Rights Reserved 2007-2010
 127.1 se.6zzxx.com
 127.1 se.7.512xxx.com
 127.1 se.700wyt.com
+127.1 se.70kxw.com
 127.1 se.710wyt.com
 127.1 se.711pp.com
 127.1 se.73xxoo.com
@@ -10725,6 +10780,7 @@ All Rights Reserved 2007-2010
 127.1 sesedeni.com
 127.1 sesedh.web.fc2.com
 127.1 sesejkw.cn
+127.1 seselu.com
 127.1 sesemeibbs.cn
 127.1 sesemmse.3322.org
 127.1 sesese.y145c.cn
@@ -10803,6 +10859,7 @@ All Rights Reserved 2007-2010
 127.1 shipin39.cn
 127.1 shiping.18tintin.cn
 127.1 shiping.shipin18.cn
+127.1 ships.ath.cx
 127.1 shishengit.com
 127.1 shkens.net
 127.1 shmysheros.9966.org
@@ -11072,6 +11129,7 @@ All Rights Reserved 2007-2010
 127.1 ssssdddff.cn
 127.1 sssy.08ri.com
 127.1 ssta.vicp.cc
+127.1 ssun.dddwfft.com
 127.1 ssuv.org.cn
 127.1 sswl.27free.cn
 127.1 st.ushealthmart.com
@@ -11518,6 +11576,7 @@ All Rights Reserved 2007-2010
 127.1 tt.kkmm8.com
 127.1 tt.s56780.cn
 127.1 tt00oo.3322.org
+127.1 tt01.cptiandi.net
 127.1 tt1.vd-i.info
 127.1 tt1tt.3322.org
 127.1 tt45.cn
@@ -11582,7 +11641,7 @@ All Rights Reserved 2007-2010
 127.1 tw.us.tw
 127.1 twmicrosoft.com
 127.1 two.xthost.info
-127.1 twoeven.cn
+127.1 twoeVen.cn
 127.1 twoserv.cn
 127.1 twqvod.com
 127.1 twwen.com
@@ -12042,6 +12101,7 @@ All Rights Reserved 2007-2010
 127.1 uzai1mm.liang101.cn
 127.1 v.01wyt.com
 127.1 v.169.net
+127.1 v.31261109.com
 127.1 v.40sese.com
 127.1 v.48sss.com
 127.1 v.54ed4.cn
@@ -12081,6 +12141,7 @@ All Rights Reserved 2007-2010
 127.1 vava40.9966.org
 127.1 vavation.5944v.net
 127.1 vb008.cn
+127.1 vbdf23.xicp.cn
 127.1 vc.zaqaab.cn
 127.1 vccd.cn
 127.1 vcdywer.cn
@@ -12258,6 +12319,7 @@ All Rights Reserved 2007-2010
 127.1 vod.lswyt.com
 127.1 vod.seset.com
 127.1 vod.tv190.com
+127.1 vod123.8866.org
 127.1 vod21cn.chinafada.com
 127.1 vofe.3322.org
 127.1 vokcrash.com
@@ -12286,6 +12348,7 @@ All Rights Reserved 2007-2010
 127.1 vv.cnn
 127.1 vv.faba700.info
 127.1 vv.hucailm.cn
+127.1 vv00.qq88.in
 127.1 vv0vv.3322.org
 127.1 vv9999.cn
 127.1 vvbggtr.cn
@@ -12417,6 +12480,7 @@ All Rights Reserved 2007-2010
 127.1 w1.fsdfe.com
 127.1 w1.getdew.com
 127.1 w1.iioo4567.com
+127.1 w1.klkl111.8866.org
 127.1 w1.mygg369.com
 127.1 w1.qmisjww.cn
 127.1 w1.rd7y.com
@@ -12458,6 +12522,7 @@ All Rights Reserved 2007-2010
 127.1 w4.bafang.cc
 127.1 w5.123dcy.com
 127.1 w5.akc8.com
+127.1 w5.klkl111.8866.org
 127.1 w5.ys8c.com
 127.1 w8.6yh4.com
 127.1 w8.7777ee.com
@@ -12520,10 +12585,12 @@ All Rights Reserved 2007-2010
 127.1 web.do2a.cn
 127.1 web.fd5a.cn
 127.1 web.gd3w.cn
+127.1 web.guangpeer.cn
 127.1 web.hyj008.info
 127.1 web.jha2.cn
 127.1 web.kelife.com
 127.1 web.lylss.com
+127.1 web.nba1001.net
 127.1 web.reg.md
 127.1 web.shijiediyi.net
 127.1 web.vcx2.cn
@@ -12556,6 +12623,7 @@ All Rights Reserved 2007-2010
 127.1 wedftp11.cn
 127.1 wedftp33.cn
 127.1 wedfxc.cn
+127.1 wefaef.qa444.8866.org
 127.1 weiai999.3322.org
 127.1 weishz.cn
 127.1 weiwei520.vip.sina.com
@@ -12625,6 +12693,7 @@ All Rights Reserved 2007-2010
 127.1 winpcdown99.com
 127.1 winupdates-server.com
 127.1 winvistaclub.com
+127.1 winxp7server.com
 127.1 wiptrial.wz.cz
 127.1 wissjjee80.hh.h001.33wdd.cn
 127.1 wistascanner.com
@@ -12724,6 +12793,7 @@ All Rights Reserved 2007-2010
 127.1 woyaoshe.com
 127.1 woyaoxingjiaowang.net.cn
 127.1 woyaozhi.com
+127.1 wq6.h001.9host.net
 127.1 wq9q.cn
 127.1 wqe3r223.cn
 127.1 wqedqwdqw.cn
@@ -12827,9 +12897,12 @@ All Rights Reserved 2007-2010
 127.1 ww898.com
 127.1 ww8ww.3322.org
 127.1 ww9.egu8c.com
+127.1 wwaa4.7766.org
+127.1 wwcctv3.com
 127.1 wwd.fa4fs.com
 127.1 wwhh88.com
 127.1 wwl.abcdnf.com
+127.1 wwm.ons22.com
 127.1 wws.mobiec.net
 127.1 wwv.222123.net
 127.1 wwvv.222123.cc
@@ -13430,6 +13503,7 @@ All Rights Reserved 2007-2010
 127.1 www.1bxx.com
 127.1 www.1caoni.com
 127.1 www.1cdzx.cn
+127.1 www.1ddkk.com
 127.1 www.1ddxx.com
 127.1 www.1dzh.com
 127.1 www.1eevu.cn
@@ -14349,6 +14423,7 @@ All Rights Reserved 2007-2010
 127.1 www.50wu.cn
 127.1 www.50xj.com
 127.1 www.50zhong.com
+127.1 www.5109520.com.cn
 127.1 Www.511622.Com
 127.1 www.511u.com
 127.1 www.511yinyue.cn
@@ -14394,6 +14469,7 @@ All Rights Reserved 2007-2010
 127.1 www.51mmxx.cn
 127.1 www.51mxd.com
 127.1 www.51oye.com
+127.1 www.51sedy.com
 127.1 www.51she.info
 127.1 www.51shy.cn
 127.1 www.51sis.net
@@ -14460,6 +14536,7 @@ All Rights Reserved 2007-2010
 127.1 www.52qb.com
 127.1 www.52s0l.com
 127.1 www.52sax.cn
+127.1 www.52sbb.com
 127.1 www.52ssss.net
 127.1 www.52windows7.org.cn
 127.1 www.52x52.com
@@ -14617,6 +14694,7 @@ All Rights Reserved 2007-2010
 127.1 www.57dh.com.cn
 127.1 www.57dx.com
 127.1 www.57gmm.com
+127.1 www.57px.com
 127.1 www.57qn.cn
 127.1 www.57rb.com
 127.1 www.57tk.com
@@ -14732,6 +14810,7 @@ All Rights Reserved 2007-2010
 127.1 www.60bbb.com
 127.1 www.60gan.com
 127.1 www.60sese.com
+127.1 www.60sys60.cn
 127.1 www.60xj-com.cn
 127.1 www.60xj.com
 127.1 www.61118.com
@@ -14979,6 +15058,7 @@ All Rights Reserved 2007-2010
 127.1 www.709sese.cn
 127.1 www.70data.cn
 127.1 www.70gan.com
+127.1 www.70kxw.com
 127.1 www.70mn.cn
 127.1 www.710sese.cn
 127.1 www.710wyt.com
@@ -15252,6 +15332,7 @@ All Rights Reserved 2007-2010
 127.1 www.832821.cn
 127.1 www.833566.com
 127.1 www.833568.com
+127.1 www.8336.cn
 127.1 www.8336f.cn
 127.1 www.833899.com
 127.1 www.83396.com
@@ -15616,6 +15697,7 @@ All Rights Reserved 2007-2010
 127.1 www.939777.com
 127.1 www.939mm.com
 127.1 www.93du.cn
+127.1 www.93iii.com
 127.1 www.93nnn.com
 127.1 www.93pic.cn
 127.1 www.93san.com
@@ -16559,8 +16641,9 @@ All Rights Reserved 2007-2010
 127.1 www.carloon.cn
 127.1 www.carrotz.cn
 127.1 www.catideal.com.cn
-127.1 www.cBcdef.cn
+127.1 www.CbCdef.Cn
 127.1 www.cbcpw.cn
+127.1 www.cbg163jg.com
 127.1 www.cbt8.cn
 127.1 www.cc173.cn
 127.1 www.ccc222.com
@@ -16643,6 +16726,7 @@ All Rights Reserved 2007-2010
 127.1 www.cgplayer.com
 127.1 www.cgukl.cn
 127.1 www.cgve.com
+127.1 www.ch2009mx.cn
 127.1 www.chadnf.cn
 127.1 www.championunion.com
 127.1 www.changleshi.com
@@ -17005,6 +17089,7 @@ All Rights Reserved 2007-2010
 127.1 www.cy074.cn
 127.1 www.cy566.cn
 127.1 www.cychaye.com
+127.1 www.cyhxian52.net.cn
 127.1 www.cyn163.com.cn
 127.1 www.cyq6.cn
 127.1 www.cyqsdh.com
@@ -17228,6 +17313,7 @@ All Rights Reserved 2007-2010
 127.1 www.downloads-123.com
 127.1 www.downpao.com
 127.1 www.downtool.com
+127.1 www.drpcclean.com
 127.1 www.drwxf.cn
 127.1 www.ds2522.cn
 127.1 www.ds345.cn
@@ -17481,6 +17567,7 @@ All Rights Reserved 2007-2010
 127.1 www.fdsjan.cn
 127.1 www.fdsuy.cn
 127.1 www.fdvdv.cn
+127.1 www.fec-edu.com
 127.1 www.fedfsafaf.cn
 127.1 www.feetions.com.cn
 127.1 www.fei2009xin.cn
@@ -17508,6 +17595,7 @@ All Rights Reserved 2007-2010
 127.1 www.feixiy.cn
 127.1 www.feizhuliumeinv.com.cn
 127.1 www.feng6.com
+127.1 www.fenghuashi.com
 127.1 www.fengnimabi360.cn
 127.1 www.fengsini.net
 127.1 www.fengtianc.cn
@@ -17645,6 +17733,7 @@ All Rights Reserved 2007-2010
 127.1 www.fslajf32.cn
 127.1 www.fspd.cn
 127.1 www.fssu.cn
+127.1 www.fsus.cn
 127.1 www.ftc518.cn
 127.1 www.ftp356.cn
 127.1 www.ftt120.cn
@@ -17666,6 +17755,7 @@ All Rights Reserved 2007-2010
 127.1 www.fun114.com
 127.1 www.funny8.net
 127.1 www.funso8.com
+127.1 www.fuqikl.info
 127.1 www.fuqiw.com
 127.1 www.fuuuf.cn
 127.1 www.fuy88.cn
@@ -17807,9 +17897,11 @@ All Rights Reserved 2007-2010
 127.1 www.google.com.97sose.cn
 127.1 www.google.com.bokae.cn
 127.1 www.google.com.sohu.com.baidu.com.bibipv.cn
+127.1 www.google76t.com
 127.1 www.googleanalitics.net
 127.1 www.googleccndication.cn
 127.1 www.googlem7k.com
+127.1 www.googles0f.com
 127.1 www.googlesd.com
 127.1 www.gougouvcd.cn
 127.1 www.gouwo-com.cn
@@ -17877,6 +17969,7 @@ All Rights Reserved 2007-2010
 127.1 www.gs618.com
 127.1 www.gs6h.cn
 127.1 www.gsafs.cn
+127.1 www.gsdiwejs.org.39xn.cn
 127.1 www.gstx444.com
 127.1 www.gstx555.com
 127.1 www.gstx777.com
@@ -18836,6 +18929,7 @@ All Rights Reserved 2007-2010
 127.1 www.luye-pharm-wh.com
 127.1 www.lv1314.cn
 127.1 www.lvrzj.com
+127.1 www.lvsexiazai.com
 127.1 www.lwktbg.cn
 127.1 www.lwstats.com
 127.1 www.lx-hack.cn
@@ -19066,6 +19160,7 @@ All Rights Reserved 2007-2010
 127.1 www.modedu.com
 127.1 www.moenos.cn
 127.1 www.moeoes.cn
+127.1 www.moloky.com
 127.1 www.moltbedesigns.com
 127.1 www.momtrt.cn
 127.1 www.monalisa.com.cn
@@ -19092,6 +19187,7 @@ All Rights Reserved 2007-2010
 127.1 www.movies.net.cn
 127.1 www.moyusifu.org
 127.1 www.mpc88.com
+127.1 www.mqianming.cn
 127.1 www.mrbsd.org
 127.1 www.mrmf.cn
 127.1 www.ms1a.cn
@@ -19132,6 +19228,7 @@ All Rights Reserved 2007-2010
 127.1 www.my-web-pills.com
 127.1 www.my111.inf
 127.1 www.my123.com
+127.1 www.my12593.cn
 127.1 www.my180.com
 127.1 www.my375.cn
 127.1 www.my97sese.cn
@@ -19752,6 +19849,7 @@ All Rights Reserved 2007-2010
 127.1 www.qq9308.cn
 127.1 www.qq9588.cn
 127.1 www.qq9y.cn
+127.1 www.qqa51.com
 127.1 www.qqa520.cn
 127.1 www.qqa8z.cn
 127.1 www.qqab8.cn
@@ -19911,6 +20009,7 @@ All Rights Reserved 2007-2010
 127.1 www.qqvong.cn
 127.1 www.qqvotel.cn
 127.1 www.qqvqz.cn
+127.1 www.qqwg.tk
 127.1 www.qqwing.com
 127.1 www.qqwp2009.cn
 127.1 www.qqwt2009.cn
@@ -19978,6 +20077,7 @@ All Rights Reserved 2007-2010
 127.1 www.qvodmuise.cn
 127.1 www.qvodonline.cn
 127.1 www.qvodpian.cn
+127.1 www.qvodplus01.cn
 127.1 www.qvodplus04.cn
 127.1 www.qvodsetup.cn
 127.1 www.qw18.cn
@@ -20083,7 +20183,7 @@ All Rights Reserved 2007-2010
 127.1 www.rxgsslli.cn
 127.1 www.rxgssllj.cn
 127.1 www.rxgssllk.cn
-127.1 www.rxgsslll.Cn
+127.1 www.rxgsslll.cn
 127.1 www.rxgssllm.cn
 127.1 www.rxgsslln.cn
 127.1 www.rxgssllo.cn
@@ -20192,6 +20292,7 @@ All Rights Reserved 2007-2010
 127.1 www.sdzszh.com
 127.1 www.se-link.cn
 127.1 www.se-wang.cn
+127.1 www.se.1ddkk.com
 127.1 www.se.2ggss.com
 127.1 www.se.5nxx.com
 127.1 www.se.7gghh.com
@@ -20342,6 +20443,7 @@ All Rights Reserved 2007-2010
 127.1 www.shaofu77.cn
 127.1 www.she48.com
 127.1 www.she58.com
+127.1 www.shenguichuanqi-waigua.cn
 127.1 www.shentong520.cn
 127.1 www.shhdyb.cn
 127.1 www.shijiediyi.net
@@ -20349,9 +20451,11 @@ All Rights Reserved 2007-2010
 127.1 www.shishengit.com
 127.1 www.shiyouflooring.com
 127.1 www.shjj88.com.cn
+127.1 www.shmhxy.cn
 127.1 www.shouji56.com
 127.1 www.shoujiqianming.com
 127.1 www.shqianwang.cn
+127.1 www.shsh3.cn
 127.1 www.shsid.org
 127.1 www.shsmg.com.cn
 127.1 www.shsunny.com
@@ -20454,6 +20558,7 @@ All Rights Reserved 2007-2010
 127.1 www.so11.cn
 127.1 www.so8.zj.cn
 127.1 www.so86.org.cn
+127.1 www.soccer9you.com
 127.1 www.socks5service.cn
 127.1 www.socosoco.cn
 127.1 www.sodnf.cn
@@ -20465,6 +20570,7 @@ All Rights Reserved 2007-2010
 127.1 www.softll.net
 127.1 www.softload2008kx.com
 127.1 www.software-for-me-08.com
+127.1 www.sogouliulanqi.com
 127.1 www.sohu.com.blog.seqing.mobile-bpm.cn
 127.1 www.sohu.com.blog.seqing.sdjzw.cn
 127.1 www.songqq34.cn
@@ -20503,6 +20609,7 @@ All Rights Reserved 2007-2010
 127.1 www.spqmm.cn
 127.1 www.spsonica.com
 127.1 www.spy-protector.com
+127.1 www.spydajaba.com
 127.1 www.spytech-web.com
 127.1 www.spyware-fighter.com
 127.1 www.spyware-secure.com
@@ -20624,6 +20731,7 @@ All Rights Reserved 2007-2010
 127.1 www.taibaoo.cn
 127.1 www.taikooo.cn
 127.1 www.tangshan.gov.cn
+127.1 www.tans6.cn
 127.1 www.tanwinjiwr.cn
 127.1 www.taobao-1b.cn
 127.1 www.taobao-2.cn
@@ -20883,6 +20991,7 @@ All Rights Reserved 2007-2010
 127.1 www.tutinteresno.com
 127.1 www.tuto1.cn
 127.1 www.tutty.cn
+127.1 www.tv-qq.com
 127.1 www.tv190.com
 127.1 www.tv3000cn.cn
 127.1 www.tvbys.com
@@ -21039,6 +21148,7 @@ All Rights Reserved 2007-2010
 127.1 www.vnet-1.net
 127.1 www.vnet6.com
 127.1 www.vod500.cn
+127.1 www.vodaoao.com
 127.1 www.vodwyt.com
 127.1 www.vpn318.cn
 127.1 www.vs177.cn
@@ -21176,6 +21286,7 @@ All Rights Reserved 2007-2010
 127.1 www.wl22.com
 127.1 www.wlieur.cn
 127.1 www.wljeie.cn
+127.1 www.wlqxz3.cn
 127.1 www.wm5555.com
 127.1 www.wmf8888.cn
 127.1 www.wmqv.cn
@@ -21258,6 +21369,7 @@ All Rights Reserved 2007-2010
 127.1 www.ww-03.cn
 127.1 www.ww.th16388.com
 127.1 www.wwahm.com
+127.1 www.wwcctv3.com
 127.1 www.wwdianyingkuang.cn
 127.1 www.wwe8.com
 127.1 www.wwe8livewwe.cn
@@ -21280,6 +21392,7 @@ All Rights Reserved 2007-2010
 127.1 www.wyssw.com
 127.1 www.wyt.cc
 127.1 www.wyt123.com.cn
+127.1 www.wyt3.info
 127.1 www.wyt555.com
 127.1 www.wyt95.com
 127.1 www.wytmimi.com
@@ -21400,6 +21513,7 @@ All Rights Reserved 2007-2010
 127.1 www.xj003.net
 127.1 www.xj005.net
 127.1 www.xjcjwy.com
+127.1 www.xjh3.cn
 127.1 www.xk166.cn
 127.1 www.xkcode.com
 127.1 www.xky99.cn
@@ -21499,6 +21613,7 @@ All Rights Reserved 2007-2010
 127.1 www.yahoo.com.mierr.cn
 127.1 www.yahoo550.com
 127.1 www.yahooho.com.cn
+127.1 www.yahu365.com
 127.1 www.yahuo.info
 127.1 www.yangbaiwan.net
 127.1 www.yanmenzao.cn
@@ -21525,6 +21640,7 @@ All Rights Reserved 2007-2010
 127.1 www.yes51la.cn
 127.1 www.yes70.cn
 127.1 www.yesdh.com
+127.1 www.yesmybi.cn
 127.1 www.yetaobao.com
 127.1 www.yeye7.cn
 127.1 www.yeyejiqing.com
@@ -22518,6 +22634,7 @@ All Rights Reserved 2007-2010
 127.1 xzjx.ssfwrwr.cn
 127.1 xzqx88.com
 127.1 xzzde.com
+127.1 xzznimaya.xicp.cn
 127.1 y.500887.cn
 127.1 y.5x2x.com
 127.1 y.6x3x.com
