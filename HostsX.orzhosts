@@ -1,4 +1,4 @@
-;version=201002042102
+;version=201002050825
 ;author=JocKwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -822,6 +822,7 @@
 #Misc & Test
 0.0.0.0 ad.16wan.com
 0.0.0.0 c.91wan.com
+0.0.0.0 cpc.haowzz.com.cn
 0.0.0.0 doc.70yx.com
 0.0.0.0 img.8977.com
 0.0.0.0 static.u966.com
