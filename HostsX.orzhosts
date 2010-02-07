@@ -1,4 +1,4 @@
-;version=201002051630
+;version=201002071353
 ;author=JocKwok
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -698,7 +698,6 @@
 0.0.0.0 z.alimama.com
 0.0.0.0 cpc.click.alimama.com
 0.0.0.0 gouwu.alimama.com
-0.0.0.0 ju.atpanel.com
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
