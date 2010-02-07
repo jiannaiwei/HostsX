@@ -1,4 +1,4 @@
-;version=201002072307
+;version=201002072315
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -476,6 +476,7 @@
 0.0.0.0 allyes.nie.163.com
 0.0.0.0 analytics.163.com
 0.0.0.0 cpc.163.com
+0.0.0.0 corp.163.com
 0.0.0.0 pro.163.com
 0.0.0.0 proimg.163.com
 0.0.0.0 union.163.com
