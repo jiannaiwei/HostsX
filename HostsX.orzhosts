@@ -1,4 +1,4 @@
-;version=201002072231
+;version=201002072256
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -253,8 +253,8 @@
 #推广下载系列
 0.0.0.0	union.rising.com.cn
 0.0.0.0	zcomcdl.zcominc.com
-@HostsX 网站广告过滤
-@HostsX 网站广告过滤/IT 类网站
+@HostsX 站点广告过滤
+@HostsX 站点广告过滤/IT 类网站
 #中关村
 0.0.0.0 adm.zol.com.cn
 0.0.0.0 bwp.zol.com.cn
@@ -312,7 +312,7 @@
 0.0.0.0 w105.rayfile.com
 #Techweb
 0.0.0.0 techweb.adsame.com
-@HostsX 网站广告过滤/汽车类网站
+@HostsX 站点广告过滤/汽车类网站
 #爱卡汽车
 0.0.0.0 d1.xcar.com.cn
 0.0.0.0 d0.xcar.com.cn
@@ -331,7 +331,7 @@
 0.0.0.0 ip.bitauto.com
 #中国汽车网
 0.0.0.0 chinacarsafp.allyes.com
-@HostsX 网站广告过滤/游戏类网站
+@HostsX 站点广告过滤/游戏类网站
 #7pk小游戏
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -369,7 +369,7 @@
 0.0.0.0 u.molidao.com
 0.0.0.0 uimg.my4399.com
 0.0.0.0 unigg.kunlun.com
-@HostsX 网站广告过滤/小说类网站
+@HostsX 站点广告过滤/小说类网站
 #17K小说
 0.0.0.0 ad.17k.com
 #潇湘书院
@@ -383,7 +383,7 @@
 0.0.0.0 resource.igalive.com
 #逐浪
 0.0.0.0 images2.zhulang.com
-@HostsX 网站广告过滤/视频类网站
+@HostsX 站点广告过滤/视频类网站
 #优酷
 0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
@@ -441,7 +441,7 @@
 0.0.0.0 union.boodvd.com
 #中国影视库
 0.0.0.0 uid.mdbchina.com
-@HostsX 网站广告过滤/财经类网站
+@HostsX 站点广告过滤/财经类网站
 #东方财富网
 0.0.0.0 ay.eastmoney.com
 0.0.0.0 eastmoney.allyes.com
@@ -460,7 +460,7 @@
 0.0.0.0 hx.hexun.com
 0.0.0.0 itv.hexun.com
 0.0.0.0 union.hexun.com
-@HostsX 网站广告过滤/门户类网站
+@HostsX 站点广告过滤/门户类网站
 #126
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 img1.126.net
@@ -529,7 +529,7 @@
 0.0.0.0 clkservice.youdao.com
 0.0.0.0 impservice.union.youdao.com
 0.0.0.0 impservice.youdao.com
-@HostsX 网站广告过滤/社区类网站
+@HostsX 站点广告过滤/社区类网站
 #天涯
 0.0.0.0 801.tianya.cn
 0.0.0.0 802.tianya.cn
@@ -583,7 +583,7 @@
 0.0.0.0 union.daqi.com
 #Phpwind
 0.0.0.0 union.phpwind.com
-@HostsX 网站广告过滤/信息类网站
+@HostsX 站点广告过滤/信息类网站
 #沪江英语
 0.0.0.0 a4.yeshj.com
 #39健康网
@@ -598,7 +598,7 @@
 0.0.0.0 imgdn.soufun.com
 0.0.0.0 show.soufun.com
 0.0.0.0 shows1.soufun.com
-@HostsX 网站广告过滤/新闻类网站
+@HostsX 站点广告过滤/新闻类网站
 #凤凰网
 0.0.0.0 sc.ifeng.com
 0.0.0.0 sta.ifeng.com
@@ -623,7 +623,8 @@
 #中华网
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
-@HostsX 网站广告过滤/流氓类网站
+@HostsX 网络广告过滤
+@HostsX 网络广告过滤/流氓类网站
 #电信劫持
 0.0.0.0 114.allyes.com
 0.0.0.0 114.com.cn
@@ -648,7 +649,7 @@
 #多特
 0.0.0.0 www.duote.com
 0.0.0.0 img.duote.com
-@HostsX 网站广告过滤/常见广告
+@HostsX 网络广告过滤/常见广告
 #Doubleclick
 0.0.0.0 ad-apac.doubleclick.net
 0.0.0.0 ad.cn.doubleclick.net
@@ -840,7 +841,7 @@
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 static.addtoany.com
 0.0.0.0 track.effiliation.asia
-#推广中奖&虚假信息
+#推广中奖等
 0.0.0.0 cpc.haowzz.com.cn
 0.0.0.0 g.91ivr.com
 0.0.0.0 img.8977.com
@@ -853,7 +854,7 @@
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.p.cn
 0.0.0.0 www.wooigoo.cn
-@HostsX 网站广告过滤/流量统计
+@HostsX 网络广告过滤/流量统计
 #51la
 0.0.0.0 js.users.51.la
 0.0.0.0 vip.51.la
@@ -889,7 +890,7 @@
 0.0.0.0 tom.wrating.com
 0.0.0.0 tongji.wrating.com
 0.0.0.0 www.wrating.com
-@HostsX 网站广告过滤/广告联盟
+@HostsX 网络广告过滤/广告联盟
 #265
 0.0.0.0 link.265.com
 0.0.0.0 un.265.com
