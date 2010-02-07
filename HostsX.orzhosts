@@ -1,4 +1,4 @@
-;version=201002072315
+;version=201002080016
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -448,6 +448,8 @@
 @HostsX 站点广告过滤/财经类网站
 #东方财富网
 0.0.0.0 ay.eastmoney.com
+0.0.0.0 same.eastmoney.com
+0.0.0.0 g1.dfcfw.com
 0.0.0.0 eastmoney.allyes.com
 0.0.0.0 wonderadafa7.allyes.com
 #金融界
