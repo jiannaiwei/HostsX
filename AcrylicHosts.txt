@@ -271,6 +271,7 @@
 #! FengNiao
 0.0.0.0 pic.fengniao.com
 # Video
+0.0.0.0 a.cctv.com
 0.0.0.0 simba.6.cn
 0.0.0.0 pole.6rooms.com
 0.0.0.0 shrek.6.cn
