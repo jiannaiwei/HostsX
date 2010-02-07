@@ -1,4 +1,4 @@
-;version=201002072256
+;version=201002072307
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -285,7 +285,11 @@
 0.0.0.0 yeskyafp.allyes.com
 #豆豆资讯
 0.0.0.0 ad.ddvip.com
-#金山
+#有道搜索
+0.0.0.0 clkservice.youdao.com
+0.0.0.0 impservice.union.youdao.com
+0.0.0.0 impservice.youdao.com
+#金山在线
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
 0.0.0.0 u.sl.iciba.com
@@ -461,11 +465,10 @@
 0.0.0.0 itv.hexun.com
 0.0.0.0 union.hexun.com
 @HostsX 站点广告过滤/门户类网站
-#126
+#网易163
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
-#网易163
 0.0.0.0 adc.163.com
 0.0.0.0 adclient.163.com
 0.0.0.0 adgeo.163.com
@@ -525,10 +528,6 @@
 0.0.0.0 view.atdmt.com
 0.0.0.0 msn.allyes.com
 0.0.0.0 msnms.allyes.cn
-#有道搜索
-0.0.0.0 clkservice.youdao.com
-0.0.0.0 impservice.union.youdao.com
-0.0.0.0 impservice.youdao.com
 @HostsX 站点广告过滤/社区类网站
 #天涯
 0.0.0.0 801.tianya.cn
@@ -890,18 +889,10 @@
 0.0.0.0 tom.wrating.com
 0.0.0.0 tongji.wrating.com
 0.0.0.0 www.wrating.com
-@HostsX 网络广告过滤/广告联盟
+@HostsX 网络广告过滤/常用广告联盟
 #265
 0.0.0.0 link.265.com
 0.0.0.0 un.265.com
-#77869
-0.0.0.0 u1.778669.com
-0.0.0.0 u2.778669.com
-0.0.0.0 u3.778669.com
-0.0.0.0 u4.778669.com
-0.0.0.0 u5.778669.com
-0.0.0.0 u6.778669.com
-0.0.0.0 u493025.778669.com
 #Adpolestar
 0.0.0.0 ad1.adpolestar.net
 0.0.0.0 afp.adpolestar.net
@@ -914,42 +905,14 @@
 0.0.0.0 go.all4ad.cn
 0.0.0.0 jump.all4ad.cn
 0.0.0.0 nad1.all4ad.cn
-#LinkTech
-0.0.0.0 banner.linktech.cn
-0.0.0.0 track.linktech.cn
-#九赢
-0.0.0.0 www1.9v.cn
-0.0.0.0 v.cpp9v.cn
-0.0.0.0 vv.9vcpc.cn
-0.0.0.0 v1.9vcpc.cn
-#纵横
-0.0.0.0 ww.zhcpm.com
-#双倍
-0.0.0.0 www.2bj.cn
-#信誉
-0.0.0.0 click.5j.com
-#大联盟
-0.0.0.0 ww.unionbig.com
 #黑马
 0.0.0.0 c.heima8.com
 0.0.0.0 u.heima8.com
 0.0.0.0 www.heima8.com
-#猫猫
-0.0.0.0 www.maomao8.com
 #脉动
 0.0.0.0 go.myad.cn
 0.0.0.0 img2.myad.cn
 0.0.0.0 x2.myad.cn
-#华夏
-0.0.0.0 cpc11.hxad.com
-0.0.0.0 cpm2.hxad.com
-#推告
-0.0.0.0 js.tuigoo.com
-#速影
-0.0.0.0 c.sfilm.com
-#信誉
-0.0.0.0 vvww.qyclick.com
-0.0.0.0 www.qyclick.com
 #成果网
 0.0.0.0 count.chanet.com.cn
 0.0.0.0 file.chanet.com.cn
@@ -970,8 +933,6 @@
 #亿告
 0.0.0.0 monitor.yigao.com
 0.0.0.0 p.yigao.com
-#百分百
-0.0.0.0 engine.100fenlm.cn
 #极限
 0.0.0.0 c.cnxad.com
 0.0.0.0 code.cnxad.com
@@ -1007,9 +968,48 @@
 0.0.0.0 lick.egooad.com
 #优质传媒
 0.0.0.0 js.0252.com
+@HostsX 网络广告过滤/其他
+#77869
+0.0.0.0 u1.778669.com
+0.0.0.0 u2.778669.com
+0.0.0.0 u3.778669.com
+0.0.0.0 u4.778669.com
+0.0.0.0 u5.778669.com
+0.0.0.0 u6.778669.com
+0.0.0.0 u493025.778669.com
+#LinkTech
+0.0.0.0 banner.linktech.cn
+0.0.0.0 track.linktech.cn
 #做第一传媒
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
+#华夏
+0.0.0.0 cpc11.hxad.com
+0.0.0.0 cpm2.hxad.com
+#九赢
+0.0.0.0 www1.9v.cn
+0.0.0.0 v.cpp9v.cn
+0.0.0.0 vv.9vcpc.cn
+0.0.0.0 v1.9vcpc.cn
+#信誉
+0.0.0.0 vvww.qyclick.com
+0.0.0.0 www.qyclick.com
+#百分百
+0.0.0.0 engine.100fenlm.cn
+#纵横
+0.0.0.0 ww.zhcpm.com
+#双倍
+0.0.0.0 www.2bj.cn
+#信誉
+0.0.0.0 click.5j.com
+#大联盟
+0.0.0.0 ww.unionbig.com
+#猫猫
+0.0.0.0 www.maomao8.com
+#推告
+0.0.0.0 js.tuigoo.com
+#速影
+0.0.0.0 c.sfilm.com
 #PEE 广告营销
 0.0.0.0 c.pee.cn
 #纳奇游戏营销
