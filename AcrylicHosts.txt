@@ -1,19 +1,27 @@
+
+127.0.0.1       localhost
+127.0.0.1       lh
+127.0.0.1       *.lh
+74.125.19.102   chrome.google.com
+74.125.53.141   *.appspot.com
+
 #常用通配符过滤
 0.0.0.0 *click.* click.simba.taobao.com
+0.0.0.0 *stat.* istat.tudou.com
 0.0.0.0 ad*.*
 0.0.0.0 allyes.*
 0.0.0.0 analytic*.*
 0.0.0.0 clkstat.*
 0.0.0.0 count*.*
 0.0.0.0 cpc.*
+0.0.0.0 cpro.*
 0.0.0.0 g.*
 0.0.0.0 gg.* gg.a.5d6d.com
 0.0.0.0 goto.*
-0.0.0.0 inst.*
+0.0.0.0 *inst.*
 0.0.0.0 inte.*
 0.0.0.0 itv.*
 0.0.0.0 ivy.*
-0.0.0.0 jsunion.*
 0.0.0.0 market.*
 0.0.0.0 p4p.*
 0.0.0.0 partner.*
@@ -26,25 +34,111 @@
 0.0.0.0 redirect.*
 0.0.0.0 sc.*
 0.0.0.0 stat.*
-0.0.0.0 *stat.* istat.tudou.com
 0.0.0.0 tongji.*
 0.0.0.0 u.* u.115.com
 0.0.0.0 union.*
 0.0.0.0 x.*
-
-#常用广告联盟
+#Google
+0.0.0.0 *.doubleclick.net
+0.0.0.0 *.googleadservices.com
+0.0.0.0 *.googlesyndication.com
+0.0.0.0 *.urchin.com
+0.0.0.0 *.googleadsserving.cn
+0.0.0.0 *.google-analytics.com
+#百度
+0.0.0.0 baidutv.baidu.com
+0.0.0.0 bar.baidu.com
+0.0.0.0 c.baidu.com
+0.0.0.0 cjhq.baidu.com
+0.0.0.0 drmcmm.baidu.com
+0.0.0.0 e.baidu.com
+0.0.0.0 eiv.baidu.com
+0.0.0.0 hc.baidu.com
+0.0.0.0 hm.baidu.com
+0.0.0.0 ma.baidu.com
+0.0.0.0 nsclick.baidu.com
+0.0.0.0 spcode.baidu.com
+0.0.0.0 tk.baidu.com
+0.0.0.0 toolbar.baidu.com
+0.0.0.0 utility.baidu.com
+0.0.0.0 utk.baidu.com
+#阿里
+0.0.0.0 *.alimama.cn
+0.0.0.0 *.alimama.com
+#搜狗
+0.0.0.0 *.cpc.sogou.com
+0.0.0.0 *.brand.sogou.com
+#大陆常见广告
+0.0.0.0 *jebe.renren.com
+0.0.0.0 acs.*.com 
+0.0.0.0 dvs*.china.com
+0.0.0.0 activate.*.com
+0.0.0.0 *.joywell.com.cn
+0.0.0.0 *.serving-sys.com
+0.0.0.0 *.linksynergy.com
+0.0.0.0 *.thinkmedia.cn
+0.0.0.0 *.admaster.com.cn
+0.0.0.0 *.linksynergy.com
+0.0.0.0 *.mediav.com
+0.0.0.0 *.ooommm.com.cn
+0.0.0.0 *.abang.com
+0.0.0.0 *.51link.com
+#港台常见广告
+0.0.0.0 ad.wretch.cc
+0.0.0.0 admd.yam.com
+0.0.0.0 adsense.scupio.com
+0.0.0.0 gwc.iblinx.com
+0.0.0.0 hwachun.webplus.com.tw
+0.0.0.0 money.scupio.com
+0.0.0.0 mx3.hotrank.com.tw
+0.0.0.0 pic.addeliver.biz
+0.0.0.0 www.iasoho.com
+#国外常见广告
+0.0.0.0 *.adbrite.com
+0.0.0.0 *.addtoany.com
+0.0.0.0 *.adinterax.com
+0.0.0.0 *.adsfactor.cn
+0.0.0.0 *.buysellads.com
+0.0.0.0 *.casalemedia.com
+0.0.0.0 *.effiliation.asia
+0.0.0.0 *.ixlink.net
+0.0.0.0 *.questionmarket.com
+0.0.0.0 *.softonic.cn
+0.0.0.0 *.xineurope.com
+0.0.0.0 *adlog.com.com
+0.0.0.0 *media-servers.net
+#推广中奖等
+0.0.0.0 *.haowzz.com.cn
+0.0.0.0 *.91ivr.com
+0.0.0.0 *.8977.com
+0.0.0.0 *.ok8848.com
+0.0.0.0 *.qqhdx.cn
+0.0.0.0 *.ok365.com
+0.0.0.0 *.u966.com
+0.0.0.0 *.30so.com
+0.0.0.0 *.2yt.net
+0.0.0.0 *.leeuu.net
+0.0.0.0 *.p.cn
+0.0.0.0 *.wooigoo.cn
+#广告联盟
 0.0.0.0 *.0252.com
 0.0.0.0 *.100fenlm.cn
 0.0.0.0 *.1133.cc
+0.0.0.0 *.2bj.cn
 0.0.0.0 *.37cs.com
 0.0.0.0 *.51.la
 0.0.0.0 *.51yes.com
 0.0.0.0 *.55.la
+0.0.0.0 *.5j.com
 0.0.0.0 *.70yx.com
+0.0.0.0 *.778669.com
 0.0.0.0 *.7pk.com
+0.0.0.0 *.9v.cn
+0.0.0.0 *.9vcpc.cn
 0.0.0.0 *.acs86.com
 0.0.0.0 *.adpolestar.net
 0.0.0.0 *.adpower.cn
+0.0.0.0 *.ads8.com
 0.0.0.0 *.adsunion.com
 0.0.0.0 *.alimama.cn
 0.0.0.0 *.alimama.com
@@ -52,47 +146,55 @@
 0.0.0.0 *.allyes.cn
 0.0.0.0 *.allyes.com
 0.0.0.0 *.chanet.com.cn
-0.0.0.0 *.clickeye.cn
-0.0.0.0 *.clickeye.com.cn
+0.0.0.0 *.clickeye.*
 0.0.0.0 *.cnxad.com
 0.0.0.0 *.cnzz.com
-0.0.0.0 *.datamaster.com.cn
+0.0.0.0 *.cpp9v.cn
+0.0.0.0 *.datamaster.*
 0.0.0.0 *.eee114.com
 0.0.0.0 *.egooad.com
 0.0.0.0 *.g1d.net
 0.0.0.0 *.heima8.com
+0.0.0.0 *.hxad.com
 0.0.0.0 *.icast.cn
 0.0.0.0 *.imrworldwide.com
-0.0.0.0 *.joywell.com.cn
 0.0.0.0 *.keduo.cc
 0.0.0.0 *.keyrun.com
 0.0.0.0 *.linezing.com
+0.0.0.0 *.linktech.cn
+0.0.0.0 *.maomao8.com
 0.0.0.0 *.maxreturn.cn
 0.0.0.0 *.menhutong.com.cn
 0.0.0.0 *.myad.cn
-0.0.0.0 *.myrice.com 
+0.0.0.0 *.mybestyouxi.cn
+0.0.0.0 *.myrice.com
+0.0.0.0 *.naqigs.com
 0.0.0.0 *.oadz.com
 0.0.0.0 *.paypopup.com
+0.0.0.0 *.pee.cn
+0.0.0.0 *.qyclick.com
 0.0.0.0 *.serving-sys.com
+0.0.0.0 *.sfilm.com
+0.0.0.0 *.tuigoo.com
+0.0.0.0 *.unionbig.com
 0.0.0.0 *.unionsky.cn
 0.0.0.0 *.vodone.cn
 0.0.0.0 *.vodone.com
+0.0.0.0 *.wanliuliang.com
 0.0.0.0 *.wrating.com
+0.0.0.0 *.xwadv.com
 0.0.0.0 *.yigao.com
 0.0.0.0 *.yiqifa.com
 0.0.0.0 *.zdy.cc
-0.0.0.0 *jebe.renren.com
+0.0.0.0 *.zhcpm.com
 0.0.0.0 *ra.icast.cn
-0.0.0.0 acs.*.com 
-0.0.0.0 dvs*.china.com
-0.0.0.0 activate.*.com
-
-# Rogue&Malicious Site
-0.0.0.0 *.duote.com
+#流氓类网站
 0.0.0.0 *.114.com.cn
 0.0.0.0 *.118114.cn
 0.0.0.0 *.cncmax.cn
-
+0.0.0.0 *.duote.com
+0.0.0.0 *dianxin.*
+0.0.0.0 asiaf*.com
 # BOOK
 0.0.0.0 image.86661.com
 #! QiDian
@@ -159,8 +261,6 @@
 0.0.0.0 *.ad-plus.cn
 #! Tianya
 0.0.0.0 80*.tianya.cn
-#! CCTV
-0.0.0.0 a.cctv.com
 #! XinHua
 0.0.0.0 embed.xinhuanet.com
 0.0.0.0 entity.xinhuanet.com
@@ -187,78 +287,6 @@
 0.0.0.0 uid.mdbchina.com
 0.0.0.0 uniclick.openv.com
 
-#网络广告商
-#! Google
-0.0.0.0 *.doubleclick.net
-0.0.0.0 *.google-analytics.com
-0.0.0.0 *.googleadservices.com
-0.0.0.0 *.googleadsserving.cn
-0.0.0.0 *.googlesyndication.com
-0.0.0.0 *.pgooglesyndication.com
-0.0.0.0 *.urchin.com
-#! Baidu
-0.0.0.0 a.baidu.com
-0.0.0.0 ba*.baidu.com
-0.0.0.0 c*.baidu.com
-0.0.0.0 drmcmm.baidu.com
-0.0.0.0 e*.baidu.com
-0.0.0.0 h*.baidu.com
-0.0.0.0 ma.baidu.com
-0.0.0.0 nsclick.baidu.com
-0.0.0.0 spcode.baidu.com
-0.0.0.0 t*.baidu.com
-0.0.0.0 ut*.baidu.com
-#! Sogou
-0.0.0.0 *cpc.sogou.com
-0.0.0.0 *.brand.sogou.com
-0.0.0.0 fair.sogou.com
-0.0.0.0 pbd.sogou.com
-
-# X Web Common Use
-#! Taiwan
-0.0.0.0 admd.yam.com
-0.0.0.0 gwc.iblinx.com
-0.0.0.0 hwachun.webplus.com.tw
-0.0.0.0 money.scupio.com
-0.0.0.0 mx3.hotrank.com.tw
-0.0.0.0 pic.addeliver.biz
-0.0.0.0 www.iasoho.com
-#! China
-0.0.0.0 a.dlqm.net
-0.0.0.0 a4.yeshj.com
-0.0.0.0 action.utops.cc
-0.0.0.0 d.5d6d.com
-0.0.0.0 dw-cn.com.com
-0.0.0.0 gfyoyo.com.cn
-0.0.0.0 sales.woyo.com
-0.0.0.0 v3.apic.51.com
-0.0.0.0 www.adtools.cn
-0.0.0.0 www.algj-27dy.cn
-0.0.0.0 www.cbsinteractive.com
-0.0.0.0 www.clicki.cn
-0.0.0.0 www.cxgglm.com
-#! Foreign
-0.0.0.0 *.media-servers.net
-0.0.0.0 *.adbrite.com
-0.0.0.0 *.adinterax.com
-0.0.0.0 *.ixlink.net
-0.0.0.0 *.questionmarket.com
-0.0.0.0 adlog.com.com
-0.0.0.0 *.xineurope.com
-0.0.0.0 *.softonic.cn
-0.0.0.0 *.buysellads.com
-0.0.0.0 *.adsfactor.cn
-0.0.0.0 *.addtoany.com
-0.0.0.0 *.effiliation.asia
-#! Misc&test
-0.0.0.0 img.8977.com
-0.0.0.0 u.30so.com
-0.0.0.0 u.7town.com
-0.0.0.0 u4.778669.com
-0.0.0.0 u493025.778669.com
-0.0.0.0 www.leeuu.net
-0.0.0.0 *.p.cn
-0.0.0.0 asiaf*d.com
 #*****************************Web The End******************************
 
 # MediaPlayer
@@ -349,13 +377,11 @@
 0.0.0.0 *.klplayer.com
 0.0.0.0 *.pctutu.*
 #! 360
-0.0.0.0 *inst.360.cn
 0.0.0.0 qd.code.360.cn
 0.0.0.0 updatem.360safe.com
 0.0.0.0 aimg.qihoo.com
 #! OtherSoft
 0.0.0.0 statcn-*.maxthon.com
-0.0.0.0 union.rising.com.cn
 0.0.0.0 zcomcdl.zcominc.com
 # Reg
 #! Game (Red Alter etc.)
