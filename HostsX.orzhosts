@@ -1,4 +1,4 @@
-;version=201002080016
+;version=201002081300
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -997,8 +997,13 @@
 #信誉
 0.0.0.0 vvww.qyclick.com
 0.0.0.0 www.qyclick.com
+#挚盟
+0.0.0.0 c.wauee.com
+0.0.0.0 stat.wauee.com
 #百分百
 0.0.0.0 engine.100fenlm.cn
+#淘小宝
+0.0.0.0 www23.tx8.cn
 #纵横
 0.0.0.0 ww.zhcpm.com
 #双倍

@@ -7,7 +7,6 @@
 
 #常用通配符过滤
 0.0.0.0 *click.* click.simba.taobao.com
-0.0.0.0 *stat.* istat.tudou.com
 0.0.0.0 ad*.*
 0.0.0.0 allyes.*
 0.0.0.0 analytic*.*
