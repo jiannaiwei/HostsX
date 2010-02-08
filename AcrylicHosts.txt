@@ -352,7 +352,7 @@
 0.0.0.0 kkpgv.xunlei.com
 #! QQ
 0.0.0.0 ad*.qq.com
-0.0.0.0 *l.qq.com
+0.0.0.0 *.l.qq.com
 0.0.0.0 ping*.qq.com
 #! MSN
 0.0.0.0 crl.microsoft.com
