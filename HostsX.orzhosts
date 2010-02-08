@@ -1,4 +1,4 @@
-;version=201002081300
+;version=201002082000
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -808,7 +808,6 @@
 0.0.0.0 www.adtools.cn
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.cbsinteractive.com
-0.0.0.0 www.clicki.cn
 0.0.0.0 www.cxgglm.com
 #港台常见广告
 0.0.0.0 ad.wretch.cc
@@ -856,7 +855,7 @@
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.p.cn
 0.0.0.0 www.wooigoo.cn
-@HostsX 网络广告过滤/流量统计
+@HostsX 网络广告过滤/统计跟踪
 #51la
 0.0.0.0 js.users.51.la
 0.0.0.0 vip.51.la
@@ -871,6 +870,9 @@
 0.0.0.0 icon.cnzz.com
 0.0.0.0 v3.cnzz.com
 0.0.0.0 w.cnzz.com
+#Webnibbler
+0.0.0.0 cn.tag.btnibbler.com
+0.0.0.0 tw.tag.adnibbler.com
 #尼尔森
 0.0.0.0 secure-cn.imrworldwide.com
 0.0.0.0 secure-sg.imrworldwide.com
@@ -882,6 +884,9 @@
 0.0.0.0 c2m.wanliuliang.com
 0.0.0.0 p.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com
+#雅虎统计
+0.0.0.0 js.tongji.yahoo.com.cn
+0.0.0.0 js.tongji.cn.yahoo.com
 #万瑞数据
 0.0.0.0 163.wrating.com
 0.0.0.0 c.wrating.com
@@ -892,6 +897,13 @@
 0.0.0.0 tom.wrating.com
 0.0.0.0 tongji.wrating.com
 0.0.0.0 www.wrating.com
+#其他
+0.0.0.0 popstat.pppop.cn
+0.0.0.0 static.woopra.com
+0.0.0.0 www.clicki.cn
+0.0.0.0 www.nasboq.com
+0.0.0.0 www.referer.cn
+0.0.0.0 www.zzcount.com
 @HostsX 网络广告过滤/常用广告联盟
 #265
 0.0.0.0 link.265.com
