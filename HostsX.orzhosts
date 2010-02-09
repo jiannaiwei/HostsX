@@ -1,4 +1,4 @@
-;version=201002082000
+;version=201002091536
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -847,6 +847,7 @@
 0.0.0.0 g.91ivr.com
 0.0.0.0 img.8977.com
 0.0.0.0 img.ok8848.com
+0.0.0.0 image.tazhao.com
 0.0.0.0 qqhdx.cn
 0.0.0.0 search.ok365.com
 0.0.0.0 static.u966.com
