@@ -1,4 +1,4 @@
-;version=201002091536
+;version=201002101915
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -230,6 +230,7 @@
 0.0.0.0 float.sandai.net
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 mpv.sandai.net
+0.0.0.0 pubstat.sandai.net
 0.0.0.0 ub.dphub.sandai.net
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
@@ -244,7 +245,9 @@
 0.0.0.0 recommend.xunlei.com
 0.0.0.0 res.stat.xunlei.com
 0.0.0.0 stat.xunlei.com
+0.0.0.0 static.soft.xunlei.com
 0.0.0.0 web.stat.xunlei.com
+0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
 #Maxthon
 0.0.0.0 mk.maxthon.cn
