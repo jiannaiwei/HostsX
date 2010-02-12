@@ -1,4 +1,4 @@
-;version=201002121236
+;version=201002121745
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -502,6 +502,7 @@
 0.0.0.0 dcads.sina.com.cn
 0.0.0.0 pfp.sina.com.cn
 0.0.0.0 pfpip.sina.com
+0.0.0.0 pfpclick.sina.com.cn
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinasc.allyes.com
 #搜狐
