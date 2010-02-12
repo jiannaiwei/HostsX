@@ -1,4 +1,4 @@
-;version=201002102217
+;version=201002121236
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -433,6 +433,7 @@
 0.0.0.0 v.vodone.com
 #56
 0.0.0.0 acs.56.com
+0.0.0.0 bill.agent.56.com
 0.0.0.0 union.56.com
 #6间房
 0.0.0.0 simba.6.cn
