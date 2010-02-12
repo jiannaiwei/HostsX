@@ -1,4 +1,4 @@
-;version=201002121745
+;version=201002121916
 ;author=郭鹏锟（J.K）
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
@@ -440,6 +440,7 @@
 0.0.0.0 pole.6rooms.com
 0.0.0.0 shrek.6.cn
 #天线视频
+0.0.0.0 m.openv.tv
 0.0.0.0 uniclick.openv.com
 #爆米花网
 0.0.0.0 union.pomoho.com
