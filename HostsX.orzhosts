@@ -1,4 +1,4 @@
-;version=201002131500
+;version=201002140026
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -122,6 +122,8 @@
 0.0.0.0 union.phpwind.com
 #Topzj
 0.0.0.0 jj.topzj.com
+#Wopus
+0.0.0.0 ads.wopus.org
 @HostsX 站点广告过滤/IT 类网站
 #中关村系列
 0.0.0.0 adm.zol.com.cn
