@@ -1,4 +1,4 @@
-;version=201002140026
+;version=201002152215
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -907,70 +907,6 @@
 0.0.0.0 adm.funshion.com
 0.0.0.0 gstat.funshion.com
 0.0.0.0 partner.funshion.com
-@HostsX 软件广告过滤/验证类
-#ACDSee
-0.0.0.0	acdupdater.acdsystems.com
-0.0.0.0	soapintouch.acdnet.com
-#Emurasoft（EmEditor）
-0.0.0.0	www.emurasoft.com
-#LonelyCat（X-plore）
-82.197.131.24 www.lonelycatgames.com
-#Martau（Total Uninstall）
-0.0.0.0	www.martau.com
-#Nikon Imaging
-0.0.0.0	sams.nikonimaging.com
-#SRS Audio Sandbox
-0.0.0.0	www.srs-store.com
-#Swiftdog
-0.0.0.0	www.swiftdog.com
-#XMLSoap
-0.0.0.0	schemas.xmlsoap.org
-#Adobe 系列（PS Pr等）
-0.0.0.0	3dns-2.adobe.com
-0.0.0.0	3dns-3.adobe.com
-0.0.0.0	activate-sea.adobe.com
-0.0.0.0	activate-sjc0.adobe.com
-0.0.0.0	activate.adobe.com
-0.0.0.0	activate.wip3.adobe.com
-0.0.0.0	adobe-dns-2.adobe.com
-0.0.0.0	adobe-dns-3.adobe.com
-0.0.0.0	adobe-dns.adobe.com
-0.0.0.0	ereg.adobe.com
-0.0.0.0	ereg.wip3.adobe.com
-0.0.0.0	ns.adobe.com
-0.0.0.0	practivate.adobe.com
-0.0.0.0	wip3.adobe.com
-0.0.0.0	wwis-dubc1-vip60.adobe.com
-0.0.0.0	www.adobeereg.com
-#IDM 系列（UE UC IDM等）
-0.0.0.0	internetdownloadmanager.com
-0.0.0.0	mirror.internetdownloadmanager.com
-0.0.0.0	mirror2.internetdownloadmanager.com
-0.0.0.0	mirror3.internetdownloadmanager.com
-0.0.0.0	secure.internetdownloadmanager.com
-0.0.0.0	www.internetdownloadmanager.com
-0.0.0.0	registeridm.com
-0.0.0.0	secure.registeridm.com
-0.0.0.0	www.registeridm.com
-0.0.0.0	tonec.com
-0.0.0.0	www.tonec.com
-#游戏 英雄连
-0.0.0.0	cohlive-1.quazal.net
-0.0.0.0	cohlive.quazal.net
-0.0.0.0	reliclive-1.quazal.net
-0.0.0.0	reliclive.quazal.net
-#游戏 EA系列（红警等）
-0.0.0.0	mangler1.generals.ea.com
-0.0.0.0	mangler2.generals.ea.com 
-0.0.0.0	mangler3.generals.ea.com 
-0.0.0.0	mangler4.generals.ea.com
-0.0.0.0	mangler5.generals.ea.com
-0.0.0.0	mangler6.generals.ea.com
-0.0.0.0	mangler7.generals.ea.com
-0.0.0.0	mangler8.generals.ea.com
-0.0.0.0	mangler9.generals.ea.com
-0.0.0.0	mangler10.generals.ea.com
-0.0.0.0	servserv.generals.ea.com
 @HostsX 软件广告过滤/其他类
 #奇虎360
 0.0.0.0	aimg.qihoo.com
@@ -1067,3 +1003,69 @@
 #推广下载系列
 0.0.0.0	union.rising.com.cn
 0.0.0.0	zcomcdl.zcominc.com
+@HostsX 软件广告过滤/验证类
+#ACDSee
+0.0.0.0	acdupdater.acdsystems.com
+0.0.0.0	soapintouch.acdnet.com
+#Emurasoft（EmEditor）
+0.0.0.0	www.emurasoft.com
+#LonelyCat（X-plore）
+82.197.131.24 www.lonelycatgames.com
+#Martau（Total Uninstall）
+0.0.0.0	www.martau.com
+#Nikon Imaging
+0.0.0.0	sams.nikonimaging.com
+#NOD-V3
+0.0.0.0 exp01.eset.com
+#SRS Audio Sandbox
+0.0.0.0	www.srs-store.com
+#Swiftdog
+0.0.0.0	www.swiftdog.com
+#XMLSoap
+0.0.0.0	schemas.xmlsoap.org
+#Adobe 系列（PS Pr等）
+0.0.0.0	3dns-2.adobe.com
+0.0.0.0	3dns-3.adobe.com
+0.0.0.0	activate-sea.adobe.com
+0.0.0.0	activate-sjc0.adobe.com
+0.0.0.0	activate.adobe.com
+0.0.0.0	activate.wip3.adobe.com
+0.0.0.0	adobe-dns-2.adobe.com
+0.0.0.0	adobe-dns-3.adobe.com
+0.0.0.0	adobe-dns.adobe.com
+0.0.0.0	ereg.adobe.com
+0.0.0.0	ereg.wip3.adobe.com
+0.0.0.0	ns.adobe.com
+0.0.0.0	practivate.adobe.com
+0.0.0.0	wip3.adobe.com
+0.0.0.0	wwis-dubc1-vip60.adobe.com
+0.0.0.0	www.adobeereg.com
+#IDM 系列（UE UC IDM等）
+0.0.0.0	internetdownloadmanager.com
+0.0.0.0	mirror.internetdownloadmanager.com
+0.0.0.0	mirror2.internetdownloadmanager.com
+0.0.0.0	mirror3.internetdownloadmanager.com
+0.0.0.0	secure.internetdownloadmanager.com
+0.0.0.0	www.internetdownloadmanager.com
+0.0.0.0	registeridm.com
+0.0.0.0	secure.registeridm.com
+0.0.0.0	www.registeridm.com
+0.0.0.0	tonec.com
+0.0.0.0	www.tonec.com
+#游戏 英雄连
+0.0.0.0	cohlive-1.quazal.net
+0.0.0.0	cohlive.quazal.net
+0.0.0.0	reliclive-1.quazal.net
+0.0.0.0	reliclive.quazal.net
+#游戏 EA系列（红警等）
+0.0.0.0	mangler1.generals.ea.com
+0.0.0.0	mangler2.generals.ea.com 
+0.0.0.0	mangler3.generals.ea.com 
+0.0.0.0	mangler4.generals.ea.com
+0.0.0.0	mangler5.generals.ea.com
+0.0.0.0	mangler6.generals.ea.com
+0.0.0.0	mangler7.generals.ea.com
+0.0.0.0	mangler8.generals.ea.com
+0.0.0.0	mangler9.generals.ea.com
+0.0.0.0	mangler10.generals.ea.com
+0.0.0.0	servserv.generals.ea.com
