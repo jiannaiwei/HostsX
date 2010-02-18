@@ -1,4 +1,3 @@
-
 127.0.0.1       localhost
 127.0.0.1       lh
 127.0.0.1       *.lh
@@ -7,25 +6,20 @@
 
 #常用通配符过滤
 0.0.0.0 *click.* click.simba.taobao.com
+0.0.0.0 *inst.*
 0.0.0.0 ad*.*
 0.0.0.0 allyes.*
 0.0.0.0 analytic*.*
+0.0.0.0 click.*
 0.0.0.0 clkstat.*
 0.0.0.0 count*.*
 0.0.0.0 cpc.*
 0.0.0.0 cpro.*
-0.0.0.0 g.*
+0.0.0.0 g.* g.top100.cn
 0.0.0.0 gg.* gg.a.5d6d.com
 0.0.0.0 goto.*
-0.0.0.0 *inst.*
 0.0.0.0 inte.*
-0.0.0.0 itv.*
-0.0.0.0 ivy.*
-0.0.0.0 market.*
-0.0.0.0 p4p.*
-0.0.0.0 partner.*
-0.0.0.0 ping.*
-0.0.0.0 pro.*
+0.0.0.0 p4p*.*
 0.0.0.0 pv.*
 0.0.0.0 ranking.*
 0.0.0.0 rd.*
@@ -83,9 +77,6 @@
 0.0.0.0 *.abang.com
 0.0.0.0 *.51link.com
 #港台常见广告
-0.0.0.0 ad.wretch.cc
-0.0.0.0 admd.yam.com
-0.0.0.0 adsense.scupio.com
 0.0.0.0 gwc.iblinx.com
 0.0.0.0 hwachun.webplus.com.tw
 0.0.0.0 money.scupio.com
@@ -308,8 +299,6 @@
 0.0.0.0 *-ad.qvod.com
 #! Funshion
 0.0.0.0 ad*.funshion.com
-#! eLiveMovie
-0.0.0.0 sm2.netitv.com
 #! Storm
 0.0.0.0 *info.baofeng.com
 0.0.0.0 *op.baofeng.net
@@ -317,29 +306,9 @@
 0.0.0.0 mid*.baofeng.com
 0.0.0.0 t*.baofeng.com
 0.0.0.0 video*.baofeng.com
-#! Kugoo
-0.0.0.0 links.kugoo.com
-0.0.0.0 mkg.kugou.com
-0.0.0.0 myonline.kugou.com
-0.0.0.0 sdn.kugoo.com
 #! TTplayer
 0.0.0.0 p2plog.qianqian.com
 0.0.0.0 tt*.qianqian.com
-#! Vagaa
-0.0.0.0 btjoy.com
-0.0.0.0 img.daodao001.cn
-0.0.0.0 text.mplayer.org.cn
-#! Win Media Player
-0.0.0.0 locator.metadata.windowsmedia.com
-0.0.0.0 *metaservices.microsoft.com
-0.0.0.0 music.poptang.com
-0.0.0.0 onlinestore.smgbb.cn
-0.0.0.0 tienda.farolatino.com
-0.0.0.0 wmp.bjxrtc.com.cn
-0.0.0.0 wmp.phoenixtv.com
-0.0.0.0 www.farolatino.com
-0.0.0.0 www.wa3.cn
-0.0.0.0 xml11es.farolatino.com
 # Xunlei Soft
 0.0.0.0 areainfo.xunlei.com
 0.0.0.0 biz*.sandai.net
@@ -357,57 +326,7 @@
 0.0.0.0 crl.microsoft.com
 0.0.0.0 rad.live.com
 0.0.0.0 rad.msn.com
-#! Neoimag
-0.0.0.0 clientconfig.neoimaging.cn
-0.0.0.0 gift.neoimaging.cn
-0.0.0.0 jump.neoimaging.cn
-#! SogouPinyin
-0.0.0.0 files2.sogou.com
-0.0.0.0 ime.sogou.com
-0.0.0.0 *.pinyin.sogou.com
-#! FlashGet
-0.0.0.0 bc.kuaiche.com
-0.0.0.0 cimg.kuaiche.com
-0.0.0.0 directui.kuaiche.com.showq.net
-0.0.0.0 ufile.kuaiche.com
-0.0.0.0 dll.flashget.com
-0.0.0.0 fetch.flashget.com
-#! PcTuTu
-0.0.0.0 *.pcpc8.com
-0.0.0.0 *.klplayer.com
-0.0.0.0 *.pctutu.*
-#! 360
-0.0.0.0 qd.code.360.cn
-0.0.0.0 updatem.360safe.com
-0.0.0.0 aimg.qihoo.com
 #! OtherSoft
 0.0.0.0 statcn-*.maxthon.com
-0.0.0.0 zcomcdl.zcominc.com
-# Reg
-#! Game (Red Alter etc.)
-0.0.0.0 *generals.ea.com
-0.0.0.0 *quazal.net
-#! Adobe
-0.0.0.0 3dns*.adobe.com
-0.0.0.0 activate*.adobe.com
-0.0.0.0 adobe-dns*.adobe.com
-0.0.0.0 ereg*.adobe.com
-0.0.0.0 ns.adobe.com
-0.0.0.0 practivate.adobe.com
-0.0.0.0 wip3.adobe.com
-0.0.0.0 wwis-dubc1-vip60.adobe.com
-0.0.0.0 www.adobeereg.com
-#! IDM
-0.0.0.0 *internetdownloadmanager.com
-0.0.0.0 *registeridm.com
-0.0.0.0 *tonec.com
-#! Ot Soft
-0.0.0.0 acdupdater.acdsystems.com
-0.0.0.0 soapintouch.acdnet.com
-0.0.0.0 sams.nikonimaging.com
-0.0.0.0 *.swiftdog.com
-0.0.0.0 *.emurasoft.com
-0.0.0.0 schemas.xmlsoap.org
-0.0.0.0 www.srs-store.com
-0.0.0.0 www.martau.com
-#****************************Soft The End******************************
+
+
