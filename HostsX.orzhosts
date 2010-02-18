@@ -1,4 +1,4 @@
-;version=201002181530
+;version=201002182012
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -606,7 +606,7 @@
 0.0.0.0 track.effiliation.asia
 #推广中奖等
 0.0.0.0 cpc.haowzz.com.cn
-0.0.0.0 g.91ivr.com
+0.0.0.0 g.chinaih.com
 0.0.0.0 img.8977.com
 0.0.0.0 img.ok8848.com
 0.0.0.0 image.tazhao.com
@@ -761,6 +761,9 @@
 0.0.0.0 u5.778669.com
 0.0.0.0 u6.778669.com
 0.0.0.0 u493025.778669.com
+#91ivr
+0.0.0.0 g.91ivr.com
+0.0.0.0 u.91ivr.com
 #LinkTech
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
