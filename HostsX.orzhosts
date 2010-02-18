@@ -1,4 +1,4 @@
-;version=201002181515
+;version=201002181530
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -792,7 +792,6 @@
 0.0.0.0 ww.zhcpm.com
 #双倍
 0.0.0.0 www.2bj.cn
-#信誉
 0.0.0.0 click.5j.com
 #大联盟
 0.0.0.0 ww.unionbig.com
@@ -948,7 +947,6 @@
 0.0.0.0	olstat.flashget.com
 0.0.0.0	stat.flashget.com
 #光影魔术手
-0.0.0.0	ad.neoimaging.cn
 0.0.0.0 ad.neoimaging.cn
 0.0.0.0 clientconfig.neoimaging.cn
 0.0.0.0 gift.neoimaging.cn
@@ -1008,7 +1006,7 @@
 #ACDSee
 0.0.0.0	acdupdater.acdsystems.com
 0.0.0.0	soapintouch.acdnet.com
-#CuteFTP 
+#CuteFTP
 0.0.0.0 cuteftp.com
 0.0.0.0 dbregistration.cuteftp.com
 0.0.0.0 globalscape.com
@@ -1016,7 +1014,7 @@
 0.0.0.0 www.globalscape.com
 #Emurasoft（EmEditor）
 0.0.0.0	www.emurasoft.com
-#FlashFXP 
+#FlashFXP
 0.0.0.0 flashfxp.com
 0.0.0.0 flashfxp.org
 0.0.0.0 flashfxp.ws
@@ -1035,7 +1033,7 @@
 0.0.0.0	www.srs-store.com
 #Swiftdog
 0.0.0.0	www.swiftdog.com
-#WinDVD 
+#WinDVD
 0.0.0.0 upgrade.intervideo.com
 #XMLSoap
 0.0.0.0	schemas.xmlsoap.org
@@ -1075,8 +1073,8 @@
 0.0.0.0	reliclive.quazal.net
 #游戏 EA系列（红警等）
 0.0.0.0	mangler1.generals.ea.com
-0.0.0.0	mangler2.generals.ea.com 
-0.0.0.0	mangler3.generals.ea.com 
+0.0.0.0	mangler2.generals.ea.com
+0.0.0.0	mangler3.generals.ea.com
 0.0.0.0	mangler4.generals.ea.com
 0.0.0.0	mangler5.generals.ea.com
 0.0.0.0	mangler6.generals.ea.com
