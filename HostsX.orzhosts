@@ -1,4 +1,4 @@
-;version=201002152215
+;version=201002181500
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -1007,8 +1007,21 @@
 #ACDSee
 0.0.0.0	acdupdater.acdsystems.com
 0.0.0.0	soapintouch.acdnet.com
+#CuteFTP 
+0.0.0.0 cuteftp.com
+0.0.0.0 dbregistration.cuteftp.com
+0.0.0.0 globalscape.com
+0.0.0.0 www.cuteftp.com
+0.0.0.0 www.globalscape.com
 #Emurasoft（EmEditor）
 0.0.0.0	www.emurasoft.com
+#FlashFXP 
+0.0.0.0 flashfxp.com
+0.0.0.0 flashfxp.org
+0.0.0.0 flashfxp.ws
+0.0.0.0 www.flashfxp.com
+0.0.0.0 www.flashfxp.org
+0.0.0.0 www.flashfxp.ws
 #LonelyCat（X-plore）
 82.197.131.24 www.lonelycatgames.com
 #Martau（Total Uninstall）
@@ -1021,6 +1034,8 @@
 0.0.0.0	www.srs-store.com
 #Swiftdog
 0.0.0.0	www.swiftdog.com
+#WinDVD 
+0.0.0.0 upgrade.intervideo.com
 #XMLSoap
 0.0.0.0	schemas.xmlsoap.org
 #Adobe 系列（PS Pr等）
