@@ -7,7 +7,7 @@
 #常用通配符过滤
 0.0.0.0 *click.* click.simba.taobao.com
 0.0.0.0 *inst.*
-0.0.0.0 ad*.*
+0.0.0.0 ad*.* admin.zol.com
 0.0.0.0 allyes.*
 0.0.0.0 analytic*.*
 0.0.0.0 click.*
@@ -71,7 +71,6 @@
 0.0.0.0 *.linksynergy.com
 0.0.0.0 *.thinkmedia.cn
 0.0.0.0 *.admaster.com.cn
-0.0.0.0 *.linksynergy.com
 0.0.0.0 *.mediav.com
 0.0.0.0 *.ooommm.com.cn
 0.0.0.0 *.abang.com
@@ -130,8 +129,6 @@
 0.0.0.0 *.adpower.cn
 0.0.0.0 *.ads8.com
 0.0.0.0 *.adsunion.com
-0.0.0.0 *.alimama.cn
-0.0.0.0 *.alimama.com
 0.0.0.0 *.all4ad.cn
 0.0.0.0 *.allyes.cn
 0.0.0.0 *.allyes.com
@@ -163,7 +160,6 @@
 0.0.0.0 *.paypopup.com
 0.0.0.0 *.pee.cn
 0.0.0.0 *.qyclick.com
-0.0.0.0 *.serving-sys.com
 0.0.0.0 *.sfilm.com
 0.0.0.0 *.tuigoo.com
 0.0.0.0 *.unionbig.com
@@ -178,6 +174,91 @@
 0.0.0.0 *.zdy.cc
 0.0.0.0 *.zhcpm.com
 0.0.0.0 *ra.icast.cn
+#Test Union
+0.0.0.0 *.100190.com
+0.0.0.0 *.114.my
+0.0.0.0 *.17luntan.com
+0.0.0.0 *.186ad.com
+0.0.0.0 *.247realmedia.com
+0.0.0.0 *.26.lajs
+0.0.0.0 *.2kkk.com
+0.0.0.0 *.2t2t.cn
+0.0.0.0 *.59163.com
+0.0.0.0 *.5j5k.com
+0.0.0.0 *.5k3g.com
+0.0.0.0 *.5zon.com
+0.0.0.0 *.779.net
+0.0.0.0 *.7ask.cn
+0.0.0.0 *.7clink.com
+0.0.0.0 *.7clink.org
+0.0.0.0 *.7iam.com
+0.0.0.0 *.8866.org
+0.0.0.0 *.8dlink.com
+0.0.0.0 *.8le8le.com
+0.0.0.0 *.91adv.com
+0.0.0.0 *.91qianming.cn
+0.0.0.0 *.91union.com
+0.0.0.0 *.99ddd.com
+0.0.0.0 *.9vsms.cn
+0.0.0.0 *.ad2you.com
+0.0.0.0 *.adpinion.com
+0.0.0.0 *.ads99.net
+0.0.0.0 *.adsky.net
+0.0.0.0 *.adtology.com
+0.0.0.0 *.advadmin.com
+0.0.0.0 *.adver.com
+0.0.0.0 *.adversalservers.com
+0.0.0.0 *.advertising.com
+0.0.0.0 *.aiqianming.cn
+0.0.0.0 *.aisf.cn
+0.0.0.0 *.all4ad.net
+0.0.0.0 *.bobomedia.com
+0.0.0.0 *.boodvd.cn
+0.0.0.0 *.burstmedia.com
+0.0.0.0 *.chitika.com
+0.0.0.0 *.clickeye.cn
+0.0.0.0 *.counter.dudu.com
+0.0.0.0 *.diyad.cn
+0.0.0.0 *.dubad.cn
+0.0.0.0 *.dubagw.cn
+0.0.0.0 *.dudusms.*
+0.0.0.0 *.erming120.com
+0.0.0.0 *.ete.cn
+0.0.0.0 *.eteun.cn
+0.0.0.0 *.fb01.cn
+0.0.0.0 *.hot200.cn
+0.0.0.0 *.ifocus.cn
+0.0.0.0 *.insenz.com
+0.0.0.0 *.itsun.com
+0.0.0.0 *.ivansms.com
+0.0.0.0 *.jxkch.com
+0.0.0.0 *.linkad.cn
+0.0.0.0 *.llsging.com
+0.0.0.0 *.miaozhen.com
+0.0.0.0 *.moyu.com
+0.0.0.0 *.myiee.com
+0.0.0.0 *.no3.com.cn
+0.0.0.0 *.q78.com.cn
+0.0.0.0 *.qunsee.com
+0.0.0.0 *.rmxads.com
+0.0.0.0 *.scupio.com
+0.0.0.0 *.seegogo.net
+0.0.0.0 *.sms888.net
+0.0.0.0 *.t2click.com
+0.0.0.0 *.t2t2.com
+0.0.0.0 *.the5v.com
+0.0.0.0 *.tx8688.com
+0.0.0.0 *.uinicall.com
+0.0.0.0 *.ukaka.com
+0.0.0.0 *.unioneasy.com
+0.0.0.0 *.unionete.cn
+0.0.0.0 *.uoolink.com
+0.0.0.0 *.vogate.com
+0.0.0.0 *.wangmeng.com
+0.0.0.0 *.wauee.com
+0.0.0.0 *.web-qq-com.cn
+0.0.0.0 *.yeeyoo.com
+0.0.0.0 *.zyydy.com
 #流氓类网站
 0.0.0.0 *.114.com.cn
 0.0.0.0 *.118114.cn
@@ -277,9 +358,7 @@
 #! Others
 0.0.0.0 uid.mdbchina.com
 0.0.0.0 uniclick.openv.com
-
 #*****************************Web The End******************************
-
 # MediaPlayer
 #! PPLive
 0.0.0.0 pp*.pplive.cn
@@ -328,5 +407,3 @@
 0.0.0.0 rad.msn.com
 #! OtherSoft
 0.0.0.0 statcn-*.maxthon.com
-
-
