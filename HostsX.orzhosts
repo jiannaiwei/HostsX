@@ -1,4 +1,4 @@
-;version=201002192350
+;version=201002192355
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -583,6 +583,7 @@
 0.0.0.0 www.iasoho.com
 #国外常见广告
 0.0.0.0 as.casalemedia.com
+0.0.0.0 ads.cnn.com
 0.0.0.0 ad.media-servers.net
 0.0.0.0 content.media-servers.net
 0.0.0.0 media-servers.net
