@@ -1,4 +1,4 @@
-;version=201002192355
+;version=201003011800
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -322,7 +322,7 @@
 0.0.0.0 uniclick.openv.com
 #爆米花网
 0.0.0.0 union.pomoho.com
-#BOo网影在线
+#Boo网影在线
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
 0.0.0.0 union.boodvd.com
@@ -550,6 +550,7 @@
 0.0.0.0 click3.ooommm.com.cn
 0.0.0.0 clk.abang.com
 0.0.0.0 code.51link.com
+0.0.0.0 dir.ejoina.com
 0.0.0.0 dw-cn.com.com
 0.0.0.0 freeadp.tensynad.com
 0.0.0.0 gfyoyo.com.cn
@@ -767,6 +768,9 @@
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
+#Chinaih
+0.0.0.0 c.chinaih.com
+0.0.0.0 g.chinaih.com
 #LinkTech
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
@@ -796,9 +800,12 @@
 0.0.0.0 ww.zhcpm.com
 #双倍
 0.0.0.0 www.2bj.cn
+#信誉
 0.0.0.0 click.5j.com
 #大联盟
 0.0.0.0 ww.unionbig.com
+0.0.0.0 u.unionli.com
+0.0.0.0 uimg.unionli.com
 #猫猫
 0.0.0.0 www.maomao8.com
 #推告
@@ -962,6 +969,7 @@
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
 0.0.0.0 l.qq.com
+0.0.0.0 c.l.qq.com
 0.0.0.0 ad.qq.com
 0.0.0.0 adshmct.qq.com
 0.0.0.0 adshmmsg.qq.com
@@ -1031,7 +1039,7 @@
 0.0.0.0	www.martau.com
 #Nikon Imaging
 0.0.0.0	sams.nikonimaging.com
-#NOD-V3
+#NOD ID
 0.0.0.0 exp01.eset.com
 #SRS Audio Sandbox
 0.0.0.0	www.srs-store.com
@@ -1041,6 +1049,14 @@
 0.0.0.0 upgrade.intervideo.com
 #XMLSoap
 0.0.0.0	schemas.xmlsoap.org
+#ZALabs
+0.0.0.0 cm2.zonelabs.com
+0.0.0.0 hs2.zonelabs.com
+0.0.0.0 ls2.zonelabs.com
+0.0.0.0 pa2.zonelabs.com
+0.0.0.0 ps2.zonelabs.com
+0.0.0.0 register.zonelabs.com
+0.0.0.0 update.zonelabs.com
 #Adobe 系列（PS Pr等）
 0.0.0.0	3dns-2.adobe.com
 0.0.0.0	3dns-3.adobe.com
