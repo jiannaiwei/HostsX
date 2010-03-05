@@ -1,4 +1,4 @@
-;version=201003021300
+;version=201003051900
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -555,7 +555,9 @@
 0.0.0.0 freeadp.tensynad.com
 0.0.0.0 gfyoyo.com.cn
 0.0.0.0 idea.t2click.com
+0.0.0.0 p.3gm.com.cn
 0.0.0.0 p.yiqifa.com
+0.0.0.0 pic837013.images9999.com
 0.0.0.0 redirect.jooov.cn
 0.0.0.0 s.itopnetworks.com
 0.0.0.0 sales.woyo.com
@@ -767,6 +769,7 @@
 0.0.0.0 u5.778669.com
 0.0.0.0 u6.778669.com
 0.0.0.0 u493025.778669.com
+0.0.0.0 u948016.778669.com
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
