@@ -1,4 +1,4 @@
-;version=201003061745
+;version=201003061820
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -98,6 +98,13 @@
 0.0.0.0 ad.xici.net
 0.0.0.0 afpxici.allyes.com
 0.0.0.0 xiciafp.allyes.com
+#奇虎社区
+0.0.0.0	aimg.qihoo.com
+0.0.0.0	clkstat.qihoo.com
+0.0.0.0	rd.qikoo.com
+0.0.0.0 code.qihoo.com
+0.0.0.0 qd.code.qihoo.com
+0.0.0.0 union.qihoo.com
 #21CN
 0.0.0.0 analytics.21cn.com
 0.0.0.0 click.21cn.com
@@ -111,6 +118,11 @@
 #蜂鸟网
 0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
+#一大把
+0.0.0.0 adc.yidaba.com
+0.0.0.0 adfv.yidaba.com
+0.0.0.0 adj.yidaba.com
+0.0.0.0 adv.yidaba.com
 #5d6d
 0.0.0.0 d.5d6d.com
 0.0.0.0 un.5d6d.com
@@ -122,8 +134,10 @@
 0.0.0.0 union.phpwind.com
 #Topzj
 0.0.0.0 jj.topzj.com
-#Wopus
+#博客推广
 0.0.0.0 ads.wopus.org
+0.0.0.0 adv.blogupp.com 
+0.0.0.0 union.bolaa.com
 @HostsX 站点广告过滤/IT 类网站
 #中关村系列
 0.0.0.0 adm.zol.com.cn
@@ -307,8 +321,15 @@
 0.0.0.0 ego.vodone.com
 0.0.0.0 images.vodone.com
 0.0.0.0 pic.vodone.com
+0.0.0.0 stat.vodone.cn
+0.0.0.0 stat2.vodone.com
+0.0.0.0 u.vodone.com
+0.0.0.0 u3.vodone.com
 0.0.0.0 uflv.vodone.com
 0.0.0.0 v.vodone.com
+0.0.0.0 vlog.vodone.com
+0.0.0.0 vodone.com
+0.0.0.0 www.vodone.com
 #56
 0.0.0.0 acs.56.com
 0.0.0.0 bill.agent.56.com
@@ -570,10 +591,11 @@
 0.0.0.0 redirect.jooov.cn
 0.0.0.0 s.itopnetworks.com
 0.0.0.0 sales.woyo.com
+0.0.0.0 union.360buy.com
 0.0.0.0 union.51ditu.com
 0.0.0.0 union.88go.cc
 0.0.0.0 union.dangdang.com
-0.0.0.0 union.360buy.com
+0.0.0.0 union.qyule.com
 0.0.0.0 union.the999.com
 0.0.0.0 union.uume.com
 0.0.0.0 union.vancl.com
@@ -675,6 +697,7 @@
 0.0.0.0 sohu.wrating.com
 0.0.0.0 tom.wrating.com
 0.0.0.0 tongji.wrating.com
+0.0.0.0 vodone.wrating.com 
 0.0.0.0 www.wrating.com
 #其他
 0.0.0.0 popstat.pppop.cn
@@ -939,13 +962,10 @@
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 @HostsX 软件广告过滤/其他类
-#奇虎360
-0.0.0.0	aimg.qihoo.com
-0.0.0.0	clkstat.qihoo.com
+#360安全卫士
 0.0.0.0	inst.360safe.com
 0.0.0.0	pinst.360.cn
 0.0.0.0	rd.360.cn
-0.0.0.0	rd.qikoo.com
 0.0.0.0	stat.360safe.com
 0.0.0.0	updatem.360safe.com
 0.0.0.0	x.360safe.com
