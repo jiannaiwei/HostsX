@@ -1,4 +1,4 @@
-;version=201003061900
+;version=201003061910
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -892,6 +892,10 @@
 0.0.0.0 stat.cccr.cn
 #起点
 0.0.0.0 js.union001.cn
+#联盟
+0.0.0.0 lianmeng.com
+0.0.0.0 online4.lianmeng.com
+0.0.0.0 www.lianmeng.com
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
@@ -977,6 +981,7 @@
 #千千静听
 0.0.0.0 ads.qianqian.com
 0.0.0.0 p2plog.qianqian.com
+0.0.0.0 ttads.ttplayer.com
 0.0.0.0 ttmsg.qianqian.com
 0.0.0.0 ttpack.qianqian.com
 0.0.0.0 ttplayer.qianqian.com
