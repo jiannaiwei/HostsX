@@ -1,4 +1,4 @@
-;version=201003051900
+;version=201003061730
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -733,6 +733,7 @@
 0.0.0.0 pic2.keyrun.com
 0.0.0.0 pp.keyrun.com
 0.0.0.0 www1.keyrun.com
+0.0.0.0 ww10.onetad.com
 #弈天
 0.0.0.0 pics.unionsky.cn
 0.0.0.0 play.unionsky.cn
@@ -744,7 +745,9 @@
 0.0.0.0 u.1133.cc
 0.0.0.0 z.1133.cc
 #我拉横幅
+0.0.0.0 image1.55.la
 0.0.0.0 image2.55.la
+0.0.0.0 image3.55.la
 0.0.0.0 img4.user.55.la
 0.0.0.0 new4.user.55.la
 0.0.0.0 preview.55.la
@@ -827,6 +830,8 @@
 0.0.0.0 www.xwadv.com
 #全网控
 0.0.0.0 stat.cccr.cn
+#起点
+0.0.0.0 js.union001.cn
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
@@ -922,6 +927,7 @@
 0.0.0.0 adk.funshion.com
 0.0.0.0 adm.funshion.com
 0.0.0.0 gstat.funshion.com
+0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 @HostsX 软件广告过滤/其他类
 #奇虎360
@@ -1019,6 +1025,7 @@
 #推广下载系列
 0.0.0.0	union.rising.com.cn
 0.0.0.0	zcomcdl.zcominc.com
+0.0.0.0 me.youheme.com
 @HostsX 软件广告过滤/验证类
 #ACDSee
 0.0.0.0	acdupdater.acdsystems.com
