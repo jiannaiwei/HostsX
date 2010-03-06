@@ -1,4 +1,4 @@
-;version=201003061820
+;version=201003061900
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -36,6 +36,20 @@
 0.0.0.0 pfpclick.sina.com.cn
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinasc.allyes.com
+#雅虎中国
+0.0.0.0 api.ads.vip.cnh.yahoo.com
+0.0.0.0 cm.p4p.cn.yahoo.com
+0.0.0.0 cn.adserver.yahoo.com
+0.0.0.0 cn.promo.yahoo.com
+0.0.0.0 cn.rd.yahoo.com
+0.0.0.0 new.rd.cn.yahoo.com
+0.0.0.0 union.yahoo.com.cn
+0.0.0.0 yui.yahooapis.com
+#Yahoo.com
+0.0.0.0 ads.yimg.com
+0.0.0.0 richmedia.yimg.com
+0.0.0.0 ts.richmedia.yahoo.com
+0.0.0.0 us.ard.yahoo.com
 #搜狐
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 cpc.sohu.com
@@ -52,18 +66,12 @@
 0.0.0.0 sohusc.allyes.com
 #Msn Live
 0.0.0.0 ads1.msn.com
+0.0.0.0 ads2.msads.net
 0.0.0.0 analytics.live.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 c.msn.com
 0.0.0.0 rad.msn.com
-0.0.0.0 ads2.msads.net
 0.0.0.0 msnportal.112.2o7.net
-0.0.0.0 ad.wsod.com
-0.0.0.0 admedia.wsod.com
-0.0.0.0 analytics.atdmt.com
-0.0.0.0 c.atdmt.com
-0.0.0.0 clk.atdmt.com
-0.0.0.0 view.atdmt.com
 0.0.0.0 msn.allyes.com
 0.0.0.0 msnms.allyes.cn
 @HostsX 站点广告过滤/社区类网站
@@ -86,7 +94,9 @@
 0.0.0.0 pub.mop.com
 0.0.0.0 stat.ent.mop.com
 0.0.0.0 tj.itv.mop.com
+0.0.0.0 tj.mop.com
 0.0.0.0 tj.pet.mop.com
+0.0.0.0 union.mop.com
 0.0.0.0 yx.mop.com
 #人人
 0.0.0.0 click.jebe.renren.com
@@ -432,7 +442,7 @@
 #亚洲交友
 0.0.0.0 asiafind1.com
 0.0.0.0 asiafriendfinder.com
-#多特
+#多特软件
 0.0.0.0 www.duote.com
 0.0.0.0 img.duote.com
 @HostsX 网络广告过滤/常见广告
@@ -511,16 +521,6 @@
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
-#雅虎
-0.0.0.0 ads.yimg.com
-0.0.0.0 api.ads.vip.cnh.yahoo.com
-0.0.0.0 cm.p4p.cn.yahoo.com
-0.0.0.0 cn.adserver.yahoo.com
-0.0.0.0 cn.promo.yahoo.com
-0.0.0.0 cn.rd.yahoo.com
-0.0.0.0 new.rd.cn.yahoo.com
-0.0.0.0 union.yahoo.com.cn
-0.0.0.0 yui.yahooapis.com
 #搜狗
 0.0.0.0 a1click.cpc.sogou.com
 0.0.0.0 alpha.brand.sogou.com
@@ -615,32 +615,6 @@
 0.0.0.0 mx3.hotrank.com.tw
 0.0.0.0 pic.addeliver.biz
 0.0.0.0 www.iasoho.com
-#国外常见广告
-0.0.0.0 as.casalemedia.com
-0.0.0.0 ads.cnn.com
-0.0.0.0 ad.media-servers.net
-0.0.0.0 content.media-servers.net
-0.0.0.0 media-servers.net
-0.0.0.0 ad.amgdgt.com
-0.0.0.0 cdn.amgdgt.com
-0.0.0.0 b1.adbrite.com
-0.0.0.0 click.adbrite.com
-0.0.0.0 files.adbrite.com
-0.0.0.0 www.adbrite.com
-0.0.0.0 mi.adinterax.com
-0.0.0.0 tr.adinterax.com
-0.0.0.0 counter.ixlink.net
-0.0.0.0 textlink.ixlink.net
-0.0.0.0 amch.questionmarket.com
-0.0.0.0 ch.questionmarket.com
-0.0.0.0 static02.linkedin.com
-0.0.0.0 adlog.com.com
-0.0.0.0 marketing.xineurope.com
-0.0.0.0 pub.softonic.cn
-0.0.0.0 s3.buysellads.com
-0.0.0.0 servedby.adsfactor.cn
-0.0.0.0 static.addtoany.com
-0.0.0.0 track.effiliation.asia
 #推广中奖等
 0.0.0.0 cpc.haowzz.com.cn
 0.0.0.0 g.chinaih.com
@@ -656,6 +630,60 @@
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.p.cn
 0.0.0.0 www.wooigoo.cn
+@HostsX 网络广告过滤/国外广告
+#国外常见广告
+0.0.0.0 ad.adtegrity.net
+0.0.0.0 adlog.com.com
+0.0.0.0 ads.bluelithium.com
+0.0.0.0 altfarm.mediaplex.com
+0.0.0.0 as.casalemedia.com
+0.0.0.0 marketing.xineurope.com
+0.0.0.0 pub.softonic.cn
+0.0.0.0 s3.buysellads.com
+0.0.0.0 servedby.adsfactor.cn
+0.0.0.0 static.addtoany.com
+0.0.0.0 static02.linkedin.com
+0.0.0.0 track.effiliation.asia
+#CNN
+0.0.0.0 ads.cnn.com
+#Adbrite
+0.0.0.0 b1.adbrite.com
+0.0.0.0 click.adbrite.com
+0.0.0.0 files.adbrite.com
+0.0.0.0 www.adbrite.com
+#Adinterax
+0.0.0.0 mi.adinterax.com
+0.0.0.0 tr.adinterax.com
+#Amgdgt
+0.0.0.0 ad.amgdgt.com
+0.0.0.0 cdn.amgdgt.com
+#Atdmt
+0.0.0.0 analytics.atdmt.com
+0.0.0.0 c.atdmt.com
+0.0.0.0 clk.atdmt.com
+0.0.0.0 view.atdmt.com
+#ixlink
+0.0.0.0 counter.ixlink.net
+0.0.0.0 textlink.ixlink.net
+#Media-servers
+0.0.0.0 ad.media-servers.net
+0.0.0.0 content.media-servers.net
+0.0.0.0 media-servers.net
+#PointRoll
+0.0.0.0 clk.pointroll.com
+0.0.0.0 spd.pointroll.com
+0.0.0.0 speed.pointroll.com
+0.0.0.0 t.pointroll.com
+#QuestionMarket
+0.0.0.0 amch.questionmarket.com
+0.0.0.0 ch.questionmarket.com
+#Wsod
+0.0.0.0 ad.wsod.com
+0.0.0.0 admedia.wsod.com
+#YieldManager
+0.0.0.0 ad.yieldmanager.com
+0.0.0.0 content.yieldmanager.com
+0.0.0.0 content.yieldmanager.edgesuite.net
 @HostsX 网络广告过滤/统计跟踪
 #51la
 0.0.0.0 js.users.51.la
