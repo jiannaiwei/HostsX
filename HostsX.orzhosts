@@ -1,4 +1,4 @@
-;version=201003071350
+;version=201003071355
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -652,6 +652,7 @@
 0.0.0.0 demr.opt.fimserve.com
 #SecretChina
 0.0.0.0 ad.secretchina.com
+0.0.0.0 static1.secretchina.com
 #Adbrite
 0.0.0.0 b1.adbrite.com
 0.0.0.0 click.adbrite.com
