@@ -1,4 +1,4 @@
-;version=201003071355
+;version=201003071750
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -180,6 +180,10 @@
 0.0.0.0 ucpn.yesky.com
 0.0.0.0 union.yesky.com
 0.0.0.0 yeskyafp.allyes.com
+#赛迪网
+0.0.0.0 e.akamai.net
+0.0.0.0 stat.ccidnet.com
+0.0.0.0 www2.ccidnet.com
 #至顶网ZDNet
 0.0.0.0 am.zdnet.com.cn
 0.0.0.0 pv.zdnet.com.cn
