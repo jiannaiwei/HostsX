@@ -1,4 +1,4 @@
-;version=201003062308
+;version=201003071350
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -647,6 +647,11 @@
 0.0.0.0 track.effiliation.asia
 #CNN
 0.0.0.0 ads.cnn.com
+#Myspace
+0.0.0.0 advertise.myspace.com 
+0.0.0.0 demr.opt.fimserve.com
+#SecretChina
+0.0.0.0 ad.secretchina.com
 #Adbrite
 0.0.0.0 b1.adbrite.com
 0.0.0.0 click.adbrite.com
