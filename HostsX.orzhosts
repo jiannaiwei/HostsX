@@ -1,4 +1,4 @@
-;version=201003071750
+;version=201003081926
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -729,15 +729,69 @@
 0.0.0.0 js.tongji.cn.yahoo.com
 #万瑞数据
 0.0.0.0 163.wrating.com
+0.0.0.0 ads.wrating.com
+0.0.0.0 ahtv.wrating.com
+0.0.0.0 aweb.wrating.com
+0.0.0.0 baidu.wrating.com
+0.0.0.0 bbs.wrating.com
+0.0.0.0 brand.wrating.com
 0.0.0.0 c.wrating.com
 0.0.0.0 cctv.wrating.com
+0.0.0.0 china.wrating.com
+0.0.0.0 chinacar.wrating.com
+0.0.0.0 chinanews.wrating.com
+0.0.0.0 click.wrating.com
+0.0.0.0 client.wrating.com
+0.0.0.0 cmsn.wrating.com
+0.0.0.0 cnhubei.wrating.com
+0.0.0.0 cntv.wrating.com
+0.0.0.0 cri.wrating.com
+0.0.0.0 cyol.wrating.com
+0.0.0.0 eachnet.wrating.com
+0.0.0.0 enet.wrating.com
+0.0.0.0 g.wrating.com
+0.0.0.0 g0.wrating.com
+0.0.0.0 gc.wrating.com
+0.0.0.0 glog.wrating.com
+0.0.0.0 gmsn.wrating.com
+0.0.0.0 hexun.wrating.com
+0.0.0.0 hifly.wrating.com
+0.0.0.0 it168.wrating.com
 0.0.0.0 msn.wrating.com
+0.0.0.0 msnc.wrating.com
+0.0.0.0 ns.wrating.com
+0.0.0.0 ns1.wrating.com
+0.0.0.0 people.wrating.com
+0.0.0.0 pscn.wrating.com
+0.0.0.0 qihoo.wrating.com
+0.0.0.0 qq.wrating.com
+0.0.0.0 redirect.wrating.com
+0.0.0.0 shonline.wrating.com
 0.0.0.0 sina.wrating.com
 0.0.0.0 sohu.wrating.com
+0.0.0.0 sp.wrating.com
+0.0.0.0 survey.wrating.com
+0.0.0.0 sz.wrating.com
+0.0.0.0 szxk.wrating.com
+0.0.0.0 t.wrating.com
+0.0.0.0 t1.wrating.com
+0.0.0.0 t10.wrating.com
+0.0.0.0 t2.wrating.com
+0.0.0.0 t3.wrating.com
+0.0.0.0 t4.wrating.com
+0.0.0.0 t5.wrating.com
+0.0.0.0 t6.wrating.com
+0.0.0.0 t7.wrating.com
+0.0.0.0 t8.wrating.com
+0.0.0.0 t9.wrating.com
+0.0.0.0 taiwan.wrating.com
 0.0.0.0 tom.wrating.com
 0.0.0.0 tongji.wrating.com
-0.0.0.0 vodone.wrating.com 
+0.0.0.0 vodone.wrating.com
+0.0.0.0 wrating.com
 0.0.0.0 www.wrating.com
+0.0.0.0 xinmin.wrating.com
+0.0.0.0 ztqq.wrating.com
 #其他
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.woopra.com
