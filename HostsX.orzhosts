@@ -1,4 +1,4 @@
-;version=201003082046
+;version=201003082213
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -50,6 +50,8 @@
 0.0.0.0 richmedia.yimg.com
 0.0.0.0 ts.richmedia.yahoo.com
 0.0.0.0 us.ard.yahoo.com
+0.0.0.0 mi.adinterax.com
+0.0.0.0 tr.adinterax.com
 #搜狐
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 cpc.sohu.com
@@ -661,10 +663,9 @@
 0.0.0.0 b1.adbrite.com
 0.0.0.0 click.adbrite.com
 0.0.0.0 files.adbrite.com
+0.0.0.0mga01.adbrite.com
+0.0.0.0 mga02.adbrite.com
 0.0.0.0 www.adbrite.com
-#Adinterax
-0.0.0.0 mi.adinterax.com
-0.0.0.0 tr.adinterax.com
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 cdn.amgdgt.com
