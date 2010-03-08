@@ -1,4 +1,4 @@
-;version=201003082222
+;version=201003082233
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -835,6 +835,15 @@
 #265
 0.0.0.0 link.265.com
 0.0.0.0 un.265.com
+#77869
+0.0.0.0 u1.778669.com
+0.0.0.0 u2.778669.com
+0.0.0.0 u3.778669.com
+0.0.0.0 u4.778669.com
+0.0.0.0 u5.778669.com
+0.0.0.0 u6.778669.com
+0.0.0.0 u493025.778669.com
+0.0.0.0 u948016.778669.com
 #Adpolestar
 0.0.0.0 ad1.adpolestar.net
 0.0.0.0 afp.adpolestar.net
@@ -922,6 +931,20 @@
 0.0.0.0 go.all4ad.cn
 0.0.0.0 jump.all4ad.cn
 0.0.0.0 nad1.all4ad.cn
+#Chinaih
+0.0.0.0 admin.haodong.net
+0.0.0.0 ad.chinaih.com
+0.0.0.0 c.chinaih.com
+0.0.0.0 chinaih.com
+0.0.0.0 cnc.chinaih.com
+0.0.0.0 code.chinaih.com
+0.0.0.0 dx.chinaih.com
+0.0.0.0 tuiguang.chinaih.com
+0.0.0.0 w1.chinaih.com
+0.0.0.0 w2.chinaih.com
+0.0.0.0 w3.chinaih.com
+0.0.0.0 www.chinaih.com
+0.0.0.0 wy.chinaih.com
 #buzz-time
 0.0.0.0 a.buzz-time.com.cn
 0.0.0.0 ad.buzz-time.com.cn
@@ -995,55 +1018,10 @@
 0.0.0.0 js.0252.com
 #秒针系统
 0.0.0.0 g.miaozhen.com
-@HostsX 网络广告过滤/其他
-#3Bu
-0.0.0.0 mmscode1.3bu.com 
-0.0.0.0 mmscode2.3bu.com 
-0.0.0.0 mmscode3.3bu.com
-#77869
-0.0.0.0 u1.778669.com
-0.0.0.0 u2.778669.com
-0.0.0.0 u3.778669.com
-0.0.0.0 u4.778669.com
-0.0.0.0 u5.778669.com
-0.0.0.0 u6.778669.com
-0.0.0.0 u493025.778669.com
-0.0.0.0 u948016.778669.com
-#91ivr
-0.0.0.0 g.91ivr.com
-0.0.0.0 u.91ivr.com
-#Chinaih
-0.0.0.0 admin.haodong.net
-0.0.0.0 ad.chinaih.com
-0.0.0.0 c.chinaih.com
-0.0.0.0 chinaih.com
-0.0.0.0 cnc.chinaih.com
-0.0.0.0 code.chinaih.com
-0.0.0.0 dx.chinaih.com
-0.0.0.0 tuiguang.chinaih.com
-0.0.0.0 w1.chinaih.com
-0.0.0.0 w2.chinaih.com
-0.0.0.0 w3.chinaih.com
-0.0.0.0 www.chinaih.com
-0.0.0.0 wy.chinaih.com
-#LinkTech
-0.0.0.0 banner.linktech.cn
-0.0.0.0 click.linktech.cn
-0.0.0.0 track.linktech.cn
-#做第一传媒
-0.0.0.0 tp.zdy.cc
-0.0.0.0 www.zdy.cc
-#华夏
-0.0.0.0 cpc11.hxad.com
-0.0.0.0 cpm2.hxad.com
-#九赢
-0.0.0.0 www1.9v.cn
-0.0.0.0 v.cpp9v.cn
-0.0.0.0 vv.9vcpc.cn
-0.0.0.0 v1.9vcpc.cn
-#信誉
-0.0.0.0 vvww.qyclick.com
-0.0.0.0 www.qyclick.com
+#联盟
+0.0.0.0 lianmeng.com
+0.0.0.0 online4.lianmeng.com
+0.0.0.0 www.lianmeng.com
 #挚盟
 0.0.0.0 ads.wauee.com 
 0.0.0.0 c.wauee.com
@@ -1068,6 +1046,32 @@
 0.0.0.0 wauee.com
 0.0.0.0 www.wauee.com
 0.0.0.0 ysname.wauee.com
+@HostsX 网络广告过滤/其他
+#3Bu
+0.0.0.0 mmscode1.3bu.com 
+0.0.0.0 mmscode2.3bu.com 
+0.0.0.0 mmscode3.3bu.com
+#91ivr
+0.0.0.0 g.91ivr.com
+0.0.0.0 u.91ivr.com
+#LinkTech
+0.0.0.0 banner.linktech.cn
+0.0.0.0 click.linktech.cn
+0.0.0.0 track.linktech.cn
+#做第一传媒
+0.0.0.0 tp.zdy.cc
+0.0.0.0 www.zdy.cc
+#华夏
+0.0.0.0 cpc11.hxad.com
+0.0.0.0 cpm2.hxad.com
+#九赢
+0.0.0.0 www1.9v.cn
+0.0.0.0 v.cpp9v.cn
+0.0.0.0 vv.9vcpc.cn
+0.0.0.0 v1.9vcpc.cn
+#信誉
+0.0.0.0 vvww.qyclick.com
+0.0.0.0 www.qyclick.com
 #百分百
 0.0.0.0 engine.100fenlm.cn
 #淘小宝
@@ -1100,10 +1104,6 @@
 0.0.0.0 stat.cccr.cn
 #起点
 0.0.0.0 js.union001.cn
-#联盟
-0.0.0.0 lianmeng.com
-0.0.0.0 online4.lianmeng.com
-0.0.0.0 www.lianmeng.com
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
