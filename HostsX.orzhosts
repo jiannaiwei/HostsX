@@ -1,4 +1,4 @@
-;version=201003081926
+;version=201003082046
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -711,15 +711,47 @@
 0.0.0.0 v3.cnzz.com
 0.0.0.0 w.cnzz.com
 #Webnibbler
+0.0.0.0 btnibbler.com
+0.0.0.0 cn.ad.btnibbler.com
+0.0.0.0 cn.adm.btnibbler.com
+0.0.0.0 cn.console.btnibbler.com
+0.0.0.0 cn.content.btnibbler.com
+0.0.0.0 cn.rpt.btnibbler.com
+0.0.0.0 cn.svr.btnibbler.com
 0.0.0.0 cn.tag.btnibbler.com
-0.0.0.0 tw.tag.adnibbler.com
+0.0.0.0 demo.console.btnibbler.com
+0.0.0.0 dns01.btnibbler.com
+0.0.0.0 dns02.btnibbler.com
+0.0.0.0 ns1.btnibbler.com
+0.0.0.0 ns2.btnibbler.com
+0.0.0.0 report.btnibbler.com
+0.0.0.0 test.console.btnibbler.com
+0.0.0.0 trd.tag.btnibbler.com
+0.0.0.0 tw.ad.btnibbler.com
+0.0.0.0 tw.console.btnibbler.com
+0.0.0.0 tw.content.btnibbler.com
+0.0.0.0 tw.report.btnibbler.com
+0.0.0.0 tw.rpt.btnibbler.com
+0.0.0.0 tw.tag.btnibbler.com
+0.0.0.0 www.btnibbler.com
 #尼尔森
 0.0.0.0 secure-cn.imrworldwide.com
 0.0.0.0 secure-sg.imrworldwide.com
 #量子
+0.0.0.0 acookie.linezing.com
+0.0.0.0 data.taobao.linezing.com
 0.0.0.0 dt.tongji.linezing.com
+0.0.0.0 hidden-master.linezing.com
+0.0.0.0 hostmaster.linezing.com
+0.0.0.0 image.taobao.linezing.com
+0.0.0.0 img.tongji.linezing.com
 0.0.0.0 js.tongji.linezing.com
+0.0.0.0 linezing.com
+0.0.0.0 pimg.taobao.linezing.com
+0.0.0.0 post.taobao.linezing.com
+0.0.0.0 taobao.linezing.com
 0.0.0.0 tongji.linezing.com
+0.0.0.0 www.linezing.com
 #玩流量
 0.0.0.0 c2m.wanliuliang.com
 0.0.0.0 p.wanliuliang.com
@@ -809,8 +841,83 @@
 0.0.0.0 gfyoyo.adpolestar.net
 0.0.0.0 server1.adpolestar.net
 #ADPower
+0.0.0.0 216.adpower.cn
+0.0.0.0 5173.adpower.cn
+0.0.0.0 5173.com.adpower.cn
+0.0.0.0 9158.adpower.cn
+0.0.0.0 9158.com.adpower.cn
+0.0.0.0 9158.com.img.adpower.cn
+0.0.0.0 9158adp.adpower.cn
+0.0.0.0 9158adpc.adpower.cn
+0.0.0.0 9158adpm.adpower.cn
+0.0.0.0 9158code.adpower.cn
+0.0.0.0 9158code27.adpower.cn
+0.0.0.0 9158image.adpower.cn
+0.0.0.0 9158img.adpower.cn
+0.0.0.0 9158p.adpower.cn
+0.0.0.0 9158pic.adpower.cn
+0.0.0.0 9158pic1.adpower.cn
+0.0.0.0 9158pic2.adpower.cn
+0.0.0.0 9158pic3.adpower.cn
+0.0.0.0 9158pic4.adpower.cn
+0.0.0.0 99cu.adpower.cn
+0.0.0.0 99cuana.adpower.cn
+0.0.0.0 99cuc.adpower.cn
+0.0.0.0 administrator.adpower.cn
+0.0.0.0 adp.adpower.cn
+0.0.0.0 adp1.adpower.cn
+0.0.0.0 adpower.cn
+0.0.0.0 ana.adpower.cn
+0.0.0.0 ana1.adpower.cn
+0.0.0.0 ana2.adpower.cn
+0.0.0.0 any.adpower.cn
+0.0.0.0 biz.adpower.cn
+0.0.0.0 bizana.adpower.cn
+0.0.0.0 bizana1.adpower.cn
+0.0.0.0 bizc.adpower.cn
+0.0.0.0 bugfree.adpower.cn
+0.0.0.0 c.adpower.cn
+0.0.0.0 center.adpower.cn
+0.0.0.0 chat.adpower.cn
+0.0.0.0 code.adpower.cn
+0.0.0.0 code1.adpower.cn
+0.0.0.0 code212.adpower.cn
+0.0.0.0 count.adpower.cn
 0.0.0.0 db1.adpower.cn
+0.0.0.0 db2.adpower.cn
+0.0.0.0 demo.adpower.cn
+0.0.0.0 demo2.adpower.cn
+0.0.0.0 eana.adpower.cn
+0.0.0.0 ec.adpower.cn
+0.0.0.0 ejia.adpower.cn
+0.0.0.0 go.adpower.cn
+0.0.0.0 img.adpower.cn
+0.0.0.0 keyrun.com.adpower.cn
+0.0.0.0 live.adpower.cn
+0.0.0.0 ns1.adpower.cn
+0.0.0.0 ns2.adpower.cn
+0.0.0.0 ns3.adpower.cn
+0.0.0.0 ns4.adpower.cn
+0.0.0.0 openx.adpower.cn
 0.0.0.0 p.adpower.cn
+0.0.0.0 pcount.adpower.cn
+0.0.0.0 s1.adpower.cn
+0.0.0.0 s1pic.adpower.cn
+0.0.0.0 s1pic1.adpower.cn
+0.0.0.0 s1pic2.adpower.cn
+0.0.0.0 s1pic3.adpower.cn
+0.0.0.0 s1pic4.adpower.cn
+0.0.0.0 s2.adpower.cn
+0.0.0.0 tc.adpower.cn
+0.0.0.0 test.adpower.cn
+0.0.0.0 testimg.adpower.cn
+0.0.0.0 union.adpower.cn
+0.0.0.0 v2.adpower.cn
+0.0.0.0 v2c.adpower.cn
+0.0.0.0 v2t.adpower.cn
+0.0.0.0 v2www.adpower.cn
+0.0.0.0 v3t.adpower.cn
+0.0.0.0 www.adpower.cn
 #All4ad
 0.0.0.0 go.all4ad.cn
 0.0.0.0 jump.all4ad.cn
@@ -906,8 +1013,19 @@
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
 #Chinaih
+0.0.0.0 admin.haodong.net
+0.0.0.0 ad.chinaih.com
 0.0.0.0 c.chinaih.com
-0.0.0.0 g.chinaih.com
+0.0.0.0 chinaih.com
+0.0.0.0 cnc.chinaih.com
+0.0.0.0 code.chinaih.com
+0.0.0.0 dx.chinaih.com
+0.0.0.0 tuiguang.chinaih.com
+0.0.0.0 w1.chinaih.com
+0.0.0.0 w2.chinaih.com
+0.0.0.0 w3.chinaih.com
+0.0.0.0 www.chinaih.com
+0.0.0.0 wy.chinaih.com
 #LinkTech
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
@@ -927,8 +1045,29 @@
 0.0.0.0 vvww.qyclick.com
 0.0.0.0 www.qyclick.com
 #挚盟
+0.0.0.0 ads.wauee.com 
 0.0.0.0 c.wauee.com
+0.0.0.0 china60.wauee.com
+0.0.0.0 eggcache.wauee.com
+0.0.0.0 hz.wauee.com
+0.0.0.0 images.wauee.com
+0.0.0.0 kkncache.wauee.com
+0.0.0.0 lunbocache.wauee.com
+0.0.0.0 personcache.wauee.com
+0.0.0.0 qianming.wauee.com
+0.0.0.0 qm.wauee.com
+0.0.0.0 qmcache.wauee.com
+0.0.0.0 rdown.wauee.com
+0.0.0.0 ringcache.wauee.com
+0.0.0.0 root.wauee.com
 0.0.0.0 stat.wauee.com
+0.0.0.0 stat2.wauee.com
+0.0.0.0 svn.wauee.com
+0.0.0.0 u.wauee.com
+0.0.0.0 union.wauee.com
+0.0.0.0 wauee.com
+0.0.0.0 www.wauee.com
+0.0.0.0 ysname.wauee.com
 #百分百
 0.0.0.0 engine.100fenlm.cn
 #淘小宝
