@@ -1,9 +1,10 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2010.2.1
+恶意网站HOSTS屏蔽文件-2010.3.8
 www.mwsl.org.cn
 All Rights Reserved 2007-2010
 ***************************************
+127.0.0.1 localhost
 127.1 0.75qqq.com
 127.1 000.2011wyt.com
 127.1 000.bbexe.cn
@@ -413,6 +414,7 @@ All Rights Reserved 2007-2010
 127.1 11.yf3e.com
 127.1 1100xx.com
 127.1 11091.w100.stx8.com
+127.1 110abc.sdsawwds.info
 127.1 111.1212l112.net
 127.1 111.122ii.cn
 127.1 111.123120.net
@@ -423,6 +425,7 @@ All Rights Reserved 2007-2010
 127.1 111.313l23.com
 127.1 111.3243l24.com
 127.1 111.33bbb.com
+127.1 111.365blog.info
 127.1 111.77ff.com
 127.1 111.asd97bb.com
 127.1 111.bbexe.cn
@@ -596,6 +599,7 @@ All Rights Reserved 2007-2010
 127.1 138978.com
 127.1 138cp.cn
 127.1 138xxoo.com
+127.1 139ads.sdsawwds.info
 127.1 139chat.com
 127.1 13fsfs.baidushisbnndbuyaoqian.cn
 127.1 13hk.net
@@ -708,6 +712,7 @@ All Rights Reserved 2007-2010
 127.1 1817555.cn
 127.1 18237.800z.net
 127.1 1859yhu.qa111.8866.org
+127.1 186cctv.com
 127.1 188.gck6.cn
 127.1 188218.com
 127.1 188718.com
@@ -3270,10 +3275,12 @@ All Rights Reserved 2007-2010
 127.1 aaqarkznvb.com
 127.1 aar.bij.pl
 127.1 aas.tok99.com
+127.1 aasantarita.com
 127.1 aasese.com
 127.1 aattt.com
 127.1 aau.bij.pl
 127.1 aaw79.cn
+127.1 aaz.bee.pl
 127.1 ab.buyilai.net
 127.1 ab.wansuiwansui.net
 127.1 ab1.x7js.com
@@ -3303,6 +3310,7 @@ All Rights Reserved 2007-2010
 127.1 abitsystem.com
 127.1 abitur91.com
 127.1 abk.dns0755.net
+127.1 ablegang.com
 127.1 ableh.biz
 127.1 abn.dns0755.net
 127.1 abo.dns0755.net
@@ -3438,6 +3446,7 @@ All Rights Reserved 2007-2010
 127.1 ae.wansuiwansui.net
 127.1 aeefdar34.3322.org
 127.1 aeo5p.cn
+127.1 aerostuff.ru
 127.1 aeu44ry.cn
 127.1 af.buyilai.net
 127.1 af.wansuiwansui.net
@@ -3603,6 +3612,7 @@ All Rights Reserved 2007-2010
 127.1 antivirus2008exp.com
 127.1 antivirus360-protection.com
 127.1 antivirusinternetadvise.com
+127.1 antiviruspc-update.com
 127.1 antiviruspcfullscan.com
 127.1 antivirusplus09.com
 127.1 antivirusplus2010.com
@@ -3620,10 +3630,12 @@ All Rights Reserved 2007-2010
 127.1 app1.ak47b.cn
 127.1 appdad.com
 127.1 appunti-tesine.net
+127.1 apsight.ru
 127.1 apsisresource.com
 127.1 apteki-optima.com
 127.1 aq-anquan.com.cn
 127.1 aq.qq.com.dna.gci-bin.cn
+127.1 aq.qq.com.tencent-cw.com
 127.1 aq.qqsercvice.com
 127.1 aquan-qq.com
 127.1 arcade.ya.com
@@ -4197,6 +4209,7 @@ All Rights Reserved 2007-2010
 127.1 bbs.coatingol.com
 127.1 bbs.cs770.com
 127.1 bbs.guo360.co.cc
+127.1 bbs.gz7c.com
 127.1 bbs.haosecc.com
 127.1 bbs.hi-888.com
 127.1 bbs.hk000.com
@@ -6256,6 +6269,7 @@ All Rights Reserved 2007-2010
 127.1 eteweb.gg.p.355656.com.cn
 127.1 etimm.org
 127.1 etnkorea.com
+127.1 eurolink.3322.org
 127.1 euy.loo168.net.cn
 127.1 evensc.cn
 127.1 ever6scan.com
@@ -6439,11 +6453,12 @@ All Rights Reserved 2007-2010
 127.1 feixxwinhuposheqingyilongbo.xmntu.com
 127.1 fenda20.com
 127.1 feng6.com
-127.1 fengsHenge.cn
+127.1 fengshenge.cn
 127.1 fengsini.net
 127.1 fengying.52qqbicom.cn
 127.1 ferrari03.8866.org
 127.1 ferrari03.9966.org
+127.1 ferrari10.6600.org
 127.1 fetion-cctv.cn
 127.1 fetion.52666.net
 127.1 fetion.to.7766.org
@@ -6521,6 +6536,7 @@ All Rights Reserved 2007-2010
 127.1 fivebj.cn
 127.1 fiy2.cn
 127.1 fiykazf.cn
+127.1 fjlys520.3322.org
 127.1 fk.98bb.us
 127.1 fk360.2016wyt.net
 127.1 fk38.cn
@@ -6668,6 +6684,7 @@ All Rights Reserved 2007-2010
 127.1 fxcctv-2b.cn
 127.1 fxok.cn
 127.1 fxqq.at.8866.org
+127.1 fxtn5.com
 127.1 fyahya.free.fr
 127.1 fyg.cc
 127.1 fyivbrl3b0dyf.cn
@@ -6912,6 +6929,7 @@ All Rights Reserved 2007-2010
 127.1 google-baidu-entertainment--idoican-
 127.1 google-traff.cn
 127.1 google-yahoo.org.cn
+127.1 google.cn.baidu.se-av.info
 127.1 google.com.upload.main.update.originalcn.cn
 127.1 google.googlee10.cn
 127.1 google.googlee4.cn
@@ -7340,6 +7358,7 @@ All Rights Reserved 2007-2010
 127.1 hotsummerstaff.ru
 127.1 hou2.6600.org
 127.1 houtai.185555.com
+127.1 houtai.60o.org
 127.1 houyuhuzhouyuhu.com.cn
 127.1 howard19820909.com.cn
 127.1 hoxi360.com
@@ -8057,6 +8076,7 @@ All Rights Reserved 2007-2010
 127.1 l9l9i.cn
 127.1 l9sk.com
 127.1 la113.cn
+127.1 la2slash.ru
 127.1 la5252.2288.org
 127.1 laciudadavellaneda.com.ar
 127.1 lacsrobidoux.com
@@ -8152,6 +8172,7 @@ All Rights Reserved 2007-2010
 127.1 liteurl.com
 127.1 litianyi.down.lv-n.cn
 127.1 liudahua.taiwan-net.cn
+127.1 liudidi.9966.org
 127.1 liugirl.cn
 127.1 liuhecai.cc
 127.1 liumang.info
@@ -8432,6 +8453,7 @@ All Rights Reserved 2007-2010
 127.1 members.chello.hu
 127.1 members.home.nl
 127.1 members.lycos.co.uk
+127.1 members.multimania.co.uk
 127.1 mercadoabc.com.br
 127.1 merecool.com
 127.1 metago.cn
@@ -8991,6 +9013,7 @@ All Rights Reserved 2007-2010
 127.1 obama2welcome.ru
 127.1 oc00co.cn
 127.1 ocarteiro-com.pop3.ru
+127.1 occg.com.cn
 127.1 od32qjx6meqos.cn
 127.1 odn45qa555l.com
 127.1 odp111.ak47-1.cn
@@ -9163,6 +9186,7 @@ All Rights Reserved 2007-2010
 127.1 pa.tt-09.com
 127.1 pacificracersforum.teammaddogracing.com
 127.1 paganinihttpdown.go.3322.org
+127.1 pagead3.googlesyndications.co.cc
 127.1 pagead4.googlesyndications.co.cc
 127.1 pages.3322.org
 127.1 pagesuploader.net
@@ -9996,6 +10020,7 @@ All Rights Reserved 2007-2010
 127.1 ra.2mcl.com
 127.1 ra.qqqg.us
 127.1 rabc.5166.info
+127.1 radiobelea.ro
 127.1 raernb.cn
 127.1 ral.bc.ca
 127.1 rapid-antivir2009.com
@@ -10092,6 +10117,8 @@ All Rights Reserved 2007-2010
 127.1 rx175.cn
 127.1 rx69.go.3322.org
 127.1 ryan1918.com
+127.1 rz12.135831.com
+127.1 rz12.8u9i.com
 127.1 rzsdo.com
 127.1 s.163686.cn
 127.1 s.222360.com
@@ -10279,6 +10306,7 @@ All Rights Reserved 2007-2010
 127.1 se.1234xxx.com
 127.1 se.123haobaidu.com
 127.1 se.123sese.info
+127.1 se.125wyt.com
 127.1 se.12smm.com
 127.1 se.12xxoo.com
 127.1 se.145wyt.com
@@ -11213,6 +11241,7 @@ All Rights Reserved 2007-2010
 127.1 sys-scanner.com
 127.1 sysconsolutions.co.za
 127.1 sysions.net
+127.1 system-codec.com
 127.1 system-processes.com
 127.1 systemxp.3322.org
 127.1 syswhere.cn
@@ -11523,6 +11552,7 @@ All Rights Reserved 2007-2010
 127.1 topmeds10.com
 127.1 topmusic.8800.org
 127.1 topwale.com
+127.1 tornrubberpants.com
 127.1 total-secure2009.com
 127.1 totalprotect2009.com
 127.1 toto.qvod774.cn
@@ -11641,7 +11671,7 @@ All Rights Reserved 2007-2010
 127.1 tw.us.tw
 127.1 twmicrosoft.com
 127.1 two.xthost.info
-127.1 twoeVen.cn
+127.1 twoeven.cn
 127.1 twoserv.cn
 127.1 twqvod.com
 127.1 twwen.com
@@ -11923,6 +11953,7 @@ All Rights Reserved 2007-2010
 127.1 upinosatoretr.com
 127.1 upload.octopus-multimedia.be
 127.1 upload.turkbaze.org
+127.1 upload4all.ru
 127.1 uploadhut.com
 127.1 upononjob.cn
 127.1 upop.ru
@@ -12218,6 +12249,7 @@ All Rights Reserved 2007-2010
 127.1 vip.676566.cn
 127.1 vip.700xxoo.com
 127.1 vip.77169.com
+127.1 vip.77kxw.com
 127.1 vip.800xxoo.com
 127.1 vip.86ksz.cn
 127.1 vip.880xxoo.com
@@ -13226,6 +13258,7 @@ All Rights Reserved 2007-2010
 127.1 www.123xiaoshuo.cn
 127.1 www.12567788.cn
 127.1 www.125828.cn
+127.1 www.125wyt.com
 127.1 www.126621.com
 127.1 www.126bok.cn
 127.1 www.126disk.com
@@ -13283,6 +13316,7 @@ All Rights Reserved 2007-2010
 127.1 www.13xxoo.com
 127.1 www.13you9.cn
 127.1 www.140888.com
+127.1 www.141mm.com
 127.1 www.141wyt.com
 127.1 www.1424314.cn
 127.1 www.142wyt.com
@@ -14756,6 +14790,7 @@ All Rights Reserved 2007-2010
 127.1 www.59sese.com
 127.1 www.59yin.com
 127.1 www.5A888.com
+127.1 www.5b5b5b.com
 127.1 www.5cdcd.cn
 127.1 www.5d6g.cn
 127.1 www.5ddxdd.cn
@@ -15167,7 +15202,7 @@ All Rights Reserved 2007-2010
 127.1 www.77bbb.com
 127.1 www.77cpw.com
 127.1 www.77dydy.com
-127.1 WWW.77FF.COM
+127.1 www.77ff.com
 127.1 www.77ffdy.cn
 127.1 www.77gg.info
 127.1 www.77hp.cn
@@ -16641,7 +16676,7 @@ All Rights Reserved 2007-2010
 127.1 www.carloon.cn
 127.1 www.carrotz.cn
 127.1 www.catideal.com.cn
-127.1 www.CbCdef.Cn
+127.1 www.cBcdef.cn
 127.1 www.cbcpw.cn
 127.1 www.cbg163jg.com
 127.1 www.cbt8.cn
@@ -16731,6 +16766,7 @@ All Rights Reserved 2007-2010
 127.1 www.championunion.com
 127.1 www.changleshi.com
 127.1 www.chaogu518.com
+127.1 www.chatdesin.com
 127.1 www.chayuanju.com.cn
 127.1 www.cheaprxdrugstore.net
 127.1 www.cheapwang.cn
@@ -17809,6 +17845,7 @@ All Rights Reserved 2007-2010
 127.1 www.gdSax.cn
 127.1 www.ge388.cn
 127.1 www.gehda.cn
+127.1 www.gelgorbizi.com
 127.1 www.gempop.com
 127.1 www.generatorservices.in
 127.1 www.genwjq.com
@@ -18600,6 +18637,7 @@ All Rights Reserved 2007-2010
 127.1 www.ka29.cn
 127.1 www.kaeverak.com
 127.1 www.kaicn.com
+127.1 www.kaiyve.com
 127.1 www.kaka7.cn
 127.1 www.kampo.cn
 127.1 www.kanaalxxx.nl
@@ -18741,6 +18779,7 @@ All Rights Reserved 2007-2010
 127.1 www.kzxf.net
 127.1 www.l4jsll.cn
 127.1 www.l63.hk.cn
+127.1 www.l63.ln.cn
 127.1 www.l7kunlun.cn
 127.1 www.la369.com.cn
 127.1 www.ladyfzl.com
@@ -19173,6 +19212,7 @@ All Rights Reserved 2007-2010
 127.1 www.moshoujinglingchaijan.cn
 127.1 www.mote55.com
 127.1 www.moterenti.com
+127.1 www.moto8.cn
 127.1 www.motololo.cn
 127.1 www.motu.cn
 127.1 www.moumom.cn
@@ -19481,6 +19521,7 @@ All Rights Reserved 2007-2010
 127.1 www.pang357.cn
 127.1 www.pang753.cn
 127.1 www.panilinas.com
+127.1 www.panties3.com
 127.1 www.pao00.com
 127.1 www.pao21.com
 127.1 www.pao23.com
@@ -19680,6 +19721,7 @@ All Rights Reserved 2007-2010
 127.1 www.qisex.info
 127.1 www.qisihuisheng.net
 127.1 www.qiu7.cn
+127.1 www.qjvod.3322.org
 127.1 www.qk102.com
 127.1 www.qkeer.com
 127.1 www.qkren.com
@@ -20243,6 +20285,7 @@ All Rights Reserved 2007-2010
 127.1 www.sapag.com.cn
 127.1 www.saryg.cn
 127.1 www.sasezdfg.cn
+127.1 www.sat-china.com
 127.1 www.satanloveangel.ys168.com
 127.1 www.savcc.cn
 127.1 www.saybest.cn
@@ -20471,6 +20514,7 @@ All Rights Reserved 2007-2010
 127.1 www.siisn.cn
 127.1 www.siiso.cn
 127.1 www.siisw.cn
+127.1 www.sikis19.net
 127.1 www.simasc.jx.cn
 127.1 www.simiao.net
 127.1 www.sina-tom.cn
@@ -20987,6 +21031,7 @@ All Rights Reserved 2007-2010
 127.1 www.tujttt.cn
 127.1 www.tuku99.cn/gov
 127.1 www.tuotoo.com
+127.1 www.turbochargedsoul.com
 127.1 www.turthf.cn
 127.1 www.tutinteresno.com
 127.1 www.tuto1.cn
@@ -21493,6 +21538,7 @@ All Rights Reserved 2007-2010
 127.1 www.xingjiaow.com
 127.1 www.xingjiaowang.com
 127.1 www.xinglanhai.cn
+127.1 www.xingpingchem.com
 127.1 www.xingquwei.com
 127.1 www.xingtd.cndown.ihahaj.cn
 127.1 www.xinhuaxijie.cn
@@ -21611,8 +21657,10 @@ All Rights Reserved 2007-2010
 127.1 www.yahoo-09yh.cn
 127.1 www.yahoo.com.cn.1985kkkkk.qwerasdfg.baidusousuoha.kkuaile.ccminfo.com
 127.1 www.yahoo.com.mierr.cn
+127.1 www.yahoo12d.com
 127.1 www.yahoo550.com
 127.1 www.yahooho.com.cn
+127.1 www.yahooui0.com
 127.1 www.yahu365.com
 127.1 www.yahuo.info
 127.1 www.yangbaiwan.net
@@ -21786,6 +21834,7 @@ All Rights Reserved 2007-2010
 127.1 www.yzxia.cn
 127.1 www.yzzfs.cn
 127.1 www.z123456.cn
+127.1 www.z130827.infobox.ru
 127.1 www.z145.com.cn
 127.1 www.z360.net
 127.1 www.z6x8.com
@@ -22218,6 +22267,7 @@ All Rights Reserved 2007-2010
 127.1 x9s7b.cn
 127.1 xabmiphabh.cn
 127.1 xaj.ss.la
+127.1 xakepbox.narod.ru
 127.1 xanjan.cn
 127.1 xao.ss.la
 127.1 xaq.ss.la
@@ -22364,6 +22414,7 @@ All Rights Reserved 2007-2010
 127.1 xl.swytw.com
 127.1 xlxn.eu.kz
 127.1 xlzyxz.cn
+127.1 xm002.3322.org
 127.1 xm1.bnz8.cn
 127.1 xm17173.9966.org
 127.1 xmas-party-pics.com
@@ -22390,6 +22441,7 @@ All Rights Reserved 2007-2010
 127.1 xp.kanwc.com
 127.1 xp.wyt09.com
 127.1 xp.yaorb.com
+127.1 xp32.3322.org
 127.1 xpantispyware.com
 127.1 xpantivirussecurity.com
 127.1 xpas-2009.com
@@ -22728,7 +22780,7 @@ All Rights Reserved 2007-2010
 127.1 yhsb.3322.net
 127.1 yia.dns0755.net
 127.1 yidianse.com
-127.1 yiduaNer.cN
+127.1 yiduaner.cn
 127.1 yifaddz.com
 127.1 yifeng0769.com
 127.1 yigeav.com
@@ -22807,6 +22859,7 @@ All Rights Reserved 2007-2010
 127.1 youxi.laiwan.com
 127.1 youxiang.host48.gomeidc.net
 127.1 youxiarobolet.com
+127.1 yoy.yoy.cn
 127.1 yqdown.com
 127.1 yqvip.com
 127.1 yrdsaaw.3322.org
