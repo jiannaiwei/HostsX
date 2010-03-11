@@ -1,4 +1,4 @@
-;version=201003102330
+;version=201003120050
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -501,6 +501,7 @@
 0.0.0.0 baidutv.baidu.com
 0.0.0.0 bar.baidu.com
 0.0.0.0 c.baidu.com
+0.0.0.0 cb.baidu.com
 0.0.0.0 cjhq.baidu.com
 0.0.0.0 cpro.baidu.com
 0.0.0.0 drmcmm.baidu.com
@@ -573,7 +574,6 @@
 0.0.0.0 go.maxreturn.cn
 0.0.0.0 m.menhutong.com.cn
 0.0.0.0 popunder.paypopup.com
-0.0.0.0 static.acs86.com
 #大陆常见广告
 0.0.0.0 a.dlqm.net
 0.0.0.0 action.utops.cc
@@ -627,6 +627,8 @@
 0.0.0.0 pic.addeliver.biz
 0.0.0.0 www.iasoho.com
 #推广中奖等
+0.0.0.0 barmms.com
+0.0.0.0 c.999d.com
 0.0.0.0 cpc.haowzz.com.cn
 0.0.0.0 g.chinaih.com
 0.0.0.0 img.8977.com
@@ -708,6 +710,10 @@
 0.0.0.0 count.51yes.com
 #99click
 0.0.0.0 a.oadz.com
+#acs86
+0.0.0.0 acs86.com
+0.0.0.0 tgb.acs86.com
+0.0.0.0 static.acs86.com
 #CNZZ
 0.0.0.0 icon.cnzz.com
 0.0.0.0 v3.cnzz.com
