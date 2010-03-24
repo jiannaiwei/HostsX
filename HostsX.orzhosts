@@ -1,4 +1,4 @@
-;version=201003241000
+;version=201003242011
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -667,6 +667,7 @@
 #SecretChina
 0.0.0.0 ad.secretchina.com
 0.0.0.0 static1.secretchina.com
+0.0.0.0 ad.epochtimes.com
 #Adbrite
 0.0.0.0 b1.adbrite.com
 0.0.0.0 click.adbrite.com
