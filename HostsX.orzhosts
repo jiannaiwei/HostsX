@@ -1,4 +1,4 @@
-;version=201003120050
+;version=201003241000
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -530,6 +530,7 @@
 0.0.0.0 static.alimama.com
 0.0.0.0 www.alimama.com
 0.0.0.0 z.alimama.com
+0.0.0.0 s.click.taobao.com
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
