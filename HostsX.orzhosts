@@ -1,4 +1,4 @@
-;version=201003262130
+;version=201003262230
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -1213,6 +1213,8 @@
 0.0.0.0 gstat.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
+#SopCast
+0.0.0.0 home.sopserv.com
 @HostsX 软件广告过滤/其他类
 #360安全卫士
 0.0.0.0	inst.360safe.com
