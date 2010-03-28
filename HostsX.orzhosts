@@ -1,4 +1,4 @@
-;version=201003262230
+;version=201003281635
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -1115,6 +1115,8 @@
 0.0.0.0 stat.cccr.cn
 #起点
 0.0.0.0 js.union001.cn
+#互易广告
+0.0.0.0 www.333wan.com
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
