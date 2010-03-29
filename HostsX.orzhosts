@@ -1,4 +1,4 @@
-;version=201003281635
+;version=201003292030
 ;author=郭鹏锟（J.K）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -1315,6 +1315,8 @@
 #ACDSee
 0.0.0.0	acdupdater.acdsystems.com
 0.0.0.0	soapintouch.acdnet.com
+#Ashampoo
+0.0.0.0	licenses.ashampoo.com
 #CuteFTP
 0.0.0.0 cuteftp.com
 0.0.0.0 dbregistration.cuteftp.com
