@@ -1,5 +1,5 @@
-;version=201003292030
-;author=郭鹏锟（J.K）
+;version=201004062000
+;author=郭鹏锟（JocKwok）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
 #网易163
@@ -87,6 +87,7 @@
 0.0.0.0 806.tianya.cn
 0.0.0.0 adview.tianya.cn
 0.0.0.0 advertisement.tianya.cn
+0.0.0.0 squidclick.bbs.tianya.cn
 0.0.0.0 stat.tianya.cn
 #猫扑
 0.0.0.0 gg.mop.com
@@ -151,7 +152,7 @@
 0.0.0.0 jj.topzj.com
 #博客推广
 0.0.0.0 ads.wopus.org
-0.0.0.0 adv.blogupp.com 
+0.0.0.0 adv.blogupp.com
 0.0.0.0 union.bolaa.com
 @HostsX 站点广告过滤/IT 类网站
 #中关村系列
@@ -203,7 +204,6 @@
 0.0.0.0 clkservice2.dict.youdao.com
 0.0.0.0 impservice.union.youdao.com
 0.0.0.0 impservice.youdao.com
-0.0.0.0 shared.ydstatic.com
 #金山在线
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
@@ -511,6 +511,7 @@
 0.0.0.0 hm.baidu.com
 0.0.0.0 ma.baidu.com
 0.0.0.0 nsclick.baidu.com
+0.0.0.0 s.baidu.com
 0.0.0.0 spcode.baidu.com
 0.0.0.0 tk.baidu.com
 0.0.0.0 toolbar.baidu.com
@@ -597,6 +598,8 @@
 0.0.0.0 freeadp.tensynad.com
 0.0.0.0 gfyoyo.com.cn
 0.0.0.0 idea.t2click.com
+0.0.0.0 javascript.nwbox.com
+0.0.0.0 m.ttgrs.cn
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 p.yiqifa.com
 0.0.0.0 pic837013.images9999.com
@@ -619,6 +622,7 @@
 0.0.0.0 www.cxgglm.com
 #港台常见广告
 0.0.0.0 ad.wretch.cc
+0.0.0.0 ad71.doubleadx.com
 0.0.0.0 admd.yam.com
 0.0.0.0 adsense.scupio.com
 0.0.0.0 gwc.iblinx.com
@@ -626,6 +630,7 @@
 0.0.0.0 money.scupio.com
 0.0.0.0 mx3.hotrank.com.tw
 0.0.0.0 pic.addeliver.biz
+0.0.0.0 rc.asia.srv.overture.com
 0.0.0.0 www.iasoho.com
 #推广中奖等
 0.0.0.0 barmms.com
@@ -662,7 +667,7 @@
 #CNN
 0.0.0.0 ads.cnn.com
 #Myspace
-0.0.0.0 advertise.myspace.com 
+0.0.0.0 advertise.myspace.com
 0.0.0.0 demr.opt.fimserve.com
 #SecretChina
 0.0.0.0 ad.secretchina.com
@@ -703,6 +708,7 @@
 0.0.0.0 admedia.wsod.com
 @HostsX 网络广告过滤/统计跟踪
 #51la
+0.0.0.0 img.users.51.la
 0.0.0.0 js.users.51.la
 0.0.0.0 vip.51.la
 0.0.0.0 web.51.la
@@ -786,7 +792,6 @@
 0.0.0.0 client.wrating.com
 0.0.0.0 cmsn.wrating.com
 0.0.0.0 cnhubei.wrating.com
-0.0.0.0 cntv.wrating.com
 0.0.0.0 cri.wrating.com
 0.0.0.0 cyol.wrating.com
 0.0.0.0 eachnet.wrating.com
@@ -821,7 +826,6 @@
 0.0.0.0 t2.wrating.com
 0.0.0.0 t3.wrating.com
 0.0.0.0 t4.wrating.com
-0.0.0.0 t5.wrating.com
 0.0.0.0 t6.wrating.com
 0.0.0.0 t7.wrating.com
 0.0.0.0 t8.wrating.com
@@ -835,6 +839,7 @@
 0.0.0.0 xinmin.wrating.com
 0.0.0.0 ztqq.wrating.com
 #其他
+0.0.0.0 icon.ajiang.net
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.woopra.com
 0.0.0.0 www.clicki.cn
@@ -1034,7 +1039,7 @@
 0.0.0.0 online4.lianmeng.com
 0.0.0.0 www.lianmeng.com
 #挚盟
-0.0.0.0 ads.wauee.com 
+0.0.0.0 ads.wauee.com
 0.0.0.0 c.wauee.com
 0.0.0.0 china60.wauee.com
 0.0.0.0 eggcache.wauee.com
@@ -1059,8 +1064,8 @@
 0.0.0.0 ysname.wauee.com
 @HostsX 网络广告过滤/其他
 #3Bu
-0.0.0.0 mmscode1.3bu.com 
-0.0.0.0 mmscode2.3bu.com 
+0.0.0.0 mmscode1.3bu.com
+0.0.0.0 mmscode2.3bu.com
 0.0.0.0 mmscode3.3bu.com
 #91ivr
 0.0.0.0 g.91ivr.com
@@ -1120,7 +1125,6 @@
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
-0.0.0.0 pp.pplive.com
 0.0.0.0 pp1.pplive.com
 0.0.0.0 pp.v2.pplive.cn
 0.0.0.0 live.v2.pplive.com
@@ -1236,6 +1240,8 @@
 0.0.0.0	tj.pctutu.net
 0.0.0.0	update.pctutu.com
 0.0.0.0	update.pctutu.net
+#阿里旺旺
+0.0.0.0 po.im.alisoft.com
 #搜狗拼音
 0.0.0.0	files2.sogou.com
 0.0.0.0	ime.sogou.com
