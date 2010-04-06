@@ -1331,6 +1331,8 @@
 0.0.0.0 www.globalscape.com
 #Emurasoft£®EmEditor£©
 0.0.0.0	www.emurasoft.com
+#ESET NOD32 ID—È÷§
+0.0.0.0 exp01.eset.com
 #FlashFXP
 0.0.0.0 flashfxp.com
 0.0.0.0 flashfxp.org
@@ -1344,8 +1346,6 @@
 0.0.0.0	www.martau.com
 #Nikon Imaging
 0.0.0.0	sams.nikonimaging.com
-#NOD ID
-0.0.0.0 exp01.eset.com
 #SRS Audio Sandbox
 0.0.0.0	www.srs-store.com
 #Swiftdog
