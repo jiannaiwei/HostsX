@@ -1,4 +1,4 @@
-;version=201004062000
+;version=201004071330
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -121,6 +121,10 @@
 0.0.0.0 code.qihoo.com
 0.0.0.0 qd.code.qihoo.com
 0.0.0.0 union.qihoo.com
+#大洋网
+0.0.0.0 adimg.dayoo.com
+0.0.0.0 rnd.dayoo.com
+0.0.0.0 sta.dayoo.com
 #21CN
 0.0.0.0 analytics.21cn.com
 0.0.0.0 click.21cn.com
