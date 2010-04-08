@@ -1,4 +1,4 @@
-;version=201004071330
+;version=201004081130
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -412,6 +412,7 @@
 #凤凰网
 0.0.0.0 sc.ifeng.com
 0.0.0.0 sta.ifeng.com
+0.0.0.0 stadig.ifeng.com
 #铁血网
 0.0.0.0 ads.tiexue.net
 0.0.0.0 x.itiexue.net
@@ -1324,6 +1325,13 @@
 #ACDSee
 0.0.0.0	acdupdater.acdsystems.com
 0.0.0.0	soapintouch.acdnet.com
+#Aignes（WebSite-Watcher）
+0.0.0.0 aignes.com
+0.0.0.0 aignes.net
+0.0.0.0 aignes.info
+0.0.0.0 www.aignes.com
+0.0.0.0 www.aignes.net
+0.0.0.0 www.aignes.info
 #Ashampoo
 0.0.0.0	licenses.ashampoo.com
 #CuteFTP
