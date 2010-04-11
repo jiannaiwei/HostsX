@@ -1,4 +1,4 @@
-;version=201004081130
+;version=201004111130
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -682,7 +682,7 @@
 0.0.0.0 b1.adbrite.com
 0.0.0.0 click.adbrite.com
 0.0.0.0 files.adbrite.com
-0.0.0.0mga01.adbrite.com
+0.0.0.0 mga01.adbrite.com
 0.0.0.0 mga02.adbrite.com
 0.0.0.0 www.adbrite.com
 #Amgdgt
