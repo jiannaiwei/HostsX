@@ -28,7 +28,7 @@
 0.0.0.0 sc.*
 0.0.0.0 stat.*
 0.0.0.0 tongji.*
-0.0.0.0 u.* u.115.com
+0.0.0.0 u.* u.115.com u.youku.com
 0.0.0.0 union.*
 0.0.0.0 x.*
 #Google
