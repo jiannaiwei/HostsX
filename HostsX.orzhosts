@@ -1,4 +1,4 @@
-;version=201004121330
+;version=201004141500
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/门户类网站
@@ -290,6 +290,7 @@
 0.0.0.0 tg.70yx.com
 0.0.0.0 u.56wan.com
 0.0.0.0 u.7town.com
+0.0.0.0 u.9lwan.com
 0.0.0.0 u.molidao.com
 0.0.0.0 uimg.my4399.com
 0.0.0.0 unigg.kunlun.com
@@ -470,6 +471,7 @@
 0.0.0.0 ad.de.doubleclick.net
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 ad.fr.doubleclick.net
+0.0.0.0 ad.hk.doubleclick.net
 0.0.0.0 ad.jp.doubleclick.net
 0.0.0.0 ad.nl.doubleclick.net
 0.0.0.0 ad.no.doubleclick.net
@@ -499,6 +501,7 @@
 0.0.0.0 partner.googleadservices.com
 0.0.0.0 service.urchin.com
 0.0.0.0 static.googleadsserving.cn
+0.0.0.0 toolbarqueries.google.com.hk
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
@@ -1068,6 +1071,10 @@
 0.0.0.0 www.wauee.com
 0.0.0.0 ysname.wauee.com
 @HostsX 网络广告过滤/其他
+#160ads
+0.0.0.0 a.5qwg.com
+0.0.0.0 js.160ads.com
+0.0.0.0 www.160ads.com
 #3Bu
 0.0.0.0 mmscode1.3bu.com
 0.0.0.0 mmscode2.3bu.com
