@@ -1,4 +1,6 @@
-;version=2010042000
+;version=2010042100
+-
+IPV6版智能转向数据`http://hostsx.googlecode.com/svn/trunk/ipv6.txt
 -
 注意：使用Acrylic数据必须安装Acrylic支持组件！！！
 Acrylic广告屏蔽数据（通配符版）`http://hostsx.googlecode.com/svn/trunk/AcrylicHosts.txt
