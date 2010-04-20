@@ -1,10 +1,10 @@
 ;version=2010042000
 -
-Tips：使用Acrylic广告数据必须安装Acrylic支持组件！！！
+注意：使用Acrylic数据必须安装Acrylic支持组件！！！
 Acrylic广告屏蔽数据（通配符版）`http://hostsx.googlecode.com/svn/trunk/AcrylicHosts.txt
-Acrylic支持组件`http://hostsx.googlecode.com/svn/trunk/Acrylic.exe
+Acrylic支持组件下载：http://goo.gl/Kocp
 -
-Tips：以下的恶意网站数据建议只使用一种哦！！！
+注意：以下的恶意网站数据建议只使用一种！！！
 -
 恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/mwsl.txt
 死性不改版 Hosts 反黑数据`ftp://hosts:hosts@clxp.vicp.cc/hosts
