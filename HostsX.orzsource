@@ -1,5 +1,7 @@
-;version=2010041200
-HostsX 广告屏蔽数据通配符版`http://hostsx.googlecode.com/svn/trunk/AcrylicHosts.txt
+;version=2010042000
+HostsX Acrylic广告屏蔽数据`http://hostsx.googlecode.com/svn/trunk/AcrylicHosts.txt
+HostsX Acrylic支持组件`http://hostsx.googlecode.com/svn/trunk/Acrylic.exe
+Tips：使用Acrylic广告数据必须安装Acrylic支持组件！！！
 -
 恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/mwsl.txt
 死性不改版 Hosts 反黑数据`ftp://hosts:hosts@clxp.vicp.cc/hosts
@@ -7,3 +9,5 @@ Formynet 版垃圾网站屏蔽数据`http://www.formynet.cn/web/ljwz.txt
 -
 MVPS.org 版数据`http://www.mvps.org/winhelp2002/hosts.txt
 SomeoneWhoCares.org 版数据`http://someonewhocares.org/hosts/hosts
+-
+Tips：恶意网站数据建议只使用一种哦！！！
