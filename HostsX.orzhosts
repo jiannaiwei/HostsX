@@ -1,4 +1,4 @@
-;version=201004202300
+;version=201004221100
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Blogger
@@ -478,7 +478,7 @@
 0.0.0.0 dvsend.china.com
 @HostsX 网络广告过滤
 @HostsX 网络广告过滤/流氓类网站
-#电信劫持
+#电信劫持广告等
 0.0.0.0 114.allyes.com
 0.0.0.0 114.com.cn
 0.0.0.0 114search.118114.cn
@@ -491,6 +491,7 @@
 0.0.0.0 dianxin.com
 0.0.0.0 www.dianxin.cn
 0.0.0.0 ads.iisdoor.com
+0.0.0.0 ad.online.cq.cn
 #联通劫持
 0.0.0.0 sddns1.cncmax.cn
 0.0.0.0 sddns2.cncmax.cn
@@ -1321,17 +1322,18 @@
 #MSN（WLM）登录加速
 0.0.0.0 crl.microsoft.com
 #腾讯QQ
+0.0.0.0 ad.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
-0.0.0.0 l.qq.com
-0.0.0.0 c.l.qq.com
-0.0.0.0 ad.qq.com
 0.0.0.0 adshmct.qq.com
 0.0.0.0 adshmmsg.qq.com
 0.0.0.0 adslvseed.qq.com
 0.0.0.0 adsqqclick.qq.com
+0.0.0.0 c.l.qq.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fw.qq.com
+0.0.0.0 imc.l.qq.com
+0.0.0.0 l.qq.com
 0.0.0.0 pingfore.qq.com
 0.0.0.0 trace.qq.com
 #迅雷系列
@@ -1340,6 +1342,7 @@
 0.0.0.0 biz5.sandai.net
 0.0.0.0 biz5c.sandai.net
 0.0.0.0 cknum.sandai.net
+0.0.0.0 click.cm.sandai.net
 0.0.0.0 float.sandai.net
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 mpv.sandai.net
@@ -1355,11 +1358,14 @@
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 mtips.xunlei.com
+0.0.0.0 pv.kankan.stat.xunlei.com
 0.0.0.0 recommend.xunlei.com
 0.0.0.0 res.stat.xunlei.com
 0.0.0.0 stat.xunlei.com
 0.0.0.0 static.soft.xunlei.com
+0.0.0.0 thunderqtypv.union.xunlei.com
 0.0.0.0 web.stat.xunlei.com
+0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
 #Maxthon
