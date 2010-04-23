@@ -1,4 +1,4 @@
-;version=201004221100
+;version=201004232030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Blogger
@@ -177,7 +177,6 @@
 0.0.0.0 tom.allyes.com
 0.0.0.0 xtrack.tomonline-inc.com
 #蜂鸟网
-0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
 #一大把
 0.0.0.0 adc.yidaba.com
@@ -199,6 +198,10 @@
 0.0.0.0 ads.wopus.org
 0.0.0.0 adv.blogupp.com
 0.0.0.0 union.bolaa.com
+#购物推广
+0.0.0.0 union.360buy.com
+0.0.0.0 union.dangdang.com
+0.0.0.0 union.vancl.com
 @HostsX 站点广告过滤/IT 类网站
 #中关村系列
 0.0.0.0 adm.zol.com.cn
@@ -410,7 +413,7 @@
 0.0.0.0 uniclick.openv.com
 #爆米花网
 0.0.0.0 union.pomoho.com
-#Boo网影在线
+#波波网影
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
 0.0.0.0 union.boodvd.com
@@ -436,6 +439,9 @@
 0.0.0.0 itv.hexun.com
 0.0.0.0 union.hexun.com
 @HostsX 站点广告过滤/信息类网站
+#北青网
+0.0.0.0 a.emedia.cn
+0.0.0.0 fun.ynet.com
 #沪江英语
 0.0.0.0 a4.yeshj.com
 #39健康网
@@ -518,21 +524,19 @@
 0.0.0.0 ad.nl.doubleclick.net
 0.0.0.0 ad.no.doubleclick.net
 0.0.0.0 ad.uk.doubleclick.net
+0.0.0.0 afs.googleadservices.com
 0.0.0.0 amn.doubleclick.net
 0.0.0.0 doubleclick.net
 0.0.0.0 ebaycn.doubleclick.net
 0.0.0.0 ebaytw.doubleclick.net
 0.0.0.0 feedads.g.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 ln.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 pubads.g.doubleclick.net
-#Google
-0.0.0.0 afs.googleadservices.com
 0.0.0.0 feedads.googleadservices.com
+0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googlesyndication.com
 0.0.0.0 image.j-a-net.jp
 0.0.0.0 imageads.googleadservices.com
+0.0.0.0 ln.doubleclick.net
+0.0.0.0 m.doubleclick.net
 0.0.0.0 pagead.googlesyndication.com
 0.0.0.0 pagead1.googlesyndication.com
 0.0.0.0 pagead2.googleadservices.com
@@ -541,6 +545,7 @@
 0.0.0.0 pagead4.googlesyndication.com
 0.0.0.0 pagead5.googlesyndication.com
 0.0.0.0 partner.googleadservices.com
+0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 service.urchin.com
 0.0.0.0 static.googleadsserving.cn
 0.0.0.0 toolbarqueries.google.com.hk
@@ -579,6 +584,7 @@
 0.0.0.0 cpc.click.alimama.com
 0.0.0.0 gouwu.alimama.com
 0.0.0.0 p.alimama.com
+0.0.0.0 s.click.alimama.com
 0.0.0.0 static.alimama.com
 0.0.0.0 www.alimama.com
 0.0.0.0 z.alimama.com
@@ -620,7 +626,7 @@
 0.0.0.0 sroomafp.allyes.com
 0.0.0.0 stbanner.allyes.com
 0.0.0.0 stm.allyes.com
-#网络&软件常用
+#网络&软件共用
 0.0.0.0 adrs.sdo.com
 0.0.0.0 adsresult.joywell.com.cn
 0.0.0.0 bs.serving-sys.com
@@ -637,6 +643,10 @@
 0.0.0.0 adserving.cpxinteractive.com
 0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 amps.yoyi.com.cn
+0.0.0.0 api.flash45.com
+0.0.0.0 ato.geci.cn
+0.0.0.0 barmms.com
+0.0.0.0 c.999d.com
 0.0.0.0 click.admaster.com.cn
 0.0.0.0 click.linksynergy.com
 0.0.0.0 click.mediav.com
@@ -644,33 +654,46 @@
 0.0.0.0 click3.ooommm.com.cn
 0.0.0.0 clk.abang.com
 0.0.0.0 code.51link.com
+0.0.0.0 cpc.haowzz.com.cn
 0.0.0.0 dir.ejoina.com
 0.0.0.0 dw-cn.com.com
 0.0.0.0 freeadp.tensynad.com
+0.0.0.0 g.chinaih.com
 0.0.0.0 gfyoyo.com.cn
 0.0.0.0 idea.t2click.com
+0.0.0.0 image.tazhao.com
+0.0.0.0 img.8977.com
+0.0.0.0 img.ok8848.com
 0.0.0.0 javascript.nwbox.com
 0.0.0.0 m.ttgrs.cn
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 p.yiqifa.com
 0.0.0.0 pic837013.images9999.com
+0.0.0.0 qqhdx.cn
 0.0.0.0 redirect.jooov.cn
 0.0.0.0 s.itopnetworks.com
 0.0.0.0 sales.woyo.com
-0.0.0.0 union.360buy.com
+0.0.0.0 search.ok365.com
+0.0.0.0 search.p.cn
+0.0.0.0 static.u966.com
+0.0.0.0 u.30so.com
 0.0.0.0 union.51ditu.com
 0.0.0.0 union.88go.cc
-0.0.0.0 union.dangdang.com
+0.0.0.0 union.keepc.com
 0.0.0.0 union.qyule.com
 0.0.0.0 union.the999.com
 0.0.0.0 union.uume.com
-0.0.0.0 union.vancl.com
 0.0.0.0 union.zhongsou.com
 0.0.0.0 union2.50bang.org
+0.0.0.0 www.021sms.com
+0.0.0.0 www.2yt.net
 0.0.0.0 www.adtools.cn
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.cbsinteractive.com
 0.0.0.0 www.cxgglm.com
+0.0.0.0 www.leeuu.net
+0.0.0.0 www.p.cn
+0.0.0.0 www.wooigoo.cn
 #港台常见广告
 0.0.0.0 ad.wretch.cc
 0.0.0.0 ad71.doubleadx.com
@@ -683,30 +706,11 @@
 0.0.0.0 pic.addeliver.biz
 0.0.0.0 rc.asia.srv.overture.com
 0.0.0.0 www.iasoho.com
-#推广中奖等
-0.0.0.0 barmms.com
-0.0.0.0 c.999d.com
-0.0.0.0 cpc.haowzz.com.cn
-0.0.0.0 g.chinaih.com
-0.0.0.0 img.8977.com
-0.0.0.0 img.ok8848.com
-0.0.0.0 image.tazhao.com
-0.0.0.0 qqhdx.cn
-0.0.0.0 search.ok365.com
-0.0.0.0 static.u966.com
-0.0.0.0 u.30so.com
-0.0.0.0 union.keepc.com
-0.0.0.0 www.2yt.net
-0.0.0.0 www.leeuu.net
-0.0.0.0 www.p.cn
-0.0.0.0 www.wooigoo.cn
-0.0.0.0 www.021sms.com
 @HostsX 网络广告过滤/国外广告
 #国外常见广告
 0.0.0.0 ad.adtegrity.net
 0.0.0.0 adlog.com.com
 0.0.0.0 ads.bluelithium.com
-0.0.0.0 altfarm.mediaplex.com
 0.0.0.0 as.casalemedia.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 pub.softonic.cn
@@ -769,6 +773,8 @@
 0.0.0.0 count.51yes.com
 #99click
 0.0.0.0 a.oadz.com
+0.0.0.0 dns1.oadz.com
+0.0.0.0 dns2.oadz.com
 #acs86
 0.0.0.0 acs86.com
 0.0.0.0 tgb.acs86.com
@@ -1030,6 +1036,7 @@
 0.0.0.0 free.clickeye.com.cn
 0.0.0.0 images.clickeye.com.cn
 0.0.0.0 main.clickeye.com.cn
+0.0.0.0 rpoint.clickeye.com.cn
 0.0.0.0 web.clickeye.cn
 #多来米
 0.0.0.0 al.myrice.com
@@ -1112,6 +1119,9 @@
 0.0.0.0 wauee.com
 0.0.0.0 www.wauee.com
 0.0.0.0 ysname.wauee.com
+0.0.0.0 c.9189.com
+0.0.0.0 hyimg.cn
+0.0.0.0 op.hyimg.cn
 @HostsX 网络广告过滤/其他
 #160ads
 0.0.0.0 a.5qwg.com
@@ -1124,6 +1134,9 @@
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
+#K261
+0.0.0.0 d.k621.com
+0.0.0.0 www.k621.com
 #LinkTech
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
@@ -1150,7 +1163,6 @@
 0.0.0.0 ww.zhcpm.com
 #双倍
 0.0.0.0 www.2bj.cn
-#信誉
 0.0.0.0 click.5j.com
 #大联盟
 0.0.0.0 ww.unionbig.com
@@ -1172,7 +1184,6 @@
 0.0.0.0 www.xwadv.com
 #全网控
 0.0.0.0 stat.cccr.cn
-#起点
 0.0.0.0 js.union001.cn
 #互易广告
 0.0.0.0 www.333wan.com
@@ -1213,7 +1224,6 @@
 0.0.0.0 text.mplayer.org.cn
 0.0.0.0 stbnnr.allyes.com
 #Windows Media Player
-0.0.0.0 itv.ifeng.com
 0.0.0.0 locator.metadata.windowsmedia.com
 0.0.0.0 metaservices.microsoft.com
 0.0.0.0 music.poptang.com
@@ -1303,6 +1313,8 @@
 0.0.0.0	info.pinyin.sogou.com
 0.0.0.0	ping.pinyin.sogou.com
 0.0.0.0	st.pinyin.sogou.com
+0.0.0.0 pinyin.sogou.com
+0.0.0.0 ad.hylzad.com
 #快车
 0.0.0.0	bc.kuaiche.com
 0.0.0.0	cimg.kuaiche.com
@@ -1406,8 +1418,6 @@
 0.0.0.0 www.flashfxp.com
 0.0.0.0 www.flashfxp.org
 0.0.0.0 www.flashfxp.ws
-#LonelyCat（X-plore）
-82.197.131.24 www.lonelycatgames.com
 #Martau（Total Uninstall）
 0.0.0.0	www.martau.com
 #Nikon Imaging
