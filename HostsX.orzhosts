@@ -1,4 +1,4 @@
-;version=201004232030
+;version=201004272330
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Blogger
@@ -211,8 +211,6 @@
 0.0.0.0 pvpchome.zol.com.cn
 0.0.0.0 pvsite.zol.com.cn
 0.0.0.0 stat.zol.com.cn
-#驱动之家
-0.0.0.0 11.mydrivers.com
 #电脑之家
 0.0.0.0 ad.pchome.net
 0.0.0.0 btm.pchome.net
@@ -1191,7 +1189,6 @@
 @HostsX 软件广告过滤/播放类
 #PPLive（PPVA）
 0.0.0.0 pp1.pplive.com
-0.0.0.0 pp.v2.pplive.cn
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
