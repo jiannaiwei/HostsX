@@ -1,4 +1,4 @@
-;version=201004272330
+;version=20100501200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Blogger
@@ -1436,22 +1436,20 @@
 0.0.0.0 register.zonelabs.com
 0.0.0.0 update.zonelabs.com
 #Adobe 系列（PS Pr等）
-0.0.0.0	3dns-2.adobe.com
-0.0.0.0	3dns-3.adobe.com
-0.0.0.0	activate-sea.adobe.com
-0.0.0.0	activate-sjc0.adobe.com
-0.0.0.0	activate.adobe.com
-0.0.0.0	activate.wip3.adobe.com
-0.0.0.0	adobe-dns-2.adobe.com
-0.0.0.0	adobe-dns-3.adobe.com
-0.0.0.0	adobe-dns.adobe.com
-0.0.0.0	ereg.adobe.com
-0.0.0.0	ereg.wip3.adobe.com
-0.0.0.0	ns.adobe.com
-0.0.0.0	practivate.adobe.com
-0.0.0.0	wip3.adobe.com
-0.0.0.0	wwis-dubc1-vip60.adobe.com
-0.0.0.0	www.adobeereg.com
+0.0.0.0 3dns-2.adobe.com
+0.0.0.0 3dns-3.adobe.com
+0.0.0.0 activate-sea.adobe.com
+0.0.0.0 activate-sjc0.adobe.com
+0.0.0.0 activate.adobe.com
+0.0.0.0 adobe-dns-2.adobe.com
+0.0.0.0 adobe-dns-3.adobe.com
+0.0.0.0 adobe-dns.adobe.com
+0.0.0.0 ereg.adobe.com
+0.0.0.0 ns.adobe.com
+0.0.0.0 practivate.adobe.com
+0.0.0.0 wip3.adobe.com
+0.0.0.0 wwis-dubc1-vip60.adobe.com
+0.0.0.0 www.adobeereg.com
 #IDM 系列（UE UC IDM等）
 0.0.0.0	internetdownloadmanager.com
 0.0.0.0	mirror.internetdownloadmanager.com
