@@ -2,7 +2,7 @@
 color 0a
 rem 环境变量设置
 set bf=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
-set down=wget -nH -N -c -q -P down
+set down=wget -nH -N -c -t 10 -w 2 -q -P down
 
 rem 清理可能影响运行的文件
 del /f /s /q echo host hosts>nul 2>nul
@@ -47,7 +47,7 @@ exit
 :menu
 mode con cols=71 lines=32
 rem 系统文件检测
-if not exist cacls.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c -q http://hostsx.googlecode.com/svn/trunk/cacls.exe
+if not exist cacls.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/cacls.exe
 rem 解除Hosts只读属性，权限限制
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
@@ -382,7 +382,7 @@ goto menu
 echo    ==================================
 echo      正在更新 Acrylic Hosts 文件 ...
 echo    ==================================
-wget -nH -N -c -q http://hostsx.googlecode.com/svn/trunk/AcrylicHosts.txt
+wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/AcrylicHosts.txt
 echo AcrylicHosts数据已更新！
 pause
 goto AcryPc
@@ -425,6 +425,7 @@ if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
 echo 正在下载数据，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/setup.bat
 %down% http://hostsx.googlecode.com/svn/trunk/HostsTool.bat
+copy down\setup.bat setup.bat
 mshta vbscript:msgbox("正在升级中！",64,"Hosts Tool")(window.close)
 call setup.bat&exit
 
@@ -516,9 +517,9 @@ echo IP 安全策略 由死性不改发布，现在已经停止更新！是否继续？
 pause
 sc create PolicyAgent binpath= "C:\WINDOWS\system32\lsass.exe" type= share start= auto displayname= "IPSEC Services" depend= RPCSS/IPSec
 sc description PolicyAgent "提供 TCP/IP 网络上客户端和服务器之间端对端的安全。如果此服务被停用，网络上客户端和服务器之间的 TCP/IP 安全将不稳定。如果此服务被禁用，任何依赖它的服务将无法启动。"
-if not exist ipseccmd.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c -q http://hostsx.googlecode.com/svn/trunk/ipseccmd.exe
+if not exist ipseccmd.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/ipseccmd.exe
 echo 正在下载中，请稍候... ...
-wget -nH -N -c -q ftp://hosts:hosts@clxp.vicp.cc/禁止IP列表.txt
+wget -nH -N -c ftp://hosts:hosts@clxp.vicp.cc/禁止IP列表.txt
 echo 是否要使用 "死性不改" 整理的IP安全策略？
 pause
 ipseccmd -w reg -p ipsce -y

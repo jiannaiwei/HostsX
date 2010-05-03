@@ -1,5 +1,5 @@
 @ECHO OFF
-title Hosts 安装中...
+title Hosts 更新中...
 mode con: cols=50 lines=16
 color 5f
 set bf=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
@@ -28,6 +28,7 @@ ipv6 install>nul 2>nul
 echo 对原Hosts进行备份 ...
 copy /y %hosts% %etc%\"Hosts安装_%bf%" >nul 2>nul
 echo 备份完成
+if not exist down\HostsTool.bat copy down\HostsTool.bat HostsTool.bat
 pause
 cls
 
