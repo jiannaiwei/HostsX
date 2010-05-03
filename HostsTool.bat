@@ -773,8 +773,8 @@ pause&goto menu
 color 09
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.520 Freeware Version
-echo Date:       2010.04.25
+echo Version:    1.530 Freeware Version
+echo Date:       2010.05.03
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. BY Jockwok
 mshta vbscript:createobject("sapi.spvoice").speak("Enjoy it!")(window.close)
