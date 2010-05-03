@@ -1,4 +1,4 @@
-;version=20100501200
+;version=201005032200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Blogger
@@ -59,6 +59,11 @@
 0.0.0.0 proimg.163.com
 0.0.0.0 union.163.com
 0.0.0.0 ht.hao120.cc
+#网易有道搜索
+0.0.0.0 clkservice.youdao.com
+0.0.0.0 clkservice2.dict.youdao.com
+0.0.0.0 impservice.union.youdao.com
+0.0.0.0 impservice.youdao.com
 #新浪
 0.0.0.0 ad4.sina.com.cn
 0.0.0.0 adsina.allyes.com
@@ -100,26 +105,54 @@
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 cpc.sohu.com
 0.0.0.0 doc.go.sohu.com
+0.0.0.0 images.sohu.com
+0.0.0.0 imp.ad-plus.cn
 0.0.0.0 ip.cms.sohu.com
 0.0.0.0 partner.search.sohu.com
 0.0.0.0 pv.sohu.com
 0.0.0.0 scalink.sohu.com
+0.0.0.0 sohu.ad-plus.cn
+0.0.0.0 sohusc.allyes.com
 0.0.0.0 suvset.sohu.com
 0.0.0.0 txt.go.sohu.com
-0.0.0.0 imp.ad-plus.cn
-0.0.0.0 sohu.ad-plus.cn
 0.0.0.0 u.ad-plus.cn
-0.0.0.0 sohusc.allyes.com
-#Msn Live
+#Microsoft Hotmail广告
+0.0.0.0 ad.law1.hotmail.com
+0.0.0.0 ad.law10.hotmail.com
+0.0.0.0 ad.law11.hotmail.com
+0.0.0.0 ad.law12.hotmail.com
+0.0.0.0 ad.law13.hotmail.com
+0.0.0.0 ad.law14.hotmail.com
+0.0.0.0 ad.law15.hotmail.com
+0.0.0.0 ad.law2.hotmail.com
+0.0.0.0 ad.law3.hotmail.com
+0.0.0.0 ad.law4.hotmail.com
+0.0.0.0 ad.law5.hotmail.com
+0.0.0.0 ad.law6.hotmail.com
+0.0.0.0 ad.law7.hotmail.com
+0.0.0.0 ad.law8.hotmail.com
+0.0.0.0 ad.law9.hotmail.com
 0.0.0.0 ads1.msn.com
+0.0.0.0 g.msn.com
+#Microsoft Msn Live
+0.0.0.0 0.r.msn.com
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 ac2.msn.com
+0.0.0.0 ac3.msn.com
+0.0.0.0 ads.beta1.idss.msn.com
+0.0.0.0 ads.msn.com.nsatc.net
 0.0.0.0 ads2.msads.net
+0.0.0.0 adsyndication.msn.com
 0.0.0.0 analytics.live.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 c.msn.com
-0.0.0.0 rad.msn.com
-0.0.0.0 msnportal.112.2o7.net
+0.0.0.0 catalog.video.msn.com
+0.0.0.0 crl.microsoft.com
 0.0.0.0 msn.allyes.com
 0.0.0.0 msnms.allyes.cn
+0.0.0.0 msnportal.112.2o7.net
+0.0.0.0 rad.live.com
+0.0.0.0 rad.msn.com
 @HostsX 站点广告过滤/社区类网站
 #天涯
 0.0.0.0 801.tianya.cn
@@ -183,6 +216,13 @@
 0.0.0.0 adfv.yidaba.com
 0.0.0.0 adj.yidaba.com
 0.0.0.0 adv.yidaba.com
+0.0.0.0 bd.yidaba.com
+0.0.0.0 bm.yidaba.com
+0.0.0.0 images.cms.yidaba.com
+0.0.0.0 images.yidaba.com
+0.0.0.0 industry.yidaba.com
+0.0.0.0 info.yidaba.com
+0.0.0.0 static.yidaba.com
 #5d6d
 0.0.0.0 d.5d6d.com
 0.0.0.0 un.5d6d.com
@@ -245,11 +285,6 @@
 0.0.0.0 apic.xiyuit.com
 #万维家电
 0.0.0.0 pic.ea3w.com
-#有道搜索
-0.0.0.0 clkservice.youdao.com
-0.0.0.0 clkservice2.dict.youdao.com
-0.0.0.0 impservice.union.youdao.com
-0.0.0.0 impservice.youdao.com
 #金山在线
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
@@ -522,8 +557,11 @@
 0.0.0.0 ad.nl.doubleclick.net
 0.0.0.0 ad.no.doubleclick.net
 0.0.0.0 ad.uk.doubleclick.net
+0.0.0.0 adservices.google.com
 0.0.0.0 afs.googleadservices.com
 0.0.0.0 amn.doubleclick.net
+0.0.0.0 buttons.googlesyndication.com
+0.0.0.0 domains.googlesyndication.com
 0.0.0.0 doubleclick.net
 0.0.0.0 ebaycn.doubleclick.net
 0.0.0.0 ebaytw.doubleclick.net
@@ -533,6 +571,16 @@
 0.0.0.0 googlesyndication.com
 0.0.0.0 image.j-a-net.jp
 0.0.0.0 imageads.googleadservices.com
+0.0.0.0 imageads1.googleadservices.com
+0.0.0.0 imageads2.googleadservices.com
+0.0.0.0 imageads3.googleadservices.com
+0.0.0.0 imageads4.googleadservices.com
+0.0.0.0 imageads5.googleadservices.com
+0.0.0.0 imageads6.googleadservices.com
+0.0.0.0 imageads7.googleadservices.com
+0.0.0.0 imageads8.googleadservices.com
+0.0.0.0 imageads9.googleadservices.com
+0.0.0.0 link.265.com
 0.0.0.0 ln.doubleclick.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 pagead.googlesyndication.com
@@ -546,10 +594,13 @@
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 service.urchin.com
 0.0.0.0 static.googleadsserving.cn
+0.0.0.0 static.googleadsserving.cn 
 0.0.0.0 toolbarqueries.google.com.hk
 0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 un.265.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
+0.0.0.0 www.googlesyndication.com
 #百度
 0.0.0.0 a.baidu.com
 0.0.0.0 baidutv.baidu.com
@@ -561,20 +612,27 @@
 0.0.0.0 drmcmm.baidu.com
 0.0.0.0 e.baidu.com
 0.0.0.0 eiv.baidu.com
+0.0.0.0 focusbaiduafp.allyes.com
 0.0.0.0 hc.baidu.com
 0.0.0.0 hm.baidu.com
+0.0.0.0 iebar.baidu.com
+0.0.0.0 ikcode.baidu.com
 0.0.0.0 ma.baidu.com
+0.0.0.0 neirong.baidu.com
 0.0.0.0 nsclick.baidu.com
 0.0.0.0 s.baidu.com
 0.0.0.0 spcode.baidu.com
 0.0.0.0 tk.baidu.com
+0.0.0.0 tkweb.baidu.com
+0.0.0.0 tongji.baidu.com
 0.0.0.0 toolbar.baidu.com
+0.0.0.0 tracker.baidu.com
 0.0.0.0 ucstat.baidu.com
 0.0.0.0 union.baidu.com
 0.0.0.0 unstat.baidu.com
-0.0.0.0 utility.baidu.com
 0.0.0.0 utk.baidu.com
-0.0.0.0 focusbaiduafp.allyes.com
+
+0.0.0.0 utility.baidu.com
 #阿里
 0.0.0.0 a.alimama.cn
 0.0.0.0 bm.alimama.cn
@@ -592,19 +650,19 @@
 0.0.0.0 taobaoafp.allyes.com
 #搜狗
 0.0.0.0 a1click.cpc.sogou.com
-0.0.0.0 alpha.brand.sogou.com
-0.0.0.0 images.brand.sogou.com
-0.0.0.0 lk.brand.sogou.com
-0.0.0.0 wb.brand.sogou.com
 0.0.0.0 adsence.sogou.com
+0.0.0.0 alpha.brand.sogou.com
 0.0.0.0 cpc.sogou.com
 0.0.0.0 fair.sogou.com
 0.0.0.0 goto.sogou.com
+0.0.0.0 images.brand.sogou.com
 0.0.0.0 inte.sogou.com
+0.0.0.0 lk.brand.sogou.com
 0.0.0.0 pbd.sogou.com
 0.0.0.0 ping.ie.sogou.com
 0.0.0.0 pv.sogou.com
 0.0.0.0 union.sogou.com
+0.0.0.0 wb.brand.sogou.com
 #好耶广告
 0.0.0.0 allyesshafa.allyes.com
 0.0.0.0 bokee.allyes.com
@@ -902,8 +960,6 @@
 0.0.0.0 www.zzcount.com
 @HostsX 网络广告过滤/常用广告联盟
 #265
-0.0.0.0 link.265.com
-0.0.0.0 un.265.com
 #77869
 0.0.0.0 u1.778669.com
 0.0.0.0 u2.778669.com
@@ -1329,22 +1385,48 @@
 0.0.0.0 jump.neoimaging.cn
 0.0.0.0 recommend.neoimaging.cn
 #MSN（WLM）登录加速
-0.0.0.0 crl.microsoft.com
 #腾讯QQ
+0.0.0.0 qqlogo.qq.com
+0.0.0.0 2052.flash2-http.qq.com
 0.0.0.0 ad.qq.com
+0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
+0.0.0.0 adsgroup.qq.com 
 0.0.0.0 adshmct.qq.com
 0.0.0.0 adshmmsg.qq.com
+0.0.0.0 adslvfile.qq.com
 0.0.0.0 adslvseed.qq.com
 0.0.0.0 adsqqclick.qq.com
+0.0.0.0 adsrich.qq.com
 0.0.0.0 c.l.qq.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fw.qq.com
 0.0.0.0 imc.l.qq.com
+0.0.0.0 isdspeed.qq.com
+0.0.0.0 jingjia.qq.com
 0.0.0.0 l.qq.com
+0.0.0.0 minigameimg.qq.com
+0.0.0.0 minipanel.qq.com
+0.0.0.0 minisite.qq.com
+0.0.0.0 oimsgad.qq.com
 0.0.0.0 pingfore.qq.com
+0.0.0.0 pinghot.qq.com
+0.0.0.0 pingjs.qq.com
+0.0.0.0 portalinfo.qq.com
+0.0.0.0 qautodl.qq.com
+0.0.0.0 rich.qq.com
+0.0.0.0 scdown.qq.com
+0.0.0.0 showxml.qq.com
+0.0.0.0 syspic.qq.com
+0.0.0.0 sysportal.qq.com
+0.0.0.0 tipsimage2.qq.com
+0.0.0.0 today.qq.com
+0.0.0.0 toolbar.soso.com
 0.0.0.0 trace.qq.com
+0.0.0.0 union.qq.com
+0.0.0.0 v3.toolbar.soso.com
+0.0.0.0 w.l.qq.com
 #迅雷系列
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
@@ -1398,6 +1480,10 @@
 0.0.0.0 www.aignes.info
 #Ashampoo
 0.0.0.0	licenses.ashampoo.com
+#Comodo UserTrust
+0.0.0.0 www.comodogroup.com
+0.0.0.0 www.usertrust.com
+0.0.0.0 crl.usertrust.com
 #CuteFTP
 0.0.0.0 cuteftp.com
 0.0.0.0 dbregistration.cuteftp.com
@@ -1408,6 +1494,14 @@
 0.0.0.0	www.emurasoft.com
 #ESET NOD32 ID验证
 0.0.0.0 exp01.eset.com
+#eREAD 爱搜书
+0.0.0.0 bookbar.isoshu.com
+0.0.0.0 down.isoshu.com
+0.0.0.0 happyfarm.isoshu.com
+0.0.0.0 mobile.isoshu.com
+0.0.0.0 mobile1.isoshu.com
+0.0.0.0 pub.isoshu.com
+0.0.0.0 www.isoshu.com
 #FlashFXP
 0.0.0.0 flashfxp.com
 0.0.0.0 flashfxp.org
