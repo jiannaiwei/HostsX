@@ -425,6 +425,7 @@ if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
 echo 正在下载数据，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/setup.bat
 %down% http://hostsx.googlecode.com/svn/trunk/HostsTool.bat
+del setup.bat
 copy down\setup.bat setup.bat
 mshta vbscript:msgbox("正在升级中！",64,"Hosts Tool")(window.close)
 call setup.bat&exit
