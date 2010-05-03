@@ -28,7 +28,9 @@ ipv6 install>nul 2>nul
 echo 对原Hosts进行备份 ...
 copy /y %hosts% %etc%\"Hosts安装_%bf%" >nul 2>nul
 echo 备份完成
-if not exist down\HostsTool.bat
+if exist down\HostsTool.bat goto new 
+:new
+del HostsTool.bat
 copy down\HostsTool.bat HostsTool.bat
 pause
 cls
