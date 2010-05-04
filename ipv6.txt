@@ -1,6 +1,8 @@
 #Google和各种网站的IPv6服务hosts
 #本文的发布地址：http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
 
+127.0.0.1       localhost 
+::1             localhost
 ###Google网站
 #下列红色地址为官方给出的准确地址，可以使用正确的https加密连接
 #以下列表中地址以亚洲太平洋服务器Address (Asia-Pacific)为主（2001:4860:8006::*）
@@ -35,7 +37,7 @@
 2401:3800:c001::2c www.google.cn                      #主页
 2401:3800:c001::2c g.cn                               #主页
 2401:3800:c001::2c google.cn                          #主页
-2401:3800:c001::2c ipv6cn.l.google.com
+2401:3800:c001::2c ipv6cn.l.google.com 
 #IPv6：ipv6.google.cn
 ##Google.com.tw    Google台湾
 2001:4860:8006::2f www.google.com.tw                  #主页
@@ -56,6 +58,7 @@
 2001:4860:8006::29 www.google.com.ar
 2001:4860:8006::2a www.google.co.nz
 2001:4860:8006::2b www.google.lt
+2001:4860:8006::2c www.google.cn     中国（已死）
 2001:4860:8006::2d www.google.com.sg
 2001:4860:8006::2e www.google.com.hk 香港
 2001:4860:8006::2f www.google.com.tw 台湾
@@ -63,7 +66,7 @@
 2001:4860:8006::31 www.google.ae
 2001:4860:8006::32 www.google.co.uk  英国
 2001:4860:8006::33 www.google.com.gr
-2001:4860:8006::34 www.google.de
+2001:4860:8006::34 www.google.de 
 2001:4860:8006::35 www.google.co.il
 2001:4860:8006::36 www.google.fr     法国
 2001:4860:8006::38 www.google.it
@@ -83,8 +86,8 @@
 2001:4860:8006::4a www.google.pt
 2001:4860:8006::4b www.google.com.ly
 2001:4860:8006::4c www.google.com.br
-#Web               网页
-2001:4860:8006::68 www.google.com                     #主页
+#Web               网页 
+2001:4860:8006::68 www.google.com                     #主页 
 2001:4860:8006::68 www.l.google.com
 2001:4860:8006::62 www0.l.google.com
 2001:4860:8006::62 www1.l.google.com
@@ -96,17 +99,17 @@
 2001:4860:8006::62 clients2.google.com                #客户端服务器
 2001:4860:8006::62 clients3.google.com                #客户端服务器
 2001:4860:8006::62 clients4.google.com                #客户端服务器
-#Images            图片
+#Images            图片 
 2001:4860:8006::68 images.google.com                  #主页
 2001:4860:8006::68 images.l.google.com                #
-2001:4860:8006::62 tbn0.google.com
-2001:4860:8006::62 tbn1.google.com
-2001:4860:8006::62 tbn2.google.com
-2001:4860:8006::62 tbn3.google.com
-2001:4860:8006::62 tbn4.google.com
-2001:4860:8006::62 tbn5.google.com
-2001:4860:8006::62 tbn6.google.com
-#Video             视频
+2001:4860:8006::62 tbn0.google.com 
+2001:4860:8006::62 tbn1.google.com 
+2001:4860:8006::62 tbn2.google.com 
+2001:4860:8006::62 tbn3.google.com 
+2001:4860:8006::62 tbn4.google.com 
+2001:4860:8006::62 tbn5.google.com 
+2001:4860:8006::62 tbn6.google.com 
+#Video             视频 
 2001:4860:8006::62 video.google.com                   #主页
 2001:4860:8006::62 0.gvt0.com
 2001:4860:8006::62 1.gvt0.com
@@ -117,8 +120,8 @@
 2001:4860:8006::62 video-stats.video.google.com
 2001:4860:8006::74 upload.video.google.com
 2001:4860:8006::74 sslvideo-upload.l.google.com
-2001:4860:8006::62 vp.video.google.com
-2001:4860:8006::62 vp.video.l.google.com
+2001:4860:8006::62 vp.video.google.com 
+2001:4860:8006::62 vp.video.l.google.com 
 2001:4860:8006::62 qwqy.vp.video.l.google.com
 2001:4860:8006::62 nz.vp.video.l.google.com
 2001:4860:8006::62 nztdug.vp.video.l.google.com
@@ -144,7 +147,7 @@
 2001:4860:8006::62 vp18.video.l.google.com
 2001:4860:8006::62 vp19.video.l.google.com
 2001:4860:8006::62 vp20.video.l.google.com
-#Map               地图
+#Map               地图 
 2001:4860:8006::68 maps.google.com                    #主页
 2001:4860:8006::68 maps.l.google.com
 2001:4860:8006::62 maps-api-ssl.google.com
@@ -168,23 +171,23 @@
 2001:4860:8006::62 mw3.google.com
 2001:4860:8006::62 mw-small.l.google.com
 2001:4860:8006::62 mt.l.google.com
-2001:4860:8006::62 mt0.google.com
-2001:4860:8006::62 mt1.google.com
-2001:4860:8006::62 mt2.google.com
-2001:4860:8006::62 mt3.google.com
-2001:4860:8006::62 mlt0.google.com
-2001:4860:8006::62 mlt1.google.com
-2001:4860:8006::62 mlt2.google.com
+2001:4860:8006::62 mt0.google.com 
+2001:4860:8006::62 mt1.google.com 
+2001:4860:8006::62 mt2.google.com 
+2001:4860:8006::62 mt3.google.com 
+2001:4860:8006::62 mlt0.google.com 
+2001:4860:8006::62 mlt1.google.com 
+2001:4860:8006::62 mlt2.google.com 
 2001:4860:8006::62 mlt3.google.com
-#News              资讯
+#News              资讯 
 2001:4860:8006::68 news.google.com                    #主页
-2001:4860:8006::68 news.l.google.com
-2001:4860:8006::62 nt0.ggpht.com
-2001:4860:8006::62 nt1.ggpht.com
-2001:4860:8006::62 nt2.ggpht.com
-2001:4860:8006::62 nt3.ggpht.com
-2001:4860:8006::62 nt4.ggpht.com
-2001:4860:8006::62 nt5.ggpht.com
+2001:4860:8006::68 news.l.google.com                  
+2001:4860:8006::62 nt0.ggpht.com 
+2001:4860:8006::62 nt1.ggpht.com 
+2001:4860:8006::62 nt2.ggpht.com 
+2001:4860:8006::62 nt3.ggpht.com 
+2001:4860:8006::62 nt4.ggpht.com 
+2001:4860:8006::62 nt5.ggpht.com 
 #Gmail             邮箱
 2a00:1450:8007::11 mail.google.com                    #主页
 2a00:1450:8007::53 googlemail.l.google.com
@@ -199,56 +202,56 @@
 2a00:1450:8007::62 gmail.com                          #Gmail主页
 2a00:1450:8007::62 pop.gmail.com                      #pop服务
 2a00:1450:8007::62 smtp.gmail.com                     #smtp服务
-2a00:1450:8007::62 smtp1.google.com
-2a00:1450:8007::62 smtp2.google.com
-2a00:1450:8007::62 smtp3.google.com
-2a00:1450:8007::62 smtp4.google.com
-2a00:1450:8007::62 smtp5.google.com
+2a00:1450:8007::62 smtp1.google.com 
+2a00:1450:8007::62 smtp2.google.com 
+2a00:1450:8007::62 smtp3.google.com 
+2a00:1450:8007::62 smtp4.google.com 
+2a00:1450:8007::62 smtp5.google.com 
 2a00:1450:8007::62 smtp-out.google.com
 2a00:1450:8007::62 smtp-out2.google.com
 2a00:1450:8007::62 smtp-out3.google.com
 2a00:1450:8007::62 imap.google.com                    #
-2a00:1450:8007::62 gmail-pop.l.google.com
-2a00:1450:8007::62 gmail-smtp.l.google.com
-2a00:1450:8007::62 gmail-smtp-in.l.google.com
+2a00:1450:8007::62 gmail-pop.l.google.com 
+2a00:1450:8007::62 gmail-smtp.l.google.com 
+2a00:1450:8007::62 gmail-smtp-in.l.google.com 
 2a00:1450:8007::62 gmr-smtp-in.l.google.com
-#Books             图书
+#Books             图书 
 2001:4860:8006::62 books.google.com                   #主页
-2001:4860:8006::62 bks0.books.google.com
-2001:4860:8006::62 bks1.books.google.com
-2001:4860:8006::62 bks2.books.google.com
-2001:4860:8006::62 bks3.books.google.com
-2001:4860:8006::62 bks4.books.google.com
-2001:4860:8006::62 bks5.books.google.com
-2001:4860:8006::62 bks6.books.google.com
-2001:4860:8006::62 bks7.books.google.com
-2001:4860:8006::62 bks8.books.google.com
-2001:4860:8006::62 bks9.books.google.com
-#Finance           财经
-2001:4860:8006::62 finance.google.com
-#Translate         翻译
-2001:4860:8006::62 translate.google.com
-#Blog              博客搜索
-2001:4860:8006::68 blogsearch.google.com
+2001:4860:8006::62 bks0.books.google.com 
+2001:4860:8006::62 bks1.books.google.com 
+2001:4860:8006::62 bks2.books.google.com 
+2001:4860:8006::62 bks3.books.google.com 
+2001:4860:8006::62 bks4.books.google.com 
+2001:4860:8006::62 bks5.books.google.com 
+2001:4860:8006::62 bks6.books.google.com 
+2001:4860:8006::62 bks7.books.google.com 
+2001:4860:8006::62 bks8.books.google.com 
+2001:4860:8006::62 bks9.books.google.com 
+#Finance           财经 
+2001:4860:8006::62 finance.google.com 
+#Translate         翻译 
+2001:4860:8006::62 translate.google.com 
+#Blog              博客搜索 
+2001:4860:8006::68 blogsearch.google.com 
 2001:4860:8006::63 www2.l.google.com
-#Calendar          日历
-2001:4860:8006::62 calendar.google.com
-#Photo/Picasa      照片/网络相册
+#Calendar          日历 
+2001:4860:8006::62 calendar.google.com 
+#Photo/Picasa      照片/网络相册 
 2001:4860:8006::62 photos.google.com
 2001:4860:8006::62 picasa.google.com
-2001:4860:8006::62 picasaweb.google.com
-2001:4860:8006::62 lh0.ggpht.com
-2001:4860:8006::62 lh1.ggpht.com
-2001:4860:8006::62 lh2.ggpht.com
-2001:4860:8006::62 lh3.ggpht.com
-2001:4860:8006::62 lh4.ggpht.com
-2001:4860:8006::62 lh5.ggpht.com
-2001:4860:8006::62 lh6.ggpht.com
-2001:4860:8006::62 lh7.ggpht.com
+2001:4860:8006::62 picasaweb.google.com 
+2001:4860:8006::62 lh0.ggpht.com 
+2001:4860:8006::62 lh1.ggpht.com 
+2001:4860:8006::62 lh2.ggpht.com 
+2001:4860:8006::62 lh3.ggpht.com 
+2001:4860:8006::62 lh4.ggpht.com 
+2001:4860:8006::62 lh5.ggpht.com 
+2001:4860:8006::62 lh6.ggpht.com 
+2001:4860:8006::62 lh7.ggpht.com 
 2001:4860:8006::62 lh8.ggpht.com
 2001:4860:8006::62 lh9.ggpht.com
-#Docs              文档
-2001:4860:8006::64 docs.google.com
+#Docs              文档 
+2001:4860:8006::64 docs.google.com 
 2001:4860:8006::64 writely.l.google.com
 2001:4860:8006::62 spreadsheet.google.com
 2001:4860:8006::62 spreadsheets.google.com
@@ -257,31 +260,31 @@
 2001:4860:8006::62 writely.l.google.com
 2001:4860:8006::62 writely-com.l.google.com
 2001:4860:8006::62 writely-china.l.google.com
-#Reader            阅读器
-2001:4860:8006::62 reader.google.com
-#Sites             协作平台
-2001:4860:8006::62 sites.google.com
+#Reader            阅读器 
+2001:4860:8006::62 reader.google.com 
+#Sites             协作平台 
+2001:4860:8006::62 sites.google.com 
 2001:4860:8006::62 ghs.google.com
 2001:4860:8006::62 ghs.l.google.com
-#Group             论坛
-2001:4860:8006::62 groups.google.com
+#Group             论坛 
+2001:4860:8006::62 groups.google.com 
 2001:4860:8006::62 groups.l.google.com
 2001:4860:8006::89 *.googlegroups.com
-2001:4860:8006::89 blob-s-docs.googlegroups.com
+2001:4860:8006::89 blob-s-docs.googlegroups.com 
 2001:4860:8006::89 2503061233288453901-a-1802744773732722657-s-sites.googlegroups.com
-#Scholar           学术搜索
-2001:4860:8006::62 scholar.google.com
+#Scholar           学术搜索 
+2001:4860:8006::62 scholar.google.com 
 2001:4860:8006::62 scholar.l.google.com
-#Tools             工具
-2001:4860:8006::62 tools.google.com
+#Tools             工具 
+2001:4860:8006::62 tools.google.com 
 2001:4860:8006::62 tools.l.google.com
-#Code              代码
+#Code              代码 
 2001:4860:8006::64 code.google.com                    #主页
 2001:4860:8006::64 code.l.google.com                  #
 2001:4860:8006::52 *.googlecode.com                   #
 2001:4860:8006::52 chromium.googlecode.com            #
 2001:4860:8006::52 searchforchrome.googlecode.com     #
-2001:4860:8006::52 android-scripting.googlecode.com   #Android Scripting Environment
+2001:4860:8006::52 android-scripting.googlecode.com   #Android Scripting Environment 
 2001:4860:8006::52 earth-api-samples.googlecode.com   #
 2001:4860:8006::52 gmaps-samples-flash.googlecode.com #
 2001:4860:8006::52 google-code-feed-gadget.googlecode.com
@@ -289,32 +292,32 @@
 2001:4860:8006::52 get-flash-videos.googlecode.com    #get-flash-videos
 2001:4860:8006::52 youplayer.googlecode.com           #YouPlayer
 2001:4860:8006::52 cclive.googlecode.com              #ccLive
-#Labs              实验室
-2001:4860:8006::62 labs.google.com
-2001:4860:8006::62 www.googlelabs.com
-2001:4860:8006::62 browsersize.googlelabs.com         #Browser Size
-2001:4860:8006::62 storegadget.googlelabs.com         #Google Checkout Store Gadget
-2001:4860:8006::62 citytours.googlelabs.com           #City Tours
-2001:4860:8006::62 livingstories.googlelabs.com       #Living Stories
-2001:4860:8006::62 image-swirl.googlelabs.com         #Image Swirl
-2001:4860:8006::62 scriptconv.googlelabs.com          #Script Converter
-2001:4860:8006::62 relatedlinks.googlelabs.com        #Related Links
-2001:4860:8006::62 fastflip.googlelabs.com            #Fast Flip
-2001:4860:8006::62 listen.googlelabs.com              #Google Listen
-2001:4860:8006::62 similar-images.googlelabs.com      #Similar Images
-2001:4860:8006::62 tables.googlelabs.com              #Fusion Tables
-2001:4860:8006::62 newstimeline.googlelabs.com        #Google News Timeline
+#Labs              实验室 
+2001:4860:8006::62 labs.google.com 
+2001:4860:8006::62 www.googlelabs.com 
+2001:4860:8006::62 browsersize.googlelabs.com         #Browser Size 
+2001:4860:8006::62 storegadget.googlelabs.com         #Google Checkout Store Gadget 
+2001:4860:8006::62 citytours.googlelabs.com           #City Tours 
+2001:4860:8006::62 livingstories.googlelabs.com       #Living Stories 
+2001:4860:8006::62 image-swirl.googlelabs.com         #Image Swirl 
+2001:4860:8006::62 scriptconv.googlelabs.com          #Script Converter 
+2001:4860:8006::62 relatedlinks.googlelabs.com        #Related Links 
+2001:4860:8006::62 fastflip.googlelabs.com            #Fast Flip 
+2001:4860:8006::62 listen.googlelabs.com              #Google Listen 
+2001:4860:8006::62 similar-images.googlelabs.com      #Similar Images 
+2001:4860:8006::62 tables.googlelabs.com              #Fusion Tables 
+2001:4860:8006::62 newstimeline.googlelabs.com        #Google News Timeline 
 #Knol              在线百科全书
-2001:4860:8006::62 knol.google.com
-#SketchUp          3D建模工具
-2001:4860:8006::62 sketchup.google.com
+2001:4860:8006::62 knol.google.com 
+#SketchUp          3D建模工具 
+2001:4860:8006::62 sketchup.google.com 
 2001:4860:8006::62 sketchup.l.google.com
-#Pack              软件精选
-2001:4860:8006::68 pack.google.com
+#Pack              软件精选 
+2001:4860:8006::68 pack.google.com 
 2001:4860:8006::68 www2.l.google.com
 2001:4860:8006::68 cache.pack.google.com
-#Blogger           博客服务
-2001:4860:8006::bf www.blogger.com
+#Blogger           博客服务 
+2001:4860:8006::bf www.blogger.com 
 2001:4860:8006::bf buttons.blogger.com
 2001:4860:8006::bf beta.blogger.com
 2001:4860:8006::bf draft.blogger.com                  #Blogger 测试区
@@ -329,7 +332,7 @@
 2001:4860:8006::62 www1.blogblog.com
 2001:4860:8006::62 www2.blogblog.com
 2001:4860:8006::62 img.blogblog.com
-2001:4860:8006::62 img1.blogblog.com
+2001:4860:8006::62 img1.blogblog.com 
 2001:4860:8006::62 img2.blogblog.com
 2001:4860:8006::62 img.blshe.com
 #Blogspot          博客服务
@@ -361,16 +364,16 @@
 2001:4860:8006::62 autoproxy2pac.appspot.com          #
 #2001:4860:8006::62 *.blogspot.com                     #可以添加你自己的博客地址到这里
 #Checkout          买家
-2001:4860:8006::73 checkout.google.com
+2001:4860:8006::73 checkout.google.com 
 #Orkut             网络社区（貌似错误）
 #2001:4860:8006::62 orkut.google.com
 #2001:4860:8006::62 orkut.l.google.com
 #2001:4860:8006::62 www.orkut.com
 #2001:4860:8006::62 clients1.orkut.com
-#Toolbar           工具栏
-2001:4860:8006::62 toolbar.google.com
+#Toolbar           工具栏 
+2001:4860:8006::62 toolbar.google.com 
 2001:4860:8006::62 www.gmailnotifier.com              #Gmail Notifier
-#App Engine
+#App Engine 
 2001:4860:8006::62 appengine.google.com               #主页
 2001:4860:8006::62 appspot.l.google.com               #
 2001:4860:8006::62 chart.apis.google.com              #Google 图表 API
@@ -380,35 +383,35 @@
 2001:4860:8006::8d *.appspot.com
 2001:4860:8006::8d productideas.appspot.com           #Google 汇问
 2001:4860:8006::8d wave-api.appspot.com               #Google Wave API
-2001:4860:8006::8d wave-skynet.appspot.com            #SkyNet
+2001:4860:8006::8d wave-skynet.appspot.com            #SkyNet 
 2001:4860:8006::8d cactus-wave.appspot.com            #
-2001:4860:8006::8d storegadgetwizard.appspot.com      #Google Checkout Store Gadget
-2001:4860:8006::8d moderator.appspot.com              #Google Moderator
+2001:4860:8006::8d storegadgetwizard.appspot.com      #Google Checkout Store Gadget 
+2001:4860:8006::8d moderator.appspot.com              #Google Moderator 
 2001:4860:8006::8d haiticrisis.appspot.com            #Google Person Finder: Haiti Earthquake
-2001:4860:8006::8d mytracks.appspot.com               #My Tracks for Android
+2001:4860:8006::8d mytracks.appspot.com               #My Tracks for Android 
 2001:4860:8006::8d reader2twitter.appspot.com         #Reader2Tweet
 2001:4860:8006::8d twitese.appspot.com
 2001:4860:8006::8d gfw.appspot.com
 2001:4860:8006::8d go2china9.appspot.com
 2001:4860:8006::8d mirrorrr.appspot.com
 2001:4860:8006::8d mirrornt.appspot.com
-2001:4860:8006::8d soproxy.appspot.com
+2001:4860:8006::8d soproxy.appspot.com 
 2001:4860:8006::8d so-proxy.appspot.com
 2001:4860:8006::8d go-west.appspot.com
-2001:4860:8006::8d proxytea.appspot.com
+2001:4860:8006::8d proxytea.appspot.com 
 2001:4860:8006::8d sivanproxy.appspot.com
 2001:4860:8006::8d proxybay.appspot.com
 2001:4860:8006::8d ipgoto.appspot.com
-2001:4860:8006::8d meme2028.appspot.com
+2001:4860:8006::8d meme2028.appspot.com 
 2001:4860:8006::8d autoproxy2pac.appspot.com
-#Chrome            谷歌浏览器
-2001:4860:8006::62 chrome.google.com
-#Desktop           桌面
-2001:4860:8006::62 desktop.google.com
+#Chrome            谷歌浏览器 
+2001:4860:8006::62 chrome.google.com 
+#Desktop           桌面 
+2001:4860:8006::62 desktop.google.com 
 #Google Earth      Google地球
 2001:4860:8006::62 earth.google.com
-#Google Mars       Google火星地图
-2001:4860:8006::62 mars.google.com
+#Google Mars       Google火星地图 
+2001:4860:8006::62 mars.google.com 
 #Keyhole           地理查询软件
 2001:4860:8006::62 www.keyhole.com
 2001:4860:8006::62 geo.keyhole.com
@@ -437,11 +440,11 @@
 2001:4860:8006::62 mc8tdi0ripmbpds25eboaupdulritrp6.friendconnect.gmodules.com
 2001:4860:8006::62 r1rk9np7bpcsfoeekl0khkd2juj27q3o.friendconnect.gmodules.com
 2001:4860:8006::62 r1rk9np7bpcsfoeekl0khkd2juj27q3o.a.friendconnect.gmodules.com
-##Google其他服务
-#Ajax
-2001:4860:8006::62 googleapis-ajax.google.com
+##Google其他服务 
+#Ajax 
+2001:4860:8006::62 googleapis-ajax.google.com 
 2001:4860:8006::62 googleapis-ajax.l.google.com
-#YouTube
+#YouTube 
 2001:4860:8006::64 www.youtube.com
 2001:4860:8006::64 youtube-ui.l.google.com
 2001:4860:8006::64 youtube-ui-china.l.google.com
@@ -660,8 +663,8 @@
 2001:4860:4001:402::27 v24.lscache8.c.youtube.com
 #Google Store      Google商店（里面有很多谷歌自己的东西出售，像谷歌T恤、茶杯、小玩意等等）
 2001:4860:8006::62 www.googlestore.com
-#Download          下载
-2001:4860:8006::5b dl.google.com
+#Download          下载 
+2001:4860:8006::5b dl.google.com 
 2001:4860:8006::5d dl.l.google.com
 2001:4860:8006::88 dl-ssl.google.com
 #Sandbox           沙盒
@@ -670,65 +673,65 @@
 2001:4860:8006::62 sb.google.com                      #SafeBox
 2001:4860:8006::62 sb-ssl.google.com
 2001:4860:8006::62 sb-ssl.l.google.com
-#Wave              波浪
-2001:4860:8006::76 wave.google.com
+#Wave              波浪 
+2001:4860:8006::76 wave.google.com 
 2001:4860:8006::76 www4.l.google.com
-2001:4860:8006::76 wave0.google.com
-2001:4860:8006::76 wave1.google.com
-2001:4860:8006::62 googlewave.com
-#WiFi
+2001:4860:8006::76 wave0.google.com 
+2001:4860:8006::76 wave1.google.com 
+2001:4860:8006::62 googlewave.com 
+#WiFi              
 2001:4860:8006::7b wifi.google.com
 2001:4860:8006::62 wifi.l.google.com
-#GTalk             聊天
+#GTalk             聊天 
 2001:4860:8006::62 talk.google.com
 2001:4860:8006::62 talkx.l.google.com
 2001:4860:8006::62 default.talk.google.com
-2001:4860:8006::62 talkgadget.google.com
+2001:4860:8006::62 talkgadget.google.com 
 2001:4860:8006::62 rtmp0.google.com
-2001:4860:8006::62 users.talk.google.com
+2001:4860:8006::62 users.talk.google.com 
 #Buzz
 2001:4860:8006::62 buzz.google.com
 #Fusion            ?
 2001:4860:8006::62 fusion.google.com
 #Guru              ?
 2001:4860:8006::62 guru.google.com
-#Android           Google手机操作系统
-2001:4860:8006::62 www.android.com
-2001:4860:8006::62 android.com
+#Android           Google手机操作系统 
+2001:4860:8006::62 www.android.com 
+2001:4860:8006::62 android.com 
 2001:4860:8006::62 developer.android.com
 #Chromium（未找到可用地址）
 #2001:4860:8006::62 www.chromium.org
 #2001:4860:8006::62 dev.chromium.org
 #2001:4860:8006::62 blog.chromium.org
-2001:4860:8006::62
+2001:4860:8006::62 
 #The Go Programming Language
 2001:4860:8006::62 golang.org
 #Google Apps       企业应用套件
 2001:4860:8006::62 apps.google.com                    #主页
-#Analytics         分析（Google所提供的网站流量统计服务）
-2001:4860:8006::61 www.google-analytics.com
+#Analytics         分析（Google所提供的网站流量统计服务） 
+2001:4860:8006::61 www.google-analytics.com 
 2001:4860:8006::61 *.google-analytics.com
-2001:4860:8006::61 ssl.google-analytics.com
-#Hosted            Host服务器，为Shopping（购物）、Blog（博客搜索）提供外部链接的地址指向服务
+2001:4860:8006::61 ssl.google-analytics.com 
+#Hosted            Host服务器，为Shopping（购物）、Blog（博客搜索）提供外部链接的地址指向服务 
 2001:4860:8006::62 googlehosted.l.google.com
-2001:4860:8006::62 base.googlehosted.com
-2001:4860:8006::62 base0.googlehosted.com
-2001:4860:8006::62 base1.googlehosted.com
-2001:4860:8006::62 base2.googlehosted.com
-2001:4860:8006::62 base3.googlehosted.com
-2001:4860:8006::62 base4.googlehosted.com
-2001:4860:8006::62 base5.googlehosted.com
-#Gstatic           Google域名服务器，提供谷歌搜索等向外部网站的链接域名
+2001:4860:8006::62 base.googlehosted.com 
+2001:4860:8006::62 base0.googlehosted.com 
+2001:4860:8006::62 base1.googlehosted.com 
+2001:4860:8006::62 base2.googlehosted.com 
+2001:4860:8006::62 base3.googlehosted.com 
+2001:4860:8006::62 base4.googlehosted.com 
+2001:4860:8006::62 base5.googlehosted.com 
+#Gstatic           Google域名服务器，提供谷歌搜索等向外部网站的链接域名 
 2001:4860:8006::62 www.gstatic.com
 2001:4860:8006::62 csi.gstatic.com
-2001:4860:8006::62 maps.gstatic.com
-2001:4860:8006::78 ssl.gstatic.com
-2001:4860:8006::62 t0.gstatic.com
-2001:4860:8006::62 t1.gstatic.com
-2001:4860:8006::62 t2.gstatic.com
-2001:4860:8006::62 t3.gstatic.com
+2001:4860:8006::62 maps.gstatic.com 
+2001:4860:8006::78 ssl.gstatic.com 
+2001:4860:8006::62 t0.gstatic.com 
+2001:4860:8006::62 t1.gstatic.com 
+2001:4860:8006::62 t2.gstatic.com 
+2001:4860:8006::62 t3.gstatic.com 
 2001:4860:8006::62 t4.gstatic.com
-2001:4860:8006::62 mt0.gstatic.com
+2001:4860:8006::62 mt0.gstatic.com 
 #GoogleUserContent 用户自定义的Google服务
 2001:4860:8006::84 www.googleusercontent.com                          #
 2001:4860:8006::84 clients1.googleusercontent.com                     #
@@ -816,9 +819,9 @@
 2001:4860:8006::84 sp5ovcebgtpf6rg65f53gdnvqtt3a58n-a-sites-opensocial.googleusercontent.com
 #DoubleClick       曾经世界最大的网络广告服务商，06年底被Google并购，现AdSense服务指向域名
 2001:4860:b006::94 ad.doubleclick.net
-2001:4860:b006::95 ad-g.doubleclick.net
+2001:4860:b006::95 ad-g.doubleclick.net 
 2001:4860:b006::95 ad-apac.doubleclick.net
-2001:4860:8006::9a googleads.g.doubleclick.net
+2001:4860:8006::9a googleads.g.doubleclick.net 
 2001:4860:8006::9b feedads.g.doubleclick.net
 2001:4860:8006::90 fls.uk.doubleclick.net
 2001:4860:8006::8e *.au.doubleclick.net
@@ -827,24 +830,25 @@
 2001:4860:8006::90 *.fr.doubleclick.net
 2001:4860:8006::92 *.jp.doubleclick.net
 #GoogleSyndication Google广告服务 AdWord(Google广告词，对关键字进行右侧付费推广)，原AdSense服务指向域名
-2001:4860:8006::62 www.googlesyndication.com
-2001:4860:8006::62 pagead2.googlesyndication.com
-2001:4860:8006::62 buttons.googlesyndication.com
-2001:4860:8006::62 domains.googlesyndication.com
+2001:4860:8006::62 www.googlesyndication.com 
+2001:4860:8006::62 pagead2.googlesyndication.com 
+2001:4860:8006::62 buttons.googlesyndication.com 
+2001:4860:8006::62 domains.googlesyndication.com 
 2001:4860:8006::98 tpc.googlesyndication.com
 #GoogleSyndication Google广告服务 AdWord
 2001:4860:8006::70 adwords.google.com
 2001:4860:8006::41 adwords.google.sk
-#GoogleADServices  Google广告服务 AdSense
-2001:4860:8006::60 www.googleadservices.com
-2001:4860:8006::a4 pagead2.googleadservices.com
+#GoogleADServices  Google广告服务 AdSense 
+2001:4860:8006::60 www.googleadservices.com 
+2001:4860:8006::a4 pagead2.googleadservices.com 
 2001:4860:8006::a7 partner.googleadservices.com
+#
 2001:4860:8006::62 gsamplemaps.googlepages.com
 2001:4860:8006::62 pagead.google.com
 2001:4860:8006::62 pagead.l.google.com
-2001:4860:8006::62 pagead2.google.com
-#Goo.gl            Google短网址服务
-2001:4860:8006::62 goo.gl
+2001:4860:8006::62 pagead2.google.com 
+#Goo.gl            Google短网址服务 
+2001:4860:8006::62 goo.gl 
 #Urchin            http://www.google.com/urchin/zh-CN/index.html
 2001:4860:8006::b8 service.urchin.com
 ###IPV6代理翻墙
@@ -977,7 +981,7 @@
 2620:0:862:1:209:3dff:fe10:d5d2 mayflower.esams.wikimedia.org
 2620:0:862:1:6666:6666:6666:6666 ipv6and4.labs.wikimedia.org #Wikimedia IPv6 AAAA record testing
 ##France                                               法国
-#alwaysData
+#alwaysData                                           
 2001:41d0:1:8f78::1 www.alwaysdata.com                 #主页
 2001:41d0:2:4139::1 fanfou.alwaysdata.net              #饭否
 ##the Federal Republic of Germany                      德国
