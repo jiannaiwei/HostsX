@@ -1,4 +1,4 @@
-;version=201005041800
+;version=201005051000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Blogger
@@ -533,6 +533,7 @@
 0.0.0.0 www.dianxin.cn
 0.0.0.0 ads.iisdoor.com
 0.0.0.0 ad.online.cq.cn
+0.0.0.0 ad.xunkoo.com
 #联通劫持
 0.0.0.0 sddns1.cncmax.cn
 0.0.0.0 sddns2.cncmax.cn
