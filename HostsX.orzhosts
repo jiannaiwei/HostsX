@@ -1,4 +1,4 @@
-;version=201005071700
+;version=201005072320
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -628,7 +628,6 @@
 0.0.0.0 bmvip.alimama.cn
 0.0.0.0 cpc.click.alimama.com
 0.0.0.0 gouwu.alimama.com
-0.0.0.0 img.alimama.cn
 0.0.0.0 log.mm.vip.cnz.alimama.com
 0.0.0.0 p.alimama.com
 0.0.0.0 p3p.alibaba.com
