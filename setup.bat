@@ -4,6 +4,7 @@ mode con: cols=50 lines=16
 color 5f
 set bf=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -q -P down
+del /f /s /q down\*.*>nul 2>nul
 rem 判断操作系统版本
 if exist %ComSpec% goto nt else goto 9x
 :9x
@@ -28,25 +29,18 @@ ipv6 install>nul 2>nul
 echo 对原Hosts进行备份 ...
 copy /y %hosts% %etc%\"Hosts安装_%bf%" >nul 2>nul
 echo 备份完成
-if exist down\HostsTool.bat goto new 
-:new
-del HostsTool.bat
+if exist HostsTool.bat del HostsTool.bat
 copy down\HostsTool.bat HostsTool.bat
 pause
 cls
-
-:dft
 title 正在更新Hosts数据
 mode con: cols=40 lines=10
-if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
+if not exist wget.exe (echo Wget组件不存在，请重新安装本程序！)&pause&exit
 echo 正在下载中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 mshta vbscript:msgbox("正在下载数据！",64,"Hosts Tool")(window.close)
 pause
-if not exist down\HostsX.orzhosts (mshta vbscript:msgbox("未找到Hosts数据！",64,"Hosts Tool")(window.close))&pause&exit
-echo 正在下载中，请稍候... ...
 copy down\HostsX.orzhosts %hosts%
-pause
 title 设置Hosts文件只读权限
 attrib +r +a +s %hosts%
 echo Hosts文件权限设置完成！
