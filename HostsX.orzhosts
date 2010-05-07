@@ -1,6 +1,9 @@
-;version=201005051000
+;version=201005071700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
+#Localhost
+127.0.0.1       localhost
+::1             localhost
 #Blogger
 74.125.39.191 www.blogger.com
 74.125.39.191 blogger.l.google.com
@@ -77,12 +80,16 @@
 0.0.0.0 d4.sina.com.cn
 0.0.0.0 d5.sina.com.cn
 0.0.0.0 dcads.sina.com.cn
+0.0.0.0 int.dpool.sina.com.cn
 0.0.0.0 pfp.sina.com.cn
-0.0.0.0 pfpip.sina.com
 0.0.0.0 pfpclick.sina.com.cn
+0.0.0.0 pfpip.sina.com
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinasc.allyes.com
+0.0.0.0 sms.sina.com.cn
 #雅虎中国
+0.0.0.0 js.tongji.yahoo.com.cn
+0.0.0.0 js.tongji.cn.yahoo.com
 0.0.0.0 api.ads.vip.cnh.yahoo.com
 0.0.0.0 cm.p4p.cn.yahoo.com
 0.0.0.0 cn.adserver.yahoo.com
@@ -90,17 +97,6 @@
 0.0.0.0 cn.rd.yahoo.com
 0.0.0.0 new.rd.cn.yahoo.com
 0.0.0.0 union.yahoo.com.cn
-0.0.0.0 yui.yahooapis.com
-#Yahoo.com
-0.0.0.0 ads.yimg.com
-0.0.0.0 richmedia.yimg.com
-0.0.0.0 ts.richmedia.yahoo.com
-0.0.0.0 us.ard.yahoo.com
-0.0.0.0 ad.yieldmanager.com
-0.0.0.0 content.yieldmanager.com
-0.0.0.0 content.yieldmanager.edgesuite.net
-0.0.0.0 mi.adinterax.com
-0.0.0.0 tr.adinterax.com
 #搜狐
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 cpc.sohu.com
@@ -116,43 +112,29 @@
 0.0.0.0 suvset.sohu.com
 0.0.0.0 txt.go.sohu.com
 0.0.0.0 u.ad-plus.cn
-#Microsoft Hotmail广告
-0.0.0.0 ad.law1.hotmail.com
-0.0.0.0 ad.law10.hotmail.com
-0.0.0.0 ad.law11.hotmail.com
-0.0.0.0 ad.law12.hotmail.com
-0.0.0.0 ad.law13.hotmail.com
-0.0.0.0 ad.law14.hotmail.com
-0.0.0.0 ad.law15.hotmail.com
-0.0.0.0 ad.law2.hotmail.com
-0.0.0.0 ad.law3.hotmail.com
-0.0.0.0 ad.law4.hotmail.com
-0.0.0.0 ad.law5.hotmail.com
-0.0.0.0 ad.law6.hotmail.com
-0.0.0.0 ad.law7.hotmail.com
-0.0.0.0 ad.law8.hotmail.com
-0.0.0.0 ad.law9.hotmail.com
-0.0.0.0 ads1.msn.com
-0.0.0.0 g.msn.com
 #Microsoft Msn Live
-0.0.0.0 0.r.msn.com
-0.0.0.0 a.ads1.msn.com
-0.0.0.0 ac2.msn.com
-0.0.0.0 ac3.msn.com
-0.0.0.0 ads.beta1.idss.msn.com
-0.0.0.0 ads.msn.com.nsatc.net
 0.0.0.0 ads2.msads.net
-0.0.0.0 adsyndication.msn.com
-0.0.0.0 analytics.live.com
+0.0.0.0 global.msads.net
+0.0.0.0 ads1.msn.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 c.msn.com
+0.0.0.0 c.msn.com.cn
+0.0.0.0 g.msn.com
+0.0.0.0 h.msn.com
+0.0.0.0 ads.beta1.idss.msn.com
+0.0.0.0 adsyndication.msn.com
 0.0.0.0 catalog.video.msn.com
-0.0.0.0 crl.microsoft.com
+0.0.0.0 ac2.msn.com
+0.0.0.0 ac3.msn.com
+0.0.0.0 r.msn.com
+0.0.0.0 rad.msn.com
+0.0.0.0 analytics.live.com
+0.0.0.0 c.live.com
+0.0.0.0 rad.live.com
+0.0.0.0 msnportal.112.2o7.net
+0.0.0.0 ads.msn.com.nsatc.net
 0.0.0.0 msn.allyes.com
 0.0.0.0 msnms.allyes.cn
-0.0.0.0 msnportal.112.2o7.net
-0.0.0.0 rad.live.com
-0.0.0.0 rad.msn.com
 0.0.0.0 uusee.haibao.org
 @HostsX 站点广告过滤/社区类网站
 #天涯
@@ -303,7 +285,6 @@
 #eNet
 0.0.0.0 trace.enet.com.cn
 0.0.0.0 enet4.enet.com.cn
-0.0.0.0 altfarm.mediaplex.com
 #It168
 0.0.0.0 adshow.it168.com
 0.0.0.0 168.it168.com
@@ -311,8 +292,6 @@
 0.0.0.0 img.rayfile.com
 0.0.0.0 raya.rayfile.com
 0.0.0.0 w105.rayfile.com
-#Techweb
-0.0.0.0 techweb.adsame.com
 @HostsX 站点广告过滤/汽车类网站
 #爱卡汽车
 0.0.0.0 d1.xcar.com.cn
@@ -328,6 +307,7 @@
 0.0.0.0 pv.cheshi.com
 0.0.0.0 fallyesbjafa.allyes.com
 #易车网
+0.0.0.0 autosense.bitauto.com
 0.0.0.0 g.bitauto.com
 0.0.0.0 gimg.bitauto.com
 0.0.0.0 ip.bitauto.com
@@ -425,6 +405,7 @@
 0.0.0.0 cai.vodone.com
 0.0.0.0 ego.vodone.com
 0.0.0.0 images.vodone.com
+0.0.0.0 msn.vodone.com
 0.0.0.0 pic.vodone.com
 0.0.0.0 stat.vodone.cn
 0.0.0.0 stat2.vodone.com
@@ -476,7 +457,11 @@
 @HostsX 站点广告过滤/信息类网站
 #北青网
 0.0.0.0 a.emedia.cn
+0.0.0.0 ad.ynet.com
 0.0.0.0 fun.ynet.com
+0.0.0.0 ranking.ynet.com
+0.0.0.0 v.emedia.cn
+0.0.0.0 z3.emedia.cn
 #沪江英语
 0.0.0.0 a4.yeshj.com
 #39健康网
@@ -634,20 +619,26 @@
 0.0.0.0 union.baidu.com
 0.0.0.0 unstat.baidu.com
 0.0.0.0 utk.baidu.com
-
 0.0.0.0 utility.baidu.com
-#阿里
+#阿里淘宝
 0.0.0.0 a.alimama.cn
+0.0.0.0 acookie.alibaba.com
+0.0.0.0 acookie.alimama.com
 0.0.0.0 bm.alimama.cn
 0.0.0.0 bmvip.alimama.cn
 0.0.0.0 cpc.click.alimama.com
 0.0.0.0 gouwu.alimama.com
+0.0.0.0 img.alimama.cn
+0.0.0.0 log.mm.vip.cnz.alimama.com
 0.0.0.0 p.alimama.com
+0.0.0.0 p3p.alibaba.com
 0.0.0.0 s.click.alimama.com
 0.0.0.0 static.alimama.com
+0.0.0.0 taoke.alimama.com
 0.0.0.0 www.alimama.com
 0.0.0.0 z.alimama.com
 0.0.0.0 s.click.taobao.com
+0.0.0.0 search8.taobao.com
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
@@ -719,6 +710,7 @@
 0.0.0.0 freeadp.tensynad.com
 0.0.0.0 g.chinaih.com
 0.0.0.0 gfyoyo.com.cn
+0.0.0.0 hz.mmstat.com
 0.0.0.0 idea.t2click.com
 0.0.0.0 image.tazhao.com
 0.0.0.0 img.8977.com
@@ -730,7 +722,6 @@
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 qqhdx.cn
 0.0.0.0 redirect.jooov.cn
-0.0.0.0 s.itopnetworks.com
 0.0.0.0 sales.woyo.com
 0.0.0.0 search.ok365.com
 0.0.0.0 search.p.cn
@@ -739,6 +730,7 @@
 0.0.0.0 union.51ditu.com
 0.0.0.0 union.88go.cc
 0.0.0.0 union.keepc.com
+0.0.0.0 union.narrowad.com
 0.0.0.0 union.qyule.com
 0.0.0.0 union.the999.com
 0.0.0.0 union.uume.com
@@ -769,8 +761,8 @@
 #国外常见广告
 0.0.0.0 ad.adtegrity.net
 0.0.0.0 adlog.com.com
-0.0.0.0 ads.bluelithium.com
 0.0.0.0 as.casalemedia.com
+0.0.0.0 content.pulse360.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 pub.softonic.cn
 0.0.0.0 s3.buysellads.com
@@ -778,6 +770,28 @@
 0.0.0.0 static.addtoany.com
 0.0.0.0 static02.linkedin.com
 0.0.0.0 track.effiliation.asia
+#Yahoo.com
+0.0.0.0 ads.yimg.com
+0.0.0.0 richmedia.yimg.com
+0.0.0.0 a.analytics.yahoo.com
+0.0.0.0 us.ard.yahoo.com
+0.0.0.0 us.rd.yahoo.com
+0.0.0.0 us.lrd.yahoo.com
+0.0.0.0 pclick.internal.yahoo.com
+0.0.0.0 ts.richmedia.yahoo.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 mp.apmebf.com
+0.0.0.0 ads.bluelithium.com
+0.0.0.0 ad.yieldmanager.com
+0.0.0.0 content.yieldmanager.com
+0.0.0.0 content.yieldmanager.edgesuite.net
+0.0.0.0 mi.adinterax.com
+0.0.0.0 tr.adinterax.com
+#Yahoo.co.jp
+0.0.0.0 ai.yimg.jp
+0.0.0.0 ard.yahoo.co.jp
+0.0.0.0 rd.yahoo.co.jp
+0.0.0.0 yjaxc.yahoo.co.jp
 #CNN
 0.0.0.0 ads.cnn.com
 #Myspace
@@ -794,6 +808,13 @@
 0.0.0.0 mga01.adbrite.com
 0.0.0.0 mga02.adbrite.com
 0.0.0.0 www.adbrite.com
+#ADPlan
+0.0.0.0 c.p-advg.com
+0.0.0.0 o.advg.jp
+0.0.0.0 sp.advg.jp
+0.0.0.0 www.adplan-ds.com
+0.0.0.0 www.adplan.ne.jp
+0.0.0.0 www.p-advg.com
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 cdn.amgdgt.com
@@ -801,10 +822,16 @@
 0.0.0.0 analytics.atdmt.com
 0.0.0.0 c.atdmt.com
 0.0.0.0 clk.atdmt.com
+0.0.0.0 h.atdmt.com
+0.0.0.0 spe.atdmt.com
+0.0.0.0 switch.atdmt.com
 0.0.0.0 view.atdmt.com
 #ixlink
 0.0.0.0 counter.ixlink.net
 0.0.0.0 textlink.ixlink.net
+#Mediaplex
+0.0.0.0 adfarm.mediaplex.com
+0.0.0.0 altfarm.mediaplex.com
 #Media-servers
 0.0.0.0 ad.media-servers.net
 0.0.0.0 content.media-servers.net
@@ -836,8 +863,9 @@
 0.0.0.0 dns2.oadz.com
 #acs86
 0.0.0.0 acs86.com
-0.0.0.0 tgb.acs86.com
+0.0.0.0 afp.acs86.com
 0.0.0.0 static.acs86.com
+0.0.0.0 tgb.acs86.com
 #CNZZ
 0.0.0.0 icon.cnzz.com
 0.0.0.0 v3.cnzz.com
@@ -878,6 +906,7 @@
 0.0.0.0 img.tongji.linezing.com
 0.0.0.0 js.tongji.linezing.com
 0.0.0.0 linezing.com
+0.0.0.0 p3p.linezing.com
 0.0.0.0 pimg.taobao.linezing.com
 0.0.0.0 post.taobao.linezing.com
 0.0.0.0 taobao.linezing.com
@@ -887,9 +916,6 @@
 0.0.0.0 c2m.wanliuliang.com
 0.0.0.0 p.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com
-#雅虎统计
-0.0.0.0 js.tongji.yahoo.com.cn
-0.0.0.0 js.tongji.cn.yahoo.com
 #万瑞数据
 0.0.0.0 163.wrating.com
 0.0.0.0 ads.wrating.com
@@ -1055,6 +1081,151 @@
 0.0.0.0 v2www.adpower.cn
 0.0.0.0 v3t.adpower.cn
 0.0.0.0 www.adpower.cn
+#AdsIt
+0.0.0.0 cdn.91adv.com
+0.0.0.0 cpv.91adv.com
+0.0.0.0 cpv.channelray.com
+0.0.0.0 player.91adv.com
+0.0.0.0 tracker.91adv.com
+0.0.0.0 www.91adv.com
+0.0.0.0 www.adsit.cn
+#AdSame
+0.0.0.0 0127.adsame.com
+0.0.0.0 114study.adsame.com
+0.0.0.0 1haoeagle.adsame.com
+0.0.0.0 51job.adsame.com
+0.0.0.0 aaa.adsame.com
+0.0.0.0 adsame.com
+0.0.0.0 adsamer.adsame.com
+0.0.0.0 ajkad.adsame.com
+0.0.0.0 ali.adsame.com
+0.0.0.0 anjuke.adsame.com
+0.0.0.0 asp.adsame.com
+0.0.0.0 asus.adsame.com
+0.0.0.0 autobild.adsame.com
+0.0.0.0 awstats.adsame.com
+0.0.0.0 baofeng.adsame.com
+0.0.0.0 benz.adsame.com
+0.0.0.0 bihu.adsame.com
+0.0.0.0 blog.adsame.com
+0.0.0.0 bohelady.adsame.com
+0.0.0.0 bokee.adsame.com
+0.0.0.0 bug.adsame.com
+0.0.0.0 c.adsame.com
+0.0.0.0 cacti.adsame.com
+0.0.0.0 caing.adsame.com
+0.0.0.0 caixin.adsame.com
+0.0.0.0 cctv.adsame.com
+0.0.0.0 cctveagle.adsame.com
+0.0.0.0 cms.adsame.com
+0.0.0.0 corebug.adsame.com
+0.0.0.0 crm.adsame.com
+0.0.0.0 ctrip.adsame.com
+0.0.0.0 cyht.adsame.com
+0.0.0.0 d.adsame.com
+0.0.0.0 data.adsame.com
+0.0.0.0 dcci.adsame.com
+0.0.0.0 dcci.panda.adsame.com
+0.0.0.0 ddmap.adsame.com
+0.0.0.0 demo.adsame.com
+0.0.0.0 dentsujp.adsame.com
+0.0.0.0 dolphin.adsame.com
+0.0.0.0 dolphin.vn.adsame.com
+0.0.0.0 dolphin.yoka.adsame.com
+0.0.0.0 dolphin1.adsame.com
+0.0.0.0 eagle.adsame.com
+0.0.0.0 eagle.vn.adsame.com
+0.0.0.0 eagleasp.adsame.com
+0.0.0.0 eagledemo.adsame.com
+0.0.0.0 eaglepro.adsame.com
+0.0.0.0 eastmoney.adsame.com
+0.0.0.0 easynews.adsame.com
+0.0.0.0 ebooom.adsame.com
+0.0.0.0 ebooomsys.adsame.com
+0.0.0.0 energysource.adsame.com
+0.0.0.0 erke.adsame.com
+0.0.0.0 euro.adsame.com
+0.0.0.0 exshopeagle.adsame.com
+0.0.0.0 gmd.adsame.com
+0.0.0.0 hanrun.adsame.com
+0.0.0.0 hlht.adsame.com
+0.0.0.0 hnb2c.adsame.com
+0.0.0.0 i.adsame.com
+0.0.0.0 i2.adsame.com
+0.0.0.0 ifeng.adsame.com
+0.0.0.0 img.adsame.com
+0.0.0.0 iresearch.adsame.com
+0.0.0.0 jiayuan.adsame.com
+0.0.0.0 jrj.adsame.com
+0.0.0.0 jsmedia.adsame.com.
+0.0.0.0 jspanda.adsame.com
+0.0.0.0 jyad.adsame.com
+0.0.0.0 legu.adsame.com
+0.0.0.0 littlesheep.adsame.com
+0.0.0.0 local.adsame.com
+0.0.0.0 longtuo.adsame.com
+0.0.0.0 loreal.adsame.com
+0.0.0.0 mafengwo.adsame.com
+0.0.0.0 mail.adsame.com
+0.0.0.0 mapbar.adsame.com
+0.0.0.0 max.adsame.com
+0.0.0.0 maxsys.adsame.com
+0.0.0.0 meihua.adsame.com
+0.0.0.0 meihua.d.adsame.com
+0.0.0.0 mindshare.adsame.com
+0.0.0.0 mix.adsame.com
+0.0.0.0 mixsys.adsame.com
+0.0.0.0 n.adsame.com
+0.0.0.0 neutrogena.adsame.com
+0.0.0.0 news1.adsame.com
+0.0.0.0 nimads.adsame.com
+0.0.0.0 p4p.adsame.com
+0.0.0.0 p4psys.adsame.com
+0.0.0.0 panda.adsame.com
+0.0.0.0 pipi.adsame.com
+0.0.0.0 pop168.adsame.com
+0.0.0.0 preview.adsame.com
+0.0.0.0 qmailadmin.adsame.com
+0.0.0.0 rayli.adsame.com
+0.0.0.0 return.adsame.com
+0.0.0.0 sam.adsame.com
+0.0.0.0 samba.adsame.com
+0.0.0.0 sambaclk.adsame.com
+0.0.0.0 sambasys.adsame.com
+0.0.0.0 sammax.adsame.com
+0.0.0.0 sammax.vn.adsame.com
+0.0.0.0 sammix.adsame.com
+0.0.0.0 samrt.adsame.com
+0.0.0.0 shellad.adsame.com
+0.0.0.0 shondy.adsame.com
+0.0.0.0 sina.adsame.com
+0.0.0.0 sinaeagle.adsame.com
+0.0.0.0 techweb.adsame.com
+0.0.0.0 test.adsame.com
+0.0.0.0 test1.adsame.com
+0.0.0.0 test2.adsame.com
+0.0.0.0 testwiki.adsame.com
+0.0.0.0 uusee.adsame.com
+0.0.0.0 v.adsame.com
+0.0.0.0 vdcci.adsame.com
+0.0.0.0 vertical.adsame.com
+0.0.0.0 viresearch.adsame.com
+0.0.0.0 vjsmedia.adsame.com
+0.0.0.0 vn.adsame.com
+0.0.0.0 vtechweb.adsame.com
+0.0.0.0 vtest.adsame.com
+0.0.0.0 walkon.adsame.com
+0.0.0.0 wiki.adsame.com
+0.0.0.0 www.adsame.com
+0.0.0.0 xcar.adsame.com
+0.0.0.0 xici.adsame.com
+0.0.0.0 xinhuanet.adsame.com
+0.0.0.0 xybc.adsame.com
+0.0.0.0 yaolan.adsame.com
+0.0.0.0 yiguan.adsame.com
+0.0.0.0 ynet.adsame.com
+0.0.0.0 yoka.adsame.com
+0.0.0.0 zh28.adsame.com
 #All4ad
 0.0.0.0 go.all4ad.cn
 0.0.0.0 jump.all4ad.cn
@@ -1076,6 +1247,10 @@
 #buzz-time
 0.0.0.0 a.buzz-time.com.cn
 0.0.0.0 ad.buzz-time.com.cn
+#iTop
+0.0.0.0 d.itopnetworks.com
+0.0.0.0 itopnetworks.com
+0.0.0.0 s.itopnetworks.com
 #黑马
 0.0.0.0 c.heima8.com
 0.0.0.0 pc.heima8.com
@@ -1125,6 +1300,7 @@
 #宣传易
 0.0.0.0 cpa.ads8.com
 0.0.0.0 code36.1133.cc
+0.0.0.0 count.1133.cc
 0.0.0.0 images1.1133.cc
 0.0.0.0 img7.1133.cc
 0.0.0.0 u.1133.cc
@@ -1361,6 +1537,8 @@
 0.0.0.0	update.pctutu.com
 0.0.0.0	update.pctutu.net
 #阿里旺旺
+0.0.0.0 acookie.alisoft.com
+0.0.0.0 p3p.alisoft.com
 0.0.0.0 po.im.alisoft.com
 #搜狗拼音
 0.0.0.0	files2.sogou.com
@@ -1388,48 +1566,34 @@
 0.0.0.0 jump.neoimaging.cn
 0.0.0.0 recommend.neoimaging.cn
 #MSN（WLM）登录加速
+0.0.0.0 crl.microsoft.com
 #腾讯QQ
-0.0.0.0 qqlogo.qq.com
 0.0.0.0 2052.flash2-http.qq.com
-0.0.0.0 ad.qq.com
-0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
-0.0.0.0 adsgroup.qq.com 
 0.0.0.0 adshmct.qq.com
-0.0.0.0 adshmmsg.qq.com
-0.0.0.0 adslvfile.qq.com
 0.0.0.0 adslvseed.qq.com
-0.0.0.0 adsqqclick.qq.com
-0.0.0.0 adsrich.qq.com
+0.0.0.0 dl_dir.qq.com
+0.0.0.0 httpring.qq.com
+0.0.0.0 isdspeed.qq.com
+0.0.0.0 minisite2009.qq.com
+0.0.0.0 qqlogo.qq.com
+0.0.0.0 show-msgch.qq.com
 0.0.0.0 c.l.qq.com
+0.0.0.0 hm.l.qq.com
+0.0.0.0 l.qq.com
+0.0.0.0 p.l.qq.com
+0.0.0.0 w.l.qq.com
+0.0.0.0 f.qstatic.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fw.qq.com
-0.0.0.0 imc.l.qq.com
-0.0.0.0 isdspeed.qq.com
-0.0.0.0 jingjia.qq.com
-0.0.0.0 l.qq.com
-0.0.0.0 minigameimg.qq.com
-0.0.0.0 minipanel.qq.com
-0.0.0.0 minisite.qq.com
-0.0.0.0 oimsgad.qq.com
 0.0.0.0 pingfore.qq.com
-0.0.0.0 pinghot.qq.com
 0.0.0.0 pingjs.qq.com
-0.0.0.0 portalinfo.qq.com
-0.0.0.0 qautodl.qq.com
-0.0.0.0 rich.qq.com
-0.0.0.0 scdown.qq.com
-0.0.0.0 showxml.qq.com
-0.0.0.0 syspic.qq.com
-0.0.0.0 sysportal.qq.com
-0.0.0.0 tipsimage2.qq.com
-0.0.0.0 today.qq.com
-0.0.0.0 toolbar.soso.com
 0.0.0.0 trace.qq.com
-0.0.0.0 union.qq.com
+0.0.0.0 dr.soso.com
+0.0.0.0 pingfore.soso.com
 0.0.0.0 v3.toolbar.soso.com
-0.0.0.0 w.l.qq.com
+0.0.0.0 toolbar.soso.com
 #迅雷系列
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
@@ -1560,9 +1724,12 @@
 0.0.0.0	tonec.com
 0.0.0.0	www.tonec.com
 #Flash版本检测
+0.0.0.0 active.macromedia.com
 0.0.0.0 www.macromedia.com
 0.0.0.0 download.macromedia.com
 0.0.0.0 fpdownload.macromedia.com
+#RealNetworks
+0.0.0.0 static.realone.com
 #游戏 英雄连
 0.0.0.0	cohlive-1.quazal.net
 0.0.0.0	cohlive.quazal.net
