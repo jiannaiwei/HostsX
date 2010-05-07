@@ -54,7 +54,7 @@ attrib -r -a -s -h %hosts%
 cls
 title Hosts 小工具
 echo ■───────────────────────────────── ■
-echo.■   1.Hosts文件调整       2.Acrylic+ 调整       3.下载更新工具      ■
+echo.■   1.Hosts文件调整       2.Acrylic+ 调整       3.工具自动更新      ■
 echo ■───────────────────────────────── ■
 echo.■   4.打开Hosts文件       5.Hosts文件整理       6.自定义网站屏蔽    ■
 echo ■───────────────────────────────── ■
@@ -120,14 +120,12 @@ IF /I '%Choice%'=='1' GOTO hostsbak
 IF /I '%Choice%'=='2' GOTO delbak
 IF /I '%Choice%'==''  GOTO menu
 :hostsbak
-color 2e
 echo 对原Hosts进行备份 ...
 copy /y %hosts% %etc%\"Hosts_%bf%" >nul 2>nul
 echo 备份完成
 pause
 goto menu
 :delbak
-color 4f
 echo 是否删除备份的Hosts文件？
 Pause
 cd %etc%
@@ -138,7 +136,6 @@ Pause
 goto menu
 :fixhosts
 mode con: cols=50 lines=12
-color 4f
 echo 修复HOSTS文件？（还原系统默认状态）
 Pause
 del %hosts% /q
@@ -220,7 +217,6 @@ goto finish
 :mwsl
 title 请选择您要使用的恶意网站数据
 mode con: cols=43 lines=21
-color 5f
 echo ======================================
 echo  使用其他国外优秀的Hosts数据：
 echo 1.使用     "死性不改"     整理的数据
@@ -433,7 +429,6 @@ call setup.bat&exit
 :hostsorder
 title Hosts文件整理
 mode con: cols=50 lines=15
-color 0b
 echo 1,删除域名后的#号注释
 echo 2,仅删除重复内容
 echo 3,删除#号注释并删除重复内容
@@ -771,11 +766,10 @@ color %a%%b%
 pause&goto menu
 
 :ver
-color 09
 mode con cols=45 lines=15
 title Thx All Friends Help
 echo Version:    1.530 Freeware Version
-echo Date:       2010.05.03
+echo Date:       2010.05.07
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. BY Jockwok
 mshta vbscript:createobject("sapi.spvoice").speak("Enjoy it!")(window.close)

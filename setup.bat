@@ -43,36 +43,14 @@ echo 正在下载中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 mshta vbscript:msgbox("正在下载数据！",64,"Hosts Tool")(window.close)
 pause
+if not exist down\HostsX.orzhosts (mshta vbscript:msgbox("未找到Hosts数据！",64,"Hosts Tool")(window.close))&pause&exit
+echo 正在下载中，请稍候... ...
 copy down\HostsX.orzhosts %hosts%
-goto finish
-
-:finish
-title 设置Hosts文件访问权限
-mode con: cols=50 lines=15
-color 0b
-echo 1,设为只读
-echo 2,设置Hosts文件防删权限（NTFS磁盘格式有效）
-echo 3,不设置任何权限
-SET Choice=
-SET /P Choice=请在修改完成关闭记事本后进行选择，按回车键确认：
-IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
-IF /I '%Choice%'=='1' GOTO readonly
-IF /I '%Choice%'=='2' GOTO ntfs
-IF /I '%Choice%'=='3' GOTO pmfinish
-:readonly
+pause
+title 设置Hosts文件只读权限
 attrib +r +a +s %hosts%
-goto pmfinish
-:ntfs
-attrib +r +a +s %hosts%
-echo y|cacls %hosts% /g everyone:r
-goto pmfinish
-:pmfinish
 echo Hosts文件权限设置完成！
 goto last
-
-:openhosts
-start explorer %etc%\
-goto menu
 
 :last
 echo Hosts文件权限设置完成
