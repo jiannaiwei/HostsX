@@ -4,7 +4,6 @@ mode con: cols=50 lines=16
 color 5f
 set bf=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -q -P down
-del /f /s /q down\*.*>nul 2>nul
 rem 判断操作系统版本
 if exist %ComSpec% goto nt else goto 9x
 :9x
