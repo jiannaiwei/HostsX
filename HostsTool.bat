@@ -210,7 +210,10 @@ IF /I '%Choice%'=='3' GOTO ipv6
 IF /I '%Choice%'=='0' GOTO menu
 
 :dft
-if not exist down\HostsX.orzhosts goto update
+echo 正在下载中，请稍候... ...
+%down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+mshta vbscript:msgbox("正在下载数据！",64,"Hosts Tool")(window.close)
+pause
 copy down\HostsX.orzhosts %hosts%
 goto finish
 
@@ -768,7 +771,7 @@ pause&goto menu
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.532 Freeware Version
+echo Version:    1.533 Freeware Version
 echo Date:       2010.05.07
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
