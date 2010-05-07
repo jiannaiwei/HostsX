@@ -7,7 +7,10 @@
 #常用通配符过滤
 0.0.0.0 *click.* click.simba.taobao.com
 0.0.0.0 *inst.*
-0.0.0.0 ad*.* admin.zol.com
+0.0.0.0 ad*.com admin.zol.com
+0.0.0.0 ads*.com
+0.0.0.0 ad*.net
+0.0.0.0 ads*.net
 0.0.0.0 allyes.*
 0.0.0.0 analytic*.*
 0.0.0.0 click.*
@@ -22,13 +25,13 @@
 0.0.0.0 p4p*.*
 0.0.0.0 pv.*
 0.0.0.0 ranking.*
+0.0.0.0 rad.*
 0.0.0.0 rd.*
 0.0.0.0 recommend.*
 0.0.0.0 redirect.*
 0.0.0.0 sc.*
 0.0.0.0 stat.*
 0.0.0.0 tongji.*
-0.0.0.0 u.* u.115.com u.youku.com
 0.0.0.0 union.*
 0.0.0.0 x.*
 #Google
@@ -403,7 +406,5 @@
 0.0.0.0 ping*.qq.com
 #! MSN
 0.0.0.0 crl.microsoft.com
-0.0.0.0 rad.live.com
-0.0.0.0 rad.msn.com
 #! OtherSoft
 0.0.0.0 statcn-*.maxthon.com
