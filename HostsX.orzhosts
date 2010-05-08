@@ -1,4 +1,4 @@
-;version=201005072320
+;version=201005081120
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Õ¾µãÖÇÄÜ×ªÏò
 #Localhost
@@ -1746,3 +1746,5 @@
 0.0.0.0	mangler9.generals.ea.com
 0.0.0.0	mangler10.generals.ea.com
 0.0.0.0	servserv.generals.ea.com
+#ÍøÂçĞáÌ½Æ÷
+0.0.0.0 www.wlxtq.com
