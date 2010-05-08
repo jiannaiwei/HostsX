@@ -1,4 +1,4 @@
-;version=201005081120
+;version=201005090100
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -843,6 +843,9 @@
 #QuestionMarket
 0.0.0.0 amch.questionmarket.com
 0.0.0.0 ch.questionmarket.com
+#StatCounter
+0.0.0.0 c.statcounter.com
+0.0.0.0 www.statcounter.com
 #Wsod
 0.0.0.0 ad.wsod.com
 0.0.0.0 admedia.wsod.com
@@ -1505,7 +1508,7 @@
 0.0.0.0 ttmsg.qianqian.com
 0.0.0.0 ttpack.qianqian.com
 0.0.0.0 ttplayer.qianqian.com
-#天翼网视
+#天翼视讯
 0.0.0.0 sm2.netitv.com
 #风行
 0.0.0.0 ad.funshion.com
@@ -1679,12 +1682,16 @@
 0.0.0.0	www.martau.com
 #Nikon Imaging
 0.0.0.0	sams.nikonimaging.com
+#SmartRecorder
+0.0.0.0 www.voiceemotion.com
 #SRS Audio Sandbox
 0.0.0.0	www.srs-store.com
 #Swiftdog
 0.0.0.0	www.swiftdog.com
 #WinDVD
 0.0.0.0 upgrade.intervideo.com
+#Wlxtq
+0.0.0.0 www.wlxtq.com
 #XMLSoap
 0.0.0.0	schemas.xmlsoap.org
 #ZALabs
@@ -1695,7 +1702,7 @@
 0.0.0.0 ps2.zonelabs.com
 0.0.0.0 register.zonelabs.com
 0.0.0.0 update.zonelabs.com
-#Adobe 系列（PS Pr等）
+#Adobe（AU PS Pr等）
 0.0.0.0 3dns-2.adobe.com
 0.0.0.0 3dns-3.adobe.com
 0.0.0.0 activate-sea.adobe.com
@@ -1710,7 +1717,7 @@
 0.0.0.0 wip3.adobe.com
 0.0.0.0 wwis-dubc1-vip60.adobe.com
 0.0.0.0 www.adobeereg.com
-#IDM 系列（UE UC IDM等）
+#IDM（UE UC IDM等）
 0.0.0.0	internetdownloadmanager.com
 0.0.0.0	mirror.internetdownloadmanager.com
 0.0.0.0	mirror2.internetdownloadmanager.com
@@ -1729,12 +1736,12 @@
 0.0.0.0 fpdownload.macromedia.com
 #RealNetworks
 0.0.0.0 static.realone.com
-#游戏 英雄连
+#Game 英雄连
 0.0.0.0	cohlive-1.quazal.net
 0.0.0.0	cohlive.quazal.net
 0.0.0.0	reliclive-1.quazal.net
 0.0.0.0	reliclive.quazal.net
-#游戏 EA系列（红警等）
+#Game EA系列（红警等）
 0.0.0.0	mangler1.generals.ea.com
 0.0.0.0	mangler2.generals.ea.com
 0.0.0.0	mangler3.generals.ea.com
@@ -1746,5 +1753,3 @@
 0.0.0.0	mangler9.generals.ea.com
 0.0.0.0	mangler10.generals.ea.com
 0.0.0.0	servserv.generals.ea.com
-#网络嗅探器
-0.0.0.0 www.wlxtq.com
