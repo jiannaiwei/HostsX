@@ -1,4 +1,4 @@
-;version=201005090130
+;version=201005092300
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -869,9 +869,69 @@
 0.0.0.0 static.acs86.com
 0.0.0.0 tgb.acs86.com
 #CNZZ
+0.0.0.0 17k.cnzz.com
+0.0.0.0 1ting.cnzz.com
+0.0.0.0 2008.cnzz.com
+0.0.0.0 aas.cnzz.com
+0.0.0.0 aas2.cnzz.com
+0.0.0.0 allowip.cnzz.com
+0.0.0.0 background.cnzz.com
+0.0.0.0 btt.cnzz.com
+0.0.0.0 c.cnzz.com
+0.0.0.0 cache.cnzz.com
+0.0.0.0 cas.cnzz.com
+0.0.0.0 ccm.cnzz.com
+0.0.0.0 click.cnzz.com
+0.0.0.0 clickjs.cnzz.com
+0.0.0.0 data.cnzz.com
+0.0.0.0 dataso.cnzz.co
+0.0.0.0 diancan.cnzz.com
+0.0.0.0 doc.cnzz.com
+0.0.0.0 down.cnzz.com
+0.0.0.0 down11.cnzz.com
+0.0.0.0 go.cnzz.com
 0.0.0.0 icon.cnzz.com
+0.0.0.0 icon1.cnzz.com
+0.0.0.0 icon2.cnzz.com
+0.0.0.0 igroup1.cnzz.com
+0.0.0.0 iliuyan.cnzz.com
+0.0.0.0 imcnzz.cnzz.com
+0.0.0.0 imf.cnzz.com
+0.0.0.0 img.cnzz.com
+0.0.0.0 info.cnzz.com
+0.0.0.0 intf.cnzz.com
+0.0.0.0 iuc.cnzz.com
+0.0.0.0 jiaoliu.cnzz.com
+0.0.0.0 js.cnzz.com
+0.0.0.0 ku6.cnzz.com
+0.0.0.0 liuyan.cnzz.com
+0.0.0.0 new.cnzz.com
+0.0.0.0 newhua.cnzz.com
+0.0.0.0 newstat.cnzz.com
+0.0.0.0 online.cnzz.com
+0.0.0.0 pw.cnzz.com
+0.0.0.0 pwmail.cnzz.com
+0.0.0.0 pxe.cnzz.com
+0.0.0.0 qjtest.cnzz.com
+0.0.0.0 qs1.cnzz.com
+0.0.0.0 qs2.cnzz.com
+0.0.0.0 quanjing.cnzz.com
+0.0.0.0 rd.cnzz.com
+0.0.0.0 rd1.cnzz.com
+0.0.0.0 root.cnzz.com
+0.0.0.0 search.cnzz.com
+0.0.0.0 si1.cnzz.com
+0.0.0.0 sitedb.cnzz.com
+0.0.0.0 stat.cnzz.com
+0.0.0.0 union.cnzz.com
+0.0.0.0 unionadmin.cnzz.com
+0.0.0.0 updateim.cnzz.com
 0.0.0.0 v3.cnzz.com
 0.0.0.0 w.cnzz.com
+0.0.0.0 wss.cnzz.com
+0.0.0.0 zs1.cnzz.com
+0.0.0.0 zs2.cnzz.com
+0.0.0.0 zzdh.cnzz.com
 #Webnibbler
 0.0.0.0 btnibbler.com
 0.0.0.0 cn.ad.btnibbler.com
