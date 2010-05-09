@@ -1,4 +1,4 @@
-;version=201005092300
+;version=201005100000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -54,14 +54,14 @@
 0.0.0.0 adclient.163.com
 0.0.0.0 adgeo.163.com
 0.0.0.0 adimg.163.com
+0.0.0.0 admail.163.com
 0.0.0.0 allyes.nie.163.com
 0.0.0.0 analytics.163.com
-0.0.0.0 cpc.163.com
 0.0.0.0 corp.163.com
+0.0.0.0 cpc.163.com
 0.0.0.0 pro.163.com
 0.0.0.0 proimg.163.com
 0.0.0.0 union.163.com
-0.0.0.0 ht.hao120.cc
 #网易有道搜索
 0.0.0.0 clkservice.youdao.com
 0.0.0.0 clkservice2.dict.youdao.com
@@ -702,6 +702,7 @@
 0.0.0.0 click1.ooommm.com.cn
 0.0.0.0 click3.ooommm.com.cn
 0.0.0.0 clk.abang.com
+0.0.0.0 cnt.zhaopin.com
 0.0.0.0 code.51link.com
 0.0.0.0 cpc.haowzz.com.cn
 0.0.0.0 dir.ejoina.com
@@ -709,6 +710,7 @@
 0.0.0.0 freeadp.tensynad.com
 0.0.0.0 g.chinaih.com
 0.0.0.0 gfyoyo.com.cn
+0.0.0.0 ht.hao120.cc
 0.0.0.0 hz.mmstat.com
 0.0.0.0 idea.t2click.com
 0.0.0.0 image.tazhao.com
