@@ -1,4 +1,4 @@
-;version=201005100000
+;version=201005101300
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -174,7 +174,7 @@
 #奇虎社区
 0.0.0.0	aimg.qihoo.com
 0.0.0.0	clkstat.qihoo.com
-0.0.0.0	rd.qikoo.com
+0.0.0.0 rd.qihoo.com
 0.0.0.0 code.qihoo.com
 0.0.0.0 qd.code.qihoo.com
 0.0.0.0 union.qihoo.com
@@ -738,6 +738,7 @@
 0.0.0.0 union.zhongsou.com
 0.0.0.0 union2.50bang.org
 0.0.0.0 www.021sms.com
+0.0.0.0 www.265g.info
 0.0.0.0 www.2yt.net
 0.0.0.0 www.adtools.cn
 0.0.0.0 www.algj-27dy.cn
