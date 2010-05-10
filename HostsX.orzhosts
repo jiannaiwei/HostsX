@@ -1,4 +1,4 @@
-;version=201005101300
+;version=201005101730
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1602,7 +1602,6 @@
 0.0.0.0	update.pctutu.com
 0.0.0.0	update.pctutu.net
 #阿里旺旺
-0.0.0.0 acookie.alisoft.com
 0.0.0.0 p3p.alisoft.com
 0.0.0.0 po.im.alisoft.com
 #搜狗拼音
