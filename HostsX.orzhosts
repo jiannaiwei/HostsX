@@ -1,4 +1,4 @@
-;version=201005101730
+;version=201005101800
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1711,6 +1711,8 @@
 0.0.0.0 www.aignes.info
 #Ashampoo
 0.0.0.0	licenses.ashampoo.com
+#Avast
+0.0.0.0 program.avast.com
 #Comodo UserTrust
 0.0.0.0 www.comodogroup.com
 0.0.0.0 www.usertrust.com
