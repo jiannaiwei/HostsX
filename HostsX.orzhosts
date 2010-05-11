@@ -1,4 +1,4 @@
-;version=201005112330
+;version=201005120100
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -570,7 +570,6 @@
 0.0.0.0 imageads7.googleadservices.com
 0.0.0.0 imageads8.googleadservices.com
 0.0.0.0 imageads9.googleadservices.com
-0.0.0.0 link.265.com
 0.0.0.0 ln.doubleclick.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 pagead.googlesyndication.com
@@ -584,10 +583,8 @@
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 service.urchin.com
 0.0.0.0 static.googleadsserving.cn
-0.0.0.0 static.googleadsserving.cn 
 0.0.0.0 toolbarqueries.google.com.hk
 0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 un.265.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googlesyndication.com
@@ -1057,6 +1054,8 @@
 0.0.0.0 www.zzcount.com
 @HostsX 网络广告过滤/常用广告联盟
 #265
+0.0.0.0 link.265.com
+0.0.0.0 un.265.com
 #77869
 0.0.0.0 u1.778669.com
 0.0.0.0 u2.778669.com
