@@ -272,7 +272,7 @@
 0.0.0.0 static.lstat.youku.com
 0.0.0.0 vid.atm.youku.com
 #Õ¡∂π
-0.0.0.0 ad*.tudou.com
+0.0.0.0 ad*.tudou.com adcontrol.tudou.com
 0.0.0.0 *sta*.tudou.com
 0.0.0.0 888.cn
 #ø·6
@@ -532,7 +532,7 @@
 0.0.0.0 *.referer.cn
 0.0.0.0 *.wanliuliang.com
 0.0.0.0 *.woopra.com
-0.0.0.0 *.wrating.com
+0.0.0.0 *.wrating.com cntv.wrating.com t5.wrating.com
 0.0.0.0 *.zzcount.com
 0.0.0.0 *acs86.com
 0.0.0.0 *btnibbler.com
