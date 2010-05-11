@@ -70,6 +70,8 @@
 0.0.0.0 partner.*
 0.0.0.0 pingfore.*
 0.0.0.0 pingjs.*
+0.0.0.0 market.*
+0.0.0.0 marketing.*
 0.0.0.0 pv.*
 0.0.0.0 rad.*
 0.0.0.0 ranking.*
@@ -160,7 +162,6 @@
 0.0.0.0 sta.dayoo.com
 #21CN
 0.0.0.0 click.21cn.com
-0.0.0.0 market.21cn.com
 0.0.0.0 ranking.21cn.com
 #Tom
 0.0.0.0 xtrack.tomonline-inc.com
@@ -239,7 +240,6 @@
 #游侠网
 0.0.0.0 bmp.ali213.net
 #多玩
-0.0.0.0 market.duowan.com
 0.0.0.0 mstat.duowan.com
 #电玩巴士
 0.0.0.0 bill.tgbus.com
@@ -474,7 +474,7 @@
 0.0.0.0 adlog.com.com
 0.0.0.0 as.casalemedia.com
 0.0.0.0 content.pulse360.com
-0.0.0.0 marketing.xineurope.com
+0.0.0.0 *.xineurope.com
 0.0.0.0 pub.softonic.cn
 0.0.0.0 s3.buysellads.com
 0.0.0.0 servedby.adsfactor.cn
@@ -513,7 +513,6 @@
 0.0.0.0 *.questionmarket.com
 0.0.0.0 *.statcounter.com
 0.0.0.0 *.wsod.com
-0.0.0.0 ch.questionmarket.com
 0.0.0.0 static*.secretchina.com
 0.0.0.0 www.adplan*
 @HostsX 网络广告过滤/统计跟踪
