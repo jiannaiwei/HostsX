@@ -691,18 +691,12 @@
 0.0.0.0 trace.qq.com
 0.0.0.0 dr.soso.com
 #Ñ¸À×ÏµÁÐ
-0.0.0.0 *stat.sandai.net
+0.0.0.0 *.sandai.net
 0.0.0.0 a*.xunlei.com
-0.0.0.0 analytics-union.sandai.net
-0.0.0.0 biz*.sandai.net
 0.0.0.0 c*.xunlei.com
-0.0.0.0 cknum.sandai.net
-0.0.0.0 float.sandai.net
+0.0.0.0 m*.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
-0.0.0.0 m*.xunlei.com
-0.0.0.0 mcfg.sandai.net
-0.0.0.0 ub.dphub.sandai.net
 #Maxthon
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 stat*.maxthon.com
