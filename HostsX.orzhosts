@@ -1,4 +1,4 @@
-;version=201005141700
+;version=201005142233
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -371,6 +371,14 @@
 #逐浪
 0.0.0.0 images2.zhulang.com
 @HostsX 站点广告过滤/视频类网站
+#56
+0.0.0.0 acs.56.com
+0.0.0.0 bill.agent.56.com
+0.0.0.0 union.56.com
+#6间房
+0.0.0.0 simba.6.cn
+0.0.0.0 pole.6rooms.com
+0.0.0.0 shrek.6.cn
 #优酷
 0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
@@ -382,7 +390,6 @@
 0.0.0.0 nstat.tudou.com
 0.0.0.0 stat.tudou.com
 0.0.0.0 stats.tudou.com
-0.0.0.0 888.cn
 #酷6
 0.0.0.0 analytics.ku6.com
 0.0.0.0 stat1.888.ku6.com
@@ -392,6 +399,13 @@
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86get.joy.cn
 0.0.0.0 86log.joy.cn
+#天线视频
+0.0.0.0 m.openv.tv
+0.0.0.0 uniclick.openv.com
+#爆米花
+0.0.0.0 union.pomoho.com
+#Wo31电影
+0.0.0.0 wo318.k621.com
 #iCast
 0.0.0.0 cast.ra.icast.cn
 0.0.0.0 js.icast.cn
@@ -419,20 +433,7 @@
 0.0.0.0 vlog.vodone.com
 0.0.0.0 vodone.com
 0.0.0.0 www.vodone.com
-#56
-0.0.0.0 acs.56.com
-0.0.0.0 bill.agent.56.com
-0.0.0.0 union.56.com
-#6间房
-0.0.0.0 simba.6.cn
-0.0.0.0 pole.6rooms.com
-0.0.0.0 shrek.6.cn
-#天线视频
-0.0.0.0 m.openv.tv
-0.0.0.0 uniclick.openv.com
-#爆米花网
-0.0.0.0 union.pomoho.com
-#波波网影
+#波波影视
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
 0.0.0.0 union.boodvd.com
@@ -651,6 +652,7 @@
 0.0.0.0 images.brand.sogou.com
 0.0.0.0 inte.sogou.com
 0.0.0.0 lk.brand.sogou.com
+0.0.0.0 pb.sogou.com
 0.0.0.0 pbd.sogou.com
 0.0.0.0 ping.ie.sogou.com
 0.0.0.0 pv.sogou.com
@@ -683,6 +685,7 @@
 0.0.0.0 m.menhutong.com.cn
 0.0.0.0 popunder.paypopup.com
 #大陆常见广告
+0.0.0.0 888.cn
 0.0.0.0 a.dlqm.net
 0.0.0.0 action.utops.cc
 0.0.0.0 ad.adition.net
