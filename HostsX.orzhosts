@@ -1,4 +1,4 @@
-;version=201005141630
+;version=201005141700
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Õ¾µãÖÇÄÜ×ªÏò
 #Localhost
@@ -1502,6 +1502,42 @@
 0.0.0.0	x.360safe.com
 #Avast
 0.0.0.0 program.avast.com
+#Avira Free°æ(F°æ/Ãâ·Ñ°æ)
+80.190.143.233 personal.avira-update.com
+80.190.143.226 personal.avira-update.com
+62.146.66.186 personal.avira-update.com
+80.190.143.228 personal.avira-update.com
+80.190.143.232 personal.avira-update.com
+62.146.66.182 personal.avira-update.com
+62.146.66.178 personal.avira-update.com
+80.190.143.231 personal.avira-update.com
+80.190.143.239 personal.avira-update.com
+62.146.66.181 personal.avira-update.com
+62.146.66.185 personal.avira-update.com
+80.190.143.240 personal.avira-update.com
+80.190.143.238 personal.avira-update.com
+80.190.143.243 personal.avira-update.com
+80.190.143.242 personal.avira-update.com
+62.146.66.187 personal.avira-update.com
+62.146.66.188 personal.avira-update.com
+62.146.66.189 personal.avira-update.com
+80.190.143.230 personal.avira-update.com
+80.190.143.241 personal.avira-update.com
+80.190.143.229 personal.avira-update.com
+62.146.66.180 personal.avira-update.com
+80.190.143.237 personal.avira-update.com
+62.146.66.184 personal.avira-update.com
+62.146.66.183 personal.avira-update.com
+80.190.143.234 personal.avira-update.com
+80.190.143.227 personal.avira-update.com
+80.190.143.235 personal.avira-update.com
+80.190.143.236 personal.avira-update.com
+62.146.66.179 personal.avira-update.com
+#Avira Premium°æ/Security Suite°æ£º
+62.146.87.172 premium.avira-update.com
+80.190.130.226 premium.avira-update.com
+80.190.130.227 premium.avira-update.com
+62.146.87.171 premium.avira-update.com
 #Comodo UserTrust
 0.0.0.0 www.comodogroup.com
 0.0.0.0 www.usertrust.com
