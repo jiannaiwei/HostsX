@@ -1,4 +1,4 @@
-;version=201005130100
+;version=201005141630
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -341,6 +341,7 @@
 0.0.0.0 ad.16wan.com
 0.0.0.0 bto.youxiya.com
 0.0.0.0 c.91wan.com
+0.0.0.0 chess.r.sougames.com
 0.0.0.0 dev.tongxue.com
 0.0.0.0 doc.70yx.com
 0.0.0.0 g.91sanguo.cn
@@ -747,6 +748,7 @@
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.p.cn
 0.0.0.0 www.wooigoo.cn
+0.0.0.0 y.taolai.cn
 #港台常见广告
 0.0.0.0 ad.wretch.cc
 0.0.0.0 ad71.doubleadx.com
@@ -1028,7 +1030,6 @@
 0.0.0.0 szxk.wrating.com
 0.0.0.0 t.wrating.com
 0.0.0.0 t1.wrating.com
-0.0.0.0 t10.wrating.com
 0.0.0.0 t2.wrating.com
 0.0.0.0 t3.wrating.com
 0.0.0.0 t4.wrating.com
@@ -1036,6 +1037,7 @@
 0.0.0.0 t7.wrating.com
 0.0.0.0 t8.wrating.com
 0.0.0.0 t9.wrating.com
+0.0.0.0 t10.wrating.com
 0.0.0.0 taiwan.wrating.com
 0.0.0.0 tom.wrating.com
 0.0.0.0 tongji.wrating.com
@@ -1490,7 +1492,64 @@
 #互易广告
 0.0.0.0 www.333wan.com
 @HostsX 软件广告过滤
-@HostsX 软件广告过滤/播放类
+@HostsX 软件广告过滤/安全软件
+#360安全卫士
+0.0.0.0	inst.360safe.com
+0.0.0.0	pinst.360.cn
+0.0.0.0	rd.360.cn
+0.0.0.0	stat.360safe.com
+0.0.0.0	updatem.360safe.com
+0.0.0.0	x.360safe.com
+#Avast
+0.0.0.0 program.avast.com
+#Comodo UserTrust
+0.0.0.0 www.comodogroup.com
+0.0.0.0 www.usertrust.com
+0.0.0.0 crl.usertrust.com
+#ZALabs
+0.0.0.0 cm2.zonelabs.com
+0.0.0.0 hs2.zonelabs.com
+0.0.0.0 ls2.zonelabs.com
+0.0.0.0 pa2.zonelabs.com
+0.0.0.0 ps2.zonelabs.com
+0.0.0.0 register.zonelabs.com
+0.0.0.0 update.zonelabs.com
+@HostsX 软件广告过滤/联络聊天
+#阿里旺旺
+0.0.0.0 p3p.alisoft.com
+0.0.0.0 po.im.alisoft.com
+#Fetion
+0.0.0.0 gg.joytod.com
+#MSN（WLM）登录加速
+0.0.0.0 crl.microsoft.com
+#腾讯QQ
+0.0.0.0 2052.flash2-http.qq.com
+0.0.0.0 adsclick.qq.com
+0.0.0.0 adsfile.qq.com
+0.0.0.0 adshmct.qq.com
+0.0.0.0 adslvseed.qq.com
+0.0.0.0 dl_dir.qq.com
+0.0.0.0 httpring.qq.com
+0.0.0.0 isdspeed.qq.com
+0.0.0.0 minisite2009.qq.com
+0.0.0.0 qqlogo.qq.com
+0.0.0.0 show-msgch.qq.com
+0.0.0.0 c.l.qq.com
+0.0.0.0 hm.l.qq.com
+0.0.0.0 l.qq.com
+0.0.0.0 p.l.qq.com
+0.0.0.0 w.l.qq.com
+0.0.0.0 f.qstatic.com
+0.0.0.0 fodder.qq.com
+0.0.0.0 fw.qq.com
+0.0.0.0 pingfore.qq.com
+0.0.0.0 pingjs.qq.com
+0.0.0.0 trace.qq.com
+0.0.0.0 dr.soso.com
+0.0.0.0 pingfore.soso.com
+0.0.0.0 v3.toolbar.soso.com
+0.0.0.0 toolbar.soso.com
+@HostsX 软件广告过滤/媒体播放
 #PPLive（PPVA）
 0.0.0.0 pp1.pplive.com
 0.0.0.0 live.v2.pplive.com
@@ -1513,6 +1572,8 @@
 0.0.0.0 insert-ad.qvod.com
 0.0.0.0 text-ad.qvod.com
 0.0.0.0 buffer-ad.qvod.com
+#SopCast
+0.0.0.0 home.sopserv.com
 #UUSee
 0.0.0.0 g.uusee.com
 0.0.0.0 sa.uusee.com
@@ -1575,8 +1636,6 @@
 0.0.0.0 ttmsg.qianqian.com
 0.0.0.0 ttpack.qianqian.com
 0.0.0.0 ttplayer.qianqian.com
-#天翼视讯
-0.0.0.0 sm2.netitv.com
 #风行
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
@@ -1584,39 +1643,104 @@
 0.0.0.0 gstat.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
-#SopCast
-0.0.0.0 home.sopserv.com
-@HostsX 软件广告过滤/其他类
-#360安全卫士
-0.0.0.0	inst.360safe.com
-0.0.0.0	pinst.360.cn
-0.0.0.0	rd.360.cn
-0.0.0.0	stat.360safe.com
-0.0.0.0	updatem.360safe.com
-0.0.0.0	x.360safe.com
-#超级兔子系列
-0.0.0.0	info.klplayer.com
-0.0.0.0	update.klplayer.com
-0.0.0.0	info.pcpc8.com
-0.0.0.0	info.pctutu.net
-0.0.0.0	link.pctutu.com
-0.0.0.0	m.pcpc8.com
-0.0.0.0	srtj.pctutu.net
-0.0.0.0	tj.pctutu.net
-0.0.0.0	update.pctutu.com
-0.0.0.0	update.pctutu.net
-#阿里旺旺
-0.0.0.0 p3p.alisoft.com
-0.0.0.0 po.im.alisoft.com
-#搜狗拼音
-0.0.0.0	files2.sogou.com
-0.0.0.0	ime.sogou.com
-0.0.0.0	config.pinyin.sogou.com
-0.0.0.0	info.pinyin.sogou.com
-0.0.0.0	ping.pinyin.sogou.com
-0.0.0.0	st.pinyin.sogou.com
-0.0.0.0 pinyin.sogou.com
-0.0.0.0 ad.hylzad.com
+#天翼视讯
+0.0.0.0 sm2.netitv.com
+@HostsX 软件广告过滤/验证屏蔽
+#ACDSee
+0.0.0.0	acdupdater.acdsystems.com
+0.0.0.0	soapintouch.acdnet.com
+#Aignes（WebSite-Watcher）
+0.0.0.0 aignes.com
+0.0.0.0 aignes.net
+0.0.0.0 aignes.info
+0.0.0.0 www.aignes.com
+0.0.0.0 www.aignes.net
+0.0.0.0 www.aignes.info
+#Adobe
+0.0.0.0 3dns-2.adobe.com
+0.0.0.0 3dns-3.adobe.com
+0.0.0.0 activate-sea.adobe.com
+0.0.0.0 activate-sjc0.adobe.com
+0.0.0.0 activate.adobe.com
+0.0.0.0 adobe-dns-2.adobe.com
+0.0.0.0 adobe-dns-3.adobe.com
+0.0.0.0 adobe-dns.adobe.com
+0.0.0.0 ereg.adobe.com
+0.0.0.0 ns.adobe.com
+0.0.0.0 practivate.adobe.com
+0.0.0.0 wip3.adobe.com
+0.0.0.0 wwis-dubc1-vip60.adobe.com
+0.0.0.0 www.adobeereg.com
+#Ashampoo
+0.0.0.0	licenses.ashampoo.com
+#CuteFTP
+0.0.0.0 cuteftp.com
+0.0.0.0 dbregistration.cuteftp.com
+0.0.0.0 globalscape.com
+0.0.0.0 www.cuteftp.com
+0.0.0.0 www.globalscape.com
+#Emurasoft（EmEditor）
+0.0.0.0	www.emurasoft.com
+#FlashFXP
+0.0.0.0 flashfxp.com
+0.0.0.0 flashfxp.org
+0.0.0.0 flashfxp.ws
+0.0.0.0 www.flashfxp.com
+0.0.0.0 www.flashfxp.org
+0.0.0.0 www.flashfxp.ws
+#Flash版本检测
+0.0.0.0 active.macromedia.com
+0.0.0.0 www.macromedia.com
+0.0.0.0 download.macromedia.com
+0.0.0.0 fpdownload.macromedia.com
+#IDM（UE UC IDM等）
+0.0.0.0	internetdownloadmanager.com
+0.0.0.0	mirror.internetdownloadmanager.com
+0.0.0.0	mirror2.internetdownloadmanager.com
+0.0.0.0	mirror3.internetdownloadmanager.com
+0.0.0.0	secure.internetdownloadmanager.com
+0.0.0.0	www.internetdownloadmanager.com
+0.0.0.0	registeridm.com
+0.0.0.0	secure.registeridm.com
+0.0.0.0	www.registeridm.com
+0.0.0.0	tonec.com
+0.0.0.0	www.tonec.com
+#Martau（Total Uninstall）
+0.0.0.0	www.martau.com
+#Nikon Imaging
+0.0.0.0	sams.nikonimaging.com
+#RealNetworks
+0.0.0.0 static.realone.com
+#SRS Audio Sandbox
+0.0.0.0	www.srs-store.com
+#Swiftdog
+0.0.0.0	www.swiftdog.com
+#WinDVD
+0.0.0.0 upgrade.intervideo.com
+#XMLSoap
+0.0.0.0	schemas.xmlsoap.org
+@HostsX 软件广告过滤/游戏类
+#英雄连
+0.0.0.0	cohlive-1.quazal.net
+0.0.0.0	cohlive.quazal.net
+0.0.0.0	reliclive-1.quazal.net
+0.0.0.0	reliclive.quazal.net
+#EA系列（红警等）
+0.0.0.0	mangler1.generals.ea.com
+0.0.0.0	mangler2.generals.ea.com
+0.0.0.0	mangler3.generals.ea.com
+0.0.0.0	mangler4.generals.ea.com
+0.0.0.0	mangler5.generals.ea.com
+0.0.0.0	mangler6.generals.ea.com
+0.0.0.0	mangler7.generals.ea.com
+0.0.0.0	mangler8.generals.ea.com
+0.0.0.0	mangler9.generals.ea.com
+0.0.0.0	mangler10.generals.ea.com
+0.0.0.0	servserv.generals.ea.com
+@HostsX 软件广告过滤/推广下载
+0.0.0.0	union.rising.com.cn
+0.0.0.0	zcomcdl.zcominc.com
+0.0.0.0 me.youheme.com
 #快车
 0.0.0.0	bc.kuaiche.com
 0.0.0.0	cimg.kuaiche.com
@@ -1627,41 +1751,6 @@
 0.0.0.0	ggstat.flashget.com
 0.0.0.0	olstat.flashget.com
 0.0.0.0	stat.flashget.com
-#光影魔术手
-0.0.0.0 ad.neoimaging.cn
-0.0.0.0 clientconfig.neoimaging.cn
-0.0.0.0 gift.neoimaging.cn
-0.0.0.0 jump.neoimaging.cn
-0.0.0.0 recommend.neoimaging.cn
-#MSN（WLM）登录加速
-0.0.0.0 crl.microsoft.com
-#腾讯QQ
-0.0.0.0 2052.flash2-http.qq.com
-0.0.0.0 adsclick.qq.com
-0.0.0.0 adsfile.qq.com
-0.0.0.0 adshmct.qq.com
-0.0.0.0 adslvseed.qq.com
-0.0.0.0 dl_dir.qq.com
-0.0.0.0 httpring.qq.com
-0.0.0.0 isdspeed.qq.com
-0.0.0.0 minisite2009.qq.com
-0.0.0.0 qqlogo.qq.com
-0.0.0.0 show-msgch.qq.com
-0.0.0.0 c.l.qq.com
-0.0.0.0 hm.l.qq.com
-0.0.0.0 l.qq.com
-0.0.0.0 p.l.qq.com
-0.0.0.0 w.l.qq.com
-0.0.0.0 f.qstatic.com
-0.0.0.0 fodder.qq.com
-0.0.0.0 fw.qq.com
-0.0.0.0 pingfore.qq.com
-0.0.0.0 pingjs.qq.com
-0.0.0.0 trace.qq.com
-0.0.0.0 dr.soso.com
-0.0.0.0 pingfore.soso.com
-0.0.0.0 v3.toolbar.soso.com
-0.0.0.0 toolbar.soso.com
 #迅雷系列
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
@@ -1694,42 +1783,7 @@
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
-#Maxthon
-0.0.0.0 mk.maxthon.cn
-0.0.0.0 stat.maxthon.com
-0.0.0.0 stat-w.maxthon.com
-0.0.0.0	statcn-c.maxthon.com
-#推广下载系列
-0.0.0.0	union.rising.com.cn
-0.0.0.0	zcomcdl.zcominc.com
-0.0.0.0 me.youheme.com
-@HostsX 软件广告过滤/验证类
-#ACDSee
-0.0.0.0	acdupdater.acdsystems.com
-0.0.0.0	soapintouch.acdnet.com
-#Aignes（WebSite-Watcher）
-0.0.0.0 aignes.com
-0.0.0.0 aignes.net
-0.0.0.0 aignes.info
-0.0.0.0 www.aignes.com
-0.0.0.0 www.aignes.net
-0.0.0.0 www.aignes.info
-#Ashampoo
-0.0.0.0	licenses.ashampoo.com
-#Avast
-0.0.0.0 program.avast.com
-#Comodo UserTrust
-0.0.0.0 www.comodogroup.com
-0.0.0.0 www.usertrust.com
-0.0.0.0 crl.usertrust.com
-#CuteFTP
-0.0.0.0 cuteftp.com
-0.0.0.0 dbregistration.cuteftp.com
-0.0.0.0 globalscape.com
-0.0.0.0 www.cuteftp.com
-0.0.0.0 www.globalscape.com
-#Emurasoft（EmEditor）
-0.0.0.0	www.emurasoft.com
+@HostsX 软件广告过滤/其他类
 #eREAD 爱搜书
 0.0.0.0 bookbar.isoshu.com
 0.0.0.0 down.isoshu.com
@@ -1738,85 +1792,38 @@
 0.0.0.0 mobile1.isoshu.com
 0.0.0.0 pub.isoshu.com
 0.0.0.0 www.isoshu.com
-#FlashFXP
-0.0.0.0 flashfxp.com
-0.0.0.0 flashfxp.org
-0.0.0.0 flashfxp.ws
-0.0.0.0 www.flashfxp.com
-0.0.0.0 www.flashfxp.org
-0.0.0.0 www.flashfxp.ws
-#Martau（Total Uninstall）
-0.0.0.0	www.martau.com
-#Nikon Imaging
-0.0.0.0	sams.nikonimaging.com
+#Maxthon
+0.0.0.0 mk.maxthon.cn
+0.0.0.0 stat.maxthon.com
+0.0.0.0 stat-w.maxthon.com
+0.0.0.0	statcn-c.maxthon.com
 #SmartRecorder
 0.0.0.0 www.voiceemotion.com
-#SRS Audio Sandbox
-0.0.0.0	www.srs-store.com
-#Swiftdog
-0.0.0.0	www.swiftdog.com
-#WinDVD
-0.0.0.0 upgrade.intervideo.com
 #Wlxtq
 0.0.0.0 www.wlxtq.com
-#XMLSoap
-0.0.0.0	schemas.xmlsoap.org
-#ZALabs
-0.0.0.0 cm2.zonelabs.com
-0.0.0.0 hs2.zonelabs.com
-0.0.0.0 ls2.zonelabs.com
-0.0.0.0 pa2.zonelabs.com
-0.0.0.0 ps2.zonelabs.com
-0.0.0.0 register.zonelabs.com
-0.0.0.0 update.zonelabs.com
-#Adobe（AU PS Pr等）
-0.0.0.0 3dns-2.adobe.com
-0.0.0.0 3dns-3.adobe.com
-0.0.0.0 activate-sea.adobe.com
-0.0.0.0 activate-sjc0.adobe.com
-0.0.0.0 activate.adobe.com
-0.0.0.0 adobe-dns-2.adobe.com
-0.0.0.0 adobe-dns-3.adobe.com
-0.0.0.0 adobe-dns.adobe.com
-0.0.0.0 ereg.adobe.com
-0.0.0.0 ns.adobe.com
-0.0.0.0 practivate.adobe.com
-0.0.0.0 wip3.adobe.com
-0.0.0.0 wwis-dubc1-vip60.adobe.com
-0.0.0.0 www.adobeereg.com
-#IDM（UE UC IDM等）
-0.0.0.0	internetdownloadmanager.com
-0.0.0.0	mirror.internetdownloadmanager.com
-0.0.0.0	mirror2.internetdownloadmanager.com
-0.0.0.0	mirror3.internetdownloadmanager.com
-0.0.0.0	secure.internetdownloadmanager.com
-0.0.0.0	www.internetdownloadmanager.com
-0.0.0.0	registeridm.com
-0.0.0.0	secure.registeridm.com
-0.0.0.0	www.registeridm.com
-0.0.0.0	tonec.com
-0.0.0.0	www.tonec.com
-#Flash版本检测
-0.0.0.0 active.macromedia.com
-0.0.0.0 www.macromedia.com
-0.0.0.0 download.macromedia.com
-0.0.0.0 fpdownload.macromedia.com
-#RealNetworks
-0.0.0.0 static.realone.com
-#Game 英雄连
-0.0.0.0	cohlive-1.quazal.net
-0.0.0.0	cohlive.quazal.net
-0.0.0.0	reliclive-1.quazal.net
-0.0.0.0	reliclive.quazal.net
-#Game EA系列（红警等）
-0.0.0.0	mangler1.generals.ea.com
-0.0.0.0	mangler2.generals.ea.com
-0.0.0.0	mangler3.generals.ea.com
-0.0.0.0	mangler4.generals.ea.com
-0.0.0.0	mangler5.generals.ea.com
-0.0.0.0	mangler6.generals.ea.com
-0.0.0.0	mangler7.generals.ea.com
-0.0.0.0	mangler8.generals.ea.com
-0.0.0.0	mangler9.generals.ea.com
-0.0.0.0	mangler10.generals.ea.com
-0.0.0.0	servserv.generals.ea.com
+#超级兔子系列
+0.0.0.0	info.klplayer.com
+0.0.0.0	update.klplayer.com
+0.0.0.0	info.pcpc8.com
+0.0.0.0	info.pctutu.net
+0.0.0.0	link.pctutu.com
+0.0.0.0	m.pcpc8.com
+0.0.0.0	srtj.pctutu.net
+0.0.0.0	tj.pctutu.net
+0.0.0.0	update.pctutu.com
+0.0.0.0	update.pctutu.net
+#搜狗拼音
+0.0.0.0	files2.sogou.com
+0.0.0.0	ime.sogou.com
+0.0.0.0	config.pinyin.sogou.com
+0.0.0.0	info.pinyin.sogou.com
+0.0.0.0	ping.pinyin.sogou.com
+0.0.0.0	st.pinyin.sogou.com
+0.0.0.0 pinyin.sogou.com
+0.0.0.0 ad.hylzad.com
+#光影魔术手
+0.0.0.0 ad.neoimaging.cn
+0.0.0.0 clientconfig.neoimaging.cn
+0.0.0.0 gift.neoimaging.cn
+0.0.0.0 jump.neoimaging.cn
+0.0.0.0 recommend.neoimaging.cn

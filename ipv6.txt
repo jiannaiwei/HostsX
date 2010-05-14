@@ -1,4 +1,5 @@
 #Google和各种网站的IPv6服务hosts   
+#利用IPv6技术翻墙，保证Google服务可用，校园网用户使用IPv6应该不收取上网费用（至少我们学校如此）
 #欢迎转载，请注明来源，谢谢 
 #本文的发布地址：http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
 #顺便提供能够解析出Google的IPv6地址的DNS服务器(因提供这些服务器的ISP已经加入Google over IPv6计划)，这样不需要修改hosts，只需改变本机DNS设置就可以自动将Google域名解析为IPv6地址了。
@@ -69,7 +70,6 @@
 2404:6800:8005::29 www.google.com.ar
 2404:6800:8005::2a www.google.co.nz
 2404:6800:8005::2b www.google.lt
-#2404:6800:8005::2c www.google.cn     中国（已死）
 2404:6800:8005::2d www.google.com.sg
 2404:6800:8005::2e www.google.com.hk 香港
 2404:6800:8005::2f www.google.com.tw 台湾
