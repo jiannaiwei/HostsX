@@ -1,4 +1,4 @@
-;version=201005160100
+;version=201005160120
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -338,6 +338,7 @@
 0.0.0.0 g.tgbus.com
 0.0.0.0 g.tgbusdata.cn
 #常见游戏广告
+0.0.0.0 act.dn.sdo.com
 0.0.0.0 ad.16wan.com
 0.0.0.0 bto.youxiya.com
 0.0.0.0 c.91wan.com
@@ -348,6 +349,7 @@
 0.0.0.0 images.9zwar.com
 0.0.0.0 passport.fs5d.com
 0.0.0.0 po.add.tx908.com
+0.0.0.0 pv.7fgame.com
 0.0.0.0 tao.37wan.com
 0.0.0.0 tg.70yx.com
 0.0.0.0 u.56wan.com
@@ -1562,6 +1564,13 @@
 0.0.0.0 gg.joytod.com
 #MSN（WLM）登录加速
 0.0.0.0 crl.microsoft.com
+#YY语音
+0.0.0.0 ad.yy.duowan.com
+0.0.0.0 do.yy.duowan.com
+0.0.0.0 gamecollaborate.yy.duowan.com
+0.0.0.0 im.yy.hiido.cn
+0.0.0.0 update.yy.duowan.com
+0.0.0.0 yydl.duowan.com
 #腾讯QQ
 0.0.0.0 2052.flash2-http.qq.com
 0.0.0.0 adsclick.qq.com
