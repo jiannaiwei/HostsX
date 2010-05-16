@@ -1,4 +1,4 @@
-;version=201005161636
+;version=201005161639
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -47,7 +47,7 @@
 64.147.188.86 download.xmarks.com
 64.147.188.86 my.xmarks.com
 @HostsX 站点广告过滤
-@HostsX 网络广告过滤/海外网站
+@HostsX 站点广告过滤/海外网站
 #ABCNews
 0.0.0.0 adsatt.abcnews.starwave.com
 0.0.0.0 log.go.com
