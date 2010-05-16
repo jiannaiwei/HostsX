@@ -1,4 +1,4 @@
-;version=201005160120
+;version=201005161528
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -538,61 +538,7 @@
 #多特软件
 0.0.0.0 www.duote.com
 0.0.0.0 img.duote.com
-@HostsX 网络广告过滤/常见广告
-#Doubleclick
-0.0.0.0 ad-apac.doubleclick.net
-0.0.0.0 ad-g.doubleclick.net
-0.0.0.0 ad.ca.doubleclick.net
-0.0.0.0 ad.cn.doubleclick.net
-0.0.0.0 ad.de.doubleclick.net
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 ad.fr.doubleclick.net
-0.0.0.0 ad.hk.doubleclick.net
-0.0.0.0 ad.jp.doubleclick.net
-0.0.0.0 ad.nl.doubleclick.net
-0.0.0.0 ad.no.doubleclick.net
-0.0.0.0 ad.uk.doubleclick.net
-0.0.0.0 adservices.google.com
-0.0.0.0 afs.googleadservices.com
-0.0.0.0 amn.doubleclick.net
-0.0.0.0 buttons.googlesyndication.com
-0.0.0.0 domains.googlesyndication.com
-0.0.0.0 doubleclick.net
-0.0.0.0 ebaycn.doubleclick.net
-0.0.0.0 ebaytw.doubleclick.net
-0.0.0.0 feedads.g.doubleclick.net
-0.0.0.0 feedads.googleadservices.com
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 googlesyndication.com
-0.0.0.0 image.j-a-net.jp
-0.0.0.0 imageads.googleadservices.com
-0.0.0.0 imageads1.googleadservices.com
-0.0.0.0 imageads2.googleadservices.com
-0.0.0.0 imageads3.googleadservices.com
-0.0.0.0 imageads4.googleadservices.com
-0.0.0.0 imageads5.googleadservices.com
-0.0.0.0 imageads6.googleadservices.com
-0.0.0.0 imageads7.googleadservices.com
-0.0.0.0 imageads8.googleadservices.com
-0.0.0.0 imageads9.googleadservices.com
-0.0.0.0 ln.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 pagead.googlesyndication.com
-0.0.0.0 pagead1.googlesyndication.com
-0.0.0.0 pagead2.googleadservices.com
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 pagead3.googlesyndication.com
-0.0.0.0 pagead4.googlesyndication.com
-0.0.0.0 pagead5.googlesyndication.com
-0.0.0.0 partner.googleadservices.com
-0.0.0.0 pubads.g.doubleclick.net
-0.0.0.0 service.urchin.com
-0.0.0.0 static.googleadsserving.cn
-0.0.0.0 toolbarqueries.google.com.hk
-0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.googleadservices.com
-0.0.0.0 www.googlesyndication.com
+@HostsX 网络广告过滤/国内广告
 #百度
 0.0.0.0 a.baidu.com
 0.0.0.0 baidutv.baidu.com
@@ -712,7 +658,6 @@
 0.0.0.0 code.51link.com
 0.0.0.0 cpc.haowzz.com.cn
 0.0.0.0 dir.ejoina.com
-0.0.0.0 dw-cn.com.com
 0.0.0.0 freeadp.tensynad.com
 0.0.0.0 g.chinaih.com
 0.0.0.0 gfyoyo.com.cn
@@ -749,7 +694,6 @@
 0.0.0.0 www.2yt.net
 0.0.0.0 www.adtools.cn
 0.0.0.0 www.algj-27dy.cn
-0.0.0.0 www.cbsinteractive.com
 0.0.0.0 www.cxgglm.com
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.p.cn
@@ -770,48 +714,22 @@
 @HostsX 网络广告过滤/国外广告
 #国外常见广告
 0.0.0.0 ad.adtegrity.net
-0.0.0.0 adlog.com.com
+0.0.0.0 adtech.panthercustomer.com
 0.0.0.0 as.casalemedia.com
 0.0.0.0 content.pulse360.com
+0.0.0.0 counters.gigya.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 pub.softonic.cn
 0.0.0.0 s3.buysellads.com
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 static.addtoany.com
 0.0.0.0 static02.linkedin.com
+0.0.0.0 stats.edgevertising.net
+0.0.0.0 statse.webtrendslive.com
 0.0.0.0 track.effiliation.asia
-#Yahoo.com
-0.0.0.0 ads.yimg.com
-0.0.0.0 richmedia.yimg.com
-0.0.0.0 a.analytics.yahoo.com
-0.0.0.0 us.ard.yahoo.com
-0.0.0.0 us.rd.yahoo.com
-0.0.0.0 us.lrd.yahoo.com
-0.0.0.0 pclick.internal.yahoo.com
-0.0.0.0 ts.richmedia.yahoo.com
-0.0.0.0 s0.2mdn.net
-0.0.0.0 mp.apmebf.com
-0.0.0.0 ads.bluelithium.com
-0.0.0.0 ad.yieldmanager.com
-0.0.0.0 content.yieldmanager.com
-0.0.0.0 content.yieldmanager.edgesuite.net
-0.0.0.0 mi.adinterax.com
-0.0.0.0 tr.adinterax.com
-#Yahoo.co.jp
-0.0.0.0 ai.yimg.jp
-0.0.0.0 ard.yahoo.co.jp
-0.0.0.0 rd.yahoo.co.jp
-0.0.0.0 yjaxc.yahoo.co.jp
-#CNN
-0.0.0.0 ads.cnn.com
-#Myspace
-0.0.0.0 advertise.myspace.com
-0.0.0.0 demr.opt.fimserve.com
-#SecretChina
-0.0.0.0 ad.secretchina.com
-0.0.0.0 static1.secretchina.com
-0.0.0.0 ad.epochtimes.com
+0.0.0.0 www.adlinkmedia.net
 #Adbrite
+0.0.0.0 4.adbrite.com
 0.0.0.0 b1.adbrite.com
 0.0.0.0 click.adbrite.com
 0.0.0.0 files.adbrite.com
@@ -836,6 +754,64 @@
 0.0.0.0 spe.atdmt.com
 0.0.0.0 switch.atdmt.com
 0.0.0.0 view.atdmt.com
+#Doubleclick
+0.0.0.0 ad-apac.doubleclick.net
+0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 ad.ca.doubleclick.net
+0.0.0.0 ad.cn.doubleclick.net
+0.0.0.0 ad.de.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad.fr.doubleclick.net
+0.0.0.0 ad.hk.doubleclick.net
+0.0.0.0 ad.jp.doubleclick.net
+0.0.0.0 ad.nl.doubleclick.net
+0.0.0.0 ad.no.doubleclick.net
+0.0.0.0 ad.uk.doubleclick.net
+0.0.0.0 amn.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 ebaycn.doubleclick.net
+0.0.0.0 ebaytw.doubleclick.net
+0.0.0.0 feedads.g.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ln.doubleclick.net
+0.0.0.0 m.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+#FoxAudienceNetwork
+0.0.0.0 demr.opt.fimserve.com
+0.0.0.0 trgc.opt.fimserve.com
+#Google AdSense
+0.0.0.0 adservices.google.com
+0.0.0.0 afs.googleadservices.com
+0.0.0.0 buttons.googlesyndication.com
+0.0.0.0 domains.googlesyndication.com
+0.0.0.0 feedads.googleadservices.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 imageads.googleadservices.com
+0.0.0.0 imageads1.googleadservices.com
+0.0.0.0 imageads2.googleadservices.com
+0.0.0.0 imageads3.googleadservices.com
+0.0.0.0 imageads4.googleadservices.com
+0.0.0.0 imageads5.googleadservices.com
+0.0.0.0 imageads6.googleadservices.com
+0.0.0.0 imageads7.googleadservices.com
+0.0.0.0 imageads8.googleadservices.com
+0.0.0.0 imageads9.googleadservices.com
+0.0.0.0 pagead.googlesyndication.com
+0.0.0.0 pagead1.googlesyndication.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead3.googlesyndication.com
+0.0.0.0 pagead4.googlesyndication.com
+0.0.0.0 pagead5.googlesyndication.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 static.googleadsserving.cn
+0.0.0.0 toolbarqueries.google.com.hk
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 www.googlesyndication.com
+0.0.0.0 image.j-a-net.jp
+0.0.0.0 service.urchin.com
 #ixlink
 0.0.0.0 counter.ixlink.net
 0.0.0.0 textlink.ixlink.net
@@ -860,6 +836,53 @@
 #Wsod
 0.0.0.0 ad.wsod.com
 0.0.0.0 admedia.wsod.com
+@HostsX 网络广告过滤/国外门户
+#Yahoo.com
+0.0.0.0 ads.yimg.com
+0.0.0.0 richmedia.yimg.com
+0.0.0.0 a.analytics.yahoo.com
+0.0.0.0 us.ard.yahoo.com
+0.0.0.0 us.rd.yahoo.com
+0.0.0.0 us.lrd.yahoo.com
+0.0.0.0 pclick.internal.yahoo.com
+0.0.0.0 ts.richmedia.yahoo.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 mp.apmebf.com
+0.0.0.0 ads.bluelithium.com
+0.0.0.0 ad.yieldmanager.com
+0.0.0.0 content.yieldmanager.com
+0.0.0.0 content.yieldmanager.edgesuite.net
+0.0.0.0 mi.adinterax.com
+0.0.0.0 tr.adinterax.com
+#Yahoo.co.jp
+0.0.0.0 ai.yimg.jp
+0.0.0.0 ard.yahoo.co.jp
+0.0.0.0 rd.yahoo.co.jp
+0.0.0.0 yjaxc.yahoo.co.jp
+#CbsNews
+0.0.0.0 dw.cbsnews.com
+#CNet
+0.0.0.0 dw.cnet.com
+0.0.0.0 www.cbsinteractive.com
+0.0.0.0 adlog.com.com
+0.0.0.0 dw-cn.com.com
+0.0.0.0 dw.com.com
+0.0.0.0 img.com.com
+#CNN
+0.0.0.0 ads.cnn.com
+#Lycos News
+0.0.0.0 ads.lycos.com
+0.0.0.0 advertising.lycos.com
+#Myspace
+0.0.0.0 advertise.myspace.com
+#Reuters News
+0.0.0.0 static.reuters.com
+#SecretChina
+0.0.0.0 ad.secretchina.com
+0.0.0.0 static1.secretchina.com
+0.0.0.0 ad.epochtimes.com
+#The Independent
+0.0.0.0 adserver.adtech.de
 @HostsX 网络广告过滤/统计跟踪
 #51la
 0.0.0.0 img.users.51.la
