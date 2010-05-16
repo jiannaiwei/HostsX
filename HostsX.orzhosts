@@ -1,4 +1,4 @@
-;version=201005161528
+;version=201005161605
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -224,6 +224,7 @@
 0.0.0.0 adv.blogupp.com
 0.0.0.0 union.bolaa.com
 #购物推广
+0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 union.360buy.com
 0.0.0.0 union.dangdang.com
 0.0.0.0 union.vancl.com
@@ -642,7 +643,6 @@
 0.0.0.0 adclk.thinkmedia.cn
 0.0.0.0 adcount.moliyo.com
 0.0.0.0 adserving.cpxinteractive.com
-0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 amps.yoyi.com.cn
 0.0.0.0 api.flash45.com
 0.0.0.0 ato.geci.cn
@@ -746,6 +746,12 @@
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 cdn.amgdgt.com
+#AOL Ad
+0.0.0.0 ads.adsonar.com
+0.0.0.0 ads.tw.adsonar.com
+0.0.0.0 advertising.aol.com
+0.0.0.0 at.atwola.com
+0.0.0.0 cdn.at.atwola.com
 #Atdmt
 0.0.0.0 analytics.atdmt.com
 0.0.0.0 c.atdmt.com
@@ -836,7 +842,41 @@
 #Wsod
 0.0.0.0 ad.wsod.com
 0.0.0.0 admedia.wsod.com
+#ZEDO
+0.0.0.0 c5.zedo.com
 @HostsX 网络广告过滤/国外门户
+#ABCNews
+0.0.0.0 adsatt.abcnews.starwave.com
+0.0.0.0 log.go.com
+#Ap.org
+0.0.0.0 te.ap.org
+0.0.0.0 ap.search.theplatform.com
+#BBC
+0.0.0.0 external.bbc.co.uk
+0.0.0.0 stats.bbc.co.uk
+0.0.0.0 visualscience.external.bbc.co.uk
+#CBSNews
+0.0.0.0 dw.cbsnews.com
+#CNet
+0.0.0.0 dw.cnet.com
+0.0.0.0 www.cbsinteractive.com
+0.0.0.0 adlog.com.com
+0.0.0.0 dw-cn.com.com
+0.0.0.0 dw.com.com
+0.0.0.0 img.com.com
+#CNN
+0.0.0.0 ads.cnn.com
+#Lycos News
+0.0.0.0 ads.lycos.com
+0.0.0.0 advertising.lycos.com
+#Myspace
+0.0.0.0 advertise.myspace.com
+#SecretChina
+0.0.0.0 ad.secretchina.com
+0.0.0.0 static1.secretchina.com
+0.0.0.0 ad.epochtimes.com
+#The Independent
+0.0.0.0 adserver.adtech.de
 #Yahoo.com
 0.0.0.0 ads.yimg.com
 0.0.0.0 richmedia.yimg.com
@@ -859,30 +899,6 @@
 0.0.0.0 ard.yahoo.co.jp
 0.0.0.0 rd.yahoo.co.jp
 0.0.0.0 yjaxc.yahoo.co.jp
-#CbsNews
-0.0.0.0 dw.cbsnews.com
-#CNet
-0.0.0.0 dw.cnet.com
-0.0.0.0 www.cbsinteractive.com
-0.0.0.0 adlog.com.com
-0.0.0.0 dw-cn.com.com
-0.0.0.0 dw.com.com
-0.0.0.0 img.com.com
-#CNN
-0.0.0.0 ads.cnn.com
-#Lycos News
-0.0.0.0 ads.lycos.com
-0.0.0.0 advertising.lycos.com
-#Myspace
-0.0.0.0 advertise.myspace.com
-#Reuters News
-0.0.0.0 static.reuters.com
-#SecretChina
-0.0.0.0 ad.secretchina.com
-0.0.0.0 static1.secretchina.com
-0.0.0.0 ad.epochtimes.com
-#The Independent
-0.0.0.0 adserver.adtech.de
 @HostsX 网络广告过滤/统计跟踪
 #51la
 0.0.0.0 img.users.51.la
