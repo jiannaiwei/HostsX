@@ -1,4 +1,4 @@
-;version=201005161605
+;version=201005161636
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -47,6 +47,83 @@
 64.147.188.86 download.xmarks.com
 64.147.188.86 my.xmarks.com
 @HostsX 站点广告过滤
+@HostsX 网络广告过滤/海外网站
+#ABCNews
+0.0.0.0 adsatt.abcnews.starwave.com
+0.0.0.0 log.go.com
+#Ap.org
+0.0.0.0 te.ap.org
+0.0.0.0 ap.search.theplatform.com
+#BBC
+0.0.0.0 external.bbc.co.uk
+0.0.0.0 stats.bbc.co.uk
+0.0.0.0 visualscience.external.bbc.co.uk
+#CBSNews
+0.0.0.0 dw.cbsnews.com
+#CNet
+0.0.0.0 dw.cnet.com
+0.0.0.0 www.cbsinteractive.com
+0.0.0.0 adlog.com.com
+0.0.0.0 dw-cn.com.com
+0.0.0.0 dw.com.com
+0.0.0.0 img.com.com
+#CNN
+0.0.0.0 ads.cnn.com
+#Lycos News
+0.0.0.0 ads.lycos.com
+0.0.0.0 advertising.lycos.com
+#Msn Live
+0.0.0.0 ads2.msads.net
+0.0.0.0 global.msads.net
+0.0.0.0 ads1.msn.com
+0.0.0.0 analytics.msn.com
+0.0.0.0 c.msn.com
+0.0.0.0 c.msn.com.cn
+0.0.0.0 g.msn.com
+0.0.0.0 h.msn.com
+0.0.0.0 ads.beta1.idss.msn.com
+0.0.0.0 adsyndication.msn.com
+0.0.0.0 catalog.video.msn.com
+0.0.0.0 ac2.msn.com
+0.0.0.0 ac3.msn.com
+0.0.0.0 r.msn.com
+0.0.0.0 rad.msn.com
+0.0.0.0 analytics.live.com
+0.0.0.0 c.live.com
+0.0.0.0 ms.analytics.live.com
+0.0.0.0 rad.live.com
+0.0.0.0 msnportal.112.2o7.net
+0.0.0.0 ads.msn.com.nsatc.net
+0.0.0.0 msn.allyes.com
+0.0.0.0 msnms.allyes.cn
+#Myspace
+0.0.0.0 advertise.myspace.com
+#SecretChina
+0.0.0.0 ad.secretchina.com
+0.0.0.0 static1.secretchina.com
+0.0.0.0 ad.epochtimes.com
+#Yahoo.com
+0.0.0.0 ads.yimg.com
+0.0.0.0 richmedia.yimg.com
+0.0.0.0 a.analytics.yahoo.com
+0.0.0.0 us.ard.yahoo.com
+0.0.0.0 us.rd.yahoo.com
+0.0.0.0 us.lrd.yahoo.com
+0.0.0.0 pclick.internal.yahoo.com
+0.0.0.0 ts.richmedia.yahoo.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 mp.apmebf.com
+0.0.0.0 ads.bluelithium.com
+0.0.0.0 ad.yieldmanager.com
+0.0.0.0 content.yieldmanager.com
+0.0.0.0 content.yieldmanager.edgesuite.net
+0.0.0.0 mi.adinterax.com
+0.0.0.0 tr.adinterax.com
+#Yahoo.co.jp
+0.0.0.0 ai.yimg.jp
+0.0.0.0 ard.yahoo.co.jp
+0.0.0.0 rd.yahoo.co.jp
+0.0.0.0 yjaxc.yahoo.co.jp
 @HostsX 站点广告过滤/门户类网站
 #网易163
 0.0.0.0 analytics.ws.126.net
@@ -114,30 +191,6 @@
 0.0.0.0 suvset.sohu.com
 0.0.0.0 txt.go.sohu.com
 0.0.0.0 u.ad-plus.cn
-#Microsoft Msn Live
-0.0.0.0 ads2.msads.net
-0.0.0.0 global.msads.net
-0.0.0.0 ads1.msn.com
-0.0.0.0 analytics.msn.com
-0.0.0.0 c.msn.com
-0.0.0.0 c.msn.com.cn
-0.0.0.0 g.msn.com
-0.0.0.0 h.msn.com
-0.0.0.0 ads.beta1.idss.msn.com
-0.0.0.0 adsyndication.msn.com
-0.0.0.0 catalog.video.msn.com
-0.0.0.0 ac2.msn.com
-0.0.0.0 ac3.msn.com
-0.0.0.0 r.msn.com
-0.0.0.0 rad.msn.com
-0.0.0.0 analytics.live.com
-0.0.0.0 c.live.com
-0.0.0.0 rad.live.com
-0.0.0.0 msnportal.112.2o7.net
-0.0.0.0 ads.msn.com.nsatc.net
-0.0.0.0 msn.allyes.com
-0.0.0.0 msnms.allyes.cn
-0.0.0.0 uusee.haibao.org
 @HostsX 站点广告过滤/社区类网站
 #天涯
 0.0.0.0 801.tianya.cn
@@ -689,6 +742,7 @@
 0.0.0.0 union.uume.com
 0.0.0.0 union.zhongsou.com
 0.0.0.0 union2.50bang.org
+0.0.0.0 uusee.haibao.org
 0.0.0.0 www.021sms.com
 0.0.0.0 www.265g.info
 0.0.0.0 www.2yt.net
@@ -718,6 +772,7 @@
 0.0.0.0 as.casalemedia.com
 0.0.0.0 content.pulse360.com
 0.0.0.0 counters.gigya.com
+0.0.0.0 d.cyberdefender.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 pub.softonic.cn
 0.0.0.0 s3.buysellads.com
@@ -743,6 +798,11 @@
 0.0.0.0 www.adplan-ds.com
 0.0.0.0 www.adplan.ne.jp
 0.0.0.0 www.p-advg.com
+#AdTech
+0.0.0.0 adserver.adtech.de
+0.0.0.0 barracuda1.adtech.de
+0.0.0.0 barracuda2.adtech.de
+0.0.0.0 www.adtech.de
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 cdn.amgdgt.com
@@ -844,61 +904,6 @@
 0.0.0.0 admedia.wsod.com
 #ZEDO
 0.0.0.0 c5.zedo.com
-@HostsX 网络广告过滤/国外门户
-#ABCNews
-0.0.0.0 adsatt.abcnews.starwave.com
-0.0.0.0 log.go.com
-#Ap.org
-0.0.0.0 te.ap.org
-0.0.0.0 ap.search.theplatform.com
-#BBC
-0.0.0.0 external.bbc.co.uk
-0.0.0.0 stats.bbc.co.uk
-0.0.0.0 visualscience.external.bbc.co.uk
-#CBSNews
-0.0.0.0 dw.cbsnews.com
-#CNet
-0.0.0.0 dw.cnet.com
-0.0.0.0 www.cbsinteractive.com
-0.0.0.0 adlog.com.com
-0.0.0.0 dw-cn.com.com
-0.0.0.0 dw.com.com
-0.0.0.0 img.com.com
-#CNN
-0.0.0.0 ads.cnn.com
-#Lycos News
-0.0.0.0 ads.lycos.com
-0.0.0.0 advertising.lycos.com
-#Myspace
-0.0.0.0 advertise.myspace.com
-#SecretChina
-0.0.0.0 ad.secretchina.com
-0.0.0.0 static1.secretchina.com
-0.0.0.0 ad.epochtimes.com
-#The Independent
-0.0.0.0 adserver.adtech.de
-#Yahoo.com
-0.0.0.0 ads.yimg.com
-0.0.0.0 richmedia.yimg.com
-0.0.0.0 a.analytics.yahoo.com
-0.0.0.0 us.ard.yahoo.com
-0.0.0.0 us.rd.yahoo.com
-0.0.0.0 us.lrd.yahoo.com
-0.0.0.0 pclick.internal.yahoo.com
-0.0.0.0 ts.richmedia.yahoo.com
-0.0.0.0 s0.2mdn.net
-0.0.0.0 mp.apmebf.com
-0.0.0.0 ads.bluelithium.com
-0.0.0.0 ad.yieldmanager.com
-0.0.0.0 content.yieldmanager.com
-0.0.0.0 content.yieldmanager.edgesuite.net
-0.0.0.0 mi.adinterax.com
-0.0.0.0 tr.adinterax.com
-#Yahoo.co.jp
-0.0.0.0 ai.yimg.jp
-0.0.0.0 ard.yahoo.co.jp
-0.0.0.0 rd.yahoo.co.jp
-0.0.0.0 yjaxc.yahoo.co.jp
 @HostsX 网络广告过滤/统计跟踪
 #51la
 0.0.0.0 img.users.51.la
