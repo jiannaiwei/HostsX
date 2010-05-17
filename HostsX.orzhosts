@@ -1,4 +1,4 @@
-;version=201005161639
+;version=201005171150
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -275,6 +275,7 @@
 #博客推广
 0.0.0.0 ads.wopus.org
 0.0.0.0 adv.blogupp.com
+0.0.0.0 pro.blogbus.com
 0.0.0.0 union.bolaa.com
 #购物推广
 0.0.0.0 adtaobao.tobo123.com
