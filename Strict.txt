@@ -9,6 +9,8 @@
 #PPTV（升级屏蔽）
 0.0.0.0 up.pplive.com
 0.0.0.0 upexe.pplive.com
+#搜狗拼音（无法下载词库）
+0.0.0.0 pinyin.sogou.com
 #驱动之家（评论条数不显示）
 0.0.0.0 11.mydrivers.com
 #Zol（首页显示不美观）

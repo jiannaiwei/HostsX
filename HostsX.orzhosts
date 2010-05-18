@@ -1,4 +1,4 @@
-;version=201005182222
+;version=201005190000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1017,8 +1017,61 @@
 0.0.0.0 tw.tag.btnibbler.com
 0.0.0.0 www.btnibbler.com
 #尼尔森
+
+0.0.0.0 devfw.imrworldwide.com
+0.0.0.0 fe-au.imrworldwide.com
+0.0.0.0 fe1-au.imrworldwide.com
+0.0.0.0 fe1-fi.imrworldwide.com
+0.0.0.0 fe1-it.imrworldwide.com
+0.0.0.0 fe2-au.imrworldwide.com
+0.0.0.0 fe3-au.imrworldwide.com
+0.0.0.0 fe3-gc.imrworldwide.com
+0.0.0.0 fe3-uk.imrworldwide.com
+0.0.0.0 fe4-uk.imrworldwide.com
+0.0.0.0 imrworldwide.com
+0.0.0.0 lycos-eu.imrworldwide.com
+0.0.0.0 ninemsn.imrworldwide.com
+0.0.0.0 rc-au.imrworldwide.com
+0.0.0.0 redsheriff.com
+0.0.0.0 secure-au.imrworldwide.com
 0.0.0.0 secure-cn.imrworldwide.com
+0.0.0.0 secure-jp.imrworldwide.com
+0.0.0.0 secure-nz.imrworldwide.com
 0.0.0.0 secure-sg.imrworldwide.com
+0.0.0.0 secure-uk.imrworldwide.com
+0.0.0.0 secure-us.imrworldwide.com
+0.0.0.0 secure-za.imrworldwide.com
+0.0.0.0 server-au.imrworldwide.com
+0.0.0.0 server-br.imrworldwide.com
+0.0.0.0 server-by.imrworldwide.com
+0.0.0.0 server-ca.imrworldwide.com
+0.0.0.0 server-de.imrworldwide.com
+0.0.0.0 server-dk.imrworldwide.com
+0.0.0.0 server-ee.imrworldwide.com
+0.0.0.0 server-fi.imrworldwide.com
+0.0.0.0 server-fr.imrworldwide.com
+0.0.0.0 server-hk.imrworldwide.com
+0.0.0.0 server-it.imrworldwide.com
+0.0.0.0 server-jp.imrworldwide.com
+0.0.0.0 server-lt.imrworldwide.com
+0.0.0.0 server-lv.imrworldwide.com
+0.0.0.0 server-no.imrworldwide.com
+0.0.0.0 server-nz.imrworldwide.com
+0.0.0.0 server-oslo.imrworldwide.com
+0.0.0.0 server-pl.imrworldwide.com
+0.0.0.0 server-ru.imrworldwide.com
+0.0.0.0 server-se.imrworldwide.com
+0.0.0.0 server-sg.imrworldwide.com
+0.0.0.0 server-stockh.imrworldwide.com
+0.0.0.0 server-ua.imrworldwide.com
+0.0.0.0 server-uk.imrworldwide.com
+0.0.0.0 server-us.imrworldwide.com
+0.0.0.0 server-za.imrworldwide.com
+0.0.0.0 survey1-au.imrworldwide.com
+0.0.0.0 telstra.imrworldwide.com
+0.0.0.0 www.imrworldwide.com
+0.0.0.0 www.imrworldwide.com.au
+0.0.0.0 www.redsheriff.com
 #量子
 0.0.0.0 acookie.linezing.com
 0.0.0.0 data.taobao.linezing.com
@@ -1928,7 +1981,6 @@
 0.0.0.0	info.pinyin.sogou.com
 0.0.0.0	ping.pinyin.sogou.com
 0.0.0.0	st.pinyin.sogou.com
-0.0.0.0 pinyin.sogou.com
 0.0.0.0 ad.hylzad.com
 #光影魔术手
 0.0.0.0 ad.neoimaging.cn
