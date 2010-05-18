@@ -1,0 +1,19 @@
+#土豆网完美过滤（不能看黑豆视频）
+0.0.0.0 adcontrol.tudou.com
+#ESET NOD32(屏蔽ID验证)
+0.0.0.0 exp01.eset.com
+#PPTV（右下角播放提示）
+0.0.0.0 pp.pplive.com
+#PPTV（点播节目时旁边的信息）
+0.0.0.0 pp.v2.pplive.cn
+#PPTV（升级屏蔽）
+0.0.0.0 up.pplive.com
+0.0.0.0 upexe.pplive.com
+#驱动之家（评论条数不显示）
+0.0.0.0 11.mydrivers.com
+#Zol（首页显示不美观）
+0.0.0.0 pic.zol-img.com.cn
+#Sohu（首页显示不美观）
+0.0.0.0 images.sohu.com
+#阿里妈妈（淘宝主页有影响）
+0.0.0.0 img.alimama.cn
