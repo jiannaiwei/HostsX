@@ -1,6 +1,6 @@
 #土豆网完美过滤（不能看黑豆视频）
 0.0.0.0 adcontrol.tudou.com
-#ESET NOD32(屏蔽ID验证)
+#ESET NOD32（屏蔽ID验证）
 0.0.0.0 exp01.eset.com
 #PPTV（右下角播放提示）
 0.0.0.0 pp.pplive.com
