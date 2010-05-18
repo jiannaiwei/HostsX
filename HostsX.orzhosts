@@ -1,4 +1,4 @@
-;version=201005182030
+;version=201005182222
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1618,6 +1618,7 @@
 #YY语音
 0.0.0.0 ad.yy.duowan.com
 0.0.0.0 do.yy.duowan.com
+0.0.0.0 forceupdate.yy.duowan.com
 0.0.0.0 gamecollaborate.yy.duowan.com
 0.0.0.0 update.yy.duowan.com
 0.0.0.0 yydl.duowan.com
