@@ -1,4 +1,4 @@
-;version=201005190000
+;version=201005190050
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -92,8 +92,8 @@
 0.0.0.0 c.live.com
 0.0.0.0 ms.analytics.live.com
 0.0.0.0 rad.live.com
-0.0.0.0 msnportal.112.2o7.net
 0.0.0.0 ads.msn.com.nsatc.net
+0.0.0.0 msnportal.112.2o7.net
 0.0.0.0 msn.allyes.com
 0.0.0.0 msnms.allyes.cn
 #Myspace
@@ -905,7 +905,14 @@
 0.0.0.0 ad.wsod.com
 0.0.0.0 admedia.wsod.com
 #ZEDO
+0.0.0.0 c1.zedo.com
+0.0.0.0 c2.zedo.com
+0.0.0.0 c3.zedo.com
+0.0.0.0 c4.zedo.com
 0.0.0.0 c5.zedo.com
+0.0.0.0 c6.zedo.com
+0.0.0.0 c7.zedo.com
+0.0.0.0 c8.zedo.com
 @HostsX 网络广告过滤/统计跟踪
 #51la
 0.0.0.0 img.users.51.la
