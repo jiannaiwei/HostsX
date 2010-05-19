@@ -1,4 +1,4 @@
-;version=201005192010
+;version=201005192100
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -10,14 +10,32 @@
 74.125.39.191 blogger.google.com
 #CCF
 64.120.147.102 bbs.et8.net
-#Chrome书签同步
-74.125.39.99 chrome.google.com
-74.125.39.99 clients2.google.com
 #Google
 74.125.19.147 nt0.ggpht.com
 74.125.19.147 nt1.ggpht.com
 74.125.19.147 nt2.ggpht.com
 74.125.19.147 nt3.ggpht.com
+209.85.225.102 groups.google.com
+74.125.127.100 services.google.com
+74.125.127.100 sites.google.com
+209.85.225.104 reader.google.com
+74.125.127.101 calendar.google.com
+#Google Docs
+209.85.225.101 docs.google.com
+74.125.127.100 writely.google.com
+74.125.127.139 spreadsheets.google.com
+#Gmail
+209.85.147.109 pop.gmail.com
+209.85.147.109 smtp.gmail.com
+66.102.7.19 mail.google.com
+#Chrome书签同步
+64.233.183.139 clients4.google.com
+64.233.183.139 docs.google.com
+#Chrome扩展程序
+74.125.39.99 Chrome.google.com
+74.125.39.99 clients2.google.com
+#Chrome主题中心
+74.125.153.138 tools.google.com
 #Picasa图片显示
 74.125.91.99 www.picasa.com
 203.208.39.104 picadaweb.google.com
