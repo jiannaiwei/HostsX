@@ -1,7 +1,9 @@
 #Google和各种网站的IPv6服务hosts   
+
 #利用IPv6技术翻墙，保证Google服务可用，校园网用户使用IPv6应该不收取上网费用（至少我们学校如此）
-#欢迎转载，请注明来源，谢谢 
 #本文的发布地址：http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
+#欢迎穿越传阅
+#大幅更新！请往下看！所有GoogleIPv6地址变更！支持https加密！
 #顺便提供能够解析出Google的IPv6地址的DNS服务器(因提供这些服务器的ISP已经加入Google over IPv6计划)，这样不需要修改hosts，只需改变本机DNS设置就可以自动将Google域名解析为IPv6地址了。
 #2001:470:20::2 (v6)
 #74.82.42.42 (v4)
@@ -282,8 +284,8 @@
 2404:6800:8005::68 www2.l.google.com
 #Sites             协作平台 
 2404:6800:8005::65 sites.google.com 
-2404:6800:8005::62 ghs.google.com
-2404:6800:8005::62 ghs.l.google.com
+#2404:6800:8005::62 ghs.google.com
+#2404:6800:8005::62 ghs.l.google.com
 #Group             论坛 
 2404:6800:8005::62 groups.google.com 
 2404:6800:8005::62 groups.l.google.com
@@ -429,6 +431,8 @@
 2404:6800:8005::8d autoproxy2pac.appspot.com
 #Chrome            谷歌浏览器 
 2404:6800:8005::64 chrome.google.com 
+#Chromium OS       
+2404:6800:8005::62 goto.ext.google.com
 #Desktop           桌面 
 2404:6800:8005::62 desktop.google.com 
 2404:6800:8005::62 desktop.l.google.com
@@ -864,19 +868,6 @@
 2404:6800:8005::62 www.feedburner.com
 2404:6800:8005::62 feeds.feedburner.com
 2404:6800:8005::62 feeds2.feedburner.com
-#GoogleSyndication Google广告服务 AdWord(Google广告词，对关键字进行右侧付费推广)，原AdSense服务指向域名
-2404:6800:8005::62 www.googlesyndication.com 
-2404:6800:8005::62 pagead2.googlesyndication.com 
-2404:6800:8005::62 buttons.googlesyndication.com 
-2404:6800:8005::62 domains.googlesyndication.com 
-2404:6800:8005::98 tpc.googlesyndication.com
-#GoogleSyndication Google广告服务 AdWord
-2404:6800:8005::70 adwords.google.com
-2404:6800:8005::41 adwords.google.sk
-#GoogleADServices  Google广告服务 AdSense 
-2404:6800:8005::60 www.googleadservices.com 
-2404:6800:8005::a4 pagead2.googleadservices.com 
-2404:6800:8005::a7 partner.googleadservices.com
 #
 2404:6800:8005::62 gsamplemaps.googlepages.com
 2404:6800:8005::62 pagead.google.com
@@ -1002,6 +993,8 @@
 2001:470:8051:1:80::1 whatismyip.tv                    #主页
 #Free IPv6 Live Streaming TV
 2001:470:f057::7 www.freeipv6.info
+#Lucien@Lost
+2001:470:1f06:794::2 www.lostriver.net
 #Microsoft                                             微软
 2002:836b:9820::836b:9886 www.ipv6.microsoft.com       #IPv6主页
 #WikiMedia                                             维基媒体
