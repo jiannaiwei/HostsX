@@ -25,6 +25,14 @@ echo http://www.6fei.com.cn/
 net stop "Dnscache">nul 2>nul
 sc config Dnscache start= disabled>nul 2>nul
 ipv6 install>nul 2>nul
+rem 设置IE“不从地址栏搜索”
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v AutoSearch /t reg_dword /d 00000000 /f
+
+rem 设置IE“支持wap网页浏览”
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\text/vnd.wap.wml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\application/xhtml+xml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\application/vnd.wap.xhtml+xml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f
+
 echo 对原Hosts进行备份 ...
 copy /y %hosts% %etc%\"Hosts安装_%bf%" >nul 2>nul
 echo 备份完成
@@ -32,13 +40,14 @@ if exist HostsTool.bat del HostsTool.bat
 copy down\HostsTool.bat HostsTool.bat
 pause
 cls
+:update
 title 正在更新Hosts数据
 mode con: cols=40 lines=10
 if not exist wget.exe (echo Wget组件不存在，请重新安装本程序！)&pause&exit
 echo 正在下载中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-mshta vbscript:msgbox("正在下载数据！",64,"Hosts Tool")(window.close)
-pause
+echo 正在下载数据！&pause
+if not exist down\HostsX.orzhosts goto update
 copy down\HostsX.orzhosts %hosts%
 title 设置Hosts文件只读权限
 attrib +r +a +s %hosts%
