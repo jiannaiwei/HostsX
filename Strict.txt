@@ -1,5 +1,5 @@
 严格过滤版Hosts（配合HostsX数据使用）
-;version=20100519
+;version=20100521
 ;author=郭鹏锟（JocKwok）
 #土豆网  （不能看黑豆视频）
 0.0.0.0 adcontrol.tudou.com
@@ -22,3 +22,5 @@
 0.0.0.0 upexe.pplive.com
 #搜狗拼音（无法下载词库）
 0.0.0.0 pinyin.sogou.com
+#腾讯QQ  （无法下载相关软件）
+0.0.0.0 dl_dir.qq.com

@@ -1,7 +1,7 @@
-hiphotos.baidu.com
-www.in9.cn
-bt.ktxp.com
 97xxoo.com
-www.97xxoo.com
-www.18p2p.com
 ajax.googleapis.com
+bt.ktxp.com
+hiphotos.baidu.com
+www.18p2p.com
+www.97xxoo.com
+www.in9.cn
