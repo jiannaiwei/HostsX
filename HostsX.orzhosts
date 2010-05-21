@@ -1,4 +1,4 @@
-;version=201005211300
+;version=201005211700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -347,7 +347,6 @@
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
 0.0.0.0 u.sl.iciba.com
-0.0.0.0 u.www.duba.net
 0.0.0.0 db.union.download.kingsoft.com
 0.0.0.0 union.jx2.kingsoft.com
 0.0.0.0 union.kingsoft.com
@@ -457,8 +456,13 @@
 0.0.0.0 pole.6rooms.com
 0.0.0.0 shrek.6.cn
 #优酷
+0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
+0.0.0.0 valc.atm.youku.com
+0.0.0.0 valf.atm.youku.com
+0.0.0.0 valo.atm.youku.com
+0.0.0.0 valp.atm.youku.com
 0.0.0.0 vid.atm.youku.com
 #土豆
 0.0.0.0 adextensioncontrol.tudou.com
@@ -1627,6 +1631,13 @@
 0.0.0.0 www.comodogroup.com
 0.0.0.0 www.usertrust.com
 0.0.0.0 crl.usertrust.com
+#金山毒霸
+0.0.0.0 bo.duba.net
+0.0.0.0 cu004.www.duba.net
+0.0.0.0 i2c.duba.net
+0.0.0.0 ifr.duba.net
+0.0.0.0 info.duba.net
+0.0.0.0 u.www.duba.net
 #ZALabs
 0.0.0.0 cm2.zonelabs.com
 0.0.0.0 hs2.zonelabs.com
@@ -1734,13 +1745,12 @@
 0.0.0.0 www.wa3.cn
 0.0.0.0 xml11es.farolatino.com
 #暴风影音
-0.0.0.0 conf.p2p.baofeng.net
-0.0.0.0 pvlog.moviebox.baofeng.net
-0.0.0.0 pop.baofeng.net
 0.0.0.0 active.baofeng.com
 0.0.0.0 areacode.baofeng.com
 0.0.0.0 ass.baofeng.com
 0.0.0.0 baidu.baofeng.com
+0.0.0.0 chkol.baofeng.com
+0.0.0.0 clicklog.moviebox.baofeng.com
 0.0.0.0 coop.pop.baofeng.com
 0.0.0.0 download.baofeng.com
 0.0.0.0 event.game.baofeng.com
@@ -1753,7 +1763,20 @@
 0.0.0.0 tuijian.baofeng.com
 0.0.0.0 videodown.baofeng.com
 0.0.0.0 videoinfo.baofeng.com
+0.0.0.0 vvlog.moviebox.baofeng.com
 0.0.0.0 wzinfo.baofeng.com
+0.0.0.0 conf.p2p.baofeng.net
+0.0.0.0 nccpr.p2p.baofeng.net
+0.0.0.0 ncline.p2p.baofeng.net
+0.0.0.0 nclog.p2p.baofeng.net
+0.0.0.0 ncmpr.p2p.baofeng.net
+0.0.0.0 ncmsr.p2p.baofeng.net
+0.0.0.0 ncnet.p2p.baofeng.net
+0.0.0.0 ncphn.p2p.baofeng.net
+0.0.0.0 ncst.p2p.baofeng.net
+0.0.0.0 pop.baofeng.net
+0.0.0.0 pvlog.moviebox.baofeng.net
+0.0.0.0 rd.p2p.baofeng.net
 #酷我
 0.0.0.0 g.koowo.com
 0.0.0.0 g.kuwo.cn
