@@ -797,9 +797,7 @@
 #国外常见广告
 0.0.0.0 ad.adtegrity.net
 0.0.0.0 adtech.panthercustomer.com
-0.0.0.0 adultfriendfinder.com
 0.0.0.0 as.casalemedia.com
-0.0.0.0 banners.adultfriendfinder.com
 0.0.0.0 content.pulse360.com
 0.0.0.0 counters.gigya.com
 0.0.0.0 d.cyberdefender.com
@@ -834,6 +832,10 @@
 0.0.0.0 barracuda1.adtech.de
 0.0.0.0 barracuda2.adtech.de
 0.0.0.0 www.adtech.de
+#Adffinder
+0.0.0.0 adultfriendfinder.com
+0.0.0.0 banners.adultfriendfinder.com
+0.0.0.0 www.adultfriendfinder.com
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 cdn.amgdgt.com
