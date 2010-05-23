@@ -1,4 +1,4 @@
-;version=201005232030
+;version=201005232300
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -116,6 +116,8 @@
 0.0.0.0 msnms.allyes.cn
 #Myspace
 0.0.0.0 advertise.myspace.com
+0.0.0.0 count.myspace.cn
+0.0.0.0 gg.un.myspace.cn
 #SecretChina
 0.0.0.0 ad.secretchina.com
 0.0.0.0 static1.secretchina.com
@@ -412,33 +414,6 @@
 0.0.0.0 bill.tgbus.com
 0.0.0.0 g.tgbus.com
 0.0.0.0 g.tgbusdata.cn
-#常见游戏广告
-0.0.0.0 act.dn.sdo.com
-0.0.0.0 ad.16wan.com
-0.0.0.0 bto.youxiya.com
-0.0.0.0 c.91wan.com
-0.0.0.0 chess.r.sougames.com
-0.0.0.0 dev.tongxue.com
-0.0.0.0 doc.70yx.com
-0.0.0.0 g.91sanguo.cn
-0.0.0.0 images.9zwar.com
-0.0.0.0 kerout.r.sougames.com
-0.0.0.0 passport.fs5d.com
-0.0.0.0 po.add.tx908.com
-0.0.0.0 pv.7fgame.com
-0.0.0.0 tao.37wan.com
-0.0.0.0 tg.155game.com
-0.0.0.0 tg.70yx.com
-0.0.0.0 tg3.subo.me
-0.0.0.0 u.56wan.com
-0.0.0.0 u.7town.com
-0.0.0.0 u.9lwan.com
-0.0.0.0 u.molidao.com
-0.0.0.0 uimg.my4399.com
-0.0.0.0 unigg.kunlun.com
-0.0.0.0 ww.jinzhao99.com
-0.0.0.0 www.99bo.cc
-0.0.0.0 www.wangyuan.com
 @HostsX 站点广告过滤/小说类网站
 #17K小说
 0.0.0.0 ad.17k.com
@@ -495,6 +470,15 @@
 0.0.0.0 union.pomoho.com
 #Wo31电影
 0.0.0.0 wo318.k621.com
+#CC视频
+0.0.0.0 1.bokeccimg.com
+0.0.0.0 bokecc.com
+0.0.0.0 cncre12.bokecc.com
+0.0.0.0 hot7.bokecc.com
+0.0.0.0 mc.bokecc.com
+0.0.0.0 re2.bokecc.com
+0.0.0.0 trade.bokecc.com
+0.0.0.0 www.bokecc.com
 #iCast
 0.0.0.0 cast.ra.icast.cn
 0.0.0.0 js.icast.cn
@@ -599,34 +583,6 @@
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
 @HostsX 网络广告过滤
-@HostsX 网络广告过滤/流氓类网站
-#电信劫持广告等
-0.0.0.0 114.allyes.com
-0.0.0.0 114.com.cn
-0.0.0.0 114search.118114.cn
-0.0.0.0 118114.cn
-0.0.0.0 partner.114.com.cn
-0.0.0.0 search.114.vnet.cn
-0.0.0.0 so.118114.cn
-0.0.0.0 union.114.com.cn
-0.0.0.0 dianxin.cn
-0.0.0.0 dianxin.com
-0.0.0.0 www.dianxin.cn
-0.0.0.0 ads.iisdoor.com
-0.0.0.0 ad.online.cq.cn
-0.0.0.0 ad.xunkoo.com
-#联通劫持
-0.0.0.0 sddns1.cncmax.cn
-0.0.0.0 sddns2.cncmax.cn
-0.0.0.0 sddns5.cncmax.cn
-0.0.0.0 sddns7.cncmax.cn
-0.0.0.0 uninewspace.allyes.com
-#亚洲交友
-0.0.0.0 asiafind1.com
-0.0.0.0 asiafriendfinder.com
-#多特软件
-0.0.0.0 www.duote.com
-0.0.0.0 img.duote.com
 @HostsX 网络广告过滤/国内广告
 #百度
 0.0.0.0 a.baidu.com
@@ -675,6 +631,7 @@
 0.0.0.0 taoke.alimama.com
 0.0.0.0 www.alimama.com
 0.0.0.0 z.alimama.com
+0.0.0.0 pindao.huoban.taobao.com
 0.0.0.0 s.click.taobao.com
 0.0.0.0 search8.taobao.com
 0.0.0.0 adtaobao.allyes.cn
@@ -723,6 +680,7 @@
 0.0.0.0 m.menhutong.com.cn
 0.0.0.0 popunder.paypopup.com
 #大陆常见广告
+0.0.0.0 26939.icpun.com
 0.0.0.0 1188s.info
 0.0.0.0 888.cn
 0.0.0.0 888888fa.com
@@ -742,8 +700,6 @@
 0.0.0.0 click.admaster.com.cn
 0.0.0.0 click.linksynergy.com
 0.0.0.0 click.mediav.com
-0.0.0.0 click1.ooommm.com.cn
-0.0.0.0 click3.ooommm.com.cn
 0.0.0.0 clk.abang.com
 0.0.0.0 cnt.zhaopin.com
 0.0.0.0 code.51link.com
@@ -766,7 +722,6 @@
 0.0.0.0 mydh.info
 0.0.0.0 nonoyx.com
 0.0.0.0 p.3gm.com.cn
-0.0.0.0 p.yiqifa.com
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 plus.txwm.com
 0.0.0.0 qqhdx.cn
@@ -969,12 +924,19 @@
 0.0.0.0 js.users.51.la
 0.0.0.0 vip.51.la
 0.0.0.0 web.51.la
+0.0.0.0 web1.51.la
 0.0.0.0 web2.51.la
 0.0.0.0 www.51.la
 #51yes
 0.0.0.0 count.51yes.com
+0.0.0.0 count10.51yes.com
+0.0.0.0 count20.51yes.com
 0.0.0.0 count28.51yes.com
+0.0.0.0 count36.51yes.com
+0.0.0.0 count40.51yes.com
+0.0.0.0 countt.51yes.com
 #99click
+0.0.0.0 a1139.oadz.com
 0.0.0.0 a.oadz.com
 0.0.0.0 dns1.oadz.com
 0.0.0.0 dns2.oadz.com
@@ -1461,9 +1423,6 @@
 0.0.0.0 images.keduo.cc
 0.0.0.0 qy.keduo.cc
 0.0.0.0 www.keduo.cc
-#亿告
-0.0.0.0 monitor.yigao.com
-0.0.0.0 p.yigao.com
 #极限
 0.0.0.0 c.cnxad.com
 0.0.0.0 code.cnxad.com
@@ -1516,6 +1475,13 @@
 0.0.0.0 lianmeng.com
 0.0.0.0 online4.lianmeng.com
 0.0.0.0 www.lianmeng.com
+#亿玛在线
+0.0.0.0 image.yiqifa.com
+0.0.0.0 p.yiqifa.com
+0.0.0.0 www.yiqifa.com
+0.0.0.0 monitor.yigao.com
+0.0.0.0 p.yigao.com
+0.0.0.0 www.egou.com
 #挚盟
 0.0.0.0 26939.wauee.com
 0.0.0.0 33740.service.wauee.com
@@ -1546,6 +1512,86 @@
 0.0.0.0 c.9189.com
 0.0.0.0 hyimg.cn
 0.0.0.0 op.hyimg.cn
+@HostsX 网络广告过滤/流氓类网站
+#电信劫持
+0.0.0.0 114.allyes.com
+0.0.0.0 114.com.cn
+0.0.0.0 114search.118114.cn
+0.0.0.0 118114.cn
+0.0.0.0 partner.114.com.cn
+0.0.0.0 search.114.vnet.cn
+0.0.0.0 so.118114.cn
+0.0.0.0 union.114.com.cn
+0.0.0.0 dianxin.cn
+0.0.0.0 dianxin.com
+0.0.0.0 www.dianxin.cn
+#各地电信广告
+0.0.0.0 ad.online.cq.cn
+0.0.0.0 ad.xunkoo.com
+0.0.0.0 ads.iisdoor.com
+0.0.0.0 hot.apinpai.com
+#联通劫持
+0.0.0.0 sddns1.cncmax.cn
+0.0.0.0 sddns2.cncmax.cn
+0.0.0.0 sddns5.cncmax.cn
+0.0.0.0 sddns7.cncmax.cn
+0.0.0.0 uninewspace.allyes.com
+#亚洲交友
+0.0.0.0 asiafind1.com
+0.0.0.0 asiafriendfinder.com
+#多特软件
+0.0.0.0 www.duote.com
+0.0.0.0 img.duote.com
+@HostsX 网络广告过滤/游戏推广
+#37Wan
+0.0.0.0 tao.37wan.com
+#4399游戏联盟
+0.0.0.0 uimg.my4399.com
+#超凡游戏
+0.0.0.0 pv.7fgame.com
+#封神无敌
+0.0.0.0 passport.fs5d.com
+#九洲战记
+0.0.0.0 images.9zwar.com
+#就要玩
+0.0.0.0 c.91wan.com
+0.0.0.0 u.9lwan.com
+#昆仑在线
+0.0.0.0 unigg.kunlun.com
+#亮剑
+0.0.0.0 lj.zqgame.com
+#龙之谷
+0.0.0.0 act.dn.sdo.com
+#魔力岛
+0.0.0.0 u.molidao.com
+#纳奇游戏营销
+0.0.0.0 v.naqigs.com
+#热血三国
+0.0.0.0 g.91sanguo.cn
+#搜游戏公会
+0.0.0.0 kerout.r.sougames.com
+0.0.0.0 chess.r.sougames.com
+#网元网
+0.0.0.0 ccnec.com
+0.0.0.0 pv.ccnec.com
+0.0.0.0 space.ccnec.com
+0.0.0.0 www.prealpha.platform.ccnec.com
+0.0.0.0 www.wangyuan.com
+#我乐玩
+0.0.0.0 u.56wan.com
+#武林传奇
+0.0.0.0 dev.tongxue.com
+0.0.0.0 bto.youxiya.com
+#麒麟游戏
+0.0.0.0 doc.70yx.com
+0.0.0.0 tg.70yx.com
+#其他游戏广告
+0.0.0.0 ad.16wan.com
+0.0.0.0 po.add.tx908.com
+0.0.0.0 tg.155game.com
+0.0.0.0 tg3.subo.me
+0.0.0.0 u.7town.com
+0.0.0.0 ww.jinzhao99.com
 @HostsX 网络广告过滤/其他
 #160ads
 0.0.0.0 a.5qwg.com
@@ -1555,6 +1601,10 @@
 0.0.0.0 mmscode1.3bu.com
 0.0.0.0 mmscode2.3bu.com
 0.0.0.0 mmscode3.3bu.com
+#53KF
+0.0.0.0 up.53kf.com
+0.0.0.0 www.53kf.com
+0.0.0.0 www3.53kf.com
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
@@ -1565,52 +1615,55 @@
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
 0.0.0.0 track.linktech.cn
-#做第一传媒
-0.0.0.0 tp.zdy.cc
-0.0.0.0 www.zdy.cc
+#PEE 广告营销
+0.0.0.0 c.pee.cn
+#百分百
+0.0.0.0 engine.100fenlm.cn
+#大联盟
+0.0.0.0 ww.unionbig.com
+0.0.0.0 u.unionli.com
+0.0.0.0 uimg.unionli.com
+#互易广告
+0.0.0.0 www.333wan.com
 #华夏
 0.0.0.0 cpc11.hxad.com
 0.0.0.0 cpm2.hxad.com
+#华扬联众广告
+0.0.0.0 ad.hylzad.com
 #九赢
 0.0.0.0 www1.9v.cn
 0.0.0.0 v.cpp9v.cn
 0.0.0.0 vv.9vcpc.cn
 0.0.0.0 v1.9vcpc.cn
-#信誉
-0.0.0.0 vvww.qyclick.com
-0.0.0.0 www.qyclick.com
-#百分百
-0.0.0.0 engine.100fenlm.cn
-#淘小宝
-0.0.0.0 www23.tx8.cn
-#纵横
-0.0.0.0 ww.zhcpm.com
+#猫猫
+0.0.0.0 www.maomao8.com
+#全网控
+0.0.0.0 stat.cccr.cn
+0.0.0.0 js.union001.cn
 #双倍
 0.0.0.0 www.2bj.cn
 0.0.0.0 click.5j.com
-#大联盟
-0.0.0.0 ww.unionbig.com
-0.0.0.0 u.unionli.com
-0.0.0.0 uimg.unionli.com
-#猫猫
-0.0.0.0 www.maomao8.com
-#推告
-0.0.0.0 js.tuigoo.com
 #速影
 0.0.0.0 c.sfilm.com
-#PEE 广告营销
-0.0.0.0 c.pee.cn
-#纳奇游戏营销
-0.0.0.0 v.naqigs.com
+#淘小宝
+0.0.0.0 www23.tx8.cn
+#推告
+0.0.0.0 js.tuigoo.com
 #网元
 0.0.0.0 r.mybestyouxi.cn
 #信网在线
 0.0.0.0 www.xwadv.com
-#全网控
-0.0.0.0 stat.cccr.cn
-0.0.0.0 js.union001.cn
-#互易广告
-0.0.0.0 www.333wan.com
+#信誉
+0.0.0.0 vvww.qyclick.com
+0.0.0.0 www.qyclick.com
+#智将广告
+0.0.0.0 click1.ooommm.com.cn
+0.0.0.0 click3.ooommm.com.cn
+#纵横
+0.0.0.0 ww.zhcpm.com
+#做第一传媒
+0.0.0.0 tp.zdy.cc
+0.0.0.0 www.zdy.cc
 @HostsX 软件广告过滤
 @HostsX 软件广告过滤/安全软件
 #360安全卫士
@@ -1661,6 +1714,7 @@
 0.0.0.0 njs.dw.hiido.cn
 #腾讯QQ
 0.0.0.0 2052.flash2-http.qq.com
+0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
 0.0.0.0 adshmct.qq.com
@@ -1974,7 +2028,6 @@
 0.0.0.0	info.pinyin.sogou.com
 0.0.0.0	ping.pinyin.sogou.com
 0.0.0.0	st.pinyin.sogou.com
-0.0.0.0 ad.hylzad.com
 #光影魔术手
 0.0.0.0 ad.neoimaging.cn
 0.0.0.0 clientconfig.neoimaging.cn
