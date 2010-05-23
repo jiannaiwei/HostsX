@@ -1,4 +1,4 @@
-;version=201005232300
+;version=201005232310
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -51,7 +51,7 @@
 #Flickr图片显示
 76.13.18.78 farm3.static.flickr.com
 76.13.18.79 farm5.static.flickr.com
-#推特
+#Twitter
 128.242.240.52 twitter.com
 128.242.240.52 www.twitter.com
 #DropBox
@@ -940,7 +940,7 @@
 0.0.0.0 a.oadz.com
 0.0.0.0 dns1.oadz.com
 0.0.0.0 dns2.oadz.com
-#acs86
+#Acs86
 0.0.0.0 acs86.com
 0.0.0.0 afp.acs86.com
 0.0.0.0 static.acs86.com
@@ -1993,14 +1993,13 @@
 0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
 @HostsX 软件广告过滤/其他类
-#eREAD 爱搜书
+#eReader
 0.0.0.0 bookbar.isoshu.com
 0.0.0.0 down.isoshu.com
 0.0.0.0 happyfarm.isoshu.com
 0.0.0.0 mobile.isoshu.com
 0.0.0.0 mobile1.isoshu.com
 0.0.0.0 pub.isoshu.com
-0.0.0.0 www.isoshu.com
 #Maxthon
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 stat.maxthon.com
