@@ -1,4 +1,4 @@
-;version=201005232310
+;version=201005241200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1630,6 +1630,12 @@
 0.0.0.0 cpm2.hxad.com
 #华扬联众广告
 0.0.0.0 ad.hylzad.com
+#极星广告
+0.0.0.0 c.star8.net
+0.0.0.0 img.star8.net
+#捷酷
+0.0.0.0 do.jieku.com
+0.0.0.0 files.jieku.com
 #九赢
 0.0.0.0 www1.9v.cn
 0.0.0.0 v.cpp9v.cn
