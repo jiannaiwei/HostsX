@@ -720,7 +720,6 @@
 0.0.0.0 idea.t2click.com
 0.0.0.0 image.tazhao.com
 0.0.0.0 img.8977.com
-0.0.0.0 img.ok8848.com
 0.0.0.0 img38.my1188.info
 0.0.0.0 javascript.nwbox.com
 0.0.0.0 lailea.info
@@ -1633,6 +1632,9 @@
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
 0.0.0.0 track.linktech.cn
+#Ok8848
+0.0.0.0 js.ok8848.com
+0.0.0.0 img.ok8848.com
 #PEE 广告营销
 0.0.0.0 c.pee.cn
 #百分百
