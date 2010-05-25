@@ -1,4 +1,4 @@
-;version=201005260000
+;version=201005260030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -336,6 +336,7 @@
 0.0.0.0 union.yesky.com
 0.0.0.0 yeskyafp.allyes.com
 #赛迪网
+0.0.0.0 a248.e.akamai.net
 0.0.0.0 e.akamai.net
 0.0.0.0 stat.ccidnet.com
 0.0.0.0 www2.ccidnet.com
@@ -684,8 +685,8 @@
 0.0.0.0 m.menhutong.com.cn
 0.0.0.0 popunder.paypopup.com
 #大陆常见广告
-0.0.0.0 26939.icpun.com
 0.0.0.0 1188s.info
+0.0.0.0 26939.icpun.com
 0.0.0.0 888.cn
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
@@ -714,6 +715,7 @@
 0.0.0.0 g.chinaih.com
 0.0.0.0 gfyoyo.com.cn
 0.0.0.0 ht.hao120.cc
+0.0.0.0 ht.sooe.cn
 0.0.0.0 hz.mmstat.com
 0.0.0.0 idea.t2click.com
 0.0.0.0 image.tazhao.com
@@ -726,6 +728,7 @@
 0.0.0.0 mydh.info
 0.0.0.0 nonoyx.com
 0.0.0.0 p.3gm.com.cn
+0.0.0.0 parking.8d.cn
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 plus.txwm.com
 0.0.0.0 qqhdx.cn
@@ -733,6 +736,7 @@
 0.0.0.0 sales.woyo.com
 0.0.0.0 search.ok365.com
 0.0.0.0 search.p.cn
+0.0.0.0 so.mingsou.com
 0.0.0.0 sougames.com
 0.0.0.0 static.u966.com
 0.0.0.0 u.30so.com
