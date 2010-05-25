@@ -850,29 +850,12 @@
 2404:6800:8005::84 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com
 2404:6800:8005::84 eds9earadhd329tuipi6kfc947ts928j-a-sites-opensocial.googleusercontent.com
 2404:6800:8005::84 sp5ovcebgtpf6rg65f53gdnvqtt3a58n-a-sites-opensocial.googleusercontent.com
-#DoubleClick       曾经世界最大的网络广告服务商，06年底被Google并购，现AdSense服务指向域名
-2001:4860:b006::94 ad.doubleclick.net
-2001:4860:b006::95 ad-g.doubleclick.net 
-2001:4860:b006::95 ad-apac.doubleclick.net
-2404:6800:8005::9a googleads.g.doubleclick.net 
-2404:6800:8005::9b feedads.g.doubleclick.net
-2404:6800:8005::90 fls.uk.doubleclick.net
-2404:6800:8005::8e *.au.doubleclick.net
-2404:6800:8005::8f *.de.doubleclick.net
-2404:6800:8005::90 *.uk.doubleclick.net
-2404:6800:8005::90 *.fr.doubleclick.net
-2404:6800:8005::92 *.jp.doubleclick.net
 #FeedBurner
 2404:6800:8005::62 feedburner.google.com
 #2404:6800:8005::62 www3-china.l.google.com
 2404:6800:8005::62 www.feedburner.com
 2404:6800:8005::62 feeds.feedburner.com
 2404:6800:8005::62 feeds2.feedburner.com
-#
-2404:6800:8005::62 gsamplemaps.googlepages.com
-2404:6800:8005::62 pagead.google.com
-2404:6800:8005::62 pagead.l.google.com
-2404:6800:8005::62 pagead2.google.com 
 #Goo.gl            Google短网址服务 
 2404:6800:8005::62 goo.gl 
 #Urchin            http://www.google.com/urchin/zh-CN/index.html
