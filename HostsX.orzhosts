@@ -1,4 +1,4 @@
-;version=201005251230
+;version=201005260000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -304,6 +304,7 @@
 0.0.0.0 union.360buy.com
 0.0.0.0 union.dangdang.com
 0.0.0.0 union.vancl.com
+0.0.0.0 www.133i.com
 @HostsX 站点广告过滤/IT 类网站
 #中关村系列
 0.0.0.0 adm.zol.com.cn
@@ -397,8 +398,11 @@
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
 0.0.0.0 imgcache.7pk.com
+0.0.0.0 taobao.7pk.com
 #九城
 0.0.0.0 allyes.the9.com
+#巨人网络
+0.0.0.0 counter.ztgame.com
 #游侠网
 0.0.0.0 bmp.ali213.net
 #叶网游戏
