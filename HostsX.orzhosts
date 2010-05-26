@@ -1,4 +1,4 @@
-;version=201005261630
+;version=201005261700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -271,6 +271,7 @@
 0.0.0.0 tom.allyes.com
 0.0.0.0 xtrack.tomonline-inc.com
 #蜂鸟网
+0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
 #一大把
 0.0.0.0 adc.yidaba.com
