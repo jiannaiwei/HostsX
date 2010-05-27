@@ -509,6 +509,7 @@ mode con: cols=50 lines=15
 echo 1,删除域名后的#号注释
 echo 2,仅删除重复内容
 echo 3,删除#号注释并删除重复内容
+echo 此功能可能会有些问题。不推荐使用！
 SET Choice=
 SET /P Choice=请选择：
 IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
