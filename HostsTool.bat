@@ -77,8 +77,9 @@ if /i "%all%"=="f" goto fixhosts
 if /i "%all%"=="h" goto help
 if /i "%all%"=="i" goto iefix
 if /i "%all%"=="o" goto openhosts
-if /i "%all%"=="p" goto Permissions
+if /i "%all%"=="p" goto Perms
 if /i "%all%"=="t" goto Cert
+if /i "%all%"=="u" goto gdft
 if /i "%all%"=="v" goto ver
 if /i "%all%"=="w" goto find
 if /i "%all%"=="1" goto choose
@@ -96,15 +97,20 @@ if /i "%all%"=="r" goto color
 
 :dns
 echo 正在清理Dns缓存 IE缓存...
-reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f>nul 2>nul
-reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f>nul 2>nul
-reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f>nul 2>nul
 del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
 del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
 del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
 del /f /q %userprofile%\recent\*.*>nul 2>nul
 ipconfig /flushdns>nul 2>nul
 goto menu
+
+:gdft
+if not exist down\rd.g goto datadown
+cd down\ >nul 2>nul
+copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
+copy hbhosts.txt %hosts%
+cd.. >nul 2>nul
+goto Perms
 
 :bak
 mode con: cols=30 lines=12
@@ -158,7 +164,7 @@ goto menu
 start explorer %~dp0
 goto menu
 
-:Permissions
+:Perms
 title 设置Hosts文件访问权限
 mode con: cols=50 lines=15
 echo 1,设为只读
@@ -191,62 +197,132 @@ mshta vbscript:msgbox("不建议在Hosts文件中添加过多内容！",64,"Hosts")(window.clo
 pause
 goto menu
 
+@echo off
 :choose
-mode con: cols=39 lines=13
+mode con: cols=61 lines=29
 cls
+title Hosts 数据调整
+echo ○Main Data:                                               
+echo.     1.推荐数据            2.IPV6数据                      
+echo.   
+echo ☆Single Data:                                             
+echo.     4.广告联盟        5.站点过滤        6.软件屏蔽        
+echo.   
+echo △Add Plus Data:                                         
+echo.     7.严格过滤（会有误杀）       8.增强版广告联盟数据     
+echo.    
+echo ◎Mwsl Data:                                              
+echo.     M.恶意网站实验室     F.Formynet      L.死性不改       
 echo.
-echo 1. HostsX推荐数据 （默认回车使用）
+echo.     V.MVPS        S.SomeOneWhoCares                       
+echo.   
+echo ☆User Data:                                              
+echo.     A.添加屏蔽网站                B.屏蔽自定义数据        
 echo.
-echo 2. 屏蔽恶意网站
+echo.     C.删除屏蔽网站                D.加速网站访问   
+echo.       
+echo   -------------------------------------------------------- 
+echo  ！不建议同时重复添加使用多个！不建议在Hosts中添加过多内容！
+echo   --------------------------------------------------------
+echo 当前工作位置(0)：%~dp0
 echo.
-echo 3. 使用 "冰临宸夏" 整理的IPV6数据
-echo.
-SET Choice=
-SET /P Choice=请选择,输入[0]返回：
-IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
-IF /I '%Choice%'=='1' GOTO dft
-IF /I '%Choice%'=='2' GOTO mwsl
-IF /I '%Choice%'=='3' GOTO ipv6
-IF /I '%Choice%'=='0' GOTO menu
+set all=
+set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
+if /i "%all%"=="1" goto dft
+if /i "%all%"=="2" goto ipv6
+if /i "%all%"=="4" goto union
+if /i "%all%"=="5" goto site
+if /i "%all%"=="6" goto soft
+if /i "%all%"=="7" goto Strict
+if /i "%all%"=="8" goto UnionPlus
+if /i "%all%"=="a" goto add
+if /i "%all%"=="b" goto myfile
+if /i "%all%"=="c" goto clear
+if /i "%all%"=="d" goto accelerate
+if /i "%all%"=="m" goto mwslcn
+if /i "%all%"=="f" goto formynet
+if /i "%all%"=="l" goto clxp
+if /i "%all%"=="v" goto MVPShosts
+if /i "%all%"=="s" goto someonewhocares
 
 :dft
 echo 正在下载中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-echo 正在下载数据！&pause
+echo 数据下载中！&pause
 if not exist down\HostsX.orzhosts goto dft
 copy down\HostsX.orzhosts %hosts%
-goto finish
+goto Perms
 
-:mwsl
-title 请选择您要使用的恶意网站数据
-mode con: cols=43 lines=21
-echo ======================================
-echo  使用其他国外优秀的Hosts数据：
-echo 1.使用     "死性不改"     整理的数据
-echo 2.使用  "恶意网站实验室"  整理的数据
-echo 3.使用     "Formynet"     整理的数据
-echo ======================================
-echo  使用其他国外优秀的Hosts数据：
-echo 4,使用       "MVPS"       整理的数据
-echo 5,使用  "SomeOneWhoCares" 整理的数据
-echo ======================================
-echo Ps.以上所有的恶意网站数据只推荐使用一个！
-echo ───────────────────
-echo  手动修改Hosts数据：
-echo 6.屏蔽 "自定义.txt" 内的网站（请自行修改）
-echo ───────────────────
-echo 不建议同时重复添加使用多个！
-echo 不建议在Hosts文件中添加过多内容！
-SET Choice=
-SET /P Choice=请选择，按[回车]返回：
-IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
-IF /I '%Choice%'=='1' GOTO clxp
-IF /I '%Choice%'=='2' GOTO mwslcn
-IF /I '%Choice%'=='3' GOTO formynet
-IF /I '%Choice%'=='4' GOTO MVPShosts
-IF /I '%Choice%'=='5' GOTO someonewhocares
-IF /I '%Choice%'=='6' GOTO myfile
-IF /I '%Choice%'==''  GOTO menu
+:datadown
+echo 正在下载基础数据中，请稍候... ...
+%down% http://hostsx.googlecode.com/svn/trunk/rd.g
+%down% http://hostsx.googlecode.com/svn/trunk/Union.g
+%down% http://hostsx.googlecode.com/svn/trunk/Site.g
+%down% http://hostsx.googlecode.com/svn/trunk/Soft.g
+echo 数据下载中！&pause
+if not exist down\rd.g goto datadown
+goto menu
+
+:ipv6
+echo 正在下载基础数据中，请稍候... ...
+%down% http://hostsx.googlecode.com/svn/trunk/ipv6.txt
+echo 数据下载中！&pause
+if not exist down\ipv6.txt goto ipv6 &echo 下载失败，重新下载！&pause
+copy down\ipv6.txt %hosts%
+goto Perms
+
+:union
+if not exist down\Union.g goto datadown
+copy down\Union.g %hosts%
+goto Perms
+
+:site
+if not exist down\Site.g goto datadown
+copy down\Site.g %hosts%
+goto Perms
+
+:soft
+if not exist down\Soft.g goto datadown
+copy down\Soft.g %hosts%
+call :wmpclean
+goto Permissions
+
+:wmpclean
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f>nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f>nul 2>nul
+reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f>nul 2>nul
+
+:Strict
+echo 正在下载中，请稍候... ...
+%down% http://hostsx.googlecode.com/svn/trunk/Strict.txt
+pause
+copy down\Strict.txt %hosts%
+goto Perms
+
+:UnionPlus
+echo 正在下载中，请稍候... ...
+%down% http://hostsx.googlecode.com/svn/trunk/UnionPlus.txt
+pause
+copy down\UnionPlus.txt %hosts%
+goto Perms
+
+:mwslcn
+echo 正在下载中，请稍候... ...
+%down% http://hostsx.googlecode.com/svn/trunk/mwsl.txt
+echo 下载完成，是否要使用 "恶意网站实验室" 整理的Hosts数据？
+pause
+copy down\mwsl.txt %hosts%
+goto Perms
+
+:formynet
+echo 正在下载中，请稍候... ...
+%down% http://www.formynet.cn/web/ljwz.txt
+echo 下载完成，是否要使用 "formynet" 整理的Hosts数据？
+pause
+copy down\ljwz.txt %hosts%
+start http://www.formynet.cn/
+goto Perms
+
 :clxp
 echo 正在下载中，请稍候... ...
 %down% ftp://hosts:hosts@clxp.vicp.cc/hosts
@@ -262,23 +338,8 @@ echo 是否要使用 "死性不改" 整理的Hosts数据？
 pause
 copy /b go.txt+clxp.txt hbhosts.txt
 copy hbhosts.txt %hosts%
-goto finish
+goto Perms
 
-:mwslcn
-echo 正在下载中，请稍候... ...
-%down% http://hostsx.googlecode.com/svn/trunk/mwsl.txt
-echo 下载完成，是否要使用 "恶意网站实验室" 整理的Hosts数据？
-pause
-copy down\mwsl.txt %hosts%
-goto finish
-:formynet
-echo 正在下载中，请稍候... ...
-%down% http://www.formynet.cn/web/ljwz.txt
-echo 下载完成，是否要使用 "formynet" 整理的Hosts数据？
-pause
-copy down\ljwz.txt %hosts%
-start http://www.formynet.cn/
-goto finish
 :MVPShosts
 echo 正在下载中，请稍候... ...
 %down% http://www.mvps.org/winhelp2002/hosts.txt
@@ -286,7 +347,8 @@ echo 下载完成，是否要使用 "MVPS" 整理的Hosts数据？
 pause
 copy down\hosts.txt %hosts%
 start http://www.mvps.org/winhelp2002/hosts.htm
-goto finish
+goto Perms
+
 :someonewhocares
 echo 正在下载中，请稍候... ...
 %down% http://someonewhocares.org/hosts/hosts
@@ -294,7 +356,15 @@ echo 下载完成，是否要使用 "someonewhocares" 整理的Hosts数据？
 pause
 copy down\hosts %hosts%
 start http://someonewhocares.org/hosts/
-goto finish
+goto Perms
+
+:add
+echo 如 要屏蔽百度，则输入：www.baidu.com
+set /p a=请输入要屏蔽的网站:
+echo 0.0.0.0 %a%>>%hosts%
+mshta vbscript:msgbox("%a% 已经被屏蔽！",64,"Hosts")(window.close)
+goto dns
+
 :myfile
 echo 请如下所示： 一行一个（每行最多9个） 前面是IP地址，后面是网站域名。0.0.0.0亦可换成127.0.0.1或者>自定义.txt
 echo 0.0.0.0 www.xxx.com>>自定义.txt
@@ -305,14 +375,24 @@ echo 是否要使用 "自定义.txt" 的Hosts数据？
 pause
 set "in=>>%hosts%"
 for /f "delims=" %%a in (自定义.txt) do echo 0.0.0.0%in%
-goto finish
+goto Perms
 
-:ipv6
-echo 正在下载中，请稍候... ...
-%down% http://hostsx.googlecode.com/svn/trunk/ipv6.txt
-pause
-copy down\ipv6.txt %hosts%
-goto finish
+:clear
+echo 如 要取消屏蔽百度，则输入：www.baidu.com
+set /p b=请输入要取消屏蔽的网站:
+findstr /i "\<%b%\>"<%hosts%||(cls&echo/&echo ***没有找到您输入的网站地址***&pause&goto Shield)
+findstr /vi "\<%b%\>"<%hosts% >host
+del %hosts%
+copy host %hosts%
+mshta vbscript:msgbox("已经取消屏蔽 %b%！",64,"Hosts")(window.close)
+goto dns
+
+:accelerate
+set/p c=输入要加速访问的主机IP地址 (如：192.11.10.69 )
+set/p cc= 输入要加速访问的主机域名 (如：www.baidu.com)
+echo %c% %cc%>>%hosts%
+mshta vbscript:msgbox("%cc% 加速访问设置完成！",64,"Hosts")(window.close)
+goto dns
 
 :Acrylic
 mode con: cols=39 lines=25
@@ -466,49 +546,6 @@ del zlrepeat.txt zlnotes.txt hosts.txt
 mshta vbscript:msgbox("Hosts文件整理完成！",64,"Hosts")(window.close)
 goto dns
 
-:Shield
-mode con: cols=62 lines=26
-title 自定义网站屏蔽
-cls
-echo ..............................................................
-echo                1.添加要屏蔽的网站
-echo.
-echo                2.删除已屏蔽的网站
-echo.
-echo                3.加速网站访问
-echo.
-echo                4.屏蔽 "自定义.txt" 内的网站（请自行修改）               
-echo. 
-echo ..............................................................
-SET Choice=
-SET /P Choice=请选择，按[回车]返回：
-IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
-IF /I '%Choice%'=='1' GOTO add
-IF /I '%Choice%'=='2' GOTO clear
-IF /I '%Choice%'=='3' GOTO accelerate
-IF /I '%Choice%'=='4' GOTO myfile
-IF /I '%Choice%'==''  GOTO menu
-:add
-echo 如 要屏蔽百度，则输入：www.baidu.com
-set /p a=请输入要屏蔽的网站:
-echo 0.0.0.0 %a%>>%hosts%
-mshta vbscript:msgbox("%a% 已经被屏蔽！",64,"Hosts")(window.close)
-goto dns
-:clear
-echo 如 要取消屏蔽百度，则输入：www.baidu.com
-set /p b=请输入要取消屏蔽的网站:
-findstr /i "\<%b%\>"<%hosts%||(cls&echo/&echo ***没有找到您输入的网站地址***&pause&goto Shield)
-findstr /vi "\<%b%\>"<%hosts% >host
-del %hosts%
-copy host %hosts%
-mshta vbscript:msgbox("已经取消屏蔽 %b%！",64,"Hosts")(window.close)
-goto dns
-:accelerate
-set/p c=输入要加速访问的主机IP地址 (如：192.11.10.69 )
-set/p cc= 输入要加速访问的主机域名 (如：www.baidu.com)
-echo %c% %cc%>>%hosts%
-mshta vbscript:msgbox("%cc% 加速访问设置完成！",64,"Hosts")(window.close)
-goto dns
 
 :IPSec
 mode con: cols=55 lines=18
@@ -604,20 +641,6 @@ pause
 reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" 
 /f>nul 2>nul
 goto menu
-
-:finish
-echo 安装完成，清理使用过程中的文件。。。
-del /f /s /q 1.txt clxp.txt go.txt hbhosts.txt host.cab host.zip HOSTS-Optimized.txt.sig 
-hosts.txt hostspath.txt mvps.bat zlnotes.txt zlrepeat.txt 禁止IP列表.txt 自定义.txt
-del down\*.* /s/q
-del backup\*.* /s/q
-rd /s /q backup\
-rd /s /q down\hosts\
-rd /s /q down\
-cls
-echo 清理完毕，进入Hosts文件权限设置！
-pause
-goto Permissions
 
 :iefix
 mode con cols=38 lines=23

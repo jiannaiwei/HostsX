@@ -70,10 +70,14 @@
 0.0.0.0 adimg.dayoo.com rnd.dayoo.com sta.dayoo.com
 #21CN
 0.0.0.0 analytics.21cn.com click.21cn.com market.21cn.com ranking.21cn.com
+#Poco
+0.0.0.0 a-m-s.poco.cn
 #Tom
 0.0.0.0 ad.tom.com sc.tom.com tom.allyes.com xtrack.tomonline-inc.com
 #蜂鸟网
 0.0.0.0 pic.fengniao.com stat.fengniao.com
+#色影无忌
+0.0.0.0 www8.xitek.com
 #一大把
 0.0.0.0 adc.yidaba.com adfv.yidaba.com adj.yidaba.com adv.yidaba.com bd.yidaba.com bm.yidaba.com images.cms.yidaba.com images.yidaba.com industry.yidaba.com
 0.0.0.0 info.yidaba.com static.yidaba.com
