@@ -769,7 +769,7 @@ pause&goto menu
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.57 Freeware Version
+echo Version:    1.58 Freeware Version
 echo Date:       2010.05.27
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
