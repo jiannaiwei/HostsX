@@ -267,6 +267,8 @@
 0.0.0.0 www.53kf.com www3.53kf.com
 #91ivr
 0.0.0.0 g.91ivr.com u.91ivr.com
+#Donglink
+0.0.0.0 aimei.donglink.cn lt.donglink.cn xnx.donglink.cn
 #K261
 0.0.0.0 d.k621.com www.k621.com
 #LinkTech

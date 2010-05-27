@@ -1,4 +1,4 @@
-;version=201005271720
+;version=201005271900
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1634,6 +1634,10 @@
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
+#Donglink
+0.0.0.0 aimei.donglink.cn
+0.0.0.0 lt.donglink.cn
+0.0.0.0 xnx.donglink.cn
 #K261
 0.0.0.0 d.k621.com
 0.0.0.0 www.k621.com
