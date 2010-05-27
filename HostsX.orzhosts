@@ -1,4 +1,4 @@
-;version=201005270900
+;version=201005271600
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -836,7 +836,6 @@
 0.0.0.0 spe.atdmt.com
 0.0.0.0 switch.atdmt.com
 0.0.0.0 view.atdmt.com
-
 #Doubleclick
 0.0.0.0 ad-apac.doubleclick.net
 0.0.0.0 ad-g.doubleclick.net
@@ -1579,7 +1578,8 @@
 0.0.0.0 unigg.kunlun.com
 #亮剑
 0.0.0.0 lj.zqgame.com
-#龙之谷
+#盛大游戏
+0.0.0.0 adrs.sdo.com
 0.0.0.0 act.dn.sdo.com
 #魔力岛
 0.0.0.0 u.molidao.com
