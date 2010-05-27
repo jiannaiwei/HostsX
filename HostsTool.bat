@@ -119,16 +119,17 @@ goto Perms
 
 :hostsbak
 echo 对原Hosts进行备份 ...
-copy /y %hosts% %~dp0%\Bak\"Hosts_%bf%" >nul 2>nul
+md Bak\
+copy /y %hosts% Bak\"Hosts_%bf%" >nul 2>nul
 echo 备份完成
 pause
 goto menu
 :delbak
 echo 是否删除备份的Hosts文件？
 Pause
-del %etc%\Hosts_* /q
-del %etc%\Hosts安装_* /q
-del %~dp0%\Bak\*.* /q
+del %etc%\Hosts_* /q >nul 2>nul
+del %etc%\Hosts安装_* /q >nul 2>nul
+del Bak\*.* /q >nul 2>nul
 echo 由HostsTool备份的Hosts文件已删除！
 Pause
 goto menu
@@ -773,6 +774,6 @@ echo Version:    1.58 Freeware Version
 echo Date:       2010.05.27
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
-mshta vbscript:createobject("sapi.spvoice").speak("Enjoy it!")(window.close)
+mshta vbscript:createobject("sapi.spvoice").speak("Thank U for using and Enjoy it!")(window.close)
 pause
 goto menu
