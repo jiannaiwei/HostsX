@@ -4,10 +4,14 @@ rem 环境变量设置
 set bf=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
 
-rem 清理可能影响运行的文件
+rem 清理可能影响运行或者之前运行残留的文件
 del /f /s /q echo host hosts>nul 2>nul
 del /f /s /q down\*.*>nul 2>nul
 del /f /s /q 1.txt clxp.txt go.txt hbhosts.txt HostsX.old ipv6.old hosts.txt hostspath.txt zlnotes.txt zlrepeat.txt 禁止IP列表.txt 自定义.txt>nul 2>nul
+del backup\*.* /s/q>nul 2>nul
+rd /s /q backup\>nul 2>nul
+rd /s /q down\hosts\>nul 2>nul
+rd /s /q down\>nul 2>nul
 
 rem Wget下载组件检测
 if not exist wget.exe ( start /min iexplore http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe)& (echo 正在下载Wget组件，请保存在当前目录！)&pause else goto sysver 
@@ -56,11 +60,11 @@ title Hosts 小工具
 echo ■───────────────────────────────── ■
 echo.■   1.Hosts文件调整       2.Acrylic+ 调整       3.工具自动更新      ■
 echo ■───────────────────────────────── ■
-echo.■   4.打开Hosts文件       5.Hosts文件整理       6.自定义网站屏蔽    ■
+echo.■   4.打开Hosts文件       5.Hosts文件整理       6.安全模式IE浏览    ■
 echo ■───────────────────────────────── ■
-echo.■   7.添加IE不信任网址    8.安全模式IE浏览      9.IP 安全策略       ■
+echo.■   7.添加IE不信任网址    8.删除IE不信任网址    9.IP 安全策略       ■
 echo ■-------------------------------------------------------------------■
-echo.■   B.Hosts文件备份       D.顽固文件删除        F.修复Hosts文件     ■
+echo.■   B.备份Hosts文件       D.删除Hosts备份       F.修复Hosts文件     ■
 echo ■-------------------------------------------------------------------■
 echo.■   O.打开Hosts目录       P.设置Hosts权限       T.IE 证书管理       ■
 echo ■-------------------------------------------------------------------■
@@ -70,9 +74,10 @@ echo 当前工作位置(0)：%~dp0
 echo.
 set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
-if /i "%all%"=="b" goto bak
+if /i "%all%"=="b" goto hostsbak
 if /i "%all%"=="c" goto clean
-if /i "%all%"=="d" goto delwell
+if /i "%all%"=="d" goto delbak
+if /i "%all%"=="e" goto delwell
 if /i "%all%"=="f" goto fixhosts
 if /i "%all%"=="h" goto help
 if /i "%all%"=="i" goto iefix
@@ -87,9 +92,9 @@ if /i "%all%"=="2" goto Acrylic
 if /i "%all%"=="3" goto update
 if /i "%all%"=="4" goto run
 if /i "%all%"=="5" goto hostsorder
-if /i "%all%"=="6" goto Shield
-if /i "%all%"=="7" goto notrustsite
-if /i "%all%"=="8" goto safeie
+if /i "%all%"=="6" goto safeie
+if /i "%all%"=="7" goto addnotrustsite
+if /i "%all%"=="8" goto delnotrustsite
 if /i "%all%"=="9" goto IPSec
 if /i "%all%"=="0" goto opendp
 if /i "%all%"=="q" goto exit
@@ -112,31 +117,18 @@ copy hbhosts.txt %hosts%
 cd.. >nul 2>nul
 goto Perms
 
-:bak
-mode con: cols=30 lines=12
-echo.
-echo 1,备份Hosts文件
-echo.
-echo 2,删除Hosts备份
-echo.
-SET Choice=
-SET /P Choice=请选择，按[回车]返回：
-IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
-IF /I '%Choice%'=='1' GOTO hostsbak
-IF /I '%Choice%'=='2' GOTO delbak
-IF /I '%Choice%'==''  GOTO menu
 :hostsbak
 echo 对原Hosts进行备份 ...
-copy /y %hosts% %etc%\"Hosts_%bf%" >nul 2>nul
+copy /y %hosts% %~dp0%\Bak\"Hosts_%bf%" >nul 2>nul
 echo 备份完成
 pause
 goto menu
 :delbak
 echo 是否删除备份的Hosts文件？
 Pause
-cd %etc%
-del Hosts_* /q
-del Hosts安装_* /q
+del %etc%\Hosts_* /q
+del %etc%\Hosts安装_* /q
+del %~dp0%\Bak\*.* /q
 echo 由HostsTool备份的Hosts文件已删除！
 Pause
 goto menu
@@ -197,11 +189,11 @@ mshta vbscript:msgbox("不建议在Hosts文件中添加过多内容！",64,"Hosts")(window.clo
 pause
 goto menu
 
-@echo off
 :choose
-mode con: cols=61 lines=29
+mode con: cols=63 lines=32
 cls
 title Hosts 数据调整
+echo.
 echo ○Main Data:                                               
 echo.     1.推荐数据            2.IPV6数据                      
 echo.   
@@ -261,6 +253,7 @@ echo 正在下载基础数据中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/Soft.g
 echo 数据下载中！&pause
 if not exist down\rd.g goto datadown
+mshta vbscript:msgbox("数据准备完成，返回请重新选择！",64,"Hosts")(window.close)
 goto menu
 
 :ipv6
@@ -380,7 +373,7 @@ goto Perms
 :clear
 echo 如 要取消屏蔽百度，则输入：www.baidu.com
 set /p b=请输入要取消屏蔽的网站:
-findstr /i "\<%b%\>"<%hosts%||(cls&echo/&echo ***没有找到您输入的网站地址***&pause&goto Shield)
+findstr /i "\<%b%\>"<%hosts%||(cls&echo/&echo ***没有找到您输入的网站地址***&pause&goto choose)
 findstr /vi "\<%b%\>"<%hosts% >host
 del %hosts%
 copy host %hosts%
@@ -546,6 +539,30 @@ del zlrepeat.txt zlnotes.txt hosts.txt
 mshta vbscript:msgbox("Hosts文件整理完成！",64,"Hosts")(window.close)
 goto dns
 
+:addnotrustsite
+echo 请如下所示： 一行一个网站域名。>自定义.txt
+echo www.forexample.com>>自定义.txt
+echo example.com>>自定义.txt
+start %windir%\notepad.exe 自定义.txt
+echo 请在修改完毕后关闭记事本，并继续下一步。
+echo 请注意备份 自定义.txt 中的的数据！！！
+echo 确定要使用自定义的IE不信任网址数据？
+pause
+echo       正在添加恶意网址到浏览器非安全区域。
+echo       这个过程需要几分钟，请稍候……
+set DMAIN=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet 
+Settings\ZoneMap\Domains
+for /F %%a in (自定义.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
+echo       添加完毕……
+pause
+goto menu
+
+:delnotrustsite
+echo  是否要清理IE浏览器非安全区域的所有网址！
+pause
+reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" 
+/f>nul 2>nul
+goto menu
 
 :IPSec
 mode con: cols=55 lines=18
@@ -588,58 +605,16 @@ echo "Description"="限制IE为基本用户的策略">>%temp%\ie.reg
 echo "SaferFlags"=dword:00000000>>%temp%\ie.reg
 echo "ItemData"="C:\\Program Files\\Internet Explorer\\*.exe">>%temp%\ie.reg
 echo.
-echo.
 regedit /s %temp%\ie.reg
 echo 	正在更新策略，请稍候……
 gpupdate /force>nul
 cls
-echo.
 echo.
 echo 	OK! IE 已经被限制为基本用户权限，
 echo 	您的 IE 浏览器已经有足够的安全性！
 echo.
 echo 	任意键退出……
 pause>nul
-goto menu
-
-:notrustsite
-mode con: cols=45 lines=17
-echo      ==================================
-echo             1. 添加IE不信任网址
-echo.
-echo.
-echo             2. 删除IE不信任网址
-echo.    
-echo      ==================================
-SET Choice=
-SET /P Choice=请选择，按[回车]返回：
-IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
-IF /I '%Choice%'=='1' GOTO addnotrustsite
-IF /I '%Choice%'=='2' GOTO delnotrustsite
-IF /I '%Choice%'==''  GOTO menu
-
-:addnotrustsite
-echo 请如下所示： 一行一个网站域名。>自定义.txt
-echo www.forexample.com>>自定义.txt
-echo example.com>>自定义.txt
-start %windir%\notepad.exe 自定义.txt
-echo 请在修改完毕后关闭记事本，并继续下一步。
-echo 请注意备份 自定义.txt 中的的数据！！！
-echo 确定要使用自定义的IE不信任网址数据？
-pause
-echo       正在添加恶意网址到浏览器非安全区域。
-echo       这个过程需要几分钟，请稍候……
-set DMAIN=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet 
-Settings\ZoneMap\Domains
-for /F %%a in (自定义.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
-echo       添加完毕……
-pause
-goto menu
-:delnotrustsite
-echo  是否要清理IE浏览器非安全区域的所有网址！
-pause
-reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" 
-/f>nul 2>nul
 goto menu
 
 :iefix
@@ -794,8 +769,8 @@ pause&goto menu
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.56 Freeware Version
-echo Date:       2010.05.16
+echo Version:    1.57 Freeware Version
+echo Date:       2010.05.27
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
 mshta vbscript:createobject("sapi.spvoice").speak("Enjoy it!")(window.close)
