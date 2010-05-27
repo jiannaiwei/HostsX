@@ -265,6 +265,8 @@
 0.0.0.0 click.21cn.com
 0.0.0.0 market.21cn.com
 0.0.0.0 ranking.21cn.com
+#Poco
+0.0.0.0 a-m-s.poco.cn
 #Tom
 0.0.0.0 ad.tom.com
 0.0.0.0 sc.tom.com
@@ -273,6 +275,8 @@
 #蜂鸟网
 0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
+#色影无忌
+0.0.0.0 www8.xitek.com
 #一大把
 0.0.0.0 adc.yidaba.com
 0.0.0.0 adfv.yidaba.com
@@ -702,7 +706,6 @@
 0.0.0.0 amps.yoyi.com.cn
 0.0.0.0 api.flash45.com
 0.0.0.0 ato.geci.cn
-0.0.0.0 barmms.com
 0.0.0.0 c.999d.com
 0.0.0.0 click.admaster.com.cn
 0.0.0.0 click.linksynergy.com
@@ -1393,6 +1396,9 @@
 0.0.0.0 go.all4ad.cn
 0.0.0.0 jump.all4ad.cn
 0.0.0.0 nad1.all4ad.cn
+#Barmms
+0.0.0.0 barmms.com
+0.0.0.0 i.barmms.com
 #Chinaih
 0.0.0.0 admin.haodong.net
 0.0.0.0 ad.chinaih.com
@@ -1665,6 +1671,8 @@
 0.0.0.0 v1.9vcpc.cn
 #猫猫
 0.0.0.0 www.maomao8.com
+#梦想广告
+0.0.0.0 www.mengxiang.in
 #全网控
 0.0.0.0 stat.cccr.cn
 0.0.0.0 js.union001.cn
