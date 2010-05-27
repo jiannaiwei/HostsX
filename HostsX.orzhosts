@@ -1,4 +1,4 @@
-;version=201005271600
+;version=201005271700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1323,7 +1323,7 @@
 0.0.0.0 iresearch.adsame.com
 0.0.0.0 jiayuan.adsame.com
 0.0.0.0 jrj.adsame.com
-0.0.0.0 jsmedia.adsame.com.
+0.0.0.0 jsmedia.adsame.com
 0.0.0.0 jspanda.adsame.com
 0.0.0.0 jyad.adsame.com
 0.0.0.0 legu.adsame.com
