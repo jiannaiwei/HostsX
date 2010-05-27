@@ -1,4 +1,4 @@
-;version=201005271700
+;version=201005271720
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -738,7 +738,6 @@
 0.0.0.0 redirect.jooov.cn
 0.0.0.0 sales.woyo.com
 0.0.0.0 search.ok365.com
-0.0.0.0 search.p.cn
 0.0.0.0 so.mingsou.com
 0.0.0.0 sougames.com
 0.0.0.0 static.u966.com
@@ -763,7 +762,6 @@
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.cxgglm.com
 0.0.0.0 www.leeuu.net
-0.0.0.0 www.p.cn
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 y.taolai.cn
 #港台常见广告
@@ -1566,6 +1564,9 @@
 #多特软件
 0.0.0.0 www.duote.com
 0.0.0.0 img.duote.com
+#P.cn
+0.0.0.0 search.p.cn
+0.0.0.0 www.p.cn
 @HostsX 网络广告过滤/游戏推广
 #37Wan
 0.0.0.0 tao.37wan.com
