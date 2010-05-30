@@ -235,3 +235,5 @@
 0.0.0.0 adcenter.xinhuanet.com embed.xinhuanet.com entity.xinhuanet.com
 #中华网
 0.0.0.0 dvs.china.com dvsend.china.com
+#其他新闻网站
+0.0.0.0 up.hiao.com
