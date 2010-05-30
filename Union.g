@@ -24,13 +24,13 @@
 0.0.0.0 click.admaster.com.cn click.linksynergy.com click.mediav.com clk.abang.com cnt.zhaopin.com code.51link.com cpc.haowzz.com.cn dir.ejoina.com freeadp.tensynad.com
 0.0.0.0 fx.v1kk.com gfyoyo.com.cn ht.hao120.cc ht.sooe.cn hz.mmstat.com idea.t2click.com image.tazhao.com img.8977.com img38.my1188.info
 0.0.0.0 javascript.nwbox.com lailea.info m.ttgrs.cn mydh.info nonoyx.com p.3gm.com.cn parking.8d.cn pic837013.images9999.com plus.txwm.com
-0.0.0.0 qqhdx.cn redirect.jooov.cn sales.woyo.com search.ok365.com so.mingsou.com sougames.com static.u966.com u.30so.com ucjoy.com
+0.0.0.0 qqhdx.cn redirect.jooov.cn sales.woyo.com search.ok365.com so.mingsou.com static.u966.com u.30so.com ucjoy.com
 0.0.0.0 union.51ditu.com union.88go.cc union.keepc.com union.narrowad.com union.qyule.com union.the999.com union.uume.com union.zhongsou.com union2.50bang.org
 0.0.0.0 uusee.haibao.org www.021sms.com www.265g.info www.2yt.net www.67160.com www.9899.cn www.adtools.cn www.algj-27dy.cn www.cxgglm.com
-0.0.0.0 www.leeuu.net www.wooigoo.cn y.taolai.cn
+0.0.0.0 www.leeuu.net www.wooigoo.cn y.taolai.cn img.rj518.com
 #港台常见广告
-0.0.0.0 ad.wretch.cc ad71.doubleadx.com admd.yam.com adsense.scupio.com gwc.iblinx.com hwachun.webplus.com.tw money.scupio.com mx3.hotrank.com.tw pic.addeliver.biz
-0.0.0.0 rc.asia.srv.overture.com www.iasoho.com
+0.0.0.0 10000.mm.oishow.com ad.doubleadv.tv ad.f1.com.tw ad.wretch.cc ad71.doubleadx.com admd.yam.com adsense.scupio.com gwc.iblinx.com hwachun.webplus.com.tw
+0.0.0.0 link.f1.com.tw money.scupio.com mx3.hotrank.com.tw pic.addeliver.biz rc.asia.srv.overture.com www.iasoho.com
 @HostsX 网络广告过滤/国外广告
 #国外常见广告
 0.0.0.0 ad.adtegrity.net adtech.panthercustomer.com as.casalemedia.com content.pulse360.com counters.gigya.com d.cyberdefender.com marketing.xineurope.com pub.softonic.cn s3.buysellads.com
@@ -83,7 +83,7 @@
 #51yes
 0.0.0.0 count.51yes.com count10.51yes.com count20.51yes.com count28.51yes.com count36.51yes.com count40.51yes.com countt.51yes.com
 #99click
-0.0.0.0 a1139.oadz.com a.oadz.com dns1.oadz.com dns2.oadz.com
+0.0.0.0 a814.oadz.com a1139.oadz.com a.oadz.com dns1.oadz.com dns2.oadz.com
 #Acs86
 0.0.0.0 acs86.com afp.acs86.com static.acs86.com tgb.acs86.com
 #CNZZ
@@ -154,7 +154,7 @@
 0.0.0.0 www.adsame.com xcar.adsame.com xici.adsame.com xinhuanet.adsame.com xybc.adsame.com yaolan.adsame.com yiguan.adsame.com ynet.adsame.com yoka.adsame.com
 0.0.0.0 zh28.adsame.com
 #All4ad
-0.0.0.0 go.all4ad.cn jump.all4ad.cn nad1.all4ad.cn
+0.0.0.0 img.all4ad.cn go.all4ad.cn jump.all4ad.cn nad1.all4ad.cn
 #Barmms
 0.0.0.0 barmms.com i.barmms.com
 #Chinaih
@@ -245,7 +245,7 @@
 #热血三国
 0.0.0.0 g.91sanguo.cn
 #搜游戏公会
-0.0.0.0 kerout.r.sougames.com chess.r.sougames.com
+0.0.0.0 agod.r.sougames.com chess.r.sougames.com kerout.r.sougames.com r.sougames.com sougames.com
 #网元网
 0.0.0.0 ccnec.com pv.ccnec.com space.ccnec.com www.prealpha.platform.ccnec.com www.wangyuan.com
 #我乐玩

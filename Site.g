@@ -61,7 +61,7 @@
 0.0.0.0 gg.mop.com in.dg.mop.com in.h.mop.com in.sg.mop.com in.sh.mop.com ovsmbt.mop.com p4pad.mop.com pub.mop.com stat.ent.mop.com
 0.0.0.0 tj.itv.mop.com tj.mop.com tj.pet.mop.com union.mop.com yx.mop.com
 #人人
-0.0.0.0 click.jebe.renren.com cupid.jebe.renren.com shaft.jebe.renren.com jebe.renren.com jebe.xnimg.cn
+0.0.0.0 click.jebe.renren.com cupid.jebe.renren.com dian.cupid.jebe.renren.com shaft.jebe.renren.com jebe.renren.com jebe.xnimg.cn
 #西祠胡同
 0.0.0.0 ad.xici.net afpxici.allyes.com xiciafp.allyes.com
 #奇虎社区
@@ -84,7 +84,7 @@
 #SNS论坛
 0.0.0.0 d.5d6d.com un.5d6d.com v3.apic.51.com union.daqi.com union.phpwind.com jj.topzj.com
 #博客推广
-0.0.0.0 ads.wopus.org adv.blogupp.com pro.blogbus.com union.bolaa.com
+0.0.0.0 ad2.bloggerads.net ads.wopus.org adv.blogupp.com pro.blogbus.com union.bolaa.com
 #购物推广
 0.0.0.0 adtaobao.tobo123.com union.360buy.com union.dangdang.com union.vancl.com www.133i.com
 
