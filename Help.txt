@@ -1,0 +1,10 @@
+Ubuntu下修改Hosts:
+1、修改hosts: sudo gedit /etc/hosts
+2、添加解析记录
+完整案例：127.0.0.1 localhost.localdomain localhost
+简洁记录：127.0.0.1 localhost
+3、保存后重启网络: sudo /etc/init.d/networking restart
+
+!Ubuntu关闭IPv6
+编辑 /etc/modprobe.d/aliases
+修改:alias net-pf-10 ipv6 为:alias net-pf-10 off

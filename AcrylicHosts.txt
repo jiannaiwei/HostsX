@@ -3,6 +3,7 @@
 127.0.0.1       lh
 127.0.0.1       localhost
 ::1             localhost
+127.0.0.1 localhost.localdomain localhost
 #Blogger
 74.125.39.191 www.blogger.com
 74.125.39.191 blogger.l.google.com
