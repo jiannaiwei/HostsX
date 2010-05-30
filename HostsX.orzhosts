@@ -1,4 +1,4 @@
-;version=201005301700
+;version=201005310100
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -603,6 +603,8 @@ ff02::3 ip6-allhosts
 #中华网
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
+#其他新闻网站
+0.0.0.0 up.hiao.com
 @HostsX 网络广告过滤
 @HostsX 网络广告过滤/国内广告
 #百度
