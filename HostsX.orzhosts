@@ -1,4 +1,4 @@
-;version=201005310100
+;version=201005311500
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -491,46 +491,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.pomoho.com
 #Wo31电影
 0.0.0.0 wo318.k621.com
-#CC视频
-0.0.0.0 1.bokeccimg.com
-0.0.0.0 bokecc.com
-0.0.0.0 cncre12.bokecc.com
-0.0.0.0 hot7.bokecc.com
-0.0.0.0 mc.bokecc.com
-0.0.0.0 re2.bokecc.com
-0.0.0.0 trade.bokecc.com
-0.0.0.0 www.bokecc.com
-#iCast
-0.0.0.0 cast.ra.icast.cn
-0.0.0.0 js.icast.cn
-0.0.0.0 kw.ra.icast.cn
-0.0.0.0 post.ra.icast.cn
-0.0.0.0 pre.ra.icast.cn
-0.0.0.0 pv.ra.icast.cn
-0.0.0.0 rm.ra.icast.cn
-0.0.0.0 track.ra.icast.cn
-#Vodone
-0.0.0.0 autou.vodone.cn
-0.0.0.0 bus.vodone.com
-0.0.0.0 busjs.vodone.cn
-0.0.0.0 cai.vodone.com
-0.0.0.0 ego.vodone.com
-0.0.0.0 images.vodone.com
-0.0.0.0 msn.vodone.com
-0.0.0.0 pic.vodone.com
-0.0.0.0 stat.vodone.cn
-0.0.0.0 stat2.vodone.com
-0.0.0.0 u.vodone.com
-0.0.0.0 u3.vodone.com
-0.0.0.0 uflv.vodone.com
-0.0.0.0 v.vodone.com
-0.0.0.0 vlog.vodone.com
-0.0.0.0 vodone.com
-0.0.0.0 www.vodone.com
-#波波影视
-0.0.0.0 jsunion.boodvd.cn
-0.0.0.0 jsunion.boodvd.com
-0.0.0.0 union.boodvd.com
+#乐视网
+0.0.0.0 pro.letv.com
 @HostsX 站点广告过滤/财经类网站
 #东方财富网
 0.0.0.0 ay.eastmoney.com
@@ -1585,6 +1547,47 @@ ff02::3 ip6-allhosts
 #P.cn
 0.0.0.0 search.p.cn
 0.0.0.0 www.p.cn
+@HostsX 网络广告过滤/弹出视频
+#CC视频
+0.0.0.0 1.bokeccimg.com
+0.0.0.0 bokecc.com
+0.0.0.0 cncre12.bokecc.com
+0.0.0.0 hot7.bokecc.com
+0.0.0.0 mc.bokecc.com
+0.0.0.0 re2.bokecc.com
+0.0.0.0 trade.bokecc.com
+0.0.0.0 www.bokecc.com
+#iCast
+0.0.0.0 cast.ra.icast.cn
+0.0.0.0 js.icast.cn
+0.0.0.0 kw.ra.icast.cn
+0.0.0.0 post.ra.icast.cn
+0.0.0.0 pre.ra.icast.cn
+0.0.0.0 pv.ra.icast.cn
+0.0.0.0 rm.ra.icast.cn
+0.0.0.0 track.ra.icast.cn
+#Vodone
+0.0.0.0 autou.vodone.cn
+0.0.0.0 bus.vodone.com
+0.0.0.0 busjs.vodone.cn
+0.0.0.0 cai.vodone.com
+0.0.0.0 ego.vodone.com
+0.0.0.0 images.vodone.com
+0.0.0.0 msn.vodone.com
+0.0.0.0 pic.vodone.com
+0.0.0.0 stat.vodone.cn
+0.0.0.0 stat2.vodone.com
+0.0.0.0 u.vodone.com
+0.0.0.0 u3.vodone.com
+0.0.0.0 uflv.vodone.com
+0.0.0.0 v.vodone.com
+0.0.0.0 vlog.vodone.com
+0.0.0.0 vodone.com
+0.0.0.0 www.vodone.com
+#波波影视
+0.0.0.0 jsunion.boodvd.cn
+0.0.0.0 jsunion.boodvd.com
+0.0.0.0 union.boodvd.com
 @HostsX 网络广告过滤/游戏推广
 #37Wan
 0.0.0.0 tao.37wan.com

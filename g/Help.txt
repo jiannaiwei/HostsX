@@ -1,0 +1,42 @@
+--------------------------------------------------------
+Windows下：
+HostsTool命令快捷键：
+ "0"（数字）是打开当前工作目录；
+ "o"（英文）是打开系统Hosts文件夹；
+ "c" 是垃圾文件清理；
+ "h" 是查看帮助；
+ "i" 是IE组件优化；
+ "r" 是变换颜色；
+ "v" 查看版本；
+ "w" 查找当前系统Hosts路径，并请自行修改变量；
+
+常见问题答疑：
+1.关于最近一些朋友反馈的脚本错误等问题，
+如sopcast等的请使用Pavel的sopcast去广告补丁试试
+
+2.迅雷看看目前使用了泛域名技术，单纯的Hosts过滤
+已经很难起作用，建议配合世界之窗等的广告过滤一起使用。
+--------------------------------------------------------
+
+Acrylic安装使用说明：
+在cmd下运行ipconfig /all
+1.找到 DNS Servers 后面的那个 IP 地址并记下来，比如是 212.216.112.112;
+
+2.打开 AcrylicConfiguration.ini，把这个 IP 地址填到 PrimaryServerAddress=后面;
+
+3.修改你的本地连接里面的 DNS 地址：在控制面板找到网络连接，选中 TCP/IP，点击属性，勾选使用下面的 DNS 服务器地址，在首选 DNS 服务器里输入 127.0.0.1; 
+
+4.保存之后运行AcrylicTool.bat即可; 
+--------------------------------------------------------
+
+Ubuntu下修改Hosts:
+1、修改hosts: sudo gedit /etc/hosts
+2、添加解析记录
+完整案例：127.0.0.1 localhost.localdomain localhost
+简洁记录：127.0.0.1 localhost
+3、保存后重启网络: sudo /etc/init.d/networking restart
+
+!Ubuntu关闭IPv6
+编辑 /etc/modprobe.d/aliases
+修改:alias net-pf-10 ipv6 为:alias net-pf-10 off
+--------------------------------------------------------
