@@ -40,12 +40,12 @@ goto menu
 :menu
 mode con cols=71 lines=32
 rem 系统文件检测
-if not exist cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&call sysfile
+if not exist cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&goto sysfile
 rem 解除Hosts只读属性，权限限制
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls
-title Hosts 小工具
+title Hosts 小工具 3.X alpha
 echo ■───────────────────────────────── ■
 echo.■   1.Hosts文件调整       2.Acrylic+ 调整       3.工具自动更新      ■
 echo ■───────────────────────────────── ■
@@ -179,18 +179,15 @@ cls
 title Hosts 数据调整
 echo.
 echo ○Main Data:                                               
-echo.     1.推荐数据            2.IPV6数据       R.智能转向                 
+echo.     1.推荐数据        2.IPV6数据        3.智能转向                 
 echo.   
 echo ☆Single Data:                                             
 echo.     4.广告联盟        5.站点过滤        6.软件屏蔽        
-echo.   
-echo △Add Plus Data:                                         
-echo.     7.严格过滤（会有误杀）       8.增强版广告联盟数据     
 echo.    
 echo ◎Mwsl Data:                                              
-echo.     M.恶意网站实验室     F.Formynet      L.死性不改       
+echo. Cn：7.MWSL实验室      8.Formynet        9.死性不改       
 echo.
-echo.     V.MVPS        S.SomeOneWhoCares                       
+echo. En：M.MVPS            S.SomeOneWhoCares                       
 echo.   
 echo ☆User Data:                                              
 echo.     A.添加屏蔽网站                B.屏蔽自定义数据        
@@ -206,19 +203,18 @@ set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
 if /i "%all%"=="1" goto dft
 if /i "%all%"=="2" goto ipv6
+if /i "%all%"=="2" goto rd
 if /i "%all%"=="4" goto union
 if /i "%all%"=="5" goto site
 if /i "%all%"=="6" goto soft
-if /i "%all%"=="7" goto Strict
-if /i "%all%"=="8" goto UnionPlus
+if /i "%all%"=="7" goto mwslcn
+if /i "%all%"=="8" goto formynet
+if /i "%all%"=="9" goto clxp
 if /i "%all%"=="a" goto add
 if /i "%all%"=="b" goto myfile
 if /i "%all%"=="c" goto clearadd
 if /i "%all%"=="d" goto accelerate
-if /i "%all%"=="m" goto mwslcn
-if /i "%all%"=="f" goto formynet
-if /i "%all%"=="l" goto clxp
-if /i "%all%"=="v" goto MVPShosts
+if /i "%all%"=="m" goto MVPShosts
 if /i "%all%"=="s" goto someonewhocares
 
 :dft
@@ -266,20 +262,6 @@ goto Permissions
 reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f>nul 2>nul
 reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f>nul 2>nul
 reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f>nul 2>nul
-
-:Strict
-echo 正在下载中，请稍候... ...
-%down% http://hostsx.googlecode.com/svn/trunk/Strict.txt
-pause
-copy down\Strict.txt %hosts%
-goto Perms
-
-:UnionPlus
-echo 正在下载中，请稍候... ...
-%down% http://hostsx.googlecode.com/svn/trunk/UnionPlus.txt
-pause
-copy down\UnionPlus.txt %hosts%
-goto Perms
 
 :mwslcn
 echo 正在下载中，请稍候... ...
@@ -482,7 +464,9 @@ goto Alcfile
 %downa% http://hostsx.googlecode.com/svn/trunk/lib/AcrylicLookup.exe
 %downa% http://hostsx.googlecode.com/svn/trunk/lib/AcrylicService.exe
 %downa% http://hostsx.googlecode.com/svn/trunk/lib/AcrylicConfiguration.ini
-if not exist Acrylic\AcrylicService.exe goto Alcfile
+echo 正在下载组件，请稍候... ...
+pause
+if exist Acrylic\AcrylicService.exe goto menu
 
 :update
 title 正在更新HostsTool
@@ -578,11 +562,12 @@ goto menu
 
 :IPSec
 mode con: cols=55 lines=18
-echo IP 安全策略 由死性不改发布，现在已经停止更新！是否继续？
+echo IP 安全策略 由死性不改发布，现在已经停止更新！
+echo 是否继续？
 pause
 sc create PolicyAgent binpath= "C:\WINDOWS\system32\lsass.exe" type= share start= auto displayname= "IPSEC Services" depend= RPCSS/IPSec
 sc description PolicyAgent "提供 TCP/IP 网络上客户端和服务器之间端对端的安全。如果此服务被停用，网络上客户端和服务器之间的 TCP/IP 安全将不稳定。如果此服务被禁用，任何依赖它的服务将无法启动。"
-if not exist ipseccmd.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/ipseccmd.exe
+if not exist ipseccmd.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/g/ipseccmd.exe
 echo 正在下载中，请稍候... ...
 wget -nH -N -c ftp://hosts:hosts@clxp.vicp.cc/禁止IP列表.txt
 echo 是否要使用 "死性不改" 整理的IP安全策略？
@@ -596,9 +581,9 @@ pause
 goto menu
 
 :sysfile
-wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/lib/cacls.exe
-wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/lib/ipseccmd.exe
+wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/g/cacls.exe
 if not exist cacls.exe goto sysfile
+pause&goto menu
 
 :clean 
 title 系统垃圾清除
