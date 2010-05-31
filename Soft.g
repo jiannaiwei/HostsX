@@ -30,6 +30,7 @@
 #PPTV（PPVA）
 0.0.0.0 ins-stat.pplive.com ins-version.pplive.com ins.pplive.com afp.pplive.com afv.pplive.com caipiao.pplive.com dh.pplive.com g.pplive.com iptable.pplive.com
 0.0.0.0 live.v2.pplive.com pp1.pplive.com up.pplive.com h.g1d.net p.g1d.net ppva.g1d.net video-va.g1d.net pplive-ppva.datamaster.com.cn pplive-probe.datamaster.com.cn
+0.0.0.0 pp.pplive.com up.pplive.com upexe.pplive.com
 #PPStream
 0.0.0.0 notice.ppstream.com stat.ppstream.com update.111222.cn
 #Qvod
@@ -127,6 +128,6 @@
 0.0.0.0	info.klplayer.com update.klplayer.com info.pcpc8.com info.pctutu.net link.pctutu.com m.pcpc8.com srtj.pctutu.net tj.pctutu.net update.pctutu.com
 0.0.0.0	update.pctutu.net
 #搜狗拼音
-0.0.0.0	files2.sogou.com ime.sogou.com config.pinyin.sogou.com info.pinyin.sogou.com ping.pinyin.sogou.com st.pinyin.sogou.com
+0.0.0.0	files2.sogou.com ime.sogou.com config.pinyin.sogou.com info.pinyin.sogou.com ping.pinyin.sogou.com st.pinyin.sogou.com pinyin.sogou.com
 #光影魔术手
 0.0.0.0 ad.neoimaging.cn clientconfig.neoimaging.cn gift.neoimaging.cn jump.neoimaging.cn recommend.neoimaging.cn

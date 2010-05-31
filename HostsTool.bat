@@ -70,7 +70,7 @@ echo.■   O.打开Hosts目录       P.设置Hosts权限       T.IE 证书管理       ■
 echo ■-------------------------------------------------------------------■
 echo           今天是:%date% 现在时间:%time%      H.帮助  
 echo ■───────────────────────────────── ■
-echo 当前工作位置(0)：%~dp0
+echo 当前工作目录(0)：%~dp0
 echo.
 set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
@@ -110,7 +110,7 @@ ipconfig /flushdns>nul 2>nul
 goto menu
 
 :gdft
-if not exist down\rd.g goto datadown
+if not exist down\rd.g call :datadown
 cd down\ >nul 2>nul
 copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
 copy hbhosts.txt %hosts%
@@ -183,8 +183,8 @@ goto dns
 
 :help
 cls
-type 说明.txt|more
-start http://orztech.com/softwares/hostsx/help
+if exist Help.txt type Help.txt|more
+start http://hi.baidu.com/iebb
 start http://www.uushare.com/user/vokins/file/2559115
 mshta vbscript:msgbox("不建议在Hosts文件中添加过多内容！",64,"Hosts")(window.close)
 pause
@@ -254,8 +254,6 @@ echo 正在下载基础数据中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/Soft.g
 echo 数据下载中！&pause
 if not exist down\rd.g goto datadown
-mshta vbscript:msgbox("数据准备完成，返回请重新选择！",64,"Hosts")(window.close)
-goto menu
 
 :ipv6
 echo 正在下载基础数据中，请稍候... ...
@@ -266,17 +264,17 @@ copy down\ipv6.txt %hosts%
 goto Perms
 
 :union
-if not exist down\Union.g goto datadown
+if not exist down\Union.g call :datadown
 copy down\Union.g %hosts%
 goto Perms
 
 :site
-if not exist down\Site.g goto datadown
+if not exist down\Site.g call :datadown
 copy down\Site.g %hosts%
 goto Perms
 
 :soft
-if not exist down\Soft.g goto datadown
+if not exist down\Soft.g call :datadown
 copy down\Soft.g %hosts%
 call :wmpclean
 goto Permissions
@@ -771,8 +769,8 @@ pause&goto menu
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.58 Freeware Version
-echo Date:       2010.05.27
+echo Version:    1.6 Freeware Version
+echo Date:       2010.06.01
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
 mshta vbscript:createobject("sapi.spvoice").speak("Thank U for using and Enjoy it!")(window.close)

@@ -52,6 +52,7 @@
 #搜狐
 0.0.0.0 adclick.bai.sohu.com cpc.sohu.com doc.go.sohu.com images.sohu.com imp.ad-plus.cn ip.cms.sohu.com partner.search.sohu.com pv.sohu.com scalink.sohu.com
 0.0.0.0 suvset.sohu.com txt.go.sohu.com
+0.0.0.0 images.sohu.com
 0.0.0.0 sohu.ad-plus.cn u.ad-plus.cn sohusc.allyes.com
 
 @HostsX 站点广告过滤/社区类网站
@@ -91,10 +92,13 @@
 @HostsX 站点广告过滤/IT 类网站
 #中关村系列
 0.0.0.0 adm.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
+0.0.0.0 pic.zol-img.com.cn
 #电脑之家
 0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net stat.pchome.net
 #泡泡网
 0.0.0.0 33.pcpop.com count.pcpop.com
+#驱动之家（评论条数不显示）
+0.0.0.0 11.mydrivers.com
 #太平洋
 0.0.0.0 adv.pconline.com.cn count5.pconline.com.cn imgad1.3conline.com imgad2.3conline.com ivy.pconline.com.cn
 #小熊在线
@@ -174,7 +178,7 @@
 #优酷
 0.0.0.0 stat.youku.com static.atm.youku.com static.lstat.youku.com valc.atm.youku.com valf.atm.youku.com valo.atm.youku.com valp.atm.youku.com vid.atm.youku.com
 #土豆
-0.0.0.0 adextensioncontrol.tudou.com adplay.tudou.com iwstat.tudou.com nstat.tudou.com stat.tudou.com stats.tudou.com
+0.0.0.0 adextensioncontrol.tudou.com adplay.tudou.com iwstat.tudou.com nstat.tudou.com stat.tudou.com stats.tudou.com adcontrol.tudou.com
 #酷6
 0.0.0.0 analytics.ku6.com stat1.888.ku6.com stat2.888.ku6.com stat3.888.ku6.com
 #激动网
