@@ -36,18 +36,6 @@ goto menu
 set etc=%windir%\system64\drivers\etc
 set hosts=%windir%\system64\drivers\etc\hosts
 goto menu
-:find
-rem 获取系统Hosts路径
-for /f "tokens=2*" %%a in ('reg query "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DataBasePath" ^|findstr /i "DataBasePath"') do (
-	set "DataBasePath=%%b"
-)
-echo 当前系统的Hosts路径为：
-echo %DataBasePath%
-echo %DataBasePath%>>hostspath.txt
-pause
-start %windir%\notepad.exe %0
-start %windir%\notepad.exe %~dp0\hostspath.txt
-exit
 
 :menu
 mode con cols=71 lines=32
@@ -76,15 +64,15 @@ echo.
 set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
 if /i "%all%"=="b" goto hostsbak
-if /i "%all%"=="c" goto clean
 if /i "%all%"=="d" goto delbak
-if /i "%all%"=="e" goto delwell
 if /i "%all%"=="f" goto fixhosts
-if /i "%all%"=="h" goto help
-if /i "%all%"=="i" goto iefix
 if /i "%all%"=="o" goto ophosts
 if /i "%all%"=="p" goto Perms
 if /i "%all%"=="t" goto Cert
+if /i "%all%"=="h" goto help
+if /i "%all%"=="c" goto clean
+if /i "%all%"=="e" goto delit
+if /i "%all%"=="i" goto iefix
 if /i "%all%"=="u" goto gdft
 if /i "%all%"=="v" goto ver
 if /i "%all%"=="w" goto find
@@ -109,14 +97,6 @@ del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
 del /f /q %userprofile%\recent\*.*>nul 2>nul
 ipconfig /flushdns>nul 2>nul
 goto menu
-
-:gdft
-if not exist down\rd.g call :datadown
-cd down\ >nul 2>nul
-copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
-copy hbhosts.txt %hosts%
-cd.. >nul 2>nul
-goto Perms
 
 :hostsbak
 echo 对原Hosts进行备份 ...
@@ -150,10 +130,6 @@ echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
 echo 还原Hosts文件为系统默认状态。
 goto run
 
-:run
-if not exist %hosts% (call :nohosts) else (start %windir%\notepad.exe %hosts%)
-goto Perms
-
 :ophosts
 start explorer %etc%\
 goto menu
@@ -174,20 +150,21 @@ IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
 IF /I '%Choice%'=='1' GOTO readonly
 IF /I '%Choice%'=='2' GOTO ntfs
 IF /I '%Choice%'=='3' GOTO dns
-
 :readonly
 attrib +r +a +s %hosts%
 goto pmfinish
-
 :ntfs
 attrib +r +a +s %hosts%
 echo y|cacls %hosts% /g everyone:r
 goto pmfinish
-
 :pmfinish
 echo Hosts文件权限设置完成！
 pause
 goto dns
+
+:Cert
+certmgr.msc
+goto menu
 
 :help
 cls
@@ -251,12 +228,6 @@ echo 数据下载中！&pause
 if not exist down\HostsX.orzhosts goto dft
 copy down\HostsX.orzhosts %hosts%
 goto Perms
-
-:thanks
-%down% http://hostsx.googlecode.com/svn/trunk/g/Thanks.txt
-type down\Thanks.txt|more
-pause
-goto menu
 
 :datadown
 echo 正在下载基础数据中，请稍候... ...
@@ -398,11 +369,6 @@ echo %c% %cc%>>%hosts%
 mshta vbscript:msgbox("%cc% 加速访问设置完成！",64,"Hosts")(window.close)
 goto dns
 
-:sysfile
-wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/lib/cacls.exe
-wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/lib/ipseccmd.exe
-if not exist cacls.exe goto sysfile
-
 :Acrylic
 mode con: cols=39 lines=25
 if not exist Acrylic\ goto :Alcerr
@@ -433,7 +399,6 @@ IF /I '%Choice%'=='4' GOTO Alcup
 IF /I '%Choice%'=='5' GOTO Alcunist
 IF /I '%Choice%'=='d' GOTO Alcdel
 IF /I '%Choice%'=='0' GOTO menu
-
 :Alcflush
 cd Acrylic\ >nul 2>nul
 echo    ==================================
@@ -443,7 +408,6 @@ IPCONFIG /FlushDNS > NUL 2> NUL
 echo    ==================================
 cd..
 goto Alcs
-
 :AlcStup
 cd Acrylic\ >nul 2>nul
 echo    ==================================
@@ -459,7 +423,6 @@ echo 修改你的本地连接里面的 DNS 地址为：127.0.0.1；
 pause
 cd..
 goto Alcs
-
 :Alcedit
 cd Acrylic\ >nul 2>nul
 start %windir%\notepad.exe AcrylicHosts.txt
@@ -468,7 +431,6 @@ echo 修改完毕后关闭记事本，按任意键继续！
 pause>nul
 cd..
 goto Alcflush
-
 :Alcup
 echo    ==================================
 echo      正在更新 Acrylic Hosts 文件 ...
@@ -478,7 +440,6 @@ del Acrylic\*.txt >nul
 echo AcrylicHosts数据已更新！
 pause
 goto Alcflush
-
 :Alcunist
 cd Acrylic\ >nul 2>nul
 echo    ==================================
@@ -487,7 +448,6 @@ AcrylicService.exe /UNINSTALL /SILENT
 echo    ==================================
 cd ..
 goto Acrylic
-
 :Alcdel
 cd Acrylic\ >nul 2>nul
 echo    正在卸载 Acrylic DNS Proxy 服务...
@@ -503,7 +463,6 @@ rd /s /q Acrylic\
 echo Acrylic卸载完毕！
 pause
 goto menu
-
 :Alcs
 cd Acrylic\ >nul 2>nul
 echo    ==================================
@@ -512,7 +471,6 @@ NET START "Acrylic DNS Proxy Service" > NUL
 echo    ==================================
 cd ..
 goto menu
-
 :Alcerr
 echo.
 echo  Acrylic文件丢失，无法继续使用该服务！
@@ -520,7 +478,6 @@ echo  请重新安装Acrylic组件！
 echo  按任意键重新下载……
 pause>nul
 goto Alcfile
-
 :Alcfile
 %downa% http://hostsx.googlecode.com/svn/trunk/lib/AcrylicLookup.exe
 %downa% http://hostsx.googlecode.com/svn/trunk/lib/AcrylicService.exe
@@ -536,6 +493,10 @@ echo 正在下载数据，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/HostsTool.bat
 mshta vbscript:msgbox("正在升级中！",64,"Hosts Tool")(window.close)
 call down\up.bat&exit
+
+:run
+if not exist %hosts% (call :nohosts) else (start %windir%\notepad.exe %hosts%)
+goto Perms
 
 :hostsorder
 title Hosts文件整理
@@ -575,6 +536,12 @@ del zlrepeat.txt zlnotes.txt hosts.txt
 mshta vbscript:msgbox("Hosts文件整理完成！",64,"Hosts")(window.close)
 goto dns
 
+:thanks
+%down% http://hostsx.googlecode.com/svn/trunk/g/Thanks.txt
+type down\Thanks.txt|more
+pause
+goto menu
+
 :addnotrustsite
 mshta vbscript:msgbox("请如下所示： 一行一个网站域名！",64,"Hosts")(window.close)
 echo 下载最新数据，供您参考：
@@ -588,8 +555,6 @@ echo pro.letv.com>>1.txt
 echo *.atm.youku.com>>1.txt
 echo *.jebe.renren.com>>1.txt
 echo *.sandai.net>>1.txt
-echo http://www.greendown.cn/ggao/*.*>>1.txt
-echo http://www.greendown.cn/Ggao/*.*>>1.txt
 copy /b 1.txt+down\noie.txt 自定义.txt
 pause
 start %windir%\notepad.exe 自定义.txt
@@ -599,7 +564,7 @@ echo 确定要使用自定义的IE不信任网址数据？
 pause
 echo       正在添加恶意网址到浏览器非安全区域。
 echo       这个过程需要几分钟，请稍候……
-set DMAIN=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
+set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
 for /F %%a in (自定义.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
 echo       添加完毕……
 pause
@@ -628,6 +593,65 @@ ipseccmd -w reg -p ipsec:1 -r filterlist -f %list% -n BLOCK -x >nul
 ipseccmd  -w REG -p "ipsec" -x >nul
 gpupdate >nul
 pause
+goto menu
+
+:sysfile
+wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/lib/cacls.exe
+wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/lib/ipseccmd.exe
+if not exist cacls.exe goto sysfile
+
+:clean 
+title 系统垃圾清除
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+echo.
+echo  正在清除系统垃圾文件，请稍等......
+echo.
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+echo.
+sfc /purgecache
+sfc /purgecache
+del /f /s /q %systemdrive%\*.tmp
+del /f /s /q %systemdrive%\*._mp
+del /f /s /q %systemdrive%\*.log
+del /f /s /q %systemdrive%\*.gid
+del /f /s /q %systemdrive%\*.chk
+del /f /s /q %systemdrive%\*.old
+del /f /s /q %systemdrive%\recycled\*.*
+del /f /s /q %windir%\*.bak
+del /f /s /q %windir%\*.log
+del /f /s /q %windir%\*.tmp
+del /f /s /q %windir%\prefetch\*.*
+rd /s /q %windir%\temp & md %windir%\temp
+rd /s /q %temp% & md %temp%
+del /f /q %userprofile%\recent\*.*
+del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
+del /f /s /q "%userprofile%\Local Settings\Temp\*.*"
+del /f /s /q "%userprofile%\recent\*.*"
+echo .系统垃圾清除完毕。
+cls
+goto menu
+
+:delit
+mode con cols=60 lines=20
+echo.
+echo 		  【 顽固文件/目录删除器 】
+echo 	           -----------------------
+echo.
+echo  专门快速删除那种不能打开、不能进入、不能删除的顽固目录。
+echo.
+echo 	注意：删除目录将同时删除其子目录中所有数据！
+echo.
+echo.
+set Choice=
+echo 	请将要删除的顽固目录直接拖入本窗口，然后回车:
+echo.
+set /p Choice=
+if ""%Choice%"" == "" goto menu
+echo y|Cacls ""%Choice%"" /c /t /p Everyone:f
+DEL /F /A /Q \\?\""%Choice%""
+RD /S /Q \\?\""%Choice%"" 
+echo.
+echo 	删除完成! 任意键返回……
 goto menu
 
 :iefix
@@ -682,63 +706,18 @@ echo .对IE组件修复，优化完毕。
 Pause.
 goto menu
 
-:clean 
-title 系统垃圾清除
-echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-echo.
-echo  正在清除系统垃圾文件，请稍等......
-echo.
-echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-echo.
-sfc /purgecache
-sfc /purgecache
-del /f /s /q %systemdrive%\*.tmp
-del /f /s /q %systemdrive%\*._mp
-del /f /s /q %systemdrive%\*.log
-del /f /s /q %systemdrive%\*.gid
-del /f /s /q %systemdrive%\*.chk
-del /f /s /q %systemdrive%\*.old
-del /f /s /q %systemdrive%\recycled\*.*
-del /f /s /q %windir%\*.bak
-del /f /s /q %windir%\*.log
-del /f /s /q %windir%\*.tmp
-del /f /s /q %windir%\prefetch\*.*
-rd /s /q %windir%\temp & md %windir%\temp
-rd /s /q %temp% & md %temp%
-del /f /q %userprofile%\recent\*.*
-del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
-del /f /s /q "%userprofile%\Local Settings\Temp\*.*"
-del /f /s /q "%userprofile%\recent\*.*"
-echo .系统垃圾清除完毕。
-cls
-goto menu
-
-:delwell
-mode con cols=60 lines=20
-echo.
-echo 		  【 顽固文件/目录删除器 】
-echo 	           -----------------------
-echo.
-echo  专门快速删除那种不能打开、不能进入、不能删除的顽固目录。
-echo.
-echo 	注意：删除目录将同时删除其子目录中所有数据！
-echo.
-echo.
-set Choice=
-echo 	请将要删除的顽固目录直接拖入本窗口，然后回车:
-echo.
-set /p Choice=
-if ""%Choice%"" == "" goto menu
-echo y|Cacls ""%Choice%"" /c /t /p Everyone:f
-DEL /F /A /Q \\?\""%Choice%""
-RD /S /Q \\?\""%Choice%"" 
-echo.
-echo 	删除完成! 任意键返回……
-goto menu
-
-:Cert
-certmgr.msc
-goto menu
+:find
+rem 获取系统Hosts路径
+for /f "tokens=2*" %%a in ('reg query "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DataBasePath" ^|findstr /i "DataBasePath"') do (
+	set "DataBasePath=%%b"
+)
+echo 当前系统的Hosts路径为：
+echo %DataBasePath%
+echo %DataBasePath%>>hostspath.txt
+pause
+start %windir%\notepad.exe %0
+start %windir%\notepad.exe %~dp0\hostspath.txt
+exit
 
 :color
 mode con cols=40 lines=18                                
@@ -778,6 +757,14 @@ set /p a=请输入背景的颜色代码:
 set /p b=请输入文字的颜色代码:
 color %a%%b%
 pause&goto menu
+
+:gdft
+if not exist down\rd.g call :datadown
+cd down\ >nul 2>nul
+copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
+copy hbhosts.txt %hosts%
+cd.. >nul 2>nul
+goto Perms
 
 :ver
 mode con cols=45 lines=15
