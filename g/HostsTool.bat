@@ -203,7 +203,7 @@ set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
 if /i "%all%"=="1" goto dft
 if /i "%all%"=="2" goto ipv6
-if /i "%all%"=="2" goto rd
+if /i "%all%"=="3" goto rd
 if /i "%all%"=="4" goto union
 if /i "%all%"=="5" goto site
 if /i "%all%"=="6" goto soft
@@ -231,8 +231,8 @@ echo 正在下载基础数据中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/Union.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Site.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Soft.g
-echo 数据下载中！&pause
-if not exist down\rd.g goto datadown
+mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"Hosts")(window.close)
+goto menu
 
 :ipv6
 echo 正在下载基础数据中，请稍候... ...
@@ -240,6 +240,11 @@ echo 正在下载基础数据中，请稍候... ...
 echo 数据下载中！&pause
 if not exist down\ipv6.txt goto ipv6 &echo 下载失败，重新下载！&pause
 copy down\ipv6.txt %hosts%
+goto Perms
+
+:rd
+if not exist down\rd.g call :datadown
+copy down\rd.g %hosts%
 goto Perms
 
 :union
