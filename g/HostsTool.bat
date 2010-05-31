@@ -253,9 +253,8 @@ copy down\HostsX.orzhosts %hosts%
 goto Perms
 
 :thanks
-echo 正在下载中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/Thanks.txt
-if exist Thanks.txt type Thanks.txt|more
+type down\Thanks.txt|more
 pause
 goto menu
 
