@@ -45,7 +45,9 @@ ff02::3 ip6-allhosts
 #DropBox
 174.36.30.71 www.dropbox.com
 #Xmarks
-64.147.188.86 www.xmarks.com static.xmarks.com download.xmarks.com my.xmarks.com
-64.147.188.92 api.xmarks.com
-64.147.188.89 login.xmarks.com
-64.147.188.87 sync.xmarks.com
+173.239.65.20 www.xmarks.com
+173.239.65.21 api.xmarks.com
+173.239.65.22 login.xmarks.com
+173.239.65.23 sync.xmarks.com
+173.239.65.20 static.xmarks.com download.xmarks.com
+64.147.188.86 my.xmarks.com

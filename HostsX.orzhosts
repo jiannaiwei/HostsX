@@ -1,4 +1,4 @@
-;version=201006011400
+;version=201006012050
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -65,12 +65,12 @@ ff02::3 ip6-allhosts
 #DropBox
 174.36.30.71 www.dropbox.com
 #Xmarks
-64.147.188.86 www.xmarks.com
-64.147.188.92 api.xmarks.com
-64.147.188.89 login.xmarks.com
-64.147.188.87 sync.xmarks.com
-64.147.188.86 static.xmarks.com
-64.147.188.86 download.xmarks.com
+173.239.65.20 www.xmarks.com
+173.239.65.21 api.xmarks.com
+173.239.65.22 login.xmarks.com
+173.239.65.23 sync.xmarks.com
+173.239.65.20 static.xmarks.com
+173.239.65.20 download.xmarks.com
 64.147.188.86 my.xmarks.com
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/海外网站
