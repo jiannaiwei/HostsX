@@ -219,6 +219,8 @@
 0.0.0.0 www.duote.com img.duote.com
 #P.cn
 0.0.0.0 search.p.cn www.p.cn
+#流氓导航
+0.0.0.0 www.6313.com
 
 @HostsX 网络广告过滤/弹出视频
 #CC视频

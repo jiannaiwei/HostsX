@@ -1,4 +1,4 @@
-;version=201005311500
+;version=201006011400
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1547,6 +1547,8 @@ ff02::3 ip6-allhosts
 #P.cn
 0.0.0.0 search.p.cn
 0.0.0.0 www.p.cn
+#流氓导航
+0.0.0.0 www.6313.com
 @HostsX 网络广告过滤/弹出视频
 #CC视频
 0.0.0.0 1.bokeccimg.com
