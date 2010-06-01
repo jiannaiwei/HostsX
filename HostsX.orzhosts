@@ -452,6 +452,7 @@ ff02::3 ip6-allhosts
 @HostsX 站点广告过滤/视频类网站
 #56
 0.0.0.0 acs.56.com
+0.0.0.0 acs.agent.56.com
 0.0.0.0 bill.agent.56.com
 0.0.0.0 union.56.com
 0.0.0.0 v16.56.com
@@ -1549,6 +1550,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.p.cn
 #流氓导航
 0.0.0.0 www.6313.com
+0.0.0.0 mcsd.qq437.cn
 @HostsX 网络广告过滤/弹出视频
 #CC视频
 0.0.0.0 1.bokeccimg.com

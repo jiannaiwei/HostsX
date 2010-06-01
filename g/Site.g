@@ -170,7 +170,7 @@
 
 @HostsX 站点广告过滤/视频类网站
 #56
-0.0.0.0 acs.56.com bill.agent.56.com union.56.com v16.56.com
+0.0.0.0 acs.56.com acs.agent.56.com bill.agent.56.com union.56.com v16.56.com
 #6间房
 0.0.0.0 simba.6.cn pole.6rooms.com shrek.6.cn
 #优酷
