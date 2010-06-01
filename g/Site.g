@@ -84,6 +84,8 @@
 0.0.0.0 info.yidaba.com static.yidaba.com
 #SNS论坛
 0.0.0.0 d.5d6d.com un.5d6d.com v3.apic.51.com union.daqi.com union.phpwind.com jj.topzj.com
+#VeryCD
+0.0.0.0 sponsor.verycd.com
 #博客推广
 0.0.0.0 ad2.bloggerads.net ads.wopus.org adv.blogupp.com pro.blogbus.com union.bolaa.com
 #购物推广
