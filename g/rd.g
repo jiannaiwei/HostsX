@@ -43,7 +43,11 @@ ff02::3 ip6-allhosts
 #Twitter
 128.242.240.52 twitter.com www.twitter.com
 #DropBox
+174.36.30.67 dropbox.com
 174.36.30.71 www.dropbox.com
+75.101.129.115 dl.dropbox.com
+75.101.159.151 dl-web.dropbox.com
+174.36.30.67 forums.dropbox.com
 #Xmarks
 173.239.65.20 www.xmarks.com
 173.239.65.21 api.xmarks.com
