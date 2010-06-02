@@ -1,4 +1,4 @@
-;version=201006021430
+;version=201006022020
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -498,6 +498,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.pomoho.com
 #Wo31电影
 0.0.0.0 wo318.k621.com
+#Tom365
+0.0.0.0 pic.66fzl.com
 #乐视网
 0.0.0.0 pro.letv.com
 @HostsX 站点广告过滤/财经类网站

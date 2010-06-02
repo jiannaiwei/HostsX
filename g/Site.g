@@ -190,6 +190,8 @@
 0.0.0.0 union.pomoho.com
 #Wo31µÁ”∞
 0.0.0.0 wo318.k621.com
+#Tom365
+0.0.0.0 pic.66fzl.com
 #¿÷ ”Õ¯
 0.0.0.0 pro.letv.com
 
