@@ -8,7 +8,7 @@
 #Comodo UserTrust
 0.0.0.0 www.comodogroup.com www.usertrust.com crl.usertrust.com
 #金山毒霸
-0.0.0.0 bo.duba.net cu004.www.duba.net i2c.duba.net ifr.duba.net info.duba.net u.www.duba.net
+0.0.0.0 bo.duba.net cu001.www.duba.net cu002.www.duba.net cu003.www.duba.net cu004.www.duba.net i2c.duba.net ifr.duba.net info.duba.net u.www.duba.net
 #ZALabs
 0.0.0.0 cm2.zonelabs.com hs2.zonelabs.com ls2.zonelabs.com pa2.zonelabs.com ps2.zonelabs.com register.zonelabs.com update.zonelabs.com
 
@@ -24,7 +24,8 @@
 #腾讯QQ
 0.0.0.0 2052.flash2-http.qq.com adping.qq.com adsclick.qq.com adsfile.qq.com adshmct.qq.com adslvseed.qq.com httpring.qq.com isdspeed.qq.com minisite2009.qq.com
 0.0.0.0 qqlogo.qq.com show-msgch.qq.com c.l.qq.com hm.l.qq.com l.qq.com p.l.qq.com w.l.qq.com f.qstatic.com fodder.qq.com
-0.0.0.0 fw.qq.com pingfore.qq.com trace.qq.com dr.soso.com pingfore.soso.com v3.toolbar.soso.com toolbar.soso.com
+0.0.0.0 fw.qq.com pingfore.qq.com scdown.qq.com trace.qq.com
+0.0.0.0 dr.soso.com pingfore.soso.com v3.toolbar.soso.com toolbar.soso.com
 
 @HostsX 软件广告过滤/媒体播放
 #PPTV（PPVA）
@@ -129,5 +130,7 @@
 0.0.0.0	update.pctutu.net
 #搜狗拼音
 0.0.0.0	files2.sogou.com ime.sogou.com config.pinyin.sogou.com info.pinyin.sogou.com ping.pinyin.sogou.com st.pinyin.sogou.com pinyin.sogou.com
+#金山词霸
+0.0.0.0 goto.www.iciba.com u.iciba.com u.sl.iciba.com
 #光影魔术手
 0.0.0.0 ad.neoimaging.cn clientconfig.neoimaging.cn gift.neoimaging.cn jump.neoimaging.cn recommend.neoimaging.cn

@@ -11,6 +11,8 @@
 0.0.0.0 pindao.huoban.taobao.com s.click.taobao.com search8.taobao.com
 0.0.0.0 adtaobao.allyes.cn taobaoafp.allyes.cn taobaoafp.allyes.com
 0.0.0.0 img.alimama.cn
+#金山在线
+0.0.0.0 db.union.download.kingsoft.com stat.sp.kingsoft.com union.jx2.kingsoft.com union.kingsoft.com union.wps.kingsoft.com
 #搜狗
 0.0.0.0 a1click.cpc.sogou.com adsence.sogou.com alpha.brand.sogou.com cpc.sogou.com fair.sogou.com goto.sogou.com images.brand.sogou.com inte.sogou.com lk.brand.sogou.com
 0.0.0.0 pb.sogou.com pbd.sogou.com ping.ie.sogou.com pv.sogou.com union.sogou.com wb.brand.sogou.com

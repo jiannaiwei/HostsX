@@ -115,8 +115,6 @@
 0.0.0.0 apic.xiyuit.com
 #万维家电
 0.0.0.0 pic.ea3w.com
-#金山在线
-0.0.0.0 goto.www.iciba.com u.iciba.com u.sl.iciba.com db.union.download.kingsoft.com union.jx2.kingsoft.com union.kingsoft.com union.wps.kingsoft.com
 #CSDN
 0.0.0.0 counter.csdn.net z.csdn.net zi.csdn.net
 #DoNews

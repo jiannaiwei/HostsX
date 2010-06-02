@@ -1,4 +1,4 @@
-;version=201006022020
+;version=201006022030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -371,14 +371,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 apic.xiyuit.com
 #万维家电
 0.0.0.0 pic.ea3w.com
-#金山在线
-0.0.0.0 goto.www.iciba.com
-0.0.0.0 u.iciba.com
-0.0.0.0 u.sl.iciba.com
-0.0.0.0 db.union.download.kingsoft.com
-0.0.0.0 union.jx2.kingsoft.com
-0.0.0.0 union.kingsoft.com
-0.0.0.0 union.wps.kingsoft.com
 #CSDN
 0.0.0.0 counter.csdn.net
 0.0.0.0 z.csdn.net
@@ -631,6 +623,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
+#金山在线
+0.0.0.0 db.union.download.kingsoft.com
+0.0.0.0 stat.sp.kingsoft.com
+0.0.0.0 union.jx2.kingsoft.com
+0.0.0.0 union.kingsoft.com
+0.0.0.0 union.wps.kingsoft.com
 #搜狗
 0.0.0.0 a1click.cpc.sogou.com
 0.0.0.0 adsence.sogou.com
@@ -1758,6 +1756,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 crl.usertrust.com
 #金山毒霸
 0.0.0.0 bo.duba.net
+0.0.0.0 cu001.www.duba.net
+0.0.0.0 cu002.www.duba.net
+0.0.0.0 cu003.www.duba.net
 0.0.0.0 cu004.www.duba.net
 0.0.0.0 i2c.duba.net
 0.0.0.0 ifr.duba.net
@@ -1810,6 +1811,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fodder.qq.com
 0.0.0.0 fw.qq.com
 0.0.0.0 pingfore.qq.com
+0.0.0.0 scdown.qq.com
 0.0.0.0 trace.qq.com
 0.0.0.0 dr.soso.com
 0.0.0.0 pingfore.soso.com
@@ -2096,6 +2098,10 @@ ff02::3 ip6-allhosts
 0.0.0.0	tj.pctutu.net
 0.0.0.0	update.pctutu.com
 0.0.0.0	update.pctutu.net
+#金山词霸
+0.0.0.0 goto.www.iciba.com
+0.0.0.0 u.iciba.com
+0.0.0.0 u.sl.iciba.com
 #搜狗拼音
 0.0.0.0	files2.sogou.com
 0.0.0.0	ime.sogou.com
