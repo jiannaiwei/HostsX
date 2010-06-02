@@ -215,7 +215,7 @@
 #39健康网
 0.0.0.0 app-g.39.net dpvc.39.net dy.39.net 39net.datamaster.com.cn
 #搜房网
-0.0.0.0 clickn.soufun.com flas.soufun.com imgd.soufun.com imgdn.soufun.com show.soufun.com shows1.soufun.com
+0.0.0.0 clickn.soufun.com flas.soufun.com imgd.soufun.com imgdn.soufun.com show.soufun.com shows.soufun.com shows1.soufun.com
 
 @HostsX 站点广告过滤/新闻类网站
 #凤凰网

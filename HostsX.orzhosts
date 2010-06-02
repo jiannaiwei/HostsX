@@ -1,4 +1,4 @@
-;version=201006022030
+;version=201006022130
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -539,6 +539,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 imgd.soufun.com
 0.0.0.0 imgdn.soufun.com
 0.0.0.0 show.soufun.com
+0.0.0.0 shows.soufun.com
 0.0.0.0 shows1.soufun.com
 @HostsX 站点广告过滤/新闻类网站
 #凤凰网
