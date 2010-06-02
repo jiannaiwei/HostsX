@@ -1,4 +1,4 @@
-;version=201006022130
+;version=201006022200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -475,10 +475,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.tudou.com
 0.0.0.0 stats.tudou.com
 #酷6
+0.0.0.0 1.allyes.com.cn
 0.0.0.0 analytics.ku6.com
 0.0.0.0 stat1.888.ku6.com
 0.0.0.0 stat2.888.ku6.com
 0.0.0.0 stat3.888.ku6.com
+0.0.0.0 ku6afp.allyes.com
 #激动网
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86get.joy.cn

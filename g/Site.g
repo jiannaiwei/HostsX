@@ -178,7 +178,7 @@
 #土豆
 0.0.0.0 adextensioncontrol.tudou.com adplay.tudou.com iwstat.tudou.com nstat.tudou.com stat.tudou.com stats.tudou.com adcontrol.tudou.com
 #酷6
-0.0.0.0 analytics.ku6.com stat1.888.ku6.com stat2.888.ku6.com stat3.888.ku6.com
+0.0.0.0 1.allyes.com.cn analytics.ku6.com stat1.888.ku6.com stat2.888.ku6.com stat3.888.ku6.com ku6afp.allyes.com
 #激动网
 0.0.0.0 86file.megajoy.com 86get.joy.cn 86log.joy.cn
 #天线视频
