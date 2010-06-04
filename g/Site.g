@@ -62,7 +62,7 @@
 0.0.0.0 gg.mop.com in.dg.mop.com in.h.mop.com in.sg.mop.com in.sh.mop.com ovsmbt.mop.com p4pad.mop.com pub.mop.com stat.ent.mop.com
 0.0.0.0 tj.itv.mop.com tj.mop.com tj.pet.mop.com union.mop.com yx.mop.com
 #人人
-0.0.0.0 click.jebe.renren.com cupid.jebe.renren.com dian.cupid.jebe.renren.com shaft.jebe.renren.com jebe.renren.com jebe.xnimg.cn
+0.0.0.0 c.renren.com click.jebe.renren.com cupid.jebe.renren.com dian.cupid.jebe.renren.com gamestat.renren.com jebe.renren.com jebe.xnimg.cn shaft.jebe.renren.com
 #西祠胡同
 0.0.0.0 ad.xici.net afpxici.allyes.com xiciafp.allyes.com
 #奇虎社区
@@ -96,7 +96,7 @@
 0.0.0.0 adm.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
 0.0.0.0 pic.zol-img.com.cn
 #电脑之家
-0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net stat.pchome.net
+0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net stat.pchome.net
 #泡泡网
 0.0.0.0 33.pcpop.com count.pcpop.com
 #太平洋
@@ -123,6 +123,8 @@
 0.0.0.0 trace.enet.com.cn enet4.enet.com.cn
 #It168
 0.0.0.0 adshow.it168.com 168.it168.com
+#Brsbox
+0.0.0.0 r.brsbox.com
 #RayFile
 0.0.0.0 img.rayfile.com raya.rayfile.com w105.rayfile.com
 

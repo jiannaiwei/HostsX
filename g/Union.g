@@ -37,7 +37,8 @@
 @HostsX 网络广告过滤/国外广告
 #国外常见广告
 0.0.0.0 ad.adtegrity.net adtech.panthercustomer.com as.casalemedia.com content.pulse360.com counters.gigya.com d.cyberdefender.com marketing.xineurope.com pub.softonic.cn s3.buysellads.com
-0.0.0.0 servedby.adsfactor.cn sharefoco.com static.addtoany.com static02.linkedin.com stats.edgevertising.net statse.webtrendslive.com track.effiliation.asia www.adlinkmedia.net
+0.0.0.0 secure.webhostingpad.com servedby.adsfactor.cn sharefoco.com static.addtoany.com static.fotolia.com static02.linkedin.com stats.edgevertising.net statse.webtrendslive.com track.effiliation.asia
+0.0.0.0 www.adlinkmedia.net
 #Adbrite
 0.0.0.0 4.adbrite.com b1.adbrite.com click.adbrite.com files.adbrite.com mga01.adbrite.com mga02.adbrite.com www.adbrite.com
 #ADPlan
@@ -222,7 +223,7 @@
 #P.cn
 0.0.0.0 search.p.cn www.p.cn
 #流氓导航
-0.0.0.0 www.6313.com mcsd.qq437.cn
+0.0.0.0 download.duozz.com mcsd.qq437.cn pv.chapm.com www.168un.com www.6313.com
 
 @HostsX 网络广告过滤/弹出视频
 #CC视频
@@ -309,7 +310,7 @@
 #捷酷
 0.0.0.0 do.jieku.com files.jieku.com
 #九赢
-0.0.0.0 www1.9v.cn v.cpp9v.cn vv.9vcpc.cn v1.9vcpc.cn
+0.0.0.0 f.9vcpm.cn v.9vcpc.cn v.cpp9v.cn v1.9vcpc.cn vv.9vcpc.cn www.9v.cn www1.9v.cn www1.9vad.com
 #猫猫
 0.0.0.0 www.maomao8.com
 #梦想广告
