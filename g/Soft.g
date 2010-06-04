@@ -64,11 +64,13 @@
 @HostsX 软件广告过滤/验证屏蔽
 #ACDSee
 0.0.0.0	acdupdater.acdsystems.com soapintouch.acdnet.com
-#Aignes（WebSite-Watcher）
-0.0.0.0 aignes.com aignes.net aignes.info www.aignes.com www.aignes.net www.aignes.info
 #Adobe
 0.0.0.0 3dns-2.adobe.com 3dns-3.adobe.com activate-sea.adobe.com activate-sjc0.adobe.com activate.adobe.com adobe-dns-2.adobe.com adobe-dns-3.adobe.com adobe-dns.adobe.com ereg.adobe.com
 0.0.0.0 ns.adobe.com practivate.adobe.com wip3.adobe.com wwis-dubc1-vip60.adobe.com www.adobeereg.com
+#Aignes（WebSite-Watcher）
+0.0.0.0 aignes.com aignes.net aignes.info www.aignes.com www.aignes.net www.aignes.info
+#Alcohol
+0.0.0.0 forum.alcohol-soft.com images.alcohol-soft.com serial.alcohol-soft.com shop.alcohol-soft.com support.alcohol-soft.com trial.alcohol-soft.com users.alcohol-soft.com vodka.alcohol-soft.com www.alcohol-soft.com
 #Ashampoo
 0.0.0.0	licenses.ashampoo.com
 #CuteFTP

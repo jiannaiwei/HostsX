@@ -1,4 +1,4 @@
-;version=201006042330
+;version=201006050000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1952,13 +1952,6 @@ ff02::3 ip6-allhosts
 #ACDSee
 0.0.0.0	acdupdater.acdsystems.com
 0.0.0.0	soapintouch.acdnet.com
-#Aignes（WebSite-Watcher）
-0.0.0.0 aignes.com
-0.0.0.0 aignes.net
-0.0.0.0 aignes.info
-0.0.0.0 www.aignes.com
-0.0.0.0 www.aignes.net
-0.0.0.0 www.aignes.info
 #Adobe
 0.0.0.0 3dns-2.adobe.com
 0.0.0.0 3dns-3.adobe.com
@@ -1974,6 +1967,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 wip3.adobe.com
 0.0.0.0 wwis-dubc1-vip60.adobe.com
 0.0.0.0 www.adobeereg.com
+#Aignes（WebSite-Watcher）
+0.0.0.0 aignes.com
+0.0.0.0 aignes.net
+0.0.0.0 aignes.info
+0.0.0.0 www.aignes.com
+0.0.0.0 www.aignes.net
+0.0.0.0 www.aignes.info
+#Alcohol
+0.0.0.0 forum.alcohol-soft.com
+0.0.0.0 images.alcohol-soft.com
+0.0.0.0 serial.alcohol-soft.com
+0.0.0.0 shop.alcohol-soft.com
+0.0.0.0 support.alcohol-soft.com
+0.0.0.0 trial.alcohol-soft.com
+0.0.0.0 users.alcohol-soft.com
+0.0.0.0 vodka.alcohol-soft.com
+0.0.0.0 www.alcohol-soft.com
 #Ashampoo
 0.0.0.0	licenses.ashampoo.com
 #CuteFTP
