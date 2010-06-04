@@ -1,4 +1,4 @@
-;version=201006050000
+;version=201006050200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -386,8 +386,6 @@ ff02::3 ip6-allhosts
 #It168
 0.0.0.0 adshow.it168.com
 0.0.0.0 168.it168.com
-#Brsbox
-0.0.0.0 r.brsbox.com
 #RayFile
 0.0.0.0 img.rayfile.com
 0.0.0.0 raya.rayfile.com

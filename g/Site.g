@@ -123,8 +123,6 @@
 0.0.0.0 trace.enet.com.cn enet4.enet.com.cn
 #It168
 0.0.0.0 adshow.it168.com 168.it168.com
-#Brsbox
-0.0.0.0 r.brsbox.com
 #RayFile
 0.0.0.0 img.rayfile.com raya.rayfile.com w105.rayfile.com
 
