@@ -24,7 +24,7 @@
 #大陆常见广告
 0.0.0.0 1188s.info 26939.icpun.com 888.cn 888888fa.com 98712.com a.dlqm.net action.utops.cc
 0.0.0.0 ad.adition.net ad.linksynergy.com adclk.thinkmedia.cn adcount.moliyo.com adserving.cpxinteractive.com amps.yoyi.com.cn api.flash45.com ato.geci.cn c.999d.com
-0.0.0.0 click.admaster.com.cn click.linksynergy.com click.mediav.com clk.abang.com cnt.zhaopin.com code.51link.com cpc.haowzz.com.cn dir.ejoina.com freeadp.tensynad.com
+0.0.0.0 click.admaster.com.cn click.linksynergy.com clk.abang.com cnt.zhaopin.com code.51link.com cpc.haowzz.com.cn dir.ejoina.com freeadp.tensynad.com
 0.0.0.0 fx.v1kk.com gfyoyo.com.cn ht.hao120.cc ht.sooe.cn hz.mmstat.com idea.t2click.com image.tazhao.com img.8977.com img38.my1188.info
 0.0.0.0 javascript.nwbox.com lailea.info m.ttgrs.cn mydh.info nonoyx.com p.3gm.com.cn parking.8d.cn pic837013.images9999.com plus.txwm.com
 0.0.0.0 qqhdx.cn redirect.jooov.cn sales.woyo.com search.ok365.com so.mingsou.com static.u966.com u.30so.com ucjoy.com
@@ -168,6 +168,9 @@
 0.0.0.0 a.buzz-time.com.cn ad.buzz-time.com.cn
 #iTop
 0.0.0.0 d.itopnetworks.com itopnetworks.com s.itopnetworks.com
+#Mediav
+0.0.0.0 click.mediav.com
+0.0.0.0 static.mediav.com
 #黑马
 0.0.0.0 c.heima8.com pc.heima8.com u.heima8.com www.heima8.com
 #脉动

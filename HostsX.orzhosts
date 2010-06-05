@@ -1,4 +1,4 @@
-;version=201006052350
+;version=201006060000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -697,7 +697,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.999d.com
 0.0.0.0 click.admaster.com.cn
 0.0.0.0 click.linksynergy.com
-0.0.0.0 click.mediav.com
 0.0.0.0 clk.abang.com
 0.0.0.0 cnt.zhaopin.com
 0.0.0.0 code.51link.com
@@ -1410,6 +1409,9 @@ ff02::3 ip6-allhosts
 #buzz-time
 0.0.0.0 a.buzz-time.com.cn
 0.0.0.0 ad.buzz-time.com.cn
+#Mediav
+0.0.0.0 click.mediav.com
+0.0.0.0 static.mediav.com
 #iTop
 0.0.0.0 d.itopnetworks.com
 0.0.0.0 itopnetworks.com
