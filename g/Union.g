@@ -169,8 +169,7 @@
 #iTop
 0.0.0.0 d.itopnetworks.com itopnetworks.com s.itopnetworks.com
 #Mediav
-0.0.0.0 click.mediav.com
-0.0.0.0 static.mediav.com
+0.0.0.0 click.mediav.com static.mediav.com
 #ºÚÂí
 0.0.0.0 c.heima8.com pc.heima8.com u.heima8.com www.heima8.com
 #Âö¶¯
