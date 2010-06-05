@@ -1,4 +1,4 @@
-;version=201006050200
+;version=201006052350
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -326,6 +326,7 @@ ff02::3 ip6-allhosts
 #购物推广
 0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 union.360buy.com
+0.0.0.0 click.union.360buy.com
 0.0.0.0 union.dangdang.com
 0.0.0.0 union.vancl.com
 0.0.0.0 www.133i.com
