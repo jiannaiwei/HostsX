@@ -212,8 +212,8 @@
 0.0.0.0 hyimg.cn op.hyimg.cn
 @HostsX 网络广告过滤/流氓类网站
 #电信劫持
-0.0.0.0 114.allyes.com 114.com.cn 114search.118114.cn 118114.cn partner.114.com.cn search.114.vnet.cn so.118114.cn union.114.com.cn
-0.0.0.0 dianxin.cn dianxin.com www.dianxin.cn
+0.0.0.0 114.allyes.com 114.com.cn 114search.118114.cn 118114.cn partner.114.com.cn search.114.vnet.cn so.118114.cn s.114.com.cn
+0.0.0.0 union.114.com.cn dianxin.cn dianxin.com www.dianxin.cn
 #各地电信广告
 0.0.0.0 ad.online.cq.cn ad.xunkoo.com ads.iisdoor.com hot.apinpai.com
 #联通劫持

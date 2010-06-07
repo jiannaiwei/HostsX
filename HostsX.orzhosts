@@ -1,4 +1,4 @@
-;version=201006060000
+;version=201006071350
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1541,6 +1541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 partner.114.com.cn
 0.0.0.0 search.114.vnet.cn
 0.0.0.0 so.118114.cn
+0.0.0.0 s.114.com.cn
 0.0.0.0 union.114.com.cn
 0.0.0.0 dianxin.cn
 0.0.0.0 dianxin.com
