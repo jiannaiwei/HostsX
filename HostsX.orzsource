@@ -1,9 +1,6 @@
-;version=2010060100
+;version=2010060700
 -
 广告联盟增强版 （配合HostsX数据使用）`http://hostsx.googlecode.com/svn/trunk/UnionPlus.txt
--
-严格过滤版Hosts（配合HostsX数据使用）`http://hostsx.googlecode.com/svn/trunk/Strict.txt
-注意：此Hosts可能会导致部分网站或者软件功能缺失！！！
 -
 IPV6版智能转向数据`http://hostsx.googlecode.com/svn/trunk/ipv6.txt
 -
