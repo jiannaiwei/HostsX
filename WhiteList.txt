@@ -1,8 +1,20 @@
-97xxoo.com
+2010-06-07：
+
+功能影响：
+Google Api（灵格斯词霸等）：
 ajax.googleapis.com
-bt.ktxp.com
+百度图片：
 hiphotos.baidu.com
+WebQQ登录：
+pingjs.qq.com
+驱动之家（评论条数显示）：
+11.mydrivers.com
+
+网站误杀：
+www.in9.cn
+bt.ktxp.com
+
+网友建议保留：
+97xxoo.com
 www.18p2p.com
 www.97xxoo.com
-www.in9.cn
-pingjs.qq.com
