@@ -127,6 +127,8 @@
 0.0.0.0 www.voiceemotion.com
 #Wlxtq
 0.0.0.0 www.wlxtq.com
+#云端
+0.0.0.0 update.yunduan.cn
 #超级兔子系列
 0.0.0.0	info.klplayer.com update.klplayer.com info.pcpc8.com info.pctutu.net link.pctutu.com m.pcpc8.com srtj.pctutu.net tj.pctutu.net update.pctutu.com
 0.0.0.0	update.pctutu.net
