@@ -45,7 +45,7 @@ rem 解除Hosts只读属性，权限限制
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls
-title Hosts 小工具 3.X alpha
+title Hosts 小工具
 echo ■───────────────────────────────── ■
 echo.■   1.Hosts文件调整       2.Acrylic+ 调整       3.工具自动更新      ■
 echo ■───────────────────────────────── ■
