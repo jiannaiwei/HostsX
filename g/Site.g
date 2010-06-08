@@ -98,7 +98,7 @@
 #电脑之家
 0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net stat.pchome.net
 #泡泡网
-0.0.0.0 33.pcpop.com count.pcpop.com
+0.0.0.0 33.pcpop.com ashow.pcpop.com count.pcpop.com
 #太平洋
 0.0.0.0 adv.pconline.com.cn count5.pconline.com.cn imgad1.3conline.com imgad2.3conline.com ivy.pconline.com.cn
 #小熊在线
