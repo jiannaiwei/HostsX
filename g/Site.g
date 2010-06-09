@@ -50,9 +50,8 @@
 #雅虎中国
 0.0.0.0 js.tongji.yahoo.com.cn js.tongji.cn.yahoo.com api.ads.vip.cnh.yahoo.com cm.p4p.cn.yahoo.com cn.adserver.yahoo.com cn.promo.yahoo.com cn.rd.yahoo.com new.rd.cn.yahoo.com union.yahoo.com.cn
 #搜狐
-0.0.0.0 adclick.bai.sohu.com cpc.sohu.com doc.go.sohu.com images.sohu.com imp.ad-plus.cn ip.cms.sohu.com partner.search.sohu.com pv.sohu.com scalink.sohu.com
+0.0.0.0 adclick.bai.sohu.com cpc.sohu.com doc.go.sohu.com imp.ad-plus.cn ip.cms.sohu.com partner.search.sohu.com pv.sohu.com scalink.sohu.com
 0.0.0.0 suvset.sohu.com txt.go.sohu.com
-0.0.0.0 images.sohu.com
 0.0.0.0 sohu.ad-plus.cn u.ad-plus.cn sohusc.allyes.com
 
 @HostsX 站点广告过滤/社区类网站

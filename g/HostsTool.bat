@@ -540,6 +540,7 @@ echo adcontrol.tudou.com>>1.txt
 echo cpro.baidu.com>>1.txt
 echo drmcmm.baidu.com>>1.txt
 echo pro.letv.com>>1.txt
+echo images.sohu.com>>1.txt
 echo *.atm.youku.com>>1.txt
 echo *.jebe.renren.com>>1.txt
 echo *.sandai.net>>1.txt
@@ -759,8 +760,8 @@ goto Perms
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.62 Freeware Version
-echo Date:       2010.06.06
+echo Version:    1.63 Freeware Version
+echo Date:       2010.06.10
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
 mshta vbscript:createobject("sapi.spvoice").speak("Thank U for using and Enjoy it!")(window.close)
