@@ -53,7 +53,7 @@
 #¿áÎÒ
 0.0.0.0 g.koowo.com g.kuwo.cn wa.kuwo.cn wa.koowo.com
 #¿á¹·
-0.0.0.0 links.kugoo.com mkg.kugou.com myonline.kugou.com sdn.kugoo.com softstat.kugou.com
+0.0.0.0 links.kugoo.com mkg.kugou.com myonline.kugou.com sdn.kugoo.com softstat.kugou.com yx.kugou.com
 #Ç§Ç§¾²Ìı
 0.0.0.0 ads.qianqian.com p2plog.qianqian.com ttads.ttplayer.com ttmsg.qianqian.com ttpack.qianqian.com ttplayer.qianqian.com
 #·çĞĞ

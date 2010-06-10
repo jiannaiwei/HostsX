@@ -1,4 +1,4 @@
-;version=201006101520
+;version=201006101900
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1941,6 +1941,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 myonline.kugou.com
 0.0.0.0 sdn.kugoo.com
 0.0.0.0 softstat.kugou.com
+0.0.0.0 yx.kugou.com
 #千千静听
 0.0.0.0 ads.qianqian.com
 0.0.0.0 p2plog.qianqian.com
