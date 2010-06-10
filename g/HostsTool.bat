@@ -545,6 +545,7 @@ echo *.atm.youku.com>>1.txt
 echo *.jebe.renren.com>>1.txt
 echo *.sandai.net>>1.txt
 echo *.mediav.com>>1.txt
+echo *.alimama.cn>>1.txt
 copy /b 1.txt+down\noie.txt 自定义.txt
 pause
 start %windir%\notepad.exe 自定义.txt

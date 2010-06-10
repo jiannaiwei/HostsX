@@ -1,4 +1,4 @@
-;version=201006100030
+;version=201006101500
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -215,15 +215,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 cpc.sohu.com
 0.0.0.0 doc.go.sohu.com
-0.0.0.0 imp.ad-plus.cn
+0.0.0.0 images.sohu.com
 0.0.0.0 ip.cms.sohu.com
 0.0.0.0 partner.search.sohu.com
 0.0.0.0 pv.sohu.com
 0.0.0.0 scalink.sohu.com
-0.0.0.0 sohu.ad-plus.cn
-0.0.0.0 sohusc.allyes.com
 0.0.0.0 suvset.sohu.com
 0.0.0.0 txt.go.sohu.com
+0.0.0.0 sohusc.allyes.com
+0.0.0.0 imp.ad-plus.cn
+0.0.0.0 sohu.ad-plus.cn
 0.0.0.0 u.ad-plus.cn
 @HostsX 站点广告过滤/社区类网站
 #天涯
