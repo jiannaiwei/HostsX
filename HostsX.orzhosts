@@ -1,4 +1,4 @@
-;version=201006101900
+;version=201006111330
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -482,6 +482,7 @@ ff02::3 ip6-allhosts
 #酷6
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 analytics.ku6.com
+0.0.0.0 stat0.888.ku6.com
 0.0.0.0 stat1.888.ku6.com
 0.0.0.0 stat2.888.ku6.com
 0.0.0.0 stat3.888.ku6.com
