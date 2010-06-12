@@ -1,4 +1,4 @@
-;version=201006111330
+;version=201006122200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1985,6 +1985,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.aignes.com
 0.0.0.0 www.aignes.net
 0.0.0.0 www.aignes.info
+#AnyDVD
+0.0.0.0 ev1slysoft.com
+0.0.0.0 h3.slysoft.com
+0.0.0.0 iw2.slysoft.com
+0.0.0.0 sb2slysoft.com
+0.0.0.0 slysoft.com
+0.0.0.0 update.slysoft.com
+0.0.0.0 ns6.gandi.net
+0.0.0.0 reverse.privatedns.com
 #Alcohol
 0.0.0.0 forum.alcohol-soft.com
 0.0.0.0 images.alcohol-soft.com

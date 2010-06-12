@@ -69,6 +69,8 @@
 0.0.0.0 ns.adobe.com practivate.adobe.com wip3.adobe.com wwis-dubc1-vip60.adobe.com www.adobeereg.com
 #Aignes£¨WebSite-Watcher£©
 0.0.0.0 aignes.com aignes.net aignes.info www.aignes.com www.aignes.net www.aignes.info
+#AnyDVD
+0.0.0.0 ev1slysoft.com h3.slysoft.com iw2.slysoft.com sb2slysoft.com slysoft.com update.slysoft.com ns6.gandi.net reverse.privatedns.com
 #Alcohol
 0.0.0.0 forum.alcohol-soft.com images.alcohol-soft.com serial.alcohol-soft.com shop.alcohol-soft.com support.alcohol-soft.com trial.alcohol-soft.com users.alcohol-soft.com vodka.alcohol-soft.com www.alcohol-soft.com
 #Ashampoo
