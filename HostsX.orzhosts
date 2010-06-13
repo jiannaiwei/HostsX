@@ -1,4 +1,4 @@
-;version=201006122200
+;version=201006130900
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1791,6 +1791,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ifr.duba.net
 0.0.0.0 info.duba.net
 0.0.0.0 u.www.duba.net
+#Rising
+0.0.0.0	union.rising.com.cn
 #ZALabs
 0.0.0.0 cm2.zonelabs.com
 0.0.0.0 hs2.zonelabs.com
@@ -2071,7 +2073,6 @@ ff02::3 ip6-allhosts
 0.0.0.0	mangler10.generals.ea.com
 0.0.0.0	servserv.generals.ea.com
 @HostsX 软件广告过滤/推广下载
-0.0.0.0	union.rising.com.cn
 0.0.0.0	zcomcdl.zcominc.com
 0.0.0.0 me.youheme.com
 #快车
@@ -2125,6 +2126,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 mobile.isoshu.com
 0.0.0.0 mobile1.isoshu.com
 0.0.0.0 pub.isoshu.com
+#iSeesoft
+0.0.0.0 msg.iseesoft.cn
+0.0.0.0 p.iseeclan.com
+0.0.0.0 stat.iseeclan.com
 #Maxthon
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 stat.maxthon.com
@@ -2132,8 +2137,6 @@ ff02::3 ip6-allhosts
 0.0.0.0	statcn-c.maxthon.com
 #SmartRecorder
 0.0.0.0 www.voiceemotion.com
-#Wlxtq
-0.0.0.0 www.wlxtq.com
 #云端
 0.0.0.0 update.yunduan.cn
 #超级兔子系列
@@ -2161,6 +2164,5 @@ ff02::3 ip6-allhosts
 #光影魔术手
 0.0.0.0 ad.neoimaging.cn
 0.0.0.0 clientconfig.neoimaging.cn
-0.0.0.0 gift.neoimaging.cn
 0.0.0.0 jump.neoimaging.cn
 0.0.0.0 recommend.neoimaging.cn

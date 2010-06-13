@@ -9,6 +9,8 @@
 0.0.0.0 www.comodogroup.com www.usertrust.com crl.usertrust.com
 #金山毒霸
 0.0.0.0 bo.duba.net cu001.www.duba.net cu002.www.duba.net cu003.www.duba.net cu004.www.duba.net i2c.duba.net ifr.duba.net info.duba.net u.www.duba.net
+#Rising
+0.0.0.0	union.rising.com.cn
 #ZALabs
 0.0.0.0 cm2.zonelabs.com hs2.zonelabs.com ls2.zonelabs.com pa2.zonelabs.com ps2.zonelabs.com register.zonelabs.com update.zonelabs.com
 
@@ -110,7 +112,7 @@
 0.0.0.0	mangler10.generals.ea.com servserv.generals.ea.com
 
 @HostsX 软件广告过滤/推广下载
-0.0.0.0	union.rising.com.cn zcomcdl.zcominc.com me.youheme.com
+0.0.0.0 zcomcdl.zcominc.com me.youheme.com
 #快车
 0.0.0.0	bc.kuaiche.com cimg.kuaiche.com	directui.kuaiche.com.showq.net ufile.kuaiche.com dll.flashget.com fetch.flashget.com ggstat.flashget.com olstat.flashget.com stat.flashget.com
 #迅雷系列
@@ -123,12 +125,12 @@
 @HostsX 软件广告过滤/其他类
 #eReader
 0.0.0.0 bookbar.isoshu.com down.isoshu.com happyfarm.isoshu.com mobile.isoshu.com mobile1.isoshu.com pub.isoshu.com
+#iSeesoft
+0.0.0.0 msg.iseesoft.cn p.iseeclan.com stat.iseeclan.com
 #Maxthon
 0.0.0.0 mk.maxthon.cn stat.maxthon.com stat-w.maxthon.com statcn-c.maxthon.com
 #SmartRecorder
 0.0.0.0 www.voiceemotion.com
-#Wlxtq
-0.0.0.0 www.wlxtq.com
 #云端
 0.0.0.0 update.yunduan.cn
 #超级兔子系列
@@ -139,4 +141,4 @@
 #金山词霸
 0.0.0.0 goto.www.iciba.com u.iciba.com u.sl.iciba.com
 #光影魔术手
-0.0.0.0 ad.neoimaging.cn clientconfig.neoimaging.cn gift.neoimaging.cn jump.neoimaging.cn recommend.neoimaging.cn
+0.0.0.0 ad.neoimaging.cn clientconfig.neoimaging.cn jump.neoimaging.cn recommend.neoimaging.cn
