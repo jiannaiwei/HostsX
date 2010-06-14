@@ -1,4 +1,4 @@
-;version=201006141850
+;version=201006142000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1765,16 +1765,6 @@ ff02::3 ip6-allhosts
 #淘小宝
 0.0.0.0 www13.tx8.cn
 0.0.0.0 www23.tx8.cn
-#随意贴
-0.0.0.0 v1.freep.cn
-0.0.0.0 v2.freep.cn
-0.0.0.0 v3.freep.cn
-0.0.0.0 v4.freep.cn
-0.0.0.0 v5.freep.cn
-0.0.0.0 v6.freep.cn
-0.0.0.0 v7.freep.cn
-0.0.0.0 v8.freep.cn
-0.0.0.0 v9.freep.cn
 #推告
 0.0.0.0 js.tuigoo.com
 #网元
