@@ -326,7 +326,7 @@
 #速影
 0.0.0.0 c.sfilm.com
 #淘小宝
-0.0.0.0 www23.tx8.cn
+0.0.0.0 www13.tx8.cn www23.tx8.cn
 #推告
 0.0.0.0 js.tuigoo.com
 #网元

@@ -1,4 +1,4 @@
-;version=201006141830
+;version=201006141839
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1763,6 +1763,7 @@ ff02::3 ip6-allhosts
 #速影
 0.0.0.0 c.sfilm.com
 #淘小宝
+0.0.0.0 www13.tx8.cn
 0.0.0.0 www23.tx8.cn
 #推告
 0.0.0.0 js.tuigoo.com
