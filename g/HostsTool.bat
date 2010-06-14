@@ -141,10 +141,14 @@ goto menu
 :Perms
 title 设置Hosts文件访问权限
 mode con: cols=50 lines=15
-echo 1,设为只读
+echo.
+echo 1,设为只读（默认回车使用）
+echo.
 echo 2,设置Hosts文件防删权限（NTFS磁盘格式有效）
-echo 3,[返回]不设置任何权限
+echo.
+echo 3,不设置任何权限（返回）
 SET Choice=
+echo.
 SET /P Choice=请在修改完成关闭记事本后进行选择，按回车键确认：
 IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
 IF /I '%Choice%'=='1' GOTO readonly
@@ -169,7 +173,7 @@ goto menu
 :help
 cls
 if exist Help.txt type Help.txt|more
-start http://hi.baidu.com/iebb
+start http://blog.jockwok.com
 mshta vbscript:msgbox("不建议在Hosts文件中添加过多内容！",64,"Hosts")(window.close)
 goto menu
 
@@ -261,7 +265,7 @@ goto Perms
 if not exist down\Soft.g call :datadown
 copy down\Soft.g %hosts%
 call :wmpclean
-goto Permissions
+goto Perms
 
 :wmpclean
 reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f>nul 2>nul
@@ -761,10 +765,10 @@ goto Perms
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.631 Freeware Version
-echo Date:       2010.06.13
+echo Version:    1.65 Freeware Version
+echo Date:       2010.06.15
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
-mshta vbscript:createobject("sapi.spvoice").speak("Thank U for using and Enjoy it!")(window.close)
+mshta vbscript:msgbox("Thanks 4 using and Hope U Enjoy it!",64,"Hosts")(window.close)
 pause
 goto menu
