@@ -772,7 +772,7 @@ goto Perms
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.65 Freeware Version
+echo Version:    1.651 Freeware Version
 echo Date:       2010.06.15
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
