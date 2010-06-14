@@ -15,5 +15,4 @@ ipconfig /flushdns>nul 2>nul
 cls
 title Enjoy The New Version HostsTool !
 mshta vbscript:msgbox("建议使用新版在线更新一次数据！",64,"更新完成！")(window.close)
-pause
-del %0
+pause&call HostsTool.bat&del %0
