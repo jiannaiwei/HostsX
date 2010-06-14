@@ -327,6 +327,8 @@
 0.0.0.0 c.sfilm.com
 #淘小宝
 0.0.0.0 www13.tx8.cn www23.tx8.cn
+#随意贴
+0.0.0.0 v1.freep.cn v2.freep.cn v3.freep.cn v4.freep.cn v5.freep.cn v6.freep.cn v7.freep.cn v8.freep.cn v9.freep.cn
 #推告
 0.0.0.0 js.tuigoo.com
 #网元
