@@ -478,8 +478,15 @@ pause
 if exist Acrylic\AcrylicService.exe goto menu
 
 :update
-title 正在更新HostsTool
 mode con: cols=40 lines=10
+title HostsTool更新程序
+echo 正在连接升级服务器，请稍侯…
+ping hostsx.googlecode.com>nul 2>nul&&goto :updateok
+cls
+echo 无法连接升级服务器！
+echo.
+echo 请检查网络连接或稍后再试！&pause>nul&goto menu
+:updateok
 if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
 echo 正在下载数据，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/up.bat
