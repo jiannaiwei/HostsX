@@ -1,4 +1,4 @@
-;version=201006140100
+;version=201006141830
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1581,7 +1581,6 @@ ff02::3 ip6-allhosts
 #流氓导航
 0.0.0.0 download.duozz.com
 0.0.0.0 mcsd.qq437.cn
-0.0.0.0 pv.chapm.com
 0.0.0.0 www.168un.com
 0.0.0.0 www.6313.com
 0.0.0.0 smtown.com
@@ -1678,7 +1677,9 @@ ff02::3 ip6-allhosts
 #其他游戏广告
 0.0.0.0 ad.16wan.com
 0.0.0.0 po.add.tx908.com
+0.0.0.0 t.1stcngame.com
 0.0.0.0 t.uuplay.com
+0.0.0.0 tc.1stwebgame.com
 0.0.0.0 tg.155game.com
 0.0.0.0 tg3.subo.me
 0.0.0.0 u.7town.com
@@ -1743,6 +1744,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.9v.cn
 0.0.0.0 www1.9v.cn
 0.0.0.0 www1.9vad.com
+
+0.0.0.0 pv.chapm.com
+0.0.0.0 jk.chapm.com
+
+0.0.0.0 v.9vcpp.cn
+0.0.0.0 www2.9v.cn
 #猫猫
 0.0.0.0 www.maomao8.com
 #梦想广告

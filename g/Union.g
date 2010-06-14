@@ -189,7 +189,8 @@
 #弈天
 0.0.0.0 pics.unionsky.cn play.unionsky.cn
 #宣传易
-0.0.0.0 cpa.ads8.com code36.1133.cc count.1133.cc images1.1133.cc img7.1133.cc u.1133.cc z.1133.cc
+0.0.0.0 cpa.ads8.com
+0.0.0.0 code28.1133.cc code36.1133.cc count.1133.cc images1.1133.cc img7.1133.cc m.1133.cc u.1133.cc www.1133.cc z.1133.cc
 #我拉横幅
 0.0.0.0 image1.55.la image2.55.la image3.55.la img4.user.55.la new4.user.55.la preview.55.la zhuti.55.la
 #创速传媒
@@ -275,7 +276,7 @@
 #麒麟游戏
 0.0.0.0 doc.70yx.com tg.70yx.com
 #其他游戏广告
-0.0.0.0 ad.16wan.com po.add.tx908.com tg.155game.com tg3.subo.me u.7town.com ww.jinzhao99.com
+0.0.0.0 ad.16wan.com po.add.tx908.com t.1stcngame.com t.uuplay.com tc.1stwebgame.com tg.155game.com tg3.subo.me u.7town.com ww.jinzhao99.com
 
 @HostsX 网络广告过滤/其他
 #160ads
@@ -312,7 +313,8 @@
 #捷酷
 0.0.0.0 do.jieku.com files.jieku.com
 #九赢
-0.0.0.0 f.9vcpm.cn v.9vcpc.cn v.cpp9v.cn v1.9vcpc.cn vv.9vcpc.cn www.9v.cn www1.9v.cn www1.9vad.com
+0.0.0.0 f.9vcpm.cn jk.chapm.com pv.chapm.com v.9vcpc.cn v.9vcpp.cn v.cpp9v.cn v1.9vcpc.cn vv.9vcpc.cn www.9v.cn
+0.0.0.0 www1.9v.cn www1.9vad.com www2.9v.cn
 #猫猫
 0.0.0.0 www.maomao8.com
 #梦想广告
