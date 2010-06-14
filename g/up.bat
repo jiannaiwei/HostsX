@@ -13,7 +13,7 @@ del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
 del /f /q %userprofile%\recent\*.*>nul 2>nul
 ipconfig /flushdns>nul 2>nul
 cls
-tittle Enjoy The New Version HostsTool !
-mshta vbscript:msgbox("更新完成！建议使用新版在线更新一次数据！",64,"Hosts")(window.close)
+title Enjoy The New Version HostsTool !
+mshta vbscript:msgbox("建议使用新版在线更新一次数据！",64,"更新完成！")(window.close)
 pause
 del %0
