@@ -55,3 +55,7 @@ ff02::3 ip6-allhosts
 173.239.65.23 sync.xmarks.com
 173.239.65.20 static.xmarks.com download.xmarks.com
 64.147.188.86 my.xmarks.com
+#Soutong
+2001:470:a:17c::2 soutong.iloveyou
+63.223.106.181 soutong.com
+
