@@ -37,7 +37,7 @@
 #国外常见广告
 0.0.0.0 ad.adtegrity.net adtech.panthercustomer.com as.casalemedia.com content.pulse360.com counters.gigya.com d.cyberdefender.com marketing.xineurope.com pub.softonic.cn s3.buysellads.com
 0.0.0.0 secure.webhostingpad.com servedby.adsfactor.cn sharefoco.com static.addtoany.com static.fotolia.com static02.linkedin.com stats.edgevertising.net statse.webtrendslive.com track.effiliation.asia
-0.0.0.0 www.adlinkmedia.net banner.hosteurope.de
+0.0.0.0 www.adlinkmedia.net banner.hosteurope.de panther1.cpxinteractive.com
 #Adbrite
 0.0.0.0 4.adbrite.com b1.adbrite.com click.adbrite.com files.adbrite.com mga01.adbrite.com mga02.adbrite.com www.adbrite.com
 #ADPlan
@@ -225,7 +225,7 @@
 #P.cn
 0.0.0.0 search.p.cn www.p.cn
 #流氓导航
-0.0.0.0 download.duozz.com mcsd.qq437.cn pv.chapm.com www.168un.com www.6313.com www.05kiss.cn
+0.0.0.0 download.duozz.com mcsd.qq437.cn pv.chapm.com www.168un.com www.6313.com www.05kiss.cn www.zhutizi.com www.mycar021.com
 0.0.0.0 smtown.com superjunior.smtown.com
 
 @HostsX 网络广告过滤/弹出视频

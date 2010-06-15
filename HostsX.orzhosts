@@ -1,4 +1,4 @@
-;version=201006142000
+;version=201006152200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -785,6 +785,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 counters.gigya.com
 0.0.0.0 d.cyberdefender.com
 0.0.0.0 marketing.xineurope.com
+0.0.0.0 panther1.cpxinteractive.com
 0.0.0.0 pub.softonic.cn
 0.0.0.0 s3.buysellads.com
 0.0.0.0 secure.webhostingpad.com
@@ -1586,6 +1587,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 smtown.com
 0.0.0.0 superjunior.smtown.com
 0.0.0.0 www.05kiss.cn
+0.0.0.0 www.zhutizi.com
+0.0.0.0 www.mycar021.com
 @HostsX 网络广告过滤/弹出视频
 #CC视频
 0.0.0.0 1.bokeccimg.com
