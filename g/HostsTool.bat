@@ -554,7 +554,6 @@ echo gimg.iqilu.com>>1.txt
 echo images.sohu.com>>1.txt
 echo pro.letv.com>>1.txt
 echo *.atm.youku.com>>1.txt
-echo *.jebe.renren.com>>1.txt
 echo *.mediav.com>>1.txt
 echo *.sandai.net>>1.txt
 copy /b 1.txt+down\noie.txt 自定义.txt
@@ -772,7 +771,7 @@ goto Perms
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.651 Freeware Version
+echo Version:    1.652 Freeware Version
 echo Date:       2010.06.15
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
