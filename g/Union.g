@@ -224,8 +224,12 @@
 0.0.0.0 www.duote.com img.duote.com
 #P.cn
 0.0.0.0 search.p.cn www.p.cn
+#快乐无极
+0.0.0.0 it.oyksoft.com www.oyksoft.com
+#下载吧
+0.0.0.0 www.xiazaiba.com xiazai.xiazaiba.com
 #流氓导航
-0.0.0.0 download.duozz.com mcsd.qq437.cn pv.chapm.com www.168un.com www.6313.com www.05kiss.cn www.zhutizi.com www.mycar021.com
+0.0.0.0 download.duozz.com mcsd.qq437.cn pv.chapm.com www.168un.com www.6313.com www.05kiss.cn www.zhutizi.com www.mycar021.com www.ie9down.info
 0.0.0.0 smtown.com superjunior.smtown.com
 
 @HostsX 网络广告过滤/弹出视频

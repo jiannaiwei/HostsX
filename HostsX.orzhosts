@@ -1,4 +1,4 @@
-;version=201006152200
+;version=201006161130
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1579,7 +1579,13 @@ ff02::3 ip6-allhosts
 #P.cn
 0.0.0.0 search.p.cn
 0.0.0.0 www.p.cn
-#流氓导航
+#快乐无极
+0.0.0.0 it.oyksoft.com
+0.0.0.0 www.oyksoft.com
+#下载吧
+0.0.0.0 www.xiazaiba.com
+0.0.0.0 xiazai.xiazaiba.com
+#导航下载
 0.0.0.0 download.duozz.com
 0.0.0.0 mcsd.qq437.cn
 0.0.0.0 www.168un.com
@@ -1589,6 +1595,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.05kiss.cn
 0.0.0.0 www.zhutizi.com
 0.0.0.0 www.mycar021.com
+0.0.0.0 www.ie9down.info
 @HostsX 网络广告过滤/弹出视频
 #CC视频
 0.0.0.0 1.bokeccimg.com
