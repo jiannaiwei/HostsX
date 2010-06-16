@@ -1,4 +1,4 @@
-;version=201006161130
+;version=201006161720
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -957,6 +957,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 count40.51yes.com
 0.0.0.0 countt.51yes.com
 #99click
+0.0.0.0 a777.oadz.com
 0.0.0.0 a814.oadz.com
 0.0.0.0 a1139.oadz.com
 0.0.0.0 a.oadz.com
@@ -1575,6 +1576,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 asiafriendfinder.com
 #多特软件
 0.0.0.0 www.duote.com
+0.0.0.0 www.duotegame.com
 0.0.0.0 img.duote.com
 #P.cn
 0.0.0.0 search.p.cn
@@ -1597,6 +1599,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zhutizi.com
 0.0.0.0 www.mycar021.com
 0.0.0.0 www.ie9down.info
+0.0.0.0 gb.36578.com
 @HostsX 网络广告过滤/弹出视频
 #CC视频
 0.0.0.0 1.bokeccimg.com
@@ -1976,6 +1979,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.qianqian.com
 0.0.0.0 p2plog.qianqian.com
 0.0.0.0 ttads.ttplayer.com
+0.0.0.0 ttlrcct2.qianqian.com
+0.0.0.0 ttlyrc.qianqian.com
 0.0.0.0 ttmsg.qianqian.com
 0.0.0.0 ttpack.qianqian.com
 0.0.0.0 ttplayer.qianqian.com

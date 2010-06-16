@@ -86,7 +86,7 @@
 #51yes
 0.0.0.0 count.51yes.com count10.51yes.com count20.51yes.com count28.51yes.com count36.51yes.com count40.51yes.com countt.51yes.com
 #99click
-0.0.0.0 a814.oadz.com a1139.oadz.com a.oadz.com dns1.oadz.com dns2.oadz.com
+0.0.0.0 a777.oadz.com a814.oadz.com a1139.oadz.com a.oadz.com dns1.oadz.com dns2.oadz.com
 #Acs86
 0.0.0.0 acs86.com afp.acs86.com static.acs86.com tgb.acs86.com
 #CNZZ
@@ -221,7 +221,7 @@
 #亚洲交友
 0.0.0.0 asiafind1.com asiafriendfinder.com
 #多特软件
-0.0.0.0 www.duote.com img.duote.com
+0.0.0.0 www.duote.com www.duotegame.com img.duote.com
 #P.cn
 0.0.0.0 search.p.cn www.p.cn
 #快乐无极
@@ -230,7 +230,7 @@
 0.0.0.0 www.xiazaiba.com xiazaiba.com xiazai.xiazaiba.com
 #流氓导航
 0.0.0.0 download.duozz.com mcsd.qq437.cn pv.chapm.com www.168un.com www.6313.com www.05kiss.cn www.zhutizi.com www.mycar021.com www.ie9down.info
-0.0.0.0 smtown.com superjunior.smtown.com
+0.0.0.0 smtown.com superjunior.smtown.com gb.36578.com
 
 @HostsX 网络广告过滤/弹出视频
 #CC视频

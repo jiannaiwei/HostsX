@@ -57,7 +57,7 @@
 #酷狗
 0.0.0.0 links.kugoo.com mkg.kugou.com myonline.kugou.com sdn.kugoo.com softstat.kugou.com yx.kugou.com
 #千千静听
-0.0.0.0 ads.qianqian.com p2plog.qianqian.com ttads.ttplayer.com ttmsg.qianqian.com ttpack.qianqian.com ttplayer.qianqian.com
+0.0.0.0 ads.qianqian.com p2plog.qianqian.com ttads.ttplayer.com ttlrcct2.qianqian.com ttlyrc.qianqian.com ttmsg.qianqian.com ttpack.qianqian.com ttplayer.qianqian.com
 #风行
 0.0.0.0 ad.funshion.com adk.funshion.com adm.funshion.com gstat.funshion.com neirong.funshion.com partner.funshion.com
 #天翼视讯
