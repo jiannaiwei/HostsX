@@ -1,4 +1,4 @@
-;version=201006161720
+;version=201006131700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -76,6 +76,9 @@ ff02::3 ip6-allhosts
 173.239.65.20 static.xmarks.com
 173.239.65.20 download.xmarks.com
 64.147.188.86 my.xmarks.com
+#Soutong
+2001:470:a:17c::2 soutong.iloveyou
+63.223.106.181 soutong.com
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/海外网站
 #ABCNews
@@ -1600,6 +1603,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.mycar021.com
 0.0.0.0 www.ie9down.info
 0.0.0.0 gb.36578.com
+0.0.0.0 www.15159.net
 @HostsX 网络广告过滤/弹出视频
 #CC视频
 0.0.0.0 1.bokeccimg.com
