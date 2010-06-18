@@ -1,19 +1,28 @@
-2010-06-10:
+2010-06-19:
 
 功能影响:
-Google Api（灵格斯词霸等）:
-ajax.googleapis.com
-百度图片:
-hiphotos.baidu.com
-WebQQ登录:
-pingjs.qq.com
-驱动之家（评论条数显示）:
-11.mydrivers.com
-土豆网  （不能看黑豆视频）:
-adcontrol.tudou.com
+
+Google Api:
+ajax.googleapis.com  （灵格斯词霸等）
+
+百度:
+hiphotos.baidu.com   （百度空间图片）
+
+QQ:
+pingjs.qq.com        （WebQQ登录问题）
+
+驱动之家:
+11.mydrivers.com     （评论条数显示）
+
+土豆网:
+adcontrol.tudou.com  （不能看黑豆视频）
+
 淘宝:
-img.alimama.cn
-ju.atpanel.com
+img.alimama.cn       （淘宝主页显示）
+ju.atpanel.com       （部分跳转链接）
+
+CNTV:
+cntv.wrating.com     （客户端脚本错误）
 
 网站误杀:
 www.in9.cn

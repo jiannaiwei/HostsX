@@ -224,7 +224,7 @@
 #联合早报
 0.0.0.0 ads.zaobao.com lhzbafp.allyes.com
 #CCTV
-0.0.0.0 a.cctv.com ad.cctv.com cctv.adsunion.com adguanggao.eee114.com d.cntv.cn cntv.wrating.com
+0.0.0.0 a.cctv.com ad.cctv.com cctv.adsunion.com adguanggao.eee114.com d.cntv.cn
 #人民网
 0.0.0.0 ads.people.com.cn pro.people.com.cn
 #新华网
