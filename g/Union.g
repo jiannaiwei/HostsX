@@ -319,6 +319,8 @@
 #九赢
 0.0.0.0 f.9vcpm.cn jk.chapm.com pv.chapm.com v.9vcpc.cn v.9vcpp.cn v.cpp9v.cn v1.9vcpc.cn vv.9vcpc.cn www.9v.cn
 0.0.0.0 www1.9v.cn www1.9vad.com www2.9v.cn
+#艾特效果营销
+0.0.0.0 c.at98.com js.at98.com www.at98.com
 #猫猫
 0.0.0.0 www.maomao8.com
 #梦想广告
