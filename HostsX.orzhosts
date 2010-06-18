@@ -1,4 +1,4 @@
-;version=201006181200
+;version=201006190010
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -568,6 +568,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.cctv.com
 0.0.0.0 cctv.adsunion.com
 0.0.0.0 adguanggao.eee114.com
+0.0.0.0 d.cntv.cn
+0.0.0.0 cntv.wrating.com
 #人民网
 0.0.0.0 ads.people.com.cn
 0.0.0.0 pro.people.com.cn
