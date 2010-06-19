@@ -1,4 +1,4 @@
-;version=201006191500
+;version=201006192030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -143,7 +143,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.analytics.yahoo.com
 0.0.0.0 us.ard.yahoo.com
 0.0.0.0 us.rd.yahoo.com
-0.0.0.0 us.lrd.yahoo.com
 0.0.0.0 pclick.internal.yahoo.com
 0.0.0.0 ts.richmedia.yahoo.com
 0.0.0.0 s0.2mdn.net

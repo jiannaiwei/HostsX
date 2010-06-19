@@ -29,7 +29,7 @@
 #Yahoo.com
 0.0.0.0 ads.yimg.com richmedia.yimg.com
 0.0.0.0 a.analytics.yahoo.com us.ard.yahoo.com us.rd.yahoo.com
-0.0.0.0 us.lrd.yahoo.com pclick.internal.yahoo.com ts.richmedia.yahoo.com
+0.0.0.0 pclick.internal.yahoo.com ts.richmedia.yahoo.com
 0.0.0.0 s0.2mdn.net mp.apmebf.com ads.bluelithium.com
 0.0.0.0 ad.yieldmanager.com content.yieldmanager.com content.yieldmanager.edgesuite.net
 0.0.0.0 mi.adinterax.com tr.adinterax.com

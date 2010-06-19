@@ -17,7 +17,8 @@ img.alimama.cn       （淘宝主页显示）
 ju.atpanel.com       （部分跳转链接）
 CNTV:
 cntv.wrating.com     （客户端脚本错误）
-
+Yahoo：
+us.lrd.yahoo.com     （雅虎新邮箱跳转）
 严格过滤：
 #Zol     （首页显示不美观）
 0.0.0.0 pic.zol-img.com.cn
