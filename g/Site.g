@@ -136,6 +136,8 @@
 0.0.0.0 autosense.bitauto.com g.bitauto.com gimg.bitauto.com ip.bitauto.com
 #中国汽车网
 0.0.0.0 chinacarsafp.allyes.com
+#车168网
+0.0.0.0 adshow.che168.com
 
 @HostsX 站点广告过滤/游戏类网站
 #7pk小游戏

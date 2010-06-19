@@ -2,7 +2,9 @@
 
 @HostsX 软件广告过滤/安全软件
 #360安全卫士
-0.0.0.0	inst.360safe.com pinst.360.cn rd.360.cn	stat.360safe.com updatem.360safe.com x.360safe.com
+0.0.0.0	inst.360safe.com pinst.360.cn rd.360.cn
+0.0.0.0	stat.360safe.com updatem.360safe.com x.360safe.com seapp.stat.360safe.com stat.leak.360safe.com
+0.0.0.0	rd.qihoo.com pvstat.qihoo.com
 #Avast
 0.0.0.0 program.avast.com
 #Comodo UserTrust
@@ -117,10 +119,10 @@
 0.0.0.0	bc.kuaiche.com cimg.kuaiche.com	directui.kuaiche.com.showq.net ufile.kuaiche.com dll.flashget.com fetch.flashget.com ggstat.flashget.com olstat.flashget.com stat.flashget.com
 #迅雷系列
 0.0.0.0 analytics-union.sandai.net biz4.sandai.net biz5.sandai.net biz5c.sandai.net cknum.sandai.net click.cm.sandai.net float.sandai.net gvod.union.sandai.net mcfg.sandai.net
-0.0.0.0 mpv.sandai.net pubstat.sandai.net ub.dphub.sandai.net
-0.0.0.0 s.gougou.com un.so.gougou.com
-0.0.0.0 advstat.xunlei.com areainfo.xunlei.com cl.kankan.xunlei.com client.stat.xunlei.com gouwu.vip.xunlei.com kkpgv.xunlei.com mediapv.xunlei.com mtips.xunlei.com pv.kankan.stat.xunlei.com
-0.0.0.0 recommend.xunlei.com res.stat.xunlei.com stat.xunlei.com static.soft.xunlei.com thunderqtypv.union.xunlei.com web.stat.xunlei.com websts.xunlei.com wy.xunlei.com xmlconf.client.xunlei.com
+0.0.0.0 mpv.sandai.net pubstat.sandai.net ub.dphub.sandai.net s.gougou.com un.so.gougou.com
+0.0.0.0 advstat.xunlei.com areainfo.xunlei.com cl.kankan.xunlei.com client.stat.xunlei.com gouwu.vip.xunlei.com images.client.xunlei.com kkpgv.xunlei.com mediapv.xunlei.com msg.client.xunlei.com
+0.0.0.0 mtips.xunlei.com pv.kankan.stat.xunlei.com recommend.xunlei.com res.stat.xunlei.com stat.xunlei.com static.soft.xunlei.com thunderqtypv.union.xunlei.com web.stat.xunlei.com websts.xunlei.com
+0.0.0.0 wy.xunlei.com xmlconf.client.xunlei.com
 
 @HostsX 软件广告过滤/其他类
 #eReader

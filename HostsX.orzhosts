@@ -416,6 +416,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ip.bitauto.com
 #中国汽车网
 0.0.0.0 chinacarsafp.allyes.com
+#车168网
+0.0.0.0 adshow.che168.com
 @HostsX 站点广告过滤/游戏类网站
 #7pk小游戏
 0.0.0.0 al.7pk.com
@@ -1713,6 +1715,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mmscode2.3bu.com
 0.0.0.0 mmscode3.3bu.com
 #53KF
+0.0.0.0 chat.53kf.com
 0.0.0.0 up.53kf.com
 0.0.0.0 www.53kf.com
 0.0.0.0 www3.53kf.com
@@ -1812,6 +1815,10 @@ ff02::3 ip6-allhosts
 0.0.0.0	stat.360safe.com
 0.0.0.0	updatem.360safe.com
 0.0.0.0	x.360safe.com
+0.0.0.0	seapp.stat.360safe.com
+0.0.0.0	stat.leak.360safe.com
+0.0.0.0	rd.qihoo.com
+0.0.0.0	pvstat.qihoo.com
 #Avast
 0.0.0.0 program.avast.com
 #Comodo UserTrust
@@ -2144,8 +2151,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 cl.kankan.xunlei.com
 0.0.0.0 client.stat.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
+0.0.0.0 images.client.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 mediapv.xunlei.com
+0.0.0.0 msg.client.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
 0.0.0.0 recommend.xunlei.com

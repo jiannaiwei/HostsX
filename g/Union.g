@@ -288,8 +288,7 @@
 #3Bu
 0.0.0.0 mmscode1.3bu.com mmscode2.3bu.com mmscode3.3bu.com
 #53KF
-0.0.0.0 up.53kf.com
-0.0.0.0 www.53kf.com www3.53kf.com
+0.0.0.0 chat.53kf.com up.53kf.com www.53kf.com www3.53kf.com
 #91ivr
 0.0.0.0 g.91ivr.com u.91ivr.com
 #Donglink
