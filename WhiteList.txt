@@ -1,28 +1,37 @@
 2010-06-19:
 
 功能影响:
-
 Google Api:
 ajax.googleapis.com  （灵格斯词霸等）
-
 百度:
 hiphotos.baidu.com   （百度空间图片）
-
 QQ:
 pingjs.qq.com        （WebQQ登录问题）
-
+dl_dir.qq.com        （无法下载软件）
 驱动之家:
 11.mydrivers.com     （评论条数显示）
-
 土豆网:
 adcontrol.tudou.com  （不能看黑豆视频）
-
 淘宝:
 img.alimama.cn       （淘宝主页显示）
 ju.atpanel.com       （部分跳转链接）
-
 CNTV:
 cntv.wrating.com     （客户端脚本错误）
+
+严格过滤：
+#Zol     （首页显示不美观）
+0.0.0.0 pic.zol-img.com.cn
+#ESET NOD（屏蔽ID验证）
+0.0.0.0 exp01.eset.com
+#PPTV    （右下角播放提示）
+0.0.0.0 pp.pplive.com
+#PPTV    （点播节目时旁边的信息）
+0.0.0.0 pp.v2.pplive.cn
+#PPTV    （升级屏蔽）
+0.0.0.0 up.pplive.com
+0.0.0.0 upexe.pplive.com
+#搜狗拼音（无法下载词库）
+0.0.0.0 pinyin.sogou.com
 
 网站误杀:
 www.in9.cn
