@@ -13,8 +13,6 @@
 *.ads8.com
 *.adsame.com
 *.adtech.de
-*.alimama.cn
-*.alimama.com
 *.all4ad.cn
 *.allyes.cn
 *.allyes.com
