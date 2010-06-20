@@ -12,6 +12,17 @@ del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
 del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
 del /f /q %userprofile%\recent\*.*>nul 2>nul
 ipconfig /flushdns>nul 2>nul
+echo        恢复IE搜索引擎
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Use Search Asst" /d "no" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "gogl" /f>nul 2>nul
+reg add "HKLM\Software\Microsoft\Internet Explorer\" /f /ve /d "about:blank">nul 2>nul
+reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "https://www.google.com/intl/zh-CN/">nul 2>nul
+reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f>nul 2>nul
+echo        修复IE工具栏广告
+reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
 cls
 title Enjoy The New Version HostsTool !
 mshta vbscript:msgbox("建议使用新版在线更新一次数据！",64,"更新完成！")(window.close)
