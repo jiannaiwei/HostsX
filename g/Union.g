@@ -1,10 +1,10 @@
 @HostsX 网络广告过滤
 @HostsX 网络广告过滤/国内广告
 #百度
-0.0.0.0 a.baidu.com baidutv.baidu.com bar.baidu.com c.baidu.com cb.baidu.com cjhq.baidu.com cpro.baidu.com drmcmm.baidu.com e.baidu.com
-0.0.0.0 eiv.baidu.com focusbaiduafp.allyes.com hc.baidu.com hm.baidu.com iebar.baidu.com ikcode.baidu.com ma.baidu.com neirong.baidu.com nsclick.baidu.com
+0.0.0.0 a.baidu.com baidutv.baidu.com bar.baidu.com c.baidu.com cb.baidu.com cjhq.baidu.com cpro.baidu.com drmcmm.baidu.com dzl.baidu.com
+0.0.0.0 e.baidu.com eiv.baidu.com hc.baidu.com hm.baidu.com iebar.baidu.com ikcode.baidu.com ma.baidu.com neirong.baidu.com nsclick.baidu.com
 0.0.0.0 s.baidu.com spcode.baidu.com tk.baidu.com tkweb.baidu.com tongji.baidu.com toolbar.baidu.com tracker.baidu.com ucstat.baidu.com union.baidu.com
-0.0.0.0 unstat.baidu.com utk.baidu.com utility.baidu.com
+0.0.0.0 unstat.baidu.com utk.baidu.com utility.baidu.com focusbaiduafp.allyes.com
 #阿里淘宝
 0.0.0.0 a.alimama.cn acookie.alibaba.com acookie.alimama.com bm.alimama.cn bmvip.alimama.cn cpc.click.alimama.com gouwu.alimama.com log.mm.vip.cnz.alimama.com p.alimama.com
 0.0.0.0 img.alimama.cn p3p.alibaba.com s.click.alimama.com static.alimama.com taoke.alimama.com www.alimama.com z.alimama.com

@@ -1,4 +1,4 @@
-;version=201006192030
+;version=201006201700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -597,6 +597,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cjhq.baidu.com
 0.0.0.0 cpro.baidu.com
 0.0.0.0 drmcmm.baidu.com
+0.0.0.0 dzl.baidu.com
 0.0.0.0 e.baidu.com
 0.0.0.0 eiv.baidu.com
 0.0.0.0 focusbaiduafp.allyes.com
