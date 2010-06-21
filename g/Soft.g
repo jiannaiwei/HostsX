@@ -27,8 +27,8 @@
 0.0.0.0 ad.yy.duowan.com do.yy.duowan.com forceupdate.yy.duowan.com gamecollaborate.yy.duowan.com update.yy.duowan.com yydl.duowan.com dw.hiido.cn im.yy.hiido.cn njs.dw.hiido.cn
 #腾讯QQ
 0.0.0.0 2052.flash2-http.qq.com adping.qq.com adsclick.qq.com adsfile.qq.com adshmct.qq.com adslvseed.qq.com httpring.qq.com isdspeed.qq.com minisite2009.qq.com
-0.0.0.0 qqlogo.qq.com show-msgch.qq.com c.l.qq.com hm.l.qq.com l.qq.com p.l.qq.com w.l.qq.com f.qstatic.com fodder.qq.com
-0.0.0.0 fw.qq.com pingfore.qq.com scdown.qq.com trace.qq.com
+0.0.0.0 qqlogo.qq.com show-msgch.qq.com c.l.qq.com hm.l.qq.com imc.l.qq.com l.qq.com p.l.qq.com w.l.qq.com f.qstatic.com
+0.0.0.0 fodder.qq.com fw.qq.com pingfore.qq.com scdown.qq.com trace.qq.com
 0.0.0.0 dr.soso.com pingfore.soso.com v3.toolbar.soso.com toolbar.soso.com
 
 @HostsX 软件广告过滤/媒体播放
