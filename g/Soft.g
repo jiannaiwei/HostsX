@@ -135,14 +135,16 @@
 0.0.0.0 mk.maxthon.cn stat.maxthon.com stat-w.maxthon.com statcn-c.maxthon.com
 #SmartRecorder
 0.0.0.0 www.voiceemotion.com
-#云端
-0.0.0.0 update.yunduan.cn
 #超级兔子系列
-0.0.0.0	info.klplayer.com update.klplayer.com info.pcpc8.com info.pctutu.net link.pctutu.com m.pcpc8.com srtj.pctutu.net tj.pctutu.net update.pctutu.com
-0.0.0.0	update.pctutu.net
-#搜狗拼音
-0.0.0.0	files2.sogou.com ime.sogou.com config.pinyin.sogou.com info.pinyin.sogou.com ping.pinyin.sogou.com st.pinyin.sogou.com pinyin.sogou.com
-#金山词霸
-0.0.0.0 goto.www.iciba.com u.iciba.com u.sl.iciba.com
+0.0.0.0	info.klplayer.com update.klplayer.com info.pcpc8.com m.pcpc8.com
+0.0.0.0	info.pctutu.net	link.pctutu.com	srtj.pctutu.net	tj.pctutu.net update.pctutu.com update.pctutu.net
 #光影魔术手
 0.0.0.0 ad.neoimaging.cn clientconfig.neoimaging.cn jump.neoimaging.cn recommend.neoimaging.cn
+#金山词霸
+0.0.0.0 goto.www.iciba.com u.iciba.com u.sl.iciba.com
+#搜狗拼音
+0.0.0.0	files2.sogou.com ime.sogou.com config.pinyin.sogou.com info.pinyin.sogou.com ping.pinyin.sogou.com st.pinyin.sogou.com
+#优化大师
+0.0.0.0 login.wopti.net s1.wopti.net
+#云端
+0.0.0.0 update.yunduan.cn

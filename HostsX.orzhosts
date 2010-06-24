@@ -1,4 +1,4 @@
-;version=201006242220
+;version=201006250100
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -772,15 +772,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.wretch.cc
 0.0.0.0 ad71.doubleadx.com
 0.0.0.0 admd.yam.com
-0.0.0.0 adsense.scupio.com
 0.0.0.0 gwc.iblinx.com
 0.0.0.0 hwachun.webplus.com.tw
 0.0.0.0 link.f1.com.tw
-0.0.0.0 money.scupio.com
 0.0.0.0 mx3.hotrank.com.tw
 0.0.0.0 pic.addeliver.biz
 0.0.0.0 rc.asia.srv.overture.com
 0.0.0.0 www.iasoho.com
+0.0.0.0 adsense.scupio.com
+0.0.0.0 money.scupio.com
+0.0.0.0 www.scupio.com
 @HostsX 网络广告过滤/国外广告
 #国外常见广告
 0.0.0.0 ad.adtegrity.net
@@ -1596,17 +1597,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 xiazai.xiazaiba.com
 #导航下载
 0.0.0.0 download.duozz.com
+0.0.0.0 gb.36578.com
 0.0.0.0 mcsd.qq437.cn
-0.0.0.0 www.168un.com
-0.0.0.0 www.6313.com
 0.0.0.0 smtown.com
 0.0.0.0 superjunior.smtown.com
+0.0.0.0 www.001cndc.cn
 0.0.0.0 www.05kiss.cn
-0.0.0.0 www.zhutizi.com
-0.0.0.0 www.mycar021.com
-0.0.0.0 www.ie9down.info
-0.0.0.0 gb.36578.com
 0.0.0.0 www.15159.net
+0.0.0.0 www.168un.com
+0.0.0.0 www.6313.com
+0.0.0.0 www.ie9down.info
+0.0.0.0 www.mycar021.com
+0.0.0.0 www.qq-2010f.com
+0.0.0.0 www.zhutizi.com
 @HostsX 网络广告过滤/弹出视频
 #CC视频
 0.0.0.0 1.bokeccimg.com
@@ -2190,32 +2193,35 @@ ff02::3 ip6-allhosts
 0.0.0.0	statcn-c.maxthon.com
 #SmartRecorder
 0.0.0.0 www.voiceemotion.com
-#云端
-0.0.0.0 update.yunduan.cn
 #超级兔子系列
-0.0.0.0	info.klplayer.com
-0.0.0.0	update.klplayer.com
-0.0.0.0	info.pcpc8.com
-0.0.0.0	info.pctutu.net
-0.0.0.0	link.pctutu.com
+0.0.0.0 info.klplayer.com
+0.0.0.0 update.klplayer.com
+0.0.0.0 info.pcpc8.com
 0.0.0.0	m.pcpc8.com
+0.0.0.0 info.pctutu.net
+0.0.0.0	link.pctutu.com
 0.0.0.0	srtj.pctutu.net
-0.0.0.0	tj.pctutu.net
-0.0.0.0	update.pctutu.com
-0.0.0.0	update.pctutu.net
+0.0.0.0 tj.pctutu.net
+0.0.0.0 update.pctutu.com
+0.0.0.0 update.pctutu.net
+#光影魔术手
+0.0.0.0 ad.neoimaging.cn
+0.0.0.0 clientconfig.neoimaging.cn
+0.0.0.0 jump.neoimaging.cn
+0.0.0.0 recommend.neoimaging.cn
 #金山词霸
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
 0.0.0.0 u.sl.iciba.com
 #搜狗拼音
 0.0.0.0	files2.sogou.com
-0.0.0.0	ime.sogou.com
-0.0.0.0	config.pinyin.sogou.com
+0.0.0.0 ime.sogou.com
+0.0.0.0 config.pinyin.sogou.com
 0.0.0.0	info.pinyin.sogou.com
-0.0.0.0	ping.pinyin.sogou.com
-0.0.0.0	st.pinyin.sogou.com
-#光影魔术手
-0.0.0.0 ad.neoimaging.cn
-0.0.0.0 clientconfig.neoimaging.cn
-0.0.0.0 jump.neoimaging.cn
-0.0.0.0 recommend.neoimaging.cn
+0.0.0.0 ping.pinyin.sogou.com
+0.0.0.0 st.pinyin.sogou.com
+#优化大师
+0.0.0.0 login.wopti.net
+0.0.0.0 s1.wopti.net
+#云端
+0.0.0.0 update.yunduan.cn

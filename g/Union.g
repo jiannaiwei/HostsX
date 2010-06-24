@@ -31,8 +31,9 @@
 0.0.0.0 uusee.haibao.org www.021sms.com www.265g.info www.2yt.net www.67160.com www.9899.cn www.adtools.cn www.algj-27dy.cn www.cxgglm.com
 0.0.0.0 www.leeuu.net www.wooigoo.cn y.taolai.cn img.rj518.com
 #港台常见广告
-0.0.0.0 10000.mm.oishow.com ad.doubleadv.tv ad.f1.com.tw ad.wretch.cc ad71.doubleadx.com admd.yam.com adsense.scupio.com gwc.iblinx.com hwachun.webplus.com.tw
-0.0.0.0 link.f1.com.tw money.scupio.com mx3.hotrank.com.tw pic.addeliver.biz rc.asia.srv.overture.com www.iasoho.com
+0.0.0.0 10000.mm.oishow.com ad.doubleadv.tv ad.f1.com.tw ad.wretch.cc ad71.doubleadx.com admd.yam.com gwc.iblinx.com hwachun.webplus.com.tw link.f1.com.tw
+0.0.0.0 mx3.hotrank.com.tw pic.addeliver.biz rc.asia.srv.overture.com www.iasoho.com
+0.0.0.0 adsense.scupio.com money.scupio.com www.scupio.com
 @HostsX 网络广告过滤/国外广告
 #国外常见广告
 0.0.0.0 ad.adtegrity.net adtech.panthercustomer.com as.casalemedia.com content.pulse360.com counters.gigya.com d.cyberdefender.com marketing.xineurope.com pub.softonic.cn s3.buysellads.com
@@ -228,10 +229,10 @@
 0.0.0.0 it.oyksoft.com www.oyksoft.com
 #下载吧
 0.0.0.0 www.xiazaiba.com xiazaiba.com xiazai.xiazaiba.com
-#流氓导航
-0.0.0.0 download.duozz.com mcsd.qq437.cn pv.chapm.com www.168un.com www.6313.com www.05kiss.cn www.zhutizi.com www.mycar021.com www.ie9down.info
-0.0.0.0 smtown.com superjunior.smtown.com gb.36578.com www.15159.net
-
+#导航下载
+0.0.0.0 smtown.com superjunior.smtown.com
+0.0.0.0 download.duozz.com gb.36578.com mcsd.qq437.cn www.001cndc.cn www.05kiss.cn www.15159.net www.168un.com www.6313.com www.ie9down.info
+0.0.0.0 www.mycar021.com www.qq-2010f.com www.zhutizi.com
 @HostsX 网络广告过滤/弹出视频
 #CC视频
 0.0.0.0 1.bokeccimg.com bokecc.com cncre12.bokecc.com hot7.bokecc.com mc.bokecc.com re2.bokecc.com trade.bokecc.com www.bokecc.com
