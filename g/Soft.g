@@ -122,7 +122,7 @@
 0.0.0.0 analytics-union.sandai.net biz4.sandai.net biz5.sandai.net biz5c.sandai.net cknum.sandai.net click.cm.sandai.net client1.xl6.sandai.net down.sandai.net float.sandai.net
 0.0.0.0 gvod.union.sandai.net mcfg.sandai.net mpv.sandai.net pubstat.sandai.net ub.dphub.sandai.net
 0.0.0.0 s.gougou.com un.so.gougou.com
-0.0.0.0 advstat.xunlei.com areainfo.xunlei.com cl.kankan.xunlei.com client.stat.xunlei.com gouwu.vip.xunlei.com images.client.xunlei.com kkpgv.xunlei.com mediapv.xunlei.com msg.client.xunlei.com
+0.0.0.0 advstat.xunlei.com areainfo.xunlei.com cl.kankan.xunlei.com client.stat.xunlei.com gouwu.vip.xunlei.com images.client.xunlei.com kkpgv.xunlei.com mediapv.xunlei.com
 0.0.0.0 mtips.xunlei.com pv.kankan.stat.xunlei.com recommend.xunlei.com res.stat.xunlei.com stat.xunlei.com static.soft.xunlei.com thunderqtypv.union.xunlei.com web.stat.xunlei.com websts.xunlei.com
 0.0.0.0 wy.xunlei.com xmlconf.client.xunlei.com
 

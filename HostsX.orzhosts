@@ -1,4 +1,4 @@
-;version=201006211600
+;version=201006242220
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -2160,7 +2160,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 images.client.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 mediapv.xunlei.com
-0.0.0.0 msg.client.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
 0.0.0.0 recommend.xunlei.com
