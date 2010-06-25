@@ -1,4 +1,4 @@
-;version=201006252130
+;version=201006252138
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -253,6 +253,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tj.pet.mop.com
 0.0.0.0 union.mop.com
 0.0.0.0 yx.mop.com
+0.0.0.0 union.uume.com
 #人人
 0.0.0.0 c.renren.com
 0.0.0.0 click.jebe.renren.com
@@ -378,6 +379,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 apic.xiyuit.com
 #万维家电
 0.0.0.0 pic.ea3w.com
+#天下网盟
+0.0.0.0 plus.txwm.com
+0.0.0.0 files.txwm.com
 #CSDN
 0.0.0.0 counter.csdn.net
 0.0.0.0 z.csdn.net
@@ -692,35 +696,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 m.menhutong.com.cn
 0.0.0.0 popunder.paypopup.com
 #大陆常见广告
-0.0.0.0 clk.abang.com
-0.0.0.0 cnt.zhaopin.com
-
-
-
 0.0.0.0 1188s.info
 0.0.0.0 api.flash45.com
-0.0.0.0 cpc.haowzz.com.cn
-
-
-0.0.0.0 javascript.nwbox.com
+0.0.0.0 clk.abang.com
+0.0.0.0 cnt.zhaopin.com
 0.0.0.0 pic837013.images9999.com
-0.0.0.0 plus.txwm.com
-
-0.0.0.0 so.mingsou.com
-0.0.0.0 static.u966.com
-0.0.0.0 u.30so.com
-0.0.0.0 ucjoy.com
 0.0.0.0 union.51ditu.com
 0.0.0.0 union.88go.cc
 0.0.0.0 union.keepc.com
 0.0.0.0 union.narrowad.com
 0.0.0.0 union.qyule.com
 0.0.0.0 union.the999.com
-0.0.0.0 union.uume.com
 0.0.0.0 union.zhongsou.com
 0.0.0.0 union2.50bang.org
-0.0.0.0 uusee.haibao.org
-
 0.0.0.0 www.265g.info
 0.0.0.0 www.adtools.cn
 #港台常见广告
@@ -749,6 +737,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 content.pulse360.com
 0.0.0.0 counters.gigya.com
 0.0.0.0 d.cyberdefender.com
+0.0.0.0 javascript.nwbox.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 pub.softonic.cn
 0.0.0.0 s3.buysellads.com
@@ -1577,12 +1566,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 smtown.com
 0.0.0.0 superjunior.smtown.com
 #流氓导航
-0.0.0.0 www.6313.com
-0.0.0.0 dir.ejoina.com
-0.0.0.0 mydh.info
-0.0.0.0 search.ok365.com
-0.0.0.0 www.w234.com
-0.0.0.0 www.wz123.com
 0.0.0.0 c.999d.com
 0.0.0.0 www.999d.com
 0.0.0.0 image.tazhao.com
@@ -1592,6 +1575,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 lailea.info
 0.0.0.0 go.lailea.info
 0.0.0.0 s.lailea.info
+0.0.0.0 dir.ejoina.com
+0.0.0.0 mydh.info
+0.0.0.0 search.ok365.com
+0.0.0.0 u.30so.com
+0.0.0.0 www.6313.com
+0.0.0.0 www.w234.com
+0.0.0.0 www.wz123.com
 广告诈骗：
 0.0.0.0 ht.sooe.cn
 0.0.0.0 www.sooe.cn
@@ -1718,6 +1708,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 po.add.tx908.com
 0.0.0.0 redirect.jooov.cn
+0.0.0.0 static.u966.com
 0.0.0.0 t.1stcngame.com
 0.0.0.0 t.uuplay.com
 0.0.0.0 tc.1stwebgame.com
