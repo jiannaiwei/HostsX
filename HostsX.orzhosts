@@ -1,4 +1,4 @@
-;version=201006252230
+;version=201006252250
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -242,8 +242,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 gg.mop.com
 0.0.0.0 in.dg.mop.com
 0.0.0.0 in.h.mop.com
+0.0.0.0 in.l.mop.com
+0.0.0.0 in.pet.mop.com
 0.0.0.0 in.sg.mop.com
 0.0.0.0 in.sh.mop.com
+0.0.0.0 in.t.mop.com
 0.0.0.0 ovsmbt.mop.com
 0.0.0.0 p4pad.mop.com
 0.0.0.0 pub.mop.com
@@ -1529,6 +1532,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.114.com.cn
 0.0.0.0 dianxin.cn
 0.0.0.0 dianxin.com
+0.0.0.0 game.dianxin.cn
 0.0.0.0 www.dianxin.cn
 #各地电信广告
 0.0.0.0 ad.online.cq.cn
@@ -1561,9 +1565,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 search.ok365.com
 0.0.0.0 u.30so.com
 0.0.0.0 www.6313.com
+0.0.0.0 www.ivc.cn
 0.0.0.0 www.w234.com
 0.0.0.0 www.wz123.com
-广告诈骗：
+#广告诈骗
 0.0.0.0 ht.sooe.cn
 0.0.0.0 www.sooe.cn
 0.0.0.0 ht.hao120.cc
@@ -1575,7 +1580,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
 0.0.0.0 fx.v1kk.com
+0.0.0.0 hjmg.930114.com
+0.0.0.0 shop.hoo6.com
+0.0.0.0 v8.olajk.com
 0.0.0.0 www.algj-27dy.cn
+0.0.0.0 www.juyuan.com
+0.0.0.0 www.xgjgw.com
 0.0.0.0 zx.98712.com
 #病毒下载
 0.0.0.0 qqhdx.cn
@@ -1659,8 +1669,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.9lwan.com
 #昆仑在线
 0.0.0.0 unigg.kunlun.com
-#亮剑
+#中青宝网
 0.0.0.0 lj.zqgame.com
+0.0.0.0 td.zqgame.com
 #摩力游
 0.0.0.0 adcount.moliyo.com
 #盛大游戏
@@ -1691,13 +1702,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 bto.youxiya.com
 #麒麟游戏
 0.0.0.0 doc.70yx.com
+0.0.0.0 Han1.70yx.Com
 0.0.0.0 tg.70yx.com
+#QQ437
+0.0.0.0 ftxy.qq437.cn
+0.0.0.0 mcsd.qq437.cn
 #其他游戏广告
 0.0.0.0 ad.16wan.com
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 cp.1o26.com
 0.0.0.0 gamefiles.qq494.cn
-0.0.0.0 mcsd.qq437.cn
 0.0.0.0 nonoyx.com
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 po.add.tx908.com
