@@ -1,4 +1,4 @@
-;version=201006252138
+;version=201006252230
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -379,9 +379,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 apic.xiyuit.com
 #万维家电
 0.0.0.0 pic.ea3w.com
-#天下网盟
-0.0.0.0 plus.txwm.com
-0.0.0.0 files.txwm.com
 #CSDN
 0.0.0.0 counter.csdn.net
 0.0.0.0 z.csdn.net
@@ -521,6 +518,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wonderadafa7.allyes.com
 #金融界
 0.0.0.0 allyes.jrj.com
+0.0.0.0 aps4.jrjimg.cn
 #证券之星
 0.0.0.0 allyes.stockstar.com
 #中金在线
@@ -582,6 +580,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 embed.xinhuanet.com
 0.0.0.0 entity.xinhuanet.com
 #中华网
+0.0.0.0 csbew.com
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
 #齐鲁网
@@ -1542,32 +1541,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 sddns5.cncmax.cn
 0.0.0.0 sddns7.cncmax.cn
 0.0.0.0 uninewspace.allyes.com
-#亚洲交友
-0.0.0.0 asiafind1.com
-0.0.0.0 asiafriendfinder.com
-#P.cn
-0.0.0.0 search.p.cn
-0.0.0.0 www.p.cn
-#多特软件
-0.0.0.0 www.duote.com
-0.0.0.0 www.duotegame.com
-0.0.0.0 img.duote.com
-#快乐无极
-0.0.0.0 it.oyksoft.com
-0.0.0.0 www.oyksoft.com
-#下载吧
-0.0.0.0 www.xiazaiba.com
-0.0.0.0 xiazaiba.com
-0.0.0.0 xiazai.xiazaiba.com
-#1001下载
-0.0.0.0 www.sz1001.net
-0.0.0.0 soft.sz1001.net
 #脑残网站
 0.0.0.0 smtown.com
 0.0.0.0 superjunior.smtown.com
 #流氓导航
 0.0.0.0 c.999d.com
 0.0.0.0 www.999d.com
+0.0.0.0 search.p.cn
+0.0.0.0 www.p.cn
 0.0.0.0 image.tazhao.com
 0.0.0.0 www.tazhao.com
 0.0.0.0 parking.8d.cn
@@ -1589,6 +1570,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.hao120.cc
 0.0.0.0 m.ttgrs.cn
 0.0.0.0 www.ttgrs.cn
+0.0.0.0 asiafind1.com
+0.0.0.0 asiafriendfinder.com
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
 0.0.0.0 fx.v1kk.com
@@ -1608,7 +1591,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 hz.mmstat.com
 0.0.0.0 img38.my1188.info
 0.0.0.0 wt1.skycn.gogle.cn
-@HostsX 网络广告过滤/弹出视频
+#流氓捆绑
+0.0.0.0 www.duote.com
+0.0.0.0 www.duotegame.com
+0.0.0.0 img.duote.com
+0.0.0.0 it.oyksoft.com
+0.0.0.0 www.oyksoft.com
+0.0.0.0 www.xiazaiba.com
+0.0.0.0 xiazaiba.com
+0.0.0.0 xiazai.xiazaiba.com
+0.0.0.0 www.sz1001.net
+0.0.0.0 soft.sz1001.net
+@HostsX 网络广告过滤/垃圾视频
 #CC视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -1739,6 +1733,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 aimei.donglink.cn
 0.0.0.0 lt.donglink.cn
 0.0.0.0 xnx.donglink.cn
+#Etology
+0.0.0.0 etology.com
 #K261
 0.0.0.0 d.k621.com
 0.0.0.0 www.k621.com
@@ -1795,6 +1791,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 jk.chapm.com
 0.0.0.0 v.9vcpp.cn
 0.0.0.0 www2.9v.cn
+#六度传媒
+0.0.0.0 6dad.com
 #猫猫
 0.0.0.0 www.maomao8.com
 #梦想广告
