@@ -1,4 +1,4 @@
-;version=201006252300
+;version=201006260020
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -922,6 +922,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 count20.51yes.com
 0.0.0.0 count28.51yes.com
 0.0.0.0 count36.51yes.com
+0.0.0.0 count39.51yes.com
 0.0.0.0 count40.51yes.com
 0.0.0.0 countt.51yes.com
 #99click
@@ -1001,6 +1002,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zs1.cnzz.com
 0.0.0.0 zs2.cnzz.com
 0.0.0.0 zs9.cnzz.com
+0.0.0.0 zvs1.cnzz.com
 0.0.0.0 zzdh.cnzz.com
 #Webnibbler
 0.0.0.0 btnibbler.com
@@ -1132,6 +1134,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u5.778669.com
 0.0.0.0 u6.778669.com
 0.0.0.0 u493025.778669.com
+0.0.0.0 u592022.778669.com
 0.0.0.0 u923032.778669.com
 0.0.0.0 u948016.778669.com
 #Adpolestar
