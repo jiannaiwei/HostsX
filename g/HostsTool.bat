@@ -69,12 +69,12 @@ if /i "%all%"=="c" goto clean
 if /i "%all%"=="d" goto delbak
 if /i "%all%"=="e" goto delit
 if /i "%all%"=="f" goto fixhosts
+if /i "%all%"=="g" goto dft
 if /i "%all%"=="h" goto help
 if /i "%all%"=="i" goto iefix
 if /i "%all%"=="o" goto openhosts
 if /i "%all%"=="p" goto Perms
 if /i "%all%"=="q" goto exit
-if /i "%all%"=="r" goto color
 if /i "%all%"=="t" goto thanks
 if /i "%all%"=="u" goto gdft
 if /i "%all%"=="v" goto ver
@@ -164,6 +164,7 @@ attrib +r +a +s %hosts%
 echo y|cacls %hosts% /g everyone:r
 goto pmfinish
 :pmfinish
+echo.
 echo Hosts文件权限设置完成！
 pause
 goto dns
@@ -175,7 +176,7 @@ goto menu
 :help
 cls
 if exist Help.txt type Help.txt|more
-start http://blog.jockwok.com
+start http://blog.jockwok.com/p/g-hosts.html
 mshta vbscript:msgbox("不建议在Hosts文件中添加过多内容！",64,"Hosts")(window.close)
 goto menu
 
@@ -224,6 +225,13 @@ if /i "%all%"=="m" goto MVPShosts
 if /i "%all%"=="s" goto someonewhocares
 
 :dft
+echo 正在连接升级服务器，请稍侯…
+ping hostsx.googlecode.com>nul 2>nul&&goto :dftok
+cls
+echo 无法连接升级服务器！
+echo.
+echo 请检查网络连接或稍后再试！&pause>nul&goto menu
+:dftok
 echo 正在下载中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 echo 数据下载中！&pause
@@ -547,7 +555,6 @@ goto menu
 :addnotrustsite
 mshta vbscript:msgbox("请如下所示： 一行一个网站域名！",64,"Hosts")(window.close)
 echo 下载最新数据，供您参考：
-%down% http://hostsx.googlecode.com/svn/trunk/g/noie.txt
 echo 11.mydrivers.com>1.txt
 echo adcontrol.tudou.com>>1.txt
 echo cpro.baidu.com>>1.txt
@@ -558,7 +565,7 @@ echo pro.letv.com>>1.txt
 echo *.atm.youku.com>>1.txt
 echo *.mediav.com>>1.txt
 echo *.sandai.net>>1.txt
-copy /b 1.txt+down\noie.txt 自定义.txt
+copy 1.txt 自定义.txt
 pause
 start %windir%\notepad.exe 自定义.txt
 echo 请在修改完毕后关闭记事本，并继续下一步。
@@ -860,45 +867,6 @@ echo        修复完毕！
 cls       
 goto menu
 
-:color
-mode con cols=40 lines=18                                
-echo      ---------------------------
-echo       A.黑底绿字   B.黑底湖蓝字
-echo       C.黑底白字   D.红底亮白字
-echo       E.紫底白字   F.亮白底黑字
-echo       G.绿底白字   H.自定义
-echo      ---------------------------
-echo.                                     
-echo  小提示：
-echo ------------------------------------  
-echo   0.黑色1.蓝色2.绿色3.浅绿色4.红色
-echo ------------------------------------
-echo   5.紫色6.黄色7.白色8.灰色9.浅蓝色
-echo ------------------------------------
-echo A.浅绿B.浅蓝C.浅红D.淡紫E.浅黄F.亮白
-echo ------------------------------------
-set input=s
-set /p input=请选择，按[0]返回:
-if %input%==a (
-set ok=1
-color 02
- )else (
-if /i %input%==b color 03
-if /i %input%==c color 07
-if /i %input%==d color 4f
-if /i %input%==e color 5f
-if /i %input%==f color f0
-if /i %input%==g color 2f
-if /i %input%==h GOTO colormy
-if /i %input%==0 GOTO menu
-)
-goto color
-:colormy
-set /p a=请输入背景的颜色代码:
-set /p b=请输入文字的颜色代码:
-color %a%%b%
-pause&goto menu
-
 :gdft
 if not exist down\rd.g call :datadown
 cd down\ >nul 2>nul
@@ -910,8 +878,8 @@ goto Perms
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.7 Freeware Version
-echo Date:       2010.06.25
+echo Version:    1.71 Freeware Version
+echo Date:       2010.06.26
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
 mshta vbscript:msgbox("Thanks 4 using and Hope U Enjoy it!",64,"Hosts")(window.close)
