@@ -4,6 +4,17 @@ mode con: cols=50 lines=16
 color 5f
 if exist HostsTool.bat del HostsTool.bat
 copy down\HostsTool.bat HostsTool.bat
+echo 正在安装IPv6服务：
+ipv6 install
+echo 正在设置路由：
+netsh interface ipv6 6to4 set state disabled
+netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567
+netsh interface ipv6 6to4 set state enabled
+netsh int ipv6 6to4 set relay 6to4.ipv6.microsoft.com
+sc config iphlpsvc start= auto
+net start iphlpsvc
+netsh interface ipv6 6to4 set state disabled
+netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567
 echo 正在刷新dns缓存
 ipconfig /flushdns>nul 2>nul
 echo 正在清理IE缓存...

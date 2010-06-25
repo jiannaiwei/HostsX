@@ -4,7 +4,6 @@ rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
 set downa=wget -nH -N -c -t 10 -w 2 -q -P Acrylic
-
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /s /q echo host hosts>nul 2>nul
 del /f /s /q down\*.*>nul 2>nul
@@ -13,13 +12,10 @@ del backup\*.* /s/q>nul 2>nul
 rd /s /q backup\>nul 2>nul
 rd /s /q down\hosts\>nul 2>nul
 rd /s /q down\>nul 2>nul
-
 rem Wget下载组件检测
-if not exist wget.exe ( start /min iexplore http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe)& (echo 正在下载Wget组件，请保存在当前目录！)&pause else goto sysver 
+if not exist wget.exe ( start /min iexplore http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe)& (echo 正在下载Wget组件，请保存在当前目录！)&pause else goto hostspath
 
 rem 判断操作系统版本，并设置系统默认Hosts文件位置的变量。
-rem 如果Hosts路径判断不正确，请在主界面下输入find显示，然后替换下面的set hosts=和set etc=右面的内容。
-:sysver
 if exist %ComSpec% goto nt else goto 9x
 :9x
 set etc=%windir%\
@@ -37,8 +33,13 @@ set etc=%windir%\system64\drivers\etc
 set hosts=%windir%\system64\drivers\etc\hosts
 goto menu
 
+rem 请删除if exist %ComSpec% 至此行上面的内容，并将获取到的Hosts路径填入下方即可。
+set etc=
+set hosts=
+goto menu
+
 :menu
-mode con cols=71 lines=32
+mode con cols=71 lines=33
 rem 系统文件检测
 if not exist cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&goto sysfile
 rem 解除Hosts只读属性，权限限制
@@ -47,15 +48,15 @@ attrib -r -a -s -h %hosts%
 cls
 title Hosts 小工具
 echo ■───────────────────────────────── ■
-echo.■   1.Hosts文件调整       2.Acrylic+ 调整       3.工具自动更新      ■
+echo.■   1.Hosts文件调整       2.Acrylic+ 调整        3.工具自动更新     ■
 echo ■───────────────────────────────── ■
-echo.■   4.打开Hosts文件       5.Hosts文件整理       6.感谢人员名单      ■
+echo.■   4.打开Hosts文件       5.Hosts文件整理        6.IE 证书管理      ■
 echo ■───────────────────────────────── ■
-echo.■   7.添加IE不信任网址    8.删除IE不信任网址    9.IP 安全策略       ■
+echo.■   7.添加IE不信任网址    8.删除IE不信任网址     9.IP 安全策略      ■
 echo ■-------------------------------------------------------------------■
-echo.■   B.备份Hosts文件       D.删除Hosts备份       F.修复Hosts文件     ■
+echo.■   B.备份Hosts文件       D.删除Hosts备份        F.修复Hosts文件    ■
 echo ■-------------------------------------------------------------------■
-echo.■   O.打开Hosts目录       P.设置Hosts权限       T.IE 证书管理       ■
+echo.■   O.打开Hosts目录       P.设置Hosts权限        T.感谢人员名单     ■
 echo ■-------------------------------------------------------------------■
 echo           今天是:%date% 现在时间:%time%      H.帮助  
 echo ■───────────────────────────────── ■
@@ -70,21 +71,21 @@ if /i "%all%"=="e" goto delit
 if /i "%all%"=="f" goto fixhosts
 if /i "%all%"=="h" goto help
 if /i "%all%"=="i" goto iefix
-if /i "%all%"=="o" goto ophosts
+if /i "%all%"=="o" goto openhosts
 if /i "%all%"=="p" goto Perms
 if /i "%all%"=="q" goto exit
 if /i "%all%"=="r" goto color
-if /i "%all%"=="t" goto Cert
+if /i "%all%"=="t" goto thanks
 if /i "%all%"=="u" goto gdft
 if /i "%all%"=="v" goto ver
-if /i "%all%"=="w" goto find
+if /i "%all%"=="w" goto hostspath
 if /i "%all%"=="x" goto iedefault
 if /i "%all%"=="1" goto choose
 if /i "%all%"=="2" goto Acrylic
 if /i "%all%"=="3" goto update
 if /i "%all%"=="4" goto run
 if /i "%all%"=="5" goto hostsorder
-if /i "%all%"=="6" goto thanks
+if /i "%all%"=="6" goto Cert
 if /i "%all%"=="7" goto addnotrustsite
 if /i "%all%"=="8" goto delnotrustsite
 if /i "%all%"=="9" goto IPSec
@@ -102,7 +103,7 @@ goto menu
 :hostsbak
 echo 对原Hosts进行备份 ...
 md Bak\
-copy /y %hosts% Bak\"Hosts_%bak%" >nul 2>nul
+copy /y %hosts% Bak\"Hosts_%bak%.txt" >nul 2>nul
 echo 备份完成
 pause
 goto menu
@@ -110,8 +111,8 @@ goto menu
 :delbak
 echo 是否删除备份的Hosts文件？
 Pause
-del %etc%\Hosts_* /q >nul 2>nul
-del %etc%\Hosts安装_* /q >nul 2>nul
+del Hosts_* /q >nul 2>nul
+del Hosts安装_* /q >nul 2>nul
 del Bak\*.* /q >nul 2>nul
 echo 由HostsTool备份的Hosts文件已删除！
 Pause
@@ -131,12 +132,12 @@ echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
 echo 还原Hosts文件为系统默认状态。
 goto run
 
-:ophosts
-start explorer %etc%\
-goto menu
-
 :opdp
 start explorer %~dp0
+goto menu
+
+:openhosts
+start explorer %etc%\
 goto menu
 
 :Perms
@@ -603,6 +604,18 @@ wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/g/cacls.exe
 if not exist cacls.exe goto sysfile
 pause&goto menu
 
+:hostspath
+echo 如果HostsTool未能正确获取路径，请切换到程序所在目录。
+echo 正在获取系统Hosts路径
+for /f "tokens=2*" %%a in ('reg query "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DataBasePath" ^|findstr /i "DataBasePath"') do (set "DataBasePath=%%b")
+echo 当前系统的Hosts路径为：>hostspath.txt
+echo %DataBasePath%>>hostspath.txt
+echo 替换下面的set hosts=右面的内容。>>hostspath.txt
+pause
+start %windir%\notepad.exe %0
+start %windir%\notepad.exe %~dp0\hostspath.txt
+exit
+
 :clean 
 title 系统垃圾清除
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -715,7 +728,7 @@ title IE常规修复
 echo.
 echo     修复前，请关闭所有浏览器及其他应用程序窗口！
 pause
-taskkill /F /IM iexplore.exe /T
+taskkill /F /IM iexplore.exe /T>nul 2>nul
 echo        开始修复 IE 及相关的系统设置项目……
 reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
@@ -839,24 +852,13 @@ reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" 
 echo        修复IE工具栏广告
 reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
 reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+echo        修复开始菜单广告
+reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
 echo        修复XP系统验证码显示异常
 reg add "HKCU\SOFTWARE\Microsoft\Internet Explorer\Security" /f /v BlockXBM /t REG_DWORD /d 00000000>nul 2>nul
 echo        修复完毕！
 cls       
 goto menu
-
-:find
-rem 获取系统Hosts路径
-for /f "tokens=2*" %%a in ('reg query "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DataBasePath" ^|findstr /i "DataBasePath"') do (
-	set "DataBasePath=%%b"
-)
-echo 当前系统的Hosts路径为：
-echo %DataBasePath%
-echo %DataBasePath%>>hostspath.txt
-pause
-start %windir%\notepad.exe %0
-start %windir%\notepad.exe %~dp0\hostspath.txt
-exit
 
 :color
 mode con cols=40 lines=18                                
@@ -908,8 +910,8 @@ goto Perms
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.66 Freeware Version
-echo Date:       2010.06.20
+echo Version:    1.7 Freeware Version
+echo Date:       2010.06.25
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
 mshta vbscript:msgbox("Thanks 4 using and Hope U Enjoy it!",64,"Hosts")(window.close)
