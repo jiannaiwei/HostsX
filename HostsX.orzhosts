@@ -1,4 +1,4 @@
-;version=201006262230
+;version=201006262300
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1485,6 +1485,7 @@ ff02::3 ip6-allhosts
 #易告传媒
 0.0.0.0 code.egooad.com
 0.0.0.0 lick.egooad.com
+0.0.0.0 new.egooad.com
 #优质传媒
 0.0.0.0 js.0252.com
 #秒针系统
