@@ -1,4 +1,4 @@
-;version=201006262300
+;version=201006262330
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1780,6 +1780,7 @@ ff02::3 ip6-allhosts
 #艾特效果营销
 0.0.0.0 c.at98.com
 0.0.0.0 js.at98.com
+0.0.0.0 pplive.at98.com
 0.0.0.0 www.at98.com
 #百分百
 0.0.0.0 engine.100fenlm.cn
