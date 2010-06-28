@@ -1,4 +1,4 @@
-;version=201006262330
+;version=201006281500
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1961,6 +1961,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scdown.qq.com
 0.0.0.0 trace.qq.com
 0.0.0.0 dr.soso.com
+0.0.0.0 jzclick.soso.com
 0.0.0.0 pingfore.soso.com
 0.0.0.0 v3.toolbar.soso.com
 0.0.0.0 toolbar.soso.com
