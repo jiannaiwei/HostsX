@@ -1,4 +1,4 @@
-;version=201006281500
+;version=201006292030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1593,6 +1593,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 asiafriendfinder.com
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
+0.0.0.0 zx.98712.com
 0.0.0.0 fx.v1kk.com
 0.0.0.0 hjmg.930114.com
 0.0.0.0 shop.hoo6.com
@@ -1600,7 +1601,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.juyuan.com
 0.0.0.0 www.xgjgw.com
-0.0.0.0 zx.98712.com
+0.0.0.0 xinw.net
 #病毒下载
 0.0.0.0 down.jghdtv.com
 0.0.0.0 download.duozz.com
@@ -1991,9 +1992,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 update.111222.cn
 #Qvod
 0.0.0.0 110.qvod.com
+0.0.0.0 buffer-ad.qvod.com
 0.0.0.0 insert-ad.qvod.com
 0.0.0.0 text-ad.qvod.com
-0.0.0.0 buffer-ad.qvod.com
+0.0.0.0 qvodlink.hco.cc
+0.0.0.0 searchstat.kuaibo.com
 #SopCast
 0.0.0.0 home.sopserv.com
 #UUSee
