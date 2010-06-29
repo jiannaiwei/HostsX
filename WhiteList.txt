@@ -1,4 +1,4 @@
-2010-06-24:
+2010-06-29:
 
 功能影响:
 Google Api:
@@ -35,6 +35,8 @@ us.lrd.yahoo.com     （雅虎新邮箱跳转）
 0.0.0.0 pinyin.sogou.com
 #迅雷（客户端消息提示）
 0.0.0.0 msg.client.xunlei.com
+#Microsoft（部分链接跳转）
+0.0.0.0 view.atdmt.com
 网站误杀:
 www.in9.cn
 bt.ktxp.com
