@@ -1,12 +1,14 @@
-;version=201006292300
+;version=201007011600
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
 127.0.0.1       localhost
+#Microsoft Windows
 ::1             localhost
 127.0.0.1 localhost.localdomain localhost
 #Ubuntu Ipv6
-::1 ip6-localhost ip6-loopback
+127.0.1.1	此处填写您的Ubuntu计算机名称
+::1 localhost ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
