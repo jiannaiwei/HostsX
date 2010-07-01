@@ -1,4 +1,4 @@
-;version=201007011600
+;version=201007020100
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1592,6 +1592,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ttgrs.cn
 0.0.0.0 asiafind1.com
 0.0.0.0 asiafriendfinder.com
+0.0.0.0 pp9a.com
+0.0.0.0 www.pp9a.com
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
 0.0.0.0 zx.98712.com
