@@ -34,6 +34,7 @@ reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" 
 echo        修复IE工具栏广告
 reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
 reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\soft.winzheng.com" /v "*" /t REG_DWORD /d 4 /f
 cls
 title Enjoy The New Version HostsTool !
 mshta vbscript:msgbox("建议使用新版在线更新一次数据！",64,"更新完成！")(window.close)
