@@ -1,4 +1,4 @@
-;version=201007021930
+;version=201007031350
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -428,6 +428,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
 0.0.0.0 imgcache.7pk.com
+0.0.0.0 new.7pk.com
+0.0.0.0 s.7pk.com
+0.0.0.0 safe.7pk.com
 0.0.0.0 taobao.7pk.com
 #九城
 0.0.0.0 allyes.the9.com
