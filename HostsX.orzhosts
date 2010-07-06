@@ -1,4 +1,4 @@
-;version=201007031350
+;version=201007061700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1610,6 +1610,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xinw.net
 0.0.0.0 www.uniqlo.jp
 #病毒下载
+0.0.0.0 down.2345g.info
 0.0.0.0 down.jghdtv.com
 0.0.0.0 download.duozz.com
 0.0.0.0 gb.36578.com
@@ -1875,6 +1876,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.qyclick.com
 #一路发联盟
 0.0.0.0 www.168un.com
+#一起赢
+0.0.0.0 ww.yiqiwin.com
+0.0.0.0 www.yiqiwin.com
 #悠易互通
 0.0.0.0 amps.yoyi.com.cn
 0.0.0.0 www.yoyi.com.cn
