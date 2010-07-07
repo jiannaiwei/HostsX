@@ -1,4 +1,4 @@
-;version=201007061700
+;version=201007071100
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -738,6 +738,7 @@ ff02::3 ip6-allhosts
 @HostsX 网络广告过滤/国外广告
 #国外常见广告
 0.0.0.0 ad.adtegrity.net
+0.0.0.0 ads.asp.net
 0.0.0.0 adtech.panthercustomer.com
 0.0.0.0 as.casalemedia.com
 0.0.0.0 banner.hosteurope.de
