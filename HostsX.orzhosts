@@ -1,4 +1,4 @@
-;version=201007071100
+;version=201007071515
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -451,6 +451,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bill.tgbus.com
 0.0.0.0 g.tgbus.com
 0.0.0.0 g.tgbusdata.cn
+#Cngba
+0.0.0.0 js.adm.cngba.com
 @HostsX 站点广告过滤/小说类网站
 #17K小说
 0.0.0.0 ad.17k.com
@@ -588,7 +590,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 embed.xinhuanet.com
 0.0.0.0 entity.xinhuanet.com
 #中华网
-0.0.0.0 csbew.com
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
 #齐鲁网
@@ -1391,6 +1392,9 @@ ff02::3 ip6-allhosts
 #Barmms
 0.0.0.0 barmms.com
 0.0.0.0 i.barmms.com
+#Buzz-time
+0.0.0.0 a.buzz-time.com.cn
+0.0.0.0 ad.buzz-time.com.cn
 #Chinaih
 0.0.0.0 admin.haodong.net
 0.0.0.0 ad.chinaih.com
@@ -1406,9 +1410,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 w3.chinaih.com
 0.0.0.0 www.chinaih.com
 0.0.0.0 wy.chinaih.com
-#buzz-time
-0.0.0.0 a.buzz-time.com.cn
-0.0.0.0 ad.buzz-time.com.cn
+#Csbew
+0.0.0.0 afp.csbew.com
+0.0.0.0 csbew.com
+0.0.0.0 customer.csbew.com
+0.0.0.0 static.csbew.com
 #Mediav
 0.0.0.0 click.mediav.com
 0.0.0.0 static.mediav.com
@@ -1737,6 +1743,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.16wan.com
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 cp.1o26.com
+0.0.0.0 g.xuanyx.com
 0.0.0.0 gamefiles.qq494.cn
 0.0.0.0 nonoyx.com
 0.0.0.0 p.3gm.com.cn
@@ -1750,6 +1757,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tg3.subo.me
 0.0.0.0 u.7town.com
 0.0.0.0 ww.jinzhao99.com
+0.0.0.0 www.kfwan.com
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.wooigoo.cn
 @HostsX 网络广告过滤/其他
