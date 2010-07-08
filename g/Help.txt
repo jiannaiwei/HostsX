@@ -31,12 +31,9 @@ Acrylic安装使用说明：
 
 Ubuntu下修改Hosts:
 注意：请务必保留一行：
-127.0.0.1 “ 你的用户名！”
+127.0.1.1 “ 您的Ubuntu计算机名称！”
 1、修改hosts: sudo gedit /etc/hosts
-2、添加解析记录
-完整案例：127.0.0.1 localhost.localdomain localhost
-简洁记录：127.0.0.1 localhost
-3、保存后重启网络: sudo /etc/init.d/networking restart
+2、保存后重启网络: sudo /etc/init.d/networking restart
 
 !Ubuntu关闭IPv6
 编辑 /etc/modprobe.d/aliases
