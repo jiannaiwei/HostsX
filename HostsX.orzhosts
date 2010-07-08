@@ -1,14 +1,5 @@
 ;version=201007081800
 ;author=郭鹏锟（JocKwok）
-;help=20100708
-File Location:
-Windows9x: %windir%\hosts
-Windows32: %windir%\system32\drivers\etc\hosts
-Windows64: %windir%\system64\drivers\etc\hosts
-Ubuntu:    sudo gedit /etc/hosts
- 重启网络：sudo /etc/init.d/networking restart
-Mac:       sudo niload -v -m hosts
-对于广告屏蔽建议使用0.0.0.0，对于验证屏蔽建议使用127.0.0.1
 @HostsX 站点智能转向
 #Localhost Common
 127.0.0.1       localhost

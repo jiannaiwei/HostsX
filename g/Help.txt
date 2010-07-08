@@ -17,6 +17,18 @@ HostsTool命令快捷键：
 2.迅雷看看目前使用了泛域名技术，单纯的Hosts过滤
 已经很难起作用，建议配合世界之窗等的广告过滤一起使用。
 --------------------------------------------------------
+File Location:
+Windows9x: %windir%\hosts
+Windows32: %windir%\system32\drivers\etc\hosts
+Windows64: %windir%\system64\drivers\etc\hosts
+Ubuntu:    sudo gedit /etc/hosts
+ 重启网络：sudo /etc/init.d/networking restart
+Mac:       sudo niload -v -m hosts
+对于广告屏蔽建议使用0.0.0.0，对于验证屏蔽建议使用127.0.0.1
+--------------------------------------------------------
+!Ubuntu关闭IPv6
+编辑 /etc/modprobe.d/aliases
+修改:alias net-pf-10 ipv6 为:alias net-pf-10 off
 
 Acrylic安装使用说明：
 在cmd下运行ipconfig /all
@@ -27,17 +39,6 @@ Acrylic安装使用说明：
 3.修改你的本地连接里面的 DNS 地址：在控制面板找到网络连接，选中 TCP/IP，点击属性，勾选使用下面的 DNS 服务器地址，在首选 DNS 服务器里输入 127.0.0.1; 
 
 4.保存之后运行AcrylicTool.bat即可; 
---------------------------------------------------------
-
-Ubuntu下修改Hosts:
-注意：请务必保留一行：
-127.0.1.1 “ 您的Ubuntu计算机名称！”
-1、修改hosts: sudo gedit /etc/hosts
-2、保存后重启网络: sudo /etc/init.d/networking restart
-
-!Ubuntu关闭IPv6
-编辑 /etc/modprobe.d/aliases
-修改:alias net-pf-10 ipv6 为:alias net-pf-10 off
 --------------------------------------------------------
 黑底湖蓝字(03)  黑底白字(07) 红底亮白字(4f) 
 
