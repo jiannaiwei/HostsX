@@ -1,6 +1,7 @@
 ;version=201007081800
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;help=20100708
+File Location:
 Windows9x: %windir%\hosts
 Windows32: %windir%\system32\drivers\etc\hosts
 Windows64: %windir%\system64\drivers\etc\hosts
