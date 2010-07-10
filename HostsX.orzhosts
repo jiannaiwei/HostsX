@@ -1,4 +1,4 @@
-;version=201007091800
+;version=201007101230
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -2486,20 +2486,12 @@ ff02::3 ip6-allhosts
 0.0.0.0	acdupdater.acdsystems.com
 0.0.0.0	soapintouch.acdnet.com
 #Adobe
-0.0.0.0 3dns-2.adobe.com
-0.0.0.0 3dns-3.adobe.com
-0.0.0.0 activate-sea.adobe.com
-0.0.0.0 activate-sjc0.adobe.com
-0.0.0.0 activate.adobe.com
-0.0.0.0 adobe-dns-2.adobe.com
-0.0.0.0 adobe-dns-3.adobe.com
-0.0.0.0 adobe-dns.adobe.com
-0.0.0.0 ereg.adobe.com
-0.0.0.0 ns.adobe.com
-0.0.0.0 practivate.adobe.com
-0.0.0.0 wip3.adobe.com
-0.0.0.0 wwis-dubc1-vip60.adobe.com
-0.0.0.0 www.adobeereg.com
+127.0.0.1 activate.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ns.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 www.adobeereg.com
 #Aignes（WebSite-Watcher）
 0.0.0.0 aignes.com
 0.0.0.0 aignes.net
