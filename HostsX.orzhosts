@@ -1,4 +1,4 @@
-;version=201007101230
+;version=201007101300
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -2333,7 +2333,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 njs.dw.hiido.cn
 #腾讯QQ
 0.0.0.0 cache.tv.qq.com
-0.0.0.0 2052.flash2-http.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com

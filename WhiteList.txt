@@ -1,4 +1,4 @@
-2010-07-08:
+2010-07-10:
 
 功能影响:
 Google Api:
@@ -6,6 +6,7 @@ ajax.googleapis.com  （灵格斯词霸等）
 百度:
 hiphotos.baidu.com   （百度空间图片）
 QQ:
+2052.flash2-http.qq.com （QQ秀）
 pingjs.qq.com        （WebQQ登录问题）
 dl_dir.qq.com        （无法下载软件）
 驱动之家:
