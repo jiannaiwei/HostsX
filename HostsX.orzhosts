@@ -1,4 +1,4 @@
-;version=201007101300
+;version=201007101500
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -2508,15 +2508,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ns6.gandi.net
 0.0.0.0 reverse.privatedns.com
 #Alcohol
-0.0.0.0 forum.alcohol-soft.com
-0.0.0.0 images.alcohol-soft.com
-0.0.0.0 serial.alcohol-soft.com
-0.0.0.0 shop.alcohol-soft.com
-0.0.0.0 support.alcohol-soft.com
-0.0.0.0 trial.alcohol-soft.com
-0.0.0.0 users.alcohol-soft.com
-0.0.0.0 vodka.alcohol-soft.com
-0.0.0.0 www.alcohol-soft.com
+127.0.0.1 images.alcohol-soft.com
+127.0.0.1 serial.alcohol-soft.com
+127.0.0.1 shop.alcohol-soft.com
+127.0.0.1 support.alcohol-soft.com
+127.0.0.1 trial.alcohol-soft.com
+127.0.0.1 users.alcohol-soft.com
+127.0.0.1 vodka.alcohol-soft.com
+127.0.0.1 www.alcohol-soft.com
 #Ashampoo
 0.0.0.0	licenses.ashampoo.com
 #CuteFTP
