@@ -1,4 +1,4 @@
-;version=201007101500
+;version=201007121600
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -208,15 +208,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinasc.allyes.com
 #雅虎中国
-0.0.0.0 js.tongji.yahoo.com.cn
-0.0.0.0 js.tongji.cn.yahoo.com
 0.0.0.0 api.ads.vip.cnh.yahoo.com
 0.0.0.0 cm.p4p.cn.yahoo.com
 0.0.0.0 cn.adserver.yahoo.com
 0.0.0.0 cn.promo.yahoo.com
 0.0.0.0 cn.rd.yahoo.com
+0.0.0.0 js.tongji.cn.yahoo.com
+0.0.0.0 js.tongji.yahoo.com.cn
 0.0.0.0 new.rd.cn.yahoo.com
+0.0.0.0 p3p.yahoo.com
 0.0.0.0 union.yahoo.com.cn
+0.0.0.0 yahoo.webdissector.com
 #搜狐
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 cpc.sohu.com
@@ -1982,6 +1984,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hz.mmstat.com
 0.0.0.0 img38.my1188.info
 0.0.0.0 qqhdx.cn
+0.0.0.0 soft.ie222.com
 0.0.0.0 taojin.18ii.info
 0.0.0.0 wt1.skycn.gogle.cn
 0.0.0.0 www.001cndc.cn
@@ -1990,6 +1993,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ie9down.info
 0.0.0.0 www.mycar021.com
 0.0.0.0 www.qq-2010f.com
+0.0.0.0 www.xp500.com
+0.0.0.0 www.zgsj.com
 0.0.0.0 www.zhutizi.com
 #流氓捆绑
 0.0.0.0 www.duote.com
