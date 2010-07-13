@@ -48,7 +48,7 @@ attrib -r -a -s -h %hosts%
 cls
 title Hosts 小工具
 echo ■───────────────────────────────── ■
-echo.■   1.Hosts文件调整       2.Acrylic+ 调整        3.工具自动更新     ■
+echo.■   1.Hosts文件调整       2.Acrylic+ 调整        3.在线升级         ■
 echo ■───────────────────────────────── ■
 echo.■   4.打开Hosts文件       5.Hosts文件整理        6.IE 证书管理      ■
 echo ■───────────────────────────────── ■
@@ -526,7 +526,7 @@ goto menu
 
 :addnotrustsite
 mshta vbscript:msgbox("请如下所示： 一行一个网站域名！",64,"Hosts")(window.close)
-echo 下载最新数据，供您参考：
+echo 以下数据，供您参考：
 echo 11.mydrivers.com>1.txt
 echo adcontrol.tudou.com>>1.txt
 echo gimg.iqilu.com>>1.txt

@@ -11,8 +11,8 @@ netsh interface ipv6 6to4 set state disabled>nul 2>nul
 netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567>nul 2>nul
 netsh interface ipv6 6to4 set state enabled>nul 2>nul
 netsh int ipv6 6to4 set relay 6to4.ipv6.microsoft.com>nul 2>nul
-sc config iphlpsvc start= auto>nul 2>nul
-net start iphlpsvc>nul 2>nul
+sc config iphlpsvc start= auto >nul 2>nul
+net start iphlpsvc >nul 2>nul
 netsh interface ipv6 6to4 set state disabled>nul 2>nul
 netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567>nul 2>nul
 echo 正在刷新dns缓存
@@ -34,7 +34,6 @@ reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" 
 echo        修复IE工具栏广告
 reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
 reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\soft.winzheng.com" /v "*" /t REG_DWORD /d 4 /f
 echo 清除SOGOU搜狗的IE加载项so.dll 
 regsvr32 /u /s so.dll
 del /f %windir%\system32\so.dll>nul 2>nul
