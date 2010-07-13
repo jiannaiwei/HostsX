@@ -192,9 +192,9 @@ echo ☆Single Data:
 echo.     4.广告联盟        5.站点过滤        6.软件屏蔽        
 echo.    
 echo ◎Mwsl Data:                                              
-echo. Cn：7.MWSL实验室      8.Formynet        9.死性不改       
+echo. Cn：7.MWSL实验室             
 echo.
-echo. En：M.MVPS            S.SomeOneWhoCares                       
+echo. En：8.MVPS            9.SomeOneWhoCares                       
 echo.   
 echo ☆User Data:                                              
 echo.     A.添加屏蔽网站                B.屏蔽自定义数据        
@@ -215,14 +215,12 @@ if /i "%all%"=="4" goto union
 if /i "%all%"=="5" goto site
 if /i "%all%"=="6" goto soft
 if /i "%all%"=="7" goto mwslcn
-if /i "%all%"=="8" goto formynet
-if /i "%all%"=="9" goto clxp
+if /i "%all%"=="8" goto MVPShosts
+if /i "%all%"=="9" goto someonewhocares
 if /i "%all%"=="a" goto add
 if /i "%all%"=="b" goto myfile
 if /i "%all%"=="c" goto clearadd
 if /i "%all%"=="d" goto accelerate
-if /i "%all%"=="m" goto MVPShosts
-if /i "%all%"=="s" goto someonewhocares
 
 :dft
 echo 正在连接升级服务器，请稍侯…
@@ -288,32 +286,6 @@ echo 正在下载中，请稍候... ...
 echo 下载完成，是否要使用 "恶意网站实验室" 整理的Hosts数据？
 pause
 copy down\mwsl.txt %hosts%
-goto Perms
-
-:formynet
-echo 正在下载中，请稍候... ...
-%down% http://www.formynet.cn/web/ljwz.txt
-echo 下载完成，是否要使用 "formynet" 整理的Hosts数据？
-pause
-copy down\ljwz.txt %hosts%
-start http://www.formynet.cn/
-goto Perms
-
-:clxp
-echo 正在下载中，请稍候... ...
-%down% ftp://hosts:hosts@clxp.vicp.cc/hosts
-copy down\hosts 1.txt
-echo.>go.txt
-echo **********Clxp恶意网站屏蔽数据（包含最新的网马利用或病毒下载地址）***********>>go.txt
-echo 正在对恶意网站数据进行整理和精简......
-echo 请稍候......
-for /f "tokens=1,2 skip=11" %%i in (1.txt) do @echo %%i %%j>>clxp.txt
-cls
-echo 整理完成! 
-echo 是否要使用 "死性不改" 整理的Hosts数据？
-pause
-copy /b go.txt+clxp.txt hbhosts.txt
-copy hbhosts.txt %hosts%
 goto Perms
 
 :MVPShosts
@@ -557,17 +529,14 @@ mshta vbscript:msgbox("请如下所示： 一行一个网站域名！",64,"Hosts")(window.close
 echo 下载最新数据，供您参考：
 echo 11.mydrivers.com>1.txt
 echo adcontrol.tudou.com>>1.txt
-echo cpro.baidu.com>>1.txt
-echo drmcmm.baidu.com>>1.txt
 echo gimg.iqilu.com>>1.txt
 echo images.sohu.com>>1.txt
 echo pro.letv.com>>1.txt
 echo *.atm.youku.com>>1.txt
 echo *.mediav.com>>1.txt
 echo *.sandai.net>>1.txt
-copy 1.txt 自定义.txt
 pause
-start %windir%\notepad.exe 自定义.txt
+start %windir%\notepad.exe 1.txt
 echo 请在修改完毕后关闭记事本，并继续下一步。
 echo 请注意备份 自定义.txt 中的的数据！！！
 echo 确定要使用自定义的IE不信任网址数据？
@@ -575,7 +544,7 @@ pause
 echo       正在添加恶意网址到浏览器非安全区域。
 echo       这个过程需要几分钟，请稍候……
 set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
-for /F %%a in (自定义.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
+for /F %%a in (1.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
 echo       添加完毕……
 pause
 goto menu
@@ -588,18 +557,16 @@ goto menu
 
 :IPSec
 mode con: cols=55 lines=18
-echo IP 安全策略 由死性不改发布，现在已经停止更新！
-echo 是否继续？
+echo IP 安全策略（可以用来封IP和端口！）
 pause
 sc create PolicyAgent binpath= "C:\WINDOWS\system32\lsass.exe" type= share start= auto displayname= "IPSEC Services" depend= RPCSS/IPSec
 sc description PolicyAgent "提供 TCP/IP 网络上客户端和服务器之间端对端的安全。如果此服务被停用，网络上客户端和服务器之间的 TCP/IP 安全将不稳定。如果此服务被禁用，任何依赖它的服务将无法启动。"
 if not exist ipseccmd.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/g/ipseccmd.exe
 echo 正在下载中，请稍候... ...
-wget -nH -N -c ftp://hosts:hosts@clxp.vicp.cc/禁止IP列表.txt
-echo 是否要使用 "死性不改" 整理的IP安全策略？
-pause
+wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/g/ipblock.txt
+echo 你可以手动编辑，然后按提示继续&start %windir%\notepad.exe ipblock.txt&echo 是否要使用IP安全策略？&pause
 ipseccmd -w reg -p ipsce -y
-FOR /f "skip=1 delims= " %%i IN (禁止IP列表.txt) DO call set list=%%list%% %%i
+FOR /f "skip=1 delims= " %%i IN (ipblock.txt) DO call set list=%%list%% %%i
 ipseccmd -w reg -p ipsec:1 -r filterlist -f %list% -n BLOCK -x >nul
 ipseccmd  -w REG -p "ipsec" -x >nul
 gpupdate >nul
@@ -878,8 +845,8 @@ goto Perms
 :ver
 mode con cols=45 lines=15
 title Thx All Friends Help
-echo Version:    1.721 Freeware Version
-echo Date:       2010.07.03
+echo Version:    1.75 Freeware Version
+echo Date:       2010.07.13
 echo Purpose:    Hosts相关的P处理工具
 echo COPYRIGHT:  OrzTech, Inc. By 郭郭
 mshta vbscript:msgbox("Thanks 4 using and Hope U Enjoy it!",64,"Hosts")(window.close)

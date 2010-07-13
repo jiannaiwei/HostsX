@@ -5,16 +5,16 @@ color 5f
 if exist HostsTool.bat del HostsTool.bat
 copy down\HostsTool.bat HostsTool.bat
 echo 正在安装IPv6服务：
-ipv6 install
+ipv6 install>nul 2>nul
 echo 正在开启Ipv6相关支持：
-netsh interface ipv6 6to4 set state disabled
-netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567
-netsh interface ipv6 6to4 set state enabled
-netsh int ipv6 6to4 set relay 6to4.ipv6.microsoft.com
-sc config iphlpsvc start= auto
-net start iphlpsvc
-netsh interface ipv6 6to4 set state disabled
-netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567
+netsh interface ipv6 6to4 set state disabled>nul 2>nul
+netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567>nul 2>nul
+netsh interface ipv6 6to4 set state enabled>nul 2>nul
+netsh int ipv6 6to4 set relay 6to4.ipv6.microsoft.com>nul 2>nul
+sc config iphlpsvc start= auto>nul 2>nul
+net start iphlpsvc>nul 2>nul
+netsh interface ipv6 6to4 set state disabled>nul 2>nul
+netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567>nul 2>nul
 echo 正在刷新dns缓存
 ipconfig /flushdns>nul 2>nul
 echo 正在清理IE缓存...
@@ -35,6 +35,14 @@ echo        修复IE工具栏广告
 reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
 reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\soft.winzheng.com" /v "*" /t REG_DWORD /d 4 /f
+echo 清除SOGOU搜狗的IE加载项so.dll 
+regsvr32 /u /s so.dll
+del /f %windir%\system32\so.dll>nul 2>nul
+reg delete HKCR\NetCafeHlp.AddrHelper /f>nul 2>nul
+reg delete HKCR\NetCafeHlp.AddrHelper.1 /f>nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\URLSearchHooks" /v {02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f>nul 2>nul
+reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f>nul 2>nul
+reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072}" /f>nul 2>nul
 cls
 title Enjoy The New Version HostsTool !
 mshta vbscript:msgbox("建议使用新版在线更新一次数据！",64,"更新完成！")(window.close)
