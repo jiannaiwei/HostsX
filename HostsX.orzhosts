@@ -1,4 +1,4 @@
-;version=201007121600
+;version=201007131220
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -2113,6 +2113,9 @@ ff02::3 ip6-allhosts
 #QQ437
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 mcsd.qq437.cn
+#Kfwan
+0.0.0.0 u.kfwan.com 
+0.0.0.0 www.kfwan.com
 #其他游戏广告
 0.0.0.0 abc.96pk.com
 0.0.0.0 ad.16wan.com
@@ -2134,8 +2137,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tg3.subo.me
 0.0.0.0 u.7town.com
 0.0.0.0 ww.jinzhao99.com
-0.0.0.0 ww.yiqiwin.com 
-0.0.0.0 www.kfwan.com
+0.0.0.0 ww.yiqiwin.com
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.shumenol.com
 0.0.0.0 www.wooigoo.cn

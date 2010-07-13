@@ -1,12 +1,13 @@
 #Google和各种网站的IPv6服务hosts   
 #利用IPv6技术翻墙，保证Google服务可用，校园网用户使用IPv6应该不收取上网费用（至少我们学校如此）
 #本文的发布地址：http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
-#大幅更新！请往下看！所有GoogleIPv6地址变更！支持https加密！
-#6/19更新dir.google.com directory.google.com commondatastorage.googleapis.com linkhelp.clients.google.com docs0.google.com
+#欢迎穿越传阅
 #6/28更新encrypted.google.com spreadsheet2.google.com 及部分高校 ipv6 网络电视
 #顺便提供能够解析出Google的IPv6地址的DNS服务器(因提供这些服务器的ISP已经加入Google over IPv6计划)，这样不需要修改hosts，只需改变本机DNS设置就可以自动将Google域名解析为IPv6地址了。
 #2001:470:20::2 (v6)
 #74.82.42.42 (v4)
+#由HE提供。当然在内地使用IPv4的DNS会出问题。(by www.lostriver.net)(另外用这个对某些Google的功能还是有些支持不足（无法访问scholar.google.com，groups.google.com，desktop.google.com等等，也并非最快速连接地址，可以和本host文件配合使用）
+--------------------------------------------------------------------------------
 127.0.0.1       localhost 
 ::1             localhost
 ###Google网站
@@ -59,11 +60,11 @@
 2a00:1450:8006::30 www.google.co.jp
 #IPv6：ipv6.google.co.jp
 ##
-2404:6800:8005::20 www.google.com.tr 土耳其
-2404:6800:8005::21 www.google.com.au 澳大利亚
-2404:6800:8005::22 www.google.com.vn 越南
-2404:6800:8005::23 www.google.com.pk 巴基斯坦
-2404:6800:8005::24 www.google.com.my 马来西亚
+2404:6800:8005::20 www.google.com.tr #土耳其
+2404:6800:8005::21 www.google.com.au #澳大利亚
+2404:6800:8005::22 www.google.com.vn #越南
+2404:6800:8005::23 www.google.com.pk #巴基斯坦
+2404:6800:8005::24 www.google.com.my #马来西亚
 2404:6800:8005::25 www.google.com.pe
 2404:6800:8005::26 www.google.co.za
 2404:6800:8005::27 www.google.co.ve
@@ -71,30 +72,30 @@
 2404:6800:8005::29 www.google.com.ar
 2404:6800:8005::2a www.google.co.nz
 2404:6800:8005::2b www.google.lt
-#2404:6800:8005::2c www.google.cn     中国（已死）
-2404:6800:8005::2d www.google.com.sg
-2404:6800:8005::2e www.google.com.hk 香港
-2404:6800:8005::2f www.google.com.tw 台湾
-2404:6800:8005::30 www.google.co.jp  日本
+#2404:6800:8005::2c www.google.cn     #中国（已死）
+2404:6800:8005::2d www.google.com.sg #新加坡
+2404:6800:8005::2e www.google.com.hk #香港
+2404:6800:8005::2f www.google.com.tw #台湾
+2404:6800:8005::30 www.google.co.jp  #日本
 2404:6800:8005::31 www.google.ae
-2404:6800:8005::32 www.google.co.uk  英国
+2404:6800:8005::32 www.google.co.uk  #英国
 2404:6800:8005::33 www.google.com.gr
-2404:6800:8005::34 www.google.de 
+2404:6800:8005::34 www.google.de
 2404:6800:8005::35 www.google.co.il
-2404:6800:8005::36 www.google.fr     法国
-2404:6800:8005::38 www.google.it
+2404:6800:8005::36 www.google.fr     #法国
+2404:6800:8005::38 www.google.it     #意大利
 2404:6800:8005::39 www.google.lv
 2404:6800:8005::3a www.google.ca
 2404:6800:8005::3b www.google.pl
 2404:6800:8005::3c www.google.ch
 2404:6800:8005::3d www.google.ro
-2404:6800:8005::3e www.google.nl
-2404:6800:8005::3f www.google.com.ru
-2404:6800:8005::40 www.google.at     奥地利
+2404:6800:8005::3e www.google.nl     #荷兰
+2404:6800:8005::3f www.google.com.ru #俄罗斯
+2404:6800:8005::40 www.google.at     #奥地利
 2404:6800:8005::42 www.google.be
 2404:6800:8005::44 www.google.co.kr
 2404:6800:8005::45 www.google.com.ua
-2404:6800:8005::48 www.google.fi     芬兰
+2404:6800:8005::48 www.google.fi     #芬兰
 2404:6800:8005::49 www.google.co.in
 2404:6800:8005::4a www.google.pt
 2404:6800:8005::4b www.google.com.ly
@@ -1022,8 +1023,9 @@
 2610:d0:face::9 www.lisp6.facebook.com
 2610:d0:face::9 m.lisp6.facebook.com
 #Facebook CDN
-2620:0:1cfe:face:b00c::3 static.ak.fbcdn.net    #网站资源（图像、脚本等）
+#2620:0:1cfe:face:b00c::3 static.ak.fbcdn.net          #网站资源（图像、脚本等）新机制尚未部署至 ipv6
 2620:0:1cfe:face:b00c::4 s-static.ak.facebook.com #https 连接用网站资源
+#88.221.84.18 static.ak.fbcdn.net                      #网站资源（图像、脚本等），新机制暂无 ipv6 入口
 #140.174.24.192 profile.ak.fbcdn.net                   #用户资源（头像等），暂无 ipv6 入口
 #194.209.253.57 creative.ak.fbcdn.net                  #活动资源，暂无 ipv6 入口
 ##France                                               法国

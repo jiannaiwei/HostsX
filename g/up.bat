@@ -6,7 +6,7 @@ if exist HostsTool.bat del HostsTool.bat
 copy down\HostsTool.bat HostsTool.bat
 echo 正在安装IPv6服务：
 ipv6 install
-echo 正在设置路由：
+echo 正在开启Ipv6相关支持：
 netsh interface ipv6 6to4 set state disabled
 netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567
 netsh interface ipv6 6to4 set state enabled

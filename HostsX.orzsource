@@ -1,18 +1,13 @@
-;version=2010071000
+;version=2010071300
 -
 IPV6版智能转向数据`http://hostsx.googlecode.com/svn/trunk/ipv6.txt
 -
 注意：以下的恶意网站数据建议只使用一种！！！
 -
 恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/mwsl.txt
-Formynet 版垃圾网站屏蔽数据`http://www.formynet.cn/web/ljwz.txt
-死性不改版 Hosts 反黑数据`ftp://hosts:hosts@clxp.vicp.cc/hosts
--
 MVPS.org 版数据`http://www.mvps.org/winhelp2002/hosts.txt
 SomeoneWhoCares.org 版数据`http://someonewhocares.org/hosts/hosts
 -
 注意：使用Acrylic数据必须安装Acrylic支持组件！！！
 Acrylic广告屏蔽数据（通配符版）`http://hostsx.googlecode.com/svn/trunk/AcrylicHosts.txt
 Acrylic支持组件下载：http://goo.gl/Kocp
--
-广告联盟增强版 （配合HostsX数据使用）`http://hostsx.googlecode.com/svn/trunk/UnionPlus.txt
