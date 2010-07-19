@@ -1,4 +1,4 @@
-;version=201007182200
+;version=201007191606
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -875,9 +875,34 @@ ff02::3 ip6-allhosts
 0.0.0.0 adserving.cpxinteractive.com
 0.0.0.0 panther1.cpxinteractive.com
 0.0.0.0 www.cpxinteractive.com
-#Doubleclick
+#FoxAudienceNetwork
+0.0.0.0 demr.opt.fimserve.com
+0.0.0.0 trgc.opt.fimserve.com
+#Google AdWord
+0.0.0.0 adwords.google.com
+0.0.0.0 adwords.google.sk
+#oogle AdSense
+0.0.0.0 adservices.google.com
+0.0.0.0 pagead.google.com
+0.0.0.0 pagead.l.google.com
+0.0.0.0 static.googleadsserving.cn
+0.0.0.0 afs.googleadservices.com
+0.0.0.0 feedads.googleadservices.com
+0.0.0.0 imageads.googleadservices.com
+0.0.0.0 imageads1.googleadservices.com
+0.0.0.0 imageads2.googleadservices.com
+0.0.0.0 imageads3.googleadservices.com
+0.0.0.0 imageads4.googleadservices.com
+0.0.0.0 imageads5.googleadservices.com
+0.0.0.0 imageads6.googleadservices.com
+0.0.0.0 imageads7.googleadservices.com
+0.0.0.0 imageads8.googleadservices.com
+0.0.0.0 imageads9.googleadservices.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 www.googleadservices.com
+#Google Doubleclick
 0.0.0.0 ad-apac.doubleclick.net
-0.0.0.0 ad-g.doubleclick.net
 0.0.0.0 ad-g.doubleclick.net
 0.0.0.0 ad.ca.doubleclick.net
 0.0.0.0 ad.cn.doubleclick.net
@@ -896,52 +921,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 feedads.g.doubleclick.net
 0.0.0.0 fls.uk.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 ln.doubleclick.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 pubads.g.doubleclick.net
-#FoxAudienceNetwork
-0.0.0.0 demr.opt.fimserve.com
-0.0.0.0 trgc.opt.fimserve.com
-#Google AdSense
-0.0.0.0 adservices.google.com
-0.0.0.0 adwords.google.com
-0.0.0.0 adwords.google.sk
-0.0.0.0 afs.googleadservices.com
+#GoogleSyndication
 0.0.0.0 buttons.googlesyndication.com
 0.0.0.0 domains.googlesyndication.com
-0.0.0.0 feedads.googleadservices.com
 0.0.0.0 googlesyndication.com
-0.0.0.0 gsamplemaps.googlepages.com
-0.0.0.0 imageads.googleadservices.com
-0.0.0.0 imageads1.googleadservices.com
-0.0.0.0 imageads2.googleadservices.com
-0.0.0.0 imageads3.googleadservices.com
-0.0.0.0 imageads4.googleadservices.com
-0.0.0.0 imageads5.googleadservices.com
-0.0.0.0 imageads6.googleadservices.com
-0.0.0.0 imageads7.googleadservices.com
-0.0.0.0 imageads8.googleadservices.com
-0.0.0.0 imageads9.googleadservices.com
-0.0.0.0 pagead.google.com
 0.0.0.0 pagead.googlesyndication.com
-0.0.0.0 pagead.l.google.com
 0.0.0.0 pagead1.googlesyndication.com
-0.0.0.0 pagead2.google.com
-0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead3.googlesyndication.com
 0.0.0.0 pagead4.googlesyndication.com
 0.0.0.0 pagead5.googlesyndication.com
-0.0.0.0 partner.googleadservices.com
-0.0.0.0 static.googleadsserving.cn
-0.0.0.0 toolbarqueries.google.com.hk
 0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googlesyndication.com
-0.0.0.0 image.j-a-net.jp
-0.0.0.0 service.urchin.com
 #ixlink
 0.0.0.0 counter.ixlink.net
 0.0.0.0 textlink.ixlink.net
@@ -2130,7 +2124,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 mcsd.qq437.cn
 #Kfwan
-0.0.0.0 u.kfwan.com 
+0.0.0.0 u.kfwan.com
 0.0.0.0 www.kfwan.com
 #其他游戏广告
 0.0.0.0 abc.96pk.com
@@ -2143,6 +2137,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gg.qc101.com
 0.0.0.0 go.snsfun.cc
 0.0.0.0 nonoyx.com
+0.0.0.0 p.eqiso.com
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 po.add.tx908.com
 0.0.0.0 redirect.jooov.cn
@@ -2238,6 +2233,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 jk.chapm.com
 0.0.0.0 v.9vcpp.cn
 0.0.0.0 www2.9v.cn
+#科捷
+0.0.0.0 as.kejet.com
+
 #六度传媒
 0.0.0.0 6dad.com
 #猫猫
