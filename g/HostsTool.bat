@@ -7,7 +7,7 @@ set downa=wget -nH -N -c -t 10 -w 2 -q -P Acrylic
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /s /q echo host hosts>nul 2>nul
 del /f /s /q down\*.*>nul 2>nul
-del /f /s /q 1.txt go.txt hbhosts.txt HostsX.orzhosts hosts.txt 自定义.txt>nul 2>nul
+del /f /s /q 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt>nul 2>nul
 rd /s /q down\hosts\>nul 2>nul
 rd /s /q down\>nul 2>nul
 rem Wget下载组件检测
@@ -56,7 +56,7 @@ echo.■   0.打开Hosts目录       B.备份Hosts文件        D.删除Hosts备份    ■
 echo ■-------------------------------------------------------------------■
 echo.■   F.修复Hosts文件       P.设置Hosts权限        T.感谢人员名单     ■
 echo ■-------------------------------------------------------------------■
-echo      G.自动模式1     U.自动模式2     X.修复IE     H.帮助   Ver:1.8
+echo      G.自动模式1     U.自动模式2     X.修复IE     H.帮助   Ver:1.82
 echo ■───────────────────────────────── ■
 echo 当前工作目录(O)：%~dp0
 echo.
@@ -69,14 +69,16 @@ if /i "%all%"=="e" goto delit
 if /i "%all%"=="f" goto fixhosts
 if /i "%all%"=="g" goto dft
 if /i "%all%"=="h" goto help
-if /i "%all%"=="i" goto iefix
+if /i "%all%"=="i" goto ipv6
 if /i "%all%"=="o" goto opdp
 if /i "%all%"=="p" goto Perms
 if /i "%all%"=="q" goto exit
+if /i "%all%"=="r" goto rd
+if /i "%all%"=="s" goto site
 if /i "%all%"=="t" goto thanks
 if /i "%all%"=="u" goto gdft
 if /i "%all%"=="w" goto hostspath
-if /i "%all%"=="x" goto iedefault
+if /i "%all%"=="x" goto fixie
 if /i "%all%"=="1" goto choose
 if /i "%all%"=="2" goto Acrylic
 if /i "%all%"=="3" goto update
@@ -143,14 +145,15 @@ echo 1,设为只读（默认回车使用）
 echo.
 echo 2,设置Hosts文件防删权限（NTFS磁盘格式有效）
 echo.
-echo 3,不设置任何权限（返回）
+echo 3,不设置任何权限    4,重新打开Hosts
 SET Choice=
 echo.
-SET /P Choice=请在修改完成关闭记事本后进行选择，按回车键确认：
+SET /P Choice=修改完成后请关闭记事本继续选择：
 IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
 IF /I '%Choice%'=='1' GOTO readonly
 IF /I '%Choice%'=='2' GOTO ntfs
 IF /I '%Choice%'=='3' GOTO dns
+IF /I '%Choice%'=='4' GOTO run
 :readonly
 attrib +r +a +s %hosts%
 goto pmfinish
@@ -646,7 +649,7 @@ echo.
 echo 	删除完成! 任意键返回……
 goto menu
 
-:iefix
+:fixie
 mode con cols=38 lines=23
 title 对IE组件修复，优化（解决一些网络一时无法访问的问题）
 cls
@@ -696,9 +699,6 @@ sfc /purgecache
 echo 完成百分之 100
 echo .对IE组件修复，优化完毕。
 Pause.
-goto menu
-
-:iedefault
 mode con cols=72 lines=32
 title IE常规修复
 echo.

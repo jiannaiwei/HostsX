@@ -16,50 +16,42 @@
 #Lycos News
 0.0.0.0 ads.lycos.com advertising.lycos.com
 #Msn Live
-0.0.0.0 ads2.msads.net global.msads.net
-0.0.0.0 ads1.msn.com analytics.msn.com c.msn.com c.msn.com.cn g.msn.com h.msn.com ads.beta1.idss.msn.com adsyndication.msn.com catalog.video.msn.com
-0.0.0.0 ac2.msn.com ac3.msn.com r.msn.com rad.msn.com
-0.0.0.0 analytics.live.com c.live.com ms.analytics.live.com rad.live.com
-0.0.0.0 ads.msn.com.nsatc.net msnportal.112.2o7.net
-0.0.0.0 msn.allyes.com msnms.allyes.cn
+0.0.0.0 ads2.msads.net global.msads.net ads1.msn.com analytics.msn.com c.msn.com c.msn.com.cn g.msn.com h.msn.com ads.beta1.idss.msn.com
+0.0.0.0 adsyndication.msn.com catalog.video.msn.com ac2.msn.com ac3.msn.com r.msn.com rad.msn.com analytics.live.com c.live.com ms.analytics.live.com
+0.0.0.0 rad.live.com ads.msn.com.nsatc.net msnportal.112.2o7.net msn.allyes.com msnms.allyes.cn
 #Myspace
 0.0.0.0 advertise.myspace.com count.myspace.cn gg.un.myspace.cn
 #SecretChina
 0.0.0.0 ad.secretchina.com static1.secretchina.com ad.epochtimes.com
 #Yahoo.com
-0.0.0.0 ads.yimg.com richmedia.yimg.com
-0.0.0.0 a.analytics.yahoo.com us.ard.yahoo.com us.rd.yahoo.com
-0.0.0.0 pclick.internal.yahoo.com ts.richmedia.yahoo.com
-0.0.0.0 s0.2mdn.net mp.apmebf.com ads.bluelithium.com
-0.0.0.0 ad.yieldmanager.com content.yieldmanager.com content.yieldmanager.edgesuite.net
-0.0.0.0 mi.adinterax.com tr.adinterax.com
+0.0.0.0 ads.yimg.com richmedia.yimg.com a.analytics.yahoo.com us.ard.yahoo.com us.rd.yahoo.com pclick.internal.yahoo.com ts.richmedia.yahoo.com s0.2mdn.net mp.apmebf.com
+0.0.0.0 ads.bluelithium.com ad.yieldmanager.com content.yieldmanager.com content.yieldmanager.edgesuite.net mi.adinterax.com tr.adinterax.com
 #Yahoo.co.jp
 0.0.0.0 ai.yimg.jp ard.yahoo.co.jp rd.yahoo.co.jp yjaxc.yahoo.co.jp
 
 @HostsX 站点广告过滤/门户类网站
 #网易163
-0.0.0.0 analytics.ws.126.net img1.126.net img2.126.net
-0.0.0.0 adc.163.com adclient.163.com adgeo.163.com adimg.163.com admail.163.com allyes.nie.163.com analytics.163.com corp.163.com cpc.163.com
-0.0.0.0 g.163.com jump.zg.163.com pro.163.com proimg.163.com union.163.com
+0.0.0.0 analytics.ws.126.net img1.126.net img2.126.net adc.163.com adclient.163.com adgeo.163.com adimg.163.com admail.163.com allyes.nie.163.com
+0.0.0.0 analytics.163.com corp.163.com cpc.163.com g.163.com jump.zg.163.com pro.163.com proimg.163.com union.163.com
 #网易有道搜索
 0.0.0.0 a.youdao.com clkservice.youdao.com clkservice2.dict.youdao.com impservice.union.youdao.com impservice.youdao.com
 #新浪
-0.0.0.0 ad4.sina.com.cn adsina.allyes.com beacon.sina.com.cn classadnew.sina.com.cn click.sina.com.cn counter.sina.com.cn d1.sina.com.cn d2.sina.com.cn d3.sina.com.cn
-0.0.0.0 d4.sina.com.cn d5.sina.com.cn dcads.sina.com.cn int.dpool.sina.com.cn pfp.sina.com.cn pfpclick.sina.com.cn pfpip.sina.com sms.sina.com.cn
-0.0.0.0 sina.allyes.com sinasc.allyes.com
+0.0.0.0 ad4.sina.com.cn adsina.allyes.com beacon.sina.com.cn  classadnew.sina.com.cn click.sina.com.cn counter.sina.com.cn d1.sina.com.cn d2.sina.com.cn d3.sina.com.cn
+0.0.0.0 d4.sina.com.cn d5.sina.com.cn dcads.sina.com.cn int.dpool.sina.com.cn pfp.sina.com.cn pfpclick.sina.com.cn pfpip.sina.com sms.sina.com.cn sina.allyes.com
+0.0.0.0 sinasc.allyes.com
 #雅虎中国
-0.0.0.0 js.tongji.yahoo.com.cn js.tongji.cn.yahoo.com api.ads.vip.cnh.yahoo.com cm.p4p.cn.yahoo.com cn.adserver.yahoo.com cn.promo.yahoo.com cn.rd.yahoo.com new.rd.cn.yahoo.com union.yahoo.com.cn
+0.0.0.0 api.ads.vip.cnh.yahoo.com cm.p4p.cn.yahoo.com cn.adserver.yahoo.com cn.promo.yahoo.com cn.rd.yahoo.com js.tongji.cn.yahoo.com js.tongji.yahoo.com.cn new.rd.cn.yahoo.com p3p.yahoo.com
+0.0.0.0 union.yahoo.com.cn yahoo.webdissector.com
 #搜狐
-0.0.0.0 adclick.bai.sohu.com cpc.sohu.com doc.go.sohu.com ip.cms.sohu.com partner.search.sohu.com pv.sohu.com scalink.sohu.com suvset.sohu.com txt.go.sohu.com
-0.0.0.0 images.sohu.com
-0.0.0.0 sohusc.allyes.com imp.ad-plus.cn sohu.ad-plus.cn u.ad-plus.cn
+0.0.0.0 adclick.bai.sohu.com cpc.sohu.com doc.go.sohu.com images.sohu.com ip.cms.sohu.com partner.search.sohu.com pv.sohu.com scalink.sohu.com suvset.sohu.com
+0.0.0.0 txt.go.sohu.com sohusc.allyes.com imp.ad-plus.cn sohu.ad-plus.cn u.ad-plus.cn
 
 @HostsX 站点广告过滤/社区类网站
 #天涯
 0.0.0.0 801.tianya.cn 802.tianya.cn 803.tianya.cn 806.tianya.cn adview.tianya.cn advertisement.tianya.cn squidclick.bbs.tianya.cn stat.tianya.cn
 #猫扑
-0.0.0.0 gg.mop.com in.dg.mop.com in.h.mop.com in.sg.mop.com in.sh.mop.com ovsmbt.mop.com p4pad.mop.com pub.mop.com stat.ent.mop.com
-0.0.0.0 tj.itv.mop.com tj.mop.com tj.pet.mop.com union.mop.com yx.mop.com
+0.0.0.0 gg.mop.com in.dg.mop.com in.h.mop.com in.l.mop.com in.pet.mop.com in.sg.mop.com in.sh.mop.com in.t.mop.com ovsmbt.mop.com 
+0.0.0.0 p4pad.mop.com pub.mop.com stat.ent.mop.com tj.itv.mop.com tj.mop.com tj.pet.mop.com union.mop.com yx.mop.com union.uume.com
 #人人
 0.0.0.0 c.renren.com click.jebe.renren.com cupid.jebe.renren.com dian.cupid.jebe.renren.com gamestat.renren.com jebe.renren.com jebe.xnimg.cn shaft.jebe.renren.com
 #西祠胡同
@@ -70,14 +62,10 @@
 0.0.0.0 adimg.dayoo.com rnd.dayoo.com sta.dayoo.com
 #21CN
 0.0.0.0 analytics.21cn.com click.21cn.com market.21cn.com ranking.21cn.com
-#Poco
-0.0.0.0 a-m-s.poco.cn
 #Tom
 0.0.0.0 ad.tom.com sc.tom.com tom.allyes.com xtrack.tomonline-inc.com
-#蜂鸟网
-0.0.0.0 pic.fengniao.com stat.fengniao.com
-#色影无忌
-0.0.0.0 www8.xitek.com
+#摄影类
+0.0.0.0 a-m-s.poco.cn pic.fengniao.com stat.fengniao.com www8.xitek.com
 #一大把
 0.0.0.0 adc.yidaba.com adfv.yidaba.com adj.yidaba.com adv.yidaba.com bd.yidaba.com bm.yidaba.com images.cms.yidaba.com images.yidaba.com industry.yidaba.com
 0.0.0.0 info.yidaba.com static.yidaba.com
@@ -88,12 +76,11 @@
 #博客推广
 0.0.0.0 ad2.bloggerads.net ads.wopus.org adv.blogupp.com pro.blogbus.com union.bolaa.com
 #购物推广
-0.0.0.0 adtaobao.tobo123.com click.union.360buy.com union.360buy.com union.dangdang.com union.vancl.com www.133i.com
+0.0.0.0 adtaobao.tobo123.com union.360buy.com click.union.360buy.com union.dangdang.com union.vancl.com www.133i.com
 
 @HostsX 站点广告过滤/IT 类网站
 #中关村系列
 0.0.0.0 adm.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
-0.0.0.0 pic.zol-img.com.cn
 #电脑之家
 0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net stat.pchome.net
 #泡泡网
@@ -106,24 +93,16 @@
 0.0.0.0 media.yesky.com ucpn.yesky.com union.yesky.com yeskyafp.allyes.com
 #赛迪网
 0.0.0.0 a248.e.akamai.net e.akamai.net stat.ccidnet.com www2.ccidnet.com
-#至顶网ZDNet
-0.0.0.0 am.zdnet.com.cn pv.zdnet.com.cn
-#豆豆资讯
-0.0.0.0 ad.ddvip.com
-#西域IT
-0.0.0.0 apic.xiyuit.com
-#万维家电
-0.0.0.0 pic.ea3w.com
 #CSDN
 0.0.0.0 counter.csdn.net z.csdn.net zi.csdn.net
-#DoNews
-0.0.0.0 gg.donews.com
 #eNet
 0.0.0.0 trace.enet.com.cn enet4.enet.com.cn
 #It168
 0.0.0.0 adshow.it168.com 168.it168.com
 #RayFile
 0.0.0.0 img.rayfile.com raya.rayfile.com w105.rayfile.com
+#Other
+0.0.0.0 am.zdnet.com.cn pv.zdnet.com.cn ad.ddvip.com apic.xiyuit.com pic.ea3w.com gg.donews.com
 
 @HostsX 站点广告过滤/汽车类网站
 #爱卡汽车
@@ -141,7 +120,7 @@
 
 @HostsX 站点广告过滤/游戏类网站
 #7pk小游戏
-0.0.0.0 al.7pk.com client.7pk.com imgcache.7pk.com taobao.7pk.com
+0.0.0.0 al.7pk.com client.7pk.com imgcache.7pk.com new.7pk.com s.7pk.com safe.7pk.com taobao.7pk.com
 #九城
 0.0.0.0 allyes.the9.com
 #巨人网络
@@ -158,6 +137,8 @@
 0.0.0.0 market.duowan.com mstat.duowan.com
 #电玩巴士
 0.0.0.0 bill.tgbus.com g.tgbus.com g.tgbusdata.cn
+#Cngba
+0.0.0.0 js.adm.cngba.com
 
 @HostsX 站点广告过滤/小说类网站
 #17K小说
@@ -177,14 +158,13 @@
 #优酷
 0.0.0.0 stat.youku.com static.atm.youku.com static.lstat.youku.com valc.atm.youku.com valf.atm.youku.com valo.atm.youku.com valp.atm.youku.com vid.atm.youku.com
 #土豆
-0.0.0.0 adextensioncontrol.tudou.com adplay.tudou.com iwstat.tudou.com nstat.tudou.com stat.tudou.com stats.tudou.com adcontrol.tudou.com
+0.0.0.0 adextensioncontrol.tudou.com adplay.tudou.com iwstat.tudou.com nstat.tudou.com stat.tudou.com stats.tudou.com
 #酷6
 0.0.0.0 1.allyes.com.cn analytics.ku6.com stat0.888.ku6.com stat1.888.ku6.com stat2.888.ku6.com stat3.888.ku6.com ku6afp.allyes.com
 #激动网
 0.0.0.0 86file.megajoy.com 86get.joy.cn 86log.joy.cn
 #天线视频
-0.0.0.0 m.openv.tv
-0.0.0.0 uniclick.openv.com
+0.0.0.0 m.openv.tv uniclick.openv.com
 #爆米花
 0.0.0.0 union.pomoho.com
 #Wo31电影
@@ -198,7 +178,7 @@
 #东方财富网
 0.0.0.0 ay.eastmoney.com cp.eastmoney.com g1.dfcfw.com js1.eastmoney.com same.eastmoney.com eastmoney.allyes.com wonderadafa7.allyes.com
 #金融界
-0.0.0.0 allyes.jrj.com
+0.0.0.0 allyes.jrj.com aps4.jrjimg.cn
 #证券之星
 0.0.0.0 allyes.stockstar.com
 #中金在线
@@ -210,7 +190,7 @@
 
 @HostsX 站点广告过滤/信息类网站
 #北青网
-0.0.0.0 a.emedia.cn ad.ynet.com fun.ynet.com ranking.ynet.com v.emedia.cn z3.emedia.cn
+0.0.0.0 a.emedia.cn v.emedia.cn z3.emedia.cn ad.ynet.com fun.ynet.com ranking.ynet.com
 #沪江英语
 0.0.0.0 a4.yeshj.com
 #39健康网

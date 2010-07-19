@@ -1,4 +1,4 @@
-;version=201007191606
+;version=201007192030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -278,7 +278,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xiciafp.allyes.com
 #奇虎社区
 0.0.0.0	aimg.qihoo.com
-0.0.0.0	clkstat.qihoo.com
+0.0.0.0 clkstat.qihoo.com
 0.0.0.0 rd.qihoo.com
 0.0.0.0 code.qihoo.com
 0.0.0.0 qd.code.qihoo.com
@@ -549,11 +549,11 @@ ff02::3 ip6-allhosts
 @HostsX 站点广告过滤/信息类网站
 #北青网
 0.0.0.0 a.emedia.cn
+0.0.0.0 v.emedia.cn
+0.0.0.0 z3.emedia.cn
 0.0.0.0 ad.ynet.com
 0.0.0.0 fun.ynet.com
 0.0.0.0 ranking.ynet.com
-0.0.0.0 v.emedia.cn
-0.0.0.0 z3.emedia.cn
 #沪江英语
 0.0.0.0 a4.yeshj.com
 #39健康网
@@ -703,18 +703,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 sroomafp.allyes.com
 0.0.0.0 stbanner.allyes.com
 0.0.0.0 stm.allyes.com
-#网络&软件共用
-0.0.0.0 adsresult.joywell.com.cn
-0.0.0.0 bs.serving-sys.com
-0.0.0.0 go.maxreturn.cn
-0.0.0.0 m.menhutong.com.cn
-0.0.0.0 popunder.paypopup.com
 #大陆常见广告
 0.0.0.0 1188s.info
+0.0.0.0 adsresult.joywell.com.cn
 0.0.0.0 api.flash45.com
+0.0.0.0 bs.serving-sys.com
 0.0.0.0 clk.abang.com
 0.0.0.0 cnt.zhaopin.com
+0.0.0.0 go.maxreturn.cn
+0.0.0.0 m.menhutong.com.cn
 0.0.0.0 pic837013.images9999.com
+0.0.0.0 popunder.paypopup.com
 0.0.0.0 union.51ditu.com
 0.0.0.0 union.88go.cc
 0.0.0.0 union.keepc.com
@@ -881,7 +880,7 @@ ff02::3 ip6-allhosts
 #Google AdWord
 0.0.0.0 adwords.google.com
 0.0.0.0 adwords.google.sk
-#oogle AdSense
+#Google AdSense
 0.0.0.0 adservices.google.com
 0.0.0.0 pagead.google.com
 0.0.0.0 pagead.l.google.com
@@ -2003,7 +2002,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ie9down.info
 0.0.0.0 www.mycar021.com
 0.0.0.0 www.qq-2010f.com
-0.0.0.0 www.xp500.com
 0.0.0.0 www.zgsj.com
 0.0.0.0 www.zhutizi.com
 #流氓捆绑
@@ -2015,8 +2013,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.xiazaiba.com
 0.0.0.0 xiazaiba.com
 0.0.0.0 xiazai.xiazaiba.com
-0.0.0.0 www.sz1001.net
-0.0.0.0 soft.sz1001.net
 @HostsX 网络广告过滤/垃圾视频
 #CC视频
 0.0.0.0 1.bokeccimg.com
@@ -2038,14 +2034,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.ra.icast.cn
 #Vodone
 0.0.0.0 autou.vodone.cn
-0.0.0.0 bus.vodone.com
 0.0.0.0 busjs.vodone.cn
+0.0.0.0 stat.vodone.cn
+0.0.0.0 bus.vodone.com
 0.0.0.0 cai.vodone.com
 0.0.0.0 ego.vodone.com
 0.0.0.0 images.vodone.com
 0.0.0.0 msn.vodone.com
 0.0.0.0 pic.vodone.com
-0.0.0.0 stat.vodone.cn
 0.0.0.0 stat2.vodone.com
 0.0.0.0 u.vodone.com
 0.0.0.0 u3.vodone.com
@@ -2235,7 +2231,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www2.9v.cn
 #科捷
 0.0.0.0 as.kejet.com
-
 #六度传媒
 0.0.0.0 6dad.com
 #猫猫
@@ -2299,15 +2294,12 @@ ff02::3 ip6-allhosts
 @HostsX 软件广告过滤/安全软件
 #360安全卫士
 0.0.0.0	inst.360safe.com
-0.0.0.0	pinst.360.cn
-0.0.0.0	rd.360.cn
-0.0.0.0	stat.360safe.com
-0.0.0.0	updatem.360safe.com
+0.0.0.0 pinst.360.cn
+0.0.0.0 rd.360.cn
+0.0.0.0 rd.qihoo.com
+0.0.0.0 pvstat.qihoo.com
+0.0.0.0 stat.360safe.com
 0.0.0.0	x.360safe.com
-0.0.0.0	seapp.stat.360safe.com
-0.0.0.0	stat.leak.360safe.com
-0.0.0.0	rd.qihoo.com
-0.0.0.0	pvstat.qihoo.com
 #Avast
 0.0.0.0 program.avast.com
 #Comodo UserTrust
@@ -2358,7 +2350,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsfile.qq.com
 0.0.0.0 adshmct.qq.com
 0.0.0.0 adslvseed.qq.com
-0.0.0.0 minisite2009.qq.com
 0.0.0.0 show-msgch.qq.com
 0.0.0.0 c.l.qq.com
 0.0.0.0 hm.l.qq.com
@@ -2519,7 +2510,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 biz5c.sandai.net
 0.0.0.0 cknum.sandai.net
 0.0.0.0 click.cm.sandai.net
-0.0.0.0 client1.xl6.sandai.net
 0.0.0.0 down.sandai.net
 0.0.0.0 float.sandai.net
 0.0.0.0 gvod.union.sandai.net
@@ -2565,7 +2555,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 stat.maxthon.com
 0.0.0.0 stat-w.maxthon.com
-0.0.0.0	statcn-c.maxthon.com
+0.0.0.0 statcn-c.maxthon.com
 #SmartRecorder
 0.0.0.0 www.voiceemotion.com
 #超级兔子系列
@@ -2590,7 +2580,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.sl.iciba.com
 #搜狗拼音
 0.0.0.0	files2.sogou.com
-0.0.0.0	info.pinyin.sogou.com
+0.0.0.0 info.pinyin.sogou.com
 0.0.0.0 config.pinyin.sogou.com
 0.0.0.0 ime.sogou.com
 0.0.0.0 ping.pinyin.sogou.com
@@ -2630,7 +2620,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 ns6.gandi.net
 127.0.0.1 reverse.privatedns.com
 #Alcohol
-127.0.0.1 images.alcohol-soft.com
 127.0.0.1 serial.alcohol-soft.com
 127.0.0.1 shop.alcohol-soft.com
 127.0.0.1 support.alcohol-soft.com

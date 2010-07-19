@@ -1,15 +1,19 @@
 @HostsX 站点智能转向
-#Localhost
+#Localhost Common
 127.0.0.1       localhost
 ::1             localhost
+#Windows
 127.0.0.1 localhost.localdomain localhost
-#Ubuntu Ipv6
-::1 ip6-localhost ip6-loopback
+#Ubuntu
+127.0.1.1	此处填写您的Ubuntu计算机名称
+::1 localhost ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
+#Mac
+255.255.255.255 broadcasthost
 #Blogger
 74.125.39.191 www.blogger.com blogger.l.google.com blogger.google.com
 #CCF
@@ -49,13 +53,11 @@ ff02::3 ip6-allhosts
 75.101.159.151 dl-web.dropbox.com
 174.36.30.67 forums.dropbox.com
 #Xmarks
-173.239.65.20 www.xmarks.com
+173.239.65.20 www.xmarks.com static.xmarks.com download.xmarks.com
 173.239.65.21 api.xmarks.com
 173.239.65.22 login.xmarks.com
 173.239.65.23 sync.xmarks.com
-173.239.65.20 static.xmarks.com download.xmarks.com
 64.147.188.86 my.xmarks.com
 #Soutong
 2001:470:a:17c::2 soutong.iloveyou
 63.223.106.181 soutong.com
-
