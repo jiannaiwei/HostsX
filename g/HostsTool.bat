@@ -7,13 +7,11 @@ set downa=wget -nH -N -c -t 10 -w 2 -q -P Acrylic
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /s /q echo host hosts>nul 2>nul
 del /f /s /q down\*.*>nul 2>nul
-del /f /s /q 1.txt clxp.txt go.txt hbhosts.txt HostsX.old ipv6.old hosts.txt hostspath.txt zlnotes.txt zlrepeat.txt 禁止IP列表.txt 自定义.txt>nul 2>nul
-del backup\*.* /s/q>nul 2>nul
-rd /s /q backup\>nul 2>nul
+del /f /s /q 1.txt go.txt hbhosts.txt HostsX.orzhosts hosts.txt 自定义.txt>nul 2>nul
 rd /s /q down\hosts\>nul 2>nul
 rd /s /q down\>nul 2>nul
 rem Wget下载组件检测
-if not exist wget.exe ( start /min iexplore http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe)& (echo 正在下载Wget组件，请保存在当前目录！)&pause else goto hostspath
+if not exist wget.exe (start /min iexplore http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe)& (echo 正在下载Wget组件，请保存在当前目录！)&pause else goto hostspath
 
 rem 判断操作系统版本，并设置系统默认Hosts文件位置的变量。
 if exist %ComSpec% goto nt else goto 9x
@@ -46,7 +44,7 @@ rem 解除Hosts只读属性，权限限制
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls
-title Hosts 小工具
+title Hosts 小工具 %date%
 echo ■───────────────────────────────── ■
 echo.■   1.Hosts文件调整       2.Acrylic+ 调整        3.在线升级         ■
 echo ■───────────────────────────────── ■
@@ -54,13 +52,13 @@ echo.■   4.打开Hosts文件       5.Hosts文件整理        6.IE 证书管理      ■
 echo ■───────────────────────────────── ■
 echo.■   7.添加IE不信任网址    8.删除IE不信任网址     9.IP 安全策略      ■
 echo ■-------------------------------------------------------------------■
-echo.■   B.备份Hosts文件       D.删除Hosts备份        F.修复Hosts文件    ■
+echo.■   0.打开Hosts目录       B.备份Hosts文件        D.删除Hosts备份    ■
 echo ■-------------------------------------------------------------------■
-echo.■   O.打开Hosts目录       P.设置Hosts权限        T.感谢人员名单     ■
+echo.■   F.修复Hosts文件       P.设置Hosts权限        T.感谢人员名单     ■
 echo ■-------------------------------------------------------------------■
-echo           今天是:%date% 现在时间:%time%      H.帮助  
+echo      G.自动模式1     U.自动模式2     X.修复IE     H.帮助   Ver:1.8
 echo ■───────────────────────────────── ■
-echo 当前工作目录(0)：%~dp0
+echo 当前工作目录(O)：%~dp0
 echo.
 set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
@@ -72,12 +70,11 @@ if /i "%all%"=="f" goto fixhosts
 if /i "%all%"=="g" goto dft
 if /i "%all%"=="h" goto help
 if /i "%all%"=="i" goto iefix
-if /i "%all%"=="o" goto openhosts
+if /i "%all%"=="o" goto opdp
 if /i "%all%"=="p" goto Perms
 if /i "%all%"=="q" goto exit
 if /i "%all%"=="t" goto thanks
 if /i "%all%"=="u" goto gdft
-if /i "%all%"=="v" goto ver
 if /i "%all%"=="w" goto hostspath
 if /i "%all%"=="x" goto iedefault
 if /i "%all%"=="1" goto choose
@@ -89,7 +86,7 @@ if /i "%all%"=="6" goto Cert
 if /i "%all%"=="7" goto addnotrustsite
 if /i "%all%"=="8" goto delnotrustsite
 if /i "%all%"=="9" goto IPSec
-if /i "%all%"=="0" goto opdp
+if /i "%all%"=="0" goto openhosts
 
 :dns
 echo 正在清理Dns缓存 IE缓存...
@@ -111,9 +108,7 @@ goto menu
 :delbak
 echo 是否删除备份的Hosts文件？
 Pause
-del Hosts_* /q >nul 2>nul
-del Hosts安装_* /q >nul 2>nul
-del Bak\*.* /q >nul 2>nul
+del Bak\Hosts*_*.txt /q >nul 2>nul
 echo 由HostsTool备份的Hosts文件已删除！
 Pause
 goto menu
@@ -179,6 +174,14 @@ if exist Help.txt type Help.txt|more
 start http://blog.jockwok.com/p/g-hosts.html
 mshta vbscript:msgbox("不建议在Hosts文件中添加过多内容！",64,"Hosts")(window.close)
 goto menu
+
+:gdft
+if not exist down\rd.g call :datadown
+cd down\ >nul 2>nul
+copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
+copy hbhosts.txt %hosts%
+cd.. >nul 2>nul
+goto Perms
 
 :choose
 mode con: cols=63 lines=32
@@ -638,7 +641,7 @@ set /p Choice=
 if ""%Choice%"" == "" goto menu
 echo y|Cacls ""%Choice%"" /c /t /p Everyone:f
 DEL /F /A /Q \\?\""%Choice%""
-RD /S /Q \\?\""%Choice%"" 
+RD /S /Q \\?\""%Choice%""
 echo.
 echo 	删除完成! 任意键返回……
 goto menu
@@ -831,23 +834,4 @@ echo        修复XP系统验证码显示异常
 reg add "HKCU\SOFTWARE\Microsoft\Internet Explorer\Security" /f /v BlockXBM /t REG_DWORD /d 00000000>nul 2>nul
 echo        修复完毕！
 cls       
-goto menu
-
-:gdft
-if not exist down\rd.g call :datadown
-cd down\ >nul 2>nul
-copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
-copy hbhosts.txt %hosts%
-cd.. >nul 2>nul
-goto Perms
-
-:ver
-mode con cols=45 lines=15
-title Thx All Friends Help
-echo Version:    1.75 Freeware Version
-echo Date:       2010.07.13
-echo Purpose:    Hosts相关的P处理工具
-echo COPYRIGHT:  OrzTech, Inc. By 郭郭
-mshta vbscript:msgbox("Thanks 4 using and Hope U Enjoy it!",64,"Hosts")(window.close)
-pause
 goto menu

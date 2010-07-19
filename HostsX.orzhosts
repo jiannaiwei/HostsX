@@ -1,4 +1,4 @@
-;version=201007131220
+;version=201007182200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -1941,10 +1941,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 lailea.info
 0.0.0.0 go.lailea.info
 0.0.0.0 s.lailea.info
+0.0.0.0 3448.com
+0.0.0.0 4199.com
+0.0.0.0 6781.com
+0.0.0.0 7255.com
+0.0.0.0 7322.com
+0.0.0.0 7379.com
+0.0.0.0 7939.com
+0.0.0.0 8009.com
+0.0.0.0 858656.com
+0.0.0.0 8749.com
+0.0.0.0 about.blank.la
 0.0.0.0 dir.ejoina.com
+0.0.0.0 kzdh.com
+0.0.0.0 my123.com
 0.0.0.0 mydh.info
+0.0.0.0 piaoxue.com
 0.0.0.0 search.ok365.com
 0.0.0.0 u.30so.com
+0.0.0.0 www.2535.cn
 0.0.0.0 www.6313.com
 0.0.0.0 www.ivc.cn
 0.0.0.0 www.w234.com
@@ -1967,6 +1982,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zoosnet.net
 0.0.0.0 www.zoossoft.com
 0.0.0.0 888888fa.com
+0.0.0.0 code.loading.wolian.net
 0.0.0.0 fx.v1kk.com
 0.0.0.0 hjmg.930114.com
 0.0.0.0 shop.hoo6.com
@@ -2339,16 +2355,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
 #腾讯QQ
-0.0.0.0 cache.tv.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
 0.0.0.0 adshmct.qq.com
 0.0.0.0 adslvseed.qq.com
-0.0.0.0 httpring.qq.com
-0.0.0.0 isdspeed.qq.com
 0.0.0.0 minisite2009.qq.com
-0.0.0.0 qqlogo.qq.com
 0.0.0.0 show-msgch.qq.com
 0.0.0.0 c.l.qq.com
 0.0.0.0 hm.l.qq.com
@@ -2487,90 +2499,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 partner.funshion.com
 #天翼视讯
 0.0.0.0 sm2.netitv.com
-@HostsX 软件广告过滤/验证屏蔽
-#ACDSee
-0.0.0.0	acdupdater.acdsystems.com
-0.0.0.0	soapintouch.acdnet.com
-#Adobe
-127.0.0.1 activate.adobe.com
-127.0.0.1 adobe-dns.adobe.com
-127.0.0.1 ereg.adobe.com
-127.0.0.1 ns.adobe.com
-127.0.0.1 practivate.adobe.com
-127.0.0.1 www.adobeereg.com
-#Aignes（WebSite-Watcher）
-0.0.0.0 aignes.com
-0.0.0.0 aignes.net
-0.0.0.0 aignes.info
-0.0.0.0 www.aignes.com
-0.0.0.0 www.aignes.net
-0.0.0.0 www.aignes.info
-#AnyDVD
-0.0.0.0 ev1slysoft.com
-0.0.0.0 h3.slysoft.com
-0.0.0.0 iw2.slysoft.com
-0.0.0.0 sb2slysoft.com
-0.0.0.0 slysoft.com
-0.0.0.0 update.slysoft.com
-0.0.0.0 ns6.gandi.net
-0.0.0.0 reverse.privatedns.com
-#Alcohol
-127.0.0.1 images.alcohol-soft.com
-127.0.0.1 serial.alcohol-soft.com
-127.0.0.1 shop.alcohol-soft.com
-127.0.0.1 support.alcohol-soft.com
-127.0.0.1 trial.alcohol-soft.com
-127.0.0.1 users.alcohol-soft.com
-127.0.0.1 vodka.alcohol-soft.com
-127.0.0.1 www.alcohol-soft.com
-#Ashampoo
-0.0.0.0	licenses.ashampoo.com
-#CuteFTP
-0.0.0.0 cuteftp.com
-0.0.0.0 dbregistration.cuteftp.com
-0.0.0.0 globalscape.com
-0.0.0.0 www.cuteftp.com
-0.0.0.0 www.globalscape.com
-#Emurasoft（EmEditor）
-0.0.0.0	www.emurasoft.com
-#FlashFXP
-0.0.0.0 flashfxp.com
-0.0.0.0 flashfxp.org
-0.0.0.0 flashfxp.ws
-0.0.0.0 www.flashfxp.com
-0.0.0.0 www.flashfxp.org
-0.0.0.0 www.flashfxp.ws
-#Flash版本检测
-0.0.0.0 active.macromedia.com
-0.0.0.0 www.macromedia.com
-0.0.0.0 download.macromedia.com
-0.0.0.0 fpdownload.macromedia.com
-#IDM（UE UC IDM等）
-0.0.0.0	internetdownloadmanager.com
-0.0.0.0	mirror.internetdownloadmanager.com
-0.0.0.0	mirror2.internetdownloadmanager.com
-0.0.0.0	mirror3.internetdownloadmanager.com
-0.0.0.0	secure.internetdownloadmanager.com
-0.0.0.0	www.internetdownloadmanager.com
-0.0.0.0	registeridm.com
-0.0.0.0	secure.registeridm.com
-0.0.0.0	www.registeridm.com
-0.0.0.0	tonec.com
-0.0.0.0	www.tonec.com
-#Martau（Total Uninstall）
-0.0.0.0	www.martau.com
-#Nikon Imaging
-0.0.0.0	sams.nikonimaging.com
-#RealNetworks
-0.0.0.0 static.realone.com
-#SRS Audio Sandbox
-0.0.0.0	www.srs-store.com
-#Swiftdog
-0.0.0.0	www.swiftdog.com
-#WinDVD
-0.0.0.0 upgrade.intervideo.com
-#XMLSoap
-0.0.0.0	schemas.xmlsoap.org
 @HostsX 软件广告过滤/推广下载
 0.0.0.0	zcomcdl.zcominc.com
 0.0.0.0 me.youheme.com
@@ -2607,6 +2535,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
 0.0.0.0 client.stat.xunlei.com
+0.0.0.0 hezuo.down.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 images.client.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
@@ -2674,7 +2603,87 @@ ff02::3 ip6-allhosts
 0.0.0.0 s1.wopti.net
 #云端
 0.0.0.0 update.yunduan.cn
-@HostsX 软件广告过滤/游戏类
+@HostsX 软件验证屏蔽
+@HostsX 软件验证屏蔽/常用软件
+#ACDSee
+127.0.0.1 acdupdater.acdsystems.com
+127.0.0.1 soapintouch.acdnet.com
+#Adobe
+127.0.0.1 activate.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ns.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 www.adobeereg.com
+#Aignes（WebSite-Watcher）
+127.0.0.1 aignes.com
+127.0.0.1 aignes.net
+127.0.0.1 aignes.info
+127.0.0.1 www.aignes.com
+127.0.0.1 www.aignes.net
+127.0.0.1 www.aignes.info
+#AnyDVD
+127.0.0.1 ev1slysoft.com
+127.0.0.1 h3.slysoft.com
+127.0.0.1 iw2.slysoft.com
+127.0.0.1 sb2slysoft.com
+127.0.0.1 slysoft.com
+127.0.0.1 update.slysoft.com
+127.0.0.1 ns6.gandi.net
+127.0.0.1 reverse.privatedns.com
+#Alcohol
+127.0.0.1 images.alcohol-soft.com
+127.0.0.1 serial.alcohol-soft.com
+127.0.0.1 shop.alcohol-soft.com
+127.0.0.1 support.alcohol-soft.com
+127.0.0.1 trial.alcohol-soft.com
+127.0.0.1 users.alcohol-soft.com
+127.0.0.1 vodka.alcohol-soft.com
+127.0.0.1 www.alcohol-soft.com
+#Ashampoo
+127.0.0.1 licenses.ashampoo.com
+#CuteFTP
+127.0.0.1 cuteftp.com
+127.0.0.1 dbregistration.cuteftp.com
+127.0.0.1 globalscape.com
+127.0.0.1 www.cuteftp.com
+127.0.0.1 www.globalscape.com
+#Emurasoft（EmEditor）
+127.0.0.1	www.emurasoft.com
+#FlashFXP
+127.0.0.1 flashfxp.com
+127.0.0.1 flashfxp.org
+127.0.0.1 flashfxp.ws
+127.0.0.1 www.flashfxp.com
+127.0.0.1 www.flashfxp.org
+127.0.0.1 www.flashfxp.ws
+#IDM（UE UC IDM等）
+127.0.0.1 internetdownloadmanager.com
+127.0.0.1 mirror.internetdownloadmanager.com
+127.0.0.1 mirror2.internetdownloadmanager.com
+127.0.0.1 mirror3.internetdownloadmanager.com
+127.0.0.1 secure.internetdownloadmanager.com
+127.0.0.1 www.internetdownloadmanager.com
+127.0.0.1 registeridm.com
+127.0.0.1 secure.registeridm.com
+127.0.0.1 www.registeridm.com
+127.0.0.1 tonec.com
+127.0.0.1 www.tonec.com
+#Martau（Total Uninstall）
+127.0.0.1 www.martau.com
+#Nikon Imaging
+127.0.0.1 sams.nikonimaging.com
+#RealNetworks
+127.0.0.1 static.realone.com
+#SRS Audio Sandbox
+127.0.0.1 www.srs-store.com
+#Swiftdog
+127.0.0.1 www.swiftdog.com
+#WinDVD
+127.0.0.1 upgrade.intervideo.com
+#XMLSoap
+127.0.0.1 schemas.xmlsoap.org
+@HostsX 软件验证屏蔽/游戏类
 #QUAZAL（勇气传说 抵抗前线 英雄连）
 127.0.0.1 cohlive-1.quazal.net
 127.0.0.1 cohlive.quazal.net
