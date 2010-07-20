@@ -1,4 +1,4 @@
-;version=201007192030
+;version=201007201200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -2491,6 +2491,9 @@ ff02::3 ip6-allhosts
 @HostsX 软件广告过滤/推广下载
 0.0.0.0	zcomcdl.zcominc.com
 0.0.0.0 me.youheme.com
+#UcWeb
+0.0.0.0 ads1.ucweb.com
+0.0.0.0 ads1.uc.com
 #快车
 0.0.0.0	bc.kuaiche.com
 0.0.0.0 cimg.kuaiche.com
@@ -2530,7 +2533,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
-0.0.0.0 recommend.xunlei.com
 0.0.0.0 res.stat.xunlei.com
 0.0.0.0 stat.xunlei.com
 0.0.0.0 static.soft.xunlei.com
