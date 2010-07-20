@@ -1,4 +1,4 @@
-;version=201007201200
+;version=201007201430
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -246,6 +246,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.tianya.cn
 #猫扑
 0.0.0.0 gg.mop.com
+0.0.0.0 imgpub.mop.com
 0.0.0.0 in.dg.mop.com
 0.0.0.0 in.h.mop.com
 0.0.0.0 in.l.mop.com

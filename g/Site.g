@@ -51,7 +51,8 @@
 0.0.0.0 801.tianya.cn 802.tianya.cn 803.tianya.cn 806.tianya.cn adview.tianya.cn advertisement.tianya.cn squidclick.bbs.tianya.cn stat.tianya.cn
 #猫扑
 0.0.0.0 gg.mop.com in.dg.mop.com in.h.mop.com in.l.mop.com in.pet.mop.com in.sg.mop.com in.sh.mop.com in.t.mop.com ovsmbt.mop.com 
-0.0.0.0 p4pad.mop.com pub.mop.com stat.ent.mop.com tj.itv.mop.com tj.mop.com tj.pet.mop.com union.mop.com yx.mop.com union.uume.com
+0.0.0.0 p4pad.mop.com pub.mop.com stat.ent.mop.com tj.itv.mop.com tj.mop.com tj.pet.mop.com union.mop.com yx.mop.com imgpub.mop.com
+0.0.0.0 union.uume.com
 #人人
 0.0.0.0 c.renren.com click.jebe.renren.com cupid.jebe.renren.com dian.cupid.jebe.renren.com gamestat.renren.com jebe.renren.com jebe.xnimg.cn shaft.jebe.renren.com
 #西祠胡同
