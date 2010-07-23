@@ -21,7 +21,7 @@
 #大陆常见广告
 0.0.0.0 1188s.info adsresult.joywell.com.cn api.flash45.com bs.serving-sys.com clk.abang.com cnt.zhaopin.com go.maxreturn.cn m.menhutong.com.cn pic837013.images9999.com
 0.0.0.0 popunder.paypopup.com union.51ditu.com union.88go.cc union.keepc.com union.narrowad.com union.qyule.com union.the999.com union.zhongsou.com union2.50bang.org
-0.0.0.0 www.265g.info www.adtools.cn
+0.0.0.0 www.265g.info www.adtools.cn c.ad123456.com 1.usazm.net
 #港台常见广告
 0.0.0.0 10000.mm.oishow.com ad.doubleadv.tv ad.f1.com.tw ad.wretch.cc ad71.doubleadx.com admd.yam.com gwc.iblinx.com hwachun.webplus.com.tw link.f1.com.tw
 0.0.0.0 mx3.hotrank.com.tw pic.addeliver.biz rc.asia.srv.overture.com www.iasoho.com adsense.scupio.com money.scupio.com www.scupio.com
@@ -93,7 +93,7 @@
 #51la
 0.0.0.0 img.users.51.la js.users.51.la vip.51.la web.51.la web1.51.la web2.51.la www.51.la
 #51yes
-0.0.0.0 count.51yes.com count10.51yes.com count20.51yes.com count28.51yes.com count36.51yes.com count39.51yes.com count40.51yes.com countt.51yes.com
+0.0.0.0 count.51yes.com count3.51yes.com count10.51yes.com count20.51yes.com count28.51yes.com count36.51yes.com count39.51yes.com count40.51yes.com countt.51yes.com
 #99click
 0.0.0.0 a777.oadz.com a814.oadz.com a1139.oadz.com a.oadz.com dns1.oadz.com dns2.oadz.com
 #Acs86
@@ -383,6 +383,8 @@
 0.0.0.0 ad.hylzad.com
 #极星广告
 0.0.0.0 c.star8.net img.star8.net
+#监控宝
+0.0.0.0 exp.jiankongbao.com stat.jiankongbao.com
 #捷酷
 0.0.0.0 do.jieku.com files.jieku.com
 #精硕科技
