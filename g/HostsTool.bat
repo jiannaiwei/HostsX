@@ -1,5 +1,6 @@
 @echo off
 color 0a
+set ver=1.83
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -44,7 +45,7 @@ rem 解除Hosts只读属性，权限限制
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls
-title Hosts 小工具 %date%
+title Hosts 小工具 %ver%
 echo ■───────────────────────────────── ■
 echo.■   1.Hosts文件调整       2.Acrylic+ 调整        3.在线升级         ■
 echo ■───────────────────────────────── ■
@@ -56,12 +57,13 @@ echo.■   0.打开Hosts目录       B.备份Hosts文件        D.删除Hosts备份    ■
 echo ■-------------------------------------------------------------------■
 echo.■   F.修复Hosts文件       P.设置Hosts权限        T.感谢人员名单     ■
 echo ■-------------------------------------------------------------------■
-echo      G.自动模式1     U.自动模式2     X.修复IE     H.帮助   Ver:1.82
+echo      G.自动模式1     U.自动模式2     X.修复IE     H.帮助    
 echo ■───────────────────────────────── ■
 echo 当前工作目录(O)：%~dp0
 echo.
 set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
+if /i "%all%"=="a" goto add
 if /i "%all%"=="b" goto hostsbak
 if /i "%all%"=="c" goto clean
 if /i "%all%"=="d" goto delbak
