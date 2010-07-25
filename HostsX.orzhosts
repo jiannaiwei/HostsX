@@ -1,4 +1,4 @@
-;version=201007231630
+;version=201007260000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -102,8 +102,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.cbsinteractive.com
 0.0.0.0 adlog.com.com
 0.0.0.0 dw-cn.com.com
-0.0.0.0 dw.com.com
 0.0.0.0 img.com.com
+0.0.0.0 rubics-assets.com.com
 #CNN
 0.0.0.0 ads.cnn.com
 #Lycos News

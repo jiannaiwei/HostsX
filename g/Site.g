@@ -10,7 +10,7 @@
 #CBSNews
 0.0.0.0 dw.cbsnews.com
 #CNet
-0.0.0.0 dw.cnet.com www.cbsinteractive.com adlog.com.com dw-cn.com.com dw.com.com img.com.com
+0.0.0.0 dw.cnet.com www.cbsinteractive.com adlog.com.com dw-cn.com.com img.com.com rubics-assets.com.com
 #CNN
 0.0.0.0 ads.cnn.com
 #Lycos News
