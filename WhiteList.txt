@@ -1,4 +1,4 @@
-2010-07-16:
+2010-08-01:
 
 功能影响:
 Google Api:
@@ -40,6 +40,7 @@ pinyin.sogou.com     （无法下载词库）
 网站误杀:
 www.in9.cn
 bt.ktxp.com
+rapidshare.com
 
 网友建议保留:
 97xxoo.com
