@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.83
+set ver=1.85
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -205,9 +205,9 @@ echo.
 echo. En：8.MVPS            9.SomeOneWhoCares                       
 echo.   
 echo ☆User Data:                                              
-echo.     A.添加屏蔽网站                B.屏蔽自定义数据        
+echo.     A.添加屏蔽/加速访问 网站            B.屏蔽自定义数据        
 echo.
-echo.     C.删除屏蔽网站                D.加速网站访问   
+echo.     C.删除屏蔽网站                 
 echo.       
 echo   -------------------------------------------------------- 
 echo  ！不建议同时重复添加使用多个！不建议在Hosts中添加过多内容！
@@ -228,7 +228,6 @@ if /i "%all%"=="9" goto someonewhocares
 if /i "%all%"=="a" goto add
 if /i "%all%"=="b" goto myfile
 if /i "%all%"=="c" goto clearadd
-if /i "%all%"=="d" goto accelerate
 
 :dft
 echo 正在连接升级服务器，请稍侯…
@@ -315,10 +314,20 @@ start http://someonewhocares.org/hosts/
 goto Perms
 
 :add
-echo 如 要屏蔽百度，则输入：www.baidu.com
-set /p a=请输入要屏蔽的网站:
-echo 0.0.0.0 %a%>>%hosts%
-mshta vbscript:msgbox("%a% 已经被屏蔽！",64,"Hosts")(window.close)
+set/p c=请输入主机IP地址 (如：192.11.10.69 ) 屏蔽可使用0.0.0.0或127.0.0.1
+set/p cc= 请输入主机域名 (如：www.baidu.com)
+echo %c% %cc%>>%hosts%
+mshta vbscript:msgbox("%cc% 设置完成！",64,"Hosts")(window.close)
+goto dns
+
+:clearadd
+echo 如 要取消屏蔽百度，则输入：www.baidu.com
+set /p b=请输入要取消屏蔽的网站:
+findstr /i "\<%b%\>"<%hosts%||(cls&echo/&echo ***没有找到您输入的网站地址***&pause&goto choose)
+findstr /vi "\<%b%\>"<%hosts% >host
+del %hosts%
+copy host %hosts%
+mshta vbscript:msgbox("已经取消屏蔽 %b%！",64,"Hosts")(window.close)
 goto dns
 
 :myfile
@@ -332,23 +341,6 @@ pause
 set "in=>>%hosts%"
 for /f "delims=" %%a in (自定义.txt) do echo 0.0.0.0%in%
 goto Perms
-
-:clearadd
-echo 如 要取消屏蔽百度，则输入：www.baidu.com
-set /p b=请输入要取消屏蔽的网站:
-findstr /i "\<%b%\>"<%hosts%||(cls&echo/&echo ***没有找到您输入的网站地址***&pause&goto choose)
-findstr /vi "\<%b%\>"<%hosts% >host
-del %hosts%
-copy host %hosts%
-mshta vbscript:msgbox("已经取消屏蔽 %b%！",64,"Hosts")(window.close)
-goto dns
-
-:accelerate
-set/p c=输入要加速访问的主机IP地址 (如：192.11.10.69 )
-set/p cc= 输入要加速访问的主机域名 (如：www.baidu.com)
-echo %c% %cc%>>%hosts%
-mshta vbscript:msgbox("%cc% 加速访问设置完成！",64,"Hosts")(window.close)
-goto dns
 
 :Acrylic
 mode con: cols=39 lines=25
