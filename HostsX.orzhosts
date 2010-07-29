@@ -1,4 +1,4 @@
-;version=201007260000
+;version=201007291800
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -23,6 +23,8 @@ ff02::3 ip6-allhosts
 #CCF
 64.120.147.102 bbs.et8.net
 #Google
+66.249.89.104 encrypted.google.com
+209.85.225.104 encrypted.google.com
 74.125.19.147 nt0.ggpht.com
 74.125.19.147 nt1.ggpht.com
 74.125.19.147 nt2.ggpht.com
