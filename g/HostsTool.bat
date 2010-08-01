@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.862
+set ver=1.863
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -42,7 +42,7 @@ mode con cols=71 lines=33
 rem 系统文件检测
 if not exist cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&goto sysfile
 rem 解除Hosts只读属性，权限限制
-echo y|cacls %hosts% /g everyone:f >nul
+echo y|cacls %hosts% /g system:f >nul
 attrib -r -a -s -h %hosts%
 cls
 title Hosts 小工具 %ver%   %date%
@@ -143,24 +143,33 @@ goto menu
 title 设置Hosts文件访问权限
 mode con: cols=50 lines=15
 echo.
-echo 1,设为只读（默认回车使用）
+echo 1,设为只读（默认回车使用）    6,不设置
 echo.
-echo 2,设置Hosts文件防删权限（NTFS磁盘格式有效）
+echo 2,设置NTFS读取权限  3,设置NTFS拒绝权限
 echo.
-echo 3,不设置任何权限    4,重新打开Hosts
+echo 4,取消NTFS权限控制  5,重新打开Hosts
 SET Choice=
 echo.
 SET /P Choice=修改完成后请关闭记事本继续选择：
 IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
 IF /I '%Choice%'=='1' GOTO readonly
-IF /I '%Choice%'=='2' GOTO ntfs
-IF /I '%Choice%'=='3' GOTO dns
-IF /I '%Choice%'=='4' GOTO run
+IF /I '%Choice%'=='2' GOTO ntfsr
+IF /I '%Choice%'=='3' GOTO ntfsno
+IF /I '%Choice%'=='4' GOTO ntfsf
+IF /I '%Choice%'=='5' GOTO run
+IF /I '%Choice%'=='6' GOTO dns
 :readonly
 attrib +r +a +s %hosts%
 goto pmfinish
-:ntfs
-cacls %hosts% /P everyone: R >nul
+:ntfsr
+echo y|Cacls %hosts% /e /c /p Administrator:r >nul
+goto pmfinish
+:ntfsno
+echo y|Cacls %hosts% /e /c /p Administrator:n >nul
+goto pmfinish
+:ntfsf
+echo y|Cacls %hosts% /e /c /r Administrator >nul
+echo y|Cacls %hosts% /e /c /g Administrator:f >nul
 goto pmfinish
 :pmfinish
 echo.
