@@ -35,7 +35,6 @@ reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "h
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Use Search Asst" /d "no" /f
 reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "gogl" /f
-reg add "HKLM\Software\Microsoft\Internet Explorer\" /f /ve /d "about:blank"
 reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "https://www.google.com/intl/zh-CN/"
 reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f
 reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f
