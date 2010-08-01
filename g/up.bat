@@ -2,7 +2,11 @@
 title HostsTool 更新中...
 mode con: cols=50 lines=16
 color 5f
-if exist HostsTool.bat del HostsTool.bat>nul 2>nul
+echo 正在升级相关组件
+del cacls.exe ipseccmd.exe HostsTool.bat wget.exe
+copy down\cacls.exe cacls.exe>nul 2>nul
+copy down\ipseccmd.exe ipseccmd.exe>nul 2>nul
+copy down\wget.exe wget.exe>nul 2>nul
 copy down\HostsTool.bat HostsTool.bat>nul 2>nul
 echo 关闭DNS client服务，以加快DNS解析速度;
 echo 正在安装Ipv6协议及相关支持,以使Ipv6可用！
