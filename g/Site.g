@@ -7,10 +7,6 @@
 0.0.0.0 te.ap.org ap.search.theplatform.com
 #BBC
 0.0.0.0 external.bbc.co.uk stats.bbc.co.uk visualscience.external.bbc.co.uk
-#CBSNews
-0.0.0.0 dw.cbsnews.com
-#CNet
-0.0.0.0 dw.cnet.com www.cbsinteractive.com adlog.com.com dw-cn.com.com img.com.com rubics-assets.com.com
 #CNN
 0.0.0.0 ads.cnn.com
 #Lycos News
@@ -58,7 +54,7 @@
 #西祠胡同
 0.0.0.0 ad.xici.net afpxici.allyes.com xiciafp.allyes.com
 #奇虎社区
-0.0.0.0	aimg.qihoo.com clkstat.qihoo.com rd.qihoo.com code.qihoo.com qd.code.qihoo.com union.qihoo.com
+0.0.0.0	aimg.qihoo.com clkstat.qihoo.com code.qihoo.com haostat.qihoo.com qd.code.qihoo.com rd.qihoo.com union.qihoo.com
 #大洋网
 0.0.0.0 adimg.dayoo.com rnd.dayoo.com sta.dayoo.com
 #21CN
@@ -66,7 +62,7 @@
 #Tom
 0.0.0.0 ad.tom.com sc.tom.com tom.allyes.com xtrack.tomonline-inc.com
 #摄影类
-0.0.0.0 a-m-s.poco.cn pic.fengniao.com stat.fengniao.com www8.xitek.com
+0.0.0.0 a-m-s.poco.cn www8.xitek.com
 #一大把
 0.0.0.0 adc.yidaba.com adfv.yidaba.com adj.yidaba.com adv.yidaba.com bd.yidaba.com bm.yidaba.com images.cms.yidaba.com images.yidaba.com industry.yidaba.com
 0.0.0.0 info.yidaba.com static.yidaba.com
@@ -80,10 +76,6 @@
 0.0.0.0 adtaobao.tobo123.com union.360buy.com click.union.360buy.com union.dangdang.com union.vancl.com www.133i.com
 
 @HostsX 站点广告过滤/IT 类网站
-#中关村系列
-0.0.0.0 adm.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
-#电脑之家
-0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net stat.pchome.net
 #泡泡网
 0.0.0.0 33.pcpop.com ashow.pcpop.com count.pcpop.com
 #太平洋
@@ -102,16 +94,14 @@
 0.0.0.0 adshow.it168.com 168.it168.com
 #RayFile
 0.0.0.0 img.rayfile.com raya.rayfile.com w105.rayfile.com
-#Other
-0.0.0.0 am.zdnet.com.cn pv.zdnet.com.cn ad.ddvip.com apic.xiyuit.com pic.ea3w.com gg.donews.com
+#豆豆资讯
+0.0.0.0 ad.ddvip.com
+#DoNews
+0.0.0.0 gg.donews.com
 
 @HostsX 站点广告过滤/汽车类网站
-#爱卡汽车
-0.0.0.0 d1.xcar.com.cn d0.xcar.com.cn
 #汽车之家
 0.0.0.0 33.autohome.com.cn allyesbjafa.allyes.com ebooafa7.allyes.com
-#网上车市
-0.0.0.0 analyze.cheshi.com click.cheshi.com media.cheshi-img.com pv.cheshi.com fallyesbjafa.allyes.com
 #易车网
 0.0.0.0 autosense.bitauto.com g.bitauto.com gimg.bitauto.com ip.bitauto.com
 #中国汽车网
@@ -218,3 +208,29 @@
 0.0.0.0 c.iqilu.com g.iqilu.com gimg.iqilu.com
 #其他新闻网站
 0.0.0.0 up.hiao.com
+
+@HostsX 站点广告过滤/CBS Interactive
+#CBSNews
+0.0.0.0 dw.cbsnews.com
+#CNet
+0.0.0.0 adlog.com.com dw-cn.com.com dw.cnet.com i.i.com.com image.com.com img.com.com rubics-assets.com.com www.cbsinteractive.com
+#中关村系列
+0.0.0.0 adm.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pic.zol-img.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
+#电脑之家
+0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net market.pchome.net js-1.pchome.net stat.pchome.net
+#至顶网ZDNet
+0.0.0.0 am.zdnet.com.cn icon.zdnet.com.cn pv.zdnet.com.cn server.zdnet.com.cn
+#西域IT
+0.0.0.0 apic.xiyuit.com
+#万维家电
+0.0.0.0 pic.ea3w.com
+#GameSpot China
+0.0.0.0 stat.gamespot.com.cn
+#SPN
+0.0.0.0 count.spn.com.cn www2.spn.com.cn
+#网上车市
+0.0.0.0 analyze.cheshi.com click.cheshi.com media.cheshi-img.com pv.cheshi.com fallyesbjafa.allyes.com
+#爱卡汽车
+0.0.0.0 count.xcar.com.cn d0.xcar.com.cn d1.xcar.com.cn dw.xcar.com.cn
+#蜂鸟网
+0.0.0.0 pic.fengniao.com stat.fengniao.com

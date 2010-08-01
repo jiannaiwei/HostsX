@@ -5,7 +5,7 @@
 0.0.0.0 a.baidu.com baidutv.baidu.com bar.baidu.com c.baidu.com cb.baidu.com cjhq.baidu.com cpro.baidu.com drmcmm.baidu.com dzl.baidu.com
 0.0.0.0 e.baidu.com eiv.baidu.com focusbaiduafp.allyes.com hc.baidu.com hm.baidu.com iebar.baidu.com ikcode.baidu.com ma.baidu.com neirong.baidu.com
 0.0.0.0 nsclick.baidu.com s.baidu.com spcode.baidu.com tk.baidu.com tkweb.baidu.com tongji.baidu.com toolbar.baidu.com tracker.baidu.com ucstat.baidu.com
-0.0.0.0 union.baidu.com unstat.baidu.com utk.baidu.com utility.baidu.com
+0.0.0.0 ulic.baidu.com union.baidu.com unstat.baidu.com utk.baidu.com utility.baidu.com
 #阿里淘宝
 0.0.0.0 a.alimama.cn acookie.alibaba.com acookie.alimama.com bm.alimama.cn bmvip.alimama.cn cpc.click.alimama.com gouwu.alimama.com img.alimama.cn log.mm.vip.cnz.alimama.com
 0.0.0.0 p.alimama.com p3p.alibaba.com s.click.alimama.com static.alimama.com taoke.alimama.com www.alimama.com z.alimama.com click.mz.simba.taobao.com pindao.huoban.taobao.com
@@ -19,9 +19,9 @@
 0.0.0.0 allyesshafa.allyes.com bokee.allyes.com demoafp.allyes.com goqoafp6.allyes.com iplus.allyes.com mscdn.allyes.cn mscdn.allyes.com mso.allyes.com rayliafp.allyes.cn
 0.0.0.0 smartmedia.allyes.com smarttrade.allyes.com smcommon.allyes.com smcreative.allyes.com smjs.allyes.com smms.allyes.cn sroomafp.allyes.com stbanner.allyes.com stm.allyes.com
 #大陆常见广告
-0.0.0.0 1188s.info adsresult.joywell.com.cn api.flash45.com bs.serving-sys.com clk.abang.com cnt.zhaopin.com go.maxreturn.cn m.menhutong.com.cn pic837013.images9999.com
-0.0.0.0 popunder.paypopup.com union.51ditu.com union.88go.cc union.keepc.com union.narrowad.com union.qyule.com union.the999.com union.zhongsou.com union2.50bang.org
-0.0.0.0 www.265g.info www.adtools.cn c.ad123456.com 1.usazm.net
+0.0.0.0 1188s.info adsresult.joywell.com.cn api.flash45.com bs.serving-sys.com clk.abang.com cnt.zhaopin.com e.appsasia.net go.maxreturn.cn m.menhutong.com.cn 
+0.0.0.0 pic837013.images9999.com popunder.paypopup.com union.51ditu.com union.88go.cc union.keepc.com union.narrowad.com union.qyule.com union.the999.com union.zhongsou.com
+0.0.0.0 union2.50bang.org www.265g.info www.adtools.cn c.ad123456.com 1.usazm.net c.ourclick.net
 #港台常见广告
 0.0.0.0 10000.mm.oishow.com ad.doubleadv.tv ad.f1.com.tw ad.wretch.cc ad71.doubleadx.com admd.yam.com gwc.iblinx.com hwachun.webplus.com.tw link.f1.com.tw
 0.0.0.0 mx3.hotrank.com.tw pic.addeliver.biz rc.asia.srv.overture.com www.iasoho.com adsense.scupio.com money.scupio.com www.scupio.com
@@ -37,14 +37,7 @@
 #ADPlan
 0.0.0.0 c.p-advg.com o.advg.jp sp.advg.jp www.adplan-ds.com www.adplan.ne.jp www.p-advg.com
 #AdTech
-0.0.0.0 adserver.adtech.de barracuda1.adtech.de barracuda2.adtech.de www.adtech.de adforce.adtech.de adserv001.adtech.de adserv002.adtech.de adserv003.adtech.de adserv004.adtech.de
-0.0.0.0 adserv005.adtech.de adserv006.adtech.de adserv007.adtech.de adserv008.adtech.de adserver.fr.adtech.de adssl01.adtech.de adssl02.adtech.de adtech.de adtech.panthercustomer.com
-0.0.0.0 bitburg.adtech.de burns.adtech.de corba.adtech.de dqs001.adtech.de help.adtech.de hyperion.adtech.de im.adtech.de imageserv.adtech.de imserv001.adtech.de
-0.0.0.0 imserv002.adtech.de imserv003.adtech.de imserv004.adtech.de imserv005.adtech.de imserv006.adtech.de imserv00x.adtech.de imssl01.adtech.de ipacc1.adtech.de ipdata.adtech.de
-0.0.0.0 iq001.adtech.de ldglob01.adtech.de ldglob02.adtech.de ldimage01.adtech.de ldimage02.adtech.de ldserv01.adtech.de ldserv02.adtech.de linuxpark.adtech.de livingnet.adtech.de
-0.0.0.0 manage001.adtech.de pix521.adtech.de pix522.adtech.de report02.adtech.de reporter.adtech.de reporter001.adtech.de reportimage.adtech.de secimage.adtech.de secserv.adtech.de
-0.0.0.0 service.adtech.de service001.adtech.de service002.adtech.de service003.adtech.de service00x.adtech.de services.adtech.de services1.adtech.de sgs001.adtech.de sokrates.adtech.de
-0.0.0.0 upload.adtech.de xml.adtech.de
+0.0.0.0 adserver.adtech.de ad.dc2.adtech.de www.adtech.de adtech.de
 #Adffinder
 0.0.0.0 adultfriendfinder.com banners.adultfriendfinder.com www.adultfriendfinder.com
 #Amgdgt
@@ -278,6 +271,7 @@
 #病毒下载
 0.0.0.0 down.2345g.info down.jghdtv.com download.duozz.com gb.36578.com hz.mmstat.com img38.my1188.info qqhdx.cn soft.ie222.com taojin.18ii.info
 0.0.0.0 wt1.skycn.gogle.cn www.001cndc.cn www.05kiss.cn www.125c.com www.ie9down.info www.mycar021.com www.qq-2010f.com www.zgsj.com www.zhutizi.com
+0.0.0.0 down.vbuv.cn
 #流氓捆绑
 0.0.0.0 www.duote.com www.duotegame.com img.duote.com it.oyksoft.com www.oyksoft.com www.xiazaiba.com xiazaiba.com xiazai.xiazaiba.com
 

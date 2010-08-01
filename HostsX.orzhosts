@@ -1,4 +1,4 @@
-;version=201007291800
+;version=201008011030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -38,7 +38,7 @@ ff02::3 ip6-allhosts
 209.85.225.101 docs.google.com
 74.125.127.100 writely.google.com
 74.125.127.139 spreadsheets.google.com
-#Gmail
+#Gmail（Outlook收取可能无效）
 209.85.147.109 pop.gmail.com
 209.85.147.109 smtp.gmail.com
 66.102.7.19 mail.google.com
@@ -97,17 +97,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 external.bbc.co.uk
 0.0.0.0 stats.bbc.co.uk
 0.0.0.0 visualscience.external.bbc.co.uk
-#CBSNews
-0.0.0.0 dw.cbsnews.com
-#CNet
-0.0.0.0 dw.cnet.com
-0.0.0.0 www.cbsinteractive.com
-0.0.0.0 adlog.com.com
-0.0.0.0 dw-cn.com.com
-0.0.0.0 img.com.com
-0.0.0.0 rubics-assets.com.com
 #CNN
 0.0.0.0 ads.cnn.com
+#Intel
+0.0.0.0 h10010.www1.hp.com
+0.0.0.0 syndication.intel.com
+0.0.0.0 www-direct-intl.cnet.com
+0.0.0.0 www.cnetdirectintl.com
 #Lycos News
 0.0.0.0 ads.lycos.com
 0.0.0.0 advertising.lycos.com
@@ -282,9 +278,10 @@ ff02::3 ip6-allhosts
 #奇虎社区
 0.0.0.0	aimg.qihoo.com
 0.0.0.0 clkstat.qihoo.com
-0.0.0.0 rd.qihoo.com
 0.0.0.0 code.qihoo.com
+0.0.0.0 haostat.qihoo.com
 0.0.0.0 qd.code.qihoo.com
+0.0.0.0 rd.qihoo.com
 0.0.0.0 union.qihoo.com
 #大洋网
 0.0.0.0 adimg.dayoo.com
@@ -302,9 +299,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 sc.tom.com
 0.0.0.0 tom.allyes.com
 0.0.0.0 xtrack.tomonline-inc.com
-#蜂鸟网
-0.0.0.0 pic.fengniao.com
-0.0.0.0 stat.fengniao.com
 #色影无忌
 0.0.0.0 www8.xitek.com
 #一大把
@@ -346,20 +340,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.vancl.com
 0.0.0.0 www.133i.com
 @HostsX 站点广告过滤/IT 类网站
-#中关村系列
-0.0.0.0 adm.zol.com.cn
-0.0.0.0 bwp.zol.com.cn
-0.0.0.0 jspchome.zol.com.cn
-0.0.0.0 pv.zol.com.cn
-0.0.0.0 pvpchome.zol.com.cn
-0.0.0.0 pvsite.zol.com.cn
-0.0.0.0 stat.zol.com.cn
-#电脑之家
-0.0.0.0 ad.pchome.net
-0.0.0.0 btm.pchome.net
-0.0.0.0 btn.pchome.net
-0.0.0.0 click.pchome.net
-0.0.0.0 stat.pchome.net
 #泡泡网
 0.0.0.0 33.pcpop.com
 0.0.0.0 ashow.pcpop.com
@@ -382,15 +362,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.akamai.net
 0.0.0.0 stat.ccidnet.com
 0.0.0.0 www2.ccidnet.com
-#至顶网ZDNet
-0.0.0.0 am.zdnet.com.cn
-0.0.0.0 pv.zdnet.com.cn
 #豆豆资讯
 0.0.0.0 ad.ddvip.com
-#西域IT
-0.0.0.0 apic.xiyuit.com
-#万维家电
-0.0.0.0 pic.ea3w.com
 #CSDN
 0.0.0.0 counter.csdn.net
 0.0.0.0 z.csdn.net
@@ -408,19 +381,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 raya.rayfile.com
 0.0.0.0 w105.rayfile.com
 @HostsX 站点广告过滤/汽车类网站
-#爱卡汽车
-0.0.0.0 d1.xcar.com.cn
-0.0.0.0 d0.xcar.com.cn
 #汽车之家
 0.0.0.0 33.autohome.com.cn
 0.0.0.0 allyesbjafa.allyes.com
 0.0.0.0 ebooafa7.allyes.com
-#网上车市
-0.0.0.0 analyze.cheshi.com
-0.0.0.0 click.cheshi.com
-0.0.0.0 media.cheshi-img.com
-0.0.0.0 pv.cheshi.com
-0.0.0.0 fallyesbjafa.allyes.com
 #易车网
 0.0.0.0 autosense.bitauto.com
 0.0.0.0 g.bitauto.com
@@ -605,6 +569,63 @@ ff02::3 ip6-allhosts
 0.0.0.0 gimg.iqilu.com
 #其他新闻网站
 0.0.0.0 up.hiao.com
+@HostsX 站点广告过滤/CBS Interactive
+#CBSNews
+0.0.0.0 dw.cbsnews.com
+#CNet
+0.0.0.0 adlog.com.com
+0.0.0.0 dw-cn.com.com
+0.0.0.0 dw.cnet.com
+0.0.0.0 i.i.com.com
+0.0.0.0 image.com.com
+0.0.0.0 img.com.com
+0.0.0.0 rubics-assets.com.com
+0.0.0.0 www.cbsinteractive.com
+#中关村系列
+0.0.0.0 adm.zol.com.cn
+0.0.0.0 bwp.zol.com.cn
+0.0.0.0 jspchome.zol.com.cn
+0.0.0.0 pic.zol-img.com.cn
+0.0.0.0 pv.zol.com.cn
+0.0.0.0 pvpchome.zol.com.cn
+0.0.0.0 pvsite.zol.com.cn
+0.0.0.0 stat.zol.com.cn
+#电脑之家
+0.0.0.0 ad.pchome.net
+0.0.0.0 btm.pchome.net
+0.0.0.0 btn.pchome.net
+0.0.0.0 click.pchome.net
+0.0.0.0 market.pchome.net
+0.0.0.0 js-1.pchome.net
+0.0.0.0 stat.pchome.net
+#至顶网ZDNet
+0.0.0.0 am.zdnet.com.cn
+0.0.0.0 icon.zdnet.com.cn
+0.0.0.0 pv.zdnet.com.cn
+0.0.0.0 server.zdnet.com.cn
+#西域IT
+0.0.0.0 apic.xiyuit.com
+#万维家电
+0.0.0.0 pic.ea3w.com
+#GameSpot China
+0.0.0.0 stat.gamespot.com.cn
+#SPN
+0.0.0.0 count.spn.com.cn
+0.0.0.0 www2.spn.com.cn
+#网上车市
+0.0.0.0 analyze.cheshi.com
+0.0.0.0 click.cheshi.com
+0.0.0.0 media.cheshi-img.com
+0.0.0.0 pv.cheshi.com
+0.0.0.0 fallyesbjafa.allyes.com
+#爱卡汽车
+0.0.0.0 count.xcar.com.cn
+0.0.0.0 d0.xcar.com.cn
+0.0.0.0 d1.xcar.com.cn
+0.0.0.0 dw.xcar.com.cn
+#蜂鸟网
+0.0.0.0 pic.fengniao.com
+0.0.0.0 stat.fengniao.com
 @HostsX 网络广告过滤
 @HostsX 网络广告过滤/国内广告
 #百度
@@ -635,10 +656,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 toolbar.baidu.com
 0.0.0.0 tracker.baidu.com
 0.0.0.0 ucstat.baidu.com
+0.0.0.0 ulic.baidu.com
 0.0.0.0 union.baidu.com
 0.0.0.0 unstat.baidu.com
-0.0.0.0 utk.baidu.com
 0.0.0.0 utility.baidu.com
+0.0.0.0 utk.baidu.com
 #阿里淘宝
 0.0.0.0 a.alimama.cn
 0.0.0.0 acookie.alibaba.com
@@ -713,8 +735,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.flash45.com
 0.0.0.0 bs.serving-sys.com
 0.0.0.0 c.ad123456.com
+0.0.0.0 c.ourclick.net
 0.0.0.0 clk.abang.com
 0.0.0.0 cnt.zhaopin.com
+0.0.0.0 e.appsasia.net
 0.0.0.0 go.maxreturn.cn
 0.0.0.0 m.menhutong.com.cn
 0.0.0.0 pic837013.images9999.com
@@ -790,70 +814,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.p-advg.com
 #AdTech
 0.0.0.0 adserver.adtech.de
-0.0.0.0 barracuda1.adtech.de
-0.0.0.0 barracuda2.adtech.de
+0.0.0.0 ad.dc2.adtech.de
 0.0.0.0 www.adtech.de
-0.0.0.0 adforce.adtech.de
-0.0.0.0 adserv001.adtech.de
-0.0.0.0 adserv002.adtech.de
-0.0.0.0 adserv003.adtech.de
-0.0.0.0 adserv004.adtech.de
-0.0.0.0 adserv005.adtech.de
-0.0.0.0 adserv006.adtech.de
-0.0.0.0 adserv007.adtech.de
-0.0.0.0 adserv008.adtech.de
-0.0.0.0 adserver.fr.adtech.de
-0.0.0.0 adssl01.adtech.de
-0.0.0.0 adssl02.adtech.de
 0.0.0.0 adtech.de
-0.0.0.0 adtech.panthercustomer.com
-0.0.0.0 bitburg.adtech.de
-0.0.0.0 burns.adtech.de
-0.0.0.0 corba.adtech.de
-0.0.0.0 dqs001.adtech.de
-0.0.0.0 help.adtech.de
-0.0.0.0 hyperion.adtech.de
-0.0.0.0 im.adtech.de
-0.0.0.0 imageserv.adtech.de
-0.0.0.0 imserv001.adtech.de
-0.0.0.0 imserv002.adtech.de
-0.0.0.0 imserv003.adtech.de
-0.0.0.0 imserv004.adtech.de
-0.0.0.0 imserv005.adtech.de
-0.0.0.0 imserv006.adtech.de
-0.0.0.0 imserv00x.adtech.de
-0.0.0.0 imssl01.adtech.de
-0.0.0.0 ipacc1.adtech.de
-0.0.0.0 ipdata.adtech.de
-0.0.0.0 iq001.adtech.de
-0.0.0.0 ldglob01.adtech.de
-0.0.0.0 ldglob02.adtech.de
-0.0.0.0 ldimage01.adtech.de
-0.0.0.0 ldimage02.adtech.de
-0.0.0.0 ldserv01.adtech.de
-0.0.0.0 ldserv02.adtech.de
-0.0.0.0 linuxpark.adtech.de
-0.0.0.0 livingnet.adtech.de
-0.0.0.0 manage001.adtech.de
-0.0.0.0 pix521.adtech.de
-0.0.0.0 pix522.adtech.de
-0.0.0.0 report02.adtech.de
-0.0.0.0 reporter.adtech.de
-0.0.0.0 reporter001.adtech.de
-0.0.0.0 reportimage.adtech.de
-0.0.0.0 secimage.adtech.de
-0.0.0.0 secserv.adtech.de
-0.0.0.0 service.adtech.de
-0.0.0.0 service001.adtech.de
-0.0.0.0 service002.adtech.de
-0.0.0.0 service003.adtech.de
-0.0.0.0 service00x.adtech.de
-0.0.0.0 services.adtech.de
-0.0.0.0 services1.adtech.de
-0.0.0.0 sgs001.adtech.de
-0.0.0.0 sokrates.adtech.de
-0.0.0.0 upload.adtech.de
-0.0.0.0 xml.adtech.de
 #Adffinder
 0.0.0.0 adultfriendfinder.com
 0.0.0.0 banners.adultfriendfinder.com
@@ -1994,6 +1957,7 @@ ff02::3 ip6-allhosts
 #病毒下载
 0.0.0.0 down.2345g.info
 0.0.0.0 down.jghdtv.com
+0.0.0.0 down.vbuv.cn
 0.0.0.0 download.duozz.com
 0.0.0.0 gb.36578.com
 0.0.0.0 hz.mmstat.com
