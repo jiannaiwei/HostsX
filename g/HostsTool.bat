@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.86
+set ver=1.861
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -8,7 +8,7 @@ set downa=wget -nH -N -c -t 10 -w 2 -q -P Acrylic
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /s /q echo host hosts>nul 2>nul
 del /f /s /q down\*.*>nul 2>nul
-del /f /s /q 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt>nul 2>nul
+del /f /s /q setup.bat HostsX.orzhosts 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt>nul 2>nul
 rd /s /q down\hosts\>nul 2>nul
 rd /s /q down\>nul 2>nul
 rem Wget下载组件检测
@@ -175,7 +175,7 @@ goto menu
 :help
 cls
 if exist Help.txt type Help.txt|more
-start http://blog.jockwok.com/p/g-hosts.html
+start http://hi.baidu.com/iebb
 mshta vbscript:msgbox("不建议在Hosts文件中添加过多内容！",64,"Hosts")(window.close)
 goto menu
 
@@ -189,6 +189,7 @@ goto Perms
 
 :choose
 mode con: cols=63 lines=32
+del /f /s /q down\*.*>nul 2>nul
 cls
 title Hosts 数据调整
 echo.

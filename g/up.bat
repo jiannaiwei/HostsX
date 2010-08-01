@@ -27,25 +27,25 @@ del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
 del /f /q %userprofile%\recent\*.*>nul 2>nul
 ipconfig /flushdns>nul 2>nul
 echo 恢复IE搜索引擎,修复IE工具栏广告
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s">nul 2>nul
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Use Search Asst" /d "no" /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "gogl" /f>nul 2>nul
-reg add "HKLM\Software\Microsoft\Internet Explorer\" /f /ve /d "about:blank">nul 2>nul
-reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "https://www.google.com/intl/zh-CN/">nul 2>nul
-reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f>nul 2>nul
-reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
-reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s"
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Use Search Asst" /d "no" /f
+reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "gogl" /f
+reg add "HKLM\Software\Microsoft\Internet Explorer\" /f /ve /d "about:blank"
+reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "https://www.google.com/intl/zh-CN/"
+reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f
+reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f
+reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f
 cls
 echo 清除SOGOU搜狗的IE加载项so.dll
 regsvr32 /u /s so.dll >nul 2>nul
 del /f %windir%\system32\so.dll >nul 2>nul
-reg delete HKCR\NetCafeHlp.AddrHelper /f >nul 2>nul
-reg delete HKCR\NetCafeHlp.AddrHelper.1 /f >nul 2>nul
-reg delete "HKCU\Software\Microsoft\Internet Explorer\URLSearchHooks" /v {02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f >nul 2>nul
-reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f >nul 2>nul
-reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072}" /f >nul 2>nul
+reg delete HKCR\NetCafeHlp.AddrHelper /f
+reg delete HKCR\NetCafeHlp.AddrHelper.1 /f
+reg delete "HKCU\Software\Microsoft\Internet Explorer\URLSearchHooks" /v {02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f
+reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f
+reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072}" /f
 cls
 title Enjoy The New Version HostsTool !
 mshta vbscript:msgbox("建议使用新版在线更新一次数据！",64,"更新完成！")(window.close)
-pause&call HostsTool.bat&del %0
+call HostsTool.bat&del %0
