@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.861
+set ver=1.862
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -160,7 +160,7 @@ IF /I '%Choice%'=='4' GOTO run
 attrib +r +a +s %hosts%
 goto pmfinish
 :ntfs
-echo y|cacls %hosts% /g everyone:r
+cacls %hosts% /P everyone: R >nul
 goto pmfinish
 :pmfinish
 echo.
