@@ -40,7 +40,7 @@ goto menu
 :menu
 mode con cols=71 lines=33
 rem 系统文件检测
-if not exist cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&goto sysfile
+if not exist %windir%\system32\cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&goto sysfile
 rem 解除Hosts只读属性，权限限制
 echo y|cacls %hosts% /g system:f >nul
 attrib -r -a -s -h %hosts%
