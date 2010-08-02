@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.87
+set ver=1.872
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -481,7 +481,6 @@ echo 请检查网络连接或稍后再试！&pause>nul&goto menu
 if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
 echo 正在下载数据，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/up.bat
-%down% http://hostsx.googlecode.com/svn/trunk/g/cacls.exe
 %down% http://hostsx.googlecode.com/svn/trunk/g/ipseccmd.exe
 %down% http://hostsx.googlecode.com/svn/trunk/g/wget.exe
 %down% http://hostsx.googlecode.com/svn/trunk/g/HostsTool.bat
