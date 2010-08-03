@@ -10,14 +10,6 @@ copy down\HostsTool.bat HostsTool.bat>nul 2>nul
 echo 关闭DNS client服务，以加快DNS解析速度;
 echo 正在安装Ipv6协议及相关支持,以使Ipv6可用！
 echo 第一次安装Ipv6时请稍候...
-netsh interface ipv6 6to4 set state disabled>nul 2>nul
-netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567>nul 2>nul
-netsh interface ipv6 6to4 set state enabled>nul 2>nul
-netsh int ipv6 6to4 set relay 6to4.ipv6.microsoft.com>nul 2>nul
-sc config iphlpsvc start= auto>nul 2>nul
-net start iphlpsvc>nul 2>nul
-netsh interface ipv6 6to4 set state disabled>nul 2>nul
-netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567>nul 2>nul
 net stop "Dnscache">nul 2>nul
 sc config Dnscache start= disabled>nul 2>nul
 ipv6 install>nul 2>nul

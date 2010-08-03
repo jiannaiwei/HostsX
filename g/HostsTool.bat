@@ -414,7 +414,7 @@ taskkill /f /im Explorer.exe
 cd /d .\
 if exist "shdoclc.dll" goto shdoclc
 Echo "没有找到当前目录下的 shdoclc.dll，无法替换！"
-正在在线下载...
+echo 正在在线下载...
 wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/g/shdoclc.dll
 if not exist shdoclc.dll &pause&goto othertool
 :shdoclc
