@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.872
+set ver=1.875
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -57,7 +57,7 @@ echo.■   0.打开Hosts目录       B.备份Hosts文件        D.删除Hosts备份    ■
 echo ■-------------------------------------------------------------------■
 echo.■   F.修复Hosts文件       P.设置Hosts权限        T.感谢人员名单     ■
 echo ■-------------------------------------------------------------------■
-echo      G.自动模式1     U.自动模式2     X.修复IE     H.帮助    
+echo      G.自动1  U.自动2      X.修复IE  J.工具       H.帮助    
 echo ■───────────────────────────────── ■
 echo 当前工作目录(O)：%~dp0
 echo.
@@ -72,6 +72,7 @@ if /i "%all%"=="f" goto fixhosts
 if /i "%all%"=="g" goto dft
 if /i "%all%"=="h" goto help
 if /i "%all%"=="i" goto ipv6
+if /i "%all%"=="j" goto othertool
 if /i "%all%"=="o" goto opdp
 if /i "%all%"=="p" goto Perms
 if /i "%all%"=="q" goto exit
@@ -94,6 +95,7 @@ if /i "%all%"=="0" goto openhosts
 
 :dns
 echo 正在清理Dns缓存 IE缓存...
+ipconfig /flushdns>nul 2>nul
 del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
 del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
 del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
@@ -351,6 +353,93 @@ set "in=>>%hosts%"
 for /f "delims=" %%a in (自定义.txt) do echo 0.0.0.0%in%
 goto Perms
 
+:othertool
+mode con: cols=39 lines=25
+echo    ==================================
+echo            其他相关工具选项
+echo    ==================================
+echo        1. 安装Ipv6协议支持
+echo.
+echo        2. 禁用DNS client服务
+echo.
+echo        3. 设置IPv6相关支持
+echo.
+echo        4. 卸载Ipv6协议
+echo.
+echo        5. DNS client服务改为手动
+echo.
+echo        D. 替换shdoclc.dll文件
+echo    ==================================
+echo.
+SET Choice=
+SET /P Choice=请选择，输入[0]返回：
+IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
+IF /I '%Choice%'=='1' GOTO setupipv6
+IF /I '%Choice%'=='2' GOTO dnscachedis
+IF /I '%Choice%'=='3' GOTO ipv6srv
+IF /I '%Choice%'=='4' GOTO ipv6un
+IF /I '%Choice%'=='5' GOTO dnscachede
+IF /I '%Choice%'=='d' GOTO thshdoclc
+IF /I '%Choice%'=='0' GOTO menu
+
+:setupipv6
+echo 安装Ipv6协议支持,以使Ipv6可用！
+ping teredo.remlab.net >nul 2>nul && goto ipv6install &echo 第一次安装Ipv6时请稍候... || echo. & echo 网络环境也许不能安装，但你可以安装试试 & echo. & SET /P installyn=  是否继续安装，如果继续安装按y回车继续，如果不安装按n回车返回主菜单:
+if /I "%i6%"=="y" goto ipv6install
+if /I "%i6%"=="n" goto othertool
+
+:dnscachedis
+echo 关闭DNS client服务，以加快DNS解析速度;
+net stop DNSCache
+sc stop DNSCache
+sc config Dnscache start= disabled
+goto othertool
+
+:ipv6srv
+netsh interface ipv6 6to4 set state disabled
+netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567
+goto othertool
+
+:ipv6un
+ipv6 uninstall
+goto othertool
+
+:dnscachede
+sc config DNSCache start= demand
+sc stop DNSCache
+
+:thshdoclc
+taskkill /F /IM iexplore.exe /T>nul 2>nul
+taskkill /f /im Explorer.exe
+cd /d .\
+if exist "shdoclc.dll" goto shdoclc
+Echo "没有找到当前目录下的 shdoclc.dll，无法替换！"
+正在在线下载...
+wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/g/shdoclc.dll
+if not exist shdoclc.dll &pause&goto othertool
+:shdoclc
+Echo ****************************************
+Echo  替换系统文件为当前目录下的shdoclc.dll
+Echo ****************************************
+Echo 要退出请直接关闭本窗口！
+pause
+if NOT exist "%SystemRoot%\shdoclc.dll" Echo "没有找到系统文件！"&pause
+Echo 找到系统文件，备份到 BackUp 子文件夹中！
+if NOT exist ".\BackUp\" md ".\BackUp\"
+if exist ".\BackUp\shdoclc.dll" echo 备份文件已经存在 BackUp 中，是否替换？
+xcopy "%SystemRoot%\shdoclc.dll" ".\BackUp\"
+goto begincopy
+:begincopy
+if NOT exist "%SystemRoot%\shdoclc.dll" goto SystemRoot
+echo 确认替换文件：
+:SystemRoot
+xcopy shdoclc.dll "%SystemRoot%\system32\"
+xcopy shdoclc.dll "%SystemRoot%\system32\dllcache\"
+Echo 替换完成！
+pause
+start Explorer.exe
+goto othertool
+
 :Acrylic
 mode con: cols=39 lines=25
 if not exist Acrylic\ goto :Alcerr
@@ -585,8 +674,7 @@ goto menu
 
 :sysfile
 wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/g/cacls.exe
-if not exist cacls.exe goto sysfile
-pause&goto menu
+if not exist cacls.exe goto sysfile&pause&goto menu
 
 :hostspath
 echo 如果HostsTool未能正确获取路径，请切换到程序所在目录。
