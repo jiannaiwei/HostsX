@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.875
+set ver=1.876
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -42,7 +42,7 @@ mode con cols=71 lines=33
 rem 系统文件检测
 if not exist %windir%\system32\cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&goto sysfile
 rem 解除Hosts只读属性，权限限制
-echo y|cacls %hosts% /g system:f >nul
+echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls
 title Hosts 小工具 %ver%   %date%
