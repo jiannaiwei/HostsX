@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.876
+set ver=1.877
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -105,8 +105,8 @@ goto menu
 
 :hostsbak
 echo 对原Hosts进行备份 ...
-md Bak\
-copy /y %hosts% Bak\"Hosts_%bak%.txt" >nul 2>nul
+md Bakup\
+copy /y %hosts% Bakup\"Hosts_%bak%.txt" >nul 2>nul
 echo 备份完成
 pause
 goto menu
@@ -114,7 +114,7 @@ goto menu
 :delbak
 echo 是否删除备份的Hosts文件？
 Pause
-del Bak\Hosts*_*.txt /q >nul 2>nul
+del Bakup\Hosts*_*.txt /q >nul 2>nul
 echo 由HostsTool备份的Hosts文件已删除！
 Pause
 goto menu
