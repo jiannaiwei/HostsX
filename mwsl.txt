@@ -1,7 +1,8 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2010.7.26
+恶意网站HOSTS屏蔽文件-2010.8.9
 www.mwsl.org.cn
+---------------------------------------
 All Rights Reserved 2007-2010
 ***************************************
 127.0.0.1 localhost
@@ -3709,6 +3710,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 apteki-optima.com
 0.0.0.0 aq-anquan.com.cn
 0.0.0.0 aq-qq-server.3322.org
+0.0.0.0 aq.dna.service.tcenceni.com
 0.0.0.0 aq.qq.com.dna.gci-bin.cn
 0.0.0.0 aq.qq.com.tencent-cw.com
 0.0.0.0 aq.qqsercvice.com
@@ -4378,6 +4380,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 bestsecureexpertcleaner.com
 0.0.0.0 bestshaste.cn
 0.0.0.0 bestsoft-ware08.com
+0.0.0.0 bestvido.info
 0.0.0.0 bestyearcard.combestchristmascard.com
 0.0.0.0 bet.netsh.com
 0.0.0.0 beta.liuxuejob.com
@@ -4490,6 +4493,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 bo.3333ss.com
 0.0.0.0 bo.6666ss.com
 0.0.0.0 bo.bo73.com
+0.0.0.0 bo.sao16.com
 0.0.0.0 bo.sb333.org
 0.0.0.0 bo2288.com
 0.0.0.0 bo33bo.com
@@ -4903,6 +4907,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 caomeihongyu.cn
 0.0.0.0 caomeihongzx.cn
 0.0.0.0 caprichoss.webcindario.com
+0.0.0.0 carball.in
 0.0.0.0 carbys.no.sapo.pt
 0.0.0.0 card-taobao.com
 0.0.0.0 cardamorhtml.no.sapo.pt
@@ -4949,7 +4954,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 cc.18dd.net
 0.0.0.0 cc.441xx.net
 0.0.0.0 cc.78797987898.com
-0.0.0.0 cc.buhaoyIshI.com
+0.0.0.0 cc.buHaoyisHi.com
 0.0.0.0 cc.cc06.cn
 0.0.0.0 cc.fockfock.com
 0.0.0.0 cc.fsdfefw.cn
@@ -5498,6 +5503,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 creativ-s.ru
 0.0.0.0 creativitybox.com
 0.0.0.0 creber.free.fr
+0.0.0.0 crediar.no-ip.com
 0.0.0.0 cri66.web.cedant.com
 0.0.0.0 criminal-vb6ers.one-crew.net
 0.0.0.0 cristal-rmf.it
@@ -5535,6 +5541,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 csx.adservs.com
 0.0.0.0 ct.3333se.com
 0.0.0.0 ctrip.2288.org
+0.0.0.0 ctv3rt.com
 0.0.0.0 cuifiles.com
 0.0.0.0 cuimage.cn
 0.0.0.0 CUIQING.NET.CN
@@ -5897,6 +5904,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 dfsefyt23.open2009.net
 0.0.0.0 dfvbww.cn
 0.0.0.0 dfzqgf.com
+0.0.0.0 dg.jwl.woniu.com
 0.0.0.0 dgv9b.cn
 0.0.0.0 dh.41119.cn
 0.0.0.0 dh.97meitu.info
@@ -7570,6 +7578,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 hotel-ile-oleron.com
 0.0.0.0 hoteldays1.cn
 0.0.0.0 hotlean.com
+0.0.0.0 hotmail3.com
 0.0.0.0 hotpic.7poo.com
 0.0.0.0 hotplus.nm.ru
 0.0.0.0 hotsummerstaff.ru
@@ -7786,6 +7795,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 intaroo.net
 0.0.0.0 intes.3322.org
 0.0.0.0 intsteds2.cn
+0.0.0.0 inztion.com
 0.0.0.0 iooup.com
 0.0.0.0 iowhi.cn
 0.0.0.0 ip.8dunet.com
@@ -7803,6 +7813,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 iphone004.com
 0.0.0.0 ipkipk.3322.org
 0.0.0.0 iq-qq.com
+0.0.0.0 iq-tech.biz
 0.0.0.0 iq.sasas.org.cn
 0.0.0.0 iq.vcvvv.cn
 0.0.0.0 iq.wwqas.cn
@@ -7912,6 +7923,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 jijiba.quotaless.com
 0.0.0.0 jijiks8ahsda.cn
 0.0.0.0 jily.net
+0.0.0.0 jimkey.in
 0.0.0.0 jin.2020wyt.net
 0.0.0.0 jinchao2008.cn
 0.0.0.0 jindome.cn
@@ -8168,6 +8180,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 kel.2012avi.com
 0.0.0.0 keowo.cn
 0.0.0.0 kepko.net
+0.0.0.0 kertenkelereklam.com
 0.0.0.0 kewyr82.cn
 0.0.0.0 key.i9game.com.cn
 0.0.0.0 keyloggerpro.com
@@ -8373,6 +8386,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 lazzarimages.com
 0.0.0.0 lciejqe.cn
 0.0.0.0 lcwyt.com
+0.0.0.0 leakstar.com
 0.0.0.0 leee.111.6232.com
 0.0.0.0 leeeba.com
 0.0.0.0 leoe.3322.org
@@ -8487,6 +8501,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 lndns8.cncmax.cn
 0.0.0.0 lndns9.cncmax.cn
 0.0.0.0 lnfcjcy.gov.cn
+0.0.0.0 lnt888.3322.org
 0.0.0.0 lnx.whipart.it
 0.0.0.0 lo.121565.net
 0.0.0.0 lo1j.8800.org
@@ -8895,6 +8910,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 mo.997wyt.com
 0.0.0.0 mo171.cn
 0.0.0.0 mobileauto1.com
+0.0.0.0 mohotwrxst.info
 0.0.0.0 moiqq.cn
 0.0.0.0 moiqq.com
 0.0.0.0 momowo123.3322.org
@@ -9281,6 +9297,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 ns1.idnska.cn
 0.0.0.0 ns1.softgetsnews.com
 0.0.0.0 ns1.vs-013.cn
+0.0.0.0 ns1.vv05.info
 0.0.0.0 ns1.webstorenews.com
 0.0.0.0 ns123.com.cn
 0.0.0.0 ns2.080507.net
@@ -9468,6 +9485,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 p1.hhbbs.info
 0.0.0.0 p1.images22.51img1.com
 0.0.0.0 p1.ksharuan.cn
+0.0.0.0 p1.ujde90s.info
 0.0.0.0 p1.ywe0080.cn
 0.0.0.0 p2.images22.51img1.com
 0.0.0.0 p22.likehh.com
@@ -9558,6 +9576,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 phaizeipeu.ru
 0.0.0.0 photics.cn
 0.0.0.0 photo.8i9i.com
+0.0.0.0 photobucket.gcfmv.org
 0.0.0.0 photos-google.com
 0.0.0.0 pic-facebook.com
 0.0.0.0 pic.03wyt.com
@@ -10288,7 +10307,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 qvod.6w969.com
 0.0.0.0 qvod.8q10.cn
 0.0.0.0 qvod.com-2.cn
-0.0.0.0 qvod.down.vbn5.cn
+0.0.0.0 Qvod.Down.vbn5.cn
 0.0.0.0 qvod.down.xzx6.cn
 0.0.0.0 qvod.dyshy.com
 0.0.0.0 qvod.play.fde1.cn
@@ -10381,6 +10400,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 ral.bc.ca
 0.0.0.0 rammhz.co.cc
 0.0.0.0 rapid-antivir2009.com
+0.0.0.0 rapidshare.com
 0.0.0.0 rapidsystemsend.ru
 0.0.0.0 rav7.9966.org
 0.0.0.0 ravelotti.cn
@@ -10453,6 +10473,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 rrrrpppkk.cn
 0.0.0.0 rrrryyyaa.cn
 0.0.0.0 rrrtttccc.cn
+0.0.0.0 rs944l32.rapidshare.com
 0.0.0.0 rss-lenta-news.ru
 0.0.0.0 rt163.info
 0.0.0.0 rt212.cn
@@ -11445,6 +11466,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 spalian.maya777.com
 0.0.0.0 spdown.9966.org
 0.0.0.0 spfkr.com
+0.0.0.0 sphusa.com
 0.0.0.0 spicyhappy.com
 0.0.0.0 spiritualites.com
 0.0.0.0 spjiaoyou.com
@@ -11552,6 +11574,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 stamset.com
 0.0.0.0 star.yuletao.com.cn
 0.0.0.0 starfuckers-celebrity.blogspot.com
+0.0.0.0 starlage.com
 0.0.0.0 starparkent.co.kr
 0.0.0.0 starsforme2008.com
 0.0.0.0 stat.antivirusxp08.net
@@ -11611,6 +11634,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 suzukimaquinasltda.front.ru
 0.0.0.0 svc.txbug.cn
 0.0.0.0 svdrom.cn
+0.0.0.0 svelin.com
 0.0.0.0 svtube.cn
 0.0.0.0 sw2.cn
 0.0.0.0 sweetblondies.com
@@ -11644,6 +11668,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 t.08ri.com
 0.0.0.0 t.1stcngame.com
 0.0.0.0 t.1stwebgame.com
+0.0.0.0 t.37lai.com
 0.0.0.0 t.38ssss.com
 0.0.0.0 t.see-something.cn
 0.0.0.0 t.sina163.info
@@ -11819,6 +11844,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 temp.ismydns.com.cn
 0.0.0.0 tempcodealsdcirlcdk.cn
 0.0.0.0 temqay.com
+0.0.0.0 tencenl.in
 0.0.0.0 teneznok.cn
 0.0.0.0 tengxun-2009qq.cn
 0.0.0.0 tengxun001.3.53dns.com
@@ -12123,6 +12149,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 ty777.com
 0.0.0.0 tyane.cn
 0.0.0.0 tyfddd.cn
+0.0.0.0 tyher.gicp.net
 0.0.0.0 tyty.9yz.com.cn
 0.0.0.0 tyuhc.cn
 0.0.0.0 tyujghj.cn
@@ -12582,6 +12609,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 va9sdhun23.cn
 0.0.0.0 vabrm.cn
 0.0.0.0 vae.nna.cc
+0.0.0.0 vantmy001.com
 0.0.0.0 varizate.com
 0.0.0.0 vav-2008.net
 0.0.0.0 vava.lzhai-2.com
@@ -12598,6 +12626,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 vdswrt.com
 0.0.0.0 vedio.mm972.com
 0.0.0.0 vegastar.org
+0.0.0.0 velewr1rst.com
 0.0.0.0 veranstaltungsstaende.de
 0.0.0.0 verifyed-exearchive.com
 0.0.0.0 versace.9966.org
@@ -12902,6 +12931,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 w.sre43.cn
 0.0.0.0 w.stopcao.cn
 0.0.0.0 w.sxxsnp3.cn
+0.0.0.0 w.t3d5u.com
 0.0.0.0 w.taogu.org.cn
 0.0.0.0 w.toyony.com.cn
 0.0.0.0 w.ustocn.com.cn
@@ -13047,6 +13077,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 web.hyj008.info
 0.0.0.0 web.jha2.cn
 0.0.0.0 web.kelife.com
+0.0.0.0 web.kfc.ha.cn
 0.0.0.0 web.lylss.com
 0.0.0.0 web.msx-1.info
 0.0.0.0 web.nba1001.net
@@ -13089,6 +13120,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 welcome.aeeboo.com
 0.0.0.0 welcome1.zj.vnet.cn
 0.0.0.0 welcomeone.cn
+0.0.0.0 welovetweet.com
 0.0.0.0 welovewarez.com
 0.0.0.0 wenna.27free.cn
 0.0.0.0 wenshu888.win103.pc-dns.com
@@ -13151,6 +13183,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 winpcdown09.com
 0.0.0.0 winpcdown10.com
 0.0.0.0 winpcdown99.com
+0.0.0.0 wintotersstal.cz.cc
 0.0.0.0 winupd.net
 0.0.0.0 winupdates-server.com
 0.0.0.0 winvistaclub.com
@@ -13634,6 +13667,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.118cp.net
 0.0.0.0 www.118cpw.com
 0.0.0.0 www.11990.com
+0.0.0.0 www.119sf.com
 0.0.0.0 www.119wyt.com
 0.0.0.0 www.11abo.com
 0.0.0.0 www.11bbb.net
@@ -13842,6 +13876,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.168cpa.cn
 0.0.0.0 www.168csol.com
 0.0.0.0 www.168oo.com
+0.0.0.0 www.168rnb.cn
 0.0.0.0 www.168user.com.tw
 0.0.0.0 www.168wyt.com
 0.0.0.0 www.169pic.com
@@ -13896,6 +13931,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.17lkdy.cn
 0.0.0.0 www.17luoliao.cn
 0.0.0.0 www.17nnn.com
+0.0.0.0 www.17oye.cn
 0.0.0.0 www.17pk8.net.cn
 0.0.0.0 www.17shanba.cn
 0.0.0.0 www.17wendao.cn
@@ -15573,6 +15609,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.715sese.cn
 0.0.0.0 www.716888.com
 0.0.0.0 www.7185.com
+0.0.0.0 www.71wen.com
 0.0.0.0 www.7241.cn
 0.0.0.0 www.7255.com
 0.0.0.0 www.726380.cn
@@ -16608,6 +16645,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.ai04.com
 0.0.0.0 www.ai678.com
 0.0.0.0 www.aiaishow.cn
+0.0.0.0 www.aicis.it
 0.0.0.0 www.aidd123.cn
 0.0.0.0 www.aidushu.net
 0.0.0.0 www.aifeile.cn
@@ -16867,6 +16905,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.baoduu.cn
 0.0.0.0 www.baokv.cn
 0.0.0.0 www.baomaaa.cn
+0.0.0.0 www.bastakigroup.com
 0.0.0.0 www.batch29.com
 0.0.0.0 www.bauldelsado.com
 0.0.0.0 www.bawang8.cn
@@ -17215,6 +17254,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.cctv3318.com
 0.0.0.0 www.cctv33u.com
 0.0.0.0 www.cctv347.cn
+0.0.0.0 www.cctv35.net
 0.0.0.0 www.cctv35cc.com
 0.0.0.0 www.cctv383.com
 0.0.0.0 www.cctv3r.com
@@ -17594,6 +17634,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.csjka.com.cn
 0.0.0.0 www.cslmnet.org
 0.0.0.0 www.csolae.com
+0.0.0.0 www.csolcl.com
 0.0.0.0 www.csoln.cn
 0.0.0.0 www.csolss.com
 0.0.0.0 www.csolx.cn
@@ -17602,6 +17643,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.ct5588.com
 0.0.0.0 www.ctexe.com
 0.0.0.0 www.ctoyota.cn
+0.0.0.0 www.ctv3rt.com
 0.0.0.0 www.cu108.com
 0.0.0.0 WWW.CUIQING.NET.CN
 0.0.0.0 www.cuiqingw.com
@@ -17727,6 +17769,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.dfrtgssf.cn
 0.0.0.0 www.dfsgsdfgvsfvswe.cn
 0.0.0.0 www.dfzqgf.com
+0.0.0.0 www.dgbda.net
 0.0.0.0 www.dgmeifeng.cn
 0.0.0.0 www.dh1000.com
 0.0.0.0 www.dh234.com
@@ -17856,6 +17899,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.downloads-123.com
 0.0.0.0 www.downpao.com
 0.0.0.0 www.downtool.com
+0.0.0.0 www.dq86.com
 0.0.0.0 www.drpcclean.com
 0.0.0.0 www.drwxf.cn
 0.0.0.0 www.ds2522.cn
@@ -17930,6 +17974,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.easyke.com
 0.0.0.0 www.echnet.com.cn
 0.0.0.0 www.econocorp.com
+0.0.0.0 www.ediltermo.com
 0.0.0.0 www.edqb.com
 0.0.0.0 www.eduzhai.net
 0.0.0.0 www.edzc.cn
@@ -18912,6 +18957,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.ijjksl.cn
 0.0.0.0 www.ijuebka.cn
 0.0.0.0 www.ijuoxe.cn
+0.0.0.0 www.ilunli.com
 0.0.0.0 www.im900.com
 0.0.0.0 www.imageshaack.org
 0.0.0.0 www.img-o.com
@@ -19883,6 +19929,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.new-mrcash.net
 0.0.0.0 www.new991.com
 0.0.0.0 www.newdirection.com.cn
+0.0.0.0 www.neweed.org
 0.0.0.0 www.newforum.co.kr
 0.0.0.0 www.newhtm.com
 0.0.0.0 www.newok.com
@@ -20217,6 +20264,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.pushmold.com
 0.0.0.0 www.pvmm365.cn
 0.0.0.0 www.pvqv.cn
+0.0.0.0 www.pyjgf.com
 0.0.0.0 www.pyttco.com
 0.0.0.0 www.pywyt.com
 0.0.0.0 www.pznylsf.cn
@@ -20330,9 +20378,11 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.qq.com.qqlms.cn
 0.0.0.0 www.qq.com.qqu2009.cn
 0.0.0.0 www.qq.com.sinaqq388.cn
+0.0.0.0 www.qq.com.vip.tytt66.net
 0.0.0.0 www.qq.com88qq.cn
 0.0.0.0 www.qq.comxd.cn
 0.0.0.0 www.qq.ok673.cn
+0.0.0.0 www.qq.qpacg.com
 0.0.0.0 www.qq.vipww.com
 0.0.0.0 www.qq000a.cn
 0.0.0.0 www.qq033a.cn
@@ -20526,6 +20576,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.qqkhth.cn
 0.0.0.0 www.qqkk009.cn
 0.0.0.0 www.qqkkkq.cn
+0.0.0.0 www.qqkongjiankelong.com.cn
 0.0.0.0 www.qqkpz.com
 0.0.0.0 www.qqkskr.cn
 0.0.0.0 www.qqksy.com
@@ -21046,6 +21097,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.sgd08.cn
 0.0.0.0 www.sgtjj.gov.cn
 0.0.0.0 www.sgvjs.cn
+0.0.0.0 www.sh-jiexing.com
 0.0.0.0 www.sh56789.cn
 0.0.0.0 www.sh588.com
 0.0.0.0 www.sh74.com
@@ -21332,6 +21384,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.szjyjg.com.cn
 0.0.0.0 www.szlay.com
 0.0.0.0 www.sznylsf.cn
+0.0.0.0 www.szsjhb.com
 0.0.0.0 www.szydxcpa.com
 0.0.0.0 www.szygl.cn
 0.0.0.0 www.szyjzj.cn
@@ -21384,6 +21437,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.taobao7778.cn
 0.0.0.0 www.taobao88a.cn
 0.0.0.0 www.taobao_a5.com
+0.0.0.0 www.taobaoa.us
 0.0.0.0 www.taobaoacom.cn
 0.0.0.0 www.taobaoae.cn
 0.0.0.0 www.taobaoagd.cn
@@ -21441,6 +21495,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.tech888.cn
 0.0.0.0 www.teipay.cn
 0.0.0.0 www.teltee.net
+0.0.0.0 www.tencenl.in
 0.0.0.0 www.tengxun-2009qq.cn
 0.0.0.0 www.tengxun9.com
 0.0.0.0 www.tertad.mobi
@@ -21491,6 +21546,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.tingtingjidi.com
 0.0.0.0 www.tiomrcash.net
 0.0.0.0 www.tipoint.co.kr
+0.0.0.0 www.tiu3.com
 0.0.0.0 www.tivalley.cn
 0.0.0.0 www.tj290.cn
 0.0.0.0 www.tjqhit.com
@@ -21774,6 +21830,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.virusworm.org
 0.0.0.0 www.vistaking.cn
 0.0.0.0 www.vk7u.cn
+0.0.0.0 www.vkers.cn
 0.0.0.0 www.vmoig.cn
 0.0.0.0 www.vn52.com
 0.0.0.0 www.vnet-1.net
@@ -21927,6 +21984,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.wm5555.com
 0.0.0.0 www.wmf8888.cn
 0.0.0.0 www.wmqv.cn
+0.0.0.0 www.wnyvfa.org
 0.0.0.0 www.wo-yao-xing-jiao.info
 0.0.0.0 www.wodegezi.cn
 0.0.0.0 www.wofafa.info
@@ -23418,7 +23476,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 yhsb.3322.net
 0.0.0.0 yia.dns0755.net
 0.0.0.0 yidianse.com
-0.0.0.0 yiduaner.cn
+0.0.0.0 yiduaNer.cN
 0.0.0.0 yifaddz.com
 0.0.0.0 yifeng0769.com
 0.0.0.0 yigeav.com

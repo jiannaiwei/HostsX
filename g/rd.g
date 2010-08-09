@@ -1,3 +1,5 @@
+;version=20100809
+;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
 127.0.0.1       localhost
@@ -63,3 +65,5 @@ ff02::3 ip6-allhosts
 #Soutong
 2001:470:a:17c::2 soutong.iloveyou
 63.223.106.181 soutong.com
+#Puff
+64.71.141.148 intl.easyssh.info

@@ -44,7 +44,7 @@
 
 @HostsX 站点广告过滤/社区类网站
 #天涯
-0.0.0.0 801.tianya.cn 802.tianya.cn 803.tianya.cn 806.tianya.cn adview.tianya.cn advertisement.tianya.cn squidclick.bbs.tianya.cn stat.tianya.cn
+0.0.0.0 801.tianya.cn 803.tianya.cn 806.tianya.cn adview.tianya.cn advertisement.tianya.cn squidclick.bbs.tianya.cn stat.tianya.cn
 #猫扑
 0.0.0.0 gg.mop.com in.dg.mop.com in.h.mop.com in.l.mop.com in.pet.mop.com in.sg.mop.com in.sh.mop.com in.t.mop.com ovsmbt.mop.com 
 0.0.0.0 p4pad.mop.com pub.mop.com stat.ent.mop.com tj.itv.mop.com tj.mop.com tj.pet.mop.com union.mop.com yx.mop.com imgpub.mop.com
@@ -215,7 +215,7 @@
 #CNet
 0.0.0.0 adlog.com.com dw-cn.com.com dw.cnet.com i.i.com.com image.com.com img.com.com rubics-assets.com.com www.cbsinteractive.com
 #中关村系列
-0.0.0.0 adm.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pic.zol-img.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
+0.0.0.0 active.zol.com.cn adm.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
 #电脑之家
 0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net market.pchome.net js-1.pchome.net stat.pchome.net
 #至顶网ZDNet

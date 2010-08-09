@@ -101,6 +101,8 @@ ls2.zonelabs.com pa2.zonelabs.com ps2.zonelabs.com register.zonelabs.com update.
 0.0.0.0 login.wopti.net s1.wopti.net
 #云端
 0.0.0.0 update.yunduan.cn
+#简单百宝箱
+0.0.0.0 count.jdyou.com
 
 @HostsX 软件验证屏蔽
 @HostsX 软件验证屏蔽/常用软件
