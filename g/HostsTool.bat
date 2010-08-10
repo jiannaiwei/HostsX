@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.877
+set ver=1.878
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -740,7 +740,7 @@ DEL /F /A /Q \\?\""%Choice%""
 RD /S /Q \\?\""%Choice%""
 echo.
 echo 	删除完成! 任意键返回……
-goto menu
+goto delit
 
 :fixie
 mode con cols=38 lines=23
