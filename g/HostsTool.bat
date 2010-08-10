@@ -1,10 +1,10 @@
 @echo off
 color 0a
-set ver=1.880
+set ver=1.881
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
-set down=wget -nH -N -c -t 10 -w 2 -q -P down
-set downa=wget -nH -N -c -t 10 -w 2 -q -P Acrylic
+set down=wget -nH -N -c -t 10 -w 2 -T=10 -P down
+set downa=wget -nH -N -c -t 10 -w 2 -T=10 -P Acrylic
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /s /q echo host hosts>nul 2>nul
 del /f /s /q down\*.*>nul 2>nul
@@ -250,8 +250,7 @@ echo 请检查网络连接或稍后再试！&pause>nul&goto menu
 :dftok
 echo 正在下载中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-echo 数据下载中！&pause
-if not exist down\HostsX.orzhosts goto dft
+pause&cls
 copy down\HostsX.orzhosts %hosts%
 goto Perms
 
@@ -261,14 +260,12 @@ echo 正在下载基础数据中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/Union.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Site.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Soft.g
-mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"Hosts")(window.close)
+cls&mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"Hosts")(window.close)
 goto menu
 
 :ipv6
 echo 正在下载基础数据中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/ipv6.txt
-echo 数据下载中！&pause
-if not exist down\ipv6.txt goto ipv6 &echo 下载失败，重新下载！&pause
 copy down\ipv6.txt %hosts%
 goto Perms
 
