@@ -9,7 +9,9 @@
 #Comodo UserTrust
 0.0.0.0 www.comodogroup.com www.usertrust.com crl.usertrust.com
 #½ğÉ½¶¾°Ô
-0.0.0.0 bo.duba.net cu001.www.duba.net cu002.www.duba.net cu003.www.duba.net cu004.www.duba.net i2c.duba.net ifr.duba.net info.duba.net u.www.duba.net
+0.0.0.0 bo.duba.net cu001.www.duba.net cu002.www.duba.net cu004.www.duba.net i2c.duba.net ifr.duba.net info.duba.net u.www.duba.net
+#¿ÉÅ£É±¶¾
+0.0.0.0 stat.sd.keniu.com
 #Rising
 0.0.0.0	union.rising.com.cn
 #ZALabs

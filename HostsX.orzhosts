@@ -1,4 +1,4 @@
-;version=201008101700
+;version=201008101730
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -2287,12 +2287,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 bo.duba.net
 0.0.0.0 cu001.www.duba.net
 0.0.0.0 cu002.www.duba.net
-0.0.0.0 cu003.www.duba.net
 0.0.0.0 cu004.www.duba.net
 0.0.0.0 i2c.duba.net
 0.0.0.0 ifr.duba.net
 0.0.0.0 info.duba.net
 0.0.0.0 u.www.duba.net
+#可牛杀毒
+0.0.0.0 stat.sd.keniu.com
 #Rising
 0.0.0.0	union.rising.com.cn
 #ZALabs
