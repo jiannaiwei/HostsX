@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.878
+set ver=1.879
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -353,93 +353,6 @@ set "in=>>%hosts%"
 for /f "delims=" %%a in (自定义.txt) do echo 0.0.0.0%in%
 goto Perms
 
-:othertool
-mode con: cols=39 lines=25
-echo    ==================================
-echo            其他相关工具选项
-echo    ==================================
-echo        1. 安装Ipv6协议支持
-echo.
-echo        2. 禁用DNS client服务
-echo.
-echo        3. 设置IPv6相关支持
-echo.
-echo        4. 卸载Ipv6协议
-echo.
-echo        5. DNS client服务改为手动
-echo.
-echo        D. 替换shdoclc.dll文件
-echo    ==================================
-echo.
-SET Choice=
-SET /P Choice=请选择，输入[0]返回：
-IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
-IF /I '%Choice%'=='1' GOTO setupipv6
-IF /I '%Choice%'=='2' GOTO dnscachedis
-IF /I '%Choice%'=='3' GOTO ipv6srv
-IF /I '%Choice%'=='4' GOTO ipv6un
-IF /I '%Choice%'=='5' GOTO dnscachede
-IF /I '%Choice%'=='d' GOTO thshdoclc
-IF /I '%Choice%'=='0' GOTO menu
-
-:setupipv6
-echo 安装Ipv6协议支持,以使Ipv6可用！
-ping teredo.remlab.net >nul 2>nul && goto ipv6install &echo 第一次安装Ipv6时请稍候... || echo. & echo 网络环境也许不能安装，但你可以安装试试 & echo. & SET /P installyn=  是否继续安装，如果继续安装按y回车继续，如果不安装按n回车返回主菜单:
-if /I "%i6%"=="y" goto ipv6install
-if /I "%i6%"=="n" goto othertool
-
-:dnscachedis
-echo 关闭DNS client服务，以加快DNS解析速度;
-net stop DNSCache
-sc stop DNSCache
-sc config Dnscache start= disabled
-goto othertool
-
-:ipv6srv
-netsh interface ipv6 6to4 set state disabled
-netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567
-goto othertool
-
-:ipv6un
-ipv6 uninstall
-goto othertool
-
-:dnscachede
-sc config DNSCache start= demand
-sc stop DNSCache
-
-:thshdoclc
-taskkill /F /IM iexplore.exe /T>nul 2>nul
-taskkill /f /im Explorer.exe
-cd /d .\
-if exist "shdoclc.dll" goto shdoclc
-Echo "没有找到当前目录下的 shdoclc.dll，无法替换！"
-echo 正在在线下载...
-wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/g/shdoclc.dll
-if not exist shdoclc.dll &pause&goto othertool
-:shdoclc
-Echo ****************************************
-Echo  替换系统文件为当前目录下的shdoclc.dll
-Echo ****************************************
-Echo 要退出请直接关闭本窗口！
-pause
-if NOT exist "%SystemRoot%\shdoclc.dll" Echo "没有找到系统文件！"&pause
-Echo 找到系统文件，备份到 BackUp 子文件夹中！
-if NOT exist ".\BackUp\" md ".\BackUp\"
-if exist ".\BackUp\shdoclc.dll" echo 备份文件已经存在 BackUp 中，是否替换？
-xcopy "%SystemRoot%\shdoclc.dll" ".\BackUp\"
-goto begincopy
-:begincopy
-if NOT exist "%SystemRoot%\shdoclc.dll" goto SystemRoot
-echo 确认替换文件：
-:SystemRoot
-xcopy shdoclc.dll "%SystemRoot%\system32\"
-xcopy shdoclc.dll "%SystemRoot%\system32\dllcache\"
-Echo 替换完成！
-pause
-start Explorer.exe
-goto othertool
-
 :Acrylic
 mode con: cols=39 lines=25
 if not exist Acrylic\ goto :Alcerr
@@ -570,7 +483,7 @@ echo 请检查网络连接或稍后再试！&pause>nul&goto menu
 if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
 echo 正在下载数据，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/up.bat
-%down% http://hostsx.googlecode.com/svn/trunk/g/ipseccmd.exe
+%down% http://hostsx.googlecode.com/svn/trunk/lib/ipseccmd.exe
 %down% http://hostsx.googlecode.com/svn/trunk/g/wget.exe
 %down% http://hostsx.googlecode.com/svn/trunk/g/HostsTool.bat
 call down\up.bat&exit
@@ -660,7 +573,7 @@ echo IP 安全策略（可以用来封IP和端口！）
 pause
 sc create PolicyAgent binpath= "C:\WINDOWS\system32\lsass.exe" type= share start= auto displayname= "IPSEC Services" depend= RPCSS/IPSec
 sc description PolicyAgent "提供 TCP/IP 网络上客户端和服务器之间端对端的安全。如果此服务被停用，网络上客户端和服务器之间的 TCP/IP 安全将不稳定。如果此服务被禁用，任何依赖它的服务将无法启动。"
-if not exist ipseccmd.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/g/ipseccmd.exe
+if not exist ipseccmd.exe (echo 您的系统精简过度，运行所需系统文件缺失！程序将马上下载！)&pause&wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/lib/ipseccmd.exe
 echo 正在下载中，请稍候... ...
 wget -nH -N -c http://hostsx.googlecode.com/svn/trunk/g/ipblock.txt
 echo 你可以手动编辑，然后按提示继续&start %windir%\notepad.exe ipblock.txt&echo 是否要使用IP安全策略？&pause
@@ -673,7 +586,7 @@ pause
 goto menu
 
 :sysfile
-wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/g/cacls.exe
+wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/lib/cacls.exe
 if not exist cacls.exe goto sysfile&pause&goto menu
 
 :hostspath
@@ -928,3 +841,112 @@ reg add "HKCU\SOFTWARE\Microsoft\Internet Explorer\Security" /f /v BlockXBM /t R
 echo        修复完毕！
 cls       
 goto menu
+
+:othertool
+mode con: cols=39 lines=25
+echo    ==================================
+echo            其他相关工具选项
+echo    ==================================
+echo        1. 安装Ipv6协议支持
+echo.
+echo        2. 禁用DNS client服务
+echo.
+echo        3. 设置IPv6相关支持
+echo.
+echo        4. 卸载Ipv6协议
+echo.
+echo        5. DNS client服务改为手动
+echo.
+echo        6. 安装simple-adblock IE插件
+echo.
+echo        7. 卸载simple-adblock IE插件
+echo.
+echo        D. 替换shdoclc.dll文件
+echo    ==================================
+echo.
+SET Choice=
+SET /P Choice=请选择，输入[0]返回：
+IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
+IF /I '%Choice%'=='1' GOTO setupipv6
+IF /I '%Choice%'=='2' GOTO dnscachedis
+IF /I '%Choice%'=='3' GOTO ipv6srv
+IF /I '%Choice%'=='4' GOTO ipv6un
+IF /I '%Choice%'=='5' GOTO dnscachede
+IF /I '%Choice%'=='6' GOTO setsadblock
+IF /I '%Choice%'=='7' GOTO uniadblock
+IF /I '%Choice%'=='d' GOTO thshdoclc
+IF /I '%Choice%'=='0' GOTO menu
+
+:setupipv6
+echo 安装Ipv6协议支持,以使Ipv6可用！
+ping teredo.remlab.net >nul 2>nul && goto ipv6install &echo 第一次安装Ipv6时请稍候... || echo. & echo 网络环境也许不能安装，但你可以安装试试 & echo. & SET /P installyn=  是否继续安装，如果继续安装按y回车继续，如果不安装按n回车返回主菜单:
+if /I "%i6%"=="y" goto ipv6install
+if /I "%i6%"=="n" goto othertool
+
+:dnscachedis
+echo 关闭DNS client服务，以加快DNS解析速度;
+net stop DNSCache
+sc stop DNSCache
+sc config Dnscache start= disabled
+goto othertool
+
+:ipv6srv
+netsh interface ipv6 6to4 set state disabled
+netsh interface ipv6 set teredo enterpriseclient teredo.ipv6.microsoft.com 60 34567
+goto othertool
+
+:ipv6un
+ipv6 uninstall
+goto othertool
+
+:dnscachede
+sc config DNSCache start= demand
+sc stop DNSCache
+
+:thshdoclc
+taskkill /F /IM iexplore.exe /T>nul 2>nul
+taskkill /f /im Explorer.exe
+cd /d .\
+if exist "shdoclc.dll" goto shdoclc
+Echo "没有找到当前目录下的 shdoclc.dll，无法替换！"
+echo 正在在线下载...
+wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/lib/shdoclc.dll
+if not exist shdoclc.dll &pause&goto othertool
+:shdoclc
+Echo ****************************************
+Echo  替换系统文件为当前目录下的shdoclc.dll
+Echo ****************************************
+Echo 要退出请直接关闭本窗口！
+pause
+if NOT exist "%SystemRoot%\shdoclc.dll" Echo "没有找到系统文件！"&pause
+Echo 找到系统文件，备份到 BackUp 子文件夹中！
+if NOT exist ".\BackUp\" md ".\BackUp\"
+if exist ".\BackUp\shdoclc.dll" echo 备份文件已经存在 BackUp 中，是否替换？
+xcopy "%SystemRoot%\shdoclc.dll" ".\BackUp\"
+goto begincopy
+:begincopy
+if NOT exist "%SystemRoot%\shdoclc.dll" goto SystemRoot
+echo 确认替换文件：
+:SystemRoot
+xcopy shdoclc.dll "%SystemRoot%\system32\"
+xcopy shdoclc.dll "%SystemRoot%\system32\dllcache\"
+Echo 替换完成！
+pause
+start Explorer.exe
+goto othertool
+
+:setsadblock
+if not exist Adblock.dll&Echo "未找到Adblock.dll，无法继续！"
+echo 正在下载...
+wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/lib/Adblock.dll
+wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/lib/AdblockSet.exe
+AdblockSet.exe
+regsvr32 /s Adblock.dll
+del /q AdblockSet.exe
+goto othertool
+
+:uniadblock
+del /q "%UserProfile%\Application Data\Simple Adblock\*.*"
+rd "%UserProfile%\Application Data\Simple Adblock\" /S /Q
+regsvr32 /u /s Adblock.dll
+goto othertool
