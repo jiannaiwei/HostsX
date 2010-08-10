@@ -1,4 +1,4 @@
-;version=201008092100
+;version=201008101700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -1899,11 +1899,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.p.cn
 0.0.0.0 image.tazhao.com
 0.0.0.0 www.tazhao.com
-0.0.0.0 parking.8d.cn
-0.0.0.0 www.8d.cn
-0.0.0.0 lailea.info
-0.0.0.0 go.lailea.info
-0.0.0.0 s.lailea.info
 0.0.0.0 3448.com
 0.0.0.0 4199.com
 0.0.0.0 6781.com
@@ -1916,14 +1911,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 8749.com
 0.0.0.0 about.blank.la
 0.0.0.0 dir.ejoina.com
+0.0.0.0 go.lailea.info
 0.0.0.0 kzdh.com
+0.0.0.0 lailea.info
 0.0.0.0 my123.com
 0.0.0.0 mydh.info
+0.0.0.0 parking.8d.cn
 0.0.0.0 piaoxue.com
+0.0.0.0 s.lailea.info
 0.0.0.0 search.ok365.com
 0.0.0.0 u.30so.com
 0.0.0.0 www.2535.cn
+0.0.0.0 www.26dh.cn
 0.0.0.0 www.6313.com
+0.0.0.0 www.8d.cn
+0.0.0.0 www.gcbbs.org
 0.0.0.0 www.ivc.cn
 0.0.0.0 www.w234.com
 0.0.0.0 www.wz123.com
