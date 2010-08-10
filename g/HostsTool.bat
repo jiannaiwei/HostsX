@@ -484,7 +484,7 @@ if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
 echo 正在下载数据，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/up.bat
 %down% http://hostsx.googlecode.com/svn/trunk/lib/ipseccmd.exe
-%down% http://hostsx.googlecode.com/svn/trunk/g/wget.exe
+%down% http://hostsx.googlecode.com/svn/trunk/lib/wget.exe
 %down% http://hostsx.googlecode.com/svn/trunk/g/HostsTool.bat
 call down\up.bat&exit
 
