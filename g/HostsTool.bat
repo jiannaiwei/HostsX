@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.879
+set ver=1.880
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -q -P down
@@ -857,9 +857,9 @@ echo        4. 卸载Ipv6协议
 echo.
 echo        5. DNS client服务改为手动
 echo.
-echo        6. 安装simple-adblock IE插件
+echo        6. 安装Simple-adblock IE插件
 echo.
-echo        7. 卸载simple-adblock IE插件
+echo        7. 卸载Simple-adblock IE插件
 echo.
 echo        D. 替换shdoclc.dll文件
 echo    ==================================
@@ -936,17 +936,18 @@ start Explorer.exe
 goto othertool
 
 :setsadblock
-if not exist Adblock.dll&Echo "未找到Adblock.dll，无法继续！"
-echo 正在下载...
+if not exist Adblock.dll (echo 未找到Adblock.dll，按任意键下载安装！)&pause
 wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/lib/Adblock.dll
 wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/lib/AdblockSet.exe
 AdblockSet.exe
 regsvr32 /s Adblock.dll
 del /q AdblockSet.exe
+mshta vbscript:msgbox("安装成功！",64,"Simple-adblock")(window.close)
 goto othertool
 
 :uniadblock
 del /q "%UserProfile%\Application Data\Simple Adblock\*.*"
 rd "%UserProfile%\Application Data\Simple Adblock\" /S /Q
 regsvr32 /u /s Adblock.dll
+mshta vbscript:msgbox("卸载成功！",64,"Simple-adblock")(window.close)
 goto othertool
