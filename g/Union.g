@@ -333,10 +333,12 @@
 0.0.0.0 ftxy.qq437.cn mcsd.qq437.cn
 #Kfwan
 0.0.0.0 u.kfwan.com www.kfwan.com
+#绿岸网络
+0.0.0.0 union.shumenol.com www.shumenol.com
 #其他游戏广告
 0.0.0.0 abc.96pk.com ad.16wan.com bt.52yeyou.com cp.1o26.com cs01.csyouxi.com g.xuanyx.com gamefiles.qq494.cn gg.qc101.com go.snsfun.cc
 0.0.0.0 nonoyx.com p.eqiso.com p.3gm.com.cn po.add.tx908.com redirect.jooov.cn static.u966.com t.15yl.com t.1stcngame.com t.uuplay.com
-0.0.0.0 tg3.subo.me u.7town.com ww.jinzhao99.com ww.yiqiwin.com www.leeuu.net www.shumenol.com www.wooigoo.cn xy.8zgame.com
+0.0.0.0 tg3.subo.me u.7town.com ww.jinzhao99.com ww.yiqiwin.com www.leeuu.net  www.wooigoo.cn xy.8zgame.com
 
 @HostsX 网络广告过滤/其他
 #160ads

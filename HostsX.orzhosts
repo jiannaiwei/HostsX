@@ -1,4 +1,4 @@
-;version=201008101730
+;version=201008102030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -2096,6 +2096,9 @@ ff02::3 ip6-allhosts
 #Kfwan
 0.0.0.0 u.kfwan.com
 0.0.0.0 www.kfwan.com
+#绿岸网络
+0.0.0.0 union.shumenol.com
+0.0.0.0 www.shumenol.com
 #其他游戏广告
 0.0.0.0 abc.96pk.com
 0.0.0.0 ad.16wan.com
@@ -2120,7 +2123,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ww.jinzhao99.com
 0.0.0.0 ww.yiqiwin.com
 0.0.0.0 www.leeuu.net
-0.0.0.0 www.shumenol.com
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 xy.8zgame.com
 @HostsX 网络广告过滤/其他
