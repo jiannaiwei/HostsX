@@ -32,15 +32,6 @@ ff02::3 ip6-allhosts
 209.85.225.101 docs.google.com
 74.125.127.100 writely.google.com
 74.125.127.139 spreadsheets.google.com
-#Gmail
-209.85.147.109 pop.gmail.com smtp.gmail.com
-66.102.7.19 mail.google.com
-#Chrome书签同步
-64.233.183.139 clients4.google.com docs.google.com
-#Chrome扩展程序
-74.125.39.99 Chrome.google.com clients2.google.com
-#Chrome主题中心
-74.125.153.138 tools.google.com
 #Picasa图片显示
 74.125.91.99 www.picasa.com
 203.208.39.104 picadaweb.google.com
