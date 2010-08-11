@@ -1,6 +1,13 @@
 @echo off
-color 0a
-set ver=1.882
+set ver=1.883
+rem 设置随机变换颜色
+set/a xc=%random%%%5+1
+set te=
+for %%i in (a f e d c) do (
+set /a te=!!te!+1!
+if "!xc!"=="!te!" set xc=%%i)
+color 0%xc%
+cls
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -T=10 -P down
@@ -52,9 +59,9 @@ echo.■   7.添加IE不信任网址    8.删除IE不信任网址     9.IP 安全策略      ■
 echo ■-------------------------------------------------------------------■
 echo.■   0.打开Hosts目录       B.备份Hosts文件        D.删除Hosts备份    ■
 echo ■-------------------------------------------------------------------■
-echo.■   F.修复Hosts文件       P.设置Hosts权限        T.感谢人员名单     ■
+echo.■   F.修复Hosts文件       P.设置Hosts权限        T.G+猴子荣誉榜     ■
 echo ■-------------------------------------------------------------------■
-echo      G.自动1  U.自动2      X.修复IE  J.工具       H.帮助    
+echo      G.自动1  U.自动2      X.修复IE  J.工具       H.在线帮助    
 echo ■───────────────────────────────── ■
 echo 当前工作目录(O)：%~dp0
 echo.
