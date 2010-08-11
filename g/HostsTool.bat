@@ -1,6 +1,6 @@
 @echo off
 color 0a
-set ver=1.881
+set ver=1.882
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -T=10 -P down
@@ -41,9 +41,6 @@ goto menu
 mode con cols=71 lines=33
 rem 系统文件检测
 if not exist %windir%\system32\cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&goto sysfile
-rem 解除Hosts只读属性，权限限制
-echo y|cacls %hosts% /g everyone:f >nul
-attrib -r -a -s -h %hosts%
 cls
 title Hosts 小工具 %ver%   %date%
 echo ■───────────────────────────────── ■
@@ -145,11 +142,13 @@ goto menu
 title 设置Hosts文件访问权限
 mode con: cols=50 lines=15
 echo.
-echo 1,设为只读（默认回车使用）    6,不设置
+echo 1,设为只读（默认回车使用）     6,不设置
 echo.
-echo 2,设置NTFS读取权限  3,设置NTFS拒绝权限
+echo 2,设置NTFS读取权限（防删，只读，可改名）  
 echo.
-echo 4,取消NTFS权限控制  5,重新打开Hosts
+echo 3,设置NTFS拒绝权限（防删，禁读，禁改名）
+echo.
+echo 4,取消NTFS权限控制      5,重新打开Hosts
 SET Choice=
 echo.
 SET /P Choice=修改完成后请关闭记事本继续选择：
@@ -164,14 +163,19 @@ IF /I '%Choice%'=='6' GOTO dns
 attrib +r +a +s %hosts%
 goto pmfinish
 :ntfsr
-echo y|Cacls %hosts% /e /c /p Administrator:r >nul
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib +r -h +s %hosts%  >nul 2>nul
+echo y| cacls %hosts% /c /t /p everyone:r >nul
 goto pmfinish
 :ntfsno
-echo y|Cacls %hosts% /e /c /p Administrator:n >nul
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib %hosts% +r -h +s  >nul 2>nul
+echo y| cacls %hosts% /D everyone >nul
 goto pmfinish
 :ntfsf
-echo y|Cacls %hosts% /e /c /r Administrator >nul
-echo y|Cacls %hosts% /e /c /g Administrator:f >nul
+echo y| cacls %hosts% /ci /c /t /p administrator:f >nul 2>nul
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib %Choice% -r -h -s  >nul 2>nul
 goto pmfinish
 :pmfinish
 echo.
@@ -479,13 +483,16 @@ echo 请检查网络连接或稍后再试！&pause>nul&goto menu
 :updateok
 if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
 echo 正在下载数据，请稍候... ...
-%down% http://hostsx.googlecode.com/svn/trunk/g/up.bat
 %down% http://hostsx.googlecode.com/svn/trunk/lib/ipseccmd.exe
 %down% http://hostsx.googlecode.com/svn/trunk/lib/wget.exe
+%down% http://hostsx.googlecode.com/svn/trunk/g/up.bat
 %down% http://hostsx.googlecode.com/svn/trunk/g/HostsTool.bat
 call down\up.bat&exit
 
 :run
+echo y| cacls %Choice% /ci /c /t /p administrator:f >nul 2>nul
+echo y| cacls %Choice% /c /t /p everyone:f >nul 2>nul
+attrib %Choice% -r -h -s  >nul 2>nul
 if not exist %hosts% (call :nohosts) else (start %windir%\notepad.exe %hosts%)
 goto Perms
 
