@@ -1,5 +1,5 @@
 @echo off
-set ver=1.885
+set ver=1.886
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -10,8 +10,8 @@ color 0%xc%
 cls
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
-set down=wget -nH -N -c -t 10 -w 2 -T=10 -P down
-set downa=wget -nH -N -c -t 10 -w 2 -T=10 -P Acrylic
+set down=wget -nH -N -c -t 10 -w 2 -T 10 -P down
+set downa=wget -nH -N -c -t 10 -w 2 -T 10 -P Acrylic
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /s /q echo host hosts>nul 2>nul
 del /f /s /q down\*.*>nul 2>nul
