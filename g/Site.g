@@ -74,6 +74,8 @@
 0.0.0.0 ad2.bloggerads.net ads.wopus.org adv.blogupp.com pro.blogbus.com union.bolaa.com
 #购物推广
 0.0.0.0 adtaobao.tobo123.com union.360buy.com click.union.360buy.com union.dangdang.com union.vancl.com www.133i.com
+#其他站点
+0.0.0.0 am.6park.com
 
 @HostsX 站点广告过滤/IT 类网站
 #泡泡网
