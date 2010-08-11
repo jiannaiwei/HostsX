@@ -1,4 +1,4 @@
-;version=201008102030
+;version=201008111200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -1978,6 +1978,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.qq-2010f.com
 0.0.0.0 www.zgsj.com
 0.0.0.0 www.zhutizi.com
+0.0.0.0 www.qq201017.info
 #流氓捆绑
 0.0.0.0 www.duote.com
 0.0.0.0 www.duotegame.com
@@ -2015,7 +2016,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ego.vodone.com
 0.0.0.0 images.vodone.com
 0.0.0.0 msn.vodone.com
-0.0.0.0 pic.vodone.com
 0.0.0.0 stat2.vodone.com
 0.0.0.0 u.vodone.com
 0.0.0.0 u3.vodone.com

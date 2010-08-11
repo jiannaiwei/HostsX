@@ -271,7 +271,7 @@
 #²¡¶¾ÏÂÔØ
 0.0.0.0 down.2345g.info down.jghdtv.com download.duozz.com gb.36578.com hz.mmstat.com img38.my1188.info qqhdx.cn soft.ie222.com taojin.18ii.info
 0.0.0.0 wt1.skycn.gogle.cn www.001cndc.cn www.05kiss.cn www.125c.com www.ie9down.info www.mycar021.com www.qq-2010f.com www.zgsj.com www.zhutizi.com
-0.0.0.0 down.vbuv.cn cpic2.edushi.com
+0.0.0.0 down.vbuv.cn cpic2.edushi.com www.qq201017.info
 #Á÷Ã¥À¦°ó
 0.0.0.0 www.duote.com www.duotegame.com img.duote.com it.oyksoft.com www.oyksoft.com www.xiazaiba.com xiazaiba.com xiazai.xiazaiba.com
 
@@ -281,7 +281,7 @@
 #iCast
 0.0.0.0 cast.ra.icast.cn js.icast.cn kw.ra.icast.cn post.ra.icast.cn pre.ra.icast.cn pv.ra.icast.cn rm.ra.icast.cn track.ra.icast.cn
 #Vodone
-0.0.0.0 autou.vodone.cn busjs.vodone.cn stat.vodone.cn bus.vodone.com cai.vodone.com ego.vodone.com images.vodone.com msn.vodone.com pic.vodone.com
+0.0.0.0 autou.vodone.cn busjs.vodone.cn stat.vodone.cn bus.vodone.com cai.vodone.com ego.vodone.com images.vodone.com msn.vodone.com
 0.0.0.0 stat2.vodone.com u.vodone.com u3.vodone.com uflv.vodone.com v.vodone.com vlog.vodone.com vodone.com www.vodone.com
 #²¨²¨Ó°ÊÓ
 0.0.0.0 jsunion.boodvd.cn jsunion.boodvd.com union.boodvd.com
