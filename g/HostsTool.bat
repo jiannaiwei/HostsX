@@ -18,9 +18,6 @@ del /f /s /q down\*.*>nul 2>nul
 del /f /s /q setup.bat HostsX.orzhosts 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt>nul 2>nul
 rd /s /q down\hosts\>nul 2>nul
 rd /s /q down\>nul 2>nul
-rem Wget下载组件检测
-if not exist wget.exe (start /min iexplore http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe)& (echo 正在下载Wget组件，请保存在当前目录！)&pause else goto hostspath
-
 rem 判断操作系统版本，并设置系统默认Hosts文件位置的变量。
 if exist %ComSpec% goto nt else goto 9x
 :9x
@@ -213,6 +210,8 @@ goto Perms
 :choose
 mode con: cols=63 lines=32
 del /f /s /q down\*.*>nul 2>nul
+rem Wget下载组件检测
+if not exist wget.exe (start /min iexplore http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe)& (echo 正在下载Wget组件，请保存在当前目录！)&pause&goto opdp
 cls
 title Hosts 数据调整
 echo.
