@@ -1,5 +1,5 @@
 @echo off
-set ver=1.883
+set ver=1.885
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -180,9 +180,10 @@ attrib %hosts% +r -h +s  >nul 2>nul
 echo y| cacls %hosts% /D everyone >nul
 goto pmfinish
 :ntfsf
+rem 解除Hosts只读属性，权限限制
 echo y| cacls %hosts% /ci /c /t /p administrator:f >nul 2>nul
-echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
-attrib %Choice% -r -h -s  >nul 2>nul
+echo y|cacls %hosts% /g everyone:f >nul
+attrib -r -a -s -h %hosts%
 goto pmfinish
 :pmfinish
 echo.
@@ -497,9 +498,9 @@ echo 正在下载数据，请稍候... ...
 call down\up.bat&exit
 
 :run
-echo y| cacls %Choice% /ci /c /t /p administrator:f >nul 2>nul
-echo y| cacls %Choice% /c /t /p everyone:f >nul 2>nul
-attrib %Choice% -r -h -s  >nul 2>nul
+rem 解除Hosts只读属性，权限限制
+echo y|cacls %hosts% /g everyone:f >nul
+attrib -r -a -s -h %hosts%
 if not exist %hosts% (call :nohosts) else (start %windir%\notepad.exe %hosts%)
 goto Perms
 
