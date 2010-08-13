@@ -1,4 +1,4 @@
-;version=201008112300
+;version=201008131020
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -2483,7 +2483,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 biz5c.sandai.net
 0.0.0.0 cknum.sandai.net
 0.0.0.0 click.cm.sandai.net
-0.0.0.0 down.sandai.net
 0.0.0.0 float.sandai.net
 0.0.0.0 gvod.union.sandai.net
 0.0.0.0 mcfg.sandai.net
@@ -2498,7 +2497,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 client.stat.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
-0.0.0.0 images.client.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 mtips.xunlei.com

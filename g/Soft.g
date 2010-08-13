@@ -75,9 +75,9 @@ ls2.zonelabs.com pa2.zonelabs.com ps2.zonelabs.com register.zonelabs.com update.
 0.0.0.0	bc.kuaiche.com cimg.kuaiche.com	directui.kuaiche.com.showq.net ufile.kuaiche.com client.kuaiche.com dll.flashget.com	fetch.flashget.com ggstat.flashget.com olstat.flashget.com
 0.0.0.0 stat.flashget.com stac.flashget.com
 #迅雷系列
-0.0.0.0 analytics-union.sandai.net biz4.sandai.net biz5.sandai.net biz5c.sandai.net cknum.sandai.net click.cm.sandai.net down.sandai.net float.sandai.net gvod.union.sandai.net
+0.0.0.0 analytics-union.sandai.net biz4.sandai.net biz5.sandai.net biz5c.sandai.net cknum.sandai.net click.cm.sandai.net float.sandai.net gvod.union.sandai.net
 0.0.0.0 mcfg.sandai.net mpv.sandai.net pubstat.sandai.net ub.dphub.sandai.net s.gougou.com un.so.gougou.com advstat.xunlei.com areainfo.xunlei.com cl.kankan.xunlei.com
-0.0.0.0 client.stat.xunlei.com hezuo.down.xunlei.com gouwu.vip.xunlei.com images.client.xunlei.com kkpgv.xunlei.com mediapv.xunlei.com mtips.xunlei.com pv.kankan.stat.xunlei.com
+0.0.0.0 client.stat.xunlei.com hezuo.down.xunlei.com gouwu.vip.xunlei.com kkpgv.xunlei.com mediapv.xunlei.com mtips.xunlei.com pv.kankan.stat.xunlei.com
 0.0.0.0 res.stat.xunlei.com stat.xunlei.com static.soft.xunlei.com thunderqtypv.union.xunlei.com web.stat.xunlei.com websts.xunlei.com wy.xunlei.com xmlconf.client.xunlei.com
 
 @HostsX 软件广告过滤/其他类
