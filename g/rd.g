@@ -1,4 +1,4 @@
-;version=20100811
+;version=20100815
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common

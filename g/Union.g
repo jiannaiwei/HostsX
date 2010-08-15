@@ -288,7 +288,7 @@
 
 @HostsX 网络广告过滤/游戏推广
 #155game
-0.0.0.0 link.155game.com tg.155game.com
+0.0.0.0 www.cssyouxi.com link.155game.com tg.155game.com
 #1stwebgame
 0.0.0.0 t.1stwebgame.com tc.1stwebgame.com
 #37Wan
