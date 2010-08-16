@@ -1,4 +1,4 @@
-;version=201008151350
+;version=201008161530
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -1947,6 +1947,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.uniqlo.jp
 0.0.0.0 www.xgjgw.com
 0.0.0.0 xinw.net
+#钓鱼网站
+0.0.0.0 aq.qq.servirce.com
+0.0.0.0 mail.qq.com.terncent.com
+0.0.0.0 aq.qq.service.terncent.com
 #病毒下载
 0.0.0.0 cpic2.edushi.com
 0.0.0.0 down.2345g.info

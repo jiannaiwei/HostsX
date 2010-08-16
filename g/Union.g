@@ -264,6 +264,10 @@
 0.0.0.0 go.lailea.info s.lailea.info 3448.com 4199.com 6781.com 7255.com 7322.com 7379.com 7939.com
 0.0.0.0 8009.com 858656.com 8749.com about.blank.la dir.ejoina.com kzdh.com my123.com mydh.info piaoxue.com
 0.0.0.0 search.ok365.com u.30so.com www.2535.cn www.6313.com www.ivc.cn www.w234.com www.wz123.com www.gcbbs.org www.26dh.cn
+#µˆ”„Õ¯’æ
+0.0.0.0 aq.qq.servirce.com
+0.0.0.0 mail.qq.com.terncent.com
+0.0.0.0 aq.qq.service.terncent.com
 #π„∏Ê’©∆≠
 0.0.0.0 ht.sooe.cn www.sooe.cn ht.hao120.cc www.hao120.cc m.ttgrs.cn www.ttgrs.cn asiafind1.com asiafriendfinder.com pp9a.com
 0.0.0.0 www.pp9a.com 98712.com zx.98712.com lkn.zoossoft.cn testserver.zoosnet.net www.zoosnet.net www.zoossoft.com 888888fa.com code.loading.wolian.net
