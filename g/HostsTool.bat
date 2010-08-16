@@ -1,5 +1,5 @@
 @echo off
-set ver=1.886
+set ver=1.887
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -45,6 +45,9 @@ goto menu
 mode con cols=71 lines=33
 rem 系统文件检测
 if not exist %windir%\system32\cacls.exe (echo 未检测到运行所需的文件！程序将马上下载！)&pause&goto sysfile
+rem 解除Hosts只读属性，权限限制
+echo y|cacls %hosts% /g system:f >nul
+attrib -r -a -s -h %hosts%
 cls
 title Hosts 小工具 %ver%   %date%
 echo ■───────────────────────────────── ■
@@ -186,7 +189,8 @@ goto pmfinish
 echo.
 echo Hosts文件权限设置完成！
 pause
-goto dns
+ipconfig /flushdns>nul 2>nul
+goto exit
 
 :Cert
 certmgr.msc
