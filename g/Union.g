@@ -264,6 +264,7 @@
 0.0.0.0 go.lailea.info s.lailea.info 3448.com 4199.com 6781.com 7255.com 7322.com 7379.com 7939.com
 0.0.0.0 8009.com 858656.com 8749.com about.blank.la dir.ejoina.com kzdh.com my123.com mydh.info piaoxue.com
 0.0.0.0 search.ok365.com u.30so.com www.2535.cn www.6313.com www.ivc.cn www.w234.com www.wz123.com www.gcbbs.org www.26dh.cn
+0.0.0.0 QQ5.com
 #µöÓãÍøÕ¾
 0.0.0.0 aq.qq.servirce.com
 0.0.0.0 mail.qq.com.terncent.com
@@ -275,13 +276,14 @@
 #²¡¶¾ÏÂÔØ
 0.0.0.0 down.2345g.info down.jghdtv.com download.duozz.com gb.36578.com hz.mmstat.com img38.my1188.info qqhdx.cn soft.ie222.com taojin.18ii.info
 0.0.0.0 wt1.skycn.gogle.cn www.001cndc.cn www.05kiss.cn www.125c.com www.ie9down.info www.mycar021.com www.qq-2010f.com www.zgsj.com www.zhutizi.com
-0.0.0.0 down.vbuv.cn cpic2.edushi.com www.qq201017.info
+0.0.0.0 down.vbuv.cn cpic2.edushi.com www.qq201017.info 52z.com www.52z.com
 #Á÷Ã¥À¦°ó
 0.0.0.0 www.duote.com www.duotegame.com img.duote.com it.oyksoft.com www.oyksoft.com www.xiazaiba.com xiazaiba.com xiazai.xiazaiba.com
 
 @HostsX ÍøÂç¹ã¸æ¹ýÂË/À¬»øÊÓÆµ
 #CCÊÓÆµ
 0.0.0.0 1.bokeccimg.com bokecc.com cncre12.bokecc.com hot7.bokecc.com mc.bokecc.com re2.bokecc.com trade.bokecc.com www.bokecc.com
+0.0.0.0 www.vunion.net
 #iCast
 0.0.0.0 cast.ra.icast.cn js.icast.cn kw.ra.icast.cn post.ra.icast.cn pre.ra.icast.cn pv.ra.icast.cn rm.ra.icast.cn track.ra.icast.cn
 #Vodone

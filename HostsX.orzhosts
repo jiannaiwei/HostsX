@@ -1,4 +1,4 @@
-;version=201008161530
+;version=201008170930
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -1919,6 +1919,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ivc.cn
 0.0.0.0 www.w234.com
 0.0.0.0 www.wz123.com
+0.0.0.0 QQ5.com
 #广告诈骗
 0.0.0.0 ht.sooe.cn
 0.0.0.0 www.sooe.cn
@@ -1973,6 +1974,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zgsj.com
 0.0.0.0 www.zhutizi.com
 0.0.0.0 www.qq201017.info
+0.0.0.0 52z.com
+0.0.0.0 www.52z.com
 #流氓捆绑
 0.0.0.0 www.duote.com
 0.0.0.0 www.duotegame.com
@@ -1992,6 +1995,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 re2.bokecc.com
 0.0.0.0 trade.bokecc.com
 0.0.0.0 www.bokecc.com
+0.0.0.0 www.vunion.net
 #iCast
 0.0.0.0 cast.ra.icast.cn
 0.0.0.0 js.icast.cn
