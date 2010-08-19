@@ -68,7 +68,7 @@ ls2.zonelabs.com pa2.zonelabs.com ps2.zonelabs.com register.zonelabs.com update.
 0.0.0.0 sm2.netitv.com
 
 @HostsX 软件广告过滤/推广下载
-0.0.0.0	zcomcdl.zcominc.com me.youheme.com
+0.0.0.0	zcomcdl.zcominc.com me.youheme.com ccc.xdowns.com
 #UcWeb
 0.0.0.0 ads1.ucweb.com ads1.uc.com
 #快车

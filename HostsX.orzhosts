@@ -1,4 +1,4 @@
-;version=201008170930
+;version=201008190930
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -388,11 +388,14 @@ ff02::3 ip6-allhosts
 @HostsX 站点广告过滤/游戏类网站
 #7pk小游戏
 0.0.0.0 al.7pk.com
+0.0.0.0 cimg.7pk.com
 0.0.0.0 client.7pk.com
+0.0.0.0 img.7pk.com
 0.0.0.0 imgcache.7pk.com
 0.0.0.0 new.7pk.com
 0.0.0.0 s.7pk.com
 0.0.0.0 safe.7pk.com
+0.0.0.0 software.7pk.com
 0.0.0.0 taobao.7pk.com
 #九城
 0.0.0.0 allyes.the9.com
@@ -1976,6 +1979,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.qq201017.info
 0.0.0.0 52z.com
 0.0.0.0 www.52z.com
+0.0.0.0 www.q766.com
 #流氓捆绑
 0.0.0.0 www.duote.com
 0.0.0.0 www.duotegame.com
@@ -2470,6 +2474,7 @@ ff02::3 ip6-allhosts
 @HostsX 软件广告过滤/推广下载
 0.0.0.0	zcomcdl.zcominc.com
 0.0.0.0 me.youheme.com
+0.0.0.0 ccc.xdowns.com
 #UcWeb
 0.0.0.0 ads1.ucweb.com
 0.0.0.0 ads1.uc.com

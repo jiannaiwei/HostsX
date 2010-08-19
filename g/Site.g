@@ -113,7 +113,8 @@
 
 @HostsX 站点广告过滤/游戏类网站
 #7pk小游戏
-0.0.0.0 al.7pk.com client.7pk.com imgcache.7pk.com new.7pk.com s.7pk.com safe.7pk.com taobao.7pk.com
+0.0.0.0 al.7pk.com cimg.7pk.com client.7pk.com img.7pk.com imgcache.7pk.com new.7pk.com s.7pk.com safe.7pk.com software.7pk.com
+0.0.0.0 taobao.7pk.com
 #九城
 0.0.0.0 allyes.the9.com
 #巨人网络
