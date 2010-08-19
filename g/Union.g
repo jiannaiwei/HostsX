@@ -276,10 +276,10 @@
 #病毒下载
 0.0.0.0 down.2345g.info down.jghdtv.com download.duozz.com gb.36578.com hz.mmstat.com img38.my1188.info qqhdx.cn soft.ie222.com taojin.18ii.info
 0.0.0.0 wt1.skycn.gogle.cn www.001cndc.cn www.05kiss.cn www.125c.com www.ie9down.info www.mycar021.com www.qq-2010f.com www.zgsj.com www.zhutizi.com
-0.0.0.0 down.vbuv.cn cpic2.edushi.com www.qq201017.info 52z.com www.52z.com www.q766.com
+0.0.0.0 down.vbuv.cn cpic2.edushi.com www.qq201017.info
 #流氓捆绑
-0.0.0.0 www.duote.com www.duotegame.com img.duote.com it.oyksoft.com www.oyksoft.com www.xiazaiba.com xiazaiba.com xiazai.xiazaiba.com
-
+0.0.0.0 www.duote.com www.duotegame.com img.duote.com it.oyksoft.com www.oyksoft.com www.xiazaiba.com xiazaiba.com xiazai.xiazaiba.com www.ouyaoxiazai.com
+0.0.0.0 52z.com www.52z.com www.q766.com
 @HostsX 网络广告过滤/垃圾视频
 #CC视频
 0.0.0.0 1.bokeccimg.com bokecc.com cncre12.bokecc.com hot7.bokecc.com mc.bokecc.com re2.bokecc.com trade.bokecc.com www.bokecc.com
