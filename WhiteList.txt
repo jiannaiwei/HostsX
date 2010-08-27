@@ -1,4 +1,4 @@
-2010-08-01:
+2010-08-27:
 
 功能影响:
 Google Api:
@@ -25,16 +25,17 @@ Zol
 pic.zol-img.com.cn   （首页显示不美观）
 搜狗拼音
 pinyin.sogou.com     （无法下载词库）
-
+360
+pinst.360.cn         （在线下载）
 #ESET NOD
-0.0.0.0 exp01.eset.com  （屏蔽ID验证）
+exp01.eset.com  （屏蔽ID验证）
 #PPTV    
-0.0.0.0 pp.pplive.com   （右下角播放提示）
-0.0.0.0 pp.v2.pplive.cn （点播节目时旁边的信息）
-0.0.0.0 up.pplive.com   （升级屏蔽）
-0.0.0.0 upexe.pplive.com
+pp.pplive.com   （右下角播放提示）
+pp.v2.pplive.cn （点播节目时旁边的信息）
+up.pplive.com   （升级屏蔽）
+upexe.pplive.com
 #迅雷
-0.0.0.0 msg.client.xunlei.com （客户端消息提示）
+msg.client.xunlei.com （客户端消息提示）
 
 
 网站误杀:
