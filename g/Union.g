@@ -8,8 +8,8 @@
 0.0.0.0 ulic.baidu.com union.baidu.com unstat.baidu.com utk.baidu.com utility.baidu.com
 #阿里淘宝
 0.0.0.0 a.alimama.cn acookie.alibaba.com acookie.alimama.com bm.alimama.cn bmvip.alimama.cn cpc.click.alimama.com gouwu.alimama.com img.alimama.cn log.mm.vip.cnz.alimama.com
-0.0.0.0 p.alimama.com p3p.alibaba.com s.click.alimama.com static.alimama.com taoke.alimama.com www.alimama.com z.alimama.com click.mz.simba.taobao.com pindao.huoban.taobao.com
-0.0.0.0 s.click.taobao.com search8.taobao.com adtaobao.allyes.cn taobaoafp.allyes.cn taobaoafp.allyes.com
+0.0.0.0 p.alimama.com p3p.alibaba.com s.click.alimama.com static.alimama.com taoke.alimama.com www.alimama.com z.alimama.com click.mz.simba.taobao.com click.tz.simba.taobao.com
+0.0.0.0 pindao.huoban.taobao.com s.click.taobao.com search8.taobao.com adtaobao.allyes.cn taobaoafp.allyes.cn taobaoafp.allyes.com
 #金山在线
 0.0.0.0 db.union.download.kingsoft.com stat.sp.kingsoft.com union.jx2.kingsoft.com union.kingsoft.com union.wps.kingsoft.com
 #搜狗
