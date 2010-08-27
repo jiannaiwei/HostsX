@@ -1,4 +1,4 @@
-;version=20100710
+;version=20100828
 ;author=郭鹏锟（JocKwok）
 #常用通配符过滤
 0.0.0.0	clkstat.*
