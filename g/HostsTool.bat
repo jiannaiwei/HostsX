@@ -1,5 +1,5 @@
 @echo off
-set ver=1.89
+set ver=1.891
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -693,7 +693,6 @@ del /f /s /q "%AllUsersProfile%\Application Data\Windows Genuine Advantage\*.*"
 del /f /s /q "%ProgramFiles%\Kingsoft\*.*"
 del /f /s /q "%userprofile%\Application Data\$Inst$\*.*"
 del /f /s /q "%userprofile%\Application Data\360Safe\*.*"
-del /f /s /q "%userprofile%\Application Data\ACD Systems\*.*"
 del /f /s /q "%userprofile%\Application Data\Adobe\Flash Player\*.*"
 del /f /s /q "%userprofile%\Application Data\AppData\*.*"
 del /f /s /q "%userprofile%\Application Data\BITS\*.*"
