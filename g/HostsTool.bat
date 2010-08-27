@@ -1,9 +1,9 @@
 @echo off
-set ver=1.888
+set ver=1.89
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
-for %%i in (a f e d c) do (
+for %%i in (c d e f a) do (
 set /a te=!!te!+1!
 if "!xc!"=="!te!" set xc=%%i)
 color 0%xc%
@@ -13,9 +13,9 @@ set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -T 10 -P down
 set downa=wget -nH -N -c -t 10 -w 2 -T 10 -P Acrylic
 rem 清理可能影响运行或者之前运行残留的文件
-del /f /s /q echo host hosts>nul 2>nul
-del /f /s /q down\*.*>nul 2>nul
-del /f /s /q setup.bat HostsX.orzhosts 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt>nul 2>nul
+del /f /q echo host hosts>nul 2>nul
+del /f /q down\*.*>nul 2>nul
+del /f /q 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt>nul 2>nul
 rd /s /q down\hosts\>nul 2>nul
 rd /s /q down\>nul 2>nul
 rem 判断操作系统版本，并设置系统默认Hosts文件位置的变量。
@@ -644,6 +644,97 @@ del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
 del /f /s /q "%userprofile%\Local Settings\Temp\*.*"
 del /f /s /q "%userprofile%\recent\*.*"
 echo .系统垃圾清除完毕。
+echo. 清理腾讯产生的垃圾文件。
+del /f /s /q "%userprofile%\Application Data\QQMusicUpdate\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\DeskUpdate\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\File\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\IM\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\Logs\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\MMInstallCache\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQ\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQ\AuTemp\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQ\DR\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQ\SafeBase\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQ\STemp\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQ\Temp\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQDownload\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQMusic\Cache\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\QQMusic\Temp\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\TM\SafeBase\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\TM\Temp\*.*"
+del /f /s /q "%userprofile%\Application Data\Tencent\TXSSO\*.*"
+del /f /s /q "%userprofile%\Local Settings\Application Data\Tencent\*.*"
+rd /s /q "%userprofile%\Application Data\QQMusicUpdate"
+rd /s /q "%userprofile%\Application Data\Tencent\DeskUpdate"
+rd /s /q "%userprofile%\Application Data\Tencent\File"
+rd /s /q "%userprofile%\Application Data\Tencent\IM"
+rd /s /q "%userprofile%\Application Data\Tencent\Logs"
+rd /s /q "%userprofile%\Application Data\Tencent\MMInstallCache"
+rd /s /q "%userprofile%\Application Data\Tencent\QQ"
+rd /s /q "%userprofile%\Application Data\Tencent\QQ\AuTemp"
+rd /s /q "%userprofile%\Application Data\Tencent\QQ\DR"
+rd /s /q "%userprofile%\Application Data\Tencent\QQ\SafeBase"
+rd /s /q "%userprofile%\Application Data\Tencent\QQ\STemp"
+rd /s /q "%userprofile%\Application Data\Tencent\QQ\Temp"
+rd /s /q "%userprofile%\Application Data\Tencent\QQDownload"
+rd /s /q "%userprofile%\Application Data\Tencent\QQMusic\Cache"
+rd /s /q "%userprofile%\Application Data\Tencent\QQMusic\Temp"
+rd /s /q "%userprofile%\Application Data\Tencent\TM\SafeBase"
+rd /s /q "%userprofile%\Application Data\Tencent\TM\Temp"
+rd /s /q "%userprofile%\Application Data\Tencent\TXSSO"
+rd /s /q "%userprofile%\Local Settings\Application Data\Tencent"
+del /f /s /q "D:\QQVideo.Cache\*.*"
+del /f /s /q "e:\QQVideo.Cache\*.*"
+echo. 清理用户使用差生的垃圾文件。
+del /f /s /q "%AllUsersProfile%\Application Data\360safe\*.*"
+del /f /s /q "%AllUsersProfile%\Application Data\keniuTools\*.*"
+del /f /s /q "%AllUsersProfile%\Application Data\Kingsoft\*.*"
+del /f /s /q "%AllUsersProfile%\Application Data\Windows Genuine Advantage\*.*"
+del /f /s /q "%ProgramFiles%\Kingsoft\*.*"
+del /f /s /q "%userprofile%\Application Data\$Inst$\*.*"
+del /f /s /q "%userprofile%\Application Data\360Safe\*.*"
+del /f /s /q "%userprofile%\Application Data\ACD Systems\*.*"
+del /f /s /q "%userprofile%\Application Data\Adobe\Flash Player\*.*"
+del /f /s /q "%userprofile%\Application Data\AppData\*.*"
+del /f /s /q "%userprofile%\Application Data\BITS\*.*"
+del /f /s /q "%userprofile%\Application Data\data\*.*"
+del /f /s /q "%userprofile%\Application Data\fix.reg"
+del /f /s /q "%userprofile%\Application Data\Foxit Software\*.*"
+del /f /s /q "%userprofile%\Application Data\Help\*.*"
+del /f /s /q "%userprofile%\Application Data\IDMComp\*.*"
+del /f /s /q "%userprofile%\Application Data\Internet Cleaner\*.*"
+del /f /s /q "%userprofile%\Application Data\kplugeng.dll"
+del /f /s /q "%userprofile%\Application Data\kplugext.dll"
+del /f /s /q "%userprofile%\Application Data\Macromedia\*.*"
+del /f /s /q "%userprofile%\Application Data\Maxthon3\Temp\*.*"
+del /f /s /q "%userprofile%\Application Data\Media Player Classic\*.*"
+del /f /s /q "%userprofile%\Application Data\U3\*.*"
+del /f /s /q "%userprofile%\Application Data\udconf.ini"
+del /f /s /q "%userprofile%\Application Data\umcfg.ini"
+del /f /s /q "%userprofile%\Local Settings\Application Data\Help\*.*"
+del /f /s /q "%userprofile%\Local Settings\Application Data\Xequte\*.*"
+rd /s /q "%AllUsersProfile%\Application Data\360safe"
+rd /s /q "%AllUsersProfile%\Application Data\keniuTools"
+rd /s /q "%AllUsersProfile%\Application Data\Kingsoft"
+rd /s /q "%AllUsersProfile%\Application Data\Windows Genuine Advantage"
+rd /s /q "%ProgramFiles%\Kingsoft\"
+rd /s /q "%userprofile%\Application Data\$Inst$"
+rd /s /q "%userprofile%\Application Data\360Safe"
+rd /s /q "%userprofile%\Application Data\ACD Systems"
+rd /s /q "%userprofile%\Application Data\Adobe\Flash Player"
+rd /s /q "%userprofile%\Application Data\AppData"
+rd /s /q "%userprofile%\Application Data\BITS"
+rd /s /q "%userprofile%\Application Data\data"
+rd /s /q "%userprofile%\Application Data\Foxit Software"
+rd /s /q "%userprofile%\Application Data\Help"
+rd /s /q "%userprofile%\Application Data\IDMComp"
+rd /s /q "%userprofile%\Application Data\Internet Cleaner"
+rd /s /q "%userprofile%\Application Data\Macromedia"
+rd /s /q "%userprofile%\Application Data\Maxthon3\Temp"
+rd /s /q "%userprofile%\Application Data\Media Player Classic"
+rd /s /q "%userprofile%\Application Data\U3"
+rd /s /q "%userprofile%\Local Settings\Application Data\Help"
+rd /s /q "%userprofile%\Local Settings\Application Data\Xequte"
 cls
 goto menu
 

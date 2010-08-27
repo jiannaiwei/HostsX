@@ -159,7 +159,7 @@
 0.0.0.0 link.265.com un.265.com
 #77869
 0.0.0.0 pv.778669.com u1.778669.com u2.778669.com u3.778669.com u4.778669.com u5.778669.com u6.778669.com u493025.778669.com u592022.778669.com
-0.0.0.0 u923032.778669.com u948016.778669.com
+0.0.0.0 u923032.778669.com u948016.778669.com 778669.com www.778669.com
 #Adpolestar
 0.0.0.0 ad1.adpolestar.net afp.adpolestar.net gfyoyo.adpolestar.net server1.adpolestar.net
 #ADPower
@@ -207,7 +207,7 @@
 #iTop
 0.0.0.0 d.itopnetworks.com itopnetworks.com s.itopnetworks.com
 #黑马
-0.0.0.0 c.heima8.com pc.heima8.com u.heima8.com www.heima8.com
+0.0.0.0 c.heima8.com pc.heima8.com pic.heima8.com u.heima8.com www.heima8.com
 #脉动
 0.0.0.0 go.myad.cn img2.myad.cn x2.myad.cn
 #成果网
@@ -221,8 +221,8 @@
 #极限
 0.0.0.0 c.cnxad.com code.cnxad.com g.cnxad.com js.cnxad.com
 #麒润
-0.0.0.0 a.keyrun.com pic0.keyrun.com pic1.keyrun.com pic2.keyrun.com pp.keyrun.com
-0.0.0.0 www1.keyrun.com code11.onetad.com code12.onetad.com pic1.onetad.com pic2.onetad.com pic3.onetad.com ww10.onetad.com ww8.onetad.com wwv.onetad.com
+0.0.0.0 a.keyrun.com pic0.keyrun.com pic1.keyrun.com pic2.keyrun.com pp.keyrun.com www1.keyrun.com
+0.0.0.0 code11.onetad.com code12.onetad.com pic1.onetad.com pic2.onetad.com pic3.onetad.com ww10.onetad.com ww78.onetad.com ww8.onetad.com wwv.onetad.com
 #弈天
 0.0.0.0 pics.unionsky.cn play.unionsky.cn
 #宣传易
@@ -324,7 +324,7 @@
 #魔力岛
 0.0.0.0 u.molidao.com
 #纳奇游戏营销
-0.0.0.0 v.naqigs.com
+0.0.0.0 naqigs.com v.naqigs.com
 #热血三国
 0.0.0.0 g.91sanguo.cn
 #搜游戏公会
@@ -341,8 +341,10 @@
 0.0.0.0 u.kfwan.com www.kfwan.com
 #绿岸网络
 0.0.0.0 union.shumenol.com www.shumenol.com
+#96PK
+0.0.0.0 abc.96pk.com cba.96pk.com
 #其他游戏广告
-0.0.0.0 abc.96pk.com ad.16wan.com bt.52yeyou.com cp.1o26.com cs01.csyouxi.com g.xuanyx.com gamefiles.qq494.cn gg.qc101.com go.snsfun.cc
+0.0.0.0 ad.16wan.com bt.52yeyou.com cp.1o26.com cs01.csyouxi.com g.xuanyx.com gamefiles.qq494.cn gg.qc101.com go.snsfun.cc
 0.0.0.0 nonoyx.com p.eqiso.com p.3gm.com.cn po.add.tx908.com redirect.jooov.cn static.u966.com t.15yl.com t.1stcngame.com t.uuplay.com
 0.0.0.0 tg3.subo.me u.7town.com ww.jinzhao99.com ww.yiqiwin.com www.leeuu.net  www.wooigoo.cn xy.8zgame.com
 

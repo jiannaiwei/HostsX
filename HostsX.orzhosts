@@ -1,4 +1,4 @@
-;version=201008192100
+;version=201008271200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -23,8 +23,6 @@ ff02::3 ip6-allhosts
 #CCF
 64.120.147.102 bbs.et8.net
 #Google
-66.249.89.104 encrypted.google.com
-209.85.225.104 encrypted.google.com
 74.125.19.147 nt0.ggpht.com
 74.125.19.147 nt1.ggpht.com
 74.125.19.147 nt2.ggpht.com
@@ -168,6 +166,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 jump.zg.163.com
 0.0.0.0 pro.163.com
 0.0.0.0 proimg.163.com
+0.0.0.0 ud.blog.163.com
 0.0.0.0 union.163.com
 #网易有道搜索
 0.0.0.0 a.youdao.com
@@ -405,6 +404,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bmp.ali213.net
 #叶网游戏
 0.0.0.0 g.webgame.com.cn
+0.0.0.0 tg.webgame.com.cn
 #CDC游戏
 0.0.0.0 gg.cdcgames.net
 #游久网
@@ -578,6 +578,7 @@ ff02::3 ip6-allhosts
 #中关村系列
 0.0.0.0 active.zol.com.cn
 0.0.0.0 adm.zol.com.cn
+0.0.0.0 bd.zol.com.cn
 0.0.0.0 bwp.zol.com.cn
 0.0.0.0 jspchome.zol.com.cn
 0.0.0.0 pv.zol.com.cn
@@ -1452,6 +1453,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 link.265.com
 0.0.0.0 un.265.com
 #77869
+0.0.0.0 778669.com
 0.0.0.0 pv.778669.com
 0.0.0.0 u1.778669.com
 0.0.0.0 u2.778669.com
@@ -1459,6 +1461,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u4.778669.com
 0.0.0.0 u5.778669.com
 0.0.0.0 u6.778669.com
+0.0.0.0 www.778669.com
 0.0.0.0 u493025.778669.com
 0.0.0.0 u592022.778669.com
 0.0.0.0 u923032.778669.com
@@ -1735,6 +1738,7 @@ ff02::3 ip6-allhosts
 #黑马
 0.0.0.0 c.heima8.com
 0.0.0.0 pc.heima8.com
+0.0.0.0 pic.heima8.com
 0.0.0.0 u.heima8.com
 0.0.0.0 www.heima8.com
 #脉动
@@ -1777,6 +1781,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pic2.onetad.com
 0.0.0.0 pic3.onetad.com
 0.0.0.0 ww10.onetad.com
+0.0.0.0 ww78.onetad.com
 0.0.0.0 ww8.onetad.com
 0.0.0.0 wwv.onetad.com
 #弈天
@@ -2070,6 +2075,7 @@ ff02::3 ip6-allhosts
 #魔力岛
 0.0.0.0 u.molidao.com
 #纳奇游戏营销
+0.0.0.0 naqigs.com
 0.0.0.0 v.naqigs.com
 #热血三国
 0.0.0.0 g.91sanguo.cn
@@ -2103,8 +2109,10 @@ ff02::3 ip6-allhosts
 #绿岸网络
 0.0.0.0 union.shumenol.com
 0.0.0.0 www.shumenol.com
-#其他游戏广告
+#96PK
 0.0.0.0 abc.96pk.com
+0.0.0.0 cba.96pk.com
+#其他游戏广告
 0.0.0.0 ad.16wan.com
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 cp.1o26.com
@@ -2260,7 +2268,6 @@ ff02::3 ip6-allhosts
 #一路发联盟
 0.0.0.0 www.168un.com
 #一起赢
-0.0.0.0 ww.yiqiwin.com
 0.0.0.0 www.yiqiwin.com
 #悠易互通
 0.0.0.0 amps.yoyi.com.cn
@@ -2279,7 +2286,6 @@ ff02::3 ip6-allhosts
 0.0.0.0	inst.360safe.com
 0.0.0.0 pinst.360.cn
 0.0.0.0 rd.360.cn
-0.0.0.0 rd.qihoo.com
 0.0.0.0 pvstat.qihoo.com
 0.0.0.0 stat.360safe.com
 0.0.0.0	x.360safe.com
@@ -2293,7 +2299,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bo.duba.net
 0.0.0.0 cu001.www.duba.net
 0.0.0.0 cu002.www.duba.net
+0.0.0.0 cu003.www.duba.net
 0.0.0.0 cu004.www.duba.net
+0.0.0.0 push.db.kingsoft.com
 0.0.0.0 i2c.duba.net
 0.0.0.0 ifr.duba.net
 0.0.0.0 info.duba.net
@@ -2510,8 +2518,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
 0.0.0.0 client.stat.xunlei.com
-0.0.0.0 hezuo.down.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
+0.0.0.0 hezuo.down.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 mtips.xunlei.com
@@ -2520,6 +2528,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.xunlei.com
 0.0.0.0 static.soft.xunlei.com
 0.0.0.0 thunderqtypv.union.xunlei.com
+0.0.0.0 tj.xunlei.com
 0.0.0.0 web.stat.xunlei.com
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com

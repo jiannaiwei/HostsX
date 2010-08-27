@@ -21,8 +21,6 @@ ff02::3 ip6-allhosts
 #CCF
 64.120.147.102 bbs.et8.net
 #Google
-66.249.89.104 encrypted.google.com
-209.85.225.104 encrypted.google.com
 74.125.19.147 nt0.ggpht.com nt1.ggpht.com nt2.ggpht.com nt3.ggpht.com
 209.85.225.102 groups.google.com
 74.125.127.100 services.google.com sites.google.com

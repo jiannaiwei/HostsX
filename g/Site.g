@@ -28,7 +28,7 @@
 @HostsX 站点广告过滤/门户类网站
 #网易163
 0.0.0.0 analytics.ws.126.net img1.126.net img2.126.net adc.163.com adclient.163.com adgeo.163.com adimg.163.com admail.163.com allyes.nie.163.com
-0.0.0.0 analytics.163.com corp.163.com cpc.163.com g.163.com jump.zg.163.com pro.163.com proimg.163.com union.163.com
+0.0.0.0 analytics.163.com corp.163.com cpc.163.com g.163.com jump.zg.163.com pro.163.com proimg.163.com ud.blog.163.com union.163.com
 #网易有道搜索
 0.0.0.0 a.youdao.com clkservice.youdao.com clkservice2.dict.youdao.com impservice.union.youdao.com impservice.youdao.com
 #新浪
@@ -122,7 +122,7 @@
 #游侠网
 0.0.0.0 bmp.ali213.net
 #叶网游戏
-0.0.0.0 g.webgame.com.cn
+0.0.0.0 g.webgame.com.cn tg.webgame.com.cn
 #CDC游戏
 0.0.0.0 gg.cdcgames.net
 #游久网
@@ -218,7 +218,7 @@
 #CNet
 0.0.0.0 adlog.com.com dw-cn.com.com dw.cnet.com i.i.com.com image.com.com img.com.com rubics-assets.com.com www.cbsinteractive.com
 #中关村系列
-0.0.0.0 active.zol.com.cn adm.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
+0.0.0.0 active.zol.com.cn adm.zol.com.cn bd.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
 #电脑之家
 0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net market.pchome.net js-1.pchome.net stat.pchome.net
 #至顶网ZDNet
