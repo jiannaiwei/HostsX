@@ -1,4 +1,4 @@
-;version=201009111930
+;version=201009112000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -1384,6 +1384,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 code.loading.wolian.net
 0.0.0.0 fx.v1kk.com
 0.0.0.0 hjmg.930114.com
+0.0.0.0 img.tjq.com
 0.0.0.0 shop.hoo6.com
 0.0.0.0 shop.liweihui.com
 0.0.0.0 u.the668.com
@@ -1392,6 +1393,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.fengxin114.com
 0.0.0.0 www.juyuan.com
+0.0.0.0 www.ruox.net
 0.0.0.0 www.taobanwang.com
 0.0.0.0 www.uniqlo.jp
 0.0.0.0 www.xgjgw.com
