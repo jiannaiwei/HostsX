@@ -1,5 +1,5 @@
 @echo off
-set ver=1.891
+set ver=1.892
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -685,10 +685,9 @@ rd /s /q "%userprofile%\Application Data\Tencent\TXSSO"
 rd /s /q "%userprofile%\Local Settings\Application Data\Tencent"
 del /f /s /q "D:\QQVideo.Cache\*.*"
 del /f /s /q "e:\QQVideo.Cache\*.*"
-echo. 清理用户使用差生的垃圾文件。
+echo. 清理用户使用产的垃圾文件。
 del /f /s /q "%AllUsersProfile%\Application Data\360safe\*.*"
 del /f /s /q "%AllUsersProfile%\Application Data\keniuTools\*.*"
-del /f /s /q "%AllUsersProfile%\Application Data\Kingsoft\*.*"
 del /f /s /q "%AllUsersProfile%\Application Data\Windows Genuine Advantage\*.*"
 del /f /s /q "%ProgramFiles%\Kingsoft\*.*"
 del /f /s /q "%userprofile%\Application Data\$Inst$\*.*"

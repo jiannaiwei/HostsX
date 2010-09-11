@@ -68,8 +68,6 @@ ff02::3 ip6-allhosts
 255.255.255.255 broadcasthost
 #Blogger
 74.125.39.191 www.blogger.com blogger.l.google.com blogger.google.com
-#CCF
-64.120.147.102 bbs.et8.net
 #Google
 74.125.19.147 nt0.ggpht.com nt1.ggpht.com nt2.ggpht.com nt3.ggpht.com
 209.85.225.102 groups.google.com
