@@ -1,5 +1,5 @@
 @echo off
-set ver=1.892
+set ver=1.893
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -279,6 +279,8 @@ cls&mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"Hosts")(window.clos
 goto menu
 
 :ipv6
+echo 第一次安装Ipv6时请稍候...
+ipv6 install>nul 2>nul
 echo 正在下载基础数据中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/ipv6.txt
 copy down\ipv6.txt %hosts%
