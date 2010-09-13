@@ -1,4 +1,4 @@
-;version=201009131000
+;version=201009132230
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -998,6 +998,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 click.wrating.com
 0.0.0.0 icon.ajiang.net
 0.0.0.0 icon.cnzz.com
+0.0.0.0 search.cnzz.com
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.woopra.com
 0.0.0.0 www.clicki.cn
