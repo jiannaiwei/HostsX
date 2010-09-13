@@ -1,5 +1,5 @@
 @echo off
-set ver=1.893
+set ver=1.895
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -204,6 +204,7 @@ mshta vbscript:msgbox("不建议在Hosts文件中添加过多内容！",64,"Hosts")(window.clo
 goto menu
 
 :gdft
+mshta vbscript:msgbox("此模式下的数据有延迟，不推荐使用！ %b%！",64,"警告")(window.close)
 if not exist down\rd.g call :datadown
 cd down\ >nul 2>nul
 copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
@@ -554,7 +555,6 @@ pause
 goto menu
 
 :addnotrustsite
-mshta vbscript:msgbox("请如下所示： 一行一个网站域名！",64,"Hosts")(window.close)
 echo 以下数据，供您参考：
 echo 11.mydrivers.com>1.txt
 echo adcontrol.tudou.com>>1.txt
@@ -564,8 +564,8 @@ echo pro.letv.com>>1.txt
 echo *.atm.youku.com>>1.txt
 echo *.mediav.com>>1.txt
 echo *.sandai.net>>1.txt
-pause
 start %windir%\notepad.exe 1.txt
+mshta vbscript:msgbox("请如下所示： 一行一个网站域名！",64,"Hosts")(window.close)
 echo 请在修改完毕后关闭记事本，并继续下一步。
 echo 请注意备份 自定义.txt 中的的数据！！！
 echo 确定要使用自定义的IE不信任网址数据？

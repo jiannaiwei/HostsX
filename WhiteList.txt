@@ -21,12 +21,17 @@ CNTV:
 cntv.wrating.com     （客户端脚本错误）
 Yahoo：
 us.lrd.yahoo.com     （雅虎新邮箱跳转）
-Zol     
+有道搜索：
+shared.ydstatic.com  （首页显示不美观）
+Zol：     
 pic.zol-img.com.cn   （首页显示不美观）
-搜狗拼音
+搜狗拼音：
 pinyin.sogou.com     （无法下载词库）
-360
+360：
 pinst.360.cn         （在线下载）
+凤凰直播：
+sc.ifeng.com         （播放器无法正常加载）
+
 #ESET NOD
 exp01.eset.com  （屏蔽ID验证）
 #PPTV    

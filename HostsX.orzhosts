@@ -174,7 +174,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cidian.youdao.com
 0.0.0.0 clkservice2.dict.youdao.com
 0.0.0.0 feedback.youdao.com
-0.0.0.0 shared.ydstatic.com
 #新浪
 0.0.0.0 ad4.sina.com.cn
 0.0.0.0 adsina.allyes.com
@@ -535,9 +534,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 shows1.soufun.com
 @HostsX 站点广告过滤/新闻类网站
 #凤凰网
-0.0.0.0 sc.ifeng.com
 0.0.0.0 sta.ifeng.com
 0.0.0.0 stadig.ifeng.com
+0.0.0.0 www.sdgj.net.cn
 #铁血网
 0.0.0.0 ads.tiexue.net
 0.0.0.0 x.itiexue.net
@@ -708,7 +707,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pv.sogou.com
 0.0.0.0 union.sogou.com
 0.0.0.0 wb.brand.sogou.com
-0.0.0.0 www.sogou.com
 #好耶广告
 0.0.0.0 allyesshafa.allyes.com
 0.0.0.0 bokee.allyes.com
@@ -997,7 +995,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com
 #其他
+0.0.0.0 click.wrating.com
 0.0.0.0 icon.ajiang.net
+0.0.0.0 icon.cnzz.com
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.woopra.com
 0.0.0.0 www.clicki.cn
