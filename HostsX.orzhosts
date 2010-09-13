@@ -1,4 +1,4 @@
-;version=201009112000
+;version=201009131000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -1110,12 +1110,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 eastmoney.adsame.com
 0.0.0.0 easynews.adsame.com
 0.0.0.0 erke.adsame.com
+0.0.0.0 i.adsame.com
 0.0.0.0 ifeng.adsame.com
 0.0.0.0 img.adsame.com
 0.0.0.0 p4p.adsame.com
 0.0.0.0 pipi.adsame.com
 0.0.0.0 pop168.adsame.com
 0.0.0.0 rayli.adsame.com
+0.0.0.0 samba.adsame.com
 0.0.0.0 sina.adsame.com
 0.0.0.0 techweb.adsame.com
 0.0.0.0 uusee.adsame.com
