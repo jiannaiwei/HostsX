@@ -1,5 +1,5 @@
 @echo off
-set ver=1.895
+set ver=1.896
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -205,6 +205,8 @@ goto menu
 
 :gdft
 mshta vbscript:msgbox("此模式下的数据有延迟，不推荐使用！ %b%！",64,"警告")(window.close)
+goto menu
+:gdftbak
 if not exist down\rd.g call :datadown
 cd down\ >nul 2>nul
 copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
