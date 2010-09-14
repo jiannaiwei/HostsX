@@ -1,4 +1,4 @@
-;version=201009132230
+;version=201009141110
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -454,6 +454,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 valo.atm.youku.com
 0.0.0.0 valp.atm.youku.com
 0.0.0.0 vid.atm.youku.com
+0.0.0.0 walp.atm.youku.com
 #土豆
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
