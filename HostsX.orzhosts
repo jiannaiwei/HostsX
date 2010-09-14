@@ -1,4 +1,4 @@
-;version=201009141110
+;version=201009141124
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -733,12 +733,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsresult.joywell.com.cn
 0.0.0.0 api.flash45.com
 0.0.0.0 bs.serving-sys.com
-0.0.0.0 c.3bu.cn
 0.0.0.0 c.ourclick.net
 0.0.0.0 clk.abang.com
 0.0.0.0 cnt.zhaopin.com
 0.0.0.0 code.aizhuanlove.cn
 0.0.0.0 code.ceyunshi.cn
+0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
 0.0.0.0 e.appsasia.net
 0.0.0.0 go.maxreturn.cn
@@ -1592,6 +1592,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.160ads.com
 0.0.0.0 www.160ads.com
 #3Bu
+0.0.0.0 c.3bu.cn
+0.0.0.0 img.3bu.cn
 0.0.0.0 mmscode1.3bu.com
 0.0.0.0 mmscode2.3bu.com
 0.0.0.0 mmscode3.3bu.com
