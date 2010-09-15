@@ -1,4 +1,4 @@
-;version=201009141124
+;version=201009151050
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost Common
@@ -175,6 +175,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clkservice2.dict.youdao.com
 0.0.0.0 feedback.youdao.com
 #新浪
+0.0.0.0 ad3.sina.com.cn
 0.0.0.0 ad4.sina.com.cn
 0.0.0.0 adsina.allyes.com
 0.0.0.0 beacon.sina.com.cn
@@ -977,6 +978,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 afp.acs86.com
 0.0.0.0 static.acs86.com
 0.0.0.0 tgb.acs86.com
+#cnzz
+0.0.0.0 icon.cnzz.com
+0.0.0.0 search.cnzz.com
+0.0.0.0 w.cnzz.com
 #Webnibbler
 0.0.0.0 btnibbler.com
 0.0.0.0 cn.ad.btnibbler.com
@@ -998,8 +1003,6 @@ ff02::3 ip6-allhosts
 #其他
 0.0.0.0 click.wrating.com
 0.0.0.0 icon.ajiang.net
-0.0.0.0 icon.cnzz.com
-0.0.0.0 search.cnzz.com
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.woopra.com
 0.0.0.0 www.clicki.cn
