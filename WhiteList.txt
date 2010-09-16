@@ -1,4 +1,4 @@
-2010-09-13:
+2010-09-16:
 
 功能影响:
 Google Api:
@@ -47,6 +47,7 @@ msg.client.xunlei.com （客户端消息提示）
 www.in9.cn
 bt.ktxp.com
 rapidshare.com
+a.abcnews.com
 
 网友建议保留:
 97xxoo.com
