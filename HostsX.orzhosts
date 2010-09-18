@@ -1,4 +1,4 @@
-;version=201009161406
+;version=201009181436
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1882,6 +1882,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.daodao001.cn
 0.0.0.0 text.mplayer.org.cn
 0.0.0.0 stbnnr.allyes.com
+#UcWeb
+0.0.0.0 ads1.ucweb.com
+0.0.0.0 ads1.uc.com
+#HooKQQ
+0.0.0.0 www.hookqq.com
 #暴风影音
 0.0.0.0 game.baofeng.com
 0.0.0.0 videodown.baofeng.com
@@ -1912,9 +1917,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 partner.funshion.com
 #天翼视讯
 0.0.0.0 sm2.netitv.com
-#UcWeb
-0.0.0.0 ads1.ucweb.com
-0.0.0.0 ads1.uc.com
 #快车
 0.0.0.0	bc.kuaiche.com
 0.0.0.0 cimg.kuaiche.com
@@ -1938,7 +1940,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 msg.iseesoft.cn
 0.0.0.0 p.iseeclan.com
 0.0.0.0 stat.iseeclan.com
-#Maxthon
+#傲游浏览器
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 stat.maxthon.com
 0.0.0.0 stat-w.maxthon.com
