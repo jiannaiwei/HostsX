@@ -6,7 +6,7 @@ echo 正在升级相关组件
 del ipseccmd.exe HostsTool.bat wget.exe
 copy down\ipseccmd.exe ipseccmd.exe>nul 2>nul
 copy down\wget.exe wget.exe>nul 2>nul
-copy down\HostsTool.bat HostsTool.bat>nul 2>nul
+copy down\HostsTool.g HostsTool.bat>nul 2>nul
 echo 关闭DNS client服务，以加快DNS解析速度;
 echo 正在安装Ipv6协议及相关支持,以使Ipv6可用！
 echo 第一次安装Ipv6时请稍候...
