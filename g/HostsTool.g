@@ -1,5 +1,5 @@
 @echo off
-set ver=1.896
+set ver=V1.90
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -18,6 +18,10 @@ del /f /q down\*.*>nul 2>nul
 del /f /q 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt>nul 2>nul
 rd /s /q down\hosts\>nul 2>nul
 rd /s /q down\>nul 2>nul
+:Parameters
+for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (
+    set version=%%3
+)
 rem 判断操作系统版本，并设置系统默认Hosts文件位置的变量。
 if exist %ComSpec% goto nt else goto 9x
 :9x
@@ -49,7 +53,7 @@ rem 解除Hosts只读属性，权限限制
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls
-title Hosts 小工具 %ver%   %date%
+title Hosts 小工具 %ver% %version% %date%   
 echo ■───────────────────────────────── ■
 echo.■   1.Hosts文件调整       2.Acrylic+ 调整        3.在线升级         ■
 echo ■───────────────────────────────── ■
@@ -88,7 +92,7 @@ if /i "%all%"=="w" goto hostspath
 if /i "%all%"=="x" goto fixie
 if /i "%all%"=="1" goto choose
 if /i "%all%"=="2" goto Acrylic
-if /i "%all%"=="3" goto update
+if /i "%all%"=="3" goto Check_Updates
 if /i "%all%"=="4" goto run
 if /i "%all%"=="5" goto hostsorder
 if /i "%all%"=="6" goto Cert
@@ -486,24 +490,6 @@ goto Alcfile
 echo 正在下载组件，请稍候... ...
 pause
 if exist Acrylic\AcrylicService.exe goto menu
-
-:update
-mode con: cols=40 lines=10
-title HostsTool更新程序
-echo 正在连接升级服务器，请稍侯…
-ping hostsx.googlecode.com>nul 2>nul&&goto :updateok
-cls
-echo 无法连接升级服务器！
-echo.
-echo 请检查网络连接或稍后再试！&pause>nul&goto menu
-:updateok
-if not exist wget.exe (echo Wget组件不存在，请重新运行本程序！)&pause&exit
-echo 正在下载数据，请稍候... ...
-%down% http://hostsx.googlecode.com/svn/trunk/lib/ipseccmd.exe
-%down% http://hostsx.googlecode.com/svn/trunk/lib/wget.exe
-%down% http://hostsx.googlecode.com/svn/trunk/g/up.bat
-%down% http://hostsx.googlecode.com/svn/trunk/g/HostsTool.bat
-call down\up.bat&exit
 
 :run
 rem 解除Hosts只读属性，权限限制
@@ -1059,3 +1045,60 @@ rd "%UserProfile%\Application Data\Simple Adblock\" /S /Q
 regsvr32 /u /s Adblock.dll
 mshta vbscript:msgbox("卸载成功！",64,"Simple-adblock")(window.close)
 goto othertool
+
+:Check_Updates
+Mode con cols=50 lines=10
+Title 在线更新
+set version_New=未知
+cls
+echo.
+echo                    正在检查更新
+echo.
+echo                    ...请稍后...
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
+echo WScript.sleep 200 >>%temp%/Updates.vbs
+echo loop >>%temp%/Updates.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Ver.g">%temp%/Ver.txt 2>nul
+for /f %%i in (%temp%\Ver.txt) do set verNew=%%i
+if "%verNew%"=="未知" goto CheckError
+cls
+echo.
+echo.
+echo         当前版本：  %ver%
+echo.
+echo         最新版本：  %verNew%
+echo.
+echo.
+if %ver%==%verNew% (echo 版本最新，不需要更新&ping /n 3 127.1>nul&goto menu) else (
+echo  发现新版本，是否更新？
+echo.
+echo  Y 开始更新  其他键返回
+set choose=~
+set /p choose=请选择：
+if /I !choose!==Y goto UpdatesNow)
+
+:UpdatesNow
+cls
+echo                    正在下载更新                    ...请稍后...
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/HostsTool.g">%temp%\HostsTool.bat
+echo @echo off>%temp%\up.bat
+echo Mode con cols=50 lines=10>>%temp%\up.bat
+echo Title 在线更新>>%temp%\up.bat
+echo echo  ...重新启动...>>%temp%\up.bat
+echo ping /n 3 127.1^>nul>>%temp%\up.bat
+echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
+echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
+echo Exit>>%temp%\up.bat
+pause
+start %temp%\up.bat
+exit
+
+:CheckError
+cls
+echo                 无法连接更新服务器
+echo.
+echo                     请下载更新
+ping /n 3 127.1>nul
+goto menu
