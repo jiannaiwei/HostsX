@@ -1,5 +1,5 @@
 @echo off
-set ver=1.896
+set ver=有新版发布
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
