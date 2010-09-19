@@ -42,5 +42,5 @@ reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{02AC20DD-55
 reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072}" /f
 cls
 title Enjoy The New Version HostsTool !
-mshta vbscript:msgbox("建议使用新版在线更新一次数据！",64,"更新完成！")(window.close)
+echo 更新完毕，建议使用新版在线更新一次数据！
 call HostsTool.bat&del %0
