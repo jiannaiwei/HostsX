@@ -1,4 +1,4 @@
-;version=201009200200
+;version=201009282020
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1533,6 +1533,9 @@ ff02::3 ip6-allhosts
 #做第一传媒
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
+#乐语
+0.0.0.0 file.doyoo.net
+0.0.0.0 js.doyoo.net
 @HostsX 恶意行为阻止
 #电信劫持
 0.0.0.0 114.allyes.com
