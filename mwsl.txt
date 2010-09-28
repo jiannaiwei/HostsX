@@ -1,6 +1,6 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2010.9.20
+恶意网站HOSTS屏蔽文件-2010.9.28
 www.mwsl.org.cn
 ---------------------------------------
 All Rights Reserved 2007-2010
@@ -10478,7 +10478,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 ral.bc.ca
 0.0.0.0 rammhz.co.cc
 0.0.0.0 rapid-antivir2009.com
-0.0.0.0 rapidshare.com
 0.0.0.0 rapidsystemsend.ru
 0.0.0.0 rav7.9966.org
 0.0.0.0 ravelotti.cn
@@ -10551,7 +10550,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 rrrrpppkk.cn
 0.0.0.0 rrrryyyaa.cn
 0.0.0.0 rrrtttccc.cn
-0.0.0.0 rs944l32.rapidshare.com
 0.0.0.0 rss-lenta-news.ru
 0.0.0.0 rt163.info
 0.0.0.0 rt212.cn

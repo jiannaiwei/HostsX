@@ -1,15 +1,16 @@
-#Google和各种网站的IPv6服务hosts #欢迎穿越传阅
+#Google和各种网站的IPv6服务hosts   
 #利用IPv6技术翻墙，保证Google服务可用，校园网用户使用IPv6应该不收取上网费用（至少我们学校如此）
+#欢迎转载，请注明来源，谢谢 
 #本文的发布地址：http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
+
 #7/31更新 ghs 系列服务；部分疑似失效的以横线划去，待确认
 #顺便提供能够解析出Google的IPv6地址的DNS服务器(因提供这些服务器的ISP已经加入Google over IPv6计划)，这样不需要修改hosts，只需改变本机DNS设置就可以自动将Google域名解析为IPv6地址了。
 #2001:470:20::2 (v6)
 #74.82.42.42 (v4)
 #由HE提供。当然在内地使用IPv4的DNS会出问题。(by www.lostriver.net)(另外用这个对某些Google的功能还是有些支持不足（无法访问scholar.google.com，groups.google.com，desktop.google.com等等，也并非最快速连接地址，可以和本host文件配合使用）
+
 127.0.0.1       localhost 
 ::1             localhost
-###Google网站
-#下列红色地址为官方给出的准确地址，可以使用正确的https加密连接,另外无需去除下列列表中的#号，我用来做标注的
 ##Google.com       Google.com
 2404:6800:8005::68 www.google.com                     #主页
 #2404:6800:8005::68 www.l.google.com
@@ -48,18 +49,12 @@
 #2404:6800:8005::6a ipv6.google.com.hk
 #2404:6800:8005::93 ipv6.google.com.hk
 2404:6800:8005::67 www.googlechinawebmaster.com
-##Google.cn        谷歌中国（启用此地址无法正常使用谷歌音乐）
-#2401:3800:c001::68 www.google.cn                      #主页
-#2401:3800:c001::68 g.cn                               #导航
-#2401:3800:c001::68 google.cn                          #跳转
+##Google.cn        谷歌中国
 2401:3800:c001::68 translate.google.cn                 #翻译
 2401:3800:c001::68 blogsearch.google.cn                #博客搜索
 2401:3800:c001::68 pack.google.cn                      #软件精选（跳转）
 2401:3800:c001::68 news.google.cn                      #新闻（跳转）
 2401:3800:c001::68 video.google.cn                      #视频（跳转）
-#2401:3800:c001::68 ipv6cn.l.google.com 
-#2401:3800:c001::68 ipv6.google.cn
-#2401:3800:c001::68 ipv6cn.l.google.com
 2401:3800:c001::84 music.googleusercontent.cn
 ##Google.com.tw    Google台湾
 2404:6800:8005::2f www.google.com.tw                  #主页
@@ -67,7 +62,6 @@
 ##Google.co.jp     Google日本
 2a00:1450:8006::30 www.google.co.jp
 #IPv6：ipv6.google.co.jp
-##
 2404:6800:8005::20 www.google.com.tr #土耳其
 2404:6800:8005::21 www.google.com.au #澳大利亚
 2404:6800:8005::22 www.google.com.vn #越南
@@ -276,7 +270,6 @@
 2404:6800:8005::62 finance.google.com 
 #Translate         翻译 
 2404:6800:8005::62 translate.google.com 
-2401:3800:c001::68 translate.google.cn
 #Trends            趋势
 2404:6800:8005::63 trends.google.com
 #Directory         网页目录
@@ -285,7 +278,6 @@
 #Blog              博客搜索 
 2404:6800:8005::63 blogsearch.google.com 
 #2404:6800:8005::63 www2.l.google.com
-2401:3800:c001::68 blogsearch.google.cn
 #Calendar          日历 
 2404:6800:8005::64 calendar.google.com 
 #Photo/Picasa      照片/网络相册 
@@ -308,13 +300,30 @@
 #Docs              文档 
 2404:6800:8005::64 docs.google.com 
 2404:6800:8005::65 docs0.google.com
+2404:6800:8005::65 docs1.google.com
+2404:6800:8005::65 docs2.google.com
+2404:6800:8005::65 docs3.google.com
+2404:6800:8005::65 docs4.google.com
+2404:6800:8005::65 docs5.google.com
+2404:6800:8005::65 docs6.google.com
+2404:6800:8005::65 docs7.google.com
+2404:6800:8005::65 docs8.google.com
+2404:6800:8005::65 docs9.google.com
 #2404:6800:8005::64 writely.l.google.com
 2404:6800:8005::62 spreadsheet.google.com
 2404:6800:8005::62 spreadsheets.google.com
 2404:6800:8005::62 spreadsheets0.google.com
 2404:6800:8005::62 spreadsheets1.google.com
 2404:6800:8005::62 spreadsheets2.google.com
+2404:6800:8005::62 spreadsheets3.google.com
+2404:6800:8005::62 spreadsheets4.google.com
+2404:6800:8005::62 spreadsheets5.google.com
+2404:6800:8005::62 spreadsheets6.google.com
+2404:6800:8005::62 spreadsheets7.google.com
+2404:6800:8005::62 spreadsheets8.google.com
+2404:6800:8005::62 spreadsheets9.google.com
 2404:6800:8005::62 spreadsheets.l.google.com
+2404:6800:8005::62 spreadsheets-china.l.google.com
 2404:6800:8005::62 writely.google.com
 2404:6800:8005::62 writely.l.google.com
 2404:6800:8005::62 writely-com.l.google.com
@@ -362,7 +371,8 @@
 2404:6800:8005::62 listen.googlelabs.com              #Google Listen 
 2404:6800:8005::62 similar-images.googlelabs.com      #Similar Images 
 2404:6800:8005::62 tables.googlelabs.com              #Fusion Tables 
-2404:6800:8005::62 newstimeline.googlelabs.com        #Google News Timeline 
+2404:6800:8005::62 newstimeline.googlelabs.com        #Google News Timeline
+2404:6800:8005::62 followfinder.googlelabs.com        #Follow Finder
 #Knol              在线百科全书
 2404:6800:8005::65 knol.google.com 
 #SketchUp          3D建模工具 
@@ -372,7 +382,6 @@
 2404:6800:8005::68 pack.google.com 
 #2404:6800:8005::68 www2.l.google.com
 2404:6800:8005::68 cache.pack.google.com
-2401:3800:c001::68 pack.google.cn
 #Blogger           博客服务 
 2404:6800:8005::bf www.blogger.com
 2404:6800:8005::bf blogger.com
@@ -409,8 +418,10 @@
 2404:6800:8005::62 bloggertemplatespreview.blogspot.com #模板编辑器的实时预览功能
 #Google 官方博客群
 2404:6800:8005::62 adwordsapi.blogspot.com
+2404:6800:8005::62 adsense-zhs.blogspot.com
 2404:6800:8005::62 android-developers.blogspot.com
 2404:6800:8005::62 apacdeveloper.blogspot.com         #Google Asia Pacific Developer Blog
+2404:6800:8005::62 booksearch.blogspot.com            #Inside Google Books
 2404:6800:8005::62 chrome.blogspot.com
 2404:6800:8005::62 doubleclickpublishersapi.blogspot.com
 2404:6800:8005::62 emeadev.blogspot.com               #Google Europe, Middle East & Africa Developer Blog
@@ -561,7 +572,6 @@
 2404:6800:8005::84 doc-0c-7o-docs.googleusercontent.com               #
 2404:6800:8005::84 doc-0g-7o-docs.googleusercontent.com               #
 2404:6800:8005::84 doc-0s-7o-docs.googleusercontent.com               #
-2404:6800:8005::84 www-focus-opensocial.googleusercontent.com         #
 2404:6800:8005::84 0-focus-opensocial.googleusercontent.com           #
 2404:6800:8005::84 1-focus-opensocial.googleusercontent.com           #
 2404:6800:8005::84 2-focus-opensocial.googleusercontent.com           #
@@ -646,6 +656,7 @@
 #Toolbar           工具栏
 2404:6800:8005::62 toolbar.google.com
 #2404:6800:8005::62 tools.l.google.com
+#2404:6800:8005::62 www.gmailnotifier.com              #Gmail Notifier
 #Desktop           桌面 
 2404:6800:8005::62 desktop.google.com 
 2404:6800:8005::62 desktop.l.google.com
@@ -668,10 +679,18 @@
 #WiFi              
 2404:6800:8005::7b wifi.google.com
 2404:6800:8005::62 wifi.l.google.com
+#GTalk             聊天
+#2404:6800:8005::62 talk.google.com
+2404:6800:8005::62 talk.l.google.com
+2404:6800:8005::62 default.talk.google.com
+2404:6800:8005::62 talkgadget.google.com
+2404:6800:8005::62 rtmp0.google.com
+2404:6800:8005::62 users.talk.google.com
 #Buzz
 2404:6800:8005::62 buzz.google.com
 #Answers/Guru/WenDa  问答社区（国际版已停止运营）
 2404:6800:8005::66 answers.google.com
+2404:6800:8005::62 guru.google.com
 2404:6800:8005::62 guru.google.co.th          #泰国
 #Fusion            RSS 聚合指南
 2404:6800:8005::62 fusion.google.com
@@ -937,6 +956,10 @@
 2404:6800:8005::62 golang.org
 2404:6800:8005::62 www.golang.org
 2404:6800:8003::79 blog.golang.org
+#Analytics         分析（Google所提供的网站流量统计服务） 
+2404:6800:8005::61 www.google-analytics.com 
+2404:6800:8005::61 *.google-analytics.com
+2404:6800:8005::61 ssl.google-analytics.com 
 #FeedBurner
 2404:6800:8005::62 feedburner.google.com
 #2404:6800:8005::62 www3-china.l.google.com
@@ -948,7 +971,6 @@
 2001:4860:8010::8d www.panoramio.com
 #2001:4860:8010::8d appspot.l.google.com
 2001:4860:8010::8d static.panoramio.com
-#
 2404:6800:8005::62 pagead.google.com
 2404:6800:8005::62 pagead.l.google.com
 2404:6800:8005::62 pagead2.google.com 
@@ -958,10 +980,15 @@
 2404:6800:8005::b8 service.urchin.com
 #Google.org        Google 公益
 2404:6800:8003::79 blog.google.org
+#The WebM Project  WebM 开放多媒体项目
+2404:6800:8005::65 webmproject.org
+2404:6800:8005::65 www.webmproject.org
+2404:6800:8003::79 lists.webmproject.org
 #html5rocks        HTML5 推广专题网站
 2404:6800:8003::79 www.html5rocks.com
 2404:6800:8003::79 slides.html5rocks.com
 2404:6800:8003::79 playground.html5rocks.com
+2404:6800:8003::79 studio.html5rocks.com
 ###IPV6代理翻墙
 ##来源;http://docs.google.com/ViewDoc?docid=0AahDRK_oy3_TZGdqeHN4d3NfMTQ4ZnZwejZ3ZGc
 ##http://aa.cx/ipv6-reverse-proxy
