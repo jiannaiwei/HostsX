@@ -1,4 +1,4 @@
-;version=201009290815
+;version=201010020000
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -58,20 +58,106 @@ ff02::3 ip6-allhosts
 75.101.129.115 dl.dropbox.com
 75.101.159.151 dl-web.dropbox.com
 174.36.30.67 forums.dropbox.com
-#Xmarks
-173.239.65.20 www.xmarks.com
-173.239.65.21 api.xmarks.com
-173.239.65.22 login.xmarks.com
-173.239.65.23 sync.xmarks.com
-173.239.65.20 static.xmarks.com
-173.239.65.20 download.xmarks.com
-64.147.188.86 my.xmarks.com
 #Soutong
 2001:470:a:17c::2 soutong.iloveyou
 63.223.106.181 soutong.com
 #Puff
 64.71.141.148 intl.easyssh.info
 @HostsX 一站式过滤
+@HostsX 一站式过滤/Google AD
+#Google AdWord
+0.0.0.0 adwords.google.com
+0.0.0.0 adwords.google.sk
+#Google AdSense
+0.0.0.0 adservices.google.com
+0.0.0.0 pagead.google.com
+0.0.0.0 pagead.l.google.com
+0.0.0.0 static.googleadsserving.cn
+0.0.0.0 afs.googleadservices.com
+0.0.0.0 feedads.googleadservices.com
+0.0.0.0 imageads.googleadservices.com
+0.0.0.0 imageads1.googleadservices.com
+0.0.0.0 imageads2.googleadservices.com
+0.0.0.0 imageads3.googleadservices.com
+0.0.0.0 imageads4.googleadservices.com
+0.0.0.0 imageads5.googleadservices.com
+0.0.0.0 imageads6.googleadservices.com
+0.0.0.0 imageads7.googleadservices.com
+0.0.0.0 imageads8.googleadservices.com
+0.0.0.0 imageads9.googleadservices.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 www.googleadservices.com
+#Google Doubleclick
+0.0.0.0 ad-apac.doubleclick.net
+0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 ad.ca.doubleclick.net
+0.0.0.0 ad.cn.doubleclick.net
+0.0.0.0 ad.de.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad.fr.doubleclick.net
+0.0.0.0 ad.hk.doubleclick.net
+0.0.0.0 ad.jp.doubleclick.net
+0.0.0.0 ad.nl.doubleclick.net
+0.0.0.0 ad.no.doubleclick.net
+0.0.0.0 ad.uk.doubleclick.net
+0.0.0.0 amn.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 ebaycn.doubleclick.net
+0.0.0.0 ebaytw.doubleclick.net
+0.0.0.0 feedads.g.doubleclick.net
+0.0.0.0 fls.uk.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ln.doubleclick.net
+0.0.0.0 m.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+#GoogleSyndication
+0.0.0.0 buttons.googlesyndication.com
+0.0.0.0 domains.googlesyndication.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 pagead.googlesyndication.com
+0.0.0.0 pagead1.googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead3.googlesyndication.com
+0.0.0.0 pagead4.googlesyndication.com
+0.0.0.0 pagead5.googlesyndication.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 www.googlesyndication.com
+@HostsX 一站式过滤/百度联盟
+0.0.0.0 a.baidu.com
+0.0.0.0 baidutv.baidu.com
+0.0.0.0 bar.baidu.com
+0.0.0.0 c.baidu.com
+0.0.0.0 cb.baidu.com
+0.0.0.0 cjhq.baidu.com
+0.0.0.0 cpro.baidu.com
+0.0.0.0 drmcmm.baidu.com
+0.0.0.0 dzl.baidu.com
+0.0.0.0 e.baidu.com
+0.0.0.0 eiv.baidu.com
+0.0.0.0 focusbaiduafp.allyes.com
+0.0.0.0 gimg.baidu.com
+0.0.0.0 hc.baidu.com
+0.0.0.0 hm.baidu.com
+0.0.0.0 iebar.baidu.com
+0.0.0.0 ikcode.baidu.com
+0.0.0.0 ma.baidu.com
+0.0.0.0 neirong.baidu.com
+0.0.0.0 nsclick.baidu.com
+0.0.0.0 s.baidu.com
+0.0.0.0 spcode.baidu.com
+0.0.0.0 tk.baidu.com
+0.0.0.0 tkweb.baidu.com
+0.0.0.0 tongji.baidu.com
+0.0.0.0 toolbar.baidu.com
+0.0.0.0 tracker.baidu.com
+0.0.0.0 ucstat.baidu.com
+0.0.0.0 ulic.baidu.com
+0.0.0.0 union.baidu.com
+0.0.0.0 unstat.baidu.com
+0.0.0.0 utility.baidu.com
+0.0.0.0 utk.baidu.com
+0.0.0.0 afp.qiyi.com
 @HostsX 一站式过滤/腾讯QQ
 #QQ
 0.0.0.0 adping.qq.com
@@ -98,6 +184,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingfore.soso.com
 0.0.0.0 v3.toolbar.soso.com
 0.0.0.0 toolbar.soso.com
+@HostsX 一站式过滤/千橡互动
+#猫扑
+0.0.0.0 gg.mop.com
+0.0.0.0 imgpub.mop.com
+0.0.0.0 in.dg.mop.com
+0.0.0.0 in.h.mop.com
+0.0.0.0 in.l.mop.com
+0.0.0.0 in.pet.mop.com
+0.0.0.0 in.sg.mop.com
+0.0.0.0 in.sh.mop.com
+0.0.0.0 in.t.mop.com
+0.0.0.0 ovsmbt.mop.com
+0.0.0.0 p4pad.mop.com
+0.0.0.0 pub.mop.com
+0.0.0.0 stat.ent.mop.com
+0.0.0.0 tj.itv.mop.com
+0.0.0.0 tj.mop.com
+0.0.0.0 tj.pet.mop.com
+0.0.0.0 union.mop.com
+0.0.0.0 yx.mop.com
+0.0.0.0 union.uume.com
+#人人
+0.0.0.0 c.renren.com
+0.0.0.0 click.jebe.renren.com
+0.0.0.0 cupid.jebe.renren.com
+0.0.0.0 dian.cupid.jebe.renren.com
+0.0.0.0 gamestat.renren.com
+0.0.0.0 jebe.renren.com
+0.0.0.0 jebe.xnimg.cn
+0.0.0.0 shaft.jebe.renren.com
 @HostsX 一站式过滤/迅雷
 #迅雷在线
 0.0.0.0 analytics-union.sandai.net
@@ -175,16 +291,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 clkstat.qihoo.com
 0.0.0.0 code.qihoo.com
 0.0.0.0 haostat.qihoo.com
+0.0.0.0 pvstat.qihoo.com
 0.0.0.0 qd.code.qihoo.com
 0.0.0.0 rd.qihoo.com
 0.0.0.0 union.qihoo.com
 #360安全卫士
 0.0.0.0	inst.360safe.com
+0.0.0.0 stat.360safe.com
+0.0.0.0 x.360safe.com
 0.0.0.0 pinst.360.cn
 0.0.0.0 rd.360.cn
-0.0.0.0 pvstat.qihoo.com
-0.0.0.0 stat.360safe.com
-0.0.0.0	x.360safe.com
 @HostsX 一站式过滤/网易有道
 #网易163
 0.0.0.0 analytics.ws.126.net
@@ -317,6 +433,64 @@ ff02::3 ip6-allhosts
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
+@HostsX 一站式过滤/CBS Interactive
+#CBSNews
+0.0.0.0 dw.cbsnews.com
+#CNet
+0.0.0.0 adlog.com.com
+0.0.0.0 dw-cn.com.com
+0.0.0.0 dw.cnet.com
+0.0.0.0 i.i.com.com
+0.0.0.0 image.com.com
+0.0.0.0 img.com.com
+0.0.0.0 rubics-assets.com.com
+0.0.0.0 www.cbsinteractive.com
+#GameSpot China
+0.0.0.0 stat.gamespot.com.cn
+#SPN
+0.0.0.0 count.spn.com.cn
+0.0.0.0 www2.spn.com.cn
+#中关村系列
+0.0.0.0 active.zol.com.cn
+0.0.0.0 adm.zol.com.cn
+0.0.0.0 bd.zol.com.cn
+0.0.0.0 bwp.zol.com.cn
+0.0.0.0 jspchome.zol.com.cn
+0.0.0.0 pv.zol.com.cn
+0.0.0.0 pvpchome.zol.com.cn
+0.0.0.0 pvsite.zol.com.cn
+0.0.0.0 stat.zol.com.cn
+#电脑之家
+0.0.0.0 ad.pchome.net
+0.0.0.0 btm.pchome.net
+0.0.0.0 btn.pchome.net
+0.0.0.0 click.pchome.net
+0.0.0.0 market.pchome.net
+0.0.0.0 js-1.pchome.net
+0.0.0.0 stat.pchome.net
+#至顶网ZDNet
+0.0.0.0 am.zdnet.com.cn
+0.0.0.0 icon.zdnet.com.cn
+0.0.0.0 pv.zdnet.com.cn
+0.0.0.0 server.zdnet.com.cn
+#西域IT
+0.0.0.0 apic.xiyuit.com
+#万维家电
+0.0.0.0 pic.ea3w.com
+#网上车市
+0.0.0.0 analyze.cheshi.com
+0.0.0.0 click.cheshi.com
+0.0.0.0 media.cheshi-img.com
+0.0.0.0 pv.cheshi.com
+0.0.0.0 fallyesbjafa.allyes.com
+#爱卡汽车
+0.0.0.0 count.xcar.com.cn
+0.0.0.0 d0.xcar.com.cn
+0.0.0.0 d1.xcar.com.cn
+0.0.0.0 dw.xcar.com.cn
+#蜂鸟网
+0.0.0.0 pic.fengniao.com
+0.0.0.0 stat.fengniao.com
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/海外网站
 #ABCNews
@@ -404,35 +578,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 advertisement.tianya.cn
 0.0.0.0 squidclick.bbs.tianya.cn
 0.0.0.0 stat.tianya.cn
-#猫扑
-0.0.0.0 gg.mop.com
-0.0.0.0 imgpub.mop.com
-0.0.0.0 in.dg.mop.com
-0.0.0.0 in.h.mop.com
-0.0.0.0 in.l.mop.com
-0.0.0.0 in.pet.mop.com
-0.0.0.0 in.sg.mop.com
-0.0.0.0 in.sh.mop.com
-0.0.0.0 in.t.mop.com
-0.0.0.0 ovsmbt.mop.com
-0.0.0.0 p4pad.mop.com
-0.0.0.0 pub.mop.com
-0.0.0.0 stat.ent.mop.com
-0.0.0.0 tj.itv.mop.com
-0.0.0.0 tj.mop.com
-0.0.0.0 tj.pet.mop.com
-0.0.0.0 union.mop.com
-0.0.0.0 yx.mop.com
-0.0.0.0 union.uume.com
-#人人
-0.0.0.0 c.renren.com
-0.0.0.0 click.jebe.renren.com
-0.0.0.0 cupid.jebe.renren.com
-0.0.0.0 dian.cupid.jebe.renren.com
-0.0.0.0 gamestat.renren.com
-0.0.0.0 jebe.renren.com
-0.0.0.0 jebe.xnimg.cn
-0.0.0.0 shaft.jebe.renren.com
 #西祠胡同
 0.0.0.0 ad.xici.net
 0.0.0.0 afpxici.allyes.com
@@ -694,160 +839,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.iqilu.com
 0.0.0.0 g.iqilu.com
 0.0.0.0 gimg.iqilu.com
-@HostsX 站点广告过滤/CBS Interactive
-#CBSNews
-0.0.0.0 dw.cbsnews.com
-#CNet
-0.0.0.0 adlog.com.com
-0.0.0.0 dw-cn.com.com
-0.0.0.0 dw.cnet.com
-0.0.0.0 i.i.com.com
-0.0.0.0 image.com.com
-0.0.0.0 img.com.com
-0.0.0.0 rubics-assets.com.com
-0.0.0.0 www.cbsinteractive.com
-#GameSpot China
-0.0.0.0 stat.gamespot.com.cn
-#SPN
-0.0.0.0 count.spn.com.cn
-0.0.0.0 www2.spn.com.cn
-#中关村系列
-0.0.0.0 active.zol.com.cn
-0.0.0.0 adm.zol.com.cn
-0.0.0.0 bd.zol.com.cn
-0.0.0.0 bwp.zol.com.cn
-0.0.0.0 jspchome.zol.com.cn
-0.0.0.0 pv.zol.com.cn
-0.0.0.0 pvpchome.zol.com.cn
-0.0.0.0 pvsite.zol.com.cn
-0.0.0.0 stat.zol.com.cn
-#电脑之家
-0.0.0.0 ad.pchome.net
-0.0.0.0 btm.pchome.net
-0.0.0.0 btn.pchome.net
-0.0.0.0 click.pchome.net
-0.0.0.0 market.pchome.net
-0.0.0.0 js-1.pchome.net
-0.0.0.0 stat.pchome.net
-#至顶网ZDNet
-0.0.0.0 am.zdnet.com.cn
-0.0.0.0 icon.zdnet.com.cn
-0.0.0.0 pv.zdnet.com.cn
-0.0.0.0 server.zdnet.com.cn
-#西域IT
-0.0.0.0 apic.xiyuit.com
-#万维家电
-0.0.0.0 pic.ea3w.com
-#网上车市
-0.0.0.0 analyze.cheshi.com
-0.0.0.0 click.cheshi.com
-0.0.0.0 media.cheshi-img.com
-0.0.0.0 pv.cheshi.com
-0.0.0.0 fallyesbjafa.allyes.com
-#爱卡汽车
-0.0.0.0 count.xcar.com.cn
-0.0.0.0 d0.xcar.com.cn
-0.0.0.0 d1.xcar.com.cn
-0.0.0.0 dw.xcar.com.cn
-#蜂鸟网
-0.0.0.0 pic.fengniao.com
-0.0.0.0 stat.fengniao.com
 @HostsX 网络广告过滤
-@HostsX 网络广告过滤/Google AD
-#Google AdWord
-0.0.0.0 adwords.google.com
-0.0.0.0 adwords.google.sk
-#Google AdSense
-0.0.0.0 adservices.google.com
-0.0.0.0 pagead.google.com
-0.0.0.0 pagead.l.google.com
-0.0.0.0 static.googleadsserving.cn
-0.0.0.0 afs.googleadservices.com
-0.0.0.0 feedads.googleadservices.com
-0.0.0.0 imageads.googleadservices.com
-0.0.0.0 imageads1.googleadservices.com
-0.0.0.0 imageads2.googleadservices.com
-0.0.0.0 imageads3.googleadservices.com
-0.0.0.0 imageads4.googleadservices.com
-0.0.0.0 imageads5.googleadservices.com
-0.0.0.0 imageads6.googleadservices.com
-0.0.0.0 imageads7.googleadservices.com
-0.0.0.0 imageads8.googleadservices.com
-0.0.0.0 imageads9.googleadservices.com
-0.0.0.0 pagead2.googleadservices.com
-0.0.0.0 partner.googleadservices.com
-0.0.0.0 www.googleadservices.com
-#Google Doubleclick
-0.0.0.0 ad-apac.doubleclick.net
-0.0.0.0 ad-g.doubleclick.net
-0.0.0.0 ad.ca.doubleclick.net
-0.0.0.0 ad.cn.doubleclick.net
-0.0.0.0 ad.de.doubleclick.net
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 ad.fr.doubleclick.net
-0.0.0.0 ad.hk.doubleclick.net
-0.0.0.0 ad.jp.doubleclick.net
-0.0.0.0 ad.nl.doubleclick.net
-0.0.0.0 ad.no.doubleclick.net
-0.0.0.0 ad.uk.doubleclick.net
-0.0.0.0 amn.doubleclick.net
-0.0.0.0 doubleclick.net
-0.0.0.0 ebaycn.doubleclick.net
-0.0.0.0 ebaytw.doubleclick.net
-0.0.0.0 feedads.g.doubleclick.net
-0.0.0.0 fls.uk.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 ln.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 pubads.g.doubleclick.net
-#GoogleSyndication
-0.0.0.0 buttons.googlesyndication.com
-0.0.0.0 domains.googlesyndication.com
-0.0.0.0 googlesyndication.com
-0.0.0.0 pagead.googlesyndication.com
-0.0.0.0 pagead1.googlesyndication.com
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 pagead3.googlesyndication.com
-0.0.0.0 pagead4.googlesyndication.com
-0.0.0.0 pagead5.googlesyndication.com
-0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 www.googlesyndication.com
 @HostsX 网络广告过滤/常见广告
-#百度联盟
-0.0.0.0 a.baidu.com
-0.0.0.0 baidutv.baidu.com
-0.0.0.0 bar.baidu.com
-0.0.0.0 c.baidu.com
-0.0.0.0 cb.baidu.com
-0.0.0.0 cjhq.baidu.com
-0.0.0.0 cpro.baidu.com
-0.0.0.0 drmcmm.baidu.com
-0.0.0.0 dzl.baidu.com
-0.0.0.0 e.baidu.com
-0.0.0.0 eiv.baidu.com
-0.0.0.0 focusbaiduafp.allyes.com
-0.0.0.0 gimg.baidu.com
-0.0.0.0 hc.baidu.com
-0.0.0.0 hm.baidu.com
-0.0.0.0 iebar.baidu.com
-0.0.0.0 ikcode.baidu.com
-0.0.0.0 ma.baidu.com
-0.0.0.0 neirong.baidu.com
-0.0.0.0 nsclick.baidu.com
-0.0.0.0 s.baidu.com
-0.0.0.0 spcode.baidu.com
-0.0.0.0 tk.baidu.com
-0.0.0.0 tkweb.baidu.com
-0.0.0.0 tongji.baidu.com
-0.0.0.0 toolbar.baidu.com
-0.0.0.0 tracker.baidu.com
-0.0.0.0 ucstat.baidu.com
-0.0.0.0 ulic.baidu.com
-0.0.0.0 union.baidu.com
-0.0.0.0 unstat.baidu.com
-0.0.0.0 utility.baidu.com
-0.0.0.0 utk.baidu.com
-0.0.0.0 afp.qiyi.com
 #好耶广告
 0.0.0.0 allyesshafa.allyes.com
 0.0.0.0 bokee.allyes.com
@@ -1818,6 +1811,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gamefiles.qq494.cn
 0.0.0.0 gg.qc101.com
 0.0.0.0 go.snsfun.cc
+0.0.0.0 i.na7.cc
+0.0.0.0 js.union001.com
 0.0.0.0 nonoyx.com
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 p.eqiso.com
@@ -1835,6 +1830,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 xy.8zgame.com
+0.0.0.0 yz.szgla.com
 @HostsX 软件广告过滤
 #YY语音
 0.0.0.0 ad.yy.duowan.com
