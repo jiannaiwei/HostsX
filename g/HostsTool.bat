@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.01
+set ver=V2.03
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -1050,8 +1050,8 @@ echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
 echo WScript.sleep 200 >>%temp%/Updates.vbs
 echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Ver.txt">%temp%/Ver.txt 2>nul
-for /f %%i in (%temp%\Ver.txt) do set verNew=%%i
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Ver.ini">%temp%/Ver.ini 2>nul
+for /f %%i in (%temp%\Ver.ini) do set verNew=%%i
 if "%verNew%"=="未知" goto CheckError
 cls
 echo.
@@ -1072,7 +1072,7 @@ if /I !choose!==Y goto UpdatesNow)
 :UpdatesNow
 cls
 echo                    正在下载更新                    ...请稍后...
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/HostsTool.Src">%temp%\HostsTool.bat
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/HostsTool.bat">%temp%\HostsTool.bat
 echo @echo off>%temp%\up.bat
 echo Mode con cols=50 lines=10>>%temp%\up.bat
 echo Title 在线更新>>%temp%\up.bat
