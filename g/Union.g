@@ -1,35 +1,28 @@
 @HostsX 网络广告过滤
 
-@HostsX 网络广告过滤/国内广告
-#百度
-0.0.0.0 a.baidu.com baidutv.baidu.com bar.baidu.com c.baidu.com cb.baidu.com cjhq.baidu.com cpro.baidu.com drmcmm.baidu.com dzl.baidu.com
-0.0.0.0 e.baidu.com eiv.baidu.com focusbaiduafp.allyes.com hc.baidu.com hm.baidu.com iebar.baidu.com ikcode.baidu.com ma.baidu.com neirong.baidu.com
-0.0.0.0 nsclick.baidu.com s.baidu.com spcode.baidu.com tk.baidu.com tkweb.baidu.com tongji.baidu.com toolbar.baidu.com tracker.baidu.com ucstat.baidu.com
-0.0.0.0 ulic.baidu.com union.baidu.com unstat.baidu.com utk.baidu.com utility.baidu.com
-#阿里淘宝
-0.0.0.0 a.alimama.cn acookie.alibaba.com acookie.alimama.com bm.alimama.cn bmvip.alimama.cn cpc.click.alimama.com gouwu.alimama.com img.alimama.cn log.mm.vip.cnz.alimama.com
-0.0.0.0 p.alimama.com p3p.alibaba.com s.click.alimama.com static.alimama.com taoke.alimama.com www.alimama.com z.alimama.com click.mz.simba.taobao.com click.tz.simba.taobao.com
-0.0.0.0 pindao.huoban.taobao.com s.click.taobao.com search8.taobao.com adtaobao.allyes.cn taobaoafp.allyes.cn taobaoafp.allyes.com
-#金山在线
-0.0.0.0 db.union.download.kingsoft.com stat.sp.kingsoft.com union.jx2.kingsoft.com union.kingsoft.com union.wps.kingsoft.com
-#搜狗
-0.0.0.0 a1click.cpc.sogou.com adsence.sogou.com alpha.brand.sogou.com cpc.sogou.com fair.sogou.com goto.sogou.com images.brand.sogou.com img.store.sogou.com inte.sogou.com
-0.0.0.0 lk.brand.sogou.com pb.sogou.com pbd.sogou.com ping.ie.sogou.com pv.sogou.com union.sogou.com wb.brand.sogou.com www.sogou.com
-#好耶广告
-0.0.0.0 allyesshafa.allyes.com bokee.allyes.com demoafp.allyes.com goqoafp6.allyes.com iplus.allyes.com mscdn.allyes.cn mscdn.allyes.com mso.allyes.com rayliafp.allyes.cn
-0.0.0.0 smartmedia.allyes.com smarttrade.allyes.com smcommon.allyes.com smcreative.allyes.com smjs.allyes.com smms.allyes.cn sroomafp.allyes.com stbanner.allyes.com stm.allyes.com
+@HostsX 网络广告过滤/常见广告
 #大陆常见广告
-0.0.0.0 1188s.info adsresult.joywell.com.cn api.flash45.com bs.serving-sys.com clk.abang.com cnt.zhaopin.com e.appsasia.net go.maxreturn.cn m.menhutong.com.cn 
-0.0.0.0 pic837013.images9999.com popunder.paypopup.com union.51ditu.com union.88go.cc union.keepc.com union.narrowad.com union.qyule.com union.the999.com union.zhongsou.com
-0.0.0.0 union2.50bang.org www.265g.info www.adtools.cn c.ad123456.com 1.usazm.net c.ourclick.net
+0.0.0.0 1.usazm.net 1188s.info adsresult.joywell.com.cn am.6park.com api.flash45.com c.ourclick.net click.315ts.net clk.abang.com cnt.zhaopin.com
+0.0.0.0 code.aizhuanlove.cn code.ceyunshi.cn code.myxmdh.com code.tjlove8.com e.appsasia.net go.maxreturn.cn m.menhutong.com.cn pic837013.images9999.com popunder.paypopup.com
+0.0.0.0 union.51ditu.com union.88go.cc union.keepc.com union.narrowad.com union.qyule.com union.the999.com union.zhongsou.com union2.50bang.org up.hiao.com
+0.0.0.0 www.265g.info www.adtools.cn www.cpmadao.com www.uokor.com
 #港台常见广告
 0.0.0.0 10000.mm.oishow.com ad.doubleadv.tv ad.f1.com.tw ad.wretch.cc ad71.doubleadx.com admd.yam.com gwc.iblinx.com hwachun.webplus.com.tw link.f1.com.tw
 0.0.0.0 mx3.hotrank.com.tw pic.addeliver.biz rc.asia.srv.overture.com www.iasoho.com adsense.scupio.com money.scupio.com www.scupio.com
-@HostsX 网络广告过滤/国外广告
 #国外常见广告
-0.0.0.0 ad.adtegrity.net ads.asp.net adtech.panthercustomer.com as.casalemedia.com banner.hosteurope.de content.pulse360.com counters.gigya.com d.cyberdefender.com javascript.nwbox.com
-0.0.0.0 marketing.xineurope.com pub.softonic.cn s3.buysellads.com secure.webhostingpad.com servedby.adsfactor.cn sharefoco.com static.addtoany.com static.fotolia.com static02.linkedin.com
-0.0.0.0 stats.edgevertising.net statse.webtrendslive.com track.effiliation.asia www.adlinkmedia.net
+0.0.0.0 ad.adtegrity.net ads.asp.net adtech.panthercustomer.com as.casalemedia.com banner.hosteurope.de content.pulse360.com counters.gigya.com d.cyberdefender.com edge.quantserve.com
+0.0.0.0 javascript.nwbox.com marketing.xineurope.com pix04.revsci.net pub.softonic.cn s3.buysellads.com secure.webhostingpad.com servedby.adsfactor.cn sharefoco.com static.addtoany.com
+0.0.0.0 static.fotolia.com static02.linkedin.com stats.edgevertising.net statse.webtrendslive.com track.effiliation.asia www.adlinkmedia.net
+#论坛常用
+0.0.0.0 d.5d6d.com un.5d6d.com union.phpwind.com jj.topzj.com
+#博客推广
+0.0.0.0 ad2.bloggerads.net ads.wopus.org adv.blogupp.com pro.blogbus.com union.bolaa.com v3.apic.51.com
+#购物推广
+0.0.0.0 click.union.360buy.com union.360buy.com union.dangdang.com union.vancl.com
+#下载推广
+0.0.0.0 union.rising.com.cn zcomcdl.zcominc.com ccc.xdowns.com count.jdyou.com gg.joytod.com me.youheme.com s1.wopti.net update.yunduan.cn
+
+@HostsX 网络广告过滤/国外广告
 #Adbrite
 0.0.0.0 4.adbrite.com b1.adbrite.com click.adbrite.com files.adbrite.com mga01.adbrite.com mga02.adbrite.com www.adbrite.com
 #ADition
@@ -50,19 +43,6 @@
 0.0.0.0 adserving.cpxinteractive.com panther1.cpxinteractive.com www.cpxinteractive.com
 #FoxAudienceNetwork
 0.0.0.0 demr.opt.fimserve.com trgc.opt.fimserve.com
-#Google AdWord
-0.0.0.0 adwords.google.com adwords.google.sk
-#Google AdSense
-0.0.0.0 adservices.google.com pagead.google.com pagead.l.google.com static.googleadsserving.cn afs.googleadservices.com feedads.googleadservices.com imageads.googleadservices.com imageads1.googleadservices.com imageads2.googleadservices.com
-0.0.0.0 imageads3.googleadservices.com imageads4.googleadservices.com imageads5.googleadservices.com imageads6.googleadservices.com imageads7.googleadservices.com imageads8.googleadservices.com imageads9.googleadservices.com pagead2.googleadservices.com partner.googleadservices.com
-0.0.0.0 www.googleadservices.com
-#Google Doubleclick
-0.0.0.0 ad-apac.doubleclick.net ad-g.doubleclick.net ad.ca.doubleclick.net ad.cn.doubleclick.net ad.de.doubleclick.net ad.doubleclick.net ad.fr.doubleclick.net ad.hk.doubleclick.net ad.jp.doubleclick.net
-0.0.0.0 ad.nl.doubleclick.net ad.no.doubleclick.net ad.uk.doubleclick.net amn.doubleclick.net doubleclick.net ebaycn.doubleclick.net ebaytw.doubleclick.net feedads.g.doubleclick.net fls.uk.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net ln.doubleclick.net m.doubleclick.net pubads.g.doubleclick.net
-#GoogleSyndication
-0.0.0.0 buttons.googlesyndication.com domains.googlesyndication.com googlesyndication.com pagead.googlesyndication.com pagead1.googlesyndication.com pagead2.googlesyndication.com pagead3.googlesyndication.com pagead4.googlesyndication.com pagead5.googlesyndication.com
-0.0.0.0 tpc.googlesyndication.com www.googlesyndication.com
 #ixlink
 0.0.0.0 counter.ixlink.net textlink.ixlink.net
 #Linksynergy
@@ -77,6 +57,8 @@
 0.0.0.0 dlqm.net a.dlqm.net amch.questionmarket.com ch.questionmarket.com
 #StatCounter
 0.0.0.0 c.statcounter.com www.statcounter.com
+#serving-sys
+0.0.0.0 us.bs.serving-sys.com bs.serving-sys.com
 #Wsod
 0.0.0.0 ad.wsod.com admedia.wsod.com
 #ZEDO
@@ -86,7 +68,7 @@
 #51la
 0.0.0.0 img.users.51.la js.users.51.la vip.51.la web.51.la web1.51.la web2.51.la www.51.la
 #51yes
-0.0.0.0 count.51yes.com count3.51yes.com count10.51yes.com count20.51yes.com count28.51yes.com count36.51yes.com count39.51yes.com count40.51yes.com countt.51yes.com
+0.0.0.0 count.51yes.com count3.51yes.com count10.51yes.com count20.51yes.com count28.51yes.com0 count36.51yes.com count39.51yes.com count40.51yes.com countt.51yes.com
 #99click
 0.0.0.0 a777.oadz.com a814.oadz.com a1139.oadz.com a.oadz.com dns1.oadz.com dns2.oadz.com
 #Acs86
@@ -154,12 +136,22 @@
 #其他
 0.0.0.0 icon.ajiang.net popstat.pppop.cn static.woopra.com www.clicki.cn www.nasboq.com www.referer.cn www.zzcount.com
 
-@HostsX 网络广告过滤/常用广告联盟
+@HostsX 网络广告过滤/广告联盟
+#160ads
+0.0.0.0 a.5qwg.com js.160ads.com www.160ads.com
 #265
 0.0.0.0 link.265.com un.265.com
+#3Bu
+0.0.0.0 c.3bu.cn img.3bu.cn mmscode1.3bu.com mmscode2.3bu.com mmscode3.3bu.com
+#53KF
+0.0.0.0 chat.53kf.com up.53kf.com www.53kf.com www3.53kf.com
 #77869
-0.0.0.0 pv.778669.com u1.778669.com u2.778669.com u3.778669.com u4.778669.com u5.778669.com u6.778669.com u493025.778669.com u592022.778669.com
-0.0.0.0 u923032.778669.com u948016.778669.com 778669.com www.778669.com
+0.0.0.0 778669.com pv.778669.com u1.778669.com u2.778669.com u3.778669.com u4.778669.com u5.778669.com u6.778669.com www.778669.com
+0.0.0.0 u493025.778669.com u592022.778669.com u923032.778669.com u948016.778669.com
+#91ivr
+0.0.0.0 g.91ivr.com u.91ivr.com
+#Ad123456
+0.0.0.0 c.ad123456.com tu.ad123456.com
 #Adpolestar
 0.0.0.0 ad1.adpolestar.net afp.adpolestar.net gfyoyo.adpolestar.net server1.adpolestar.net
 #ADPower
@@ -202,10 +194,22 @@
 0.0.0.0 w1.chinaih.com w2.chinaih.com w3.chinaih.com www.chinaih.com wy.chinaih.com
 #Csbew
 0.0.0.0 afp.csbew.com csbew.com customer.csbew.com static.csbew.com
-#Mediav
-0.0.0.0 click.mediav.com static.mediav.com
+#Donglink
+0.0.0.0 aimei.donglink.cn lt.donglink.cn xnx.donglink.cn
+#Etology
+0.0.0.0 etology.com
 #iTop
 0.0.0.0 d.itopnetworks.com itopnetworks.com s.itopnetworks.com
+#K261
+0.0.0.0 d.k621.com www.k621.com
+#LinkTech
+0.0.0.0 banner.linktech.cn click.linktech.cn track.linktech.cn
+#Mediav
+0.0.0.0 click.mediav.com static.mediav.com
+#Ok8848
+0.0.0.0 js.ok8848.com img.ok8848.com
+#Weblianmeng
+0.0.0.0 pic.weblianmeng.net t.weblianmeng.net
 #黑马
 0.0.0.0 c.heima8.com pc.heima8.com pic.heima8.com u.heima8.com www.heima8.com
 #脉动
@@ -214,6 +218,9 @@
 0.0.0.0 count.chanet.com.cn file.chanet.com.cn
 #点睛
 0.0.0.0 cactus.clickeye.com.cn free.clickeye.com.cn images.clickeye.com.cn main.clickeye.com.cn rpoint.clickeye.com.cn web.clickeye.cn
+#好耶广告
+0.0.0.0 allyesshafa.allyes.com bokee.allyes.com demoafp.allyes.com goqoafp6.allyes.com iplus.allyes.com mscdn.allyes.cn mscdn.allyes.com mso.allyes.com rayliafp.allyes.cn
+0.0.0.0 smartmedia.allyes.com smarttrade.allyes.com smcommon.allyes.com smcreative.allyes.com smjs.allyes.com smms.allyes.cn sroomafp.allyes.com stbanner.allyes.com stm.allyes.com
 #多来米
 0.0.0.0 al.myrice.com all.myrice.com client.myrice.com
 #可多商机
@@ -221,8 +228,8 @@
 #极限
 0.0.0.0 c.cnxad.com code.cnxad.com g.cnxad.com js.cnxad.com
 #麒润
-0.0.0.0 a.keyrun.com pic0.keyrun.com pic1.keyrun.com pic2.keyrun.com pp.keyrun.com www1.keyrun.com
-0.0.0.0 code11.onetad.com code12.onetad.com pic1.onetad.com pic2.onetad.com pic3.onetad.com ww10.onetad.com ww78.onetad.com ww8.onetad.com wwv.onetad.com
+0.0.0.0 a.keyrun.com pic0.keyrun.com pic1.keyrun.com pic2.keyrun.com pp.keyrun.com www1.keyrun.com code11.onetad.com code12.onetad.com pic1.onetad.com
+0.0.0.0 pic2.onetad.com pic3.onetad.com ww10.onetad.com ww78.onetad.com ww8.onetad.com wwv.onetad.com
 #弈天
 0.0.0.0 pics.unionsky.cn play.unionsky.cn
 #宣传易
@@ -247,126 +254,6 @@
 0.0.0.0 hz.wauee.com images.wauee.com kkncache.wauee.com lunbocache.wauee.com personcache.wauee.com qianming.wauee.com qm.wauee.com qmcache.wauee.com rdown.wauee.com
 0.0.0.0 ringcache.wauee.com root.wauee.com stat.wauee.com stat2.wauee.com svn.wauee.com u.wauee.com union.wauee.com wauee.com www.wauee.com
 0.0.0.0 ysname.wauee.com c.9189.com hyimg.cn op.hyimg.cn
-
-@HostsX 网络广告过滤/流氓类网站
-#电信劫持
-0.0.0.0 114.allyes.com 114search.118114.cn 118114.cn so.118114.cn
-0.0.0.0 search.114.vnet.cn 114.com.cn partner.114.com.cn s.114.com.cn union.114.com.cn
-0.0.0.0 dianxin.com dianxin.cn game.dianxin.cn www.dianxin.cn
-#各地电信广告
-0.0.0.0 ad.online.cq.cn ad.xunkoo.com ads.iisdoor.com hot.apinpai.com
-#联通劫持
-0.0.0.0 sddns1.cncmax.cn sddns2.cncmax.cn sddns5.cncmax.cn sddns7.cncmax.cn uninewspace.allyes.com
-#脑残网站
-0.0.0.0 smtown.com superjunior.smtown.com
-#流氓导航
-0.0.0.0 c.999d.com www.999d.com search.p.cn www.p.cn image.tazhao.com www.tazhao.com parking.8d.cn www.8d.cn lailea.info
-0.0.0.0 go.lailea.info s.lailea.info 3448.com 4199.com 6781.com 7255.com 7322.com 7379.com 7939.com
-0.0.0.0 8009.com 858656.com 8749.com about.blank.la dir.ejoina.com kzdh.com my123.com mydh.info piaoxue.com
-0.0.0.0 search.ok365.com u.30so.com www.2535.cn www.6313.com www.ivc.cn www.w234.com www.wz123.com www.gcbbs.org www.26dh.cn
-0.0.0.0 QQ5.com
-#钓鱼网站
-0.0.0.0 aq.qq.servirce.com
-0.0.0.0 mail.qq.com.terncent.com
-0.0.0.0 aq.qq.service.terncent.com
-#广告诈骗
-0.0.0.0 ht.sooe.cn www.sooe.cn ht.hao120.cc www.hao120.cc m.ttgrs.cn www.ttgrs.cn asiafind1.com asiafriendfinder.com pp9a.com
-0.0.0.0 www.pp9a.com 98712.com zx.98712.com lkn.zoossoft.cn testserver.zoosnet.net www.zoosnet.net www.zoossoft.com 888888fa.com code.loading.wolian.net
-0.0.0.0 fx.v1kk.com hjmg.930114.com shop.hoo6.com v8.olajk.com www.algj-27dy.cn www.juyuan.com www.uniqlo.jp www.xgjgw.com xinw.net
-#病毒下载
-0.0.0.0 down.2345g.info down.jghdtv.com download.duozz.com gb.36578.com hz.mmstat.com img38.my1188.info qqhdx.cn soft.ie222.com taojin.18ii.info
-0.0.0.0 wt1.skycn.gogle.cn www.001cndc.cn www.05kiss.cn www.125c.com www.ie9down.info www.mycar021.com www.qq-2010f.com www.zgsj.com www.zhutizi.com
-0.0.0.0 down.vbuv.cn cpic2.edushi.com www.qq201017.info
-#流氓捆绑
-0.0.0.0 www.duote.com www.duotegame.com img.duote.com it.oyksoft.com www.oyksoft.com www.xiazaiba.com xiazaiba.com xiazai.xiazaiba.com www.ouyaoxiazai.com
-0.0.0.0 52z.com www.52z.com www.q766.com
-@HostsX 网络广告过滤/垃圾视频
-#CC视频
-0.0.0.0 1.bokeccimg.com bokecc.com cncre12.bokecc.com hot7.bokecc.com mc.bokecc.com re2.bokecc.com trade.bokecc.com www.bokecc.com
-0.0.0.0 www.vunion.net
-#iCast
-0.0.0.0 cast.ra.icast.cn js.icast.cn kw.ra.icast.cn post.ra.icast.cn pre.ra.icast.cn pv.ra.icast.cn rm.ra.icast.cn track.ra.icast.cn
-#Vodone
-0.0.0.0 autou.vodone.cn busjs.vodone.cn stat.vodone.cn bus.vodone.com cai.vodone.com ego.vodone.com images.vodone.com msn.vodone.com
-0.0.0.0 stat2.vodone.com u.vodone.com u3.vodone.com uflv.vodone.com v.vodone.com vlog.vodone.com vodone.com www.vodone.com
-#波波影视
-0.0.0.0 jsunion.boodvd.cn jsunion.boodvd.com union.boodvd.com
-
-@HostsX 网络广告过滤/游戏推广
-#155game
-0.0.0.0 www.cssyouxi.com link.155game.com tg.155game.com
-#1stwebgame
-0.0.0.0 t.1stwebgame.com tc.1stwebgame.com
-#37Wan
-0.0.0.0 tao.37wan.com
-#4399游戏联盟
-0.0.0.0 uimg.my4399.com
-#51Wan
-0.0.0.0 union.51wan.com union1.51wan.com
-#我乐玩
-0.0.0.0 u.56wan.com
-#就要玩
-0.0.0.0 c.91wan.com u.9lwan.com
-#超凡游戏
-0.0.0.0 pv.7fgame.com
-#封神无敌
-0.0.0.0 passport.fs5d.com
-#九洲战记
-0.0.0.0 images.9zwar.com
-#昆仑在线
-0.0.0.0 unigg.kunlun.com
-#中青宝网
-0.0.0.0 lj.zqgame.com td.zqgame.com
-#摩力游
-0.0.0.0 adcount.moliyo.com
-#盛大游戏
-0.0.0.0 adrs.sdo.com act.dn.sdo.com
-#魔力岛
-0.0.0.0 u.molidao.com
-#纳奇游戏营销
-0.0.0.0 naqigs.com v.naqigs.com
-#热血三国
-0.0.0.0 g.91sanguo.cn
-#搜游戏公会
-0.0.0.0 agod.r.sougames.com bean.r.sougames.com chess.r.sougames.com eett.r.sougames.com kerout.r.sougames.com r.sougames.com sougames.com
-#网元网
-0.0.0.0 ccnec.com pv.ccnec.com space.ccnec.com www.prealpha.platform.ccnec.com www.wangyuan.com
-#武林传奇
-0.0.0.0 dev.tongxue.com bto.youxiya.com
-#麒麟游戏
-0.0.0.0 doc.70yx.com Han1.70yx.Com tg.70yx.com
-#QQ437
-0.0.0.0 ftxy.qq437.cn mcsd.qq437.cn
-#Kfwan
-0.0.0.0 u.kfwan.com www.kfwan.com
-#绿岸网络
-0.0.0.0 union.shumenol.com www.shumenol.com
-#96PK
-0.0.0.0 abc.96pk.com cba.96pk.com
-#其他游戏广告
-0.0.0.0 ad.16wan.com bt.52yeyou.com cp.1o26.com cs01.csyouxi.com g.xuanyx.com gamefiles.qq494.cn gg.qc101.com go.snsfun.cc
-0.0.0.0 nonoyx.com p.eqiso.com p.3gm.com.cn po.add.tx908.com redirect.jooov.cn static.u966.com t.15yl.com t.1stcngame.com t.uuplay.com
-0.0.0.0 tg3.subo.me u.7town.com ww.jinzhao99.com ww.yiqiwin.com www.leeuu.net  www.wooigoo.cn xy.8zgame.com
-
-@HostsX 网络广告过滤/其他
-#160ads
-0.0.0.0 a.5qwg.com js.160ads.com www.160ads.com
-#3Bu
-0.0.0.0 mmscode1.3bu.com mmscode2.3bu.com mmscode3.3bu.com
-#53KF
-0.0.0.0 chat.53kf.com up.53kf.com www.53kf.com www3.53kf.com
-#91ivr
-0.0.0.0 g.91ivr.com u.91ivr.com
-#Donglink
-0.0.0.0 aimei.donglink.cn lt.donglink.cn xnx.donglink.cn
-#Etology
-0.0.0.0 etology.com
-#K261
-0.0.0.0 d.k621.com www.k621.com
-#LinkTech
-0.0.0.0 banner.linktech.cn click.linktech.cn track.linktech.cn
-#Ok8848
-0.0.0.0 js.ok8848.com img.ok8848.com
 #PEE 广告营销
 0.0.0.0 c.pee.cn
 #艾特效果营销
@@ -433,7 +320,7 @@
 #一路发联盟
 0.0.0.0 www.168un.com
 #一起赢
-0.0.0.0 ww.yiqiwin.com www.yiqiwin.com
+0.0.0.0 www.yiqiwin.com
 #悠易互通
 0.0.0.0 amps.yoyi.com.cn www.yoyi.com.cn
 #智将广告
@@ -442,3 +329,100 @@
 0.0.0.0 ww.zhcpm.com
 #做第一传媒
 0.0.0.0 tp.zdy.cc www.zdy.cc
+#乐语
+0.0.0.0 file.doyoo.net js.doyoo.net
+
+@HostsX 恶意行为阻止
+#电信劫持
+0.0.0.0 114.allyes.com 114.com.cn 114search.118114.cn 118114.cn partner.114.com.cn search.114.vnet.cn so.118114.cn s.114.com.cn union.114.com.cn
+0.0.0.0 dianxin.cn dianxin.com game.dianxin.cn www.dianxin.cn
+#各地电信广告
+0.0.0.0 ad.online.cq.cn ad.xunkoo.com ads.iisdoor.com hot.apinpai.com
+#联通劫持
+0.0.0.0 sddns1.cncmax.cn sddns2.cncmax.cn sddns5.cncmax.cn sddns7.cncmax.cn uninewspace.allyes.com
+#流氓导航
+0.0.0.0 c.999d.com www.999d.com search.p.cn www.p.cn image.tazhao.com www.tazhao.com 3448.com 4199.com 6781.com
+0.0.0.0 7255.com 7322.com 7379.com 7939.com 8009.com 858656.com 8749.com about.blank.la dir.ejoina.com
+0.0.0.0 go.lailea.info kzdh.com lailea.info my123.com mydh.info parking.8d.cn piaoxue.com s.lailea.info search.ok365.com
+0.0.0.0 u.30so.com www.2535.cn www.26dh.cn www.6313.com www.8d.cn www.gcbbs.org www.ivc.cn www.w234.com www.wz123.com
+0.0.0.0 QQ5.com hao.kuaibo.com
+#脑残网站
+0.0.0.0 smtown.com superjunior.smtown.com
+#广告诈骗
+0.0.0.0 ht.sooe.cn www.sooe.cn ht.hao120.cc www.hao120.cc m.ttgrs.cn www.ttgrs.cn asiafind1.com asiafriendfinder.com pp9a.com
+0.0.0.0 www.pp9a.com 98712.com zx.98712.com lkn.zoossoft.cn testserver.zoosnet.net www.zoosnet.net www.zoossoft.com 888888fa.com adtaobao.tobo123.com
+0.0.0.0 code.loading.wolian.net fx.v1kk.com hjmg.930114.com img.tjq.com shop.hoo6.com shop.liweihui.com u.the668.com v8.olajk.com www.133i.com
+0.0.0.0 www.algj-27dy.cn www.fengxin114.com www.juyuan.com www.ruox.net www.taobanwang.com www.uniqlo.jp www.xgjgw.com xinw.net
+#钓鱼网站
+0.0.0.0 aq.qq.servirce.com mail.qq.com.terncent.com aq.qq.service.terncent.com
+#病毒下载
+0.0.0.0 cpic2.edushi.com down.2345g.info down.jghdtv.com down.vbuv.cn download.duozz.com gb.36578.com hz.mmstat.com img38.my1188.info qqhdx.cn
+0.0.0.0 soft.ie222.com taojin.18ii.info wt1.skycn.gogle.cn www.001cndc.cn www.05kiss.cn www.125c.com www.ie9down.info www.mycar021.com www.mypremierfutbol.com
+0.0.0.0 www.qq-2010f.com www.qq201017.info www.todaysfutbol.com www.zgsj.com www.zhutizi.com
+#流氓捆绑
+0.0.0.0 jsunion.boodvd.cn jsunion.boodvd.com union.boodvd.com www.duote.com www.duotegame.com img.duote.com it.oyksoft.com www.oyksoft.com www.xiazaiba.com
+0.0.0.0 xiazaiba.com xiazai.xiazaiba.com www.ouyaoxiazai.com 52z.com www.52z.com www.q766.com
+#垃圾视频
+0.0.0.0 1.bokeccimg.com bokecc.com cncre12.bokecc.com hot7.bokecc.com mc.bokecc.com re2.bokecc.com trade.bokecc.com www.bokecc.com www.vunion.net
+0.0.0.0 autou.vodone.cn busjs.vodone.cn stat.vodone.cn bus.vodone.com cai.vodone.com ego.vodone.com images.vodone.com msn.vodone.com stat2.vodone.com
+0.0.0.0 u.vodone.com u3.vodone.com uflv.vodone.com v.vodone.com vlog.vodone.com vodone.com www.vodone.com
+
+@HostsX 游戏弹窗屏蔽
+#155game
+0.0.0.0 www.cssyouxi.com link.155game.com tg.155game.com
+#1stwebgame
+0.0.0.0 t.1stwebgame.com tc.1stwebgame.com
+#37Wan
+0.0.0.0 tao.37wan.com
+#4399游戏联盟
+0.0.0.0 uimg.my4399.com
+#51Wan
+0.0.0.0 union.51wan.com union1.51wan.com
+#7pk小游戏
+0.0.0.0 al.7pk.com cimg.7pk.com client.7pk.com img.7pk.com imgcache.7pk.com new.7pk.com s.7pk.com safe.7pk.com software.7pk.com
+0.0.0.0 taobao.7pk.com
+#96PK
+0.0.0.0 abc.96pk.com cba.96pk.com
+#Kfwan
+0.0.0.0 u.kfwan.com www.kfwan.com
+#QQ437
+0.0.0.0 ftxy.qq437.cn mcsd.qq437.cn
+#我乐玩
+0.0.0.0 u.56wan.com
+#就要玩
+0.0.0.0 c.91wan.com u.9lwan.com
+#超凡游戏
+0.0.0.0 pv.7fgame.com
+#封神无敌
+0.0.0.0 passport.fs5d.com
+#九洲战记
+0.0.0.0 images.9zwar.com
+#昆仑在线
+0.0.0.0 unigg.kunlun.com
+#中青宝网
+0.0.0.0 lj.zqgame.com td.zqgame.com
+#摩力游
+0.0.0.0 adcount.moliyo.com
+#盛大游戏
+0.0.0.0 adrs.sdo.com act.dn.sdo.com
+#魔力岛
+0.0.0.0 u.molidao.com
+#纳奇游戏营销
+0.0.0.0 naqigs.com v.naqigs.com
+#热血三国
+0.0.0.0 g.91sanguo.cn
+#搜游戏公会
+0.0.0.0 agod.r.sougames.com bean.r.sougames.com chess.r.sougames.com eett.r.sougames.com kerout.r.sougames.com r.sougames.com sougames.com
+#网元网
+0.0.0.0 ccnec.com pv.ccnec.com space.ccnec.com www.prealpha.platform.ccnec.com www.wangyuan.com
+#武林传奇
+0.0.0.0 dev.tongxue.com bto.youxiya.com
+#麒麟游戏
+0.0.0.0 doc.70yx.com Han1.70yx.Com tg.70yx.com
+#绿岸网络
+0.0.0.0 union.shumenol.com www.shumenol.com
+#其他游戏广告
+0.0.0.0 a6.chancede.com ad.16wan.com bt.52yeyou.com code.loading.wolian.net cp.1o26.com cs01.csyouxi.com g.xuanyx.com gamefiles.qq494.cn gg.qc101.com
+0.0.0.0 go.snsfun.cc i.na7.cc js.union001.com nonoyx.com p.3gm.com.cn p.eqiso.com po.add.tx908.com redirect.jooov.cn static.u966.com
+0.0.0.0 t.15yl.com t.1stcngame.com t.uuplay.com tg3.subo.me u.7town.com ww.jinzhao99.com ww.yiqiwin.com www.adsue.com www.leeuu.net
+0.0.0.0 www.wooigoo.cn xy.8zgame.com yz.szgla.com
