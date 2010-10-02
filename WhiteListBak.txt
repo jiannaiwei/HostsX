@@ -63,3 +63,11 @@ www.97xxoo.com
 0.0.0.0 thunderqtypv.union.xunlei.com
 0.0.0.0 web.stat.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
+
+#eReader
+0.0.0.0 bookbar.isoshu.com
+0.0.0.0 down.isoshu.com
+0.0.0.0 happyfarm.isoshu.com
+0.0.0.0 mobile.isoshu.com
+0.0.0.0 mobile1.isoshu.com
+0.0.0.0 pub.isoshu.com

@@ -1,4 +1,4 @@
-;version=201010021130
+;version=201010021150
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1713,7 +1713,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 52z.com
 0.0.0.0 www.52z.com
 0.0.0.0 www.q766.com
-#CC视频
+#垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
 0.0.0.0 cncre12.bokecc.com
@@ -1723,7 +1723,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 trade.bokecc.com
 0.0.0.0 www.bokecc.com
 0.0.0.0 www.vunion.net
-#Vodone
 0.0.0.0 autou.vodone.cn
 0.0.0.0 busjs.vodone.cn
 0.0.0.0 stat.vodone.cn
@@ -1959,13 +1958,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 olstat.flashget.com
 0.0.0.0 stat.flashget.com
 0.0.0.0 stac.flashget.com
-#eReader
-0.0.0.0 bookbar.isoshu.com
-0.0.0.0 down.isoshu.com
-0.0.0.0 happyfarm.isoshu.com
-0.0.0.0 mobile.isoshu.com
-0.0.0.0 mobile1.isoshu.com
-0.0.0.0 pub.isoshu.com
 #iSeesoft
 0.0.0.0 msg.iseesoft.cn
 0.0.0.0 p.iseeclan.com
