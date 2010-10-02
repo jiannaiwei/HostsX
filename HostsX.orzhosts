@@ -1,4 +1,4 @@
-;version=201010020000
+;version=201010021020
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -841,25 +841,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gimg.iqilu.com
 @HostsX 网络广告过滤
 @HostsX 网络广告过滤/常见广告
-#好耶广告
-0.0.0.0 allyesshafa.allyes.com
-0.0.0.0 bokee.allyes.com
-0.0.0.0 demoafp.allyes.com
-0.0.0.0 goqoafp6.allyes.com
-0.0.0.0 iplus.allyes.com
-0.0.0.0 mscdn.allyes.cn
-0.0.0.0 mscdn.allyes.com
-0.0.0.0 mso.allyes.com
-0.0.0.0 rayliafp.allyes.cn
-0.0.0.0 smartmedia.allyes.com
-0.0.0.0 smarttrade.allyes.com
-0.0.0.0 smcommon.allyes.com
-0.0.0.0 smcreative.allyes.com
-0.0.0.0 smjs.allyes.com
-0.0.0.0 smms.allyes.cn
-0.0.0.0 sroomafp.allyes.com
-0.0.0.0 stbanner.allyes.com
-0.0.0.0 stm.allyes.com
 #大陆常见广告
 0.0.0.0 1.usazm.net
 0.0.0.0 1188s.info
@@ -1310,6 +1291,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 main.clickeye.com.cn
 0.0.0.0 rpoint.clickeye.com.cn
 0.0.0.0 web.clickeye.cn
+#好耶广告
+0.0.0.0 allyesshafa.allyes.com
+0.0.0.0 bokee.allyes.com
+0.0.0.0 demoafp.allyes.com
+0.0.0.0 goqoafp6.allyes.com
+0.0.0.0 iplus.allyes.com
+0.0.0.0 mscdn.allyes.cn
+0.0.0.0 mscdn.allyes.com
+0.0.0.0 mso.allyes.com
+0.0.0.0 rayliafp.allyes.cn
+0.0.0.0 smartmedia.allyes.com
+0.0.0.0 smarttrade.allyes.com
+0.0.0.0 smcommon.allyes.com
+0.0.0.0 smcreative.allyes.com
+0.0.0.0 smjs.allyes.com
+0.0.0.0 smms.allyes.cn
+0.0.0.0 sroomafp.allyes.com
+0.0.0.0 stbanner.allyes.com
+0.0.0.0 stm.allyes.com
 #多来米
 0.0.0.0 al.myrice.com
 0.0.0.0 all.myrice.com
