@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.0 Alpha
+set ver=V2.01
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -1050,7 +1050,7 @@ echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
 echo WScript.sleep 200 >>%temp%/Updates.vbs
 echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Ver.ini">%temp%/Ver.txt 2>nul
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Ver.txt">%temp%/Ver.txt 2>nul
 for /f %%i in (%temp%\Ver.txt) do set verNew=%%i
 if "%verNew%"=="未知" goto CheckError
 cls
