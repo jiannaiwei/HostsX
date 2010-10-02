@@ -1,4 +1,4 @@
-;version=201010021020
+;version=201010021130
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -64,6 +64,35 @@ ff02::3 ip6-allhosts
 #Puff
 64.71.141.148 intl.easyssh.info
 @HostsX 一站式过滤
+@HostsX 一站式过滤/Microsoft AD
+#Msn登陆加速
+0.0.0.0 crl.microsoft.com
+#Msn
+0.0.0.0 ac2.msn.com
+0.0.0.0 ac3.msn.com
+0.0.0.0 ads.beta1.idss.msn.com
+0.0.0.0 ads1.msn.com
+0.0.0.0 adsyndication.msn.com
+0.0.0.0 analytics.msn.com
+0.0.0.0 c.msn.com
+0.0.0.0 c.msn.com.cn
+0.0.0.0 catalog.video.msn.com
+0.0.0.0 g.msn.com
+0.0.0.0 h.msn.com
+0.0.0.0 r.msn.com
+0.0.0.0 rad.msn.com
+#Live
+0.0.0.0 analytics.live.com
+0.0.0.0 c.live.com
+0.0.0.0 ms.analytics.live.com
+0.0.0.0 rad.live.com
+#MicrosoftAD
+0.0.0.0 ads.msn.com.nsatc.net
+0.0.0.0 ads2.msads.net
+0.0.0.0 global.msads.net
+0.0.0.0 msn.allyes.com
+0.0.0.0 msnms.allyes.cn
+0.0.0.0 msnportal.112.2o7.net
 @HostsX 一站式过滤/Google AD
 #Google AdWord
 0.0.0.0 adwords.google.com
@@ -124,6 +153,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 www.googlesyndication.com
 @HostsX 一站式过滤/百度联盟
+#百度在线
 0.0.0.0 a.baidu.com
 0.0.0.0 baidutv.baidu.com
 0.0.0.0 bar.baidu.com
@@ -135,7 +165,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dzl.baidu.com
 0.0.0.0 e.baidu.com
 0.0.0.0 eiv.baidu.com
-0.0.0.0 focusbaiduafp.allyes.com
 0.0.0.0 gimg.baidu.com
 0.0.0.0 hc.baidu.com
 0.0.0.0 hm.baidu.com
@@ -157,7 +186,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 unstat.baidu.com
 0.0.0.0 utility.baidu.com
 0.0.0.0 utk.baidu.com
+#奇艺
 0.0.0.0 afp.qiyi.com
+0.0.0.0 focusbaiduafp.allyes.com
 @HostsX 一站式过滤/腾讯QQ
 #QQ
 0.0.0.0 adping.qq.com
@@ -184,6 +215,37 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingfore.soso.com
 0.0.0.0 v3.toolbar.soso.com
 0.0.0.0 toolbar.soso.com
+@HostsX 一站式过滤/新浪网
+#新浪
+0.0.0.0 ad3.sina.com.cn
+0.0.0.0 ad4.sina.com.cn
+0.0.0.0 beacon.sina.com.cn
+0.0.0.0 classadnew.sina.com.cn
+0.0.0.0 click.sina.com.cn
+0.0.0.0 counter.sina.com.cn
+0.0.0.0 d1.sina.com.cn
+0.0.0.0 d2.sina.com.cn
+0.0.0.0 d3.sina.com.cn
+0.0.0.0 d4.sina.com.cn
+0.0.0.0 d5.sina.com.cn
+0.0.0.0 dcads.sina.com.cn
+0.0.0.0 int.dpool.sina.com.cn
+0.0.0.0 pfp.sina.com.cn
+0.0.0.0 pfpclick.sina.com.cn
+0.0.0.0 pfpip.sina.com
+0.0.0.0 sms.sina.com.cn
+0.0.0.0 adsina.allyes.com
+0.0.0.0 sina.allyes.com
+0.0.0.0 sinasc.allyes.com
+#iCast
+0.0.0.0 cast.ra.icast.cn
+0.0.0.0 js.icast.cn
+0.0.0.0 kw.ra.icast.cn
+0.0.0.0 post.ra.icast.cn
+0.0.0.0 pre.ra.icast.cn
+0.0.0.0 pv.ra.icast.cn
+0.0.0.0 rm.ra.icast.cn
+0.0.0.0 track.ra.icast.cn
 @HostsX 一站式过滤/千橡互动
 #猫扑
 0.0.0.0 gg.mop.com
@@ -207,12 +269,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.uume.com
 #人人
 0.0.0.0 c.renren.com
-0.0.0.0 click.jebe.renren.com
-0.0.0.0 cupid.jebe.renren.com
-0.0.0.0 dian.cupid.jebe.renren.com
 0.0.0.0 gamestat.renren.com
 0.0.0.0 jebe.renren.com
 0.0.0.0 jebe.xnimg.cn
+0.0.0.0 click.jebe.renren.com
+0.0.0.0 cupid.jebe.renren.com
+0.0.0.0 dian.cupid.jebe.renren.com
 0.0.0.0 shaft.jebe.renren.com
 @HostsX 一站式过滤/迅雷
 #迅雷在线
@@ -235,22 +297,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 advstat.xunlei.com
 0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
-0.0.0.0 client.stat.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 mtips.xunlei.com
-0.0.0.0 pv.kankan.stat.xunlei.com
-0.0.0.0 res.stat.xunlei.com
 0.0.0.0 stat.xunlei.com
-0.0.0.0 static.soft.xunlei.com
-0.0.0.0 thunderqtypv.union.xunlei.com
 0.0.0.0 tj.xunlei.com
-0.0.0.0 web.stat.xunlei.com
+0.0.0.0 union.xunlei.com
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
-0.0.0.0 xmlconf.client.xunlei.com
 @HostsX 一站式过滤/Yahoo！
 #Yahoo.com
 0.0.0.0 ads.yimg.com
@@ -268,6 +324,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 content.yieldmanager.edgesuite.net
 0.0.0.0 mi.adinterax.com
 0.0.0.0 tr.adinterax.com
+0.0.0.0 yahoo.webdissector.com
 #Yahoo.co.jp
 0.0.0.0 ai.yimg.jp
 0.0.0.0 ard.yahoo.co.jp
@@ -284,8 +341,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 new.rd.cn.yahoo.com
 0.0.0.0 p3p.yahoo.com
 0.0.0.0 union.yahoo.com.cn
-0.0.0.0 yahoo.webdissector.com
-@HostsX 一站式过滤/Qihoo360
+@HostsX 一站式过滤/奇虎360
 #奇虎社区
 0.0.0.0	aimg.qihoo.com
 0.0.0.0 clkstat.qihoo.com
@@ -301,11 +357,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 x.360safe.com
 0.0.0.0 pinst.360.cn
 0.0.0.0 rd.360.cn
-@HostsX 一站式过滤/网易有道
-#网易163
+@HostsX 一站式过滤/网易Netease
+#126
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
+#网易163
 0.0.0.0 adc.163.com
 0.0.0.0 adclient.163.com
 0.0.0.0 adgeo.163.com
@@ -549,27 +606,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 static1.secretchina.com
 0.0.0.0 ad.epochtimes.com
 @HostsX 站点广告过滤/社区类网站
-#新浪
-0.0.0.0 ad3.sina.com.cn
-0.0.0.0 ad4.sina.com.cn
-0.0.0.0 adsina.allyes.com
-0.0.0.0 beacon.sina.com.cn
-0.0.0.0 classadnew.sina.com.cn
-0.0.0.0 click.sina.com.cn
-0.0.0.0 counter.sina.com.cn
-0.0.0.0 d1.sina.com.cn
-0.0.0.0 d2.sina.com.cn
-0.0.0.0 d3.sina.com.cn
-0.0.0.0 d4.sina.com.cn
-0.0.0.0 d5.sina.com.cn
-0.0.0.0 dcads.sina.com.cn
-0.0.0.0 int.dpool.sina.com.cn
-0.0.0.0 pfp.sina.com.cn
-0.0.0.0 pfpclick.sina.com.cn
-0.0.0.0 pfpip.sina.com
-0.0.0.0 sms.sina.com.cn
-0.0.0.0 sina.allyes.com
-0.0.0.0 sinasc.allyes.com
 #天涯
 0.0.0.0 801.tianya.cn
 0.0.0.0 803.tianya.cn
@@ -1687,15 +1723,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 trade.bokecc.com
 0.0.0.0 www.bokecc.com
 0.0.0.0 www.vunion.net
-#iCast
-0.0.0.0 cast.ra.icast.cn
-0.0.0.0 js.icast.cn
-0.0.0.0 kw.ra.icast.cn
-0.0.0.0 post.ra.icast.cn
-0.0.0.0 pre.ra.icast.cn
-0.0.0.0 pv.ra.icast.cn
-0.0.0.0 rm.ra.icast.cn
-0.0.0.0 track.ra.icast.cn
 #Vodone
 0.0.0.0 autou.vodone.cn
 0.0.0.0 busjs.vodone.cn
@@ -1986,12 +2013,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.aignes.info
 #AnyDVD
 0.0.0.0 ev1slysoft.com
-0.0.0.0 h3.slysoft.com
-0.0.0.0 iw2.slysoft.com
-0.0.0.0 sb2slysoft.com
 0.0.0.0 slysoft.com
 0.0.0.0 update.slysoft.com
-0.0.0.0 ns6.gandi.net
 0.0.0.0 reverse.privatedns.com
 #Alcohol
 0.0.0.0 serial.alcohol-soft.com

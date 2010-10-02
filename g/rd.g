@@ -1,5 +1,3 @@
-;version=201010
-;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
 127.0.0.1       localhost

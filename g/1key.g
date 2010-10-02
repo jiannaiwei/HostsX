@@ -1,5 +1,15 @@
 @HostsX 一站式过滤
 
+@HostsX 一站式过滤/Microsoft
+#Msn登陆加速
+0.0.0.0 crl.microsoft.com
+#Msn
+0.0.0.0 ac2.msn.com ac3.msn.com ads.beta1.idss.msn.com ads1.msn.com adsyndication.msn.com analytics.msn.com c.msn.com c.msn.com.cn catalog.video.msn.com
+0.0.0.0 g.msn.com h.msn.com r.msn.com rad.msn.com
+#Live
+0.0.0.0 analytics.live.com c.live.com ms.analytics.live.com rad.live.com
+#MicrosoftAD
+0.0.0.0 ads.msn.com.nsatc.net ads2.msads.net global.msads.net msn.allyes.com msnms.allyes.cn msnportal.112.2o7.net
 @HostsX 一站式过滤/Google AD
 #Google AdWord
 0.0.0.0 adwords.google.com adwords.google.sk
