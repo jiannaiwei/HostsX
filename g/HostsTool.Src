@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.06
+set ver=V2.07
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -113,6 +113,7 @@ ipconfig /flushdns>nul 2>nul
 goto menu
 
 :desklnk
+if not exist DeskLnk.vbs (%down% http://hostsx.googlecode.com/svn/trunk/g/DeskLnk.vbs)& (echo 正在下载修复组件！)&pause&cls
 DeskLnk.vbs
 goto menu
 
