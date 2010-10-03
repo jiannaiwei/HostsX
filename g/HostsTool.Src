@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.03
+set ver=V2.05
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -208,7 +208,7 @@ goto menu
 :gdft
 if not exist down\rd.g call :datadown
 cd down\ >nul 2>nul
-copy /b rd.g+Site.g+Union.g+Soft.g hbhosts.txt
+copy /b rd.g+1key.g+Site.g+Union.g+Soft.g+reg.g+game.g hbhosts.txt
 copy hbhosts.txt %hosts%
 cd.. >nul 2>nul
 goto Perms
@@ -217,20 +217,20 @@ goto Perms
 mode con: cols=63 lines=32
 del /f /s /q down\*.*>nul 2>nul
 rem Wget下载组件检测
-rem Wget下载组件检测
 if not exist wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)& (echo 正在下载Wget组件，请保存在当前目录！)&pause&goto opdp
 title Hosts 数据调整
 echo.
 echo ○Main Data:                                               
-echo.     1.推荐数据        2.IPV6数据        3.智能转向                 
+echo.     1.HostsX数据      2.IPV6数据        3.智能转向                 
 echo.   
 echo ☆Single Data:                                             
-echo.     4.广告联盟        5.站点过滤        6.软件屏蔽        
+echo.     4.一站式过滤      5.站点过滤        6.广告联盟        
+echo.    
+echo ▲Soft Data:                                             
+echo.     7.软件广告        8.软件验证        9.游戏验证        
 echo.    
 echo ◎Mwsl Data:                                              
-echo. Cn：7.MWSL实验室             
-echo.
-echo. En：8.MVPS            9.SomeOneWhoCares                       
+echo.     M.MWSL实验室      V.MVPSData        S.Some1WhoKrs                       
 echo.   
 echo ☆User Data:                                              
 echo.     A.添加屏蔽/加速访问 网站            B.屏蔽自定义数据        
@@ -246,13 +246,16 @@ set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
 if /i "%all%"=="1" goto dft
 if /i "%all%"=="2" goto ipv6
-if /i "%all%"=="3" goto rd
-if /i "%all%"=="4" goto union
-if /i "%all%"=="5" goto site
-if /i "%all%"=="6" goto soft
-if /i "%all%"=="7" goto mwslcn
-if /i "%all%"=="8" goto MVPShosts
-if /i "%all%"=="9" goto someonewhocares
+if /i "%all%"=="3" goto grd
+if /i "%all%"=="4" goto g1key
+if /i "%all%"=="5" goto gsite
+if /i "%all%"=="6" goto gunion
+if /i "%all%"=="7" goto gsoft
+if /i "%all%"=="8" goto greg
+if /i "%all%"=="9" goto ggame
+if /i "%all%"=="m" goto mwslcn
+if /i "%all%"=="v" goto MVPShosts
+if /i "%all%"=="s" goto someonewhocares
 if /i "%all%"=="a" goto add
 if /i "%all%"=="b" goto myfile
 if /i "%all%"=="c" goto clearadd
@@ -274,9 +277,12 @@ goto Perms
 :datadown
 echo 正在下载基础数据中，请稍候... ...
 %down% http://hostsx.googlecode.com/svn/trunk/g/rd.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/Union.g
+%down% http://hostsx.googlecode.com/svn/trunk/g/1key.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Site.g
+%down% http://hostsx.googlecode.com/svn/trunk/g/Union.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Soft.g
+%down% http://hostsx.googlecode.com/svn/trunk/g/reg.g
+%down% http://hostsx.googlecode.com/svn/trunk/g/game.g
 cls&mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"Hosts")(window.close)
 goto menu
 
@@ -288,25 +294,40 @@ echo 正在下载基础数据中，请稍候... ...
 copy down\ipv6.txt %hosts%
 goto Perms
 
-:rd
+:grd
 if not exist down\rd.g call :datadown
 copy down\rd.g %hosts%
 goto Perms
 
-:union
-if not exist down\Union.g call :datadown
-copy down\Union.g %hosts%
+:g1key
+if not exist down\1key.g call :datadown
+copy down\1key.g %hosts%
 goto Perms
 
-:site
+:gsite
 if not exist down\Site.g call :datadown
 copy down\Site.g %hosts%
 goto Perms
 
-:soft
+:gunion
+if not exist down\Union.g call :datadown
+copy down\Union.g %hosts%
+goto Perms
+
+:gsoft
 if not exist down\Soft.g call :datadown
 copy down\Soft.g %hosts%
 call :wmpclean
+goto Perms
+
+:greg
+if not exist down\reg.g call :datadown
+copy down\reg.g %hosts%
+goto Perms
+
+:ggame
+if not exist down\game.g call :datadown
+copy down\game.g %hosts%
 goto Perms
 
 :wmpclean
