@@ -114,6 +114,7 @@ goto menu
 
 :desklnk
 if not exist DeskLnk.vbs (%down% http://hostsx.googlecode.com/svn/trunk/g/DeskLnk.vbs)& (echo 正在下载修复组件！)&pause&cls
+copy down\DeskLnk.vbs DeskLnk.vbs
 DeskLnk.vbs
 goto menu
 
