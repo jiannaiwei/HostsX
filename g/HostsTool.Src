@@ -1080,8 +1080,8 @@ echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
 echo WScript.sleep 200 >>%temp%/Updates.vbs
 echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Ver.txt">%temp%/Ver.txt 2>nul
-for /f %%i in (%temp%\Ver.txt) do set verNew=%%i
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/ver.txt">%temp%/ver.txt 2>nul
+for /f %%i in (%temp%\ver.txt) do set verNew=%%i
 if "%verNew%"=="δ֪" goto CheckError
 cls
 echo.
