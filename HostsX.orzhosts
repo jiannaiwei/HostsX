@@ -1,4 +1,4 @@
-;version=201010041155
+;version=201010041300
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -432,7 +432,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 st.pinyin.sogou.com
 #搜狗浏览器
 0.0.0.0 ping.ie.sogou.com
-0.0.0.0 pingback.ie.sogou.com 
+0.0.0.0 pingback.ie.sogou.com
 0.0.0.0 conf.ie.sogou.com
 @HostsX 一站式过滤/金山在线
 #金山联盟
@@ -889,6 +889,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cnt.zhaopin.com
 0.0.0.0 code.aizhuanlove.cn
 0.0.0.0 code.ceyunshi.cn
+0.0.0.0 code.i-qianming.cn
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
 0.0.0.0 e.appsasia.net
@@ -896,6 +897,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 m.menhutong.com.cn
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 popunder.paypopup.com
+0.0.0.0 uimg.unionli.com
 0.0.0.0 union.51ditu.com
 0.0.0.0 union.88go.cc
 0.0.0.0 union.keepc.com
@@ -970,7 +972,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.vancl.com
 #下载推广
 0.0.0.0	union.rising.com.cn
-0.0.0.0	zcomcdl.zcominc.com
+0.0.0.0 zcomcdl.zcominc.com
 0.0.0.0 ccc.xdowns.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 gg.joytod.com
@@ -1504,6 +1506,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www2.9v.cn
 #科捷
 0.0.0.0 as.kejet.com
+#乐语
+0.0.0.0 file.doyoo.net
+0.0.0.0 js.doyoo.net
 #六度传媒
 0.0.0.0 6dad.com
 #猫猫
@@ -1562,9 +1567,6 @@ ff02::3 ip6-allhosts
 #做第一传媒
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
-#乐语
-0.0.0.0 file.doyoo.net
-0.0.0.0 js.doyoo.net
 @HostsX 恶意行为阻止
 #电信劫持
 0.0.0.0 114.allyes.com
@@ -1580,7 +1582,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dianxin.com
 0.0.0.0 game.dianxin.cn
 0.0.0.0 www.dianxin.cn
-#各地电信广告
 0.0.0.0 ad.online.cq.cn
 0.0.0.0 ad.xunkoo.com
 0.0.0.0 ads.iisdoor.com
@@ -1591,45 +1592,62 @@ ff02::3 ip6-allhosts
 0.0.0.0 sddns5.cncmax.cn
 0.0.0.0 sddns7.cncmax.cn
 0.0.0.0 uninewspace.allyes.com
-#流氓导航
-0.0.0.0 c.999d.com
-0.0.0.0 www.999d.com
-0.0.0.0 search.p.cn
-0.0.0.0 www.p.cn
-0.0.0.0 image.tazhao.com
-0.0.0.0 www.tazhao.com
+#IE劫持
 0.0.0.0 3448.com
 0.0.0.0 4199.com
 0.0.0.0 6781.com
 0.0.0.0 7255.com
 0.0.0.0 7322.com
 0.0.0.0 7379.com
+0.0.0.0 779dh.com
 0.0.0.0 7939.com
 0.0.0.0 8009.com
 0.0.0.0 858656.com
 0.0.0.0 8749.com
+0.0.0.0 8dh.info
 0.0.0.0 about.blank.la
+0.0.0.0 c.999d.com
 0.0.0.0 dir.ejoina.com
 0.0.0.0 go.lailea.info
+0.0.0.0 hao.kuaibo.com
+0.0.0.0 image.tazhao.com
 0.0.0.0 kzdh.com
 0.0.0.0 lailea.info
 0.0.0.0 my123.com
 0.0.0.0 mydh.info
 0.0.0.0 parking.8d.cn
 0.0.0.0 piaoxue.com
+0.0.0.0 QQ5.com
 0.0.0.0 s.lailea.info
 0.0.0.0 search.ok365.com
+0.0.0.0 search.p.cn
+0.0.0.0 t.v22.cc
 0.0.0.0 u.30so.com
+0.0.0.0 v.naqigs.com
+0.0.0.0 wvv.v921.com
+0.0.0.0 www.114la.com
+0.0.0.0 www.126666666.cn
+0.0.0.0 www.131u.com
+0.0.0.0 www.150.net
+0.0.0.0 www.1buso.com
 0.0.0.0 www.2535.cn
 0.0.0.0 www.26dh.cn
+0.0.0.0 www.45451.net
 0.0.0.0 www.6313.com
+0.0.0.0 www.66234.net
 0.0.0.0 www.8d.cn
+0.0.0.0 www.9384.com
+0.0.0.0 www.999d.com
+0.0.0.0 www.dh818.com
 0.0.0.0 www.gcbbs.org
 0.0.0.0 www.ivc.cn
+0.0.0.0 www.my115.net
+0.0.0.0 www.newshipin.info
+0.0.0.0 www.p.cn
+0.0.0.0 www.shangla.com
+0.0.0.0 www.tazhao.com
 0.0.0.0 www.w234.com
 0.0.0.0 www.wz123.com
-0.0.0.0 QQ5.com
-0.0.0.0 hao.kuaibo.com
 #脑残网站
 0.0.0.0 smtown.com
 0.0.0.0 superjunior.smtown.com
@@ -1669,10 +1687,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.uniqlo.jp
 0.0.0.0 www.xgjgw.com
 0.0.0.0 xinw.net
+#广告强弹
+0.0.0.0 5.nihao600.com
+0.0.0.0 cba.96pk.com
+0.0.0.0 chess.r.arpg2.com
+0.0.0.0 cn.88db.com
+0.0.0.0 em.kongzhong.com
+0.0.0.0 kz.zqgame.com
+0.0.0.0 v.9vcpp.cn
+0.0.0.0 vip.letv.com
+0.0.0.0 www.13097.com
+0.0.0.0 www.igo2018.com
+0.0.0.0 www.jiayuan.com
+0.0.0.0 www.jysls.com
+0.0.0.0 www.kmmcn.com
+0.0.0.0 www1.zjbdt.com
 #钓鱼网站
 0.0.0.0 aq.qq.servirce.com
 0.0.0.0 mail.qq.com.terncent.com
 0.0.0.0 aq.qq.service.terncent.com
+0.0.0.0 www.icbc-y.com
+0.0.0.0 icbc-y.com
+0.0.0.0 e-mail-google.Co.CC
 #病毒下载
 0.0.0.0 cpic2.edushi.com
 0.0.0.0 down.2345g.info
@@ -1698,6 +1734,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zgsj.com
 0.0.0.0 www.zhutizi.com
 0.0.0.0 wz654321.cn
+0.0.0.0 jr.ztgame.com
+0.0.0.0 www.zaoxue.com
+0.0.0.0 www.cool92.cn
 #流氓捆绑
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
@@ -1768,7 +1807,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 taobao.7pk.com
 #96PK
 0.0.0.0 abc.96pk.com
-0.0.0.0 cba.96pk.com
 #Kfwan
 0.0.0.0 u.kfwan.com
 0.0.0.0 www.kfwan.com
@@ -1800,7 +1838,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.molidao.com
 #纳奇游戏营销
 0.0.0.0 naqigs.com
-0.0.0.0 v.naqigs.com
 #热血三国
 0.0.0.0 g.91sanguo.cn
 #搜游戏公会
@@ -1830,16 +1867,23 @@ ff02::3 ip6-allhosts
 #其他游戏广告
 0.0.0.0 a6.chancede.com
 0.0.0.0 ad.16wan.com
+0.0.0.0 g.175pt.com
 0.0.0.0 bt.52yeyou.com
-0.0.0.0 code.loading.wolian.net
 0.0.0.0 cp.1o26.com
 0.0.0.0 cs01.csyouxi.com
+0.0.0.0 ds2.unionbig.com
+0.0.0.0 e8.96pk.com
+0.0.0.0 g.kx365.com
 0.0.0.0 g.xuanyx.com
 0.0.0.0 gamefiles.qq494.cn
 0.0.0.0 gg.qc101.com
 0.0.0.0 go.snsfun.cc
+0.0.0.0 hc.gamebean.com
+0.0.0.0 hlt.nextsee.com
 0.0.0.0 i.na7.cc
 0.0.0.0 js.union001.com
+0.0.0.0 lh.ztgame.com
+0.0.0.0 mhsh.zqgame.com
 0.0.0.0 nonoyx.com
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 p.eqiso.com
@@ -1848,6 +1892,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.u966.com
 0.0.0.0 t.15yl.com
 0.0.0.0 t.1stcngame.com
+0.0.0.0 t.37lai.com
+0.0.0.0 t.57pk.net
+0.0.0.0 t.chinayul.com
+0.0.0.0 t.gameyule.com
 0.0.0.0 t.uuplay.com
 0.0.0.0 tg3.subo.me
 0.0.0.0 u.7town.com

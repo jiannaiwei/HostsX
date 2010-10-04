@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.07
+set ver=V2.08
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -210,7 +210,7 @@ goto menu
 :gdft
 if not exist down\rd.g call :datadown
 cd down\ >nul 2>nul
-copy /b rd.g+1key.g+Site.g+Union.g+Soft.g+reg.g+game.g hbhosts.txt
+copy /b Rd.g+1key.g+Site.g+Union.g+Soft.g+Reg.g+Game.g+Mwsl.g hbhosts.txt
 copy hbhosts.txt %hosts%
 cd.. >nul 2>nul
 goto Perms
@@ -232,7 +232,7 @@ echo ▲Soft Data:
 echo.     7.软件广告        8.软件验证        9.游戏验证        
 echo.    
 echo ◎Mwsl Data:                                              
-echo.     M.MWSL实验室      V.MVPSData        S.Some1WhoKrs                       
+echo.     0.DU110(荐)     M.MWSL实验室    V.MVPSData    S.Some1WhoKrs                       
 echo.   
 echo ☆User Data:                                              
 echo.     A.添加屏蔽/加速访问 网站            B.屏蔽自定义数据        
@@ -254,7 +254,8 @@ if /i "%all%"=="5" goto gsite
 if /i "%all%"=="6" goto gunion
 if /i "%all%"=="7" goto gsoft
 if /i "%all%"=="8" goto greg
-if /i "%all%"=="9" goto ggame
+if /i "%all%"=="0" goto gmwsl
+if /i "%all%"=="1" goto dft
 if /i "%all%"=="m" goto mwslcn
 if /i "%all%"=="v" goto MVPShosts
 if /i "%all%"=="s" goto someonewhocares
@@ -278,13 +279,14 @@ goto Perms
 
 :datadown
 echo 正在下载基础数据中，请稍候... ...
-%down% http://hostsx.googlecode.com/svn/trunk/g/rd.g
+%down% http://hostsx.googlecode.com/svn/trunk/g/Rd.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/1key.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Site.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Union.g
 %down% http://hostsx.googlecode.com/svn/trunk/g/Soft.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/reg.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/game.g
+%down% http://hostsx.googlecode.com/svn/trunk/g/Reg.g
+%down% http://hostsx.googlecode.com/svn/trunk/g/Game.g
+%down% http://hostsx.googlecode.com/svn/trunk/g/Mwsl.g
 cls&mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"Hosts")(window.close)
 goto menu
 
@@ -297,8 +299,8 @@ copy down\ipv6.txt %hosts%
 goto Perms
 
 :grd
-if not exist down\rd.g call :datadown
-copy down\rd.g %hosts%
+if not exist down\Rd.g call :datadown
+copy down\Rd.g %hosts%
 goto Perms
 
 :g1key
@@ -323,13 +325,18 @@ call :wmpclean
 goto Perms
 
 :greg
-if not exist down\reg.g call :datadown
-copy down\reg.g %hosts%
+if not exist down\Reg.g call :datadown
+copy down\Reg.g %hosts%
 goto Perms
 
 :ggame
-if not exist down\game.g call :datadown
-copy down\game.g %hosts%
+if not exist down\Game.g call :datadown
+copy down\Game.g %hosts%
+goto Perms
+
+:gmwsl
+if not exist down\Mwsl.g call :datadown
+copy down\Mwsl.g %hosts%
 goto Perms
 
 :wmpclean
