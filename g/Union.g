@@ -263,7 +263,7 @@
 #诚信广告联盟
 0.0.0.0 www.cxgglm.com
 #大联盟
-0.0.0.0 ww.unionbig.com u.unionli.com uimg.unionli.com
+0.0.0.0 ds2.unionbig.com ww.unionbig.com u.unionli.com uimg.unionli.com
 #达达传媒
 0.0.0.0 www.15159.net
 #互易广告

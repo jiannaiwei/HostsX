@@ -1,4 +1,4 @@
-;version=201010041300
+;version=201010041430
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -194,21 +194,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
+0.0.0.0 adsgroup.qq.com
 0.0.0.0 adshmct.qq.com
 0.0.0.0 adslvseed.qq.com
-0.0.0.0 show-msgch.qq.com
 0.0.0.0 c.l.qq.com
-0.0.0.0 hm.l.qq.com
-0.0.0.0 imc.l.qq.com
-0.0.0.0 l.qq.com
-0.0.0.0 p.l.qq.com
-0.0.0.0 w.l.qq.com
 0.0.0.0 f.qstatic.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fw.qq.com
+0.0.0.0 hm.l.qq.com
+0.0.0.0 imc.l.qq.com
+0.0.0.0 l.qq.com
+0.0.0.0 oimsgad.qq.com
+0.0.0.0 p.l.qq.com
 0.0.0.0 pingfore.qq.com
 0.0.0.0 scdown.qq.com
+0.0.0.0 show-msgch.qq.com
 0.0.0.0 trace.qq.com
+0.0.0.0 w.l.qq.com
 #搜搜
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
@@ -1466,9 +1468,10 @@ ff02::3 ip6-allhosts
 #诚信广告联盟
 0.0.0.0 www.cxgglm.com
 #大联盟
-0.0.0.0 ww.unionbig.com
+0.0.0.0 ds2.unionbig.com
 0.0.0.0 u.unionli.com
 0.0.0.0 uimg.unionli.com
+0.0.0.0 ww.unionbig.com
 #达达传媒
 0.0.0.0 www.15159.net
 #互易广告
@@ -1623,7 +1626,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 search.p.cn
 0.0.0.0 t.v22.cc
 0.0.0.0 u.30so.com
-0.0.0.0 v.naqigs.com
 0.0.0.0 wvv.v921.com
 0.0.0.0 www.114la.com
 0.0.0.0 www.126666666.cn
@@ -1689,13 +1691,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 xinw.net
 #广告强弹
 0.0.0.0 5.nihao600.com
-0.0.0.0 cba.96pk.com
 0.0.0.0 chess.r.arpg2.com
 0.0.0.0 cn.88db.com
 0.0.0.0 em.kongzhong.com
-0.0.0.0 kz.zqgame.com
-0.0.0.0 v.9vcpp.cn
-0.0.0.0 vip.letv.com
 0.0.0.0 www.13097.com
 0.0.0.0 www.igo2018.com
 0.0.0.0 www.jiayuan.com
@@ -1807,6 +1805,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 taobao.7pk.com
 #96PK
 0.0.0.0 abc.96pk.com
+0.0.0.0 cba.96pk.com
+0.0.0.0 e8.96pk.com
 #Kfwan
 0.0.0.0 u.kfwan.com
 0.0.0.0 www.kfwan.com
@@ -1827,7 +1827,9 @@ ff02::3 ip6-allhosts
 #昆仑在线
 0.0.0.0 unigg.kunlun.com
 #中青宝网
+0.0.0.0 kz.zqgame.com
 0.0.0.0 lj.zqgame.com
+0.0.0.0 mhsh.zqgame.com
 0.0.0.0 td.zqgame.com
 #摩力游
 0.0.0.0 adcount.moliyo.com
@@ -1838,6 +1840,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.molidao.com
 #纳奇游戏营销
 0.0.0.0 naqigs.com
+0.0.0.0 v.naqigs.com
 #热血三国
 0.0.0.0 g.91sanguo.cn
 #搜游戏公会
@@ -1871,8 +1874,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 cp.1o26.com
 0.0.0.0 cs01.csyouxi.com
-0.0.0.0 ds2.unionbig.com
-0.0.0.0 e8.96pk.com
 0.0.0.0 g.kx365.com
 0.0.0.0 g.xuanyx.com
 0.0.0.0 gamefiles.qq494.cn
@@ -1883,7 +1884,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 i.na7.cc
 0.0.0.0 js.union001.com
 0.0.0.0 lh.ztgame.com
-0.0.0.0 mhsh.zqgame.com
 0.0.0.0 nonoyx.com
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 p.eqiso.com

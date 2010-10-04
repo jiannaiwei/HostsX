@@ -33,8 +33,9 @@
 0.0.0.0 afp.qiyi.com focusbaiduafp.allyes.com
 @HostsX 一站式过滤/腾讯QQ
 #QQ
-0.0.0.0 adping.qq.com adsclick.qq.com adsfile.qq.com adshmct.qq.com adslvseed.qq.com show-msgch.qq.com c.l.qq.com hm.l.qq.com imc.l.qq.com
-0.0.0.0 l.qq.com p.l.qq.com w.l.qq.com f.qstatic.com fodder.qq.com fw.qq.com pingfore.qq.com scdown.qq.com trace.qq.com
+0.0.0.0 adping.qq.com adsclick.qq.com adsfile.qq.com adsgroup.qq.com adshmct.qq.com adslvseed.qq.com c.l.qq.com f.qstatic.com fodder.qq.com
+0.0.0.0 fw.qq.com hm.l.qq.com imc.l.qq.com l.qq.com oimsgad.qq.com p.l.qq.com pingfore.qq.com scdown.qq.com show-msgch.qq.com
+0.0.0.0 trace.qq.com w.l.qq.com
 #搜搜
 0.0.0.0 dr.soso.com jzclick.soso.com pingfore.soso.com v3.toolbar.soso.com toolbar.soso.com
 @HostsX 一站式过滤/新浪网

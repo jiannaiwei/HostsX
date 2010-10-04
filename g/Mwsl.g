@@ -8,7 +8,7 @@
 0.0.0.0 3448.com 4199.com 6781.com 7255.com 7322.com 7379.com 779dh.com 7939.com 8009.com
 0.0.0.0 858656.com 8749.com 8dh.info about.blank.la c.999d.com dir.ejoina.com go.lailea.info hao.kuaibo.com image.tazhao.com
 0.0.0.0 kzdh.com lailea.info my123.com mydh.info parking.8d.cn piaoxue.com QQ5.com s.lailea.info search.ok365.com
-0.0.0.0 search.p.cn t.v22.cc u.30so.com v.naqigs.com wvv.v921.com www.114la.com www.126666666.cn www.131u.com www.150.net
+0.0.0.0 search.p.cn t.v22.cc u.30so.com wvv.v921.com www.114la.com www.126666666.cn www.131u.com www.150.net
 0.0.0.0 www.1buso.com www.2535.cn www.26dh.cn www.45451.net www.6313.com www.66234.net www.8d.cn www.9384.com www.999d.com
 0.0.0.0 www.dh818.com www.gcbbs.org www.ivc.cn www.my115.net www.newshipin.info www.p.cn www.shangla.com www.tazhao.com www.w234.com
 0.0.0.0 www.wz123.com
@@ -20,7 +20,7 @@
 0.0.0.0 code.loading.wolian.net fx.v1kk.com hjmg.930114.com img.tjq.com shop.hoo6.com shop.liweihui.com u.the668.com v8.olajk.com www.133i.com
 0.0.0.0 www.algj-27dy.cn www.fengxin114.com www.juyuan.com www.ruox.net www.taobanwang.com www.uniqlo.jp www.xgjgw.com xinw.net
 #广告强弹
-0.0.0.0 5.nihao600.com chess.r.arpg2.com cn.88db.com em.kongzhong.com kz.zqgame.com v.9vcpp.cn vip.letv.com www.13097.com
+0.0.0.0 5.nihao600.com chess.r.arpg2.com cn.88db.com em.kongzhong.com www.13097.com
 0.0.0.0 www.igo2018.com www.jiayuan.com www.jysls.com www.kmmcn.com www1.zjbdt.com
 #钓鱼网站
 0.0.0.0 aq.qq.servirce.com mail.qq.com.terncent.com aq.qq.service.terncent.com www.icbc-y.com icbc-y.com e-mail-google.Co.CC
@@ -51,7 +51,7 @@
 0.0.0.0 al.7pk.com cimg.7pk.com client.7pk.com img.7pk.com imgcache.7pk.com new.7pk.com s.7pk.com safe.7pk.com software.7pk.com
 0.0.0.0 taobao.7pk.com
 #96PK
-0.0.0.0 abc.96pk.com cba.96pk.com
+0.0.0.0 abc.96pk.com cba.96pk.com e8.96pk.com
 #Kfwan
 0.0.0.0 u.kfwan.com www.kfwan.com
 #QQ437
@@ -69,7 +69,7 @@
 #昆仑在线
 0.0.0.0 unigg.kunlun.com
 #中青宝网
-0.0.0.0 lj.zqgame.com td.zqgame.com
+0.0.0.0 kz.zqgame.com0 lj.zqgame.com mhsh.zqgame.com td.zqgame.com
 #摩力游
 0.0.0.0 adcount.moliyo.com
 #盛大游戏
@@ -77,7 +77,7 @@
 #魔力岛
 0.0.0.0 u.molidao.com
 #纳奇游戏营销
-0.0.0.0 naqigs.com
+0.0.0.0 naqigs.com v.naqigs.com
 #热血三国
 0.0.0.0 g.91sanguo.cn
 #搜游戏公会
@@ -91,8 +91,8 @@
 #绿岸网络
 0.0.0.0 union.shumenol.com www.shumenol.com
 #其他游戏广告
-0.0.0.0 a6.chancede.com ad.16wan.com g.175pt.com bt.52yeyou.com cp.1o26.com cs01.csyouxi.com ds2.unionbig.com e8.96pk.com g.kx365.com
+0.0.0.0 a6.chancede.com ad.16wan.com g.175pt.com bt.52yeyou.com cp.1o26.com cs01.csyouxi.com g.kx365.com
 0.0.0.0 g.xuanyx.com gamefiles.qq494.cn gg.qc101.com go.snsfun.cc hc.gamebean.com hlt.nextsee.com i.na7.cc js.union001.com lh.ztgame.com
-0.0.0.0 mhsh.zqgame.com nonoyx.com p.3gm.com.cn p.eqiso.com po.add.tx908.com redirect.jooov.cn static.u966.com t.15yl.com t.1stcngame.com
+0.0.0.0 nonoyx.com p.3gm.com.cn p.eqiso.com po.add.tx908.com redirect.jooov.cn static.u966.com t.15yl.com t.1stcngame.com
 0.0.0.0 t.37lai.com t.57pk.net t.chinayul.com t.gameyule.com t.uuplay.com tg3.subo.me u.7town.com ww.jinzhao99.com ww.yiqiwin.com
 0.0.0.0 www.adsue.com www.leeuu.net www.wooigoo.cn xy.8zgame.com yz.szgla.com
