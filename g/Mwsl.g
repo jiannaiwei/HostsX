@@ -91,8 +91,8 @@
 #绿岸网络
 0.0.0.0 union.shumenol.com www.shumenol.com
 #其他游戏广告
-0.0.0.0 a6.chancede.com ad.16wan.com g.175pt.com bt.52yeyou.com cp.1o26.com cs01.csyouxi.com g.kx365.com
-0.0.0.0 g.xuanyx.com gamefiles.qq494.cn gg.qc101.com go.snsfun.cc hc.gamebean.com hlt.nextsee.com i.na7.cc js.union001.com lh.ztgame.com
-0.0.0.0 nonoyx.com p.3gm.com.cn p.eqiso.com po.add.tx908.com redirect.jooov.cn static.u966.com t.15yl.com t.1stcngame.com
-0.0.0.0 t.37lai.com t.57pk.net t.chinayul.com t.gameyule.com t.uuplay.com tg3.subo.me u.7town.com ww.jinzhao99.com ww.yiqiwin.com
-0.0.0.0 www.adsue.com www.leeuu.net www.wooigoo.cn xy.8zgame.com yz.szgla.com
+0.0.0.0 a6.chancede.com ad.16wan.com bt.52yeyou.com cp.1o26.com cs01.csyouxi.com g.175pt.com g.kx365.com g.qling.com g.xuanyx.com
+0.0.0.0 gamefiles.qq494.cn gg.qc101.com go.snsfun.cc hc.gamebean.com hlt.nextsee.com i.na7.cc js.union001.com lh.ztgame.com nonoyx.com
+0.0.0.0 p.3gm.com.cn p.eqiso.com po.add.tx908.com redirect.jooov.cn static.u966.com t.15yl.com t.1stcngame.com t.37lai.com t.57pk.net
+0.0.0.0 t.chinayul.com t.gameyule.com t.uuplay.com tg3.subo.me u.7town.com ww.jinzhao99.com ww.yiqiwin.com www.adsue.com www.leeuu.net
+0.0.0.0 www.wooigoo.cn xy.8zgame.com yz.szgla.com

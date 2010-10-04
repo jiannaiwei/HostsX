@@ -1,4 +1,4 @@
-;version=201010041430
+;version=201010041530
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1870,11 +1870,12 @@ ff02::3 ip6-allhosts
 #其他游戏广告
 0.0.0.0 a6.chancede.com
 0.0.0.0 ad.16wan.com
-0.0.0.0 g.175pt.com
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 cp.1o26.com
 0.0.0.0 cs01.csyouxi.com
+0.0.0.0 g.175pt.com
 0.0.0.0 g.kx365.com
+0.0.0.0 g.qling.com
 0.0.0.0 g.xuanyx.com
 0.0.0.0 gamefiles.qq494.cn
 0.0.0.0 gg.qc101.com
