@@ -298,7 +298,7 @@
 #瑞锦518
 0.0.0.0 img.rj518.com www.rj518.com
 #双倍
-0.0.0.0 www.2bj.cn click.5j.com
+0.0.0.0 click.5j.com code4.2bj.cc pic.2bj.cn www.2bj.cn
 #速影
 0.0.0.0 c.sfilm.com
 #思维美迪亚

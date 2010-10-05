@@ -1,4 +1,4 @@
-;version=201010041530
+;version=201010051435
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1525,8 +1525,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.rj518.com
 0.0.0.0 www.rj518.com
 #双倍
-0.0.0.0 www.2bj.cn
 0.0.0.0 click.5j.com
+0.0.0.0 code4.2bj.cc
+0.0.0.0 pic.2bj.cn
+0.0.0.0 www.2bj.cn
 #速影
 0.0.0.0 c.sfilm.com
 #思维美迪亚
@@ -1654,41 +1656,42 @@ ff02::3 ip6-allhosts
 0.0.0.0 smtown.com
 0.0.0.0 superjunior.smtown.com
 #广告诈骗
-0.0.0.0 ht.sooe.cn
-0.0.0.0 www.sooe.cn
-0.0.0.0 ht.hao120.cc
-0.0.0.0 www.hao120.cc
-0.0.0.0 m.ttgrs.cn
-0.0.0.0 www.ttgrs.cn
+0.0.0.0 888888fa.com
+0.0.0.0 98712.com
+0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 asiafind1.com
 0.0.0.0 asiafriendfinder.com
-0.0.0.0 pp9a.com
-0.0.0.0 www.pp9a.com
-0.0.0.0 98712.com
-0.0.0.0 zx.98712.com
-0.0.0.0 lkn.zoossoft.cn
-0.0.0.0 testserver.zoosnet.net
-0.0.0.0 www.zoosnet.net
-0.0.0.0 www.zoossoft.com
-0.0.0.0 888888fa.com
-0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 code.loading.wolian.net
 0.0.0.0 fx.v1kk.com
 0.0.0.0 hjmg.930114.com
+0.0.0.0 ht.hao120.cc
+0.0.0.0 ht.sooe.cn
 0.0.0.0 img.tjq.com
+0.0.0.0 lkn.zoossoft.cn
+0.0.0.0 m.ttgrs.cn
+0.0.0.0 pp9a.com
 0.0.0.0 shop.hoo6.com
 0.0.0.0 shop.liweihui.com
+0.0.0.0 testserver.zoosnet.net
 0.0.0.0 u.the668.com
 0.0.0.0 v8.olajk.com
 0.0.0.0 www.133i.com
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.fengxin114.com
+0.0.0.0 www.hao120.cc
 0.0.0.0 www.juyuan.com
+0.0.0.0 www.pp9a.com
 0.0.0.0 www.ruox.net
+0.0.0.0 www.sooe.cn
 0.0.0.0 www.taobanwang.com
+0.0.0.0 www.ttgrs.cn
 0.0.0.0 www.uniqlo.jp
+0.0.0.0 www.vg123.cc
 0.0.0.0 www.xgjgw.com
+0.0.0.0 www.zoosnet.net
+0.0.0.0 www.zoossoft.com
 0.0.0.0 xinw.net
+0.0.0.0 zx.98712.com
 #广告强弹
 0.0.0.0 5.nihao600.com
 0.0.0.0 chess.r.arpg2.com
