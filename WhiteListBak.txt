@@ -1,4 +1,4 @@
-2010-10-02:
+2010-10-06:
 
 http://sslcheck.net/nsreport.php
 
@@ -17,7 +17,6 @@ qqlogo.qq.com        （登陆时logo）
 土豆网:
 adcontrol.tudou.com  （不能看黑豆视频）
 淘宝:
-img.alimama.cn       （淘宝主页显示）
 ju.atpanel.com       （部分跳转链接）
 CNTV:
 cntv.wrating.com     （客户端脚本错误）
@@ -41,6 +40,7 @@ pp.pplive.com   （右下角播放提示）
 pp.v2.pplive.cn （点播节目时旁边的信息）
 up.pplive.com   （升级屏蔽）
 upexe.pplive.com
+static1.pplive.cn
 #迅雷
 msg.client.xunlei.com （客户端消息提示）
 

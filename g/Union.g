@@ -3,9 +3,9 @@
 @HostsX 网络广告过滤/常见广告
 #大陆常见广告
 0.0.0.0 1.usazm.net 1188s.info adsresult.joywell.com.cn am.6park.com api.flash45.com c.ourclick.net click.315ts.net clk.abang.com cnt.zhaopin.com
-0.0.0.0 code.aizhuanlove.cn code.ceyunshi.cn code.i-qianming.cn code.myxmdh.com code.tjlove8.com e.appsasia.net go.maxreturn.cn m.menhutong.com.cn pic837013.images9999.com
-0.0.0.0 popunder.paypopup.com uimg.unionli.com union.51ditu.com union.88go.cc union.keepc.com union.narrowad.com union.qyule.com union.the999.com union.zhongsou.com
-0.0.0.0 union2.50bang.org up.hiao.com www.265g.info www.adtools.cn www.cpmadao.com www.uokor.com
+0.0.0.0 code.aizhuanlove.cn code.ceyunshi.cn code.i-qianming.cn code.myxmdh.com code.tjlove8.com counter.hitslink.com e.appsasia.net go.maxreturn.cn m.menhutong.com.cn
+0.0.0.0 pic837013.images9999.com popunder.paypopup.com uimg.unionli.com union.51ditu.com union.88go.cc union.keepc.com union.narrowad.com union.qyule.com union.the999.com
+0.0.0.0 union.zhongsou.com union2.50bang.org up.hiao.com www.265g.info www.adtools.cn www.cpmadao.com www.uokor.com
 #港台常见广告
 0.0.0.0 10000.mm.oishow.com ad.doubleadv.tv ad.f1.com.tw ad.wretch.cc ad71.doubleadx.com admd.yam.com gwc.iblinx.com hwachun.webplus.com.tw link.f1.com.tw
 0.0.0.0 mx3.hotrank.com.tw pic.addeliver.biz rc.asia.srv.overture.com www.iasoho.com adsense.scupio.com money.scupio.com www.scupio.com

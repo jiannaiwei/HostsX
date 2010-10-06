@@ -1,4 +1,4 @@
-;version=201010061030
+;version=201010061800
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -894,6 +894,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 code.i-qianming.cn
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
+0.0.0.0 counter.hitslink.com
 0.0.0.0 e.appsasia.net
 0.0.0.0 go.maxreturn.cn
 0.0.0.0 m.menhutong.com.cn
@@ -1928,24 +1929,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
 #PPTV（PPVA）
-0.0.0.0 ins-stat.pplive.com
-0.0.0.0 ins-version.pplive.com
-0.0.0.0 ins.pplive.com
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
 0.0.0.0 caipiao.pplive.com
 0.0.0.0 dh.pplive.com
 0.0.0.0 g.pplive.com
+0.0.0.0 ins-stat.pplive.com
+0.0.0.0 ins-version.pplive.com
+0.0.0.0 ins.pplive.com
 0.0.0.0 iptable.pplive.com
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 pp1.pplive.com
 0.0.0.0 up.pplive.com
+0.0.0.0 pp2.pptv.com
+0.0.0.0 ppsj.pptv.com
+0.0.0.0 wafp.pptv.com
+0.0.0.0 wstat.pptv.com
 0.0.0.0 h.g1d.net
 0.0.0.0 p.g1d.net
 0.0.0.0 ppva.g1d.net
 0.0.0.0 video-va.g1d.net
 0.0.0.0 pplive-ppva.datamaster.com.cn
 0.0.0.0 pplive-probe.datamaster.com.cn
+0.0.0.0 res-pplive.datamaster.com.cn
 #PPStream
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com

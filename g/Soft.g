@@ -3,10 +3,9 @@
 0.0.0.0 ad.yy.duowan.com do.yy.duowan.com forceupdate.yy.duowan.com gamecollaborate.yy.duowan.com update.yy.duowan.com yydl.duowan.com
 0.0.0.0 dw.hiido.cn im.yy.hiido.cn njs.dw.hiido.cn
 #PPTV£¨PPVA£©
-0.0.0.0 ins-stat.pplive.com ins-version.pplive.com ins.pplive.com afp.pplive.com afv.pplive.com caipiao.pplive.com dh.pplive.com g.pplive.com iptable.pplive.com
-0.0.0.0 live.v2.pplive.com pp1.pplive.com up.pplive.com
-0.0.0.0 h.g1d.net p.g1d.net ppva.g1d.net video-va.g1d.net
-0.0.0.0 pplive-ppva.datamaster.com.cn pplive-probe.datamaster.com.cn
+0.0.0.0 afp.pplive.com afv.pplive.com caipiao.pplive.com dh.pplive.com g.pplive.com ins-stat.pplive.com ins-version.pplive.com ins.pplive.com iptable.pplive.com
+0.0.0.0 live.v2.pplive.com pp1.pplive.com up.pplive.com pp2.pptv.com ppsj.pptv.com wafp.pptv.com wstat.pptv.com h.g1d.net p.g1d.net
+0.0.0.0 ppva.g1d.net video-va.g1d.net pplive-ppva.datamaster.com.cn pplive-probe.datamaster.com.cn res-pplive.datamaster.com.cn
 #PPStream
 0.0.0.0 notice.ppstream.com stat.ppstream.com update.111222.cn
 #Qvod
