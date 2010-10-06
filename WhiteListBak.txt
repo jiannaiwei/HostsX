@@ -1,5 +1,7 @@
 2010-10-02:
 
+http://sslcheck.net/nsreport.php
+
 功能影响:
 Google Api:
 ajax.googleapis.com  （灵格斯词霸等）

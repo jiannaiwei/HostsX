@@ -331,3 +331,5 @@
 0.0.0.0 ww.zhcpm.com
 #做第一传媒
 0.0.0.0 tp.zdy.cc www.zdy.cc
+#游众传媒
+0.0.0.0 book.gamediad.com www1.gamediad.com www2.gamediad.com www3.gamediad.com

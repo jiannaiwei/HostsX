@@ -1,4 +1,4 @@
-;version=201010051435
+;version=201010061030
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1244,6 +1244,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pop168.adsame.com
 0.0.0.0 rayli.adsame.com
 0.0.0.0 samba.adsame.com
+0.0.0.0 sammix.adsame.com
 0.0.0.0 sina.adsame.com
 0.0.0.0 techweb.adsame.com
 0.0.0.0 uusee.adsame.com
@@ -1572,6 +1573,11 @@ ff02::3 ip6-allhosts
 #做第一传媒
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
+#游众传媒
+0.0.0.0 book.gamediad.com
+0.0.0.0 www1.gamediad.com
+0.0.0.0 www2.gamediad.com
+0.0.0.0 www3.gamediad.com
 @HostsX 恶意行为阻止
 #电信劫持
 0.0.0.0 114.allyes.com
