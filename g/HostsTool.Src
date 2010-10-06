@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.09
+set ver=V2.10
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
 set te=
@@ -15,7 +15,7 @@ set downa=wget -nH -N -c -t 10 -w 2 -T 10 -P Acrylic
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /q echo host hosts>nul 2>nul
 del /f /q down\*.*>nul 2>nul
-del /f /q 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt>nul 2>nul
+del /f /q 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt HostsX.orzhosts>nul 2>nul
 rd /s /q down\hosts\>nul 2>nul
 rd /s /q down\>nul 2>nul
 :Parameters
@@ -160,7 +160,7 @@ goto menu
 title 设置Hosts文件访问权限
 mode con: cols=50 lines=15
 echo.
-echo 0,设为只读（默认回车使用）     5,不设置
+echo 0,设为只读（默认使用） 5,不设置  6,返回
 echo.
 echo 1,设置NTFS读取权限（防删，只读，可改名）  
 echo.
@@ -170,13 +170,13 @@ echo 3,取消NTFS权限控制      4,重新打开Hosts
 SET Choice=
 echo.
 SET /P Choice=修改完成后请关闭记事本继续选择：
-IF NOT '%Choice%'=='' SET Choice=%Choice:~0,1%
 IF /I '%Choice%'=='0' GOTO readonly
 IF /I '%Choice%'=='1' GOTO ntfsr
 IF /I '%Choice%'=='2' GOTO ntfsno
 IF /I '%Choice%'=='3' GOTO ntfsf
 IF /I '%Choice%'=='4' GOTO run
 IF /I '%Choice%'=='5' GOTO dns
+IF /I '%Choice%'=='6' GOTO menu
 :readonly
 attrib +r +a +s %hosts%
 goto pmfinish
@@ -199,9 +199,7 @@ goto pmfinish
 :pmfinish
 echo.
 echo Hosts文件权限设置完成！
-pause
-ipconfig /flushdns>nul 2>nul
-goto exit
+ipconfig /flushdns>nul 2>nul&exit
 
 :Cert
 certmgr.msc
@@ -255,7 +253,6 @@ if /i "%all%"=="6" goto gunion
 if /i "%all%"=="7" goto gsoft
 if /i "%all%"=="8" goto greg
 if /i "%all%"=="0" goto gmwsl
-if /i "%all%"=="1" goto dft
 if /i "%all%"=="m" goto mwslcn
 if /i "%all%"=="v" goto MVPShosts
 if /i "%all%"=="s" goto someonewhocares
@@ -271,11 +268,12 @@ echo 无法连接升级服务器！
 echo.
 echo 请检查网络连接或稍后再试！&pause>nul&goto menu
 :dftok
-echo 正在下载中，请稍候... ...
+echo       正在更新Hosts数据
+echo.
+echo         ...请稍后...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-pause&cls
 copy down\HostsX.orzhosts %hosts%
-goto Perms
+echo Hosts数据更新成功！&pause&goto Perms
 
 :datadown
 echo 正在下载基础数据中，请稍候... ...
@@ -506,6 +504,7 @@ echo.
 echo  Acrylic文件丢失，无法继续使用该服务！
 echo  请重新安装Acrylic组件！
 echo  按任意键重新下载……
+if not exist Acrylic\ md Acrylic\
 pause>nul
 goto Alcfile
 :Alcfile
@@ -1065,7 +1064,6 @@ goto othertool
 wget -nH -N -c -t 10 -w 2 -q http://hostsx.googlecode.com/svn/trunk/lib/cacls.exe
 if not exist cacls.exe goto sysfile&pause&goto menu
 
-
 :Check_Updates
 Mode con cols=50 lines=15
 Title 在线更新
@@ -1103,6 +1101,8 @@ if /I !choose!==Y goto UpdatesNow)
 cls
 echo                    正在下载更新                    ...请稍后...
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/HostsTool.Src">%temp%\HostsTool.bat
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">%temp%\HostsX.orzhosts
+copy %temp%\HostsX.orzhosts %hosts%
 echo @echo off>%temp%\up.bat
 echo Mode con cols=50 lines=10>>%temp%\up.bat
 echo Title 在线更新>>%temp%\up.bat
@@ -1117,10 +1117,11 @@ exit
 
 :CheckError
 cls
-echo                 无法连接更新服务器
+echo      无法连接更新服务器
 echo.
-echo                     请下载更新
+echo          请下载更新
 ping /n 3 127.1>nul
+start /min iexplore http://hi.baidu.com/iebb
 goto menu
 
 :Thanks
@@ -1170,12 +1171,12 @@ echo 感谢 ch4sedream 给出的DropBox的新Ip；
 echo 感谢 深度诱惑 反馈的Webqq的登录误过滤问题；
 echo 感谢 H2O2 aleax 等对于Xmarks给出的更新建议；
 echo 感谢博客上的一些朋友反馈的Vista和Win7的相关问题。
-echo 感谢 徐俊 反馈的一些网页的细节问题。
+echo 感谢 徐俊 反馈的诸多网页的细节问题。
+echo 感谢 bark 基于G+数据整理的恶意行为网站，已并入进程中。
 echo --------------------------------------------------------
 pause&goto menu
 
 :Help
-start /min iexplore http://hi.baidu.com/iebb
 mshta vbscript:msgbox("使用中遇到问题请留言，谢谢！",64,"G+ Hosts")(window.close)
 echo --------------------------------------------------------
 echo File Location:
