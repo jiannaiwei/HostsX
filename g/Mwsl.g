@@ -1,7 +1,7 @@
 @HostsX 恶意行为阻止
 #电信劫持
-0.0.0.0 114.allyes.com 114.com.cn 114search.118114.cn 118114.cn partner.114.com.cn search.114.vnet.cn so.118114.cn s.114.com.cn union.114.com.cn
-0.0.0.0 dianxin.cn dianxin.com game.dianxin.cn www.dianxin.cn ad.online.cq.cn ad.xunkoo.com ads.iisdoor.com hot.apinpai.com
+0.0.0.0 114.allyes.com 114.com.cn 114search.118114.cn 118114.cn partner.114.com.cn search.114.vnet.cn keyword.vnet.cn so.118114.cn s.114.com.cn
+0.0.0.0 union.114.com.cn dianxin.cn dianxin.com game.dianxin.cn www.dianxin.cn ad.online.cq.cn ad.xunkoo.com ads.iisdoor.com hot.apinpai.com
 #联通劫持
 0.0.0.0 sddns1.cncmax.cn sddns2.cncmax.cn sddns5.cncmax.cn sddns7.cncmax.cn uninewspace.allyes.com
 #IE劫持

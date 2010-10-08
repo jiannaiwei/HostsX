@@ -150,6 +150,8 @@
 0.0.0.0 ad.ynet.com fun.ynet.com ranking.ynet.com
 #»¦½­Ó¢Óï
 0.0.0.0 a4.yeshj.com
+#¹Å³ÇÈÈÏß
+0.0.0.0 hot.269.net
 #39½¡¿µÍø
 0.0.0.0 app-g.39.net dpvc.39.net dy.39.net 39net.datamaster.com.cn
 #ËÑ·¿Íø

@@ -1,4 +1,4 @@
-;version=201010061800
+;version=201010082110
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -833,6 +833,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ranking.ynet.com
 #沪江英语
 0.0.0.0 a4.yeshj.com
+#古城热线
+0.0.0.0 hot.269.net
 #39健康网
 0.0.0.0 app-g.39.net
 0.0.0.0 dpvc.39.net
@@ -1587,6 +1589,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 118114.cn
 0.0.0.0 partner.114.com.cn
 0.0.0.0 search.114.vnet.cn
+0.0.0.0 keyword.vnet.cn
 0.0.0.0 so.118114.cn
 0.0.0.0 s.114.com.cn
 0.0.0.0 union.114.com.cn
