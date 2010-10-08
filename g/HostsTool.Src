@@ -18,10 +18,9 @@ echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
 cls
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /q echo host hosts>nul 2>nul
-del /f /q down\*.*>nul 2>nul
+del /f /q gdown\*.*>nul 2>nul
 del /f /q 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt HostsX.orzhosts>nul 2>nul
-rd /s /q down\hosts\>nul 2>nul
-rd /s /q down\>nul 2>nul
+rd /s /q gdown\>nul 2>nul
 :Parameters
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 rem 判断操作系统版本，并设置系统默认Hosts文件位置的变量。
@@ -146,8 +145,8 @@ copy %temp%\ipv6.txt %hosts%
 goto perms
 
 :gdft
-if not exist down\rd.g call :datadown
-cd down\ >nul 2>nul
+if not exist gdown\rd.g call :datadown
+cd gdown\ >nul 2>nul
 copy /b Rd.g+1key.g+Site.g+Union.g+Soft.g+Reg.g+Game.g+Mwsl.g hbhosts.txt
 copy hbhosts.txt %hosts%
 cd.. >nul 2>nul
@@ -155,56 +154,56 @@ goto perms
 
 :datadown
 echo 数据下载中，请稍候... ...
-md down\>nul 2>nul
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Rd.g">%cd%\down\Rd.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/1key.g">%cd%\down\1key.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Site.g">%cd%\down\Site.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Union.g">%cd%\down\Union.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Soft.g">%cd%\down\Soft.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Reg.g">%cd%\down\Reg.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Game.g">%cd%\down\Game.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Mwsl.g">%cd%\down\Mwsl.g
+md gdown\>nul 2>nul
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Rd.g">%cd%\gdown\Rd.g
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/1key.g">%cd%\gdown\1key.g
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Site.g">%cd%\gdown\Site.g
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Union.g">%cd%\gdown\Union.g
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Soft.g">%cd%\gdown\Soft.g
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Reg.g">%cd%\gdown\Reg.g
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Game.g">%cd%\gdown\Game.g
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Mwsl.g">%cd%\gdown\Mwsl.g
 cls&mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"G+ Hosts")(window.close)
 goto menu
 
 :grd
-if not exist down\Rd.g call :datadown
-copy down\Rd.g %hosts%
+if not exist gdown\Rd.g call :datadown
+copy gdown\Rd.g %hosts%
 goto perms
 
 :g1key
-if not exist down\1key.g call :datadown
-copy down\1key.g %hosts%
+if not exist gdown\1key.g call :datadown
+copy gdown\1key.g %hosts%
 goto perms
 
 :gsite
-if not exist down\Site.g call :datadown
-copy down\Site.g %hosts%
+if not exist gdown\Site.g call :datadown
+copy gdown\Site.g %hosts%
 goto perms
 
 :gunion
-if not exist down\Union.g call :datadown
-copy down\Union.g %hosts%
+if not exist gdown\Union.g call :datadown
+copy gdown\Union.g %hosts%
 goto perms
 
 :gsoft
-if not exist down\Soft.g call :datadown
-copy down\Soft.g %hosts%
+if not exist gdown\Soft.g call :datadown
+copy gdown\Soft.g %hosts%
 goto perms
 
 :greg
-if not exist down\Reg.g call :datadown
-copy down\Reg.g %hosts%
+if not exist gdown\Reg.g call :datadown
+copy gdown\Reg.g %hosts%
 goto perms
 
 :ggame
-if not exist down\Game.g call :datadown
-copy down\Game.g %hosts%
+if not exist gdown\Game.g call :datadown
+copy gdown\Game.g %hosts%
 goto perms
 
 :gmwsl
-if not exist down\Mwsl.g call :datadown
-copy down\Mwsl.g %hosts%
+if not exist gdown\Mwsl.g call :datadown
+copy gdown\Mwsl.g %hosts%
 goto perms
 
 :mwslcn
