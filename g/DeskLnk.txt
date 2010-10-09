@@ -1,3 +1,21 @@
+function GetHttpFile(url) 
+    dim m,s 
+m="Microsoft.XMLHTTP" 
+s="ADODB.Stream" 
+    FileName=LCase(mid(url,InStrRev(url, "/")+1)) 
+Set xml = CreateObject(m) 
+xml.Open "GET",url,False 
+xml.Send 
+with CreateObject(s) 
+.type=1 
+.open 
+.write xml.responseBody 
+.savetofile ".\"&FileName,2 
+end with 
+set xml=Nothing 
+end function 
+GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/g.ico") 
+
 Set objShell = CreateObject("Wscript.Shell")
 strPath = Wscript.ScriptFullName
 Set objFSO = CreateObject("Scripting.FileSystemObject")

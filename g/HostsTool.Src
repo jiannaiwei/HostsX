@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.3
+set ver=V2.32
 ren %0 "HostsTool.bat"
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
@@ -155,16 +155,8 @@ goto perms
 :datadown
 echo 数据下载中，请稍候... ...
 md gdown\>nul 2>nul
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Rd.g">%cd%\gdown\Rd.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/1key.g">%cd%\gdown\1key.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Site.g">%cd%\gdown\Site.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Union.g">%cd%\gdown\Union.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Soft.g">%cd%\gdown\Soft.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Reg.g">%cd%\gdown\Reg.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Game.g">%cd%\gdown\Game.g
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Mwsl.g">%cd%\gdown\Mwsl.g
-cls&mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"G+ Hosts")(window.close)
-goto menu
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Gdown.txt">%cd%\gdown\Gdown.vbs
+Gdown.vbs&goto menu
 
 :grd
 if not exist gdown\Rd.g call :datadown
