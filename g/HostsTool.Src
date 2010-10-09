@@ -1,5 +1,8 @@
 @echo off
 set ver=V2.321
+rem 2.x及后续版本的目录调整
+md d:\HostsX >nul
+copy %0 d:\HostsX >nul
 ren %0 "HostsTool.bat"
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
