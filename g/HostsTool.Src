@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.32
+set ver=V2.321
 ren %0 "HostsTool.bat"
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
@@ -17,10 +17,7 @@ echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
 cls
 rem 清理可能影响运行或者之前运行残留的文件
-del /f /q echo host hosts>nul 2>nul
-del /f /q gdown\*.*>nul 2>nul
-del /f /q 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt HostsX.orzhosts>nul 2>nul
-rd /s /q gdown\>nul 2>nul
+del /f /q echo host hosts 1.txt go.txt hbhosts.txt hosts.txt 自定义.txt HostsX.orzhosts Rd.g 1key.g Site.g Union.g Soft.g Reg.g Game.g Mwsl.g Gdown.vbs>nul 2>nul
 :Parameters
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 rem 判断操作系统版本，并设置系统默认Hosts文件位置的变量。
@@ -145,57 +142,55 @@ copy %temp%\ipv6.txt %hosts%
 goto perms
 
 :gdft
-if not exist gdown\rd.g call :datadown
-cd gdown\ >nul 2>nul
+if not exist rd.g call :datadown
 copy /b Rd.g+1key.g+Site.g+Union.g+Soft.g+Reg.g+Game.g+Mwsl.g hbhosts.txt
 copy hbhosts.txt %hosts%
-cd.. >nul 2>nul
 goto perms
 
 :datadown
 echo 数据下载中，请稍候... ...
-md gdown\>nul 2>nul
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Gdown.txt">%cd%\gdown\Gdown.vbs
-Gdown.vbs&goto menu
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Gdown.txt">%cd%\Gdown.vbs
+Gdown.vbs
+goto menu
 
 :grd
-if not exist gdown\Rd.g call :datadown
-copy gdown\Rd.g %hosts%
+if not exist Rd.g call :datadown
+copy Rd.g %hosts%
 goto perms
 
 :g1key
-if not exist gdown\1key.g call :datadown
-copy gdown\1key.g %hosts%
+if not exist 1key.g call :datadown
+copy 1key.g %hosts%
 goto perms
 
 :gsite
-if not exist gdown\Site.g call :datadown
-copy gdown\Site.g %hosts%
+if not exist Site.g call :datadown
+copy Site.g %hosts%
 goto perms
 
 :gunion
-if not exist gdown\Union.g call :datadown
-copy gdown\Union.g %hosts%
+if not exist Union.g call :datadown
+copy Union.g %hosts%
 goto perms
 
 :gsoft
-if not exist gdown\Soft.g call :datadown
-copy gdown\Soft.g %hosts%
+if not exist Soft.g call :datadown
+copy Soft.g %hosts%
 goto perms
 
 :greg
-if not exist gdown\Reg.g call :datadown
-copy gdown\Reg.g %hosts%
+if not exist Reg.g call :datadown
+copy Reg.g %hosts%
 goto perms
 
 :ggame
-if not exist gdown\Game.g call :datadown
-copy gdown\Game.g %hosts%
+if not exist Game.g call :datadown
+copy Game.g %hosts%
 goto perms
 
 :gmwsl
-if not exist gdown\Mwsl.g call :datadown
-copy gdown\Mwsl.g %hosts%
+if not exist Mwsl.g call :datadown
+copy Mwsl.g %hosts%
 goto perms
 
 :mwslcn
