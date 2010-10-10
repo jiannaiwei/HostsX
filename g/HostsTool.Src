@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.321
+set ver=V2.323
 rem 2.x及后续版本的目录调整
 md d:\HostsX >nul
 copy %0 d:\HostsX >nul
@@ -356,7 +356,6 @@ echo ping /n 3 127.1^>nul>>%temp%\up.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
 echo Exit>>%temp%\up.bat
-pause
 start %temp%\up.bat
 exit
 

@@ -125,7 +125,7 @@
 #CBSNews
 0.0.0.0 dw.cbsnews.com
 #CNet
-0.0.0.0 adlog.com.com dw-cn.com.com dw.cnet.com i.i.com.com image.com.com img.com.com rubics-assets.com.com www.cbsinteractive.com
+0.0.0.0 adlog.com.com dw-cn.com.com dw.cnet.com image.com.com img.com.com rubics-assets.com.com www.cbsinteractive.com
 #GameSpot China
 0.0.0.0 stat.gamespot.com.cn
 #SPN
