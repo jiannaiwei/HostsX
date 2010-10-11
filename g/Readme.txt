@@ -77,3 +77,52 @@ Acrylic安装使用说明：
 背景 文字 color %a%%b%：0.黑色1.蓝色2.绿色3.浅绿色4.红色 5.紫色
 6.黄色7.白色8.灰色9.浅蓝色 A.浅绿B.浅蓝C.浅红D.淡紫E.浅黄F.亮白
 -------------------------------------------------------------------
+如何使用ipv6登录
+
+以下是不同的作业系统的IPV6设置方法
+
+1. Windows XP：在CMD执行以下指令
+
+程序代码:
+ipv6 install
+
+2. Vista与Win7:
+a. 事先在网上搜索可用的“ISATAP隧道点IP”(注1)取代下方的 XX.XX.XX.XX
+b. 在CMD执行以下指令
+
+程序代码:
+net start iphlpsvc
+sc config iphlpsvc start= auto
+netsh interface ipv6 isatap set state enabled
+netsh interface ipv6 isatap set router XX.XX.XX.XX
+
+3. Mac OS X
+V10.2(Jaguar)以后的Mac OS都捆绑了IPv6,而Mac OS 9则还没有任何的IPv6支持。
+a. 打开终端窗口。输入 /sbin/ifconfig -a 列出所有接口。你应该能看到类似这样的信息:
+
+程序代码:
+en0: flags=8863 mtu 1500
+inet6 fe80::203:93ff:fe67:80b2%en0 prefixlen 64 scopeid 0x4
+ether 00:03:93:67:80:b2
+inet 192.168.1.101 netmask 0xffffff00 broadcast 192.168.1.255
+media: autoselect (none) status: active
+
+b. 找到标记 status: active 的那个接口,通常会是en0。如果不是,切记在后续的操作中用实际接口替换。输入:
+程序代码:
+sudo ip6config start-v6 en0; sudo ip6config start-stf en0
+
+
+4. 测试线上IPv6 网站, 如果能正常出现画面就表示IPV6设置正确且可用
+http://ipv6.google.com
+5. 更多的OS配置方法请参阅以下网页：
+http://www.ipv6day.org/action.php?n=Sicn.Configuration
+
+注1:
+在此提供些许“ISATAP隧道点IP”，其他请自行上网查找
+
+上海 isatap.sjtu.edu.cn
+德国 isatap.UNI-MUENSTER.DE
+台湾 nc9.giga.net.tw
+台湾 isatap.ipv6.chttl.com.tw
+韩国 isatap.ngix.ne.kr
+波兰 isatap.icpnet.pl
