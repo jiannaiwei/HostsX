@@ -1,4 +1,4 @@
-;version=201010101710
+;version=201010111111
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -433,9 +433,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 pinyin.sogou.com
 0.0.0.0 st.pinyin.sogou.com
 #搜狗浏览器
+0.0.0.0 conf.ie.sogou.com
+0.0.0.0 config.ie.sogou.com
 0.0.0.0 ping.ie.sogou.com
 0.0.0.0 pingback.ie.sogou.com
-0.0.0.0 conf.ie.sogou.com
 @HostsX 一站式过滤/金山在线
 #金山联盟
 0.0.0.0 db.union.download.kingsoft.com
@@ -1919,6 +1920,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 xy.8zgame.com
 0.0.0.0 yz.szgla.com
+0.0.0.0 www.huaqimen.com
 @HostsX 软件广告过滤
 #YY语音
 0.0.0.0 ad.yy.duowan.com

@@ -99,7 +99,7 @@
 #搜狗拼音
 0.0.0.0 files2.sogou.com config.pinyin.sogou.com ime.sogou.com info.pinyin.sogou.com ping.pinyin.sogou.com pinyin.sogou.com st.pinyin.sogou.com
 #搜狗浏览器
-0.0.0.0 ping.ie.sogou.com pingback.ie.sogou.com conf.ie.sogou.com
+0.0.0.0 conf.ie.sogou.com config.ie.sogou.com ping.ie.sogou.com pingback.ie.sogou.com
 @HostsX 一站式过滤/金山在线
 #金山联盟
 0.0.0.0 db.union.download.kingsoft.com stat.sp.kingsoft.com union.jx2.kingsoft.com union.kingsoft.com union.wps.kingsoft.com
