@@ -18,7 +18,7 @@
 0.0.0.0 ht.sooe.cn www.sooe.cn ht.hao120.cc www.hao120.cc m.ttgrs.cn www.ttgrs.cn asiafind1.com asiafriendfinder.com pp9a.com
 0.0.0.0 www.pp9a.com 98712.com zx.98712.com lkn.zoossoft.cn testserver.zoosnet.net www.zoosnet.net www.zoossoft.com 888888fa.com adtaobao.tobo123.com
 0.0.0.0 code.loading.wolian.net fx.v1kk.com hjmg.930114.com img.tjq.com shop.hoo6.com shop.liweihui.com u.the668.com v8.olajk.com www.133i.com
-0.0.0.0 www.algj-27dy.cn www.fengxin114.com www.juyuan.com www.ruox.net www.taobanwang.com www.uniqlo.jp www.xgjgw.com xinw.net
+0.0.0.0 www.algj-27dy.cn www.fengxin114.com www.juyuan.com www.ruox.net www.taobanwang.com www.uniqlo.jp www.xgjgw.com xinw.net 2010texq.com
 #π„∏Ê«øµØ
 0.0.0.0 5.nihao600.com chess.r.arpg2.com cn.88db.com em.kongzhong.com www.13097.com
 0.0.0.0 www.igo2018.com www.jiayuan.com www.jysls.com www.kmmcn.com www1.zjbdt.com

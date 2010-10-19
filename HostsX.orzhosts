@@ -1,4 +1,4 @@
-;version=201010191210
+;version=201010191350
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -903,6 +903,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
 0.0.0.0 counter.hitslink.com
+0.0.0.0 cs.37see.com
 0.0.0.0 e.appsasia.net
 0.0.0.0 go.maxreturn.cn
 0.0.0.0 m.menhutong.com.cn
@@ -1672,6 +1673,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 smtown.com
 0.0.0.0 superjunior.smtown.com
 #广告诈骗
+0.0.0.0 2010texq.com
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
 0.0.0.0 adtaobao.tobo123.com
