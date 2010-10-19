@@ -46,3 +46,10 @@ ff02::3 ip6-allhosts
 63.223.106.181 soutong.com
 #Puff
 64.71.141.148 intl.easyssh.info
+#Mtime
+203.110.168.225 img2.mtime.com
+59.151.32.41 my.mtime.com
+59.151.32.72 group.mtime.com
+59.151.32.16 i.mtime.com
+59.151.32.20 www.mtime.com
+
