@@ -13,7 +13,9 @@ with CreateObject(s)
 .savetofile ".\"&FileName,2 
 end with 
 set xml=Nothing 
-end function 
+end function
+GetHttpFile("http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts")
+GetHttpFile("http://hostsx.googlecode.com/svn/trunk/ipv6.txt")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Rd.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/1key.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Site.g")

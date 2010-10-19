@@ -1,8 +1,5 @@
 @echo off
-set ver=V2.323
-rem 2.x及后续版本的目录调整
-md d:\HostsX >nul
-copy %0 d:\HostsX >nul
+set ver=V2.325
 ren %0 "HostsTool.bat"
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
@@ -47,7 +44,7 @@ set hosts=
 goto menu
 
 :menu
-mode con cols=61 lines=33
+mode con cols=59 lines=28
 rem 系统文件检测
 if not exist %windir%\system32\cacls.exe (start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls.exe)& (echo 未检测到运行所需的文件！请下载后保存至当前目录！)&pause&goto opdp
 rem 解除Hosts只读属性，权限限制
@@ -55,29 +52,25 @@ echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls
 title G+ 极佳猴子 %ver%  %version%
-echo ─────────────────────────────
-echo ○Main Data:                                               
-echo.     G.HostsX数据      i.IPV6数据        R.智能转向                 
-echo.   
-echo ☆Single Data:                                             
-echo.     1.一站式过滤      2.站点过滤        3.广告联盟        
-echo.    
-echo ▲Soft Data:                                             
-echo.     5.软件广告        6.软件验证        7.游戏验证        
-echo.    
-echo ◎Mwsl Data:                                              
-echo.     M.DU110(荐)       S.MWSL实验室      V.MVPSData                        
 echo ----------------------------------------------------------
-echo ☆User Data:                                              
-echo.     A.屏蔽/加速访问   C.删除屏蔽网站    E.工作用屏蔽   
-echo.
+echo ○Main Data:
+echo.     G.HostsX数据      i.IPV6数据        R.智能转向
+echo ☆Single Data:
+echo.     1.一站式过滤      2.站点过滤        3.广告联盟           
+echo ▲Soft Data:
+echo.     5.软件广告        6.软件验证        7.游戏验证
+echo ◎Mwsl Data:
+echo.     M.DU110(荐)       S.MWSL实验室      V.MVPSData                        
+echo ☆User Custom:
+echo.     A.屏蔽/加速访问   C.删除屏蔽网站    E.工作用屏蔽
+echo ----------------------------------------------------------
 echo.     H.添加IE不信任网址    J.删除IE不信任网址            
 echo.     U.模式1 L.在线升级    X.修复IE      O.Hosts目录
-echo   -------------------------------------------------------- 
+echo   --------------------------------------------------------
 echo    B.备份Hosts文件    D.删除Hosts备份     K.快捷方式修复 
 echo    F.修复Hosts文件    P.设置Hosts权限     T.感谢帮助反馈 
 echo   --------------------------------------------------------
-echo 当前工作位置(0)：%~dp0
+echo 当前工作目录(0)：%~dp0
 echo.
 set all=
 set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
