@@ -123,23 +123,24 @@
 0.0.0.0 adtaobao.allyes.cn taobaoafp.allyes.cn taobaoafp.allyes.com
 @HostsX 一站式过滤/CBS Interactive
 #CBSNews
-0.0.0.0 dw.cbsnews.com
+0.0.0.0 dw.cbsi.com.cn dw.cbsnews.com
 #CNet
 0.0.0.0 adlog.com.com dw-cn.com.com dw.cnet.com image.com.com img.com.com rubics-assets.com.com www.cbsinteractive.com
 #GameSpot China
 0.0.0.0 stat.gamespot.com.cn
 #SPN
 0.0.0.0 count.spn.com.cn www2.spn.com.cn
-#中关村系列
-0.0.0.0 active.zol.com.cn adm.zol.com.cn bd.zol.com.cn bwp.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn stat.zol.com.cn
+#中关村在线
+0.0.0.0 active.zol.com.cn adm.zol.com.cn bd.zol.com.cn bwp.zol.com.cn js.zol.com.cn jspchome.zol.com.cn pv.zol.com.cn pvpchome.zol.com.cn pvsite.zol.com.cn
+0.0.0.0 stat.zol.com.cn
 #电脑之家
-0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net market.pchome.net js-1.pchome.net stat.pchome.net
+0.0.0.0 ad.pchome.net btm.pchome.net btn.pchome.net click.pchome.net js-1.pchome.net market.pchome.net stat.pchome.net
 #至顶网ZDNet
 0.0.0.0 am.zdnet.com.cn icon.zdnet.com.cn pv.zdnet.com.cn server.zdnet.com.cn
 #西域IT
 0.0.0.0 apic.xiyuit.com
 #万维家电
-0.0.0.0 pic.ea3w.com
+0.0.0.0 js.ea3w.com pic.ea3w.com stat.ea3w.com
 #网上车市
 0.0.0.0 analyze.cheshi.com click.cheshi.com media.cheshi-img.com pv.cheshi.com fallyesbjafa.allyes.com
 #爱卡汽车

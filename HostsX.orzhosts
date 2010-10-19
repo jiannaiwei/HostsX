@@ -1,4 +1,4 @@
-;version=201010192150
+;version=201010192250
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -501,6 +501,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 taobaoafp.allyes.com
 @HostsX 一站式过滤/CBS Interactive
 #CBSNews
+0.0.0.0 dw.cbsi.com.cn
 0.0.0.0 dw.cbsnews.com
 #CNet
 0.0.0.0 adlog.com.com
@@ -515,11 +516,12 @@ ff02::3 ip6-allhosts
 #SPN
 0.0.0.0 count.spn.com.cn
 0.0.0.0 www2.spn.com.cn
-#中关村系列
+#中关村在线
 0.0.0.0 active.zol.com.cn
 0.0.0.0 adm.zol.com.cn
 0.0.0.0 bd.zol.com.cn
 0.0.0.0 bwp.zol.com.cn
+0.0.0.0 js.zol.com.cn
 0.0.0.0 jspchome.zol.com.cn
 0.0.0.0 pv.zol.com.cn
 0.0.0.0 pvpchome.zol.com.cn
@@ -530,8 +532,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 btm.pchome.net
 0.0.0.0 btn.pchome.net
 0.0.0.0 click.pchome.net
-0.0.0.0 market.pchome.net
 0.0.0.0 js-1.pchome.net
+0.0.0.0 market.pchome.net
 0.0.0.0 stat.pchome.net
 #至顶网ZDNet
 0.0.0.0 am.zdnet.com.cn
@@ -541,7 +543,9 @@ ff02::3 ip6-allhosts
 #西域IT
 0.0.0.0 apic.xiyuit.com
 #万维家电
+0.0.0.0 js.ea3w.com
 0.0.0.0 pic.ea3w.com
+0.0.0.0 stat.ea3w.com
 #网上车市
 0.0.0.0 analyze.cheshi.com
 0.0.0.0 click.cheshi.com
