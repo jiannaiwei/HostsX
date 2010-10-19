@@ -28,6 +28,7 @@
 0.0.0.0 cpic2.edushi.com down.2345g.info down.jghdtv.com down.vbuv.cn download.duozz.com gb.36578.com hz.mmstat.com img38.my1188.info qqhdx.cn
 0.0.0.0 soft.ie222.com taojin.18ii.info wt1.skycn.gogle.cn www.001cndc.cn www.05kiss.cn www.125c.com www.ie9down.info www.mycar021.com www.mypremierfutbol.com
 0.0.0.0 www.qq-2010f.com www.qq201017.info www.todaysfutbol.com www.zgsj.com www.zhutizi.com wz654321.cn jr.ztgame.com www.zaoxue.com www.cool92.cn
+0.0.0.0 Gamesfactoryinteractive.com Games-digest.com Mariogamesplay.com Anywhere-games.com Galacticflashgames.com Towerofdefense.com
 #Á÷Ã¥À¦°ó
 0.0.0.0 jsunion.boodvd.cn jsunion.boodvd.com union.boodvd.com www.duote.com www.duotegame.com img.duote.com it.oyksoft.com www.oyksoft.com www.xiazaiba.com
 0.0.0.0 xiazaiba.com xiazai.xiazaiba.com www.ouyaoxiazai.com 52z.com www.52z.com www.q766.com

@@ -1,4 +1,4 @@
-;version=201010111111
+;version=201010191120
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Õ¾µãÖÇÄÜ×ªÏò
 #Localhost
@@ -1721,33 +1721,40 @@ ff02::3 ip6-allhosts
 0.0.0.0 icbc-y.com
 0.0.0.0 e-mail-google.Co.CC
 #²¡¶¾ÏÂÔØ
+
+0.0.0.0 Anywhere-games.com
 0.0.0.0 cpic2.edushi.com
 0.0.0.0 down.2345g.info
 0.0.0.0 down.jghdtv.com
 0.0.0.0 down.vbuv.cn
 0.0.0.0 download.duozz.com
+0.0.0.0 Galacticflashgames.com
+0.0.0.0 Games-digest.com
+0.0.0.0 Gamesfactoryinteractive.com
 0.0.0.0 gb.36578.com
 0.0.0.0 hz.mmstat.com
 0.0.0.0 img38.my1188.info
+0.0.0.0 jr.ztgame.com
+0.0.0.0 Mariogamesplay.com
 0.0.0.0 qqhdx.cn
 0.0.0.0 soft.ie222.com
 0.0.0.0 taojin.18ii.info
+0.0.0.0 Towerofdefense.com
 0.0.0.0 wt1.skycn.gogle.cn
 0.0.0.0 www.001cndc.cn
 0.0.0.0 www.05kiss.cn
 0.0.0.0 www.125c.com
+0.0.0.0 www.cool92.cn
 0.0.0.0 www.ie9down.info
 0.0.0.0 www.mycar021.com
 0.0.0.0 www.mypremierfutbol.com
 0.0.0.0 www.qq-2010f.com
 0.0.0.0 www.qq201017.info
 0.0.0.0 www.todaysfutbol.com
+0.0.0.0 www.zaoxue.com
 0.0.0.0 www.zgsj.com
 0.0.0.0 www.zhutizi.com
 0.0.0.0 wz654321.cn
-0.0.0.0 jr.ztgame.com
-0.0.0.0 www.zaoxue.com
-0.0.0.0 www.cool92.cn
 #Á÷Ã¥À¦°ó
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com

@@ -16,8 +16,6 @@
 0.0.0.0 g.uusee.com sa.uusee.com traffic.uusee.com uhms.uusee.com uuseeafp.allyes.com
 #Vagaa
 0.0.0.0 btjoy.com img.daodao001.cn text.mplayer.org.cn stbnnr.allyes.com
-#UcWeb
-0.0.0.0 ads1.ucweb.com ads1.uc.com
 #HooKQQ
 0.0.0.0 www.hookqq.com
 #±©∑Á”∞“Ù

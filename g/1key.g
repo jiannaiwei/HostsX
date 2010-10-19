@@ -146,3 +146,5 @@
 0.0.0.0 count.xcar.com.cn d0.xcar.com.cn d1.xcar.com.cn dw.xcar.com.cn
 #·äÄñÍø
 0.0.0.0 pic.fengniao.com stat.fengniao.com
+#UcWeb
+0.0.0.0 ads1.ucweb.com ads1.uc.com
