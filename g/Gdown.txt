@@ -14,8 +14,6 @@ with CreateObject(s)
 end with 
 set xml=Nothing 
 end function
-GetHttpFile("http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts")
-GetHttpFile("http://hostsx.googlecode.com/svn/trunk/ipv6.txt")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Rd.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/1key.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Site.g")
@@ -24,5 +22,4 @@ GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Soft.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Reg.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Game.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Mwsl.g")
-GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Readme.txt")
-MsgBox "数据下载完成！", vbInformation, "G+ Hosts"
+MsgBox "数据下载完成，请返回重新选择！", vbInformation, "G+ Hosts"
