@@ -1,4 +1,4 @@
-;version=201010191350
+;version=201010192150
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -942,16 +942,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.scupio.com
 #国外常见广告
 0.0.0.0 ad.adtegrity.net
+0.0.0.0 ad.sitemaji.com
 0.0.0.0 ads.asp.net
 0.0.0.0 adtech.panthercustomer.com
 0.0.0.0 as.casalemedia.com
 0.0.0.0 banner.hosteurope.de
+0.0.0.0 banner.onshow.us
 0.0.0.0 content.pulse360.com
 0.0.0.0 counters.gigya.com
 0.0.0.0 d.cyberdefender.com
 0.0.0.0 edge.quantserve.com
 0.0.0.0 javascript.nwbox.com
 0.0.0.0 marketing.xineurope.com
+0.0.0.0 outpersonals.com
 0.0.0.0 pix04.revsci.net
 0.0.0.0 pub.softonic.cn
 0.0.0.0 s3.buysellads.com
@@ -959,11 +962,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 sharefoco.com
 0.0.0.0 static.addtoany.com
+0.0.0.0 static.awempire.com
 0.0.0.0 static.fotolia.com
 0.0.0.0 static02.linkedin.com
 0.0.0.0 stats.edgevertising.net
 0.0.0.0 statse.webtrendslive.com
 0.0.0.0 track.effiliation.asia
+0.0.0.0 track.sitetag.us
 0.0.0.0 www.adlinkmedia.net
 #论坛常用
 0.0.0.0 d.5d6d.com

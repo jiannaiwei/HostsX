@@ -12,7 +12,8 @@
 #国外常见广告
 0.0.0.0 ad.adtegrity.net ads.asp.net adtech.panthercustomer.com as.casalemedia.com banner.hosteurope.de content.pulse360.com counters.gigya.com d.cyberdefender.com edge.quantserve.com
 0.0.0.0 javascript.nwbox.com marketing.xineurope.com pix04.revsci.net pub.softonic.cn s3.buysellads.com secure.webhostingpad.com servedby.adsfactor.cn sharefoco.com static.addtoany.com
-0.0.0.0 static.fotolia.com static02.linkedin.com stats.edgevertising.net statse.webtrendslive.com track.effiliation.asia www.adlinkmedia.net
+0.0.0.0 static.fotolia.com static02.linkedin.com stats.edgevertising.net statse.webtrendslive.com track.effiliation.asia www.adlinkmedia.net static.awempire.com track.sitetag.us ad.sitemaji.com
+0.0.0.0 banner.onshow.us outpersonals.com
 #论坛常用
 0.0.0.0 d.5d6d.com un.5d6d.com union.phpwind.com jj.topzj.com
 #博客推广
