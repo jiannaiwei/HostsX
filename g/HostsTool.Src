@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.326
+set ver=V2.327
 ren %0 "HostsTool.bat"
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
@@ -319,24 +319,18 @@ echo.
 echo                    正在检查更新
 echo.
 echo                    ...请稍候...
+call :downvbs
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
 if "%verNew%"=="未知" goto chker
 cls
 echo.
-echo.
 echo         当前版本：  %ver%
 echo.
 echo         最新版本：  %verNew%
 echo.
-echo.
-if %ver%==%verNew% (echo 版本最新，不需要更新&ping /n 3 127.1>nul&goto menu) else (
-echo  发现新版本，是否更新？
-echo.
-echo  Y 开始更新  其他键返回
-set choose=~
-set /p choose=请选择：
-if /I !choose!==Y goto UpdatesNow)
+if %ver%==%verNew% (echo 已经是最新版本，无需升级！&ping /n 3 127.1>nul&goto menu) else (
+echo  发现新版本，按任意键更新&pause>nul& goto UpdatesNow)
 
 :UpdatesNow
 cls
