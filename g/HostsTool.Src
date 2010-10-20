@@ -431,7 +431,7 @@ ipconfig /flushdns>nul 2>nul&exit
 
 :thanks
 call :downvbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Readme.txt">%temp%\Readme.txt
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/Readme.txt">%cd%\Readme.txt
 Readme.txt&cls&goto menu
 
 :fixie
