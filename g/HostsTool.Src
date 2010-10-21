@@ -1,5 +1,5 @@
 @echo off
-set ver=V2.328
+set ver=V2.33
 ren %0 "HostsTool.bat"
 rem 设置随机变换颜色
 set/a xc=%random%%%5+1
@@ -315,6 +315,7 @@ reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zon
 goto menu
 
 :desklnk
+call :downvbs
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/DeskLnk.txt">%cd%\DeskLnk.vbs
 DeskLnk.vbs
 del DeskLnk.vbs
