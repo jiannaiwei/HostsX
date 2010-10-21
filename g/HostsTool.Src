@@ -385,7 +385,6 @@ goto menu
 :perms
 title 设置Hosts文件访问权限
 mode con: cols=50 lines=15
-start %windir%\notepad.exe %hosts%
 cls
 echo.
 echo 0.设为只读（默认使用） F.修复Hosts 
