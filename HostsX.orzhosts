@@ -1,4 +1,4 @@
-;version=201010201200
+;version=201010301330
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -73,7 +73,6 @@ ff02::3 ip6-allhosts
 @HostsX 一站式过滤/Microsoft AD
 #Msn登陆加速
 0.0.0.0 crl.microsoft.com
-#Msn
 0.0.0.0 ac2.msn.com
 0.0.0.0 ac3.msn.com
 0.0.0.0 ads.beta1.idss.msn.com
@@ -560,6 +559,41 @@ ff02::3 ip6-allhosts
 #蜂鸟网
 0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
+@HostsX 一站式过滤/移动应用
+#UCWeb
+127.0.0.1 ads1.uc.com
+127.0.0.1 ads1.ucweb.com
+#Android AD Filter
+127.0.0.1 219.133.44.109
+127.0.0.1 androidappoftheday.net
+127.0.0.1 apphu.com
+127.0.0.1 cx.360doo.com
+127.0.0.1 d.casee.cn
+127.0.0.1 d.gfan.com
+127.0.0.1 fullmp3.mobi
+127.0.0.1 m.askalok.com
+127.0.0.1 m.ddmap.com
+127.0.0.1 m.ymapp.com
+127.0.0.1 moto.casee.cn
+127.0.0.1 r.admob.com
+127.0.0.1 searchmp3.mobi
+127.0.0.1 static.wooboo.com.cn
+127.0.0.1 usaacademics-cn.com
+127.0.0.1 wap.cellufun.com
+127.0.0.1 wap.cttol.cn
+127.0.0.1 wap.mobango.com
+127.0.0.1 wap.pingan.com
+127.0.0.1 wap.ycwb.com
+127.0.0.1 www.bookhaveninstuments.com
+127.0.0.1 www.edolnet.com
+127.0.0.1 www.gsitechnology.com
+127.0.0.1 www.hkjiyuan.com
+127.0.0.1 www.hoopchina.com
+127.0.0.1 www.marsedu.com
+127.0.0.1 www.mathworks.cn
+127.0.0.1 www.pangchaodesign.cn
+127.0.0.1 www.wooboo.com.cn
+127.0.0.1 www.youmi.net
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/海外网站
 #ABCNews
@@ -584,31 +618,6 @@ ff02::3 ip6-allhosts
 #Lycos News
 0.0.0.0 ads.lycos.com
 0.0.0.0 advertising.lycos.com
-#Msn Live
-0.0.0.0 crl.microsoft.com
-0.0.0.0 ac2.msn.com
-0.0.0.0 ac3.msn.com
-0.0.0.0 ads.beta1.idss.msn.com
-0.0.0.0 ads1.msn.com
-0.0.0.0 adsyndication.msn.com
-0.0.0.0 analytics.live.com
-0.0.0.0 analytics.msn.com
-0.0.0.0 c.live.com
-0.0.0.0 c.msn.com
-0.0.0.0 c.msn.com.cn
-0.0.0.0 catalog.video.msn.com
-0.0.0.0 g.msn.com
-0.0.0.0 h.msn.com
-0.0.0.0 ms.analytics.live.com
-0.0.0.0 r.msn.com
-0.0.0.0 rad.live.com
-0.0.0.0 rad.msn.com
-0.0.0.0 ads.msn.com.nsatc.net
-0.0.0.0 ads2.msads.net
-0.0.0.0 global.msads.net
-0.0.0.0 msn.allyes.com
-0.0.0.0 msnms.allyes.cn
-0.0.0.0 msnportal.112.2o7.net
 #Myspace
 0.0.0.0 advertise.myspace.com
 0.0.0.0 count.myspace.cn
@@ -1491,7 +1500,6 @@ ff02::3 ip6-allhosts
 #大联盟
 0.0.0.0 ds2.unionbig.com
 0.0.0.0 u.unionli.com
-0.0.0.0 uimg.unionli.com
 0.0.0.0 ww.unionbig.com
 #达达传媒
 0.0.0.0 www.15159.net
@@ -1739,7 +1747,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 icbc-y.com
 0.0.0.0 e-mail-google.Co.CC
 #病毒下载
-
 0.0.0.0 Anywhere-games.com
 0.0.0.0 cpic2.edushi.com
 0.0.0.0 down.2345g.info

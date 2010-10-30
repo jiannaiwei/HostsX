@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 			    极佳猴子 (G+ Hosts) V2.x
-			    Jockwok.Com.  2010-10-21
+			    Jockwok.Com.  2010-11-01
 
 	Copyright (C) 2007-2010 Vokins Jockwok. All Rights Reserved.
 --------------------------------------------------------------------------------
@@ -25,7 +25,7 @@
 
  - G+ Hosts 是一款Hosts相关管理软件, 基于 前身为纯数据的Hosts整理文件(Beautiful 
    Hosts Patch)和简易的Hosts批处理文件Go（Gay）Hosts整理合并而成.
-   其数据可被广泛适用于多种操作平台(Win/Mac/UNIX/Java/Symbian/iPhone OS).
+   其数据可被广泛适用于多种操作平台(Win/Mac/UNIX/Java/Symbian/iPhone OS/Android).
 
  - 不需要除系统功能之外的第三方组件支持.
 
@@ -35,7 +35,7 @@
 
  - 十分小巧, 简单易用, 而且你可以完全免费使用它
 
- - 目前已有的数据包括: IPV6, RD(智能转向), 1Key(一站式数据), Site(站点广告过滤),
+ - 目前已有的数据包括: IPV6, RD(智能转向), , Site(站点广告过滤),
    Union(广告联盟数据), Soft(软件广告过滤), Reg(软件验证屏蔽), Game(游戏验证屏蔽),
    工作用屏蔽(屏蔽常见的娱乐应用网站)
 
@@ -45,6 +45,10 @@
 - G+ Hosts 免费并且公开源代码.
    您可以在以下地址 检出/查看 所有数据和源码:
    http://hostsx.googlecode.com/svn/trunk/g/
+
+
+- Data数据详解：
+  1Key.g(一站式数据)；适用于所有的操作平台；选用最常见的广告屏蔽数据，兼容性和体积
 
 --------------------------------------------------------------------------------
 2. 许可协议 (BSD License)
@@ -176,7 +180,8 @@
 8. Hosts文件位置
 
  - Hosts文件在不同操作系统（甚至不同Windows版本）的位置都不大一样：
-   Windows NT/2000/XP/Vista/7（即微软NT系列操作系统）：默认位置为%SystemRoot%\system32\drivers\etc\，但也可以改变。动态目录由注册表键\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\DataBasePath决定。
+   Windows NT/2000/XP/Vista/7（即微软NT系列操作系统）：默认位置为%SystemRoot%\system32\drivers\etc\，但也可以改变。
+           动态目录由注册表键\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\DataBasePath决定。
    Windows 95/98/Me：%WinDir%\
 
  - Linux(Ubuntu)及其他类Unix操作系统：/etc
@@ -189,7 +194,26 @@
 
  - Symbian第1/2版手机：C:\system\data\hosts
    Symbian第3版手机：C:\private\10000882\hosts，只能使用兼容AllFiles的文件浏览器访问
+   S60手机破解工作请访问OPDA,CNPDA等相关网站获取帮助
 
+ - Android手机系统：\etc\hosts (即：\system\etc\hosts)
+   在安装好您的手机驱动后可以使用adb调试工具
+   并依次运行如下命令：
+  "adb devices
+   adb remount
+   adb push hosts /system/etc/hosts
+   adb shell reboot" 
+   
+   
+   另外您亦可以使用以下方法：
+   "adb remount 
+    - remounts the /system partition on the device read-write
+    adb push hosts /system/etc/hosts
+    adb shell reboot"
+   Tips:
+    使用"cat /etc/hosts"   可以查看Hosts文件有没有修改成功
+    使用"adb pull /system/etc/hosts"  #把hosts文件从机器上取出来
+    注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽建议使用127.0.0.1 
 --------------------------------------------------------------------------------
 9. IPV6支持信息
 
