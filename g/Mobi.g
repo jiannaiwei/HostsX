@@ -1,6 +1,19 @@
-;version=201011011330
-;source list=Thanks www.du110.com shared mwsl Data,Thanks www.itfunz.com shared Andriod AdData,etc
-;Mod On Hostsx Data Base
+# Ad server list for blocking ad servers via hosts file.
+# List compiled with Android devices in mind. Will work in all apps including browser.
+# *** YOU NEED ROOT TO COPY THIS HOSTS FILE TO /etc ***
+# This HOSTS file was compiled by vokins for HostsX Data.
+#
+# For more information about this list, see: 
+# ----
+# last updated:2010-11-01 13:30
+# sources lists:
+# http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
+# http://www.mvps.org/winhelp2002/hosts.txt
+# http://forum.xda-developers.com/showthread.php?t=509997
+# http://www.du110.com/thread-11742-1-1.html
+# http://www.itfunz.com
+#  manual input => mobile ad/tracking providers (eg. admob, tapjoy, flurry, jumptap, etc.)
+
 @HostsX 站点智能转向
 #Localhost
 127.0.0.1       localhost
@@ -87,11 +100,11 @@
 127.0.0.1 adwords.google.sk
 #Google AdSense
 127.0.0.1 adservices.google.com
-127.0.0.1 pagead.google.com
-127.0.0.1 pagead.l.google.com
-127.0.0.1 static.googleadsserving.cn
 127.0.0.1 afs.googleadservices.com
 127.0.0.1 feedads.googleadservices.com
+127.0.0.1 googleadservices.com
+127.0.0.1 googleanalytlcs.com
+127.0.0.1 googleanalytlcs.net
 127.0.0.1 imageads.googleadservices.com
 127.0.0.1 imageads1.googleadservices.com
 127.0.0.1 imageads2.googleadservices.com
@@ -102,32 +115,96 @@
 127.0.0.1 imageads7.googleadservices.com
 127.0.0.1 imageads8.googleadservices.com
 127.0.0.1 imageads9.googleadservices.com
+127.0.0.1 pagead.google.com
+127.0.0.1 pagead.l.google.com
 127.0.0.1 pagead2.googleadservices.com
 127.0.0.1 partner.googleadservices.com
+127.0.0.1 static.googleadsserving.cn
 127.0.0.1 www.googleadservices.com
 #Google Doubleclick
 127.0.0.1 ad-apac.doubleclick.net
+127.0.0.1 ad-emea.doubleclick.net
 127.0.0.1 ad-g.doubleclick.net
+127.0.0.1 ad-yt-bfp.doubleclick.net
+127.0.0.1 ad.3ad.doubleclick.net
+127.0.0.1 ad.3au.doubleclick.net
+127.0.0.1 ad.adx.doubleclick.net
+127.0.0.1 ad.ae.doubleclick.net
+127.0.0.1 ad.ar.doubleclick.net
+127.0.0.1 ad.au.doubleclick.net
+127.0.0.1 ad.be.doubleclick.net
+127.0.0.1 ad.br.doubleclick.net
 127.0.0.1 ad.ca.doubleclick.net
+127.0.0.1 ad.ch.doubleclick.net
+127.0.0.1 ad.cibleclick.com
+127.0.0.1 ad.cl.doubleclick.net
 127.0.0.1 ad.cn.doubleclick.net
 127.0.0.1 ad.de.doubleclick.net
+127.0.0.1 ad.dk.doubleclick.net
+127.0.0.1 ad.doubleclick.com
 127.0.0.1 ad.doubleclick.net
+127.0.0.1 ad.es.doubleclick.net
+127.0.0.1 ad.fi.doubleclick.net
 127.0.0.1 ad.fr.doubleclick.net
+127.0.0.1 ad.gr.doubleclick.net
 127.0.0.1 ad.hk.doubleclick.net
+127.0.0.1 ad.hu.doubleclick.net
+127.0.0.1 ad.ie.doubleclick.net
+127.0.0.1 ad.in.doubleclick.net
+127.0.0.1 ad.it.doubleclick.net
 127.0.0.1 ad.jp.doubleclick.net
+127.0.0.1 ad.kr.doubleclick.net
 127.0.0.1 ad.nl.doubleclick.net
 127.0.0.1 ad.no.doubleclick.net
+127.0.0.1 ad.nz.doubleclick.net
+127.0.0.1 ad.pl.doubleclick.net
+127.0.0.1 ad.pt.doubleclick.net
+127.0.0.1 ad.ro.doubleclick.net
+127.0.0.1 ad.ru.doubleclick.net
+127.0.0.1 ad.se.doubleclick.net
+127.0.0.1 ad.sg.doubleclick.net
+127.0.0.1 ad.terra.doubleclick.net
+127.0.0.1 ad.th.doubleclick.net
+127.0.0.1 ad.tw.doubleclick.net
 127.0.0.1 ad.uk.doubleclick.net
+127.0.0.1 ad.us.doubleclick.net
+127.0.0.1 ad.za.doubleclick.net
+127.0.0.1 ad2.doubleclick.net
 127.0.0.1 amn.doubleclick.net
+127.0.0.1 cm.g.doubleclick.net
+127.0.0.1 creatives.doubleclick.net
+127.0.0.1 dfp.doubleclick.net
+127.0.0.1 doubleclick.com
+127.0.0.1 doubleclick.de
+127.0.0.1 doubleclick.ne.jp
 127.0.0.1 doubleclick.net
 127.0.0.1 ebaycn.doubleclick.net
 127.0.0.1 ebaytw.doubleclick.net
 127.0.0.1 feedads.g.doubleclick.net
+127.0.0.1 fls.doubleclick.net
 127.0.0.1 fls.uk.doubleclick.net
 127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 googleads2.g.doubleclick.net
+127.0.0.1 ir.doubleclick.net
+127.0.0.1 iv.doubleclick.net
 127.0.0.1 ln.doubleclick.net
 127.0.0.1 m.doubleclick.net
+127.0.0.1 m.us.doubleclick.net
+127.0.0.1 m2.doubleclick.net
+127.0.0.1 motifcdn.doubleclick.net
+127.0.0.1 motifcdn2.doubleclick.net
+127.0.0.1 optimize.doubleclick.net
+127.0.0.1 optout.doubleclick.net
 127.0.0.1 pubads.g.doubleclick.net
+127.0.0.1 rd.intl.doubleclick.net
+127.0.0.1 s2.video.doubleclick.net
+127.0.0.1 se1.doubleclick.net
+127.0.0.1 securepubads.g.doubleclick.net
+127.0.0.1 www.doubleclick.com
+127.0.0.1 www.doubleclick.net
+127.0.0.1 www2.doubleclick.com
+127.0.0.1 www3.doubleclick.com
+127.0.0.1 www3.doubleclick.net
 #GoogleSyndication
 127.0.0.1 buttons.googlesyndication.com
 127.0.0.1 domains.googlesyndication.com
@@ -542,7 +619,89 @@
 #蜂鸟网
 127.0.0.1 pic.fengniao.com
 127.0.0.1 stat.fengniao.com
-@HostsX 一站式过滤/移动应用
+@HostsX 一站式过滤/移动互联
+#Admob
+127.0.0.1 a.admob.com
+127.0.0.1 admob.at
+127.0.0.1 admob.be
+127.0.0.1 admob.biz
+127.0.0.1 admob.ca
+127.0.0.1 admob.ch
+127.0.0.1 admob.co.kr
+127.0.0.1 admob.co.nz
+127.0.0.1 admob.co.uk
+127.0.0.1 admob.co.vn
+127.0.0.1 admob.com
+127.0.0.1 admob.cz
+127.0.0.1 admob.de
+127.0.0.1 admob.dk
+127.0.0.1 admob.es
+127.0.0.1 admob.eu
+127.0.0.1 admob.fi
+127.0.0.1 admob.fr
+127.0.0.1 admob.gr
+127.0.0.1 admob.it
+127.0.0.1 admob.jp
+127.0.0.1 admob.kr
+127.0.0.1 admob.me
+127.0.0.1 admob.mobi
+127.0.0.1 admob.net
+127.0.0.1 admob.nl
+127.0.0.1 admob.no
+127.0.0.1 admob.nu
+127.0.0.1 admob.org
+127.0.0.1 admob.pl
+127.0.0.1 admob.pt
+127.0.0.1 admob.ru
+127.0.0.1 admob.se
+127.0.0.1 admob.sg
+127.0.0.1 admob.tk
+127.0.0.1 admob.tv
+127.0.0.1 admob.tw
+127.0.0.1 admob.vn
+127.0.0.1 analytics.admob.com
+127.0.0.1 b.admob.com
+127.0.0.1 c.admob.com
+127.0.0.1 cpm.admob.com
+127.0.0.1 cpm2.admob.com
+127.0.0.1 d.admob.com
+127.0.0.1 e.admob.com
+127.0.0.1 f.admob.com
+127.0.0.1 g.admob.com
+127.0.0.1 h.admob.com
+127.0.0.1 i.admob.com
+127.0.0.1 j.admob.com
+127.0.0.1 k.admob.com
+127.0.0.1 l.admob.com
+127.0.0.1 m.admob.com
+127.0.0.1 mm.admob.com
+127.0.0.1 mmv.admob.com
+127.0.0.1 n.admob.com
+127.0.0.1 o.admob.com
+127.0.0.1 p.admob.com
+127.0.0.1 q.admob.com
+127.0.0.1 r.admob.com
+127.0.0.1 s.admob.com
+127.0.0.1 sc1.admob.com
+127.0.0.1 sc9.admob.com
+127.0.0.1 t.admob.com
+127.0.0.1 u.admob.com
+127.0.0.1 v.admob.com
+127.0.0.1 w.admob.com
+127.0.0.1 x.admob.com
+127.0.0.1 y.admob.com
+127.0.0.1 z.admob.com
+#tapjoy
+127.0.0.1 tapjoy.com
+127.0.0.1 tapjoyads.com
+127.0.0.1 ws.tapjoyads.com
+#jumptap
+127.0.0.1 tapad.jumptap.com
+127.0.0.1 a.jumptap.com
+#flurry
+127.0.0.1 data.flurry.com
+127.0.0.1 flurry.com
+127.0.0.1 www.flurry.com
 #UCWeb
 127.0.0.1 ads1.uc.com
 127.0.0.1 ads1.ucweb.com
@@ -1937,3 +2096,6 @@
 127.0.0.1 xy.8zgame.com
 127.0.0.1 yz.szgla.com
 127.0.0.1 www.huaqimen.com
+-----------------------------------------------------------------------------------
+
+127.0.0.1 z.blogads.com
