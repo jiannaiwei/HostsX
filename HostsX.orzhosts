@@ -1,4 +1,5 @@
 ;version=201010301330
+;source list=Thanks www.du110.com shared mwsl Data,Thanks www.itfunz.com shared Andriod AdData,etc
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -594,6 +595,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.pangchaodesign.cn
 127.0.0.1 www.wooboo.com.cn
 127.0.0.1 www.youmi.net
+127.0.0.1 youmi.net
 @HostsX 站点广告过滤
 @HostsX 站点广告过滤/海外网站
 #ABCNews
@@ -1002,7 +1004,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.dangdang.com
 0.0.0.0 union.vancl.com
 #下载推广
-0.0.0.0	union.rising.com.cn
+0.0.0.0 union.rising.com.cn
 0.0.0.0 zcomcdl.zcominc.com
 0.0.0.0 ccc.xdowns.com
 0.0.0.0 count.jdyou.com
@@ -2012,9 +2014,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.daodao001.cn
 0.0.0.0 text.mplayer.org.cn
 0.0.0.0 stbnnr.allyes.com
-#UcWeb
-0.0.0.0 ads1.ucweb.com
-0.0.0.0 ads1.uc.com
 #HooKQQ
 0.0.0.0 www.hookqq.com
 #暴风影音
