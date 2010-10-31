@@ -201,18 +201,20 @@
    并依次运行如下命令：
   "adb devices
    adb remount
+   - remounts the /system partition on the device read-write
    adb push hosts /system/etc/hosts
    adb shell reboot" 
-   
-   
-   另外您亦可以使用以下方法：
-   "adb remount 
-    - remounts the /system partition on the device read-write
-    adb push hosts /system/etc/hosts
-    adb shell reboot"
+
    Tips:
     使用"cat /etc/hosts"   可以查看Hosts文件有没有修改成功
     使用"adb pull /system/etc/hosts"  #把hosts文件从机器上取出来
+
+Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
+    但adb remount命令failed。。。提示 operation not pemitted
+    同时，adb push命令，无法将电脑里的hosts文件复制到手机上 /system/etc/hosts，显示是只读文件
+
+  A:在用root explorer，先copy 然后找到那个什么 system/tec/hosts的地方，这时候在最上面有一个“remount as R/w”
+    点一下！！！再past！搞定啦！！！！！！！！！！
     注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽建议使用127.0.0.1 
 --------------------------------------------------------------------------------
 9. IPV6支持信息

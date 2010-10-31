@@ -15,7 +15,7 @@ end with
 set xml=Nothing 
 end function
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Rd.g")
-GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/1keyWin.g")
+GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/1key.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Site.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Union.g")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/Soft.g")
