@@ -5,7 +5,7 @@
 #
 # For more information about this list, see: 
 # ----
-# last updated:2010-11-01 13:30
+# last updated:2010-11-01 00:50
 # sources lists:
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
 # http://www.mvps.org/winhelp2002/hosts.txt
@@ -490,7 +490,7 @@
 127.0.0.1 union.sogou.com
 127.0.0.1 wb.brand.sogou.com
 #ËÑ¹·Æ´Òô
-127.0.0.1	files2.sogou.com
+127.0.0.1 files2.sogou.com
 127.0.0.1 config.pinyin.sogou.com
 127.0.0.1 ime.sogou.com
 127.0.0.1 info.pinyin.sogou.com
@@ -1746,6 +1746,8 @@
 127.0.0.1 www.zdy.cc
 #ÓÎÖÚ´«Ã½
 127.0.0.1 book.gamediad.com
+127.0.0.1 resource.gamediad.com
+127.0.0.1 statistics.gamediad.com
 127.0.0.1 www1.gamediad.com
 127.0.0.1 www2.gamediad.com
 127.0.0.1 www3.gamediad.com

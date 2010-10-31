@@ -1,4 +1,4 @@
-;version=201010301330
+;version=201011010050
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1668,6 +1668,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zdy.cc
 #游众传媒
 0.0.0.0 book.gamediad.com
+0.0.0.0 resource.gamediad.com
+0.0.0.0 statistics.gamediad.com
 0.0.0.0 www1.gamediad.com
 0.0.0.0 www2.gamediad.com
 0.0.0.0 www3.gamediad.com

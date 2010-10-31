@@ -14,13 +14,20 @@
 #Google AdWord
 0.0.0.0 adwords.google.com adwords.google.sk
 #Google AdSense
-0.0.0.0 adservices.google.com pagead.google.com pagead.l.google.com static.googleadsserving.cn afs.googleadservices.com feedads.googleadservices.com imageads.googleadservices.com imageads1.googleadservices.com imageads2.googleadservices.com
-0.0.0.0 imageads3.googleadservices.com imageads4.googleadservices.com imageads5.googleadservices.com imageads6.googleadservices.com imageads7.googleadservices.com imageads8.googleadservices.com imageads9.googleadservices.com pagead2.googleadservices.com partner.googleadservices.com
-0.0.0.0 www.googleadservices.com
+0.0.0.0 adservices.google.com afs.googleadservices.com feedads.googleadservices.com googleadservices.com googleanalytlcs.com googleanalytlcs.net imageads.googleadservices.com imageads1.googleadservices.com imageads2.googleadservices.com
+0.0.0.0 imageads3.googleadservices.com imageads4.googleadservices.com imageads5.googleadservices.com imageads6.googleadservices.com imageads7.googleadservices.com imageads8.googleadservices.com imageads9.googleadservices.com pagead.google.com pagead.l.google.com
+0.0.0.0 pagead2.googleadservices.com partner.googleadservices.com static.googleadsserving.cn www.googleadservices.com
 #Google Doubleclick
-0.0.0.0 ad-apac.doubleclick.net ad-g.doubleclick.net ad.ca.doubleclick.net ad.cn.doubleclick.net ad.de.doubleclick.net ad.doubleclick.net ad.fr.doubleclick.net ad.hk.doubleclick.net ad.jp.doubleclick.net
-0.0.0.0 ad.nl.doubleclick.net ad.no.doubleclick.net ad.uk.doubleclick.net amn.doubleclick.net doubleclick.net ebaycn.doubleclick.net ebaytw.doubleclick.net feedads.g.doubleclick.net fls.uk.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net ln.doubleclick.net m.doubleclick.net pubads.g.doubleclick.net
+0.0.0.0 ad-apac.doubleclick.net ad-emea.doubleclick.net ad-g.doubleclick.net ad-yt-bfp.doubleclick.net ad.3ad.doubleclick.net ad.3au.doubleclick.net ad.adx.doubleclick.net ad.ae.doubleclick.net ad.ar.doubleclick.net
+0.0.0.0 ad.au.doubleclick.net ad.be.doubleclick.net ad.br.doubleclick.net ad.ca.doubleclick.net ad.ch.doubleclick.net ad.cibleclick.com ad.cl.doubleclick.net ad.cn.doubleclick.net ad.de.doubleclick.net
+0.0.0.0 ad.dk.doubleclick.net ad.doubleclick.com ad.doubleclick.net ad.es.doubleclick.net ad.fi.doubleclick.net ad.fr.doubleclick.net ad.gr.doubleclick.net ad.hk.doubleclick.net ad.hu.doubleclick.net
+0.0.0.0 ad.ie.doubleclick.net ad.in.doubleclick.net ad.it.doubleclick.net ad.jp.doubleclick.net ad.kr.doubleclick.net ad.nl.doubleclick.net ad.no.doubleclick.net ad.nz.doubleclick.net ad.pl.doubleclick.net
+0.0.0.0 ad.pt.doubleclick.net ad.ro.doubleclick.net ad.ru.doubleclick.net ad.se.doubleclick.net ad.sg.doubleclick.net ad.terra.doubleclick.net ad.th.doubleclick.net ad.tw.doubleclick.net ad.uk.doubleclick.net
+0.0.0.0 ad.us.doubleclick.net ad.za.doubleclick.net ad2.doubleclick.net amn.doubleclick.net cm.g.doubleclick.net creatives.doubleclick.net dfp.doubleclick.net doubleclick.com doubleclick.de
+0.0.0.0 doubleclick.ne.jp doubleclick.net ebaycn.doubleclick.net ebaytw.doubleclick.net feedads.g.doubleclick.net fls.doubleclick.net fls.uk.doubleclick.net googleads.g.doubleclick.net googleads2.g.doubleclick.net
+0.0.0.0 ir.doubleclick.net iv.doubleclick.net ln.doubleclick.net m.doubleclick.net m.us.doubleclick.net m2.doubleclick.net motifcdn.doubleclick.net motifcdn2.doubleclick.net optimize.doubleclick.net
+0.0.0.0 optout.doubleclick.net pubads.g.doubleclick.net rd.intl.doubleclick.net s2.video.doubleclick.net se1.doubleclick.net securepubads.g.doubleclick.net www.doubleclick.com www.doubleclick.net www2.doubleclick.com
+0.0.0.0 www3.doubleclick.com www3.doubleclick.net
 #GoogleSyndication
 0.0.0.0 buttons.googlesyndication.com domains.googlesyndication.com googlesyndication.com pagead.googlesyndication.com pagead1.googlesyndication.com pagead2.googlesyndication.com pagead3.googlesyndication.com pagead4.googlesyndication.com pagead5.googlesyndication.com
 0.0.0.0 tpc.googlesyndication.com www.googlesyndication.com
