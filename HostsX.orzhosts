@@ -502,6 +502,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pinyin.sogou.com
 0.0.0.0 st.pinyin.sogou.com
 #ËÑ¹·ä¯ÀÀÆ÷
+0.0.0.0 download.ie.sogou.com
 0.0.0.0 conf.ie.sogou.com
 0.0.0.0 config.ie.sogou.com
 0.0.0.0 ping.ie.sogou.com

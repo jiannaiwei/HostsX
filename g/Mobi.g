@@ -498,6 +498,7 @@
 127.0.0.1 pinyin.sogou.com
 127.0.0.1 st.pinyin.sogou.com
 #ËÑ¹·ä¯ÀÀÆ÷
+127.0.0.1 download.ie.sogou.com
 127.0.0.1 conf.ie.sogou.com
 127.0.0.1 config.ie.sogou.com
 127.0.0.1 ping.ie.sogou.com
