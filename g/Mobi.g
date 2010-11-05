@@ -5,7 +5,7 @@
 #
 # For more information about this list, see: 
 # ----
-# last updated:2010-11-01 00:50
+# last updated:2010-11-05 00:50
 # sources lists:
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
 # http://www.mvps.org/winhelp2002/hosts.txt
@@ -1975,6 +1975,9 @@
 #1stwebgame
 127.0.0.1 t.1stwebgame.com
 127.0.0.1 tc.1stwebgame.com
+#33hy
+127.0.0.1 www.33hy.com
+127.0.0.1 tg.33hy.com
 #37Wan
 127.0.0.1 tao.37wan.com
 #4399ÓÎÏ·ÁªÃË

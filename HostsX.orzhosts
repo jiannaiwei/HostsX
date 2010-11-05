@@ -1,4 +1,4 @@
-;version=201011010050
+;version=201011051730
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1897,6 +1897,9 @@ ff02::3 ip6-allhosts
 #1stwebgame
 0.0.0.0 t.1stwebgame.com
 0.0.0.0 tc.1stwebgame.com
+#33hy
+0.0.0.0 www.33hy.com
+0.0.0.0 tg.33hy.com
 #37Wan
 0.0.0.0 tao.37wan.com
 #4399游戏联盟

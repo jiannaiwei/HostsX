@@ -42,6 +42,8 @@
 0.0.0.0 www.cssyouxi.com link.155game.com tg.155game.com
 #1stwebgame
 0.0.0.0 t.1stwebgame.com tc.1stwebgame.com
+#33hy
+0.0.0.0 www.33hy.com tg.33hy.com
 #37Wan
 0.0.0.0 tao.37wan.com
 #4399сно╥а╙цк
