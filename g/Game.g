@@ -1,4 +1,5 @@
 @HostsX 游戏验证屏蔽
+
 #QUAZAL（勇气传说 抵抗前线 英雄连）
 127.0.0.1 cohlive-1.quazal.net cohlive.quazal.net reliclive-1.quazal.net reliclive.quazal.net
 #EA系列（红警）

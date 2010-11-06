@@ -1,4 +1,4 @@
-;version=201011051730
+;version=201011061718
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -986,6 +986,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.appsasia.net
 0.0.0.0 e2.tjq.com
 0.0.0.0 go.maxreturn.cn
+0.0.0.0 logs.51job.com
 0.0.0.0 m.menhutong.com.cn
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 popunder.paypopup.com
@@ -1102,6 +1103,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adtech.de
 #Adffinder
 0.0.0.0 adultfriendfinder.com
+0.0.0.0 geobanner.adultfriendfinder.com
 0.0.0.0 banners.adultfriendfinder.com
 0.0.0.0 www.adultfriendfinder.com
 #Amgdgt

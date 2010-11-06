@@ -5,7 +5,7 @@
 #
 # For more information about this list, see: 
 # ----
-# last updated:2010-11-05 00:50
+# last updated:2010-11-06 17:18
 # sources lists:
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
 # http://www.mvps.org/winhelp2002/hosts.txt
@@ -1064,6 +1064,7 @@
 127.0.0.1 e.appsasia.net
 127.0.0.1 e2.tjq.com
 127.0.0.1 go.maxreturn.cn
+127.0.0.1 logs.51job.com
 127.0.0.1 m.menhutong.com.cn
 127.0.0.1 pic837013.images9999.com
 127.0.0.1 popunder.paypopup.com
@@ -1181,6 +1182,7 @@
 #Adffinder
 127.0.0.1 adultfriendfinder.com
 127.0.0.1 banners.adultfriendfinder.com
+127.0.0.1 geobanner.adultfriendfinder.com
 127.0.0.1 www.adultfriendfinder.com
 #Amgdgt
 127.0.0.1 ad.amgdgt.com
