@@ -340,9 +340,7 @@ goto menu
 :desklnk
 call :downvbs
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/DeskLnk.txt">%cd%\DeskLnk.vbs
-DeskLnk.vbs
-del DeskLnk.vbs
-goto menu
+DeskLnk.vbs&del DeskLnk.vbs&goto menu
 
 :chkupdate
 Mode con cols=50 lines=15
@@ -628,15 +626,9 @@ echo.
 echo 	删除完成! 任意键返回……
 goto menu
 
-:downvbs
-echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
-echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
-echo WScript.sleep 200 >>%temp%/Updates.vbs
-echo loop >>%temp%/Updates.vbs
-echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
-
 :AnDroid
-echo 请确保您的驱动已经正确安装
+echo 请确保您的驱动已经正确安装！
+echo 请您连接手机并设置为USB调试模式！
 if not exist adb.exe+AdbWinApi.dll
 %down% http://hostsx.googlecode.com/svn/trunk/lib/adb.exe
 %down% http://hostsx.googlecode.com/svn/trunk/lib/AdbWinApi.dll
@@ -656,3 +648,10 @@ adb remount
 adb push hosts /system/etc/hosts
 adb shell reboot
 pause&goto menu
+
+:downvbs
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
+echo WScript.sleep 200 >>%temp%/Updates.vbs
+echo loop >>%temp%/Updates.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
