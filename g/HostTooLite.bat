@@ -13,16 +13,17 @@ if exist %windir%\system64\cmd.exe goto winnt64
 :winnt32
 set etc=%windir%\system32\drivers\etc
 set hosts=%windir%\system32\drivers\etc\hosts
+if not exist %windir%\system32\cacls.exe (start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls32.exe)& (echo 未检测到系统权限设置文件！请保存至当前目录！)&pause&goto opdp
 goto menu
 :winnt64
 set etc=%windir%\system64\drivers\etc
 set hosts=%windir%\system64\drivers\etc\hosts
+if not exist %windir%\system64\cacls.exe (start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls64.exe)& (echo 未检测到系统权限设置文件！请保存至当前目录！)&pause&goto opdp
 goto menu
 
 :menu
 color 0b
 mode con cols=36 lines=10
-if not exist %windir%\system32\cacls.exe (start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls.exe)& (echo 未检测到运行所需的文件！请下载后保存至当前目录！)&pause&goto opdp
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls

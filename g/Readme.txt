@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 			    极佳猴子 (G+ Hosts) V2.x
-			    Jockwok.Com.  2010-11-01
+			    Jockwok.Com.  2010-11-07
 
 	Copyright (C) 2007-2010 Vokins Jockwok. All Rights Reserved.
 --------------------------------------------------------------------------------
@@ -215,7 +215,14 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
 
   A:在用root explorer，先copy 然后找到那个什么 system/tec/hosts的地方，这时候在最上面有一个“remount as R/w”
     点一下！！！再past！搞定啦！！！！！！！！！！
-    注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽建议使用127.0.0.1 
+    注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽建议使用127.0.0.1
+
+# sources lists:
+# http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
+# http://www.mvps.org/winhelp2002/hosts.txt
+# http://forum.xda-developers.com/showthread.php?t=509997
+# http://www.du110.com/thread-11742-1-1.html
+# http://www.itfunz.com
 --------------------------------------------------------------------------------
 9. IPV6支持信息
 
@@ -348,7 +355,7 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
    HostsX和G+ Hosts数据问题均可联系郭郭: vokins@gmail.com
 
  - 发送错误报告, 请务必记录以下信息:
-   软件版本, 操作系统, 故障描述, 以及故障重现方法等.
+   网址信息, 软件版本, 操作系统, 故障描述, 以及故障重现方法等.
 
 --------------------------------------------------------------------------------
 
