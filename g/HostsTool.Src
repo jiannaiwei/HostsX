@@ -56,6 +56,30 @@ set etc=
 set hosts=
 goto menu
 
+:findown
+ver|find   "5."
+if   %errorlevel%==0   goto   cacls5
+ver|find   "6."
+if   %errorlevel%==0   goto   cacls6
+GOTO  others
+
+:cacls5
+echo 正在下载所需的权限更改组件
+echo 请稍候......
+%down% http://hostsx.googlecode.com/svn/trunk/lib/cacls5.exe
+copy gdown\cacls5.exe cacls.exe
+@exit
+
+:cacls6
+echo 正在下载所需的权限更改组件
+echo 请稍候......
+%down% http://hostsx.googlecode.com/svn/trunk/lib/cacls6.exe
+copy gdown\cacls5.exe cacls.exe
+@exit
+
+:others
+@exit
+
 :menu
 mode con cols=59 lines=28
 rem 解除Hosts只读属性，权限限制
@@ -622,9 +646,3 @@ echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
 echo WScript.sleep 200 >>%temp%/Updates.vbs
 echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
-
-:findown
-ver|find   "5."
-if   %errorlevel%==0  start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls5.exe
-ver|find   "6."
-if   %errorlevel%==0  start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls6.exe
