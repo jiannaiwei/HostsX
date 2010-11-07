@@ -47,7 +47,7 @@ pause&exit
 echo 正在下载所需的权限更改组件
 echo 请稍候......
 %down% http://hostsx.googlecode.com/svn/trunk/lib/cacls6.exe
-copy gdown\cacls5.exe %windir%\system32\cacls.exe
+copy gdown\cacls6.exe %windir%\system32\cacls.exe
 pause&exit
 
 :hostpath
