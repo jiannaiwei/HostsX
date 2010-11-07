@@ -10,6 +10,7 @@ if "!xc!"=="!te!" set xc=%%i)
 color 0%xc%
 rem Wget下载组件检测
 if not exist wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)& (echo 请保存Wget组件至当前目录！)&pause&goto opdp
+if not exist %windir%\system32\cacls.exe goto findown & (echo 未检测到系统权限设置文件！请保存至当前目录！)&pause&goto opdp
 rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -T 10 -P gdown
@@ -32,12 +33,10 @@ if exist %windir%\system64\cmd.exe goto winnt64
 :winnt32
 set etc=%windir%\system32\drivers\etc
 set hosts=%windir%\system32\drivers\etc\hosts
-if not exist %windir%\system32\cacls.exe (start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls32.exe)& (echo 未检测到系统权限设置文件！请保存至当前目录！)&pause&goto opdp
 goto menu
 :winnt64
 set etc=%windir%\system64\drivers\etc
 set hosts=%windir%\system64\drivers\etc\hosts
-if not exist %windir%\system64\cacls.exe (start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls64.exe)& (echo 未检测到系统权限设置文件！请保存至当前目录！)&pause&goto opdp
 goto menu
 
 :hostpath
@@ -623,3 +622,9 @@ echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
 echo WScript.sleep 200 >>%temp%/Updates.vbs
 echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
+
+:findown
+ver|find   "5."
+if   %errorlevel%==0  start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls5.exe
+ver|find   "6."
+if   %errorlevel%==0  start /min iexplore http://hostsx.googlecode.com/svn/trunk/lib/cacls6.exe
