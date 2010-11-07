@@ -1,4 +1,5 @@
 @echo off
+if exist HostsTool.bat start HostsTool.bat& del %0
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 cls
@@ -86,12 +87,12 @@ Mode con cols=50 lines=15
 Title 在线更新
 cls
 echo.
-echo                    正在检查更新
+echo                      正在更新
 echo.
 echo                    ...请稍候...
 call :downvbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/HostsTool.Src">%cd%\HostsToolPro.bat
-start %cd%\HostsToolPro.bat
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/HostsTool.Src">%cd%\HostsTool.bat
+start %cd%\HostsTool.bat
 exit
 
 :run
