@@ -20,7 +20,7 @@
 # Project builds: OrzFly & JocKwok                         #
 # Data Maintenance: JocKwok                                #
 # *********************************************************#
-;version=201011092052
+;version=201011092309
 ;author=¹ùÅôï¿£¨JocKwok£©
 # *********************************************************#
 
@@ -3757,6 +3757,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 ad.f1.com.tw
 127.0.0.1 ad.hylzad.com
 127.0.0.1 ad71.doubleadx.com
+127.0.0.1 ads.youshang.com
 127.0.0.1 adsense.scupio.com
 127.0.0.1 adsresult.joywell.com.cn
 127.0.0.1 am.6park.com
