@@ -1,4 +1,4 @@
-;version=201011081700
+;version=201011091400
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -387,6 +387,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 pfpclick.sina.com.cn
 127.0.0.1 pfpip.sina.com
 127.0.0.1 sms.sina.com.cn
+127.0.0.1 uic.sso.sina.com.cn
 127.0.0.1 adsina.allyes.com
 127.0.0.1 sina.allyes.com
 127.0.0.1 sinasc.allyes.com
@@ -3906,7 +3907,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 dir.ejoina.com
 127.0.0.1 go.lailea.info
 127.0.0.1 hao.kuaibo.com
-127.0.0.1 image.tazhao.com
 127.0.0.1 kzdh.com
 127.0.0.1 lailea.info
 127.0.0.1 my123.com
@@ -3951,8 +3951,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 888888fa.com
 127.0.0.1 98712.com
 127.0.0.1 adtaobao.tobo123.com
-127.0.0.1 asiafind1.com
-127.0.0.1 asiafriendfinder.com
 127.0.0.1 code.loading.wolian.net
 127.0.0.1 fx.v1kk.com
 127.0.0.1 hjmg.930114.com
@@ -4078,6 +4076,10 @@ ff02::3 ip6-allhosts
 127.0.0.1 vlog.vodone.com
 127.0.0.1 vodone.com
 127.0.0.1 www.vodone.com
+#成人图片
+127.0.0.1 asiafind1.com
+127.0.0.1 asiafriendfinder.com
+127.0.0.1 image.tazhao.com
 @HostsX 游戏弹窗屏蔽
 #155game
 127.0.0.1 www.cssyouxi.com
