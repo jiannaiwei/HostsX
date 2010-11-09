@@ -20,7 +20,8 @@
 # Project builds: OrzFly & JocKwok                         #
 # Data Maintenance: JocKwok                                #
 # *********************************************************#
-;version=201011092052                                      #
+;version=201011092052
+;author=郭鹏锟（JocKwok）
 # *********************************************************#
 
 @HostsX Smart redirect
@@ -30,7 +31,7 @@
 #Windows
 127.0.0.1 localhost.localdomain localhost
 #Ubuntu
-127.0.1.1	此处填写您的Ubuntu计算机名称
+127.0.1.1	Fill Your Ubuntu Pc name here
 ::1 localhost ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
@@ -4271,7 +4272,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 tj.pctutu.net
 127.0.0.1 update.pctutu.com
 127.0.0.1 update.pctutu.net
-#neoimage
+#Neoimage
 127.0.0.1 ad.neoimaging.cn
 127.0.0.1 clientconfig.neoimaging.cn
 127.0.0.1 jump.neoimaging.cn
