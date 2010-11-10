@@ -1,13 +1,7 @@
 @echo off
-set ver=2.361
+set ver=2.362
 ren %0 "HostsTool.bat"
-rem 设置随机变换颜色
-set/a xc=%random%%%5+1
-set te=
-for %%i in (a b c d e f) do (
-set /a te=!!te!+1!
-if "!xc!"=="!te!" set xc=%%i)
-color 0%xc%
+color 0b
 rem 清理可能影响运行或者之前运行残留的文件
 del /f /q echo host hosts setup.bat >nul 2>nul
 del /f /q gdown\*.*>nul 2>nul
@@ -455,8 +449,8 @@ echo Hosts文件权限设置完成！
 ipconfig /flushdns>nul 2>nul&exit
 
 :thanks
-%down% http://hostsx.googlecode.com/svn/trunk/g/Readme.txt
-gdown\Readme.txt&cls&goto menu
+start http://hostsx.googlecode.com/svn/trunk/g/Readme.txt
+cls&goto menu
 
 :fixie
 mode con cols=38 lines=23
@@ -627,27 +621,8 @@ echo 	删除完成! 任意键返回……
 goto menu
 
 :AnDroid
-echo 请确保您的驱动已经正确安装！
-echo 请您连接手机并设置为USB调试模式！
-if not exist adb.exe+AdbWinApi.dll
-%down% http://hostsx.googlecode.com/svn/trunk/lib/adb.exe
-%down% http://hostsx.googlecode.com/svn/trunk/lib/AdbWinApi.dll
-copy gdown\adb.exe adb.exe
-copy gdown\AdbWinApi.dll AdbWinApi.dll
-pause&goto AnDroidhosts
-
-:AnDroidhosts
-echo 如果提示 operation not pemitted
-echo 用root explorer，找到 system/tec/hosts的地方，这时候在最上面有一个“remount as R/w”点一下！！！
-echo 再把该文件的属性的所有勾勾都勾选上！！！
-echo 正在下载数据
-call :downvbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">%cd%\hosts
-adb devices
-adb remount
-adb push hosts /system/etc/hosts
-adb shell reboot
-pause&goto menu
+%down% http://hostsx.googlecode.com/svn/trunk/lib/AndriodHosts.vbs
+gdown\AndriodHosts.vbs&cls&goto menu
 
 :downvbs
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
