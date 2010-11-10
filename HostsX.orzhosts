@@ -20,7 +20,7 @@
 # Project builds: OrzFly & JocKwok                         #
 # Data Maintenance: JocKwok                                #
 # *********************************************************#
-;version=201011101330
+;version=201011102100
 ;author=¹ùÅôï¿£¨JocKwok£©
 # *********************************************************#
 
@@ -3573,11 +3573,19 @@ ff02::3 ip6-allhosts
 127.0.0.1 js.cnxad.com
 #Keyrun
 127.0.0.1 a.keyrun.com
+127.0.0.1 code16.keyrun.com
 127.0.0.1 pic0.keyrun.com
 127.0.0.1 pic1.keyrun.com
 127.0.0.1 pic2.keyrun.com
 127.0.0.1 pp.keyrun.com
+127.0.0.1 u.keyrun.com
+127.0.0.1 union.keyrun.com
+127.0.0.1 ww.keyrun.com
+127.0.0.1 ww4.keyrun.com
+127.0.0.1 wwv.keyrun.com
+127.0.0.1 www.keyrun.com
 127.0.0.1 www1.keyrun.com
+127.0.0.1 www4.keyrun.com
 127.0.0.1 code11.onetad.com
 127.0.0.1 code12.onetad.com
 127.0.0.1 pic1.onetad.com
@@ -3742,6 +3750,12 @@ ff02::3 ip6-allhosts
 #Zdy
 127.0.0.1 tp.zdy.cc
 127.0.0.1 www.zdy.cc
+#AsiaFD
+127.0.0.1 ads.asiafriendfinder.com
+127.0.0.1 adserver.asiafriendfinder.com
+127.0.0.1 asiafind1.com
+127.0.0.1 asiafriendfinder.com
+127.0.0.1 banners.asiafriendfinder.com
 #Gamediad
 127.0.0.1 book.gamediad.com
 127.0.0.1 resource.gamediad.com
@@ -3764,8 +3778,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 am.6park.com
 127.0.0.1 api.flash45.com
 127.0.0.1 as.kejet.com
-127.0.0.1 asiafind1.com
-127.0.0.1 asiafriendfinder.com
 127.0.0.1 c.ourclick.net
 127.0.0.1 c.pee.cn
 127.0.0.1 c.sfilm.com
