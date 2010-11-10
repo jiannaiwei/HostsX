@@ -20,7 +20,7 @@
 # Project builds: OrzFly & JocKwok                         #
 # Data Maintenance: JocKwok                                #
 # *********************************************************#
-;version=201011092309
+;version=201011101330
 ;author=¹ùÅôï¿£¨JocKwok£©
 # *********************************************************#
 
@@ -794,9 +794,9 @@ ff02::3 ip6-allhosts
 127.0.0.1 stat.fengniao.com
 @HostsX OneKey/Mobi
 #Mobi AD Filter
+127.0.0.1 219.133.44.109
 127.0.0.1 ads1.uc.com
 127.0.0.1 ads1.ucweb.com
-127.0.0.1 219.133.44.109
 127.0.0.1 androidappoftheday.net
 127.0.0.1 apphu.com
 127.0.0.1 cx.360doo.com
@@ -824,6 +824,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.marsedu.com
 127.0.0.1 www.mathworks.cn
 127.0.0.1 www.pangchaodesign.cn
+127.0.0.1 www.wiyun.com
 127.0.0.1 www.wooboo.com.cn
 127.0.0.1 www.youmi.net
 127.0.0.1 youmi.net
