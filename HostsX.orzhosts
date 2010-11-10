@@ -3036,7 +3036,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 c28.statcounter.com
 127.0.0.1 c29.statcounter.com
 127.0.0.1 c3.statcounter.com
-127.0.0.1 c3.statcounter.com 
+127.0.0.1 c3.statcounter.com
 127.0.0.1 c30.statcounter.com
 127.0.0.1 c31.statcounter.com
 127.0.0.1 c32.statcounter.com
@@ -4414,4 +4414,4 @@ ff02::3 ip6-allhosts
 127.0.0.1 gossjcprod-qos01.ea.com
 127.0.0.1 vmp.tools.gos.ea.com
 #FlashGame
-127.0.0.1 Fill in the Flash game Web site address you want to shield 
+127.0.0.1 Fill in the Flash game Web site address you want to shield
