@@ -766,7 +766,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 stat.pchome.net
 #ZDNet
 127.0.0.1 am.zdnet.com.cn
-127.0.0.1 icon.zdnet.com.cn
 127.0.0.1 pv.zdnet.com.cn
 #XiyuIT
 127.0.0.1 apic.xiyuit.com
