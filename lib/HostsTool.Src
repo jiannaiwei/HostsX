@@ -131,6 +131,19 @@ if /i "%all%"=="v" goto mvpshost
 if /i "%all%"=="w" goto hostpath
 if /i "%all%"=="x" goto fixie
 
+:dns
+echo Refresh DNS and caching...
+ipconfig /flushdns>nul 2>nul
+del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
+del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
+del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
+del /f /q %userprofile%\recent\*.*>nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
+reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
+ipconfig /flushdns>nul 2>nul
+goto menu
+
 :menuen
 mode con cols=62 lines=28
 echo y|cacls %hosts% /g everyone:f >nul
@@ -182,19 +195,6 @@ if /i "%all%"=="u" goto Updates
 if /i "%all%"=="v" goto mvpshost
 if /i "%all%"=="w" goto hostpath
 if /i "%all%"=="x" goto fixie
-
-:dns
-echo Refresh DNS and caching...
-ipconfig /flushdns>nul 2>nul
-del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
-del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
-del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
-del /f /q %userprofile%\recent\*.*>nul 2>nul
-reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 2>nul
-reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
-reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
-ipconfig /flushdns>nul 2>nul
-goto menu
 
 :dft
 echo       Update Hosts Data
