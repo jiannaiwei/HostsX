@@ -1,5 +1,5 @@
 @echo off
-set ver=2.376
+set ver=2.38
 set/a xc=%random%%%5+1
 set te=
 for %%i in (c d e f a) do (
@@ -312,8 +312,8 @@ reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zon
 goto menu
 
 :desklnk
-call :downvbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/lib/DeskLnk.txt">%cd%\DeskLnk.vbs
+wget http://hostsx.googlecode.com/svn/trunk/lib/DeskLnk.txt
+ren DeskLnk.txt DeskLnk.vbs
 DeskLnk.vbs&del DeskLnk.vbs&goto menu
 
 :Updates

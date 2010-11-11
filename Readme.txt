@@ -121,6 +121,7 @@ Copyright (C) 2007-2010 orztech.com. All Rights Reserved.
  - 感谢博客上的一些朋友反馈的Vista和Win7的相关问题
  - 感谢 徐俊 反馈的诸多网页的细节问题
  - 感谢 bark 基于G+数据整理的恶意行为网站，已并入进程中
+ - 感谢 jedi1029 反馈的zdnet的错误屏蔽的问题
 
 --------------------------------------------------------------------------------
 3. Hosts文件位置
@@ -261,6 +262,7 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
    百度:      hiphotos.baidu.com   （百度空间图片）
    迅雷:      msg.client.xunlei.com（客户端消息提示）
    驱动之家:  11.mydrivers.com     （评论条数显示）
+              server.zdnet.com.cn
 
    CBS Interactive:
               i.i.com.com          （下载问题）

@@ -1,4 +1,4 @@
-;version=201011110111
+;version=201011112350
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -64,6 +64,8 @@ ff02::3 ip6-allhosts
 63.223.106.181 soutong.com
 #Puff
 64.71.141.148 intl.easyssh.info
+#Fanfou
+58.83.134.230 fanfou.com
 @HostsX OneKey
 @HostsX OneKey/Microsoft AD
 #Msn
@@ -766,7 +768,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 am.zdnet.com.cn
 127.0.0.1 icon.zdnet.com.cn
 127.0.0.1 pv.zdnet.com.cn
-127.0.0.1 server.zdnet.com.cn
 #XiyuIT
 127.0.0.1 apic.xiyuit.com
 #Ea3w
@@ -4218,6 +4219,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 xiazai.xiazaiba.com
 127.0.0.1 www.ouyaoxiazai.com
 127.0.0.1 52z.com
+127.0.0.1 adv.iemao.com
 127.0.0.1 Anywhere-games.com
 127.0.0.1 bc.ie222.com
 127.0.0.1 cpic2.edushi.com
