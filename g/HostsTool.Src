@@ -361,7 +361,7 @@ echo Hosts文件权限设置完成！
 ipconfig /flushdns>nul 2>nul&exit
 
 :thanks
-start http://hostsx.googlecode.com/svn/trunk/g/Readme.txt
+start http://hostsx.googlecode.com/svn/trunk/Readme.txt
 cls&goto menu
 
 :fixie
