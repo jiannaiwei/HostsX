@@ -1,5 +1,12 @@
 @echo off
-set ver=2.37
+set ver=2.372
+set/a xc=%random%%%5+1
+set te=
+for %%i in (c d e f a) do (
+set /a te=!!te!+1!
+if "!xc!"=="!te!" set xc=%%i)
+color 0%xc%
+cls
 ren %0 "HostsTool.bat"
 set version_New=Unknown
 call :downvbs
@@ -11,7 +18,6 @@ cls
 :NoUpgrade
 set dver=You are Using the latest version.
 set dvercn=*当前版本已经是最新
-color 0b
 del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt>nul 2>nul
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
@@ -58,8 +64,8 @@ echo 当前系统的Hosts路径为：>hostspath.txt
 echo %hostpath%>>hostspath.txt
 echo 替换下面的set hosts=右面的内容。>>hostspath.txt
 pause
-start %windir%\notepad.exe %0
-start %windir%\notepad.exe %~dp0\hostspath.txt
+notepad %0
+notepad %~dp0\hostspath.txt
 exit
 rem 请删除if exist %ComSpec% 至此行上面的内容，并将获取到的Hosts路径填入下方即可。
 set etc=
@@ -113,7 +119,6 @@ if /i "%all%"=="i" goto ipv6
 if /i "%all%"=="j" goto dietrust
 if /i "%all%"=="k" goto desklnk
 if /i "%all%"=="l" goto delit
-if /i "%all%"=="m" goto myfile
 if /i "%all%"=="n" goto appit
 if /i "%all%"=="o" goto ophostdp
 if /i "%all%"=="p" goto perms
@@ -166,7 +171,6 @@ if /i "%all%"=="i" goto ipv6
 if /i "%all%"=="j" goto dietrust
 if /i "%all%"=="k" goto desklnk
 if /i "%all%"=="l" goto delit
-if /i "%all%"=="m" goto myfile
 if /i "%all%"=="n" goto appit
 if /i "%all%"=="o" goto ophostdp
 if /i "%all%"=="p" goto perms
@@ -199,10 +203,8 @@ echo       ...Please wait...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 echo Download data From "http://www.mwsl.org.cn/"，Please wait... ...
 %down% http://hostsx.googlecode.com/svn/trunk/mwsl.txt
-copy gdown\HostsX.orzhosts ghosts.txt
-copy gdown\mwsl.txt mwslcn.txt
-copy /b ghosts.txt+mwslcn.txt hbhosts.txt
-copy hbhosts.txt %hosts%
+copy /b gdown\HostsX.orzhosts+gdown\mwsl.txt gdown\hbhosts.txt
+copy gdown\hbhosts.txt %hosts%
 goto perms
 
 :ipv6
@@ -212,17 +214,10 @@ echo Download ipv6 data，Please wait... ...
 copy gdown\ipv6.txt %hosts%
 goto Perms
 
-:mwslcn
-echo Download data From "http://www.mwsl.org.cn/",Please wait... ...
-%down% http://hostsx.googlecode.com/svn/trunk/mwsl.txt
-copy gdown\mwsl.txt %hosts%
-goto perms
-
 :mvpshost
 echo Download data,Please wait... ...
 %down% http://www.mvps.org/winhelp2002/hosts.txt
 copy gdown\hosts.txt %hosts%
-start http://www.mvps.org/winhelp2002/hosts.htm
 goto Perms
 
 :addsite
@@ -301,19 +296,8 @@ cls&mshta vbscript:msgbox("Hosts file has been restored to the system default",6
 goto dns
 
 :adietrust
-call :downvbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/lib/ie.txt">%cd%\gie.txt
-echo The following data for your reference:
-echo 11.mydrivers.com>1.txt
-echo adcontrol.tudou.com>>1.txt
-echo gimg.iqilu.com>>1.txt
-echo images.sohu.com>>1.txt
-echo pro.letv.com>>1.txt
-echo *.atm.youku.com>>1.txt
-echo *.mediav.com>>1.txt
-echo *.sandai.net>>1.txt
-copy /b 1.txt+gie.txt hbhosts.txt
-notepad hbhosts.txt
+%down% http://hostsx.googlecode.com/svn/trunk/lib/ie.txt
+notepad gdown\ie.txt
 pause
 echo   Adding non-malicious URL into your browser security zones.
 echo   Please wait……
@@ -334,11 +318,11 @@ DeskLnk.vbs&del DeskLnk.vbs&goto menu
 
 :Updates
 cls
-md Bakup\
+md Bakup\ >nul 2>nul
 copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
 echo Complete backup of the old version(%ver%) of HostsTool in Bakup\&pause
 echo Downloading update         ...Please wait...
-%down% http://hostsx.googlecode.com/svn/trunk/lib/HostsTool.Src
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/HostsTool.Src">%temp%\HostsTool.bat
 echo @echo off>%temp%\up.bat
 echo Mode con cols=50 lines=10>>%temp%\up.bat
 echo Title Update>>%temp%\up.bat
@@ -366,7 +350,7 @@ goto menu
 :run
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
-if not exist %hosts% (call :nohosts) else (start %windir%\notepad.exe %hosts%)
+if not exist %hosts% (call :nohosts) else (notepad %hosts%)
 goto perms
 
 :opdp
@@ -375,30 +359,6 @@ goto menu
 
 :perms
 if %Language%==Chinese ( goto permscn ) else ( goto permsen )
-
-:permscn
-title 设置Hosts文件访问权限
-mode con: cols=50 lines=15
-cls
-echo.
-echo 0.设为只读（默认使用） F.修复Hosts 
-echo.
-echo 1.设置NTFS读取权限     4.重新打开Hosts
-echo.
-echo 2.设置NTFS拒绝权限     5.不设置
-echo.
-echo 3.取消NTFS权限控制     6.返回菜单
-SET Choice=
-echo.
-SET /P Choice=修改完成后请关闭记事本继续选择：
-IF /I '%Choice%'=='0' GOTO readonly
-IF /I '%Choice%'=='1' GOTO ntfsr
-IF /I '%Choice%'=='2' GOTO ntfsno
-IF /I '%Choice%'=='3' GOTO ntfsf
-IF /I '%Choice%'=='4' GOTO run
-IF /I '%Choice%'=='5' GOTO dns
-IF /I '%Choice%'=='6' GOTO menu
-IF /I '%Choice%'=='f' GOTO fixhost
 
 :permsen
 title Hosts file permissions set
@@ -423,6 +383,32 @@ IF /I '%Choice%'=='4' GOTO run
 IF /I '%Choice%'=='5' GOTO dns
 IF /I '%Choice%'=='6' GOTO menu
 IF /I '%Choice%'=='f' GOTO fixhost
+IF /I '%Choice%'==' ' GOTO permsen
+
+:permscn
+title 设置Hosts文件访问权限
+mode con: cols=50 lines=15
+cls
+echo.
+echo 0.设为只读（默认使用） F.修复Hosts 
+echo.
+echo 1.设置NTFS读取权限     4.重新打开Hosts
+echo.
+echo 2.设置NTFS拒绝权限     5.不设置
+echo.
+echo 3.取消NTFS权限控制     6.返回菜单
+SET Choice=
+echo.
+SET /P Choice=修改完成后请关闭记事本继续选择：
+IF /I '%Choice%'=='0' GOTO readonly
+IF /I '%Choice%'=='1' GOTO ntfsr
+IF /I '%Choice%'=='2' GOTO ntfsno
+IF /I '%Choice%'=='3' GOTO ntfsf
+IF /I '%Choice%'=='4' GOTO run
+IF /I '%Choice%'=='5' GOTO dns
+IF /I '%Choice%'=='6' GOTO menu
+IF /I '%Choice%'=='f' GOTO fixhost
+IF /I '%Choice%'==' ' GOTO permscn
 :readonly
 attrib +r +a +s %hosts%
 goto pmfinish
@@ -558,18 +544,6 @@ rem  修复开始菜单广告
 reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
 echo  Repaired!
 cls&goto menu
-
-:myfile
-echo 请如下所示： 一行一个（每行最多9个） 前面是IP地址，后面是网站域名。0.0.0.0亦可换成127.0.0.1或者>自定义.txt
-echo 0.0.0.0 www.xxx.com>>自定义.txt
-start %windir%\notepad.exe 自定义.txt
-echo 请在修改完毕后关闭记事本，并继续下一步。
-echo 请注意备份 自定义.txt 中的的数据！！！
-echo 是否要使用 "自定义.txt" 的Hosts数据？
-pause
-set "in=>>%hosts%"
-for /f "delims=" %%a in (自定义.txt) do echo 0.0.0.0%in%
-goto perms
 
 :delit
 mode con cols=60 lines=20

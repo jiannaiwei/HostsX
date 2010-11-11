@@ -14,7 +14,7 @@ with CreateObject(s)
 end with 
 set xml=Nothing 
 end function 
-GetHttpFile("http://hostsx.googlecode.com/svn/trunk/g/g.ico") 
+GetHttpFile("http://hostsx.googlecode.com/svn/trunk/lib/g.ico") 
 
 Set objShell = CreateObject("Wscript.Shell")
 strPath = Wscript.ScriptFullName

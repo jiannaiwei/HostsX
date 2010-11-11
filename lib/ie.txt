@@ -1,0 +1,8 @@
+11.mydrivers.com
+adcontrol.tudou.com
+gimg.iqilu.com
+images.sohu.com
+pro.letv.com
+*.atm.youku.com
+*.mediav.com
+*.sandai.net
