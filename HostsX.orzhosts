@@ -1,24 +1,6 @@
-# This HostsX Data file is a free download from:           #
-# http://code.google.com/p/hostsx/                         #
-#                                                          #
-# This is probably the best Hosts file you used            #
-# Support for Win/Mac/UNIX/Java/Symbian/iPhone OS/Android  #
-# *********************************************************#
-# This work is licensed under the Creative Commons         #
-# Attribution-NonCommercial-ShareAlike License.            #
-# http://creativecommons.org/licenses/by-nc-sa/3.0/        #
-# Thanks:                                                  #
-# bbs.Winzheng.com , bbs.wmzhe.com , bbs.crsky.com ,       #
-# (Mod On "Beautiful Hosts Patch","Go Hosts","Gay Hosts"); #
-# www.mvps.org , pgl.yoyo.org , forum.xda-developers.com , #
-# itfunz.com (We combined above 4 Hosts from their bbs) ;  #
-# www.du110.com , www.clxp.net.cn , www.mwsl.org.cn ,      #
-# (Thank them for their contribution) ;                    #
-# Thanks for all the feedback from users and friends.      #
-# Project builds: OrzFly & JocKwok                         #
-# Data Maintenance: JocKwok                                #
 ;version=201011110111
 ;author=¹ùÅôï¿£¨JocKwok£©
+;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart redirect
 #Localhost
 127.0.0.1   localhost
@@ -847,7 +829,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.youmi.net
 127.0.0.1 youmi.net
 @HostsX Site Ad
-@HostsX Site Ad/Overseas sites
+@HostsX Site Ad/Overseas Sites
 #ABCNews
 127.0.0.1 Adsatt.ABCNews.starwave.com
 127.0.0.1 adsatt.disney.starwave.com

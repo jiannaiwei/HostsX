@@ -1,21 +1,25 @@
 @echo off
 set ver=2.362
 ren %0 "HostsTool.bat"
+set version_New=Unknown
+call :downvbs
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/ver.txt">%temp%/ver.txt 2>nul
+for /f %%i in (%temp%\ver.txt) do set verNew=%%i
+if "%verNew%"=="Unknown" goto chker
+if %ver%==%verNew% (goto NoUpgrade) else (echo  Found the new version, press any key update&pause>nul& goto Updates)
+cls
+:NoUpgrade
+set dver=You are Using the latest version.
 color 0b
-rem 清理可能影响运行或者之前运行残留的文件
 del /f /q echo host hosts setup.bat >nul 2>nul
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
-rem 环境变量设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -T 10 -P gdown
-rem 获取操作系统版本
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
-rem Wget下载组件检测
 if not exist wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)& (echo 请保存Wget组件至当前目录！)&pause&goto opdp
 if not exist %windir%\system32\cacls.exe goto findown &(echo 未检测到系统权限设置文件！请保存至当前目录！)&pause
 cls
-rem 判断操作系统版本，并设置系统默认Hosts文件位置的变量。
 if exist %ComSpec% goto nt else goto 9x
 :9x
 set etc=%windir%\
@@ -32,14 +36,14 @@ if   %errorlevel%==0   goto   cacls5
 ver|find   "6."   
 if   %errorlevel%==0   goto   cacls6   
 :cacls5
-echo 正在下载所需的权限更改组件
-echo 请稍候......
+echo Downloading the required File
+echo Please wait......
 %down% http://hostsx.googlecode.com/svn/trunk/lib/cacls5.exe
 copy gdown\cacls5.exe %windir%\system32\cacls.exe
 pause&exit
 :cacls6
-echo 正在下载所需的权限更改组件
-echo 请稍候......
+echo Downloading the required File
+echo Please wait......
 %down% http://hostsx.googlecode.com/svn/trunk/lib/cacls6.exe
 copy gdown\cacls6.exe %windir%\system32\cacls.exe
 pause&exit
@@ -62,72 +66,60 @@ set hosts=
 goto menu
 
 :menu
-mode con cols=59 lines=28
-rem 解除Hosts只读属性，权限限制
+mode con cols=62 lines=28
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 cls
-title G+ 极佳猴子 %ver%W  %version%
-echo ----------------------------------------------------------
-echo ○Main Data:
-echo.   G.Hosts更新  i.IPV6数据      U.多行模式    Y.AnDroid
+title G+ Hosts %ver%W  %version%
+echo -------------------------------------------------------------
+echo ☆Main Data Chioce:
+echo.   G.HostsUpdate      V.MVPSData       E.Edit Hosts File   
 echo.
-echo ☆Single Data:
-echo.   R.智能转向   1.一站式过滤    2.站点过滤    3.广告联盟
+echo.   i.IPV6Data(Cn)     N.No.Media       A.For AnDroid Mobile
+echo.   
+echo ☆User Custom:                  O.Open Hosts directory
 echo.
-echo.   5.软件广告   6.软件验证      7.游戏验证    E.办公屏蔽
+echo.   S.Shield /Accelerate Site    B.Backup Hosts File  
+echo.   R.Remove Shield Site         D.Delete Hosts File Backup  
+echo.   P.Hosts File Permissions     F.Hosts File Fix and Restore
+echo -------------------------------------------------------------
+echo ◎Other Tools:        %dver%
 echo.
-echo ◎Mwsl Data:
-echo.   M.DU110(荐)       S.MWSL实验室      V.MVPSData
-echo.
-echo ☆User Custom:
-echo.   A.屏蔽/加速访问   B.备份Hosts文件   H.添加IE不信任网址
-echo.   C.删除屏蔽网站    D.删除Hosts备份   J.删除IE不信任网址
-echo ----------------------------------------------------------
-echo    X.IE优化与修复     F.Hosts修复      K.快捷方式修复
-echo    P.设置Hosts权限    L.在线升级       T.感谢帮助反馈
-echo ----------------------------------------------------------
-echo 当前工作目录(0)：%~dp0
-echo.
+echo   H.Add IE donot Turst Site     K.Creating a desktop shortcut
+echo   J.Del IE donot Turst Site           
+echo   X.IE Optimization and Fix     T.Thanks Feedback and Help
+echo -------------------------------------------------------------
+echo Current directory(0)：%~dp0
 set all=
-set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
-if /i "%all%"=="u" goto gdft
-if /i "%all%"=="g" goto dft
-if /i "%all%"=="i" goto ipv6
-if /i "%all%"=="r" goto grd
-if /i "%all%"=="1" goto g1key
-if /i "%all%"=="2" goto gsite
-if /i "%all%"=="3" goto gunion
-if /i "%all%"=="5" goto gsoft
-if /i "%all%"=="6" goto greg
-if /i "%all%"=="7" goto ggame
-if /i "%all%"=="m" goto gmwsl
-if /i "%all%"=="s" goto mwslcn
-if /i "%all%"=="v" goto mvpshost
-if /i "%all%"=="a" goto addsite
-if /i "%all%"=="b" goto hostbak
-if /i "%all%"=="c" goto clradd
-if /i "%all%"=="d" goto delbak
-if /i "%all%"=="e" goto appit
-if /i "%all%"=="f" goto fixhost
-if /i "%all%"=="h" goto adietrust
-if /i "%all%"=="j" goto dietrust
-if /i "%all%"=="k" goto desklnk
-if /i "%all%"=="l" goto chkupdate
+set /p all=Please select,Press [Enter] to refresh DNS and caching：
 if /i "%all%"=="0" goto opdp
 if /i "%all%"=="4" goto run
+if /i "%all%"=="a" goto AnDroid
+if /i "%all%"=="b" goto hostbak
+if /i "%all%"=="d" goto delbak
+if /i "%all%"=="e" goto run
+if /i "%all%"=="f" goto fixhost
+if /i "%all%"=="g" goto dft
+if /i "%all%"=="h" goto adietrust
+if /i "%all%"=="i" goto ipv6
+if /i "%all%"=="j" goto dietrust
+if /i "%all%"=="k" goto desklnk
+if /i "%all%"=="l" goto delit
+if /i "%all%"=="m" goto myfile
+if /i "%all%"=="n" goto appit
 if /i "%all%"=="o" goto ophostdp
 if /i "%all%"=="p" goto perms
+if /i "%all%"=="q" goto exit
+if /i "%all%"=="r" goto clradd
+if /i "%all%"=="s" goto addsite
 if /i "%all%"=="t" goto thanks
+if /i "%all%"=="u" goto Updates
+if /i "%all%"=="v" goto mvpshost
 if /i "%all%"=="w" goto hostpath
 if /i "%all%"=="x" goto fixie
-if /i "%all%"=="m" goto myfile
-if /i "%all%"=="n" goto delit
-if /i "%all%"=="y" goto AnDroid
-if /i "%all%"=="q" goto exit
 
 :dns
-echo 正在清理Dns缓存 IE缓存...
+echo Refresh DNS and caching...
 ipconfig /flushdns>nul 2>nul
 del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
 del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
@@ -139,91 +131,34 @@ reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 
 ipconfig /flushdns>nul 2>nul
 goto menu
 
-:datadown
-echo 正在下载基础数据中，请稍候... ...
-%down% http://hostsx.googlecode.com/svn/trunk/g/Rd.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/1key.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/Site.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/Union.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/Soft.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/Reg.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/Game.g
-%down% http://hostsx.googlecode.com/svn/trunk/g/Mwsl.g
-cls&mshta vbscript:msgbox("数据下载完成，请返回重新选择",64,"Hosts")(window.close)
-goto menu
-
-:gdft
-if not exist gdown\rd.g call :datadown
-cd gdown\
-copy /b Rd.g+1key.g+Site.g+Union.g+Soft.g+Reg.g+Game.g+Mwsl.g hbhosts.txt
-copy hbhosts.txt %hosts%
-cd.. >nul 2>nul
-goto Perms
-
 :dft
-echo       正在更新Hosts数据
+echo       Update Hosts Data
 echo.
-echo         ...请稍候...
+echo       ...Please wait...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-copy gdown\HostsX.orzhosts %hosts%
-goto Perms
+echo Download data From "http://www.mwsl.org.cn/"，Please wait... ...
+%down% http://hostsx.googlecode.com/svn/trunk/mwsl.txt
+copy gdown\HostsX.orzhosts ghosts.txt
+copy gdown\mwsl.txt mwslcn.txt
+copy /b ghosts.txt+mwslcn.txt hbhosts.txt
+copy hbhosts.txt %hosts%
+goto perms
 
 :ipv6
-echo 第一次安装Ipv6时请稍候...
 ipv6 install>nul 2>nul
-echo 正在下载IPv6数据中，请稍候... ...
+echo Download ipv6 data，Please wait... ...
 %down% http://hostsx.googlecode.com/svn/trunk/ipv6.txt
 copy gdown\ipv6.txt %hosts%
 goto Perms
 
-:grd
-if not exist gdown\rd.g call :datadown
-copy gdown\rd.g %hosts%
-goto perms
-
-:g1key
-if not exist gdown\1key.g call :datadown
-copy gdown\1key.g %hosts%
-goto perms
-
-:gsite
-if not exist gdown\Site.g call :datadown
-copy gdown\Site.g %hosts%
-goto perms
-
-:gunion
-if not exist gdown\Union.g call :datadown
-copy gdown\Union.g %hosts%
-goto perms
-
-:gsoft
-if not exist gdown\Soft.g call :datadown
-copy gdown\Soft.g %hosts%
-goto Perms
-
-:greg
-if not exist gdown\Reg.g call :datadown
-copy gdown\Reg.g %hosts%
-goto perms
-
-:ggame
-if not exist gdown\Game.g call :datadown
-copy gdown\Game.g %hosts%
-goto perms
-
-:gmwsl
-if not exist gdown\Mwsl.g call :datadown
-copy gdown\Mwsl.g %hosts%
-goto perms
-
 :mwslcn
-echo "恶意网站实验室"数据下载中，请稍候... ...
+echo Download data From "http://www.mwsl.org.cn/",Please wait... ...
 %down% http://hostsx.googlecode.com/svn/trunk/mwsl.txt
 copy gdown\mwsl.txt %hosts%
 goto perms
 
 :mvpshost
-echo 数据下载中，请稍候... ...
+echo Download data,Please wait... ...
 %down% http://www.mvps.org/winhelp2002/hosts.txt
 copy gdown\hosts.txt %hosts%
 start http://www.mvps.org/winhelp2002/hosts.htm
@@ -247,17 +182,17 @@ mshta vbscript:msgbox("已经取消屏蔽 %b%！",64,"G+ Hosts")(window.close)
 goto dns
 
 :hostbak
-echo 对原Hosts进行备份 ...
+echo Backup Your Hosts File
 md Bakup\
 copy /y %hosts% Bakup\"Hosts_%bak%.txt" >nul 2>nul
-echo 备份完成
+echo Backup completed!
 pause&goto menu
 
 :delbak
-echo 是否删除备份的Hosts文件？
+echo Delete the Backed up Hosts File
 Pause
 del Bakup\Hosts*_*.txt /q >nul 2>nul
-echo 由HostsTool备份的Hosts文件已删除！
+echo Backed up Hosts file by HostsTool was deleted!
 Pause&goto menu
 
 :appit
@@ -286,12 +221,13 @@ if %errorlevel% == 1 (
   @echo.>>%hosts%
   @echo 0.0.0.0 apps.renren.com>>%hosts%
 )
-echo 已屏蔽QQ空间、农场，开心网，人人网应用，4399小游戏！
+echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game.
+echo You Can Use Hosts File Fix and Restore to Cancle.
 pause&goto menu
 
 :fixhost
 mode con: cols=50 lines=12
-echo 修复HOSTS文件？（还原系统默认状态）
+echo Fix Hosts File?（Restore the system default）
 Pause
 del %hosts% /q
 goto nohosts
@@ -300,7 +236,7 @@ goto nohosts
 echo 127.0.0.1       localhost> %hosts%
 echo ::1             localhost>> %hosts%
 echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
-cls&mshta vbscript:msgbox("Hosts文件已恢复到系统默认状态",64,"G+ Hosts")(window.close)
+cls&mshta vbscript:msgbox("Hosts file has been restored to the system default",64,"G+ Hosts")(window.close)
 goto dns
 
 :adietrust
@@ -320,13 +256,13 @@ echo 请注意备份 自定义.txt 中的的数据！！！
 echo 确定要使用自定义的IE不信任网址数据？
 pause
 echo       正在添加恶意网址到浏览器非安全区域。
-echo       这个过程需要几分钟，请稍候……
+echo       这个过程需要几分钟，Please wait……
 set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
 for /F %%a in (1.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
 echo  添加完毕!&pause&goto menu
 
 :dietrust
-echo  是否要清理IE浏览器非安全区域的所有网址！
+echo  Del All IE donot Turst Site
 pause
 reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
 goto menu
@@ -336,40 +272,17 @@ call :downvbs
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/DeskLnk.txt">%cd%\DeskLnk.vbs
 DeskLnk.vbs&del DeskLnk.vbs&goto menu
 
-:chkupdate
-Mode con cols=50 lines=15
-Title 在线更新
-set version_New=未知
+:Updates
 cls
-echo.
-echo                    正在检查更新
-echo.
-echo                    ...请稍候...
-call :downvbs
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/g/ver.txt">%temp%/ver.txt 2>nul
-for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if "%verNew%"=="未知" goto chker
-cls
-echo.
-echo         当前版本：  %ver%
-echo.
-echo         最新版本：  %verNew%
-echo.
-if %ver%==%verNew% (echo 已经是最新版本，无需升级！&ping /n 3 127.1>nul&goto menu) else (
-echo  发现新版本，按任意键更新&pause>nul& goto UpdatesNow)
-
-:UpdatesNow
-cls
-echo 备份旧版HostsTool ...
 md Bakup\
 copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
-echo 备份完成&pause
-echo                    正在下载更新                    ...请稍候...
+echo Complete backup of the old version(%ver%) of HostsTool in Bakup\&pause
+echo Downloading update         ...Please wait...
 %down% http://hostsx.googlecode.com/svn/trunk/g/HostsTool.Src
 echo @echo off>%temp%\up.bat
 echo Mode con cols=50 lines=10>>%temp%\up.bat
-echo Title 在线更新>>%temp%\up.bat
-echo echo  ...重新启动...>>%temp%\up.bat
+echo Title Update>>%temp%\up.bat
+echo echo  ...Restart HostsTool...>>%temp%\up.bat
 echo ping /n 3 127.1^>nul>>%temp%\up.bat
 echo copy /y "gdown\HostsTool.Src" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
@@ -379,9 +292,9 @@ exit
 
 :chker
 cls
-echo      无法连接更新服务器
+echo   Can not connect to the update server
 echo.
-echo          请下载更新
+echo   You can go to my website to download the latest version
 ping /n 3 127.1>nul
 start /min iexplore http://hi.baidu.com/iebb
 goto menu
@@ -391,7 +304,6 @@ start explorer %etc%\
 goto menu
 
 :run
-rem 解除Hosts只读属性，权限限制
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 if not exist %hosts% (call :nohosts) else (start %windir%\notepad.exe %hosts%)
