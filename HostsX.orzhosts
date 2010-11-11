@@ -1,7 +1,7 @@
 ;version=201011110111
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-@HostsX Smart redirect
+@HostsX Smart Redirect
 #Localhost
 127.0.0.1   localhost
 ::1             localhost
@@ -1174,6 +1174,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 union.360buy.com
 127.0.0.1 union.dangdang.com
 127.0.0.1 union.vancl.com
+@HostsX Online Ad filter
 @HostsX Online Ad filter/Foreign Ad
 #207.net
 127.0.0.1 102.112.207.net
@@ -4506,7 +4507,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 ps2.zonelabs.com
 127.0.0.1 register.zonelabs.com
 127.0.0.1 update.zonelabs.com
-@HostsX Game
+@HostsX Game Authentication
 #QUAZAL
 127.0.0.1 cohlive-1.quazal.net
 127.0.0.1 cohlive.quazal.net
