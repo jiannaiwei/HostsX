@@ -12,7 +12,7 @@ cls
 set dver=You are Using the latest version.
 set dvercn=*当前版本已经是最新
 color 0b
-del /f /q echo host hosts setup.bat >nul 2>nul
+del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt>nul 2>nul
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
