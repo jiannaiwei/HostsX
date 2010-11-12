@@ -1,4 +1,4 @@
-;version=201011112350
+;version=201011121130
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -3394,6 +3394,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 s76.cnzz.com
 127.0.0.1 s80.cnzz.com
 127.0.0.1 s83.cnzz.com
+127.0.0.1 s87.cnzz.com
 127.0.0.1 s88.cnzz.com
 127.0.0.1 s89.cnzz.com
 127.0.0.1 s92.cnzz.com
@@ -3407,6 +3408,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 v7.cnzz.com
 127.0.0.1 v9.cnzz.com
 127.0.0.1 w.cnzz.com
+127.0.0.1 zs6.cnzz.com
 #Webnibbler
 127.0.0.1 btnibbler.com
 127.0.0.1 cn.ad.btnibbler.com
@@ -4095,6 +4097,8 @@ ff02::3 ip6-allhosts
 127.0.0.1 bt.52yeyou.com
 127.0.0.1 bto.youxiya.com
 127.0.0.1 c.91wan.com
+127.0.0.1 c.qling.com
+127.0.0.1 c.union188.com
 127.0.0.1 cba.96pk.com
 127.0.0.1 ccnec.com
 127.0.0.1 chess.r.arpg2.com
@@ -4103,6 +4107,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 client.7pk.com
 127.0.0.1 cn.88db.com
 127.0.0.1 cp.1o26.com
+127.0.0.1 cpm.71aiyou.com
 127.0.0.1 cs01.csyouxi.com
 127.0.0.1 dev.tongxue.com
 127.0.0.1 doc.70yx.com
@@ -4180,6 +4185,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 ww.jinzhao99.com
 127.0.0.1 ww.yiqiwin.com
 127.0.0.1 www.13097.com
+127.0.0.1 www.176web.net
 127.0.0.1 www.33hy.com
 127.0.0.1 www.adsue.com
 127.0.0.1 www.cssyouxi.com
@@ -4194,6 +4200,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.shumenol.com
 127.0.0.1 www.wangyuan.com
 127.0.0.1 www.wooigoo.cn
+127.0.0.1 www1.xman.cn
 127.0.0.1 www1.zjbdt.com
 127.0.0.1 xy.8zgame.com
 127.0.0.1 yz.szgla.com
