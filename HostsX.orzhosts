@@ -1,4 +1,4 @@
-;version=201011121130
+;version=201011122030
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -4126,7 +4126,9 @@ ff02::3 ip6-allhosts
 127.0.0.1 Han1.70yx.Com
 127.0.0.1 hc.gamebean.com
 127.0.0.1 hlt.nextsee.com
+127.0.0.1 hy.wowan365.com
 127.0.0.1 i.na7.cc
+127.0.0.1 image.runup.cn
 127.0.0.1 images.9zwar.com
 127.0.0.1 img.7pk.com
 127.0.0.1 imgcache.7pk.com
@@ -4137,6 +4139,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 link.155game.com
 127.0.0.1 lj.zqgame.com
 127.0.0.1 mcsd.qq437.cn
+127.0.0.1 mediacdn.runup.cn
 127.0.0.1 mhsh.zqgame.com
 127.0.0.1 naqigs.com
 127.0.0.1 new.7pk.com
@@ -4189,6 +4192,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.33hy.com
 127.0.0.1 www.adsue.com
 127.0.0.1 www.cssyouxi.com
+127.0.0.1 www.douxie.com
 127.0.0.1 www.huaqimen.com
 127.0.0.1 www.igo2018.com
 127.0.0.1 www.jiayuan.com
