@@ -63,7 +63,7 @@ fw.writeline("taskkill  /f /T /im adb.exe")
 fw.writeline("echo Hosts complete change!")
 fw.writeline("echo Enjoy it!")
 fw.writeline("pause")
-fw.writeline("del /f /q adb.exe adbwinapi.dll hosts adbwinusbapi.dll >nul 2>nul")
+fw.writeline("del /f /q adb.exe adbwinapi.dll adbwinusbapi.dll >nul 2>nul")
 fw.writeline("echo App Clean Up!")
 fw.writeline("del %0")
 fw.close
