@@ -1,4 +1,4 @@
-;version=201011122030
+;version=201011122050
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -3467,6 +3467,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 icon.ajiang.net
 127.0.0.1 popstat.pppop.cn
 127.0.0.1 static.woopra.com
+127.0.0.1 tongji.linezing.com
 127.0.0.1 www.clicki.cn
 127.0.0.1 www.nasboq.com
 127.0.0.1 www.referer.cn
@@ -3588,6 +3589,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 xinhuanet.adsame.com
 #All4ad
 127.0.0.1 go.all4ad.cn
+127.0.0.1 goldlink.all4ad.cn
 127.0.0.1 img.all4ad.cn
 127.0.0.1 jump.all4ad.cn
 127.0.0.1 nad1.all4ad.cn
@@ -3912,6 +3914,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 code.ceyunshi.cn
 127.0.0.1 code.i-qianming.cn
 127.0.0.1 code.myxmdh.com
+127.0.0.1 code.qizhao.com
 127.0.0.1 code.tjlove8.com
 127.0.0.1 counter.hitslink.com
 127.0.0.1 cs.37see.com
@@ -3919,6 +3922,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 e2.tjq.com
 127.0.0.1 engine.100fenlm.cn
 127.0.0.1 etology.com
+127.0.0.1 g.9444.com
 127.0.0.1 g.miaozhen.com
 127.0.0.1 go.maxreturn.cn
 127.0.0.1 gwc.iblinx.com
@@ -3928,6 +3932,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 img.a.07073.com
 127.0.0.1 js.tuigoo.com
 127.0.0.1 link.f1.com.tw
+127.0.0.1 link.hao251.com
 127.0.0.1 logs.51job.com
 127.0.0.1 m.menhutong.com.cn
 127.0.0.1 money.scupio.com
@@ -3936,9 +3941,12 @@ ff02::3 ip6-allhosts
 127.0.0.1 pic.addeliver.biz
 127.0.0.1 pic837013.images9999.com
 127.0.0.1 popunder.paypopup.com
+127.0.0.1 qizhao.com
 127.0.0.1 r.mybestyouxi.cn
+127.0.0.1 shop8.x.com.cn
 127.0.0.1 uimg.unionli.com
 127.0.0.1 union.51ditu.com
+127.0.0.1 union.7cv.com
 127.0.0.1 union.88go.cc
 127.0.0.1 union.keepc.com
 127.0.0.1 union.narrowad.com
@@ -4032,6 +4040,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.6313.com
 127.0.0.1 www.66234.net
 127.0.0.1 www.8d.cn
+127.0.0.1 www.8hao123.com
 127.0.0.1 www.9384.com
 127.0.0.1 www.999d.com
 127.0.0.1 www.dh818.com
@@ -4145,6 +4154,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 new.7pk.com
 127.0.0.1 nonoyx.com
 127.0.0.1 p.3gm.com.cn
+127.0.0.1 home.3gm.com.cn
 127.0.0.1 p.eqiso.com
 127.0.0.1 passport.fs5d.com
 127.0.0.1 po.add.tx908.com
