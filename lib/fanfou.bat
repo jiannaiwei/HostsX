@@ -9,6 +9,9 @@ set etc=%windir%\system32\drivers\etc
 set hosts=%windir%\system32\drivers\etc\hosts
 goto menu
 :menu
+echo y|cacls %hosts% /g everyone:f >nul
+attrib -r -a -s -h %hosts%
+cls
 find "58.83.134.230 fanfou.com" %hosts% > nul
 if %errorlevel% == 1 (
   @echo.>>%hosts%
