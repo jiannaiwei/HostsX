@@ -3365,6 +3365,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 s137.cnzz.com
 127.0.0.1 s14.cnzz.com
 127.0.0.1 s142.cnzz.com
+127.0.0.1 s15.cnzz.com
 127.0.0.1 s18.cnzz.com
 127.0.0.1 s19.cnzz.com
 127.0.0.1 s20.cnzz.com
@@ -3411,6 +3412,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 v7.cnzz.com
 127.0.0.1 v9.cnzz.com
 127.0.0.1 w.cnzz.com
+127.0.0.1 zs15.cnzz.com
 127.0.0.1 zs6.cnzz.com
 #Webnibbler
 127.0.0.1 btnibbler.com
