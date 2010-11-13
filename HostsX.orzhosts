@@ -1,4 +1,4 @@
-;version=201011122050
+;version=201011131130
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -574,6 +574,8 @@ ff02::3 ip6-allhosts
 127.0.0.1 union.qihoo.com
 #360
 127.0.0.1 inst.360safe.com
+127.0.0.1 seapp.stat.360safe.com
+127.0.0.1 seupdate.360safe.com
 127.0.0.1 stat.360safe.com
 127.0.0.1 x.360safe.com
 127.0.0.1 pinst.360.cn
