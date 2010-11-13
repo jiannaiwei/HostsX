@@ -1,4 +1,4 @@
-;version=201011131300
+;version=201011131405
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -1102,6 +1102,12 @@ ff02::3 ip6-allhosts
 127.0.0.1 dpvc.39.net
 127.0.0.1 dy.39.net
 127.0.0.1 39net.datamaster.com.cn
+#Hudong
+127.0.0.1 stat.hudong.com
+127.0.0.1 static.hudong.com
+#VeryCD
+127.0.0.1 sp.vcimg.com
+127.0.0.1 sponsor.verycd.com
 #Soufun.com
 127.0.0.1 clickn.soufun.com
 127.0.0.1 flas.soufun.com
@@ -1157,7 +1163,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 me.youheme.com
 127.0.0.1 pro.letv.com
 127.0.0.1 s1.wopti.net
-127.0.0.1 sponsor.verycd.com
 127.0.0.1 stat.uuu9.com
 127.0.0.1 union.daqi.com
 127.0.0.1 union.pomoho.com
