@@ -1,6 +1,6 @@
-;version=201011131405
+;version=201011132010
 ;author=¹ùÅôï¿£¨JocKwok£©
-;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+;Download=127.0.0.1 hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
 #Localhost
 127.0.0.1   localhost
@@ -797,11 +797,14 @@ ff02::3 ip6-allhosts
 127.0.0.1 ads.namiflow.com
 127.0.0.1 ads1.uc.com
 127.0.0.1 ads1.ucweb.com
+127.0.0.1 adsclick.uc123.com
 127.0.0.1 androidappoftheday.net
 127.0.0.1 apphu.com
+127.0.0.1 cnota.cn
 127.0.0.1 cx.360doo.com
 127.0.0.1 d.casee.cn
 127.0.0.1 d.gfan.com
+127.0.0.1 down2.ucweb.com
 127.0.0.1 fullmp3.mobi
 127.0.0.1 isafeantiviruspro.com
 127.0.0.1 m.askalok.com
@@ -810,12 +813,14 @@ ff02::3 ip6-allhosts
 127.0.0.1 moto.casee.cn
 127.0.0.1 searchmp3.mobi
 127.0.0.1 static.wooboo.com.cn
+127.0.0.1 uni.lyy.mobi
 127.0.0.1 usaacademics-cn.com
 127.0.0.1 wap.cellufun.com
 127.0.0.1 wap.cttol.cn
 127.0.0.1 wap.mobango.com
 127.0.0.1 wap.pingan.com
 127.0.0.1 wap.ycwb.com
+127.0.0.1 wapyoo.cn
 127.0.0.1 www.bookhaveninstuments.com
 127.0.0.1 www.bursawave.com
 127.0.0.1 www.edolnet.com
