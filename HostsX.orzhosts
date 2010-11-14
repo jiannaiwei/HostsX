@@ -1,6 +1,6 @@
 ;version=201011141700
 ;author=¹ùÅôï¿£¨JocKwok£©
-;Download=127.0.0.1 hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
 #Localhost
 127.0.0.1   localhost
