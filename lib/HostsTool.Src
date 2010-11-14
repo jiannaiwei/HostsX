@@ -1,5 +1,5 @@
 @echo off
-set ver=2.6
+set ver=2.61
 set/a xc=%random%%%5+1
 set te=
 for %%i in (c d e f a) do (
