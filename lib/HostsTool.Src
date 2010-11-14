@@ -1,5 +1,5 @@
 @echo off
-set ver=2.38
+set ver=2.6
 set/a xc=%random%%%5+1
 set te=
 for %%i in (c d e f a) do (
@@ -8,10 +8,18 @@ if "!xc!"=="!te!" set xc=%%i)
 color 0%xc%
 cls
 ren %0 "HostsTool.bat"
-set version_New=Unknown
+if not exist wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)& (echo Please Save the wget.exe to the current directory!)&pause&goto opdp
+del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt>nul 2>nul
+del /f /q gdown\*.*>nul 2>nul
+rd /s /q gdown\>nul 2>nul
+for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -T 10 -P gdown
-call :downvbs
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
+echo WScript.sleep 200 >>%temp%/chkver.vbs
+echo loop >>%temp%/chkver.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/lib/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
 if "%verNew%"=="Unknown" goto chker
@@ -20,12 +28,6 @@ cls
 :NoUpgrade
 set dver=You are Using the latest version.
 set dvercn=*当前版本已经是最新
-del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt>nul 2>nul
-del /f /q gdown\*.*>nul 2>nul
-rd /s /q gdown\>nul 2>nul
-for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
-if not exist wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)& (echo Please Save the wget.exe to the current directory!)&pause&goto opdp
-if not exist %windir%\system32\cacls.exe goto findown &(echo Please Save the downloaded file to the current directory!)&pause
 cls
 if exist %ComSpec% goto nt else goto 9x
 :9x
@@ -35,6 +37,7 @@ goto menu
 :nt
 set etc=%windir%\system32\drivers\etc
 set hosts=%windir%\system32\drivers\etc\hosts
+if not exist %windir%\system32\cacls.exe goto findown &(echo Please Save the downloaded file to the current directory!)&pause
 goto menu
 
 :findown
@@ -47,13 +50,13 @@ echo Downloading the required File
 echo Please wait......
 %down% http://hostsx.googlecode.com/svn/trunk/lib/cacls5.exe
 copy gdown\cacls5.exe %windir%\system32\cacls.exe
-pause&exit
+pause&goto menu
 :cacls6
 echo Downloading the required File
 echo Please wait......
 %down% http://hostsx.googlecode.com/svn/trunk/lib/cacls6.exe
 copy gdown\cacls6.exe %windir%\system32\cacls.exe
-pause&exit
+pause&goto menu
 
 :hostpath
 echo 如果HostsTool未能正确获取路径，请用记事本按提示修改变量。
@@ -73,6 +76,8 @@ set hosts=
 goto menu
 
 :menu
+echo y|cacls %hosts% /g everyone:f >nul
+attrib -r -a -s -h %hosts%
 reg query HKLM\SYSTEM\CurrentControlSet\Control\Nls\Language >%temp%\Language.log
 find "Default" %temp%\Language.log |find "0804" >NUL
 IF NOT ERRORLEVEL 1 (
@@ -84,10 +89,8 @@ if %Language%==Chinese ( goto menucn ) else ( goto menuen )
 
 :menucn
 mode con cols=58 lines=25
-echo y|cacls %hosts% /g everyone:f >nul
-attrib -r -a -s -h %hosts%
 cls
-title G+ 极佳猴子 %ver%W  %version%
+title G+ Hosts 极佳猴子 %ver%W  %version%
 echo ---------------------------------------------------------
 echo ☆Main Data Chioce:
 echo.  G.Hosts更新        V.MVPSData       E.编辑Hosts
@@ -110,6 +113,7 @@ if /i "%all%"=="0" goto opdp
 if /i "%all%"=="4" goto run
 if /i "%all%"=="a" goto AnDroid
 if /i "%all%"=="b" goto hostbak
+if /i "%all%"=="c" goto dns
 if /i "%all%"=="d" goto delbak
 if /i "%all%"=="e" goto run
 if /i "%all%"=="f" goto fixhost
@@ -121,7 +125,7 @@ if /i "%all%"=="k" goto desklnk
 if /i "%all%"=="l" goto delit
 if /i "%all%"=="n" goto appit
 if /i "%all%"=="o" goto ophostdp
-if /i "%all%"=="p" goto perms
+if /i "%all%"=="p" goto permscn
 if /i "%all%"=="q" goto exit
 if /i "%all%"=="r" goto clradd
 if /i "%all%"=="s" goto addsite
@@ -146,8 +150,6 @@ goto menu
 
 :menuen
 mode con cols=62 lines=28
-echo y|cacls %hosts% /g everyone:f >nul
-attrib -r -a -s -h %hosts%
 cls
 title G+ Hosts %ver%W  %version%
 echo -------------------------------------------------------------
@@ -175,6 +177,7 @@ if /i "%all%"=="0" goto opdp
 if /i "%all%"=="4" goto run
 if /i "%all%"=="a" goto AnDroid
 if /i "%all%"=="b" goto hostbak
+if /i "%all%"=="c" goto dns
 if /i "%all%"=="d" goto delbak
 if /i "%all%"=="e" goto run
 if /i "%all%"=="f" goto fixhost
@@ -186,7 +189,7 @@ if /i "%all%"=="k" goto desklnk
 if /i "%all%"=="l" goto delit
 if /i "%all%"=="n" goto appit
 if /i "%all%"=="o" goto ophostdp
-if /i "%all%"=="p" goto perms
+if /i "%all%"=="p" goto permsen
 if /i "%all%"=="q" goto exit
 if /i "%all%"=="r" goto clradd
 if /i "%all%"=="s" goto addsite
@@ -296,14 +299,14 @@ cls&mshta vbscript:msgbox("Hosts file has been restored to the system default",6
 goto dns
 
 :adietrust
-%down% http://hostsx.googlecode.com/svn/trunk/lib/ie.txt
-notepad gdown\ie.txt
-pause
+echo We Used yoyo data(pgl.yoyo.org) and very thanks!
+rem http://pgl.yoyo.org/adservers/serverlist.php?hostformat=win32reg-sp&showintro=1&startdate%5Bday%5D=&startdate%5Bmonth%5D=&startdate%5Byear%5D=
+wget http://hostsx.googlecode.com/svn/trunk/lib/ie.txt
 echo   Adding non-malicious URL into your browser security zones.
 echo   Please wait……
 set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
-for /F %%a in (hbhosts.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
-echo  Has been added!&pause&goto menu
+for /F %%a in (ie.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
+echo  New Data Has been added!&pause&goto menu
 
 :dietrust
 echo  Del All IE donot Turst Site
@@ -340,15 +343,6 @@ echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
 echo Exit>>%temp%\up.bat
 start %temp%\up.bat
 exit
-
-:chker
-cls
-echo   Can not connect to the update server
-echo.
-echo   You can go to my website to download the latest version
-ping /n 3 127.1>nul
-start /min iexplore http://hi.baidu.com/iebb
-goto menu
 
 :ophostdp
 start explorer %etc%\
@@ -442,6 +436,7 @@ ipconfig /flushdns>nul 2>nul&exit
 
 :thanks
 start http://hostsx.googlecode.com/svn/trunk/Readme.txt
+start /min iexplore http://hi.baidu.com/iebb
 cls&goto menu
 
 :fixie
@@ -484,8 +479,6 @@ reg add "HKCU\Software\Microsoft\Internet Explorer\TypedURLs">nul 2>nul
 rem  恢复被隐藏的桌面图标
 reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
 reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
-rem  恢复IE工具栏的链接名称
-reg add "HKCU\Software\Microsoft\Internet Explorer\Toolbar" /f /v LinksFolderName /d "链接">nul 2>nul
 rem  恢复internet选项安全页面自定义按钮
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecChangeSettings /t REG_DWORD /d 00000000>nul 2>nul
 rem  恢复IE浏览器缺省主页的设置锁定状态
@@ -521,12 +514,6 @@ rem  恢复网页右键菜单
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoBrowserContextMenu /t REG_DWORD /d 00000000>nul 2>nul
 rem  恢复OE标题栏广告
 reg add "HKCU\Software\Microsoft\Outlook Express" /f /v WindowTitle /t REG_DWORD /d 00000000>nul 2>nul
-rem  恢复时间显示样式
-reg add "HKEY_CURRENT_USER\Control Panel\International" /f /v sLongDate /d "yyyy'年'M'月'd'日'">nul 2>nul
-reg add "HKEY_CURRENT_USER\Control Panel\International" /f /v sLongDate16 /d "dddd', 'MMMM' 'dd', 'yyyy">nul 2>nul
-reg add "HKEY_CURRENT_USER\Control Panel\International" /f /v s1159 /d "上午">nul 2>nul
-reg add "HKEY_CURRENT_USER\Control Panel\International" /f /v s2359 /d "下午">nul 2>nul
-reg add "HKEY_CURRENT_USER\Control Panel\International" /f /v sShortDate /d "yyyy-M-d">nul 2>nul
 rem  恢复IE标题栏
 reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
@@ -581,10 +568,3 @@ pause&goto menu
 :AnDroid
 %down% http://hostsx.googlecode.com/svn/trunk/lib/AndriodHosts.vbs
 gdown\AndriodHosts.vbs&cls&goto menu
-
-:downvbs
-echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
-echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
-echo WScript.sleep 200 >>%temp%/Updates.vbs
-echo loop >>%temp%/Updates.vbs
-echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
