@@ -1,4 +1,4 @@
-;version=201011141700
+;version=201011141710
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -3598,6 +3598,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 sammix.adsame.com
 127.0.0.1 sina.adsame.com
 127.0.0.1 techweb.adsame.com
+127.0.0.1 vtechweb.adsame.com
 127.0.0.1 uusee.adsame.com
 127.0.0.1 v.adsame.com
 127.0.0.1 xcar.adsame.com
