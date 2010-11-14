@@ -1,4 +1,4 @@
-;version=201011132010
+;version=201011141700
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=127.0.0.1 hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -4073,6 +4073,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 smtown.com
 127.0.0.1 superjunior.smtown.com
 #Ad fraud
+127.0.0.1 1189cctv.com
 127.0.0.1 2010texq.com
 127.0.0.1 888888fa.com
 127.0.0.1 98712.com
@@ -4096,6 +4097,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.fengxin114.com
 127.0.0.1 www.hao120.cc
 127.0.0.1 www.juyuan.com
+127.0.0.1 www.lashou.com
 127.0.0.1 www.pp9a.com
 127.0.0.1 www.ruox.net
 127.0.0.1 www.sooe.cn
