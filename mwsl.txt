@@ -1,8 +1,11 @@
 ***********************************
 《电脑报》黑榜(R)恶意网址屏蔽文件    
-版本号：2010.11.8特别版
+版本号：2010.11.15特别版
+编辑陈邓新策划和监制
+警告：不得将此数据用于违法犯罪行为！
 POWER BY www.mwsl.org.cn
 ***********************************
+127.0.0.1 localhost
 127.0.0.1 www.aiqianming.cn
 127.0.0.1 www.77112.com
 127.0.0.1 www.6d6d.net
@@ -4760,3 +4763,86 @@ POWER BY www.mwsl.org.cn
 127.0.0.1 www.diaoyu.org
 127.0.0.1 gsdrkyuio.gicp.net
 127.0.0.1 www.msnkit.com
+127.0.0.1 www.zyxyfy.com
+127.0.0.1 noski5.com
+127.0.0.1 wawnet.net
+127.0.0.1 nisferylos.com
+127.0.0.1 denz.fileave.com
+127.0.0.1 taobao.lylwc.com
+127.0.0.1 eurogeotour.ru
+127.0.0.1 www.qpbay.com
+127.0.0.1 www.platinumchina.com
+127.0.0.1 imagenes.fileave.com
+127.0.0.1 www.zhujun0126.com
+127.0.0.1 adware2011.com
+127.0.0.1 turkish.fileave.com
+127.0.0.1 dl.vv01.info
+127.0.0.1 www.bugo24.com
+127.0.0.1 item.taobao.com-hosting.co.cc
+127.0.0.1 www.amcdrrkorea.org
+127.0.0.1 www.19ccc.com
+127.0.0.1 www.19eee.com
+127.0.0.1 19eee.com
+127.0.0.1 magzepterl.com
+127.0.0.1 ystv2010.com
+127.0.0.1 www.ystv2010.com
+127.0.0.1 www.111mimi.com
+127.0.0.1 ardhmeria-juaj.com
+127.0.0.1 dwnsft027.co.cc
+127.0.0.1 www.zuihouyi.com
+127.0.0.1 xmm.cc
+127.0.0.1 gmajem.x10.mx
+127.0.0.1 www.infectada.net
+127.0.0.1 linkmater.com
+127.0.0.1 cha.91mt.com
+127.0.0.1 www.fengliutianxia.info
+127.0.0.1 aligate32.com
+127.0.0.1 eazydn.com
+127.0.0.1 www.adware2011.com
+127.0.0.1 update.protectone.co.kr
+127.0.0.1 adware2010.com
+127.0.0.1 www.adware2010.com
+127.0.0.1 plum-6vbev2.com
+127.0.0.1 un04.com
+127.0.0.1 abodeflash-vol82.co.tv
+127.0.0.1 image.perfectexe.com
+127.0.0.1 videokinos-xxx.ru
+127.0.0.1 dasasugus.com
+127.0.0.1 lb.perfectexe.com
+127.0.0.1 www.vemdelicia.com
+127.0.0.1 www.adwareprofessional.org
+127.0.0.1 adwareprofessional.org
+127.0.0.1 adult-cube.net
+127.0.0.1 anti-virus-professional.com
+127.0.0.1 www.anti-virus-professional.com
+127.0.0.1 ppcmbo.com
+127.0.0.1 www.66green.com
+127.0.0.1 e8.96pk.com
+127.0.0.1 adult-loop.com
+127.0.0.1 www.r00tx.org
+127.0.0.1 mimisese.com
+127.0.0.1 77pw.com
+127.0.0.1 dzupdates.com
+127.0.0.1 oztime.asia
+127.0.0.1 adwareprofesional.com
+127.0.0.1 www.adwareprofesional.com
+127.0.0.1 jav-mov.com
+127.0.0.1 mu2010.com
+127.0.0.1 reverse.kz
+127.0.0.1 www.nnd323.cn
+127.0.0.1 www.derquda.com
+127.0.0.1 nnd323.cn
+127.0.0.1 hmv-mov.com
+127.0.0.1 08zs.com
+127.0.0.1 pink-alubum.com
+127.0.0.1 www.7dnfwg.com
+127.0.0.1 7dnfwg.com
+127.0.0.1 freedownloadsz.weebly.com
+127.0.0.1 bla.08zs.com
+127.0.0.1 www.camporeal.edu.br
+127.0.0.1 ourfaceb00k.com
+127.0.0.1 www.frandistribuidora01.com
+127.0.0.1 info.tb82.com
+127.0.0.1 www.xiazai189.com
+127.0.0.1 gq.zuobai.com
+***********************************
