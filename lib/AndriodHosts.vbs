@@ -19,10 +19,19 @@ GetHttpFile("http://hostsx.googlecode.com/svn/trunk/lib/adb.exe")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/lib/AdbWinApi.dll")
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/lib/AdbWinUsbApi.dll")
 '------------------------------------------------------------
+set fso=createobject("scripting.filesystemobject")
+set file=fso.opentextfile("HostsX.orzhosts")
+s=file.readall
+file.close
+s=replace(s,"0.0.0.0","127.0.0.1")
+set file=fso.createtextfile("new.txt")
+file.write s
+file.close
 Main
 Sub Main()
-    strSrcFile = ".\HostsX.orzhosts"
+    strSrcFile = ".\new.txt"
     strDestFile = ".\hosts"
+    strcon = Replace(strcon, "0.0.0.0 ", "127.0.0.1")
     strDos = ReadFileToString(strSrcFile)
     strUnix = ConvDosToUnix(strDos)
     WriteStringToFile strDestFile, strUnix
@@ -47,6 +56,7 @@ Sub WriteStringToFile(strFilePath, strInfo)
 End Sub
 '------------------------------------------------------------
 Set objFSO = CreateObject("Scripting.FileSystemObject")
+objFSO.DeleteFile(".\new.txt"), True
 objFSO.DeleteFile(".\hostsx.orzhosts"), True
 MsgBox "Hosts Data downloaded and conversion!", vbInformation, "G+ Hosts"
 MsgBox "Please send your phone connected to the computer£¬and open the USB debug mode!", vbInformation, "G+ Hosts"
