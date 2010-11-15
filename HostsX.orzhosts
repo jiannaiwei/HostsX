@@ -1,4 +1,4 @@
-;version=201011151930
+;version=201011152300
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX 站点智能转向
@@ -3182,7 +3182,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pole.6rooms.com
 0.0.0.0 shrek.6.cn
 #优酷网
-0.0.0.0 player.lstat.youku.com
 0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
