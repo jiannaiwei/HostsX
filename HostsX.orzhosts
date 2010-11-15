@@ -1,4 +1,4 @@
-;version=201011151630
+;version=201011151800
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX Smart Redirect
@@ -66,6 +66,7 @@ ff02::3 ip6-allhosts
 64.71.141.148 intl.easyssh.info
 #Fanfou
 58.83.134.230 fanfou.com
+58.83.134.230 www.fanfou.com
 @HostsX OneKey
 @HostsX OneKey/Google AD
 #Google AdWord
@@ -344,13 +345,19 @@ ff02::3 ip6-allhosts
 127.0.0.1 unstat.baidu.com
 127.0.0.1 utility.baidu.com
 127.0.0.1 utk.baidu.com
-#QiYi
+#Qiyi
 127.0.0.1 afp.qiyi.com
 127.0.0.1 focusbaiduafp.allyes.com
 #Qianqian
 127.0.0.1 ads.qianqian.com
 127.0.0.1 ttads.ttplayer.com
 127.0.0.1 ttmsg.qianqian.com
+#Hexun
+127.0.0.1 analytics.tool.hexun.com
+127.0.0.1 hx.hexun.com
+127.0.0.1 itv.hexun.com
+127.0.0.1 union.hexun.com
+127.0.0.1 wizard.stock.hexun.com
 @HostsX OneKey/CBS Interactive
 #CBSNews
 127.0.0.1 dw.cbsi.com.cn
@@ -641,6 +648,14 @@ ff02::3 ip6-allhosts
 127.0.0.1 pv.sogou.com
 127.0.0.1 union.sogou.com
 127.0.0.1 wb.brand.sogou.com
+#Soufun
+127.0.0.1 clickn.soufun.com
+127.0.0.1 flas.soufun.com
+127.0.0.1 imgd.soufun.com
+127.0.0.1 imgdn.soufun.com
+127.0.0.1 show.soufun.com
+127.0.0.1 shows.soufun.com
+127.0.0.1 shows1.soufun.com
 #SogouPinyin
 127.0.0.1 files2.sogou.com
 127.0.0.1 config.pinyin.sogou.com
@@ -902,9 +917,73 @@ ff02::3 ip6-allhosts
 127.0.0.1 ad.secretchina.com
 127.0.0.1 static1.secretchina.com
 127.0.0.1 ad.epochtimes.com
-@HostsX Site Ad
-@HostsX Site Ad/SNS Site
-#Tianya.cn
+@HostsX China Site Lists
+#China Site List
+127.0.0.1 33.autohome.com.cn
+127.0.0.1 39net.datamaster.com.cn
+127.0.0.1 a-m-s.poco.cn
+127.0.0.1 a4.yeshj.com
+127.0.0.1 ad.17k.com
+127.0.0.1 ad.ddvip.com
+127.0.0.1 ad.wretch.cc
+127.0.0.1 ad.xici.net
+127.0.0.1 ad2.bloggerads.net
+127.0.0.1 admd.yam.com
+127.0.0.1 ads.people.com.cn
+127.0.0.1 ads.wopus.org
+127.0.0.1 ads.zaobao.com
+127.0.0.1 adshow.che168.com
+127.0.0.1 adv.blogupp.com
+127.0.0.1 allyes.jrj.com
+127.0.0.1 allyes.stockstar.com
+127.0.0.1 allyes.the9.com
+127.0.0.1 aps4.jrjimg.cn
+127.0.0.1 bmp.ali213.net
+127.0.0.1 ccc.xdowns.com
+127.0.0.1 cj.qidian.com
+127.0.0.1 click.cnfol.com
+127.0.0.1 click.union.360buy.com
+127.0.0.1 count.jdyou.com
+127.0.0.1 counter.ztgame.com
+127.0.0.1 d.5d6d.com
+127.0.0.1 dpvc.39.net
+127.0.0.1 gg.cdcgames.net
+127.0.0.1 gg.donews.com
+127.0.0.1 gg.joytod.com
+127.0.0.1 hot.269.net
+127.0.0.1 images2.zhulang.com
+127.0.0.1 jj.topzj.com
+127.0.0.1 js.0252.com
+127.0.0.1 js.adm.cngba.com
+127.0.0.1 js.igalive.com
+127.0.0.1 me.youheme.com
+127.0.0.1 pro.blogbus.com
+127.0.0.1 pro.letv.com
+127.0.0.1 rcm-images.amazon.com
+127.0.0.1 rcm.amazon.com
+127.0.0.1 resource.igalive.com
+127.0.0.1 s1.wopti.net
+127.0.0.1 sp.vcimg.com
+127.0.0.1 sponsor.verycd.com
+127.0.0.1 stat.hudong.com
+127.0.0.1 stat.uuu9.com
+127.0.0.1 static.hudong.com
+127.0.0.1 uedas.qidian.com
+127.0.0.1 un.5d6d.com
+127.0.0.1 union.360buy.com
+127.0.0.1 union.bolaa.com
+127.0.0.1 union.dangdang.com
+127.0.0.1 union.daqi.com
+127.0.0.1 union.phpwind.com
+127.0.0.1 union.pomoho.com
+127.0.0.1 union.rising.com.cn
+127.0.0.1 union.vancl.com
+127.0.0.1 update.yunduan.cn
+127.0.0.1 v3.apic.51.com
+127.0.0.1 www8.xitek.com
+127.0.0.1 xc.macd.cn
+127.0.0.1 yahoo1.beareyes.com.cn
+#天涯社区
 127.0.0.1 801.tianya.cn
 127.0.0.1 803.tianya.cn
 127.0.0.1 806.tianya.cn
@@ -912,38 +991,41 @@ ff02::3 ip6-allhosts
 127.0.0.1 advertisement.tianya.cn
 127.0.0.1 squidclick.bbs.tianya.cn
 127.0.0.1 stat.tianya.cn
-#Xici.net
-127.0.0.1 ad.xici.net
-127.0.0.1 afpxici.allyes.com
-127.0.0.1 xiciafp.allyes.com
-#Dayoo.com
-127.0.0.1 adimg.dayoo.com
-127.0.0.1 rnd.dayoo.com
-127.0.0.1 sta.dayoo.com
-#21CN.com
-127.0.0.1 analytics.21cn.com
-127.0.0.1 click.21cn.com
-127.0.0.1 market.21cn.com
-127.0.0.1 ranking.21cn.com
-#Tom.com
-127.0.0.1 ad.tom.com
-127.0.0.1 sc.tom.com
-127.0.0.1 tom.allyes.com
-127.0.0.1 xtrack.tomonline-inc.com
-#Yidaba.com
-127.0.0.1 adc.yidaba.com
-127.0.0.1 adfv.yidaba.com
-127.0.0.1 adj.yidaba.com
-127.0.0.1 adv.yidaba.com
-127.0.0.1 bd.yidaba.com
-127.0.0.1 bm.yidaba.com
-127.0.0.1 images.cms.yidaba.com
-127.0.0.1 images.yidaba.com
-127.0.0.1 industry.yidaba.com
-127.0.0.1 info.yidaba.com
-127.0.0.1 static.yidaba.com
-@HostsX Site Ad/IT Site
-#Pcpop
+#凤凰网
+127.0.0.1 sta.ifeng.com
+127.0.0.1 stadig.ifeng.com
+#铁血网
+127.0.0.1 ads.tiexue.net
+127.0.0.1 x.itiexue.net
+#CCTV
+127.0.0.1 a.cctv.com
+127.0.0.1 ad.cctv.com
+127.0.0.1 cctv.adsunion.com
+127.0.0.1 adguanggao.eee114.com
+127.0.0.1 d.cntv.cn
+#新华网
+127.0.0.1 adcenter.xinhuanet.com
+127.0.0.1 embed.xinhuanet.com
+127.0.0.1 entity.xinhuanet.com
+#东方财富网
+127.0.0.1 ay.eastmoney.com
+127.0.0.1 cp.eastmoney.com
+127.0.0.1 g1.dfcfw.com
+127.0.0.1 js1.eastmoney.com
+127.0.0.1 same.eastmoney.com
+127.0.0.1 eastmoney.allyes.com
+127.0.0.1 wonderadafa7.allyes.com
+#易车网
+127.0.0.1 autosense.bitauto.com
+127.0.0.1 g.bitauto.com
+127.0.0.1 gimg.bitauto.com
+127.0.0.1 ip.bitauto.com
+#电玩巴士
+127.0.0.1 bill.tgbus.com
+127.0.0.1 g.tgbus.com
+127.0.0.1 g.tgbusdata.cn
+@HostsX China Site Lists/IT类网站
+#Pc泡泡
 127.0.0.1 33.pcpop.com
 127.0.0.1 ashow.pcpop.com
 127.0.0.1 count.pcpop.com
@@ -957,40 +1039,15 @@ ff02::3 ip6-allhosts
 127.0.0.1 168.it168.com
 127.0.0.1 adshow.it168.com
 127.0.0.1 stat.it168.com
-#Yesky
+#天极网
 127.0.0.1 media.yesky.com
 127.0.0.1 ucpn.yesky.com
 127.0.0.1 union.yesky.com
 127.0.0.1 yeskyafp.allyes.com
-#eNet
+#硅谷动力
 127.0.0.1 trace.enet.com.cn
 127.0.0.1 enet4.enet.com.cn
-#Ccidnet
-127.0.0.1 a1332.x.akamai.net
-127.0.0.1 a1343.g.akamai.net
-127.0.0.1 a1401.x.akamai.net
-127.0.0.1 a1406.g.akamai.net
-127.0.0.1 a158.x.akamai.net
-127.0.0.1 a1752.g.akamai.net
-127.0.0.1 a1795.g.akamai.net
-127.0.0.1 a1827.x.akamai.net
-127.0.0.1 a1906.g.akamai.net
-127.0.0.1 a1947.x.akamai.net
-127.0.0.1 a2.x.akamai.net
-127.0.0.1 a22.g.akamai.net
-127.0.0.1 a232.x.akamai.net
-127.0.0.1 a248.e.akamai.net
-127.0.0.1 a509.cd.akamai.net
-127.0.0.1 a599.x.akamai.net
-127.0.0.1 a698.g.akamai.net
-127.0.0.1 a731.x.akamai.net
-127.0.0.1 a796.x.akamai.net
-127.0.0.1 a798.g.akamai.net
-127.0.0.1 a841.x.akamai.net
-127.0.0.1 a889.g.akamai.net
-127.0.0.1 a898.x.akamai.net
-127.0.0.1 a900.g.akamai.net
-127.0.0.1 e.akamai.net
+#赛迪网
 127.0.0.1 stat.ccidnet.com
 127.0.0.1 www2.ccidnet.com
 #CSDN
@@ -1002,18 +1059,18 @@ ff02::3 ip6-allhosts
 127.0.0.1 img.rayfile.com
 127.0.0.1 raya.rayfile.com
 127.0.0.1 w105.rayfile.com
-@HostsX Site Ad/Video
-#56.com
+@HostsX China Site Lists/视频类网站
+#我乐网
 127.0.0.1 acs.56.com
 127.0.0.1 acs.agent.56.com
 127.0.0.1 bill.agent.56.com
 127.0.0.1 union.56.com
 127.0.0.1 v16.56.com
-#6.cn
+#6间房
 127.0.0.1 simba.6.cn
 127.0.0.1 pole.6rooms.com
 127.0.0.1 shrek.6.cn
-#Youku.com
+#优酷网
 127.0.0.1 player.lstat.youku.com
 127.0.0.1 stat.youku.com
 127.0.0.1 static.atm.youku.com
@@ -1024,14 +1081,14 @@ ff02::3 ip6-allhosts
 127.0.0.1 valp.atm.youku.com
 127.0.0.1 vid.atm.youku.com
 127.0.0.1 walp.atm.youku.com
-#Tudou.com
+#土豆网
 127.0.0.1 adextensioncontrol.tudou.com
 127.0.0.1 adplay.tudou.com
 127.0.0.1 iwstat.tudou.com
 127.0.0.1 nstat.tudou.com
 127.0.0.1 stat.tudou.com
 127.0.0.1 stats.tudou.com
-#Ku.com
+#酷6网
 127.0.0.1 1.allyes.com.cn
 127.0.0.1 analytics.ku6.com
 127.0.0.1 stat0.888.ku6.com
@@ -1039,165 +1096,52 @@ ff02::3 ip6-allhosts
 127.0.0.1 stat2.888.ku6.com
 127.0.0.1 stat3.888.ku6.com
 127.0.0.1 ku6afp.allyes.com
-#Joy.cn
+#激动网
 127.0.0.1 86file.megajoy.com
 127.0.0.1 86get.joy.cn
 127.0.0.1 86log.joy.cn
-#Openv.com
+#天线视频
+127.0.0.1 casting.openv.com
 127.0.0.1 m.openv.tv
 127.0.0.1 uniclick.openv.com
-@HostsX ChinaSite Ad/News
-#iFeng.com
-127.0.0.1 sta.ifeng.com
-127.0.0.1 stadig.ifeng.com
-#Tiexue.net
-127.0.0.1 ads.tiexue.net
-127.0.0.1 x.itiexue.net
-#Zaobao.com
-127.0.0.1 ads.zaobao.com
-127.0.0.1 lhzbafp.allyes.com
-#CCTV.com
-127.0.0.1 a.cctv.com
-127.0.0.1 ad.cctv.com
-127.0.0.1 cctv.adsunion.com
-127.0.0.1 adguanggao.eee114.com
-127.0.0.1 d.cntv.cn
-#People.com.cn
-127.0.0.1 ads.people.com.cn
-127.0.0.1 pro.people.com.cn
-#XinhuaNet
-127.0.0.1 adcenter.xinhuanet.com
-127.0.0.1 embed.xinhuanet.com
-127.0.0.1 entity.xinhuanet.com
-#China.com
+@HostsX China Site Lists/区域类网站
+#中华网
 127.0.0.1 dvs.china.com
 127.0.0.1 dvsend.china.com
-#iQilu.com
-127.0.0.1 c.iqilu.com
-127.0.0.1 g.iqilu.com
-127.0.0.1 gimg.iqilu.com
-@HostsX Site Ad/Stock
-#Eastmoney.com
-127.0.0.1 ay.eastmoney.com
-127.0.0.1 cp.eastmoney.com
-127.0.0.1 g1.dfcfw.com
-127.0.0.1 js1.eastmoney.com
-127.0.0.1 same.eastmoney.com
-127.0.0.1 eastmoney.allyes.com
-127.0.0.1 wonderadafa7.allyes.com
-#Jrj.com
-127.0.0.1 allyes.jrj.com
-127.0.0.1 aps4.jrjimg.cn
-#Cnfol.com
-127.0.0.1 click.cnfol.com
-127.0.0.1 wanmoafa7.allyes.com
-#Hexun.com
-127.0.0.1 analytics.tool.hexun.com
-127.0.0.1 hx.hexun.com
-127.0.0.1 itv.hexun.com
-127.0.0.1 union.hexun.com
-127.0.0.1 wizard.stock.hexun.com
-@HostsX Site Ad/Other Info
-#ynet.com
+#21CN
+127.0.0.1 analytics.21cn.com
+127.0.0.1 click.21cn.com
+127.0.0.1 market.21cn.com
+127.0.0.1 ranking.21cn.com
+#Tom.com
+127.0.0.1 ad.tom.com
+127.0.0.1 sc.tom.com
+127.0.0.1 tom.allyes.com
+127.0.0.1 xtrack.tomonline-inc.com
+#北青网
 127.0.0.1 a.emedia.cn
 127.0.0.1 v.emedia.cn
 127.0.0.1 z3.emedia.cn
 127.0.0.1 ad.ynet.com
 127.0.0.1 fun.ynet.com
 127.0.0.1 ranking.ynet.com
-#39.net
-127.0.0.1 app-g.39.net
-127.0.0.1 dpvc.39.net
-127.0.0.1 dy.39.net
-127.0.0.1 39net.datamaster.com.cn
-#Hudong
-127.0.0.1 stat.hudong.com
-127.0.0.1 static.hudong.com
-#VeryCD
-127.0.0.1 sp.vcimg.com
-127.0.0.1 sponsor.verycd.com
-#Soufun.com
-127.0.0.1 clickn.soufun.com
-127.0.0.1 flas.soufun.com
-127.0.0.1 imgd.soufun.com
-127.0.0.1 imgdn.soufun.com
-127.0.0.1 show.soufun.com
-127.0.0.1 shows.soufun.com
-127.0.0.1 shows1.soufun.com
-#Qidian.com
-127.0.0.1 ad.cmfu.com
-127.0.0.1 cj.qidian.com
-127.0.0.1 ploy.qidian.com
-127.0.0.1 uedas.qidian.com
-127.0.0.1 resource.igalive.com
-#AutoHome
-127.0.0.1 33.autohome.com.cn
-127.0.0.1 allyesbjafa.allyes.com
-127.0.0.1 ebooafa7.allyes.com
-#BiAuto
-127.0.0.1 autosense.bitauto.com
-127.0.0.1 g.bitauto.com
-127.0.0.1 gimg.bitauto.com
-127.0.0.1 ip.bitauto.com
-#Webgame.com.cn
-127.0.0.1 g.webgame.com.cn
-127.0.0.1 tg.webgame.com.cn
-#Tgbus.com
-127.0.0.1 bill.tgbus.com
-127.0.0.1 g.tgbus.com
-127.0.0.1 g.tgbusdata.cn
-#China Site List
-127.0.0.1 a-m-s.poco.cn
-127.0.0.1 a4.yeshj.com
-127.0.0.1 ad.17k.com
-127.0.0.1 ad.ddvip.com
-127.0.0.1 ad.wretch.cc
-127.0.0.1 admd.yam.com
-127.0.0.1 adshow.che168.com
-127.0.0.1 allyes.stockstar.com
-127.0.0.1 allyes.the9.com
-127.0.0.1 bmp.ali213.net
-127.0.0.1 ccc.xdowns.com
-127.0.0.1 chinacarsafp.allyes.com
-127.0.0.1 count.jdyou.com
-127.0.0.1 counter.ztgame.com
-127.0.0.1 gg.cdcgames.net
-127.0.0.1 gg.donews.com
-127.0.0.1 gg.joytod.com
-127.0.0.1 hot.269.net
-127.0.0.1 images2.zhulang.com
-127.0.0.1 js.0252.com
-127.0.0.1 js.adm.cngba.com
-127.0.0.1 me.youheme.com
-127.0.0.1 pro.letv.com
-127.0.0.1 s1.wopti.net
-127.0.0.1 stat.uuu9.com
-127.0.0.1 union.daqi.com
-127.0.0.1 union.pomoho.com
-127.0.0.1 union.rising.com.cn
-127.0.0.1 update.yunduan.cn
-127.0.0.1 www8.xitek.com
-127.0.0.1 xc.macd.cn
-127.0.0.1 yahoo1.beareyes.com.cn
-#BBSAD
-127.0.0.1 d.5d6d.com
-127.0.0.1 un.5d6d.com
-127.0.0.1 union.phpwind.com
-127.0.0.1 jj.topzj.com
-#BlogAD
-127.0.0.1 ad2.bloggerads.net
-127.0.0.1 ads.wopus.org
-127.0.0.1 adv.blogupp.com
-127.0.0.1 pro.blogbus.com
-127.0.0.1 union.bolaa.com
-127.0.0.1 v3.apic.51.com
-#ShoppingAD
-127.0.0.1 click.union.360buy.com
-127.0.0.1 rcm-images.amazon.com
-127.0.0.1 rcm.amazon.com
-127.0.0.1 union.360buy.com
-127.0.0.1 union.dangdang.com
-127.0.0.1 union.vancl.com
+#大洋网
+127.0.0.1 adimg.dayoo.com
+127.0.0.1 rnd.dayoo.com
+127.0.0.1 sta.dayoo.com
+#齐鲁在线
+127.0.0.1 c.iqilu.com
+127.0.0.1 g.iqilu.com
+127.0.0.1 gimg.iqilu.com
+#一大把
+127.0.0.1 adc.yidaba.com
+127.0.0.1 adfv.yidaba.com
+127.0.0.1 adj.yidaba.com
+127.0.0.1 adv.yidaba.com
+127.0.0.1 bd.yidaba.com
+127.0.0.1 bm.yidaba.com
+127.0.0.1 industry.yidaba.com
+127.0.0.1 sdc.yidaba.com
 @HostsX Foreign Ad Union
 #207.net
 127.0.0.1 102.112.207.net
@@ -3173,7 +3117,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 questionmarket.com
 127.0.0.1 survey.questionmarket.com
 127.0.0.1 www.questionmarket.com
-
 #Revsci
 127.0.0.1 ads.revsci.net
 127.0.0.1 js.revsci.net
@@ -3534,6 +3477,32 @@ ff02::3 ip6-allhosts
 127.0.0.1 tracker.91adv.com
 127.0.0.1 www.91adv.com
 127.0.0.1 www.adsit.cn
+#Akamai
+127.0.0.1 a1332.x.akamai.net
+127.0.0.1 a1343.g.akamai.net
+127.0.0.1 a1401.x.akamai.net
+127.0.0.1 a1406.g.akamai.net
+127.0.0.1 a158.x.akamai.net
+127.0.0.1 a1752.g.akamai.net
+127.0.0.1 a1795.g.akamai.net
+127.0.0.1 a1827.x.akamai.net
+127.0.0.1 a1906.g.akamai.net
+127.0.0.1 a1947.x.akamai.net
+127.0.0.1 a2.x.akamai.net
+127.0.0.1 a22.g.akamai.net
+127.0.0.1 a232.x.akamai.net
+127.0.0.1 a248.e.akamai.net
+127.0.0.1 a509.cd.akamai.net
+127.0.0.1 a599.x.akamai.net
+127.0.0.1 a698.g.akamai.net
+127.0.0.1 a731.x.akamai.net
+127.0.0.1 a796.x.akamai.net
+127.0.0.1 a798.g.akamai.net
+127.0.0.1 a841.x.akamai.net
+127.0.0.1 a889.g.akamai.net
+127.0.0.1 a898.x.akamai.net
+127.0.0.1 a900.g.akamai.net
+127.0.0.1 e.akamai.net
 #All4ad
 127.0.0.1 go.all4ad.cn
 127.0.0.1 goldlink.all4ad.cn
@@ -3544,11 +3513,16 @@ ff02::3 ip6-allhosts
 127.0.0.1 v.taolai.cn
 127.0.0.1 y.taolai.cn
 #Allyes
+127.0.0.1 afpxici.allyes.com
+127.0.0.1 allyesbjafa.allyes.com
 127.0.0.1 allyesshafa.allyes.com
 127.0.0.1 bokee.allyes.com
+127.0.0.1 chinacarsafp.allyes.com
 127.0.0.1 demoafp.allyes.com
+127.0.0.1 ebooafa7.allyes.com
 127.0.0.1 goqoafp6.allyes.com
 127.0.0.1 iplus.allyes.com
+127.0.0.1 lhzbafp.allyes.com
 127.0.0.1 mscdn.allyes.cn
 127.0.0.1 mscdn.allyes.com
 127.0.0.1 mso.allyes.com
@@ -3562,6 +3536,8 @@ ff02::3 ip6-allhosts
 127.0.0.1 sroomafp.allyes.com
 127.0.0.1 stbanner.allyes.com
 127.0.0.1 stm.allyes.com
+127.0.0.1 wanmoafa7.allyes.com
+127.0.0.1 xiciafp.allyes.com
 #At98
 127.0.0.1 c.at98.com
 127.0.0.1 js.at98.com
@@ -4132,6 +4108,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 g.91sanguo.cn
 127.0.0.1 g.kx365.com
 127.0.0.1 g.qling.com
+127.0.0.1 g.webgame.com.cn
 127.0.0.1 g.xuanyx.com
 127.0.0.1 gamefiles.qq494.cn
 127.0.0.1 gg.qc101.com
@@ -4139,6 +4116,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 Han1.70yx.Com
 127.0.0.1 hc.gamebean.com
 127.0.0.1 hlt.nextsee.com
+127.0.0.1 home.3gm.com.cn
 127.0.0.1 hy.wowan365.com
 127.0.0.1 i.na7.cc
 127.0.0.1 image.runup.cn
@@ -4158,7 +4136,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 new.7pk.com
 127.0.0.1 nonoyx.com
 127.0.0.1 p.3gm.com.cn
-127.0.0.1 home.3gm.com.cn
 127.0.0.1 p.eqiso.com
 127.0.0.1 passport.fs5d.com
 127.0.0.1 po.add.tx908.com
@@ -4187,6 +4164,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 tg.155game.com
 127.0.0.1 tg.33hy.com
 127.0.0.1 tg.70yx.com
+127.0.0.1 tg.webgame.com.cn
 127.0.0.1 tg3.subo.me
 127.0.0.1 u.56wan.com
 127.0.0.1 u.7town.com
@@ -4196,6 +4174,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 uimg.my4399.com
 127.0.0.1 unigg.kunlun.com
 127.0.0.1 union.51wan.com
+127.0.0.1 union.ledu.com
 127.0.0.1 union.shumenol.com
 127.0.0.1 union1.51wan.com
 127.0.0.1 v.naqigs.com
@@ -4432,7 +4411,37 @@ ff02::3 ip6-allhosts
 127.0.0.1 dw.hiido.cn
 127.0.0.1 im.yy.hiido.cn
 127.0.0.1 njs.dw.hiido.cn
-@HostsX Soft Authentication
+@HostsX Soft Game Authentication
+#Game Assassin's Creed
+127.0.0.1 onlineconfigservice.ubi.com
+127.0.0.1 orbitservice.ubi.com
+127.0.0.1 static3.cdn.ubi.com
+127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
+127.0.0.1 ubisoft-orbit.s3.amazonaws.com
+#Game Command&Conquer
+127.0.0.1 blazeserver.blazeemu.org
+127.0.0.1 demangler.ea.com
+127.0.0.1 gosgvaprod-qos01.ea.com
+127.0.0.1 gosiadprod-qos01.ea.com
+127.0.0.1 gosredirector.ea.com
+127.0.0.1 gossjcprod-qos01.ea.com
+127.0.0.1 vmp.tools.gos.ea.com
+#Game QUAZAL
+127.0.0.1 cohlive-1.quazal.net
+127.0.0.1 cohlive.quazal.net
+127.0.0.1 reliclive-1.quazal.net
+127.0.0.1 reliclive.quazal.net
+127.0.0.1 mangler1.generals.ea.com
+127.0.0.1 mangler2.generals.ea.com
+127.0.0.1 mangler3.generals.ea.com
+127.0.0.1 mangler4.generals.ea.com
+127.0.0.1 mangler5.generals.ea.com
+127.0.0.1 mangler6.generals.ea.com
+127.0.0.1 mangler7.generals.ea.com
+127.0.0.1 mangler8.generals.ea.com
+127.0.0.1 mangler9.generals.ea.com
+127.0.0.1 mangler10.generals.ea.com
+127.0.0.1 servserv.generals.ea.com
 #ACDSee
 127.0.0.1 acdupdater.acdsystems.com
 127.0.0.1 soapintouch.acdnet.com
@@ -4532,36 +4541,3 @@ ff02::3 ip6-allhosts
 127.0.0.1 ps2.zonelabs.com
 127.0.0.1 register.zonelabs.com
 127.0.0.1 update.zonelabs.com
-@HostsX Game Authentication
-#Assassin's Creed
-127.0.0.1 onlineconfigservice.ubi.com
-127.0.0.1 orbitservice.ubi.com
-127.0.0.1 static3.cdn.ubi.com
-127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
-127.0.0.1 ubisoft-orbit.s3.amazonaws.com
-#Command&Conquer
-127.0.0.1 blazeserver.blazeemu.org
-127.0.0.1 demangler.ea.com
-127.0.0.1 gosgvaprod-qos01.ea.com
-127.0.0.1 gosiadprod-qos01.ea.com
-127.0.0.1 gosredirector.ea.com
-127.0.0.1 gossjcprod-qos01.ea.com
-127.0.0.1 vmp.tools.gos.ea.com
-#QUAZAL
-127.0.0.1 cohlive-1.quazal.net
-127.0.0.1 cohlive.quazal.net
-127.0.0.1 reliclive-1.quazal.net
-127.0.0.1 reliclive.quazal.net
-127.0.0.1 mangler1.generals.ea.com
-127.0.0.1 mangler2.generals.ea.com
-127.0.0.1 mangler3.generals.ea.com
-127.0.0.1 mangler4.generals.ea.com
-127.0.0.1 mangler5.generals.ea.com
-127.0.0.1 mangler6.generals.ea.com
-127.0.0.1 mangler7.generals.ea.com
-127.0.0.1 mangler8.generals.ea.com
-127.0.0.1 mangler9.generals.ea.com
-127.0.0.1 mangler10.generals.ea.com
-127.0.0.1 servserv.generals.ea.com
-#FlashGame
-127.0.0.1 Fill in the Flash game Web site address you want to shield
