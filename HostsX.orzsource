@@ -1,6 +1,16 @@
-;version=2010111000
+;version=2010111500
 -
 IPV6版智能转向数据`http://hostsx.googlecode.com/svn/trunk/ipv6.txt
--
 恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/mwsl.txt
+-
+注意：以下的Hosts数据建议只使用一种！！！
+-
+MVPS.org 版数据`http://www.mvps.org/winhelp2002/hosts.txt
+SomeoneWhoCares.org 版数据`http://someonewhocares.org/hosts/hosts
+Hosts-File 版数据`http://support.it-mate.co.uk/downloads/HOSTS.txt
+-
+以下的文件请用浏览器打开网址！
+-
+Acrylic组件下载（支持通配符）`http://goo.gl/ZKZnM
+AndriodHosts下载 `http://goo.gl/EKHIB
 -
