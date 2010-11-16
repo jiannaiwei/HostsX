@@ -1,4 +1,4 @@
-;version=201011161320
+;version=201011162230
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX 站点智能转向
@@ -4199,6 +4199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.9lwan.com
 0.0.0.0 u.kfwan.com
 0.0.0.0 u.molidao.com
+0.0.0.0 u11.gzfiat.com
 0.0.0.0 uimg.my4399.com
 0.0.0.0 unigg.kunlun.com
 0.0.0.0 union.51wan.com
