@@ -1,4 +1,4 @@
-;version=201011161130
+;version=201011161320
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX 站点智能转向
@@ -886,6 +886,7 @@ ff02::3 ip6-allhosts
 #架势无线
 0.0.0.0 d.casee.cn
 0.0.0.0 developer.casee.cn
+0.0.0.0 moto.casee.cn
 0.0.0.0 Wap.casee.cn
 0.0.0.0 wap.cttol.cn
 0.0.0.0 www.casee.cn
@@ -913,7 +914,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cnota.cn
 0.0.0.0 cx.360doo.com
 0.0.0.0 m.askalok.com
-0.0.0.0 moto.casee.cn
 0.0.0.0 uni.lyy.mobi
 0.0.0.0 v2.g2.91.com
 0.0.0.0 wap.moad.cn
