@@ -1,4 +1,4 @@
-;version=201011160020
+;version=201011161130
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX 站点智能转向
@@ -178,6 +178,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googlesyndication.com
 #Admob
 0.0.0.0 a.admob.com
+0.0.0.0 ad.qwapi.com
 0.0.0.0 admob.at
 0.0.0.0 admob.be
 0.0.0.0 admob.biz
@@ -216,6 +217,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 admob.tw
 0.0.0.0 admob.vn
 0.0.0.0 analytics.admob.com
+0.0.0.0 api.admob.com
 0.0.0.0 b.admob.com
 0.0.0.0 c.admob.com
 0.0.0.0 cpm.admob.com
@@ -236,7 +238,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 o.admob.com
 0.0.0.0 p.admob.com
 0.0.0.0 q.admob.com
-0.0.0.0 ad.qwapi.com
 0.0.0.0 r.admob.com
 0.0.0.0 s.admob.com
 0.0.0.0 sc1.admob.com
@@ -913,7 +914,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cx.360doo.com
 0.0.0.0 m.askalok.com
 0.0.0.0 moto.casee.cn
-0.0.0.0 schemas.android.com
 0.0.0.0 uni.lyy.mobi
 0.0.0.0 v2.g2.91.com
 0.0.0.0 wap.moad.cn
@@ -4351,6 +4351,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 wa.kuwo.cn
 0.0.0.0 wa.koowo.com
 #Kugou
+0.0.0.0 dl.ddong.com
+0.0.0.0 game.kugou.com
+0.0.0.0 games.kugou.com
 0.0.0.0 install.kugou.com
 0.0.0.0 links.kugoo.com
 0.0.0.0 mkg.kugou.com
