@@ -1,12 +1,12 @@
-;version=201011172130
+;version=201011172250
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX 站点智能转向
 #Localhost
-127.0.0.1   localhost
+0.0.0.0   localhost
 ::1             localhost
 #Windows
-127.0.0.1 localhost.localdomain localhost
+0.0.0.0 localhost.localdomain localhost
 #Ubuntu
 127.0.1.1	#Fill Your Ubuntu Pc name here
 ::1 localhost ip6-localhost ip6-loopback
@@ -428,29 +428,72 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.hexun.com
 0.0.0.0 wizard.stock.hexun.com
 @HostsX OneKey/CBS Interactive
-#CBSNews
+#BNet
+0.0.0.0 bwp.bnet.com
+0.0.0.0 mads.bnet.com
+0.0.0.0 ocp.bnet.com
+0.0.0.0 dw.findarticles.com
+#CBS
+0.0.0.0 ocp.cbs.com
+0.0.0.0 dw.cbs.com
 0.0.0.0 dw.cbsi.com.cn
 0.0.0.0 dw.cbsnews.com
+0.0.0.0 mads.cbsnews.com
+0.0.0.0 ocp.cbsnews.com
+0.0.0.0 dw.cbssports.com
+0.0.0.0 dw.maxpreps.com
+0.0.0.0 dw.mysimon.com
+0.0.0.0 dw.ncaa.com
+0.0.0.0 dw.search.com
+0.0.0.0 dw.tv.com
+0.0.0.0 dw.urbanbaby.com
+#Chow
+0.0.0.0 adimg.chow.com
+0.0.0.0 dw.chow.com
+0.0.0.0 mads.chow.com
 #CNet
 0.0.0.0 adimg.cnet.com
 0.0.0.0 bwp.cnet.com
+0.0.0.0 bwp.cnet.com.au
 0.0.0.0 dw.cnet.com
 0.0.0.0 mads.cnet.com
 0.0.0.0 remotead-internal.cnet.com
 0.0.0.0 remotead.cnet.com
 0.0.0.0 www-direct-intl.cnet.com
+#Com.com
 0.0.0.0 adimg.com.com
 0.0.0.0 adlog.com.com
 0.0.0.0 ads.com.com
+0.0.0.0 dw.com.com
 0.0.0.0 bwp.techrepublic.com.com
 0.0.0.0 dw-cn.com.com
-0.0.0.0 image.com.com
 0.0.0.0 img.com.com
 0.0.0.0 mads.com.com
 0.0.0.0 ocp.com.com
 0.0.0.0 rok.com.com
 0.0.0.0 rubics-assets.com.com
-0.0.0.0 www.cbsinteractive.com
+#Download.com
+0.0.0.0 adimg.download.com
+0.0.0.0 bwp.download.com
+0.0.0.0 mads.download.com
+#Gamespot
+0.0.0.0 stat.gamespot.com.cn
+0.0.0.0 dw.gamespot.com
+0.0.0.0 dw.metacritic.com
+#ZdNet
+0.0.0.0 adimg.zdnet.com
+0.0.0.0 ads.zdnet.com
+0.0.0.0 adserver.zdnet.co.kr
+0.0.0.0 am.zdnet.com.cn
+0.0.0.0 bwp.zdnet.co.uk
+0.0.0.0 bwp.zdnet.com.au
+0.0.0.0 bwp.zdnet.fr
+0.0.0.0 dw.zdnet.com
+0.0.0.0 dw.zdnet.com
+0.0.0.0 mads.zdnet.com
+0.0.0.0 om.zdnet.co.uk
+0.0.0.0 pv.zdnet.com.cn
+0.0.0.0 tracker.zdnet.com.au
 #车市网
 0.0.0.0 analyze.cheshi.com
 0.0.0.0 click.cheshi.com
@@ -464,8 +507,6 @@ ff02::3 ip6-allhosts
 #蜂鸟网
 0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
-#游戏基地
-0.0.0.0 stat.gamespot.com.cn
 #电脑之家
 0.0.0.0 ad.pchome.net
 0.0.0.0 btm.pchome.net
@@ -484,9 +525,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dw.xcar.com.cn
 #西域IT
 0.0.0.0 apic.xiyuit.com
-#至顶网
-0.0.0.0 am.zdnet.com.cn
-0.0.0.0 pv.zdnet.com.cn
 #中关村在线
 0.0.0.0 active.zol.com.cn
 0.0.0.0 adm.zol.com.cn
@@ -858,6 +896,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.rd.yahoo.com
 0.0.0.0 visit.webhosting.yahoo.com
 0.0.0.0 ads.yimg.com
+0.0.0.0 l.yimg.com
 0.0.0.0 richmedia.yimg.com
 0.0.0.0 mp.apmebf.com
 0.0.0.0 ads.bluelithium.com
@@ -2124,6 +2163,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 weblog.blogads.com
 0.0.0.0 www.blogads.com
 0.0.0.0 z.blogads.com
+#Bluekai
+0.0.0.0 bluekai.com
+0.0.0.0 tags.bluekai.com
 #Buysellads
 0.0.0.0 s3.buysellads.com
 0.0.0.0 stats.buysellads.com
@@ -2139,6 +2181,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 lb01.casalemedia.com
 0.0.0.0 r.casalemedia.com
 0.0.0.0 www.casalemedia.com
+#Clicksor
+0.0.0.0 ads.clicksor.com
+0.0.0.0 clicksor.com
+0.0.0.0 creative.clicksor.com
+0.0.0.0 main.clicksor.com
+0.0.0.0 mci12.clicksor.com
+0.0.0.0 mp.clicksor.net
+0.0.0.0 pub.clicksor.net
+0.0.0.0 search.clicksor.com
+0.0.0.0 serw.clicksor.com
+0.0.0.0 track.clicksor.com
+0.0.0.0 www.clicksor.com
 #CPX
 0.0.0.0 adserving.cpxinteractive.com
 0.0.0.0 content.cpxinteractive.com
@@ -2146,6 +2200,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 panther1.cpxinteractive.com
 0.0.0.0 reporting.cpxinteractive.com
 0.0.0.0 www.cpxinteractive.com
+#Eyewonder
+0.0.0.0 cdn.eyewonder.com
+0.0.0.0 cdn1.eyewonder.com
+0.0.0.0 cdn4.eyewonder.com
+0.0.0.0 eyewonder.com
 #Flurry
 0.0.0.0 data.flurry.com
 0.0.0.0 flurry.com
@@ -3743,32 +3802,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracker.91adv.com
 0.0.0.0 www.91adv.com
 0.0.0.0 www.adsit.cn
-#Akamai
-0.0.0.0 a1332.x.akamai.net
-0.0.0.0 a1343.g.akamai.net
-0.0.0.0 a1401.x.akamai.net
-0.0.0.0 a1406.g.akamai.net
-0.0.0.0 a158.x.akamai.net
-0.0.0.0 a1752.g.akamai.net
-0.0.0.0 a1795.g.akamai.net
-0.0.0.0 a1827.x.akamai.net
-0.0.0.0 a1906.g.akamai.net
-0.0.0.0 a1947.x.akamai.net
-0.0.0.0 a2.x.akamai.net
-0.0.0.0 a22.g.akamai.net
-0.0.0.0 a232.x.akamai.net
-0.0.0.0 a248.e.akamai.net
-0.0.0.0 a509.cd.akamai.net
-0.0.0.0 a599.x.akamai.net
-0.0.0.0 a698.g.akamai.net
-0.0.0.0 a731.x.akamai.net
-0.0.0.0 a796.x.akamai.net
-0.0.0.0 a798.g.akamai.net
-0.0.0.0 a841.x.akamai.net
-0.0.0.0 a889.g.akamai.net
-0.0.0.0 a898.x.akamai.net
-0.0.0.0 a900.g.akamai.net
-0.0.0.0 e.akamai.net
 #All4ad
 0.0.0.0 go.all4ad.cn
 0.0.0.0 goldlink.all4ad.cn
