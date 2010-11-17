@@ -1,4 +1,4 @@
-;version=201011162230
+;version=201011171711
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX 站点智能转向
@@ -879,7 +879,6 @@ ff02::3 ip6-allhosts
 #优视科技
 0.0.0.0 ads1.uc.cn
 0.0.0.0 ads1.ucweb.com
-0.0.0.0 adsclick.uc123.com
 0.0.0.0 down2.ucweb.com
 #微云
 0.0.0.0 www.wiyun.com
