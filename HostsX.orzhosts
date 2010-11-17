@@ -1,4 +1,4 @@
-;version=201011172300
+;version=201011180000
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX 站点智能转向
@@ -425,6 +425,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.hexun.com
 0.0.0.0 wizard.stock.hexun.com
 @HostsX OneKey/CBS Interactive
+0.0.0.0 www.cbsinteractive.com
 #BNet
 0.0.0.0 bwp.bnet.com
 0.0.0.0 mads.bnet.com
@@ -1012,6 +1013,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 external.bbc.co.uk
 0.0.0.0 stats.bbc.co.uk
 0.0.0.0 visualscience.external.bbc.co.uk
+#Bigmir
+0.0.0.0 ad0.bigmir.net
+0.0.0.0 ad1.bigmir.net
+0.0.0.0 ad4.bigmir.net
+0.0.0.0 ad5.bigmir.net
+0.0.0.0 ad6.bigmir.net
+0.0.0.0 ad7.bigmir.net
+0.0.0.0 adi.bigmir.net
+0.0.0.0 c.bigmir.net
+0.0.0.0 i.bigmir.net
 #CNN
 0.0.0.0 ads.cnn.com
 0.0.0.0 cnn.dyn.cnn.com
@@ -2001,7 +2012,33 @@ ff02::3 ip6-allhosts
 0.0.0.0 rmcdn.2mdn.net
 0.0.0.0 rmcdn.f.2mdn.net
 0.0.0.0 s0.2mdn.net
-#Adbrite
+#Aavalue
+0.0.0.0 adc.aavalue.com
+0.0.0.0 adserv.aavalue.com
+0.0.0.0 atlaseducation.aavalue.com
+0.0.0.0 ezgreets.aavalue.com
+0.0.0.0 eztracks.aavalue.com
+0.0.0.0 getmusicfree.aavalue.com
+0.0.0.0 greatoffers.aavalue.com
+0.0.0.0 grouplotto.aavalue.com
+0.0.0.0 lottofanatic.aavalue.com
+0.0.0.0 lovefreegames.aavalue.com
+0.0.0.0 mrsupergames.aavalue.com
+0.0.0.0 musicoffaith.aavalue.com
+0.0.0.0 prizeamerica.aavalue.com
+0.0.0.0 reciperewards.aavalue.com
+0.0.0.0 thumbplay.aavalue.com
+0.0.0.0 trynewgames.aavalue.com
+0.0.0.0 watchfreeflix.aavalue.com
+#Abnad
+0.0.0.0 a.abnad.net
+0.0.0.0 b.abnad.net
+0.0.0.0 c.abnad.net
+0.0.0.0 d.abnad.net
+0.0.0.0 e.abnad.net
+0.0.0.0 t.abnad.net
+0.0.0.0 z.abnad.net
+#ADbrite
 0.0.0.0 1.adbrite.com
 0.0.0.0 2.adbrite.com
 0.0.0.0 3.adbrite.com
@@ -2018,7 +2055,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.adbrite.com
 0.0.0.0 vid.adbrite.com
 0.0.0.0 www.adbrite.com
-#Adffinder
+#ADffinder
 0.0.0.0 ads.adultfriendfinder.com
 0.0.0.0 adserver.adultfriendfinder.com
 0.0.0.0 adultfriendfinder.com
@@ -2043,7 +2080,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.adplan-ds.com
 0.0.0.0 www.adplan.ne.jp
 0.0.0.0 www.p-advg.com
-#AdTech
+#ADTech
 0.0.0.0 ad.dc2.adtech.de
 0.0.0.0 adforce.adtech.de
 0.0.0.0 adserv001.adtech.de
@@ -2110,10 +2147,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 upload.adtech.de
 0.0.0.0 www.adtech.de
 0.0.0.0 xml.adtech.de
-#Adtegrity
+#ADtegrity
 0.0.0.0 ad.adtegrity.net
 0.0.0.0 content.adtegrity.net
 0.0.0.0 my.adtegrity.net
+#Adultplex
+0.0.0.0 adultplex.com
+0.0.0.0 aff.adultplex.com
+0.0.0.0 clicks.adultplex.com
+0.0.0.0 dialer.adultplex.com
+0.0.0.0 exit.adultplex.com
+0.0.0.0 images.adultplex.com
+0.0.0.0 movies.adultplex.com
+0.0.0.0 signup.adultplex.com
+0.0.0.0 stats.adultplex.com
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 at.amgdgt.com
@@ -2145,6 +2192,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 iframes.awempire.com
 0.0.0.0 promo.awempire.com
 0.0.0.0 static.awempire.com
+#Bannerbank
+0.0.0.0 ad.bannerbank.ru
+0.0.0.0 ad1.bannerbank.ru
+0.0.0.0 ad2.bannerbank.ru
+0.0.0.0 ad3.bannerbank.ru
+0.0.0.0 ad4.bannerbank.ru
+0.0.0.0 ad5.bannerbank.ru
+0.0.0.0 ad6.bannerbank.ru
+0.0.0.0 ad7.bannerbank.ru
+0.0.0.0 ad8.bannerbank.ru
+0.0.0.0 ad9.bannerbank.ru
+0.0.0.0 ad10.bannerbank.ru
+0.0.0.0 ad11.bannerbank.ru
+0.0.0.0 ad12.bannerbank.ru
+0.0.0.0 ad13.bannerbank.ru
+0.0.0.0 ad14.bannerbank.ru
+0.0.0.0 ad15.bannerbank.ru
+0.0.0.0 ad16.bannerbank.ru
+0.0.0.0 ad17.bannerbank.ru
+0.0.0.0 ad18.bannerbank.ru
+0.0.0.0 bannerbank.ru
+0.0.0.0 crd1.bannerbank.ru
+0.0.0.0 static.bannerbank.ru
 #Blogads
 0.0.0.0 b.blogads.com
 0.0.0.0 banners.blogads.com
@@ -2178,6 +2248,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 lb01.casalemedia.com
 0.0.0.0 r.casalemedia.com
 0.0.0.0 www.casalemedia.com
+#Chinoc
+0.0.0.0 ares.chinoc.net
+0.0.0.0 chinoc.net
+0.0.0.0 dev138.chinoc.net
+0.0.0.0 j5.chinoc.net
+0.0.0.0 kw107.chinoc.net
+0.0.0.0 kw122.chinoc.net
+0.0.0.0 kw123.chinoc.net
+0.0.0.0 kw15.chinoc.net
+0.0.0.0 kw17.chinoc.net
+0.0.0.0 kw29.chinoc.net
+0.0.0.0 kw40.chinoc.net
+0.0.0.0 kw46.chinoc.net
+0.0.0.0 kw62.chinoc.net
+0.0.0.0 kw79.chinoc.net
+0.0.0.0 kw80.chinoc.net
+0.0.0.0 kw82.chinoc.net
+0.0.0.0 kw83.chinoc.net
+0.0.0.0 kw85.chinoc.net
+0.0.0.0 v5.chinoc.net
 #Clicksor
 0.0.0.0 ads.clicksor.com
 0.0.0.0 clicksor.com
@@ -2190,6 +2280,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 serw.clicksor.com
 0.0.0.0 track.clicksor.com
 0.0.0.0 www.clicksor.com
+#Clicktracks
+0.0.0.0 clicktracks.com
+0.0.0.0 stats.clicktracks.com
+0.0.0.0 stats1.clicktracks.com
+0.0.0.0 stats2.clicktracks.com
+0.0.0.0 stats3.clicktracks.com
+0.0.0.0 stats4.clicktracks.com
+0.0.0.0 www.clicktracks.com
 #CPX
 0.0.0.0 adserving.cpxinteractive.com
 0.0.0.0 content.cpxinteractive.com
@@ -2197,11 +2295,74 @@ ff02::3 ip6-allhosts
 0.0.0.0 panther1.cpxinteractive.com
 0.0.0.0 reporting.cpxinteractive.com
 0.0.0.0 www.cpxinteractive.com
+#Cqcounter
+0.0.0.0 cqcounter.com
+0.0.0.0 img.cqcounter.com
+0.0.0.0 nl.cqcounter.com
+0.0.0.0 no.2.cqcounter.com
+0.0.0.0 se.cqcounter.com
+0.0.0.0 xxx.cqcounter.com
+0.0.0.0 zz.cqcounter.com
+0.0.0.0 ar.2.cqcounter.com
+0.0.0.0 au.2.cqcounter.com
+0.0.0.0 bg.2.cqcounter.com
+0.0.0.0 ca.2.cqcounter.com
+0.0.0.0 de.2.cqcounter.com
+0.0.0.0 fr.2.cqcounter.com
+0.0.0.0 nz.2.cqcounter.com
+0.0.0.0 si.2.cqcounter.com
+0.0.0.0 th.2.cqcounter.com
+0.0.0.0 tr.2.cqcounter.com
+0.0.0.0 uk.2.cqcounter.com
+0.0.0.0 us.2.cqcounter.com
+0.0.0.0 us.cqcounter.com
+0.0.0.0 1au.cqcounter.com
+0.0.0.0 1bm.cqcounter.com
+0.0.0.0 1ca.cqcounter.com
+0.0.0.0 1de.cqcounter.com
+0.0.0.0 1es.cqcounter.com
+0.0.0.0 1fr.cqcounter.com
+0.0.0.0 1in.cqcounter.com
+0.0.0.0 1it.cqcounter.com
+0.0.0.0 1jo.cqcounter.com
+0.0.0.0 1nl.cqcounter.com
+0.0.0.0 1pt.cqcounter.com
+0.0.0.0 1se.cqcounter.com
+0.0.0.0 1si.cqcounter.com
+0.0.0.0 1th.cqcounter.com
+0.0.0.0 1tr.cqcounter.com
+0.0.0.0 1ua.cqcounter.com
+0.0.0.0 1uk.cqcounter.com
+0.0.0.0 1us.cqcounter.com
+0.0.0.0 1xxx.cqcounter.com
+0.0.0.0 www2.cqcounter.com
+0.0.0.0 www.cqcounter.com
+#Digitalnames
+0.0.0.0 digitalnames.net
+0.0.0.0 dnplugin.digitalnames.net
+0.0.0.0 download.digitalnames.net
+0.0.0.0 hanafos.digitalnames.net
+0.0.0.0 search.digitalnames.net
+0.0.0.0 service.digitalnames.net
+0.0.0.0 service1.digitalnames.net
+0.0.0.0 service2.digitalnames.net
+0.0.0.0 service3.digitalnames.net
+0.0.0.0 update.digitalnames.net
+0.0.0.0 upgrade.digitalnames.net
+0.0.0.0 www.digitalnames.net
 #Eyewonder
 0.0.0.0 cdn.eyewonder.com
 0.0.0.0 cdn1.eyewonder.com
 0.0.0.0 cdn4.eyewonder.com
 0.0.0.0 eyewonder.com
+#Fastclick
+0.0.0.0 cdn.fastclick.net
+0.0.0.0 code.fastclick.net
+0.0.0.0 images.fastclick.net
+0.0.0.0 media.fastclick.net
+0.0.0.0 secure.fastclick.net
+0.0.0.0 sp.fastclick.net
+0.0.0.0 www.fastclick.com
 #Flurry
 0.0.0.0 data.flurry.com
 0.0.0.0 flurry.com
@@ -2238,6 +2399,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.gigya.com
 0.0.0.0 counters.gigya.com
 0.0.0.0 wildfire.gigya.com
+#Hotbar
+0.0.0.0 ads.hotbar.com
+0.0.0.0 cs.hotbar.com
+0.0.0.0 dynamic.hotbar.com
+0.0.0.0 dynmenu.hotbar.com
+0.0.0.0 hotbar.com
+0.0.0.0 installs.hotbar.com
+0.0.0.0 license.hotbar.com
+0.0.0.0 partners.hotbar.com
+0.0.0.0 promos.hotbar.com
+0.0.0.0 reports.hotbar.com
+0.0.0.0 searchdisp.hotbar.com
+0.0.0.0 skins.hotbar.com
+0.0.0.0 tooltips.hotbar.com
+0.0.0.0 updates.hotbar.com
+0.0.0.0 vip-farm1v.hotbar.com
+0.0.0.0 vip-farm2.hotbar.com
+0.0.0.0 vip-farm2v.hotbar.com
+0.0.0.0 vip-farm5v.hotbar.com
+0.0.0.0 www.hotbar.com
+0.0.0.0 www.hotbar.net
 #imrworldwide
 0.0.0.0 devfw.imrworldwide.com
 0.0.0.0 fe-au.imrworldwide.com
@@ -2944,12 +3126,102 @@ ff02::3 ip6-allhosts
 0.0.0.0 zataz.fr.intellitxt.com
 0.0.0.0 zatznotfunny.us.intellitxt.com
 0.0.0.0 zug.us.intellitxt.com
+#ivwbox
+0.0.0.0 badzeit.ivwbox.de
+0.0.0.0 bild.ivwbox.de
+0.0.0.0 brash.ivwbox.de
+0.0.0.0 chiemgau.ivwbox.de
+0.0.0.0 chip.ivwbox.de
+0.0.0.0 ciao.ivwbox.de
+0.0.0.0 daserste.ivwbox.de
+0.0.0.0 digiworl.ivwbox.de
+0.0.0.0 expedia.ivwbox.de
+0.0.0.0 express.ivwbox.de
+0.0.0.0 faz.ivwbox.de
+0.0.0.0 finatime.ivwbox.de
+0.0.0.0 focus.ivwbox.de
+0.0.0.0 freenet.ivwbox.de
+0.0.0.0 gamona.ivwbox.de
+0.0.0.0 giga.ivwbox.de
+0.0.0.0 gmx.ivwbox.de
+0.0.0.0 golem.ivwbox.de
+0.0.0.0 handbl.ivwbox.de
+0.0.0.0 haz.ivwbox.de
+0.0.0.0 heise.ivwbox.de
+0.0.0.0 heute.ivwbox.de
+0.0.0.0 insideha.ivwbox.de
+0.0.0.0 kabel1.ivwbox.de
+0.0.0.0 ksta.ivwbox.de
+0.0.0.0 maerkall.ivwbox.de
+0.0.0.0 map24.ivwbox.de
+0.0.0.0 mclient.ivwbox.de
+0.0.0.0 mdr.ivwbox.de
+0.0.0.0 merkuron.ivwbox.de
+0.0.0.0 mobile.ivwbox.de
+0.0.0.0 mp3world.ivwbox.de
+0.0.0.0 mrwong.ivwbox.de
+0.0.0.0 msn.ivwbox.de
+0.0.0.0 myvideo.ivwbox.de
+0.0.0.0 n24.ivwbox.de
+0.0.0.0 netzeitu.ivwbox.de
+0.0.0.0 newsclic.ivwbox.de
+0.0.0.0 ntv.ivwbox.de
+0.0.0.0 offpost.ivwbox.de
+0.0.0.0 pcwelt.ivwbox.de
+0.0.0.0 pro7.ivwbox.de
+0.0.0.0 qs.ivwbox.de
+0.0.0.0 rbb.ivwbox.de
+0.0.0.0 reuterde.ivwbox.de
+0.0.0.0 rheinmai.ivwbox.de
+0.0.0.0 rheinzei.ivwbox.de
+0.0.0.0 rponl.ivwbox.de
+0.0.0.0 rtl.ivwbox.de
+0.0.0.0 sat1.ivwbox.de
+0.0.0.0 schuelvz.ivwbox.de
+0.0.0.0 sevload.ivwbox.de
+0.0.0.0 spiegel.ivwbox.de
+0.0.0.0 sport1.ivwbox.de
+0.0.0.0 stern.ivwbox.de
+0.0.0.0 stimme.ivwbox.de
+0.0.0.0 studivz.ivwbox.de
+0.0.0.0 sueddeut.ivwbox.de
+0.0.0.0 swr.ivwbox.de
+0.0.0.0 szon.ivwbox.de
+0.0.0.0 tagessch.ivwbox.de
+0.0.0.0 tagspieg.ivwbox.de
+0.0.0.0 tecchan.ivwbox.de
+0.0.0.0 teletari.ivwbox.de
+0.0.0.0 toi.ivwbox.de
+0.0.0.0 tomshard.ivwbox.de
+0.0.0.0 vanity.ivwbox.de
+0.0.0.0 viply.ivwbox.de
+0.0.0.0 vogue.ivwbox.de
+0.0.0.0 webdessl.ivwbox.de
+0.0.0.0 welt.ivwbox.de
+0.0.0.0 welten.ivwbox.de
+0.0.0.0 wetter.ivwbox.de
+0.0.0.0 wetteronl.ivwbox.de
+0.0.0.0 wirtwoch.ivwbox.de
+0.0.0.0 wissende.ivwbox.de
+0.0.0.0 www.ivwbox.de
+0.0.0.0 yahoo.ivwbox.de
+0.0.0.0 zdf.ivwbox.de
+0.0.0.0 zdnet.ivwbox.de
+0.0.0.0 zeitonl.ivwbox.de
 #ixlink
 0.0.0.0 counter.ixlink.net
 0.0.0.0 textlink.ixlink.net
 #Jumptap
 0.0.0.0 tapad.jumptap.com
 0.0.0.0 a.jumptap.com
+#Linksummary
+0.0.0.0 click.linksummary.com
+0.0.0.0 demon1.linksummary.com
+0.0.0.0 demon2.linksummary.com
+0.0.0.0 linksummary.com
+0.0.0.0 redirect.linksummary.com
+0.0.0.0 searchbar.linksummary.com
+0.0.0.0 www.linksummary.com
 #Linksynergy
 0.0.0.0 ad.linksynergy.com
 0.0.0.0 cli.linksynergy.com
@@ -2965,6 +3237,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 img-snv.mediaplex.com
 0.0.0.0 img.mediaplex.com
 0.0.0.0 mediaplex.com
+0.0.0.0 ww1-mediaplex.com
 0.0.0.0 www.mediaplex.com
 #Media-Servers
 0.0.0.0 ad.media-servers.net
@@ -3016,6 +3289,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 banners.outpersonals.com
 0.0.0.0 outpersonals.com
 #Overture
+
 0.0.0.0 cm.atomfilms.overture.com
 0.0.0.0 cm.au.msn.overture.com
 0.0.0.0 cm.au.thewest.overture.com
@@ -3091,6 +3365,45 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.overture.com
 0.0.0.0 xml.weather.overture.com
 0.0.0.0 ypn-js.overture.com
+#Paypopup.com
+0.0.0.0 banner.paypopup.com
+0.0.0.0 central.paypopup.com
+0.0.0.0 central2.paypopup.com
+0.0.0.0 creative.paypopup.com
+0.0.0.0 paypopup.com
+0.0.0.0 www.paypopup.com
+0.0.0.0 www1.paypopup.com
+0.0.0.0 www10.paypopup.com
+0.0.0.0 www2.paypopup.com
+0.0.0.0 www21.paypopup.com
+0.0.0.0 www210.paypopup.com
+0.0.0.0 www211.paypopup.com
+0.0.0.0 www212.paypopup.com
+0.0.0.0 www213.paypopup.com
+0.0.0.0 www214.paypopup.com
+0.0.0.0 www215.paypopup.com
+0.0.0.0 www216.paypopup.com
+0.0.0.0 www217.paypopup.com
+0.0.0.0 www218.paypopup.com
+0.0.0.0 www219.paypopup.com
+0.0.0.0 www220.paypopup.com
+0.0.0.0 www221.paypopup.com
+0.0.0.0 www3.paypopup.com
+0.0.0.0 www4.paypopup.com
+0.0.0.0 www5.paypopup.com
+0.0.0.0 www6.paypopup.com
+0.0.0.0 www7.paypopup.com
+0.0.0.0 www8.paypopup.com
+0.0.0.0 www9.paypopup.com
+#Peel
+0.0.0.0 ad1.peel.com
+0.0.0.0 ad3.peel.com
+0.0.0.0 ads.peel.com
+0.0.0.0 ad4.peel.com
+0.0.0.0 ads5.peel.com
+0.0.0.0 freeps3.peel.com
+0.0.0.0 www.peel.com
+0.0.0.0 www.peel.net
 #PointRoll
 0.0.0.0 ads.pointroll.com
 0.0.0.0 ami.pointroll.com
@@ -3104,6 +3417,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.pointroll.com
 0.0.0.0 track.pointroll.com
 0.0.0.0 www.pointroll.com
+#Publicus
+0.0.0.0 bbads.sv.publicus.com
+0.0.0.0 beads.sx.atl.publicus.com
+0.0.0.0 cmads.sv.publicus.com
+0.0.0.0 crimg.sv.publicus.com
+0.0.0.0 fdads.sv.publicus.com
+0.0.0.0 lladinserts.us.publicus.com
+0.0.0.0 noads.no.publicus.com
+0.0.0.0 nsads.sv.publicus.com
+0.0.0.0 nyads.ny.publicus.com
+0.0.0.0 ptads.sv.publicus.com
+0.0.0.0 rhads.sv.publicus.com
+0.0.0.0 siads.sv.publicus.com
+0.0.0.0 tpads.sv.publicus.com
+0.0.0.0 wdads.sx.atl.publicus.com
 #Quantserve
 0.0.0.0 edge.quantserve.com
 0.0.0.0 flash.quantserve.com
@@ -3117,8 +3445,37 @@ ff02::3 ip6-allhosts
 0.0.0.0 amch.questionmarket.com
 0.0.0.0 ch.questionmarket.com
 0.0.0.0 questionmarket.com
+0.0.0.0 questionmarket.com
 0.0.0.0 survey.questionmarket.com
 0.0.0.0 www.questionmarket.com
+#Rambler
+0.0.0.0 ad.rambler.ru
+0.0.0.0 ad2.rambler.ru
+0.0.0.0 ad3.rambler.ru
+0.0.0.0 counter.rambler.ru
+0.0.0.0 id.rambler.ru
+0.0.0.0 images.rambler.ru
+0.0.0.0 info-images.rambler.ru
+0.0.0.0 scnt.rambler.ru
+0.0.0.0 scounter.rambler.ru
+0.0.0.0 top100-images.rambler.ru
+0.0.0.0 top100.rambler.ru
+#Realtracker
+0.0.0.0 adserver1.realtracker.com
+0.0.0.0 adserver2.realtracker.com
+0.0.0.0 business.realtracker.com
+0.0.0.0 free.realtracker.com
+0.0.0.0 free1.usa.realtracker.com
+0.0.0.0 layout1.realtracker.com
+0.0.0.0 project2.realtracker.com
+0.0.0.0 realtracker.com
+0.0.0.0 talkcity.realtracker.com
+0.0.0.0 tpl1.realtracker.com
+0.0.0.0 tpl2.realtracker.com
+0.0.0.0 web1.realtracker.com
+0.0.0.0 web2.realtracker.com
+0.0.0.0 web4.realtracker.com
+0.0.0.0 www.realtracker.com
 #Revsci
 0.0.0.0 ads.revsci.net
 0.0.0.0 js.revsci.net
@@ -3127,6 +3484,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 pix02.revsci.net
 0.0.0.0 pix03.revsci.net
 0.0.0.0 pix04.revsci.net
+#Seekmo
+0.0.0.0 allofthevideos.powered-by.seekmo.com
+0.0.0.0 config.seekmo.com
+0.0.0.0 cts.seekmo.com
+0.0.0.0 downloads.seekmo.com
+0.0.0.0 free-hd-movies.powered-by.seekmo.com
+0.0.0.0 freeblowjobmovies.powered-by.seekmo.com
+0.0.0.0 freeblowjobvideos.powered-by.seekmo.com
+0.0.0.0 funberry.powered-by.seekmo.com
+0.0.0.0 galleries.seekmo.com
+0.0.0.0 installs.seekmo.com
+0.0.0.0 keyrastriptease.powered-by.seekmo.com
+0.0.0.0 male-celeb-videos.powered-by.seekmo.com
+0.0.0.0 pariswallpapers.powered-by.seekmo.com
+0.0.0.0 powered-by.seekmo.com
+0.0.0.0 seekmo.com
+0.0.0.0 slutmatrixfree.powered-by.seekmo.com
+0.0.0.0 te.seekmo.com
+0.0.0.0 tv.seekmo.com
+0.0.0.0 tvf.seekmo.com
+0.0.0.0 vidshrine.com.powered-by.seekmo.com
+0.0.0.0 wallpapernudes.powered-by.seekmo.com
+0.0.0.0 www.seekmo.com
 #Serving-sys
 0.0.0.0 activity.serving-sys.com
 0.0.0.0 bs.serving-sys.com
@@ -3136,6 +3516,30 @@ ff02::3 ip6-allhosts
 0.0.0.0 msn.serving-sys.com
 0.0.0.0 serving-sys.com
 0.0.0.0 us.bs.serving-sys.com
+#Shopperreports
+0.0.0.0 cfg.shopperreports.com
+0.0.0.0 code.shopperreports.com
+0.0.0.0 cs.shopperreports.com
+0.0.0.0 dynamic.shopperreports.com
+0.0.0.0 reports.shopperreports.com
+0.0.0.0 updates.shopperreports.com
+0.0.0.0 upgrades.shopperreports.com
+0.0.0.0 www.shopperreports.com
+#Shinystat
+0.0.0.0 codice.shinystat.com
+0.0.0.0 codice.shinystat.it
+0.0.0.0 codiceisp.shinystat.com
+0.0.0.0 codiceisp.shinystat.it
+0.0.0.0 s1.shinystat.com
+0.0.0.0 s1.shinystat.it
+0.0.0.0 s2.shinystat.com
+0.0.0.0 s2.shinystat.it
+0.0.0.0 s3.shinystat.com
+0.0.0.0 s3.shinystat.it
+0.0.0.0 s4.shinystat.com
+0.0.0.0 s4.shinystat.it
+0.0.0.0 www.shinystat.com
+0.0.0.0 www.shinystat.it
 #StatCounter
 0.0.0.0 c.statcounter.com
 0.0.0.0 c1.statcounter.com
@@ -3192,12 +3596,282 @@ ff02::3 ip6-allhosts
 0.0.0.0 tapjoy.com
 0.0.0.0 tapjoyads.com
 0.0.0.0 ws.tapjoyads.com
+#Thecounter
+0.0.0.0 thecounter.com
+0.0.0.0 c1.thecounter.com
+0.0.0.0 c2.thecounter.com
+0.0.0.0 c3.thecounter.com
+0.0.0.0 www.thecounter.com
+#Tiscali
+0.0.0.0 ad.tiscali.com
+0.0.0.0 ad-cz.tiscali.com
+0.0.0.0 ad-de.tiscali.com
+0.0.0.0 ad-it.tiscali.com
+0.0.0.0 ad-sc.tiscali.com
+0.0.0.0 sitestats.tiscali.co.uk
+0.0.0.0 adsweb.tiscali.cz
+0.0.0.0 adsweb.tiscali.it
+#Topbucks
+0.0.0.0 avalon.topbucks.com
+0.0.0.0 botw.topbucks.com
+0.0.0.0 clickheat.topbucks.com
+0.0.0.0 cluster-03.topbucks.com
+0.0.0.0 mainstream.topbucks.com
+0.0.0.0 rainbow.topbucks.com
+0.0.0.0 referral.topbucks.com
+0.0.0.0 referral.vod.topbucks.com
+0.0.0.0 vod.topbucks.com
+0.0.0.0 www.topbucks.com
+#Trafficmp
+0.0.0.0 ad.trafficmp.com
+0.0.0.0 am.trafficmp.com
+0.0.0.0 cache.trafficmp.com
+0.0.0.0 clicks.emarketmakers.com
+0.0.0.0 cms.trafficmp.com
+0.0.0.0 images.trafficmp.com
+0.0.0.0 t.trafficmp.com
+0.0.0.0 trafficmp.com
+0.0.0.0 xp.trafficmp.com
+#Tradedoubler
+0.0.0.0 adultadworld.directtrack.com
+0.0.0.0 affiliace.directtrack.com
+0.0.0.0 asseenonpc.directtrack.com
+0.0.0.0 battleon.directtrack.com
+0.0.0.0 bingorevenue.directtrack.com
+0.0.0.0 cpacampaigns.directtrack.com
+0.0.0.0 dcsmarketing.directtrack.com
+0.0.0.0 directtrack.com
+0.0.0.0 doubleyourdating.directtrack.com
+0.0.0.0 gozing.directtrack.com
+0.0.0.0 imagecache.directtrack.com
+0.0.0.0 images.directtrack.com
+0.0.0.0 img.directtrack.com
+0.0.0.0 latin3.directtrack.com
+0.0.0.0 maxxaffiliate.directtrack.com
+0.0.0.0 mysavings.directtrack.com
+0.0.0.0 niteflirt.directtrack.com
+0.0.0.0 nitropayouts.directtrack.com
+0.0.0.0 offersquest.directtrack.com
+0.0.0.0 rapidresponse.directtrack.com
+0.0.0.0 revenuegateway.directtrack.com
+0.0.0.0 secure.directtrack.com
+0.0.0.0 sideshow.directtrack.com
+0.0.0.0 trafficneeds.directtrack.com
+0.0.0.0 varsityads.directtrack.com
+0.0.0.0 www.directtrack.com
+0.0.0.0 anetfi.tradedoubler.com
+0.0.0.0 clk.tradedoubler.com
+0.0.0.0 clkde.tradedoubler.com
+0.0.0.0 clkuk.tradedoubler.com
+0.0.0.0 hst.tradedoubler.com
+0.0.0.0 hstde.tradedoubler.com
+0.0.0.0 hstes.tradedoubler.com
+0.0.0.0 hstfr.tradedoubler.com
+0.0.0.0 hstgb.tradedoubler.com
+0.0.0.0 hstit.tradedoubler.com
+0.0.0.0 hstno.tradedoubler.com
+0.0.0.0 hstpl.tradedoubler.com
+0.0.0.0 hstus.tradedoubler.com
+0.0.0.0 img.tradedoubler.com
+0.0.0.0 imp.tradedoubler.com
+0.0.0.0 impbe.tradedoubler.com
+0.0.0.0 impch.tradedoubler.com
+0.0.0.0 impde.tradedoubler.com
+0.0.0.0 impdk.tradedoubler.com
+0.0.0.0 impes.tradedoubler.com
+0.0.0.0 impfi.tradedoubler.com
+0.0.0.0 impfr.tradedoubler.com
+0.0.0.0 impgb.tradedoubler.com
+0.0.0.0 impie.tradedoubler.com
+0.0.0.0 impit.tradedoubler.com
+0.0.0.0 implt.tradedoubler.com
+0.0.0.0 impnl.tradedoubler.com
+0.0.0.0 impno.tradedoubler.com
+0.0.0.0 imppl.tradedoubler.com
+0.0.0.0 impru.tradedoubler.com
+0.0.0.0 impse.tradedoubler.com
+0.0.0.0 pf.tradedoubler.com
+0.0.0.0 tracker.tradedoubler.com
+0.0.0.0 tradedoubler.com
+#Tribalfusion
+0.0.0.0 a.tribalfusion.com
+0.0.0.0 cdn1.tribalfusion.com
+0.0.0.0 cdn4.tribalfusion.com
+0.0.0.0 cdn5.tribalfusion.com
+0.0.0.0 ctxt.tribalfusion.com
+0.0.0.0 m.tribalfusion.com
+0.0.0.0 s.tribalfusion.com
+0.0.0.0 tribalfusion.com
+0.0.0.0 www.tribalfusion.com
+#Valueclick
+0.0.0.0 ads.aco.valueclick.net
+0.0.0.0 ads.he.valueclick.net
+0.0.0.0 ads.hnet.valueclick.net
+0.0.0.0 ads.link.valueclick.net
+0.0.0.0 ads.mplx.valueclick.net
+0.0.0.0 ads.mtv.valueclick.net
+0.0.0.0 ads.pr.valueclick.net
+0.0.0.0 ads.vcuk.valueclick.net
+0.0.0.0 cdn.valueclick.net
+0.0.0.0 oz.valueclick.ne.jp
+0.0.0.0 st.valueclick.ne.jp
+0.0.0.0 valueclick.com
 #Webtrendslive
 0.0.0.0 statse.webtrendslive.com
 0.0.0.0 webtrendslive.com
 #Wsod
 0.0.0.0 ad.wsod.com
 0.0.0.0 admedia.wsod.com
+#Xclicks
+0.0.0.0 www.xclicks.net
+0.0.0.0 x2.xclicks.net
+0.0.0.0 x3.xclicks.net
+0.0.0.0 x4.xclicks.net
+0.0.0.0 x5.xclicks.net
+0.0.0.0 x6.xclicks.net
+0.0.0.0 xclicks.net
+#Xrenoder
+0.0.0.0 cj.xrenoder.com
+0.0.0.0 cons.xrenoder.com
+0.0.0.0 scripts.xrenoder.com
+0.0.0.0 search.xrenoder.com
+0.0.0.0 www.xrenoder.com
+0.0.0.0 xrenoder.com
+
+#Yesadvertising
+0.0.0.0 test.yesadvertising.com
+0.0.0.0 www1.yesadvertising.com
+0.0.0.0 www10.yesadvertising.com
+0.0.0.0 www11.yesadvertising.com
+0.0.0.0 www12.yesadvertising.com
+0.0.0.0 www13.yesadvertising.com
+0.0.0.0 www14.yesadvertising.com
+0.0.0.0 www15.yesadvertising.com
+0.0.0.0 www2.yesadvertising.com
+0.0.0.0 www215.yesadvertising.com
+0.0.0.0 www216.yesadvertising.com
+0.0.0.0 www217.yesadvertising.com
+0.0.0.0 www218.yesadvertising.com
+0.0.0.0 www219.yesadvertising.com
+0.0.0.0 www220.yesadvertising.com
+0.0.0.0 www221.yesadvertising.com
+0.0.0.0 www3.yesadvertising.com
+0.0.0.0 www4.yesadvertising.com
+0.0.0.0 www5.yesadvertising.com
+0.0.0.0 www6.yesadvertising.com
+0.0.0.0 www7.yesadvertising.com
+0.0.0.0 www8.yesadvertising.com
+0.0.0.0 www9.yesadvertising.com
+0.0.0.0 yesadvertising.com
+#Zango
+0.0.0.0 acces.powered-by.zango.com
+0.0.0.0 adservices.zango.com
+0.0.0.0 analytics.zango.com
+0.0.0.0 animeim.powered-by.zango.com
+0.0.0.0 annakournikova.powered-by.zango.com
+0.0.0.0 cars-screensavers.com.powered-by.zango.com
+0.0.0.0 cds.zango.com
+0.0.0.0 clickpixcursors.powered-by.zango.com
+0.0.0.0 coolvuurwerk.powered-by.zango.com
+0.0.0.0 dane-cook.powered-by.zango.com
+0.0.0.0 davesemu.com.powered-by.zango.com
+0.0.0.0 davidmovie.com.powered-by.zango.com
+0.0.0.0 deansplanet.com.powered-by.zango.com
+0.0.0.0 downloads.zango.com
+0.0.0.0 factorygames.powered-by.zango.com
+0.0.0.0 fightvideos.powered-by.zango.com
+0.0.0.0 fightvids.powered-by.zango.com
+0.0.0.0 flashaddictinggames.powered-by.zango.com
+0.0.0.0 frazoogames.powered-by.zango.com
+0.0.0.0 free.karaoke.songs.powered-by.zango.com
+0.0.0.0 freesudokus.powered-by.zango.com
+0.0.0.0 freetoplay.ath.cx.powered-by.zango.com
+0.0.0.0 games.byethost32.powered-by.zango.com
+0.0.0.0 games.zango.com
+0.0.0.0 gate1.powered-by.zango.com
+0.0.0.0 gate10.powered-by.zango.com
+0.0.0.0 gate11.powered-by.zango.com
+0.0.0.0 gate12.powered-by.zango.com
+0.0.0.0 gate2.powered-by.zango.com
+0.0.0.0 gate3.powered-by.zango.com
+0.0.0.0 gate4.powered-by.zango.com
+0.0.0.0 gate5.powered-by.zango.com
+0.0.0.0 gate6.powered-by.zango.com
+0.0.0.0 gate7.powered-by.zango.com
+0.0.0.0 gate8.powered-by.zango.com
+0.0.0.0 gate9.powered-by.zango.com
+0.0.0.0 gauntletvideos.powered-by.zango.com
+0.0.0.0 getmusicvideocodes.powered-by.zango.com
+0.0.0.0 graffitifonts.powered-by.zango.com
+0.0.0.0 hosted.zango.com
+0.0.0.0 hot-lindsay.powered-by.zango.com
+0.0.0.0 iconcave.powered-by.zango.com
+0.0.0.0 idrink.powered-by.zango.com
+0.0.0.0 imp.games.zango.com
+0.0.0.0 installs.zango.com
+0.0.0.0 lavacards.powered-by.zango.com
+0.0.0.0 lp.zango.com
+0.0.0.0 maratsafin.powered-by.zango.com
+0.0.0.0 martinahingis.powered-by.zango.com
+0.0.0.0 mediagecko.powered-by.zango.com
+0.0.0.0 messenger.zango.com
+0.0.0.0 midis.powered-by.zango.com
+0.0.0.0 mmocenter.org.powered-by.zango.com
+0.0.0.0 musicvideocodes.powered-by.zango.com
+0.0.0.0 mvcodezone.powered-by.zango.com
+0.0.0.0 mydisplayimage.powered-by.zango.com
+0.0.0.0 myfriendspy.powered-by.zango.com
+0.0.0.0 mymoneymakers.powered-by.zango.com
+0.0.0.0 myspace-backgrounds.powered-by.zango.com
+0.0.0.0 myspace-codes.powered-by.zango.com
+0.0.0.0 myspace.powered-by.zango.com
+0.0.0.0 myspacegraphics.powered-by.zango.com
+0.0.0.0 myspacegraphicsx.powered-by.zango.com
+0.0.0.0 myspaceicons.powered-by.zango.com
+0.0.0.0 myspaceiconsorg.powered-by.zango.com
+0.0.0.0 myspacelayouts.powered-by.zango.com
+0.0.0.0 mytop12.com.powered-by.zango.com
+0.0.0.0 narutowallpaper.powered-by.zango.com
+0.0.0.0 newgrounds.dressup.powered-by.zango.com
+0.0.0.0 ophq.powered-by.zango.com
+0.0.0.0 partner.zango.com
+0.0.0.0 partner.zangocash.com
+0.0.0.0 pbxanime.powered-by.zango.com
+0.0.0.0 phoenixpeople.powered-by.zango.com
+0.0.0.0 planet.nana.co.il.powered-by.zango.com
+0.0.0.0 pokemonporn.powered-by.zango.com
+0.0.0.0 powered-by.zango.com
+0.0.0.0 prompt.zangocash.com
+0.0.0.0 public.zangocash.com
+0.0.0.0 screensaverparadise.powered-by.zango.com
+0.0.0.0 sfondigratis.powered-by.zango.com
+0.0.0.0 shared.zango.com
+0.0.0.0 showtimes.zango.com
+0.0.0.0 sitefinder.zango.com
+0.0.0.0 snapshot.powered-by.zango.com
+0.0.0.0 stacy-keibler-pictures.powered-by.zango.com
+0.0.0.0 static.zangocash.com
+0.0.0.0 syndication.zangocash.com
+0.0.0.0 te1.zango.com
+0.0.0.0 theamazingracist.powered-by.zango.com
+0.0.0.0 trenchracing.powered-by.zango.com
+0.0.0.0 tv.zango.com
+0.0.0.0 tvf.zango.com
+0.0.0.0 userbars.org.powered-by.zango.com
+0.0.0.0 vcc.powered-by.zango.com
+0.0.0.0 videocodesworld.powered-by.zango.com
+0.0.0.0 vimalonline.powered-by.zango.com
+0.0.0.0 whatsthatcode.com.powered-by.zango.com
+0.0.0.0 wwedivas.powered-by.zango.com
+0.0.0.0 www.zango.com
+0.0.0.0 www.zangocash.com
+0.0.0.0 www.zangogames.com
+0.0.0.0 www.zangomessenger.com
+0.0.0.0 www.zangopartner.com
+0.0.0.0 www.zangopartner.net
+0.0.0.0 xtreme-cheats.powered-by.zango.com
+0.0.0.0 zango.com
+0.0.0.0 zangocash.com
 #ZEDO
 0.0.0.0 ads.zedo.com
 0.0.0.0 c1.zedo.com
