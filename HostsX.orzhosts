@@ -1,4 +1,4 @@
-;version=201011180000
+;version=201011181550
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX 站点智能转向
@@ -76,7 +76,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.wretch.cc
 0.0.0.0 ad.xici.net
 0.0.0.0 ad2.bloggerads.net
-0.0.0.0 admd.yam.com
 0.0.0.0 ads.people.com.cn
 0.0.0.0 ads.wopus.org
 0.0.0.0 ads.zaobao.com
@@ -225,6 +224,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.admob.com
 0.0.0.0 f.admob.com
 0.0.0.0 g.admob.com
+0.0.0.0 ge-0-0-1-edge1.sc9.admob.com
+0.0.0.0 ge-0-0-43-crs1.sc9.admob.com
 0.0.0.0 h.admob.com
 0.0.0.0 i.admob.com
 0.0.0.0 j.admob.com
@@ -236,6 +237,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n.admob.com
 0.0.0.0 o.admob.com
 0.0.0.0 p.admob.com
+0.0.0.0 paix1.sc1.admob.com
 0.0.0.0 q.admob.com
 0.0.0.0 r.admob.com
 0.0.0.0 s.admob.com
@@ -245,6 +247,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.admob.com
 0.0.0.0 v.admob.com
 0.0.0.0 w.admob.com
+0.0.0.0 www1.vip.sc9.admob.com
 0.0.0.0 x.admob.com
 0.0.0.0 y.admob.com
 0.0.0.0 z.admob.com
@@ -260,6 +263,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.ar.doubleclick.net
 0.0.0.0 ad.au.doubleclick.net
 0.0.0.0 ad.be.doubleclick.net
+0.0.0.0 ad.bg.doubleclick.net
 0.0.0.0 ad.br.doubleclick.net
 0.0.0.0 ad.ca.doubleclick.net
 0.0.0.0 ad.ch.doubleclick.net
@@ -288,6 +292,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.pl.doubleclick.net
 0.0.0.0 ad.pt.doubleclick.net
 0.0.0.0 ad.ro.doubleclick.net
+0.0.0.0 ad.rs.doubleclick.net
 0.0.0.0 ad.ru.doubleclick.net
 0.0.0.0 ad.se.doubleclick.net
 0.0.0.0 ad.sg.doubleclick.net
@@ -435,6 +440,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ocp.cbs.com
 0.0.0.0 dw.cbs.com
 0.0.0.0 dw.cbsi.com.cn
+0.0.0.0 adimg.news.com
+0.0.0.0 bwp.news.com
 0.0.0.0 dw.cbsnews.com
 0.0.0.0 mads.cbsnews.com
 0.0.0.0 ocp.cbsnews.com
@@ -444,6 +451,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dw.ncaa.com
 0.0.0.0 dw.search.com
 0.0.0.0 dw.tv.com
+0.0.0.0 adimg.tv.com
+0.0.0.0 mads.tv.com
 0.0.0.0 dw.urbanbaby.com
 #Chow
 0.0.0.0 adimg.chow.com
@@ -475,8 +484,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 bwp.download.com
 0.0.0.0 mads.download.com
 #Gamespot
-0.0.0.0 stat.gamespot.com.cn
+0.0.0.0 adimg.gamefaqs.com
+0.0.0.0 bwp.gamefaqs.com
+0.0.0.0 mads.gamefaqs.com
+0.0.0.0 bwp.gamespot.com
 0.0.0.0 dw.gamespot.com
+0.0.0.0 mads.gamespot.com
+0.0.0.0 stat.gamespot.com.cn
 0.0.0.0 dw.metacritic.com
 #ZdNet
 0.0.0.0 adimg.zdnet.com
@@ -921,20 +935,70 @@ ff02::3 ip6-allhosts
 0.0.0.0 p3p.yahoo.com
 0.0.0.0 union.yahoo.com.cn
 @HostsX OneKey/Mobile
-#优视科技
-0.0.0.0 ads1.uc.cn
-0.0.0.0 ads1.ucweb.com
-0.0.0.0 down2.ucweb.com
-#微云
-0.0.0.0 www.wiyun.com
-#架势无线
+#Adchina
+0.0.0.0 mobile.adchina.com
+0.0.0.0 www.adchina.com
+#Adwhirl
+0.0.0.0 met.adwhirl.com
+0.0.0.0 mob.adwhirl.com
+0.0.0.0 www.adwhirl.com
+#Casee
 0.0.0.0 d.casee.cn
 0.0.0.0 developer.casee.cn
 0.0.0.0 moto.casee.cn
 0.0.0.0 Wap.casee.cn
 0.0.0.0 wap.cttol.cn
 0.0.0.0 www.casee.cn
-#哇棒
+#Mobclix
+0.0.0.0 ads.mobclix.com
+0.0.0.0 data.mobclix.com
+0.0.0.0 s.mobclix.com
+#Mydas
+0.0.0.0 bank01.ads.dt.mydas.mobi
+0.0.0.0 bank01.ads.mp.mydas.mobi
+0.0.0.0 bank02.ads.dt.mydas.mobi
+0.0.0.0 bank02.ads.mp.mydas.mobi
+0.0.0.0 bank03.ads.dt.mydas.mobi
+0.0.0.0 bank03.ads.mp.mydas.mobi
+0.0.0.0 bank04.ads.dt.mydas.mobi
+0.0.0.0 bank04.ads.mp.mydas.mobi
+0.0.0.0 bank05.ads.dt.mydas.mobi
+0.0.0.0 bank05.ads.mp.mydas.mobi
+0.0.0.0 bank06.ads.dt.mydas.mobi
+0.0.0.0 bank06.ads.mp.mydas.mobi
+0.0.0.0 bank07.ads.dt.mydas.mobi
+0.0.0.0 bank07.ads.mp.mydas.mobi
+0.0.0.0 bank08.ads.dt.mydas.mobi
+0.0.0.0 bank08.ads.mp.mydas.mobi
+0.0.0.0 bank09.ads.dt.mydas.mobi
+0.0.0.0 bank09.ads.mp.mydas.mobi
+0.0.0.0 bank10.ads.dt.mydas.mobi
+0.0.0.0 bank10.ads.mp.mydas.mobi
+0.0.0.0 bank11.ads.dt.mydas.mobi
+0.0.0.0 bank11.ads.mp.mydas.mobi
+0.0.0.0 bank12.ads.dt.mydas.mobi
+0.0.0.0 bank12.ads.mp.mydas.mobi
+0.0.0.0 bank13.ads.dt.mydas.mobi
+0.0.0.0 bank13.ads.mp.mydas.mobi
+0.0.0.0 bank15.ads.dt.mydas.mobi
+0.0.0.0 bank15.ads.mp.mydas.mobi
+0.0.0.0 bank16.ads.dt.mydas.mobi
+0.0.0.0 bank16.ads.mp.mydas.mobi
+0.0.0.0 bank17.ads.dt.mydas.mobi
+0.0.0.0 bank17.ads.mp.mydas.mobi
+0.0.0.0 bank18.ads.dt.mydas.mobi
+0.0.0.0 bank18.ads.mp.mydas.mobi
+0.0.0.0 bank19.ads.dt.mydas.mobi
+0.0.0.0 bank19.ads.mp.mydas.mobi
+0.0.0.0 bank20.ads.dt.mydas.mobi
+0.0.0.0 bank20.ads.mp.mydas.mobi
+#UCWeb
+0.0.0.0 ads1.uc.cn
+0.0.0.0 ads1.ucweb.com
+0.0.0.0 down2.ucweb.com
+#Wiyun
+0.0.0.0 www.wiyun.com
+#Wooboo
 0.0.0.0 ade.wooboo.com.cn
 0.0.0.0 admin.wooboo.com.cn
 0.0.0.0 download.wooboo.com.cn
@@ -945,25 +1009,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 wooboo.com.cn
 0.0.0.0 www.wooboo.com.cn
 0.0.0.0 www1.wooboo.com.cn
-#有米
+#Youmi
 0.0.0.0 ads.youmi.net
 0.0.0.0 go.youmi.net
 0.0.0.0 www.youmi.net
 0.0.0.0 youmi.net
-#易传媒
-0.0.0.0 mobile.adchina.com
-0.0.0.0 www.adchina.com
 #Other
+0.0.0.0 admarvel.mojiva.com
+0.0.0.0 ads.admarvel.com
 0.0.0.0 ads.namiflow.com
 0.0.0.0 cnota.cn
 0.0.0.0 cx.360doo.com
 0.0.0.0 m.askalok.com
+0.0.0.0 m.millennialmedia.com
 0.0.0.0 uni.lyy.mobi
 0.0.0.0 v2.g2.91.com
 0.0.0.0 wap.moad.cn
 0.0.0.0 www.stickylogic.com
 0.0.0.0 x.adigou.com
-@HostsX 国外站点广告
+@HostsX 海外站点广告
 #ABCNews
 0.0.0.0 Adsatt.ABCNews.starwave.com
 0.0.0.0 adsatt.disney.starwave.com
@@ -993,7 +1057,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.adsonar.com
 0.0.0.0 newsletter.adsonar.com
 0.0.0.0 redir.adsonar.com
+0.0.0.0 ads.aol.co.uk
+0.0.0.0 ads.newline.aol.com
+0.0.0.0 ads.web.aol.com
+0.0.0.0 adserver.aol.fr
 0.0.0.0 advertising.aol.com
+0.0.0.0 affiliate.aol.com
+0.0.0.0 dynamic.aol.com
+0.0.0.0 free.aol.com
 0.0.0.0 ar.atwola.com
 0.0.0.0 ar1.atwola.com
 0.0.0.0 ar7.atwola.com
@@ -1023,11 +1094,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 adi.bigmir.net
 0.0.0.0 c.bigmir.net
 0.0.0.0 i.bigmir.net
+#Chosun
+0.0.0.0 adimg1.chosun.com
+0.0.0.0 cad.chosun.com
+0.0.0.0 hitlog2.chosun.com
 #CNN
 0.0.0.0 ads.cnn.com
 0.0.0.0 cnn.dyn.cnn.com
+0.0.0.0 customad.cnn.com
 0.0.0.0 gdyn.cnn.com
+0.0.0.0 i.l.cnn.net
 0.0.0.0 metrics.cnn.com
+#Discovery
+0.0.0.0 ads.discovery.com
+0.0.0.0 omnikool.discovery.com
 #Intel
 0.0.0.0 h10010.www1.hp.com
 0.0.0.0 syndication.intel.com
@@ -1051,10 +1131,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 fimserve.myspace.com
 0.0.0.0 gg.un.myspace.cn
 0.0.0.0 nb.myspace.com
+#Playboy
+0.0.0.0 pei-ads.playboy.com
 #SecretChina
 0.0.0.0 ad.secretchina.com
 0.0.0.0 static1.secretchina.com
 0.0.0.0 ad.epochtimes.com
+#Yam
+0.0.0.0 admd.yam.com
+0.0.0.0 ad2.yam.com
+0.0.0.0 ads.yam.com
 @HostsX 国外广告联盟
 #207.net
 0.0.0.0 102.112.207.net
@@ -1069,7 +1155,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 acckalaharinet.112.2o7.net
 0.0.0.0 acpmagazines.112.2o7.net
 0.0.0.0 adbrite.122.2o7.net
-0.0.0.0 adbrite.com
 0.0.0.0 advertisingcom.122.2o7.net
 0.0.0.0 aehistory.112.2o7.net
 0.0.0.0 aetv.112.2o7.net
@@ -1715,7 +1800,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 nttcommunications.122.2o7.net
 0.0.0.0 nysun.com.112.2o7.net
 0.0.0.0 nytbglobe.112.2O7.net
-0.0.0.0 nyton.experclick.com
 0.0.0.0 nytrflorence.112.2o7.net
 0.0.0.0 nytrgainesville.112.2o7.net
 0.0.0.0 nytrhendersonville.112.2o7.net
@@ -1986,6 +2070,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wwatchcomusa.112.2o7.net
 0.0.0.0 wweconsumer.112.2o7.net
 0.0.0.0 wwecorp2.112.2o7.net
+0.0.0.0 www.2o7.com
 0.0.0.0 xhealth.112.2o7.net
 0.0.0.0 xhealthmobiltools.112.2o7.net
 0.0.0.0 yamaha.122.2o7.net
@@ -2038,11 +2123,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.abnad.net
 0.0.0.0 t.abnad.net
 0.0.0.0 z.abnad.net
+#ADbn
+0.0.0.0 ad.pop1.adbn.ru
+0.0.0.0 ad.top1.adbn.ru
+0.0.0.0 ad.rich1.adbn.ru
 #ADbrite
 0.0.0.0 1.adbrite.com
 0.0.0.0 2.adbrite.com
 0.0.0.0 3.adbrite.com
 0.0.0.0 4.adbrite.com
+0.0.0.0 adbrite.com
 0.0.0.0 ads.adbrite.com
 0.0.0.0 b1.adbrite.com
 0.0.0.0 bstats.adbrite.com
@@ -2055,10 +2145,64 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.adbrite.com
 0.0.0.0 vid.adbrite.com
 0.0.0.0 www.adbrite.com
+#Adbureau
+0.0.0.0 ad101com-images.adbureau.net
+0.0.0.0 ad101com.adbureau.net	
+0.0.0.0 admse001-images.adbureau.net
+0.0.0.0 admse001.adbureau.net
+0.0.0.0 capitali-images.adbureau.net	
+0.0.0.0 cent.adbureau.net
+0.0.0.0 centaur-images.adbureau.net
+0.0.0.0 cgm.adbureau.net
+0.0.0.0 cmn.adbureau.net
+0.0.0.0 content.adbureau.net
+0.0.0.0 cooking.adbureau.net
+0.0.0.0 creview-images.adbureau.net	
+0.0.0.0 creview.adbureau.net
+0.0.0.0 curtco-images.adbureau.net
+0.0.0.0 cvapts-images.adbureau.net
+0.0.0.0 devart.adbureau.net
+0.0.0.0 divx-images.adbureau.net
+0.0.0.0 divx.adbureau.net
+0.0.0.0 dlook-images.adbureau.net
+0.0.0.0 eb.adbureau.net
+0.0.0.0 equifax.adbureau.net
+0.0.0.0 fdau.adbureau.net
+0.0.0.0 ffxd-images.adbureau.net
+0.0.0.0 ggrind.adbureau.net
+0.0.0.0 granada-images.adbureau.net
+0.0.0.0 granada.adbureau.net
+0.0.0.0 haynet-images.adbureau.net
+0.0.0.0 hbpl-images.adbureau.net
+0.0.0.0 iacas.adbureau.net
+0.0.0.0 imediac.adbureau.net
+0.0.0.0 inl.adbureau.net
+0.0.0.0 intweave-images.adbureau.net
+0.0.0.0 itv-images.adbureau.net
+0.0.0.0 legacy-images.adbureau.net
+0.0.0.0 mediapst.adbureau.net
+0.0.0.0 metro-images.adbureau.net
+0.0.0.0 metro.adbureau.net
+0.0.0.0 msnap.adbureau.net
+0.0.0.0 npr-images.adbureau.net
+0.0.0.0 ordie.adbureau.net
+0.0.0.0 ozone-images.adbureau.net
+0.0.0.0 photobkt-images.adbureau.net
+0.0.0.0 questex-images.adbureau.net
+0.0.0.0 realtrac-images.adbureau.net
+0.0.0.0 reunion.adbureau.net
+0.0.0.0 secure.adbureau.net
+0.0.0.0 sixapart.adbureau.net
+0.0.0.0 sportsad.adbureau.net
+0.0.0.0 tremor-images.adbureau.net
+0.0.0.0 videoegg.adbureau.net
+0.0.0.0 www.adbureau.net
+0.0.0.0 zillow.adbureau.net
 #ADffinder
 0.0.0.0 ads.adultfriendfinder.com
 0.0.0.0 adserver.adultfriendfinder.com
 0.0.0.0 adultfriendfinder.com
+0.0.0.0 adultfriendfiner.us
 0.0.0.0 banners.adultfriendfinder.com
 0.0.0.0 cover9.adultfriendfinder.com
 0.0.0.0 geobanner.adultfriendfinder.com
@@ -2068,10 +2212,34 @@ ff02::3 ip6-allhosts
 0.0.0.0 pop6.adultfriendfinder.com
 0.0.0.0 tgp.adultfriendfinder.com
 0.0.0.0 www.adultfriendfinder.com
+0.0.0.0 www.adultfriendsearch.com
+#ADFox
+0.0.0.0 ad.adfox.cz
+0.0.0.0 ads.adfox.ru
+0.0.0.0 gazeta.adfox.ru
+#ADForm
+0.0.0.0 adform.com
+0.0.0.0 adform.net
+0.0.0.0 track.adform.net
+#Adicate
+0.0.0.0 zone02.adicate.com
+0.0.0.0 zone03.adicate.com
+0.0.0.0 zone04.adicate.com
+0.0.0.0 zone05.adicate.com
+0.0.0.0 zone10.adicate.com
 #ADition
 0.0.0.0 ad.adition.net
+0.0.0.0 ad1.adfarm1.adition.com
+0.0.0.0 adfarm1.adition.com
+0.0.0.0 adition.com
+0.0.0.0 adition.de
 0.0.0.0 adition.net
 0.0.0.0 de.adition.com
+0.0.0.0 imagesrv.adition.com
+#ADmeld
+0.0.0.0 js.admeld.com
+0.0.0.0 tag.admeld.com
+0.0.0.0 admeld.com
 #ADPlan
 0.0.0.0 c.p-advg.com
 0.0.0.0 ds.advg.jp
@@ -2081,8 +2249,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.adplan.ne.jp
 0.0.0.0 www.p-advg.com
 #ADTech
+0.0.0.0 ad-dc2.adtech.de
 0.0.0.0 ad.dc2.adtech.de
 0.0.0.0 adforce.adtech.de
+0.0.0.0 ads.aol.fr.adtech.de
 0.0.0.0 adserv001.adtech.de
 0.0.0.0 adserv002.adtech.de
 0.0.0.0 adserv003.adtech.de
@@ -2093,10 +2263,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 adserv008.adtech.de
 0.0.0.0 adserver.adtech.de
 0.0.0.0 adserver.fr.adtech.de
+0.0.0.0 adserver1.adtech.com.tr
 0.0.0.0 adssl01.adtech.de
 0.0.0.0 adssl02.adtech.de
 0.0.0.0 adtech.de
 0.0.0.0 adtech.panthercustomer.com
+0.0.0.0 aka-cdn-ns.adtech.de
 0.0.0.0 barracuda1.adtech.de
 0.0.0.0 barracuda2.adtech.de
 0.0.0.0 bitburg.adtech.de
@@ -2107,6 +2279,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 hyperion.adtech.de
 0.0.0.0 im.adtech.de
 0.0.0.0 imageserv.adtech.de
+0.0.0.0 img-dc2.adtech.de
+0.0.0.0 img-pcdn.adtech.de
 0.0.0.0 imserv001.adtech.de
 0.0.0.0 imserv002.adtech.de
 0.0.0.0 imserv003.adtech.de
@@ -2147,6 +2321,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 upload.adtech.de
 0.0.0.0 www.adtech.de
 0.0.0.0 xml.adtech.de
+0.0.0.0 aa.oasfile.aftenposten.no
+0.0.0.0 ad.aftenposten.no
+0.0.0.0 adcache.aftenposten.no
+0.0.0.0 helios.aftenposten.no
+0.0.0.0 webhit.aftenposten.no
 #ADtegrity
 0.0.0.0 ad.adtegrity.net
 0.0.0.0 content.adtegrity.net
@@ -2161,6 +2340,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 movies.adultplex.com
 0.0.0.0 signup.adultplex.com
 0.0.0.0 stats.adultplex.com
+#Advertising
+0.0.0.0 ace-lb.advertising.com
+0.0.0.0 adserve.advertising.com
+0.0.0.0 advertising.com
+0.0.0.0 bannerfarm.ace.advertising.com
+0.0.0.0 beta.ace.advertising.com
+0.0.0.0 dbs.advertising.com
+0.0.0.0 demo.advertising.com
+0.0.0.0 leadback.advertising.com
+0.0.0.0 opera1-servedby.advertising.com
+0.0.0.0 p.ace.advertising.com
+0.0.0.0 r1.ace.advertising.com
+0.0.0.0 rd.advertising.com
+0.0.0.0 secure.ace-tag.advertising.com
+0.0.0.0 secure.leadback.advertising.com
+0.0.0.0 servedby.advertising.com
+0.0.0.0 uac.advertising.com
+0.0.0.0 wap.advertising.com
+0.0.0.0 www.advertising.com
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 at.amgdgt.com
@@ -2192,6 +2390,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 iframes.awempire.com
 0.0.0.0 promo.awempire.com
 0.0.0.0 static.awempire.com
+#Azoogleads
+0.0.0.0 azoogleads.com
+0.0.0.0 images-cdn.azoogleads.com
+0.0.0.0 images.azoogleads.com
+0.0.0.0 images1.azoogleads.com
+0.0.0.0 www.azoogleads.com
 #Bannerbank
 0.0.0.0 ad.bannerbank.ru
 0.0.0.0 ad1.bannerbank.ru
@@ -2215,6 +2419,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 bannerbank.ru
 0.0.0.0 crd1.bannerbank.ru
 0.0.0.0 static.bannerbank.ru
+#Bidvertiser
+0.0.0.0 ads.bidvertiser.com
+0.0.0.0 bdv.bidvertiser.com
+0.0.0.0 www.bidvertiser.com
+0.0.0.0 bidvertiser.com
+0.0.0.0 srv.bidvertiser.com
 #Blogads
 0.0.0.0 b.blogads.com
 0.0.0.0 banners.blogads.com
@@ -2233,6 +2443,108 @@ ff02::3 ip6-allhosts
 #Bluekai
 0.0.0.0 bluekai.com
 0.0.0.0 tags.bluekai.com
+#Bluestreak
+0.0.0.0 ak.bluestreak.com
+0.0.0.0 bluestreak.com
+0.0.0.0 ca1.bluestreak.com
+0.0.0.0 fr.bluestreak.com
+0.0.0.0 ion.bluestreak.com
+0.0.0.0 s0.bluestreak.com
+0.0.0.0 s0b.bluestreak.com
+0.0.0.0 www.bluestreak.com
+#Bravenet
+0.0.0.0 adserv.bravenet.com
+0.0.0.0 bravenet.com
+0.0.0.0 counter1.bravenet.com
+0.0.0.0 counter10.bravenet.com
+0.0.0.0 counter11.bravenet.com
+0.0.0.0 counter12.bravenet.com
+0.0.0.0 counter13.bravenet.com
+0.0.0.0 counter14.bravenet.com
+0.0.0.0 counter15.bravenet.com
+0.0.0.0 counter16.bravenet.com
+0.0.0.0 counter17.bravenet.com
+0.0.0.0 counter18.bravenet.com
+0.0.0.0 counter19.bravenet.com
+0.0.0.0 counter2.bravenet.com
+0.0.0.0 counter20.bravenet.com
+0.0.0.0 counter21.bravenet.com
+0.0.0.0 counter22.bravenet.com
+0.0.0.0 counter23.bravenet.com
+0.0.0.0 counter24.bravenet.com
+0.0.0.0 counter25.bravenet.com
+0.0.0.0 counter26.bravenet.com
+0.0.0.0 counter27.bravenet.com
+0.0.0.0 counter28.bravenet.com
+0.0.0.0 counter29.bravenet.com
+0.0.0.0 counter3.bravenet.com
+0.0.0.0 counter30.bravenet.com
+0.0.0.0 counter31.bravenet.com
+0.0.0.0 counter32.bravenet.com
+0.0.0.0 counter33.bravenet.com
+0.0.0.0 counter34.bravenet.com
+0.0.0.0 counter35.bravenet.com
+0.0.0.0 counter36.bravenet.com
+0.0.0.0 counter37.bravenet.com
+0.0.0.0 counter38.bravenet.com
+0.0.0.0 counter39.bravenet.com
+0.0.0.0 counter4.bravenet.com
+0.0.0.0 counter40.bravenet.com
+0.0.0.0 counter41.bravenet.com
+0.0.0.0 counter42.bravenet.com
+0.0.0.0 counter43.bravenet.com
+0.0.0.0 counter44.bravenet.com
+0.0.0.0 counter45.bravenet.com
+0.0.0.0 counter46.bravenet.com
+0.0.0.0 counter47.bravenet.com
+0.0.0.0 counter48.bravenet.com
+0.0.0.0 counter49.bravenet.com
+0.0.0.0 counter5.bravenet.com
+0.0.0.0 counter50.bravenet.com
+0.0.0.0 counter6.bravenet.com
+0.0.0.0 counter7.bravenet.com
+0.0.0.0 counter8.bravenet.com
+0.0.0.0 counter9.bravenet.com
+0.0.0.0 images.bravenet.com
+0.0.0.0 linktrack.bravenet.com
+0.0.0.0 pub12.bravenet.com
+0.0.0.0 pub13.bravenet.com
+0.0.0.0 pub16.bravenet.com
+0.0.0.0 pub2.bravenet.com
+0.0.0.0 pub23.bravenet.com
+0.0.0.0 pub26.bravenet.com
+0.0.0.0 pub27.bravenet.com
+0.0.0.0 pub28.bravenet.com
+0.0.0.0 pub29.bravenet.com
+0.0.0.0 pub30.bravenet.com
+0.0.0.0 pub31.bravenet.com
+0.0.0.0 pub39.bravenet.com
+0.0.0.0 pub40.bravenet.com
+0.0.0.0 pub42.bravenet.com
+0.0.0.0 pub43.bravenet.com
+0.0.0.0 pub45.bravenet.com
+0.0.0.0 pub49.bravenet.com
+0.0.0.0 pub7.bravenet.com
+0.0.0.0 pub9.bravenet.com
+0.0.0.0 xml.bravenet.com
+#Burst
+0.0.0.0 www.burstbeacon.com
+0.0.0.0 burstmedia.com
+0.0.0.0 survey.burstmedia.com
+0.0.0.0 web.burstmedia.com
+0.0.0.0 websurvey.burstmedia.com
+0.0.0.0 ads.burstnet.com
+0.0.0.0 bet.burstnet.com
+0.0.0.0 gifs.burstnet.com
+0.0.0.0 sj.burstnet.com
+0.0.0.0 text.burstnet.com
+0.0.0.0 www.burstnet.com
+0.0.0.0 www2.burstnet.com
+0.0.0.0 www3.burstnet.com
+0.0.0.0 www4.burstnet.com
+0.0.0.0 www5.burstnet.com
+0.0.0.0 www6.burstnet.com
+0.0.0.0 www.burstnet.akadns.net
 #Buysellads
 0.0.0.0 s3.buysellads.com
 0.0.0.0 stats.buysellads.com
@@ -2268,6 +2580,37 @@ ff02::3 ip6-allhosts
 0.0.0.0 kw83.chinoc.net
 0.0.0.0 kw85.chinoc.net
 0.0.0.0 v5.chinoc.net
+#Chitika
+0.0.0.0 ads.chitika.net
+0.0.0.0 ads1.chitika.net
+0.0.0.0 blogads.chitika.net
+0.0.0.0 ca.chitika.net
+0.0.0.0 mm.chitika.net
+0.0.0.0 parking.chitika.net
+0.0.0.0 scripts.chitika.net
+0.0.0.0 chitika.net
+#CJ
+0.0.0.0 cj.com
+0.0.0.0 www.cj.com
+#Clickability
+0.0.0.0 btn.clickability.com
+0.0.0.0 button.clickability.com
+0.0.0.0 cas.clickability.com
+0.0.0.0 imp.clickability.com
+0.0.0.0 ri.clickability.com
+0.0.0.0 s.clickability.com
+0.0.0.0 sftp.clickability.com
+0.0.0.0 stats.clickability.com
+0.0.0.0 SunBelt.Clickability.com
+#Clickbank
+0.0.0.0 clickbank.com
+0.0.0.0 www.clickbank.com
+#ClickBooth
+0.0.0.0 clickbooth.com
+0.0.0.0 publishers.clickbooth.com
+0.0.0.0 serve.clickbooth.com
+0.0.0.0 clickboothlnk.com
+0.0.0.0 www.clickboothlnk.com
 #Clicksor
 0.0.0.0 ads.clicksor.com
 0.0.0.0 clicksor.com
@@ -2275,8 +2618,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 main.clicksor.com
 0.0.0.0 mci12.clicksor.com
 0.0.0.0 mp.clicksor.net
+0.0.0.0 myad.clicksor.net
 0.0.0.0 pub.clicksor.net
 0.0.0.0 search.clicksor.com
+0.0.0.0 serving.adsrevenue.clicksor.net
 0.0.0.0 serw.clicksor.com
 0.0.0.0 track.clicksor.com
 0.0.0.0 www.clicksor.com
@@ -2288,6 +2633,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats3.clicktracks.com
 0.0.0.0 stats4.clicktracks.com
 0.0.0.0 www.clicktracks.com
+#CPALead
+0.0.0.0 cpalead.com
+0.0.0.0 data.cpalead.com
+0.0.0.0 www.cpalead.com
 #CPX
 0.0.0.0 adserving.cpxinteractive.com
 0.0.0.0 content.cpxinteractive.com
@@ -2350,6 +2699,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 update.digitalnames.net
 0.0.0.0 upgrade.digitalnames.net
 0.0.0.0 www.digitalnames.net
+#Epic
+0.0.0.0 c.azjmp.com
+0.0.0.0 i.azjmp.com
+0.0.0.0 x.azjmp.com
+0.0.0.0 www.azjmp.com
+#Etology
+0.0.0.0 etology.com
+0.0.0.0 pages.etology.com
+0.0.0.0 srv.etology.com
+#Experclick
+0.0.0.0 nyton.experclick.com
+0.0.0.0 www.experclick.com
 #Eyewonder
 0.0.0.0 cdn.eyewonder.com
 0.0.0.0 cdn1.eyewonder.com
@@ -2420,6 +2781,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 vip-farm5v.hotbar.com
 0.0.0.0 www.hotbar.com
 0.0.0.0 www.hotbar.net
+#ientry
+0.0.0.0 text-link-ads.ientry.com
+0.0.0.0 action.ientry.net
+0.0.0.0 aj.ientry.net
+0.0.0.0 img1.ientry.net
+0.0.0.0 tracking.ientry.net
 #imrworldwide
 0.0.0.0 devfw.imrworldwide.com
 0.0.0.0 fe-au.imrworldwide.com
@@ -2478,6 +2845,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.imrworldwide.com
 0.0.0.0 www.imrworldwide.com.au
 0.0.0.0 www.redsheriff.com
+#Infolinks
+0.0.0.0 resources.infolinks.com
+0.0.0.0 rt3.infolinks.com
+0.0.0.0 infolinks.com
 #intellitxt
 0.0.0.0 10best.us.intellitxt.com
 0.0.0.0 1src.us.intellitxt.com
@@ -3214,6 +3585,13 @@ ff02::3 ip6-allhosts
 #Jumptap
 0.0.0.0 tapad.jumptap.com
 0.0.0.0 a.jumptap.com
+#Kontera
+0.0.0.0 dc.kontera.com
+0.0.0.0 te.kontera.com
+0.0.0.0 www.kontera.com
+0.0.0.0 kona.kontera.com
+0.0.0.0 kona2.kontera.com
+0.0.0.0 kontera.com
 #Linksummary
 0.0.0.0 click.linksummary.com
 0.0.0.0 demon1.linksummary.com
@@ -3244,52 +3622,34 @@ ff02::3 ip6-allhosts
 0.0.0.0 content.media-servers.net
 0.0.0.0 media-servers.net
 0.0.0.0 my.media-servers.net
-#Mydas
-0.0.0.0 bank01.ads.dt.mydas.mobi
-0.0.0.0 bank01.ads.mp.mydas.mobi
-0.0.0.0 bank02.ads.dt.mydas.mobi
-0.0.0.0 bank02.ads.mp.mydas.mobi
-0.0.0.0 bank03.ads.dt.mydas.mobi
-0.0.0.0 bank03.ads.mp.mydas.mobi
-0.0.0.0 bank04.ads.dt.mydas.mobi
-0.0.0.0 bank04.ads.mp.mydas.mobi
-0.0.0.0 bank05.ads.dt.mydas.mobi
-0.0.0.0 bank05.ads.mp.mydas.mobi
-0.0.0.0 bank06.ads.dt.mydas.mobi
-0.0.0.0 bank06.ads.mp.mydas.mobi
-0.0.0.0 bank07.ads.dt.mydas.mobi
-0.0.0.0 bank07.ads.mp.mydas.mobi
-0.0.0.0 bank08.ads.dt.mydas.mobi
-0.0.0.0 bank08.ads.mp.mydas.mobi
-0.0.0.0 bank09.ads.dt.mydas.mobi
-0.0.0.0 bank09.ads.mp.mydas.mobi
-0.0.0.0 bank10.ads.dt.mydas.mobi
-0.0.0.0 bank10.ads.mp.mydas.mobi
-0.0.0.0 bank11.ads.dt.mydas.mobi
-0.0.0.0 bank11.ads.mp.mydas.mobi
-0.0.0.0 bank12.ads.dt.mydas.mobi
-0.0.0.0 bank12.ads.mp.mydas.mobi
-0.0.0.0 bank13.ads.dt.mydas.mobi
-0.0.0.0 bank13.ads.mp.mydas.mobi
-0.0.0.0 bank15.ads.dt.mydas.mobi
-0.0.0.0 bank15.ads.mp.mydas.mobi
-0.0.0.0 bank16.ads.dt.mydas.mobi
-0.0.0.0 bank16.ads.mp.mydas.mobi
-0.0.0.0 bank17.ads.dt.mydas.mobi
-0.0.0.0 bank17.ads.mp.mydas.mobi
-0.0.0.0 bank18.ads.dt.mydas.mobi
-0.0.0.0 bank18.ads.mp.mydas.mobi
-0.0.0.0 bank19.ads.dt.mydas.mobi
-0.0.0.0 bank19.ads.mp.mydas.mobi
-0.0.0.0 bank20.ads.dt.mydas.mobi
-0.0.0.0 bank20.ads.mp.mydas.mobi
 #Outpersonals
 0.0.0.0 ads.outpersonals.com
 0.0.0.0 adserver.outpersonals.com
 0.0.0.0 banners.outpersonals.com
 0.0.0.0 outpersonals.com
+#OverSee
+0.0.0.0 oversee.net
+0.0.0.0 blizzard.thor.oversee.net
+0.0.0.0 domainsponsor.oversee.net
+0.0.0.0 popupsponsor.com
+0.0.0.0 ads.popupsponsor.com
+0.0.0.0 mediatrack.popupsponsor.com
+0.0.0.0 view.popupsponsor.com
+0.0.0.0 www.popupsponsor.com
+0.0.0.0 ads.kw.revenue.net
+0.0.0.0 ads.revenue.net
+0.0.0.0 ads0.revenue.net
+0.0.0.0 ads1.revenue.net
+0.0.0.0 ads2.revenue.net
+0.0.0.0 ads4.revenue.net
+0.0.0.0 count.revenue.net
+0.0.0.0 images.revenue.net
+0.0.0.0 mediatrack.revenue.net
+0.0.0.0 revenue.net
+0.0.0.0 SunBelt.Revenue.net
+0.0.0.0 view.revenue.net
+0.0.0.0 www.revenue.net
 #Overture
-
 0.0.0.0 cm.atomfilms.overture.com
 0.0.0.0 cm.au.msn.overture.com
 0.0.0.0 cm.au.thewest.overture.com
@@ -3365,7 +3725,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.overture.com
 0.0.0.0 xml.weather.overture.com
 0.0.0.0 ypn-js.overture.com
-#Paypopup.com
+#Paydotcom
+0.0.0.0 alexa-sitestats.s3.amazonaws.com
+0.0.0.0 ecommstats.s3.amazonaws.com
+0.0.0.0 entrecard.s3.amazonaws.com
+0.0.0.0 s3-1-w.amazonaws.com
+0.0.0.0 s3-1.amazonaws.com
+0.0.0.0 sp.ltassrv.com.s3.amazonaws.com
+0.0.0.0 viewerstats.docstoc.com.s3.amazonaws.com
+0.0.0.0 webservice-lb-624573684.us-east-1.elb.amazonaws.com
+0.0.0.0 xmlconfig.ltassrv.com.s3.amazonaws.com
+0.0.0.0 yab-adimages.s3.amazonaws.com
+#Paypopup
 0.0.0.0 banner.paypopup.com
 0.0.0.0 central.paypopup.com
 0.0.0.0 central2.paypopup.com
@@ -3540,6 +3911,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 s4.shinystat.it
 0.0.0.0 www.shinystat.com
 0.0.0.0 www.shinystat.it
+#Statcamp
+0.0.0.0 243bc93d-bdf9-47fa-9459-3acfa4582de3.statcamp.net
+0.0.0.0 eas.statcamp.net
 #StatCounter
 0.0.0.0 c.statcounter.com
 0.0.0.0 c1.statcounter.com
@@ -3596,6 +3970,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 tapjoy.com
 0.0.0.0 tapjoyads.com
 0.0.0.0 ws.tapjoyads.com
+#Textlinkads
+0.0.0.0 www.text-link-ads.com
+0.0.0.0 www.textlinkads.com
+0.0.0.0 text-link-ads.com
 #Thecounter
 0.0.0.0 thecounter.com
 0.0.0.0 c1.thecounter.com
@@ -3622,16 +4000,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 referral.vod.topbucks.com
 0.0.0.0 vod.topbucks.com
 0.0.0.0 www.topbucks.com
-#Trafficmp
-0.0.0.0 ad.trafficmp.com
-0.0.0.0 am.trafficmp.com
-0.0.0.0 cache.trafficmp.com
-0.0.0.0 clicks.emarketmakers.com
-0.0.0.0 cms.trafficmp.com
-0.0.0.0 images.trafficmp.com
-0.0.0.0 t.trafficmp.com
-0.0.0.0 trafficmp.com
-0.0.0.0 xp.trafficmp.com
 #Tradedoubler
 0.0.0.0 adultadworld.directtrack.com
 0.0.0.0 affiliace.directtrack.com
@@ -3693,6 +4061,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 pf.tradedoubler.com
 0.0.0.0 tracker.tradedoubler.com
 0.0.0.0 tradedoubler.com
+#Trafficmp
+0.0.0.0 ad.trafficmp.com
+0.0.0.0 am.trafficmp.com
+0.0.0.0 cache.trafficmp.com
+0.0.0.0 clicks.emarketmakers.com
+0.0.0.0 cms.trafficmp.com
+0.0.0.0 images.trafficmp.com
+0.0.0.0 t.trafficmp.com
+0.0.0.0 trafficmp.com
+0.0.0.0 xp.trafficmp.com
+#Trafficmarketplace
+0.0.0.0 trafficmarketplace.com
+0.0.0.0 sp.trafficmarketplace.com
+0.0.0.0 www.trafficmarketplace.com
 #Tribalfusion
 0.0.0.0 a.tribalfusion.com
 0.0.0.0 cdn1.tribalfusion.com
@@ -3705,6 +4087,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tribalfusion.com
 #Valueclick
 0.0.0.0 ads.aco.valueclick.net
+0.0.0.0 ads.csi.valueclick.net
 0.0.0.0 ads.he.valueclick.net
 0.0.0.0 ads.hnet.valueclick.net
 0.0.0.0 ads.link.valueclick.net
@@ -3713,12 +4096,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.pr.valueclick.net
 0.0.0.0 ads.vcuk.valueclick.net
 0.0.0.0 cdn.valueclick.net
+0.0.0.0 images.valueclickmedia.com
 0.0.0.0 oz.valueclick.ne.jp
 0.0.0.0 st.valueclick.ne.jp
 0.0.0.0 valueclick.com
+0.0.0.0 valueclick.net
+0.0.0.0 valueclickmedia.com
+#Videoegg
+0.0.0.0 adcontent.videoegg.com
+0.0.0.0 beacon.videoegg.com
+0.0.0.0 core.videoegg.com
+0.0.0.0 videoegg.com
 #Webtrendslive
 0.0.0.0 statse.webtrendslive.com
 0.0.0.0 webtrendslive.com
+#WidgetBucks
+0.0.0.0 api.widgetbucks.com
+0.0.0.0 images.widgetbucks.com
+0.0.0.0 www.widgetbucks.com
+0.0.0.0 widgetbucks.com
 #Wsod
 0.0.0.0 ad.wsod.com
 0.0.0.0 admedia.wsod.com
@@ -3919,7 +4315,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pub.softonic.cn
 0.0.0.0 sdc.mcafee.com	
 0.0.0.0 secure.webhostingpad.com
-0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 sharefoco.com
 0.0.0.0 static.addtoany.com
 0.0.0.0 static.fotolia.com
@@ -3927,6 +4322,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.effiliation.asia
 0.0.0.0 track.sitetag.us
 0.0.0.0 www.adlinkmedia.net
+0.0.0.0 www.linkshare.com
+0.0.0.0 www.linkworth.com
 @HostsX 国内站点广告
 #天涯社区
 0.0.0.0 801.tianya.cn
@@ -3985,6 +4382,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adshow.it168.com
 0.0.0.0 stat.it168.com
 #天极网
+0.0.0.0 counter.yesky.com
 0.0.0.0 media.yesky.com
 0.0.0.0 ucpn.yesky.com
 0.0.0.0 union.yesky.com
@@ -5193,7 +5591,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.appsasia.net
 0.0.0.0 e2.tjq.com
 0.0.0.0 engine.100fenlm.cn
-0.0.0.0 etology.com
 0.0.0.0 g.9444.com
 0.0.0.0 go.maxreturn.cn
 0.0.0.0 gwc.iblinx.com
@@ -5213,6 +5610,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 popunder.paypopup.com
 0.0.0.0 qizhao.com
 0.0.0.0 r.mybestyouxi.cn
+0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 shop8.x.com.cn
 0.0.0.0 uimg.unionli.com
 0.0.0.0 union.51ditu.com
@@ -5231,6 +5629,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.265g.info
 0.0.0.0 www.333wan.com
 0.0.0.0 www.adtools.cn
+0.0.0.0 www.chinesean.com
 0.0.0.0 www.cpmadao.com
 0.0.0.0 www.cxgglm.com
 0.0.0.0 www.iasoho.com
@@ -5502,31 +5901,34 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.icbc-y.com
 0.0.0.0 icbc-y.com
 0.0.0.0 e-mail-google.Co.CC
-#电信劫持
-0.0.0.0 114.allyes.com
-0.0.0.0 114.com.cn
-0.0.0.0 114search.118114.cn
+#运营商劫持
 0.0.0.0 118114.cn
-0.0.0.0 partner.114.com.cn
-0.0.0.0 search.114.vnet.cn
-0.0.0.0 keyword.vnet.cn
 0.0.0.0 so.118114.cn
+0.0.0.0 114search.118114.cn
+0.0.0.0 114.com.cn
 0.0.0.0 s.114.com.cn
 0.0.0.0 union.114.com.cn
+0.0.0.0 partner.114.com.cn
+0.0.0.0 keyword.vnet.cn
+0.0.0.0 search.114.vnet.cn
 0.0.0.0 dianxin.cn
 0.0.0.0 dianxin.com
 0.0.0.0 game.dianxin.cn
 0.0.0.0 www.dianxin.cn
-0.0.0.0 ad.online.cq.cn
-0.0.0.0 ad.xunkoo.com
-0.0.0.0 ads.iisdoor.com
-0.0.0.0 hot.apinpai.com
-#联通劫持
 0.0.0.0 sddns1.cncmax.cn
 0.0.0.0 sddns2.cncmax.cn
 0.0.0.0 sddns5.cncmax.cn
 0.0.0.0 sddns7.cncmax.cn
+#运营商广告
+0.0.0.0 114.allyes.com
 0.0.0.0 uninewspace.allyes.com
+0.0.0.0 lc.havod.com
+0.0.0.0 havod.com
+0.0.0.0 www.havod.com
+0.0.0.0 ad.online.cq.cn
+0.0.0.0 ad.xunkoo.com
+0.0.0.0 ads.iisdoor.com
+0.0.0.0 hot.apinpai.com
 #病毒下载
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
