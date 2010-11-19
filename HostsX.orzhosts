@@ -1,4 +1,4 @@
-;version=201011191930
+;version=201011192000
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -6024,6 +6024,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dir.ejoina.com
 0.0.0.0 go.lailea.info
 0.0.0.0 hao.kuaibo.com
+0.0.0.0 henbucuo.com
 0.0.0.0 kzdh.com
 0.0.0.0 lailea.info
 0.0.0.0 my123.com
@@ -6055,6 +6056,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.dh818.com
 0.0.0.0 www.gcbbs.org
 0.0.0.0 www.haol23.cc
+0.0.0.0 www.henbucuo.com
 0.0.0.0 www.ivc.cn
 0.0.0.0 www.my115.net
 0.0.0.0 www.newshipin.info
