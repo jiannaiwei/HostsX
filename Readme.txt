@@ -14,7 +14,7 @@
 # (Mod On "Beautiful Hosts Patch","Go Hosts","Gay Hosts"); #
 # *********************************************************#
 # www.mvps.org , pgl.yoyo.org , forum.xda-developers.com , #
-# itfunz.com (We combined above 4 Hosts from their bbs) ;  #
+# (We combined above 3 Hosts File from their bbs) ;        #
 # www.du110.com , www.clxp.net.cn , www.mwsl.org.cn ,      #
 # (Thank them for their contribution) ;                    #
 # *********************************************************#
@@ -22,7 +22,7 @@
 # Project builds: OrzFly & JocKwok                         #
 # Data Maintenance: JocKwok                                #
 # *********************************************************#
-Copyright (C) 2007-2010 orztech.com. All Rights Reserved.
+# Copyright (C) 2007-2010 orztech.com All Rights Reserved. #
 # *********************************************************#
 ------------------------------------------------------------
 支持Support
@@ -122,6 +122,10 @@ Copyright (C) 2007-2010 orztech.com. All Rights Reserved.
  - 感谢 徐俊 反馈的诸多网页的细节问题
  - 感谢 bark 基于G+数据整理的恶意行为网站，已并入进程中
  - 感谢 jedi1029 反馈的zdnet的错误屏蔽的问题
+ - 感谢 gqqnbig gameboy1888 反馈的Vista和Win7下的权限设置问题
+ - 感谢 星空雪 gomapda 反馈的文件下载的相关的问题 
+ - 感谢 bark 整理出的广告联盟和弹窗广告
+ - 感谢 洪七公 整理的弹窗广告和恶意下载网站数据
 
 --------------------------------------------------------------------------------
 3. Hosts文件位置
@@ -151,7 +155,6 @@ Copyright (C) 2007-2010 orztech.com. All Rights Reserved.
    - remounts the /system partition on the device read-write
    adb push hosts /system/etc/hosts
    adb shell reboot" 
-
    Tips:
     使用"cat /etc/hosts"   可以查看Hosts文件有没有修改成功
     使用"adb pull /system/etc/hosts"  #把hosts文件从机器上取出来
@@ -254,6 +257,7 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
    有道搜索： shared.ydstatic.com  （首页显示不美观）
    淘宝:      ju.atpanel.com       （部分跳转链接）
    百度:      hiphotos.baidu.com   （百度空间图片）
+              gimg.baidu.com       （首页图片显示）
    迅雷:      msg.client.xunlei.com（客户端消息提示）
    驱动之家:  11.mydrivers.com     （评论条数显示）
    MSN提醒：  alerts.live.com

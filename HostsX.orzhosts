@@ -1,4 +1,4 @@
-;version=201011191230
+;version=201011191930
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -402,7 +402,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dzl.baidu.com
 0.0.0.0 e.baidu.com
 0.0.0.0 eiv.baidu.com
-0.0.0.0 gimg.baidu.com
 0.0.0.0 hc.baidu.com
 0.0.0.0 hm.baidu.com
 0.0.0.0 iebar.baidu.com
