@@ -1,4 +1,4 @@
-;version=201011191200
+;version=201011191230
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -4582,6 +4582,7 @@ ff02::3 ip6-allhosts
 @HostsX 国内站点广告
 #天涯社区
 0.0.0.0 801.tianya.cn
+0.0.0.0 802.tianya.cn
 0.0.0.0 803.tianya.cn
 0.0.0.0 806.tianya.cn
 0.0.0.0 adview.tianya.cn
@@ -5896,36 +5897,79 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.xwadv.com
 0.0.0.0 www.yiqiwin.com
 @HostsX 恶意行为阻止
-#广告诈骗
+#运营商劫持
+0.0.0.0 118114.cn
+0.0.0.0 so.118114.cn
+0.0.0.0 114search.118114.cn
+0.0.0.0 114.com.cn
+0.0.0.0 s.114.com.cn
+0.0.0.0 union.114.com.cn
+0.0.0.0 partner.114.com.cn
+0.0.0.0 keyword.vnet.cn
+0.0.0.0 search.114.vnet.cn
+0.0.0.0 dianxin.cn
+0.0.0.0 dianxin.com
+0.0.0.0 game.dianxin.cn
+0.0.0.0 www.dianxin.cn
+0.0.0.0 sddns1.cncmax.cn
+0.0.0.0 sddns2.cncmax.cn
+0.0.0.0 sddns5.cncmax.cn
+0.0.0.0 sddns7.cncmax.cn
+#运营商广告
+0.0.0.0 114.allyes.com
+0.0.0.0 uninewspace.allyes.com
+0.0.0.0 lc.havod.com
+0.0.0.0 havod.com
+0.0.0.0 www.havod.com
+0.0.0.0 ad.online.cq.cn
+0.0.0.0 ad.xunkoo.com
+0.0.0.0 ads.iisdoor.com
+0.0.0.0 hot.apinpai.com
+#广告诈骗钓鱼等
 0.0.0.0 1189cctv.com
 0.0.0.0 2010texq.com
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
 0.0.0.0 adtaobao.tobo123.com
+0.0.0.0 aq.qq.service.terncent.com
+0.0.0.0 aq.qq.servirce.com
 0.0.0.0 code.loading.wolian.net
+0.0.0.0 e-mail-google.Co.CC
 0.0.0.0 fx.v1kk.com
 0.0.0.0 hjmg.930114.com
 0.0.0.0 ht.hao120.cc
 0.0.0.0 ht.sooe.cn
+0.0.0.0 icbc-y.com
 0.0.0.0 img.tjq.com
 0.0.0.0 lkn.zoossoft.cn
 0.0.0.0 m.ttgrs.cn
+0.0.0.0 mail.qq.com.terncent.com
 0.0.0.0 pp9a.com
 0.0.0.0 shop.hoo6.com
 0.0.0.0 shop.liweihui.com
 0.0.0.0 shop57205080.taobao.com
+0.0.0.0 smtown.com
+0.0.0.0 superjunior.smtown.com
+0.0.0.0 tao123.cc
 0.0.0.0 testserver.zoosnet.net
 0.0.0.0 u.the668.com
 0.0.0.0 v8.olajk.com
 0.0.0.0 www.133i.com
+0.0.0.0 www.22jianfei.com
+0.0.0.0 www.85tao.net
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.fengxin114.com
 0.0.0.0 www.hao120.cc
+0.0.0.0 www.haodian8.net
+0.0.0.0 www.icbc-y.com
 0.0.0.0 www.juyuan.com
 0.0.0.0 www.lashou.com
 0.0.0.0 www.pp9a.com
 0.0.0.0 www.ruox.net
 0.0.0.0 www.sooe.cn
+0.0.0.0 www.tao123.me
+0.0.0.0 www.tao345.net
+0.0.0.0 www.tao456.com
 0.0.0.0 www.taobanwang.com
 0.0.0.0 www.ttgrs.cn
 0.0.0.0 www.uniqlo.jp
@@ -5945,14 +5989,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 trade.bokecc.com
 0.0.0.0 www.bokecc.com
 0.0.0.0 www.vunion.net
+0.0.0.0 sm2.netitv.com
 0.0.0.0 autou.vodone.cn
-0.0.0.0 busjs.vodone.cn
-0.0.0.0 stat.vodone.cn
 0.0.0.0 bus.vodone.com
+0.0.0.0 busjs.vodone.cn
 0.0.0.0 cai.vodone.com
 0.0.0.0 ego.vodone.com
 0.0.0.0 images.vodone.com
 0.0.0.0 msn.vodone.com
+0.0.0.0 pic.vodone.com
+0.0.0.0 stat.vodone.cn
 0.0.0.0 stat2.vodone.com
 0.0.0.0 u.vodone.com
 0.0.0.0 u3.vodone.com
@@ -5961,7 +6007,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 vlog.vodone.com
 0.0.0.0 vodone.com
 0.0.0.0 www.vodone.com
-0.0.0.0 sm2.netitv.com
 #IE劫持
 0.0.0.0 3448.com
 0.0.0.0 4199.com
@@ -6006,9 +6051,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.8d.cn
 0.0.0.0 www.8hao123.com
 0.0.0.0 www.9384.com
+0.0.0.0 www.978.la
 0.0.0.0 www.999d.com
 0.0.0.0 www.dh818.com
 0.0.0.0 www.gcbbs.org
+0.0.0.0 www.haol23.cc
 0.0.0.0 www.ivc.cn
 0.0.0.0 www.my115.net
 0.0.0.0 www.newshipin.info
@@ -6017,9 +6064,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tazhao.com
 0.0.0.0 www.w234.com
 0.0.0.0 www.wz123.com
-#脑残网站
-0.0.0.0 smtown.com
-0.0.0.0 superjunior.smtown.com
 #弹出广告
 0.0.0.0 5.nihao600.com
 0.0.0.0 a6.chancede.com
@@ -6107,6 +6151,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.57pk.net
 0.0.0.0 t.chinayul.com
 0.0.0.0 t.gameyule.com
+0.0.0.0 t.gocsgo.com
 0.0.0.0 t.uuplay.com
 0.0.0.0 t.yyclick.com
 0.0.0.0 tao.37wan.com
@@ -6155,43 +6200,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 www1.xman.cn
 0.0.0.0 www1.zjbdt.com
+0.0.0.0 xiaohua.r.arpg2.com
 0.0.0.0 xy.8zgame.com
 0.0.0.0 yz.szgla.com
-#钓鱼网站
-0.0.0.0 aq.qq.servirce.com
-0.0.0.0 mail.qq.com.terncent.com
-0.0.0.0 aq.qq.service.terncent.com
-0.0.0.0 www.icbc-y.com
-0.0.0.0 icbc-y.com
-0.0.0.0 e-mail-google.Co.CC
-#运营商劫持
-0.0.0.0 118114.cn
-0.0.0.0 so.118114.cn
-0.0.0.0 114search.118114.cn
-0.0.0.0 114.com.cn
-0.0.0.0 s.114.com.cn
-0.0.0.0 union.114.com.cn
-0.0.0.0 partner.114.com.cn
-0.0.0.0 keyword.vnet.cn
-0.0.0.0 search.114.vnet.cn
-0.0.0.0 dianxin.cn
-0.0.0.0 dianxin.com
-0.0.0.0 game.dianxin.cn
-0.0.0.0 www.dianxin.cn
-0.0.0.0 sddns1.cncmax.cn
-0.0.0.0 sddns2.cncmax.cn
-0.0.0.0 sddns5.cncmax.cn
-0.0.0.0 sddns7.cncmax.cn
-#运营商广告
-0.0.0.0 114.allyes.com
-0.0.0.0 uninewspace.allyes.com
-0.0.0.0 lc.havod.com
-0.0.0.0 havod.com
-0.0.0.0 www.havod.com
-0.0.0.0 ad.online.cq.cn
-0.0.0.0 ad.xunkoo.com
-0.0.0.0 ads.iisdoor.com
-0.0.0.0 hot.apinpai.com
 #病毒下载
 0.0.0.0 ysbweb.com
 0.0.0.0 cache.ysbweb.com
