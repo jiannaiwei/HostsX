@@ -1,4 +1,4 @@
-;version=201011192000
+;version=201011192020
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -6036,6 +6036,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 search.ok365.com
 0.0.0.0 search.p.cn
 0.0.0.0 t.v22.cc
+0.0.0.0 taobao.loliso.com
 0.0.0.0 u.30so.com
 0.0.0.0 wvv.v921.com
 0.0.0.0 www.114la.com
@@ -6053,6 +6054,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.9384.com
 0.0.0.0 www.978.la
 0.0.0.0 www.999d.com
+0.0.0.0 www.d91d.com
 0.0.0.0 www.dh818.com
 0.0.0.0 www.gcbbs.org
 0.0.0.0 www.haol23.cc
@@ -6061,6 +6063,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.my115.net
 0.0.0.0 www.newshipin.info
 0.0.0.0 www.p.cn
+0.0.0.0 www.piaofang.net
 0.0.0.0 www.shangla.com
 0.0.0.0 www.tazhao.com
 0.0.0.0 www.w234.com
