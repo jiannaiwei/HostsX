@@ -1,4 +1,4 @@
-;version=201011192020
+;version=201011192050
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -6404,6 +6404,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dw.hiido.cn
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
+#soukuang
+0.0.0.0 www.soukuang.net
 @HostsX Èí¼þÑéÖ¤ÆÁ±Î
 #Game Assassin's Creed
 0.0.0.0 onlineconfigservice.ubi.com
