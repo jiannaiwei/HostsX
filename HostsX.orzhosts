@@ -1,6 +1,13 @@
-;version=201011181630
+;version=201011191200
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+@HostsX ReadMe
+Mod and Sources lists:
+Thanks Bark,洪七公: http://www.du110.com/thread-11742-1-1.html
+Thanks MVPS: http://www.mvps.org/winhelp2002/hosts.txt
+Thanks YoYo: http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
+Thanks Gregalous: http://forum.xda-developers.com/showthread.php?t=696084
+Thanks EverOne.
 @HostsX 站点智能转向
 #Localhost
 127.0.0.1   localhost
@@ -30,8 +37,8 @@ ff02::3 ip6-allhosts
 209.85.225.101 docs.google.com
 74.125.127.100 writely.google.com
 74.125.127.139 spreadsheets.google.com
-66.102.7.100 encrypted.google.com 
-74.125.43.102 encrypted.google.com 
+66.102.7.100 encrypted.google.com
+74.125.43.102 encrypted.google.com
 74.125.227.4 encrypted.google.com
 #Picasa
 74.125.91.99 www.picasa.com
@@ -500,7 +507,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bwp.zdnet.co.uk
 0.0.0.0 bwp.zdnet.com.au
 0.0.0.0 bwp.zdnet.fr
-0.0.0.0 dw.zdnet.com
 0.0.0.0 dw.zdnet.com
 0.0.0.0 mads.zdnet.com
 0.0.0.0 om.zdnet.co.uk
@@ -2113,7 +2119,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 m.de.2mdn.net
 0.0.0.0 m.fr.2mdn.net
 0.0.0.0 m.uk.2mdn.net
-0.0.0.0 m1.2mdn.net	
+0.0.0.0 m1.2mdn.net
 0.0.0.0 m1.au.2mdn.net
 0.0.0.0 m1.emea.2mdn.net
 0.0.0.0 m3.2mdn.net
@@ -2170,17 +2176,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.adbrite.com
 #Adbureau
 0.0.0.0 ad101com-images.adbureau.net
-0.0.0.0 ad101com.adbureau.net	
+0.0.0.0 ad101com.adbureau.net
 0.0.0.0 admse001-images.adbureau.net
 0.0.0.0 admse001.adbureau.net
-0.0.0.0 capitali-images.adbureau.net	
+0.0.0.0 capitali-images.adbureau.net
 0.0.0.0 cent.adbureau.net
 0.0.0.0 centaur-images.adbureau.net
 0.0.0.0 cgm.adbureau.net
 0.0.0.0 cmn.adbureau.net
 0.0.0.0 content.adbureau.net
 0.0.0.0 cooking.adbureau.net
-0.0.0.0 creview-images.adbureau.net	
+0.0.0.0 creview-images.adbureau.net
 0.0.0.0 creview.adbureau.net
 0.0.0.0 curtco-images.adbureau.net
 0.0.0.0 cvapts-images.adbureau.net
@@ -2731,7 +2737,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 update.digitalnames.net
 0.0.0.0 upgrade.digitalnames.net
 0.0.0.0 www.digitalnames.net
-
 #Epic
 0.0.0.0 c.azjmp.com
 0.0.0.0 i.azjmp.com
@@ -2779,7 +2784,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.asiafriendfinder.com
 0.0.0.0 ads.friendfinder.com
 0.0.0.0 adserver.asiafriendfinder.com
-0.0.0.0 adserver.asiafriendfinder.com	
 0.0.0.0 adserver.friendfinder.com
 0.0.0.0 asiafind1.com
 0.0.0.0 asiafriendfinder.com
@@ -4048,7 +4052,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 amch.questionmarket.com
 0.0.0.0 ch.questionmarket.com
 0.0.0.0 questionmarket.com
-0.0.0.0 questionmarket.com
 0.0.0.0 survey.questionmarket.com
 0.0.0.0 www.questionmarket.com
 #Rambler
@@ -4353,7 +4356,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 offers.whenu.com
 0.0.0.0 spapp.whenu.com
 0.0.0.0 spweather.whenu.com
-0.0.0.0 spweb.whenu.com	
+0.0.0.0 spweb.whenu.com
 0.0.0.0 weather.whenu.com
 0.0.0.0 web.whenu.com
 0.0.0.0 whenu.com
@@ -4386,7 +4389,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 search.xrenoder.com
 0.0.0.0 www.xrenoder.com
 0.0.0.0 xrenoder.com
-
 #Yesadvertising
 0.0.0.0 test.yesadvertising.com
 0.0.0.0 www1.yesadvertising.com
@@ -4566,7 +4568,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 javascript.nwbox.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 pub.softonic.cn
-0.0.0.0 sdc.mcafee.com	
+0.0.0.0 sdc.mcafee.com
 0.0.0.0 secure.webhostingpad.com
 0.0.0.0 sharefoco.com
 0.0.0.0 static.addtoany.com
@@ -5911,6 +5913,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pp9a.com
 0.0.0.0 shop.hoo6.com
 0.0.0.0 shop.liweihui.com
+0.0.0.0 shop57205080.taobao.com
 0.0.0.0 testserver.zoosnet.net
 0.0.0.0 u.the668.com
 0.0.0.0 v8.olajk.com
@@ -6026,6 +6029,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adcount.moliyo.com
 0.0.0.0 adrs.sdo.com
 0.0.0.0 agod.r.sougames.com
+0.0.0.0 aj.tg.niux88.com
 0.0.0.0 al.7pk.com
 0.0.0.0 bean.r.sougames.com
 0.0.0.0 bt.52yeyou.com
@@ -6060,6 +6064,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 go.snsfun.cc
 0.0.0.0 Han1.70yx.Com
 0.0.0.0 hc.gamebean.com
+0.0.0.0 hd.wushen.com
 0.0.0.0 hlt.nextsee.com
 0.0.0.0 home.3gm.com.cn
 0.0.0.0 hy.wowan365.com
@@ -6088,6 +6093,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pv.ccnec.com
 0.0.0.0 r.sougames.com
 0.0.0.0 redirect.jooov.cn
+0.0.0.0 reg.zqgame.com
 0.0.0.0 s.7pk.com
 0.0.0.0 safe.7pk.com
 0.0.0.0 software.7pk.com
@@ -6102,6 +6108,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.chinayul.com
 0.0.0.0 t.gameyule.com
 0.0.0.0 t.uuplay.com
+0.0.0.0 t.yyclick.com
 0.0.0.0 tao.37wan.com
 0.0.0.0 taobao.7pk.com
 0.0.0.0 tc.1stwebgame.com
@@ -6132,15 +6139,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.adsue.com
 0.0.0.0 www.cssyouxi.com
 0.0.0.0 www.douxie.com
+0.0.0.0 www.duibei.com
 0.0.0.0 www.huaqimen.com
 0.0.0.0 www.igo2018.com
 0.0.0.0 www.jiayuan.com
 0.0.0.0 www.jysls.com
 0.0.0.0 www.kfwan.com
 0.0.0.0 www.kmmcn.com
+0.0.0.0 www.kugame.cn
 0.0.0.0 www.leeuu.net
 0.0.0.0 www.prealpha.platform.ccnec.com
 0.0.0.0 www.shumenol.com
+0.0.0.0 www.snstele.com
 0.0.0.0 www.wangyuan.com
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 www1.xman.cn
@@ -6192,12 +6202,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 bins.lop.com
 0.0.0.0 i.stealfrommvps.lop.com
 0.0.0.0 img.lop.com
-0.0.0.0 bins.lop.com
 0.0.0.0 lop.com
 0.0.0.0 upd.lop.com
 0.0.0.0 srch.lop.com
 0.0.0.0 sue.lop.com
-0.0.0.0 upd.lop.com
 0.0.0.0 www.lop.com
 0.0.0.0 www1.lop.com
 0.0.0.0 jsunion.boodvd.cn
@@ -6251,6 +6259,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zhutizi.com
 0.0.0.0 wz654321.cn
 0.0.0.0 xz.easyxiazaiba.info
+0.0.0.0 download.chinaprj.cn
 @HostsX 软件广告过滤
 #Avast
 0.0.0.0 program.avast.com

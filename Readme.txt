@@ -164,12 +164,6 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
     点一下！！！再past！搞定啦！！！！！！！！！！
     注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽建议使用127.0.0.1
 
-# sources lists:
-# http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
-# http://www.mvps.org/winhelp2002/hosts.txt
-# http://forum.xda-developers.com/showthread.php?t=509997
-# http://www.du110.com/thread-11742-1-1.html
-# http://www.itfunz.com
 --------------------------------------------------------------------------------
 4. IPV6支持信息
 
