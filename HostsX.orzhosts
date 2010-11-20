@@ -1,4 +1,4 @@
-;version=201011200830
+;version=201011201210
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -854,6 +854,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
+0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 stat.xunlei.com
@@ -4616,6 +4617,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 g.bitauto.com
 0.0.0.0 gimg.bitauto.com
 0.0.0.0 ip.bitauto.com
+0.0.0.0 log.bitauto.com
 #µçÍæ°ÍÊ¿
 0.0.0.0 bill.tgbus.com
 0.0.0.0 g.tgbus.com
