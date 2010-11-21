@@ -1,4 +1,4 @@
-;version=201011211920
+;version=201011220020
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -5930,6 +5930,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.iisdoor.com
 0.0.0.0 hot.apinpai.com
 #¹ã¸æÕ©Æ­µöÓãµÈ
+0.0.0.0 fs.yythfx.com
+0.0.0.0 qlx.yythfx.com
+0.0.0.0 yugen.yythfx.com
+0.0.0.0 omega.kujia518.com
+0.0.0.0 w.china8849.net
+0.0.0.0 omega.china8849.net
+0.0.0.0 longines.china8849.net
+0.0.0.0 gold.china8849.net
+0.0.0.0 kujia518.com
+0.0.0.0 gold.kujia518.com
+0.0.0.0 www.yilongshop.com
+0.0.0.0 www.rolex86.com
+0.0.0.0 s.yniywo.com
 0.0.0.0 1189cctv.com
 0.0.0.0 2010texq.com
 0.0.0.0 888888fa.com
