@@ -1,4 +1,4 @@
-;version=201011201210
+;version=201011211230
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -385,6 +385,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.click.taobao.com
 0.0.0.0 search8.taobao.com
 0.0.0.0 haibao.huoban.taobao.com
+0.0.0.0 www.tao123.com
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
@@ -6132,6 +6133,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mcsd.qq437.cn
 0.0.0.0 mediacdn.runup.cn
 0.0.0.0 mhsh.zqgame.com
+0.0.0.0 mini.zzjk.net
 0.0.0.0 naqigs.com
 0.0.0.0 new.7pk.com
 0.0.0.0 nonoyx.com
@@ -6139,6 +6141,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.eqiso.com
 0.0.0.0 passport.fs5d.com
 0.0.0.0 po.add.tx908.com
+0.0.0.0 pop.txwy.com
 0.0.0.0 pv.7fgame.com
 0.0.0.0 pv.ccnec.com
 0.0.0.0 r.sougames.com
@@ -6284,6 +6287,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 game.baofeng.com
 0.0.0.0 videodown.baofeng.com
 0.0.0.0 videoinfo.baofeng.com
+#Bitcomet
+0.0.0.0 inside.bitcomet.com
 #Flashget
 0.0.0.0 bc.kuaiche.com
 0.0.0.0 cimg.kuaiche.com
