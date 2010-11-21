@@ -1,4 +1,4 @@
-;version=201011211230
+;version=201011211920
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -622,6 +622,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 watson.live.com
 #MicrosoftAD
 0.0.0.0 crl.microsoft.com
+0.0.0.0 watson.microsoft.com
 0.0.0.0 ads1.msads.net
 0.0.0.0 ads2.msads.net
 0.0.0.0 global.msads.net
