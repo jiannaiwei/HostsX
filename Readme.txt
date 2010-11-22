@@ -260,6 +260,7 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
    百度:      hiphotos.baidu.com   （百度空间图片）
               gimg.baidu.com       （首页图片显示）
    迅雷:      msg.client.xunlei.com（客户端消息提示）
+         down.fodder.neoimaging.cn （光影魔术手素材下载）
    驱动之家:  11.mydrivers.com     （评论条数显示）
    MSN提醒：  alerts.live.com
    手机：     adsclick.uc123.com    (用此链接做跳转的页面太多)

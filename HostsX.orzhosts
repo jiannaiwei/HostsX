@@ -1,4 +1,4 @@
-;version=201011220020
+;version=201011221320
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -434,6 +434,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hx.hexun.com
 0.0.0.0 itv.hexun.com
 0.0.0.0 union.hexun.com
+0.0.0.0 shequ.tools.hexun.com
 0.0.0.0 wizard.stock.hexun.com
 @HostsX OneKey/CBS Interactive
 0.0.0.0 www.cbsinteractive.com
@@ -5640,6 +5641,9 @@ ff02::3 ip6-allhosts
 #Ooomm
 0.0.0.0 click1.ooommm.com.cn
 0.0.0.0 click3.ooommm.com.cn
+#Qizhao
+0.0.0.0 code.qizhao.com
+0.0.0.0 qizhao.com
 #Qyclick
 0.0.0.0 vvww.qyclick.com
 0.0.0.0 www.qyclick.com
@@ -5843,7 +5847,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 code.ceyunshi.cn
 0.0.0.0 code.i-qianming.cn
 0.0.0.0 code.myxmdh.com
-0.0.0.0 code.qizhao.com
 0.0.0.0 code.tjlove8.com
 0.0.0.0 code.woairing.cn
 0.0.0.0 counter.hitslink.com
@@ -5868,7 +5871,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pic.addeliver.biz
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 popunder.paypopup.com
-0.0.0.0 qizhao.com
 0.0.0.0 r.mybestyouxi.cn
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 shop8.x.com.cn
