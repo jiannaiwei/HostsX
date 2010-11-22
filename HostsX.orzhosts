@@ -1,9 +1,10 @@
-;version=201011221320
+;version=201011230101
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
 Mod and Sources lists and Thanks:
 http://www.du110.com/thread-11742-1-1.html
+http://hi.baidu.com/villagesecu
 http://www.mvps.org/winhelp2002/hosts.txt
 http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
 http://forum.xda-developers.com/showthread.php?t=696084
@@ -5931,6 +5932,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.xunkoo.com
 0.0.0.0 ads.iisdoor.com
 0.0.0.0 hot.apinpai.com
+0.0.0.0 app.kdsj2.sx.cn
+0.0.0.0 webpush.voole.com
 #广告诈骗钓鱼等
 0.0.0.0 fs.yythfx.com
 0.0.0.0 qlx.yythfx.com
@@ -5947,6 +5950,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.yniywo.com
 0.0.0.0 1189cctv.com
 0.0.0.0 2010texq.com
+0.0.0.0 zx360.v1kk.com
+0.0.0.0 hjmg.57743.com
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
 0.0.0.0 adtaobao.tobo123.com
@@ -6030,8 +6035,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 vodone.com
 0.0.0.0 www.vodone.com
 #IE劫持
+0.0.0.0 054.cc
+0.0.0.0 1188.com
+0.0.0.0 2548.cn
+0.0.0.0 300.cc
 0.0.0.0 3448.com
 0.0.0.0 4199.com
+0.0.0.0 669dh.cn
 0.0.0.0 6781.com
 0.0.0.0 7255.com
 0.0.0.0 7322.com
@@ -6040,12 +6050,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 7939.com
 0.0.0.0 8009.com
 0.0.0.0 858656.com
+0.0.0.0 87205.com
 0.0.0.0 8749.com
+0.0.0.0 886dh.cn
 0.0.0.0 8dh.info
+0.0.0.0 91kk.com
+0.0.0.0 969dh.cn
 0.0.0.0 about.blank.la
 0.0.0.0 c.999d.com
 0.0.0.0 dir.ejoina.com
+0.0.0.0 freedh.info
 0.0.0.0 go.lailea.info
+0.0.0.0 go2000.cn
+0.0.0.0 hao.datoday.info
 0.0.0.0 hao.kuaibo.com
 0.0.0.0 henbucuo.com
 0.0.0.0 kzdh.com
@@ -6054,6 +6071,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mydh.info
 0.0.0.0 parking.8d.cn
 0.0.0.0 piaoxue.com
+0.0.0.0 qq1949.net
 0.0.0.0 QQ5.com
 0.0.0.0 s.lailea.info
 0.0.0.0 search.ok365.com
@@ -6062,36 +6080,93 @@ ff02::3 ip6-allhosts
 0.0.0.0 taobao.loliso.com
 0.0.0.0 u.30so.com
 0.0.0.0 wvv.v921.com
+0.0.0.0 wvw.51150.com
+0.0.0.0 wvw.chuifengtong.com
+0.0.0.0 wvw.dicai.net
+0.0.0.0 wwv.cz3.net
+0.0.0.0 www.0344.net  
+0.0.0.0 www.111.dh.com
+0.0.0.0 www.113w.com
 0.0.0.0 www.114la.com
+0.0.0.0 www.1155.com
+0.0.0.0 www.1188.com
 0.0.0.0 www.126666666.cn
+0.0.0.0 www.131.cc
 0.0.0.0 www.131u.com
 0.0.0.0 www.150.net
+0.0.0.0 www.19574.net
 0.0.0.0 www.1buso.com
+0.0.0.0 www.2345.com
 0.0.0.0 www.2535.cn
+0.0.0.0 www.2548.cn
 0.0.0.0 www.26dh.cn
+0.0.0.0 www.3527.com
+0.0.0.0 www.3929.cn
+0.0.0.0 www.4224.com
 0.0.0.0 www.45451.net
+0.0.0.0 www.46.com
+0.0.0.0 www.506520.net
+0.0.0.0 www.55uuu.cn
+0.0.0.0 www.59688.com
 0.0.0.0 www.6313.com
 0.0.0.0 www.66234.net
+0.0.0.0 www.6661.cc
+0.0.0.0 www.68262.com
+0.0.0.0 www.7249.cn
+0.0.0.0 www.74573.com
+0.0.0.0 www.782dh.com
+0.0.0.0 www.860114.com
+0.0.0.0 www.884599.cn
 0.0.0.0 www.8d.cn
 0.0.0.0 www.8hao123.com
+0.0.0.0 www.9281.net
 0.0.0.0 www.9384.com
+0.0.0.0 www.95081.net
 0.0.0.0 www.978.la
+0.0.0.0 www.9998.in
 0.0.0.0 www.999d.com
+0.0.0.0 www.budazi.com
+0.0.0.0 www.bv0.net
 0.0.0.0 www.d91d.com
+0.0.0.0 www.dao234.com
 0.0.0.0 www.dh818.com
+0.0.0.0 www.f127.com
+0.0.0.0 www.fangbian.cc
+0.0.0.0 www.fast35.net
+0.0.0.0 www.free12222.com
 0.0.0.0 www.gcbbs.org
+0.0.0.0 www.go2000.cn
+0.0.0.0 www.haha1234.com
 0.0.0.0 www.haol23.cc
 0.0.0.0 www.henbucuo.com
 0.0.0.0 www.ivc.cn
+0.0.0.0 www.leilei.cc
+0.0.0.0 www.lele444.com
+0.0.0.0 www.luanluan.net
+0.0.0.0 www.mai520.com
+0.0.0.0 www.maishen.net
 0.0.0.0 www.my115.net
+0.0.0.0 www.my133.net
 0.0.0.0 www.newshipin.info
 0.0.0.0 www.p.cn
 0.0.0.0 www.piaofang.net
+0.0.0.0 www.pp2345.com
+0.0.0.0 www.q22.cc
+0.0.0.0 www.qq2010qq.cn
+0.0.0.0 www.qq5.com
 0.0.0.0 www.shangla.com
 0.0.0.0 www.tazhao.com
+0.0.0.0 www.tg1234.com
+0.0.0.0 www.ttver.net
 0.0.0.0 www.w234.com
+0.0.0.0 www.wanyx.com
 0.0.0.0 www.wz123.com
+0.0.0.0 www.zongfo.cn
+0.0.0.0 xiujue.net
+0.0.0.0 yaoxp.com
+0.0.0.0 yxbao.com
 #弹出广告
+0.0.0.0 hd.hxage.com
 0.0.0.0 5.nihao600.com
 0.0.0.0 a6.chancede.com
 0.0.0.0 abc.96pk.com
