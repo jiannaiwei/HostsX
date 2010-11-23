@@ -1,4 +1,4 @@
-;version=201011230101
+;version=201011240000
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -109,14 +109,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 jj.topzj.com
 0.0.0.0 js.0252.com
 0.0.0.0 js.adm.cngba.com
-0.0.0.0 js.igalive.com
 0.0.0.0 me.youheme.com
 0.0.0.0 pic.66fzl.com
 0.0.0.0 pro.blogbus.com
 0.0.0.0 pro.letv.com
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 rcm.amazon.com
-0.0.0.0 resource.igalive.com
 0.0.0.0 s1.wopti.net
 0.0.0.0 sp.vcimg.com
 0.0.0.0 sponsor.verycd.com
@@ -5553,6 +5551,10 @@ ff02::3 ip6-allhosts
 #Hxas
 0.0.0.0 cpc11.hxad.com
 0.0.0.0 cpm2.hxad.com
+#igalive
+0.0.0.0 ipagent.igalive.com
+0.0.0.0 js.igalive.com
+0.0.0.0 resource.igalive.com
 #iTop
 0.0.0.0 d.itopnetworks.com
 0.0.0.0 itopnetworks.com
@@ -6181,6 +6183,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 bto.youxiya.com
 0.0.0.0 c.91wan.com
+0.0.0.0 g.qling.com
 0.0.0.0 c.qling.com
 0.0.0.0 c.union188.com
 0.0.0.0 cba.96pk.com
@@ -6375,6 +6378,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 wz654321.cn
 0.0.0.0 xz.easyxiazaiba.info
 0.0.0.0 download.chinaprj.cn
+0.0.0.0 xz.duotedistrictxiazai.info
+0.0.0.0 e.17pk.com
 @HostsX 软件广告过滤
 #Avast
 0.0.0.0 program.avast.com
