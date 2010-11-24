@@ -1,4 +1,4 @@
-;version=201011240000
+;version=201011241939
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -433,7 +433,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 hx.hexun.com
 0.0.0.0 itv.hexun.com
 0.0.0.0 union.hexun.com
-0.0.0.0 shequ.tools.hexun.com
 0.0.0.0 wizard.stock.hexun.com
 @HostsX OneKey/CBS Interactive
 0.0.0.0 www.cbsinteractive.com
