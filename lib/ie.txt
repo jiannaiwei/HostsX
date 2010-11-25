@@ -3,6 +3,7 @@ adcontrol.tudou.com
 gimg.iqilu.com
 images.sohu.com
 pro.letv.com
+g.crsky.com
 *.atm.youku.com
 *.mediav.com
 *.sandai.net
