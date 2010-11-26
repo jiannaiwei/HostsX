@@ -1,4 +1,4 @@
-;version=20101126123
+;version=201011262351
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -4807,6 +4807,7 @@ ff02::3 ip6-allhosts
 #3Bu
 0.0.0.0 c.3bu.cn
 0.0.0.0 img.3bu.cn
+0.0.0.0 mms.3bu.com
 0.0.0.0 mmscode1.3bu.com
 0.0.0.0 mmscode2.3bu.com
 0.0.0.0 mmscode3.3bu.com
