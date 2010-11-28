@@ -1,4 +1,4 @@
-;version=201011281630
+;version=201011281750
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -235,9 +235,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.17k.com
 0.0.0.0 ad.ddvip.com
 0.0.0.0 ad.tsinghua.edu.cn
-0.0.0.0 ad.wretch.cc
 0.0.0.0 ad.xici.net
-0.0.0.0 ad2.bloggerads.net
 0.0.0.0 ads.people.com.cn
 0.0.0.0 ads.wopus.org
 0.0.0.0 ads.zaobao.com
@@ -432,6 +430,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.cl.doubleclick.net
 0.0.0.0 ad.cn.doubleclick.net
 0.0.0.0 ad.de.doubleclick.net
+0.0.0.0 ad.de.doubleclick.net 
 0.0.0.0 ad.dk.doubleclick.net
 0.0.0.0 ad.doubleclick.com
 0.0.0.0 ad.doubleclick.net
@@ -464,6 +463,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.us.doubleclick.net
 0.0.0.0 ad.za.doubleclick.net
 0.0.0.0 ad2.doubleclick.net
+0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 adx.g.doubleclick.net 
 0.0.0.0 amn.doubleclick.net
 0.0.0.0 clickserve.us2.dartsearch.net
 0.0.0.0 cm.g.doubleclick.net
@@ -478,6 +479,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 feedads.g.doubleclick.net
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fls.uk.doubleclick.net
+0.0.0.0 gan.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleads2.g.doubleclick.net
 0.0.0.0 ir.doubleclick.net
@@ -485,14 +487,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 ln.doubleclick.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 m.us.doubleclick.net
+0.0.0.0 m1.doubleclick.net
 0.0.0.0 m2.doubleclick.net
 0.0.0.0 motifcdn.doubleclick.net
+0.0.0.0 motifcdn.doubleclick.net 
 0.0.0.0 motifcdn2.doubleclick.net
+0.0.0.0 motifcdn2.doubleclick.net 
 0.0.0.0 n3285ad.doubleclick.net
 0.0.0.0 n3349ad.doubleclick.net
 0.0.0.0 n4052ad.doubleclick.net
 0.0.0.0 n4061ad.doubleclick.net
 0.0.0.0 n4061ad.fr.doubleclick.net
+0.0.0.0 n4061ad.hk.doubleclick.net 
 0.0.0.0 n4403ad.doubleclick.net
 0.0.0.0 n479ad.doubleclick.net
 0.0.0.0 n609ad.doubleclick.net
@@ -517,6 +523,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.alimama.cn
 0.0.0.0 bm.alimama.cn
 0.0.0.0 bmvip.alimama.cn
+0.0.0.0 cb.alimama.cn
 0.0.0.0 img.alimama.cn
 0.0.0.0 acookie.alimama.com
 0.0.0.0 cpc.click.alimama.com
@@ -542,6 +549,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 search8.taobao.com
 0.0.0.0 haibao.huoban.taobao.com
 0.0.0.0 www.tao123.com
+0.0.0.0 hz.mmstat.com
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
@@ -567,6 +575,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 neirong.baidu.com
 0.0.0.0 nsclick.baidu.com
 0.0.0.0 s.baidu.com
+0.0.0.0 sobar.baidu.com
+0.0.0.0 sobartop.baidu.com
 0.0.0.0 spcode.baidu.com
 0.0.0.0 tk.baidu.com
 0.0.0.0 tkweb.baidu.com
@@ -682,6 +692,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
 #电脑之家
+0.0.0.0 ad.adver.com.tw
 0.0.0.0 ad.pchome.net
 0.0.0.0 btm.pchome.net
 0.0.0.0 btn.pchome.net
@@ -779,6 +790,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 watson.live.com
 #MicrosoftAD
 0.0.0.0 crl.microsoft.com
+0.0.0.0 rad.microsoft.com
 0.0.0.0 watson.microsoft.com
 0.0.0.0 ads1.msads.net
 0.0.0.0 ads2.msads.net
@@ -1036,6 +1048,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ae.adserver.yahoo.com
 0.0.0.0 analytics.yahoo.com
 0.0.0.0 ar.adserver.yahoo.com
+0.0.0.0 asia.pclick.internal.yahoo.com
 0.0.0.0 au.adserver.yahoo.com
 0.0.0.0 bc-beta.ads.yahoo.com
 0.0.0.0 be.adserver.yahoo.com
@@ -1052,6 +1065,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gr.adserver.yahoo.com
 0.0.0.0 hk.adserver.yahoo.com
 0.0.0.0 in.adserver.yahoo.com
+0.0.0.0 installerstats.yahoo.com
 0.0.0.0 it.adserver.yahoo.com
 0.0.0.0 launch.adserver.yahoo.com
 0.0.0.0 marketingsolutions.yahoo.com
@@ -1060,8 +1074,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 no.adserver.yahoo.com
 0.0.0.0 nz.adserver.yahoo.com
 0.0.0.0 pclick.internal.yahoo.com
+0.0.0.0 pclick.yahoo.com
 0.0.0.0 pn1.adserver.yahoo.com
 0.0.0.0 pn2.adserver.yahoo.com
+0.0.0.0 rd.software.yahoo.com
 0.0.0.0 s.analytics.yahoo.com
 0.0.0.0 se.adserver.yahoo.com
 0.0.0.0 sg.adserver.yahoo.com
@@ -1076,8 +1092,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.ard.yahoo.com
 0.0.0.0 us.rd.yahoo.com
 0.0.0.0 visit.webhosting.yahoo.com
-0.0.0.0 a32.g.a.yimg.com
 0.0.0.0 ads.yimg.com
+0.0.0.0 a32.g.a.yimg.com
 0.0.0.0 eur.a1.yimg.com
 0.0.0.0 l.yimg.com
 0.0.0.0 richmedia.yimg.com
@@ -1085,8 +1101,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 mp.apmebf.com
 0.0.0.0 rd.apmebf.com
 0.0.0.0 www.apmebf.com
-0.0.0.0 ads.bluelithium.com
 0.0.0.0 ad.yieldmanager.com
+0.0.0.0 ads.yldmgrimg.net
 0.0.0.0 api.yieldmanager.com
 0.0.0.0 content.yieldmanager.com
 0.0.0.0 content.yieldmanager.edgesuite.net
@@ -1098,9 +1114,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 yieldmanager.edgesuite.net
 0.0.0.0 yieldmanager.net
 0.0.0.0 adinterax.com
-0.0.0.0 www.adinterax.com
 0.0.0.0 mi.adinterax.com
 0.0.0.0 tr.adinterax.com
+0.0.0.0 www.adinterax.com
+0.0.0.0 ads.bluelithium.com
 0.0.0.0 yahoo.webdissector.com
 #Yahoo.co.jp
 0.0.0.0 ai.yimg.jp
@@ -1239,6 +1256,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 oascentral.abclocal.go.com
 0.0.0.0 seavideo-ak.espn.go.com
 0.0.0.0 w88.go.com
+#Anyway.com.tw
+0.0.0.0 ad.anyway.com.tw
+0.0.0.0 advertisement.anyway.com.tw
 #AOL
 0.0.0.0 37.adsonar.com
 0.0.0.0 ads.adsonar.com
@@ -1285,6 +1305,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 adi.bigmir.net
 0.0.0.0 c.bigmir.net
 0.0.0.0 i.bigmir.net
+#Chinatimes
+0.0.0.0 ad.cyberone.com.tw
+0.0.0.0 admanager.cyberone.com.tw
+0.0.0.0 marketing.chinatimes.com
 #Chosun
 0.0.0.0 adimg1.chosun.com
 0.0.0.0 cad.chosun.com
@@ -1299,6 +1323,10 @@ ff02::3 ip6-allhosts
 #Discovery
 0.0.0.0 ads.discovery.com
 0.0.0.0 omnikool.discovery.com
+#GoGoBox
+0.0.0.0 ads.pics.gogobox.com.tw
+0.0.0.0 advs.gogobox.com.tw
+0.0.0.0 event.gogobox.com.tw
 #Intel
 0.0.0.0 h10010.www1.hp.com
 0.0.0.0 syndication.intel.com
@@ -1330,6 +1358,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 nb.myspace.com
 0.0.0.0 count.myspace.cn
 0.0.0.0 gg.un.myspace.cn
+#Pixnet
+0.0.0.0 ad.pixnet.in
+0.0.0.0 ad.pixnet.net
 #Playboy
 0.0.0.0 pei-ads.playboy.com
 #SecretChina
@@ -1337,9 +1368,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 static1.secretchina.com
 0.0.0.0 ad.epochtimes.com
 #Yam
-0.0.0.0 admd.yam.com
+0.0.0.0 ad.blog.yam.com
 0.0.0.0 ad2.yam.com
+0.0.0.0 admd.yam.com
 0.0.0.0 ads.yam.com
+0.0.0.0 rec.n.yam.com
+#Taiwan
+0.0.0.0 ad.wretch.cc
+0.0.0.0 ad.cacafly.com
+0.0.0.0 ad.funp.com
+0.0.0.0 ad.hiiir.com
+0.0.0.0 ad.jamba.net
+0.0.0.0 ad.jamster.co.uk
+0.0.0.0 ad.obuy.tw
+0.0.0.0 ad.snsplus.com
+0.0.0.0 ad.sogi.com.tw
+0.0.0.0 adasad.myweb.hinet.net
+0.0.0.0 ads.citytalk.tw
+0.0.0.0 ads.fetnet.net
+0.0.0.0 ads.ign.com
+0.0.0.0 ads.miniclip.com
+0.0.0.0 ads.ttv.com.tw
 @HostsX 国外广告联盟
 #207.net
 0.0.0.0 102.112.207.net
@@ -4734,8 +4783,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.asp.net
 0.0.0.0 banner.hosteurope.de
 0.0.0.0 banner.onshow.us
+0.0.0.0 banners.wunderground.com
 0.0.0.0 content.pulse360.com
 0.0.0.0 d.cyberdefender.com
+0.0.0.0 dg.specificclick.net
 0.0.0.0 javascript.nwbox.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 pub.softonic.cn
@@ -4747,7 +4798,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.edgevertising.net
 0.0.0.0 track.effiliation.asia
 0.0.0.0 track.sitetag.us
+0.0.0.0 videoads.tetrisfriends.com
 0.0.0.0 www.adlinkmedia.net
+0.0.0.0 www.arcadebanners.com
 0.0.0.0 www.linkshare.com
 0.0.0.0 www.linkworth.com
 @HostsX 国内站点广告
@@ -4810,6 +4863,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adshow.it168.com
 0.0.0.0 stat.it168.com
 #天极网
+0.0.0.0 counter.tianjimedia.com
 0.0.0.0 counter.yesky.com
 0.0.0.0 media.yesky.com
 0.0.0.0 ucpn.yesky.com
@@ -4938,13 +4992,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
 #1133
-0.0.0.0 cpa.ads8.com
 0.0.0.0 u.ads8.com
+0.0.0.0 code22.1133.cc
 0.0.0.0 code28.1133.cc
 0.0.0.0 code36.1133.cc
 0.0.0.0 count.1133.cc
+0.0.0.0 cpa.ads8.com
 0.0.0.0 images1.1133.cc
 0.0.0.0 img7.1133.cc
+0.0.0.0 img9.1133.cc
 0.0.0.0 m.1133.cc
 0.0.0.0 u.1133.cc
 0.0.0.0 www.1133.cc
@@ -5082,6 +5138,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.ad123456.com
 0.0.0.0 tu.ad123456.com
 #AdHai
+0.0.0.0 pic.adhai.com
 0.0.0.0 put.adhai.com
 #Admaster
 0.0.0.0 www.admaster.com.cn
@@ -5326,7 +5383,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.taolai.cn
 0.0.0.0 y.taolai.cn
 #Allyes
-0.0.0.0 viafriend.allyes.com
 0.0.0.0 afpxici.allyes.com
 0.0.0.0 allyesbjafa.allyes.com
 0.0.0.0 allyesshafa.allyes.com
@@ -5341,6 +5397,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mscdn.allyes.com
 0.0.0.0 mso.allyes.com
 0.0.0.0 rayliafp.allyes.cn
+0.0.0.0 realafp.allyes.cn
 0.0.0.0 smartmedia.allyes.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 smcommon.allyes.com
@@ -5351,6 +5408,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 stbanner.allyes.com
 0.0.0.0 stm.allyes.com
 0.0.0.0 trend.allyes.com
+0.0.0.0 twsina.allyes.com
+0.0.0.0 viafriend.allyes.com
 0.0.0.0 wanmoafa7.allyes.com
 0.0.0.0 xiciafp.allyes.com
 #At98
@@ -5361,6 +5420,17 @@ ff02::3 ip6-allhosts
 #Barmms
 0.0.0.0 barmms.com
 0.0.0.0 i.barmms.com
+#Bloggerads
+0.0.0.0 ad2.bloggerads.net
+0.0.0.0 css.bloggerads.net
+0.0.0.0 lt.bloggerads.net
+0.0.0.0 pic.bloggerads.net
+0.0.0.0 pic2.bloggerads.net
+0.0.0.0 www.bloggerads.net
+0.0.0.0 bloggerads.openeyes.tw
+0.0.0.0 flv.dotmore.com.tw
+0.0.0.0 pic.dotmore.com.tw
+0.0.0.0 rs.interserv.com.tw
 #Bolaa
 0.0.0.0 creative.unionsys.bolaa.com
 0.0.0.0 union.bolaa.com
@@ -5772,6 +5842,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qy.keduo.cc
 0.0.0.0 www.keduo.cc
 #Keyrun
+0.0.0.0 keyrun.cn
 0.0.0.0 a.keyrun.com
 0.0.0.0 code16.keyrun.com
 0.0.0.0 pic0.keyrun.com
@@ -5792,6 +5863,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 pic2.onetad.com
 0.0.0.0 pic3.onetad.com
 0.0.0.0 ww10.onetad.com
+0.0.0.0 ww346.onetad.com
+0.0.0.0 ww360.onetad.com
+0.0.0.0 ww363.onetad.com
 0.0.0.0 ww78.onetad.com
 0.0.0.0 ww8.onetad.com
 0.0.0.0 wwv.onetad.com
@@ -5865,6 +5939,19 @@ ff02::3 ip6-allhosts
 #Star8
 0.0.0.0 c.star8.net
 0.0.0.0 img.star8.net
+#Scupio
+0.0.0.0 ad.scupio.com
+0.0.0.0 ad.scupio.com.tw
+0.0.0.0 adbw.scupio.com
+0.0.0.0 adclick.scupio.com
+0.0.0.0 adsense.scupio.com
+0.0.0.0 adsystem.scupio.com
+0.0.0.0 adyhk.scupio.com
+0.0.0.0 aspad.scupio.com
+0.0.0.0 money.scupio.com
+0.0.0.0 pic.scupio.com
+0.0.0.0 rec.scupio.com
+0.0.0.0 www.scupio.com
 #T2click
 0.0.0.0 58.t2click.com
 0.0.0.0 adrate.t2click.com
@@ -6054,6 +6141,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.woopra.com
 0.0.0.0 static.zoomino.cn
+0.0.0.0 stats.norton.com
 0.0.0.0 vip1.1tong.com.cn
 0.0.0.0 www.clicki.cn
 0.0.0.0 www.nasboq.com
@@ -6077,7 +6165,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.hylzad.com
 0.0.0.0 ad71.doubleadx.com
 0.0.0.0 ads.youshang.com
-0.0.0.0 adsense.scupio.com
 0.0.0.0 am.6park.com
 0.0.0.0 api.flash45.com
 0.0.0.0 as.kejet.com
@@ -6107,7 +6194,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 link.f1.com.tw
 0.0.0.0 link.hao251.com
 0.0.0.0 m.menhutong.com.cn
-0.0.0.0 money.scupio.com
 0.0.0.0 mx3.hotrank.com.tw
 0.0.0.0 pic.addeliver.biz
 0.0.0.0 pic837013.images9999.com
@@ -6136,7 +6222,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.iasoho.com
 0.0.0.0 www.maomao8.com
 0.0.0.0 www.mengxiang.in
-0.0.0.0 www.scupio.com
 0.0.0.0 www.sdgj.net.cn
 0.0.0.0 www.uokor.com
 0.0.0.0 www.xwadv.com
@@ -6613,7 +6698,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 Games-digest.com
 0.0.0.0 Gamesfactoryinteractive.com
 0.0.0.0 gb.36578.com
-0.0.0.0 hz.mmstat.com
 0.0.0.0 img38.my1188.info
 0.0.0.0 Mariogamesplay.com
 0.0.0.0 qqhdx.cn
@@ -6819,6 +6903,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ereg.adobe.com
 0.0.0.0 ns.adobe.com
 0.0.0.0 practivate.adobe.com
+0.0.0.0 stats.adobe.com
 0.0.0.0 www.adobeereg.com
 #Aignes
 0.0.0.0 aignes.com
