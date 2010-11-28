@@ -1,4 +1,4 @@
-;version=201011281750
+;version=201011282222
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -644,7 +644,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adimg.com.com
 0.0.0.0 adlog.com.com
 0.0.0.0 ads.com.com
-0.0.0.0 dw.com.com
 0.0.0.0 bwp.techrepublic.com.com
 0.0.0.0 dw-cn.com.com
 0.0.0.0 img.com.com

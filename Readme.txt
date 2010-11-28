@@ -281,6 +281,7 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
    手机：     adsclick.uc123.com    (用此链接做跳转的页面太多)
 
    CBS Interactive:
+              dw.com.com           （下载问题）
               i.i.com.com          （下载问题）
               a.abcnews.com        （新闻页面）
               pic.zol-img.com.cn   （zol首页显示不美观）
