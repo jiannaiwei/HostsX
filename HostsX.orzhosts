@@ -1,4 +1,4 @@
-;version=201011282222
+;version=201011282305
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -244,6 +244,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 allyes.jrj.com
 0.0.0.0 allyes.stockstar.com
 0.0.0.0 allyes.the9.com
+0.0.0.0 aperture.displaymarketplace.com
 0.0.0.0 aps4.jrjimg.cn
 0.0.0.0 bmp.ali213.net
 0.0.0.0 ccc.xdowns.com
@@ -257,6 +258,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gg.donews.com
 0.0.0.0 gg.joytod.com
 0.0.0.0 hot.269.net
+0.0.0.0 image10.autobild.cn
 0.0.0.0 images2.zhulang.com
 0.0.0.0 jj.topzj.com
 0.0.0.0 js.adm.cngba.com
