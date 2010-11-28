@@ -1,4 +1,4 @@
-;version=201011281520
+;version=201011281630
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -5081,6 +5081,8 @@ ff02::3 ip6-allhosts
 #Ad123456
 0.0.0.0 c.ad123456.com
 0.0.0.0 tu.ad123456.com
+#AdHai
+0.0.0.0 put.adhai.com
 #Admaster
 0.0.0.0 www.admaster.com.cn
 0.0.0.0 click.admaster.com.cn
@@ -5891,6 +5893,9 @@ ff02::3 ip6-allhosts
 #Tx8
 0.0.0.0 www13.tx8.cn
 0.0.0.0 www23.tx8.cn
+#Ulink
+0.0.0.0 c1.ulink.cc
+0.0.0.0 t1.ulink.cc
 #Unionbig
 0.0.0.0 ds2.unionbig.com
 0.0.0.0 u.unionli.com
@@ -6529,6 +6534,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.yyclick.com
 0.0.0.0 tao.37wan.com
 0.0.0.0 tg.33hy.com
+0.0.0.0 tg.youwo.com
 0.0.0.0 tg2.hlwan.com
 0.0.0.0 tg3.subo.me
 0.0.0.0 u.56wan.com
@@ -6735,6 +6741,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 pplive-ppva.datamaster.com.cn
 0.0.0.0 pplive-probe.datamaster.com.cn
 0.0.0.0 res-pplive.datamaster.com.cn
+#QQCEO
+0.0.0.0 ad.qqceo.net
+0.0.0.0 toufei.qqceo.net
+0.0.0.0 toufei2.qqceo.net
 #Qvod
 0.0.0.0 110.qvod.com
 0.0.0.0 buffer-ad.qvod.com
