@@ -3,7 +3,8 @@
 #                                                          #
 # This is probably the best Hosts file you used            #
 #                                                          #
-# Support for Win/Mac/UNIX/Java/Symbian/iPhone OS/Android  #
+# Support for Win/Mac/UNIX/Java/Symbian/iPhone OS          #
+#             Palm Pre/Android                             #
 # *********************************************************#
 # This work is licensed under the Creative Commons         #
 # Attribution-NonCommercial-ShareAlike License.            #
@@ -127,6 +128,7 @@
  - 感谢 bark 整理出的广告联盟和弹窗广告
  - 感谢 洪七公 整理的弹窗广告和恶意下载网站数据
  - 感谢 voodoosim 提交的软件广告过滤和其他数据
+ - 感谢 ksky 的在修改Palm Pre上修改Hosts数据的方法
 
 --------------------------------------------------------------------------------
 3. Hosts文件位置
@@ -143,6 +145,15 @@
    iPhone OS：/etc
 
  - OS/2及eComStation："bootdrive":\mptn\etc\
+
+ - Palm Pre：
+   1.Palm Pre先安装Terminal，不安装用电脑上的PY也可以。
+   2.用U盘模式把下面的Hosts传到Palm Pre里。
+   3.然后退出U盘模式，打开Terminal，
+   输入：
+       cd /media/internal
+   然后输入：
+       mv hosts /etc
 
  - Symbian第1/2版手机：C:\system\data\hosts
    Symbian第3版手机：C:\private\10000882\hosts，只能使用兼容AllFiles的文件浏览器访问
