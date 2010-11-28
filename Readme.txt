@@ -131,15 +131,17 @@
  - 感谢 ksky 的在修改Palm Pre上修改Hosts数据的方法
 
 --------------------------------------------------------------------------------
-3. Hosts文件位置
+3. Hosts文件位置（hosts文件没有后缀）
 
  - Hosts文件在不同操作系统（甚至不同Windows版本）的位置都不大一样：
    Windows NT/2000/XP/Vista/7（即微软NT系列操作系统）：默认位置为%SystemRoot%\system32\drivers\etc\，但也可以改变。
            动态目录由注册表键\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\DataBasePath决定。
    Windows 95/98/Me：%WinDir%\
+   Windows 用户可以以管理员身份直接运行 notepad "%SystemRoot%\system32\drivers\etc\hosts" 进行编辑
 
  - Linux(Ubuntu)及其他类Unix操作系统：/etc
- 
+   Linux 用户在终端中执行 sudo gedit /etc/hosts 即可开始编辑
+
  - Mac OS 9及更早的系统：System Folder: Preferences或System folder（文件格式可能与Windows和Linux所对应的文件不同）
    Mac OS X：/private/etc（使用BSD风格的hosts文件）
    iPhone OS：/etc
@@ -256,6 +258,8 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
 6. Hosts白名单排除和整理
 
  - 嗅探全域名使用的网址: http://sslcheck.net/nsreport.php
+ - 推特 hosts IP: http://is.gd/9WteB
+ - DropBox: http://item.taobao.com/item.htm?id=8548364162
 
  - 功能影响:
    360：      pinst.360.cn         （在线下载）
