@@ -1,4 +1,4 @@
-;version=201011271910
+;version=201011281145
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -4676,8 +4676,11 @@ ff02::3 ip6-allhosts
 #ÎÒÀÖÍø
 0.0.0.0 acs.56.com
 0.0.0.0 acs.agent.56.com
+0.0.0.0 acs.agent.v-56.com
 0.0.0.0 bill.agent.56.com
 0.0.0.0 bill.agent.v-56.com
+0.0.0.0 stat.56.com
+0.0.0.0 stat2.corp.56.com
 0.0.0.0 union.56.com
 0.0.0.0 v16.56.com
 #6¼ä·¿
