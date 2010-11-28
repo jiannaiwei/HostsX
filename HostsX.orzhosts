@@ -1,4 +1,4 @@
-;version=201011281145
+;version=201011281152
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -1025,6 +1025,7 @@ ff02::3 ip6-allhosts
 #UCWeb
 0.0.0.0 ads1.uc.cn
 0.0.0.0 ads1.ucweb.com
+0.0.0.0 down2.uc.cn
 0.0.0.0 down2.ucweb.com
 #Wiyun
 0.0.0.0 www.wiyun.com
@@ -4722,6 +4723,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v1.stat.ku6.com
 0.0.0.0 v2.stat.ku6.com
 0.0.0.0 v3.stat.ku6.com
+0.0.0.0 ipic.staticsdo.com
 #¼¤¶¯Íø
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86get.joy.cn
