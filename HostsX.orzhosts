@@ -1,4 +1,4 @@
-;version=201011292100
+;version=201011292123
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -4979,6 +4979,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 adimg.dayoo.com
 0.0.0.0 rnd.dayoo.com
 0.0.0.0 sta.dayoo.com
+#51Job
+0.0.0.0 ac.51job.com
+0.0.0.0 logs.51job.com
 #ÆëÂ³ÔÚÏß
 0.0.0.0 c.iqilu.com
 0.0.0.0 g.iqilu.com
