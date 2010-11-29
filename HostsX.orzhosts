@@ -1,4 +1,4 @@
-;version=201011282305
+;version=201011292100
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -4897,9 +4897,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.56.com
 0.0.0.0 v16.56.com
 #6间房
-0.0.0.0 simba.6.cn
 0.0.0.0 pole.6rooms.com
 0.0.0.0 shrek.6.cn
+0.0.0.0 simba.6.cn
+0.0.0.0 union.6.cn
 #优酷网
 0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
@@ -4948,6 +4949,7 @@ ff02::3 ip6-allhosts
 #中华网
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
+0.0.0.0 richmedia.china.com
 #21CN
 0.0.0.0 analytics.21cn.com
 0.0.0.0 click.21cn.com
@@ -4955,10 +4957,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 ranking.21cn.com
 #Tom.com
 0.0.0.0 ad.tom.com
-0.0.0.0 sc.tom.com
+0.0.0.0 adserve2.tomoimg.cn
+0.0.0.0 hjsm.tom.com
 0.0.0.0 p4p.tom.com
-0.0.0.0 ulinkjs.tom.com
+0.0.0.0 pre1.pub.tom.com
+0.0.0.0 pv.tom.com
+0.0.0.0 sc.tom.com
 0.0.0.0 u1.skype.tom.com
+0.0.0.0 ulinkdir.tom.com
+0.0.0.0 ulinkjs.tom.com
 0.0.0.0 tom.allyes.com
 0.0.0.0 xtrack.tomonline-inc.com
 #北青网
