@@ -1,4 +1,4 @@
-;version=201011292252
+;version=201011302250
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -6473,6 +6473,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hd.hxage.com
 0.0.0.0 hd.wushen.com
 0.0.0.0 hlt.nextsee.com
+0.0.0.0 huangjinquxian.com
 0.0.0.0 hy.wowan365.com
 0.0.0.0 i.na7.cc
 0.0.0.0 images.9zwar.com
@@ -6480,6 +6481,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mcsd.qq437.cn
 0.0.0.0 mini.zzjk.net
 0.0.0.0 nonoyx.com
+0.0.0.0 omega.55451.com
 0.0.0.0 p.eqiso.com
 0.0.0.0 passport.fs5d.com
 0.0.0.0 po.add.tx908.com
@@ -6515,6 +6517,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ww.yiqiwin.com
 0.0.0.0 www.13097.com
 0.0.0.0 www.176web.net
+0.0.0.0 www.18lehu.com
 0.0.0.0 www.33hy.com
 0.0.0.0 www.adsue.com
 0.0.0.0 www.cssyouxi.com
@@ -6527,6 +6530,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.kmmcn.com
 0.0.0.0 www.kugame.cn
 0.0.0.0 www.leeuu.net
+0.0.0.0 www.qqmohe.com
 0.0.0.0 www.shumenol.com
 0.0.0.0 www.snstele.com
 0.0.0.0 www.wangyuan.com
