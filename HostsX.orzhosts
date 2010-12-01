@@ -1,4 +1,4 @@
-;version=201011302250
+;version=201012012235
 ;author=¹ùÅôï¿£¨JocKwok£©
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -5683,6 +5683,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www1.gamediad.com
 0.0.0.0 www2.gamediad.com
 0.0.0.0 www3.gamediad.com
+#Gzcane
+0.0.0.0 a4.gzcane.com
+0.0.0.0 www.gzcane.com
 #Haodianpu
 0.0.0.0 tblog.tj.haodianpu.com
 0.0.0.0 tongji.haodianpu.com
