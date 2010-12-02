@@ -1,4 +1,4 @@
-;version=201012021150
+;version=201012021215
 ;author=郭鹏锟（JocKwok）
 ;Download=http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 @HostsX ReadMe
@@ -4682,7 +4682,6 @@ ff02::3 ip6-allhosts
 @HostsX 国内站点广告
 #天涯社区
 0.0.0.0 801.tianya.cn
-0.0.0.0 802.tianya.cn
 0.0.0.0 803.tianya.cn
 0.0.0.0 806.tianya.cn
 0.0.0.0 adview.tianya.cn
