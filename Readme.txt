@@ -25,6 +25,14 @@
 # *********************************************************#
 # Copyright (C) 2007-2010 orztech.com All Rights Reserved. #
 # *********************************************************#
+
+Mod and Sources lists and Thanks:
+http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
+http://www.du110.com/thread-11742-1-1.html
+http://hi.baidu.com/villagesecu
+http://www.mvps.org/winhelp2002/hosts.txt
+http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
+http://forum.xda-developers.com/showthread.php?t=696084
 ------------------------------------------------------------
 Ö§³ÖSupport
 
