@@ -1,4 +1,4 @@
-;version=201012032230
+;version=201012041700
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -6578,16 +6578,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 kerout.r.sougames.com
 0.0.0.0 r.sougames.com
 0.0.0.0 sougames.com
-0.0.0.0 al.7pk.com
-0.0.0.0 cimg.7pk.com
-0.0.0.0 client.7pk.com
-0.0.0.0 img.7pk.com
-0.0.0.0 imgcache.7pk.com
-0.0.0.0 new.7pk.com
-0.0.0.0 s.7pk.com
-0.0.0.0 safe.7pk.com
-0.0.0.0 software.7pk.com
-0.0.0.0 taobao.7pk.com
 0.0.0.0 c.qling.com
 0.0.0.0 g.qling.com
 0.0.0.0 kz.zqgame.com
@@ -6719,7 +6709,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 redirect.jooov.cn
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 shop8.x.com.cn
-0.0.0.0 static.u966.com
 0.0.0.0 t.15yl.com
 0.0.0.0 t.1stcngame.com
 0.0.0.0 t.37lai.com
@@ -6870,18 +6859,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 videoinfo.baofeng.com
 #Bitcomet
 0.0.0.0 inside.bitcomet.com
-#Flashget
-0.0.0.0 bc.kuaiche.com
-0.0.0.0 cimg.kuaiche.com
-0.0.0.0 directui.kuaiche.com.showq.net
-0.0.0.0 ufile.kuaiche.com
-0.0.0.0 client.kuaiche.com
+#[Flashget / Flashget]
 0.0.0.0 dll.flashget.com
 0.0.0.0 fetch.flashget.com
 0.0.0.0 ggstat.flashget.com
 0.0.0.0 olstat.flashget.com
 0.0.0.0 stat.flashget.com
 0.0.0.0 stac.flashget.com
+#[Flashget / U966]
+0.0.0.0 static.u966.com
+0.0.0.0 m.u966.com
+#[Flashget / Kuaiche]
+0.0.0.0 bc.kuaiche.com
+0.0.0.0 cimg.kuaiche.com
+0.0.0.0 directui.kuaiche.com.showq.net
+0.0.0.0 ufile.kuaiche.com
+0.0.0.0 client.kuaiche.com
 #Funshion
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
