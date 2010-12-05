@@ -1,4 +1,4 @@
-;version=201012041700
+;version=201012051902
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1090,6 +1090,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 rd.yahoo.co.jp
 0.0.0.0 yjaxc.yahoo.co.jp
 #Yahoo.com.cn
+0.0.0.0 p.tanx.com
+0.0.0.0 click.tanx.com
+0.0.0.0 img.mmcdn.cn
 0.0.0.0 api.ads.vip.cnh.yahoo.com
 0.0.0.0 cm.p4p.cn.yahoo.com
 0.0.0.0 cn.promo.yahoo.com
@@ -3146,7 +3149,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 content.media-servers.net
 0.0.0.0 media-servers.net
 0.0.0.0 my.media-servers.net
-
 #Omniture
 0.0.0.0 102.112.207.net
 0.0.0.0 102.112.2o7.net
@@ -3731,7 +3733,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 msnmercom.112.2o7.net
 0.0.0.0 msnmercustacqprod.112.2o7.net
 0.0.0.0 msnonecare.112.2o7.net
-0.0.0.0 msnportal.112.2o7.net
 0.0.0.0 msnportalaffiliate.112.2o7.net
 0.0.0.0 msnportalaunews.112.2O7.net
 0.0.0.0 msnportalbeetoffice2007.112.2o7.net
@@ -4940,12 +4941,6 @@ ff02::3 ip6-allhosts
 #铁血网
 0.0.0.0 ads.tiexue.net
 0.0.0.0 x.itiexue.net
-#CCTV
-0.0.0.0 a.cctv.com
-0.0.0.0 ad.cctv.com
-0.0.0.0 cctv.adsunion.com
-0.0.0.0 adguanggao.eee114.com
-0.0.0.0 d.cntv.cn
 #新华网
 0.0.0.0 adcenter.xinhuanet.com
 0.0.0.0 embed.xinhuanet.com
@@ -4978,6 +4973,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 count5.pconline.com.cn
 0.0.0.0 imgad1.3conline.com
 0.0.0.0 imgad2.3conline.com
+0.0.0.0 img3.pcgames.com.cn
 0.0.0.0 ivy.pconline.com.cn
 #It168
 0.0.0.0 168.it168.com
@@ -5006,6 +5002,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 raya.rayfile.com
 0.0.0.0 w105.rayfile.com
 @HostsX 国内站点广告/视频类网站
+#CNTV
+0.0.0.0 a.cctv.com
+0.0.0.0 a.cntv.cn
+0.0.0.0 ad.cctv.com
+0.0.0.0 d.cntv.cn
+0.0.0.0 adguanggao.eee114.com
+0.0.0.0 cctv.adsunion.com
 #我乐网
 0.0.0.0 acs.56.com
 0.0.0.0 acs.agent.56.com
@@ -6516,6 +6519,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.f127.com
 0.0.0.0 www.fangbian.cc
 0.0.0.0 www.fast35.net
+0.0.0.0 www.fg001.com
 0.0.0.0 www.free12222.com
 0.0.0.0 www.gcbbs.org
 0.0.0.0 www.go2000.cn
@@ -7123,4 +7127,3 @@ ff02::3 ip6-allhosts
 0.0.0.0 ps2.zonelabs.com
 0.0.0.0 register.zonelabs.com
 0.0.0.0 update.zonelabs.com
-----------------------5------------------
