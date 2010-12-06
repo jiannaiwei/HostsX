@@ -1,4 +1,4 @@
-;version=201012061500
+;version=201012062230
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1561,6 +1561,7 @@ ff02::3 ip6-allhosts
 #SecretChina
 0.0.0.0 ad.secretchina.com
 0.0.0.0 static1.secretchina.com
+0.0.0.0 a.epochtimes.com
 0.0.0.0 ad.epochtimes.com
 #Yam
 0.0.0.0 ad.blog.yam.com
@@ -6621,6 +6622,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lj.zqgame.com
 0.0.0.0 mhsh.zqgame.com
 0.0.0.0 reg.zqgame.com
+0.0.0.0 regbk.zqgame.com
 0.0.0.0 td.zqgame.com
 0.0.0.0 ccnec.com
 0.0.0.0 pv.ccnec.com
