@@ -1,4 +1,4 @@
-;version=201012062230
+;version=201012071530
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -6982,6 +6982,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 pp1.pplive.com
 0.0.0.0 up.pplive.com
+0.0.0.0 g.pptv.com
 0.0.0.0 pp2.pptv.com
 0.0.0.0 ppsj.pptv.com
 0.0.0.0 wafp.pptv.com
