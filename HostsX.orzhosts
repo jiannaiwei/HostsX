@@ -1417,6 +1417,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.youmi.net
 0.0.0.0 youmi.net
 #Other
+0.0.0.0 schemas.google.com
 0.0.0.0 24sp.cc
 0.0.0.0 admarvel.mojiva.com
 0.0.0.0 ads.admarvel.com
