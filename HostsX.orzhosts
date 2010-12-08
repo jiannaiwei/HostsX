@@ -1,4 +1,4 @@
-;version=201012071530
+;version=201012081113
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -1397,6 +1397,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 down2.uc.cn
 0.0.0.0 down2.ucweb.com
 #Wiyun
+0.0.0.0 ad.wiyun.com
+0.0.0.0 apps.virsir.com
 0.0.0.0 www.wiyun.com
 #Wooboo
 0.0.0.0 ade.wooboo.com.cn
