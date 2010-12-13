@@ -1,4 +1,4 @@
-;version=201012081122
+;version=201012131830
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -73,9 +73,9 @@ ff02::3 ip6-allhosts
 2001:470:a:17c::2 soutong.iloveyou
 63.223.106.181 soutong.com
 #Twitter
-128.242.240.29 twitter.com
-128.242.240.29 www.twitter.com
-128.242.240.29 api.twitter.com
+128.242.240.29 twitter.com 
+128.242.240.29 www.twitter.com 
+128.242.240.29 api.twitter.com 
 128.242.245.43 search.twitter.com
 #Tumblr
 74.54.212.172 www.tumblr.com
@@ -5159,12 +5159,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
 #1133
+0.0.0.0 cpa.ads8.com
 0.0.0.0 u.ads8.com
+0.0.0.0 code11.1133.cc
+0.0.0.0 code12.1133.cc
+0.0.0.0 code13.1133.cc
+0.0.0.0 code14.1133.cc
+0.0.0.0 code15.1133.cc
+0.0.0.0 code16.1133.cc
+0.0.0.0 code17.1133.cc
+0.0.0.0 code18.1133.cc
+0.0.0.0 code19.1133.cc
+0.0.0.0 code20.1133.cc
+0.0.0.0 code21.1133.cc
 0.0.0.0 code22.1133.cc
+0.0.0.0 code23.1133.cc
+0.0.0.0 code24.1133.cc
+0.0.0.0 code25.1133.cc
+0.0.0.0 code26.1133.cc
+0.0.0.0 code27.1133.cc
 0.0.0.0 code28.1133.cc
+0.0.0.0 code29.1133.cc
 0.0.0.0 code36.1133.cc
 0.0.0.0 count.1133.cc
-0.0.0.0 cpa.ads8.com
 0.0.0.0 images1.1133.cc
 0.0.0.0 img7.1133.cc
 0.0.0.0 img9.1133.cc
@@ -6457,6 +6474,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vodone.com
 0.0.0.0 www.vodone.com
 #IE劫持
+0.0.0.0 www.kljia.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2548.cn
@@ -6609,6 +6627,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 e8.yezizhu.com
 0.0.0.0 go.maxreturn.cn
 0.0.0.0 abc.96pk.com
+0.0.0.0 e3.96pk.com
 0.0.0.0 e8.96pk.com
 0.0.0.0 cba.96pk.com
 0.0.0.0 agod.r.sougames.com
@@ -6655,8 +6674,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 lh.ztgame.com
 0.0.0.0 jr.ztgame.com
 0.0.0.0 chess.r.arpg2.com
+0.0.0.0 cybor.r.arpg2.com
 0.0.0.0 eett.r.arpg2.com
 0.0.0.0 xiaohua.r.arpg2.com
+0.0.0.0 tg1.hlwan.com
+0.0.0.0 tg2.hlwan.com
 0.0.0.0 www.ad2.cc
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -6676,6 +6698,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 aj.tg.niux88.com
 0.0.0.0 am.6park.com
 0.0.0.0 api.flash45.com
+0.0.0.0 asqx.qq937.com
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 bto.youxiya.com
 0.0.0.0 c.ourclick.net
@@ -6702,6 +6725,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 engine.100fenlm.cn
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 g.175pt.com
+0.0.0.0 g.88210212.com
 0.0.0.0 g.91sanguo.cn
 0.0.0.0 g.9444.com
 0.0.0.0 g.kx365.com
@@ -6720,6 +6744,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 huangjinquxian.com
 0.0.0.0 hwachun.webplus.com.tw
 0.0.0.0 hy.wowan365.com
+0.0.0.0 i.2wanwan.com
 0.0.0.0 i.na7.cc
 0.0.0.0 image.86661.com
 0.0.0.0 image.tazhao.com
@@ -6762,8 +6787,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 tao.37wan.com
 0.0.0.0 tg.33hy.com
 0.0.0.0 tg.youwo.com
-0.0.0.0 tg2.hlwan.com
+0.0.0.0 tg2.duolegame.com
 0.0.0.0 tg3.subo.me
+0.0.0.0 ty3.yxfw.com
 0.0.0.0 u.56wan.com
 0.0.0.0 u.7town.com
 0.0.0.0 u.9wee.com
@@ -6780,6 +6806,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.narrowad.com
 0.0.0.0 union.popwan.com
 0.0.0.0 union.shumenol.com
+0.0.0.0 vda.uuzu.com
 0.0.0.0 ww.jinzhao99.com
 0.0.0.0 ww.yiqiwin.com
 0.0.0.0 ww.zhcpm.com
@@ -6788,9 +6815,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.168un.com
 0.0.0.0 www.176web.net
 0.0.0.0 www.18lehu.com
+0.0.0.0 www.22930.com
 0.0.0.0 www.265g.info
 0.0.0.0 www.333wan.com
 0.0.0.0 www.33hy.com
+0.0.0.0 www.513wan.com
 0.0.0.0 www.adsue.com
 0.0.0.0 www.adtools.cn
 0.0.0.0 www.chinesean.com
@@ -6818,6 +6847,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 www.xwadv.com
 0.0.0.0 www.yiqiwin.com
+0.0.0.0 www.zuixiaoyao.com
 0.0.0.0 www1.9wee.com
 0.0.0.0 www1.xman.cn
 0.0.0.0 www1.zjbdt.com

@@ -33,6 +33,9 @@ http://hi.baidu.com/villagesecu
 http://www.mvps.org/winhelp2002/hosts.txt
 http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
 http://forum.xda-developers.com/showthread.php?t=696084
+http://sslcheck.net/nsreport.php
+http://is.gd/9WteB
+http://item.taobao.com/item.htm?id=8548364162
 ------------------------------------------------------------
 支持Support
 
@@ -139,6 +142,7 @@ http://forum.xda-developers.com/showthread.php?t=696084
  - 感谢 洪七公 整理的弹窗广告和恶意下载网站数据
  - 感谢 voodoosim 提交的软件广告过滤和其他数据
  - 感谢 ksky 的在修改Palm Pre上修改Hosts数据的方法
+ - 感谢 rainboy 反馈的几处广告弹窗数据
 
 --------------------------------------------------------------------------------
 3. Hosts文件位置（hosts文件没有后缀）
@@ -266,10 +270,6 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
 
 --------------------------------------------------------------------------------
 6. Hosts白名单排除和整理
-
- - 嗅探全域名使用的网址: http://sslcheck.net/nsreport.php
- - 推特 hosts IP: http://is.gd/9WteB
- - DropBox: http://item.taobao.com/item.htm?id=8548364162
 
  - 功能影响:
    360：      pinst.360.cn         （在线下载）
