@@ -281,6 +281,8 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
    土豆网:    adcontrol.tudou.com  （不能看黑豆视频）
    搜狗拼音： pinyin.sogou.com     （无法下载词库）
    有道搜索： shared.ydstatic.com  （首页显示不美观）
+   有道词典： cidian.youdao.com
+   Qvod快播： searchstat.kuaibo.com（快播搜索跳转）
    淘宝:      ju.atpanel.com       （部分跳转链接）
    百度:      hiphotos.baidu.com   （百度空间图片）
               gimg.baidu.com       （首页图片显示）
