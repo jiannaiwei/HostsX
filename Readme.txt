@@ -15,8 +15,9 @@
 # (Mod On "Beautiful Hosts Patch","Go Hosts","Gay Hosts"); #
 # *********************************************************#
 # www.mvps.org , pgl.yoyo.org , forum.xda-developers.com , #
-# (We combined above 3 Hosts File from their bbs) ;        #
+# (We combined some Hosts File from their bbs) ;           #
 # www.du110.com , www.clxp.net.cn , www.mwsl.org.cn ,      #
+# www.itfunz.com ,                                         #
 # (Thank them for their contribution) ;                    #
 # *********************************************************#
 # Thanks for all the feedback from users and friends.      #
@@ -33,6 +34,11 @@ http://hi.baidu.com/villagesecu
 http://www.mvps.org/winhelp2002/hosts.txt
 http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
 http://forum.xda-developers.com/showthread.php?t=696084
+http://www.itfunz.com #Code By Martincz
+
+
+
+
 http://sslcheck.net/nsreport.php
 http://is.gd/9WteB
 http://item.taobao.com/item.htm?id=8548364162
@@ -291,6 +297,7 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
    驱动之家:  11.mydrivers.com     （评论条数显示）
    MSN提醒：  alerts.live.com
    手机：     adsclick.uc123.com    (用此链接做跳转的页面太多)
+   微软相关： view.atdmt.com
 
    CBS Interactive:
               dw.com.com           （下载问题）

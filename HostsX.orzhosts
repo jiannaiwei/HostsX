@@ -1,4 +1,4 @@
-;version=201012141616
+;version=201012212200
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -414,6 +414,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.click.taobao.com
 0.0.0.0 search8.taobao.com
 0.0.0.0 haibao.huoban.taobao.com
+0.0.0.0 re.taobao.com
+0.0.0.0 haha.mx
 0.0.0.0 www.tao123.com
 0.0.0.0 hz.mmstat.com
 0.0.0.0 adtaobao.allyes.cn
@@ -695,7 +697,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 srch.atdmt.com
 0.0.0.0 switch.atdmt.com
 0.0.0.0 vid.atdmt.com
-0.0.0.0 view.atdmt.com
 0.0.0.0 www.atdmt.com
 0.0.0.0 www.atlasdmt.com
 #[Microsoft / Live]
@@ -1392,10 +1393,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 bank20.ads.mp.mydas.mobi
 #UCWeb
 0.0.0.0 ads1.uc.cn
-0.0.0.0 ads1.ucweb.com
 0.0.0.0 down2.uc.cn
+0.0.0.0 adsclick.uc.cn
+0.0.0.0 ads1.ucweb.com
 0.0.0.0 down2.ucweb.com
 #Wiyun
+0.0.0.0 ad.wiyun.com
+0.0.0.0 ads.wiyun.com
+0.0.0.0 static.wiyun.com
+0.0.0.0 pic.wiyun.com
+0.0.0.0 wap.wiyun.com
 0.0.0.0 wiyun.com
 0.0.0.0 apps.virsir.com
 0.0.0.0 www.wiyun.com
@@ -1411,6 +1418,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.wooboo.com.cn
 0.0.0.0 www1.wooboo.com.cn
 #Youmi
+0.0.0.0 pic.youmi.net
+0.0.0.0 ad.youmi.net
+0.0.0.0 static.youmi.net
 0.0.0.0 ads.youmi.net
 0.0.0.0 go.youmi.net
 0.0.0.0 www.youmi.net
@@ -1431,6 +1441,33 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.spjoy.com
 0.0.0.0 www.stickylogic.com
 0.0.0.0 x.adigou.com
+#www.itfunz.com
+0.0.0.0 219.133.44.109
+0.0.0.0 androidappoftheday.net
+0.0.0.0 apphu.com
+0.0.0.0 d.gfan.com
+0.0.0.0 fullmp3.mobi
+0.0.0.0 m.bitbop.com
+0.0.0.0 m.ddmap.com
+0.0.0.0 m.ymapp.com
+0.0.0.0 searchmp3.mobi
+0.0.0.0 usaacademics-cn.com
+0.0.0.0 wap.212999.com
+0.0.0.0 wap.cellufun.com
+0.0.0.0 wap.mobango.com
+0.0.0.0 wap.pingan.com
+0.0.0.0 wap.ycwb.com
+0.0.0.0 www.bookhaveninstuments.com
+0.0.0.0 www.bursawave.com
+0.0.0.0 www.cocacolazero.com
+0.0.0.0 www.edolnet.com
+0.0.0.0 www.gsitechnology.com
+0.0.0.0 www.hitachimonitoringcenter.com
+0.0.0.0 www.hkjiyuan.com
+0.0.0.0 www.hoopchina.com
+0.0.0.0 www.marsedu.com
+0.0.0.0 www.mathworks.cn
+0.0.0.0 www.pangchaodesign.cn
 @HostsX 海外站点广告
 #ABCNews
 0.0.0.0 Adsatt.ABCNews.starwave.com
@@ -6383,13 +6420,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 gold.china8849.net
 0.0.0.0 kujia518.com
 0.0.0.0 gold.kujia518.com
-0.0.0.0 www.yilongshop.com
-0.0.0.0 www.rolex86.com
-0.0.0.0 s.yniywo.com
+0.0.0.0 verygood.vip.com.qqonline.info
 0.0.0.0 1189cctv.com
 0.0.0.0 2010texq.com
-0.0.0.0 zx360.v1kk.com
-0.0.0.0 hjmg.57743.com
+0.0.0.0 360.legoumall.com
 0.0.0.0 888888fa.com
 0.0.0.0 98712.com
 0.0.0.0 adtaobao.tobo123.com
@@ -6398,6 +6432,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 code.loading.wolian.net
 0.0.0.0 e-mail-google.Co.CC
 0.0.0.0 fx.v1kk.com
+0.0.0.0 hjmg.57743.com
 0.0.0.0 hjmg.930114.com
 0.0.0.0 ht.hao120.cc
 0.0.0.0 ht.sooe.cn
@@ -6406,7 +6441,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 lkn.zoossoft.cn
 0.0.0.0 m.ttgrs.cn
 0.0.0.0 mail.qq.com.terncent.com
+0.0.0.0 omega.di4ni.com
 0.0.0.0 pp9a.com
+0.0.0.0 s.yniywo.com
 0.0.0.0 shop.hoo6.com
 0.0.0.0 shop.liweihui.com
 0.0.0.0 shop57205080.taobao.com
@@ -6418,7 +6455,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 v8.olajk.com
 0.0.0.0 www.133i.com
 0.0.0.0 www.1366.net
-0.0.0.0 360.legoumall.com
 0.0.0.0 www.22jianfei.com
 0.0.0.0 www.85tao.net
 0.0.0.0 www.algj-27dy.cn
@@ -6430,6 +6466,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.lashou.com
 0.0.0.0 www.moqiqi.com
 0.0.0.0 www.pp9a.com
+0.0.0.0 www.rolex86.com
 0.0.0.0 www.ruox.net
 0.0.0.0 www.sooe.cn
 0.0.0.0 www.tao123.me
@@ -6441,10 +6478,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.uniqlo.jp
 0.0.0.0 www.vg123.cc
 0.0.0.0 www.xgjgw.com
+0.0.0.0 www.yilongshop.com
 0.0.0.0 www.zoosnet.net
 0.0.0.0 www.zoossoft.com
 0.0.0.0 xinw.net
 0.0.0.0 zx.98712.com
+0.0.0.0 zx360.v1kk.com
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -6474,7 +6513,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 vodone.com
 0.0.0.0 www.vodone.com
 #IE劫持
-0.0.0.0 www.kljia.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2548.cn
@@ -6565,6 +6603,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.978.la
 0.0.0.0 www.9998.in
 0.0.0.0 www.999d.com
+0.0.0.0 www.ah81.com
 0.0.0.0 www.budazi.com
 0.0.0.0 www.bv0.net
 0.0.0.0 www.d91d.com
@@ -6581,6 +6620,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.haol23.cc
 0.0.0.0 www.henbucuo.com
 0.0.0.0 www.ivc.cn
+0.0.0.0 www.kljia.com
 0.0.0.0 www.leilei.cc
 0.0.0.0 www.lele444.com
 0.0.0.0 www.luanluan.net
@@ -6679,6 +6719,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 xiaohua.r.arpg2.com
 0.0.0.0 tg1.hlwan.com
 0.0.0.0 tg2.hlwan.com
+0.0.0.0 u.9wee.com
+0.0.0.0 web.9wee.com
+0.0.0.0 www1.9wee.com
+0.0.0.0 tg.000wan.com
+0.0.0.0 www.000wan.com
 0.0.0.0 www.ad2.cc
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -6750,6 +6795,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 image.tazhao.com
 0.0.0.0 images.9zwar.com
 0.0.0.0 img.a.07073.com
+0.0.0.0 jksc.xywy.com
 0.0.0.0 js.tuigoo.com
 0.0.0.0 js.union001.com
 0.0.0.0 link.f1.com.tw
@@ -6792,12 +6838,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 ty3.yxfw.com
 0.0.0.0 u.56wan.com
 0.0.0.0 u.7town.com
-0.0.0.0 u.9wee.com
 0.0.0.0 u.ferrygame.com
 0.0.0.0 u.haom.us
 0.0.0.0 u.molidao.com
 0.0.0.0 u11.gzfiat.com
 0.0.0.0 uimg.unionli.com
+0.0.0.0 un.173737.com
 0.0.0.0 unigg.kunlun.com
 0.0.0.0 union.7cv.com
 0.0.0.0 union.88go.cc
@@ -6826,6 +6872,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.cpmadao.com
 0.0.0.0 www.cssyouxi.com
 0.0.0.0 www.cxgglm.com
+0.0.0.0 www.dk911.com
 0.0.0.0 www.douxie.com
 0.0.0.0 www.duibei.com
 0.0.0.0 www.huaqimen.com
@@ -6848,7 +6895,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.xwadv.com
 0.0.0.0 www.yiqiwin.com
 0.0.0.0 www.zuixiaoyao.com
-0.0.0.0 www1.9wee.com
 0.0.0.0 www1.xman.cn
 0.0.0.0 www1.zjbdt.com
 0.0.0.0 xy.8zgame.com

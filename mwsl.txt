@@ -1,10 +1,11 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2010.12.13
+恶意网站HOSTS屏蔽文件-2010.12.20
 www.mwsl.org.cn
 ---------------------------------------
 All Rights Reserved 2007-2010
 ***************************************
+127.0.0.1 localhost
 0.0.0.0 www.zzzz1.com
 0.0.0.0 zzzz1.com
 0.0.0.0 www.baidu345.com
@@ -4818,7 +4819,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 nkc.youlaiyou.net
 0.0.0.0 thungen.cn
 0.0.0.0 1.ddxdd.com
-0.0.0.0 klinoneshoes.info
+0.0.0.0klinoneshoes.info
 0.0.0.0 a.jj758.com
 0.0.0.0 www.youku-com.net.cn
 0.0.0.0 www.1ovel.cn
@@ -24702,3 +24703,56 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.cqytdb.com
 0.0.0.0 www.nyrs.info
 0.0.0.0 www.tongruicn.com
+0.0.0.0 qozkcab.t3.to
+0.0.0.0 b.x1k.info
+0.0.0.0 chao56yang.xxnz315.com
+0.0.0.0 facebook-surprise4mf.tk
+0.0.0.0 text56men.xxnz315.com
+0.0.0.0 all11oa.xxnz315.com
+0.0.0.0 www.zoooo.net
+0.0.0.0 x.x5k.info
+0.0.0.0 www.trdftygo.com
+0.0.0.0 bolbos.co.cc
+0.0.0.0 www.gfhhkip.com
+0.0.0.0 facebook-surprise4mg.tk
+0.0.0.0 down1.jpdesk.com
+0.0.0.0 server.3653.com
+0.0.0.0 taxlt.tk
+0.0.0.0 02lh.info
+0.0.0.0 www.cnpt.com.cn
+0.0.0.0 me.mike-about.com
+0.0.0.0 www.ifcil.fr
+0.0.0.0 gmailservices.com
+0.0.0.0 www.vastsea.com
+0.0.0.0 pds.adncommerce.com
+0.0.0.0 ozoneiphone.ru
+0.0.0.0 juuz.org
+0.0.0.0 www.hb600.com
+0.0.0.0 ary-neigeborn.com
+0.0.0.0 1.mestferrit.co.cc
+0.0.0.0 v.yao63.com
+0.0.0.0 www.vol777.com
+0.0.0.0 www.boccz.com
+0.0.0.0 mm.3992929.com
+0.0.0.0 www.aoao3.com
+0.0.0.0 cs-download-16.info
+0.0.0.0 343.boolans.com
+0.0.0.0 www.ourxin.com
+0.0.0.0 shopgroov.net
+0.0.0.0 221607da1227.camilium.net
+0.0.0.0 www.365yingyuan.com
+0.0.0.0 www.87sd.info
+0.0.0.0 www.sd78.info
+0.0.0.0 sexyhub3.com
+0.0.0.0 www.as87a.info
+0.0.0.0 drag0nx.com
+0.0.0.0 dl.ad58.info
+0.0.0.0 ad.ad58.info
+0.0.0.0 home.ttymq.com
+0.0.0.0 a3.lvguihua.com
+0.0.0.0 fbcfqtufgdw.com
+0.0.0.0 yahoonacy.info
+0.0.0.0 omidan.net
+0.0.0.0 fileden.com
+0.0.0.0 youregypt.com
+0.0.0.0 wi126.com
