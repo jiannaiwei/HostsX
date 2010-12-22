@@ -1,4 +1,4 @@
-;version=201012212200
+;version=201012222112
 ;author=郭鹏锟（JocKwok）
 @HostsX 站点智能转向
 #Localhost
@@ -6484,6 +6484,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xinw.net
 0.0.0.0 zx.98712.com
 0.0.0.0 zx360.v1kk.com
+0.0.0.0 win2050.teasm.cn
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
