@@ -1,4 +1,4 @@
-;version=201012240200
+;version=201012242012
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -7848,7 +7848,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 down.2345g.info
 0.0.0.0 down.jghdtv.com
 0.0.0.0 down.vbuv.cn
+0.0.0.0 download.chinaprj.cn
 0.0.0.0 download.duozz.com
+0.0.0.0 e.17pk.com
 0.0.0.0 Galacticflashgames.com
 0.0.0.0 Games-digest.com
 0.0.0.0 Gamesfactoryinteractive.com
@@ -7876,10 +7878,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zgsj.com
 0.0.0.0 www.zhutizi.com
 0.0.0.0 wz654321.cn
-0.0.0.0 xz.easyxiazaiba.info
-0.0.0.0 download.chinaprj.cn
+0.0.0.0 xiazai.z5youdown.info
 0.0.0.0 xz.duotedistrictxiazai.info
-0.0.0.0 e.17pk.com
+0.0.0.0 xz.easyxiazaiba.info
+0.0.0.0 xz.ttdown.info
 @HostsX 软件广告过滤
 #Avast
 0.0.0.0 program.avast.com
