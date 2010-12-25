@@ -1,4 +1,4 @@
-;version=201012260313
+;version=201012260350
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -139,7 +139,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.hudong.com
 0.0.0.0 stat.uuu9.com
 0.0.0.0 static.hudong.com
-0.0.0.0 uedas.qidian.com
 0.0.0.0 uimg.my4399.com
 0.0.0.0 un.5d6d.com
 0.0.0.0 union.360buy.com
@@ -1048,6 +1047,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.xunlei.com
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
+@HostsX OneKey/盛大在线
+#盛大游戏
+0.0.0.0 act.dn.sdo.com
+0.0.0.0 adrs.sdo.com
+0.0.0.0 ibw.sdo.com
+#起点中文网
+0.0.0.0 uedas.qidian.com
+0.0.0.0 js.ap.snyu.com
+0.0.0.0 rr.ap.snyu.com
+0.0.0.0 de.ap.snyu.com
+#igalive
+0.0.0.0 doubleclick.igalive.com
+0.0.0.0 ipagent.igalive.com
+0.0.0.0 js.igalive.com
+0.0.0.0 resource.igalive.com
 @HostsX OneKey/Yahoo！
 #Adinterax
 0.0.0.0 adinterax.com
@@ -6898,10 +6912,6 @@ ff02::3 ip6-allhosts
 #Hxas
 0.0.0.0 cpc11.hxad.com
 0.0.0.0 cpm2.hxad.com
-#igalive
-0.0.0.0 ipagent.igalive.com
-0.0.0.0 js.igalive.com
-0.0.0.0 resource.igalive.com
 #iTop
 0.0.0.0 d.itopnetworks.com
 0.0.0.0 itopnetworks.com
@@ -7567,8 +7577,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.54kfqq.com
 0.0.0.0 www.live800.com
 #恶意弹窗
-0.0.0.0 act.dn.sdo.com
-0.0.0.0 adrs.sdo.com
 0.0.0.0 yktj.yezizhu.com
 0.0.0.0 e8.yezizhu.com
 0.0.0.0 go.maxreturn.cn
