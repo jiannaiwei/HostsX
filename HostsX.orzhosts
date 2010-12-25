@@ -1,4 +1,4 @@
-;version=201012260256
+;version=201012260313
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -857,6 +857,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 popme.163.com
 0.0.0.0 pro.163.com
 0.0.0.0 proimg.163.com
+0.0.0.0 temp.163.com
 0.0.0.0 ud.blog.163.com
 0.0.0.0 union.163.com
 #ÓÐµÀËÑË÷
