@@ -1,5 +1,5 @@
 @echo off
-set ver=2.63
+set ver=2.631
 set/a xc=%random%%%5+1
 set te=
 for %%i in (c d e f a) do (
@@ -567,5 +567,8 @@ echo  删除完成! Delete done!
 pause&goto menu
 
 :AnDroid
+echo  AnDroid Hosts 文件更新调用了服务器端的Vbs脚本文件! 因为Vbs使用了在线下载技术，可能会被部分杀毒软件误杀!
+echo  HostsX以用户利益为先，Vbs脚本可以使用记事本打开，内含注释，还请用户仔细甄别!
+pause
 %down% http://hostsx.googlecode.com/svn/trunk/lib/AndriodHosts.vbs
 gdown\AndriodHosts.vbs&cls&goto menu

@@ -1,31 +1,30 @@
 # This HostsX Data file is a free download from:           #
 # http://code.google.com/p/hostsx/                         #
 #                                                          #
-# This is probably the best Hosts file you used            #
+# This is probably the Best Hosts file you used            #
 #                                                          #
-# Support for Win/Mac/UNIX/Java/Symbian/iPhone OS          #
-#             Palm Pre/Android                             #
-# *********************************************************#
+# Support for:                                             #
+#  Win/Mac/UNIX/Java/Symbian/iPhone OS/Palm Pre/Android    #
+#**********************************************************#
 # This work is licensed under the Creative Commons         #
 # Attribution-NonCommercial-ShareAlike License.            #
 # http://creativecommons.org/licenses/by-nc-sa/3.0/        #
-# *********************************************************#
+#**********************************************************#
 # Thanks:                                                  #
 # bbs.Winzheng.com , bbs.wmzhe.com , bbs.crsky.com ,       #
 # (Mod On "Beautiful Hosts Patch","Go Hosts","Gay Hosts"); #
-# *********************************************************#
+# Thanks:                                                  #
 # www.mvps.org , pgl.yoyo.org , forum.xda-developers.com , #
 # (We combined some Hosts File from their bbs) ;           #
 # www.du110.com , www.clxp.net.cn , www.mwsl.org.cn ,      #
-# www.itfunz.com ,                                         #
-# (Thank them for their contribution) ;                    #
-# *********************************************************#
+# www.itfunz.com (Thank them for their contribution) ;     #
+#**********************************************************#
 # Thanks for all the feedback from users and friends.      #
 # Project builds: OrzFly & JocKwok                         #
 # Data Maintenance: JocKwok                                #
-# *********************************************************#
+#**********************************************************#
 # Copyright (C) 2007-2010 orztech.com All Rights Reserved. #
-# *********************************************************#
+#**********************************************************#
 
 Mod and Sources lists and Thanks:
 http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
@@ -34,33 +33,39 @@ http://hi.baidu.com/villagesecu
 http://www.mvps.org/winhelp2002/hosts.txt
 http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
 http://forum.xda-developers.com/showthread.php?t=696084
-http://www.itfunz.com #Code By Martincz
-
-
-
-
+http://www.itfunz.com
 http://sslcheck.net/nsreport.php
 http://is.gd/9WteB
 http://item.taobao.com/item.htm?id=8548364162
-------------------------------------------------------------
+--------------------------------------------------------------------------------
 支持Support
 
  - 欢迎报告 bug, 以及提出建议
 
- - 如果你有任何疑问, 请 E-mail 联系.
- - E-mail: vokins@gmail.com
+ - 如果您有任何疑问或者资助意向, 可以使用以下方式与我们联系
+ - E-mail: vokins#gmail.com (把#换成at)
+ - @我，直接反馈问题 http://fanfou.com/iV.c
 
- - 发送错误报告, 请务必记录以下信息:
-   网址信息, 软件版本, 操作系统, 故障描述, 以及故障重现方法等.
+ - 发送错误报告, 请尽量记录以下信息:
+   网址信息, 软件版本, 操作系统, 故障描述, 以及故障重现方法等
+--------------------------------------------------------------------------------
+注意事项:
 
- _ @我，直接反馈问题。http://fanfou.com/iV.c
+! HostsX文件数据旨在屏蔽广告等，使用后可能会出现图片广告变成空白或者红叉叉的
+  和广告链接无法打开灯情况。
+
+! 阿里妈妈和其他各大广告联盟的广告和推广链接不能访问！请喜欢广告的用户不要使用！
+
+! 有些不能访问的手机网站主要是由于该域名主要用于广告的存放和广告链接的跳转，
+  对于手机软件的下载请用户选择较大的网站，还请用户体谅！
+
 --------------------------------------------------------------------------------
 
 目录:
 
   1. 软件简介
   2. 感谢
-  3. Hosts文件位置
+  3. Hosts文件位置和使用方法
   4. IPV6支持信息
   5. 常见问题和帮助
   6. Hosts白名单排除和整理
@@ -69,21 +74,36 @@ http://item.taobao.com/item.htm?id=8548364162
 1. 软件简介
 
  - HostsX(G+ Hosts) 是一款Hosts相关管理软件, 基于 前身为纯数据的Hosts整理文件
-   (Beautiful Hosts Patch)和简易的Hosts批处理文件Go（Gay）Hosts整理合并而成.
-   其数据可被广泛适用于多种操作平台(Win/Mac/UNIX/Java/Symbian/iPhone OS/Android).
+   (Beautiful Hosts Patch)和简易的Hosts批处理文件Go（Gay）Hosts整理合并而成
+   其数据可被广泛适用于多种操作平台(Windows/Mac OS/UNIX/Java/Symbian/iPhone OS/Android)
 
- - 不需要除系统功能之外的第三方组件支持.
+   目前已包含针对Windows和Android系统的专用工具。欢迎各位制作相关专用客户端
 
  - 支持Hosts文件的备份,修复,权限设置;IE修复,信任网址编辑;自身修复,在线升级
 
  - 数据一体式和分离式设计满足您对Hosts文件的不同需求
 
- - 十分小巧, 简单易用, 而且你可以完全免费使用它
+ - 小巧灵活, 简单易用, 而且完全免费，没有任何使用限制
 
- - 目前已有的数据包括: IPV6, 站点智能转向,站点广告过滤,广告联盟数据, 
-   软件广告过滤, 软件验证屏蔽, 游戏验证屏蔽,基于Du110整理的恶意网站数据
+ - 目前已有的数据包括:
+
+   HostsX默认数据
+  （智能转向；站点广告,广告联盟,软件广告,软件验证,游戏验证屏蔽数据,
+   基于Du110反黑论坛和村落安全网络专杀整理的恶意网站和弹窗广告数据，
+   基于xda-developers和itfunz论坛整理的手机客户端广告屏蔽数据
+
+
+
+，
+   基于mvps.org和pgl.yoyo.org整理的国外网络广告和联盟数据） 
+   
+   收录 冰临宸夏 整理的 IPV6 智能转向数据
+
+   收录Mwsl.org.cn每周释出的恶意网站数据
+
    工作应用屏蔽(屏蔽常见的娱乐应用网站)
-   Mwsl.org.cn每周释出的恶意网站数据和国外的MVPSData
+
+   其他数据不断补充中
    
  - < 下载/安装/卸载 >
    直接下载: http://code.google.com/p/hostsx/downloads/list
@@ -92,7 +112,7 @@ http://item.taobao.com/item.htm?id=8548364162
 
  - 本软件可以随意传播, 源码使用请参见许可协议.
 
- - 本软件曾使用过的部分数据来自于:世界之窗论坛,Proxomitron中文站,
+ - 本软件曾使用过的部分数据来自于:世界之窗论坛,Proxomitron中文站,itfunz手机论坛，
    赢政天下论坛(孤星释狼等),豆瓣小组,完美者精品论坛(烈火等),霏凡论坛(雪山猎人),
    Opera中文论坛(EZibo等),夜雨十三天,lingshao,pt42 soft,sino blog等,
    X林的网站屏蔽工具的批处理代码,部分深山红叶维护光盘里的批处理内容,在此表示感谢！
@@ -100,14 +120,15 @@ http://item.taobao.com/item.htm?id=8548364162
 --------------------------------------------------------------------------------
 2. 感谢
 
- - 特别感谢longsan168对于p处理方面的建议，修改意见及技术上的支持
+ - 特别感谢 longsan168 对于p处理方面的建议，修改意见及技术上的支持
 
- - 特别感谢sunnyboy8888，vcAngel对于数据方面给我的参考和建议
+ - 特别感谢 sunnyboy8888，vcAngel对于数据方面给我的参考和建议
 
- - 特别感谢爽爽亲手绘制的图标~一个卡哇伊的小猴子~
+ - 特别感谢 爽爽 绘制的图标~一个卡哇伊的小猴子~
 
+ - 特别感谢 爽爽 制作的程序图标
 --------------------------------------------------------------------------------
- - 感谢未央生，fyi151，lyplay，对于域名转向的建议
+ - 感谢 未央生，fyi151，lyplay，对于域名转向的建议
  - 感谢 mickeymouse 对于Hosts的解答
  - 感谢 bucket，0Cat0 对于fs2u数据的建议
  - 感谢 hudike，zwy11等对于早期数据的一些误过滤
@@ -138,7 +159,7 @@ http://item.taobao.com/item.htm?id=8548364162
  - 感谢 ch4sedream 给出的DropBox的新Ip
  - 感谢 深度诱惑 反馈的Webqq的登录误过滤问题
  - 感谢 H2O2 aleax 等对于Xmarks给出的更新建议
- - 感谢博客上的一些朋友反馈的Vista和Win7的相关问题
+ - 感谢 博客上的一些朋友反馈的Vista和Win7的相关问题
  - 感谢 徐俊 反馈的诸多网页的细节问题
  - 感谢 bark 基于G+数据整理的恶意行为网站，已并入进程中
  - 感谢 jedi1029 反馈的zdnet的错误屏蔽的问题
@@ -149,22 +170,28 @@ http://item.taobao.com/item.htm?id=8548364162
  - 感谢 voodoosim 提交的软件广告过滤和其他数据
  - 感谢 ksky 的在修改Palm Pre上修改Hosts数据的方法
  - 感谢 rainboy 反馈的几处广告弹窗数据
+ - 感谢 0Cat0 反馈的pplive和微软相关下载的问题
 
 --------------------------------------------------------------------------------
-3. Hosts文件位置（hosts文件没有后缀）
+3. Hosts文件位置和使用方法（hosts文件没有后缀）
+
+ - Hosts文件 修改完毕后如果无法生效，请在系统命令行里运行 ！一行的命令
 
  - Hosts文件在不同操作系统（甚至不同Windows版本）的位置都不大一样：
    Windows NT/2000/XP/Vista/7（即微软NT系列操作系统）：默认位置为%SystemRoot%\system32\drivers\etc\，但也可以改变。
            动态目录由注册表键\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\DataBasePath决定。
    Windows 95/98/Me：%WinDir%\
    Windows 用户可以以管理员身份直接运行 notepad "%SystemRoot%\system32\drivers\etc\hosts" 进行编辑
+ ! Windows 刷新网络命令: ipconfig /flushdns
 
  - Linux(Ubuntu)及其他类Unix操作系统：/etc
    Linux 用户在终端中执行 sudo gedit /etc/hosts 即可开始编辑
+ ! Ubuntu 刷新网络命令:   sudo /etc/init.d/networking restart
 
  - Mac OS 9及更早的系统：System Folder: Preferences或System folder（文件格式可能与Windows和Linux所对应的文件不同）
    Mac OS X：/private/etc（使用BSD风格的hosts文件）
    iPhone OS：/etc
+ ! Mac OS 刷新网络命令:  sudo niload -v -m hosts
 
  - OS/2及eComStation："bootdrive":\mptn\etc\
 
@@ -193,13 +220,11 @@ http://item.taobao.com/item.htm?id=8548364162
     使用"cat /etc/hosts"   可以查看Hosts文件有没有修改成功
     使用"adb pull /system/etc/hosts"  #把hosts文件从机器上取出来
 
-Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
-    但adb remount命令failed。。。提示 operation not pemitted
-    同时，adb push命令，无法将电脑里的hosts文件复制到手机上 /system/etc/hosts，显示是只读文件
+Q&A:如果在Windows下更新Andorid Hosts文件时，adb devieces正常检测,但adb remount命令failed，提示 operation not pemitted
 
-  A:在用root explorer，先copy 然后找到那个什么 system/tec/hosts的地方，这时候在最上面有一个“remount as R/w”
+  A:请先root，用root explorer，进入etc/路径下，然后选择右上角的“remount as R/w”
     点一下！！！再past！搞定啦！！！！！！！！！！
-    注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽建议使用127.0.0.1
+    注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽只有使用127.0.0.1方可生效
 
 --------------------------------------------------------------------------------
 4. IPV6支持信息
@@ -297,15 +322,18 @@ Q&A:用管理员身份运行cmd，进去adb devieces可以正常检测,
    驱动之家:  11.mydrivers.com     （评论条数显示）
    MSN提醒：  alerts.live.com
    手机：     adsclick.uc123.com    (用此链接做跳转的页面太多)
-   微软相关： view.atdmt.com
+   微软下载： clk.atdmt.com
+              view.atdmt.com
+              switch.atdmt.com      (部分微软产品的下载跳转链接)
 
    CBS Interactive:
               dw.com.com           （下载问题）
               i.i.com.com          （下载问题）
               a.abcnews.com        （新闻页面）
               pic.zol-img.com.cn   （zol首页显示不美观）
+
    QQ:
-            2052.flash2-http.qq.com（QQ秀）
+              2052.flash2-http.qq.com
               isdspeed.qq.com      （QQ秀）
               pingjs.qq.com        （WebQQ登录问题）
               dl_dir.qq.com        （无法下载软件）

@@ -1,4 +1,4 @@
-;version=201012242012
+;version=201012260132
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -649,7 +649,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.sd.keniu.com
 0.0.0.0 tq.sd.keniu.com
 @HostsX OneKey/Microsoft AD
-#[Microsoft / Adbureau]
+#Adbureau
 0.0.0.0 ad101com-images.adbureau.net
 0.0.0.0 ad101com.adbureau.net
 0.0.0.0 admse001-images.adbureau.net
@@ -710,9 +710,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 videoegg.adbureau.net
 0.0.0.0 www.adbureau.net
 0.0.0.0 zillow.adbureau.net
-#[Microsoft / Atdmt]
-# 0.0.0.0 clk.atdmt.com
-# 0.0.0.0 switch.atdmt.com
+#Atdmt
 0.0.0.0 analytics.atdmt.com
 0.0.0.0 api.atdmt.com
 0.0.0.0 atdmt.com
@@ -734,14 +732,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 vid.atdmt.com
 0.0.0.0 www.atdmt.com
 0.0.0.0 www.atlasdmt.com
-#[Microsoft / Live]
+#Live
 0.0.0.0 analytics.live.com
 0.0.0.0 c.live.com
 0.0.0.0 digg.analytics.live.com
 0.0.0.0 ms.analytics.live.com
 0.0.0.0 rad.live.com
 0.0.0.0 watson.live.com
-#[Microsoft / MSN Ad Servers]
+#MSN Ad Servers
 0.0.0.0 0.r.msn.com
 0.0.0.0 a.ads1.msn.com
 0.0.0.0 a.ads2.msn.com
@@ -779,7 +777,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rmads.msn.com
 0.0.0.0 toolbar.msn.com
 0.0.0.0 udc.msn.com
-#[Microsoft]
+#Microsoft
 0.0.0.0 a.global.msads.net
 0.0.0.0 ads1.msads.net
 0.0.0.0 ads2.msads.net
@@ -787,7 +785,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 crl.microsoft.com
 0.0.0.0 rad.microsoft.com
 0.0.0.0 watson.microsoft.com
-#[Microsoft via various]
+#Microsoft via various
 0.0.0.0 fastcounter.bcentral.com
 0.0.0.0 fcstats.bcentral.com
 0.0.0.0 bidclix.net
@@ -830,14 +828,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.uume.com
 #人人网
 0.0.0.0 c.renren.com
-0.0.0.0 ebp.renren.com
-0.0.0.0 gamestat.renren.com
-0.0.0.0 jebe.renren.com
-0.0.0.0 jebe.xnimg.cn
 0.0.0.0 click.jebe.renren.com
 0.0.0.0 cupid.jebe.renren.com
 0.0.0.0 dian.cupid.jebe.renren.com
+0.0.0.0 ebp.renren.com
+0.0.0.0 gamestat.renren.com
+0.0.0.0 jebe.renren.com
 0.0.0.0 shaft.jebe.renren.com
+0.0.0.0 jebe.xnimg.cn
 @HostsX OneKey/网易
 #126
 0.0.0.0 analytics.ws.126.net
@@ -1252,7 +1250,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.wretch.cc
 0.0.0.0 tw.js.webmaster.yahoo.com
 0.0.0.0 tw.rc.webmaster.yahoo.com
-#[Yahoo / Altavista Company]
+#Yahoo Altavista Company
 0.0.0.0 pic.geocities.com
 0.0.0.0 visit.geocities.com
 0.0.0.0 hostingprod.com
@@ -1272,7 +1270,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rd.apmebf.com
 0.0.0.0 www.apmebf.com
 0.0.0.0 yahoo.webdissector.com
-#[Yahoo / via Right Media - clones]
+#Yahoo via Right Media
 0.0.0.0 ad.103092804.com
 0.0.0.0 ad.accelerator-media.com
 0.0.0.0 ad.acceleratorusa.com
@@ -1432,15 +1430,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsclick.uc.cn
 0.0.0.0 ads1.ucweb.com
 0.0.0.0 down2.ucweb.com
+0.0.0.0 wap.ycwb.com
 #Wiyun
+0.0.0.0 apps.virsir.com
 0.0.0.0 ad.wiyun.com
 0.0.0.0 ads.wiyun.com
 0.0.0.0 static.wiyun.com
-0.0.0.0 pic.wiyun.com
-0.0.0.0 wap.wiyun.com
 0.0.0.0 wiyun.com
-0.0.0.0 apps.virsir.com
 0.0.0.0 www.wiyun.com
+0.0.0.0 scpworld.com.cn
+0.0.0.0 gb.cri.cn
+0.0.0.0 www.ypzs88.com 
+#Mobus
+0.0.0.0 mobus.cn
+0.0.0.0 www.mobus.cn
 #Wooboo
 0.0.0.0 ade.wooboo.com.cn
 0.0.0.0 admin.wooboo.com.cn
@@ -1453,20 +1456,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.wooboo.com.cn
 0.0.0.0 www1.wooboo.com.cn
 #Youmi
-0.0.0.0 pic.youmi.net
 0.0.0.0 ad.youmi.net
-0.0.0.0 static.youmi.net
 0.0.0.0 ads.youmi.net
 0.0.0.0 go.youmi.net
 0.0.0.0 www.youmi.net
 0.0.0.0 youmi.net
+0.0.0.0 static.youmi.net
+0.0.0.0 cnota.cn
+0.0.0.0 cx.360doo.com
+0.0.0.0 m.ymapp.com
 #Other
 0.0.0.0 24sp.cc
+0.0.0.0 hi.fywap.com
 0.0.0.0 admarvel.mojiva.com
 0.0.0.0 ads.admarvel.com
 0.0.0.0 ads.namiflow.com
-0.0.0.0 cnota.cn
-0.0.0.0 cx.360doo.com
 0.0.0.0 em.kongzhong.com
 0.0.0.0 m.askalok.com
 0.0.0.0 m.millennialmedia.com
@@ -1476,33 +1480,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.spjoy.com
 0.0.0.0 www.stickylogic.com
 0.0.0.0 x.adigou.com
-#www.itfunz.com
 0.0.0.0 219.133.44.109
 0.0.0.0 androidappoftheday.net
 0.0.0.0 apphu.com
 0.0.0.0 d.gfan.com
-0.0.0.0 fullmp3.mobi
 0.0.0.0 m.bitbop.com
 0.0.0.0 m.ddmap.com
-0.0.0.0 m.ymapp.com
-0.0.0.0 searchmp3.mobi
 0.0.0.0 usaacademics-cn.com
 0.0.0.0 wap.212999.com
 0.0.0.0 wap.cellufun.com
 0.0.0.0 wap.mobango.com
 0.0.0.0 wap.pingan.com
-0.0.0.0 wap.ycwb.com
-0.0.0.0 www.bookhaveninstuments.com
-0.0.0.0 www.bursawave.com
-0.0.0.0 www.cocacolazero.com
-0.0.0.0 www.edolnet.com
-0.0.0.0 www.gsitechnology.com
-0.0.0.0 www.hitachimonitoringcenter.com
-0.0.0.0 www.hkjiyuan.com
-0.0.0.0 www.hoopchina.com
-0.0.0.0 www.marsedu.com
-0.0.0.0 www.mathworks.cn
-0.0.0.0 www.pangchaodesign.cn
 @HostsX 海外站点广告
 #ABCNews
 0.0.0.0 Adsatt.ABCNews.starwave.com
@@ -5448,6 +5436,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 statse.webtrendslive.com
 0.0.0.0 webtrendslive.com
 #Whenu
+0.0.0.0 akapp.memedia.com
+0.0.0.0 offers.memedia.com
 0.0.0.0 akapp.whenu.com
 0.0.0.0 akdwl.whenu.com
 0.0.0.0 akweb.whenu.com
@@ -5462,9 +5452,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 weather.whenu.com
 0.0.0.0 web.whenu.com
 0.0.0.0 whenu.com
-0.0.0.0 whenusearch.com
 0.0.0.0 whenushop.whenu.com
 0.0.0.0 www.whenu.com
+0.0.0.0 whenusearch.com
 0.0.0.0 www.whenudownloads.com
 0.0.0.0 www.whenusearch.com
 0.0.0.0 www.whenushop.com
@@ -7891,17 +7881,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 videoinfo.baofeng.com
 #Bitcomet
 0.0.0.0 inside.bitcomet.com
-#[Flashget / Flashget]
+#Flashget
 0.0.0.0 dll.flashget.com
 0.0.0.0 fetch.flashget.com
 0.0.0.0 ggstat.flashget.com
 0.0.0.0 olstat.flashget.com
 0.0.0.0 stat.flashget.com
 0.0.0.0 stac.flashget.com
-#[Flashget / U966]
 0.0.0.0 static.u966.com
 0.0.0.0 m.u966.com
-#[Flashget / Kuaiche]
 0.0.0.0 bc.kuaiche.com
 0.0.0.0 cimg.kuaiche.com
 0.0.0.0 directui.kuaiche.com.showq.net
@@ -8022,7 +8010,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dw.hiido.cn
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
-#soukuang
+#Soukuang
 0.0.0.0 www.soukuang.net
 @HostsX 软件验证屏蔽
 #Game Assassin's Creed
