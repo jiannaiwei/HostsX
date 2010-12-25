@@ -1057,6 +1057,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.ap.snyu.com
 0.0.0.0 rr.ap.snyu.com
 0.0.0.0 de.ap.snyu.com
+0.0.0.0 ipic.staticsdo.com
 #igalive
 0.0.0.0 doubleclick.igalive.com
 0.0.0.0 ipagent.igalive.com
