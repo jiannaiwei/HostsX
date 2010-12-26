@@ -1,4 +1,4 @@
-;version=201012260350
+;version=201012261101
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7643,6 +7643,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 1188s.info
+0.0.0.0 2z.5pk.com
 0.0.0.0 5.nihao600.com
 0.0.0.0 6dad.com
 0.0.0.0 a1000.asktang.com
@@ -7849,7 +7850,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 cpic2.edushi.com
 0.0.0.0 down.2345g.info
 0.0.0.0 down.jghdtv.com
+0.0.0.0 down.softdown951.com
 0.0.0.0 down.vbuv.cn
+0.0.0.0 down3245.ol.tospp.com
 0.0.0.0 download.chinaprj.cn
 0.0.0.0 download.duozz.com
 0.0.0.0 e.17pk.com
