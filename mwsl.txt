@@ -24181,7 +24181,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 1.ctrl.fajujohiv.cn
 0.0.0.0 kdddaber.com
 0.0.0.0 www.i4ani.net
-0.0.0.0 www.nirsoft.net
 0.0.0.0 rewqsddq.t35.com
 0.0.0.0 3.ctrl.fajujohiv.cn
 0.0.0.0 www.qq.com.cctv39.info
