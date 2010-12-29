@@ -1,4 +1,4 @@
-;version=201012300126
+;version=201012300150
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7276,6 +7276,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.qq886.com
 0.0.0.0 www.whizdance.com
 #¹ã¸æÕ©Æ­µöÓãµÈ
+0.0.0.0 by.114cnn.com
+0.0.0.0 cvc.114cnn.com
+0.0.0.0 j.114cnn.com
+0.0.0.0 ky.114cnn.com
+0.0.0.0 s.114cnn.com
+0.0.0.0 shenbi.114cnn.com
+0.0.0.0 zhzj.114cnn.com
+0.0.0.0 gpkdtx.hxt360.com
+0.0.0.0 hjgzw.hxt360.com
+0.0.0.0 tymxjt.hxt360.com
+0.0.0.0 yybnx.hxt360.com
+0.0.0.0 by.ksdg8.com
+0.0.0.0 jfkf.ksdg8.com
+0.0.0.0 pl.ksdg8.com
+0.0.0.0 www.yaoxinxi.com
+0.0.0.0 htl.yaoxinxi.com
 0.0.0.0 fs.yythfx.com
 0.0.0.0 qlx.yythfx.com
 0.0.0.0 yugen.yythfx.com
@@ -7319,6 +7335,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 testserver.zoosnet.net
 0.0.0.0 u.the668.com
 0.0.0.0 v8.olajk.com
+0.0.0.0 win2050.teasm.cn
 0.0.0.0 www.133i.com
 0.0.0.0 www.1366.net
 0.0.0.0 www.22jianfei.com
@@ -7328,17 +7345,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.hao120.cc
 0.0.0.0 www.haodian8.net
 0.0.0.0 www.icbc-y.com
+0.0.0.0 www.jiuguyou.com
 0.0.0.0 www.juyuan.com
 0.0.0.0 www.lashou.com
 0.0.0.0 www.moqiqi.com
 0.0.0.0 www.pp9a.com
+0.0.0.0 www.qingdaofu.cc
 0.0.0.0 www.rolex86.com
 0.0.0.0 www.ruox.net
 0.0.0.0 www.sooe.cn
+0.0.0.0 www.syscy.cn
 0.0.0.0 www.tao123.me
 0.0.0.0 www.tao345.net
 0.0.0.0 www.tao456.com
 0.0.0.0 www.taobanwang.com
+0.0.0.0 www.tt126.cn
 0.0.0.0 www.ttgrs.cn
 0.0.0.0 www.tumei.cc
 0.0.0.0 www.uniqlo.jp
@@ -7348,9 +7369,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zoosnet.net
 0.0.0.0 www.zoossoft.com
 0.0.0.0 xinw.net
+0.0.0.0 zh.qingchun001.cn
 0.0.0.0 zx.98712.com
 0.0.0.0 zx360.v1kk.com
-0.0.0.0 win2050.teasm.cn
 #À¬»øÊÓÆµ
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
