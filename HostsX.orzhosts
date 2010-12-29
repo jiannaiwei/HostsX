@@ -1,4 +1,4 @@
-;version=201012291750
+;version=201012300112
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -109,7 +109,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 aps4.jrjimg.cn
 0.0.0.0 bmp.ali213.net
 0.0.0.0 ccc.xdowns.com
-0.0.0.0 cj.qidian.com
 0.0.0.0 click.cnfol.com
 0.0.0.0 click.union.360buy.com
 0.0.0.0 count.jdyou.com
@@ -956,6 +955,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pb.sogou.com
 0.0.0.0 pbd.sogou.com
 0.0.0.0 pv.sogou.com
+0.0.0.0 sy.brand.sogou.com
 0.0.0.0 union.sogou.com
 0.0.0.0 wb.brand.sogou.com
 #搜房
@@ -989,6 +989,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adshmct.qq.com
 0.0.0.0 adslvseed.qq.com
 0.0.0.0 adsrich.qq.com
+0.0.0.0 adstextview.qq.com
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
 0.0.0.0 fodder.qq.com
@@ -1051,6 +1052,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adrs.sdo.com
 0.0.0.0 ibw.sdo.com
 #起点中文网
+0.0.0.0 cj.qidian.com
 0.0.0.0 uedas.qidian.com
 0.0.0.0 js.ap.snyu.com
 0.0.0.0 rr.ap.snyu.com
@@ -5910,6 +5912,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.56.com
 0.0.0.0 stat2.corp.56.com
 0.0.0.0 union.56.com
+0.0.0.0 uvimage.56.com
 0.0.0.0 v16.56.com
 #6间房
 0.0.0.0 pole.6rooms.com
@@ -6474,6 +6477,7 @@ ff02::3 ip6-allhosts
 #Bolaa
 0.0.0.0 creative.unionsys.bolaa.com
 0.0.0.0 union.bolaa.com
+0.0.0.0 unionsys.bolaa.com
 #Buzz-time
 0.0.0.0 a.buzz-time.com.cn
 0.0.0.0 ad.buzz-time.com.cn
@@ -7511,11 +7515,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
 #签名弹窗
-0.0.0.0 www.91yishuqianming.cn
-0.0.0.0 code.52qiangming.com
 0.0.0.0 code.2010qianming.com
-0.0.0.0 code.woainame.cn
+0.0.0.0 code.52qiangming.com
 0.0.0.0 code.i-qianming.cn
+0.0.0.0 code.woainame.cn
+0.0.0.0 www.91yishuqianming.cn
+0.0.0.0 www.aiqianming.cn
 #客服弹窗
 0.0.0.0 chat.53kf.com
 0.0.0.0 up.53kf.com
@@ -7975,8 +7980,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dw.hiido.cn
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
-#Soukuang
-0.0.0.0 www.soukuang.net
 @HostsX 软件验证屏蔽
 #Game Assassin's Creed
 0.0.0.0 onlineconfigservice.ubi.com
