@@ -1,4 +1,4 @@
-;version=201012300112
+;version=201012300126
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -926,7 +926,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 cpc.sohu.com
 0.0.0.0 doc.go.sohu.com
-0.0.0.0 images.sohu.com
 0.0.0.0 ip.cms.sohu.com
 0.0.0.0 p4p.so.sohu.com
 0.0.0.0 partner.search.sohu.com
