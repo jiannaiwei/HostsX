@@ -1,4 +1,4 @@
-;version=201012261111
+;version=201012291750
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -171,7 +171,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 m3.2mdn.net
 0.0.0.0 rmcdn.2mdn.net
 0.0.0.0 rmcdn.f.2mdn.net
-0.0.0.0 s0.2mdn.net
 0.0.0.0 s0.2mdn.net
 0.0.0.0 cc-dt.com
 0.0.0.0 ads.cc-dt.com
@@ -366,7 +365,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adclick.g.doubleclick.net
 0.0.0.0 adx.g.doubleclick.net
 0.0.0.0 amn.doubleclick.net
-0.0.0.0 clickserve.us2.dartsearch.net
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 creatives.doubleclick.net
 0.0.0.0 dfp.doubleclick.net
@@ -1899,24 +1897,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 signup.adultplex.com
 0.0.0.0 stats.adultplex.com
 #Advertising
-0.0.0.0 ace-lb.advertising.com
 0.0.0.0 adserve.advertising.com
-0.0.0.0 advertising.com
 0.0.0.0 bannerfarm.ace.advertising.com
-0.0.0.0 beta.ace.advertising.com
 0.0.0.0 dbs.advertising.com
 0.0.0.0 demo.advertising.com
 0.0.0.0 leadback.advertising.com
 0.0.0.0 opera1-servedby.advertising.com
-0.0.0.0 p.ace.advertising.com
-0.0.0.0 r1.ace.advertising.com
 0.0.0.0 rd.advertising.com
-0.0.0.0 secure.ace-tag.advertising.com
 0.0.0.0 secure.leadback.advertising.com
 0.0.0.0 servedby.advertising.com
 0.0.0.0 uac.advertising.com
 0.0.0.0 wap.advertising.com
-0.0.0.0 www.advertising.com
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 at.amgdgt.com
@@ -2295,7 +2286,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dewb.opt.fimserve.com
 0.0.0.0 p.opt.fimserve.com
 0.0.0.0 fimserve.com
-0.0.0.0 p.opt.fimserve.com
 #Friendfinder Networks
 0.0.0.0 ads.friendfinder.com
 0.0.0.0 e89.friendfinder.com
@@ -2784,11 +2774,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 support.websidestory.com
 0.0.0.0 www.websidestory.com
 #Hittail
-0.0.0.0 bh.contextweb.com
-0.0.0.0 cdslog.contextweb.com
-0.0.0.0 media.contextweb.com
-0.0.0.0 tag.contextweb.com
-0.0.0.0 www3.contextweb.com
 0.0.0.0 314.hittail.com
 0.0.0.0 815.hittail.com
 0.0.0.0 922.hittail.com
@@ -4137,8 +4122,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ziffdavispennyarcade.112.2o7.net
 #Outpersonals
 0.0.0.0 ads.outpersonals.com
-0.0.0.0 adserver.outpersonals.com
-0.0.0.0 banners.outpersonals.com
 0.0.0.0 outpersonals.com
 #OverSee
 0.0.0.0 oversee.net
@@ -4280,15 +4263,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 banners.celebtaboo.com
 0.0.0.0 banners.dollarmachine.com
 0.0.0.0 banners.totalaccessporn.com
-0.0.0.0 adultplex.com
-0.0.0.0 aff.adultplex.com
-0.0.0.0 clicks.adultplex.com
-0.0.0.0 dialer.adultplex.com
-0.0.0.0 exit.adultplex.com
-0.0.0.0 images.adultplex.com
-0.0.0.0 movies.adultplex.com
-0.0.0.0 stats.adultplex.com
-0.0.0.0 signup.adultplex.com
 #Rambler
 0.0.0.0 ad.rambler.ru
 0.0.0.0 ad2.rambler.ru
@@ -4663,32 +4637,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 vod.topbucks.com
 0.0.0.0 www.topbucks.com
 #Tradedoubler
-0.0.0.0 adultadworld.directtrack.com
-0.0.0.0 affiliace.directtrack.com
-0.0.0.0 asseenonpc.directtrack.com
-0.0.0.0 battleon.directtrack.com
-0.0.0.0 bingorevenue.directtrack.com
-0.0.0.0 cpacampaigns.directtrack.com
-0.0.0.0 dcsmarketing.directtrack.com
-0.0.0.0 directtrack.com
-0.0.0.0 doubleyourdating.directtrack.com
-0.0.0.0 gozing.directtrack.com
-0.0.0.0 imagecache.directtrack.com
-0.0.0.0 images.directtrack.com
-0.0.0.0 img.directtrack.com
-0.0.0.0 latin3.directtrack.com
-0.0.0.0 maxxaffiliate.directtrack.com
-0.0.0.0 mysavings.directtrack.com
-0.0.0.0 niteflirt.directtrack.com
-0.0.0.0 nitropayouts.directtrack.com
-0.0.0.0 offersquest.directtrack.com
-0.0.0.0 rapidresponse.directtrack.com
-0.0.0.0 revenuegateway.directtrack.com
-0.0.0.0 secure.directtrack.com
-0.0.0.0 sideshow.directtrack.com
-0.0.0.0 trafficneeds.directtrack.com
-0.0.0.0 varsityads.directtrack.com
-0.0.0.0 www.directtrack.com
 0.0.0.0 anetfi.tradedoubler.com
 0.0.0.0 clk.tradedoubler.com
 0.0.0.0 clkde.tradedoubler.com
@@ -6003,7 +5951,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 v1.stat.ku6.com
 0.0.0.0 v2.stat.ku6.com
 0.0.0.0 v3.stat.ku6.com
-0.0.0.0 ipic.staticsdo.com
 #¼¤¶¯Íø
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86get.joy.cn
@@ -7662,6 +7609,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 asqx.qq937.com
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 bto.youxiya.com
+0.0.0.0 c.4055.com
 0.0.0.0 c.ourclick.net
 0.0.0.0 c.pee.cn
 0.0.0.0 c.sfilm.com
@@ -7744,6 +7692,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.chinayul.com
 0.0.0.0 t.gameyule.com
 0.0.0.0 t.gocsgo.com
+0.0.0.0 t.jiuyaoyouxi.com
 0.0.0.0 t.uuplay.com
 0.0.0.0 t.yyclick.com
 0.0.0.0 tao.37wan.com
