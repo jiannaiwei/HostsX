@@ -1,4 +1,4 @@
-;version=201001231156
+;version=201012301539
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -892,6 +892,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad3.sina.com.cn
 0.0.0.0 ad4.sina.com.cn
 0.0.0.0 beacon.sina.com.cn
+0.0.0.0 bf.sina.com.cn
+0.0.0.0 cl.sina.com.cn
 0.0.0.0 classadnew.sina.com.cn
 0.0.0.0 click.sina.com.cn
 0.0.0.0 counter.sina.com.cn
