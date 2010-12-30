@@ -1,5 +1,5 @@
 @echo off
-set ver=2.632
+set ver=2.66
 set/a xc=%random%%%5+1
 set te=
 for %%i in (c d e f a) do (
@@ -205,10 +205,7 @@ echo       Update Hosts Data
 echo.
 echo       ...Please wait...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-echo Download data From "http://www.mwsl.org.cn/"£¬Please wait... ...
-%down% http://hostsx.googlecode.com/svn/trunk/mwsl.txt
-copy /b gdown\HostsX.orzhosts+gdown\mwsl.txt gdown\hbhosts.txt
-copy gdown\hbhosts.txt %hosts%
+copy gdown\HostsX.orzhosts %hosts%
 goto perms
 
 :ipv6
