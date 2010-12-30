@@ -1,4 +1,4 @@
-;version=201012301539
+;version=201012302330
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -1389,6 +1389,11 @@ ff02::3 ip6-allhosts
 #Adchina
 0.0.0.0 mobile.adchina.com
 0.0.0.0 www.adchina.com
+#Adigou
+0.0.0.0 adigou.com
+0.0.0.0 x.adigou.com
+0.0.0.0 igou.cn
+0.0.0.0 caipiao.igou.cn
 #Adwhirl
 0.0.0.0 met.adwhirl.com
 0.0.0.0 mob.adwhirl.com
@@ -1400,10 +1405,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 Wap.casee.cn
 0.0.0.0 wap.cttol.cn
 0.0.0.0 www.casee.cn
+#Lyy
+0.0.0.0 www.lyy.mobi
+0.0.0.0 uni.lyy.mobi
 #Mobclix
 0.0.0.0 ads.mobclix.com
 0.0.0.0 data.mobclix.com
 0.0.0.0 s.mobclix.com
+#Mobus
+0.0.0.0 mobus.cn
+0.0.0.0 www.mobus.cn
+#Moad
+0.0.0.0 wap.moad.cn
+0.0.0.0 moad.cn
+0.0.0.0 wap.6262.com.cn
 #Mydas
 0.0.0.0 bank01.ads.dt.mydas.mobi
 0.0.0.0 bank01.ads.mp.mydas.mobi
@@ -1460,9 +1475,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 scpworld.com.cn
 0.0.0.0 gb.cri.cn
 0.0.0.0 www.ypzs88.com 
-#Mobus
-0.0.0.0 mobus.cn
-0.0.0.0 www.mobus.cn
 #Wooboo
 0.0.0.0 ade.wooboo.com.cn
 0.0.0.0 admin.wooboo.com.cn
@@ -1484,32 +1496,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 cnota.cn
 0.0.0.0 cx.360doo.com
 0.0.0.0 m.ymapp.com
-#Other
-0.0.0.0 24sp.cc
+#WapSite
+0.0.0.0 ad.3g.cn
+0.0.0.0 em.kongzhong.com
+0.0.0.0 d.gfan.com
 0.0.0.0 hi.fywap.com
+0.0.0.0 v2.g2.91.com
+0.0.0.0 24sp.cc
+0.0.0.0 wap.cellufun.com
+#WapEN
+0.0.0.0 ads.namiflow.com
 0.0.0.0 admarvel.mojiva.com
 0.0.0.0 ads.admarvel.com
-0.0.0.0 ads.namiflow.com
-0.0.0.0 em.kongzhong.com
 0.0.0.0 m.askalok.com
 0.0.0.0 m.millennialmedia.com
-0.0.0.0 uni.lyy.mobi
-0.0.0.0 v2.g2.91.com
-0.0.0.0 wap.moad.cn
+0.0.0.0 content.mobango.com
 0.0.0.0 www.spjoy.com
 0.0.0.0 www.stickylogic.com
-0.0.0.0 x.adigou.com
-0.0.0.0 219.133.44.109
-0.0.0.0 androidappoftheday.net
-0.0.0.0 apphu.com
-0.0.0.0 d.gfan.com
-0.0.0.0 m.bitbop.com
-0.0.0.0 m.ddmap.com
-0.0.0.0 usaacademics-cn.com
-0.0.0.0 wap.212999.com
-0.0.0.0 wap.cellufun.com
-0.0.0.0 wap.mobango.com
-0.0.0.0 wap.pingan.com
 @HostsX 海外站点广告
 #ABCNews
 0.0.0.0 Adsatt.ABCNews.starwave.com
