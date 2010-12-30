@@ -1,4 +1,4 @@
-;version=201012300150
+;version=201001231156
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7429,7 +7429,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 go.lailea.info
 0.0.0.0 go2000.cn
 0.0.0.0 hao.datoday.info
-0.0.0.0 hao.kuaibo.com
 0.0.0.0 henbucuo.com
 0.0.0.0 kzdh.com
 0.0.0.0 lailea.info
@@ -7974,6 +7973,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 buffer-ad.qvod.com
 0.0.0.0 insert-ad.qvod.com
 0.0.0.0 text-ad.qvod.com
+0.0.0.0 hao.kuaibo.com
+0.0.0.0 searchstat.kuaibo.com
 0.0.0.0 qvodlink.hco.cc
 #SopCast
 0.0.0.0 home.sopserv.com
