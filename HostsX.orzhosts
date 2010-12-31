@@ -1,4 +1,4 @@
-;version=201012302330
+;version=201012311923
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -627,6 +627,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.kingsoft.com
 0.0.0.0 union.wps.kingsoft.com
 #½ðÉ½¶¾°Ô
+0.0.0.0 api.pc120.com
 0.0.0.0 bo.duba.net
 0.0.0.0 cu001.www.duba.net
 0.0.0.0 cu002.www.duba.net
@@ -881,6 +882,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 seapp.stat.360safe.com
 0.0.0.0 seupdate.360safe.com
 0.0.0.0 stat.360safe.com
+0.0.0.0 upload.360safe.com
 0.0.0.0 x.360safe.com
 0.0.0.0 pinst.360.cn
 0.0.0.0 rd.360.cn
