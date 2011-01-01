@@ -5994,7 +5994,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 xtrack.tomonline-inc.com
 #TomSkype
 0.0.0.0 a3.skype.tom.com
+0.0.0.0 a4.skype.tom.com
 0.0.0.0 a5.skype.tom.com
+0.0.0.0 a6.skype.tom.com
 0.0.0.0 a7.skype.tom.com
 0.0.0.0 client.skype.tom.com
 0.0.0.0 download.skype.tom.com
