@@ -5993,6 +5993,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 adserve2.tomoimg.cn
 0.0.0.0 xtrack.tomonline-inc.com
 #TomSkype
+0.0.0.0 202.108.29.248
+0.0.0.0 a2.skype.tom.com
 0.0.0.0 a3.skype.tom.com
 0.0.0.0 a4.skype.tom.com
 0.0.0.0 a5.skype.tom.com
