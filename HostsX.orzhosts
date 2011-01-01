@@ -1,4 +1,4 @@
-;version=201012312150
+;version=201101011111
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -5981,17 +5981,30 @@ ff02::3 ip6-allhosts
 0.0.0.0 ranking.21cn.com
 #Tom.com
 0.0.0.0 ad.tom.com
-0.0.0.0 adserve2.tomoimg.cn
+0.0.0.0 hao.tom.com
 0.0.0.0 hjsm.tom.com
 0.0.0.0 p4p.tom.com
 0.0.0.0 pre1.pub.tom.com
 0.0.0.0 pv.tom.com
 0.0.0.0 sc.tom.com
-0.0.0.0 u1.skype.tom.com
 0.0.0.0 ulinkdir.tom.com
 0.0.0.0 ulinkjs.tom.com
 0.0.0.0 tom.allyes.com
+0.0.0.0 adserve2.tomoimg.cn
 0.0.0.0 xtrack.tomonline-inc.com
+#TomSkype
+0.0.0.0 a3.skype.tom.com
+0.0.0.0 a5.skype.tom.com
+0.0.0.0 a7.skype.tom.com
+0.0.0.0 client.skype.tom.com
+0.0.0.0 download.skype.tom.com
+0.0.0.0 u1.skype.tom.com
+0.0.0.0 skype.tom.com
+0.0.0.0 skypetools1.tom.com
+0.0.0.0 skypetools3.tom.com
+0.0.0.0 skypetools5.tom.com
+0.0.0.0 store.ule.tom.com
+0.0.0.0 ule.tom.com
 #±±ÇàÍø
 0.0.0.0 a.emedia.cn
 0.0.0.0 v.emedia.cn

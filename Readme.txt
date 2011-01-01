@@ -356,3 +356,7 @@ Q&A:如果在Windows下更新Andorid Hosts文件时，adb devieces正常检测,但adb remount命
    www.97xxoo.com
 
 --------------------------------------------------------------------------------
+
+
+Skype国际版下载地址：
+http://download.skype.com/SkypeSetup.msi
