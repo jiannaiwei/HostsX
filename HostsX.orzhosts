@@ -1,4 +1,4 @@
-;version=201101011111
+;version=201101011731
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -6458,6 +6458,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 e7free.allyes.com
 0.0.0.0 ebooafa7.allyes.com
 0.0.0.0 goqoafp6.allyes.com
+0.0.0.0 huanqiu.allyes.com
 0.0.0.0 iplus.allyes.com
 0.0.0.0 lhzbafp.allyes.com
 0.0.0.0 mscdn.allyes.cn
