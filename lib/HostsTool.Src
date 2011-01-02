@@ -434,6 +434,9 @@ echo Hosts file permissions set to complete!
 ipconfig /flushdns>nul 2>nul&exit
 
 :thanks
+echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
+pause
+if exist Readme.txt (notepad Readme.txt) else (start http://hostsx.googlecode.com/svn/trunk/Readme.txt)&(start /min iexplore http://fanfou.com/iV.c)
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer" 2>nul"^|findstr /i Version`) do (set iever=%%3)
 echo 用户名：%username% >GFeedBack.txt
 echo 计算机名：%userdomain% >>GFeedBack.txt
@@ -442,10 +445,7 @@ echo IE版本：%iever% >>GFeedBack.txt
 echo 今天是：%date% >>GFeedBack.txt
 echo 遇到问题的网页地址：>>GFeedBack.txt
 echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
-notepad GFeedBack.txt
-echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
-if exist Readme.txt (notepad Readme.txt) else (start http://hostsx.googlecode.com/svn/trunk/Readme.txt)&(start /min iexplore http://fanfou.com/iV.c)
-cls&goto menu
+notepad GFeedBack.txt&cls&del GFeedBack.txt&goto menu
 
 :fixie
 mode con cols=38 lines=23
