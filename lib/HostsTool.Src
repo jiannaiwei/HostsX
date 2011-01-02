@@ -435,14 +435,16 @@ ipconfig /flushdns>nul 2>nul&exit
 
 :thanks
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer" 2>nul"^|findstr /i Version`) do (set iever=%%3)
-if not exist Readme.txt (start http://hostsx.googlecode.com/svn/trunk/Readme.txt)&(start /min iexplore http://fanfou.com/iV.c) else (notepad Readme.txt)
-echo 计算机名：%userdomain%>%date%_%username%_msg.txt
-echo 系统版本：%version%>>%date%_%username%_msg.txt
-echo IE版本：%iever%>>%date%_%username%_msg.txt
-echo 遇到问题的网页地址：>>%date%_%username%_msg.txt
-echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>%date%_%username%_msg.txt
-copy %date%_%username%_msg.txt %UserProfile%\Desktop\%date%_%username%_msg.txt
-notepad %UserProfile%\Desktop\%date%_%username%_msg.txt
+echo 用户名：%username% >GFeedBack.txt
+echo 计算机名：%userdomain% >>GFeedBack.txt
+echo 系统版本：%version% >>GFeedBack.txt
+echo IE版本：%iever% >>GFeedBack.txt
+echo 今天是：%date% >>GFeedBack.txt
+echo 遇到问题的网页地址：>>GFeedBack.txt
+echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
+notepad GFeedBack.txt
+echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
+if exist Readme.txt (notepad Readme.txt) else (start http://hostsx.googlecode.com/svn/trunk/Readme.txt)&(start /min iexplore http://fanfou.com/iV.c)
 cls&goto menu
 
 :fixie
