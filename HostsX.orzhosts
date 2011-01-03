@@ -1,4 +1,4 @@
-;version=201101031350
+;version=201101040100
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -15,6 +15,7 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 #Mac
+0.0.0.0 gs.apple.com
 255.255.255.255 broadcasthost
 #Google
 74.125.39.191 www.blogger.com
@@ -1398,6 +1399,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 x.adigou.com
 0.0.0.0 igou.cn
 0.0.0.0 caipiao.igou.cn
+#Adtouchnetwork
+0.0.0.0 a1.adtouchnetwork.net
+0.0.0.0 ad.adtouchnetwork.net
+0.0.0.0 adtouchnetwork.net
 #Adwhirl
 0.0.0.0 met.adwhirl.com
 0.0.0.0 mob.adwhirl.com
