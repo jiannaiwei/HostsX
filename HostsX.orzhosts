@@ -1,4 +1,4 @@
-;version=201101011731
+;version=201101031350
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -453,6 +453,7 @@ ff02::3 ip6-allhosts
 @HostsX OneKey/百度联盟
 #百度
 0.0.0.0 a.baidu.com
+0.0.0.0 adm.baidu.com
 0.0.0.0 baidutv.baidu.com
 0.0.0.0 bar.baidu.com
 0.0.0.0 c.baidu.com
@@ -5846,6 +5847,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 adcenter.xinhuanet.com
 0.0.0.0 embed.xinhuanet.com
 0.0.0.0 entity.xinhuanet.com
+#西陆网
+0.0.0.0 a.xilu.com
+0.0.0.0 content.xilu.com
+0.0.0.0 stat.xilu.com
+0.0.0.0 test.xilu.com
 #东方财富网
 0.0.0.0 ay.eastmoney.com
 0.0.0.0 cp.eastmoney.com
@@ -7302,6 +7308,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.qq886.com
 0.0.0.0 www.whizdance.com
 #广告诈骗钓鱼等
+0.0.0.0 all.fasuoo.com
+0.0.0.0 qian.fasuoo.com
+0.0.0.0 tang.fasuoo.com
+0.0.0.0 long.lttok.com
+0.0.0.0 bi.lttok.com
+0.0.0.0 a.hexuns.com
+0.0.0.0 yi.hexuns.com
+0.0.0.0 360.huibanshop.com
+0.0.0.0 rsk.huibanshop.com
 0.0.0.0 by.114cnn.com
 0.0.0.0 cvc.114cnn.com
 0.0.0.0 j.114cnn.com
@@ -7328,7 +7343,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gold.china8849.net
 0.0.0.0 kujia518.com
 0.0.0.0 gold.kujia518.com
-0.0.0.0 verygood.vip.com.qqonline.info
 0.0.0.0 1189cctv.com
 0.0.0.0 2010texq.com
 0.0.0.0 360.legoumall.com
@@ -7337,15 +7351,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 aq.qq.service.terncent.com
 0.0.0.0 aq.qq.servirce.com
+0.0.0.0 click.mz.simba.taobao.com
+0.0.0.0 cnrdn.com
 0.0.0.0 code.loading.wolian.net
 0.0.0.0 e-mail-google.Co.CC
 0.0.0.0 fx.v1kk.com
+0.0.0.0 guchijian.com
 0.0.0.0 hjmg.57743.com
 0.0.0.0 hjmg.930114.com
 0.0.0.0 ht.hao120.cc
 0.0.0.0 ht.sooe.cn
 0.0.0.0 icbc-y.com
 0.0.0.0 img.tjq.com
+0.0.0.0 lj.igohui.com
 0.0.0.0 lkn.zoossoft.cn
 0.0.0.0 m.ttgrs.cn
 0.0.0.0 mail.qq.com.terncent.com
@@ -7361,16 +7379,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 testserver.zoosnet.net
 0.0.0.0 u.the668.com
 0.0.0.0 v8.olajk.com
+0.0.0.0 verygood.vip.com.qqonline.info
 0.0.0.0 win2050.teasm.cn
 0.0.0.0 www.133i.com
 0.0.0.0 www.1366.net
 0.0.0.0 www.22jianfei.com
 0.0.0.0 www.85tao.net
 0.0.0.0 www.algj-27dy.cn
+0.0.0.0 www.ddssdgw.com
 0.0.0.0 www.fengxin114.com
+0.0.0.0 www.haiass.com
 0.0.0.0 www.hao120.cc
 0.0.0.0 www.haodian8.net
+0.0.0.0 www.htt86.com
+0.0.0.0 www.huishop.com
 0.0.0.0 www.icbc-y.com
+0.0.0.0 www.igoogin.com
 0.0.0.0 www.jiuguyou.com
 0.0.0.0 www.juyuan.com
 0.0.0.0 www.lashou.com
@@ -7394,6 +7418,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.yilongshop.com
 0.0.0.0 www.zoosnet.net
 0.0.0.0 www.zoossoft.com
+0.0.0.0 www1.omsys.com.cn
 0.0.0.0 xinw.net
 0.0.0.0 zh.qingchun001.cn
 0.0.0.0 zx.98712.com
