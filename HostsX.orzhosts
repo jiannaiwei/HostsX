@@ -1,4 +1,4 @@
-;version=201101061811
+;version=201101062050
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7381,12 +7381,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 shop.liweihui.com
 0.0.0.0 shop57205080.taobao.com
 0.0.0.0 smtown.com
+0.0.0.0 su.maca-cn.com
 0.0.0.0 superjunior.smtown.com
 0.0.0.0 tao123.cc
 0.0.0.0 testserver.zoosnet.net
+0.0.0.0 tr.vihit.com
 0.0.0.0 u.the668.com
 0.0.0.0 v3.huiyee.com
 0.0.0.0 v8.olajk.com
+0.0.0.0 vda.uuzu.com
 0.0.0.0 verygood.vip.com.qqonline.info
 0.0.0.0 win2050.teasm.cn
 0.0.0.0 www.133i.com
@@ -7394,6 +7397,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.22jianfei.com
 0.0.0.0 www.85tao.net
 0.0.0.0 www.algj-27dy.cn
+0.0.0.0 www.bsj001.com
 0.0.0.0 www.ddssdgw.com
 0.0.0.0 www.fengxin114.com
 0.0.0.0 www.haiass.com
@@ -7715,6 +7719,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.appsasia.net
 0.0.0.0 e2.tjq.com
 0.0.0.0 engine.100fenlm.cn
+0.0.0.0 frxz01.qq937.com
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 g.175pt.com
 0.0.0.0 g.88210212.com
@@ -7768,6 +7773,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 redirect.jooov.cn
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 shop8.x.com.cn
+0.0.0.0 state.urgamer.com
 0.0.0.0 t.15yl.com
 0.0.0.0 t.1stcngame.com
 0.0.0.0 t.37lai.com
@@ -7780,6 +7786,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.yyclick.com
 0.0.0.0 tao.37wan.com
 0.0.0.0 tg.33hy.com
+0.0.0.0 tg.898wan.com
 0.0.0.0 tg.youwo.com
 0.0.0.0 tg2.duolegame.com
 0.0.0.0 tg3.subo.me
@@ -7800,7 +7807,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.narrowad.com
 0.0.0.0 union.popwan.com
 0.0.0.0 union.shumenol.com
-0.0.0.0 vda.uuzu.com
 0.0.0.0 ww.jinzhao99.com
 0.0.0.0 ww.yiqiwin.com
 0.0.0.0 ww.zhcpm.com
@@ -7828,6 +7834,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.igo2018.com
 0.0.0.0 www.jiayuan.com
 0.0.0.0 www.jysls.com
+0.0.0.0 www.kkgame.cn
 0.0.0.0 www.kmmcn.com
 0.0.0.0 www.kugame.cn
 0.0.0.0 www.leeuu.net
