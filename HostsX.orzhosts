@@ -1,4 +1,4 @@
-;version=201101061650
+;version=201101061811
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -1506,13 +1506,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 cx.360doo.com
 0.0.0.0 m.ymapp.com
 #WapSite
+0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
-0.0.0.0 em.kongzhong.com
 0.0.0.0 d.gfan.com
+0.0.0.0 em.kongzhong.com
 0.0.0.0 hi.fywap.com
 0.0.0.0 v2.g2.91.com
-0.0.0.0 24sp.cc
 0.0.0.0 wap.cellufun.com
+0.0.0.0 www.adtouchnetwork.com
 #WapEN
 0.0.0.0 ads.namiflow.com
 0.0.0.0 admarvel.mojiva.com
