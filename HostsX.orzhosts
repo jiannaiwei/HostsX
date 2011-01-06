@@ -1,4 +1,4 @@
-;version=201101040100
+;version=201101061650
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7356,10 +7356,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 aq.qq.service.terncent.com
 0.0.0.0 aq.qq.servirce.com
-0.0.0.0 click.mz.simba.taobao.com
+0.0.0.0 biz3.mkt2china.com
 0.0.0.0 cnrdn.com
 0.0.0.0 code.loading.wolian.net
 0.0.0.0 e-mail-google.Co.CC
+0.0.0.0 e3.ezebm.net
 0.0.0.0 fx.v1kk.com
 0.0.0.0 guchijian.com
 0.0.0.0 hjmg.57743.com
@@ -7383,6 +7384,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tao123.cc
 0.0.0.0 testserver.zoosnet.net
 0.0.0.0 u.the668.com
+0.0.0.0 v3.huiyee.com
 0.0.0.0 v8.olajk.com
 0.0.0.0 verygood.vip.com.qqonline.info
 0.0.0.0 win2050.teasm.cn
