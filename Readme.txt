@@ -346,6 +346,8 @@ Q&A:如果在Windows下更新Andorid Hosts文件时，adb devieces正常检测,但adb remount命
               up.pplive.com        （升级屏蔽）
               upexe.pplive.com     （升级屏蔽）
               static1.pplive.cn     (主页显示问题)
+  Avast:
+              program.avast.com     (导致无法注册等)
 
  - 网站误杀和建议保留:
    www.in9.cn
