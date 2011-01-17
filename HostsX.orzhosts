@@ -1,4 +1,4 @@
-;version=201101162310
+;version=201101171030
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7176,6 +7176,9 @@ ff02::3 ip6-allhosts
 #Woairing
 0.0.0.0 img.woairing.cn
 0.0.0.0 code.woairing.cn
+#Woyo
+0.0.0.0 media.woyo.com
+0.0.0.0 trace.woyo.com
 #Wrating
 0.0.0.0 163.wrating.com
 0.0.0.0 ads.wrating.com
@@ -7364,8 +7367,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 by.ksdg8.com
 0.0.0.0 jfkf.ksdg8.com
 0.0.0.0 pl.ksdg8.com
-0.0.0.0 www.yaoxinxi.com
-0.0.0.0 htl.yaoxinxi.com
 0.0.0.0 fs.yythfx.com
 0.0.0.0 qlx.yythfx.com
 0.0.0.0 yugen.yythfx.com
@@ -7376,6 +7377,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gold.china8849.net
 0.0.0.0 kujia518.com
 0.0.0.0 gold.kujia518.com
+0.0.0.0 htl.yaoxinxi.com
+0.0.0.0 www.yaoxinxi.com
 0.0.0.0 1189cctv.com
 0.0.0.0 2010texq.com
 0.0.0.0 360.legoumall.com
@@ -7421,6 +7424,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 win2050.teasm.cn
 0.0.0.0 www.133i.com
 0.0.0.0 www.1366.net
+0.0.0.0 www.16tuan.cn
 0.0.0.0 www.22jianfei.com
 0.0.0.0 www.85tao.net
 0.0.0.0 www.algj-27dy.cn
@@ -7546,6 +7550,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.506520.net
 0.0.0.0 www.55uuu.cn
 0.0.0.0 www.59688.com
+0.0.0.0 www.5go.com.cn
 0.0.0.0 www.6313.com
 0.0.0.0 www.66234.net
 0.0.0.0 www.6661.cc
@@ -7579,6 +7584,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.haha1234.com
 0.0.0.0 www.haol23.cc
 0.0.0.0 www.henbucuo.com
+0.0.0.0 www.hh115.com
 0.0.0.0 www.ivc.cn
 0.0.0.0 www.kljia.com
 0.0.0.0 www.leilei.cc
