@@ -1,4 +1,4 @@
-;version=201101171030
+;version=201101201510
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -835,6 +835,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gamestat.renren.com
 0.0.0.0 jebe.renren.com
 0.0.0.0 shaft.jebe.renren.com
+0.0.0.0 track.yx.renren.com
 0.0.0.0 jebe.xnimg.cn
 @HostsX OneKey/ÍøÒ×
 #126
@@ -7114,6 +7115,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com
 #Wauee
+0.0.0.0 21456.wauee.com
 0.0.0.0 26939.wauee.com
 0.0.0.0 33740.service.wauee.com
 0.0.0.0 33740.wauee.com
@@ -7619,6 +7621,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 code.woainame.cn
 0.0.0.0 www.91yishuqianming.cn
 0.0.0.0 www.aiqianming.cn
+0.0.0.0 sign1.19ii.info
 #¿Í·þµ¯´°
 0.0.0.0 chat.53kf.com
 0.0.0.0 up.53kf.com
@@ -7695,6 +7698,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 1188s.info
+0.0.0.0 21456.18bm.com
+0.0.0.0 21456.3ii1.com
 0.0.0.0 2z.5pk.com
 0.0.0.0 5.nihao600.com
 0.0.0.0 6dad.com
