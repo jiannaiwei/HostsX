@@ -1,4 +1,4 @@
-;version=201101201510
+;version=201101201552
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -917,7 +917,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pfp.sina.com.cn
 0.0.0.0 pfpclick.sina.com.cn
 0.0.0.0 pfpip.sina.com
-0.0.0.0 rm.show.sina.com.cn
+0.0.0.0 rm.sina.com.cn
 0.0.0.0 sms.sina.com.cn
 0.0.0.0 uic.sso.sina.com.cn
 0.0.0.0 adsina.allyes.com

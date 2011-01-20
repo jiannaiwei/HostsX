@@ -349,6 +349,10 @@ Q&A:如果在Windows下更新Andorid Hosts文件时，adb devieces正常检测,但adb remount命
   Avast:
               program.avast.com     (导致无法注册等)
 
+  新浪：      rm.show.sina.com.cn  （聊天大厅无法进入等）
+
+  youku:      *.atm.youku.com       (ie受限站点去除，否则可能影响搜索)     
+
  - 网站误杀和建议保留:
    www.in9.cn
    bt.ktxp.com
