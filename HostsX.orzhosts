@@ -1,4 +1,4 @@
-;version=201101201552
+;version=201101212013
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -75,9 +75,9 @@ ff02::3 ip6-allhosts
 2001:470:a:17c::2 soutong.iloveyou
 63.223.106.181 soutong.com
 #Twitter
-128.242.240.29 twitter.com 
-128.242.240.29 www.twitter.com 
-128.242.240.29 api.twitter.com 
+128.242.240.29 twitter.com
+128.242.240.29 www.twitter.com
+128.242.240.29 api.twitter.com
 128.242.245.43 search.twitter.com
 #Tumblr
 74.54.212.172 www.tumblr.com
@@ -99,7 +99,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.ddvip.com
 0.0.0.0 ad.tsinghua.edu.cn
 0.0.0.0 ad.xici.net
-0.0.0.0 ads.people.com.cn
 0.0.0.0 ads.wopus.org
 0.0.0.0 ads.zaobao.com
 0.0.0.0 adshow.che168.com
@@ -115,6 +114,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 click.union.360buy.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
+0.0.0.0 counter.gouzai.cn
 0.0.0.0 d.5d6d.com
 0.0.0.0 dpvc.39.net
 0.0.0.0 gg.cdcgames.net
@@ -133,6 +133,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pro.letv.com
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 rcm.amazon.com
+0.0.0.0 report.chinanews.com
 0.0.0.0 s1.wopti.net
 0.0.0.0 shows.fdc.com.cn
 0.0.0.0 sp.vcimg.com
@@ -157,6 +158,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 update.yunduan.cn
 0.0.0.0 v3.apic.51.com
 0.0.0.0 wo318.k621.com
+0.0.0.0 www.pagechoice.net
 0.0.0.0 www8.xitek.com
 0.0.0.0 xc.macd.cn
 0.0.0.0 yahoo1.beareyes.com.cn
@@ -499,8 +501,11 @@ ff02::3 ip6-allhosts
 #和讯财经
 0.0.0.0 ads.hexun.com
 0.0.0.0 analytics.tool.hexun.com
+0.0.0.0 count.tool.hexun.com
 0.0.0.0 hx.hexun.com
+0.0.0.0 hxjs.tool.hexun.com
 0.0.0.0 itv.hexun.com
+0.0.0.0 log.tool.hexun.com
 0.0.0.0 union.hexun.com
 0.0.0.0 utrack.hexun.com
 0.0.0.0 wizard.stock.hexun.com
@@ -843,6 +848,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
 0.0.0.0 img3.126.net
+0.0.0.0 swf.ws.126.net
 #网易163
 0.0.0.0 adc.163.com
 0.0.0.0 adclient.163.com
@@ -938,7 +944,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adnet.sohu.com
 0.0.0.0 cpc.sohu.com
 0.0.0.0 doc.go.sohu.com
-0.0.0.0 images.sohu.com
 0.0.0.0 ip.cms.sohu.com
 0.0.0.0 p4p.so.sohu.com
 0.0.0.0 partner.search.sohu.com
@@ -1005,6 +1010,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adstextview.qq.com
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
+0.0.0.0 c.gdt.qq.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fw.qq.com
 0.0.0.0 oimsgad.qq.com
@@ -5881,6 +5887,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 adcenter.xinhuanet.com
 0.0.0.0 embed.xinhuanet.com
 0.0.0.0 entity.xinhuanet.com
+#人民网
+0.0.0.0 ads.people.com.cn
+0.0.0.0 pro.people.com.cn
 #西陆网
 0.0.0.0 a.xilu.com
 0.0.0.0 content.xilu.com
@@ -6216,7 +6225,9 @@ ff02::3 ip6-allhosts
 #99click
 0.0.0.0 a777.oadz.com
 0.0.0.0 a814.oadz.com
+0.0.0.0 a873.oadz.com
 0.0.0.0 a1139.oadz.com
+0.0.0.0 a1410.oadz.com
 0.0.0.0 a.oadz.com
 0.0.0.0 dns1.oadz.com
 0.0.0.0 dns2.oadz.com
@@ -6573,6 +6584,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 images.clickeye.com.cn
 0.0.0.0 main.clickeye.com.cn
 0.0.0.0 rpoint.clickeye.com.cn
+0.0.0.0 rpoint.clieye.com
 0.0.0.0 web.clickeye.cn
 #Cnxad
 0.0.0.0 c.cnxad.com
@@ -7538,6 +7550,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.131.cc
 0.0.0.0 www.131u.com
 0.0.0.0 www.150.net
+0.0.0.0 www.1616.net
 0.0.0.0 www.19574.net
 0.0.0.0 www.1buso.com
 0.0.0.0 www.2345.com
