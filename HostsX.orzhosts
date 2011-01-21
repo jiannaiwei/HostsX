@@ -1,4 +1,4 @@
-;version=201101212013
+;version=201101212100
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7766,6 +7766,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gamefiles.qq494.cn
 0.0.0.0 gg.12354.com
 0.0.0.0 gg.qc101.com
+0.0.0.0 gg.yiqiwin.com
 0.0.0.0 go.lele.com
 0.0.0.0 go.snsfun.cc
 0.0.0.0 gwc.iblinx.com
@@ -7888,6 +7889,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zuixiaoyao.com
 0.0.0.0 www1.xman.cn
 0.0.0.0 www1.zjbdt.com
+0.0.0.0 www5.yx.xkwan.com
 0.0.0.0 xy.8zgame.com
 0.0.0.0 yz.szgla.com
 #²¡¶¾ÏÂÔØ
