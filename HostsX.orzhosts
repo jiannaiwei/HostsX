@@ -1,4 +1,4 @@
-;version=201101251100
+;version=201101252300
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -112,6 +112,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ccc.xdowns.com
 0.0.0.0 click.cnfol.com
 0.0.0.0 click.union.360buy.com
+0.0.0.0 show.union.360buy.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
 0.0.0.0 counter.gouzai.cn
@@ -7710,7 +7711,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.000wan.com
 0.0.0.0 newtest.5622.cn
 0.0.0.0 cpm.5622.cn
-0.0.0.0 www.ad2.cc
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 1188s.info
@@ -7860,6 +7860,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.333wan.com
 0.0.0.0 www.33hy.com
 0.0.0.0 www.513wan.com
+0.0.0.0 www.669.la
+0.0.0.0 www.ad2.cc
 0.0.0.0 www.adsue.com
 0.0.0.0 www.adtools.cn
 0.0.0.0 www.chinesean.com

@@ -1,42 +1,42 @@
-# This HostsX Data file is a free download from:           #
-# http://code.google.com/p/hostsx/                         #
-#                                                          #
-# This is probably the Best Hosts file you used            #
-#                                                          #
-# Support for:                                             #
-#  Win/Mac/UNIX/Java/Symbian/iPhone OS/Palm Pre/Android    #
-#**********************************************************#
-# This work is licensed under the Creative Commons         #
-# Attribution-NonCommercial-ShareAlike License.            #
-# http://creativecommons.org/licenses/by-nc-sa/3.0/        #
-#**********************************************************#
-# Thanks:                                                  #
-# bbs.Winzheng.com , bbs.wmzhe.com , bbs.crsky.com ,       #
-# (Mod On "Beautiful Hosts Patch","Go Hosts","Gay Hosts"); #
-# Thanks:                                                  #
-# www.mvps.org , pgl.yoyo.org , forum.xda-developers.com , #
-# (We combined some Hosts File from their bbs) ;           #
-# www.du110.com , www.clxp.net.cn , www.mwsl.org.cn ,      #
-# www.itfunz.com (Thank them for their contribution) ;     #
-#**********************************************************#
-# Thanks for all the feedback from users and friends.      #
-# Project builds: OrzFly & JocKwok                         #
-# Data Maintenance: JocKwok                                #
-#**********************************************************#
-# Copyright (C) 2007-2010 orztech.com All Rights Reserved. #
-#**********************************************************#
+# This is probably the Best Hosts file you used.                             #
+#                                                                            #
+# Support for:                                                               #
+#  Win/Mac/UNIX/Java/Symbian/iPhone OS/Palm Pre/Android                      #
+#                                                                            #
+#****************************************************************************#
+# Project-Home:                                                              #
+# http://code.google.com/p/hostsx/                                           #
+#                                                                            #
+# License:                                                                   #
+# Creative Commons Attribution-NonCommercial-ShareAlike License.             #
+# http://creativecommons.org/licenses/by-nc-sa/3.0/                          #
+#                                                                            #
+# Authors:                                                                   #
+# OrzFly,JocKwok                                                             #
+#                                                                            # 
+# Contributors:                                                              #
+# Thanks for all the feedback from users and friends.                        #
+# http://bbs.Winzheng.com                                                    #
+# http://www.clxp.net.cn                                                     #
+# http://bbs.crsky.com                                                       #
+# http://bbs.wmzhe.com                                                       #
+# http://forum.xda-developers.com/showthread.php?t=696084                    #
+# http://www.itfunz.com                                                      #
+# http://sslcheck.net/nsreport.php                                           #
+#                                                                            #
+# 3rd-Party-Data:                                                            #
+# http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq                         #
+# http://www.du110.com/thread-11742-1-1.html                                 #
+# http://hi.baidu.com/villagesecu                                            #
+# http://www.mwsl.org.cn                                                     #
+# http://www.mvps.org/winhelp2002/hosts.txt                                  #
+# http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
+# http://is.gd/9WteB                                                         #
+# http://item.taobao.com/item.htm?id=8548364162                              #
+#                                                                            #
+# Copyright (C) 2007-2010 orztech.com All Rights Reserved.                   #
+#****************************************************************************#
 
-Mod and Sources lists and Thanks:
-http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
-http://www.du110.com/thread-11742-1-1.html
-http://hi.baidu.com/villagesecu
-http://www.mvps.org/winhelp2002/hosts.txt
-http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts
-http://forum.xda-developers.com/showthread.php?t=696084
-http://www.itfunz.com
-http://sslcheck.net/nsreport.php
-http://is.gd/9WteB
-http://item.taobao.com/item.htm?id=8548364162
 --------------------------------------------------------------------------------
 Ö§³ÖSupport
 
