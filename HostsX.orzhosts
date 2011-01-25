@@ -1,4 +1,4 @@
-;version=201101212100
+;version=201101251100
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -459,16 +459,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.baidu.com
 0.0.0.0 adm.baidu.com
 0.0.0.0 baidutv.baidu.com
+0.0.0.0 banlv.baidu.com
 0.0.0.0 bar.baidu.com
 0.0.0.0 c.baidu.com
 0.0.0.0 cb.baidu.com
 0.0.0.0 cjhq.baidu.com
 0.0.0.0 cpro.baidu.com
+0.0.0.0 dl.client.baidu.com
 0.0.0.0 drmcmm.baidu.com
 0.0.0.0 dzl.baidu.com
 0.0.0.0 e.baidu.com
 0.0.0.0 eiv.baidu.com
 0.0.0.0 gimg.baidu.com
+0.0.0.0 guanjia.baidu.com
 0.0.0.0 hc.baidu.com
 0.0.0.0 hm.baidu.com
 0.0.0.0 iebar.baidu.com
