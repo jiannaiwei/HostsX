@@ -1,4 +1,4 @@
-;version=201101252300
+;version=201101271130
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -639,6 +639,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.kingsoft.com
 0.0.0.0 union.wps.kingsoft.com
 #金山毒霸
+0.0.0.0 kinfo.wps.cn
 0.0.0.0 api.pc120.com
 0.0.0.0 bo.duba.net
 0.0.0.0 cu001.www.duba.net
@@ -650,6 +651,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 info.duba.net
 0.0.0.0 push.db.kingsoft.com
 0.0.0.0 u.www.duba.net
+0.0.0.0 dl.ijinshan.com
+0.0.0.0 stat.ijinshan.com
+0.0.0.0 up.ijinshan.com
 #金山词霸
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
@@ -1504,7 +1508,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bus.vodone.com
 0.0.0.0 cai.vodone.com
 0.0.0.0 ego.vodone.com
-0.0.0.0 images.vodone.com
 0.0.0.0 images.vodone.com
 0.0.0.0 msn.vodone.com
 0.0.0.0 pic.vodone.com
