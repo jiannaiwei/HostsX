@@ -1,4 +1,4 @@
-;version=201101272323
+;version=201101272332
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7029,6 +7029,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 click.linktech.cn
 0.0.0.0 track.linktech.cn
 #Mediav
+0.0.0.0 sina.mediav.com
 0.0.0.0 click.mediav.com
 0.0.0.0 static.mediav.com
 #Miaozhen
