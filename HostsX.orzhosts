@@ -1,4 +1,4 @@
-;version=201101272208
+;version=201101272323
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -1076,7 +1076,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 wy.xunlei.com
 0.0.0.0 imain.xunlei.com
 0.0.0.0 iimg.xunlei.com
-0.0.0.0 20110127.biz5.sandai.net
 @HostsX OneKey/盛大在线
 #盛大游戏
 0.0.0.0 act.dn.sdo.com
