@@ -1,4 +1,4 @@
-;version=201101272152
+;version=201101272208
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -1049,6 +1049,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 click.cm.sandai.net
 0.0.0.0 float.sandai.net
 0.0.0.0 gvod.union.sandai.net
+0.0.0.0 logic.cpm.cm.sandai.net
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 mpv.sandai.net
 0.0.0.0 pubstat.sandai.net
@@ -1066,7 +1067,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 leiyanstatic.xunlei.com
 0.0.0.0 mediapv.xunlei.com
-0.0.0.0 misc.web.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 p4pstatic.xunlei.com
 0.0.0.0 stat.xunlei.com
@@ -1074,6 +1074,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.xunlei.com
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
+0.0.0.0 20110127.biz5.sandai.net
 @HostsX OneKey/盛大在线
 #盛大游戏
 0.0.0.0 act.dn.sdo.com
@@ -7030,8 +7031,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 click.mediav.com
 0.0.0.0 static.mediav.com
 #Miaozhen
+0.0.0.0 d.miaozhen.com
 0.0.0.0 e.miaozhen.com
 0.0.0.0 g.miaozhen.com
+0.0.0.0 survey.miaozhen.com
 #Molihe
 0.0.0.0 u.molihe.com
 #Mr66
