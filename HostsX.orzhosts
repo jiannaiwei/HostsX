@@ -1,4 +1,4 @@
-;version=201101271130
+;version=201101272152
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -1066,6 +1066,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 leiyanstatic.xunlei.com
 0.0.0.0 mediapv.xunlei.com
+0.0.0.0 misc.web.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 p4pstatic.xunlei.com
 0.0.0.0 stat.xunlei.com
