@@ -1,4 +1,4 @@
-;version=201101281619
+;version=201101282350
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -6530,6 +6530,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mso.allyes.com
 0.0.0.0 rayliafp.allyes.cn
 0.0.0.0 realafp.allyes.cn
+0.0.0.0 sm51shai.allyes.com
 0.0.0.0 smartmedia.allyes.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 smcommon.allyes.com
