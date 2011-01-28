@@ -1,4 +1,4 @@
-;version=201101281440
+;version=201101281619
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -5991,7 +5991,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.6.cn
 #ÓÅ¿áÍø
 0.0.0.0 stat.youku.com
-0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
