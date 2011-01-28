@@ -4215,6 +4215,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xmlconfig.ltassrv.com.s3.amazonaws.com
 0.0.0.0 yab-adimages.s3.amazonaws.com
 #Pay-click
+0.0.0.0 n.pay-click.ru
+0.0.0.0 n3.pay-click.ru
 0.0.0.0 st.pay-click.ru
 #Peel
 0.0.0.0 ad1.peel.com
