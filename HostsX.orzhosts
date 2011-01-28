@@ -1,4 +1,4 @@
-;version=201101272332
+;version=201101281440
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -4214,6 +4214,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 webservice-lb-624573684.us-east-1.elb.amazonaws.com
 0.0.0.0 xmlconfig.ltassrv.com.s3.amazonaws.com
 0.0.0.0 yab-adimages.s3.amazonaws.com
+#Pay-click
+0.0.0.0 st.pay-click.ru
 #Peel
 0.0.0.0 ad1.peel.com
 0.0.0.0 ad3.peel.com
