@@ -1,4 +1,4 @@
-;version=201101282350
+;version=201101291110
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7511,6 +7511,7 @@ ff02::3 ip6-allhosts
 #IE½Ù³Ö
 0.0.0.0 054.cc
 0.0.0.0 1188.com
+0.0.0.0 2345.com
 0.0.0.0 2548.cn
 0.0.0.0 300.cc
 0.0.0.0 3448.com
@@ -7552,6 +7553,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.v22.cc
 0.0.0.0 taobao.loliso.com
 0.0.0.0 u.30so.com
+0.0.0.0 union.2345.com
+0.0.0.0 union2.2345.com
 0.0.0.0 wvv.v921.com
 0.0.0.0 wvw.51150.com
 0.0.0.0 wvw.chuifengtong.com
