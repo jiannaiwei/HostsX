@@ -1,4 +1,4 @@
-;version=201101310950
+;version=201101311330
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -4531,6 +4531,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 updates.shopperreports.com
 0.0.0.0 upgrades.shopperreports.com
 0.0.0.0 www.shopperreports.com
+#SponsorAds
+0.0.0.0 sponsorads.de
+0.0.0.0 www.sponsorads.de 
 #Shiny S.r.l
 0.0.0.0 codice.shinystat.com
 0.0.0.0 codiceisp.shinystat.com
@@ -6151,6 +6154,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.37cs.com
 0.0.0.0 code.37cs.com
 0.0.0.0 www.37cs.com
+#37dz
+0.0.0.0 a.37dz.com
+0.0.0.0 img.37dz.com
+0.0.0.0 js.37dz.com
+0.0.0.0 www.37dz.com  
 #3Bu
 0.0.0.0 c.3bu.cn
 0.0.0.0 img.3bu.cn
@@ -7273,6 +7281,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.wrating.com
 0.0.0.0 xinmin.wrating.com
 0.0.0.0 ztqq.wrating.com
+#XieTeng
+0.0.0.0 www.xt918.com
+0.0.0.0 xt918.com
 #Xinunion
 0.0.0.0 www.xinunion.com
 #Xioo
@@ -7513,6 +7524,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 v2.tjj.com
 0.0.0.0 soft.tjj.com
 #IE劫持
+0.0.0.0 789654.com
+0.0.0.0 www.45566.net
+0.0.0.0 www.789654.com 
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2345.com
@@ -7730,6 +7744,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.000wan.com
 0.0.0.0 newtest.5622.cn
 0.0.0.0 cpm.5622.cn
+0.0.0.0 asqx.qq937.com
+0.0.0.0 frxz01.qq937.com
+0.0.0.0 qq937.com
+0.0.0.0 mcsd.qq937.com
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 1188s.info
@@ -7751,7 +7769,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 aj.tg.niux88.com
 0.0.0.0 am.6park.com
 0.0.0.0 api.flash45.com
-0.0.0.0 asqx.qq937.com
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 bto.youxiya.com
 0.0.0.0 c.4055.com
@@ -7777,7 +7794,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.appsasia.net
 0.0.0.0 e2.tjq.com
 0.0.0.0 engine.100fenlm.cn
-0.0.0.0 frxz01.qq937.com
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 g.175pt.com
 0.0.0.0 g.88210212.com
@@ -7825,9 +7841,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 play.tenoad.com
 0.0.0.0 po.add.tx908.com
 0.0.0.0 pop.txwy.com
+0.0.0.0 tg.86mmo.com
 0.0.0.0 pv.7fgame.com
 0.0.0.0 qqmms.net
+0.0.0.0 cpm.webxgame.com
 0.0.0.0 r.mybestyouxi.cn
+0.0.0.0 xy.linekong.com
+0.0.0.0 tg.game5.com
 0.0.0.0 redirect.jooov.cn
 0.0.0.0 s1.pic.52kkk.com
 0.0.0.0 servedby.adsfactor.cn
@@ -7916,6 +7936,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www5.yx.xkwan.com
 0.0.0.0 xy.8zgame.com
 0.0.0.0 yz.szgla.com
+0.0.0.0 ad.letdoo.com
+0.0.0.0 ad.leetoou.com
+0.0.0.0 popu.16768.com
 #病毒下载
 0.0.0.0 ysbweb.com
 0.0.0.0 cache.ysbweb.com
@@ -7932,6 +7955,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 sue.lop.com
 0.0.0.0 www.lop.com
 0.0.0.0 www1.lop.com
+0.0.0.0 www.imrw0rldwide.com
+0.0.0.0 pic.imrw0rldwide.com
+0.0.0.0 tj.imrw0rldwide.com
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
 0.0.0.0 union.boodvd.com
@@ -7989,6 +8015,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 xz.duotedistrictxiazai.info
 0.0.0.0 xz.easyxiazaiba.info
 0.0.0.0 xz.ttdown.info
+0.0.0.0 wg.onecf.cn
+0.0.0.0 pro365.ju51.com
+0.0.0.0 cm.jobkoo.com
+0.0.0.0 a12.alphagodaddy.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
@@ -8019,6 +8049,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 partner.funshion.com
 #HooKQQ
 0.0.0.0 www.hookqq.com
+0.0.0.0 hookqq.com
 #iSeesoft
 0.0.0.0 msg.iseesoft.cn
 0.0.0.0 p.iseeclan.com
@@ -8045,6 +8076,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.maxthon.com
 0.0.0.0 stat-w.maxthon.com
 0.0.0.0 statcn-c.maxthon.com
+#Micronichefinder
+0.0.0.0 www.micronichefinder.com
+0.0.0.0 micronichefinder.com 
 #Neoimage
 0.0.0.0 ad.neoimaging.cn
 0.0.0.0 clientconfig.neoimaging.cn
