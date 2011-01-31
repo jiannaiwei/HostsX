@@ -1,4 +1,4 @@
-;version=201101311700
+;version=201101312150
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -6071,6 +6071,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 download.skype.tom.com
 0.0.0.0 u1.skype.tom.com
 0.0.0.0 skype.tom.com
+0.0.0.0 track.skype.com
 0.0.0.0 skypetools1.tom.com
 0.0.0.0 skypetools3.tom.com
 0.0.0.0 skypetools5.tom.com
