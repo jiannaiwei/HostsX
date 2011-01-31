@@ -1,4 +1,4 @@
-;version=201101311330
+;version=201101311700
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -464,6 +464,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bar.baidu.com
 0.0.0.0 c.baidu.com
 0.0.0.0 cb.baidu.com
+0.0.0.0 cbjs.baidu.com
 0.0.0.0 cjhq.baidu.com
 0.0.0.0 cpro.baidu.com
 0.0.0.0 dl.client.baidu.com
