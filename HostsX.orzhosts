@@ -1,4 +1,4 @@
-;version=201101291110
+;version=201101310950
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7509,6 +7509,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.vunion.net
 0.0.0.0 sm2.netitv.com
 #IE½Ù³Ö
+0.0.0.0 www.114la.com
+0.0.0.0 v2.tjj.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2345.com
@@ -7563,7 +7565,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.0344.net
 0.0.0.0 www.111.dh.com
 0.0.0.0 www.113w.com
-0.0.0.0 www.114la.com
 0.0.0.0 www.1155.com
 0.0.0.0 www.1188.com
 0.0.0.0 www.126666666.cn
