@@ -1,4 +1,4 @@
-;version=201101312150
+;version=201102011030
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7524,6 +7524,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sm2.netitv.com
 #YLMF
 0.0.0.0 www.114la.com
+0.0.0.0 ie.115.com
 0.0.0.0 v2.tjj.com
 0.0.0.0 soft.tjj.com
 #IE½Ù³Ö

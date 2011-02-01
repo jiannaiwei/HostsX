@@ -1,8 +1,10 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.1.10
+恶意网站HOSTS屏蔽文件-2011.1.31
 www.mwsl.org.cn
 ---------------------------------------
+All Rights Reserved 2007-2010
+*******************g********************
 127.0.0.1 localhost
 0.0.0.0 www.zzzz1.com
 0.0.0.0 zzzz1.com
@@ -24976,3 +24978,75 @@ www.mwsl.org.cn
 0.0.0.0 wow00.6600.org
 0.0.0.0 www.stbzq.com
 0.0.0.0 xy.wowziti.com
+0.0.0.0 www.xvghb.info
+0.0.0.0 sc.ag008.com
+0.0.0.0 go.iu-yt.info
+0.0.0.0 www.smskb.com
+0.0.0.0 qqxy.yss8090.com
+0.0.0.0 wwww.freevnbc.info
+0.0.0.0 98577.mygodgod.com
+0.0.0.0 www.shanhuopu.com
+0.0.0.0 8358.kjhds.info
+0.0.0.0 traffka.eu
+0.0.0.0 www.dnfqd.com
+0.0.0.0 newss.gr
+0.0.0.0 www.139139.info
+0.0.0.0 www.nerashti.net
+0.0.0.0 doudou.diyad.cn
+0.0.0.0 v.soft28.com
+0.0.0.0 www.soongin.org
+0.0.0.0 www.hainane.info
+0.0.0.0 cfile202.uf.daum.net
+0.0.0.0 aswaqweb.com
+0.0.0.0 www.zxekm.info
+0.0.0.0 sundaymold.ru
+0.0.0.0 1633.in
+0.0.0.0 down.haodown123.com
+0.0.0.0 www.neilshirley.com
+0.0.0.0 www.030033.com
+0.0.0.0 1.95622.com
+0.0.0.0 71701.bestxx.info
+0.0.0.0 5900.kjhds.info
+0.0.0.0 265uu.com
+0.0.0.0 m3.mesuo.net
+0.0.0.0 2493.kjhds.info
+0.0.0.0 langma.w110.badudns.cc
+0.0.0.0 www.winmend.com
+0.0.0.0 vk-88.ru
+0.0.0.0 www.91lele.com
+0.0.0.0 www.qq690.com
+0.0.0.0 xml.btplay.net
+0.0.0.0 3tk.3322.org
+0.0.0.0 4332.kjhds.info
+0.0.0.0 ganbb.tv
+0.0.0.0 qm.freevnbc.info
+0.0.0.0 www.office-2010.net.cn
+0.0.0.0 4897.kjhds.info
+0.0.0.0 office-download.org
+0.0.0.0 5138.kjhds.info
+0.0.0.0 6366.kjhds.info
+0.0.0.0 9687.kjhds.info
+0.0.0.0 7461.kjhds.info
+0.0.0.0 7926.kjhds.info
+0.0.0.0 www.yese55.com
+0.0.0.0 a.95622.com
+0.0.0.0 www.6676.com
+0.0.0.0 www.ewvi.info
+0.0.0.0 www.gzxguan.com
+0.0.0.0 www.highest-developments.com
+0.0.0.0 spfpratinendfggtone.net
+0.0.0.0 www.pornourl.tv
+0.0.0.0 dnf820.com
+0.0.0.0 websoftb.3322.org
+0.0.0.0 html.cicitv.in
+0.0.0.0 www.phgczx.cn
+0.0.0.0 qq.sbwanwan.com
+0.0.0.0 erichware.com
+0.0.0.0 www.visualbounds.com
+0.0.0.0 aiicakep.fileave.com
+0.0.0.0 www.ilovefati.org
+0.0.0.0 www.xhdzsc888.com
+0.0.0.0 rcsdo.com
+0.0.0.0 www.181csol.com
+0.0.0.0 www.txhtjy.com
+0.0.0.0 e11.cxe95.com
