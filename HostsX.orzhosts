@@ -91,7 +91,6 @@ ff02::3 ip6-allhosts
 74.125.39.99 kskyapi.appspot.com
 @HostsX OneKey
 #常用站点广告过滤
-0.0.0.0 33.autohome.com.cn
 0.0.0.0 39net.datamaster.com.cn
 0.0.0.0 a-m-s.poco.cn
 0.0.0.0 a4.yeshj.com
@@ -101,7 +100,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.xici.net
 0.0.0.0 ads.wopus.org
 0.0.0.0 ads.zaobao.com
-0.0.0.0 adshow.che168.com
 0.0.0.0 adv.blogupp.com
 0.0.0.0 allyes.jrj.com
 0.0.0.0 allyes.stockstar.com
@@ -6084,6 +6082,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.ynet.com
 0.0.0.0 fun.ynet.com
 0.0.0.0 ranking.ynet.com
+#汽车之家
+0.0.0.0 33.autohome.com.cn
+0.0.0.0 adshow.che168.com
+0.0.0.0 pv.che168.com
 #大洋网
 0.0.0.0 adimg.dayoo.com
 0.0.0.0 rnd.dayoo.com
@@ -8024,6 +8026,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cm.jobkoo.com
 0.0.0.0 a12.alphagodaddy.com
 0.0.0.0 www.ninesky.net
+0.0.0.0 www.cnivv.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
