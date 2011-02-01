@@ -1,4 +1,4 @@
-;version=201102011030
+;version=201102012250
 ;author=郭鹏锟（JocKwok）
 @HostsX Smart Direct
 #Localhost
@@ -8023,6 +8023,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pro365.ju51.com
 0.0.0.0 cm.jobkoo.com
 0.0.0.0 a12.alphagodaddy.com
+0.0.0.0 www.ninesky.net
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
