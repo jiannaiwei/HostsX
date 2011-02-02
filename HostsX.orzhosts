@@ -1,4 +1,4 @@
-;version=201102021230
+;version=201102021610
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -1446,16 +1446,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.lyy.mobi
 0.0.0.0 uni.lyy.mobi
 #Mobclix
+0.0.0.0 www.umeng.com
 0.0.0.0 ads.mobclix.com
 0.0.0.0 data.mobclix.com
 0.0.0.0 s.mobclix.com
 #Mobus
 0.0.0.0 mobus.cn
 0.0.0.0 www.mobus.cn
+0.0.0.0 mobus.vodone.cn
+0.0.0.0 images.vodone.com
 #Moad
 0.0.0.0 wap.moad.cn
 0.0.0.0 moad.cn
 0.0.0.0 wap.6262.com.cn
+#Madhouse
+0.0.0.0 www.madhouse.cn
 #Mydas
 0.0.0.0 bank01.ads.dt.mydas.mobi
 0.0.0.0 bank01.ads.mp.mydas.mobi
@@ -1554,6 +1559,7 @@ ff02::3 ip6-allhosts
 #WapSite
 0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
+0.0.0.0 www.hidroid.net
 0.0.0.0 d.gfan.com
 0.0.0.0 em.kongzhong.com
 0.0.0.0 hi.fywap.com
