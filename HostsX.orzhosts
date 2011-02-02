@@ -1,4 +1,4 @@
-;version=201102021030
+;version=201102021230
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -7104,6 +7104,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 pic.scupio.com
 0.0.0.0 rec.scupio.com
 0.0.0.0 www.scupio.com
+#Shendu
+0.0.0.0 jump.codings.unions.shendu.cc
+0.0.0.0 jump.js.union.shendu.cc
 #T2click
 0.0.0.0 58.t2click.com
 0.0.0.0 adrate.t2click.com
