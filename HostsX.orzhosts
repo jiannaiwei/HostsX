@@ -1,4 +1,4 @@
-;version=201102012250
+;version=201102021030
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -447,7 +447,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 search8.taobao.com
 0.0.0.0 haibao.huoban.taobao.com
 0.0.0.0 re.taobao.com
-0.0.0.0 haha.mx
 0.0.0.0 www.tao123.com
 0.0.0.0 hz.mmstat.com
 0.0.0.0 adtaobao.allyes.cn
