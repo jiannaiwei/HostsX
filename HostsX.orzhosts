@@ -1,4 +1,4 @@
-;version=201102021610
+;version=201102040040
 ;author=¹ùÅôï¿£¨JocKwok£©
 @HostsX Smart Direct
 #Localhost
@@ -157,6 +157,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 update.yunduan.cn
 0.0.0.0 v3.apic.51.com
 0.0.0.0 wo318.k621.com
+0.0.0.0 img.uu1001.cn
 0.0.0.0 www.pagechoice.net
 0.0.0.0 www8.xitek.com
 0.0.0.0 xc.macd.cn
