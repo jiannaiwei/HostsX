@@ -1,4 +1,5 @@
 ;version=201102071030
+;hostsxversion=0.3.0.926
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
 #Localhost
@@ -8158,7 +8159,7 @@ ff02::3 ip6-allhosts
 $FUNCTION:THUNDERAD
 $
 $提示：您好，您正在使用的 HostsX 尚不支持生成此特殊 Hosts 项，
-$　　　请至囧科技官方网站 http://orztech.com/hostsx ，
+$　　　请至囧科技官方网站 http://orztech.com/softwares/hostsx ，
 $      下载最新版本的 HostsX。
 $
 #UUSee
