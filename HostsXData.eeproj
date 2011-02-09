@@ -4,6 +4,7 @@
 <Files>
 	<File RelativePath="HostsX.orzhosts"/>
 	<File RelativePath="HostsX.orzsource"/>
+	<File RelativePath="HostsXWhitelist.orzhosts"/>
 	<File RelativePath="ipv6.txt"/>
 	<Filter Name="lib">
 		<File RelativePath="lib\Acrylic.exe"/>
