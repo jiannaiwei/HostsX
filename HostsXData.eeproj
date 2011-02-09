@@ -7,20 +7,20 @@
 	<File RelativePath="HostsXWhitelist.orzhosts"/>
 	<File RelativePath="ipv6.txt"/>
 	<Filter Name="lib">
-		<File RelativePath="lib\Acrylic.exe"/>
+		<File RelativePath="Acrylic\Acrylic.exe"/>
 		<File RelativePath="Android\adb.exe"/>
 		<File RelativePath="Android\AdbWinApi.dll"/>
 		<File RelativePath="Android\AdbWinUsbApi.dll"/>
 		<File RelativePath="Android\AndriodHosts.vbs"/>
 		<File RelativePath="Windows\cacls5.exe"/>
 		<File RelativePath="Windows\cacls6.exe"/>
+		<File RelativePath="Windows\ie.txt"/>
 		<File RelativePath="Windows\win.txt"/>
 		<File RelativePath="iMonkey\g.ico"/>
 		<File RelativePath="iMonkey\HostsTool.Src"/>
-		<File RelativePath="iMonkey\ie.txt"/>
-		<File RelativePath="iMonkey\PartyKill.txt"/>
 		<File RelativePath="iMonkey\ver.txt"/>
 		<File RelativePath="iMonkey\wget.exe"/>
+		<File RelativePath="3rdPartyData\PartyKill.txt"/>
 	</Filter>
 	<File RelativePath="mwsl.txt"/>
 	<File RelativePath="Readme.txt"/>
