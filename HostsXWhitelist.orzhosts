@@ -1,8 +1,7 @@
-;version=201102091325
+;version=201102091515
 ;author=郭鹏锟（Jock Kwok）
 #影响 360 的在线下载。
 pinst.360.cn
-$DELETE
 
 #导致 CNTV 客户端脚本错误。
 cntv.wrating.com
@@ -14,3 +13,137 @@ ad2.orztech.com
 $REPLACE
 ad1new.orztech.com
 ad2new.orztech.com
+
+#导致 ESET NOD32 无法获取ID的可用时间。
+exp01.eset.com
+$DELETE
+
+#导致 灵格斯词霸 等调用次api的客户端无法正常使用。
+ajax.googleapis.com
+$DELETE
+
+#导致 雅虎新邮箱 无法跳转，影响正常使用。
+us.lrd.yahoo.com
+$DELETE
+
+#导致 网易NBA 无法正常显示网页。
+temp.163.com
+$DELETE
+
+#导致 凤凰直播 播放器无法正常加载。
+sc.ifeng.com
+$DELETE
+
+#导致 土豆网 黑豆高清视屏无法正常播放。
+adcontrol.tudou.com
+$DELETE
+
+#导致 驱动之家 评论条数无法正常显示。
+11.mydrivers.com
+$DELETE
+$RemoveFromIEBlockedSites
+
+#导致 微软 部分产品的下载链接无法跳转和打开。
+clk.atdmt.com
+view.atdmt.com
+switch.atdmt.com
+$DELETE
+
+#导致 微软Live(Msn) 客户端无法显示桌面右下角提示。
+alerts.live.com
+$DELETE
+
+#导致 有道搜索 首页无法正常显示。
+alerts.live.com
+$DELETE
+
+#导致 淘宝网 部分链接无法正常跳转。
+ju.atpanel.com
+$DELETE
+
+#导致 百度和百度空间 图片链接无法正常显示。
+hiphotos.baidu.com
+gimg.baidu.com
+$DELETE
+
+#导致 迅雷 客户端消息提示无法显示。
+msg.client.xunlei.com
+$DELETE
+
+#导致 光影魔术手 客户端素材无法正常下载。
+down.fodder.neoimaging.cn
+$DELETE
+
+#导致 CBS Interactive 页面无法正常显示 链接无法正常下载。
+dw.com.com
+i.i.com.com
+a.abcnews.com
+pic.zol-img.com.cn
+$DELETE
+
+#导致 腾讯QQ QQ秀无法正常显示。
+2052.flash2-http.qq.com
+isdspeed.qq.com
+$DELETE
+
+#导致 腾讯QQ WebQQ无法正常登录。
+pingjs.qq.com
+$DELETE
+
+#导致 腾讯QQ 登陆时logo正常显示。
+qqlogo.qq.com
+$DELETE
+
+#导致 优酷网 搜索功能无法正常使用。
+*.atm.youku.com
+$RemoveFromIEBlockedSites
+
+#导致 新浪视讯 聊天大厅无法进入。
+rm.show.sina.com.cn
+$DELETE
+
+#导致 Avast 无法注册。
+program.avast.com
+$DELETE
+
+#!导致 快播软件 搜索无法正常跳转。
+searchstat.kuaibo.com
+$alerts  此域名存放了很多的广告图片和链接跳转，不建议用户删除。点此查看更多解决方案 http://9bu.org。
+$DELETE
+
+#!导致 搜狗拼音 无法下载词库。
+pinyin.sogou.com
+$alerts  此域名包含了搜狗拼音的桌面推送广告和弹出提示，不建议用户删除。点此查看更多解决方案 http://9bu.org。
+$DELETE
+
+#!导致 部分手机网站 页面无法正常跳转。
+adsclick.uc123.com
+$alerts  此域名存放了很多的广告图片和链接跳转，不建议用户删除。点此查看更多解决方案 http://9bu.org。
+$DELETE
+
+#导致 PPLive 页面无法正常显示。
+static1.pplive.cn
+$DELETE
+
+#导致 PPLive 页面无法正常显示。
+pp.pplive.com
+$DELETE
+
+#导致 PPLive 右下角播放提示无法正常显示。
+pp.v2.pplive.cn
+$DELETE
+
+#!导致 PPLive 无法正常升级。
+up.pplive.com
+upexe.pplive.com
+$DELETE
+
+#第三方数据的错误过滤 导致部分网站无法打开。
+www.in9.cn
+bt.ktxp.com
+rapidshare.com
+97xxoo.com
+www.18p2p.com
+www.97xxoo.com
+cidian.youdao.com
+$DELETE
