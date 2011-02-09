@@ -1,4 +1,4 @@
-;version=201102071030
+;version=201102091255
 ;hostsxversion=0.3.0.926
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1560,14 +1560,15 @@ ff02::3 ip6-allhosts
 #WapSite
 0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
-0.0.0.0 www.hidroid.net
 0.0.0.0 d.gfan.com
 0.0.0.0 em.kongzhong.com
 0.0.0.0 hi.fywap.com
 0.0.0.0 hot.icittys.com
+0.0.0.0 static.189works.com
 0.0.0.0 v2.g2.91.com
 0.0.0.0 wap.cellufun.com
 0.0.0.0 www.adtouchnetwork.com
+0.0.0.0 www.hidroid.net
 #WapEN
 0.0.0.0 ads.namiflow.com
 0.0.0.0 admarvel.mojiva.com
