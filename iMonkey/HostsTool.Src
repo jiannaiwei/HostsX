@@ -220,7 +220,7 @@ goto perms
 :ipv6
 ipv6 install>nul 2>nul
 echo Download ipv6 data£¬Please wait... ...
-%down% http://hostsx.googlecode.com/svn/trunk/ipv6.txt
+%down% http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
 copy gdown\ipv6.txt %hosts%
 goto Perms
 
