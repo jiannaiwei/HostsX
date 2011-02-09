@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--EmEditor Project file-->
+<Project>
+<Files>
+	<File RelativePath="HostsX.orzhosts"/>
+	<File RelativePath="HostsX.orzsource"/>
+	<File RelativePath="ipv6.txt"/>
+	<Filter Name="lib">
+		<File RelativePath="lib\Acrylic.exe"/>
+		<File RelativePath="lib\adb.exe"/>
+		<File RelativePath="lib\AdbWinApi.dll"/>
+		<File RelativePath="lib\AdbWinUsbApi.dll"/>
+		<File RelativePath="lib\AndriodHosts.vbs"/>
+		<File RelativePath="lib\cacls5.exe"/>
+		<File RelativePath="lib\cacls6.exe"/>
+		<File RelativePath="lib\g.ico"/>
+		<File RelativePath="lib\HostsTool.Src"/>
+		<File RelativePath="lib\ie.txt"/>
+		<File RelativePath="lib\PartyKill.txt"/>
+		<File RelativePath="lib\ver.txt"/>
+		<File RelativePath="lib\wget.exe"/>
+		<File RelativePath="lib\win.txt"/>
+	</Filter>
+	<File RelativePath="mwsl.txt"/>
+	<File RelativePath="Readme.txt"/>
+</Files>
+</Project>

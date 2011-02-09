@@ -1,0 +1,15 @@
+;version=201102091325
+;author=郭鹏锟（Jock Kwok）
+#影响 360 的在线下载。
+pinst.360.cn
+
+#导致 CNTV 客户端脚本错误。
+cntv.wrating.com
+$DELETE
+
+#导致 orzTech AD 无法屏蔽。
+ad1.orztech.com
+ad2.orztech.com
+$REPLACE
+ad1new.orztech.com
+ad2new.orztech.com
