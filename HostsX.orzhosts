@@ -1,5 +1,5 @@
-;version=201102091800
-;hostsxversion=0.3.0.926
+;version=201102091945
+;hostsxversion=0.3.0.929
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
 #Localhost
@@ -742,7 +742,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 spd.atdmt.com
 0.0.0.0 spe.atdmt.com
 0.0.0.0 srch.atdmt.com
-0.0.0.0 switch.atdmt.com
 0.0.0.0 vid.atdmt.com
 0.0.0.0 www.atdmt.com
 0.0.0.0 www.atlasdmt.com

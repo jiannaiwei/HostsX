@@ -54,9 +54,8 @@ $DELETE
 ju.atpanel.com
 $DELETE
 
-#导致百度和百度空间图片链接无法正常显示。
+#导致百度空间图片链接无法正常显示。
 hiphotos.baidu.com
-gimg.baidu.com
 $DELETE
 
 #导致迅雷客户端消息提示无法显示。
@@ -121,7 +120,6 @@ pp.v2.pplive.cn
 $DELETE
 
 #!导致 PPLive 无法正常升级。
-up.pplive.com
 upexe.pplive.com
 $DELETE
 
