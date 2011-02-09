@@ -2,6 +2,7 @@
 ;author=郭鹏锟（Jock Kwok）
 #影响 360 的在线下载。
 pinst.360.cn
+$DELETE
 
 #导致 CNTV 客户端脚本错误。
 cntv.wrating.com
