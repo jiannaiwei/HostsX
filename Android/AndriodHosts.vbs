@@ -15,9 +15,9 @@ end with
 set xml=Nothing 
 end function
 GetHttpFile("http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts")
-GetHttpFile("http://hostsx.googlecode.com/svn/trunk/lib/adb.exe")
-GetHttpFile("http://hostsx.googlecode.com/svn/trunk/lib/AdbWinApi.dll")
-GetHttpFile("http://hostsx.googlecode.com/svn/trunk/lib/AdbWinUsbApi.dll")
+GetHttpFile("http://hostsx.googlecode.com/svn/trunk/Android/adb.exe")
+GetHttpFile("http://hostsx.googlecode.com/svn/trunk/Android/AdbWinApi.dll")
+GetHttpFile("http://hostsx.googlecode.com/svn/trunk/Android/AdbWinUsbApi.dll")
 '------------------------------------------------------------
 set fso=createobject("scripting.filesystemobject")
 set file=fso.opentextfile("HostsX.orzhosts")
@@ -72,7 +72,7 @@ fw.writeline("echo Hosts complete change!")
 fw.writeline("echo Enjoy it!")
 fw.writeline("taskkill  /f /T /im adb.exe")
 fw.writeline("pause")
-fw.writeline("del /f /q adb.exe adbwinapi.dll adbwinusbapi.dll >nul 2>nul")
+fw.writeline("del /f /q hosts adb.exe adbwinapi.dll adbwinusbapi.dll >nul 2>nul")
 fw.writeline("del %0")
 fw.close
 ws.run "transfer.bat"
