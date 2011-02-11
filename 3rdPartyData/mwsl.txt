@@ -1,10 +1,10 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.1.31
+恶意网站HOSTS屏蔽文件-2011.2.7
 www.mwsl.org.cn
 ---------------------------------------
 All Rights Reserved 2007-2010
-*******************g********************
+***************************************
 127.0.0.1 localhost
 0.0.0.0 www.zzzz1.com
 0.0.0.0 zzzz1.com
@@ -25050,3 +25050,74 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.181csol.com
 0.0.0.0 www.txhtjy.com
 0.0.0.0 e11.cxe95.com
+0.0.0.0 extratopupgrade.ru
+0.0.0.0 down.baisou123.com
+0.0.0.0 advancedwebanalytic.com
+0.0.0.0 gate55.info
+0.0.0.0 mailwbg4.com
+0.0.0.0 scanprime.com
+0.0.0.0 www.v989.com
+0.0.0.0 www.bombermix.com.br
+0.0.0.0 hmdoor.3322.org
+0.0.0.0 botnetdown.gicp.net
+0.0.0.0 ua46235362346.co.cc
+0.0.0.0 novasourefest.com.br
+0.0.0.0 movenestecobra.ru
+0.0.0.0 google.nsp99.com
+0.0.0.0 facebook-surprise-cvsa.tk
+0.0.0.0 microsupdates.com
+0.0.0.0 www.daodao123.info
+0.0.0.0 qergyhuk.co.cc
+0.0.0.0 www.omeyasweb.com
+0.0.0.0 xingchang.idc939.com
+0.0.0.0 regvac.com
+0.0.0.0 u2ef323_g12d4v.hotel400.com
+0.0.0.0 www.shiping8.info
+0.0.0.0 dom.xz22.com
+0.0.0.0 www.fmsoft.ru
+0.0.0.0 wgsqwr.7788j.info
+0.0.0.0 osdxx66.7788j.info
+0.0.0.0 pubruluk.co.cc
+0.0.0.0 www.033200.com
+0.0.0.0 www.indeks.edu.pl
+0.0.0.0 www.gyyxzjig.com
+0.0.0.0 www.shoptvandmore.com
+0.0.0.0 uu.kanlink.cn
+0.0.0.0 3e5a2.redguarder8.com
+0.0.0.0 www.qichee.com
+0.0.0.0 info.update.klzhe.com
+0.0.0.0 www.unzjs.com
+0.0.0.0 buyvideo.info
+0.0.0.0 d1.tianxiaba.net
+0.0.0.0 www.gongfusky.com
+0.0.0.0 adgorge.com
+0.0.0.0 bdcoast.com
+0.0.0.0 d1.downxia.net
+0.0.0.0 d2.downxia.net
+0.0.0.0 gdfgdfgdgdfgdfg.in.ua
+0.0.0.0 xqasvx.ttqipai.com
+0.0.0.0 bigtitzsarena.com
+0.0.0.0 btcgww.ttqipai.com
+0.0.0.0 down.ttqipai.com
+0.0.0.0 www.baidusw3.com
+0.0.0.0 play.ikpass.com
+0.0.0.0 xgqsmz.ttqipai.com
+0.0.0.0 fregiv.ttqipai.com
+0.0.0.0 xia.jime3.info
+0.0.0.0 gj.13ybx.com
+0.0.0.0 ad.13ybx.com
+0.0.0.0 Ac.qvxd.info
+0.0.0.0 aka.3-a.net
+0.0.0.0 agl.3-a.net
+0.0.0.0 xngh2.htmi2.com
+0.0.0.0 web.htmi2.com
+0.0.0.0 vip.htmi2.com
+0.0.0.0 bbs2.mapeak.com
+0.0.0.0 www.pagesinventory.com
+0.0.0.0 hn.yigeyuming.com
+0.0.0.0 inline477.info
+0.0.0.0 bofangqi.6gg.cn
+0.0.0.0 vegaspoker24.com
+0.0.0.0 www.playsushi.com
+0.0.0.0 zio77777.interfree.it
+0.0.0.0 web1.plscdn.com

@@ -1,5 +1,5 @@
-;version=201102091945
-;hostsxversion=0.3.0.929
+;version=201102111111
+;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
 #Localhost
@@ -899,7 +899,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 seapp.stat.360safe.com
 0.0.0.0 seupdate.360safe.com
 0.0.0.0 stat.360safe.com
-0.0.0.0 upload.360safe.com x.360safe.com pinst.360.cn rd.360.cn
+0.0.0.0 upload.360safe.com
+0.0.0.0 x.360safe.com
+0.0.0.0 pinst.360.cn
+0.0.0.0 rd.360.cn
 @HostsX OneKey/ĞÂÀË
 #3GĞÂÀË
 0.0.0.0 202.106.184.178
