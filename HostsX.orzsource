@@ -1,13 +1,15 @@
-;version=2011021101
--
-下载带 HostsX 广告屏蔽数据的支持通配符屏蔽的 Acrylic DNS*http://9bu.org/39
-下载适用于 Andriod 设备的Hosts文件*http://9bu.org/3a
+;version=2011021102
+Acrylic DNS Proxy 版 HostsX 广告屏蔽数据`http://hostsx.googlecode.com/svn/trunk/Acrylic/AcrylicHosts.txt
 -
 IPv6 版智能转向数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
 -
 注意：下面几组 Hosts 数据建议只使用一种！*http://orztech.com/softwares/hostsx/help
-恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/Mwsl.txt
-MVPS.org 版数据`http://www.mvps.org/winhelp2002/hosts.txt
-SomeoneWhoCares.org 版数据`http://someonewhocares.org/hosts/hosts
-IT-Mate.co.uk 版数据`http://support.it-mate.co.uk/downloads/HOSTS.txt
-Yoyo.org 版数据`http://pgl.yoyo.org/as/serverlist.php?showintro=0;hostformat=hosts
+恶意网站实验室（MWSL）恶意网站数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/Mwsl.txt
+MVPS.org 恶意网站数据`http://www.mvps.org/winhelp2002/hosts.txt
+SomeoneWhoCares.org 恶意网站数据`http://someonewhocares.org/hosts/hosts
+IT-Mate.co.uk 恶意网站数据`http://support.it-mate.co.uk/downloads/HOSTS.txt
+Yoyo.org 恶意网站数据`http://pgl.yoyo.org/as/serverlist.php?showintro=0;hostformat=hosts
+-
+下载适用于 Andriod 设备的 Hosts 文件*http://9bu.org/3a
+-
+HostsX 0.4.2.1024 已发布，请即刻更新！*http://9bu.org/hostsx
