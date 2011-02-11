@@ -1053,6 +1053,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 mpv.sandai.net
 0.0.0.0 pubstat.sandai.net
 0.0.0.0 ub.dphub.sandai.net
+#Thunder
+$FUNCTION:THUNDERAD
+$
+$提示：您好，您正在使用的 HostsX 尚不支持生成此特殊 Hosts 项，
+$　　　请至囧科技官方网站 http://orztech.com/softwares/hostsx ，
+$      下载最新版本的 HostsX。
+$
 #狗狗搜索
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
@@ -8156,13 +8163,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 qvodlink.hco.cc
 #SopCast
 0.0.0.0 home.sopserv.com
-#Thunder
-$FUNCTION:THUNDERAD
-$
-$提示：您好，您正在使用的 HostsX 尚不支持生成此特殊 Hosts 项，
-$　　　请至囧科技官方网站 http://orztech.com/softwares/hostsx ，
-$      下载最新版本的 HostsX。
-$
 #UUSee
 0.0.0.0 g.uusee.com
 0.0.0.0 sa.uusee.com
