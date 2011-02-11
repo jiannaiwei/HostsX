@@ -7,10 +7,10 @@ Acrylic DNS Proxy 版 HostsX 广告屏蔽数据`http://hostsx.googlecode.com/svn/trunk/
 -
 IPv6 版智能转向数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
 -
-恶意网站实验室（MWSL）恶意网站数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/Mwsl.txt
-MVPS.org 恶意网站数据`http://www.mvps.org/winhelp2002/hosts.txt
-SomeoneWhoCares.org 恶意网站数据`http://someonewhocares.org/hosts/hosts
-IT-Mate.co.uk 恶意网站数据`http://support.it-mate.co.uk/downloads/HOSTS.txt
-Yoyo.org 恶意网站数据`http://pgl.yoyo.org/as/serverlist.php?showintro=0;hostformat=hosts
+恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/Mwsl.txt
+MVPS.org 数据`http://www.mvps.org/winhelp2002/hosts.txt
+SomeoneWhoCares.org 数据`http://someonewhocares.org/hosts/hosts
+IT-Mate.co.uk 数据`http://support.it-mate.co.uk/downloads/HOSTS.txt
+Yoyo.org 数据`http://pgl.yoyo.org/as/serverlist.php?showintro=0;hostformat=hosts
 -
 HostsX 0.4.2.1024 已发布，请即刻更新！*http://9bu.org/hostsx
