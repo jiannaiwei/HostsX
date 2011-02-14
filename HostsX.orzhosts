@@ -1,4 +1,4 @@
-;version=201102111111
+;version=201102150001
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -73,6 +73,7 @@ ff02::3 ip6-allhosts
 #Puff
 64.71.141.148 intl.easyssh.info
 #Soutong
+2001:470:a:17c::2 ipv6.5isotoi5.org
 2001:470:a:17c::2 soutong.iloveyou
 63.223.106.181 soutong.com
 #Twitter
