@@ -1,4 +1,4 @@
-;version=20110211
+;version=20110216
 ;author=郭鹏锟（JocKwok）
 #常用通配符过滤
 0.0.0.0	clkstat.*
@@ -53,7 +53,7 @@
 0.0.0.0 stat.*
 0.0.0.0 stats.*
 0.0.0.0 tongji.*
-0.0.0.0 toolbar.*
+0.0.0.0 toolbar.* toolbar.google.com
 0.0.0.0 track.*
 0.0.0.0 uniclick.*
 0.0.0.0 union.*

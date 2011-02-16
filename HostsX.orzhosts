@@ -1,4 +1,4 @@
-;version=201102150001
+;version=201102161521
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -100,6 +100,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.ddvip.com
 0.0.0.0 ad.tsinghua.edu.cn
 0.0.0.0 ad.xici.net
+0.0.0.0 ad1.tiezun.com
 0.0.0.0 ads.wopus.org
 0.0.0.0 ads.zaobao.com
 0.0.0.0 adv.blogupp.com
@@ -112,7 +113,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ccc.xdowns.com
 0.0.0.0 click.cnfol.com
 0.0.0.0 click.union.360buy.com
-0.0.0.0 show.union.360buy.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
 0.0.0.0 counter.gouzai.cn
@@ -125,6 +125,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 iads.xinmin.cn
 0.0.0.0 image10.autobild.cn
 0.0.0.0 images2.zhulang.com
+0.0.0.0 img.uu1001.cn
 0.0.0.0 jj.topzj.com
 0.0.0.0 js.adm.cngba.com
 0.0.0.0 m.union.hongxiu.com
@@ -136,6 +137,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rcm.amazon.com
 0.0.0.0 report.chinanews.com
 0.0.0.0 s1.wopti.net
+0.0.0.0 show.union.360buy.com
 0.0.0.0 shows.fdc.com.cn
 0.0.0.0 sp.vcimg.com
 0.0.0.0 sponsor.verycd.com
@@ -150,7 +152,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.daqi.com
 0.0.0.0 union.phpwind.com
 0.0.0.0 union.pomoho.com
-0.0.0.0 union.rising.com.cn
 0.0.0.0 union.the999.com
 0.0.0.0 union.vancl.com
 0.0.0.0 union.zhongsou.com
@@ -159,7 +160,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 update.yunduan.cn
 0.0.0.0 v3.apic.51.com
 0.0.0.0 wo318.k621.com
-0.0.0.0 img.uu1001.cn
 0.0.0.0 www.pagechoice.net
 0.0.0.0 www8.xitek.com
 0.0.0.0 xc.macd.cn
@@ -635,14 +635,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.zol.com.cn
 @HostsX OneKey/金山在线
 #金山在线
+0.0.0.0 kinfo.wps.cn
 0.0.0.0 db.union.download.kingsoft.com
+0.0.0.0 push.db.kingsoft.com
 0.0.0.0 stat.sp.kingsoft.com
 0.0.0.0 union.jx2.kingsoft.com
 0.0.0.0 union.kingsoft.com
 0.0.0.0 union.wps.kingsoft.com
 #金山毒霸
-0.0.0.0 kinfo.wps.cn
-0.0.0.0 api.pc120.com
 0.0.0.0 bo.duba.net
 0.0.0.0 cu001.www.duba.net
 0.0.0.0 cu002.www.duba.net
@@ -651,11 +651,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 i2c.duba.net
 0.0.0.0 ifr.duba.net
 0.0.0.0 info.duba.net
-0.0.0.0 push.db.kingsoft.com
 0.0.0.0 u.www.duba.net
 0.0.0.0 dl.ijinshan.com
 0.0.0.0 stat.ijinshan.com
 0.0.0.0 up.ijinshan.com
+0.0.0.0 api.pc120.com
 #金山词霸
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
@@ -842,6 +842,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.uume.com
 #人人网
 0.0.0.0 c.renren.com
+0.0.0.0 edm.renren.com
 0.0.0.0 click.jebe.renren.com
 0.0.0.0 cupid.jebe.renren.com
 0.0.0.0 dian.cupid.jebe.renren.com
@@ -5982,6 +5983,9 @@ $
 0.0.0.0 img.rayfile.com
 0.0.0.0 raya.rayfile.com
 0.0.0.0 w105.rayfile.com
+#Rising
+0.0.0.0 alert.rising.com.cn
+0.0.0.0 union.rising.com.cn
 @HostsX 国内站点广告/视频类网站
 #CNTV
 0.0.0.0 a.cctv.com
@@ -6367,6 +6371,7 @@ $
 0.0.0.0 openx.adpower.cn
 0.0.0.0 p.adpower.cn
 0.0.0.0 pcount.adpower.cn
+0.0.0.0 pic7.adpower.cn
 0.0.0.0 s1.adpower.cn
 0.0.0.0 s1pic.adpower.cn
 0.0.0.0 s1pic1.adpower.cn
