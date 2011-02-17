@@ -1,4 +1,4 @@
-;version=201102161931
+;version=201102171815
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -2362,6 +2362,8 @@ $
 0.0.0.0 p.opt.fimserve.com
 0.0.0.0 fimserve.com
 #Friendfinder Networks
+0.0.0.0 img.cnnix.com
+0.0.0.0 www.asiafriendfinder.com
 0.0.0.0 ads.friendfinder.com
 0.0.0.0 e89.friendfinder.com
 0.0.0.0 banners.friendfinder.com
