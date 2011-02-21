@@ -1,4 +1,4 @@
-;version=201102171815
+;version=201102211350
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -649,8 +649,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 cu003.www.duba.net
 0.0.0.0 cu004.www.duba.net
 0.0.0.0 i2c.duba.net
+0.0.0.0 i2u.www.duba.net
 0.0.0.0 ifr.duba.net
 0.0.0.0 info.duba.net
+0.0.0.0 labs.duba.net
 0.0.0.0 u.www.duba.net
 0.0.0.0 dl.ijinshan.com
 0.0.0.0 stat.ijinshan.com
@@ -6173,6 +6175,9 @@ $
 0.0.0.0 click.5j.com
 0.0.0.0 click2.5j.com
 0.0.0.0 code.2bj.cc
+0.0.0.0 code1.2bj.cc
+0.0.0.0 code2.2bj.cc
+0.0.0.0 code3.2bj.cc
 0.0.0.0 code4.2bj.cc
 0.0.0.0 pic.2bj.cn
 0.0.0.0 www.2bj.cn
@@ -7312,6 +7317,8 @@ $
 0.0.0.0 www.wrating.com
 0.0.0.0 xinmin.wrating.com
 0.0.0.0 ztqq.wrating.com
+#Wyunion
+0.0.0.0 c.wyunion.com
 #XieTeng
 0.0.0.0 www.xt918.com
 0.0.0.0 xt918.com
