@@ -1,4 +1,4 @@
-;version=201102211432
+;version=201102211802
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8066,6 +8066,7 @@ $
 0.0.0.0 a12.alphagodaddy.com
 0.0.0.0 www.ninesky.net
 0.0.0.0 www.cnivv.com
+0.0.0.0 d.afdads.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
@@ -8182,6 +8183,8 @@ $
 0.0.0.0 buffer-ad.qvod.com
 0.0.0.0 insert-ad.qvod.com
 0.0.0.0 text-ad.qvod.com
+0.0.0.0 tj.qvod.com
+0.0.0.0 update.qvod.com
 0.0.0.0 hao.kuaibo.com
 0.0.0.0 searchstat.kuaibo.com
 0.0.0.0 qvodlink.hco.cc
