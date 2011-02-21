@@ -1,4 +1,4 @@
-;version=201102211350
+;version=201102211432
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -8091,9 +8091,11 @@ $
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
 0.0.0.0 adm.funshion.com
+0.0.0.0 cms.funshion.com
 0.0.0.0 gstat.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
+0.0.0.0 shop.funshion.com
 #HooKQQ
 0.0.0.0 www.hookqq.com
 0.0.0.0 hookqq.com
