@@ -1,5 +1,5 @@
 @echo off
-set ver=2.7
+set ver=2.721
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(Echo 请使用右键管理员身份运行&&Pause >nul&&Exit)
 Rd "%a%\test_permissions"
@@ -10,7 +10,7 @@ for %%i in (c d e f a) do (
 set /a te=!!te!+1!
 if "!xc!"=="!te!" set xc=%%i)
 color 0%xc%
-if not exist "%systemroot%\system32\wget.exe" copy "./wget.exe" "%systemroot%\system32\"
+if not exist %systemroot%\system32\wget.exe copy wget.exe %systemroot%\system32\
 rem important update temp
 reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /f >nul 2>nul
 cls
@@ -220,7 +220,7 @@ goto perms
 :ipv6
 ipv6 install>nul 2>nul
 echo Download ipv6 data，Please wait... ...
-%down% http://hostsx.googlecode.com/svn/trunk/ipv6.txt
+%down% http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
 copy gdown\ipv6.txt %hosts%
 goto Perms
 
@@ -262,32 +262,52 @@ echo Backed up Hosts file by HostsTool was deleted!
 Pause&goto menu
 
 :appit
-find "0.0.0.0 happyfarm.qzone.qq.com" %hosts% > nul
+find "115.47.219.95 happyfarm.qzone.qq.com" %hosts% > nul
 if %errorlevel% == 1 (
   @echo.>>%hosts%
-  @echo 0.0.0.0 happyfarm.qzone.qq.com>>%hosts%
+  @echo 115.47.219.95 happyfarm.qzone.qq.com>>%hosts%
 )
-find "0.0.0.0 user.qzone.qq.com" %hosts% > nul
+find "115.47.219.95 user.qzone.qq.com" %hosts% > nul
 if %errorlevel% == 1 (
   @echo.>>%hosts%
-  @echo 0.0.0.0 user.qzone.qq.com>>%hosts%
+  @echo 115.47.219.95 user.qzone.qq.com>>%hosts%
 )
-find "0.0.0.0 www.kaixin001.com" %hosts% > nul
+find "115.47.219.95 www.kaixin001.com" %hosts% > nul
 if %errorlevel% == 1 (
   @echo.>>%hosts%
-  @echo 0.0.0.0 www.kaixin001.com>>%hosts%
+  @echo 115.47.219.95 www.kaixin001.com>>%hosts%
 )
-find "0.0.0.0 www.4399.com" %hosts% > nul
+find "115.47.219.95 www.4399.com" %hosts% > nul
 if %errorlevel% == 1 (
   @echo.>>%hosts%
-  @echo 0.0.0.0 www.4399.com>>%hosts%
+  @echo 115.47.219.95 www.4399.com>>%hosts%
 )
-find "0.0.0.0 apps.renren.com" %hosts% > nul
+find "115.47.219.95 www.2366.com" %hosts% > nul
 if %errorlevel% == 1 (
   @echo.>>%hosts%
-  @echo 0.0.0.0 apps.renren.com>>%hosts%
+  @echo 115.47.219.95 www.2366.com>>%hosts%
 )
-echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game.
+find "115.47.219.95 www.2144.cn" %hosts% > nul
+if %errorlevel% == 1 (
+  @echo.>>%hosts%
+  @echo 115.47.219.95 www.2144.cn>>%hosts%
+)
+find "115.47.219.95 www.7k7k.com" %hosts% > nul
+if %errorlevel% == 1 (
+  @echo.>>%hosts%
+  @echo 115.47.219.95 www.7k7k.com>>%hosts%
+)
+find "115.47.219.95 wan.360.cn" %hosts% > nul
+if %errorlevel% == 1 (
+  @echo.>>%hosts%
+  @echo 115.47.219.95 wan.360.cn>>%hosts%
+)
+find "115.47.219.95 apps.renren.com" %hosts% > nul
+if %errorlevel% == 1 (
+  @echo.>>%hosts%
+  @echo 115.47.219.95 apps.renren.com>>%hosts%
+)
+echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.
 echo You Can Use Hosts File Fix and Restore to Cancle.
 pause&goto menu
 
@@ -308,7 +328,7 @@ goto dns
 :adietrust
 echo We Used yoyo data(pgl.yoyo.org) and very thanks!
 rem http://pgl.yoyo.org/adservers/serverlist.php?hostformat=win32reg-sp&showintro=1&startdate%5Bday%5D=&startdate%5Bmonth%5D=&startdate%5Byear%5D=
-wget http://hostsx.googlecode.com/svn/trunk/iMonkey/ie.txt
+wget http://hostsx.googlecode.com/svn/trunk/Windows/ie.txt
 echo   Adding non-malicious URL into your browser security zones.
 echo   Please wait……
 set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
