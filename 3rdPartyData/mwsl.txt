@@ -1,7 +1,10 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.2.7
+恶意网站HOSTS屏蔽文件-2011.2.21
 www.mwsl.org.cn
+---------------------------------------
+注意：115.47.219.95为MWSL的拦截警示页面
+警告：不得将此数据用于违法犯罪行为！
 ---------------------------------------
 All Rights Reserved 2007-2010
 ***************************************
@@ -22349,7 +22352,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 wjfy.xinhuawangluo.com
 0.0.0.0 www.funny8.net
 0.0.0.0 www.33ip.info
-0.0.0.0 www.8mhh.com
 0.0.0.0 mail.com.sina-va.cn
 0.0.0.0 cctv-u886.cn
 0.0.0.0 xy2.cbg163wy.com
@@ -23530,7 +23532,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 6y71.3322.org
 0.0.0.0 www.163187.com
 0.0.0.0 down.games520.cn
-0.0.0.0 www.downbank.cn
 0.0.0.0 u.lookforhosting.com
 0.0.0.0 ccc.billlez.cn
 0.0.0.0 www.games520.cn
@@ -23921,7 +23922,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 yudgoalq.co.cc
 0.0.0.0 902a9.3322.org
 0.0.0.0 cctvq10.com
-0.0.0.0 www.tube8.com
 0.0.0.0 www.cctvq10.com
 0.0.0.0 xalentarna.net
 0.0.0.0 485800.com
@@ -25121,3 +25121,111 @@ All Rights Reserved 2007-2010
 0.0.0.0 www.playsushi.com
 0.0.0.0 zio77777.interfree.it
 0.0.0.0 web1.plscdn.com
+0.0.0.0 aq.qq.com.inuscver.cn.la
+0.0.0.0 hp.xiazhai8.net
+0.0.0.0 ou.sdo.com
+0.0.0.0 d1.xiazhai8.net
+0.0.0.0 fastgoal.ru
+0.0.0.0 c2.cr173.com
+0.0.0.0 www.bufenli.com
+0.0.0.0 757qwerty.ru
+0.0.0.0 dick.perfectexe.com
+0.0.0.0 facebook-surprise-mkwr.tk
+0.0.0.0 baidu.com.n8y09r.1688.com.020of8.siwazuzoai.info
+0.0.0.0 count.qqkuyou.cn
+0.0.0.0 www.turkeyinworld.ru
+0.0.0.0 itromet.com
+0.0.0.0 a.naxieren99.com
+0.0.0.0 xitong.animosite.info
+0.0.0.0 cddzfx.com
+0.0.0.0 cc1.gogototos.info
+0.0.0.0 valentinred.info
+0.0.0.0 altipesa.com
+0.0.0.0 www.googleclg.com
+0.0.0.0 assets.qqhe.com
+0.0.0.0 pardokkate.com
+0.0.0.0 jili.t35.com
+0.0.0.0 www.baiduksw.com
+0.0.0.0 www.sinditec.com.br
+0.0.0.0 www.roadandtrack.net.au
+0.0.0.0 my.qqhe.com
+0.0.0.0 www.gloi.org
+0.0.0.0 www.maxsex.mobi
+0.0.0.0 pornoguzeli.net
+0.0.0.0 www.789654.com
+0.0.0.0 www.midiabrasil3d.com.br
+0.0.0.0 linuxcostablanca.com
+0.0.0.0 www.18481.com
+0.0.0.0 free.7host06.com
+0.0.0.0 user.qqhe.com
+0.0.0.0 christybonham118.com
+0.0.0.0 e3.96pk.com
+0.0.0.0 123dd.info
+0.0.0.0 chamboy.com
+0.0.0.0 taobao.0931.info
+0.0.0.0 www.sohusw4.com
+0.0.0.0 c11.31113.cn
+0.0.0.0 taobao.0851.info
+0.0.0.0 c26.31113.cn
+0.0.0.0 www.niudoudou.com
+0.0.0.0 hub.colo.owned.hu
+0.0.0.0 e-exchanger.ir
+0.0.0.0 qkankan.6gg.cn
+0.0.0.0 livestar.info
+0.0.0.0 oneboy.ru
+0.0.0.0 bluedisk.ru
+0.0.0.0 d3.downxia.net
+0.0.0.0 frontdesk003.51mudi.com
+0.0.0.0 www.xh2009.com
+0.0.0.0 kak2.u2m.ru
+0.0.0.0 msn.youbak.com
+0.0.0.0 www.sinaxnq.com
+0.0.0.0 www.sfc008.com
+0.0.0.0 wwv.cz3.net
+0.0.0.0 sunbin5.web25.badudns.cc
+0.0.0.0 www.1234.la
+0.0.0.0 www.wusheng.org
+0.0.0.0 www.yiqikanba.com
+0.0.0.0 exp0se.us
+0.0.0.0 www.fxxx114.com
+0.0.0.0 boob.perfectexe.com
+0.0.0.0 bebookfunk.com
+0.0.0.0 cctv9933.tk
+0.0.0.0 www.jipinla.com
+0.0.0.0 anq.3-a.net
+0.0.0.0 setup.ov-v.com
+0.0.0.0 v.gxtv.cn
+0.0.0.0 www.icvss.com
+0.0.0.0 wwv.diyou.net
+0.0.0.0 tibia-mc.net
+0.0.0.0 www.xinlongcc.com
+0.0.0.0 www.456t.com
+0.0.0.0 www.sinap4k.com
+0.0.0.0 d4.downxia.net
+0.0.0.0 ang.3-a.net
+0.0.0.0 wvw.86819.com
+0.0.0.0 o.9cdn.com
+0.0.0.0 www.68262.com
+0.0.0.0 aimic-groupllc.asia
+0.0.0.0 d.kele55.com
+0.0.0.0 www.awrtys.com
+0.0.0.0 www.hyaiwl.name
+0.0.0.0 soft7.7747.net
+0.0.0.0 sp.demisetoken.com
+0.0.0.0 en.demisetoken.com
+0.0.0.0 www.dielo.com.br
+0.0.0.0 zemondocooler.com
+0.0.0.0 rw.nxonline.info
+0.0.0.0 uh174299.ukrdomen.com
+0.0.0.0 cebistro.com
+0.0.0.0 www.formatron.com.mx
+0.0.0.0 stonegrouphotels.com
+0.0.0.0 b.xppclapgirl.com
+0.0.0.0 aimic-groupllc.at
+0.0.0.0 aimic-groupllc.cc
+0.0.0.0 ppi.uz4.net
+0.0.0.0 www.turkiyegb.com
+0.0.0.0 uk9otweuef39gmqt787if2uz.net
+0.0.0.0 www.automaticyaran.com
+0.0.0.0 www.habajuva.net
+0.0.0.0 www.turksex.co

@@ -1,4 +1,4 @@
-;version=201102211802
+;version=201102231830
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -497,6 +497,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 utility.baidu.com
 0.0.0.0 utk.baidu.com
 0.0.0.0 wangmeng.baidu.com
+0.0.0.0 youxi.baidu.com
 #ÆæÒÕ
 0.0.0.0 afp.qiyi.com
 0.0.0.0 focusbaiduafp.allyes.com
@@ -823,6 +824,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 msnportal.112.2o7.net
 @HostsX OneKey/Ç§Ïð»¥¶¯
 #Ã¨ÆËÍø
+0.0.0.0 g.mop.com
 0.0.0.0 gg.mop.com
 0.0.0.0 imgpub.mop.com
 0.0.0.0 in.dg.mop.com
@@ -6975,6 +6977,7 @@ $
 0.0.0.0 js.doyoo.net
 #egooad
 0.0.0.0 code.egooad.com
+0.0.0.0 img.egooad.com
 0.0.0.0 lick.egooad.com
 0.0.0.0 new.egooad.com
 #Gamediad
@@ -7049,6 +7052,7 @@ $
 0.0.0.0 ww346.onetad.com
 0.0.0.0 ww360.onetad.com
 0.0.0.0 ww363.onetad.com
+0.0.0.0 ww366.onetad.com
 0.0.0.0 ww78.onetad.com
 0.0.0.0 ww8.onetad.com
 0.0.0.0 wwv.onetad.com
@@ -7258,6 +7262,7 @@ $
 0.0.0.0 code.woairing.cn
 #Woyo
 0.0.0.0 media.woyo.com
+0.0.0.0 regist.woyo.com
 0.0.0.0 trace.woyo.com
 #Wrating
 0.0.0.0 163.wrating.com
@@ -7494,7 +7499,6 @@ $
 0.0.0.0 s.yniywo.com
 0.0.0.0 shop.hoo6.com
 0.0.0.0 shop.liweihui.com
-0.0.0.0 shop57205080.taobao.com
 0.0.0.0 smtown.com
 0.0.0.0 su.maca-cn.com
 0.0.0.0 superjunior.smtown.com
@@ -7502,6 +7506,7 @@ $
 0.0.0.0 testserver.zoosnet.net
 0.0.0.0 tr.vihit.com
 0.0.0.0 u.the668.com
+0.0.0.0 u7.47sou.com
 0.0.0.0 v3.huiyee.com
 0.0.0.0 v8.olajk.com
 0.0.0.0 vda.uuzu.com
@@ -7511,6 +7516,7 @@ $
 0.0.0.0 www.1366.net
 0.0.0.0 www.16tuan.cn
 0.0.0.0 www.22jianfei.com
+0.0.0.0 www.78qc.com
 0.0.0.0 www.85tao.net
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.bsj001.com
@@ -7551,7 +7557,6 @@ $
 0.0.0.0 zh.qingchun001.cn
 0.0.0.0 zx.98712.com
 0.0.0.0 zx360.v1kk.com
-0.0.0.0 u7.47sou.com
 #À¬»øÊÓÆµ
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -7760,6 +7765,7 @@ $
 0.0.0.0 p.3gm.com.cn
 0.0.0.0 c.91wan.com
 0.0.0.0 u.9lwan.com
+0.0.0.0 img2.51wan.com
 0.0.0.0 union.51wan.com
 0.0.0.0 union1.51wan.com
 0.0.0.0 g.webgame.com.cn
@@ -7776,23 +7782,53 @@ $
 0.0.0.0 counter.ztgame.com
 0.0.0.0 lh.ztgame.com
 0.0.0.0 jr.ztgame.com
+0.0.0.0 agenda.r.arpg2.com
+0.0.0.0 bean.r.arpg2.com
 0.0.0.0 chess.r.arpg2.com
 0.0.0.0 cybor.r.arpg2.com
+0.0.0.0 dx.arpg2.com
 0.0.0.0 eett.r.arpg2.com
+0.0.0.0 fatch.r.arpg2.com
+0.0.0.0 keyside.r.arpg2.com
+0.0.0.0 rom.r.arpg2.com
+0.0.0.0 smal.r.arpg2.com
+0.0.0.0 xiaoh.r.arpg2.com
 0.0.0.0 xiaohua.r.arpg2.com
 0.0.0.0 tg1.hlwan.com
 0.0.0.0 tg2.hlwan.com
+0.0.0.0 111a.hlwan.net
 0.0.0.0 u.9wee.com
 0.0.0.0 web.9wee.com
 0.0.0.0 www1.9wee.com
-0.0.0.0 tg.000wan.com
-0.0.0.0 www.000wan.com
 0.0.0.0 newtest.5622.cn
 0.0.0.0 cpm.5622.cn
 0.0.0.0 asqx.qq937.com
+0.0.0.0 frxz.qq937.com
 0.0.0.0 frxz01.qq937.com
-0.0.0.0 qq937.com
 0.0.0.0 mcsd.qq937.com
+0.0.0.0 mhxx.qq937.com
+0.0.0.0 qq937.com
+0.0.0.0 yjjh.qq937.com
+0.0.0.0 www.qq937.com
+0.0.0.0 xxfy.klonweb.com.cn
+0.0.0.0 unigg.kunlun.com
+0.0.0.0 juu.tg.mybestyouxi.cn
+0.0.0.0 r.mybestyouxi.cn
+0.0.0.0 jy.ferrygame.com
+0.0.0.0 u.ferrygame.com
+0.0.0.0 xy.linekong.com
+0.0.0.0 rx.linekong.com
+0.0.0.0 tg.86mmo.com
+0.0.0.0 tg2.86mmo.com
+0.0.0.0 tg.duolegame.com
+0.0.0.0 tg1.duolegame.com
+0.0.0.0 tg2.duolegame.com
+0.0.0.0 sc.subo.me
+0.0.0.0 tg3.subo.me
+0.0.0.0 xunion.ledu.com
+0.0.0.0 union.ledu.com
+0.0.0.0 tg.000wan.com
+0.0.0.0 www.000wan.com
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 1188s.info
@@ -7808,6 +7844,8 @@ $
 0.0.0.0 ad.doubleadv.tv
 0.0.0.0 ad.f1.com.tw
 0.0.0.0 ad.hylzad.com
+0.0.0.0 ad.leetoou.com
+0.0.0.0 ad.letdoo.com
 0.0.0.0 ad71.doubleadx.com
 0.0.0.0 adcount.moliyo.com
 0.0.0.0 ads.youshang.com
@@ -7833,12 +7871,17 @@ $
 0.0.0.0 cp.1o26.com
 0.0.0.0 cp1.blcx.com
 0.0.0.0 cpm.71aiyou.com
+0.0.0.0 cpm.e7wan.com
+0.0.0.0 cpm.uoyoo.cn
+0.0.0.0 cpm.webxgame.com
 0.0.0.0 cs.37see.com
 0.0.0.0 cs01.csyouxi.com
 0.0.0.0 dev.tongxue.com
 0.0.0.0 e.appsasia.net
 0.0.0.0 e2.tjq.com
+0.0.0.0 e8.969g.com
 0.0.0.0 engine.100fenlm.cn
+0.0.0.0 frxz.mttmtt.com
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 g.175pt.com
 0.0.0.0 g.88210212.com
@@ -7849,7 +7892,9 @@ $
 0.0.0.0 gamefiles.qq494.cn
 0.0.0.0 gg.12354.com
 0.0.0.0 gg.qc101.com
+0.0.0.0 gg.ruiidc.com
 0.0.0.0 gg.yiqiwin.com
+0.0.0.0 gg2011.qzkids.com
 0.0.0.0 go.lele.com
 0.0.0.0 go.snsfun.cc
 0.0.0.0 gwc.iblinx.com
@@ -7870,6 +7915,7 @@ $
 0.0.0.0 jksc.xywy.com
 0.0.0.0 js.tuigoo.com
 0.0.0.0 js.union001.com
+0.0.0.0 lai.4299.com
 0.0.0.0 link.f1.com.tw
 0.0.0.0 link.hao251.com
 0.0.0.0 m.menhutong.com.cn
@@ -7886,22 +7932,25 @@ $
 0.0.0.0 play.tenoad.com
 0.0.0.0 po.add.tx908.com
 0.0.0.0 pop.txwy.com
-0.0.0.0 tg.86mmo.com
+0.0.0.0 popu.16768.com
 0.0.0.0 pv.7fgame.com
 0.0.0.0 qqmms.net
-0.0.0.0 cpm.webxgame.com
-0.0.0.0 r.mybestyouxi.cn
-0.0.0.0 xy.linekong.com
-0.0.0.0 tg.game5.com
 0.0.0.0 redirect.jooov.cn
+0.0.0.0 reg.xingkong.com
+0.0.0.0 register.haohaowan.com
+0.0.0.0 resmkt.dipan.com
+0.0.0.0 s.51e78.com
+0.0.0.0 s.ksy168.com
 0.0.0.0 s1.pic.52kkk.com
 0.0.0.0 servedby.adsfactor.cn
+0.0.0.0 sh.lezi.com
 0.0.0.0 shop8.x.com.cn
 0.0.0.0 state.urgamer.com
 0.0.0.0 t.15yl.com
 0.0.0.0 t.1stcngame.com
 0.0.0.0 t.37lai.com
 0.0.0.0 t.57pk.net
+0.0.0.0 t.9kele.com
 0.0.0.0 t.chinayul.com
 0.0.0.0 t.gameyule.com
 0.0.0.0 t.gocsgo.com
@@ -7911,26 +7960,26 @@ $
 0.0.0.0 tao.37wan.com
 0.0.0.0 tg.33hy.com
 0.0.0.0 tg.898wan.com
+0.0.0.0 tg.bigzhu.com
+0.0.0.0 tg.game5.com
 0.0.0.0 tg.youwo.com
-0.0.0.0 tg2.duolegame.com
-0.0.0.0 tg3.subo.me
+0.0.0.0 tj4.feesee.com
+0.0.0.0 tongji.wan5d.com
 0.0.0.0 ty3.yxfw.com
 0.0.0.0 u.56wan.com
 0.0.0.0 u.7town.com
-0.0.0.0 u.ferrygame.com
 0.0.0.0 u.haom.us
 0.0.0.0 u.molidao.com
 0.0.0.0 u11.gzfiat.com
 0.0.0.0 uimg.unionli.com
 0.0.0.0 un.173737.com
-0.0.0.0 unigg.kunlun.com
 0.0.0.0 union.7cv.com
 0.0.0.0 union.88go.cc
 0.0.0.0 union.keepc.com
-0.0.0.0 union.ledu.com
 0.0.0.0 union.narrowad.com
 0.0.0.0 union.popwan.com
 0.0.0.0 union.shumenol.com
+0.0.0.0 user.game2.cn
 0.0.0.0 ww.jinzhao99.com
 0.0.0.0 ww.yiqiwin.com
 0.0.0.0 ww.zhcpm.com
@@ -7939,6 +7988,7 @@ $
 0.0.0.0 www.168un.com
 0.0.0.0 www.176web.net
 0.0.0.0 www.18lehu.com
+0.0.0.0 www.1styouxi.com
 0.0.0.0 www.22930.com
 0.0.0.0 www.265g.info
 0.0.0.0 www.333wan.com
@@ -7948,10 +7998,12 @@ $
 0.0.0.0 www.ad2.cc
 0.0.0.0 www.adsue.com
 0.0.0.0 www.adtools.cn
+0.0.0.0 www.aiaigame.com
 0.0.0.0 www.chinesean.com
 0.0.0.0 www.cpmadao.com
 0.0.0.0 www.cssyouxi.com
 0.0.0.0 www.cxgglm.com
+0.0.0.0 www.diguo180.com
 0.0.0.0 www.dk911.com
 0.0.0.0 www.douxie.com
 0.0.0.0 www.duibei.com
@@ -7968,22 +8020,25 @@ $
 0.0.0.0 www.mengxiang.in
 0.0.0.0 www.qqmohe.com
 0.0.0.0 www.sdgj.net.cn
+0.0.0.0 www.self.com.cn
 0.0.0.0 www.shumenol.com
 0.0.0.0 www.snstele.com
+0.0.0.0 www.u17.com
 0.0.0.0 www.uokor.com
 0.0.0.0 www.wangyuan.com
 0.0.0.0 www.wooigoo.cn
+0.0.0.0 www.xiazai189.com
 0.0.0.0 www.xwadv.com
 0.0.0.0 www.yiqiwin.com
 0.0.0.0 www.zuixiaoyao.com
 0.0.0.0 www1.xman.cn
 0.0.0.0 www1.zjbdt.com
+0.0.0.0 www21.hlggtc.com
 0.0.0.0 www5.yx.xkwan.com
+0.0.0.0 x.17iw.com
+0.0.0.0 xs.mingbu.net
 0.0.0.0 xy.8zgame.com
 0.0.0.0 yz.szgla.com
-0.0.0.0 ad.letdoo.com
-0.0.0.0 ad.leetoou.com
-0.0.0.0 popu.16768.com
 #²¡¶¾ÏÂÔØ
 0.0.0.0 ysbweb.com
 0.0.0.0 cache.ysbweb.com
@@ -8149,6 +8204,7 @@ $
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
 0.0.0.0 update.111222.cn
+0.0.0.0 game.pps.tv
 #PPTV£¨PPVA£©
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
