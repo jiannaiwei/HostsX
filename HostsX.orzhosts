@@ -1,4 +1,4 @@
-;version=201102231830
+;version=201102242050
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1084,6 +1084,7 @@ $
 0.0.0.0 stat.xunlei.com
 0.0.0.0 tj.xunlei.com
 0.0.0.0 union.xunlei.com
+0.0.0.0 recommend.xunlei.com
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
 0.0.0.0 imain.xunlei.com
@@ -6018,8 +6019,14 @@ $
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 #ÓÅ¿áÍø
+0.0.0.0 atm.youku.com
+0.0.0.0 Fvid.atm.youku.com
+0.0.0.0 html.atm.youku.com
+0.0.0.0 lstat.youku.com
+0.0.0.0 speed.lstat.youku.com
 0.0.0.0 stat.youku.com
 0.0.0.0 static.lstat.youku.com
+0.0.0.0 urchin.lstat.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
 0.0.0.0 valf.atm.youku.com
