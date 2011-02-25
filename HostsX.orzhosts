@@ -1,4 +1,4 @@
-;version=201102242050
+;version=201102252050
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7564,6 +7564,7 @@ $
 0.0.0.0 zh.qingchun001.cn
 0.0.0.0 zx.98712.com
 0.0.0.0 zx360.v1kk.com
+0.0.0.0 maiqqla.com
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -8046,6 +8047,7 @@ $
 0.0.0.0 xs.mingbu.net
 0.0.0.0 xy.8zgame.com
 0.0.0.0 yz.szgla.com
+0.0.0.0 gg.1qyx.com
 #病毒下载
 0.0.0.0 ysbweb.com
 0.0.0.0 cache.ysbweb.com
@@ -8129,6 +8131,7 @@ $
 0.0.0.0 www.ninesky.net
 0.0.0.0 www.cnivv.com
 0.0.0.0 d.afdads.com
+0.0.0.0 fengxing1.88shw.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
