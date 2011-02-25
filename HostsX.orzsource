@@ -1,4 +1,4 @@
-;version=2011021101
+;version=2011022511
 Acrylic DNS Proxy 版 HostsX 广告屏蔽数据`http://hostsx.googlecode.com/svn/trunk/Acrylic/AcrylicHosts.txt
 -
 下载适用于 Andriod 设备的 Hosts 文件*http://9bu.org/3a
@@ -7,7 +7,7 @@ Acrylic DNS Proxy 版 HostsX 广告屏蔽数据`http://hostsx.googlecode.com/svn/trunk/
 -
 IPv6 版智能转向数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
 -
-恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/Mwsl.txt
+恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/3rdPartyData/mwsl.txt
 MVPS.org 数据`http://www.mvps.org/winhelp2002/hosts.txt
 SomeoneWhoCares.org 数据`http://someonewhocares.org/hosts/hosts
 IT-Mate.co.uk 数据`http://support.it-mate.co.uk/downloads/HOSTS.txt
