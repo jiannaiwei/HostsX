@@ -1,5 +1,5 @@
 @echo off
-set ver=2.721
+set ver=2.722
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(Echo 请使用右键管理员身份运行&&Pause >nul&&Exit)
 Rd "%a%\test_permissions"
@@ -22,12 +22,12 @@ set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set down=wget -nH -N -c -t 10 -w 2 -T 10 -P gdown
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
-echo WScript.sleep 200 >>%temp%/chkver.vbs
+echo WScript.sleep 50 >>%temp%/chkver.vbs
 echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
 cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/iMonkey/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto NoUpgrade) else (echo  Found the new version,press any key update.&echo 发现新版本，按任意键升级！&pause>nul& goto Updates)
+if %ver%==%未知% (goto NoUpgrade) else (echo  Found the new version,press any key update.&echo 发现新版本，按任意键升级！&pause>nul& goto Updates)
 cls
 :NoUpgrade
 set dver=You are Using the Latest Version.
@@ -80,6 +80,7 @@ set hosts=
 goto menu
 
 :menu
+if not exist %etc%\ md %etc%\
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
