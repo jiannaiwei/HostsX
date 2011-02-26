@@ -27,7 +27,7 @@ echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
 cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/iMonkey/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%未知% (goto NoUpgrade) else (echo  Found the new version,press any key update.&echo 发现新版本，按任意键升级！&pause>nul& goto Updates)
+if %ver%==%verNew% (goto NoUpgrade) else (echo  Found the new version,press any key update.&echo 发现新版本，按任意键升级！&pause>nul& goto Updates)
 cls
 :NoUpgrade
 set dver=You are Using the Latest Version.
