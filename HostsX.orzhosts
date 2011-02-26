@@ -1,4 +1,4 @@
-;version=201102261250
+;version=201102272117
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1428,6 +1428,9 @@ $
 0.0.0.0 www.yfdmedia.com
 0.0.0.0 ym.bannerconnect.net
 @HostsX OneKey/Mobile
+#16kxs
+0.0.0.0 ad.16kxs.com
+0.0.0.0 wap10.16kxs.com
 #Adchina
 0.0.0.0 mobile.adchina.com
 0.0.0.0 www.adchina.com
@@ -1515,6 +1518,7 @@ $
 0.0.0.0 bank20.ads.dt.mydas.mobi
 0.0.0.0 bank20.ads.mp.mydas.mobi
 #UCWeb
+0.0.0.0 adsclick.uc123.com
 0.0.0.0 ads1.uc.cn
 0.0.0.0 down2.uc.cn
 0.0.0.0 adsclick.uc.cn
