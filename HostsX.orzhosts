@@ -1,4 +1,4 @@
-;version=201103021610
+;version=201103021618
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -105,7 +105,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::65 goto.google.com
 2404:6800:8005::d2 jmt0.google.com
 2404:6800:8005::d2 wire.l.google.com
-2404:6800:8005::62 goo.gl 
+2404:6800:8005::62 goo.gl
 #GoogleCN
 2404:6800:8005::2e www.google.com.hk
 2404:6800:8005::2e images.google.com.hk
@@ -141,8 +141,6 @@ ff02::3 ip6-allhosts
 2404:6800:8005::2a www.google.co.nz
 2404:6800:8005::2b www.google.lt
 2404:6800:8005::2d www.google.com.sg
-2404:6800:8005::2e www.google.com.hk
-2404:6800:8005::2f www.google.com.tw
 2404:6800:8005::30 www.google.co.jp
 2404:6800:8005::31 www.google.ae
 2404:6800:8005::32 www.google.co.uk
@@ -167,7 +165,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::4a www.google.pt
 2404:6800:8005::4b www.google.com.ly
 2404:6800:8005::4c www.google.com.br
-#Android 
+#Android
 2404:6800:8005::62 www.android.com
 2404:6800:8005::62 android.com
 2404:6800:8003::79 developer.android.com
@@ -188,7 +186,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::8d wave-api.appspot.com
 2404:6800:8005::8d wave-skynet.appspot.com
 2404:6800:8005::8d cactus-wave.appspot.com
-2404:6800:8005::8d storegadgetwizard.appspot.com 
+2404:6800:8005::8d storegadgetwizard.appspot.com
 2404:6800:8005::8d moderator.appspot.com
 2404:6800:8005::8d haiticrisis.appspot.com
 2404:6800:8005::8d mytracks.appspot.com
@@ -198,14 +196,14 @@ ff02::3 ip6-allhosts
 2404:6800:8005::8d go2china9.appspot.com
 2404:6800:8005::8d mirrorrr.appspot.com
 2404:6800:8005::8d mirrornt.appspot.com
-2404:6800:8005::8d soproxy.appspot.com 
+2404:6800:8005::8d soproxy.appspot.com
 2404:6800:8005::8d so-proxy.appspot.com
 2404:6800:8005::8d go-west.appspot.com
-2404:6800:8005::8d proxytea.appspot.com 
+2404:6800:8005::8d proxytea.appspot.com
 2404:6800:8005::8d sivanproxy.appspot.com
 2404:6800:8005::8d proxybay.appspot.com
 2404:6800:8005::8d ipgoto.appspot.com
-2404:6800:8005::8d meme2028.appspot.com 
+2404:6800:8005::8d meme2028.appspot.com
 2404:6800:8005::8d autoproxy2pac.appspot.com
 #Blogger
 74.125.39.191 www.blogger.com
@@ -232,7 +230,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::62 www1.blogblog.com
 2404:6800:8005::62 www2.blogblog.com
 2404:6800:8005::62 img.blogblog.com
-2404:6800:8005::62 img1.blogblog.com 
+2404:6800:8005::62 img1.blogblog.com
 2404:6800:8005::62 img2.blogblog.com
 2404:6800:8005::62 img.blshe.com
 2404:6800:8005::62 www.blogspot.com
@@ -304,7 +302,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::62 feeds2.feedburner.com
 2404:6800:8005::76 feedproxy.google.com
 #Docs
-2404:6800:8005::64 docs.google.com 
+2404:6800:8005::64 docs.google.com
 2404:6800:8005::65 docs0.google.com
 2404:6800:8005::65 docs1.google.com
 2404:6800:8005::65 docs2.google.com
@@ -372,7 +370,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::62 gmr-smtp-in.l.google.com
 #News
 2404:6800:8005::68 news.google.com
-2404:6800:8005::68 news.l.google.com             
+2404:6800:8005::68 news.l.google.com
 2404:6800:8005::62 nt0.ggpht.com
 2404:6800:8005::62 nt1.ggpht.com
 2404:6800:8005::62 nt2.ggpht.com
@@ -410,7 +408,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::be picasaweb.google.com
 #2404:6800:8005::5d picasaweb.l.google.com
 #2404:6800:8005::be picasaweb.l.google.com
-#YouTube 
+#YouTube
 2404:6800:8005::65 www.youtube.com
 2404:6800:8005::65 www.youtube-nocookie.com
 #2404:6800:8005::65 youtube-ui.l.google.com
@@ -699,8 +697,8 @@ ff02::3 ip6-allhosts
 2404:6800:8005::62 video-stats.video.google.com
 2404:6800:8005::74 upload.video.google.com
 2404:6800:8005::74 sslvideo-upload.l.google.com
-2404:6800:8005::62 vp.video.google.com 
-2404:6800:8005::62 vp.video.l.google.com 
+2404:6800:8005::62 vp.video.google.com
+2404:6800:8005::62 vp.video.l.google.com
 2404:6800:8005::62 qwqy.vp.video.l.google.com
 2404:6800:8005::62 nz.vp.video.l.google.com
 2404:6800:8005::62 nztdug.vp.video.l.google.com
@@ -769,7 +767,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.adm.cngba.com
 0.0.0.0 m.union.hongxiu.com
 0.0.0.0 me.youheme.com
-0.0.0.0 pic.66fzl.com
 0.0.0.0 pro.blogbus.com
 0.0.0.0 pro.letv.com
 0.0.0.0 rcm-images.amazon.com
@@ -1701,11 +1698,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ub.dphub.sandai.net
 #Thunder
 $FUNCTION:THUNDERAD
-$
 $提示：您好，您正在使用的 HostsX 尚不支持生成此特殊 Hosts 项，
 $　　　请至囧科技官方网站 http://orztech.com/softwares/hostsx ，
 $      下载最新版本的 HostsX。
-$
 #狗狗搜索
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
@@ -2167,12 +2162,10 @@ $
 #Vodone
 0.0.0.0 autou.vodone.cn
 0.0.0.0 busjs.vodone.cn
-0.0.0.0 mobus.vodone.cn
 0.0.0.0 stat.vodone.cn
 0.0.0.0 bus.vodone.com
 0.0.0.0 cai.vodone.com
 0.0.0.0 ego.vodone.com
-0.0.0.0 images.vodone.com
 0.0.0.0 msn.vodone.com
 0.0.0.0 pic.vodone.com
 0.0.0.0 stat2.vodone.com
@@ -5199,7 +5192,7 @@ $
 0.0.0.0 www.shopperreports.com
 #SponsorAds
 0.0.0.0 sponsorads.de
-0.0.0.0 www.sponsorads.de 
+0.0.0.0 www.sponsorads.de
 #Shiny S.r.l
 0.0.0.0 codice.shinystat.com
 0.0.0.0 codiceisp.shinystat.com
@@ -5286,7 +5279,7 @@ $
 0.0.0.0 c.statcounter.com
 0.0.0.0 c1.statcounter.com
 0.0.0.0 c2.statcounter.com
-0.0.0.0 c3.statcounter.com 
+0.0.0.0 c3.statcounter.com
 0.0.0.0 c4.statcounter.com
 0.0.0.0 c5.statcounter.com
 0.0.0.0 c6.statcounter.com
@@ -6841,7 +6834,7 @@ $
 0.0.0.0 a.37dz.com
 0.0.0.0 img.37dz.com
 0.0.0.0 js.37dz.com
-0.0.0.0 www.37dz.com  
+0.0.0.0 www.37dz.com
 #3Bu
 0.0.0.0 c.3bu.cn
 0.0.0.0 img.3bu.cn
@@ -8228,7 +8221,7 @@ $
 #IE劫持
 0.0.0.0 789654.com
 0.0.0.0 www.45566.net
-0.0.0.0 www.789654.com 
+0.0.0.0 www.789654.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2345.com
@@ -8840,7 +8833,7 @@ $
 0.0.0.0 statcn-c.maxthon.com
 #Micronichefinder
 0.0.0.0 www.micronichefinder.com
-0.0.0.0 micronichefinder.com 
+0.0.0.0 micronichefinder.com
 #Neoimage
 0.0.0.0 ad.neoimaging.cn
 0.0.0.0 clientconfig.neoimaging.cn
