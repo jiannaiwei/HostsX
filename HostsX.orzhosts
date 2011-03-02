@@ -1,4 +1,4 @@
-;version=201103021708
+;version=201103022106
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -39,11 +39,6 @@ ff02::3 ip6-allhosts
 76.13.18.78 sp1.farm3.static.flickr.com
 76.13.18.79 farm5.static.flickr.com
 76.13.18.79 gq1.farm5.static.flickr.com
-#Opera
-2001:840:4073:1::1:100 www.opera.com
-2001:840:4073:1::1:101 www.opera.com
-2001:840:4073:1::1:102 www.opera.com
-2001:840:4073:1::1:103 www.opera.com
 #Puff
 64.71.141.148 intl.easyssh.info
 #Soutong
