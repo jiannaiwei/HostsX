@@ -1,4 +1,4 @@
-;version=201103022106
+;version=201103030000
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8029,6 +8029,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 havod.com
 0.0.0.0 www.havod.com
 0.0.0.0 ad.online.cq.cn
+0.0.0.0 g.online.cq.cn
 0.0.0.0 ad.xunkoo.com
 0.0.0.0 ads.iisdoor.com
 0.0.0.0 hot.apinpai.com
