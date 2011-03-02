@@ -1,4 +1,4 @@
-;version=201103021618
+;version=201103021708
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1650,6 +1650,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingback.ie.sogou.com
 @HostsX OneKey/ÌÚÑ¶QQ
 #QQ
+0.0.0.0 mini.group.qq.com
+0.0.0.0 group.store.qq.com
+0.0.0.0 f.qstatic.com
+0.0.0.0 fodder.qq.com
+0.0.0.0 scdown.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
@@ -1661,14 +1666,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
 0.0.0.0 c.gdt.qq.com
-0.0.0.0 fodder.qq.com
 0.0.0.0 fw.qq.com
 0.0.0.0 oimsgad.qq.com
 0.0.0.0 pingfore.qq.com
-0.0.0.0 scdown.qq.com
 0.0.0.0 show-msgch.qq.com
 0.0.0.0 trace.qq.com
-0.0.0.0 f.qstatic.com
 0.0.0.0 c.l.qq.com
 0.0.0.0 hm.l.qq.com
 0.0.0.0 imc.l.qq.com
