@@ -1,4 +1,4 @@
-;version=201102272117
+;version=201103021500
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -852,6 +852,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dian.cupid.jebe.renren.com
 0.0.0.0 ebp.renren.com
 0.0.0.0 gamestat.renren.com
+0.0.0.0 imoptj.renren.com
 0.0.0.0 jebe.renren.com
 0.0.0.0 shaft.jebe.renren.com
 0.0.0.0 track.yx.renren.com
@@ -1289,7 +1290,6 @@ $
 #Yahoo.co.jp
 0.0.0.0 ai.yimg.jp
 0.0.0.0 ard.yahoo.co.jp
-0.0.0.0 rd.yahoo.co.jp
 0.0.0.0 yjaxc.yahoo.co.jp
 #Yahoo.com.cn
 0.0.0.0 p.tanx.com
@@ -7727,6 +7727,7 @@ $
 0.0.0.0 xiujue.net
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
+0.0.0.0 www.9348.cn
 #签名弹窗
 0.0.0.0 code.2010qianming.com
 0.0.0.0 code.52qiangming.com
@@ -8053,6 +8054,7 @@ $
 0.0.0.0 xy.8zgame.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 gg.1qyx.com
+0.0.0.0 s3.zhanzhang.net
 #病毒下载
 0.0.0.0 ysbweb.com
 0.0.0.0 cache.ysbweb.com
@@ -8137,6 +8139,7 @@ $
 0.0.0.0 www.cnivv.com
 0.0.0.0 d.afdads.com
 0.0.0.0 fengxing1.88shw.com
+0.0.0.0 dlcnc.jjmatch.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
