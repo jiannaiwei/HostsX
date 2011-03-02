@@ -1,4 +1,4 @@
-;version=201102091900
+;version=201103021630
 ;author=郭鹏锟（Jock Kwok）
 #!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
 pinst.360.cn
@@ -22,6 +22,14 @@ $DELETE
 
 #导致网易 NBA 频道无法正常显示网页。
 temp.163.com
+$DELETE
+
+#导致 Tom365 无法正常显示网页。
+pic.66fzl.com
+$DELETE
+
+#导致 Yahoo.co.jp 无法正常跳转。
+rd.yahoo.co.jp
 $DELETE
 
 #导致凤凰直播播放器无法正常加载。
