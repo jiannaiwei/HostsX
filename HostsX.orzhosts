@@ -1,4 +1,4 @@
-;version=201103030000
+;version=201103041600
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -341,9 +341,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::11 googlemail.l.google.com
 2404:6800:8005::12 googlemail.l.google.com
 2404:6800:8005::13 googlemail.l.google.com
-2404:6800:8005::bd chatenabled.mail.google.com
 #2404:6800:8005::bd b.googlemail.l.google.com
-2404:6800:8005::62 talk.gmail.com
 2404:6800:8005::62 gmail.google.com
 2404:6800:8005::62 gmail.l.google.com
 2404:6800:8005::62 www.gmail.com
@@ -8864,6 +8862,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ins.pplive.com
 0.0.0.0 iptable.pplive.com
 0.0.0.0 live.v2.pplive.com
+0.0.0.0 download.pplive.com
 0.0.0.0 pp1.pplive.com
 0.0.0.0 up.pplive.com
 0.0.0.0 g.pptv.com
