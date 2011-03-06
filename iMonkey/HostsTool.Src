@@ -1,18 +1,11 @@
 @echo off
 set ver=2.722
+SETLOCAL EnableExtensions
+SetLocal EnableDelayedExpansion
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(Echo 请使用右键管理员身份运行&&Pause >nul&&Exit)
 Rd "%a%\test_permissions"
-SetLocal EnableDelayedExpansion
-set/a xc=%random%%%5+1
-set te=
-for %%i in (c d e f a) do (
-set /a te=!!te!+1!
-if "!xc!"=="!te!" set xc=%%i)
-color 0%xc%
 if not exist %systemroot%\system32\wget.exe copy wget.exe %systemroot%\system32\
-rem important update temp
-reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /f >nul 2>nul
 cls
 ren %0 "HostsTool.bat"
 if not exist %windir%\system32\wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)& (echo Please Save the wget.exe to the current directory!)&pause&start explorer %windir%\system32\
@@ -80,10 +73,16 @@ set hosts=
 goto menu
 
 :menu
+set/a xc=%random%%%5+1
+set te=
+for %%i in (c d e f a) do (
+set /a te=!!te!+1!
+if "!xc!"=="!te!" set xc=%%i)
+color 0%xc%
 if not exist %etc%\ md %etc%\
+if not exist %hosts% goto fixhosts
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
-echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
 reg query HKLM\SYSTEM\CurrentControlSet\Control\Nls\Language >%temp%\Language.log
 find "Default" %temp%\Language.log |find "0804" >NUL
 IF NOT ERRORLEVEL 1 (
@@ -94,25 +93,76 @@ IF NOT ERRORLEVEL 1 (
 if %Language%==Chinese ( goto menucn ) else ( goto menuen )
 
 :menucn
-mode con cols=58 lines=25
+if exist %windir%\system32\mode.com mode con cols=60 lines=25
+ConsExt /crv 0
+set force=0
+:start
+title G+ Hosts 极佳猴子 %ver%M  %version%
+cls
+echo.
+echo   鼠标点击【 】内选择操作
+echo   =======================================================
+echo.
+echo            【 1.Update Hosts / 更新 Hosts  】
+echo.
+echo            【 2.Edit Hosts   / 编辑 Hosts  】
+echo.
+echo            【 3.Fix Hosts    / 修复 Hosts  】
+echo.
+echo   =======================================================
+echo   本工具特点： 1. 完整清理注册表内所有与U盘相关的各种记录
+echo                2. 精准清理U盘相关记录，不影响其他USB设备
+echo                3. 可强制清理可能与U盘相关的冗余驱动记录
+echo   =======================================================
+echo   警告：安全清理模式只清除所有已知U盘的驱动记录，切换至强
+echo         制清理模式后，可以清理所有可能与U盘相关的冗余驱动
+echo         记录，但可能有删错驱动的风险。
+echo   =======================================================
+echo.
+if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：简单模式)
+echo.
+echo            【 切换模式 】     【  退  出  】
+
+:mouse1
+ConsExt /event
+set /a xy=%errorlevel%
+if %xy% lss 1001 goto mouse1
+set /a X=%xy:~0,-3%
+set /a Y=%xy%-1000*%X%
+if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dftn
+if %y% equ 6 if %x% gtr  12 if %x% lss 44 goto run
+if %y% equ 8 if %x% gtr  12 if %x% lss 44 goto nohosts
+if %y% equ 22 if %x% gtr  12 if %x% lss 25 (
+  if /i !force! neq 0 (set force=0) else (set force=1)
+  goto menucnplus
+)
+if %y% equ 22 if %x% gtr  31 if %x% lss 44 goto :eof
+goto mouse1
+
+:menucnplus
+ConsExt /crv 0
+set force=1
+mode con cols=59 lines=26
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 cls
 title G+ Hosts 极佳猴子 %ver%W  %version%
-echo ---------------------------------------------------------
-echo ☆Main Data Chioce:
-echo.  G.Hosts更新        V.MVPSData       E.编辑Hosts
+echo ☆Main Data Chioce (!Replace):
+echo.  G.Hosts 文件更新            M.(!Us)MVPS Data 
 echo.
-echo.  i.IPV6数据         N.办公屏蔽       A.AnDroid系统
+echo.  i.(!CN)IPV6 Data            W.(!CN)MWSL Data
 echo.   
-echo ☆User Custom:       O.Hosts 目录
+echo △Extensions Data (!Add):
+echo.  N.X 娱乐网站屏蔽            X.X 迅雷扩展数据   
+echo.  
+echo.  T.X IE不信任网址            A.For AnDroid Device
 echo.
-echo.  S.屏蔽/加速访问    B.备份Hosts文件  H.添加IE不信任网址
-echo.  R.删除屏蔽网站     D.删除Hosts备份  J.删除IE不信任网址
-echo.  P.设置Hosts权限    F.Hosts修复      X.IE优化与修复
-echo ---------------------------------------------------------
-echo ◎Other Tools:                       %dvercn%
-echo   K.快捷方式修复     T.感谢帮助反馈
+echo ※User Custom:
+echo. B.X 备份Hosts文件    E.编辑Hosts文件     F.Hosts文件修复
+echo. 
+echo. S.X 站点Hosts转向    O.Hosts文件目录     P.设置Hosts权限 
+echo. 
+echo. K.D 快捷方式修复     R.IE浏览器修复      H.感谢帮助反馈
 echo ---------------------------------------------------------
 echo 当前工作目录(0)：%~dp0
 set all=
@@ -120,28 +170,31 @@ set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
 if /i "%all%"=="0" goto opdp
 if /i "%all%"=="4" goto run
 if /i "%all%"=="a" goto AnDroid
-if /i "%all%"=="b" goto hostbak
-if /i "%all%"=="c" goto dns
-if /i "%all%"=="d" goto delbak
+if /i "%all%"=="b" goto hostsbak
+if /i "%all%"=="c" goto clean
+if /i "%all%"=="d" goto delit
 if /i "%all%"=="e" goto run
-if /i "%all%"=="f" goto fixhost
+if /i "%all%"=="f" goto fixhosts
 if /i "%all%"=="g" goto dft
-if /i "%all%"=="h" goto adietrust
+if /i "%all%"=="h" goto thanks
 if /i "%all%"=="i" goto ipv6
-if /i "%all%"=="j" goto dietrust
 if /i "%all%"=="k" goto desklnk
-if /i "%all%"=="l" goto delit
-if /i "%all%"=="n" goto appit
+if /i "%all%"=="m" goto mvpshosts
+if /i "%all%"=="n" goto entdata
 if /i "%all%"=="o" goto ophostdp
 if /i "%all%"=="p" goto permscn
 if /i "%all%"=="q" goto exit
-if /i "%all%"=="r" goto clradd
+if /i "%all%"=="r" goto fixie
 if /i "%all%"=="s" goto addsite
-if /i "%all%"=="t" goto thanks
-if /i "%all%"=="u" goto Updates
-if /i "%all%"=="v" goto mvpshost
-if /i "%all%"=="w" goto hostpath
-if /i "%all%"=="x" goto fixie
+if /i "%all%"=="t" goto addietrust
+if /i "%all%"=="w" goto mwslhosts
+if /i "%all%"=="wr" goto hostpath
+if /i "%all%"=="x" goto addxunlei
+if /i "%all%"=="xb" goto delhostsbak
+if /i "%all%"=="xn" goto delentdata
+if /i "%all%"=="xs" goto delsite
+if /i "%all%"=="xt" goto delietrust
+if /i "%all%"=="xx" goto delxunlei
 
 :dns
 echo Refresh DNS and caching...
@@ -162,60 +215,81 @@ del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 cls
 title G+ Hosts %ver%W  %version%
-echo -------------------------------------------------------------
-echo ☆Main Data Chioce:
-echo.   G.HostsUpdate      V.MVPSData       E.Edit Hosts File   
+echo ☆Main Data Chioce (!Replace):
+echo.  G.HostsUpdate            M.(!Us)MVPS Data 
 echo.
-echo.   i.IPV6Data(Cn)     N.No.Media       A.For AnDroid Mobile
+echo.  i.(!CN)IPV6 Data         W.(!CN)MWSL Data
 echo.   
-echo ☆User Custom:                  O.Open Hosts directory
+echo △Extensions Data (!Add):
+echo.  N.X EntPlay Block           X.X Xunleiadd  
+echo.  
+echo.  T.X IE donot Turst Site     A.For AnDroid Device
 echo.
-echo.   S.Shield /Accelerate Site    B.Backup Hosts File  
-echo.   R.Remove Shield Site         D.Delete Hosts File Backup  
-echo.   P.Hosts File Permissions     F.Hosts File Fix and Restore
-echo -------------------------------------------------------------
-echo ◎Other Tools:        %dver%
+echo ※User Custom:
 echo.
-echo   H.Add IE donot Turst Site     K.Creating a desktop shortcut
-echo   J.Del IE donot Turst Site
-echo   X.IE Optimization and Fix     T.Thanks Feedback and Help
-echo -------------------------------------------------------------
+echo. B.X Backup Hosts E.Edit Hosts      F.Hosts File Fix
+echo. 
+echo. S.X Shield Site  O.Hosts Directory P.Hosts Permissions  
+echo. 
+echo. K.D Shortcut     R.IE Fix          H.hanks & Feedback
+echo ---------------------------------------------------------
 echo Current directory(0)：%~dp0
 set all=
 set /p all=Please select,Press [Enter] to refresh DNS and caching：
 if /i "%all%"=="0" goto opdp
 if /i "%all%"=="4" goto run
 if /i "%all%"=="a" goto AnDroid
-if /i "%all%"=="b" goto hostbak
-if /i "%all%"=="c" goto dns
-if /i "%all%"=="d" goto delbak
+if /i "%all%"=="b" goto hostsbak
+if /i "%all%"=="c" goto clean
+if /i "%all%"=="d" goto delit
 if /i "%all%"=="e" goto run
-if /i "%all%"=="f" goto fixhost
+if /i "%all%"=="f" goto fixhosts
 if /i "%all%"=="g" goto dft
-if /i "%all%"=="h" goto adietrust
+if /i "%all%"=="h" goto thanks
 if /i "%all%"=="i" goto ipv6
-if /i "%all%"=="j" goto dietrust
 if /i "%all%"=="k" goto desklnk
-if /i "%all%"=="l" goto delit
-if /i "%all%"=="n" goto appit
+if /i "%all%"=="m" goto mvpshosts
+if /i "%all%"=="n" goto entdata
 if /i "%all%"=="o" goto ophostdp
-if /i "%all%"=="p" goto permsen
+if /i "%all%"=="p" goto permscn
 if /i "%all%"=="q" goto exit
-if /i "%all%"=="r" goto clradd
+if /i "%all%"=="r" goto fixie
 if /i "%all%"=="s" goto addsite
-if /i "%all%"=="t" goto thanks
-if /i "%all%"=="u" goto Updates
-if /i "%all%"=="v" goto mvpshost
-if /i "%all%"=="w" goto hostpath
-if /i "%all%"=="x" goto fixie
+if /i "%all%"=="t" goto addietrust
+if /i "%all%"=="w" goto mwslhosts
+if /i "%all%"=="wr" goto hostpath
+if /i "%all%"=="x" goto addxunlei
+if /i "%all%"=="xb" goto delhostsbak
+if /i "%all%"=="xn" goto delentdata
+if /i "%all%"=="xs" goto delsite
+if /i "%all%"=="xt" goto delietrust
+if /i "%all%"=="xx" goto delxunlei
 
 :dft
-echo       Update Hosts Data
-echo.
-echo       ...Please wait...
+echo       Update Hosts Data...Please wait...
+echo       正在更新Hosts数据...请稍候...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>gdown\HostsX.orzhosts
 copy gdown\HostsX.orzhosts %hosts%
+goto perms
+
+:dftn
+echo       Update Hosts Data...Please wait...
+echo       正在更新Hosts数据...请稍候...
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
+echo WScript.sleep 200 >>%temp%/Updates.vbs
+echo loop >>%temp%/Updates.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">%temp%\HostsX.orzhosts
+copy %temp%\HostsX.orzhosts %hosts%
+goto perms
+
+:addxunlei
+echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
+goto perms
+
+:delxunlei
+echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
 goto perms
 
 :ipv6
@@ -225,7 +299,7 @@ echo Download ipv6 data，Please wait... ...
 copy gdown\ipv6.txt %hosts%
 goto Perms
 
-:mvpshost
+:mvpshosts
 echo Download data,Please wait... ...
 %down% http://www.mvps.org/winhelp2002/hosts.txt
 copy gdown\hosts.txt %hosts%
@@ -238,7 +312,7 @@ echo %c% %cc%>>%hosts%
 mshta vbscript:msgbox("%cc% Complete set!",64,"G+ Hosts")(window.close)
 goto dns
 
-:clradd
+:delsite
 echo Such as: To cancel the shielding Baidu,input:baidu.com
 set /p b=Please enter the site shield cancel:
 findstr /i "\<%b%\>"<%hosts%||(cls&echo/&echo ***Do not find the website you entered***&pause&goto choose)
@@ -248,21 +322,21 @@ copy host %hosts%
 mshta vbscript:msgbox("Shielding has been canceled %b%！",64,"G+ Hosts")(window.close)
 goto dns
 
-:hostbak
+:hostsbak
 echo Backup Your Hosts File
 md Bakup\
 copy /y %hosts% Bakup\"Hosts_%bak%.txt" >nul 2>nul
 echo Backup completed!
 pause&goto menu
 
-:delbak
+:delhostsbak
 echo Delete the Backed up Hosts File
 Pause
 del Bakup\Hosts*_*.txt /q >nul 2>nul
 echo Backed up Hosts file by HostsTool was deleted!
 Pause&goto menu
 
-:appit
+:entdata
 find "115.47.219.95 happyfarm.qzone.qq.com" %hosts% > nul
 if %errorlevel% == 1 (
   @echo.>>%hosts%
@@ -312,7 +386,10 @@ echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.
 echo You Can Use Hosts File Fix and Restore to Cancle.
 pause&goto menu
 
-:fixhost
+:delentdata
+pause&goto menu
+
+:fixhosts
 mode con: cols=50 lines=12
 echo Fix Hosts File?（Restore the system default）
 Pause
@@ -326,9 +403,8 @@ echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
 cls&mshta vbscript:msgbox("Hosts file has been restored to the system default",64,"G+ Hosts")(window.close)
 goto dns
 
-:adietrust
+:addietrust
 echo We Used yoyo data(pgl.yoyo.org) and very thanks!
-rem http://pgl.yoyo.org/adservers/serverlist.php?hostformat=win32reg-sp&showintro=1&startdate%5Bday%5D=&startdate%5Bmonth%5D=&startdate%5Byear%5D=
 wget http://hostsx.googlecode.com/svn/trunk/Windows/ie.txt
 echo   Adding non-malicious URL into your browser security zones.
 echo   Please wait……
@@ -336,7 +412,7 @@ set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneM
 for /F %%a in (ie.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
 echo  New Data Has been added!&pause&goto menu
 
-:dietrust
+:delietrust
 echo  Del All IE donot Turst Site
 pause
 reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
@@ -391,7 +467,7 @@ goto menu
 if %Language%==Chinese ( goto permscn ) else ( goto permsen )
 
 :permsen
-title Hosts file permissions set
+title Set the permissionsof Hosts File  
 mode con: cols=50 lines=15
 cls
 echo.
@@ -412,7 +488,7 @@ IF /I '%Choice%'=='3' GOTO ntfsf
 IF /I '%Choice%'=='4' GOTO run
 IF /I '%Choice%'=='5' GOTO dns
 IF /I '%Choice%'=='6' GOTO menu
-IF /I '%Choice%'=='f' GOTO fixhost
+IF /I '%Choice%'=='f' GOTO fixhosts
 IF /I '%Choice%'==' ' GOTO permsen
 
 :permscn
@@ -437,8 +513,19 @@ IF /I '%Choice%'=='3' GOTO ntfsf
 IF /I '%Choice%'=='4' GOTO run
 IF /I '%Choice%'=='5' GOTO dns
 IF /I '%Choice%'=='6' GOTO menu
-IF /I '%Choice%'=='f' GOTO fixhost
+IF /I '%Choice%'=='f' GOTO fixhosts
 IF /I '%Choice%'==' ' GOTO permscn
+ConsExt /crv 0
+ConsExt /event
+set /a xy=%errorlevel%
+if %xy% lss 1001 goto mouse1
+set /a X=%xy:~0,-3%
+set /a Y=%xy%-1000*%X%
+if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dftn
+if %y% equ 6 if %x% gtr  12 if %x% lss 44 goto run
+if %y% equ 8 if %x% gtr  12 if %x% lss 44 goto nohosts
+goto menu
+
 :readonly
 attrib +r +a +s %hosts%
 goto pmfinish

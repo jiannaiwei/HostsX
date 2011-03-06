@@ -6666,6 +6666,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 valp.atm.youku.com
 0.0.0.0 vid.atm.youku.com
 0.0.0.0 walp.atm.youku.com
+0.0.0.0 mscdn.allyes.com.cn
 #土豆网
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
@@ -7213,7 +7214,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 iplus.allyes.com
 0.0.0.0 lhzbafp.allyes.com
 0.0.0.0 mscdn.allyes.cn
-0.0.0.0 mscdn.allyes.com
 0.0.0.0 mso.allyes.com
 0.0.0.0 rayliafp.allyes.cn
 0.0.0.0 realafp.allyes.cn
