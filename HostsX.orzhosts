@@ -1,4 +1,4 @@
-;version=201103072130
+;version=201103072203
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8206,6 +8206,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 zx360.v1kk.com
 0.0.0.0 maiqqla.com
 0.0.0.0 www.ataodian.com
+0.0.0.0 cool.dadahaha.com
+0.0.0.0 demo.xd55.com.cn
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
