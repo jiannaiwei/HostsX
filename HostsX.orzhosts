@@ -1,4 +1,4 @@
-;version=201103072203
+;version=201103081414
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7812,6 +7812,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 stat.t2t2.com
 0.0.0.0 www.t2t2.com
 0.0.0.0 www.textlink.cn
+#TJQ
+0.0.0.0 d5.tjq.com
+0.0.0.0 e2.tjq.com
+0.0.0.0 i.tjq.com
+0.0.0.0 img.tjq.com
+0.0.0.0 www.tjq.com
 #Tensynad
 0.0.0.0 plus.tensynad.com
 0.0.0.0 www.tensynad.com
@@ -7992,7 +7998,7 @@ $      下载最新版本的 HostsX。
 #Zdy
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
-#zhanzhang
+#Zhanzhang
 0.0.0.0 s1.zhanzhang.net
 0.0.0.0 s2.zhanzhang.net
 0.0.0.0 s3.zhanzhang.net
@@ -8136,7 +8142,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ht.hao120.cc
 0.0.0.0 ht.sooe.cn
 0.0.0.0 icbc-y.com
-0.0.0.0 img.tjq.com
 0.0.0.0 lj.igohui.com
 0.0.0.0 lkn.zoossoft.cn
 0.0.0.0 m.ttgrs.cn
@@ -8529,7 +8534,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cs01.csyouxi.com
 0.0.0.0 dev.tongxue.com
 0.0.0.0 e.appsasia.net
-0.0.0.0 e2.tjq.com
 0.0.0.0 e8.969g.com
 0.0.0.0 engine.100fenlm.cn
 0.0.0.0 frxz.mttmtt.com
