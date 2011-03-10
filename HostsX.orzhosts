@@ -1,4 +1,4 @@
-;version=201103092239
+;version=201103101010
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7182,6 +7182,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ynet.adsame.com
 0.0.0.0 yoka.adsame.com
 0.0.0.0 zh28.adsame.com
+#Adscale
+0.0.0.0 ch2.adscale.de
+0.0.0.0 ih.adscale.de
+0.0.0.0 js.adscale.de
+0.0.0.0 ads.heias.com
 #AdsIt
 0.0.0.0 cdn.91adv.com
 0.0.0.0 cpv.91adv.com
