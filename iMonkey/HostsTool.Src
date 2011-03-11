@@ -1,18 +1,18 @@
 @echo off
-set ver=2.722
+set ver=2.73
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(Echo 请使用右键管理员身份运行&&Pause >nul&&Exit)
 Rd "%a%\test_permissions"
 if not exist %systemroot%\system32\wget.exe copy wget.exe %systemroot%\system32\
+if not exist %systemroot%\system32\consext.exe copy consext.exe %systemroot%\system32\
 cls
 ren %0 "HostsTool.bat"
 if not exist %windir%\system32\wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)& (echo Please Save the wget.exe to the current directory!)&pause&start explorer %windir%\system32\
 del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt ie.txt>nul 2>nul
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
-set down=wget -nH -N -c -t 10 -w 2 -T 10 -P gdown
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
 echo WScript.sleep 50 >>%temp%/chkver.vbs
@@ -26,34 +26,25 @@ cls
 set dver=You are Using the Latest Version.
 set dvercn=*当前版本已经是最新
 cls
-if exist %ComSpec% goto nt else goto 9x
-:9x
-set etc=%windir%\
-set hosts=%windir%\hosts
-goto menu
-:nt
+set down=wget -nH -N -c -t 10 -w 2 -T 10 -P gdown
+rem 系统环境和变量设置
 set etc=%windir%\system32\drivers\etc
 set hosts=%windir%\system32\drivers\etc\hosts
-if not exist %windir%\system32\cacls.exe goto findown &(echo Please Save the downloaded file to the current directory!)&pause
-goto menu
-
-:findown
+ipv6install>nul 2>nul
+rem 关闭 DNS Client 服务，以加快DNS解析速度;
+net stop "Dnscache">nul 2>nul
+sc stop "DNSCache">nul 2>nul
+sc config Dnscache start= disabled>nul 2>nul
+rem 开启 IPv6 转换技术 服务，以辅助DNS解析;
+sc config iphlpsvc start= AUTO>nul 2>nul
 ver|find   "5."   
 if   %errorlevel%==0   goto   cacls5   
 ver|find   "6."   
 if   %errorlevel%==0   goto   cacls6   
 :cacls5
-echo Downloading the required File
-echo Please wait......
-%down% http://hostsx.googlecode.com/svn/trunk/Windows/cacls5.exe
-copy gdown\cacls5.exe %windir%\system32\cacls.exe
-pause&goto menu
+if exist "%windir%\system32\cacls.exe" (goto menu) else (%down% http://hostsx.googlecode.com/svn/trunk/Windows/cacls5.exe &copy gdown\cacls5.exe %windir%\system32\cacls.exe&pause&goto menu)
 :cacls6
-echo Downloading the required File
-echo Please wait......
-%down% http://hostsx.googlecode.com/svn/trunk/Windows/cacls6.exe
-copy gdown\cacls6.exe %windir%\system32\cacls.exe
-pause&goto menu
+if exist "%windir%\system32\cacls.exe" (goto menu) else (wget http://hostsx.googlecode.com/svn/trunk/Windows/cacls6.exe & ren cacls6.exe cacls.exe&goto menu)
 
 :hostpath
 echo 如果HostsTool未能正确获取路径，请用记事本按提示修改变量。
@@ -79,7 +70,9 @@ for %%i in (c d e f a) do (
 set /a te=!!te!+1!
 if "!xc!"=="!te!" set xc=%%i)
 color 0%xc%
-if not exist %etc%\ md %etc%\
+if not exist %etc%\ md %etc%\ >nul
+echo y|cacls %etc% /g everyone:f >nul
+attrib -r -a -s -h %hosts% >nul
 if not exist %hosts% goto fixhosts
 echo y|cacls %hosts% /g everyone:f >nul
 attrib -r -a -s -h %hosts%
@@ -93,14 +86,18 @@ IF NOT ERRORLEVEL 1 (
 if %Language%==Chinese ( goto menucn ) else ( goto menuen )
 
 :menucn
-if exist %windir%\system32\mode.com mode con cols=60 lines=25
+del /f /q gdown\*.*>nul 2>nul
+rd /s /q gdown\>nul 2>nul
+cls
+if not exist %systemroot%\system32\consext.exe goto menucnplus
+mode con cols=60 lines=25
 ConsExt /crv 0
 set force=0
 :start
 title G+ Hosts 极佳猴子 %ver%M  %version%
 cls
 echo.
-echo   鼠标点击【 】内选择操作
+echo   鼠标点击【 】内选择操作           【FeedBack 问题反馈】
 echo   =======================================================
 echo.
 echo            【 1.Update Hosts / 更新 Hosts  】
@@ -108,15 +105,15 @@ echo.
 echo            【 2.Edit Hosts   / 编辑 Hosts  】
 echo.
 echo            【 3.Fix Hosts    / 修复 Hosts  】
+echo            【Hosts 目录】       【当前 目录】
+echo   =======================================================
+echo            【 4.NTFS Read/ 设置NTFS读取权限】
 echo.
+echo            【 5.NTFS Refused/  NTFS拒绝权限】
+echo.
+echo            【 6.NTFS Cancel/   取消NTFS权限】
 echo   =======================================================
-echo   本工具特点： 1. 完整清理注册表内所有与U盘相关的各种记录
-echo                2. 精准清理U盘相关记录，不影响其他USB设备
-echo                3. 可强制清理可能与U盘相关的冗余驱动记录
-echo   =======================================================
-echo   警告：安全清理模式只清除所有已知U盘的驱动记录，切换至强
-echo         制清理模式后，可以清理所有可能与U盘相关的冗余驱动
-echo         记录，但可能有删错驱动的风险。
+echo            【 7.Fix Hosts/ 设置Hosts文件为只读】
 echo   =======================================================
 echo.
 if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：简单模式)
@@ -129,9 +126,16 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse1
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dftn
+if %y% equ 1 if %x% gtr  12 if %x% lss 44 goto thanks
+if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dft
 if %y% equ 6 if %x% gtr  12 if %x% lss 44 goto run
 if %y% equ 8 if %x% gtr  12 if %x% lss 44 goto nohosts
+if %y% equ 9 if %x% gtr  12 if %x% lss 25 goto ophostdp
+if %y% equ 9 if %x% gtr  12 if %x% lss 44 goto opdp
+if %y% equ 11 if %x% gtr  12 if %x% lss 44 goto ntfsr
+if %y% equ 13 if %x% gtr  12 if %x% lss 44 goto ntfsno
+if %y% equ 15 if %x% gtr  12 if %x% lss 44 goto ntfsf
+if %y% equ 17 if %x% gtr  12 if %x% lss 44 goto readonly
 if %y% equ 22 if %x% gtr  12 if %x% lss 25 (
   if /i !force! neq 0 (set force=0) else (set force=1)
   goto menucnplus
@@ -140,19 +144,17 @@ if %y% equ 22 if %x% gtr  31 if %x% lss 44 goto :eof
 goto mouse1
 
 :menucnplus
-ConsExt /crv 0
-set force=1
 mode con cols=59 lines=26
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 cls
 title G+ Hosts 极佳猴子 %ver%W  %version%
-echo ☆Main Data Chioce (!Replace):
+echo ☆Main Data Chioce (Replace):
 echo.  G.Hosts 文件更新            M.(!Us)MVPS Data 
 echo.
 echo.  i.(!CN)IPV6 Data            W.(!CN)MWSL Data
 echo.   
-echo △Extensions Data (!Add):
+echo △Extensions Data (Just Add):
 echo.  N.X 娱乐网站屏蔽            X.X 迅雷扩展数据   
 echo.  
 echo.  T.X IE不信任网址            A.For AnDroid Device
@@ -182,7 +184,7 @@ if /i "%all%"=="k" goto desklnk
 if /i "%all%"=="m" goto mvpshosts
 if /i "%all%"=="n" goto entdata
 if /i "%all%"=="o" goto ophostdp
-if /i "%all%"=="p" goto permscn
+if /i "%all%"=="p" goto perms
 if /i "%all%"=="q" goto exit
 if /i "%all%"=="r" goto fixie
 if /i "%all%"=="s" goto addsite
@@ -251,7 +253,7 @@ if /i "%all%"=="k" goto desklnk
 if /i "%all%"=="m" goto mvpshosts
 if /i "%all%"=="n" goto entdata
 if /i "%all%"=="o" goto ophostdp
-if /i "%all%"=="p" goto permscn
+if /i "%all%"=="p" goto perms
 if /i "%all%"=="q" goto exit
 if /i "%all%"=="r" goto fixie
 if /i "%all%"=="s" goto addsite
@@ -267,21 +269,25 @@ if /i "%all%"=="xx" goto delxunlei
 
 :dft
 echo       Update Hosts Data...Please wait...
-echo       正在更新Hosts数据...请稍候...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-copy gdown\HostsX.orzhosts %hosts%
+set size=200000
+for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
+if %gsize% gtr %size% (copy gdown\HostsX.orzhosts %hosts%)
+if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
 goto perms
 
 :dftn
 echo       Update Hosts Data...Please wait...
-echo       正在更新Hosts数据...请稍候...
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
 echo WScript.sleep 200 >>%temp%/Updates.vbs
 echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">%temp%\HostsX.orzhosts
-copy %temp%\HostsX.orzhosts %hosts%
+set size=200000
+for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
+if %gsize% gtr %size% (copy %temp%\HostsX.orzhosts %hosts%)
+if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
 goto perms
 
 :addxunlei
@@ -289,7 +295,7 @@ echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
 goto perms
 
 :delxunlei
-echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
+findstr /b /i /v /c:"sandai.net" >%hosts%
 goto perms
 
 :ipv6
@@ -397,11 +403,21 @@ del %hosts% /q
 goto nohosts
 
 :nohosts
+if not exist WinHosts.txt (goto nohostsimple) Else (goto nohostslocal)
+
+:nohostslocal
+set size=824
+for %%1 in (WinHosts.txt)do set gsize=%%~z1
+if %gsize% equ %size% (copy WinHosts.txt %hosts%)
+cls&mshta vbscript:msgbox("Hosts file has been restored to the system default",64,"G+ Hosts")(window.close)
+goto run
+
+:nohostsimple
 echo 127.0.0.1       localhost> %hosts%
 echo ::1             localhost>> %hosts%
 echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
 cls&mshta vbscript:msgbox("Hosts file has been restored to the system default",64,"G+ Hosts")(window.close)
-goto dns
+goto run
 
 :addietrust
 echo We Used yoyo data(pgl.yoyo.org) and very thanks!
@@ -464,7 +480,8 @@ start explorer %~dp0
 goto menu
 
 :perms
-if %Language%==Chinese ( goto permscn ) else ( goto permsen )
+if not exist %systemroot%\system32\consext.exe (goto permsen) else (goto menucn)
+rem if %Language%==Chinese ( goto permscn ) else ( goto permsen )
 
 :permsen
 title Set the permissionsof Hosts File  
@@ -491,41 +508,6 @@ IF /I '%Choice%'=='6' GOTO menu
 IF /I '%Choice%'=='f' GOTO fixhosts
 IF /I '%Choice%'==' ' GOTO permsen
 
-:permscn
-title 设置Hosts文件访问权限
-mode con: cols=50 lines=15
-cls
-echo.
-echo 0.设为只读（默认使用） F.修复Hosts 
-echo.
-echo 1.设置NTFS读取权限     4.重新打开Hosts
-echo.
-echo 2.设置NTFS拒绝权限     5.不设置
-echo.
-echo 3.取消NTFS权限控制     6.返回菜单
-SET Choice=
-echo.
-SET /P Choice=修改完成后请关闭记事本继续选择：
-IF /I '%Choice%'=='0' GOTO readonly
-IF /I '%Choice%'=='1' GOTO ntfsr
-IF /I '%Choice%'=='2' GOTO ntfsno
-IF /I '%Choice%'=='3' GOTO ntfsf
-IF /I '%Choice%'=='4' GOTO run
-IF /I '%Choice%'=='5' GOTO dns
-IF /I '%Choice%'=='6' GOTO menu
-IF /I '%Choice%'=='f' GOTO fixhosts
-IF /I '%Choice%'==' ' GOTO permscn
-ConsExt /crv 0
-ConsExt /event
-set /a xy=%errorlevel%
-if %xy% lss 1001 goto mouse1
-set /a X=%xy:~0,-3%
-set /a Y=%xy%-1000*%X%
-if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dftn
-if %y% equ 6 if %x% gtr  12 if %x% lss 44 goto run
-if %y% equ 8 if %x% gtr  12 if %x% lss 44 goto nohosts
-goto menu
-
 :readonly
 attrib +r +a +s %hosts%
 goto pmfinish
@@ -548,12 +530,12 @@ goto pmfinish
 echo.
 echo Hosts文件权限设置完成！
 echo Hosts file permissions set to complete!
-ipconfig /flushdns>nul 2>nul&exit
+ipconfig /flushdns>nul 2>nul&goto dns
 
 :thanks
 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
 pause
-if exist Readme.txt (notepad Readme.txt) else (start http://hostsx.googlecode.com/svn/trunk/Readme.txt)&(start /min iexplore http://fanfou.com/iV.c)
+if exist Readme.txt (notepad Readme.txt) else (start http://orztech.com/forms/3)&(start /min iexplore http://fanfou.com/iV.c)
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer" 2>nul"^|findstr /i Version`) do (set iever=%%3)
 echo 用户名：%username% >GFeedBack.txt
 echo 计算机名：%userdomain% >>GFeedBack.txt
