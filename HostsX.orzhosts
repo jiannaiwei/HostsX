@@ -1,4 +1,4 @@
-;version=201103140909
+;version=201103140916
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -725,7 +725,6 @@ ff02::3 ip6-allhosts
 #常用站点广告过滤
 0.0.0.0 i1.hk
 0.0.0.0 www.adhere.com.hk
-0.0.0.0 i.uwants.com
 0.0.0.0 ad.networld.hk
 0.0.0.0 ad.zanox.com
 0.0.0.0 wap.pingan.com
