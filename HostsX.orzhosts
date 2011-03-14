@@ -1,4 +1,4 @@
-;version=201103140916
+;version=201103141255
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -723,6 +723,7 @@ ff02::3 ip6-allhosts
 2401:3800:c001::68 3.gvt0.cn
 @HostsX OneKey
 #常用站点广告过滤
+0.0.0.0 g.hsw.cn
 0.0.0.0 i1.hk
 0.0.0.0 www.adhere.com.hk
 0.0.0.0 ad.networld.hk
@@ -6591,6 +6592,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 bill.tgbus.com
 0.0.0.0 g.tgbus.com
 0.0.0.0 g.tgbusdata.cn
+0.0.0.0 gg.tgbus.com
 @HostsX 国内站点广告/IT类网站
 #Pc泡泡
 0.0.0.0 33.pcpop.com
