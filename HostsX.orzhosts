@@ -1,4 +1,4 @@
-;version=201103151055
+;version=201103151128
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -57,10 +57,13 @@ ff02::3 ip6-allhosts
 74.54.212.172 safariextensions.tumblr.com
 74.54.212.172 tumblr.com
 #Twitter
-128.242.240.29 twitter.com
-128.242.240.29 www.twitter.com
-128.242.240.29 api.twitter.com
-128.242.245.43 search.twitter.com
+#twitter 
+199.59.148.31 twitter.com
+199.59.148.31 api.twitter.com
+199.59.148.31 search.twitter.com
+199.59.148.31 www.twitter.com
+199.59.148.31 search.twitter.com
+199.59.148.31 integratedsearch.twitter.com
 2001:470:83f2::710:1 twitter.com
 2001:470:83f2::710:1 search.twitter.com
 2001:470:83f2::710:1 api.twitter.com
@@ -172,6 +175,8 @@ ff02::3 ip6-allhosts
 74.125.39.99 autoproxy2pac.appspot.com
 203.208.39.104 softjiecn.appspot.com
 203.208.39.104 kwoktree.appspot.com
+203.208.39.104 qhm123.appspot.com
+203.208.39.104 micolog.appspot.com
 2404:6800:8005::67 googlemashups.com
 2404:6800:8005::68 www.googlemashups.com
 2404:6800:8005::62 googlemashups.l.google.com
