@@ -1,4 +1,4 @@
-;version=201103141255
+;version=201103151055
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -170,6 +170,8 @@ ff02::3 ip6-allhosts
 74.125.39.99 v2ex.appspot.com
 74.125.39.99 kskyapi.appspot.com
 74.125.39.99 autoproxy2pac.appspot.com
+203.208.39.104 softjiecn.appspot.com
+203.208.39.104 kwoktree.appspot.com
 2404:6800:8005::67 googlemashups.com
 2404:6800:8005::68 www.googlemashups.com
 2404:6800:8005::62 googlemashups.l.google.com
