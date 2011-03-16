@@ -126,7 +126,7 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse1
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  12 if %x% lss 44 goto dns
+if %y% equ 1 if %x% gtr  12 if %x% lss 56 goto dns
 if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dft
 if %y% equ 6 if %x% gtr  12 if %x% lss 44 goto run
 if %y% equ 8 if %x% gtr  12 if %x% lss 44 goto nohosts
