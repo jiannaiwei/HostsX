@@ -97,7 +97,7 @@ set force=0
 title G+ Hosts 极佳猴子 %ver%M  %version%
 cls
 echo.
-echo   鼠标点击【 】内选择操作           【DNS Cache    刷新】
+echo   鼠标点击【 】内选择操作           【DNS Cache 刷新】
 echo   =======================================================
 echo.
 echo            【 1.Update Hosts / 更新 Hosts  】
