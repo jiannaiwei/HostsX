@@ -1,5 +1,5 @@
 @echo off
-set ver=2.73
+set ver=2.75
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
@@ -97,7 +97,7 @@ set force=0
 title G+ Hosts 极佳猴子 %ver%M  %version%
 cls
 echo.
-echo   鼠标点击【 】内选择操作           【FeedBack 问题反馈】
+echo   鼠标点击【 】内选择操作           【DNS Cache    刷新】
 echo   =======================================================
 echo.
 echo            【 1.Update Hosts / 更新 Hosts  】
@@ -126,7 +126,7 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse1
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  12 if %x% lss 44 goto thanks
+if %y% equ 1 if %x% gtr  12 if %x% lss 44 goto dns
 if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dft
 if %y% equ 6 if %x% gtr  12 if %x% lss 44 goto run
 if %y% equ 8 if %x% gtr  12 if %x% lss 44 goto nohosts
