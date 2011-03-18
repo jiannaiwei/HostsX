@@ -1,4 +1,4 @@
-;version=201103181042
+;version=201103181700
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -2220,6 +2220,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
 0.0.0.0 d.gfan.com
+0.0.0.0 zhulang.em.kongzhong.com
 0.0.0.0 em.kongzhong.com
 0.0.0.0 hi.fywap.com
 0.0.0.0 hot.icittys.com
