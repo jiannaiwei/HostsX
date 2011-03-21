@@ -1,4 +1,4 @@
-;version=201103211020
+;version=201103212230
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8662,6 +8662,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xy.8zgame.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 gg.1qyx.com
+0.0.0.0 image.001union.com
+0.0.0.0 u1346.37117.com
 #病毒下载
 0.0.0.0 kb.ttdk2.com
 0.0.0.0 tj.ttdk2.com
