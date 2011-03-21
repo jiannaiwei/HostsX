@@ -1,4 +1,4 @@
-;version=201103210850
+;version=201103211020
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7259,6 +7259,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 g.cnxad.com
 0.0.0.0 js.cnxad.com
 0.0.0.0 x.cnxad.com
+0.0.0.0 y.cnxad.com
 #CNZZ
 0.0.0.0 10 mail.cnzz.com
 0.0.0.0 17k.cnzz.com
