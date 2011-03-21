@@ -1,9 +1,15 @@
 @echo off
-set ver=2.76
+set ver=2.761
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
+set/a xc=%random%%%5+1
+set te=
+for %%i in (c d e f a) do (
+set /a te=!!te!+1!
+if "!xc!"=="!te!" set xc=%%i)
+color 0%xc%
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
-Md "%a%\test_permissions" 2>nul||(Echo 请使用右键管理员身份运行&&Pause >nul&&Exit)
+Md "%a%\test_permissions" 2>nul||(echo 请使用右键管理员身份运行! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions"
 if not exist %systemroot%\system32\wget.exe copy wget.exe %systemroot%\system32\
 if not exist %systemroot%\system32\consext.exe copy consext.exe %systemroot%\system32\
@@ -64,12 +70,6 @@ set hosts=
 goto menu
 
 :menu
-set/a xc=%random%%%5+1
-set te=
-for %%i in (c d e f a) do (
-set /a te=!!te!+1!
-if "!xc!"=="!te!" set xc=%%i)
-color 0%xc%
 if not exist %etc%\ md %etc%\ >nul
 echo y|cacls %etc% /g everyone:f >nul
 attrib -r -a -s -h %hosts% >nul
