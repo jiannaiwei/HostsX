@@ -1,4 +1,4 @@
-;version=201103202135
+;version=201103210850
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -95,33 +95,6 @@ ff02::3 ip6-allhosts
 66.102.7.100 encrypted.google.com
 74.125.43.102 encrypted.google.com
 74.125.227.4 encrypted.google.com
-2404:6800:8005::68 www.google.com
-2404:6800:8005::c1 m.google.com
-2404:6800:8005::54 accounts.google.com
-2404:6800:8005::65 services.google.com
-2404:6800:8005::65 goto.google.com
-2404:6800:8005::d2 jmt0.google.com
-2404:6800:8005::d2 wire.l.google.com
-2404:6800:8005::62 goo.gl
-#GoogleCN
-2404:6800:8005::2e www.google.com.hk
-2404:6800:8005::2e images.google.com.hk
-2404:6800:8005::2e video.google.com.hk
-2404:6800:8005::2e maps.google.com.hk
-2404:6800:8005::2e news.google.com.hk
-2404:6800:8005::2e translate.google.com.hk
-2404:6800:8005::2e blogsearch.google.com.hk
-2404:6800:8005::2e toolbar.google.com.hk
-2404:6800:8005::2e desktop.google.com.hk
-2404:6800:8005::2e id.google.com.hk
-2404:6800:8005::2e wenda.google.com.hk
-2404:6800:8005::67 www.googlechinawebmaster.com
-2401:3800:c001::68 translate.google.cn
-2401:3800:c001::68 blogsearch.google.cn
-2401:3800:c001::68 pack.google.cn
-2401:3800:c001::68 news.google.cn
-2401:3800:c001::68 video.google.cn
-2404:6800:8005::84 music.googleusercontent.cn
 #GoogleSites
 2404:6800:8005::2f www.google.com.tw
 2a00:1450:8006::30 www.google.co.jp
@@ -162,15 +135,10 @@ ff02::3 ip6-allhosts
 2404:6800:8005::4a www.google.pt
 2404:6800:8005::4b www.google.com.ly
 2404:6800:8005::4c www.google.com.br
-#Android
-2404:6800:8005::62 www.android.com
-2404:6800:8005::62 android.com
-2404:6800:8003::79 developer.android.com
-2404:6800:8005::62 source.android.com
 #App Engine
-74.125.39.99 simple-note.appspot.com
-74.125.39.99 v2ex.appspot.com
-74.125.39.99 kskyapi.appspot.com
+203.208.39.104 simple-note.appspot.com
+203.208.39.104 v2ex.appspot.com
+203.208.39.104 kskyapi.appspot.com
 203.208.39.104 autoproxy2pac.appspot.com
 203.208.39.104 softjiecn.appspot.com
 203.208.39.104 kwoktree.appspot.com
@@ -342,32 +310,6 @@ ff02::3 ip6-allhosts
 2404:6800:8005::62 groups.l.google.com
 2404:6800:8005::89 *.googlegroups.com
 2404:6800:8005::89 blob-s-docs.googlegroups.com
-#Gmail
-2404:6800:8005::11 mail.google.com
-2404:6800:8005::53 googlemail.l.google.com
-2404:6800:8005::11 googlemail.l.google.com
-2404:6800:8005::12 googlemail.l.google.com
-2404:6800:8005::13 googlemail.l.google.com
-#2404:6800:8005::bd b.googlemail.l.google.com
-2404:6800:8005::62 gmail.google.com
-2404:6800:8005::62 gmail.l.google.com
-2404:6800:8005::62 www.gmail.com
-2404:6800:8005::62 gmail.com
-2404:6800:8005::62 pop.gmail.com
-2404:6800:8005::62 smtp.gmail.com
-2404:6800:8005::62 smtp1.google.com
-2404:6800:8005::62 smtp2.google.com
-2404:6800:8005::62 smtp3.google.com
-2404:6800:8005::62 smtp4.google.com
-2404:6800:8005::62 smtp5.google.com
-2404:6800:8005::62 smtp-out.google.com
-2404:6800:8005::62 smtp-out2.google.com
-2404:6800:8005::62 smtp-out3.google.com
-2404:6800:8005::62 imap.google.com
-2404:6800:8005::62 gmail-pop.l.google.com
-2404:6800:8005::62 gmail-smtp.l.google.com
-2404:6800:8005::62 gmail-smtp-in.l.google.com
-2404:6800:8005::62 gmr-smtp-in.l.google.com
 #News
 2404:6800:8005::68 news.google.com
 2404:6800:8005::68 news.l.google.com
@@ -8029,6 +7971,7 @@ $      下载最新版本的 HostsX。
 #Other Statistics
 0.0.0.0 icon.ajiang.net
 0.0.0.0 popstat.pppop.cn
+0.0.0.0 static.getclicky.com
 0.0.0.0 static.woopra.com
 0.0.0.0 static.zoomino.cn
 0.0.0.0 stats.norton.com
