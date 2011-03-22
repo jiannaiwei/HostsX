@@ -1,5 +1,5 @@
 @echo off
-set ver=2.772
+set ver=2.773
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -218,6 +218,8 @@ ipconfig /flushdns>nul 2>nul
 goto menu
 
 :dft
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib %hosts% -r -h -s >nul 2>nul
 if not exist %systemroot%\system32\wget.exe (goto dftvbs) else (goto dftwget)
 
 :dftwget
