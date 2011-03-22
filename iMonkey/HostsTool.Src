@@ -1,5 +1,5 @@
 @echo off
-set ver=2.762
+set ver=2.763
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -114,6 +114,7 @@ echo.
 echo            【 6.NTFS Cancel/   取消NTFS权限】
 echo   =======================================================
 echo            【 7.Fix Hosts/ 设置Hosts文件为只读】
+echo            【IE广告过滤】       【系统 清理】
 echo   =======================================================
 echo.
 if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：简单模式)
@@ -136,7 +137,9 @@ if %y% equ 11 if %x% gtr  12 if %x% lss 44 goto ntfsr
 if %y% equ 13 if %x% gtr  12 if %x% lss 44 goto ntfsno
 if %y% equ 15 if %x% gtr  12 if %x% lss 44 goto ntfsf
 if %y% equ 17 if %x% gtr  12 if %x% lss 44 goto readonly
-if %y% equ 22 if %x% gtr  12 if %x% lss 25 (
+if %y% equ 18 if %x% gtr  12 if %x% lss 25 goto adfilter
+if %y% equ 18 if %x% gtr  12 if %x% lss 44 goto clean
+if %y% equ 23 if %x% gtr  12 if %x% lss 25 (
   if /i !force! neq 0 (set force=0) else (set force=1)
   goto menucnplus
 )
@@ -645,6 +648,12 @@ rem  修复开始菜单广告
 reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
 echo  Repaired!
 cls&goto menu
+
+:adfilter
+del AdFilter.css AdFilter.vbs
+wget http://hostsx.googlecode.com/svn/trunk/iMonkey/AdFilter.css
+wget http://hostsx.googlecode.com/svn/trunk/iMonkey/AdFilter.vbs
+AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto menu
 
 :clean
 color 0A 

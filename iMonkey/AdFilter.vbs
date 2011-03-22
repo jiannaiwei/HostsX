@@ -1,4 +1,3 @@
-'===========by 984237895123 ===========
 On Error Resume Next
 p=Left(WScript.ScriptFullName,Len(WScript.ScriptFullName)-Len(WScript.ScriptName))&"AdFilter.CSS"
 Set WSHShell = WScript.CreateObject("WScript.Shell")
