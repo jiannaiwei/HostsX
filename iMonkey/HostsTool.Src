@@ -1,5 +1,5 @@
 @echo off
-set ver=2.761
+set ver=2.762
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -645,6 +645,40 @@ rem  修复开始菜单广告
 reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
 echo  Repaired!
 cls&goto menu
+
+:clean
+color 0A 
+echo 正在清除系统垃圾文件，请稍等......  
+del /f /s /q %systemdrive%\*.tmp          
+del /f /s /q %systemdrive%\*._mp          
+del /f /s /q %systemdrive%\*.log          
+del /f /s /q %systemdrive%\*.gid          
+del /f /s /q %systemdrive%\*.chk          
+del /f /s /q %systemdrive%\*.old
+del /f /s /q %systemdrive%\*.ftg
+del /f /s /q %systemdrive%\*.fts
+del /f /s /q %systemdrive%\*.syd
+del /f /s /q %systemdrive%\*.diz   
+del /f /s /q %systemdrive%\recycled\*.*          
+del /f /s /q %windir%\*.bak          
+del /f /s /q %windir%\prefetch\*.*          
+rd /s /q %windir%\temp & md %windir%\temp                   
+del /f /q %userprofile%\recent\*.*          
+del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*" 
+del /f /s /q "%userprofile%\Local Settings\Temp\*.*"          
+del /f /s /q "%userprofile%\recent\*.*" 
+if exist "%windir%\SoftwareDistribution\Download\*.*" del /f /s /q %windir%\SoftwareDistribution\Download\*.* 2>nul
+if exist "%systemroot%\temp\*.*" del /a /f /s /q "%systemroot%\temp\*.*" 2>nul
+if exist "%systemroot%\minidump\*.*" del /f /q /s /a "%systemroot%\minidump\*.*" 2>nul
+echo 正在清理系统升级补丁留下来的反安装目录……
+for /f "tokens=1" %%i in ('dir %SystemRoot%\$*$ /s /b /ad') do rd /s /q %%i    
+echo 清除浏览器地址记录...
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" /f 2>nul
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" 
+echo 清除运行记录...
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f               
+echo 清除系统LJ完成! & choice /t 2 /d y /n >nul &goto menu
 
 :delit
 mode con cols=60 lines=20
