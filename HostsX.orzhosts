@@ -80,18 +80,8 @@ ff02::3 ip6-allhosts
 2001:470:83f2::710:1 statics.plurk.com
 @HostsX Google
 #Google
-74.125.19.147 nt0.ggpht.com
-74.125.19.147 nt1.ggpht.com
-74.125.19.147 nt2.ggpht.com
-74.125.19.147 nt3.ggpht.com
 209.85.225.102 groups.google.com
-74.125.127.100 services.google.com
 74.125.127.100 sites.google.com
-209.85.225.104 reader.google.com
-74.125.127.101 calendar.google.com
-209.85.225.101 docs.google.com
-74.125.127.100 writely.google.com
-74.125.127.139 spreadsheets.google.com
 66.102.7.100 encrypted.google.com
 74.125.43.102 encrypted.google.com
 74.125.227.4 encrypted.google.com
@@ -212,43 +202,6 @@ ff02::3 ip6-allhosts
 2404:6800:8005::62 4.bp.blogspot.com
 2404:6800:8005::62 bloggertemplatespreview.blogspot.com
 #2404:6800:8005::62 blogger.l.google.com
-#Google Blog
-2404:6800:8005::62 adwordsapi.blogspot.com
-2404:6800:8005::62 adsense-zhs.blogspot.com
-2404:6800:8005::62 android-developers.blogspot.com
-2404:6800:8005::62 apacdeveloper.blogspot.com
-2404:6800:8005::62 booksearch.blogspot.com
-2404:6800:8005::62 chrome.blogspot.com
-2404:6800:8005::62 doubleclickpublishersapi.blogspot.com
-2404:6800:8005::62 emeadev.blogspot.com
-2404:6800:8005::62 gearsblog.blogspot.com
-2404:6800:8005::62 google-code-featured.blogspot.com
-2404:6800:8005::62 google-entertainment-it.blogspot.com
-2404:6800:8005::62 google-opensource.blogspot.com
-2404:6800:8005::62 googleajaxsearchapi.blogspot.com
-2404:6800:8005::62 googleappengine.blogspot.com
-2404:6800:8005::62 googleappsdeveloper.blogspot.com
-2404:6800:8005::62 googleblog.blogspot.com
-2404:6800:8005::62 googlecheckout.blogspot.com
-2404:6800:8005::62 googlecheckoutapi.blogspot.com
-2404:6800:8005::62 googlechinablog.blogspot.com
-2404:6800:8005::62 googlechromereleases.blogspot.com
-2404:6800:8005::62 googlecode.blogspot.com
-2404:6800:8005::62 googlecustomsearch.blogspot.com
-2404:6800:8005::62 googleenterprise.blogspot.com
-2404:6800:8005::62 googlegeodevelopers.blogspot.com
-2404:6800:8005::62 googlemashupeditor.blogspot.com
-2404:6800:8005::62 googlemobile.blogspot.com
-2404:6800:8005::62 googleresearch.blogspot.com
-2404:6800:8005::62 googletalk.blogspot.com
-2404:6800:8005::62 googlewebmaster-cn.blogspot.com
-2404:6800:8005::62 googlewebmastercentral.blogspot.com
-2404:6800:8005::62 googlewebtoolkit.blogspot.com
-2404:6800:8005::62 golangblog.blogspot.com
-2404:6800:8005::62 gmailblog.blogspot.com
-2404:6800:8005::62 igoogledeveloper.blogspot.com
-2404:6800:8005::62 webmproject.blogspot.com
-2404:6800:8005::62 youtube-global.blogspot.com
 #BlogSpot
 2404:6800:8005::62 googlesystem.blogspot.com
 2404:6800:8005::62 chinafreenet.blogspot.com
@@ -302,15 +255,11 @@ ff02::3 ip6-allhosts
 2404:6800:8005::62 writely.l.google.com
 2404:6800:8005::62 writely-com.l.google.com
 2404:6800:8005::62 writely-china.l.google.com
-#Reader
-2404:6800:8005::68 reader.google.com
-2404:6800:8005::68 www2.l.google.com
-#Group
-2404:6800:8005::62 groups.google.com
-2404:6800:8005::62 groups.l.google.com
-2404:6800:8005::89 *.googlegroups.com
-2404:6800:8005::89 blob-s-docs.googlegroups.com
 #News
+74.125.19.147 nt0.ggpht.com
+74.125.19.147 nt1.ggpht.com
+74.125.19.147 nt2.ggpht.com
+74.125.19.147 nt3.ggpht.com
 2404:6800:8005::68 news.google.com
 2404:6800:8005::68 news.l.google.com
 2404:6800:8005::62 nt0.ggpht.com
