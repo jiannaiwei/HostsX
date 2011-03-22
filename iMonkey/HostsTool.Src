@@ -1,5 +1,5 @@
 @echo off
-set ver=2.765
+set ver=2.766
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -15,7 +15,7 @@ if not exist %systemroot%\system32\wget.exe copy wget.exe %systemroot%\system32\
 if not exist %systemroot%\system32\consext.exe copy consext.exe %systemroot%\system32\
 cls
 ren %0 "HostsTool.bat"
-if not exist %windir%\system32\wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)& (echo Please Save the wget.exe to the current directory!)&pause&start explorer %windir%\system32\
+if not exist %windir%\system32\wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)&(echo Please Save the wget.exe to the current directory!)& choice /t 2 /d y /n >nul &start explorer %windir%\system32\
 del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt ie.txt>nul 2>nul
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
@@ -89,7 +89,7 @@ if %Language%==Chinese ( goto menucn ) else ( goto menuen )
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 cls
-if not exist %systemroot%\system32\consext.exe goto menucnplus
+if not exist %systemroot%\system32\consext.exe goto menuen
 mode con cols=60 lines=28
 ConsExt /crv 0
 set force=0
@@ -145,78 +145,10 @@ if %y% equ 20 if %x% gtr  12 if %x% lss 25 goto fixie
 if %y% equ 20 if %x% gtr  12 if %x% lss 47 goto desklnk
 if %y% equ 25 if %x% gtr  12 if %x% lss 25 (
   if /i !force! neq 0 (set force=0) else (set force=1)
-  goto menucnplus
+  goto menuen
 )
 if %y% equ 25 if %x% gtr  31 if %x% lss 44 goto :eof
 goto mouse1
-
-:menucnplus
-mode con cols=59 lines=26
-del /f /q gdown\*.*>nul 2>nul
-rd /s /q gdown\>nul 2>nul
-cls
-title G+ Hosts 极佳猴子 %ver%W  %version%
-echo ☆Main Data Chioce (Replace):
-echo.  G.Hosts 文件更新            M.(!Us)MVPS Data 
-echo.
-echo.  i.(!CN)IPV6 Data            W.(!CN)MWSL Data
-echo.   
-echo △Extensions Data (Just Add):
-echo.  N.X 娱乐网站屏蔽            X.X 迅雷扩展数据   
-echo.  
-echo.  T.X IE不信任网址            A.For AnDroid Device
-echo.
-echo ※User Custom:
-echo. B.X 备份Hosts文件    E.编辑Hosts文件     F.Hosts文件修复
-echo. 
-echo. S.X 站点Hosts转向    O.Hosts文件目录     P.设置Hosts权限 
-echo. 
-echo. K.D 快捷方式修复     R.IE浏览器修复      H.感谢帮助反馈
-echo ---------------------------------------------------------
-echo 当前工作目录(0)：%~dp0
-set all=
-set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
-if /i "%all%"=="0" goto opdp
-if /i "%all%"=="4" goto run
-if /i "%all%"=="a" goto AnDroid
-if /i "%all%"=="b" goto hostsbak
-if /i "%all%"=="c" goto clean
-if /i "%all%"=="d" goto delit
-if /i "%all%"=="e" goto run
-if /i "%all%"=="f" goto fixhosts
-if /i "%all%"=="g" goto dft
-if /i "%all%"=="h" goto thanks
-if /i "%all%"=="i" goto ipv6
-if /i "%all%"=="k" goto desklnk
-if /i "%all%"=="m" goto mvpshosts
-if /i "%all%"=="n" goto entdata
-if /i "%all%"=="o" goto ophostdp
-if /i "%all%"=="p" goto perms
-if /i "%all%"=="q" goto exit
-if /i "%all%"=="r" goto fixie
-if /i "%all%"=="s" goto addsite
-if /i "%all%"=="t" goto addietrust
-if /i "%all%"=="w" goto mwslhosts
-if /i "%all%"=="wr" goto hostpath
-if /i "%all%"=="x" goto addxunlei
-if /i "%all%"=="xb" goto delhostsbak
-if /i "%all%"=="xn" goto delentdata
-if /i "%all%"=="xs" goto delsite
-if /i "%all%"=="xt" goto delietrust
-if /i "%all%"=="xx" goto delxunlei
-
-:dns
-echo Refresh DNS and caching...
-ipconfig /flushdns>nul 2>nul
-del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
-del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
-del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
-del /f /q %userprofile%\recent\*.*>nul 2>nul
-reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 2>nul
-reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
-reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
-ipconfig /flushdns>nul 2>nul
-goto menu
 
 :menuen
 mode con cols=62 lines=28
@@ -224,12 +156,12 @@ del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 cls
 title G+ Hosts %ver%W  %version%
-echo ☆Main Data Chioce (!Replace):
-echo.  G.HostsUpdate            M.(!Us)MVPS Data 
+echo ☆Main Data Chioce (Replace):
+echo.  G.HostsUpdate            M.(Us)MVPS Data 
 echo.
-echo.  i.(!CN)IPV6 Data         W.(!CN)MWSL Data
+echo.  i.(CN)IPV6 Data          W.(CN)MWSL Data
 echo.   
-echo △Extensions Data (!Add):
+echo △Extensions Data (Add):
 echo.  N.X EntPlay Block           X.X Xunleiadd  
 echo.  
 echo.  T.X IE donot Turst Site     A.For AnDroid Device
@@ -240,7 +172,7 @@ echo. B.X Backup Hosts E.Edit Hosts      F.Hosts File Fix
 echo. 
 echo. S.X Shield Site  O.Hosts Directory P.Hosts Permissions  
 echo. 
-echo. K.D Shortcut     R.IE Fix          H.hanks & Feedback
+echo. K.D Shortcut     R.IE Fix          H.Thanks Feedback
 echo ---------------------------------------------------------
 echo Current directory(0)：%~dp0
 set all=
@@ -260,21 +192,35 @@ if /i "%all%"=="k" goto desklnk
 if /i "%all%"=="m" goto mvpshosts
 if /i "%all%"=="n" goto entdata
 if /i "%all%"=="o" goto ophostdp
-if /i "%all%"=="p" goto perms
+if /i "%all%"=="p" goto permsen
 if /i "%all%"=="q" goto exit
 if /i "%all%"=="r" goto fixie
 if /i "%all%"=="s" goto addsite
 if /i "%all%"=="t" goto addietrust
 if /i "%all%"=="w" goto mwslhosts
 if /i "%all%"=="wr" goto hostpath
-if /i "%all%"=="x" goto addxunlei
 if /i "%all%"=="xb" goto delhostsbak
 if /i "%all%"=="xn" goto delentdata
 if /i "%all%"=="xs" goto delsite
 if /i "%all%"=="xt" goto delietrust
-if /i "%all%"=="xx" goto delxunlei
+
+:dns
+echo Refresh DNS and caching...
+ipconfig /flushdns
+del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
+del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
+del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
+del /f /q %userprofile%\recent\*.*>nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
+reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
+ipconfig /flushdns
+goto menu
 
 :dft
+if not exist %systemroot%\system32\wget.exe (goto dftvbs) else (goto dftwget)
+
+:dftwget
 echo       Update Hosts Data...Please wait...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 set size=200000
@@ -284,7 +230,7 @@ if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
 goto perms
 
-:dftn
+:dftvbs
 echo       Update Hosts Data...Please wait...
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
@@ -296,14 +242,7 @@ set size=200000
 for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy %temp%\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
-goto perms
-
-:addxunlei
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
-goto perms
-
-:delxunlei
-findstr /b /i /v /c:"sandai.net" >%hosts%
 goto perms
 
 :ipv6
@@ -555,7 +494,7 @@ echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack
 notepad GFeedBack.txt&cls&del GFeedBack.txt&goto menu
 
 :fixie
-mode con cols=38 lines=23
+mode con cols=38 lines=30
 title IE Optimization and Fix
 cls
 echo  Please close all about IE browser windows before your fix!
