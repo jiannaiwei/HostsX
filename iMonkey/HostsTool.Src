@@ -1,5 +1,5 @@
 @echo off
-set ver=2.771
+set ver=2.772
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -339,7 +339,7 @@ if %errorlevel% == 1 (
 )
 echo Blocked QZone¡¢QFarm£¬Kaixin001£¬Renren£¬4399Game etc.
 echo You Can Use Hosts File Fix and Restore to Cancle.
-& choice /t 5 /d y /n >nul &&goto menu
+choice /t 5 /d y /n >nul &goto menu
 
 :delentdata
 pause&goto menu

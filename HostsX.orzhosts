@@ -1,4 +1,4 @@
-;version=201103212235
+;version=201103222336
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8644,7 +8644,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.xiazaiba.com
 0.0.0.0 xiazaiba.com
 0.0.0.0 xiazai.xiazaiba.com
-0.0.0.0 www.ouyaoxiazai.com
 0.0.0.0 52z.com
 0.0.0.0 adv.iemao.com
 0.0.0.0 Anywhere-games.com
@@ -8701,6 +8700,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 dlcnc.jjmatch.com
 0.0.0.0 download.iesuo.com
 0.0.0.0 img.iemao.com
+0.0.0.0 www.dd3000.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
