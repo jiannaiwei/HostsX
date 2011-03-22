@@ -1,5 +1,5 @@
 @echo off
-set ver=2.766
+set ver=2.768
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -97,9 +97,9 @@ set force=0
 title G+ Hosts 极佳猴子 %ver%M  %version%
 cls
 echo.
-echo   鼠标点击【 】内选择操作           【DNS Cache 刷新】
+echo   鼠标点击【 】内选择操作           【感谢帮助和反馈】
 echo   =======================================================
-echo.
+echo                                     【DNS Cache 刷新】
 echo            【 1.Update Hosts / 更新 Hosts  】
 echo.
 echo            【 2.Edit Hosts   / 编辑 Hosts  】
@@ -118,7 +118,7 @@ echo            【IE广告过滤】       【系统垃圾清理】
 echo.
 echo            【IE快速修复】       【快捷方式修复】     
 echo   =======================================================
-echo.
+echo            【For DroidX】       【娱乐网站屏蔽】
 if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：简单模式)
 echo.
 echo            【 切换模式 】     【  退  出  】
@@ -129,7 +129,8 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse1
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  12 if %x% lss 56 goto dns
+if %y% equ 1 if %x% gtr  12 if %x% lss 56 goto thanks
+if %y% equ 3 if %x% gtr  12 if %x% lss 56 goto dns
 if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dft
 if %y% equ 6 if %x% gtr  12 if %x% lss 44 goto run
 if %y% equ 8 if %x% gtr  12 if %x% lss 44 goto nohosts
@@ -143,6 +144,8 @@ if %y% equ 18 if %x% gtr  12 if %x% lss 25 goto adfilter
 if %y% equ 18 if %x% gtr  12 if %x% lss 47 goto clean
 if %y% equ 20 if %x% gtr  12 if %x% lss 25 goto fixie
 if %y% equ 20 if %x% gtr  12 if %x% lss 47 goto desklnk
+if %y% equ 22 if %x% gtr  12 if %x% lss 25 goto AnDroid
+if %y% equ 22 if %x% gtr  12 if %x% lss 47 goto entdata
 if %y% equ 25 if %x% gtr  12 if %x% lss 25 (
   if /i !force! neq 0 (set force=0) else (set force=1)
   goto menuen
@@ -162,7 +165,7 @@ echo.
 echo.  i.(CN)IPV6 Data          W.(CN)MWSL Data
 echo.   
 echo △Extensions Data (Add):
-echo.  N.X EntPlay Block           X.X Xunleiadd  
+echo.  N.X EntPlay Block 
 echo.  
 echo.  T.X IE donot Turst Site     A.For AnDroid Device
 echo.
@@ -239,7 +242,7 @@ echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">%temp%\HostsX.orzhosts
 set size=200000
-for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
+for %%1 in (%temp%\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy %temp%\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
