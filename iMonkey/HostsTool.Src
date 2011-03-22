@@ -1,5 +1,5 @@
 @echo off
-set ver=2.77
+set ver=2.771
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -87,7 +87,7 @@ del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 cls
 if not exist %systemroot%\system32\consext.exe goto menuen
-mode con cols=60 lines=28
+mode con cols=60 lines=29
 ConsExt /crv 0
 set force=0
 :start
@@ -109,16 +109,17 @@ echo.
 echo            【 5.NTFS Refused/  NTFS拒绝权限】
 echo.
 echo            【 6.NTFS Cancel/   取消NTFS权限】
+echo.
+echo            【 7.Read Only/  设置Hosts为只读】
 echo   =======================================================
-echo            【 7.Fix Hosts/ 设置Hosts文件为只读】
 echo            【IE广告过滤】       【系统垃圾清理】
 echo.
 echo            【IE快速修复】       【快捷方式修复】     
-echo   =======================================================
+echo.
 echo            【For DroidX】       【娱乐网站屏蔽】
 if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：简单模式)
 echo.
-echo            【 切换模式 】     【  退  出  】
+echo            【 切换模式 】       【   退  出   】
 
 :mouse1
 ConsExt /event
@@ -137,17 +138,17 @@ if %y% equ 11 if %x% gtr  12 if %x% lss 44 goto ntfsread
 if %y% equ 13 if %x% gtr  12 if %x% lss 44 goto ntfsrefused
 if %y% equ 15 if %x% gtr  12 if %x% lss 44 goto ntfscancle
 if %y% equ 17 if %x% gtr  12 if %x% lss 44 goto readonly
-if %y% equ 18 if %x% gtr  12 if %x% lss 25 goto adfilter
-if %y% equ 18 if %x% gtr  12 if %x% lss 47 goto clean
-if %y% equ 20 if %x% gtr  12 if %x% lss 25 goto fixie
-if %y% equ 20 if %x% gtr  12 if %x% lss 47 goto desklnk
-if %y% equ 22 if %x% gtr  12 if %x% lss 25 goto AnDroid
-if %y% equ 22 if %x% gtr  12 if %x% lss 47 goto entdata
-if %y% equ 25 if %x% gtr  12 if %x% lss 25 (
+if %y% equ 19 if %x% gtr  12 if %x% lss 25 goto adfilter
+if %y% equ 19 if %x% gtr  12 if %x% lss 47 goto clean
+if %y% equ 21 if %x% gtr  12 if %x% lss 25 goto fixie
+if %y% equ 21 if %x% gtr  12 if %x% lss 47 goto desklnk
+if %y% equ 23 if %x% gtr  12 if %x% lss 25 goto AnDroid
+if %y% equ 23 if %x% gtr  12 if %x% lss 47 goto entdata
+if %y% equ 26 if %x% gtr  12 if %x% lss 25 (
   if /i !force! neq 0 (set force=0) else (set force=1)
   goto menuen
 )
-if %y% equ 25 if %x% gtr  31 if %x% lss 44 goto :eof
+if %y% equ 26 if %x% gtr  31 if %x% lss 47 goto :eof
 goto mouse1
 
 :menuen
@@ -289,6 +290,8 @@ echo Backed up Hosts file by HostsTool was deleted!
 Pause&goto menu
 
 :entdata
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib %hosts% -r -h -s >nul 2>nul
 find "115.47.219.95 happyfarm.qzone.qq.com" %hosts% > nul
 if %errorlevel% == 1 (
   @echo.>>%hosts%
@@ -336,7 +339,7 @@ if %errorlevel% == 1 (
 )
 echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.
 echo You Can Use Hosts File Fix and Restore to Cancle.
-pause&goto menu
+& choice /t 5 /d y /n >nul &&goto menu
 
 :delentdata
 pause&goto menu
@@ -418,8 +421,8 @@ start explorer %etc%\
 goto menu
 
 :run
-echo y|cacls %hosts% /g everyone:f >nul
-attrib -r -a -s -h %hosts%
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib %hosts% -r -h -s >nul 2>nul
 if not exist %hosts% (call :nohosts) else (notepad %hosts%)
 goto perms
 
@@ -495,7 +498,6 @@ echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack
 notepad GFeedBack.txt&cls&del GFeedBack.txt&goto menu
 
 :fixie
-mode con cols=38 lines=30
 title IE Optimization and Fix
 cls
 echo  Please close all about IE browser windows before your fix!
@@ -520,7 +522,6 @@ Regsvr32 /s slbcsp.dll
 Regsvr32 /s cryptdlg.dll
 echo 100 percent
 echo IE Optimization and Fix finished.
-mode con cols=72 lines=32
 title IE Repaired
 rem  开始修复 IE 及相关的系统设置项目……
 reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
