@@ -1,5 +1,5 @@
 @echo off
-set ver=2.763
+set ver=2.765
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -90,7 +90,7 @@ del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 cls
 if not exist %systemroot%\system32\consext.exe goto menucnplus
-mode con cols=60 lines=25
+mode con cols=60 lines=28
 ConsExt /crv 0
 set force=0
 :start
@@ -114,7 +114,9 @@ echo.
 echo            【 6.NTFS Cancel/   取消NTFS权限】
 echo   =======================================================
 echo            【 7.Fix Hosts/ 设置Hosts文件为只读】
-echo            【IE广告过滤】       【系统 清理】
+echo            【IE广告过滤】       【系统垃圾清理】
+echo.
+echo            【IE快速修复】       【快捷方式修复】     
 echo   =======================================================
 echo.
 if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：简单模式)
@@ -138,12 +140,14 @@ if %y% equ 13 if %x% gtr  12 if %x% lss 44 goto ntfsno
 if %y% equ 15 if %x% gtr  12 if %x% lss 44 goto ntfsf
 if %y% equ 17 if %x% gtr  12 if %x% lss 44 goto readonly
 if %y% equ 18 if %x% gtr  12 if %x% lss 25 goto adfilter
-if %y% equ 18 if %x% gtr  12 if %x% lss 44 goto clean
-if %y% equ 23 if %x% gtr  12 if %x% lss 25 (
+if %y% equ 18 if %x% gtr  12 if %x% lss 47 goto clean
+if %y% equ 20 if %x% gtr  12 if %x% lss 25 goto fixie
+if %y% equ 20 if %x% gtr  12 if %x% lss 47 goto desklnk
+if %y% equ 25 if %x% gtr  12 if %x% lss 25 (
   if /i !force! neq 0 (set force=0) else (set force=1)
   goto menucnplus
 )
-if %y% equ 22 if %x% gtr  31 if %x% lss 44 goto :eof
+if %y% equ 25 if %x% gtr  31 if %x% lss 44 goto :eof
 goto mouse1
 
 :menucnplus
@@ -277,6 +281,7 @@ set size=200000
 for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy gdown\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
+echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
 goto perms
 
 :dftn
