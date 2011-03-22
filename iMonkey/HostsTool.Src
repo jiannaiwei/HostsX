@@ -656,7 +656,6 @@ wget http://hostsx.googlecode.com/svn/trunk/iMonkey/AdFilter.vbs
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto menu
 
 :clean
-color 0A 
 echo 正在清除系统垃圾文件，请稍等......  
 del /f /s /q %systemdrive%\*.tmp          
 del /f /s /q %systemdrive%\*._mp          
