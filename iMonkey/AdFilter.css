@@ -55,11 +55,6 @@ IFRAME[src^="http://u.115img.com/static/modules/"],[href*=".greendown.cn/ggao/"]
 SPAN[class="transparent"],[style*="font-size:0p"],[style*="font-size: 0p"]{display: none;}
 font[style="font-size: 0px; COLOR: #ffffff"],fieldset[style*=':1px dashed #a6ccf9'],fieldset[style*=': #a6ccf9 1px dashed'] {display: none !important}
 
-/*打开下载链接或下载文件时不打开空白页面*/
-[href$=".7z"],[href$=".chm"],[href$=".doc"],[href$=".elf"],[href$=".exe"],[href$=".flyshare"],[href$=".jar"],[href$=".lzh"],[href$=".mp3"],[href$=".mpkg"],[href$=".pdf"],[href$=".ppt"],[href$=".rar"],[href$=".rep"],[href$=".scm"],[href$=".scx"],[href$=".txt"],[href$=".xls"],[href$=".zip"],
-[href*="&act=Attach&type=post&id="],[href*="/attachment.aspx?attachmentid="],[href*="/softdown.asp?softid="],[href*="attach.aspx?attachid="],[href*="attachment.php?am="],[href*="attachs.php?action=getfile"],[href*="index.php?act=attach&type=post&id="],
-[href*="-aid-"],[href*="aid="],[href*="=download&id="],[href*="?downd_id"],[href*="&downid="],[href*="Download.ASP?FileID="],[href*="download.aspx?f="],[href*="download.php?id"],[href*="download.php?s="],[href*="download/get?id="],[href*="downs.asp?softid="],[href*="go_down.asp?down_url="],[href*="job-htm-action-download-pid-"],[href*="qidian.com/bookall/"],[href*="ShowSoftDown.asp?UrlID="],[href*="view_down.asp?down_url=http://"],[href*="viewFile.asp?BoardID="],a[href*="download.php?id"],a[href*="mode=download&key="] {-o-link:attr(href) !important; -o-link-source:current !important;}
-
 /*将白色字体变为暗蓝灰*/
 [style*="color: white"],[style*="color: #FFFFFF"],[color*="White"],[color*="#FFFFFF"] {color: #483D8B !important;}
 
