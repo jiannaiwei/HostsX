@@ -1,7 +1,7 @@
 ﻿@charset "UTF-8";
 /*
 Name: /广告过滤规则
-Version: 1.52
+Version: 1.53
 Description: This style sheet hide elements that you want.
 */
 
@@ -10,6 +10,7 @@ Description: This style sheet hide elements that you want.
 
 /* Element Hiding 通用广告指向链接隐藏 */
 iframe[name="ads_frame"],IFRAME[src="adt.php"],IMG[src*="/a-d-s/"],IFRAME[src="adb.php"],a[href*="/adclick.php?"],a[href*="/interface/cpm.php?"],a[href*="/guanggao"],a[href*="/showavd.aspx?adid="]{display: none !important;}
+*[href*="tag.php?name="],.t_tag { border: none !important; }
 
 /* 论坛常见广告屏蔽*/
 [id*="ad_text"],[class*="ad_text"],[id*="textad"],ul[class^="pic_ad"],ul[class^="word_ad"],#adText,.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}

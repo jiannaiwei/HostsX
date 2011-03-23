@@ -1,5 +1,5 @@
 @echo off
-set ver=2.773
+set ver=2.775
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -85,13 +85,12 @@ if %Language%==Chinese ( goto menucn ) else ( goto menuen )
 :menucn
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
-cls
 if not exist %systemroot%\system32\consext.exe goto menuen
 mode con cols=60 lines=29
 ConsExt /crv 0
 set force=0
-:start
-title G+ Hosts 极佳猴子 %ver%M  %version%
+cls
+title G+ Hosts 极佳猴子 %ver% GUI  %version%
 cls
 echo.
 echo   鼠标点击【 】内选择操作           【感谢帮助和反馈】
@@ -117,9 +116,9 @@ echo.
 echo            【IE快速修复】       【快捷方式修复】     
 echo.
 echo            【For DroidX】       【娱乐网站屏蔽】
-if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：简单模式)
+rem if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：界面模式)
 echo.
-echo            【 切换模式 】       【   退  出   】
+echo            【Switch2CMD】       【   退  出   】
 
 :mouse1
 ConsExt /event
@@ -144,11 +143,11 @@ if %y% equ 21 if %x% gtr  12 if %x% lss 25 goto fixie
 if %y% equ 21 if %x% gtr  12 if %x% lss 47 goto desklnk
 if %y% equ 23 if %x% gtr  12 if %x% lss 25 goto AnDroid
 if %y% equ 23 if %x% gtr  12 if %x% lss 47 goto entdata
-if %y% equ 26 if %x% gtr  12 if %x% lss 25 (
+if %y% equ 25 if %x% gtr  12 if %x% lss 25 (
   if /i !force! neq 0 (set force=0) else (set force=1)
   goto menuen
 )
-if %y% equ 26 if %x% gtr  31 if %x% lss 47 goto :eof
+if %y% equ 25 if %x% gtr  31 if %x% lss 47 goto :eof
 goto mouse1
 
 :menuen
@@ -156,7 +155,7 @@ mode con cols=62 lines=28
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
 cls
-title G+ Hosts %ver%W  %version%
+title G+ Hosts %ver% Cmd  %version%
 echo ☆Main Data Chioce (Replace):
 echo.  G.HostsUpdate            M.(Us)MVPS Data 
 echo.
@@ -198,6 +197,7 @@ if /i "%all%"=="q" goto exit
 if /i "%all%"=="r" goto fixie
 if /i "%all%"=="s" goto addsite
 if /i "%all%"=="t" goto addietrust
+if /i "%all%"=="u" goto menucn
 if /i "%all%"=="w" goto mwslhosts
 if /i "%all%"=="wr" goto hostpath
 if /i "%all%"=="xb" goto delhostsbak
@@ -488,7 +488,7 @@ ipconfig /flushdns>nul 2>nul&goto dns
 :thanks
 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
 pause
-if exist Readme.txt (notepad Readme.txt) else (start http://orztech.com/forms/3)&(start /min iexplore http://fanfou.com/iV.c)
+if exist Readme.txt (notepad Readme.txt) else (start http://kwoktree.appspot.com)&(start /min iexplore http://fanfou.com/iV.c)
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer" 2>nul"^|findstr /i Version`) do (set iever=%%3)
 echo 用户名：%username% >GFeedBack.txt
 echo 计算机名：%userdomain% >>GFeedBack.txt
@@ -663,8 +663,7 @@ echo  删除完成! Delete done!
 pause&goto menu
 
 :AnDroid
-echo  AnDroid Hosts 文件更新调用了服务器端的Vbs脚本文件! 因为Vbs使用了在线下载技术，可能会被部分杀毒软件误杀!
-echo  HostsX以用户利益为先，Vbs脚本可以使用记事本打开，内含注释，还请用户仔细甄别!
-pause
+echo  提示：AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!
+choice /t 7 /d y /n >nul
 %down% http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs
 gdown\AndriodHosts.vbs&cls&goto menu
