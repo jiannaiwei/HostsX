@@ -1,4 +1,4 @@
-;version=201103232132
+;version=201103242311
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7978,6 +7978,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 p.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com
 #Wauee
+0.0.0.0 20674.wauee.com
 0.0.0.0 21456.wauee.com
 0.0.0.0 26939.wauee.com
 0.0.0.0 33740.service.wauee.com
@@ -8506,6 +8507,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yxbao.com
 0.0.0.0 www.9348.cn
 #签名弹窗
+0.0.0.0 code.aizhuanlove.cn
 0.0.0.0 code.2010qianming.com
 0.0.0.0 code.52qiangming.com
 0.0.0.0 code.i-qianming.cn
