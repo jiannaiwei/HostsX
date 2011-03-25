@@ -1,4 +1,4 @@
-;version=201103252122
+;version=201103252318
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -254,14 +254,11 @@ ff02::3 ip6-allhosts
 2404:6800:8005::84 images-onepick-opensocial.googleusercontent.com
 2404:6800:8005::84 www-kix-opensocial.googleusercontent.com
 2404:6800:8005::84 www-onepick-opensocial.googleusercontent.com
-2404:6800:8005::84 www-focus-opensocial.googleusercontent.com
 2404:6800:8005::84 0-focus-opensocial.googleusercontent.com
 2404:6800:8005::84 1-focus-opensocial.googleusercontent.com
 2404:6800:8005::84 2-focus-opensocial.googleusercontent.com
 2404:6800:8005::84 3-focus-opensocial.googleusercontent.com
-2404:6800:8005::84 www-open-opensocial.googleusercontent.com
 2404:6800:8005::84 0-open-opensocial.googleusercontent.com
-2404:6800:8005::84 1-open-opensocial.googleusercontent.com
 2404:6800:8005::84 2-open-opensocial.googleusercontent.com
 2404:6800:8005::84 3-open-opensocial.googleusercontent.com
 2404:6800:8005::84 www-wave-opensocial.googleusercontent.com
@@ -380,7 +377,6 @@ ff02::3 ip6-allhosts
 2404:6800:8005::68 www.googlemashups.com
 2404:6800:8005::62 googlemashups.l.google.com
 2404:6800:8005::63 *.googlemashups.com
-2404:6800:8005::64 appengine.google.com
 2404:6800:8005::62 appspot.l.google.com
 2404:6800:8005::8d *.appspot.com
 2404:6800:8005::8d productideas.appspot.com
@@ -835,7 +831,6 @@ ff02::3 ip6-allhosts
 2404:6800:8005::62 4.gvt0.com
 2404:6800:8005::62 5.gvt0.com
 2404:6800:8005::62 video-stats.video.google.com
-2404:6800:8005::74 upload.video.google.com
 2404:6800:8005::74 sslvideo-upload.l.google.com
 2404:6800:8005::62 vp.video.google.com
 2404:6800:8005::62 vp.video.l.google.com
@@ -8688,7 +8683,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 clk.abang.com
 0.0.0.0 cn.88db.com
 0.0.0.0 cnt.zhaopin.com
-0.0.0.0 code.aizhuanlove.cn
 0.0.0.0 code.ceyunshi.cn
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
@@ -8957,6 +8951,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 a.169yx.com
 0.0.0.0 ad.sundns.com
 0.0.0.0 pay.908518.com
+0.0.0.0 www.wawa111.info
+0.0.0.0 www.33ad.cc
+0.0.0.0 qq-v1p.info
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
