@@ -1,4 +1,4 @@
-;version=201103252318
+;version=201103252333
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8954,6 +8954,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.wawa111.info
 0.0.0.0 www.33ad.cc
 0.0.0.0 qq-v1p.info
+0.0.0.0 u1.cxadv.com
+0.0.0.0 69card.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
