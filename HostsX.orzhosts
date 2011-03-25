@@ -1,4 +1,4 @@
-;version=201103252103
+;version=201103252122
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -892,7 +892,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bmp.ali213.net
 0.0.0.0 ccc.xdowns.com
 0.0.0.0 click.cnfol.com
-0.0.0.0 g.crsky.com
 0.0.0.0 click.union.360buy.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
