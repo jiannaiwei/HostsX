@@ -1,4 +1,4 @@
-;version=201103242323
+;version=201103251225
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -38,6 +38,40 @@ ff02::3 ip6-allhosts
 2620:0:1cfe:face:b00c::7 m.v6.facebook.com
 2610:d0:face::9 www.lisp6.facebook.com
 2610:d0:face::9 m.lisp6.facebook.com
+69.63.189.16 facebook.com
+69.63.189.16 www.facebook.com
+69.63.181.31 m.facebook.com
+69.63.181.20 login.facebook.com
+69.63.179.70 secure.facebook.com
+66.220.146.18 apps.facebook.com
+69.63.181.31 touch.facebook.com
+118.214.114.110 s-static.ak.facebook.com
+66.220.147.47 api.facebook.com
+69.63.181.16 zh-CN.facebook.com
+202.157.186.28	static.ak.facebook.com
+202.157.186.34 b.static.ak.facebook.com
+69.63.178.57 secure-profile.facebook.com
+69.63.178.57 secure-media-sf2p.facebook.com
+69.63.178.15 ssl.facebook.com
+69.63.190.18 apps.facebook.com
+118.214.190.105 profile.ak.facebook.com
+#Facebook CDN
+69.63.187.17 fbcdn.net
+97.65.135.139  external.ak.fbcdn.net
+124.155.222.50 vthumb.ak.fbcdn.net
+97.65.135.163 static.ak.fbcdn.net
+97.65.135.163 b.static.ak.fbcdn.net
+202.157.186.34 creative.ak.fbcdn.net
+118.214.190.128 profile.ak.fbcdn.net
+69.63.176.21 s-hprofile-sf2p.fbcdn.net
+125.56.199.9 photos-a.ak.fbcdn.net
+125.56.199.9 photos-b.ak.fbcdn.net
+125.56.199.9 photos-c.ak.fbcdn.net
+125.56.199.9 photos-d.ak.fbcdn.net
+125.56.199.9 photos-e.ak.fbcdn.net
+125.56.199.9 photos-f.ak.fbcdn.net
+125.56.199.9 photos-g.ak.fbcdn.net
+125.56.199.9 photos-h.ak.fbcdn.net
 #Flickr
 76.13.18.78 farm3.static.flickr.com
 76.13.18.78 sp1.farm3.static.flickr.com
@@ -64,6 +98,23 @@ ff02::3 ip6-allhosts
 209.84.4.102 si3.twimg.com
 209.84.4.102 si4.twimg.com
 209.84.4.102 si5.twimg.com
+#Twitpic
+174.36.58.234 twitpic.com
+174.36.58.234 www.twitpic.com
+174.36.46.32 web7.twitpic.com
+174.36.58.204 web1.twitpic.com
+174.36.58.224 web2.twitpic.com
+174.36.58.200 web3.twitpic.com
+174.37.33.184 web4.twitpic.com
+174.37.75.16 web5.twitpic.com
+174.36.35.60 web6.twitpic.com
+66.228.120.92 web8.twitpic.com
+74.86.100.160 web9.twitpic.com
+74.86.87.236 web10.twitpic.com
+#yfrog
+208.94.0.61 a.yfrog.com
+208.94.0.61 yfrog.com
+208.94.0.61 www.yfrog.com
 #Others
 2001:470:83f2::710:1 www.mail-archive.com
 2001:470:83f2::710:1 mail-archive.com
