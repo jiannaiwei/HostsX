@@ -1,4 +1,4 @@
-;version=201103251225
+;version=201103251234
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -20,24 +20,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gs.apple.com
 255.255.255.255 broadcasthost
 #Facebook
-2620:0:1cfe:face:b00c::3 www.v6.facebook.com
-2620:0:1cfe:face:b00c::3 static.ak.fbcdn.net
-2620:0:1cfe:face:b00c::4 login.v6.facebook.com
-2620:0:1cfe:face:b00c::4 s-static.ak.facebook.com
-2620:0:1cfe:face:b00c::3 attachments.facebook.com
-2620:0:1cfe:face:b00c::3 apps.facebook.com
-2620:0:1cfe:face:b00c::3 graph.facebook.com
-2620:0:1cfe:face:b00c::3 12.channel.facebook.com
-2620:0:1cfe:face:b00c::3 12.ctest.facebook.com
-2620:0:1cfe:face:b00c::3 developers.facebook.com
-2620:0:1cfe:face:b00c::3 developers.v6.facebook.com
-2620:0:1cfe:face:b00c::3 external.ak.fbcdn.net
-2620:0:1cfe:face:b00c::3 error.12.channel.facebook.com
-2620:0:1cfe:face:b00c::3 pixel.facebook.com
-2620:0:1cfe:face:b00c::3 pixel.v6.facebook.com
-2620:0:1cfe:face:b00c::7 m.v6.facebook.com
-2610:d0:face::9 www.lisp6.facebook.com
-2610:d0:face::9 m.lisp6.facebook.com
 69.63.189.16 facebook.com
 69.63.189.16 www.facebook.com
 69.63.181.31 m.facebook.com
@@ -48,16 +30,15 @@ ff02::3 ip6-allhosts
 118.214.114.110 s-static.ak.facebook.com
 66.220.147.47 api.facebook.com
 69.63.181.16 zh-CN.facebook.com
-202.157.186.28	static.ak.facebook.com
+202.157.186.28 static.ak.facebook.com
 202.157.186.34 b.static.ak.facebook.com
 69.63.178.57 secure-profile.facebook.com
 69.63.178.57 secure-media-sf2p.facebook.com
 69.63.178.15 ssl.facebook.com
 69.63.190.18 apps.facebook.com
 118.214.190.105 profile.ak.facebook.com
-#Facebook CDN
 69.63.187.17 fbcdn.net
-97.65.135.139  external.ak.fbcdn.net
+97.65.135.139 external.ak.fbcdn.net
 124.155.222.50 vthumb.ak.fbcdn.net
 97.65.135.163 static.ak.fbcdn.net
 97.65.135.163 b.static.ak.fbcdn.net
@@ -847,7 +828,6 @@ ff02::3 ip6-allhosts
 2001:4860:4001:1::12 v24.nonxt8.c.youtube.com
 #Video
 2404:6800:8005::62 video.google.com
-#2404:6800:8005::62 video.l.google.com
 2404:6800:8005::62 0.gvt0.com
 2404:6800:8005::62 1.gvt0.com
 2404:6800:8005::62 2.gvt0.com
