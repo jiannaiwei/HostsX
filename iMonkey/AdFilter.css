@@ -1,33 +1,36 @@
 ﻿@charset "UTF-8";
 /*
 Name: /广告过滤规则
-Version: 1.53
+Version: 1.532
+Author: vokins
 Description: This style sheet hide elements that you want.
 */
 
 /* 通用规则 */
-[id*="flash_ad"],[id*="Adflash"],[class^="leftad"],[class^="rightad"],div[class*="admain"],[class^="advert"],[class^="Advert"],[class^="Banner"],[class^="banner_top"],[class$="_banner"],[class^="sponsor"],[class^="Sponsor"],.adbar,.Adbar,.ad-block,.Ad-block,.Ad-Block,.ads,.Ads{ display: none !important }
-
+[id^="LastAd_"],div[id$="erContainer"],div[id^="RadAd_],[id*="flash_ad"],[id*="Adflash"],[class^="leftad"],[class^="rightad"],div[class*="admain"],[class^="advert"],[class^="Advert"],[class^="Banner"],[class^="banner_top"],[class$="_banner"],[class^="sponsor"],[class^="Sponsor"],.adbar,.Adbar,.ad-block,.Ad-block,.Ad-Block,.ads,.Ads{ display: none !important }
+[id^="ad_creative_"] {display:none;}
+ 
 /* Element Hiding 通用广告指向链接隐藏 */
 iframe[name="ads_frame"],IFRAME[src="adt.php"],IMG[src*="/a-d-s/"],IFRAME[src="adb.php"],a[href*="/adclick.php?"],a[href*="/interface/cpm.php?"],a[href*="/guanggao"],a[href*="/showavd.aspx?adid="]{display: none !important;}
 *[href*="tag.php?name="],.t_tag { border: none !important; }
 
 /* 论坛常见广告屏蔽*/
-[id*="ad_text"],[class*="ad_text"],[id*="textad"],ul[class^="pic_ad"],ul[class^="word_ad"],#adText,.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
-div[class^="a_p"],.ad_column,.ad_pip,.postbit_adcode,#adbottom,#adtop,#GoogleAd,#rightads {display: none !important;}
+[id^="text_ad"],[id^="pic_ad"],[id*="ad_text"],[class*="ad_text"],[id*="textad"],ul[class^="pic_ad"],ul[class^="word_ad"],#adText,.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
+div[class^="a_p"],.ad-div,.ad_box,.ad_column,.ad_pip,.postbit_adcode,#adbottom,#adtop,#GoogleAd,#rightads,#footer_ads,#footerStuff {display: none !important;}
 [class^="ad_float_"],[id^="ad_footerbanner"],[id^="ad_headerbanner"],[id^="ad_thread"],[id^="thread_ads_"],[class*="top_ad"],div[class$="TopAd"],DIV[id^="overture_"] {display: none !important;}
 
 /* DZ,PW 论坛签名隐藏(#sign)* /
 DIV[class^="signature"],.sign,.postertext {display: none !important;}
 
 /* Discuz! 弹窗悬浮过滤 */
-#bshareF,#ckepop,#fixedLayertop,#popWin,#sitefocus,.QQbox {display: none !important;}
+#bshareF,#fixedLayertop,#popWin,#sitefocus,.QQbox {display: none !important;}
 
 /*浮动，弹窗广告过滤并关闭div[style*="padding"],*/
-div[id$="adshow"],div[id$="ShowAD"],span[id="tmpMsgDiv"],div[id^="popupWin"],#ShowQQ,#popup,#flashad,#bbsPOPFrame,#closebg,#closeDiv,#im_popupWindow_miniMsg,#openDiv,#_popup_msg_container,#_tc_browser_promotion,[id*="sogou_se"] {display: none !important;}
+div[id^="followDiv"],#floater,[id$="PopDiv"],div[id$="adshow"],div[id$="ShowAD"],span[id="tmpMsgDiv"],div[id^="popupWin"],#ShowQQ,#popup,#flashad,#bbsPOPFrame,#closebg,#closeDiv,#im_popupWindow_miniMsg,#openDiv,#_popup_msg_container,#_tc_browser_promotion,[id*="sogou_se"] {display: none !important;}
 
 /* 广告框架过滤 */
 TD[width="50%"][align="center"]{display: none !important;}
+
 
 /*强制使用雅黑字体字体，美化版雅黑字体YaHeiConsolas */
  * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}

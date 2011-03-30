@@ -1,5 +1,5 @@
 @echo off
-set ver=2.78
+set ver=2.782
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -15,7 +15,6 @@ if not exist %systemroot%\system32\wget.exe copy wget.exe %systemroot%\system32\
 if not exist %systemroot%\system32\consext.exe copy consext.exe %systemroot%\system32\
 cls
 ren %0 "HostsTool.bat"
-if not exist %windir%\system32\wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)&(echo Please Save the wget.exe to the current directory!)& choice /t 2 /d y /n >nul &start explorer %windir%\system32\
 del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt ie.txt>nul 2>nul
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
@@ -220,9 +219,11 @@ goto menu
 :dft
 echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
 attrib %hosts% -r -h -s >nul 2>nul
+ping /n 2 hostsx.googlecode.com >nul||goto dftlocal
 if not exist %systemroot%\system32\wget.exe (goto dftvbs) else (goto dftwget)
 
 :dftwget
+if not exist %windir%\system32\wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)&(echo Please Save the wget.exe to the current directory!)& choice /t 2 /d y /n >nul &start explorer %windir%\system32\
 echo       Update Hosts Data...Please wait...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 set size=200000
@@ -246,6 +247,12 @@ if %gsize% gtr %size% (copy %temp%\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
 goto perms
+
+:dftlocal
+echo 无法连接服务器！& choice /t 2 /d y /n >nul
+echo 或将使用本地缓存Hosts数据！& choice /t 2 /d y /n >nul
+if not exist HostsX.orzhosts (echo 未找到本地缓存Hosts数据!) else (copy HostsX.orzhosts %hosts% &notepad %hosts%&echo 已更换至本地缓存Hosts数据！)
+echo 程序将在3s后退出!& choice /t 3 /d y /n >nul&Exit
 
 :ipv6
 ipv6 install>nul 2>nul
