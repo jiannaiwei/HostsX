@@ -1,4 +1,4 @@
-;version=201103252333
+;version=201103300813
 ;hostsxversion=0.4.2.1024
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -108,9 +108,15 @@ ff02::3 ip6-allhosts
 2001:470:83f2::710:1 statics.plurk.com
 @HostsX Google
 #Google
+209.85.135.101 encrypted.google.com
+209.85.135.101 suggestqueries.google.com
+209.85.135.101 webcache.googleusercontent.com
+66.102.7.100 encrypted.google.com
+74.125.43.102 encrypted.google.com
+74.125.227.4 encrypted.google.com
 2404:6800:8005::b8 service.urchin.com
 2001:4860:8010::8d www.panoramio.com
-2404:6800:8005::76 feedproxy.google.com 
+2404:6800:8005::76 feedproxy.google.com
 2404:6800:8005::62 market.android.com
 2404:6800:8005::65 www.youtube.com
 2404:6800:8005::65 www.youtube-nocookie.com
@@ -148,7 +154,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::52 *.googlecode.com
 2404:6800:8005::89 *.googlegroups.com
 2404:6800:8005::89 blob-s-docs.googlegroups.com
-2404:6800:8005::68 reader.google.com 
+2404:6800:8005::68 reader.google.com
 2404:6800:8005::68 www2.l.google.com
 2404:6800:8005::64 calendar.google.com
 2404:6800:8005::63 blogsearch.google.com
@@ -182,7 +188,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::bf bp2.blogger.com
 2404:6800:8005::bf bloggerphotos.l.google.com
 #Docs
-2404:6800:8005::64 docs.google.com 
+2404:6800:8005::64 docs.google.com
 2404:6800:8005::65 docs0.google.com
 2404:6800:8005::65 docs1.google.com
 2404:6800:8005::65 docs2.google.com
@@ -216,9 +222,9 @@ ff02::3 ip6-allhosts
 2404:6800:8005::68 ditu.google.com
 2404:6800:8005::68 maps.l.google.com
 #GoogleUserContent
-2404:6800:8005::84 www.googleusercontent.com              
-2404:6800:8005::84 clients1.googleusercontent.com         
-2404:6800:8005::84 clients2.googleusercontent.com         
+2404:6800:8005::84 www.googleusercontent.com
+2404:6800:8005::84 clients1.googleusercontent.com
+2404:6800:8005::84 clients2.googleusercontent.com
 2404:6800:8005::84 webcache.googleusercontent.com
 2404:6800:8005::84 lh0.googleusercontent.com
 2404:6800:8005::84 lh1.googleusercontent.com
@@ -227,7 +233,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::84 lh4.googleusercontent.com
 2404:6800:8005::84 lh5.googleusercontent.com
 2404:6800:8005::84 lh6.googleusercontent.com
-2404:6800:8005::84 s2.googleusercontent.com               
+2404:6800:8005::84 s2.googleusercontent.com
 2404:6800:8005::84 themes.googleusercontent.com
 2404:6800:8005::84 wave.googleusercontent.com
 2404:6800:8005::84 blogger.googleusercontent.com
@@ -244,13 +250,13 @@ ff02::3 ip6-allhosts
 2404:6800:8005::84 images0-focus-opensocial.googleusercontent.com
 2404:6800:8005::84 images1-focus-opensocial.googleusercontent.com
 2404:6800:8005::84 images2-focus-opensocial.googleusercontent.com
-2404:6800:8005::84 doc-00-7o-docs.googleusercontent.com   
-2404:6800:8005::84 doc-08-7o-docs.googleusercontent.com   
-2404:6800:8005::84 doc-10-7o-docs.googleusercontent.com   
-2404:6800:8005::84 doc-14-7o-docs.googleusercontent.com   
-2404:6800:8005::84 doc-0c-7o-docs.googleusercontent.com   
-2404:6800:8005::84 doc-0g-7o-docs.googleusercontent.com   
-2404:6800:8005::84 doc-0s-7o-docs.googleusercontent.com   
+2404:6800:8005::84 doc-00-7o-docs.googleusercontent.com
+2404:6800:8005::84 doc-08-7o-docs.googleusercontent.com
+2404:6800:8005::84 doc-10-7o-docs.googleusercontent.com
+2404:6800:8005::84 doc-14-7o-docs.googleusercontent.com
+2404:6800:8005::84 doc-0c-7o-docs.googleusercontent.com
+2404:6800:8005::84 doc-0g-7o-docs.googleusercontent.com
+2404:6800:8005::84 doc-0s-7o-docs.googleusercontent.com
 2404:6800:8005::84 images-onepick-opensocial.googleusercontent.com
 2404:6800:8005::84 www-kix-opensocial.googleusercontent.com
 2404:6800:8005::84 www-onepick-opensocial.googleusercontent.com
