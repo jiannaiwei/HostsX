@@ -1,4 +1,4 @@
-;version=201103300813
+;version=201103302050
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -982,6 +982,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 4.afs.googleadservices.com
 0.0.0.0 adservices.google.com
 0.0.0.0 afs.googleadservices.com
+0.0.0.0 apps5.oingo.com
 0.0.0.0 feedads.googleadservices.com
 0.0.0.0 googleadservices.com
 0.0.0.0 googleanalytlcs.com
@@ -1000,14 +1001,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead.l.google.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 partner.googleadservices.com
+0.0.0.0 service.urchin.com
+0.0.0.0 ssl.google-analytics.com
 0.0.0.0 static.googleadsserving.cn
 0.0.0.0 video-stats.video.google.com
-0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.appliedsemantics.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
-0.0.0.0 apps5.oingo.com
-0.0.0.0 www.appliedsemantics.com
-0.0.0.0 service.urchin.com
 #Syndication
 0.0.0.0 buttons.googlesyndication.com
 0.0.0.0 domains.googlesyndication.com
@@ -1279,8 +1279,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ulic.baidu.com
 0.0.0.0 union.baidu.com
 0.0.0.0 unstat.baidu.com
-0.0.0.0 utility.baidu.com
 0.0.0.0 utk.baidu.com
+0.0.0.0 utility.baidu.com
 0.0.0.0 wangmeng.baidu.com
 0.0.0.0 youxi.baidu.com
 #奇艺
@@ -1534,6 +1534,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 vid.atdmt.com
 0.0.0.0 www.atdmt.com
 0.0.0.0 www.atlasdmt.com
+#Hotmail
+0.0.0.0 ad.law1.hotmail.com
+0.0.0.0 ad.law2.hotmail.com
+0.0.0.0 ad.law3.hotmail.com
+0.0.0.0 ad.law4.hotmail.com
+0.0.0.0 ad.law5.hotmail.com
+0.0.0.0 ad.law6.hotmail.com
+0.0.0.0 ad.law7.hotmail.com
+0.0.0.0 ad.law8.hotmail.com
+0.0.0.0 ad.law9.hotmail.com
+0.0.0.0 ad.law10.hotmail.com
+0.0.0.0 ad.law11.hotmail.com
+0.0.0.0 ad.law12.hotmail.com
+0.0.0.0 ad.law13.hotmail.com
+0.0.0.0 ad.law14.hotmail.com
+0.0.0.0 ad.law15.hotmail.com
+0.0.0.0 ads1.msn.com
+0.0.0.0 g.msn.com
 #Live
 0.0.0.0 analytics.live.com
 0.0.0.0 c.live.com
@@ -1799,32 +1817,49 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingback.ie.sogou.com
 @HostsX OneKey/腾讯QQ
 #QQ
-0.0.0.0 mini.group.qq.com
-0.0.0.0 group.store.qq.com
-0.0.0.0 f.qstatic.com
-0.0.0.0 fodder.qq.com
-0.0.0.0 scdown.qq.com
+0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
 0.0.0.0 adsgroup.qq.com
+0.0.0.0 adsgroup.qq.com 
 0.0.0.0 adshmct.qq.com
+0.0.0.0 adshmmsg.qq.com
+0.0.0.0 adslvfile.qq.com
 0.0.0.0 adslvseed.qq.com
+0.0.0.0 adsqqclick.qq.com
 0.0.0.0 adsrich.qq.com
 0.0.0.0 adstextview.qq.com
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
 0.0.0.0 c.gdt.qq.com
+0.0.0.0 c.l.qq.com
+0.0.0.0 f.qstatic.com
+0.0.0.0 fodder.qq.com
+0.0.0.0 fodder.tc.qq.com
 0.0.0.0 fw.qq.com
+0.0.0.0 group.store.qq.com
+0.0.0.0 hm.l.qq.com
+0.0.0.0 httpring.qq.com
+0.0.0.0 imc.l.qq.com
+0.0.0.0 infocenter.qzone.qq.com
+0.0.0.0 infocenter.xiaoyou.qq.com
+0.0.0.0 jingjia.qq.com
+0.0.0.0 l.qq.com
+0.0.0.0 mini.group.qq.com
 0.0.0.0 oimsgad.qq.com
+0.0.0.0 p.l.qq.com
 0.0.0.0 pingfore.qq.com
+0.0.0.0 qqlogo.qq.com
+0.0.0.0 qring-tms.qq.com
+0.0.0.0 qss-client.qq.com
+0.0.0.0 rich.qq.com
+0.0.0.0 rs1.qq.com
+0.0.0.0 rs2.qq.com
+0.0.0.0 scdown.qq.com
 0.0.0.0 show-msgch.qq.com
 0.0.0.0 trace.qq.com
-0.0.0.0 c.l.qq.com
-0.0.0.0 hm.l.qq.com
-0.0.0.0 imc.l.qq.com
-0.0.0.0 l.qq.com
-0.0.0.0 p.l.qq.com
+0.0.0.0 union.qq.com
 0.0.0.0 w.l.qq.com
 #搜搜
 0.0.0.0 dr.soso.com
@@ -1834,19 +1869,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 toolbar.soso.com
 @HostsX OneKey/迅雷在线
 #Sandai
+0.0.0.0 adcount.sandai.net
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
 0.0.0.0 biz5.sandai.net
 0.0.0.0 biz5c.sandai.net
 0.0.0.0 cknum.sandai.net
 0.0.0.0 click.cm.sandai.net
+0.0.0.0 down.sandai.net
 0.0.0.0 float.sandai.net
 0.0.0.0 gvod.union.sandai.net
+0.0.0.0 hubstat.sandai.net
 0.0.0.0 logic.cpm.cm.sandai.net
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 mpv.sandai.net
 0.0.0.0 pubstat.sandai.net
 0.0.0.0 ub.dphub.sandai.net
+0.0.0.0 vodsts.sandai.net
 #Thunder
 $FUNCTION:THUNDERAD
 $提示：您好，您正在使用的 HostsX 尚不支持生成此特殊 Hosts 项，
@@ -1859,22 +1898,28 @@ $      下载最新版本的 HostsX。
 0.0.0.0 advstat.xunlei.com
 0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
+0.0.0.0 client.stat.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
+0.0.0.0 iimg.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 leiyanstatic.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 p4pstatic.xunlei.com
+0.0.0.0 pv.kankan.stat.xunlei.com
+0.0.0.0 recommend.xunlei.com
+0.0.0.0 res.stat.xunlei.com
 0.0.0.0 stat.xunlei.com
+0.0.0.0 static.soft.xunlei.com
+0.0.0.0 thunderqtypv.union.xunlei.com
 0.0.0.0 tj.xunlei.com
 0.0.0.0 union.xunlei.com
-0.0.0.0 recommend.xunlei.com
+0.0.0.0 web.stat.xunlei.com
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
-0.0.0.0 imain.xunlei.com
-0.0.0.0 iimg.xunlei.com
+0.0.0.0 xmlconf.client.xunlei.com
 @HostsX OneKey/盛大在线
 #盛大游戏
 0.0.0.0 act.dn.sdo.com
@@ -6922,15 +6967,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c.iqilu.com
 0.0.0.0 g.iqilu.com
 0.0.0.0 gimg.iqilu.com
-#一大把
-0.0.0.0 adc.yidaba.com
-0.0.0.0 adfv.yidaba.com
-0.0.0.0 adj.yidaba.com
-0.0.0.0 adv.yidaba.com
-0.0.0.0 bd.yidaba.com
-0.0.0.0 bm.yidaba.com
-0.0.0.0 industry.yidaba.com
-0.0.0.0 sdc.yidaba.com
 @HostsX 国内广告联盟
 #0252
 0.0.0.0 js.0252.com
@@ -8151,6 +8187,19 @@ $      下载最新版本的 HostsX。
 #Xioo
 0.0.0.0 cpc.xioo.cn
 0.0.0.0 un.xioo.cn
+#Yidaba
+0.0.0.0 adc.yidaba.com
+0.0.0.0 adfv.yidaba.com
+0.0.0.0 adj.yidaba.com
+0.0.0.0 adv.yidaba.com
+0.0.0.0 bd.yidaba.com
+0.0.0.0 bm.yidaba.com
+0.0.0.0 industry.yidaba.com
+0.0.0.0 sdc.yidaba.com
+0.0.0.0 info.yidaba.com
+0.0.0.0 images.yidaba.com
+0.0.0.0 images.cms.yidaba.com
+0.0.0.0 static.yidaba.com
 #YiGao
 0.0.0.0 image.yiqifa.com
 0.0.0.0 p.yiqifa.com
@@ -8999,6 +9048,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 msg.iseesoft.cn
 0.0.0.0 p.iseeclan.com
 0.0.0.0 stat.iseeclan.com
+#isoshu
+0.0.0.0 mobile.isoshu.com
+0.0.0.0 mobile1.isoshu.com
+0.0.0.0 pub.isoshu.com
 #Koowo
 0.0.0.0 g.koowo.com
 0.0.0.0 g.kuwo.cn
@@ -9083,6 +9136,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 110.qvod.com
 0.0.0.0 buffer-ad.qvod.com
 0.0.0.0 insert-ad.qvod.com
+0.0.0.0 pause-ad.qvod.com
 0.0.0.0 text-ad.qvod.com
 0.0.0.0 tj.qvod.com
 0.0.0.0 update.qvod.com
