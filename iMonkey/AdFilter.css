@@ -1,7 +1,7 @@
 ﻿@charset "UTF-8";
 /*
 Name: /广告过滤规则
-Version: 1.533
+Version: 1.535
 Author: vokins
 Description: This style sheet hide elements that you want.
 */
@@ -65,7 +65,7 @@ a[href*="www.baidu.com/baidu.php?"] + BR,
 a[href*="www.baidu.com/baidu.php?"] + BR + FONT {display:none !important;}
 
 /* 常见广告和指向链接隐藏 */
-IMG[src*="http://pic.zol-img.com.cn/20"],a[href*="googlesyndication.com"],a[href*="cpro.baidu.com"],a[href*="cb.baidu.com"],IFRAME[src="http://www.kaixin001.com/interface/cpmblank.php"],a[href*="sc.ifeng.com"],IFRAME[src*="mopgg.mop.com"],a[href*="adsfile.qq.com"],a[href*="l.qq.com"],a[href*=".allyes.c"],a[href*="wrating.com"],a[href*="alimama.c"],a[href*="doubleclick.net"]{display: none !important;}
+[src*="http://pic.zol-img.com.cn/201"],a[href*="googlesyndication.com"],a[href*="cpro.baidu.com"],a[href*="cb.baidu.com"],IFRAME[src="http://www.kaixin001.com/interface/cpmblank.php"],a[href*="sc.ifeng.com"],IFRAME[src*="mopgg.mop.com"],a[href*="adsfile.qq.com"],a[href*="l.qq.com"],a[href*=".allyes.c"],a[href*="wrating.com"],a[href*="alimama.c"],a[href*="doubleclick.net"]{display: none !important;}
 a[href*="网购排行：淘宝网最新热门东西"],[src*="网购排行：淘宝网最新热门东西"]{display: none !important;} 
 IFRAME[src^="http://u.115img.com/static/modules/"],[href*=".greendown.cn/ggao/"],a[href*="cpc.sogou.com"],a[href*="ad-plus.cn"],a[href*="goto.sogou.com"],a[href^="http://rd.qihoo.com/out.html?u="]{display: none !important;}
 
