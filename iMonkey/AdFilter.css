@@ -1,7 +1,7 @@
 ﻿@charset "UTF-8";
 /*
 Name: /广告过滤规则
-Version: 1.532
+Version: 1.533
 Author: vokins
 Description: This style sheet hide elements that you want.
 */
@@ -9,13 +9,14 @@ Description: This style sheet hide elements that you want.
 /* 通用规则 */
 [id^="LastAd_"],div[id$="erContainer"],div[id^="RadAd_],[id*="flash_ad"],[id*="Adflash"],[class^="leftad"],[class^="rightad"],div[class*="admain"],[class^="advert"],[class^="Advert"],[class^="Banner"],[class^="banner_top"],[class$="_banner"],[class^="sponsor"],[class^="Sponsor"],.adbar,.Adbar,.ad-block,.Ad-block,.Ad-Block,.ads,.Ads{ display: none !important }
 [id^="ad_creative_"] {display:none;}
- 
+.adSpace,OBJECT[id^="_AD"],[id^="_FocusAd"],[id*="big_ad_"],[id*="small_ad_"]{display: none !important;}
+
 /* Element Hiding 通用广告指向链接隐藏 */
 iframe[name="ads_frame"],IFRAME[src="adt.php"],IMG[src*="/a-d-s/"],IFRAME[src="adb.php"],a[href*="/adclick.php?"],a[href*="/interface/cpm.php?"],a[href*="/guanggao"],a[href*="/showavd.aspx?adid="]{display: none !important;}
 *[href*="tag.php?name="],.t_tag { border: none !important; }
 
 /* 论坛常见广告屏蔽*/
-[id^="text_ad"],[id^="pic_ad"],[id*="ad_text"],[class*="ad_text"],[id*="textad"],ul[class^="pic_ad"],ul[class^="word_ad"],#adText,.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
+div[class^="adText"],[id^="text_ad"],[id^="pic_ad"],[id*="ad_text"],[class*="ad_text"],[id*="textad"],ul[class^="pic_ad"],ul[class^="word_ad"],#adText,.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
 div[class^="a_p"],.ad-div,.ad_box,.ad_column,.ad_pip,.postbit_adcode,#adbottom,#adtop,#GoogleAd,#rightads,#footer_ads,#footerStuff {display: none !important;}
 [class^="ad_float_"],[id^="ad_footerbanner"],[id^="ad_headerbanner"],[id^="ad_thread"],[id^="thread_ads_"],[class*="top_ad"],div[class$="TopAd"],DIV[id^="overture_"] {display: none !important;}
 
@@ -30,7 +31,21 @@ div[id^="followDiv"],#floater,[id$="PopDiv"],div[id$="adshow"],div[id$="ShowAD"]
 
 /* 广告框架过滤 */
 TD[width="50%"][align="center"]{display: none !important;}
-
+[height="60"][width="468"], [height="60px"][width="468px"],
+[height="31"][width="88"], [height="31px"][width="88px"],
+[height="336"][width="280"], [height="336px"][width="280px"],
+[height="300"][width="250"], [height="300px"][width="250px"],
+[height="250"][width="250"], [height="250px"][width="250px"],
+[height="400"][width="240"], [height="400px"][width="240px"],
+[height="120"][width="240"], [height="120px"][width="240px"],
+[height="60"][width="234"], [height="60px"][width="234px"],
+[height="150"][width="180"], [height="150px"][width="180px"],
+[height="600"][width="160"], [height="600px"][width="160px"],
+[height="125"][width="125"], [height="125px"][width="125px"],
+[height="600"][width="120"], [height="600px"][width="120px"],
+[height="90"][width="120"], [height="90px"][width="120px"],
+[height="60"][width="120"], [height="60px"][width="120px"]
+{display: none !important;}
 
 /*强制使用雅黑字体字体，美化版雅黑字体YaHeiConsolas */
  * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}
@@ -50,7 +65,7 @@ a[href*="www.baidu.com/baidu.php?"] + BR,
 a[href*="www.baidu.com/baidu.php?"] + BR + FONT {display:none !important;}
 
 /* 常见广告和指向链接隐藏 */
-a[href*="googlesyndication.com"],a[href*="cpro.baidu.com"],a[href*="cb.baidu.com"],IFRAME[src="http://www.kaixin001.com/interface/cpmblank.php"],a[href*="sc.ifeng.com"],IFRAME[src*="mopgg.mop.com"],a[href*="adsfile.qq.com"],a[href*="l.qq.com"],a[href*=".allyes.c"],a[href*="wrating.com"],a[href*="alimama.c"],a[href*="doubleclick.net"]{display: none !important;}
+IMG[src*="http://pic.zol-img.com.cn/20"],a[href*="googlesyndication.com"],a[href*="cpro.baidu.com"],a[href*="cb.baidu.com"],IFRAME[src="http://www.kaixin001.com/interface/cpmblank.php"],a[href*="sc.ifeng.com"],IFRAME[src*="mopgg.mop.com"],a[href*="adsfile.qq.com"],a[href*="l.qq.com"],a[href*=".allyes.c"],a[href*="wrating.com"],a[href*="alimama.c"],a[href*="doubleclick.net"]{display: none !important;}
 a[href*="网购排行：淘宝网最新热门东西"],[src*="网购排行：淘宝网最新热门东西"]{display: none !important;} 
 IFRAME[src^="http://u.115img.com/static/modules/"],[href*=".greendown.cn/ggao/"],a[href*="cpc.sogou.com"],a[href*="ad-plus.cn"],a[href*="goto.sogou.com"],a[href^="http://rd.qihoo.com/out.html?u="]{display: none !important;}
 
