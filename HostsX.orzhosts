@@ -1,4 +1,4 @@
-;version=201104010004
+;version=201104010027
 ;hostsxversion=0.4.2.1024
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -9010,6 +9010,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 g.175pt.com
 0.0.0.0 g.88210212.com
+0.0.0.0 c.88210212.com
 0.0.0.0 g.91sanguo.cn
 0.0.0.0 g.9444.com
 0.0.0.0 g.kx365.com
