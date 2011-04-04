@@ -1,4 +1,4 @@
-;version=201104021433
+;version=201104050021
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -1163,6 +1163,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.uu1001.cn
 0.0.0.0 jj.topzj.com
 0.0.0.0 js.adm.cngba.com
+0.0.0.0 js.laishu.com
 0.0.0.0 m.union.hongxiu.com
 0.0.0.0 me.youheme.com
 0.0.0.0 pro.blogbus.com
@@ -8267,6 +8268,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.t2t2.com
 0.0.0.0 www.textlink.cn
 #TJQ
+0.0.0.0 d2.tjq.com
 0.0.0.0 d5.tjq.com
 0.0.0.0 e2.tjq.com
 0.0.0.0 i.tjq.com
@@ -9172,6 +9174,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 image.001union.com
 0.0.0.0 u1346.37117.com
 0.0.0.0 adimg.37117.com
+0.0.0.0 www.admin6.com
+0.0.0.0 jump.admin6.com
 #病毒下载
 0.0.0.0 kb.ttdk2.com
 0.0.0.0 tj.ttdk2.com
@@ -9267,6 +9271,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 qq-v1p.info
 0.0.0.0 u1.cxadv.com
 0.0.0.0 69card.com
+0.0.0.0 images.9wad.com
+0.0.0.0 t2.17pfa.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
