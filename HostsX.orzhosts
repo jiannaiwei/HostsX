@@ -1,4 +1,4 @@
-;version=201104050021
+;version=201104050055
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8688,6 +8688,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.hwa.cc
 0.0.0.0 www.18ab.com.cn
 0.0.0.0 pic.hwa.cc
+0.0.0.0 www.hwa.cc
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
