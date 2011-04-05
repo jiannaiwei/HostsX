@@ -1,4 +1,4 @@
-;version=201104050853
+;version=201104050923
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -9183,6 +9183,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adimg.37117.com
 0.0.0.0 www.admin6.com
 0.0.0.0 jump.admin6.com
+0.0.0.0 un.sharele.cn
+0.0.0.0 max.gunggo.com
+0.0.0.0 v.xi666.com
+0.0.0.0 www.xixianad.com
+0.0.0.0 stat.ziye8.com
 #病毒下载
 0.0.0.0 kb.ttdk2.com
 0.0.0.0 tj.ttdk2.com
