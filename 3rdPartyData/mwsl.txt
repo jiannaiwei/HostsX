@@ -1,11 +1,12 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.3.28
+恶意网站HOSTS屏蔽文件-2011.4.4
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
 警告：不得将此数据用于违法犯罪行为！
 All Rights Reserved 2007-2010
+---------------------------------------
 127.0.0.1 localhost
 0.0.0.0 www.zzzz1.com
 0.0.0.0 zzzz1.com
@@ -24611,7 +24612,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 tosbing.info
 0.0.0.0 north9.info
 0.0.0.0 www.zhaokey.com.cn
-0.0.0.0 www.gamemeca.com
 0.0.0.0 www.adobe-acrobat-software.org
 0.0.0.0 aaaaa.fileave.com
 0.0.0.0 j0hnx3r.org
@@ -25594,3 +25594,86 @@ All Rights Reserved 2007-2010
 0.0.0.0 fgbnhj.myokj.info
 0.0.0.0 57379.myokj.info
 0.0.0.0 xxccv.mysxc.info
+0.0.0.0 www.barasvidahi.com
+0.0.0.0 667669.tk
+0.0.0.0 cvbkjh.in
+0.0.0.0 jck.9981ly.com
+0.0.0.0 update.qixi55.com
+0.0.0.0 www.ad1111.com
+0.0.0.0 ercedesmox.com
+0.0.0.0 cool.perfectexe.com
+0.0.0.0 web.9981ly.com
+0.0.0.0 aplusdrivingca.com
+0.0.0.0 www.dh2011yahoo-com.top.to
+0.0.0.0 dh2011yahoo-com.top.to
+0.0.0.0 polecreekmeadows.com
+0.0.0.0 sinatv.cn.to
+0.0.0.0 www.c41840.com
+0.0.0.0 www.gmakj.com
+0.0.0.0 www.pbcplanningcongress.org
+0.0.0.0 pk235.us
+0.0.0.0 www.myr9.com
+0.0.0.0 www.superdns.in
+0.0.0.0 stashbox.org
+0.0.0.0 sb.dnfwg1.info
+0.0.0.0 www.adtemplocentral.org
+0.0.0.0 schear.serveftp.com
+0.0.0.0 www.weiquan365.com
+0.0.0.0 www.dvcchatt.org
+0.0.0.0 se.zglcai.com
+0.0.0.0 www.ataobao.com
+0.0.0.0 28bxg.com
+0.0.0.0 exes.fileave.com
+0.0.0.0 crm.9966dh.com
+0.0.0.0 di2059.91mt.com
+0.0.0.0 art3d.ar.funpic.de
+0.0.0.0 db.ms.kr
+0.0.0.0 g.63577.com
+0.0.0.0 mail13years.co.cc
+0.0.0.0 rpt2.21civ.com
+0.0.0.0 www.dunaferriskola.hu
+0.0.0.0 ha7054.91mt.com
+0.0.0.0 union.9966dh.com
+0.0.0.0 888k7.com
+0.0.0.0 upup.21civ.com
+0.0.0.0 kakgezaebalsha.com
+0.0.0.0 kl1314.91mt.com
+0.0.0.0 novaestruturaescoladedanca.com
+0.0.0.0 um3156.91mt.com
+0.0.0.0 dy.theokj.info
+0.0.0.0 hh1396.com
+0.0.0.0 www.hh1396.com
+0.0.0.0 tt1155.com
+0.0.0.0 www.pj1188.com
+0.0.0.0 pj1188.com
+0.0.0.0 www.betppp.com
+0.0.0.0 ca424.91mt.com
+0.0.0.0 xn.bisque110.com
+0.0.0.0 28365365.com
+0.0.0.0 www.28365365.com
+0.0.0.0 96862.mysxc.info
+0.0.0.0 90954.mysxc.info
+0.0.0.0 dda530e7c3716983.net
+0.0.0.0 mewgost.com
+0.0.0.0 ll.9981ly.com
+0.0.0.0 a.aihuawd.com
+0.0.0.0 ad6.e-quan.com
+0.0.0.0 img006.com
+0.0.0.0 update.yese55.com
+0.0.0.0 update.kele55.com
+0.0.0.0 www.kele55.com
+0.0.0.0 www.haojilm.com
+0.0.0.0 yp2121.91mt.com
+0.0.0.0 zi7726.91mt.com
+0.0.0.0 bd334.91mt.com
+0.0.0.0 xz.qqdownsoft.info
+0.0.0.0 www.jiuku123.com
+0.0.0.0 c0decub.com
+0.0.0.0 hmshop.biz
+0.0.0.0 gidaju.netfirms.com
+0.0.0.0 www.500988.co.cc.
+0.0.0.0 www.667669.tk
+0.0.0.0 8862.fileave.com
+0.0.0.0 morph1um.mo.funpic.de
+0.0.0.0 g-i-o.de
+0.0.0.0 www.usmpvirtual.edu.pe
