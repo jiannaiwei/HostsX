@@ -1,4 +1,4 @@
-;version=201104050923
+;version=201104061802
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -9477,12 +9477,24 @@ $      下载最新版本的 HostsX。
 0.0.0.0 acdupdater.acdsystems.com
 0.0.0.0 soapintouch.acdnet.com
 #Adobe
+0.0.0.0 3dns-2.adobe.com
+0.0.0.0 3dns-3.adobe.com
+0.0.0.0 activate-sea.adobe.com
+0.0.0.0 activate-sjc0.adobe.com
 0.0.0.0 activate.adobe.com
+0.0.0.0 activate.wip3.adobe.com
+0.0.0.0 adobe-dns-2.adobe.com
+0.0.0.0 adobe-dns-3.adobe.com
 0.0.0.0 adobe-dns.adobe.com
+0.0.0.0 adobe.activate.com
+0.0.0.0 adobeereg.com
 0.0.0.0 ereg.adobe.com
+0.0.0.0 ereg.wip3.adobe.com
 0.0.0.0 ns.adobe.com
 0.0.0.0 practivate.adobe.com
 0.0.0.0 stats.adobe.com
+0.0.0.0 wip3.adobe.com
+0.0.0.0 wwis-dubc1-vip60.adobe.com
 0.0.0.0 www.adobeereg.com
 #Aignes
 0.0.0.0 aignes.com
