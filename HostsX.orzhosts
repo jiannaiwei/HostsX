@@ -1,4 +1,4 @@
-;version=201104061802
+;version=201104072030
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8712,6 +8712,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v2.tjj.com
 0.0.0.0 soft.tjj.com
 #IE劫持
+0.0.0.0 www.pp93.com
 0.0.0.0 789654.com
 0.0.0.0 www.45566.net
 0.0.0.0 www.789654.com
