@@ -2353,6 +2353,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ts.richmedia.yahoo.com
 0.0.0.0 us.ard.yahoo.com
 0.0.0.0 us.rd.yahoo.com
+0.0.0.0 global.ard.yahoo.com
 0.0.0.0 visit.webhosting.yahoo.com
 #Yimg
 0.0.0.0 ads.yimg.com
@@ -9288,6 +9289,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 69card.com
 0.0.0.0 images.9wad.com
 0.0.0.0 t2.17pfa.com
+0.0.0.0 zcomcdl.zcominc.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com
