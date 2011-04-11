@@ -1,4 +1,4 @@
-;version=201104081312
+;version=201104111500
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -373,7 +373,6 @@ ff02::3 ip6-allhosts
 2404:6800:8005::8d ipgoto.appspot.com
 2404:6800:8005::8d meme2028.appspot.com
 2404:6800:8005::8d autoproxy2pac.appspot.com
-#GAE
 203.208.39.104 007blogchina.appspot.com
 203.208.39.104 1m.appspot.com
 203.208.39.104 2beesinchina.appspot.com
@@ -1823,7 +1822,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.msn.com
 0.0.0.0 ads.ninemsn.com.au
-0.0.0.0 ads1.msn.com
 0.0.0.0 ads2.msn.com
 0.0.0.0 adsyndication.msn.com
 0.0.0.0 amer.rel.msn.com
@@ -1840,7 +1838,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 catalog.video.msn.com
 0.0.0.0 direct.ninemsn.com.au
 0.0.0.0 exp.www.msn.com
-0.0.0.0 g.msn.com
 0.0.0.0 h.msn.com
 0.0.0.0 msnads-wm9.fplive.net
 0.0.0.0 popup.msn.com
@@ -2031,6 +2028,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsence.sogou.com
 0.0.0.0 alpha.brand.sogou.com
 0.0.0.0 config.acc.sogou.com
+0.0.0.0 cpc.brand.sogou.com
 0.0.0.0 cpc.sogou.com
 0.0.0.0 fair.sogou.com
 0.0.0.0 goto.sogou.com
@@ -2041,10 +2039,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 lk.brand.sogou.com
 0.0.0.0 pb.sogou.com
 0.0.0.0 pbd.sogou.com
+0.0.0.0 pingback.sogou.com
 0.0.0.0 pv.sogou.com
 0.0.0.0 sy.brand.sogou.com
 0.0.0.0 union.sogou.com
 0.0.0.0 wb.brand.sogou.com
+0.0.0.0 xls.go.sohu.com
 #搜房
 0.0.0.0 clickn.soufun.com
 0.0.0.0 count.soufun.com
@@ -8655,7 +8655,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.hwa.cc
 0.0.0.0 www.18ab.com.cn
 0.0.0.0 pic.hwa.cc
-0.0.0.0 www.hwa.cc
 0.0.0.0 hot.apinpai.com
 0.0.0.0 app.kdsj2.sx.cn
 0.0.0.0 webpush.voole.com
@@ -9290,6 +9289,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 images.9wad.com
 0.0.0.0 t2.17pfa.com
 0.0.0.0 zcomcdl.zcominc.com
+0.0.0.0 content.aimatch.com
+0.0.0.0 show.altitudedigitalpartners.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com

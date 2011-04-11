@@ -1,12 +1,11 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.4.4
+恶意网站HOSTS屏蔽文件-2011.4.11
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
 警告：不得将此数据用于违法犯罪行为！
 All Rights Reserved 2007-2010
----------------------------------------
 127.0.0.1 localhost
 0.0.0.0 www.zzzz1.com
 0.0.0.0 zzzz1.com
@@ -25677,3 +25676,89 @@ All Rights Reserved 2007-2010
 0.0.0.0 morph1um.mo.funpic.de
 0.0.0.0 g-i-o.de
 0.0.0.0 www.usmpvirtual.edu.pe
+0.0.0.0 www.yp178.com
+0.0.0.0 www.goc-163.tk
+0.0.0.0 item.taobao.com-hhm.mu.la
+0.0.0.0 asdd.etowns.net
+0.0.0.0 www.llanolacsa.com
+0.0.0.0 au4399.91mt.com
+0.0.0.0 www.ip9you.com
+0.0.0.0 sdfkjberkjw351rmsdfk.narod.ru
+0.0.0.0 gzhuineng.com
+0.0.0.0 www.spearfishrealty.com
+0.0.0.0 zx-yahoo.in
+0.0.0.0 www.360doc.com
+0.0.0.0 ad.vrbrothers.com
+0.0.0.0 bigzalupen.ru
+0.0.0.0 ihateyouroma.com
+0.0.0.0 yaolihui.cn
+0.0.0.0 b2c.28bxg.com
+0.0.0.0 titlemdown.29965.f.yygczx.com
+0.0.0.0 www.xxlavaix01xx.net
+0.0.0.0 web-soft2011pc.eu
+0.0.0.0 me.mapbar.com
+0.0.0.0 am855.91mt.com
+0.0.0.0 shup.com
+0.0.0.0 www.jisome.info
+0.0.0.0 w1.youxi.qq275.com
+0.0.0.0 casualhopperois.com
+0.0.0.0 www.gwnfj.info
+0.0.0.0 para-maranhao.com.br
+0.0.0.0 www.zhuangzi.gov.cn
+0.0.0.0 www.jeutl.info
+0.0.0.0 irisjard.o2switch.net
+0.0.0.0 www.lrpvc.info
+0.0.0.0 163zn-dh-com.top.to
+0.0.0.0 static.xy.5pk.com
+0.0.0.0 rbmatt.sites.uol.com.br
+0.0.0.0 mysurprise2011.com
+0.0.0.0 le_1.520xz.com
+0.0.0.0 adordota.com
+0.0.0.0 titletitlemdown.61233.f.yygczx.com
+0.0.0.0 www.35dh.com
+0.0.0.0 46.765321.info
+0.0.0.0 ukpuzzle.com
+0.0.0.0 www.nxmtv.info
+0.0.0.0 www.aihuawd.com
+0.0.0.0 www.17guagua.com
+0.0.0.0 moonnight.3322.org
+0.0.0.0 tt.765321.info
+0.0.0.0 jp1334.91mt.com
+0.0.0.0 ep2011.91mt.com
+0.0.0.0 d.ppgghh1.com
+0.0.0.0 ol7617.91mt.com
+0.0.0.0 www.oorrh.info
+0.0.0.0 byebye2_88l.126gz.com
+0.0.0.0 www.70chun.com
+0.0.0.0 www.h3210.com
+0.0.0.0 stoper_2049.126gz.com
+0.0.0.0 www.aaa444.com
+0.0.0.0 www.techlistings.net
+0.0.0.0 www.caixaseguranca.com
+0.0.0.0 xiazai.dowmseslgrammar.info
+0.0.0.0 huanghuangs.8866.org
+0.0.0.0 titletitlemdown.87703.f.yygczx.com
+0.0.0.0 titlemdown.12222.f.yygczx.com
+0.0.0.0 xiazai.bestxiyoudown.info
+0.0.0.0 titlejc5274.91mt.com
+0.0.0.0 www.zhcwyc.25u.com
+0.0.0.0 xz.thenewfosoft.info
+0.0.0.0 mdown.98884.f.yygczx.com
+0.0.0.0 mdown.78554.f.yygczx.com
+0.0.0.0 mdown.28655.f.yygczx.com
+0.0.0.0 mdown.12222.f.yygczx.com
+0.0.0.0 ym6999.91mt.com
+0.0.0.0 titlemdown.59905.f.yygczx.com
+0.0.0.0 nv3587.91mt.com
+0.0.0.0 titlemdown.28655.f.yygczx.com
+0.0.0.0 bu8057.91mt.com
+0.0.0.0 mdown.59905.f.yygczx.com
+0.0.0.0 ul8581.91mt.com
+0.0.0.0 titlemdown.98884.f.yygczx.com
+0.0.0.0 titletitlekl1314.91mt.com
+0.0.0.0 nw323.91mt.com
+0.0.0.0 www.91mt.com
+0.0.0.0 titletitlevl3767.91mt.com
+0.0.0.0 www1.e-soso.com
+0.0.0.0 002.la
+0.0.0.0 www.002.la
