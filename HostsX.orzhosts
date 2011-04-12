@@ -1,4 +1,4 @@
-;version=201104111500
+;version=201104121542
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -2359,7 +2359,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ads.yimg.com
 0.0.0.0 a32.g.a.yimg.com
 0.0.0.0 eur.a1.yimg.com
-0.0.0.0 l.yimg.com
 0.0.0.0 richmedia.yimg.com
 0.0.0.0 us.a1.yimg.com
 0.0.0.0 ybinst0.ec.yimg.com
@@ -2634,8 +2633,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 scpworld.com.cn
 0.0.0.0 www.ypzs88.com
 #Wooboo
-0.0.0.0 10.0.0.172
-0.0.0.0 162.105.131.113
 0.0.0.0 ade.wooboo.com.cn
 0.0.0.0 admin.wooboo.com.cn
 0.0.0.0 download.wooboo.com.cn
@@ -9321,9 +9318,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
-#HooKQQ
-0.0.0.0 www.hookqq.com
-0.0.0.0 hookqq.com
 #iSeesoft
 0.0.0.0 msg.iseesoft.cn
 0.0.0.0 p.iseeclan.com

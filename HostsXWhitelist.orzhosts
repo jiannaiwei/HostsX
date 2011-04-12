@@ -1,4 +1,4 @@
-;version=201103301950
+;version=201104121545
 ;author=郭鹏锟（Jock Kwok）
 #!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
 pinst.360.cn
@@ -30,6 +30,14 @@ $DELETE
 
 #导致 Yahoo.co.jp 无法正常跳转。
 rd.yahoo.co.jp
+$DELETE
+
+#导致 移动网关 无法正常跳转？
+10.0.0.172
+$DELETE
+
+#导致 Flickr页面 无法正常显示。
+l.yimg.com
 $DELETE
 
 #导致凤凰直播播放器无法正常加载。
