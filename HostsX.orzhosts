@@ -1,4 +1,4 @@
-;version=201104121542
+;version=201104132120
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1132,6 +1132,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.xici.net
 0.0.0.0 ad.zanox.com
 0.0.0.0 ad1.tiezun.com
+0.0.0.0 adcount.178.com
 0.0.0.0 ads.wopus.org
 0.0.0.0 ads.zaobao.com
 0.0.0.0 adv.blogupp.com
