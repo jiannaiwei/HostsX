@@ -1,7 +1,15 @@
-;version=201104121545
+;version=201104150040
 ;author=郭鹏锟（Jock Kwok）
 #!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
 pinst.360.cn
+$DELETE
+
+#导致Flickr页面无法正常显示。
+l.yimg.com
+$DELETE
+
+#!iPhone 恢复固件的验证服务器，会导致 iPhone无法完成验证，如果您正在越狱不建议删除。
+cntv.wrating.com
 $DELETE
 
 #导致 CNTV 客户端脚本错误。
@@ -105,6 +113,10 @@ $DELETE
 #导致优酷网搜索功能无法正常使用。
 *.atm.youku.com
 $RemoveFromIEBlockedSites
+
+#导致优酷网搜索功能无法正常使用。
+atm.youku.com
+$DELETE
 
 #导致新浪视讯聊天大厅无法进入。
 rm.show.sina.com.cn
