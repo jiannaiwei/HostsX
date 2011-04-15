@@ -1,4 +1,4 @@
-;version=201104132120
+;version=201104151120
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -1123,85 +1123,40 @@ ff02::3 ip6-allhosts
 @HostsX OneKey
 #常用站点广告过滤
 0.0.0.0 39net.datamaster.com.cn
-0.0.0.0 a-m-s.poco.cn
 0.0.0.0 a4.yeshj.com
-0.0.0.0 ad.17k.com
-0.0.0.0 ad.ddvip.com
 0.0.0.0 ad.networld.hk
 0.0.0.0 ad.tsinghua.edu.cn
-0.0.0.0 ad.xici.net
 0.0.0.0 ad.zanox.com
 0.0.0.0 ad1.tiezun.com
 0.0.0.0 adcount.178.com
 0.0.0.0 ads.wopus.org
-0.0.0.0 ads.zaobao.com
 0.0.0.0 adv.blogupp.com
-0.0.0.0 allyes.jrj.com
-0.0.0.0 allyes.stockstar.com
 0.0.0.0 allyes.the9.com
 0.0.0.0 aperture.displaymarketplace.com
-0.0.0.0 aps4.jrjimg.cn
-0.0.0.0 bmp.ali213.net
 0.0.0.0 ccc.xdowns.com
-0.0.0.0 click.cnfol.com
-0.0.0.0 click.union.360buy.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
 0.0.0.0 counter.gouzai.cn
-0.0.0.0 d.5d6d.com
 0.0.0.0 dpvc.39.net
 0.0.0.0 g.hsw.cn
-0.0.0.0 gg.blueidea.com
-0.0.0.0 gg.cdcgames.net
-0.0.0.0 gg.donews.com
 0.0.0.0 gg.joytod.com
 0.0.0.0 hot.269.net
 0.0.0.0 i1.hk
-0.0.0.0 iads.xinmin.cn
 0.0.0.0 image10.autobild.cn
-0.0.0.0 images2.zhulang.com
-0.0.0.0 img.uu1001.cn
-0.0.0.0 jj.topzj.com
-0.0.0.0 js.adm.cngba.com
 0.0.0.0 js.laishu.com
-0.0.0.0 m.union.hongxiu.com
 0.0.0.0 me.youheme.com
 0.0.0.0 pro.blogbus.com
-0.0.0.0 pro.letv.com
-0.0.0.0 rcm-images.amazon.com
-0.0.0.0 rcm.amazon.com
-0.0.0.0 report.chinanews.com
 0.0.0.0 s1.wopti.net
-0.0.0.0 show.union.360buy.com
-0.0.0.0 shows.fdc.com.cn
-0.0.0.0 sp.vcimg.com
-0.0.0.0 sponsor.verycd.com
-0.0.0.0 stat.discuz.com
 0.0.0.0 stat.hudong.com
-0.0.0.0 stat.uuu9.com
 0.0.0.0 static.hudong.com
-0.0.0.0 uimg.my4399.com
-0.0.0.0 un.5d6d.com
-0.0.0.0 union.360buy.com
 0.0.0.0 union.51ditu.com
-0.0.0.0 union.dangdang.com
-0.0.0.0 union.daqi.com
-0.0.0.0 union.phpwind.com
-0.0.0.0 union.pomoho.com
 0.0.0.0 union.the999.com
-0.0.0.0 union.vancl.com
 0.0.0.0 union.zhongsou.com
 0.0.0.0 union2.50bang.org
 0.0.0.0 up.hiao.com
 0.0.0.0 update.yunduan.cn
-0.0.0.0 v3.apic.51.com
 0.0.0.0 wap.pingan.com
-0.0.0.0 wo318.k621.com
 0.0.0.0 www.adhere.com.hk
-0.0.0.0 www.pagechoice.net
-0.0.0.0 www8.xitek.com
-0.0.0.0 xc.macd.cn
-0.0.0.0 yahoo1.beareyes.com.cn
 @HostsX OneKey/Google AD
 #2mdn
 0.0.0.0 affiliate.2mdn.net
@@ -1480,6 +1435,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p3p.alibaba.com
 0.0.0.0 dmtracking.alibaba.com
 0.0.0.0 dmtracking2.alibaba.com
+0.0.0.0 p4psearch.china.alibaba.com
 #淘宝
 0.0.0.0 click.mz.simba.taobao.com
 0.0.0.0 click.tz.simba.taobao.com
@@ -1993,6 +1949,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pfpip.sina.com
 0.0.0.0 rm.sina.com.cn
 0.0.0.0 sms.sina.com.cn
+0.0.0.0 swf.games.sina.com.cn
 0.0.0.0 uic.sso.sina.com.cn
 0.0.0.0 adsina.allyes.com
 0.0.0.0 sina.allyes.com
@@ -6623,7 +6580,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 search.xrenoder.com
 0.0.0.0 www.xrenoder.com
 0.0.0.0 xrenoder.com
-#[Yesup Ecommerce Solutions]
+#Yesup Ecommerce Solutions
 0.0.0.0 banner.adsrevenue.net
 0.0.0.0 popunder.adsrevenue.net
 0.0.0.0 www.e-mailpromotion.com
@@ -6995,6 +6952,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.linkshare.com
 0.0.0.0 www.linkworth.com
 @HostsX 国内站点广告
+@HostsX 国内站点广告/社区类网站
 #天涯社区
 0.0.0.0 801.tianya.cn
 0.0.0.0 803.tianya.cn
@@ -7004,12 +6962,41 @@ $      下载最新版本的 HostsX。
 0.0.0.0 advertisement.tianya.cn
 0.0.0.0 squidclick.bbs.tianya.cn
 0.0.0.0 stat.tianya.cn
-#凤凰网
-0.0.0.0 sta.ifeng.com
-0.0.0.0 stadig.ifeng.com
 #铁血网
 0.0.0.0 ads.tiexue.net
 0.0.0.0 x.itiexue.net
+#VeryCD
+0.0.0.0 sp.vcimg.com
+0.0.0.0 sponsor.verycd.com
+#西陆网
+0.0.0.0 a.xilu.com
+0.0.0.0 content.xilu.com
+0.0.0.0 stat.xilu.com
+0.0.0.0 test.xilu.com
+#大旗网
+0.0.0.0 gg.daqi.com
+0.0.0.0 union.daqi.com
+#51
+0.0.0.0 v3.apic.51.com
+#西祠胡同
+0.0.0.0 ad.xici.net
+0.0.0.0 data.xici.net
+#免费论坛广告
+0.0.0.0 img.uu1001.cn
+0.0.0.0 jj.topzj.com
+0.0.0.0 d.5d6d.com
+0.0.0.0 un.5d6d.com
+0.0.0.0 stat.discuz.com
+0.0.0.0 union.phpwind.com
+@HostsX 国内站点广告/小说类网站
+#一起看小说
+0.0.0.0 ad.17k.com
+0.0.0.0 log.17k.com
+#逐浪网
+0.0.0.0 images2.zhulang.com
+#红袖添香
+0.0.0.0 m.union.hongxiu.com
+@HostsX 国内站点广告/新闻类网站
 #新华网
 0.0.0.0 adcenter.xinhuanet.com
 0.0.0.0 embed.xinhuanet.com
@@ -7017,11 +7004,41 @@ $      下载最新版本的 HostsX。
 #人民网
 0.0.0.0 ads.people.com.cn
 0.0.0.0 pro.people.com.cn
-#西陆网
-0.0.0.0 a.xilu.com
-0.0.0.0 content.xilu.com
-0.0.0.0 stat.xilu.com
-0.0.0.0 test.xilu.com
+#凤凰网
+0.0.0.0 sta.ifeng.com
+0.0.0.0 stadig.ifeng.com
+#联合早报
+0.0.0.0 ads.zaobao.com
+#新民网
+0.0.0.0 iads.xinmin.cn
+#中新网
+0.0.0.0 www.pagechoice.net
+0.0.0.0 report.chinanews.com
+#中华网
+0.0.0.0 dvs.china.com
+0.0.0.0 dvsend.china.com
+0.0.0.0 richmedia.china.com
+#齐鲁在线
+0.0.0.0 c.iqilu.com
+0.0.0.0 g.iqilu.com
+0.0.0.0 gimg.iqilu.com
+@HostsX 国内站点广告/游戏类网站
+#电玩巴士
+0.0.0.0 bill.tgbus.com
+0.0.0.0 g.tgbus.com
+0.0.0.0 g.tgbusdata.cn
+0.0.0.0 gg.tgbus.com
+#游侠网
+0.0.0.0 bmp.ali213.net
+#CDCGames
+0.0.0.0 gg.cdcgames.net
+#CNGBA
+0.0.0.0 js.adm.cngba.com
+#游久网
+0.0.0.0 stat.uuu9.com
+#4399小游戏
+0.0.0.0 uimg.my4399.com
+@HostsX 国内站点广告/财经类网站
 #东方财富网
 0.0.0.0 ay.eastmoney.com
 0.0.0.0 cp.eastmoney.com
@@ -7030,17 +7047,37 @@ $      下载最新版本的 HostsX。
 0.0.0.0 same.eastmoney.com
 0.0.0.0 eastmoney.allyes.com
 0.0.0.0 wonderadafa7.allyes.com
-#易车网
-0.0.0.0 autosense.bitauto.com
-0.0.0.0 g.bitauto.com
-0.0.0.0 gimg.bitauto.com
-0.0.0.0 ip.bitauto.com
-0.0.0.0 log.bitauto.com
-#电玩巴士
-0.0.0.0 bill.tgbus.com
-0.0.0.0 g.tgbus.com
-0.0.0.0 g.tgbusdata.cn
-0.0.0.0 gg.tgbus.com
+#金融界
+0.0.0.0 allyes.jrj.com
+0.0.0.0 aps4.jrjimg.cn
+#证券之星
+0.0.0.0 allyes.stockstar.com
+#中金在线
+0.0.0.0 click.cnfol.com
+0.0.0.0 pagead.cnfol.com
+0.0.0.0 he.js.cnfol.com
+0.0.0.0 csad.adsame.com
+#MACD金融网
+0.0.0.0 xc.macd.cn
+@HostsX 国内站点广告/摄影类网站
+#色影无忌
+0.0.0.0 www8.xitek.com
+#POCO
+0.0.0.0 a-m-s.poco.cn
+#新摄影
+0.0.0.0 util.nphoto.net
+@HostsX 国内站点广告/购物类网站
+#Amazon
+0.0.0.0 rcm-images.amazon.com
+0.0.0.0 rcm.amazon.com
+#京东商城
+0.0.0.0 union.360buy.com
+0.0.0.0 click.union.360buy.com
+0.0.0.0 show.union.360buy.com
+#当当网
+0.0.0.0 union.dangdang.com
+#凡客诚品
+0.0.0.0 union.vancl.com
 @HostsX 国内站点广告/IT类网站
 #Pc泡泡
 0.0.0.0 33.pcpop.com
@@ -7071,6 +7108,14 @@ $      下载最新版本的 HostsX。
 #赛迪网
 0.0.0.0 stat.ccidnet.com
 0.0.0.0 www2.ccidnet.com
+#豆豆网
+0.0.0.0 ad.ddvip.com
+#Donews
+0.0.0.0 gg.donews.com
+#小熊在线
+0.0.0.0 yahoo1.beareyes.com.cn
+#蓝色理想
+0.0.0.0 gg.blueidea.com
 #CSDN
 0.0.0.0 counter.csdn.net
 0.0.0.0 z.csdn.net
@@ -7083,6 +7128,17 @@ $      下载最新版本的 HostsX。
 #Rising
 0.0.0.0 alert.rising.com.cn
 0.0.0.0 union.rising.com.cn
+@HostsX 国内站点广告/汽车类网站
+#易车网
+0.0.0.0 autosense.bitauto.com
+0.0.0.0 g.bitauto.com
+0.0.0.0 gimg.bitauto.com
+0.0.0.0 ip.bitauto.com
+0.0.0.0 log.bitauto.com
+#汽车之家
+0.0.0.0 33.autohome.com.cn
+0.0.0.0 adshow.che168.com
+0.0.0.0 pv.che168.com
 @HostsX 国内站点广告/视频类网站
 #CNTV
 0.0.0.0 a.cctv.com
@@ -7160,11 +7216,15 @@ $      下载最新版本的 HostsX。
 0.0.0.0 casting.openv.com
 0.0.0.0 m.openv.tv
 0.0.0.0 uniclick.openv.com
+#Wo318
+0.0.0.0 wo318.k621.com
+#爆米花
+0.0.0.0 union.pomoho.com
+#乐视网
+0.0.0.0 img1.c0.letv.com
+0.0.0.0 pro.letv.com
 @HostsX 国内站点广告/区域类网站
-#中华网
-0.0.0.0 dvs.china.com
-0.0.0.0 dvsend.china.com
-0.0.0.0 richmedia.china.com
+
 #21CN
 0.0.0.0 analytics.21cn.com
 0.0.0.0 click.21cn.com
@@ -7208,10 +7268,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ad.ynet.com
 0.0.0.0 fun.ynet.com
 0.0.0.0 ranking.ynet.com
-#汽车之家
-0.0.0.0 33.autohome.com.cn
-0.0.0.0 adshow.che168.com
-0.0.0.0 pv.che168.com
+#亿房
+0.0.0.0 shows.fdc.com.cn
 #大洋网
 0.0.0.0 adimg.dayoo.com
 0.0.0.0 rnd.dayoo.com
@@ -7219,10 +7277,7 @@ $      下载最新版本的 HostsX。
 #51Job
 0.0.0.0 ac.51job.com
 0.0.0.0 logs.51job.com
-#齐鲁在线
-0.0.0.0 c.iqilu.com
-0.0.0.0 g.iqilu.com
-0.0.0.0 gimg.iqilu.com
+0.0.0.0 kwdsrv.51job.com
 @HostsX 国内广告联盟
 #0252
 0.0.0.0 js.0252.com
@@ -7658,7 +7713,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v.taolai.cn
 0.0.0.0 y.taolai.cn
 #Allyes
-0.0.0.0 afpxici.allyes.com
 0.0.0.0 allyesbjafa.allyes.com
 0.0.0.0 allyesshafa.allyes.com
 0.0.0.0 bokee.allyes.com
