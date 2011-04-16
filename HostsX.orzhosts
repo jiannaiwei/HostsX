@@ -1,4 +1,4 @@
-;version=201104151120
+;version=201104162351
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7225,7 +7225,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 img1.c0.letv.com
 0.0.0.0 pro.letv.com
 @HostsX 国内站点广告/区域类网站
-
+#北海365
+0.0.0.0 ad.beihai365.com
 #21CN
 0.0.0.0 analytics.21cn.com
 0.0.0.0 click.21cn.com
