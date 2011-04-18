@@ -1,4 +1,4 @@
-;version=201104171422
+;version=201104180909
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7038,6 +7038,7 @@ $      下载最新版本的 HostsX。
 #游久网
 0.0.0.0 stat.uuu9.com
 #4399小游戏
+0.0.0.0 aszt1.my4399.com
 0.0.0.0 uimg.my4399.com
 @HostsX 国内站点广告/财经类网站
 #东方财富网
@@ -8990,6 +8991,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 smal.r.arpg2.com
 0.0.0.0 xiaoh.r.arpg2.com
 0.0.0.0 xiaohua.r.arpg2.com
+0.0.0.0 yithgao.r.arpg2.com
 0.0.0.0 tg1.hlwan.com
 0.0.0.0 tg2.hlwan.com
 0.0.0.0 111a.hlwan.net
@@ -9023,6 +9025,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tg3.subo.me
 0.0.0.0 xunion.ledu.com
 0.0.0.0 union.ledu.com
+0.0.0.0 p.gocsgo.com
+0.0.0.0 t.gocsgo.com
+0.0.0.0 u1346.37117.com
+0.0.0.0 adimg.37117.com
+0.0.0.0 www.admin6.com
+0.0.0.0 jump.admin6.com
 0.0.0.0 tg.000wan.com
 0.0.0.0 www.000wan.com
 0.0.0.0 1.usazm.net
@@ -9051,6 +9059,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 bto.youxiya.com
 0.0.0.0 c.4055.com
+0.0.0.0 c.88210212.com
 0.0.0.0 c.ourclick.net
 0.0.0.0 c.pee.cn
 0.0.0.0 c.sfilm.com
@@ -9072,6 +9081,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cs.37see.com
 0.0.0.0 cs01.csyouxi.com
 0.0.0.0 dev.tongxue.com
+0.0.0.0 dl1.365jishi.com
 0.0.0.0 e.appsasia.net
 0.0.0.0 e8.969g.com
 0.0.0.0 engine.100fenlm.cn
@@ -9079,19 +9089,20 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 g.175pt.com
 0.0.0.0 g.88210212.com
-0.0.0.0 c.88210212.com
 0.0.0.0 g.91sanguo.cn
 0.0.0.0 g.9444.com
 0.0.0.0 g.kx365.com
 0.0.0.0 g.xuanyx.com
 0.0.0.0 gamefiles.qq494.cn
 0.0.0.0 gg.12354.com
+0.0.0.0 gg.1qyx.com
 0.0.0.0 gg.qc101.com
 0.0.0.0 gg.ruiidc.com
 0.0.0.0 gg.yiqiwin.com
 0.0.0.0 gg2011.qzkids.com
 0.0.0.0 go.lele.com
 0.0.0.0 go.snsfun.cc
+0.0.0.0 graphics.pop6.com
 0.0.0.0 gwc.iblinx.com
 0.0.0.0 h1.untang.com
 0.0.0.0 hc.gamebean.com
@@ -9103,6 +9114,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 hy.wowan365.com
 0.0.0.0 i.2wanwan.com
 0.0.0.0 i.na7.cc
+0.0.0.0 image.001union.com
 0.0.0.0 image.86661.com
 0.0.0.0 image.tazhao.com
 0.0.0.0 images.9zwar.com
@@ -9114,9 +9126,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 link.f1.com.tw
 0.0.0.0 link.hao251.com
 0.0.0.0 m.menhutong.com.cn
+0.0.0.0 max.gunggo.com
 0.0.0.0 mcsd.qq437.cn
 0.0.0.0 mini.zzjk.net
 0.0.0.0 mx3.hotrank.com.tw
+0.0.0.0 nl.tg.niux88.com
 0.0.0.0 nonoyx.com
 0.0.0.0 omega.55451.com
 0.0.0.0 p.eqiso.com
@@ -9131,8 +9145,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pv.7fgame.com
 0.0.0.0 qqmms.net
 0.0.0.0 redirect.jooov.cn
+0.0.0.0 reg.gl.ucjoy.com
 0.0.0.0 reg.xingkong.com
 0.0.0.0 register.haohaowan.com
+0.0.0.0 res.yytou.cn
 0.0.0.0 resmkt.dipan.com
 0.0.0.0 s.51e78.com
 0.0.0.0 s.ksy168.com
@@ -9140,6 +9156,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 sh.lezi.com
 0.0.0.0 shop8.x.com.cn
+0.0.0.0 stat.ziye8.com
 0.0.0.0 state.urgamer.com
 0.0.0.0 t.15yl.com
 0.0.0.0 t.1stcngame.com
@@ -9148,7 +9165,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 t.9kele.com
 0.0.0.0 t.chinayul.com
 0.0.0.0 t.gameyule.com
-0.0.0.0 t.gocsgo.com
 0.0.0.0 t.jiuyaoyouxi.com
 0.0.0.0 t.uuplay.com
 0.0.0.0 t.yyclick.com
@@ -9158,6 +9174,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tg.bigzhu.com
 0.0.0.0 tg.game5.com
 0.0.0.0 tg.youwo.com
+0.0.0.0 tgame.joqoo.com
 0.0.0.0 tj4.feesee.com
 0.0.0.0 tongji.wan5d.com
 0.0.0.0 ty3.yxfw.com
@@ -9165,9 +9182,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.7town.com
 0.0.0.0 u.haom.us
 0.0.0.0 u.molidao.com
+0.0.0.0 u.tdwan.com
 0.0.0.0 u11.gzfiat.com
 0.0.0.0 uimg.unionli.com
 0.0.0.0 un.173737.com
+0.0.0.0 un.sharele.cn
 0.0.0.0 union.7cv.com
 0.0.0.0 union.88go.cc
 0.0.0.0 union.keepc.com
@@ -9175,6 +9194,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.popwan.com
 0.0.0.0 union.shumenol.com
 0.0.0.0 user.game2.cn
+0.0.0.0 v.xi666.com
 0.0.0.0 ww.jinzhao99.com
 0.0.0.0 ww.yiqiwin.com
 0.0.0.0 ww.zhcpm.com
@@ -9190,6 +9210,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.33hy.com
 0.0.0.0 www.513wan.com
 0.0.0.0 www.669.la
+0.0.0.0 www.9see.com
 0.0.0.0 www.ad2.cc
 0.0.0.0 www.adsue.com
 0.0.0.0 www.adtools.cn
@@ -9223,8 +9244,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.wangyuan.com
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 www.xiazai189.com
+0.0.0.0 www.xixianad.com
 0.0.0.0 www.xwadv.com
 0.0.0.0 www.yiqiwin.com
+0.0.0.0 www.youxi186.com
 0.0.0.0 www.zuixiaoyao.com
 0.0.0.0 www1.xman.cn
 0.0.0.0 www1.zjbdt.com
@@ -9233,19 +9256,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 x.17iw.com
 0.0.0.0 xs.mingbu.net
 0.0.0.0 xy.8zgame.com
+0.0.0.0 yhchuanqi.com
 0.0.0.0 yz.szgla.com
-0.0.0.0 gg.1qyx.com
-0.0.0.0 image.001union.com
-0.0.0.0 u1346.37117.com
-0.0.0.0 adimg.37117.com
-0.0.0.0 www.admin6.com
-0.0.0.0 jump.admin6.com
-0.0.0.0 un.sharele.cn
-0.0.0.0 max.gunggo.com
-0.0.0.0 v.xi666.com
-0.0.0.0 www.xixianad.com
-0.0.0.0 stat.ziye8.com
-0.0.0.0 graphics.pop6.com
 #病毒下载
 0.0.0.0 kb.ttdk2.com
 0.0.0.0 tj.ttdk2.com
