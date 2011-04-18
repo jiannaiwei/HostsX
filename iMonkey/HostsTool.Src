@@ -1,5 +1,5 @@
 @echo off
-set ver=2.8
+set ver=2.78
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -40,11 +40,6 @@ rem 关闭 DNS Client 服务，以加快DNS解析速度;
 net stop "Dnscache">nul 2>nul
 sc stop "DNSCache">nul 2>nul
 sc config Dnscache start= disabled>nul 2>nul
-rem 设置可供外部调用
-rem if not exist %a% mshta vbscript:msgbox("没有找到Opera数据.....",0,"备份Opera")(window.close) && exit
-set g=%1
-set f=%2
-if "%g%"=="1" ( goto:dft ) else if "%f%"=="2" ( goto:fixhosts ) else exit
 rem 开启 IPv6 转换技术 服务，以辅助DNS解析;
 sc config iphlpsvc start= AUTO>nul 2>nul
 ver|find   "5."   
