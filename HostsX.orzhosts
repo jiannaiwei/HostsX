@@ -1,4 +1,4 @@
-;version=201104180909
+;version=201104201600
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -6959,10 +6959,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 803.tianya.cn
 0.0.0.0 806.tianya.cn
 0.0.0.0 807.tianya.cn
-0.0.0.0 adview.tianya.cn
 0.0.0.0 advertisement.tianya.cn
+0.0.0.0 adview.tianya.cn
+0.0.0.0 click.tianyaui.com
 0.0.0.0 squidclick.bbs.tianya.cn
 0.0.0.0 stat.tianya.cn
+0.0.0.0 urchin.tianya.cn
 #铁血网
 0.0.0.0 ads.tiexue.net
 0.0.0.0 x.itiexue.net
