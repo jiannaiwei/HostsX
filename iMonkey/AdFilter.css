@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤规则
-Version: 1.86
+Version: 1.861
 Author: vokins
 Description: MayBe a better Adfilter CSS.
 */
@@ -91,7 +91,7 @@ display: none !important;
 [class*="popup"],[id*="popup"],div[id^="popWin"] {
 display: none !important;
 	}
-div[id^="Float"],div[id*="float"],div[class*="float"],
+div[id^="Float"],div[id*="float"],
 div[id$="adshow"],div[id^="pf_ad"],[id^="iframeAd"] {
 display: none !important;
 	}
