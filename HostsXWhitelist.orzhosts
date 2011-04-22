@@ -1,4 +1,4 @@
-;version=201104150040
+;version=201104221542
 ;author=郭鹏锟（Jock Kwok）
 #!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
 pinst.360.cn
@@ -9,7 +9,7 @@ l.yimg.com
 $DELETE
 
 #!iPhone 恢复固件的验证服务器，会导致 iPhone无法完成验证，如果您正在越狱不建议删除。
-cntv.wrating.com
+gs.apple.com
 $DELETE
 
 #导致 CNTV 客户端脚本错误。
@@ -18,14 +18,6 @@ $DELETE
 
 #导致 ESET NOD32 无法获取 ID 的可用时间。
 exp01.eset.com
-$DELETE
-
-#导致大量调用此 API 的网站及软件无法正常使用，包含但不仅限于 Google 部分服务，囧科技官方网站等。
-ajax.googleapis.com
-$DELETE
-
-#导致雅虎新邮箱无法跳转，影响正常使用。
-us.lrd.yahoo.com
 $DELETE
 
 #导致网易 NBA 频道无法正常显示网页。
@@ -113,10 +105,6 @@ $DELETE
 #导致优酷网搜索功能无法正常使用。
 *.atm.youku.com
 $RemoveFromIEBlockedSites
-
-#导致优酷网搜索功能无法正常使用。
-atm.youku.com
-$DELETE
 
 #导致新浪视讯聊天大厅无法进入。
 rm.show.sina.com.cn

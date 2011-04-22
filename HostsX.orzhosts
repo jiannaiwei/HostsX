@@ -1,4 +1,4 @@
-;version=201104201600
+;version=201104221539
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1922,12 +1922,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 rd.360.cn
 @HostsX OneKey/ĞÂÀË
 #3GĞÂÀË
-0.0.0.0 202.106.184.178
 0.0.0.0 iyh365.cn
 #ĞÂÀËÍø
 0.0.0.0 8.show.sina.com.cn
 0.0.0.0 ad3.sina.com.cn
 0.0.0.0 ad4.sina.com.cn
+0.0.0.0 all.vic.sina.com.cn
 0.0.0.0 beacon.sina.com.cn
 0.0.0.0 bf.sina.com.cn
 0.0.0.0 cl.sina.com.cn
@@ -1951,6 +1951,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sgup.beacon.sina.com.cn
 0.0.0.0 sms.sina.com.cn
 0.0.0.0 swf.games.sina.com.cn
+0.0.0.0 ta.sass.sina.com.cn
 0.0.0.0 uic.sso.sina.com.cn
 0.0.0.0 adsina.allyes.com
 0.0.0.0 sina.allyes.com

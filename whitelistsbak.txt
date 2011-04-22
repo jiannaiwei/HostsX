@@ -1,0 +1,12 @@
+
+#导致大量调用此 API 的网站及软件无法正常使用，包含但不仅限于 Google 部分服务，囧科技官方网站等。
+ajax.googleapis.com
+$DELETE
+
+#导致雅虎新邮箱无法跳转，影响正常使用。
+us.lrd.yahoo.com
+$DELETE
+
+#导致优酷网搜索功能无法正常使用。
+atm.youku.com
+$DELETE
