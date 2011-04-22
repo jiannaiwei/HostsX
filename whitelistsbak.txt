@@ -7,6 +7,10 @@ $DELETE
 us.lrd.yahoo.com
 $DELETE
 
+#导致 Yahoo.co.jp 无法正常跳转。
+rd.yahoo.co.jp
+$DELETE
+
 #导致优酷网搜索功能无法正常使用。
 atm.youku.com
 $DELETE
