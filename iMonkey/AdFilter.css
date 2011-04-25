@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤规则
-Version: 1.882
+Version: 1.883
 Author: vokins
 Description: MayBe a better Adfilter CSS.
 */
@@ -131,7 +131,8 @@ div[id$="ad"],[id$="ad"], 深度论坛
 div[id^="AD1"],div[id^="AD2"],div[id^="AD3"] */
 
 /* 网页隐藏文字和链接过滤 {display: none;} */
-[style*="font-size:0p"],[style*="font-size: 0p"],
+[style*="font-size:0p"]{display:none !important}
+[style*="font-size: 0p"]{display:none !important}
 SPAN[class="transparent"],fieldset[style*=”:1px dashed“] {
 display: none !important;
 	}
