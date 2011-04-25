@@ -1,4 +1,4 @@
-;version=201104221539
+;version=201104251515
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -6988,7 +6988,8 @@ $      下载最新版本的 HostsX。
 #西祠胡同
 0.0.0.0 ad.xici.net
 0.0.0.0 data.xici.net
-#免费论坛广告
+#各种论坛广告
+0.0.0.0 gg.inpot.mobi
 0.0.0.0 img.uu1001.cn
 0.0.0.0 jj.topzj.com
 0.0.0.0 d.5d6d.com

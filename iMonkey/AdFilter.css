@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤规则
-Version: 1.871
+Version: 1.882
 Author: vokins
 Description: MayBe a better Adfilter CSS.
 */
@@ -21,7 +21,7 @@ display: none !important;
 display: none !important;
 	}
 [id^="_AD"],[id^="ads_"],div[id^="adbn_"],[class$="adclass"],
-div[id^="AD1"],div[id^="AD2"],div[id^="AD3"] {
+div[id^="AD"][style*="w"] {
 display: none !important;
 	}
 
@@ -69,8 +69,8 @@ embed[type="application/x-shockwave-flash"][href*="/click"],embed[type="applicat
 div[class^="richMedia],div[id^="AdLayer"],div[id^="smExtObj"],div[id^="StreamMediaWrap"] {display: none !important;}
 
 /* 文字广告 */
-[class="ad_doc_text"],[id^="adText"],
-div[class="text"][id^="text"] {
+ul[class="ad_doc_text"]{display:none !important}
+[id^="adText"],div[class="text"][id^="text"] {
 display: none !important;
 	}
 [class*="textad"],[class*="TextAd"],
@@ -83,22 +83,22 @@ display: none !important;
 	}
 
 /* 论坛广告和签名隐藏 */
-[id^="thread_ads_"],div[class^="a_p"],[class^="signature"],.sign,.postertext {display: none !important;}
+div[class^="wp a_"],[id^="thread_ads_"],div[class^="a_p"],[class^="signature"],.sign,.postertext {display: none !important;}
 .forumimglink,.forumlinks,.forumtxtlink,.postbit_adcode,#adbottom,#GoogleAd,#footerStuff {display: none !important;}
 
 /* 浮动 弹窗广告 */
-[class*="Close"],[id^="close"],
-[class*="popup"],[id*="popup"],div[id^="popWin"] {
+div[class*="Close"],[id^="close"],
+[class*="-popup"],[id*="-popup"],[id*="_popup"],div[id^="popWin"] {
 display: none !important;
 	}
-div[id$="adshow"],div[id^="pf_ad"],[id^="iframeAd"] {
+iframe[id^="ad"],div[id^="Float"],div[id$="adshow"],div[id^="pf_ad"],[id^="iframeAd"] {
 display: none !important;
 	}
 div[id^="followDiv"],div[id^="kxsoMovie"],div[id^="pop_container_] {display: none !important;}
 #msg-faq,#bbsPOPFrame,#bshareF,#feedback-box,#fixedLayertop,#ShowQQ,#sitefocus,#SlipLay,#ty_msg_box,.QQbox {display: none !important;}
 
 /* 各种提示隐藏 */
- DIV[id="mbCarduserNotLogin"],#popTudouVA,#_tc_browser_promotion,[id*="sogou_se"],div[class="upgrade_your_browser"],DIV[class="fblike_button"] {display: none !important;}
+#mentionTip,#mbCarduserNotLogin,#popTudouVA,#_tc_browser_promotion,[id*="sogou_se"],div[class="upgrade_your_browser"],DIV[class="fblike_button"] {display: none !important;}
 
 /* 广告框架过滤 */
 TD[width="50%"][align="center"] {display: none !important;}
@@ -108,10 +108,27 @@ TD[width="960"][height="90"][align="center"]{display: none !important;}
 [href*="http://ac.51job.com/phpAD/ad"],[src*="http://pfp.sina.com.cn"],[src*="http://pic.zol-img.com.cn/201"],a[href*="http://adrs.sdo.com"],a[href*="ivy.pconline.com.cn"],A[href^="http://adcount.178.com/count.php"],
 a[href^="http://global.ard.yahoo.com/],a[href^="http://rd.qihoo.com/out.html?u="],iframe[src*="/other/frmCircleNews.htm"],IFRAME[src^="http://u.115img.com/static/modules/"],IFRAME[src^="http://www.facebook.com/plugins/like.php"] {display: none !important;}
 div[id="qd_reader_footer"],div[class="ruanw box"],
-div[class="bannerleft"] {
+div[class="bannerleft"],div[id="zolFloat"],img[id$="_pvm] {
 display: none !important;
 	}
+div[class="tips_player"]{display:none !important}
 DIV[class^="content ad-b"]{display:none !important}
+DIV[class="mbm cl"],div[class="focus"][id="sitefocus"]{display:none !important}
+DIV[class="insbox"][id="xmpInstallTips"],DIV[class="kktezheng"][id="playInstallTips"]{display:none !important}
+div[class="btmad"][id^="adsp_content_banner_"],div[id="couplet_left_NULL"],div[id="couplet_right_NULL"]{display:none !important}
+div[class="focus"][id="focus"]{display:none !important}
+
+/* 已删除备份 
+[class*="popup"],人人网分享预览
+div[id*="float"],div[class*="float"],论坛登录页面层
+#focus,youku音乐焦点
+div[class^="ad"],#hiddenlpsubmitdiv, bbs.ngacn.cc
+div[class$="-banner"],www.ipc.me
+[id^="ad"],div[class^="banner_"],[id^="banner"],verycd
+[id$="ads"],hk.yahoo.com
+div[id^="AD"],cnbeta
+div[id$="ad"],[id$="ad"], 深度论坛
+div[id^="AD1"],div[id^="AD2"],div[id^="AD3"] */
 
 /* 网页隐藏文字和链接过滤 {display: none;} */
 [style*="font-size:0p"],[style*="font-size: 0p"],
