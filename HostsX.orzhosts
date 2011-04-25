@@ -1598,6 +1598,8 @@ ff02::3 ip6-allhosts
 #蜂鸟网
 0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
+0.0.0.0 js.fengniao.com
+0.0.0.0 118.67.120.66
 #电脑之家
 0.0.0.0 ad.adver.com.tw
 0.0.0.0 ad.pchome.net
@@ -1626,6 +1628,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 jspchome.zol.com.cn
 0.0.0.0 pv.zol.com.cn
 0.0.0.0 pvpchome.zol.com.cn
+0.0.0.0 pvmsite.zol.com.cn
 0.0.0.0 pvsite.zol.com.cn
 0.0.0.0 stat.zol.com.cn
 @HostsX OneKey/金山在线
