@@ -1,11 +1,13 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.4.11
+恶意网站HOSTS屏蔽文件-2011.4.25
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
 警告：不得将此数据用于违法犯罪行为！
+---------------------------------------
 All Rights Reserved 2007-2010
+***************************************
 127.0.0.1 localhost
 0.0.0.0 www.zzzz1.com
 0.0.0.0 zzzz1.com
@@ -4835,7 +4837,7 @@ All Rights Reserved 2007-2010
 0.0.0.0 nkc.youlaiyou.net
 0.0.0.0 thungen.cn
 0.0.0.0 1.ddxdd.com
-0.0.0.0klinoneshoes.info
+0.0.0.0 klinoneshoes.info
 0.0.0.0 a.jj758.com
 0.0.0.0 www.youku-com.net.cn
 0.0.0.0 www.1ovel.cn
@@ -25687,7 +25689,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 gzhuineng.com
 0.0.0.0 www.spearfishrealty.com
 0.0.0.0 zx-yahoo.in
-0.0.0.0 www.360doc.com
 0.0.0.0 ad.vrbrothers.com
 0.0.0.0 bigzalupen.ru
 0.0.0.0 ihateyouroma.com
@@ -25762,3 +25763,86 @@ All Rights Reserved 2007-2010
 0.0.0.0 www1.e-soso.com
 0.0.0.0 002.la
 0.0.0.0 www.002.la
+0.0.0.0 zalupkin.ru
+0.0.0.0 d.dnf01.com
+0.0.0.0 uk.thesswws.com
+0.0.0.0 www.dh2288.com
+0.0.0.0 bbspopkart.tianctly.com
+0.0.0.0 www.wed.com.tw
+0.0.0.0 dota.sgamer.com
+0.0.0.0 essentialgeneva.com
+0.0.0.0 www.trizz.cn
+0.0.0.0 2scf.com
+0.0.0.0 www.statelinefastpitch.com
+0.0.0.0 www.q766.com
+0.0.0.0 www.dnf01.com
+0.0.0.0 www.hulucon.com
+0.0.0.0 rav.q766.com
+0.0.0.0 jytok.tk
+0.0.0.0 adafapa.cx.cc
+0.0.0.0 gleette.com
+0.0.0.0 www.japan.edu.ms
+0.0.0.0 www.8420.cn
+0.0.0.0 www.sina5io.com
+0.0.0.0 habbometox2.altervista.org
+0.0.0.0 sxm1.net
+0.0.0.0 ad.inewsweek.cn
+0.0.0.0 www.buy-hk.com
+0.0.0.0 hwomiale.ru
+0.0.0.0 go.okjtoday.info
+0.0.0.0 www.kapege.de
+0.0.0.0 www.5158au.com
+0.0.0.0 www.98tcw.com
+0.0.0.0 downes.xixihache.info
+0.0.0.0 a89iiuapxjh.in
+0.0.0.0 www.cnkankan.com
+0.0.0.0 ttdown.wg137.com
+0.0.0.0 kusika911.ru
+0.0.0.0 www.1813355.com
+0.0.0.0 onlineadvert.net.in
+0.0.0.0 jinshanduba.org
+0.0.0.0 defaf663.110mb.com
+0.0.0.0 yahcoo.top.to
+0.0.0.0 www.2476.com
+0.0.0.0 piensaingles.com
+0.0.0.0 www.byeserver.com
+0.0.0.0 liao.w4.8868.in
+0.0.0.0 dl.cjr001.com
+0.0.0.0 url.cjr001.com
+0.0.0.0 www.juxing55.com
+0.0.0.0 c1.09466.net
+0.0.0.0 www-sina.net
+0.0.0.0 www.attbooter.com
+0.0.0.0 beq.3-a.net
+0.0.0.0 bgi.3-a.net
+0.0.0.0 www.zzcore.com
+0.0.0.0 horrys.in
+0.0.0.0 www.guping123.com
+0.0.0.0 www.66704.com
+0.0.0.0 wy221.91mt.com
+0.0.0.0 www.tmlm.net
+0.0.0.0 www.wylt.net
+0.0.0.0 h.09466.net
+0.0.0.0 gmakj.com
+0.0.0.0 hdjfskh.net
+0.0.0.0 1.mumudy.com
+0.0.0.0 www.800868.tk
+0.0.0.0 static2011online-search.in
+0.0.0.0 ej2470.91mt.com
+0.0.0.0 down414.zqoner.com
+0.0.0.0 4inlove.mooo.com
+0.0.0.0 xzd11.ouyaoxiazai.com
+0.0.0.0 www.ty.zstu.edu.cn
+0.0.0.0 shit.sjhf4gh.net
+0.0.0.0 xis.dyndns-mail.com
+0.0.0.0 webasebox.info
+0.0.0.0 hsey.info
+0.0.0.0 www.real5460666.com
+0.0.0.0 bbs2.mooo.com
+0.0.0.0 www.0202.cn.im.
+0.0.0.0 neverttols.com
+0.0.0.0 qvod.thesswws.com
+0.0.0.0 aadserv.com
+0.0.0.0 a66253.kingstable.com.cn
+0.0.0.0 www.yshqianming.com.cn
+0.0.0.0 exzo.info
