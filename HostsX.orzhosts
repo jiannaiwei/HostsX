@@ -1,4 +1,4 @@
-;version=201104262310
+;version=201104262151
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -2577,6 +2577,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 stat.vodone.cn
 0.0.0.0 bus.vodone.com
 0.0.0.0 cai.vodone.com
+0.0.0.0 clubpic.vodone.com
 0.0.0.0 ego.vodone.com
 0.0.0.0 msn.vodone.com
 0.0.0.0 pic.vodone.com
@@ -7436,6 +7437,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u592022.778669.com
 0.0.0.0 u923032.778669.com
 0.0.0.0 u948016.778669.com
+#82816
+0.0.0.0 code.82816.com
+0.0.0.0 js.82816.com
+0.0.0.0 www.82816.com
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
