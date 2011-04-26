@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤规则
-Version: 1.883
+Version: 1.885
 Author: vokins
 Description: MayBe a better Adfilter CSS.
 */
@@ -12,7 +12,7 @@ Description: MayBe a better Adfilter CSS.
  * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}
 
 /* AD规则 */
-div[class^="ad"],div[class^=AD],[class^="adNone"],div[id*="0_AD_1"],
+div[class^=AD],[class^="adNone"],div[id*="0_AD_1"],
 [class$="_ad"],[id$="_ad"],[class$="Ad"],[id$="Ad"],div[class^="ad_"],div[id^="ad_"] {
 display: none !important;
 	}
@@ -62,9 +62,6 @@ display: none !important;
 	}
 
 /* Flash广告*/
-embed[type="application/x-shockwave-flash"][src*="_Banner"],embed[type="application/x-shockwave-flash"][src*="/ad"],embed[type="application/x-shockwave-flash"][href*="/ad"],embed[type="application/x-shockwave-flash"][src*=".ad"],embed[type="application/x-shockwave-flash"][href*=".ad"],embed[type="application/x-shockwave-flash"][src*="?click"],embed[type="application/x-shockwave-flash"][href*="?click"],embed[type="application/x-shockwave-flash"][src*="/click"],
-embed[type="application/x-shockwave-flash"][href*="/click"],embed[type="application/x-shockwave-flash"][href*="promos"],embed[type="application/x-shockwave-flash"][href*="=click"],embed[type="application/x-shockwave-flash"][href*="redirect"],embed[type="application/x-shockwave-flash"][href*="/A="],embed[type="application/x-shockwave-flash"][name*="advert"],embed[type="application/x-shockwave-flash"][name*="banner"],embed[type="application/x-shockwave-flash"][name$="_adv"],OBJECT[id="TUI_flashObj_1"][width="220"][height="220"][type="application/x-shockwave-flash"] {display:none;}
-
 [id*="_flash_click_"],[id*="Adflash"],[id*="FLASH_AD"],[id*="flash_ad"],[id*="flashad"],div[class^="flashbanner"],
 div[class^="richMedia],div[id^="AdLayer"],div[id^="smExtObj"],div[id^="StreamMediaWrap"] {display: none !important;}
 
@@ -118,18 +115,6 @@ DIV[class="insbox"][id="xmpInstallTips"],DIV[class="kktezheng"][id="playInstallT
 div[class="btmad"][id^="adsp_content_banner_"],div[id="couplet_left_NULL"],div[id="couplet_right_NULL"]{display:none !important}
 div[class="focus"][id="focus"]{display:none !important}
 
-/* 已删除备份 
-[class*="popup"],人人网分享预览
-div[id*="float"],div[class*="float"],论坛登录页面层
-#focus,youku音乐焦点
-div[class^="ad"],#hiddenlpsubmitdiv, bbs.ngacn.cc
-div[class$="-banner"],www.ipc.me
-[id^="ad"],div[class^="banner_"],[id^="banner"],verycd
-[id$="ads"],hk.yahoo.com
-div[id^="AD"],cnbeta
-div[id$="ad"],[id$="ad"], 深度论坛
-div[id^="AD1"],div[id^="AD2"],div[id^="AD3"] */
-
 /* 网页隐藏文字和链接过滤 {display: none;} */
 [style*="font-size:0p"]{display:none !important}
 [style*="font-size: 0p"]{display:none !important}
@@ -157,17 +142,18 @@ a[href*="/showavd.aspx?adid="],IFRAME[src*="/interface/cpmblank.php?"],IMG[src*=
 	display: none !important;
 }
 
-[href*="pagead"],[id*="adsense"],[src*="pagead"],[href*="doubleclick.net"],[href*="googlesyndication.com"],
+ol[onmouseover="return true"],div[id="rhs_block"],[href*="pagead"],[id*="adsense"],[src*="pagead"],[href*="doubleclick.net"],[href*="googlesyndication.com"],
 [href="http://www.google-analytics.com/urchin.js"],[src="http://www.google-analytics.com/urchin.js"]  {
 	display: none !important;
 }
 
-a[href*="cpro.baidu.com"],a[href*="cb.baidu.com"],a[href*="hm.baidu.com"],a[href^="http://www.baidu.com/adrc.php"],
-a[href*="www.baidu.com/baidu.php?"],a[href*="www.baidu.com/baidu.php?"] + BR,a[href*="www.baidu.com/baidu.php?"] + BR + FONT  {
+TABLE[width="65%"][bgcolor="#f5f5f5"],TABLE[width="30%"][align="right"],SPAN[id="pet"],div[id="tip_holder"],DIV[class="newuserguide"][id="new-guide-container"],[class="wk-pop-wrap"],a[href*="cb.baidu.com"],a[href*="hm.baidu.com"],
+a[href*="cpro.baidu.com"],a[href^="http://www.baidu.com/adrc.php"],a[href*="www.baidu.com/baidu.php?"],a[href*="www.baidu.com/baidu.php?"] + BR,a[href*="www.baidu.com/baidu.php?"] + BR + FONT  {
 	display: none !important;
 }
 
-[href*="网购排行：淘宝网最新热门东西"],[src*="网购排行：淘宝网最新热门东西"],
+[href*="网购排行：淘宝网最新热门东西"]{display:none !important}
+[src*="网购排行：淘宝网最新热门东西"]{display:none !important}
 a[href*="http://click.mz.simba.taobao.com/"],a[href*="http://s.click.taobao.com"],A[href^="http://click.simba.taobao.com"] {
 	display: none !important;
 }
@@ -182,19 +168,15 @@ a[href*="ad-plus.cn"],a[href*="wrating.com"] {
 	display: none !important;
 }
 
-a[href*="adsfile.qq.com"],
-a[href*="l.qq.com/adsclick?"] {
+a[href*="adsfile.qq.com"],a[href*="l.qq.com/adsclick?"] {
 	display: none !important;
 }
 
-a[href*="ashow.pcpop.com"],
-IFRAME[src^="http://ashow.pcpop.com/"] {
+a[href*="ashow.pcpop.com"],IFRAME[src^="http://ashow.pcpop.com/"] {
 	display: none !important;
 }
 
-
-a[href*="sc.ifeng.com"],IMG[src^="http://img.ifeng.com/tres/"],
-IFRAME[src*="http://sp.vcimg.com/"] {
+a[href*="sc.ifeng.com"],IFRAME[src*="http://sp.vcimg.com/"] {
 	display: none !important;
 }
 
@@ -202,12 +184,10 @@ IFRAME[src*="http://sp.vcimg.com/"] {
 	display: none !important;
 }
 
-A[href^="http://g.163.com/"],
-IMG[src^="http://img1.126.net/channel"] {
+A[href^="http://g.163.com/"],IMG[src^="http://img1.126.net/channel"] {
 	display: none !important;
 }
 
-[src*="http://g.crsky.com/ggao/"],
-[href*=".greendown.cn/ggao/"] {
+[src*="http://g.crsky.com/ggao/"],[href*=".greendown.cn/ggao/"] {
 	display: none !important;
 }
