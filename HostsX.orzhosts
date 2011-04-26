@@ -1,4 +1,4 @@
-;version=201104252212
+;version=201104261505
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -9169,6 +9169,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 shop8.x.com.cn
 0.0.0.0 stat.ziye8.com
 0.0.0.0 state.urgamer.com
+0.0.0.0 sz.198game.com
 0.0.0.0 t.15yl.com
 0.0.0.0 t.1stcngame.com
 0.0.0.0 t.37lai.com

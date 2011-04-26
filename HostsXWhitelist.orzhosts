@@ -1,4 +1,4 @@
-;version=201104221545
+;version=201104261505
 ;author=郭鹏锟（Jock Kwok）
 #!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
 pinst.360.cn
@@ -38,10 +38,6 @@ $DELETE
 
 #导致凤凰直播播放器无法正常加载。
 sc.ifeng.com
-$DELETE
-
-#导致土豆网黑豆高清视频无法正常播放。
-adcontrol.tudou.com
 $DELETE
 
 #导致驱动之家评论条数无法正常显示。

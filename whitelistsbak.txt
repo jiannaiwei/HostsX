@@ -14,3 +14,7 @@ $DELETE
 #导致优酷网搜索功能无法正常使用。
 atm.youku.com
 $DELETE
+
+#导致土豆网黑豆高清视频无法正常播放。
+adcontrol.tudou.com
+$DELETE
