@@ -1,4 +1,4 @@
-;version=201104261505
+;version=201104261556
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7106,6 +7106,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 stat.it168.com
 #天极网
 0.0.0.0 counter.tianjimedia.com
+0.0.0.0 more.tianjimedia.com
+0.0.0.0 pv.tianjimedia.com
 0.0.0.0 counter.yesky.com
 0.0.0.0 media.yesky.com
 0.0.0.0 ucpn.yesky.com
