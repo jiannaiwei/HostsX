@@ -1,4 +1,4 @@
-;version=201104262151
+;version=201104272250
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -6996,6 +6996,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 d.5d6d.com
 0.0.0.0 un.5d6d.com
 0.0.0.0 stat.discuz.com
+0.0.0.0 init.phpwind.com
 0.0.0.0 union.phpwind.com
 @HostsX 国内站点广告/小说类网站
 #一起看小说
@@ -8367,6 +8368,9 @@ $      下载最新版本的 HostsX。
 #Ulink
 0.0.0.0 c1.ulink.cc
 0.0.0.0 t1.ulink.cc
+0.0.0.0 u.ulink.cc
+0.0.0.0 ulink.cc
+0.0.0.0 www.ulink.cc
 #Unionbig
 0.0.0.0 ds2.unionbig.com
 0.0.0.0 u.unionli.com
@@ -9163,6 +9167,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 p.eqiso.com
 0.0.0.0 p4p.cnaz.com
 0.0.0.0 passport.fs5d.com
+0.0.0.0 pic.198game.net
 0.0.0.0 pic.addeliver.biz
 0.0.0.0 pic837013.images9999.com
 0.0.0.0 play.tenoad.com
