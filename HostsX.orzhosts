@@ -1,4 +1,4 @@
-;version=201104272250
+;version=201104280015
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7209,7 +7209,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 analytics.ku6.com
 0.0.0.0 gug.ku6cdn.com
 0.0.0.0 ku6.allyes.com
-0.0.0.0 ku6afp.allyes.com
 0.0.0.0 pq.stat.ku6.com
 0.0.0.0 st.vq.ku6.cn
 0.0.0.0 stat0.888.ku6.com
@@ -7221,6 +7220,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v1.stat.ku6.com
 0.0.0.0 v2.stat.ku6.com
 0.0.0.0 v3.stat.ku6.com
+0.0.0.0 main.gslb.ku6.com
 #激动网
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86get.joy.cn
@@ -7613,6 +7613,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ddmap.adsame.com
 0.0.0.0 demo.adsame.com
 0.0.0.0 dentsujp.adsame.com
+0.0.0.0 digitop.adsame.com
 0.0.0.0 dolphin.adsame.com
 0.0.0.0 dolphin.vn.adsame.com
 0.0.0.0 dolphin.yoka.adsame.com
@@ -9096,6 +9097,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c.sfilm.com
 0.0.0.0 c.union188.com
 0.0.0.0 click.315ts.net
+0.0.0.0 click.moonbasa.com
 0.0.0.0 clk.abang.com
 0.0.0.0 cn.88db.com
 0.0.0.0 cnt.zhaopin.com

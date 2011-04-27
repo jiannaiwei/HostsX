@@ -1,4 +1,4 @@
-;version=201104261505
+;version=201104280015
 ;author=郭鹏锟（Jock Kwok）
 #!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
 pinst.360.cn
@@ -10,6 +10,10 @@ $DELETE
 
 #!iPhone 恢复固件的验证服务器，会导致 iPhone无法完成验证，如果您正在越狱不建议删除。
 gs.apple.com
+$DELETE
+
+#导致酷6页面无法正常显示。
+ku6afp.allyes.com
 $DELETE
 
 #导致 CNTV 客户端脚本错误。
