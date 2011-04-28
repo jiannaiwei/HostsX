@@ -1,4 +1,4 @@
-;version=201104280015
+;version=201104280937
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -2477,6 +2477,9 @@ $      下载最新版本的 HostsX。
 #16kxs
 0.0.0.0 ad.16kxs.com
 0.0.0.0 wap10.16kxs.com
+#91
+0.0.0.0 g2.v3.91.com
+0.0.0.0 v2.g2.91.com
 #Adchina
 0.0.0.0 mobile.adchina.com
 0.0.0.0 www.adchina.com
@@ -2505,6 +2508,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 data.flurry.com
 0.0.0.0 flurry.com
 0.0.0.0 www.flurry.com
+#Kongzhong
+0.0.0.0 zhulang.em.kongzhong.com
+0.0.0.0 cps.kongzhong.com
 #Lyy
 0.0.0.0 www.lyy.mobi
 0.0.0.0 uni.lyy.mobi
@@ -2622,12 +2628,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
 0.0.0.0 d.gfan.com
-0.0.0.0 zhulang.em.kongzhong.com
 0.0.0.0 em.kongzhong.com
 0.0.0.0 hi.fywap.com
 0.0.0.0 hot.icittys.com
 0.0.0.0 static.189works.com
-0.0.0.0 v2.g2.91.com
 0.0.0.0 wap.cellufun.com
 0.0.0.0 www.adtouchnetwork.com
 0.0.0.0 www.hidroid.net
