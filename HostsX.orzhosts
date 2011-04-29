@@ -1,4 +1,4 @@
-;version=201104291607
+;version=201104291737
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -6615,7 +6615,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.yesup.com
 0.0.0.0 forum.yesup.net
 0.0.0.0 www.yesup.net
-#[Yesup / Paypopup]
+#Yesup: Paypopup
 0.0.0.0 banner.paypopup.com
 0.0.0.0 central.paypopup.com
 0.0.0.0 central2.paypopup.com
@@ -6646,7 +6646,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www7.paypopup.com
 0.0.0.0 www8.paypopup.com
 0.0.0.0 www9.paypopup.com
-#[Yesup / Clicksor]
+#Yesup: Clicksor
 0.0.0.0 ads.clicksor.com
 0.0.0.0 clicksor.com
 0.0.0.0 creative.clicksor.com
@@ -6660,7 +6660,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 serw.clicksor.com
 0.0.0.0 track.clicksor.com
 0.0.0.0 www.clicksor.com
-#[Yesup / Yesadvertising]
+#Yesup: Yesadvertising
 0.0.0.0 test.yesadvertising.com
 0.0.0.0 www1.yesadvertising.com
 0.0.0.0 www10.yesadvertising.com
@@ -6685,7 +6685,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www8.yesadvertising.com
 0.0.0.0 www9.yesadvertising.com
 0.0.0.0 yesadvertising.com
-#[Zango / 180Solutions]
+#Zango: 180Solutions
 0.0.0.0 180solutions.com
 0.0.0.0 ads.180solutions.com
 0.0.0.0 ax.180solutions.com
@@ -6740,7 +6740,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 shopperreports.pricetool.com
 0.0.0.0 resultsmaster.com
 0.0.0.0 www.resultsmaster.com
-#[Zango / HotBar]
+#Zango: HotBar
 0.0.0.0 ads.hotbar.com
 0.0.0.0 cs.hotbar.com
 0.0.0.0 dynamic.hotbar.com
@@ -6761,7 +6761,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 vip-farm5v.hotbar.com
 0.0.0.0 www.hotbar.com
 0.0.0.0 www.hotbar.net
-#[Zango / Seekmo]
+#Zango: Seekmo
 0.0.0.0 allofthevideos.powered-by.seekmo.com
 0.0.0.0 config.seekmo.com
 0.0.0.0 cts.seekmo.com
@@ -6785,7 +6785,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 vidshrine.com.powered-by.seekmo.com
 0.0.0.0 wallpapernudes.powered-by.seekmo.com
 0.0.0.0 www.seekmo.com
-#[Zango / Shopperreports]
+#Zango: Shopperreports
 0.0.0.0 config.shopperreports.com
 0.0.0.0 origin-ics.shopperreports.com
 0.0.0.0 smartshopper.com
@@ -6793,7 +6793,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 installs.smartshopper.com
 0.0.0.0 www.smartshopper.com
 0.0.0.0 www.smartshoppernetworks.com
-#[Zango / Zango]
+#Zango: Zango
 0.0.0.0 acces.powered-by.zango.com
 0.0.0.0 adservices.zango.com
 0.0.0.0 analytics.zango.com
