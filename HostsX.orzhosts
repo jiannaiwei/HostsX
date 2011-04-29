@@ -1,4 +1,4 @@
-;version=201104281631
+;version=201104291151
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -1439,11 +1439,12 @@ ff02::3 ip6-allhosts
 #淘宝
 0.0.0.0 click.mz.simba.taobao.com
 0.0.0.0 click.tz.simba.taobao.com
+0.0.0.0 count.taobao.com
+0.0.0.0 haibao.huoban.taobao.com
 0.0.0.0 pindao.huoban.taobao.com
+0.0.0.0 re.taobao.com
 0.0.0.0 s.click.taobao.com
 0.0.0.0 search8.taobao.com
-0.0.0.0 haibao.huoban.taobao.com
-0.0.0.0 re.taobao.com
 0.0.0.0 www.tao123.com
 0.0.0.0 hz.mmstat.com
 0.0.0.0 adtaobao.allyes.cn
@@ -7428,6 +7429,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 new4.user.55.la
 0.0.0.0 preview.55.la
 0.0.0.0 zhuti.55.la
+#7794
+0.0.0.0 www.7794.com
 #77869
 0.0.0.0 778669.com
 0.0.0.0 pv.778669.com
@@ -8379,6 +8382,7 @@ $      下载最新版本的 HostsX。
 #Unionbig
 0.0.0.0 ds2.unionbig.com
 0.0.0.0 u.unionli.com
+0.0.0.0 uimg.unionli.com
 0.0.0.0 ww.unionbig.com
 #Unionsky
 0.0.0.0 pics.unionsky.cn
@@ -9077,6 +9081,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 2z.5pk.com
 0.0.0.0 5.nihao600.com
 0.0.0.0 6dad.com
+0.0.0.0 a08.insenz.com
 0.0.0.0 a1000.asktang.com
 0.0.0.0 a6.chancede.com
 0.0.0.0 ad.16wan.com
@@ -9129,6 +9134,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 g.91sanguo.cn
 0.0.0.0 g.9444.com
 0.0.0.0 g.kx365.com
+0.0.0.0 g.topguang.com
 0.0.0.0 g.xuanyx.com
 0.0.0.0 gamefiles.qq494.cn
 0.0.0.0 gg.12354.com
@@ -9223,7 +9229,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.molidao.com
 0.0.0.0 u.tdwan.com
 0.0.0.0 u11.gzfiat.com
-0.0.0.0 uimg.unionli.com
+0.0.0.0 uimg.youxjia.com
 0.0.0.0 un.173737.com
 0.0.0.0 un.sharele.cn
 0.0.0.0 union.7cv.com
@@ -9280,6 +9286,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.snstele.com
 0.0.0.0 www.u17.com
 0.0.0.0 www.uokor.com
+0.0.0.0 www.uwan.com
 0.0.0.0 www.wangyuan.com
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 www.xiazai189.com
@@ -9418,6 +9425,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 directui.kuaiche.com.showq.net
 0.0.0.0 ufile.kuaiche.com
 0.0.0.0 client.kuaiche.com
+0.0.0.0 imgcache.kuaiche.com
 #Funshion
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
