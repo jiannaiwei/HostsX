@@ -1,4 +1,4 @@
-;version=201104291151
+;version=201104291158
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -9071,6 +9071,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adimg.37117.com
 0.0.0.0 www.admin6.com
 0.0.0.0 jump.admin6.com
+0.0.0.0 c.88210212.com
+0.0.0.0 cc.88210212.com
+0.0.0.0 gg.88210212.com
 0.0.0.0 tg.000wan.com
 0.0.0.0 www.000wan.com
 0.0.0.0 1.usazm.net
@@ -9100,7 +9103,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 bto.youxiya.com
 0.0.0.0 c.4055.com
-0.0.0.0 c.88210212.com
 0.0.0.0 c.ourclick.net
 0.0.0.0 c.pee.cn
 0.0.0.0 c.sfilm.com
