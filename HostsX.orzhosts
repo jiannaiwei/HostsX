@@ -1,4 +1,4 @@
-;version=201104291158
+;version=201104291607
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1971,6 +1971,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.ra.icast.cn
 @HostsX OneKey/ËÑºü
 #ËÑºü
+0.0.0.0 ad.mail.sohu.com
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 adnet.sohu.com
 0.0.0.0 cpc.sohu.com
