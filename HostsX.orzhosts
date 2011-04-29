@@ -1,4 +1,4 @@
-;version=201104291737
+;version=201104292256
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -1969,6 +1969,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pv.ra.icast.cn
 0.0.0.0 rm.ra.icast.cn
 0.0.0.0 track.ra.icast.cn
+0.0.0.0 track2.ra.icast.cn
 @HostsX OneKey/搜狐
 #搜狐
 0.0.0.0 ad.mail.sohu.com
@@ -7242,6 +7243,8 @@ $      下载最新版本的 HostsX。
 #乐视网
 0.0.0.0 img1.c0.letv.com
 0.0.0.0 pro.letv.com
+#巨鲸网
+0.0.0.0 t.top100.cn
 @HostsX 国内站点广告/区域类网站
 #北海365
 0.0.0.0 ad.beihai365.com
