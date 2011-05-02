@@ -1981,6 +1981,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p4p.so.sohu.com
 0.0.0.0 partner.search.sohu.com
 0.0.0.0 pv.sohu.com
+0.0.0.0 js2.pp.sohu.com.cn
 0.0.0.0 scalink.sohu.com
 0.0.0.0 suvset.sohu.com
 0.0.0.0 txt.go.sohu.com
@@ -7148,6 +7149,8 @@ $      下载最新版本的 HostsX。
 #Rising
 0.0.0.0 alert.rising.com.cn
 0.0.0.0 union.rising.com.cn
+#木蚂蚁
+0.0.0.0 js.mumayi.net
 @HostsX 国内站点广告/汽车类网站
 #易车网
 0.0.0.0 autosense.bitauto.com
@@ -8332,6 +8335,11 @@ $      下载最新版本的 HostsX。
 #Shendu
 0.0.0.0 jump.codings.unions.shendu.cc
 0.0.0.0 jump.js.union.shendu.cc
+0.0.0.0 vip.shendu.cc
+0.0.0.0 vipcode.shendu.cc
+0.0.0.0 vipimages.shendu.cc
+0.0.0.0 vipjs.shendu.cc
+0.0.0.0 shendu.cc
 #T2click
 0.0.0.0 58.t2click.com
 0.0.0.0 adrate.t2click.com
@@ -8767,6 +8775,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.pkghost.cn
 0.0.0.0 www.pp9a.com
 0.0.0.0 www.qingdaofu.cc
+0.0.0.0 www.qq.com.51h.lyp7.info
 0.0.0.0 www.qq886.com
 0.0.0.0 www.rolex86.com
 0.0.0.0 www.rouqing365.com
@@ -8780,6 +8789,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.tt126.cn
 0.0.0.0 www.ttgrs.cn
 0.0.0.0 www.tumei.cc
+0.0.0.0 www.txw88888.com
 0.0.0.0 www.uniqlo.jp
 0.0.0.0 www.vg123.cc
 0.0.0.0 www.vigra.cc
@@ -9114,6 +9124,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c.pee.cn
 0.0.0.0 c.sfilm.com
 0.0.0.0 c.union188.com
+0.0.0.0 c1.1lo0.net
 0.0.0.0 cj.8le8le.com
 0.0.0.0 click.315ts.net
 0.0.0.0 click.moonbasa.com
