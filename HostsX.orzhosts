@@ -1,4 +1,4 @@
-;version=201104302303
+;version=201105061616
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7052,6 +7052,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 gg.cdcgames.net
 #CNGBA
 0.0.0.0 js.adm.cngba.com
+#DM5
+0.0.0.0 by.dm5.com
 #游久网
 0.0.0.0 stat.uuu9.com
 #4399小游戏
@@ -8247,6 +8249,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ww8.onetad.com
 0.0.0.0 wwv.onetad.com
 0.0.0.0 c1.keydot.net
+#LangTaoJin
+0.0.0.0 www.langtaojin.com
+0.0.0.0 www.uctrac.com
 #Lianmeng
 0.0.0.0 cache.lianmeng.com
 0.0.0.0 cn.lianmeng.com
