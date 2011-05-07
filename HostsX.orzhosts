@@ -1,4 +1,4 @@
-;version=201105061616
+;version=201105071510
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -2037,6 +2037,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingback.ie.sogou.com
 @HostsX OneKey/腾讯QQ
 #QQ
+
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
@@ -2053,22 +2054,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
 0.0.0.0 c.gdt.qq.com
-0.0.0.0 c.l.qq.com
 0.0.0.0 f.qstatic.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fodder.tc.qq.com
 0.0.0.0 fw.qq.com
 0.0.0.0 group.store.qq.com
-0.0.0.0 hm.l.qq.com
 0.0.0.0 httpring.qq.com
-0.0.0.0 imc.l.qq.com
 0.0.0.0 infocenter.qzone.qq.com
 0.0.0.0 infocenter.xiaoyou.qq.com
 0.0.0.0 jingjia.qq.com
-0.0.0.0 l.qq.com
 0.0.0.0 mini.group.qq.com
 0.0.0.0 oimsgad.qq.com
-0.0.0.0 p.l.qq.com
 0.0.0.0 pingfore.qq.com
 0.0.0.0 qqlogo.qq.com
 0.0.0.0 qring-tms.qq.com
@@ -2080,6 +2076,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 show-msgch.qq.com
 0.0.0.0 trace.qq.com
 0.0.0.0 union.qq.com
+0.0.0.0 c.l.qq.com
+0.0.0.0 hm.l.qq.com
+0.0.0.0 imc.l.qq.com
+0.0.0.0 l.qq.com
+0.0.0.0 p.l.qq.com
 0.0.0.0 w.l.qq.com
 #搜搜
 0.0.0.0 dr.soso.com
@@ -8252,6 +8253,10 @@ $      下载最新版本的 HostsX。
 #LangTaoJin
 0.0.0.0 www.langtaojin.com
 0.0.0.0 www.uctrac.com
+#Leshou
+0.0.0.0 www.leshu.com
+0.0.0.0 wp.leshu.com
+0.0.0.0 image.leying.com
 #Lianmeng
 0.0.0.0 cache.lianmeng.com
 0.0.0.0 cn.lianmeng.com
@@ -8598,6 +8603,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.zzcount.com
 @HostsX 恶意行为阻止
 #运营商劫持
+0.0.0.0 ss.cnnic.cn
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn
 0.0.0.0 114search.118114.cn
