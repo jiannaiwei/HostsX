@@ -1,4 +1,4 @@
-;version=201105081512
+;version=201105082012
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1898,6 +1898,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.163.com
 #ÓÐµÀËÑË÷
 0.0.0.0 a.youdao.com
+0.0.0.0 clkservice.mail.youdao.com
 0.0.0.0 clkservice.youdao.com
 0.0.0.0 codown.youdao.com
 0.0.0.0 impservice.union.youdao.com
