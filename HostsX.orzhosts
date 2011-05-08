@@ -1,4 +1,4 @@
-;version=201105071510
+;version=201105081512
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1157,6 +1157,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 update.yunduan.cn
 0.0.0.0 wap.pingan.com
 0.0.0.0 www.adhere.com.hk
+0.0.0.0 myad.toocle.com
 @HostsX OneKey/Google AD
 #2mdn
 0.0.0.0 affiliate.2mdn.net
