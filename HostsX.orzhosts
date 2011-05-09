@@ -1,4 +1,4 @@
-;version=201105082012
+;version=201105091338
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -2149,7 +2149,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adrs.sdo.com
 0.0.0.0 ibw.sdo.com
 #起点中文网
-0.0.0.0 cj.qidian.com
 0.0.0.0 uedas.qidian.com
 0.0.0.0 js.ap.snyu.com
 0.0.0.0 rr.ap.snyu.com
