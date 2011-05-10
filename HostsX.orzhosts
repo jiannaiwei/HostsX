@@ -1,4 +1,4 @@
-;version=201105091338
+;version=201105110011
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -2039,7 +2039,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingback.ie.sogou.com
 @HostsX OneKey/腾讯QQ
 #QQ
-
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
@@ -8672,6 +8671,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 gold.kujia518.com
 0.0.0.0 htl.yaoxinxi.com
 0.0.0.0 www.yaoxinxi.com
+0.0.0.0 004.004xxx.info
+0.0.0.0 1.jump15.info
+0.0.0.0 11.zhongzi.info
 0.0.0.0 1189cctv.com
 0.0.0.0 2010texq.com
 0.0.0.0 360.legoumall.com
@@ -8707,6 +8709,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ht.hao120.cc
 0.0.0.0 ht.sooe.cn
 0.0.0.0 icbc-y.com
+0.0.0.0 jump11.info
 0.0.0.0 laughease.ru
 0.0.0.0 lj.igohui.com
 0.0.0.0 lkn.zoossoft.cn
@@ -8717,6 +8720,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 mapexpect.ru
 0.0.0.0 omega.di4ni.com
 0.0.0.0 pic.hwa.cc
+0.0.0.0 pic2.jump12.info
 0.0.0.0 pingback.cpushpop.com
 0.0.0.0 pkghost.cn
 0.0.0.0 pop.dnparking.com
@@ -8750,6 +8754,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v8.olajk.com
 0.0.0.0 vda.uuzu.com
 0.0.0.0 verygood.vip.com.qqonline.info
+0.0.0.0 web.jump17.info
 0.0.0.0 webpush.voole.com
 0.0.0.0 win2050.teasm.cn
 0.0.0.0 www.133i.com
@@ -8758,11 +8763,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.18ab.com.cn
 0.0.0.0 www.22jianfei.com
 0.0.0.0 www.3241.com
+0.0.0.0 www.57luoliao.info
 0.0.0.0 www.78qc.com
 0.0.0.0 www.85tao.net
 0.0.0.0 www.algj-27dy.cn
 0.0.0.0 www.askyaya.com
 0.0.0.0 www.ataodian.com
+0.0.0.0 www.baobao123.info
 0.0.0.0 www.borlander.cn
 0.0.0.0 www.bsj001.com
 0.0.0.0 www.ddbms.net
@@ -8774,6 +8781,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.hao120.cc
 0.0.0.0 www.haodian8.net
 0.0.0.0 www.htt86.com
+0.0.0.0 www.huisedidai.com
 0.0.0.0 www.huishop.com
 0.0.0.0 www.hwa.cc
 0.0.0.0 www.icbc-y.com
@@ -8784,6 +8792,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.lashou.com
 0.0.0.0 www.li366.com
 0.0.0.0 www.macas.cc
+0.0.0.0 www.mmliaoliao.info
 0.0.0.0 www.moqiqi.com
 0.0.0.0 www.pkghost.cn
 0.0.0.0 www.pp9a.com
@@ -8794,6 +8803,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.rouqing365.com
 0.0.0.0 www.ruox.net
 0.0.0.0 www.sooe.cn
+0.0.0.0 www.sunvip.info
 0.0.0.0 www.syscy.cn
 0.0.0.0 www.tao123.me
 0.0.0.0 www.tao345.net
@@ -8808,11 +8818,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.vigra.cc
 0.0.0.0 www.whizdance.com
 0.0.0.0 www.xgjgw.com
+0.0.0.0 www.xxmmxx.info
 0.0.0.0 www.yesanan.com
 0.0.0.0 www.yilongshop.com
 0.0.0.0 www.yingguoweiku.com
 0.0.0.0 www.zoosnet.net
 0.0.0.0 www.zoossoft.com
+0.0.0.0 www.zun698.com
 0.0.0.0 www1.omsys.com.cn
 0.0.0.0 xiazai.cpushpop.com
 0.0.0.0 xinw.net
