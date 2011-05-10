@@ -3,14 +3,13 @@
 
 /*
 Name: /广告过滤规则
-Version: 1.92
+Version: 1.952
 Author: vokins
 Description: MayBe a better Adfilter CSS.
 */
 
 /* 强制使用雅黑字体字体 */
  * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}
-
 
 /* AD规则 */
 div[class^=AD],[class^="adNone"],div[id*="0_AD_1"],
@@ -21,31 +20,29 @@ display: none !important;
 [id$="-ad"],div[id$="Adv"],[id$="ads"],[id$="Ads"],div[id$="AD"] {
 display: none !important;
 	}
-[id^="_AD"],[id^="adv_"],[id^="ads_"],div[id^="adbn_"],[class$="adclass"],
-div[id^="AD"][style*="w"] {
+[id^="_AD"],[id^="adv_"],[id^="ads_"],div[id^="adbn_"],
+[class$="adclass"],div[class*="AdBox"],div[id^="AD"][style*="w"] {
 display: none !important;
 	}
 
 /* GG规则 */
 [class^="colL gg"],[class^="l-gg"],
-[class^="gg"],[id^="gg"] {
+[class^="gg"],div[class*="-gg-"],[id^="gg"] {
 display: none !important;
 	}
 	
 /* 方位广告*/
-[id*="AdTop"],[class*="AdTop"],[id*="top_ad"],[class*="top_ad"],[id*="topAD"],[class*="topAD"],
+div[class*="AdTop"]{display:none !important}
+[id*="AdTop"],[id*="top_ad"],[class*="top_ad"],[id*="topAD"],[class*="topAD"],
 [id*="topad"],[class*="topad"],[id$="TopAD"],[class$="TopAD"], {
 display: none !important;
 	}
-[id*="ightAd"],[id*="ad_right"],
-[class*="rightad"],[id*="rightad"] {
+div[class*="AdRight"],div[class*="RightAD"]{display:none !important}
+div[id*="AdRight"],[id*="ightAd"],[id*="ad_right"],
+[class*="rightad"],[id*="rightad"],[class*="right_ad"] {
 display: none !important;
 	}
-[id^="AdRight"],[class^="AdRight"],
-[class*="left_ad"],[id*="left_ad"] {
-display: none !important;
-	}
-[class*="leftad"],[id*="leftad"],
+[class*="left_ad"],[id*="left_ad"],[class*="leftad"],[id*="leftad"],
 [class*="pic_ad"],[id*="pic_ad"] {
 display: none !important;
 	}
@@ -55,7 +52,7 @@ display: none !important;
 	}
 
 /* Banner 广告*/
-div[class="banner"][id^="banner"],div[class$="anner"][id^="ad"],div[class*="topBanner"]
+div[id^="banner0"],div[id^="banner1"],div[class="banner"][id^="banner"],div[class$="anner"][id^="ad"],div[class*="topBanner"]
 div[id$="banner_left"],div[id$="banner_right"],div[id$="top_banner"],[id$="right_banner"],[id$="left_banner"] {
 display: none !important;
 	}
@@ -69,11 +66,12 @@ div[class^="richMedia],div[id^="AdLayer"],div[id^="StreamMediaWrap"] {display: n
 
 /* 文字广告 */
 ul[class="ad_doc_text"]{display:none !important}
-[class^="adList"],div[id^="adwords"],[id^="adText"],div[class="text"][id^="text"] {
+div[class*="padd_t"],div[class^="adList"],
+div[id^="adwords"],[id^="adText"] {
 display: none !important;
 	}
 [class*="textad"],[class*="TextAd"],
-[class*="ad_text"],[id*="ad_text"] {
+div[class*="ad_text"],[id*="ad_text"] {
 display: none !important;
 	}
 [id^="text_ad"],[class*="word_ad"],
@@ -91,7 +89,8 @@ div[id^="p4pblock"],span[id^="ad_"],span[id="tmpMsgDiv"],span[class="close"],spa
 div[class*="focus"][id$="focus"],div[id="popup"][style*="display:"],[id*="-popup"],DIV[id^="popupWin"],div[id^="popWin"] {
 display: none !important;
 	}
-div[class^="ad"][id^="div"],span[id*="adsense"],iframe[id*="ad"],div[id^="Float"],div[id$="adshow"],div[id^="pf_ad"],[id^="iframeAd"] {
+div[id="popup"][class="t"],div[class^="ad"][id^="div"],span[id*="adsense"],div[id^="Float"],
+div[id$="adshow"],div[id^="pf_ad"],[id^="iframeAd"] {
 display: none !important;
 	}
 div[id^="followDiv"],div[id^="kxsoMovie"],div[id^="pop_container_],div[id^="_QQPopDIV"] {display: none !important;}
@@ -122,24 +121,7 @@ DIV[class^="content ad-b"]{display:none !important}
 DIV[class="insbox"][id="xmpInstallTips"],DIV[class="kktezheng"][id="playInstallTips"]{display:none !important}
 div[class="btmad"][id^="adsp_content_banner_"],div[id="couplet_left_NULL"],div[id="couplet_right_NULL"]{display:none !important}
 DIV[class="newslist"]>DL>DD[class="detail"]>EM{display:none !important}
-
-/* 已删除备份
-[class*="-popup"],淘宝网聚划算登录
-IFRAME[src="about:blank"],淘宝机票弹出页面显示层
-[id*="_popup"],百度空间登陆迟缓
-embed[type="application/x-shockwave-flash"][src*="_Banner"],embed[type="application/x-shockwave-flash"][src*="/ad"],embed[type="application/x-shockwave-flash"][href*="/ad"],embed[type="application/x-shockwave-flash"][src*=".ad"],embed[type="application/x-shockwave-flash"][href*=".ad"],embed[type="application/x-shockwave-flash"][src*="?click"],embed[type="application/x-shockwave-flash"][href*="?click"],embed[type="application/x-shockwave-flash"][src*="/click"],
-embed[type="application/x-shockwave-flash"][href*="/click"],embed[type="application/x-shockwave-flash"][href*="promos"],embed[type="application/x-shockwave-flash"][href*="=click"],embed[type="application/x-shockwave-flash"][href*="redirect"],embed[type="application/x-shockwave-flash"][href*="/A="],embed[type="application/x-shockwave-flash"][name*="advert"],embed[type="application/x-shockwave-flash"][name*="banner"],embed[type="application/x-shockwave-flash"][name$="_adv"],OBJECT[id="TUI_flashObj_1"][width="220"][height="220"][type="application/x-shockwave-flash"] {display:none;}
-div[class^="ad"],凤凰网部分视频
-IMG[src^="http://img.ifeng.com/tres/"],凤凰网logo
-[class*="popup"],人人网分享预览
-div[id*="float"],div[class*="float"],论坛登录页面层
-#focus,youku音乐焦点
-div[class^="ad"],#hiddenlpsubmitdiv, bbs.ngacn.cc
-div[class$="-banner"],www.ipc.me
-[id^="ad"],div[class^="banner_"],[id^="banner"],verycd
-[id$="ads"],hk.yahoo.com
-div[id^="AD"],cnbeta
-div[id$="ad"],[id$="ad"], 深度论坛 */
+div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="deerway"],div[id="klw_ent"],*[class*="l_qq_com"]{display:none !important}
 
 /* 网页隐藏文字和链接过滤 {display: none;} */
 [style*="font-size:0p"]{display:none !important}
