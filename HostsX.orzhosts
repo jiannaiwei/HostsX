@@ -1,4 +1,4 @@
-;version=201105110050
+;version=201105112306
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7347,6 +7347,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.1133.cc
 0.0.0.0 www.1133.cc
 0.0.0.0 z.1133.cc
+#1lo0
+0.0.0.0 c1.1lo0.net
+0.0.0.0 f1.1lo0.net
+0.0.0.0 f3.1lo0.net
+0.0.0.0 f4.1lo0.net
+0.0.0.0 f6.1lo0.net
 #160ads
 0.0.0.0 a.5qwg.com
 0.0.0.0 js.160ads.com
@@ -9153,7 +9159,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c.pee.cn
 0.0.0.0 c.sfilm.com
 0.0.0.0 c.union188.com
-0.0.0.0 c1.1lo0.net
 0.0.0.0 cj.8le8le.com
 0.0.0.0 click.315ts.net
 0.0.0.0 click.moonbasa.com
@@ -9264,6 +9269,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 t.uuplay.com
 0.0.0.0 t.yyclick.com
 0.0.0.0 tao.37wan.com
+0.0.0.0 tg.01lm.com
 0.0.0.0 tg.33hy.com
 0.0.0.0 tg.898wan.com
 0.0.0.0 tg.bigzhu.com
