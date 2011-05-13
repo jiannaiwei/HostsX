@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤规则
-Version: 1.952
+Version: 1.97
 Author: vokins
 Description: MayBe a better Adfilter CSS.
 */
@@ -24,6 +24,7 @@ display: none !important;
 [class$="adclass"],div[class*="AdBox"],div[id^="AD"][style*="w"] {
 display: none !important;
 	}
+img[src$="_ad.jpg"]{display: none !important;}
 
 /* GG规则 */
 [class^="colL gg"],[class^="l-gg"],
@@ -66,7 +67,7 @@ div[class^="richMedia],div[id^="AdLayer"],div[id^="StreamMediaWrap"] {display: n
 
 /* 文字广告 */
 ul[class="ad_doc_text"]{display:none !important}
-div[class*="padd_t"],div[class^="adList"],
+div[class*="padd_t"],div[class^="adList"],div[class^="adtext"],
 div[id^="adwords"],[id^="adText"] {
 display: none !important;
 	}
