@@ -3,39 +3,37 @@
 
 /*
 Name: /广告过滤规则
-Version: 1.97
-Author: vokins
+Version: 2.03
+Author: Vokins
 Description: MayBe a better Adfilter CSS.
 */
 
-/* 强制使用雅黑字体字体 */
- * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}
-
 /* AD规则 */
-div[class^=AD],[class^="adNone"],div[id*="0_AD_1"],
-[class$="_ad"],[id$="_ad"],[class$="Ad"],[id$="Ad"],div[class^="ad_"],div[id^="ad_"] {
+div[class^=AD],div[id$="AD"],div[class$="AD"],[id$="_ad"],[class$="_ad"],
+[id$="Ad"],[class$="Ad"],div[id^="ad_"],div[class^="ad_"] {
 display: none !important;
 	}
-[class$="Ads"],[class^="ad-"],[class^="ads"],[class^="adv_"],
-[id$="-ad"],div[id$="Adv"],[id$="ads"],[id$="Ads"],div[id$="AD"] {
+[id$="ads"],[class^="ads"],[id^="ads_"],
+[id$="Ads"],[class$="Ads"] {
 display: none !important;
 	}
-[id^="_AD"],[id^="adv_"],[id^="ads_"],div[id^="adbn_"],
-[class$="adclass"],div[class*="AdBox"],div[id^="AD"][style*="w"] {
+div[id$="Adv"],[class^="adv_"],[id^="adv_"] {
 display: none !important;
 	}
-img[src$="_ad.jpg"]{display: none !important;}
+div[class*="AdBox"],a[id*="_adbox"],div[class*="adarea"],div[class*="areaAd"],
+div[id^="adbn_"],div[id*="0_AD_1"],[class^="adNone"],[class$="adclass"],[class="adinfo"] {
+display: none !important;
+	}
 
 /* GG规则 */
-[class^="colL gg"],[class^="l-gg"],
-[class^="gg"],div[class*="-gg-"],[id^="gg"] {
+[class^="colL gg"],[class^="l-gg"],div[class^="ggtop"],
+div[class^="ggAD"],div[class*="gg-"],[id^="gg"] {
 display: none !important;
 	}
-	
+
 /* 方位广告*/
-div[class*="AdTop"]{display:none !important}
-[id*="AdTop"],[id*="top_ad"],[class*="top_ad"],[id*="topAD"],[class*="topAD"],
-[id*="topad"],[class*="topad"],[id$="TopAD"],[class$="TopAD"], {
+div[id*="top_ad"],div[class*="top_ad"],div[id*="topAD"],div[class*="topAD"],
+div[id*="topad"],div[class*="topad"],div[id*="AdTop"],div[class*="AdTop"] {
 display: none !important;
 	}
 div[class*="AdRight"],div[class*="RightAD"]{display:none !important}
@@ -52,11 +50,12 @@ div[class="right"][id^="ad"] {
 display: none !important;
 	}
 
-/* Banner 广告*/
+/* Banner & 图片广告*/
 div[id^="banner0"],div[id^="banner1"],div[class="banner"][id^="banner"],div[class$="anner"][id^="ad"],div[class*="topBanner"]
 div[id$="banner_left"],div[id$="banner_right"],div[id$="top_banner"],[id$="right_banner"],[id$="left_banner"] {
 display: none !important;
 	}
+div[id^="AD"][style*="w"],img[id^="ad"],img[src$="_ad.jpg"]{display: none !important;}
 
 /* Flash 广告*/
 [id*="_flash_click_"],[id*="Adflash"],[id*="FLASH_AD"],
@@ -87,7 +86,8 @@ div[class^="wp a_"],[id^="thread_ads_"],div[class^="a_p"],.postbit_adcode,#adbot
 
 /* 浮动 弹窗广告 */
 div[id^="p4pblock"],span[id^="ad_"],span[id="tmpMsgDiv"],span[class="close"],span[id="urlup"],span[id="afterurl"] {display: none !important;}
-div[class*="focus"][id$="focus"],div[id="popup"][style*="display:"],[id*="-popup"],DIV[id^="popupWin"],div[id^="popWin"] {
+div[class*="focus"][id$="focus"],div[id="popup"][style*="display:"],
+div[class$="-floatgg"],[id*="-popup"],DIV[id^="popupWin"],div[id^="popWin"] {
 display: none !important;
 	}
 div[id="popup"][class="t"],div[class^="ad"][id^="div"],span[id*="adsense"],div[id^="Float"],
@@ -105,24 +105,47 @@ display: none !important;
 	}
 
 /* 广告框架过滤 */
+TD[width="50%"][align="center"]{display: none !important;}
+TD[width="960"][height="90"][align="center"]{display: none !important;}
 ARTICLE>div[class^="ad"],div[align="center"][id^="ad"],
-TD[width="50%"][align="center"],TD[width="960"][height="90"][align="center"] {
+div[class^="ad960"],div[class^="ad336"],div[class^="ad728"]{
 display: none !important;
 	}
 
 /* 部分站点广告 */
 div[id="qd_reader_footer"],div[class="ruanw box"],div[class="tips_player"],div[class="xfl_out"][id="xfl_out"],
-div[class="bannerleft"],div[id="zolFloat"],img[id$="_pvm]{
+div[class="bannerleft"],div[id="zolFloat"],div[id^="smExtObj"],img[id$="_pvm]{
 display: none !important;
 	}
-div[id^="smExtObj"]  {display:none !important}
+div[id="smExtObjSwf"]{display:none !important}
 sohuadcode {display:none !important}
 DIV[class="mbm cl"] {display:none !important}
 DIV[class^="content ad-b"]{display:none !important}
-DIV[class="insbox"][id="xmpInstallTips"],DIV[class="kktezheng"][id="playInstallTips"]{display:none !important}
+DIV[class="insbox"][id="xmpInstallTips"],DIV[class="playad"][id="normal_lamu"],DIV[class="kktezheng"][id="playInstallTips"]{display:none !important}
 div[class="btmad"][id^="adsp_content_banner_"],div[id="couplet_left_NULL"],div[id="couplet_right_NULL"]{display:none !important}
 DIV[class="newslist"]>DL>DD[class="detail"]>EM{display:none !important}
 div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="deerway"],div[id="klw_ent"],*[class*="l_qq_com"]{display:none !important}
+div[class="bp-popup"][id="J_popup"]{display:none !important}
+
+/* 强制使用雅黑字体字体 */
+ * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}
+
+/*调整选中文本及其背景的颜色*/
+::selection{
+color: #F7931D !important;
+background-color: #BCBDC0 !important;
+}
+
+/* 去除伪链接的下划线 */
+A:not([href]){
+text-decoration: none !important;
+}
+
+/* 去除非链接文字下划线，并给这些文字加粗 */
+U,SPAN[style="text-decoration: underline"]{
+text-decoration: none !important;
+font-weight: bold !important;
+}
 
 /* 网页隐藏文字和链接过滤 {display: none;} */
 [style*="font-size:0p"]{display:none !important}
@@ -136,10 +159,16 @@ display: none !important;
 input:not([type='submit']):not([type='reset']):not([type='button']):not([type='checkbox']):not([type='radio']):focus, textarea:focus, select:focus{ border:1px solid #0099FF;  box-shadow: 1px 1px 0 #0099FF, 1px -1px 0 #0099FF, -1px 1px 0 #0099FF, -1px -1px 0 #0099FF, 0px 0px 5px 1px #0099FF !important;  border-radius:3px!important; }
 
 /* 将白色字体变为暗蓝灰 */
-[style*="color: white"],[style*="color: #FFFFFF"],[color*="White"],[color*="#FFFFFF"] {color: #483D8B !important;}
+[style*="color: white"],[style*="color: #FFFFFF"],[color*="White"],[color*="#FFFFFF"]{color: #483D8B !important;}
 
-/*阻止<blink>标签带来的闪烁*/
+/* 阻止<blink>标签带来的闪烁 */
 blink, .blink, *[style*="blink"]{text-decoration : inherit !important;}
+
+/* 解决固定背景滚屏卡的问题 */
+body{
+background-attachment:
+scroll!important
+}
 
 /* 广告和指向链接隐藏 */
 iframe[name="ads_frame"],IFRAME[src="adb.php"],IFRAME[src="adt.php"] {
