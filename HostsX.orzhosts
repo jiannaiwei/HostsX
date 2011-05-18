@@ -1879,7 +1879,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
 0.0.0.0 img3.126.net
-0.0.0.0 swf.ws.126.net
 #网易163
 0.0.0.0 adc.163.com
 0.0.0.0 adclient.163.com
@@ -8802,7 +8801,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.jiuguyou.com
 0.0.0.0 www.juyuan.com
 0.0.0.0 www.klrkland.com
-0.0.0.0 www.lashou.com
 0.0.0.0 www.li366.com
 0.0.0.0 www.macas.cc
 0.0.0.0 www.mmliaoliao.info
