@@ -1,4 +1,4 @@
-;version=201105181520
+;version=201105210110
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -97,6 +97,7 @@ ff02::3 ip6-allhosts
 208.94.0.61 yfrog.com
 208.94.0.61 www.yfrog.com
 #Others
+128.121.234.46 j.mp
 2001:470:83f2::710:1 www.mail-archive.com
 2001:470:83f2::710:1 mail-archive.com
 2001:470:83f2::710:1 meme.yahoo.com
@@ -8589,6 +8590,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 monitor.yigao.com
 0.0.0.0 p.yigao.com
 0.0.0.0 www.egou.com
+#Ylunion
+0.0.0.0 js.ylunion.com
+0.0.0.0 www.ylunion.com
+0.0.0.0 ylunion.com
 #Yoyi
 0.0.0.0 amps.yoyi.com.cn
 0.0.0.0 d.yoyi.tv
