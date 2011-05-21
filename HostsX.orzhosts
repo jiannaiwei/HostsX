@@ -1,4 +1,4 @@
-;version=201105210110
+;version=201105220110
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -1448,7 +1448,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 re.taobao.com
 0.0.0.0 s.click.taobao.com
 0.0.0.0 search8.taobao.com
-0.0.0.0 www.tao123.com
 0.0.0.0 hz.mmstat.com
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
@@ -1826,8 +1825,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.bidclix.net
 0.0.0.0 collector.deepmetrix.com
 0.0.0.0 www.deepmetrix.com
-0.0.0.0 msn.allyes.com
-0.0.0.0 msnms.allyes.cn
 0.0.0.0 venture.boulevards.com
 0.0.0.0 ads.apn.co.nz
 0.0.0.0 ads.itv.com
@@ -1973,6 +1970,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 rm.ra.icast.cn
 0.0.0.0 track.ra.icast.cn
 0.0.0.0 track2.ra.icast.cn
+#Ylunion
+0.0.0.0 js.ylunion.com
+0.0.0.0 www.ylunion.com
+0.0.0.0 ylunion.com
 @HostsX OneKey/搜狐
 #搜狐
 0.0.0.0 ad.mail.sohu.com
@@ -2950,6 +2951,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.adplan-ds.com
 0.0.0.0 www.adplan.ne.jp
 0.0.0.0 www.p-advg.com
+#Adscale
+0.0.0.0 ch2.adscale.de
+0.0.0.0 ih.adscale.de
+0.0.0.0 js.adscale.de
+0.0.0.0 ads.heias.com
+0.0.0.0 view.binlayer.com
 #ADTech
 0.0.0.0 ad-dc2.adtech.de
 0.0.0.0 ad.dc2.adtech.de
@@ -6995,7 +7002,7 @@ $      下载最新版本的 HostsX。
 #大旗网
 0.0.0.0 gg.daqi.com
 0.0.0.0 union.daqi.com
-#51
+#51.com
 0.0.0.0 v3.apic.51.com
 #西祠胡同
 0.0.0.0 ad.xici.net
@@ -7103,6 +7110,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.dangdang.com
 #凡客诚品
 0.0.0.0 union.vancl.com
+#家电联盟
+0.0.0.0 pic.jdunion.com
 @HostsX 国内站点广告/IT类网站
 #Pc泡泡
 0.0.0.0 33.pcpop.com
@@ -7168,6 +7177,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 33.autohome.com.cn
 0.0.0.0 adshow.che168.com
 0.0.0.0 pv.che168.com
+#中国汽车网
+0.0.0.0 chinacarsafp.allyes.com
 @HostsX 国内站点广告/视频类网站
 #CNTV
 0.0.0.0 a.cctv.com
@@ -7208,7 +7219,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 valp.atm.youku.com
 0.0.0.0 vid.atm.youku.com
 0.0.0.0 walp.atm.youku.com
-0.0.0.0 mscdn.allyes.com.cn
 #土豆网
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
@@ -7223,9 +7233,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ua4.tdimg.com
 #酷6网
 0.0.0.0 1.allyes.com.cn
+0.0.0.0 ku6.allyes.com
 0.0.0.0 analytics.ku6.com
 0.0.0.0 gug.ku6cdn.com
-0.0.0.0 ku6.allyes.com
 0.0.0.0 pq.stat.ku6.com
 0.0.0.0 st.vq.ku6.cn
 0.0.0.0 stat0.888.ku6.com
@@ -7251,7 +7261,6 @@ $      下载最新版本的 HostsX。
 #爆米花
 0.0.0.0 union.pomoho.com
 #乐视网
-0.0.0.0 img1.c0.letv.com
 0.0.0.0 pro.letv.com
 #巨鲸网
 0.0.0.0 t.top100.cn
@@ -7281,7 +7290,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adserve2.tomoimg.cn
 0.0.0.0 xtrack.tomonline-inc.com
 #TomSkype
-0.0.0.0 202.108.29.248
 0.0.0.0 a2.skype.tom.com
 0.0.0.0 a3.skype.tom.com
 0.0.0.0 a4.skype.tom.com
@@ -7315,6 +7323,19 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ac.51job.com
 0.0.0.0 logs.51job.com
 0.0.0.0 kwdsrv.51job.com
+#Yidaba
+0.0.0.0 adc.yidaba.com
+0.0.0.0 adfv.yidaba.com
+0.0.0.0 adj.yidaba.com
+0.0.0.0 adv.yidaba.com
+0.0.0.0 bd.yidaba.com
+0.0.0.0 bm.yidaba.com
+0.0.0.0 industry.yidaba.com
+0.0.0.0 sdc.yidaba.com
+0.0.0.0 info.yidaba.com
+0.0.0.0 images.yidaba.com
+0.0.0.0 images.cms.yidaba.com
+0.0.0.0 static.yidaba.com
 @HostsX 国内广告联盟
 #0252
 0.0.0.0 js.0252.com
@@ -7328,18 +7349,20 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code14.1133.cc
 0.0.0.0 code15.1133.cc
 0.0.0.0 code16.1133.cc
-0.0.0.0 code17.1133.cc
-0.0.0.0 code18.1133.cc
-0.0.0.0 code19.1133.cc
-0.0.0.0 code20.1133.cc
 0.0.0.0 code21.1133.cc
 0.0.0.0 code22.1133.cc
 0.0.0.0 code23.1133.cc
 0.0.0.0 code24.1133.cc
-0.0.0.0 code25.1133.cc
 0.0.0.0 code26.1133.cc
-0.0.0.0 code27.1133.cc
 0.0.0.0 code28.1133.cc
+0.0.0.0 code30.1133.cc
+0.0.0.0 code41.1133.cc
+0.0.0.0 code17.1133.cc
+0.0.0.0 code18.1133.cc
+0.0.0.0 code19.1133.cc
+0.0.0.0 code20.1133.cc
+0.0.0.0 code25.1133.cc
+0.0.0.0 code27.1133.cc
 0.0.0.0 code29.1133.cc
 0.0.0.0 code36.1133.cc
 0.0.0.0 count.1133.cc
@@ -7360,9 +7383,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 a.5qwg.com
 0.0.0.0 js.160ads.com
 0.0.0.0 www.160ads.com
-#265
-0.0.0.0 link.265.com
-0.0.0.0 un.265.com
 #2bj
 0.0.0.0 click.5j.com
 0.0.0.0 click2.5j.com
@@ -7389,59 +7409,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 mmscode1.3bu.com
 0.0.0.0 mmscode2.3bu.com
 0.0.0.0 mmscode3.3bu.com
-#51la
-0.0.0.0 img.users.51.la
-0.0.0.0 js.users.51.la
-0.0.0.0 vip.51.la
-0.0.0.0 web.51.la
-0.0.0.0 web1.51.la
-0.0.0.0 web2.51.la
-0.0.0.0 www.51.la
-#51link
-0.0.0.0 code.51link.com
-0.0.0.0 new.51link.com
-0.0.0.0 www.51link.com
-#51Yes
-0.0.0.0 51yes.com
-0.0.0.0 count.51yes.com
-0.0.0.0 count10.51yes.com
-0.0.0.0 count11.51yes.com
-0.0.0.0 count12.51yes.com
-0.0.0.0 count14.51yes.com
-0.0.0.0 count15.51yes.com
-0.0.0.0 count16.51yes.com
-0.0.0.0 count17.51yes.com
-0.0.0.0 count18.51yes.com
-0.0.0.0 count19.51yes.com
-0.0.0.0 count20.51yes.com
-0.0.0.0 count22.51yes.com
-0.0.0.0 count23.51yes.com
-0.0.0.0 count24.51yes.com
-0.0.0.0 count25.51yes.com
-0.0.0.0 count27.51yes.com
-0.0.0.0 count28.51yes.com
-0.0.0.0 count29.51yes.com
-0.0.0.0 count3.51yes.com
-0.0.0.0 count30.51yes.com
-0.0.0.0 count31.51yes.com
-0.0.0.0 count32.51yes.com
-0.0.0.0 count33.51yes.com
-0.0.0.0 count35.51yes.com
-0.0.0.0 count36.51yes.com
-0.0.0.0 count37.51yes.com
-0.0.0.0 count38.51yes.com
-0.0.0.0 count39.51yes.com
-0.0.0.0 count4.51yes.com
-0.0.0.0 count40.51yes.com
-0.0.0.0 count46.51yes.com
-0.0.0.0 count47.51yes.com
-0.0.0.0 count48.51yes.com
-0.0.0.0 count49.51yes.com
-0.0.0.0 count5.51yes.com
-0.0.0.0 count8.51yes.com
-0.0.0.0 count9.51yes.com
-0.0.0.0 countt.51yes.com
-#55.la
+#55la
 0.0.0.0 image1.55.la
 0.0.0.0 image2.55.la
 0.0.0.0 image3.55.la
@@ -7465,6 +7433,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u592022.778669.com
 0.0.0.0 u923032.778669.com
 0.0.0.0 u948016.778669.com
+#7pk
+0.0.0.0 al.7pk.com
+0.0.0.0 client.7pk.com
 #82816
 0.0.0.0 code.82816.com
 0.0.0.0 js.82816.com
@@ -7472,6 +7443,7 @@ $      下载最新版本的 HostsX。
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
+0.0.0.0 www.91ivr.com
 #99click
 0.0.0.0 a777.oadz.com
 0.0.0.0 a814.oadz.com
@@ -7481,6 +7453,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 a.oadz.com
 0.0.0.0 dns1.oadz.com
 0.0.0.0 dns2.oadz.com
+0.0.0.0 www.99click.com
 #9vcpm
 0.0.0.0 f.9vcpm.cn
 0.0.0.0 v.cpp9v.cn
@@ -7510,6 +7483,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 jump.wuyoulm.com
 0.0.0.0 pic.wuyoulm.com
 #AdHai
+0.0.0.0 adhai.com
 0.0.0.0 pic.adhai.com
 0.0.0.0 put.adhai.com
 #Admaster
@@ -7521,6 +7495,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 afp.adpolestar.net
 0.0.0.0 gfyoyo.adpolestar.net
 0.0.0.0 server1.adpolestar.net
+0.0.0.0 www.adpolestar.net
+0.0.0.0 as.kejet.com
+0.0.0.0 code.kejet.com
+0.0.0.0 dmacore.kejet.com
+0.0.0.0 kejet.com
+0.0.0.0 www.kejet.com
 #ADPower
 0.0.0.0 216.adpower.cn
 0.0.0.0 5173.adpower.cn
@@ -7563,6 +7543,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code.adpower.cn
 0.0.0.0 code1.adpower.cn
 0.0.0.0 code212.adpower.cn
+0.0.0.0 code4.adpower.cn
 0.0.0.0 count.adpower.cn
 0.0.0.0 db1.adpower.cn
 0.0.0.0 db2.adpower.cn
@@ -7738,12 +7719,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ynet.adsame.com
 0.0.0.0 yoka.adsame.com
 0.0.0.0 zh28.adsame.com
-#Adscale
-0.0.0.0 ch2.adscale.de
-0.0.0.0 ih.adscale.de
-0.0.0.0 js.adscale.de
-0.0.0.0 ads.heias.com
-0.0.0.0 view.binlayer.com
 #AdsIt
 0.0.0.0 cdn.91adv.com
 0.0.0.0 cpv.91adv.com
@@ -7763,10 +7738,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v.taolai.cn
 0.0.0.0 y.taolai.cn
 #Allyes
+0.0.0.0 114.allyes.com
 0.0.0.0 allyesbjafa.allyes.com
 0.0.0.0 allyesshafa.allyes.com
 0.0.0.0 bokee.allyes.com
-0.0.0.0 chinacarsafp.allyes.com
 0.0.0.0 demoafp.allyes.com
 0.0.0.0 e7free.allyes.com
 0.0.0.0 ebooafa7.allyes.com
@@ -7776,6 +7751,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 iplus.allyes.com
 0.0.0.0 lhzbafp.allyes.com
 0.0.0.0 mscdn.allyes.cn
+0.0.0.0 mscdn.allyes.com.cn
+0.0.0.0 msn.allyes.com
+0.0.0.0 msnms.allyes.cn
 0.0.0.0 mso.allyes.com
 0.0.0.0 rayliafp.allyes.cn
 0.0.0.0 realafp.allyes.cn
@@ -7788,15 +7766,18 @@ $      下载最新版本的 HostsX。
 0.0.0.0 smms.allyes.cn
 0.0.0.0 sroomafp.allyes.com
 0.0.0.0 stbanner.allyes.com
+0.0.0.0 stbnnr.allyes.com
 0.0.0.0 stm.allyes.com
 0.0.0.0 trend.allyes.com
 0.0.0.0 twsina.allyes.com
+0.0.0.0 uninewspace.allyes.com
 0.0.0.0 viafriend.allyes.com
 0.0.0.0 wanmoafa7.allyes.com
 0.0.0.0 xiciafp.allyes.com
 #At98
 0.0.0.0 c.at98.com
 0.0.0.0 js.at98.com
+0.0.0.0 img.at98.com
 0.0.0.0 pplive.at98.com
 0.0.0.0 www.at98.com
 #Barmms
@@ -7808,24 +7789,27 @@ $      下载最新版本的 HostsX。
 0.0.0.0 lt.bloggerads.net
 0.0.0.0 pic.bloggerads.net
 0.0.0.0 pic2.bloggerads.net
+0.0.0.0 piccdn.bloggerads.net
 0.0.0.0 www.bloggerads.net
 0.0.0.0 bloggerads.openeyes.tw
 0.0.0.0 flv.dotmore.com.tw
+0.0.0.0 js1.openeye.com.tw
 0.0.0.0 pic.dotmore.com.tw
 0.0.0.0 rs.interserv.com.tw
 #Bolaa
+0.0.0.0 bolaa.com
 0.0.0.0 creative.unionsys.bolaa.com
+0.0.0.0 js.bolaa.com
 0.0.0.0 union.bolaa.com
 0.0.0.0 unionsys.bolaa.com
+0.0.0.0 www1.bolaa.com
 #Buzz-time
 0.0.0.0 a.buzz-time.com.cn
 0.0.0.0 ad.buzz-time.com.cn
-#Cccr
-0.0.0.0 stat.cccr.cn
-0.0.0.0 js.union001.cn
 #Chanet
 0.0.0.0 count.chanet.com.cn
 0.0.0.0 file.chanet.com.cn
+0.0.0.0 www.chanet.com.cn
 #Chinaih
 0.0.0.0 admin.haodong.net
 0.0.0.0 ad.chinaih.com
@@ -7851,6 +7835,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 web.clickeye.cn
 #Cnxad
 0.0.0.0 c.cnxad.com
+0.0.0.0 cnxad.com
 0.0.0.0 code.cnxad.com
 0.0.0.0 g.cnxad.com
 0.0.0.0 js.cnxad.com
@@ -8178,62 +8163,77 @@ $      下载最新版本的 HostsX。
 #Doyoo
 0.0.0.0 file.doyoo.net
 0.0.0.0 js.doyoo.net
+0.0.0.0 static.doyoo.net
+0.0.0.0 www.doyoo.net
+0.0.0.0 www.looyu.com
 #egooad
 0.0.0.0 code.egooad.com
+0.0.0.0 egooad.com
 0.0.0.0 img.egooad.com
 0.0.0.0 lick.egooad.com
 0.0.0.0 new.egooad.com
+#Emar
+0.0.0.0 image.yiqifa.com
+0.0.0.0 p.yiqifa.com
+0.0.0.0 www.yiqifa.com
+0.0.0.0 image.yigao.com
+0.0.0.0 monitor.yigao.com
+0.0.0.0 p.yigao.com
+0.0.0.0 www.emar.com.cn
 #Gamediad
 0.0.0.0 book.gamediad.com
 0.0.0.0 resource.gamediad.com
 0.0.0.0 statistics.gamediad.com
+0.0.0.0 www.gamediad.com
 0.0.0.0 www1.gamediad.com
 0.0.0.0 www2.gamediad.com
 0.0.0.0 www3.gamediad.com
-#Gzcane
-0.0.0.0 a4.gzcane.com
-0.0.0.0 www.gzcane.com
-#Haodianpu
-0.0.0.0 tblog.tj.haodianpu.com
-0.0.0.0 tongji.haodianpu.com
-0.0.0.0 www.haodianpu.com
 #Heima8
 0.0.0.0 c.heima8.com
 0.0.0.0 pc.heima8.com
 0.0.0.0 pic.heima8.com
+0.0.0.0 member.heima8.com
+0.0.0.0 owner.heima8.com
 0.0.0.0 u.heima8.com
 0.0.0.0 www.heima8.com
-#Hxas
+#Hxad
 0.0.0.0 cpc11.hxad.com
 0.0.0.0 cpm2.hxad.com
 #iTop
 0.0.0.0 d.itopnetworks.com
 0.0.0.0 itopnetworks.com
 0.0.0.0 s.itopnetworks.com
+0.0.0.0 www.itopnetworks.com
 #Joywell
 0.0.0.0 adsresult.joywell.com.cn
 0.0.0.0 ubs.joywell.com.cn
-#Jiankongbao
-0.0.0.0 exp.jiankongbao.com
-0.0.0.0 stat.jiankongbao.com
 #Jieku
 0.0.0.0 do.jieku.com
 0.0.0.0 files.jieku.com
+0.0.0.0 www.jieku.com
 #Junyilm
 0.0.0.0 www.junyilm.com
 0.0.0.0 tp.junyilm.com
-#K261
-0.0.0.0 d.k621.com
-0.0.0.0 www.k621.com
 #Keduo
 0.0.0.0 images.keduo.cc
 0.0.0.0 qy.keduo.cc
 0.0.0.0 www.keduo.cc
-#Kejet
-0.0.0.0 kejet.com
-0.0.0.0 as.kejet.com
+#Kuwan8
+0.0.0.0 up.kuwan8.com
+0.0.0.0 up1.kuwan8.com
+0.0.0.0 up3.kuwan8.com
 #Keyrun
+0.0.0.0 linkpage.cn
+0.0.0.0 code.51link.com
+0.0.0.0 new.51link.com
+0.0.0.0 www.51link.com
+0.0.0.0 c1.ulink.cc
+0.0.0.0 t1.ulink.cc
+0.0.0.0 u.ulink.cc
+0.0.0.0 ulink.cc
+0.0.0.0 www.ulink.cc
 0.0.0.0 keyrun.cn
+0.0.0.0 www.keyrun.cn
 0.0.0.0 a.keyrun.com
 0.0.0.0 code16.keyrun.com
 0.0.0.0 pic0.keyrun.com
@@ -8255,94 +8255,84 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pic3.onetad.com
 0.0.0.0 pic8.onetad.com
 0.0.0.0 ww10.onetad.com
+0.0.0.0 ww11.onetad.com
+0.0.0.0 ww12.onetad.com
+0.0.0.0 ww13.onetad.com
+0.0.0.0 ww34.onetad.com
 0.0.0.0 ww346.onetad.com
 0.0.0.0 ww360.onetad.com
 0.0.0.0 ww363.onetad.com
 0.0.0.0 ww366.onetad.com
 0.0.0.0 ww78.onetad.com
 0.0.0.0 ww8.onetad.com
+0.0.0.0 ww9.onetad.com
 0.0.0.0 wwv.onetad.com
+0.0.0.0 www.onetad.com
 0.0.0.0 c1.keydot.net
 #LangTaoJin
 0.0.0.0 www.langtaojin.com
 0.0.0.0 www.uctrac.com
-#Leshou
-0.0.0.0 www.leshu.com
+#Leshu
+0.0.0.0 image.leshu.com
 0.0.0.0 wp.leshu.com
+0.0.0.0 www.leshu.com
 0.0.0.0 image.leying.com
 0.0.0.0 vip.leying.com
+0.0.0.0 leshu.dmdelivery.com
 #Lianmeng
 0.0.0.0 cache.lianmeng.com
-0.0.0.0 cn.lianmeng.com
-0.0.0.0 lianmeng.com
 0.0.0.0 online4.lianmeng.com
-0.0.0.0 www.lianmeng.com
-#Linezing
-0.0.0.0 acookie.linezing.com
-0.0.0.0 data.taobao.linezing.com
-0.0.0.0 dt.tongji.linezing.com
-0.0.0.0 hidden-master.linezing.com
-0.0.0.0 hostmaster.linezing.com
-0.0.0.0 img.tongji.linezing.com
-0.0.0.0 js.tongji.linezing.com
-0.0.0.0 linezing.com
-0.0.0.0 p3p.linezing.com
-0.0.0.0 pimg.taobao.linezing.com
-0.0.0.0 post.taobao.linezing.com
-0.0.0.0 taobao.linezing.com
-0.0.0.0 tongji.linezing.com
-0.0.0.0 www.linezing.com
 #LinkTech
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
 0.0.0.0 track.linktech.cn
+0.0.0.0 www.gw8888.com
 #Mediav
-0.0.0.0 sina.mediav.com
 0.0.0.0 click.mediav.com
+0.0.0.0 material.mediav.com
+0.0.0.0 pui.mediav.com
+0.0.0.0 secure.mediav.com
+0.0.0.0 show.mediav.com
+0.0.0.0 sina.mediav.com
 0.0.0.0 static.mediav.com
-#Miaozhen
+0.0.0.0 www.mediav.com
+#Millwardbrownacsr
 0.0.0.0 d.miaozhen.com
 0.0.0.0 e.miaozhen.com
 0.0.0.0 g.miaozhen.com
 0.0.0.0 survey.miaozhen.com
-#Molihe
-0.0.0.0 u.molihe.com
-#Mr66
-0.0.0.0 www.mr66.com
+0.0.0.0 www.millwardbrownacsr.com
 #Myad
 0.0.0.0 click.myad.cn
 0.0.0.0 go.myad.cn
 0.0.0.0 img.myad.cn
 0.0.0.0 img2.myad.cn
 0.0.0.0 new.myad.cn
+0.0.0.0 ver4.myad.cn
 0.0.0.0 vip.myad.cn
 0.0.0.0 www.myad.cn
 0.0.0.0 x2.myad.cn
-#Myrice
-0.0.0.0 al.myrice.com
-0.0.0.0 all.myrice.com
-0.0.0.0 client.myrice.com
-#Ok8848
-0.0.0.0 js.ok8848.com
-0.0.0.0 img.ok8848.com
 #Ooomm
 0.0.0.0 click1.ooommm.com.cn
+0.0.0.0 click2.ooommm.com.cn
 0.0.0.0 click3.ooommm.com.cn
+0.0.0.0 dbs.omosys.com.cn
+0.0.0.0 www.ooommm.com.cn
 #Qizhao
 0.0.0.0 code.qizhao.com
 0.0.0.0 qizhao.com
+0.0.0.0 www.qizhao.com
 #Qyclick
+0.0.0.0 qyclick.com
 0.0.0.0 vvww.qyclick.com
 0.0.0.0 www.qyclick.com
-#Qyule
-0.0.0.0 union.qyule.com
-0.0.0.0 unionch.qyule.com
 #Rj518
 0.0.0.0 img.rj518.com
 0.0.0.0 www.rj518.com
 #Star8
 0.0.0.0 c.star8.net
 0.0.0.0 img.star8.net
+0.0.0.0 star8.net
 #Scupio
 0.0.0.0 ad.scupio.com
 0.0.0.0 ad.scupio.com.tw
@@ -8356,6 +8346,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pic.scupio.com
 0.0.0.0 rec.scupio.com
 0.0.0.0 www.scupio.com
+#Subo
+0.0.0.0 tg2.subo.me
+0.0.0.0 tg26.subo.me
+0.0.0.0 tg5.subo.me
 #Shendu
 0.0.0.0 jump.codings.unions.shendu.cc
 0.0.0.0 jump.js.union.shendu.cc
@@ -8375,8 +8369,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 t2cunion.t2click.com
 0.0.0.0 t2t2.textclick.com
 0.0.0.0 t537c2.t2click.com
-0.0.0.0 v1.textclick.com
 0.0.0.0 wooha.t2click.com
+0.0.0.0 zaowen.t2click.com
 0.0.0.0 www.t2click.com
 0.0.0.0 bookmark.t2t2.com
 0.0.0.0 iebar.t2t2.com
@@ -8389,13 +8383,15 @@ $      下载最新版本的 HostsX。
 0.0.0.0 vip8.t2t2.com
 0.0.0.0 stat.t2t2.com
 0.0.0.0 www.t2t2.com
+0.0.0.0 v1.textclick.com
+0.0.0.0 textclick.com
 0.0.0.0 www.textlink.cn
 #TJQ
+0.0.0.0 i.tjq.com
 0.0.0.0 d2.tjq.com
 0.0.0.0 d5.tjq.com
 0.0.0.0 e2.tjq.com
 0.0.0.0 js.tjq.com
-0.0.0.0 i.tjq.com
 0.0.0.0 img.tjq.com
 0.0.0.0 www.tjq.com
 #Tensynad
@@ -8406,27 +8402,25 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ad.thinkmedia.cn
 0.0.0.0 adclk.thinkmedia.cn
 0.0.0.0 www.thinkmedia.cn
-#Tx8
-0.0.0.0 www13.tx8.cn
-0.0.0.0 www23.tx8.cn
-#Ulink
-0.0.0.0 c1.ulink.cc
-0.0.0.0 t1.ulink.cc
-0.0.0.0 u.ulink.cc
-0.0.0.0 ulink.cc
-0.0.0.0 www.ulink.cc
+#Union001
+0.0.0.0 union001.com
+0.0.0.0 p.union001.com
 #Unionbig
-0.0.0.0 ds2.unionbig.com
 0.0.0.0 u.unionli.com
 0.0.0.0 uimg.unionli.com
+0.0.0.0 ds2.unionbig.com
+0.0.0.0 p.unionbig.com
 0.0.0.0 ww.unionbig.com
+0.0.0.0 wwv.unionbig.com
 #Unionsky
 0.0.0.0 pics.unionsky.cn
 0.0.0.0 play.unionsky.cn
+0.0.0.0 unionsky.cn
 #Wanliuliang
 0.0.0.0 c2m.wanliuliang.com
-0.0.0.0 p.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com
+0.0.0.0 p.wanliuliang.com
+0.0.0.0 www.wanliuliang.com
 #Wauee
 0.0.0.0 20674.wauee.com
 0.0.0.0 21456.wauee.com
@@ -8455,8 +8449,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.wauee.com
 0.0.0.0 union.wauee.com
 0.0.0.0 wauee.com
-0.0.0.0 www.wauee.com
 0.0.0.0 ysname.wauee.com
+0.0.0.0 www.wauee.com
 0.0.0.0 26939.icpun.com
 0.0.0.0 34018.icpun.com
 0.0.0.0 c.9189.com
@@ -8466,8 +8460,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.weblianmeng.net
 0.0.0.0 pic.weblianmeng.net
 0.0.0.0 t.weblianmeng.net
+0.0.0.0 www.weblianmeng.net
 #Webnibbler
-0.0.0.0 btnibbler.com
 0.0.0.0 cn.ad.btnibbler.com
 0.0.0.0 cn.adm.btnibbler.com
 0.0.0.0 cn.console.btnibbler.com
@@ -8497,6 +8491,365 @@ $      下载最新版本的 HostsX。
 0.0.0.0 media.woyo.com
 0.0.0.0 regist.woyo.com
 0.0.0.0 trace.woyo.com
+#Wyunion
+0.0.0.0 c.wyunion.com
+0.0.0.0 www.wyunion.com
+#Xt918
+0.0.0.0 www.xt918.com
+0.0.0.0 xt918.com
+#Yyclick
+0.0.0.0 t.yyclick.com
+0.0.0.0 www.yyclick.com
+#Yoyi
+0.0.0.0 amps.yoyi.com.cn
+0.0.0.0 d.yoyi.tv
+0.0.0.0 www.yoyi.com.cn
+#Zdy
+0.0.0.0 tp.zdy.cc
+0.0.0.0 www.zdy.cc
+0.0.0.0 zdy.cc
+@HostsX 软件广告过滤
+#Baofeng
+0.0.0.0 game.baofeng.com
+0.0.0.0 videodown.baofeng.com
+0.0.0.0 videoinfo.baofeng.com
+#Bitcomet
+0.0.0.0 inside.bitcomet.com
+#Flashget
+0.0.0.0 dll.flashget.com
+0.0.0.0 fetch.flashget.com
+0.0.0.0 ggstat.flashget.com
+0.0.0.0 olstat.flashget.com
+0.0.0.0 stat.flashget.com
+0.0.0.0 stac.flashget.com
+0.0.0.0 static.u966.com
+0.0.0.0 m.u966.com
+0.0.0.0 bc.kuaiche.com
+0.0.0.0 cimg.kuaiche.com
+0.0.0.0 directui.kuaiche.com.showq.net
+0.0.0.0 ufile.kuaiche.com
+0.0.0.0 client.kuaiche.com
+0.0.0.0 imgcache.kuaiche.com
+#Funshion
+0.0.0.0 ad.funshion.com
+0.0.0.0 adk.funshion.com
+0.0.0.0 adm.funshion.com
+0.0.0.0 cms.funshion.com
+0.0.0.0 gstat.funshion.com
+0.0.0.0 neirong.funshion.com
+0.0.0.0 partner.funshion.com
+0.0.0.0 shop.funshion.com
+#iSeesoft
+0.0.0.0 msg.iseesoft.cn
+0.0.0.0 p.iseeclan.com
+0.0.0.0 stat.iseeclan.com
+#isoshu
+0.0.0.0 mobile.isoshu.com
+0.0.0.0 mobile1.isoshu.com
+0.0.0.0 pub.isoshu.com
+#Koowo
+0.0.0.0 g.koowo.com
+0.0.0.0 g.kuwo.cn
+0.0.0.0 wa.kuwo.cn
+0.0.0.0 wa.koowo.com
+#Kugou
+0.0.0.0 dl.ddong.com
+0.0.0.0 game.kugou.com
+0.0.0.0 games.kugou.com
+0.0.0.0 install.kugou.com
+0.0.0.0 links.kugoo.com
+0.0.0.0 mkg.kugou.com
+0.0.0.0 myonline.kugou.com
+0.0.0.0 sdn.kugoo.com
+0.0.0.0 sdn.kugou.com
+0.0.0.0 softstat.kugou.com
+0.0.0.0 yx.kugou.com
+#Maxthon
+0.0.0.0 go.maxthon.cn
+0.0.0.0 mk.maxthon.cn
+0.0.0.0 datacn-dl.maxthon.com
+0.0.0.0 stat-w.maxthon.com
+0.0.0.0 stat.maxthon.com
+0.0.0.0 statcn-c.maxthon.com
+0.0.0.0 smarturlcn-up.maxthon.com
+0.0.0.0 kernel-c.maxthon.com
+#Micronichefinder
+0.0.0.0 www.micronichefinder.com
+0.0.0.0 micronichefinder.com
+#Neoimage
+0.0.0.0 ad.neoimaging.cn
+0.0.0.0 clientconfig.neoimaging.cn
+0.0.0.0 jump.neoimaging.cn
+0.0.0.0 recommend.neoimaging.cn
+#Pctutu
+0.0.0.0 info.klplayer.com
+0.0.0.0 update.klplayer.com
+0.0.0.0 info.pcpc8.com
+0.0.0.0 m.pcpc8.com
+0.0.0.0 info.pctutu.net
+0.0.0.0 link.pctutu.com
+0.0.0.0 srtj.pctutu.net
+0.0.0.0 tj.pctutu.net
+0.0.0.0 update.pctutu.com
+0.0.0.0 update.pctutu.net
+#PPStream
+0.0.0.0 notice.ppstream.com
+0.0.0.0 stat.ppstream.com
+0.0.0.0 update.111222.cn
+0.0.0.0 game.pps.tv
+#PPTV（PPVA）
+0.0.0.0 afp.pplive.com
+0.0.0.0 afv.pplive.com
+0.0.0.0 caipiao.pplive.com
+0.0.0.0 dh.pplive.com
+0.0.0.0 g.pplive.com
+0.0.0.0 ins-stat.pplive.com
+0.0.0.0 ins-version.pplive.com
+0.0.0.0 ins.pplive.com
+0.0.0.0 iptable.pplive.com
+0.0.0.0 live.v2.pplive.com
+0.0.0.0 download.pplive.com
+0.0.0.0 pp1.pplive.com
+0.0.0.0 up.pplive.com
+0.0.0.0 g.pptv.com
+0.0.0.0 pp2.pptv.com
+0.0.0.0 ppsj.pptv.com
+0.0.0.0 wafp.pptv.com
+0.0.0.0 wstat.pptv.com
+0.0.0.0 h.g1d.net
+0.0.0.0 p.g1d.net
+0.0.0.0 ppva.g1d.net
+0.0.0.0 video-va.g1d.net
+0.0.0.0 pplive-ppva.datamaster.com.cn
+0.0.0.0 pplive-probe.datamaster.com.cn
+0.0.0.0 res-pplive.datamaster.com.cn
+#QQCEO
+0.0.0.0 ad.qqceo.net
+0.0.0.0 toufei.qqceo.net
+0.0.0.0 toufei2.qqceo.net
+#Qvod
+0.0.0.0 110.qvod.com
+0.0.0.0 buffer-ad.qvod.com
+0.0.0.0 insert-ad.qvod.com
+0.0.0.0 pause-ad.qvod.com
+0.0.0.0 text-ad.qvod.com
+0.0.0.0 tj.qvod.com
+0.0.0.0 update.qvod.com
+0.0.0.0 hao.kuaibo.com
+0.0.0.0 searchstat.kuaibo.com
+0.0.0.0 qvodlink.hco.cc
+#SopCast
+0.0.0.0 home.sopserv.com
+#UUSee
+0.0.0.0 g.uusee.com
+0.0.0.0 sa.uusee.com
+0.0.0.0 traffic.uusee.com
+0.0.0.0 uhms.uusee.com
+0.0.0.0 uuseeafp.allyes.com
+#Vagaa
+0.0.0.0 btjoy.com
+0.0.0.0 img.daodao001.cn
+0.0.0.0 text.mplayer.org.cn
+0.0.0.0 ad.yy.duowan.com
+0.0.0.0 do.yy.duowan.com
+0.0.0.0 forceupdate.yy.duowan.com
+0.0.0.0 gamecollaborate.yy.duowan.com
+0.0.0.0 market.duowan.com
+0.0.0.0 mstat.duowan.com
+0.0.0.0 update.yy.duowan.com
+0.0.0.0 yydl.duowan.com
+0.0.0.0 dw.hiido.cn
+0.0.0.0 im.yy.hiido.cn
+0.0.0.0 njs.dw.hiido.cn
+@HostsX 软件验证屏蔽
+#Game Assassin's Creed
+0.0.0.0 onlineconfigservice.ubi.com
+0.0.0.0 orbitservice.ubi.com
+0.0.0.0 static3.cdn.ubi.com
+0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com
+0.0.0.0 ubisoft-orbit.s3.amazonaws.com
+#Game Command&Conquer
+0.0.0.0 blazeserver.blazeemu.org
+0.0.0.0 demangler.ea.com
+0.0.0.0 gosgvaprod-qos01.ea.com
+0.0.0.0 gosiadprod-qos01.ea.com
+0.0.0.0 gosredirector.ea.com
+0.0.0.0 gossjcprod-qos01.ea.com
+0.0.0.0 vmp.tools.gos.ea.com
+#Game QUAZAL
+0.0.0.0 cohlive-1.quazal.net
+0.0.0.0 cohlive.quazal.net
+0.0.0.0 reliclive-1.quazal.net
+0.0.0.0 reliclive.quazal.net
+0.0.0.0 mangler1.generals.ea.com
+0.0.0.0 mangler2.generals.ea.com
+0.0.0.0 mangler3.generals.ea.com
+0.0.0.0 mangler4.generals.ea.com
+0.0.0.0 mangler5.generals.ea.com
+0.0.0.0 mangler6.generals.ea.com
+0.0.0.0 mangler7.generals.ea.com
+0.0.0.0 mangler8.generals.ea.com
+0.0.0.0 mangler9.generals.ea.com
+0.0.0.0 mangler10.generals.ea.com
+0.0.0.0 servserv.generals.ea.com
+#ACDSee
+0.0.0.0 acdupdater.acdsystems.com
+0.0.0.0 soapintouch.acdnet.com
+#Adobe
+0.0.0.0 3dns-2.adobe.com
+0.0.0.0 3dns-3.adobe.com
+0.0.0.0 activate-sea.adobe.com
+0.0.0.0 activate-sjc0.adobe.com
+0.0.0.0 activate.adobe.com
+0.0.0.0 activate.wip3.adobe.com
+0.0.0.0 adobe-dns-2.adobe.com
+0.0.0.0 adobe-dns-3.adobe.com
+0.0.0.0 adobe-dns.adobe.com
+0.0.0.0 adobe.activate.com
+0.0.0.0 adobeereg.com
+0.0.0.0 ereg.adobe.com
+0.0.0.0 ereg.wip3.adobe.com
+0.0.0.0 ns.adobe.com
+0.0.0.0 practivate.adobe.com
+0.0.0.0 stats.adobe.com
+0.0.0.0 wip3.adobe.com
+0.0.0.0 wwis-dubc1-vip60.adobe.com
+0.0.0.0 www.adobeereg.com
+#Aignes
+0.0.0.0 aignes.com
+0.0.0.0 aignes.net
+0.0.0.0 aignes.info
+0.0.0.0 www.aignes.com
+0.0.0.0 www.aignes.net
+0.0.0.0 www.aignes.info
+#AnyDVD
+0.0.0.0 ev1slysoft.com
+0.0.0.0 slysoft.com
+0.0.0.0 update.slysoft.com
+0.0.0.0 reverse.privatedns.com
+#Alcohol
+0.0.0.0 serial.alcohol-soft.com
+0.0.0.0 shop.alcohol-soft.com
+0.0.0.0 support.alcohol-soft.com
+0.0.0.0 trial.alcohol-soft.com
+0.0.0.0 users.alcohol-soft.com
+0.0.0.0 vodka.alcohol-soft.com
+0.0.0.0 www.alcohol-soft.com
+#Ashampoo
+0.0.0.0 licenses.ashampoo.com
+#Comodo UserTrust
+0.0.0.0 www.comodogroup.com
+0.0.0.0 www.usertrust.com
+0.0.0.0 crl.usertrust.com
+#Swiftdog
+0.0.0.0 www.swiftdog.com
+#Windows Media Player
+0.0.0.0 locator.metadata.windowsmedia.com
+0.0.0.0 metaservices.microsoft.com
+0.0.0.0 music.poptang.com
+0.0.0.0 onlinestore.smgbb.cn
+0.0.0.0 onlinestores.metaservices.microsoft.com
+0.0.0.0 tienda.farolatino.com
+0.0.0.0 wmp.bjxrtc.com.cn
+0.0.0.0 wmp.phoenixtv.com
+0.0.0.0 www.farolatino.com
+0.0.0.0 www.wa3.cn
+0.0.0.0 xml11es.farolatino.com
+#WinDVD
+0.0.0.0 upgrade.intervideo.com
+#XMLSoap
+0.0.0.0 schemas.xmlsoap.org
+#ZALabs
+0.0.0.0 cm2.zonelabs.com
+0.0.0.0 hs2.zonelabs.com
+0.0.0.0 ls2.zonelabs.com
+0.0.0.0 pa2.zonelabs.com
+0.0.0.0 ps2.zonelabs.com
+0.0.0.0 register.zonelabs.com
+0.0.0.0 update.zonelabs.com
+@HostsX 可疑行为拦截
+#51la
+0.0.0.0 img.users.51.la
+0.0.0.0 js.users.51.la
+0.0.0.0 vip.51.la
+0.0.0.0 web.51.la
+0.0.0.0 web1.51.la
+0.0.0.0 web2.51.la
+0.0.0.0 www.51.la
+#51Yes
+0.0.0.0 51yes.com
+0.0.0.0 count.51yes.com
+0.0.0.0 count10.51yes.com
+0.0.0.0 count11.51yes.com
+0.0.0.0 count12.51yes.com
+0.0.0.0 count13.51yes.com
+0.0.0.0 count14.51yes.com
+0.0.0.0 count15.51yes.com
+0.0.0.0 count16.51yes.com
+0.0.0.0 count17.51yes.com
+0.0.0.0 count18.51yes.com
+0.0.0.0 count19.51yes.com
+0.0.0.0 count20.51yes.com
+0.0.0.0 count21.51yes.com
+0.0.0.0 count22.51yes.com
+0.0.0.0 count23.51yes.com
+0.0.0.0 count24.51yes.com
+0.0.0.0 count25.51yes.com
+0.0.0.0 count26.51yes.com
+0.0.0.0 count27.51yes.com
+0.0.0.0 count28.51yes.com
+0.0.0.0 count29.51yes.com
+0.0.0.0 count3.51yes.com
+0.0.0.0 count30.51yes.com
+0.0.0.0 count31.51yes.com
+0.0.0.0 count32.51yes.com
+0.0.0.0 count33.51yes.com
+0.0.0.0 count34.51yes.com
+0.0.0.0 count35.51yes.com
+0.0.0.0 count36.51yes.com
+0.0.0.0 count37.51yes.com
+0.0.0.0 count38.51yes.com
+0.0.0.0 count39.51yes.com
+0.0.0.0 count4.51yes.com
+0.0.0.0 count40.51yes.com
+0.0.0.0 count41.51yes.com
+0.0.0.0 count42.51yes.com
+0.0.0.0 count43.51yes.com
+0.0.0.0 count44.51yes.com
+0.0.0.0 count45.51yes.com
+0.0.0.0 count46.51yes.com
+0.0.0.0 count47.51yes.com
+0.0.0.0 count48.51yes.com
+0.0.0.0 count49.51yes.com
+0.0.0.0 count50.51yes.com
+0.0.0.0 count5.51yes.com
+0.0.0.0 count6.51yes.com
+0.0.0.0 count7.51yes.com
+0.0.0.0 count8.51yes.com
+0.0.0.0 count9.51yes.com
+0.0.0.0 countt.51yes.com
+#Haodianpu
+0.0.0.0 tblog.tj.haodianpu.com
+0.0.0.0 tongji.haodianpu.com
+0.0.0.0 www.haodianpu.com
+#Jiankongbao
+0.0.0.0 exp.jiankongbao.com
+0.0.0.0 stat.jiankongbao.com
+#Linezing
+0.0.0.0 acookie.linezing.com
+0.0.0.0 data.taobao.linezing.com
+0.0.0.0 dt.tongji.linezing.com
+0.0.0.0 hidden-master.linezing.com
+0.0.0.0 hostmaster.linezing.com
+0.0.0.0 img.tongji.linezing.com
+0.0.0.0 js.tongji.linezing.com
+0.0.0.0 linezing.com
+0.0.0.0 p3p.linezing.com
+0.0.0.0 pimg.taobao.linezing.com
+0.0.0.0 post.taobao.linezing.com
+0.0.0.0 taobao.linezing.com
+0.0.0.0 tongji.linezing.com
+0.0.0.0 www.linezing.com
 #Wrating
 0.0.0.0 163.wrating.com
 0.0.0.0 ads.wrating.com
@@ -8556,59 +8909,17 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tom.wrating.com
 0.0.0.0 tongji.wrating.com
 0.0.0.0 vodone.wrating.com
-0.0.0.0 wrating.com
 0.0.0.0 www.wrating.com
 0.0.0.0 xinmin.wrating.com
 0.0.0.0 ztqq.wrating.com
-#Wyunion
-0.0.0.0 c.wyunion.com
-#XieTeng
-0.0.0.0 www.xt918.com
-0.0.0.0 xt918.com
-#Xinunion
-0.0.0.0 www.xinunion.com
-#Xioo
-0.0.0.0 cpc.xioo.cn
-0.0.0.0 un.xioo.cn
-#Yidaba
-0.0.0.0 adc.yidaba.com
-0.0.0.0 adfv.yidaba.com
-0.0.0.0 adj.yidaba.com
-0.0.0.0 adv.yidaba.com
-0.0.0.0 bd.yidaba.com
-0.0.0.0 bm.yidaba.com
-0.0.0.0 industry.yidaba.com
-0.0.0.0 sdc.yidaba.com
-0.0.0.0 info.yidaba.com
-0.0.0.0 images.yidaba.com
-0.0.0.0 images.cms.yidaba.com
-0.0.0.0 static.yidaba.com
-#YiGao
-0.0.0.0 image.yiqifa.com
-0.0.0.0 p.yiqifa.com
-0.0.0.0 www.yiqifa.com
-0.0.0.0 monitor.yigao.com
-0.0.0.0 p.yigao.com
-0.0.0.0 www.egou.com
-#Ylunion
-0.0.0.0 js.ylunion.com
-0.0.0.0 www.ylunion.com
-0.0.0.0 ylunion.com
-#Yoyi
-0.0.0.0 amps.yoyi.com.cn
-0.0.0.0 d.yoyi.tv
-0.0.0.0 www.yoyi.com.cn
-#Zdy
-0.0.0.0 tp.zdy.cc
-0.0.0.0 www.zdy.cc
 #Zhanzhang
+0.0.0.0 js.zhanzhang.net
+0.0.0.0 p.zhanzhang.net
 0.0.0.0 s1.zhanzhang.net
 0.0.0.0 s2.zhanzhang.net
 0.0.0.0 s3.zhanzhang.net
-0.0.0.0 p.zhanzhang.net
 #Other Statistics
 0.0.0.0 icon.ajiang.net
-0.0.0.0 js.zhanzhang.net
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.getclicky.com
 0.0.0.0 static.woopra.com
@@ -8619,9 +8930,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.nasboq.com
 0.0.0.0 www.referer.cn
 0.0.0.0 www.zzcount.com
-@HostsX 恶意行为阻止
-#运营商劫持
+0.0.0.0 zjomo2.app9.hubspot.com
+0.0.0.0 counter.goingup.com
+0.0.0.0 www.goingup.com
+@HostsX 恶意行为屏蔽
+#域名劫持
 0.0.0.0 ss.cnnic.cn
+#运营商劫持
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn
 0.0.0.0 114search.118114.cn
@@ -8642,8 +8957,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 sddns5.cncmax.cn
 0.0.0.0 sddns7.cncmax.cn
 #运营商广告
-0.0.0.0 114.allyes.com
-0.0.0.0 uninewspace.allyes.com
 0.0.0.0 lc.havod.com
 0.0.0.0 havod.com
 0.0.0.0 www.havod.com
@@ -8865,13 +9178,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v2.tjj.com
 0.0.0.0 soft.tjj.com
 #IE劫持
-0.0.0.0 www.pp93.com
-0.0.0.0 789654.com
-0.0.0.0 www.45566.net
-0.0.0.0 www.789654.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
-0.0.0.0 2345.com
 0.0.0.0 2548.cn
 0.0.0.0 300.cc
 0.0.0.0 3448.com
@@ -8882,6 +9190,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 7322.com
 0.0.0.0 7379.com
 0.0.0.0 779dh.com
+0.0.0.0 789654.com
 0.0.0.0 7939.com
 0.0.0.0 8009.com
 0.0.0.0 858656.com
@@ -8893,6 +9202,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 969dh.cn
 0.0.0.0 about.blank.la
 0.0.0.0 c.999d.com
+0.0.0.0 d.k621.com
 0.0.0.0 dir.ejoina.com
 0.0.0.0 freedh.info
 0.0.0.0 go.lailea.info
@@ -8931,7 +9241,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.150.net
 0.0.0.0 www.19574.net
 0.0.0.0 www.1buso.com
-0.0.0.0 www.2345.com
 0.0.0.0 www.2535.cn
 0.0.0.0 www.2548.cn
 0.0.0.0 www.26dh.cn
@@ -8939,6 +9248,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.3929.cn
 0.0.0.0 www.4224.com
 0.0.0.0 www.45451.net
+0.0.0.0 www.45566.net
 0.0.0.0 www.46.com
 0.0.0.0 www.506520.net
 0.0.0.0 www.55uuu.cn
@@ -8951,11 +9261,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.7249.cn
 0.0.0.0 www.74573.com
 0.0.0.0 www.782dh.com
+0.0.0.0 www.789654.com
 0.0.0.0 www.860114.com
 0.0.0.0 www.884599.cn
 0.0.0.0 www.8d.cn
 0.0.0.0 www.8hao123.com
 0.0.0.0 www.9281.net
+0.0.0.0 www.9348.cn
 0.0.0.0 www.9384.com
 0.0.0.0 www.95081.net
 0.0.0.0 www.978.la
@@ -8979,6 +9291,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.henbucuo.com
 0.0.0.0 www.hh115.com
 0.0.0.0 www.ivc.cn
+0.0.0.0 www.k621.com
 0.0.0.0 www.kljia.com
 0.0.0.0 www.leilei.cc
 0.0.0.0 www.lele444.com
@@ -8991,6 +9304,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.p.cn
 0.0.0.0 www.piaofang.net
 0.0.0.0 www.pp2345.com
+0.0.0.0 www.pp93.com
 0.0.0.0 www.q22.cc
 0.0.0.0 www.qq2010qq.cn
 0.0.0.0 www.qq5.com
@@ -9005,7 +9319,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xiujue.net
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
-0.0.0.0 www.9348.cn
 #签名弹窗
 0.0.0.0 code.aizhuanlove.cn
 0.0.0.0 code.2010qianming.com
@@ -9024,6 +9337,15 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.54kfqq.com
 0.0.0.0 www.live800.com
 #恶意弹窗
+0.0.0.0 astd.snsfun.cc
+0.0.0.0 astds3.snsfun.cc
+0.0.0.0 plsm.snsfun.cc
+0.0.0.0 pmxj.snsfun.cc
+0.0.0.0 mqs.atrack.176.com
+0.0.0.0 mxd.atrack.176.com
+0.0.0.0 gg190.huanlang.com
+0.0.0.0 gg237.huanlang.com
+0.0.0.0 dfhgg.huanlang.com
 0.0.0.0 yktj.yezizhu.com
 0.0.0.0 e8.yezizhu.com
 0.0.0.0 go.maxreturn.cn
@@ -9034,8 +9356,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 agod.r.sougames.com
 0.0.0.0 bean.r.sougames.com
 0.0.0.0 chess.r.sougames.com
+0.0.0.0 curious.r.sougames.com
 0.0.0.0 eett.r.sougames.com
 0.0.0.0 kerout.r.sougames.com
+0.0.0.0 keyside.r.sougames.com
+0.0.0.0 mysis.r.sougames.com
 0.0.0.0 r.sougames.com
 0.0.0.0 sougames.com
 0.0.0.0 c.qling.com
@@ -9073,8 +9398,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 Han1.70yx.Com
 0.0.0.0 tg.70yx.com
 0.0.0.0 counter.ztgame.com
-0.0.0.0 lh.ztgame.com
+0.0.0.0 gd.ztgame.com
 0.0.0.0 jr.ztgame.com
+0.0.0.0 lh.ztgame.com
 0.0.0.0 agenda.r.arpg2.com
 0.0.0.0 bean.r.arpg2.com
 0.0.0.0 chess.r.arpg2.com
@@ -9274,7 +9600,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 t.gameyule.com
 0.0.0.0 t.jiuyaoyouxi.com
 0.0.0.0 t.uuplay.com
-0.0.0.0 t.yyclick.com
 0.0.0.0 tao.37wan.com
 0.0.0.0 tg.01lm.com
 0.0.0.0 tg.33hy.com
@@ -9372,6 +9697,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 i.imgur.com
 0.0.0.0 uimg.union178.com
 #病毒下载
+0.0.0.0 union.qyule.com
+0.0.0.0 unionch.qyule.com
 0.0.0.0 kb.ttdk2.com
 0.0.0.0 tj.ttdk2.com
 0.0.0.0 ysbweb.com
@@ -9398,6 +9725,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.duote.com
 0.0.0.0 www.duotegame.com
 0.0.0.0 img.duote.com
+0.0.0.0 js.ok8848.com
+0.0.0.0 img.ok8848.com
 0.0.0.0 www.xiazaiba.com
 0.0.0.0 xiazaiba.com
 0.0.0.0 xiazai.xiazaiba.com
@@ -9472,264 +9801,64 @@ $      下载最新版本的 HostsX。
 0.0.0.0 content.aimatch.com
 0.0.0.0 show.altitudedigitalpartners.com
 0.0.0.0 download.wagabb.com
-@HostsX 软件广告过滤
-#Baofeng
-0.0.0.0 game.baofeng.com
-0.0.0.0 videodown.baofeng.com
-0.0.0.0 videoinfo.baofeng.com
-#Bitcomet
-0.0.0.0 inside.bitcomet.com
-#Flashget
-0.0.0.0 dll.flashget.com
-0.0.0.0 fetch.flashget.com
-0.0.0.0 ggstat.flashget.com
-0.0.0.0 olstat.flashget.com
-0.0.0.0 stat.flashget.com
-0.0.0.0 stac.flashget.com
-0.0.0.0 static.u966.com
-0.0.0.0 m.u966.com
-0.0.0.0 bc.kuaiche.com
-0.0.0.0 cimg.kuaiche.com
-0.0.0.0 directui.kuaiche.com.showq.net
-0.0.0.0 ufile.kuaiche.com
-0.0.0.0 client.kuaiche.com
-0.0.0.0 imgcache.kuaiche.com
-#Funshion
-0.0.0.0 ad.funshion.com
-0.0.0.0 adk.funshion.com
-0.0.0.0 adm.funshion.com
-0.0.0.0 cms.funshion.com
-0.0.0.0 gstat.funshion.com
-0.0.0.0 neirong.funshion.com
-0.0.0.0 partner.funshion.com
-0.0.0.0 shop.funshion.com
-#iSeesoft
-0.0.0.0 msg.iseesoft.cn
-0.0.0.0 p.iseeclan.com
-0.0.0.0 stat.iseeclan.com
-#isoshu
-0.0.0.0 mobile.isoshu.com
-0.0.0.0 mobile1.isoshu.com
-0.0.0.0 pub.isoshu.com
-#Koowo
-0.0.0.0 g.koowo.com
-0.0.0.0 g.kuwo.cn
-0.0.0.0 wa.kuwo.cn
-0.0.0.0 wa.koowo.com
-#Kugou
-0.0.0.0 dl.ddong.com
-0.0.0.0 game.kugou.com
-0.0.0.0 games.kugou.com
-0.0.0.0 install.kugou.com
-0.0.0.0 links.kugoo.com
-0.0.0.0 mkg.kugou.com
-0.0.0.0 myonline.kugou.com
-0.0.0.0 sdn.kugoo.com
-0.0.0.0 sdn.kugou.com
-0.0.0.0 softstat.kugou.com
-0.0.0.0 yx.kugou.com
-#Maxthon
-0.0.0.0 go.maxthon.cn
-0.0.0.0 mk.maxthon.cn
-0.0.0.0 datacn-dl.maxthon.com
-0.0.0.0 stat-w.maxthon.com
-0.0.0.0 stat.maxthon.com
-0.0.0.0 statcn-c.maxthon.com
-0.0.0.0 smarturlcn-up.maxthon.com
-0.0.0.0 kernel-c.maxthon.com
-#Micronichefinder
-0.0.0.0 www.micronichefinder.com
-0.0.0.0 micronichefinder.com
-#Neoimage
-0.0.0.0 ad.neoimaging.cn
-0.0.0.0 clientconfig.neoimaging.cn
-0.0.0.0 jump.neoimaging.cn
-0.0.0.0 recommend.neoimaging.cn
-#Pctutu
-0.0.0.0 info.klplayer.com
-0.0.0.0 update.klplayer.com
-0.0.0.0 info.pcpc8.com
-0.0.0.0 m.pcpc8.com
-0.0.0.0 info.pctutu.net
-0.0.0.0 link.pctutu.com
-0.0.0.0 srtj.pctutu.net
-0.0.0.0 tj.pctutu.net
-0.0.0.0 update.pctutu.com
-0.0.0.0 update.pctutu.net
-#PPStream
-0.0.0.0 notice.ppstream.com
-0.0.0.0 stat.ppstream.com
-0.0.0.0 update.111222.cn
-0.0.0.0 game.pps.tv
-#PPTV（PPVA）
-0.0.0.0 afp.pplive.com
-0.0.0.0 afv.pplive.com
-0.0.0.0 caipiao.pplive.com
-0.0.0.0 dh.pplive.com
-0.0.0.0 g.pplive.com
-0.0.0.0 ins-stat.pplive.com
-0.0.0.0 ins-version.pplive.com
-0.0.0.0 ins.pplive.com
-0.0.0.0 iptable.pplive.com
-0.0.0.0 live.v2.pplive.com
-0.0.0.0 download.pplive.com
-0.0.0.0 pp1.pplive.com
-0.0.0.0 up.pplive.com
-0.0.0.0 g.pptv.com
-0.0.0.0 pp2.pptv.com
-0.0.0.0 ppsj.pptv.com
-0.0.0.0 wafp.pptv.com
-0.0.0.0 wstat.pptv.com
-0.0.0.0 h.g1d.net
-0.0.0.0 p.g1d.net
-0.0.0.0 ppva.g1d.net
-0.0.0.0 video-va.g1d.net
-0.0.0.0 pplive-ppva.datamaster.com.cn
-0.0.0.0 pplive-probe.datamaster.com.cn
-0.0.0.0 res-pplive.datamaster.com.cn
-#QQCEO
-0.0.0.0 ad.qqceo.net
-0.0.0.0 toufei.qqceo.net
-0.0.0.0 toufei2.qqceo.net
-#Qvod
-0.0.0.0 110.qvod.com
-0.0.0.0 buffer-ad.qvod.com
-0.0.0.0 insert-ad.qvod.com
-0.0.0.0 pause-ad.qvod.com
-0.0.0.0 text-ad.qvod.com
-0.0.0.0 tj.qvod.com
-0.0.0.0 update.qvod.com
-0.0.0.0 hao.kuaibo.com
-0.0.0.0 searchstat.kuaibo.com
-0.0.0.0 qvodlink.hco.cc
-#SopCast
-0.0.0.0 home.sopserv.com
-#UUSee
-0.0.0.0 g.uusee.com
-0.0.0.0 sa.uusee.com
-0.0.0.0 traffic.uusee.com
-0.0.0.0 uhms.uusee.com
-0.0.0.0 uuseeafp.allyes.com
-#Vagaa
-0.0.0.0 btjoy.com
-0.0.0.0 img.daodao001.cn
-0.0.0.0 text.mplayer.org.cn
-0.0.0.0 stbnnr.allyes.com
-#YY
-0.0.0.0 ad.yy.duowan.com
-0.0.0.0 do.yy.duowan.com
-0.0.0.0 forceupdate.yy.duowan.com
-0.0.0.0 gamecollaborate.yy.duowan.com
-0.0.0.0 market.duowan.com
-0.0.0.0 mstat.duowan.com
-0.0.0.0 update.yy.duowan.com
-0.0.0.0 yydl.duowan.com
-0.0.0.0 dw.hiido.cn
-0.0.0.0 im.yy.hiido.cn
-0.0.0.0 njs.dw.hiido.cn
-@HostsX 软件验证屏蔽
-#Game Assassin's Creed
-0.0.0.0 onlineconfigservice.ubi.com
-0.0.0.0 orbitservice.ubi.com
-0.0.0.0 static3.cdn.ubi.com
-0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com
-0.0.0.0 ubisoft-orbit.s3.amazonaws.com
-#Game Command&Conquer
-0.0.0.0 blazeserver.blazeemu.org
-0.0.0.0 demangler.ea.com
-0.0.0.0 gosgvaprod-qos01.ea.com
-0.0.0.0 gosiadprod-qos01.ea.com
-0.0.0.0 gosredirector.ea.com
-0.0.0.0 gossjcprod-qos01.ea.com
-0.0.0.0 vmp.tools.gos.ea.com
-#Game QUAZAL
-0.0.0.0 cohlive-1.quazal.net
-0.0.0.0 cohlive.quazal.net
-0.0.0.0 reliclive-1.quazal.net
-0.0.0.0 reliclive.quazal.net
-0.0.0.0 mangler1.generals.ea.com
-0.0.0.0 mangler2.generals.ea.com
-0.0.0.0 mangler3.generals.ea.com
-0.0.0.0 mangler4.generals.ea.com
-0.0.0.0 mangler5.generals.ea.com
-0.0.0.0 mangler6.generals.ea.com
-0.0.0.0 mangler7.generals.ea.com
-0.0.0.0 mangler8.generals.ea.com
-0.0.0.0 mangler9.generals.ea.com
-0.0.0.0 mangler10.generals.ea.com
-0.0.0.0 servserv.generals.ea.com
-#ACDSee
-0.0.0.0 acdupdater.acdsystems.com
-0.0.0.0 soapintouch.acdnet.com
-#Adobe
-0.0.0.0 3dns-2.adobe.com
-0.0.0.0 3dns-3.adobe.com
-0.0.0.0 activate-sea.adobe.com
-0.0.0.0 activate-sjc0.adobe.com
-0.0.0.0 activate.adobe.com
-0.0.0.0 activate.wip3.adobe.com
-0.0.0.0 adobe-dns-2.adobe.com
-0.0.0.0 adobe-dns-3.adobe.com
-0.0.0.0 adobe-dns.adobe.com
-0.0.0.0 adobe.activate.com
-0.0.0.0 adobeereg.com
-0.0.0.0 ereg.adobe.com
-0.0.0.0 ereg.wip3.adobe.com
-0.0.0.0 ns.adobe.com
-0.0.0.0 practivate.adobe.com
-0.0.0.0 stats.adobe.com
-0.0.0.0 wip3.adobe.com
-0.0.0.0 wwis-dubc1-vip60.adobe.com
-0.0.0.0 www.adobeereg.com
-#Aignes
-0.0.0.0 aignes.com
-0.0.0.0 aignes.net
-0.0.0.0 aignes.info
-0.0.0.0 www.aignes.com
-0.0.0.0 www.aignes.net
-0.0.0.0 www.aignes.info
-#AnyDVD
-0.0.0.0 ev1slysoft.com
-0.0.0.0 slysoft.com
-0.0.0.0 update.slysoft.com
-0.0.0.0 reverse.privatedns.com
-#Alcohol
-0.0.0.0 serial.alcohol-soft.com
-0.0.0.0 shop.alcohol-soft.com
-0.0.0.0 support.alcohol-soft.com
-0.0.0.0 trial.alcohol-soft.com
-0.0.0.0 users.alcohol-soft.com
-0.0.0.0 vodka.alcohol-soft.com
-0.0.0.0 www.alcohol-soft.com
-#Ashampoo
-0.0.0.0 licenses.ashampoo.com
-#Comodo UserTrust
-0.0.0.0 www.comodogroup.com
-0.0.0.0 www.usertrust.com
-0.0.0.0 crl.usertrust.com
-#Swiftdog
-0.0.0.0 www.swiftdog.com
-#Windows Media Player
-0.0.0.0 locator.metadata.windowsmedia.com
-0.0.0.0 metaservices.microsoft.com
-0.0.0.0 music.poptang.com
-0.0.0.0 onlinestore.smgbb.cn
-0.0.0.0 onlinestores.metaservices.microsoft.com
-0.0.0.0 tienda.farolatino.com
-0.0.0.0 wmp.bjxrtc.com.cn
-0.0.0.0 wmp.phoenixtv.com
-0.0.0.0 www.farolatino.com
-0.0.0.0 www.wa3.cn
-0.0.0.0 xml11es.farolatino.com
-#WinDVD
-0.0.0.0 upgrade.intervideo.com
-#XMLSoap
-0.0.0.0 schemas.xmlsoap.org
-#ZALabs
-0.0.0.0 cm2.zonelabs.com
-0.0.0.0 hs2.zonelabs.com
-0.0.0.0 ls2.zonelabs.com
-0.0.0.0 pa2.zonelabs.com
-0.0.0.0 ps2.zonelabs.com
-0.0.0.0 register.zonelabs.com
-0.0.0.0 update.zonelabs.com
+0.0.0.0 www.mr66.com
+#testdata
+0.0.0.0 1133.baiduskxn.cn
+0.0.0.0 189.zhanguotj.com
+0.0.0.0 58.gyyx.cn
+0.0.0.0 benchic.9966.org
+0.0.0.0 bto.52yeyou.com
+0.0.0.0 c.lelewan.com
+0.0.0.0 ccc.delete8527.cn
+0.0.0.0 ccyi.r.game2.com.cn
+0.0.0.0 content.caixun.com
+0.0.0.0 d.5ding.com
+0.0.0.0 fashion.701sou.com
+0.0.0.0 ftxy.528day.com
+0.0.0.0 game.tdwan.com
+0.0.0.0 gg.29ww.net
+0.0.0.0 gg1.173hl.com
+0.0.0.0 go.game2me.cn
+0.0.0.0 help.x.com.cn
+0.0.0.0 hxsg.528day.com
+0.0.0.0 hz.www.rbc.cn 
+0.0.0.0 images.zhenming.net
+0.0.0.0 j.zqgame.com
+0.0.0.0 media.wushen.com
+0.0.0.0 p.srwchina.com
+0.0.0.0 pic183025.images9999.com
+0.0.0.0 proeveryday.ju51.com
+0.0.0.0 qc.ccjoy.com
+0.0.0.0 r.game2.cn
+0.0.0.0 reg.njeee.com
+0.0.0.0 reg.nonoyx.com
+0.0.0.0 reg.ucjoy.com
+0.0.0.0 t.5ding.com
+0.0.0.0 t.75youxi.com
+0.0.0.0 tantra.ccjoy.com
+0.0.0.0 tc.lianmeng2010.com
+0.0.0.0 tg.56uu.com
+0.0.0.0 tg1.1000one.com
+0.0.0.0 towin.r.the2009.cn
+0.0.0.0 u.51fswd.com
+0.0.0.0 un.5i.com
+0.0.0.0 union.jiyougame.com
+0.0.0.0 wd.gyyx.cn
+0.0.0.0 wen.wwwfollow5.com
+0.0.0.0 ww.2366.com
+0.0.0.0 www.16768.com
+0.0.0.0 www.587188.cn
+0.0.0.0 www.68yo.com
+0.0.0.0 www.773.com.cn
+0.0.0.0 www.ads.gmodules.com
+0.0.0.0 www.aloho.cn
+0.0.0.0 www.feilongdao.com
+0.0.0.0 www1.leeuu.net
+0.0.0.0 wx.klonweb.com.cn
+0.0.0.0 xc.ewtang.com
+0.0.0.0 xy.henhaoji.com
+0.0.0.0 xy.hxage.com
+0.0.0.0 xy.skdaren.com
+0.0.0.0 yourchinalove.com
+0.0.0.0 www.webgame188.com
+0.0.0.0 www.ymd88.com
