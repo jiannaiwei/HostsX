@@ -1,4 +1,4 @@
-;version=201105220115
+;version=201105222115
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -1746,27 +1746,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 spd.atdmt.com
 0.0.0.0 spe.atdmt.com
 0.0.0.0 srch.atdmt.com
+0.0.0.0 t.atdmt.com
 0.0.0.0 vid.atdmt.com
 0.0.0.0 www.atdmt.com
-0.0.0.0 www.atlasdmt.com
-#Hotmail
-0.0.0.0 ad.law1.hotmail.com
-0.0.0.0 ad.law2.hotmail.com
-0.0.0.0 ad.law3.hotmail.com
-0.0.0.0 ad.law4.hotmail.com
-0.0.0.0 ad.law5.hotmail.com
-0.0.0.0 ad.law6.hotmail.com
-0.0.0.0 ad.law7.hotmail.com
-0.0.0.0 ad.law8.hotmail.com
-0.0.0.0 ad.law9.hotmail.com
-0.0.0.0 ad.law10.hotmail.com
-0.0.0.0 ad.law11.hotmail.com
-0.0.0.0 ad.law12.hotmail.com
-0.0.0.0 ad.law13.hotmail.com
-0.0.0.0 ad.law14.hotmail.com
-0.0.0.0 ad.law15.hotmail.com
-0.0.0.0 ads1.msn.com
-0.0.0.0 g.msn.com
 #Live
 0.0.0.0 analytics.live.com
 0.0.0.0 c.live.com
@@ -1774,7 +1756,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 ms.analytics.live.com
 0.0.0.0 rad.live.com
 0.0.0.0 watson.live.com
+0.0.0.0 msnportal.112.2o7.net
 #MSN Ad Servers
+0.0.0.0 ads1.msn.com
+0.0.0.0 g.msn.com
+0.0.0.0 rad.msn.com
+0.0.0.0 a.rad.msn.com
+0.0.0.0 b.rad.msn.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 a.ads1.msn.com
 0.0.0.0 a.ads2.msn.com
@@ -1819,6 +1807,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 rad.microsoft.com
 0.0.0.0 watson.microsoft.com
 #Microsoft via various
+0.0.0.0 www.atlasdmt.com
+0.0.0.0 ads.hearstmags.com
+0.0.0.0 subscribe.hearstmags.com
 0.0.0.0 fastcounter.bcentral.com
 0.0.0.0 fcstats.bcentral.com
 0.0.0.0 bidclix.net
@@ -1835,7 +1826,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 spd.netconversions.com
 0.0.0.0 madserver.net
 0.0.0.0 ads.msn.com.nsatc.net
-0.0.0.0 msnportal.112.2o7.net
 @HostsX OneKey/Ç§Ïð»¥¶¯
 #Ã¨ÆËÍø
 0.0.0.0 g.mop.com
@@ -6984,10 +6974,11 @@ $      ÏÂÔØ×îÐÂ°æ±¾µÄ HostsX¡£
 0.0.0.0 807.tianya.cn
 0.0.0.0 advertisement.tianya.cn
 0.0.0.0 adview.tianya.cn
-0.0.0.0 click.tianyaui.com
 0.0.0.0 squidclick.bbs.tianya.cn
 0.0.0.0 stat.tianya.cn
 0.0.0.0 urchin.tianya.cn
+0.0.0.0 801.tianyaui.com
+0.0.0.0 click.tianyaui.com
 #ÌúÑªÍø
 0.0.0.0 ads.tiexue.net
 0.0.0.0 x.itiexue.net
