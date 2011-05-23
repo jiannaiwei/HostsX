@@ -42,6 +42,7 @@ $DELETE
 
 #导致 Yahoo Flickr页面 无法正常显示。
 cn.rd.yahoo.com
+us.rd.yahoo.com
 cn.yimg.com
 l.yimg.com
 $DELETE
