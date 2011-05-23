@@ -1,4 +1,4 @@
-;version=201105181550
+;version=201105231220
 ;author=郭鹏锟（Jock Kwok）
 #导致网页页面部分视频无法正常播放。
 swf.ws.126.net
@@ -40,7 +40,9 @@ $DELETE
 10.0.0.172
 $DELETE
 
-#导致 Flickr页面 无法正常显示。
+#导致 Yahoo Flickr页面 无法正常显示。
+cn.rd.yahoo.com
+cn.yimg.com
 l.yimg.com
 $DELETE
 
