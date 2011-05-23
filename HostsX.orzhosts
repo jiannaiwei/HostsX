@@ -1,4 +1,4 @@
-;version=201105222115
+;version=201105230950
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7082,6 +7082,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 csad.adsame.com
 #MACD金融网
 0.0.0.0 xc.macd.cn
+#中国资本证券网
+0.0.0.0 ads.ccstock.cn
 @HostsX 国内站点广告/摄影类网站
 #色影无忌
 0.0.0.0 www8.xitek.com
