@@ -1,5 +1,5 @@
 @echo off
-set ver=2.82
+set ver=2.83
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -101,7 +101,7 @@ echo.
 echo            【 2.Edit Hosts   / 编辑 Hosts文件 】
 echo.
 echo            【 3.Fix Hosts    / 修复 Hosts文件 】
-echo            【Hosts 目录】       【当前工作目录】
+echo            【Hosts文件目录】    【当前工作目录】
 echo   =======================================================
 echo            【 4.NTFS Read    /   NTFS读取权限 】
 echo.
@@ -111,14 +111,14 @@ echo            【 6.NTFS Cancel  /   取消NTFS权限 】
 echo.
 echo            【 7.Read Only    /     设置为只读 】
 echo   =======================================================
-echo            【IE广告过滤】       【系统垃圾清理】
+echo            【 IE广告过滤 】     【系统垃圾清理】
 echo.
-echo            【IE快速修复】       【快捷方式修复】     
+echo            【 IE快速修复 】     【快捷方式修复】     
 echo.
-echo            【For DroidX】       【娱乐网站屏蔽】
+echo            【 For DroidX 】     【娱乐网站屏蔽】
 rem if /i !force! neq 0 (echo   当前模式：CMD模式) else (echo   当前模式：GUI模式)
 echo.
-echo            【Switch2CMD】       【   退  出   】
+echo            【 Switch2CMD 】     【   退  出   】
 
 :mouse1
 ConsExt /event
@@ -131,19 +131,19 @@ if %y% equ 3 if %x% gtr  12 if %x% lss 56 goto dns
 if %y% equ 4 if %x% gtr  12 if %x% lss 51 goto dft
 if %y% equ 6 if %x% gtr  12 if %x% lss 51 goto run
 if %y% equ 8 if %x% gtr  12 if %x% lss 51 goto fixhosts
-if %y% equ 9 if %x% gtr  12 if %x% lss 25 goto ophostdp
+if %y% equ 9 if %x% gtr  12 if %x% lss 27 goto ophostdp
 if %y% equ 9 if %x% gtr  12 if %x% lss 51 goto opdp
 if %y% equ 11 if %x% gtr  12 if %x% lss 51 goto ntfsread
 if %y% equ 13 if %x% gtr  12 if %x% lss 51 goto ntfsrefused
 if %y% equ 15 if %x% gtr  12 if %x% lss 51 goto ntfscancle
 if %y% equ 17 if %x% gtr  12 if %x% lss 51 goto readonly
-if %y% equ 19 if %x% gtr  12 if %x% lss 25 goto adfilter
+if %y% equ 19 if %x% gtr  12 if %x% lss 27 goto adfilter
 if %y% equ 19 if %x% gtr  12 if %x% lss 51 goto clean
-if %y% equ 21 if %x% gtr  12 if %x% lss 25 goto fixie
+if %y% equ 21 if %x% gtr  12 if %x% lss 27 goto fixie
 if %y% equ 21 if %x% gtr  12 if %x% lss 51 goto desklnk
-if %y% equ 23 if %x% gtr  12 if %x% lss 25 goto AnDroid
+if %y% equ 23 if %x% gtr  12 if %x% lss 27 goto AnDroid
 if %y% equ 23 if %x% gtr  12 if %x% lss 51 goto entdata
-if %y% equ 25 if %x% gtr  12 if %x% lss 25 (
+if %y% equ 25 if %x% gtr  12 if %x% lss 27 (
   if /i !force! neq 0 (set force=0) else (set force=1)
   goto menuen
 )
@@ -358,10 +358,7 @@ pause&goto menu
 
 :fixhosts
 mode con: cols=50 lines=12
-echo Fix Hosts File?（Restore the system default）
-Pause
-del %hosts% /q
-goto nohosts
+echo Fix Hosts File?（Restore the system default）choice /t 5 /d y /n >nul & del %hosts% /q &goto nohosts
 
 :nohosts
 echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
@@ -499,13 +496,13 @@ ipconfig /flushdns>nul 2>nul&goto dns
 
 :thanks
 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
-pause
-if exist Readme.txt (notepad Readme.txt) else (start http://kwoktree.appspot.com)&(start /min iexplore http://fanfou.com/iV.c)
+if exist Readme.txt (notepad Readme.txt) else (start /min iexplore http://orztech.com/forms/3)
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer" 2>nul"^|findstr /i Version`) do (set iever=%%3)
 echo 用户名：%username% >GFeedBack.txt
 echo 计算机名：%userdomain% >>GFeedBack.txt
 echo 系统版本：%version% >>GFeedBack.txt
 echo IE版本：%iever% >>GFeedBack.txt
+echo G+Hosts版本：%ver% >>GFeedBack.txt
 echo 今天是：%date% >>GFeedBack.txt
 echo 遇到问题的网页地址：>>GFeedBack.txt
 echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
