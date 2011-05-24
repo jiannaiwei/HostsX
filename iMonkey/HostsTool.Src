@@ -1,5 +1,5 @@
 @echo off
-set ver=2.81
+set ver=2.82
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -8,14 +8,14 @@ for %%i in (c d e f a) do (
 set /a te=!!te!+1!
 if "!xc!"=="!te!" set xc=%%i)
 color 0%xc%
+ren %0 "HostsTool.bat"
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键管理员身份运行! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions"
+for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 if not exist %systemroot%\system32\wget.exe copy wget.exe %systemroot%\system32\
 if not exist %systemroot%\system32\consext.exe copy consext.exe %systemroot%\system32\
 cls
-ren %0 "HostsTool.bat"
-for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
@@ -85,38 +85,38 @@ if %Language%==Chinese ( goto menucn ) else ( goto menuen )
 :menucn
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
-if not exist %systemroot%\system32\consext.exe goto menuen
+if not exist "%systemroot%\system32\consext.exe" (goto menuen) else (if not exist consext.exe goto menuen)
 mode con cols=60 lines=29
 ConsExt /crv 0
 set force=0
 cls
-title G+ Hosts 极佳猴子 %ver% GUI  %version%
+title G+ Hosts %ver% GUI  %version%
 cls
 echo.
 echo   鼠标点击【 】内选择操作           【感谢帮助和反馈】
 echo   =======================================================
 echo                                     【DNS Cache 刷新】
-echo            【 1.Update Hosts / 更新 Hosts  】
+echo            【 1.Update Hosts / 更新 Hosts文件 】
 echo.
-echo            【 2.Edit Hosts   / 编辑 Hosts  】
+echo            【 2.Edit Hosts   / 编辑 Hosts文件 】
 echo.
-echo            【 3.Fix Hosts    / 修复 Hosts  】
-echo            【Hosts 目录】       【当前 目录】
+echo            【 3.Fix Hosts    / 修复 Hosts文件 】
+echo            【Hosts 目录】       【当前工作目录】
 echo   =======================================================
-echo            【 4.NTFS Read/ 设置NTFS读取权限】
+echo            【 4.NTFS Read    /   NTFS读取权限 】
 echo.
-echo            【 5.NTFS Refused/  NTFS拒绝权限】
+echo            【 5.NTFS Refused /   NTFS拒绝权限 】
 echo.
-echo            【 6.NTFS Cancel/   取消NTFS权限】
+echo            【 6.NTFS Cancel  /   取消NTFS权限 】
 echo.
-echo            【 7.Read Only/  设置Hosts为只读】
+echo            【 7.Read Only    /     设置为只读 】
 echo   =======================================================
 echo            【IE广告过滤】       【系统垃圾清理】
 echo.
 echo            【IE快速修复】       【快捷方式修复】     
 echo.
 echo            【For DroidX】       【娱乐网站屏蔽】
-rem if /i !force! neq 0 (echo   当前模式：专业模式) else (echo   当前模式：界面模式)
+rem if /i !force! neq 0 (echo   当前模式：CMD模式) else (echo   当前模式：GUI模式)
 echo.
 echo            【Switch2CMD】       【   退  出   】
 
@@ -128,21 +128,21 @@ set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
 if %y% equ 1 if %x% gtr  12 if %x% lss 56 goto thanks
 if %y% equ 3 if %x% gtr  12 if %x% lss 56 goto dns
-if %y% equ 4 if %x% gtr  12 if %x% lss 44 goto dft
-if %y% equ 6 if %x% gtr  12 if %x% lss 44 goto run
-if %y% equ 8 if %x% gtr  12 if %x% lss 44 goto fixhosts
+if %y% equ 4 if %x% gtr  12 if %x% lss 51 goto dft
+if %y% equ 6 if %x% gtr  12 if %x% lss 51 goto run
+if %y% equ 8 if %x% gtr  12 if %x% lss 51 goto fixhosts
 if %y% equ 9 if %x% gtr  12 if %x% lss 25 goto ophostdp
-if %y% equ 9 if %x% gtr  12 if %x% lss 44 goto opdp
-if %y% equ 11 if %x% gtr  12 if %x% lss 44 goto ntfsread
-if %y% equ 13 if %x% gtr  12 if %x% lss 44 goto ntfsrefused
-if %y% equ 15 if %x% gtr  12 if %x% lss 44 goto ntfscancle
-if %y% equ 17 if %x% gtr  12 if %x% lss 44 goto readonly
+if %y% equ 9 if %x% gtr  12 if %x% lss 51 goto opdp
+if %y% equ 11 if %x% gtr  12 if %x% lss 51 goto ntfsread
+if %y% equ 13 if %x% gtr  12 if %x% lss 51 goto ntfsrefused
+if %y% equ 15 if %x% gtr  12 if %x% lss 51 goto ntfscancle
+if %y% equ 17 if %x% gtr  12 if %x% lss 51 goto readonly
 if %y% equ 19 if %x% gtr  12 if %x% lss 25 goto adfilter
-if %y% equ 19 if %x% gtr  12 if %x% lss 47 goto clean
+if %y% equ 19 if %x% gtr  12 if %x% lss 51 goto clean
 if %y% equ 21 if %x% gtr  12 if %x% lss 25 goto fixie
-if %y% equ 21 if %x% gtr  12 if %x% lss 47 goto desklnk
+if %y% equ 21 if %x% gtr  12 if %x% lss 51 goto desklnk
 if %y% equ 23 if %x% gtr  12 if %x% lss 25 goto AnDroid
-if %y% equ 23 if %x% gtr  12 if %x% lss 47 goto entdata
+if %y% equ 23 if %x% gtr  12 if %x% lss 51 goto entdata
 if %y% equ 25 if %x% gtr  12 if %x% lss 25 (
   if /i !force! neq 0 (set force=0) else (set force=1)
   goto menuen
@@ -232,6 +232,7 @@ for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy gdown\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
+del HostsX.orzhosts & copy gdown\HostsX.orzhosts HostsX.orzhosts
 goto perms
 
 :dftvbs
@@ -247,6 +248,7 @@ for %%1 in (%temp%\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy %temp%\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
+del HostsX.orzhosts & copy %temp%\HostsX.orzhosts HostsX.orzhosts
 goto perms
 
 :dftlocal
