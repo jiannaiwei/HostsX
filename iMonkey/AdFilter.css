@@ -3,10 +3,13 @@
 
 /*
 Name: /广告过滤规则
-Version: 2.03
+Version: 2.08
 Author: Vokins
 Description: MayBe a better Adfilter CSS.
 */
+
+/* 强制使用雅黑字体字体 */
+ * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}
 
 /* AD规则 */
 div[class^=AD],div[id$="AD"],div[class$="AD"],[id$="_ad"],[class$="_ad"],
@@ -20,16 +23,16 @@ display: none !important;
 div[id$="Adv"],[class^="adv_"],[id^="adv_"] {
 display: none !important;
 	}
-div[class*="AdBox"],a[id*="_adbox"],div[class*="adarea"],div[class*="areaAd"],
-div[id^="adbn_"],div[id*="0_AD_1"],[class^="adNone"],[class$="adclass"],[class="adinfo"] {
+div[class*="AdBox"],a[id*="_adbox"],div[class*="areaAd"],[class^="adNone"],
+div[id^="adbn_"],div[id*="0_AD_1"],div[id^="ad0"],[class$="adclass"] {
 display: none !important;
 	}
-
 /* GG规则 */
 [class^="colL gg"],[class^="l-gg"],div[class^="ggtop"],
 div[class^="ggAD"],div[class*="gg-"],[id^="gg"] {
 display: none !important;
 	}
+.adarea,.aXd,.adinfo,#adcontent,div[class="ggarea clearfix"] {display: none !important;}
 
 /* 方位广告*/
 div[id*="top_ad"],div[class*="top_ad"],div[id*="topAD"],div[class*="topAD"],
@@ -86,14 +89,15 @@ div[class^="wp a_"],[id^="thread_ads_"],div[class^="a_p"],.postbit_adcode,#adbot
 
 /* 浮动 弹窗广告 */
 div[id^="p4pblock"],span[id^="ad_"],span[id="tmpMsgDiv"],span[class="close"],span[id="urlup"],span[id="afterurl"] {display: none !important;}
-div[class*="focus"][id$="focus"],div[id="popup"][style*="display:"],
-div[class$="-floatgg"],[id*="-popup"],DIV[id^="popupWin"],div[id^="popWin"] {
+div[class*="focus"][id$="focus"],div[id="popup"][style*="display:"],div[class$="-floatgg"],
+[id*="-popup"],DIV[id^="popupWin"],div[id^="popWin"],div[id="PopWindow"] {
 display: none !important;
 	}
 div[id="popup"][class="t"],div[class^="ad"][id^="div"],span[id*="adsense"],div[id^="Float"],
 div[id$="adshow"],div[id^="pf_ad"],[id^="iframeAd"] {
 display: none !important;
 	}
+
 div[id^="followDiv"],div[id^="kxsoMovie"],div[id^="pop_container_],div[id^="_QQPopDIV"] {display: none !important;}
 #adZljcRightBottomDiv,#bbsPOPFrame,#bshareF,#feedback-box,#fixedLayertop,#msg-faq{display: none !important;}
 #paypopupScriptDiv,#qqaddiv,#ShowQQ,#SlipLay,#ty_msg_box,.QQbox {display: none !important;}
@@ -108,13 +112,13 @@ display: none !important;
 TD[width="50%"][align="center"]{display: none !important;}
 TD[width="960"][height="90"][align="center"]{display: none !important;}
 ARTICLE>div[class^="ad"],div[align="center"][id^="ad"],
-div[class^="ad960"],div[class^="ad336"],div[class^="ad728"]{
+div[class^="ad336"],div[class^="ad728"],div[class="ad950"],div[class^="ad960"]{
 display: none !important;
 	}
 
 /* 部分站点广告 */
-div[id="qd_reader_footer"],div[class="ruanw box"],div[class="tips_player"],div[class="xfl_out"][id="xfl_out"],
-div[class="bannerleft"],div[id="zolFloat"],div[id^="smExtObj"],img[id$="_pvm]{
+div[class="ruanw box"],div[class="tips_player"],div[class="xfl_out"][id="xfl_out"],
+div[class="bannerleft"],div[id="zolFloat"],div[id^="smExtObj"],img[id$="_pvm],div[id="sp"]{
 display: none !important;
 	}
 div[id="smExtObjSwf"]{display:none !important}
@@ -126,9 +130,6 @@ div[class="btmad"][id^="adsp_content_banner_"],div[id="couplet_left_NULL"],div[i
 DIV[class="newslist"]>DL>DD[class="detail"]>EM{display:none !important}
 div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="deerway"],div[id="klw_ent"],*[class*="l_qq_com"]{display:none !important}
 div[class="bp-popup"][id="J_popup"]{display:none !important}
-
-/* 强制使用雅黑字体字体 */
- * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}
 
 /*调整选中文本及其背景的颜色*/
 ::selection{
