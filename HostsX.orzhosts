@@ -1,4 +1,4 @@
-;version=201105231220
+;version=201105251653
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7219,9 +7219,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 stats.tudou.com
 0.0.0.0 tdap.tudou.com
 0.0.0.0 tdcm.tudou.com
-0.0.0.0 img4.tdimg.com
-0.0.0.0 ua5.tdimg.com
-0.0.0.0 ua4.tdimg.com
 #酷6网
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 ku6.allyes.com
