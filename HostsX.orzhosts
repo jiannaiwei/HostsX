@@ -1,4 +1,4 @@
-;version=201105261127
+;version=201105272123
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -109,13 +109,15 @@ ff02::3 ip6-allhosts
 2001:470:83f2::710:1 statics.plurk.com
 @HostsX Google
 #Google
+203.208.39.22 webcache.googleusercontent.com
+203.208.39.22 www.google.com
+203.208.39.22 www.google.com.hk
+203.208.39.22 mail.google.com
 209.85.135.101 encrypted.google.com
 209.85.135.101 suggestqueries.google.com
-209.85.135.101 webcache.googleusercontent.com
 66.102.7.100 encrypted.google.com
 74.125.43.102 encrypted.google.com
 74.125.227.4 encrypted.google.com
-2404:6800:8005::b8 service.urchin.com
 2001:4860:8010::8d www.panoramio.com
 2404:6800:8005::76 feedproxy.google.com
 2404:6800:8005::62 market.android.com
@@ -492,7 +494,7 @@ ff02::3 ip6-allhosts
 203.208.39.104 icity.appspot.com
 203.208.39.104 iguangblog.appspot.com
 203.208.39.104 ihere.appspot.com
-203.208.39.104 ihere.appspot.comsms/
+203.208.39.104 ihere.appspot.com
 203.208.39.104 ihnfsa.appspot.com
 203.208.39.104 imagecharteditor.appspot.com
 203.208.39.104 imimom0.appspot.com
