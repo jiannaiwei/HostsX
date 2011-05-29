@@ -1,4 +1,4 @@
-;version=201105272123
+;version=201105291517
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7314,7 +7314,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 rnd.dayoo.com
 0.0.0.0 sta.dayoo.com
 #51Job
-0.0.0.0 ac.51job.com
 0.0.0.0 logs.51job.com
 0.0.0.0 kwdsrv.51job.com
 #Yidaba
