@@ -3,16 +3,13 @@
 
 /*
 Name: /广告过滤规则
-Version: 2.08
+Version: 2.10
 Author: Vokins
 Description: MayBe a better Adfilter CSS.
 */
 
-/* 强制使用雅黑字体字体 */
- * {font-family: YaHeiConsolas,"Microsoft YaHei","微软雅黑",Tahoma,SimSun,"宋体"  !important;}
-
 /* AD规则 */
-div[class^=AD],div[id$="AD"],div[class$="AD"],[id$="_ad"],[class$="_ad"],
+div[class^=AD],div[id$="AD"],div[class$="AD"],[id$="_ad"],
 [id$="Ad"],[class$="Ad"],div[id^="ad_"],div[class^="ad_"] {
 display: none !important;
 	}
@@ -68,7 +65,6 @@ display: none !important;
 div[class^="richMedia],div[id^="AdLayer"],div[id^="StreamMediaWrap"] {display: none !important;}
 
 /* 文字广告 */
-ul[class="ad_doc_text"]{display:none !important}
 div[class*="padd_t"],div[class^="adList"],div[class^="adtext"],
 div[id^="adwords"],[id^="adText"] {
 display: none !important;
