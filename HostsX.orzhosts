@@ -1,4 +1,4 @@
-;version=201105301105
+;version=201105301325
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -9174,7 +9174,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.vunion.net
 0.0.0.0 sm2.netitv.com
 #IE劫持
-0.0.0.0 www.114la.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2548.cn
@@ -9230,6 +9229,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.0344.net
 0.0.0.0 www.111.dh.com
 0.0.0.0 www.113w.com
+0.0.0.0 www.114la.com
 0.0.0.0 www.1155.com
 0.0.0.0 www.1188.com
 0.0.0.0 www.126666666.cn
@@ -9248,6 +9248,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.45566.net
 0.0.0.0 www.46.com
 0.0.0.0 www.506520.net
+0.0.0.0 www.5225.com
 0.0.0.0 www.55uuu.cn
 0.0.0.0 www.59688.com
 0.0.0.0 www.5go.com.cn
