@@ -1,4 +1,4 @@
-;version=201105301325
+;version=201105301755
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -7063,6 +7063,7 @@ $      下载最新版本的 HostsX。
 #游久网
 0.0.0.0 stat.uuu9.com
 #4399小游戏
+0.0.0.0 stat.api.4399.com
 0.0.0.0 aszt1.my4399.com
 0.0.0.0 uimg.my4399.com
 @HostsX 国内站点广告/财经类网站
@@ -8403,6 +8404,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union001.com
 0.0.0.0 p.union001.com
 #Unionbig
+0.0.0.0 txt.unionli.com
 0.0.0.0 u.unionli.com
 0.0.0.0 uimg.unionli.com
 0.0.0.0 ds2.unionbig.com
