@@ -1,4 +1,4 @@
-;version=201105291517
+;version=201105301000
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -19,6 +19,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 advertising.apple.com
 0.0.0.0 gs.apple.com
 255.255.255.255 broadcasthost
+#deepin
+117.27.139.10 bbs.deepin.org
 #Facebook
 69.63.189.16 facebook.com
 69.63.189.16 www.facebook.com
@@ -493,7 +495,6 @@ ff02::3 ip6-allhosts
 203.208.39.104 i-tuan.appspot.com
 203.208.39.104 icity.appspot.com
 203.208.39.104 iguangblog.appspot.com
-203.208.39.104 ihere.appspot.com
 203.208.39.104 ihere.appspot.com
 203.208.39.104 ihnfsa.appspot.com
 203.208.39.104 imagecharteditor.appspot.com
@@ -1768,7 +1769,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.r.msn.com
 0.0.0.0 a.ads1.msn.com
 0.0.0.0 a.ads2.msn.com
-0.0.0.0 a.rad.msn.com
 0.0.0.0 ac2.msn.com
 0.0.0.0 ac3.msn.com
 0.0.0.0 ads.beta1.idss.msn.com
@@ -1785,7 +1785,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 arc3.msn.com
 0.0.0.0 arc9.msn.com
 0.0.0.0 b.ads1.msn.com
-0.0.0.0 b.rad.msn.com
 0.0.0.0 c.msn.com
 0.0.0.0 c.msn.com.cn
 0.0.0.0 catalog.video.msn.com
@@ -1795,7 +1794,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 msnads-wm9.fplive.net
 0.0.0.0 popup.msn.com
 0.0.0.0 r.msn.com
-0.0.0.0 rad.msn.com
 0.0.0.0 rmads.eu.msn.com
 0.0.0.0 rmads.msn.com
 0.0.0.0 toolbar.msn.com
@@ -2086,6 +2084,7 @@ ff02::3 ip6-allhosts
 @HostsX OneKey/迅雷在线
 #Sandai
 0.0.0.0 adcount.sandai.net
+0.0.0.0 advstat.xunlei.com
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
 0.0.0.0 biz5.sandai.net
@@ -2100,6 +2099,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 mpv.sandai.net
 0.0.0.0 pubstat.sandai.net
+0.0.0.0 server1.adpolestar.net
 0.0.0.0 ub.dphub.sandai.net
 0.0.0.0 vodsts.sandai.net
 #Thunder
@@ -7258,6 +7258,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pro.letv.com
 #巨鲸网
 0.0.0.0 t.top100.cn
+#搜狐高清
+0.0.0.0 images.sohu.com
 @HostsX 国内站点广告/区域类网站
 #北海365
 0.0.0.0 ad.beihai365.com
