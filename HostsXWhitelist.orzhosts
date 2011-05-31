@@ -1,4 +1,4 @@
-;version=201105231220
+;version=201106010058
 ;author=郭鹏锟（Jock Kwok）
 #导致网页页面部分视频无法正常播放。
 swf.ws.126.net
@@ -103,6 +103,10 @@ $DELETE
 
 #!导致 腾讯 QQ 登陆时 Logo 无法正常显示。但是会疯狂访问网络，目的不明！不建议用户删除！
 qqlogo.qq.com
+$DELETE
+
+#导致 腾讯 QQ 群相册无法正常显示。
+group.store.qq.com
 $DELETE
 
 #导致优酷网搜索功能无法正常使用。

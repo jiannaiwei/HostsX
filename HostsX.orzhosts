@@ -1,4 +1,4 @@
-;version=201105301755
+;version=201106010058
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -2051,7 +2051,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 fodder.qq.com
 0.0.0.0 fodder.tc.qq.com
 0.0.0.0 fw.qq.com
-0.0.0.0 group.store.qq.com
 0.0.0.0 httpring.qq.com
 0.0.0.0 infocenter.qzone.qq.com
 0.0.0.0 infocenter.xiaoyou.qq.com
