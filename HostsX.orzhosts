@@ -1,4 +1,4 @@
-;version=201106012056
+;version=201106012347
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -9367,7 +9367,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adv.iemao.com
 0.0.0.0 Anywhere-games.com
 0.0.0.0 bc.ie222.com
-0.0.0.0 cpic2.edushi.com
 0.0.0.0 down.2345g.info
 0.0.0.0 down.jghdtv.com
 0.0.0.0 down.softdown951.com
