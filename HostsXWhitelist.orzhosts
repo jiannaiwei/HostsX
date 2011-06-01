@@ -1,4 +1,4 @@
-;version=201106010058
+;version=201106010833
 ;author=郭鹏锟（Jock Kwok）
 #导致网页页面部分视频无法正常播放。
 swf.ws.126.net
@@ -59,6 +59,7 @@ $RemoveFromIEBlockedSites
 #导致微软部分产品的下载链接无法跳转和打开。
 view.atdmt.com
 switch.atdmt.com
+clk.abang.com
 $DELETE
 
 #导致 Windows Live Alerts 不能正常工作。

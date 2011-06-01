@@ -1,4 +1,4 @@
-;version=201106010058
+;version=201106010833
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -9604,7 +9604,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cj.8le8le.com
 0.0.0.0 click.315ts.net
 0.0.0.0 click.moonbasa.com
-0.0.0.0 clk.abang.com
 0.0.0.0 cn.88db.com
 0.0.0.0 cnt.zhaopin.com
 0.0.0.0 code.ceyunshi.cn
