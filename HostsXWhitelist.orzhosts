@@ -1,5 +1,9 @@
-;version=201106010833
+;version=201106030102
 ;author=郭鹏锟（Jock Kwok）
+#导致Apple产品恢复固件时无法正常验证。
+gs.apple.com
+$DELETE
+
 #导致网页页面部分视频无法正常播放。
 swf.ws.126.net
 $DELETE

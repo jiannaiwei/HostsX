@@ -1,4 +1,4 @@
-;version=201106012347
+;version=201106030102
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -17,7 +17,6 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 #Mac
 0.0.0.0 advertising.apple.com
-0.0.0.0 gs.apple.com
 255.255.255.255 broadcasthost
 #deepin
 117.27.139.10 bbs.deepin.org
