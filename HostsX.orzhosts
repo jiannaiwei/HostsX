@@ -1,4 +1,4 @@
-;version=201106030102
+;version=201106031057
 ;hostsxversion=0.5.2.1
 ;author=¹ùÅôï¿£¨Jock Kwok£©
 @HostsX Smart Direct
@@ -21,13 +21,15 @@ ff02::3 ip6-allhosts
 #deepin
 117.27.139.10 bbs.deepin.org
 #Operachina
-59.151.106.253 operachina.com 
-59.151.106.253 www.operachina.com 
-59.151.106.253 bbs.operachina.com 
-59.151.106.253 wiki.operachina.com 
-59.151.106.253 press.operachina.com 
-59.151.106.253 redir.operachina.com 
+59.151.106.253 operachina.com
+59.151.106.253 bbs.operachina.com
+59.151.106.253 mini.operachina.com
+59.151.106.253 portal.operachina.com
+59.151.106.253 press.operachina.com
+59.151.106.253 redir.operachina.com
 59.151.106.253 static.operachina.com
+59.151.106.253 wiki.operachina.com
+59.151.106.253 www.operachina.com
 #Facebook
 69.63.189.16 facebook.com
 69.63.189.16 www.facebook.com
