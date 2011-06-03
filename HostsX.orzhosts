@@ -1,4 +1,4 @@
-;version=201106031821
+;version=201106031845
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8958,6 +8958,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.114.com.cn
 0.0.0.0 union.114.com.cn
 0.0.0.0 keyword.vnet.cn
+0.0.0.0 game1.zj.vnet.cn
 0.0.0.0 search.114.vnet.cn
 0.0.0.0 search.gd118114.cn
 0.0.0.0 dianxin.cn
@@ -9874,3 +9875,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 www.webgame188.com
 0.0.0.0 www.ymd88.com
+0.0.0.0 www.wa66.com
+0.0.0.0 wa66.com
+0.0.0.0 7k7kimg.cn
+0.0.0.0 n.7k7kimg.cn
