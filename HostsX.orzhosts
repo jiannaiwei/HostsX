@@ -1,4 +1,4 @@
-;version=201106082010
+;version=201106082210
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -1681,6 +1681,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 btm.pchome.net
 0.0.0.0 btn.pchome.net
 0.0.0.0 click.pchome.net
+0.0.0.0 count.club.pchome.net
 0.0.0.0 js-1.pchome.net
 0.0.0.0 market.pchome.net
 0.0.0.0 stat.pchome.net
@@ -2105,7 +2106,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsclick.qq.com
 0.0.0.0 adsfile.qq.com
 0.0.0.0 adsgroup.qq.com
-0.0.0.0 adsgroup.qq.com
 0.0.0.0 adshmct.qq.com
 0.0.0.0 adshmmsg.qq.com
 0.0.0.0 adslvfile.qq.com
@@ -2404,12 +2404,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ard.yahoo.co.jp
 0.0.0.0 yjaxc.yahoo.co.jp
 #Yahoo.com.cn
-0.0.0.0 p.tanx.com
 0.0.0.0 click.tanx.com
-0.0.0.0 img.mmcdn.cn
+0.0.0.0 p.tanx.com
+0.0.0.0 aliunion.cn.yahoo.com
 0.0.0.0 api.ads.vip.cnh.yahoo.com
 0.0.0.0 cm.p4p.cn.yahoo.com
 0.0.0.0 cn.promo.yahoo.com
+0.0.0.0 img.mmcdn.cn
 0.0.0.0 js.tongji.cn.yahoo.com
 0.0.0.0 js.tongji.yahoo.com.cn
 0.0.0.0 new.rd.cn.yahoo.com
@@ -7445,6 +7446,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 f3.1lo0.net
 0.0.0.0 f4.1lo0.net
 0.0.0.0 f6.1lo0.net
+#114lm
+0.0.0.0 www.114lm.com
 #160ads
 0.0.0.0 a.5qwg.com
 0.0.0.0 js.160ads.com
@@ -7511,13 +7514,14 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.91ivr.com
 0.0.0.0 www.91ivr.com
 #99click
+0.0.0.0 1116.oadz.com
+0.0.0.0 159.oadz.com
+0.0.0.0 a.oadz.com
+0.0.0.0 a1139.oadz.com
+0.0.0.0 a1410.oadz.com
 0.0.0.0 a777.oadz.com
 0.0.0.0 a814.oadz.com
 0.0.0.0 a873.oadz.com
-0.0.0.0 a1139.oadz.com
-0.0.0.0 a1410.oadz.com
-0.0.0.0 1116.oadz.com
-0.0.0.0 a.oadz.com
 0.0.0.0 dns1.oadz.com
 0.0.0.0 dns2.oadz.com
 0.0.0.0 www.99click.com
@@ -7849,6 +7853,9 @@ $      下载最新版本的 HostsX。
 #Barmms
 0.0.0.0 barmms.com
 0.0.0.0 i.barmms.com
+#Bigdebussy
+0.0.0.0 bigdebussy.com
+0.0.0.0 t.bigdebussy.com
 #Bloggerads
 0.0.0.0 ad2.bloggerads.net
 0.0.0.0 css.bloggerads.net
@@ -8452,6 +8459,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v1.textclick.com
 0.0.0.0 textclick.com
 0.0.0.0 www.textlink.cn
+#Targetedmedia
+0.0.0.0 e.banmamedia.com
+0.0.0.0 un2.banmamedia.com
+0.0.0.0 www.banmamedia.com
+0.0.0.0 www.targetedmedia.com.cn
 #TJQ
 0.0.0.0 i.tjq.com
 0.0.0.0 d2.tjq.com
@@ -8471,12 +8483,17 @@ $      下载最新版本的 HostsX。
 #Union001
 0.0.0.0 union001.com
 0.0.0.0 p.union001.com
+#Union188
+0.0.0.0 c.union188.com
+0.0.0.0 img.union188.com
 #Unionbig
 0.0.0.0 txt.unionli.com
 0.0.0.0 u.unionli.com
 0.0.0.0 uimg.unionli.com
 0.0.0.0 ds2.unionbig.com
 0.0.0.0 p.unionbig.com
+0.0.0.0 s2.unionbig.com 
+0.0.0.0 track.unionbig.com
 0.0.0.0 ww.unionbig.com
 0.0.0.0 wwv.unionbig.com
 #Unionsky
@@ -8555,8 +8572,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 img.woairing.cn
 0.0.0.0 code.woairing.cn
 #Woyo
+0.0.0.0 gamecount.woyo.com
 0.0.0.0 media.woyo.com
 0.0.0.0 regist.woyo.com
+0.0.0.0 static.games.woyo.com
 0.0.0.0 trace.woyo.com
 #Wyunion
 0.0.0.0 c.wyunion.com
@@ -8564,6 +8583,8 @@ $      下载最新版本的 HostsX。
 #Xt918
 0.0.0.0 www.xt918.com
 0.0.0.0 xt918.com
+0.0.0.0 w.xt918.com
+0.0.0.0 ww.xt918.com
 #Yyclick
 0.0.0.0 t.yyclick.com
 0.0.0.0 www.yyclick.com
@@ -8584,19 +8605,26 @@ $      下载最新版本的 HostsX。
 0.0.0.0 inside.bitcomet.com
 #Flashget
 0.0.0.0 dll.flashget.com
+0.0.0.0 down1.flashget.com
+0.0.0.0 down2.flashget.com
+0.0.0.0 down3.flashget.com
+0.0.0.0 down4.flashget.com
+0.0.0.0 down5.flashget.com
+0.0.0.0 down6.flashget.com
+0.0.0.0 down7.flashget.com
 0.0.0.0 fetch.flashget.com
 0.0.0.0 ggstat.flashget.com
 0.0.0.0 olstat.flashget.com
-0.0.0.0 stat.flashget.com
 0.0.0.0 stac.flashget.com
-0.0.0.0 static.u966.com
-0.0.0.0 m.u966.com
+0.0.0.0 stat.flashget.com
 0.0.0.0 bc.kuaiche.com
 0.0.0.0 cimg.kuaiche.com
-0.0.0.0 directui.kuaiche.com.showq.net
 0.0.0.0 ufile.kuaiche.com
 0.0.0.0 client.kuaiche.com
 0.0.0.0 imgcache.kuaiche.com
+0.0.0.0 directui.kuaiche.com.showq.net
+0.0.0.0 static.u966.com
+0.0.0.0 m.u966.com
 #Funshion
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
@@ -8709,6 +8737,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 qvodlink.hco.cc
 #SopCast
 0.0.0.0 home.sopserv.com
+#Tvants
+0.0.0.0 ads.tvants.com
+0.0.0.0 cache2.tvants.com
 #UUSee
 0.0.0.0 g.uusee.com
 0.0.0.0 sa.uusee.com
@@ -9042,6 +9073,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑行为拦截/病毒拦截
 #广告诈骗钓鱼等
+0.0.0.0 www.shous360.com
+0.0.0.0 www.u88.cn
+0.0.0.0 jianfei.38t.com.cn
+0.0.0.0 www.38t.com.cn
 0.0.0.0 all.fasuoo.com
 0.0.0.0 qian.fasuoo.com
 0.0.0.0 tang.fasuoo.com
@@ -9250,6 +9285,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.vunion.net
 0.0.0.0 sm2.netitv.com
 #IE劫持
+0.0.0.0 www.256h.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2548.cn
@@ -9636,8 +9672,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adimg.37117.com
 0.0.0.0 www.admin6.com
 0.0.0.0 jump.admin6.com
+0.0.0.0 ads.17hug.com
+0.0.0.0 member.slb.17hug.com
 0.0.0.0 c.88210212.com
 0.0.0.0 cc.88210212.com
+0.0.0.0 g.88210212.com
 0.0.0.0 gg.88210212.com
 0.0.0.0 cpm.union.52xiyou.com
 0.0.0.0 s1.pic.union.52xiyou.com
@@ -9674,7 +9713,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c.ourclick.net
 0.0.0.0 c.pee.cn
 0.0.0.0 c.sfilm.com
-0.0.0.0 c.union188.com
 0.0.0.0 cj.8le8le.com
 0.0.0.0 click.315ts.net
 0.0.0.0 click.moonbasa.com
@@ -9700,7 +9738,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 frxz.mttmtt.com
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 g.175pt.com
-0.0.0.0 g.88210212.com
 0.0.0.0 g.91sanguo.cn
 0.0.0.0 g.9444.com
 0.0.0.0 g.kx365.com
@@ -9880,15 +9917,31 @@ $      下载最新版本的 HostsX。
 0.0.0.0 uimg.union178.com
 #testdata
 0.0.0.0 1133.baiduskxn.cn
+0.0.0.0 131377.com
 0.0.0.0 189.zhanguotj.com
+0.0.0.0 1st.ecoma.glb0.lxdns.com
 0.0.0.0 58.gyyx.cn
+0.0.0.0 7k7kimg.cn
+0.0.0.0 a.779.net
+0.0.0.0 ad.363.in
+0.0.0.0 ad.greedland.net
+0.0.0.0 ad1.greedland.net
+0.0.0.0 adv.imhb.cn
 0.0.0.0 benchic.9966.org
 0.0.0.0 bto.52yeyou.com
 0.0.0.0 c.lelewan.com
+0.0.0.0 c01.i05.cachecn.com
+0.0.0.0 cc00009.h.cncssr.chinache.net
 0.0.0.0 ccc.delete8527.cn
 0.0.0.0 ccyi.r.game2.com.cn
+0.0.0.0 cheer.cjoy.com.cn
+0.0.0.0 code.51sotu.com
+0.0.0.0 code.comuce.com
 0.0.0.0 content.caixun.com
+0.0.0.0 cpc.xioo.cn
 0.0.0.0 d.5ding.com
+0.0.0.0 dds.sogua.com
+0.0.0.0 f.mtmmt.com
 0.0.0.0 fashion.701sou.com
 0.0.0.0 ftxy.528day.com
 0.0.0.0 game.tdwan.com
@@ -9896,11 +9949,16 @@ $      下载最新版本的 HostsX。
 0.0.0.0 gg1.173hl.com
 0.0.0.0 go.game2me.cn
 0.0.0.0 help.x.com.cn
+0.0.0.0 hi2.totolook.com
+0.0.0.0 home.wangmeng.com
 0.0.0.0 hxsg.528day.com
 0.0.0.0 hz.www.rbc.cn
 0.0.0.0 images.zhenming.net
 0.0.0.0 j.zqgame.com
+0.0.0.0 links.panr.com
 0.0.0.0 media.wushen.com
+0.0.0.0 mm.3992929.com
+0.0.0.0 n.7k7kimg.cn
 0.0.0.0 p.srwchina.com
 0.0.0.0 pic183025.images9999.com
 0.0.0.0 proeveryday.ju51.com
@@ -9909,6 +9967,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 reg.njeee.com
 0.0.0.0 reg.nonoyx.com
 0.0.0.0 reg.ucjoy.com
+0.0.0.0 show.sogua.com
+0.0.0.0 statistic.5ding.com
+0.0.0.0 syjcq.com 
 0.0.0.0 t.5ding.com
 0.0.0.0 t.75youxi.com
 0.0.0.0 tantra.ccjoy.com
@@ -9916,12 +9977,17 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tg.56uu.com
 0.0.0.0 tg1.1000one.com
 0.0.0.0 towin.r.the2009.cn
+0.0.0.0 trace.syjcq.com
 0.0.0.0 u.51fswd.com
 0.0.0.0 un.5i.com
 0.0.0.0 union.jiyougame.com
+0.0.0.0 union.link7.cn
+0.0.0.0 vip1.cachecn.com
+0.0.0.0 wa66.com
 0.0.0.0 wd.gyyx.cn
 0.0.0.0 wen.wwwfollow5.com
 0.0.0.0 ww.2366.com
+0.0.0.0 www-google-analytics.l.goole.com
 0.0.0.0 www.16768.com
 0.0.0.0 www.587188.cn
 0.0.0.0 www.68yo.com
@@ -9929,16 +9995,15 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.ads.gmodules.com
 0.0.0.0 www.aloho.cn
 0.0.0.0 www.feilongdao.com
+0.0.0.0 www.wa66.com
+0.0.0.0 www.webgame188.com
+0.0.0.0 www.ymd88.com
 0.0.0.0 www1.leeuu.net
 0.0.0.0 wx.klonweb.com.cn
 0.0.0.0 xc.ewtang.com
+0.0.0.0 xt.junnew.com
 0.0.0.0 xy.henhaoji.com
 0.0.0.0 xy.hxage.com
 0.0.0.0 xy.skdaren.com
+0.0.0.0 yee.js.cn
 0.0.0.0 yourchinalove.com
-0.0.0.0 www.webgame188.com
-0.0.0.0 www.ymd88.com
-0.0.0.0 www.wa66.com
-0.0.0.0 wa66.com
-0.0.0.0 7k7kimg.cn
-0.0.0.0 n.7k7kimg.cn
