@@ -19,6 +19,9 @@ $DELETE
 adcontrol.tudou.com
 $DELETE
 
+0.0.0.0 afp.pplive.com--单独添加这一项可以屏蔽节目预告弹窗下面的小广告
+
+ 0.0.0.0 pp.pplive.com (Play tips)
 
 #Emurasoft（EmEditor）
 0.0.0.0 www.emurasoft.com
