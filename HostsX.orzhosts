@@ -1,4 +1,4 @@
-;version=201106082210
+;version=201106090931
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）
 @HostsX Smart Direct
@@ -8837,6 +8837,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.alcohol-soft.com
 #Ashampoo
 0.0.0.0 licenses.ashampoo.com
+#BeyondCompare
+0.0.0.0 scootersoftware.com
 #Comodo UserTrust
 0.0.0.0 www.comodogroup.com
 0.0.0.0 www.usertrust.com
