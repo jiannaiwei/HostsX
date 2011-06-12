@@ -1,4 +1,4 @@
-;version=201106121059
+;version=201106121154
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree、jason_jiang
 @HostsX Smart Direct
@@ -9115,6 +9115,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑行为拦截/病毒拦截
 #广告诈骗钓鱼等
+0.0.0.0 www.taob.cc
 0.0.0.0 wevs.uk.pn
 0.0.0.0 web1125828.w95.1860php.com
 0.0.0.0 www.xie51.com
