@@ -1,4 +1,4 @@
-;version=201106121050
+;version=201106121059
 ;hostsxversion=0.5.2.1
 ;author=郭鹏锟（Jock Kwok）、jason_jiang
 @HostsX Smart Direct
@@ -9116,9 +9116,9 @@ $      下载最新版本的 HostsX。
 @HostsX 可疑行为拦截/病毒拦截
 #广告诈骗钓鱼等
 0.0.0.0 wevs.uk.pn
-0.0.0.0 1860php.com
-0.0.0.0 xie51.com
-0.0.0.0 u-ker.com.cn
+0.0.0.0 web1125828.w95.1860php.com
+0.0.0.0 www.xie51.com
+0.0.0.0 www.u-ker.com.cn
 0.0.0.0 www.shous360.com
 0.0.0.0 www.u88.cn
 0.0.0.0 jianfei.38t.com.cn
@@ -9944,6 +9944,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.wangyuan.com
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 www.xiazai189.com
+0.0.0.0 web.7k7k.com
 0.0.0.0 www.xixianad.com
 0.0.0.0 www.xwadv.com
 0.0.0.0 www.yiqiwin.com
