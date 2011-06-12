@@ -1503,6 +1503,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 taoke.alimama.com
 0.0.0.0 www.alimama.com
 0.0.0.0 z.alimama.com
+0.0.0.0 tw.alimama.cn
 #阿里巴巴
 0.0.0.0 acookie.alibaba.com
 0.0.0.0 p3p.alibaba.com
@@ -9114,6 +9115,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑行为拦截/病毒拦截
 #广告诈骗钓鱼等
+0.0.0.0 wevs.uk.pn
+0.0.0.0 1860php.com
+0.0.0.0 xie51.com
+0.0.0.0 u-ker.com.cn
 0.0.0.0 www.shous360.com
 0.0.0.0 www.u88.cn
 0.0.0.0 jianfei.38t.com.cn
