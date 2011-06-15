@@ -8,13 +8,7 @@
 #Google IPv6 地址及对应证书列表(不再细分)：https://docs.google.com/Doc?docid=0ARhAbsvps1PlZGZrZG14bnRfOTVmZzR4NjRkdA&hl=en
 #有新的Google地址需要添加？请在这里提交，帮助我完善此列表，谢谢～
 #欢迎穿越传阅
-#5/7v*.lscache*.l.google.com IP地址变更（youtube视频储存服务器除外，谁有日本yt的IP告诉我- -），由日本东京改为澳洲悉尼，速度我测试变快了
-#5/10更新v*.lscache*.c.google.com 感谢JL Hwung的提供
-#7/12《电脑报》你威武！（2010年7月12日G14版第四列）
-#3/9 更新 Docs 系列三级域名
-#3/18大量更新 YouTube 系列域名
-#4/27同時給出YouTube原域名對應ip列表
-#6/* 大量更新（另新增谷奥、Orkut 等）
+#6/* 大量更新（另新增谷奥、Orkut、Plurk、Mozilla、bit.ly / j.mp 等；本月 YouTube CDN 已多次调整，请及时更新）
 #顺便提供能够解析出Google的IPv6地址的DNS服务器(因提供这些服务器的ISP已经加入Google over IPv6计划)，这样不需要修改hosts，只需改变本机DNS设置就可以自动将Google域名解析为IPv6地址了。
 # 2001:470:20::2 (v6)
 # 74.82.42.42 (v4)
@@ -23,6 +17,7 @@
 # http://go6.net/4105/download.asp
 # cFos IPv6 Link
 #最近好像有0.5不停的在举报本文有不适宜内容（滥用行为），然后接连收到10余封google发来的本文审核通过可以发表的邮件，我建议大家备份一下本文，免得某些人把本文404，reset什么的之类- -
+--------------------------------------------------------------------------------
 #hosts文件位置：
 #C:\Windows\System32\drivers\etc  （Windows中）
 #/etc  （Linux中）
@@ -256,12 +251,12 @@
 2404:6800:8005::62 id.google.com
 2404:6800:8005::62 id.l.google.com
 2401:3800:c001::68 id.google.cn
-2401:3800:c001::68 ditu.google.cn
-2401:3800:c001::68 mt0.google.cn
-2401:3800:c001::68 mt1.google.cn
-2401:3800:c001::68 mt2.google.cn
-2401:3800:c001::68 mt3.google.cn
-2401:3800:c001::68 maps.gstatic.cn
+2404:6800:8005::68 ditu.google.cn
+2404:6800:8005::68 mt0.google.cn
+2404:6800:8005::68 mt1.google.cn
+2404:6800:8005::68 mt2.google.cn
+2404:6800:8005::68 mt3.google.cn
+2404:6800:8005::67 maps.gstatic.cn
 #News              资讯
 2404:6800:8005::68 news.google.com                    #主页
 2404:6800:8005::68 news.l.google.com                  
@@ -564,6 +559,7 @@
 2404:6800:8005::8d moderator.appspot.com              #Google Moderator
 2404:6800:8005::8d gv-gadget.appspot.com              #YouTube Gadget
 2404:6800:8005::8d haiticrisis.appspot.com            #Google Person Finder: Haiti Earthquake
+2404:6800:8005::8d i18napis.appspot.com
 #Google APIs       开发接口服务
 2404:6800:8005::62 chart.apis.google.com              #Google 图表 API
 2404:6800:8005::5f *.googleapis.com
@@ -595,10 +591,10 @@
 2404:6800:8005::84 lh4.googleusercontent.com
 2404:6800:8005::84 lh5.googleusercontent.com
 2404:6800:8005::84 lh6.googleusercontent.com
-2404:6800:8005::62 lh3.googleusercontent.com                          #谷歌音乐（大陆）
-2404:6800:8005::62 lh4.googleusercontent.com                          #谷歌音乐（大陆）
-2404:6800:8005::62 lh5.googleusercontent.com                          #谷歌音乐（大陆）
-2404:6800:8005::62 lh6.googleusercontent.com                          #谷歌音乐（大陆）
+#2404:6800:8005::62 lh3.googleusercontent.com                          #谷歌音乐（大陆）
+#2404:6800:8005::62 lh4.googleusercontent.com                          #谷歌音乐（大陆）
+#2404:6800:8005::62 lh5.googleusercontent.com                          #谷歌音乐（大陆）
+#2404:6800:8005::62 lh6.googleusercontent.com                          #谷歌音乐（大陆）
 2404:6800:8005::84 s2.googleusercontent.com                           #
 2404:6800:8005::84 themes.googleusercontent.com                       #开放字体库
 2404:6800:8005::84 wave.googleusercontent.com                         #Wave
@@ -750,7 +746,7 @@
 2404:6800:8005::62 buzz.google.com
 #Answers/Guru/WenDa  问答社区（国际版已停止运营）
 2404:6800:8005::66 answers.google.com
-2404:6800:8005::62 guru.google.com
+#2404:6800:8005::62 guru.google.com
 2404:6800:8005::62 guru.google.co.th          #泰国
 #Fusion            RSS 聚合指南
 2404:6800:8005::62 fusion.google.com
@@ -786,8 +782,16 @@
 2404:6800:8005::62 t1.gstatic.com
 2404:6800:8005::62 t2.gstatic.com
 2404:6800:8005::62 t3.gstatic.com
-2404:6800:8005::62 t4.gstatic.com
-2404:6800:8005::62 mt0.gstatic.com
+#2404:6800:8005::62 t4.gstatic.com
+2404:6800:8005::66 mt0.gstatic.com
+2404:6800:8005::66 mt1.gstatic.com
+2404:6800:8005::8b mt2.gstatic.com
+2404:6800:8005::66 mt3.gstatic.com
+2404:6800:8005::8b mt4.gstatic.com
+2404:6800:8005::66 mt5.gstatic.com
+2404:6800:8005::8b mt6.gstatic.com
+2404:6800:8005::66 mt7.gstatic.com
+2404:6800:8005::67 www.gstatic.cn
 ##Google其他服务
 #YouTube
 2404:6800:8005::65 www.youtube.com
@@ -1202,6 +1206,438 @@
 2001:4860:4001:7::12 v24.nonxt6.c.youtube.com
 2001:4860:4001:5::12 v24.nonxt7.c.youtube.com
 2001:4860:4001:1::12 v24.nonxt8.c.youtube.com
+2404:6800:4001::10 r1.kul01s01.c.youtube.com
+2404:6800:4001::11 r2.kul01s01.c.youtube.com
+2404:6800:4001::12 r3.kul01s01.c.youtube.com
+2404:6800:4001::13 r4.kul01s01.c.youtube.com
+2404:6800:4001::14 r5.kul01s01.c.youtube.com
+2404:6800:4001::15 r6.kul01s01.c.youtube.com
+2404:6800:4001::16 r7.kul01s01.c.youtube.com
+2404:6800:4001::17 r8.kul01s01.c.youtube.com
+2404:6800:4001::18 r9.kul01s01.c.youtube.com
+2404:6800:4001::19 r10.kul01s01.c.youtube.com
+2404:6800:4001::1a r11.kul01s01.c.youtube.com
+2404:6800:4001::1b r12.kul01s01.c.youtube.com
+2404:6800:4001::1c r13.kul01s01.c.youtube.com
+2404:6800:4001::1d r14.kul01s01.c.youtube.com
+2404:6800:4001::1e r15.kul01s01.c.youtube.com
+2404:6800:4001::1f r16.kul01s01.c.youtube.com
+2404:6800:4001::20 r17.kul01s01.c.youtube.com
+2404:6800:4001::21 r18.kul01s01.c.youtube.com
+2404:6800:4001::22 r19.kul01s01.c.youtube.com
+2404:6800:4001::23 r20.kul01s01.c.youtube.com
+2404:6800:4001::24 r21.kul01s01.c.youtube.com
+2404:6800:4001::25 r22.kul01s01.c.youtube.com
+2404:6800:4001::26 r23.kul01s01.c.youtube.com
+2404:6800:4001::27 r24.kul01s01.c.youtube.com
+2404:6800:4001:1::10 r1.kul01s02.c.youtube.com
+2404:6800:4001:1::11 r2.kul01s02.c.youtube.com
+2404:6800:4001:1::12 r3.kul01s02.c.youtube.com
+2404:6800:4001:1::13 r4.kul01s02.c.youtube.com
+2404:6800:4001:1::14 r5.kul01s02.c.youtube.com
+2404:6800:4001:1::15 r6.kul01s02.c.youtube.com
+2404:6800:4001:1::16 r7.kul01s02.c.youtube.com
+2404:6800:4001:1::17 r8.kul01s02.c.youtube.com
+2404:6800:4001:1::18 r9.kul01s02.c.youtube.com
+2404:6800:4001:1::19 r10.kul01s02.c.youtube.com
+2404:6800:4001:1::1a r11.kul01s02.c.youtube.com
+2404:6800:4001:1::1b r12.kul01s02.c.youtube.com
+2404:6800:4001:1::1c r13.kul01s02.c.youtube.com
+2404:6800:4001:1::1d r14.kul01s02.c.youtube.com
+2404:6800:4001:1::1e r15.kul01s02.c.youtube.com
+2404:6800:4001:1::1f r16.kul01s02.c.youtube.com
+2404:6800:4001:1::20 r17.kul01s02.c.youtube.com
+2404:6800:4001:1::21 r18.kul01s02.c.youtube.com
+2404:6800:4001:1::22 r19.kul01s02.c.youtube.com
+2404:6800:4001:1::23 r20.kul01s02.c.youtube.com
+2404:6800:4001:1::24 r21.kul01s02.c.youtube.com
+2404:6800:4001:1::25 r22.kul01s02.c.youtube.com
+2404:6800:4001:1::26 r23.kul01s02.c.youtube.com
+2404:6800:4001:1::27 r24.kul01s02.c.youtube.com
+2404:6800:4001::10 tc.v1.cache1.c.youtube.com
+2404:6800:4001::10 tc.v1.cache2.c.youtube.com
+2404:6800:4001::10 tc.v1.cache3.c.youtube.com
+2404:6800:4001::10 tc.v1.cache4.c.youtube.com
+2404:6800:4001:1::10 tc.v1.cache5.c.youtube.com
+2404:6800:4001::10 tc.v1.cache6.c.youtube.com
+2404:6800:4001::10 tc.v1.cache7.c.youtube.com
+2404:6800:4001::10 tc.v1.cache8.c.youtube.com
+2404:6800:4001:1::13 tc.v2.cache1.c.youtube.com
+2404:6800:4001:1::13 tc.v2.cache2.c.youtube.com
+2404:6800:4001::13 tc.v2.cache3.c.youtube.com
+2404:6800:4001:1::13 tc.v2.cache4.c.youtube.com
+2404:6800:4001::13 tc.v2.cache5.c.youtube.com
+2404:6800:4001::13 tc.v2.cache6.c.youtube.com
+2404:6800:4001::13 tc.v2.cache7.c.youtube.com
+2404:6800:4001::13 tc.v2.cache8.c.youtube.com
+2404:6800:4001::16 tc.v3.cache1.c.youtube.com
+2404:6800:4001::16 tc.v3.cache2.c.youtube.com
+2404:6800:4001::16 tc.v3.cache3.c.youtube.com
+2404:6800:4001::16 tc.v3.cache4.c.youtube.com
+2404:6800:4001::16 tc.v3.cache5.c.youtube.com
+2404:6800:4001::16 tc.v3.cache6.c.youtube.com
+2404:6800:4001:1::16 tc.v3.cache7.c.youtube.com
+2404:6800:4001::16 tc.v3.cache8.c.youtube.com
+2404:6800:4001::19 tc.v4.cache1.c.youtube.com
+2404:6800:4001:1::19 tc.v4.cache2.c.youtube.com
+2404:6800:4001::19 tc.v4.cache3.c.youtube.com
+2404:6800:4001::19 tc.v4.cache4.c.youtube.com
+2404:6800:4001::19 tc.v4.cache5.c.youtube.com
+2404:6800:4001::19 tc.v4.cache6.c.youtube.com
+2404:6800:4001::19 tc.v4.cache7.c.youtube.com
+2404:6800:4001::19 tc.v4.cache8.c.youtube.com
+2404:6800:4001::1c tc.v5.cache1.c.youtube.com
+2404:6800:4001:1::1c tc.v5.cache2.c.youtube.com
+2404:6800:4001::1c tc.v5.cache3.c.youtube.com
+2404:6800:4001:1::1c tc.v5.cache4.c.youtube.com
+2404:6800:4001::1c tc.v5.cache5.c.youtube.com
+2404:6800:4001::1c tc.v5.cache6.c.youtube.com
+2404:6800:4001::1c tc.v5.cache7.c.youtube.com
+2404:6800:4001::1c tc.v5.cache8.c.youtube.com
+2404:6800:4001::1f tc.v6.cache1.c.youtube.com
+2404:6800:4001::1f tc.v6.cache2.c.youtube.com
+2404:6800:4001::1f tc.v6.cache3.c.youtube.com
+2404:6800:4001::1f tc.v6.cache4.c.youtube.com
+2404:6800:4001::1f tc.v6.cache5.c.youtube.com
+2404:6800:4001::1f tc.v6.cache6.c.youtube.com
+2404:6800:4001::1f tc.v6.cache7.c.youtube.com
+2404:6800:4001:1::1f tc.v6.cache8.c.youtube.com
+2404:6800:4001::22 tc.v7.cache1.c.youtube.com
+2404:6800:4001::22 tc.v7.cache2.c.youtube.com
+2404:6800:4001::22 tc.v7.cache3.c.youtube.com
+2404:6800:4001:1::22 tc.v7.cache4.c.youtube.com
+2404:6800:4001::22 tc.v7.cache5.c.youtube.com
+2404:6800:4001:1::22 tc.v7.cache6.c.youtube.com
+2404:6800:4001::22 tc.v7.cache7.c.youtube.com
+2404:6800:4001::22 tc.v7.cache8.c.youtube.com
+2404:6800:4001::25 tc.v8.cache1.c.youtube.com
+2404:6800:4001::25 tc.v8.cache2.c.youtube.com
+2404:6800:4001:1::25 tc.v8.cache3.c.youtube.com
+2404:6800:4001::25 tc.v8.cache4.c.youtube.com
+2404:6800:4001:1::25 tc.v8.cache5.c.youtube.com
+2404:6800:4001::25 tc.v8.cache6.c.youtube.com
+2404:6800:4001::25 tc.v8.cache7.c.youtube.com
+2404:6800:4001:1::25 tc.v8.cache8.c.youtube.com
+2404:6800:4001::11 tc.v9.cache1.c.youtube.com
+2404:6800:4001::11 tc.v9.cache2.c.youtube.com
+2404:6800:4001::11 tc.v9.cache3.c.youtube.com
+2404:6800:4001:1::11 tc.v9.cache4.c.youtube.com
+2404:6800:4001:1::11 tc.v9.cache5.c.youtube.com
+2404:6800:4001::11 tc.v9.cache6.c.youtube.com
+2404:6800:4001::11 tc.v9.cache7.c.youtube.com
+2404:6800:4001::11 tc.v9.cache8.c.youtube.com
+2404:6800:4001::14 tc.v10.cache1.c.youtube.com
+2404:6800:4001::14 tc.v10.cache2.c.youtube.com
+2404:6800:4001::14 tc.v10.cache3.c.youtube.com
+2404:6800:4001::14 tc.v10.cache4.c.youtube.com
+2404:6800:4001::14 tc.v10.cache5.c.youtube.com
+2404:6800:4001::14 tc.v10.cache6.c.youtube.com
+2404:6800:4001:1::14 tc.v10.cache7.c.youtube.com
+2404:6800:4001::14 tc.v10.cache8.c.youtube.com
+2404:6800:4001::17 tc.v11.cache1.c.youtube.com
+2404:6800:4001::17 tc.v11.cache2.c.youtube.com
+2404:6800:4001::17 tc.v11.cache3.c.youtube.com
+2404:6800:4001::17 tc.v11.cache4.c.youtube.com
+2404:6800:4001::17 tc.v11.cache5.c.youtube.com
+2404:6800:4001::17 tc.v11.cache6.c.youtube.com
+2404:6800:4001::17 tc.v11.cache7.c.youtube.com
+2404:6800:4001::17 tc.v11.cache8.c.youtube.com
+2404:6800:4001::1a tc.v12.cache1.c.youtube.com
+2404:6800:4001:1::1a tc.v12.cache2.c.youtube.com
+2404:6800:4001::1a tc.v12.cache3.c.youtube.com
+2404:6800:4001::1a tc.v12.cache4.c.youtube.com
+2404:6800:4001::1a tc.v12.cache5.c.youtube.com
+2404:6800:4001::1a tc.v12.cache6.c.youtube.com
+2404:6800:4001::1a tc.v12.cache7.c.youtube.com
+2404:6800:4001::1a tc.v12.cache8.c.youtube.com
+2404:6800:4001::1d tc.v13.cache1.c.youtube.com
+2404:6800:4001::1d tc.v13.cache2.c.youtube.com
+2404:6800:4001::1d tc.v13.cache3.c.youtube.com
+2404:6800:4001::1d tc.v13.cache4.c.youtube.com
+2404:6800:4001:1::1d tc.v13.cache5.c.youtube.com
+2404:6800:4001::1d tc.v13.cache6.c.youtube.com
+2404:6800:4001::1d tc.v13.cache7.c.youtube.com
+2404:6800:4001::1d tc.v13.cache8.c.youtube.com
+2404:6800:4001::20 tc.v14.cache1.c.youtube.com
+2404:6800:4001::20 tc.v14.cache2.c.youtube.com
+2404:6800:4001::20 tc.v14.cache3.c.youtube.com
+2404:6800:4001::20 tc.v14.cache4.c.youtube.com
+2404:6800:4001::20 tc.v14.cache5.c.youtube.com
+2404:6800:4001::20 tc.v14.cache6.c.youtube.com
+2404:6800:4001::20 tc.v14.cache7.c.youtube.com
+2404:6800:4001:1::20 tc.v14.cache8.c.youtube.com
+2404:6800:4001::23 tc.v15.cache1.c.youtube.com
+2404:6800:4001::23 tc.v15.cache2.c.youtube.com
+2404:6800:4001::23 tc.v15.cache3.c.youtube.com
+2404:6800:4001:1::23 tc.v15.cache4.c.youtube.com
+2404:6800:4001::23 tc.v15.cache5.c.youtube.com
+2404:6800:4001:1::23 tc.v15.cache6.c.youtube.com
+2404:6800:4001::23 tc.v15.cache7.c.youtube.com
+2404:6800:4001::23 tc.v15.cache8.c.youtube.com
+2404:6800:4001::26 tc.v16.cache1.c.youtube.com
+2404:6800:4001::26 tc.v16.cache2.c.youtube.com
+2404:6800:4001:1::26 tc.v16.cache3.c.youtube.com
+2404:6800:4001::26 tc.v16.cache4.c.youtube.com
+2404:6800:4001::26 tc.v16.cache5.c.youtube.com
+2404:6800:4001::26 tc.v16.cache6.c.youtube.com
+2404:6800:4001::26 tc.v16.cache7.c.youtube.com
+2404:6800:4001::26 tc.v16.cache8.c.youtube.com
+2404:6800:4001::12 tc.v17.cache1.c.youtube.com
+2404:6800:4001::12 tc.v17.cache2.c.youtube.com
+2404:6800:4001::12 tc.v17.cache3.c.youtube.com
+2404:6800:4001::12 tc.v17.cache4.c.youtube.com
+2404:6800:4001::12 tc.v17.cache5.c.youtube.com
+2404:6800:4001::12 tc.v17.cache6.c.youtube.com
+2404:6800:4001::12 tc.v17.cache7.c.youtube.com
+2404:6800:4001::12 tc.v17.cache8.c.youtube.com
+2404:6800:4001:1::15 tc.v18.cache1.c.youtube.com
+2404:6800:4001:1::15 tc.v18.cache2.c.youtube.com
+2404:6800:4001::15 tc.v18.cache3.c.youtube.com
+2404:6800:4001::15 tc.v18.cache4.c.youtube.com
+2404:6800:4001::15 tc.v18.cache5.c.youtube.com
+2404:6800:4001::15 tc.v18.cache6.c.youtube.com
+2404:6800:4001:1::15 tc.v18.cache7.c.youtube.com
+2404:6800:4001::15 tc.v18.cache8.c.youtube.com
+2404:6800:4001:1::18 tc.v19.cache1.c.youtube.com
+2404:6800:4001::18 tc.v19.cache2.c.youtube.com
+2404:6800:4001:1::18 tc.v19.cache3.c.youtube.com
+2404:6800:4001:1::18 tc.v19.cache4.c.youtube.com
+2404:6800:4001::18 tc.v19.cache5.c.youtube.com
+2404:6800:4001::18 tc.v19.cache6.c.youtube.com
+2404:6800:4001::18 tc.v19.cache7.c.youtube.com
+2404:6800:4001::18 tc.v19.cache8.c.youtube.com
+2404:6800:4001::1b tc.v20.cache1.c.youtube.com
+2404:6800:4001::1b tc.v20.cache2.c.youtube.com
+2404:6800:4001::1b tc.v20.cache3.c.youtube.com
+2404:6800:4001::1b tc.v20.cache4.c.youtube.com
+2404:6800:4001:1::1b tc.v20.cache5.c.youtube.com
+2404:6800:4001::1b tc.v20.cache6.c.youtube.com
+2404:6800:4001::1b tc.v20.cache7.c.youtube.com
+2404:6800:4001::1b tc.v20.cache8.c.youtube.com
+2404:6800:4001::1e tc.v21.cache1.c.youtube.com
+2404:6800:4001::1e tc.v21.cache2.c.youtube.com
+2404:6800:4001:1::1e tc.v21.cache3.c.youtube.com
+2404:6800:4001::1e tc.v21.cache4.c.youtube.com
+2404:6800:4001::1e tc.v21.cache5.c.youtube.com
+2404:6800:4001:1::1e tc.v21.cache6.c.youtube.com
+2404:6800:4001::1e tc.v21.cache7.c.youtube.com
+2404:6800:4001::1e tc.v21.cache8.c.youtube.com
+2404:6800:4001::21 tc.v22.cache1.c.youtube.com
+2404:6800:4001::21 tc.v22.cache2.c.youtube.com
+2404:6800:4001::21 tc.v22.cache3.c.youtube.com
+2404:6800:4001::21 tc.v22.cache4.c.youtube.com
+2404:6800:4001:1::21 tc.v22.cache5.c.youtube.com
+2404:6800:4001::21 tc.v22.cache6.c.youtube.com
+2404:6800:4001::21 tc.v22.cache7.c.youtube.com
+2404:6800:4001::21 tc.v22.cache8.c.youtube.com
+2404:6800:4001:1::24 tc.v23.cache1.c.youtube.com
+2404:6800:4001::24 tc.v23.cache2.c.youtube.com
+2404:6800:4001::24 tc.v23.cache3.c.youtube.com
+2404:6800:4001::24 tc.v23.cache4.c.youtube.com
+2404:6800:4001::24 tc.v23.cache5.c.youtube.com
+2404:6800:4001::24 tc.v23.cache6.c.youtube.com
+2404:6800:4001::24 tc.v23.cache7.c.youtube.com
+2404:6800:4001::24 tc.v23.cache8.c.youtube.com
+2404:6800:4001::27 tc.v24.cache1.c.youtube.com
+2404:6800:4001::27 tc.v24.cache2.c.youtube.com
+2404:6800:4001::27 tc.v24.cache3.c.youtube.com
+2404:6800:4001::27 tc.v24.cache4.c.youtube.com
+2404:6800:4001:1::27 tc.v24.cache5.c.youtube.com
+2404:6800:4001::27 tc.v24.cache6.c.youtube.com
+2404:6800:4001::27 tc.v24.cache7.c.youtube.com
+2404:6800:4001:1::27 tc.v24.cache8.c.youtube.com
+2404:6800:4001::10 v1.cache1.c.youtube.com
+2404:6800:4001::10 v1.cache2.c.youtube.com
+2404:6800:4001::10 v1.cache3.c.youtube.com
+2404:6800:4001::10 v1.cache4.c.youtube.com
+2404:6800:4001:1::10 v1.cache5.c.youtube.com
+2404:6800:4001::10 v1.cache6.c.youtube.com
+2404:6800:4001::10 v1.cache7.c.youtube.com
+2404:6800:4001::10 v1.cache8.c.youtube.com
+2404:6800:4001:1::13 v2.cache1.c.youtube.com
+2404:6800:4001:1::13 v2.cache2.c.youtube.com
+2404:6800:4001::13 v2.cache3.c.youtube.com
+2404:6800:4001:1::13 v2.cache4.c.youtube.com
+2404:6800:4001::13 v2.cache5.c.youtube.com
+2404:6800:4001::13 v2.cache6.c.youtube.com
+2404:6800:4001::13 v2.cache7.c.youtube.com
+2404:6800:4001::13 v2.cache8.c.youtube.com
+2404:6800:4001::16 v3.cache1.c.youtube.com
+2404:6800:4001::16 v3.cache2.c.youtube.com
+2404:6800:4001::16 v3.cache3.c.youtube.com
+2404:6800:4001::16 v3.cache4.c.youtube.com
+2404:6800:4001::16 v3.cache5.c.youtube.com
+2404:6800:4001::16 v3.cache6.c.youtube.com
+2404:6800:4001:1::16 v3.cache7.c.youtube.com
+2404:6800:4001::16 v3.cache8.c.youtube.com
+2404:6800:4001::19 v4.cache1.c.youtube.com
+2404:6800:4001:1::19 v4.cache2.c.youtube.com
+2404:6800:4001::19 v4.cache3.c.youtube.com
+2404:6800:4001::19 v4.cache4.c.youtube.com
+2404:6800:4001::19 v4.cache5.c.youtube.com
+2404:6800:4001::19 v4.cache6.c.youtube.com
+2404:6800:4001::19 v4.cache7.c.youtube.com
+2404:6800:4001::19 v4.cache8.c.youtube.com
+2404:6800:4001::1c v5.cache1.c.youtube.com
+2404:6800:4001:1::1c v5.cache2.c.youtube.com
+2404:6800:4001::1c v5.cache3.c.youtube.com
+2404:6800:4001:1::1c v5.cache4.c.youtube.com
+2404:6800:4001::1c v5.cache5.c.youtube.com
+2404:6800:4001::1c v5.cache6.c.youtube.com
+2404:6800:4001::1c v5.cache7.c.youtube.com
+2404:6800:4001::1c v5.cache8.c.youtube.com
+2404:6800:4001::1f v6.cache1.c.youtube.com
+2404:6800:4001::1f v6.cache2.c.youtube.com
+2404:6800:4001::1f v6.cache3.c.youtube.com
+2404:6800:4001::1f v6.cache4.c.youtube.com
+2404:6800:4001::1f v6.cache5.c.youtube.com
+2404:6800:4001::1f v6.cache6.c.youtube.com
+2404:6800:4001::1f v6.cache7.c.youtube.com
+2404:6800:4001:1::1f v6.cache8.c.youtube.com
+2404:6800:4001::22 v7.cache1.c.youtube.com
+2404:6800:4001::22 v7.cache2.c.youtube.com
+2404:6800:4001::22 v7.cache3.c.youtube.com
+2404:6800:4001:1::22 v7.cache4.c.youtube.com
+2404:6800:4001::22 v7.cache5.c.youtube.com
+2404:6800:4001:1::22 v7.cache6.c.youtube.com
+2404:6800:4001::22 v7.cache7.c.youtube.com
+2404:6800:4001::22 v7.cache8.c.youtube.com
+2404:6800:4001::25 v8.cache1.c.youtube.com
+2404:6800:4001::25 v8.cache2.c.youtube.com
+2404:6800:4001:1::25 v8.cache3.c.youtube.com
+2404:6800:4001::25 v8.cache4.c.youtube.com
+2404:6800:4001:1::25 v8.cache5.c.youtube.com
+2404:6800:4001::25 v8.cache6.c.youtube.com
+2404:6800:4001::25 v8.cache7.c.youtube.com
+2404:6800:4001:1::25 v8.cache8.c.youtube.com
+2404:6800:4001::11 v9.cache1.c.youtube.com
+2404:6800:4001::11 v9.cache2.c.youtube.com
+2404:6800:4001::11 v9.cache3.c.youtube.com
+2404:6800:4001:1::11 v9.cache4.c.youtube.com
+2404:6800:4001:1::11 v9.cache5.c.youtube.com
+2404:6800:4001::11 v9.cache6.c.youtube.com
+2404:6800:4001::11 v9.cache7.c.youtube.com
+2404:6800:4001::11 v9.cache8.c.youtube.com
+2404:6800:4001::14 v10.cache1.c.youtube.com
+2404:6800:4001::14 v10.cache2.c.youtube.com
+2404:6800:4001::14 v10.cache3.c.youtube.com
+2404:6800:4001::14 v10.cache4.c.youtube.com
+2404:6800:4001::14 v10.cache5.c.youtube.com
+2404:6800:4001::14 v10.cache6.c.youtube.com
+2404:6800:4001:1::14 v10.cache7.c.youtube.com
+2404:6800:4001::14 v10.cache8.c.youtube.com
+2404:6800:4001::17 v11.cache1.c.youtube.com
+2404:6800:4001::17 v11.cache2.c.youtube.com
+2404:6800:4001::17 v11.cache3.c.youtube.com
+2404:6800:4001::17 v11.cache4.c.youtube.com
+2404:6800:4001::17 v11.cache5.c.youtube.com
+2404:6800:4001::17 v11.cache6.c.youtube.com
+2404:6800:4001::17 v11.cache7.c.youtube.com
+2404:6800:4001::17 v11.cache8.c.youtube.com
+2404:6800:4001::1a v12.cache1.c.youtube.com
+2404:6800:4001:1::1a v12.cache2.c.youtube.com
+2404:6800:4001::1a v12.cache3.c.youtube.com
+2404:6800:4001::1a v12.cache4.c.youtube.com
+2404:6800:4001::1a v12.cache5.c.youtube.com
+2404:6800:4001::1a v12.cache6.c.youtube.com
+2404:6800:4001::1a v12.cache7.c.youtube.com
+2404:6800:4001::1a v12.cache8.c.youtube.com
+2404:6800:4001::1d v13.cache1.c.youtube.com
+2404:6800:4001::1d v13.cache2.c.youtube.com
+2404:6800:4001::1d v13.cache3.c.youtube.com
+2404:6800:4001::1d v13.cache4.c.youtube.com
+2404:6800:4001:1::1d v13.cache5.c.youtube.com
+2404:6800:4001::1d v13.cache6.c.youtube.com
+2404:6800:4001::1d v13.cache7.c.youtube.com
+2404:6800:4001::1d v13.cache8.c.youtube.com
+2404:6800:4001::20 v14.cache1.c.youtube.com
+2404:6800:4001::20 v14.cache2.c.youtube.com
+2404:6800:4001::20 v14.cache3.c.youtube.com
+2404:6800:4001::20 v14.cache4.c.youtube.com
+2404:6800:4001::20 v14.cache5.c.youtube.com
+2404:6800:4001::20 v14.cache6.c.youtube.com
+2404:6800:4001::20 v14.cache7.c.youtube.com
+2404:6800:4001:1::20 v14.cache8.c.youtube.com
+2404:6800:4001::23 v15.cache1.c.youtube.com
+2404:6800:4001::23 v15.cache2.c.youtube.com
+2404:6800:4001::23 v15.cache3.c.youtube.com
+2404:6800:4001:1::23 v15.cache4.c.youtube.com
+2404:6800:4001::23 v15.cache5.c.youtube.com
+2404:6800:4001:1::23 v15.cache6.c.youtube.com
+2404:6800:4001::23 v15.cache7.c.youtube.com
+2404:6800:4001::23 v15.cache8.c.youtube.com
+2404:6800:4001::26 v16.cache1.c.youtube.com
+2404:6800:4001::26 v16.cache2.c.youtube.com
+2404:6800:4001:1::26 v16.cache3.c.youtube.com
+2404:6800:4001::26 v16.cache4.c.youtube.com
+2404:6800:4001::26 v16.cache5.c.youtube.com
+2404:6800:4001::26 v16.cache6.c.youtube.com
+2404:6800:4001::26 v16.cache7.c.youtube.com
+2404:6800:4001::26 v16.cache8.c.youtube.com
+2404:6800:4001::12 v17.cache1.c.youtube.com
+2404:6800:4001::12 v17.cache2.c.youtube.com
+2404:6800:4001::12 v17.cache3.c.youtube.com
+2404:6800:4001::12 v17.cache4.c.youtube.com
+2404:6800:4001::12 v17.cache5.c.youtube.com
+2404:6800:4001::12 v17.cache6.c.youtube.com
+2404:6800:4001::12 v17.cache7.c.youtube.com
+2404:6800:4001::12 v17.cache8.c.youtube.com
+2404:6800:4001:1::15 v18.cache1.c.youtube.com
+2404:6800:4001:1::15 v18.cache2.c.youtube.com
+2404:6800:4001::15 v18.cache3.c.youtube.com
+2404:6800:4001::15 v18.cache4.c.youtube.com
+2404:6800:4001::15 v18.cache5.c.youtube.com
+2404:6800:4001::15 v18.cache6.c.youtube.com
+2404:6800:4001:1::15 v18.cache7.c.youtube.com
+2404:6800:4001::15 v18.cache8.c.youtube.com
+2404:6800:4001:1::18 v19.cache1.c.youtube.com
+2404:6800:4001::18 v19.cache2.c.youtube.com
+2404:6800:4001:1::18 v19.cache3.c.youtube.com
+2404:6800:4001:1::18 v19.cache4.c.youtube.com
+2404:6800:4001::18 v19.cache5.c.youtube.com
+2404:6800:4001::18 v19.cache6.c.youtube.com
+2404:6800:4001::18 v19.cache7.c.youtube.com
+2404:6800:4001::18 v19.cache8.c.youtube.com
+2404:6800:4001::1b v20.cache1.c.youtube.com
+2404:6800:4001::1b v20.cache2.c.youtube.com
+2404:6800:4001::1b v20.cache3.c.youtube.com
+2404:6800:4001::1b v20.cache4.c.youtube.com
+2404:6800:4001:1::1b v20.cache5.c.youtube.com
+2404:6800:4001::1b v20.cache6.c.youtube.com
+2404:6800:4001::1b v20.cache7.c.youtube.com
+2404:6800:4001::1b v20.cache8.c.youtube.com
+2404:6800:4001::1e v21.cache1.c.youtube.com
+2404:6800:4001::1e v21.cache2.c.youtube.com
+2404:6800:4001:1::1e v21.cache3.c.youtube.com
+2404:6800:4001::1e v21.cache4.c.youtube.com
+2404:6800:4001::1e v21.cache5.c.youtube.com
+2404:6800:4001:1::1e v21.cache6.c.youtube.com
+2404:6800:4001::1e v21.cache7.c.youtube.com
+2404:6800:4001::1e v21.cache8.c.youtube.com
+2404:6800:4001::21 v22.cache1.c.youtube.com
+2404:6800:4001::21 v22.cache2.c.youtube.com
+2404:6800:4001::21 v22.cache3.c.youtube.com
+2404:6800:4001::21 v22.cache4.c.youtube.com
+2404:6800:4001:1::21 v22.cache5.c.youtube.com
+2404:6800:4001::21 v22.cache6.c.youtube.com
+2404:6800:4001::21 v22.cache7.c.youtube.com
+2404:6800:4001::21 v22.cache8.c.youtube.com
+2404:6800:4001:1::24 v23.cache1.c.youtube.com
+2404:6800:4001::24 v23.cache2.c.youtube.com
+2404:6800:4001::24 v23.cache3.c.youtube.com
+2404:6800:4001::24 v23.cache4.c.youtube.com
+2404:6800:4001::24 v23.cache5.c.youtube.com
+2404:6800:4001::24 v23.cache6.c.youtube.com
+2404:6800:4001::24 v23.cache7.c.youtube.com
+2404:6800:4001::24 v23.cache8.c.youtube.com
+2404:6800:4001::27 v24.cache1.c.youtube.com
+2404:6800:4001::27 v24.cache2.c.youtube.com
+2404:6800:4001::27 v24.cache3.c.youtube.com
+2404:6800:4001::27 v24.cache4.c.youtube.com
+2404:6800:4001:1::27 v24.cache5.c.youtube.com
+2404:6800:4001::27 v24.cache6.c.youtube.com
+2404:6800:4001::27 v24.cache7.c.youtube.com
+2404:6800:4001:1::27 v24.cache8.c.youtube.com
 ####以下為原yt視頻緩存服務器地址列表，遇到無法連接或者連接緩慢的同學可以換回來####
 #2001:4860:4007::10   v1.lscache1.c.youtube.com
 #2001:4860:4007:3::10 v1.lscache2.c.youtube.com
@@ -1395,7 +1831,7 @@
 #2001:4860:4001:402::27 v24.lscache6.c.youtube.com
 #2001:4860:4001:402::27 v24.lscache7.c.youtube.com
 #2001:4860:4001:402::27 v24.lscache8.c.youtube.com
-#Android           Google手机操作系统
+#Android           Google 移动操作系统
 2404:6800:8005::62 www.android.com
 2404:6800:8005::62 android.com
 2404:6800:8003::79 developer.android.com
@@ -1482,9 +1918,12 @@
 #IPv6 专题
 2404:6800:8005::65 ipv6test.google.com
 2404:6800:8005::65 ipv4.google.com
-2404:6800:8005::68 ??????.ds.ipv6test.google.com #四级域名为随机六位数字
+#2404:6800:8005::68 ??????.ds.ipv6test.google.com #四级域名为随机六位数字
+#2404:6800:8005::93 p2.*.*.??????.i2.ds.ipv6-exp.l.google.com
 2404:6800:8005::69 ds.ipv6test.l.google.com
 2404:6800:8005::6a ds.ipv6test.l.google.com
+#其他专题站
+2404:6800:8005::76 www.agoogleaday.com
 ###IPV6代理翻墙
 ##来源;http://docs.google.com/ViewDoc?docid=0AahDRK_oy3_TZGdqeHN4d3NfMTQ4ZnZwejZ3ZGc
 ##http://aa.cx/ipv6-reverse-proxy
@@ -1607,6 +2046,19 @@
 #AnimeNfo.Com
 2001:470:1c:229::2 animenfo.com
 2001:470:1c:229::2 www.animenfo.com
+#bit.ly / j.mp
+2001:418:e801::10:1 bit.ly
+2001:418:e801::11:1 bit.ly
+2001:418:e801::12:1 bit.ly
+2001:418:e801::15:1 bit.ly
+2001:418:e801::10:2 j.mp
+2001:418:e801::11:2 j.mp
+2001:418:e801::12:2 j.mp
+2001:418:e801::15:2 j.mp
+2001:418:e801::10:7 api.bit.ly
+2001:418:e801::11:7 api.bit.ly
+2001:418:e801::12:7 api.bit.ly
+2001:418:e801::15:7 api.bit.ly
 #.天空
 2001:470:1f04:836::2 tix.io                            #主页
 2001:470:1f04:836::2 blog.tix.io                       #Bolg
@@ -1647,7 +2099,7 @@
 2620:0:1cfe:face:b00c::3 apps.facebook.com             #网页应用
 2620:0:1cfe:face:b00c::3 graph.facebook.com
 2620:0:1cfe:face:b00c::4 login.v6.facebook.com  #登陆（官方指定主机名）
-2620:0:1cfe:face:b00c::3 www.facebook.com              #Facebook（非官方指定但可用，不推荐）
+2620:0:1c00:0:face:b00c:0:2 www.facebook.com
 2620:0:1cfe:face:b00c::3 facebook.com                  #Facebook（非官方指定但可用，不推荐）
 2620:0:1cfe:face:b00c::4 login.facebook.com            #登陆（非官方指定但可用，不推荐，会有证书警告）
 2620:0:1cfe:face:b00c::3 12.channel.facebook.com
@@ -1667,8 +2119,23 @@
 #140.174.24.192 profile.ak.fbcdn.net                   #用户资源（头像等），暂无 ipv6 入口
 #194.209.253.57 creative.ak.fbcdn.net                  #活动资源，暂无 ipv6 入口
 #88.221.84.18 static.ak.fbcdn.net                      #网站资源（图像、脚本等），新机制暂无 ipv6 入口
-#UK                                                    英国
+#Mozilla
+2620:101:8001:5::2:4 www.mozilla.org
+2620:101:8001:5::2:5 www.mozilla.com
+2620:101:8001:5::2:6 addons.mozilla.org
+2620:101:8001:5::2:8 www.firefox.com
+#Plurk
+2607:f128:47::1:1 plurk.com
+2607:f128:47::1:1 ipv6.plurk.com
+#ARIN
+2001:500:4:13::81 www.arin.net
+2001:500:4:13::80 www.arin.net
+##UK                                                   英国
 2001:41c8:20::19 worldipv6day.org
+##AU                                                    澳大利亚
+#APNIC
+2001:dc0:2001:11::211 www.apnic.net
+2001:dc0:2001::14 wq.apnic.net
 ##France                                               法国
 #alwaysData                                           
 2001:41d0:1:8f78::1 www.alwaysdata.com                 #主页
@@ -1696,6 +2163,9 @@
 2a01:298:3:1::b000 static.thepiratebay.org             #
 2a01:298:3:1::bee torrents.thepiratebay.org            #
 ##Japan                                                日本
+#JAIST                                                 北陸先端科学技術大学院大学
+2001:200:141:feed::feed ftp.jaist.ac.jp
+2001:200:141:feed::feed jaist.dl.sourceforge.net
 #Casio                                                 カシオ計算機 企業情報
 2001:2c0:800:200::2:80 www.casio.co.jp                 #主页
 #Hitachi                                               日立製作所
@@ -1749,4 +2219,3 @@
 2404:6800:8003::79 www.govecn.org
 2404:6800:8003::79 1984talk.org
 2404:6800:8003::79 www.1984talk.org
-  
