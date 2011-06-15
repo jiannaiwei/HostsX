@@ -67,6 +67,10 @@ ff02::3 ip6-allhosts
 97.65.135.139 external.ak.fbcdn.net
 97.65.135.163 b.static.ak.fbcdn.net
 97.65.135.163 static.ak.fbcdn.net
+2620:0:1cfe:face:b00c::3 static.ak.fbcdn.net
+2620:0:1cfe:face:b00c::4 s-static.ak.facebook.com
+2620:0:1cfe:face:b00c::4 login.v6.facebook.com
+2620:0:1cfe:face:b00c::3 www.v6.facebook.com
 #Flickr
 76.13.18.78 farm3.static.flickr.com
 76.13.18.78 sp1.farm3.static.flickr.com
@@ -92,10 +96,14 @@ ff02::3 ip6-allhosts
 #Plurk
 74.120.121.80 plurk.com
 74.120.121.16 www.plurk.com
-2001:470:83f2::710:1 www.plurk.com
-2001:470:83f2::710:1 m.plurk.com
-2001:470:83f2::710:1 plurk.com
-2001:470:83f2::710:1 statics.plurk.com
+2607:f128:47::1:1 plurk.com
+2607:f128:47::1:1 ipv6.plurk.com
+#Mozilla
+2620:101:8001:5::2:4 www.mozilla.org
+2620:101:8001:5::2:6 addons.mozilla.org
+#ARIN
+2001:500:4:13::81 www.arin.net
+2001:500:4:13::80 www.arin.net
 #Soutong
 2001:470:a:17c::2 ipv6.5isotoi5.org
 2001:470:a:17c::2 soutong.iloveyou
@@ -433,28 +441,28 @@ ff02::3 ip6-allhosts
 #Panoramio
 2001:4860:8010::8d www.panoramio.com
 #Appspot
-2404:6800:8005::8d productideas.appspot.com
-2404:6800:8005::8d storegadgetwizard.appspot.com
-2404:6800:8005::8d moderator.appspot.com
-2404:6800:8005::8d gv-gadget.appspot.com
-2404:6800:8005::8d haiticrisis.appspot.com
 2404:6800:8005::8d autoproxy2pac.appspot.com
 2404:6800:8005::8d bang590.appspot.com
 2404:6800:8005::8d cactus-wave.appspot.com
 2404:6800:8005::8d gfw.appspot.com
 2404:6800:8005::8d go-west.appspot.com
 2404:6800:8005::8d go2china9.appspot.com
+2404:6800:8005::8d gv-gadget.appspot.com
+2404:6800:8005::8d haiticrisis.appspot.com
 2404:6800:8005::8d ipgoto.appspot.com
 2404:6800:8005::8d meme2028.appspot.com
 2404:6800:8005::8d mirrornt.appspot.com
 2404:6800:8005::8d mirrorrr.appspot.com
+2404:6800:8005::8d moderator.appspot.com
 2404:6800:8005::8d mytracks.appspot.com
+2404:6800:8005::8d productideas.appspot.com
 2404:6800:8005::8d proxybay.appspot.com
 2404:6800:8005::8d proxytea.appspot.com
 2404:6800:8005::8d reader2twitter.appspot.com
 2404:6800:8005::8d sivanproxy.appspot.com
 2404:6800:8005::8d so-proxy.appspot.com
 2404:6800:8005::8d soproxy.appspot.com
+2404:6800:8005::8d storegadgetwizard.appspot.com
 2404:6800:8005::8d twitese.appspot.com
 2404:6800:8005::8d twitese2.appspot.com
 2404:6800:8005::8d wave-api.appspot.com
