@@ -135,6 +135,7 @@
 
  - Mac OS 9及更早的系统：System Folder: Preferences或System folder（文件格式可能与Windows和Linux所对应的文件不同）
    Mac OS X：/private/etc（使用BSD风格的hosts文件）
+       ipad: /private/etc/hosts 
    iPhone OS：/etc
  ! Mac OS 刷新网络命令:  sudo niload -v -m hosts
 

@@ -1,4 +1,4 @@
-;version=201106151012
+;version=201106151036
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree¡¢jason_jiang
 @HostsX Smart Direct
@@ -32,24 +32,6 @@ ff02::3 ip6-allhosts
 59.151.106.253 static.operachina.com
 59.151.106.253 wiki.operachina.com
 59.151.106.253 www.operachina.com
-#Google
-203.208.46.146 www.google.com
-203.208.46.147 www.google.com.hk
-203.208.46.132 clients1.google.com
-203.208.46.149 mail.google.com
-203.208.46.161 chatenabled.mail.google.com
-203.208.46.161 mail-attachment.googleusercontent.com
-203.208.46.146 id.google.com
-203.208.46.146 encrypted.google.com
-203.208.46.161 encrypted-tbn0.google.com
-203.208.46.162 encrypted-tbn1.google.com
-203.208.46.163 encrypted-tbn2.google.com
-203.208.46.164 encrypted-tbn3.google.com
-203.208.46.132 webcache.googleusercontent.com
-203.208.46.191 ssl.gstatic.com
-203.208.46.161 docs.google.com
-203.208.46.157 0.docs.google.com
-203.208.46.157 1.docs.google.com
 #Facebook
 118.214.114.110 s-static.ak.facebook.com
 118.214.190.105 profile.ak.facebook.com
