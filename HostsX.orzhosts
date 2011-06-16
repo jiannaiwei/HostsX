@@ -1,4 +1,4 @@
-;version=201106162331
+;version=201106170735
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree、jason_jiang
 @HostsX Smart Direct
@@ -3671,7 +3671,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 advs.gogobox.com.tw
 0.0.0.0 event.gogobox.com.tw
 #Intel
-0.0.0.0 h10010.www1.hp.com
 0.0.0.0 syndication.intel.com
 0.0.0.0 www.cnetdirectintl.com
 0.0.0.0 www91.intel.com
