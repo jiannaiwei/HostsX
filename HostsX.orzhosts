@@ -1,4 +1,4 @@
-;version=201106151036
+;version=201106162006
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree¡¢jason_jiang
 @HostsX Smart Direct
@@ -22,6 +22,7 @@ ff02::3 ip6-allhosts
 117.27.139.10 bbs.deepin.org
 #Ioage
 115.182.38.16 bbs.ioage.com
+115.182.38.16 www.ioage.com
 #Operachina
 59.151.106.253 operachina.com
 59.151.106.253 bbs.operachina.com
