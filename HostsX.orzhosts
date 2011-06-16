@@ -1,4 +1,4 @@
-;version=201106162006
+;version=201106162331
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree、jason_jiang
 @HostsX Smart Direct
@@ -7968,6 +7968,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 gimg.iqilu.com
 #华商网
 0.0.0.0 g.hsw.cn
+0.0.0.0 stat.hsw.cn
 #重庆晚报
 0.0.0.0 ad.cqwb.com.cn
 @HostsX 国内站点广告/游戏类网站
