@@ -1,4 +1,4 @@
-;version=201106170735
+;version=201106190542
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree¡¢jason_jiang
 @HostsX Smart Direct
@@ -2955,6 +2955,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingback.ie.sogou.com
 @HostsX OneKey/ÌÚÑ¶QQ
 #QQ
+0.0.0.0 tcss.qq.com
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
