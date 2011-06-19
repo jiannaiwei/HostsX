@@ -1,4 +1,4 @@
-;version=201106190542
+;version=2011061912429
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree¡¢jason_jiang
 @HostsX Smart Direct
@@ -2832,7 +2832,6 @@ ff02::3 ip6-allhosts
 #360
 0.0.0.0 inst.360safe.com
 0.0.0.0 seapp.stat.360safe.com
-0.0.0.0 seupdate.360safe.com
 0.0.0.0 stat.360safe.com
 0.0.0.0 upload.360safe.com
 0.0.0.0 x.360safe.com
