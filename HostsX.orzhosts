@@ -1,4 +1,4 @@
-;version=2011061912429
+;version=201106251501
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree、jason_jiang
 @HostsX Smart Direct
@@ -3017,6 +3017,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 float.sandai.net
 0.0.0.0 gvod.union.sandai.net
 0.0.0.0 hubstat.sandai.net
+0.0.0.0 hubciddata.sandai.net
 0.0.0.0 logic.cpm.cm.sandai.net
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 mpv.sandai.net
@@ -3043,6 +3044,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 leiyanstatic.xunlei.com
 0.0.0.0 mediapv.xunlei.com
+0.0.0.0 msg.client.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 p4pstatic.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
