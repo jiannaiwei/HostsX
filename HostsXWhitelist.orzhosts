@@ -82,10 +82,6 @@ $DELETE
 hiphotos.baidu.com
 $DELETE
 
-#导致迅雷客户端消息提示无法显示。
-msg.client.xunlei.com
-$DELETE
-
 #导致光影魔术手客户端素材无法正常下载。
 down.fodder.neoimaging.cn
 $DELETE
