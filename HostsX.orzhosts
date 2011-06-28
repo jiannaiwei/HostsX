@@ -1,4 +1,4 @@
-;version=201106281712
+;version=201106282233
 ;hostsxversion=0.5.2.1
 ;author=Kwoktree¡¢jason_jiang
 @HostsX Smart Direct
@@ -2978,7 +2978,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 infocenter.qzone.qq.com
 0.0.0.0 infocenter.xiaoyou.qq.com
 0.0.0.0 jingjia.qq.com
-0.0.0.0 mini.group.qq.com
 0.0.0.0 oimsgad.qq.com
 0.0.0.0 pingfore.qq.com
 0.0.0.0 qqlogo.qq.com

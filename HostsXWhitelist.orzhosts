@@ -1,5 +1,5 @@
-;version=201106030102
-;author=郭鹏锟（Jock Kwok）
+;version=201106282233
+;author=郭鹏锟
 #导致Apple产品恢复固件时无法正常验证。
 gs.apple.com
 $DELETE
@@ -14,6 +14,10 @@ $DELETE
 
 #导致Flickr页面无法正常显示。
 l.yimg.com
+$DELETE
+
+#导致QQ客户端群搜索页面无法正常显示。
+mini.group.qq.com
 $DELETE
 
 #!iPhone 恢复固件的验证服务器，会导致 iPhone无法完成验证，如果您正在越狱不建议删除。
