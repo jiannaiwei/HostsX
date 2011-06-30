@@ -1,6 +1,6 @@
-;version=201106282233
+;version=201106302123
 ;hostsxversion=0.5.2.1
-;author=Kwoktree¡¢jason_jiang
+;author=KwokTree¡¢jason_jiang¡¢OrzFly
 @HostsX Smart Direct
 #Localhost
 127.0.0.1   localhost
@@ -2867,7 +2867,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 rm.sina.com.cn
 0.0.0.0 sgup.beacon.sina.com.cn
 0.0.0.0 sms.sina.com.cn
-0.0.0.0 swf.games.sina.com.cn
 0.0.0.0 ta.sass.sina.com.cn
 0.0.0.0 uic.sso.sina.com.cn
 0.0.0.0 adsina.allyes.com
