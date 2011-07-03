@@ -1,4 +1,4 @@
-;version=201106302123
+;version=201107031040
 ;author=郭鹏锟
 #导致Apple产品恢复固件时无法正常验证。
 gs.apple.com
@@ -6,6 +6,10 @@ $DELETE
 
 #导致网易页面部分视频无法正常播放。
 swf.ws.126.net
+$DELETE
+
+#导致PPTV搜索时无法完整显示结果的问题。
+iptable.pplive.com
 $DELETE
 
 #导致新浪看视频无法正常播放。

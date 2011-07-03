@@ -1,4 +1,4 @@
-;version=201107010900
+;version=201107031040
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -8782,6 +8782,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 x.cnxad.com
 0.0.0.0 y.cnxad.com
 #CNZZ
+0.0.0.0 qs7.cnzz.com
 0.0.0.0 10 mail.cnzz.com
 0.0.0.0 17k.cnzz.com
 0.0.0.0 1ting.cnzz.com
@@ -9572,20 +9573,20 @@ $      下载最新版本的 HostsX。
 0.0.0.0 afv.pplive.com
 0.0.0.0 caipiao.pplive.com
 0.0.0.0 dh.pplive.com
+0.0.0.0 download.pplive.com
 0.0.0.0 g.pplive.com
 0.0.0.0 ins-stat.pplive.com
 0.0.0.0 ins-version.pplive.com
 0.0.0.0 ins.pplive.com
-0.0.0.0 iptable.pplive.com
 0.0.0.0 live.v2.pplive.com
-0.0.0.0 download.pplive.com
 0.0.0.0 pp1.pplive.com
+0.0.0.0 pp2.pptv.com
 0.0.0.0 up.pplive.com
 0.0.0.0 g.pptv.com
-0.0.0.0 pp2.pptv.com
 0.0.0.0 ppsj.pptv.com
 0.0.0.0 wafp.pptv.com
 0.0.0.0 wstat.pptv.com
+0.0.0.0 zt.pptv.com
 0.0.0.0 h.g1d.net
 0.0.0.0 p.g1d.net
 0.0.0.0 ppva.g1d.net
@@ -10923,3 +10924,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yee.js.cn
 0.0.0.0 yourchinalove.com
 0.0.0.0 u22.85soho.com
+0.0.0.0 irs09.com
