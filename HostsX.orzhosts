@@ -1,4 +1,4 @@
-;version=201107040834
+;version=201107040846
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -8403,6 +8403,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www1.9v.cn
 0.0.0.0 www2.9v.cn
 0.0.0.0 www1.9vad.com
+#9cpm
+0.0.0.0 9cpm.com
+0.0.0.0 r.9cpm.com
 #A5
 0.0.0.0 code.admin6.com
 0.0.0.0 www.admin6.com
@@ -9261,6 +9264,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 click3.ooommm.com.cn
 0.0.0.0 dbs.omosys.com.cn
 0.0.0.0 www.ooommm.com.cn
+#Qiyou
+0.0.0.0 www.qiyou.com
+0.0.0.0 img.qiyou.com
+0.0.0.0 r.qiyou.com
+0.0.0.0 s.qiyou.com
 #Qizhao
 0.0.0.0 code.qizhao.com
 0.0.0.0 qizhao.com
@@ -10831,7 +10839,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yz.szgla.com
 0.0.0.0 img.voolee.cn
 0.0.0.0 uimg.union178.com
-#testdata
+#TestData
 0.0.0.0 1133.baiduskxn.cn
 0.0.0.0 131377.com
 0.0.0.0 189.zhanguotj.com
@@ -10870,6 +10878,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 hxsg.528day.com
 0.0.0.0 hz.www.rbc.cn
 0.0.0.0 images.zhenming.net
+0.0.0.0 irs09.com
 0.0.0.0 j.zqgame.com
 0.0.0.0 links.panr.com
 0.0.0.0 media.wushen.com
@@ -10895,6 +10904,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 towin.r.the2009.cn
 0.0.0.0 trace.syjcq.com
 0.0.0.0 u.51fswd.com
+0.0.0.0 u.qjwm.com
+0.0.0.0 u22.85soho.com
 0.0.0.0 un.5i.com
 0.0.0.0 union.jiyougame.com
 0.0.0.0 union.link7.cn
@@ -10910,7 +10921,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.773.com.cn
 0.0.0.0 www.ads.gmodules.com
 0.0.0.0 www.aloho.cn
+0.0.0.0 www.diyiunion.com
 0.0.0.0 www.feilongdao.com
+0.0.0.0 www.lanjingads.com
 0.0.0.0 www.wa66.com
 0.0.0.0 www.webgame188.com
 0.0.0.0 www.ymd88.com
@@ -10923,6 +10936,3 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xy.skdaren.com
 0.0.0.0 yee.js.cn
 0.0.0.0 yourchinalove.com
-0.0.0.0 u22.85soho.com
-0.0.0.0 irs09.com
-0.0.0.0 r.9cpm.com
