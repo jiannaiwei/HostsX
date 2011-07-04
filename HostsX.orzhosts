@@ -1,4 +1,4 @@
-;version=201107031040
+;version=201107040834
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -10925,3 +10925,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 u22.85soho.com
 0.0.0.0 irs09.com
+0.0.0.0 r.9cpm.com
