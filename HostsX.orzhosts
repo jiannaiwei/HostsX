@@ -1,4 +1,4 @@
-;version=201107062332
+;version=201107070753
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -6822,6 +6822,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 msn.allyes.com
 0.0.0.0 msnms.allyes.cn
 0.0.0.0 mso.allyes.com
+0.0.0.0 quantonesc.allyes.com
 0.0.0.0 rayliafp.allyes.cn
 0.0.0.0 realafp.allyes.cn
 0.0.0.0 sm51shai.allyes.com
