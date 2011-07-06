@@ -1,4 +1,4 @@
-;version=201107042250
+;version=201107062332
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -1131,9 +1131,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 toolbar.soso.com
 @HostsX OneKey/迅雷在线
 #Sandai
+0.0.0.0 server1.adpolestar.net
 0.0.0.0 adcount.sandai.net
-0.0.0.0 advstat.xunlei.com
-0.0.0.0 cop.my.xunlei.com
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
 0.0.0.0 biz5.sandai.net
@@ -1149,7 +1148,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 mpv.sandai.net
 0.0.0.0 pubstat.sandai.net
-0.0.0.0 server1.adpolestar.net
 0.0.0.0 ub.dphub.sandai.net
 0.0.0.0 vodsts.sandai.net
 #Thunder
@@ -1161,12 +1159,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
 #迅雷看看
+0.0.0.0 advstat.xunlei.com
 0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
 0.0.0.0 client.stat.xunlei.com
+0.0.0.0 cop.my.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
-0.0.0.0 iimg.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 leiyanstatic.xunlei.com
