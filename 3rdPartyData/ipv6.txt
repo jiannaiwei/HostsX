@@ -4,9 +4,12 @@
 #欢迎转载，请注明来源，以便网友及时更新，谢谢
 #本文的发布地址：http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
 #本文的共享链接：http://docs.google.com/Doc?docid=0ARhAbsvps1PlZGZrZG14bnRfNjFkOWNrOWZmcQ
-#有新的Google地址需要添加？请在这里提交，帮助我完善此列表，谢谢～
+#有新的Google地址需要添加？请在这里提交或编辑，帮助我完善此列表，谢谢～
 #欢迎穿越传阅
-# 6/* 大量更新（另新增谷奥、Orkut、Plurk、Mozilla、bit.ly / j.mp 等；本月 Google 系 CDN 已多次调整，请及时更新）
+# 5/7 v*.lscache*.l.google.com IP地址变更（youtube视频储存服务器除外，谁有日本yt的IP告诉我- -），由日本东京改为澳洲悉尼，速度我测试变快了
+ # 5/10 更新 v*.lscache*.c.google.com 感谢 JL Hwung 的提供
+ # 7/12 《电脑报》你威武！（2010年7月12日G14版第四列）
+ # 6/* 大量更新（另新增谷奥、Orkut、Plurk、Mozilla、bit.ly / j.mp 等；本月 Google 系 CDN 已多次调整，请及时更新）
  # 详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
 #顺便提供能够解析出 Google IPv6 地址的 DNS 服务器 (其 ISP 已加入 Google over IPv6 计划)，这样不需要修改 hosts，只需改变本机 DNS 设置就可以自动将 Google 域名解析为 IPv6 地址了。
  # 2001:470:20::2 (v6)
@@ -117,7 +120,7 @@
 2404:6800:8005::22 www.google.com.vn #越南
 2404:6800:8005::26 www.google.co.za #南非
 #Web 网页
-2404:6800:8005::68 www.google.com
+2404:6800:8005::68 www.google.com #主/登录域名，GTalk 客户端用户需注释此条，参见 Issue 11
 2404:6800:8005::68 encrypted.google.com
 2404:6800:8005::68 www.l.google.com
 2404:6800:8005::62 www0.l.google.com
@@ -156,14 +159,14 @@
 2404:6800:8005::62 googlemashups.l.google.com
 2404:6800:8005::63 *.googlemashups.com
 2404:6800:8005::64 appengine.google.com
-2404:6800:8005::62 appspot.l.google.com
-2404:6800:8005::8d *.appspot.com
+2404:6800:8005::8d appspot.l.google.com
 2404:6800:8005::8d productideas.appspot.com #Google 汇问
 2404:6800:8005::8d storegadgetwizard.appspot.com #Google Checkout Store Gadget
 2404:6800:8005::8d moderator.appspot.com #Google Moderator
 2404:6800:8005::8d gv-gadget.appspot.com #YouTube Gadget
 2404:6800:8005::8d haiticrisis.appspot.com #Google Person Finder: Haiti Earthquake
 2404:6800:8005::8d i18napis.appspot.com
+2404:6800:8005::8d *.appspot.com #可以添加自己的 gae 应用
 #Answers/Guru/WenDa 问答社区（国际版已停止运营）
 2404:6800:8005::66 answers.google.com
 #2404:6800:8005::62 guru.google.com
@@ -207,43 +210,44 @@
 2404:6800:8005::62 4.bp.blogspot.com
 2404:6800:8005::62 bloggertemplatespreview.blogspot.com #模板编辑器的实时预览功能
 #Google 官方博客群
-2404:6800:8005::62 adwordsapi.blogspot.com
-2404:6800:8005::62 adsense-zhs.blogspot.com
-2404:6800:8005::62 android-developers.blogspot.com
-2404:6800:8005::62 apacdeveloper.blogspot.com #Google Asia Pacific Developer Blog
-2404:6800:8005::62 booksearch.blogspot.com #Inside Google Books
-2404:6800:8005::62 chrome.blogspot.com
-2404:6800:8005::62 doubleclickpublishersapi.blogspot.com
-2404:6800:8005::62 emeadev.blogspot.com #Google Europe, Middle East & Africa Developer Blog
-2404:6800:8005::62 gearsblog.blogspot.com
-2404:6800:8005::62 google-code-featured.blogspot.com #Featured Projects on Google Code
-2404:6800:8005::62 google-entertainment-it.blogspot.com
-2404:6800:8005::62 google-opensource.blogspot.com
-2404:6800:8005::62 googleajaxsearchapi.blogspot.com
-2404:6800:8005::62 googleappengine.blogspot.com
-2404:6800:8005::62 googleappsdeveloper.blogspot.com
-2404:6800:8005::62 googleblog.blogspot.com #Official Google Blog
-2404:6800:8005::62 googlecheckout.blogspot.com
-2404:6800:8005::62 googlecheckoutapi.blogspot.com
-2404:6800:8005::62 googlechinablog.blogspot.com
-2404:6800:8005::62 googlechromereleases.blogspot.com #Google Chrome Releases
-2404:6800:8005::62 googlecode.blogspot.com
-2404:6800:8005::62 googlecustomsearch.blogspot.com #Google Custom Search Blog
-2404:6800:8005::62 googleenterprise.blogspot.com
-2404:6800:8005::62 googlegeodevelopers.blogspot.com #Google Geo Developers Blog
-2404:6800:8005::62 googlemashupeditor.blogspot.com
-2404:6800:8005::62 googlemobile.blogspot.com
-2404:6800:8005::62 googleresearch.blogspot.com
-2404:6800:8005::62 googletalk.blogspot.com
-2404:6800:8005::62 googlewebmaster-cn.blogspot.com
-2404:6800:8005::62 googlewebmastercentral.blogspot.com
-2404:6800:8005::62 googlewebtoolkit.blogspot.com
-2404:6800:8005::62 golangblog.blogspot.com
-2404:6800:8005::62 gmailblog.blogspot.com
-2404:6800:8005::62 igoogledeveloper.blogspot.com #iGoogle Developer Blog
-2404:6800:8005::62 webmproject.blogspot.com
-2404:6800:8005::62 youtube-global.blogspot.com #YouTube Blog
-#2404:6800:8005::62 *.blogspot.com #可以添加你自己的博客地址到这里
+2404:6800:8005::84 adwordsapi.blogspot.com
+2404:6800:8005::84 adsense-zhs.blogspot.com
+2404:6800:8005::84 android-developers.blogspot.com
+2404:6800:8005::84 apacdeveloper.blogspot.com #Google Asia Pacific Developer Blog
+2404:6800:8005::84 booksearch.blogspot.com #Inside Google Books
+2404:6800:8005::84 chrome.blogspot.com
+2404:6800:8005::84 doubleclickpublishersapi.blogspot.com
+2404:6800:8005::84 emeadev.blogspot.com #Google Europe, Middle East & Africa Developer Blog
+2404:6800:8005::84 gearsblog.blogspot.com
+2404:6800:8005::84 google-code-featured.blogspot.com #Featured Projects on Google Code
+2404:6800:8005::84 google-entertainment-it.blogspot.com
+2404:6800:8005::84 google-opensource.blogspot.com
+2404:6800:8005::84 googleajaxsearchapi.blogspot.com
+2404:6800:8005::84 googleappengine.blogspot.com
+2404:6800:8005::84 googleappsdeveloper.blogspot.com
+2404:6800:8005::84 googleblog.blogspot.com #Official Google Blog
+2404:6800:8005::84 googlecheckout.blogspot.com
+2404:6800:8005::84 googlecheckoutapi.blogspot.com
+2404:6800:8005::84 googlechinablog.blogspot.com
+2404:6800:8005::84 googlechromereleases.blogspot.com #Google Chrome Releases
+2404:6800:8005::84 googlecode.blogspot.com
+2404:6800:8005::84 googlecustomsearch.blogspot.com #Google Custom Search Blog
+2404:6800:8005::84 googleenterprise.blogspot.com
+2404:6800:8005::84 googlegeodevelopers.blogspot.com #Google Geo Developers Blog
+2404:6800:8005::84 googlemashupeditor.blogspot.com
+2404:6800:8005::84 googlemobile.blogspot.com
+2404:6800:8005::84 googleresearch.blogspot.com
+2404:6800:8005::84 googletalk.blogspot.com
+2404:6800:8005::84 googlewebmaster-cn.blogspot.com
+2404:6800:8005::84 googlewebmastercentral.blogspot.com
+2404:6800:8005::84 googlewebtoolkit.blogspot.com
+2404:6800:8005::84 golangblog.blogspot.com
+2404:6800:8005::84 gmailblog.blogspot.com
+2404:6800:8005::84 igoogledeveloper.blogspot.com #iGoogle Developer Blog
+2404:6800:8005::84 webmproject.blogspot.com
+2404:6800:8005::84 youtube-global.blogspot.com #YouTube Blog
+#2404:6800:8005::84 *.blogspot.com #可以添加你自己的博客地址到这里
+2404:6800:8005::84 blogspot.l.google.com
 #Books 图书
 2404:6800:8005::62 books.google.com
 2404:6800:8005::8a books.google.com.hk
@@ -297,6 +301,7 @@
 2404:6800:8005::64 code.google.com
 2404:6800:8005::64 code.l.google.com
 2404:6800:8005::52 *.googlecode.com
+2404:6800:8005::52 googlecode.l.google.com
 2404:6800:8005::52 chromium.googlecode.com
 2404:6800:8005::52 closure-library.googlecode.com
 2404:6800:8005::52 earth-api-samples.googlecode.com
@@ -375,8 +380,8 @@
 2404:6800:8005::11 googlemail.l.google.com
 2404:6800:8005::12 googlemail.l.google.com
 2404:6800:8005::13 googlemail.l.google.com
-2404:6800:8005::bd chatenabled.mail.google.com #Gmail中Gtalk聊天服务
-2404:6800:8005::bd filetransferenabled.mail.google.com
+2404:6800:8005::bd chatenabled.mail.google.com #Gmail 中 Gtalk 聊天服务
+2404:6800:8005::bd filetransferenabled.mail.google.com #可能会造成 GTalk 客户端异常
 #2404:6800:8005::bd b.googlemail.l.google.com
 2404:6800:8005::62 talk.gmail.com #Gmail中Gtalk聊天服务
 2404:6800:8005::62 gmail.google.com
@@ -404,8 +409,8 @@
 2404:6800:8005::71 groups.google.com.hk
 2404:6800:8001::66 groups-beta.google.com
 2404:6800:8005::62 groups.l.google.com
-2404:6800:8005::89 *.googlegroups.com
 2404:6800:8005::89 blob-s-docs.googlegroups.com
+2404:6800:8005::89 *.googlegroups.com
 #Health 健康
 2404:6800:8005::66 health.google.com
 #Images 图片
@@ -504,11 +509,14 @@
 2404:6800:8005::71 mts3.google.com
 2404:6800:8005::71 mts.l.google.com
 2404:6800:8005::67 maps.gstatic.cn
+2404:6800:8005::8b mobilemaps.clients.google.com
 #Music Beta by Google 云音乐服务
 2404:6800:8005::65 music.google.com
 2404:6800:8005::74 t.doc-0-0-sj.sj.googleusercontent.com #个人音乐库
 2404:6800:8005::74 music-streaming.l.google.com
 2404:6800:8005::84 music.googleusercontent.com #音乐播放器 专辑封面 等
+2404:6800:8005::74 uploadsj.clients.google.com #客户端上传
+2404:6800:8005::74 large-uploads.l.google.com
 #News 资讯
 2404:6800:8005::68 news.google.com
 2404:6800:8005::68 news.l.google.com
@@ -520,10 +528,10 @@
 2404:6800:8005::62 nt5.ggpht.com
 #Orkut 网络社区
 2404:6800:8005::56 www.orkut.com
-#2404:6800:8005::56 orkut-fe.l.google.com
+2404:6800:8005::56 orkut-fe.l.google.com
 2404:6800:8005::56 www.orkut.gmodules.com
-#2404:6800:8005::56 *.a.orkut.gmodules.com
-#2404:6800:8005::56 orkut-opensocial.l.google.com
+2404:6800:8005::56 *.a.orkut.gmodules.com
+2404:6800:8005::56 orkut-opensocial.l.google.com
 2404:6800:8005::57 img1.orkut.com
 2404:6800:8005::57 img2.orkut.com
 2404:6800:8005::57 img3.orkut.com
@@ -907,11 +915,13 @@
 2404:6800:8005::67 www.gstatic.cn
 #Google APIs 开发接口服务
 2404:6800:8005::65 apis.google.com
-2404:6800:8005::62 chart.apis.google.com #Google 图表 API
+2404:6800:8005::62 chart.apis.google.com
 2404:6800:8005::5f *.googleapis.com
-2404:6800:8005::5f translate.googleapis.com #Google 翻译 API
-2404:6800:8005::5f ajax.googleapis.com #Ajax API
+2404:6800:8005::5f googleapis.l.google.com
+2404:6800:8005::5f ajax.googleapis.com
+2404:6800:8005::5f chart.googleapis.com
 2404:6800:8005::5f fonts.googleapis.com
+2404:6800:8005::5f translate.googleapis.com
 2404:6800:8005::5f googleapis-ajax.google.com
 2404:6800:8005::5f googleapis-ajax.l.google.com
 #BigCache (Google Storage)
@@ -2441,17 +2451,17 @@
 2404:6800:8005::41 adwords.google.sk
 2404:6800:8005::a7 partner.googleadservices.com
 2404:6800:8005::a7 partnerad.l.google.com
-#DoubleClick 曾经世界最大的网络广告服务商，06年底被Google并购，现AdSense服务指向域名
-2001:4860:b006::94 ad.doubleclick.net
-2001:4860:b006::95 ad-g.doubleclick.net
-2001:4860:b006::95 ad-apac.doubleclick.net
+#DoubleClick
+2404:6800:8005::94 ad.doubleclick.net
+2404:6800:8005::95 ad-g.doubleclick.net
+2404:6800:8005::95 ad-apac.doubleclick.net
 2404:6800:8005::9a googleads.g.doubleclick.net
 2404:6800:8005::9b feedads.g.doubleclick.net
 2404:6800:8005::9c pubads.g.doubleclick.net
 2404:6800:8005::9c www.googletagservices.com
 2404:6800:8005::9c partnerad.l.doubleclick.net
-2001:4860:b006::9d s0.2mdn.net
-2001:4860:b006::9d s1.2mdn.net
+2404:6800:8005::9d s0.2mdn.net
+2404:6800:8005::9d s1.2mdn.net
 2404:6800:8005::90 fls.uk.doubleclick.net
 2404:6800:8005::8e *.au.doubleclick.net
 2404:6800:8005::8f *.de.doubleclick.net
@@ -2470,6 +2480,7 @@
 2404:6800:8005::8a developer.android.com
 2404:6800:8005::62 source.android.com
 2404:6800:8005::62 market.android.com
+#2404:6800:8005::8b android.clients.google.com #未实际测试过
 #Google Art Project
 2404:6800:8003::79 www.googleartproject.com
 2404:6800:8005::62 art-project-media.appspot.com
@@ -2594,7 +2605,6 @@
 2001:da8:205::6 edufile0.shooter.cn
 #Yegle 一阁
 2001:470:0:19b::b869:805d yegle.net
-2001:252:0:2::2000 6rank.edu.cn #CNGI高校驻地网IPv6用户数量测试
 #IPv6 Forum
 2001:a18:1:20::42 www.ipv6forum.com
 #LAMOST 大天区面积多目标光纤光谱天文望远镜
@@ -2603,17 +2613,26 @@
 2001:cc0:2426:101::2f www.catr.cn #泰尔网
 2001:cc0:2426:101::2f main.catr.cn #工业和信息化部电信研究院主页
 2001:cc0:2426:101::2f navigator6.catr.cn #CNGI中主要资源链接导航
+#IPv6home IPv6之家
+240c:f::ffff:0:0:0:155 ipv6.ipv6home.cn #论坛
+# 高校记录按 ipv6 地址顺序排列
+# China Agricultural University 中国农业大学
+2001:250:209:208::8025 www.cau.edu.cn
+#CNGI高校驻地网IPv6用户数量测试
+2001:252:0:2::2000 6rank.edu.cn
 #CERNET 2 第二代中国教育与科研计算机网
-2001:da8:1:100::80 www.cernet2.edu.cn #主页
+2001:da8:1:100::80 www.cernet2.edu.cn
 #Tongji University 同济大学
 2001:da8:b8:190::12 mail.tongji.edu.cn #同济大学电子邮件系统
 2001:da8:b8:205::2 www.tongji.edu.cn #同济大学主页
 2001:da8:b8:205::3 news.tongji.edu.cn #同济大学新闻网
 #Tsinghua University 清华大学
-2001:da8:200:200::4:100 www.tsinghua.edu.cn #清华大学主页
+2001:da8:200:200::4:100 www.tsinghua.edu.cn
 2001:da8:217:1::222 iptv.tsinghua.edu.cn
 #北京大学
 2001:da8:201:1129:162:105:129:14 search.pku.edu.cn #北京大学天网中英文搜索引擎
+#njtu
+2001:da8:205::10 media6.njtu.edu.cn
 #Beijing Normal University 北京师范大学
 2001:da8:207:3:21a:64ff:fe6d:d1eb ipv6.bnu.edu.cn #北京师范大学IPv6实验站
 #University of Science and Technology Beijing 北京科技大学
@@ -2657,10 +2676,16 @@
 2001:da8:8000:5::239 search.sjtu.edu.cn
 2001:da8:8000:6003::161 bbs.sjtu.edu.cn #饮水思源BBS站
 #Northeastern University 东北大学
-2001:da8:9000::232 bt.neu.edu.cn #六维空间
+2001:da8:9000::232 bt.neu6.edu.cn #六维空间
 2001:da8:9000:a191:20d:60ff:fe1b:7514 ftp.ngi.neu.edu.cn #NEU NGI FTP Server
 2001:da8:9000:b255:210:5cff:fef5:ac49 www.neu.edu.cn #主页
 2001:da8:9000:b255:223:aeff:fe71:efcb radio.neu.edu.cn #东北大学在线电台
+#Dalian University of Technology 大连理工大学
+2001:da8:a800:0:2d0:b7ff:feb8:4557 ipv6.dlut.edu.cn #大连理工大学 IPv6 网站
+2001:da8:a800:3::5 bbs.dlut.edu.cn #BBS 碧海青天
+#lzu
+2001:da8:c000::201 tv.lzu.edu.cn
+2001:da8:c000::202 tv.lzu.edu.cn
 #University of Science and Technology of China 中国科学技术大学
 2001:da8:d800::2 www.ustc.edu.cn #中国科学技术大学主页
 2001:da8:d800::3 bbs.ustc.edu.cn #瀚海星云BBS站
@@ -2671,28 +2696,32 @@
 2001:da8:e000:92::29 ipv6.zju.edu.cn #浙江大学IPV6试验网
 #Zhe Jiang University of Technology 浙江工业大学
 2001:da8:e000:88::11 www.zjut.edu.cn #浙江工业大学首页
-#Dalian University of Technology 大连理工大学
-2001:da8:a800:0:2d0:b7ff:feb8:4557 ipv6.dlut.edu.cn #大连理工大学 IPv6 网站
-2001:da8:a800:3::5 bbs.dlut.edu.cn #BBS 碧海青天
-#IPv6home IPv6之家
-240c:f::ffff:0:0:0:155 ipv6.ipv6home.cn #论坛
 ##Hong Kong 香港
 #The Chinese University of Hong Kong 香港中文大学
 2405:3000:3:c02:137:189:192:35 www.ipv6.cuhk.net #CUHK IPv6 Homepage
 #City University of Hong Kong 香港城市大学
 2001:ce0:5:1:206:5bff:fe1d:64cf www.ipv6.cityu.edu.hk #CSC home page
 ##Republic of China 中华民国
+#Education Bureau Taoyuan County Government 桃園縣政府教育局
+2001:288:3200:2::7 www.tyc.edu.tw
+2001:288:3000:227::13 noc5.tyc.edu.tw #桃園區域網路中心公告
 #National Central University 國立中央大學
-2001:288:3001:17:21a:64ff:fec6:853c #歡迎光臨中央大學
+2001:288:3001:17:21a:64ff:fec6:3f38 www.ncu.edu.tw
+2001:288:3001:17:21a:64ff:fec6:853c www.ncu.edu.tw
+2001:288:3001:17:21a:64ff:fed4:486c www.ncu.edu.tw
+2001:288:3001:17:21a:64ff:fed4:486c www.cc.ncu.edu.tw #國立中央大學電子計算機中心
+2001:288:3001:17:21a:64ff:fec6:3f38 www.cc.ncu.edu.tw
+2001:288:3001:17:21a:64ff:fec6:853c www.cc.ncu.edu.tw
+2001:288:3001:17::199 www.tyrc.ncu.edu.tw #桃園區域網路中心
 #Education Network Center of Taichung Country 台中县教育网络
 2001:288:5400::11 www.tcc.edu.tw #台中縣教育網路中心
 #National Ilan University 國立宜蘭大學
 2001:288:a001:805:21c:c4ff:fec2:9cca www.niu.edu.tw
-#HiNet
-2001:b000::2 www.ipv6.hinet.net HiNet IPv6服務
 #National Chi Nan University 國立暨南國際大學
 2001:e10:6840:12::52 ftp.ncnu.edu.tw #國立暨南國際大學檔案伺服器
 2001:e10:6840:67:b9b3:1928:3bd2:cd7 www.ncnu.edu.tw #國立暨南國際大學-首頁
+#HiNet
+2001:b000::2 www.ipv6.hinet.net HiNet IPv6服務
 #APOL asia pacific online service APOL亞太線上
 2404::2 www.apol.com.tw #IPv6首頁
 ##America 美国
@@ -2721,21 +2750,21 @@
 2001:470:1c:229::2 animenfo.com
 2001:470:1c:229::2 www.animenfo.com
 #.天空
-2001:470:1f04:836::2 tix.io #主页
-2001:470:1f04:836::2 blog.tix.io #Blog
-#What is my IP?
-2001:470:8051:1:80::1 whatismyip.tv #主页
+2600:3c01::f03c:91ff:fe96:1660 tix.io
+2600:3c01::f03c:91ff:fe96:1660 blog.tix.io
 #Free IPv6 Live Streaming TV
 2001:470:f057::7 www.freeipv6.info
+ipv6.freeipv6.info
 ##AU 澳大利亚
 #APNIC
 2001:dc0:2001:11::211 www.apnic.net
 2001:dc0:2001::14 wq.apnic.net
 ##FR 法国
-#alwaysData
-2001:41d0:1:8f78::1 www.alwaysdata.com #主页
-2001:41d0:2:4139::1 fanfou.alwaysdata.net #饭否
-##the Federal Republic of Germany 德国
+#Free SAS
+2001:7a8:810:ffff::118 wikileaks.eu.org
+#Hivane
+2a01:e0d:1:3:58bf:fa6c:0:1 wikileaks.eu.org
+##Germany 德国
 2001:638:902:1::11 6bone.informatik.uni-leipzig.de #IPv6 technology center Leipzig
 ##JP 日本
 #JAIST 北陸先端科学技術大学院大学
@@ -2770,12 +2799,11 @@
 #________________
 #BlogSpot 上的其他常用博客
 2404:6800:8005::62 googlesystem.blogspot.com #Google Operating System
-2404:6800:8005::62 chinafreenet.blogspot.com #中国自由网
-2404:6800:8005::62 xiangeliushui.blogspot.com #年华似水，岁月如歌
-2404:6800:8005::62 chinagfw.blogspot.com #GFW Blog
-2404:6800:8005::62 rain-reader.blogspot.com #Nostalgia: Those Who Remain
 2404:6800:8005::62 ipv6-or-no-ipv6.blogspot.com #IPv6 Related Stuff
+2404:6800:8005::62 chinafreenet.blogspot.com #中国自由网
+2404:6800:8005::62 gfwrev.blogspot.com #GFW 技术评论
 #Google Code 上的其他常用项目
+2404:6800:8005::52 ipv6-hosts.googlecode.com
 2404:6800:8005::52 searchforchrome.googlecode.com
 2404:6800:8005::52 android-scripting.googlecode.com #Android Scripting Environment
 2404:6800:8005::52 china-addthis.googlecode.com
