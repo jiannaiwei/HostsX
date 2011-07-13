@@ -1,5 +1,5 @@
 @echo off
-set ver=2.83
+set ver=2.85
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -36,7 +36,7 @@ if   %errorlevel%==0   goto   cacls5
 ver|find   "6."   
 if   %errorlevel%==0   goto   cacls6   
 :cacls5
-if exist "%windir%\system32\cacls.exe" (goto menu) else (%down% http://hostsx.googlecode.com/svn/trunk/Windows/cacls5.exe &copy gdown\cacls5.exe %windir%\system32\cacls.exe&pause&goto menu)
+if exist "%windir%\system32\cacls.exe" (goto menu) else (%down% http://hostsx.googlecode.com/svn/trunk/Windows/cacls5.exe &copy gdown\cacls5.exe %windir%\system32\ &pause&goto menu)
 :cacls6
 if exist "%windir%\system32\cacls.exe" (goto menu) else (wget http://hostsx.googlecode.com/svn/trunk/Windows/cacls6.exe & ren cacls6.exe cacls.exe&goto menu)
 
@@ -85,7 +85,7 @@ if %Language%==Chinese ( goto menucn ) else ( goto menuen )
 :menucn
 del /f /q gdown\*.*>nul 2>nul
 rd /s /q gdown\>nul 2>nul
-if not exist "%systemroot%\system32\consext.exe" (goto menuen) else (if not exist consext.exe goto menuen)
+rem if not exist "%systemroot%\system32\consext.exe" (goto menuen) else (if not exist consext.exe goto menuen)
 mode con cols=60 lines=29
 ConsExt /crv 0
 set force=0
@@ -556,10 +556,6 @@ reg add "HKU\.DEFAULT\Software\Policies\Microsoft\Internet Explorer\Control Pane
 rem  删除分级审查密码
 reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings" /f>nul 2>nul
 reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings">nul 2>nul
-rem  允许下载
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3" /f /v 1803 /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoSelectDownloadDir /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoSelectDownloadDir /t REG_DWORD /d 00000000>nul 2>nul
 rem  恢复internet选项
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\restrictions" /f /v NoBrowserOptions /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoFolderOptions /t REG_DWORD /d 00000000>nul 2>nul
