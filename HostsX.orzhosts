@@ -1,4 +1,4 @@
-;version=201107070753
+;version=201107151331
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -78,16 +78,27 @@ ff02::3 ip6-allhosts
 76.13.18.79 farm3.static.flickr.com
 76.13.18.79 farm5.static.flickr.com
 76.13.18.79 gq1.farm5.static.flickr.com
+#Google+
+203.208.46.29 plus.google.com
+203.208.46.29 plus.google.com.hk
+203.208.46.29 talkgadget.google.com
+2a00:1450:8007::64 plus.google.com
+2404:6800:8005::62 talkgadget.google.com
 #Picasa
-203.208.39.104 lh1.ggpht.com
-203.208.39.104 lh2.ggpht.com
-203.208.39.104 lh3.ggpht.com
-203.208.39.104 lh4.ggpht.com
-203.208.39.104 lh5.ggpht.com
-203.208.39.104 lh6.ggpht.com
-203.208.39.104 lh7.ggpht.com
-203.208.39.104 lh8.ggpht.com
-203.208.39.104 lh9.ggpht.com
+203.208.46.29 lh0.ggpht.com
+203.208.46.29 lh1.ggpht.com
+203.208.46.29 lh1.googleusercontent.com
+203.208.46.29 lh2.ggpht.com
+203.208.46.29 lh2.googleusercontent.com
+203.208.46.29 lh3.ggpht.com
+203.208.46.29 lh3.googleusercontent.com
+203.208.46.29 lh4.ggpht.com
+203.208.46.29 lh4.googleusercontent.com
+203.208.46.29 lh5.ggpht.com
+203.208.46.29 lh5.googleusercontent.com
+203.208.46.29 lh6.ggpht.com
+203.208.46.29 lh6.googleusercontent.com
+203.208.46.29 picasaweb.google.com
 #Imdb
 92.122.217.186 ia.media-imdb.com
 198.78.213.126 i.media-imdb.com
@@ -7719,10 +7730,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pp2.pptv.com
 0.0.0.0 up.pplive.com
 0.0.0.0 g.pptv.com
+0.0.0.0 ga.pptv.com
 0.0.0.0 ppsj.pptv.com
 0.0.0.0 wafp.pptv.com
 0.0.0.0 wstat.pptv.com
-0.0.0.0 zt.pptv.com
 0.0.0.0 h.g1d.net
 0.0.0.0 p.g1d.net
 0.0.0.0 ppva.g1d.net
