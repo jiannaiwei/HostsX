@@ -1,4 +1,4 @@
-;version=201107151331
+;version=201107151622
 ;hostsxversion=0.5.2.1
 ;author=KwokTree¡¢jason_jiang¡¢OrzFly
 @HostsX Smart Direct
@@ -20,6 +20,13 @@ ff02::3 ip6-allhosts
 255.255.255.255 broadcasthost
 #Deepin
 117.27.139.10 bbs.deepin.org
+#DropBox
+174.36.30.67 dropbox.com
+174.36.30.67 forums.dropbox.com
+174.36.30.71 www.dropbox.com
+174.36.30.71 www.dropbox.com
+75.101.129.115 dl.dropbox.com
+75.101.159.151 dl-web.dropbox.com
 #Ioage
 115.182.38.16 bbs.ioage.com
 115.182.38.16 www.ioage.com
@@ -84,6 +91,42 @@ ff02::3 ip6-allhosts
 203.208.46.29 talkgadget.google.com
 2a00:1450:8007::64 plus.google.com
 2404:6800:8005::62 talkgadget.google.com
+#Gmail
+66.249.89.91 mail.google.com
+74.125.79.109 pop.gmail.com
+74.125.79.109 smtp.gmail.com
+#GoogleSSL
+173.245.79.52 www.ggssl.com
+203.208.46.132 webcache.googleusercontent.com
+203.208.46.146 encrypted.google.com
+203.208.46.146 id.google.com
+203.208.46.161 encrypted-tbn0.google.com
+203.208.46.162 encrypted-tbn1.google.com
+203.208.46.163 encrypted-tbn2.google.com
+203.208.46.164 encrypted-tbn3.google.com
+66.249.89.46 www.google.com.hk
+66.249.89.91 encrypted.google.com
+66.249.89.91 www.google.com
+72.14.203.93 encrypted-tbn0.google.com
+72.14.203.93 encrypted-tbn1.google.com
+72.14.203.93 encrypted-tbn2.google.com
+72.14.203.93 encrypted-tbn3.google.com
+72.14.203.93 encrypted-tbn4.google.com
+72.14.203.93 encrypted-tbn5.google.com
+72.14.203.93 encrypted-tbn6.google.com
+72.14.203.93 encrypted-tbn7.google.com
+72.14.203.93 encrypted-tbn8.google.com
+72.14.203.93 encrypted-tbn9.google.com
+203.208.46.191 ssl.gstatic.com
+#GoogleSync
+203.208.46.132 chrome.google.com
+203.208.46.132 clients2.google.com
+203.208.46.132 clients2.googleusercontent.com
+203.208.46.132 clients4.google.com
+74.125.39.99 clients4.google.com
+203.208.46.132 tools.google.com
+203.208.46.132 browsersync.google.com
+203.208.46.132 browsersync.l.google.com
 #Picasa
 203.208.46.29 lh0.ggpht.com
 203.208.46.29 lh1.ggpht.com
