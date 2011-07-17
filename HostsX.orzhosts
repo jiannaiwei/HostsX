@@ -1,4 +1,4 @@
-;version=201107151622
+;version=201107170905
 ;hostsxversion=0.5.2.1
 ;author=KwokTree¡¢jason_jiang¡¢OrzFly
 @HostsX Smart Direct
@@ -104,9 +104,6 @@ ff02::3 ip6-allhosts
 203.208.46.162 encrypted-tbn1.google.com
 203.208.46.163 encrypted-tbn2.google.com
 203.208.46.164 encrypted-tbn3.google.com
-66.249.89.46 www.google.com.hk
-66.249.89.91 encrypted.google.com
-66.249.89.91 www.google.com
 72.14.203.93 encrypted-tbn0.google.com
 72.14.203.93 encrypted-tbn1.google.com
 72.14.203.93 encrypted-tbn2.google.com
