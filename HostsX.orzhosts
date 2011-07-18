@@ -1,4 +1,4 @@
-;version=201107170905
+;version=201107181350
 ;hostsxversion=0.5.2.1
 ;author=KwokTree¡¢jason_jiang¡¢OrzFly
 @HostsX Smart Direct
@@ -117,10 +117,6 @@ ff02::3 ip6-allhosts
 203.208.46.191 ssl.gstatic.com
 #GoogleSync
 203.208.46.132 chrome.google.com
-203.208.46.132 clients2.google.com
-203.208.46.132 clients2.googleusercontent.com
-203.208.46.132 clients4.google.com
-74.125.39.99 clients4.google.com
 203.208.46.132 tools.google.com
 203.208.46.132 browsersync.google.com
 203.208.46.132 browsersync.l.google.com
