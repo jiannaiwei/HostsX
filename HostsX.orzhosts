@@ -1,4 +1,4 @@
-;version=201107181350
+;version=201107181432
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -23,7 +23,6 @@ ff02::3 ip6-allhosts
 #DropBox
 174.36.30.67 dropbox.com
 174.36.30.67 forums.dropbox.com
-174.36.30.71 www.dropbox.com
 174.36.30.71 www.dropbox.com
 75.101.129.115 dl.dropbox.com
 75.101.159.151 dl-web.dropbox.com
@@ -6499,6 +6498,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c.37cs.com
 0.0.0.0 code.37cs.com
 0.0.0.0 www.37cs.com
+0.0.0.0 cs.37see.com
+0.0.0.0 cs.twcczhu.com
 #37dz
 0.0.0.0 a.37dz.com
 0.0.0.0 img.37dz.com
@@ -6511,10 +6512,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 mmscode1.3bu.com
 0.0.0.0 mmscode2.3bu.com
 0.0.0.0 mmscode3.3bu.com
-#37cs
-0.0.0.0 www.37cs.com
-0.0.0.0 cs.37see.com
-0.0.0.0 cs.twcczhu.com
 #55la
 0.0.0.0 image1.55.la
 0.0.0.0 image2.55.la
@@ -7797,6 +7794,8 @@ $      下载最新版本的 HostsX。
 #Tvants
 0.0.0.0 ads.tvants.com
 0.0.0.0 cache2.tvants.com
+#TtkVod
+0.0.0.0 ad.ttkvod.com
 #UUSee
 0.0.0.0 g.uusee.com
 0.0.0.0 sa.uusee.com
@@ -8376,6 +8375,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 zx360.v1kk.com
 0.0.0.0 www.qeee1.com
 0.0.0.0 www.chnsy.net
+0.0.0.0 www.expo2010-sc.com
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -8784,6 +8784,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.52xiyou.com
 0.0.0.0 tg.000wan.com
 0.0.0.0 www.000wan.com
+0.0.0.0 g.91mangrandi.com
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 1188s.info
@@ -9111,3 +9112,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xy.skdaren.com
 0.0.0.0 yee.js.cn
 0.0.0.0 yourchinalove.com
+0.0.0.0 www.7155333.cn
