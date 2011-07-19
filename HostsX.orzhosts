@@ -1,4 +1,4 @@
-;version=201107192315
+;version=201107192326
 ;hostsxversion=0.5.2.1
 ;author=KwokTree¡¢jason_jiang¡¢OrzFly
 @HostsX Smart Direct
@@ -18,8 +18,6 @@ ff02::3 ip6-allhosts
 #Mac
 0.0.0.0 advertising.apple.com
 255.255.255.255 broadcasthost
-#Deepin
-117.27.139.10 bbs.deepin.org
 #DropBox
 174.36.30.67 dropbox.com
 174.36.30.67 forums.dropbox.com
@@ -27,8 +25,8 @@ ff02::3 ip6-allhosts
 75.101.129.115 dl.dropbox.com
 75.101.159.151 dl-web.dropbox.com
 #Ioage
+118.145.31.149 www.ioage.com
 115.182.38.16 bbs.ioage.com
-115.182.38.16 www.ioage.com
 #Operachina
 59.151.106.253 operachina.com
 59.151.106.253 bbs.operachina.com
