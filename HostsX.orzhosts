@@ -1,4 +1,4 @@
-;version=201107190950
+;version=201107191500
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -7797,6 +7797,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cache2.tvants.com
 #TtkVod
 0.0.0.0 ad.ttkvod.com
+0.0.0.0 hao.kaikai001.com
 #UUSee
 0.0.0.0 g.uusee.com
 0.0.0.0 sa.uusee.com
