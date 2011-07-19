@@ -1,4 +1,4 @@
-;version=201107190900
+;version=201107190950
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -1223,7 +1223,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 p4pstatic.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
 0.0.0.0 recommend.xunlei.com
-0.0.0.0 res.stat.xunlei.com
 0.0.0.0 stat.xunlei.com
 0.0.0.0 static.soft.xunlei.com
 0.0.0.0 thunderqtypv.union.xunlei.com
@@ -8535,6 +8534,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xiujue.net
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
+0.0.0.0 www.zhidao001.com
 #病毒下载
 0.0.0.0 ie.115.com
 0.0.0.0 v2.tjj.com
