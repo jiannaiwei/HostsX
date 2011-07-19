@@ -1,4 +1,4 @@
-;version=201107191500
+;version=201107192315
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -7749,6 +7749,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 stat.ppstream.com
 0.0.0.0 update.111222.cn
 0.0.0.0 game.pps.tv
+0.0.0.0 g.pps.tv
 #PPTV（PPVA）
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
@@ -9117,3 +9118,5 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yee.js.cn
 0.0.0.0 yourchinalove.com
 0.0.0.0 www.7155333.cn
+0.0.0.0 www.21d99.com
+0.0.0.0 res.sa20.com
