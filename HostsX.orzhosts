@@ -1,4 +1,4 @@
-;version=201107192326
+;version=201107202250
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -518,6 +518,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bmvip.alimama.cn
 0.0.0.0 cb.alimama.cn
 0.0.0.0 img.alimama.cn
+0.0.0.0 tw.alimama.cn
 0.0.0.0 acookie.alimama.com
 0.0.0.0 cpc.click.alimama.com
 0.0.0.0 gouwu.alimama.com
@@ -527,9 +528,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.alimama.com
 0.0.0.0 sutao.alimama.com
 0.0.0.0 taoke.alimama.com
+0.0.0.0 tms.taoke.alimama.com
 0.0.0.0 www.alimama.com
 0.0.0.0 z.alimama.com
-0.0.0.0 tw.alimama.cn
 #阿里巴巴
 0.0.0.0 acookie.alibaba.com
 0.0.0.0 p3p.alibaba.com
@@ -946,6 +947,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 union.mop.com
 0.0.0.0 yx.mop.com
 0.0.0.0 union.uume.com
+0.0.0.0 jh.uume.com
 #人人网
 0.0.0.0 c.renren.com
 0.0.0.0 edm.renren.com
@@ -6202,6 +6204,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 click.union.360buy.com
 0.0.0.0 show.union.360buy.com
 #当当网
+0.0.0.0 a.dangdang.com
+0.0.0.0 central.dangdang.com
 0.0.0.0 union.dangdang.com
 #凡客诚品
 0.0.0.0 union.vancl.com
