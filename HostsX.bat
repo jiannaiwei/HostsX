@@ -21,7 +21,7 @@ sc stop "DNSCache">nul 2>nul
 sc config Dnscache start= disabled>nul 2>nul
 sc config iphlpsvc start= AUTO>nul 2>nul
 if not exist %etc%\ md %etc%\ >nul
-takeown /F %etc%\ /R >nul
+takeown /F %etc%\ /R >nul 2>nul
 copy /y %hosts% %etc%\"Hosts_%bak%.txt" >nul 2>nul
 echo Backup completed!
 
