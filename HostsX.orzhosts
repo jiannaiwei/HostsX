@@ -1,4 +1,4 @@
-;version=201107202250
+;version=201107230701
 ;hostsxversion=0.5.2.1
 ;author=KwokTree¡¢jason_jiang¡¢OrzFly
 @HostsX Smart Direct
@@ -82,41 +82,6 @@ ff02::3 ip6-allhosts
 76.13.18.79 farm3.static.flickr.com
 76.13.18.79 farm5.static.flickr.com
 76.13.18.79 gq1.farm5.static.flickr.com
-#Google+
-203.208.46.29 plus.google.com
-203.208.46.29 plus.google.com.hk
-203.208.46.29 talkgadget.google.com
-2a00:1450:8007::64 plus.google.com
-2404:6800:8005::62 talkgadget.google.com
-#Gmail
-66.249.89.91 mail.google.com
-74.125.79.109 pop.gmail.com
-74.125.79.109 smtp.gmail.com
-#GoogleSSL
-173.245.79.52 www.ggssl.com
-203.208.46.132 webcache.googleusercontent.com
-203.208.46.146 encrypted.google.com
-203.208.46.146 id.google.com
-203.208.46.161 encrypted-tbn0.google.com
-203.208.46.162 encrypted-tbn1.google.com
-203.208.46.163 encrypted-tbn2.google.com
-203.208.46.164 encrypted-tbn3.google.com
-72.14.203.93 encrypted-tbn0.google.com
-72.14.203.93 encrypted-tbn1.google.com
-72.14.203.93 encrypted-tbn2.google.com
-72.14.203.93 encrypted-tbn3.google.com
-72.14.203.93 encrypted-tbn4.google.com
-72.14.203.93 encrypted-tbn5.google.com
-72.14.203.93 encrypted-tbn6.google.com
-72.14.203.93 encrypted-tbn7.google.com
-72.14.203.93 encrypted-tbn8.google.com
-72.14.203.93 encrypted-tbn9.google.com
-203.208.46.191 ssl.gstatic.com
-#GoogleSync
-203.208.46.132 chrome.google.com
-203.208.46.132 tools.google.com
-203.208.46.132 browsersync.google.com
-203.208.46.132 browsersync.l.google.com
 #Picasa
 203.208.46.29 lh0.ggpht.com
 203.208.46.29 lh1.ggpht.com
@@ -206,13 +171,6 @@ ff02::3 ip6-allhosts
 2001:418:e801::11:2 j.mp
 2001:418:e801::12:2 j.mp
 2001:418:e801::15:2 j.mp
-#GuAo.hk
-2001:470:a803::250 www.guao.hk
-2001:470:a803::250 guao.hk
-#kenengba
-2001:470:18:5f5::2 www.kenengba.com
-#Yegle
-2001:470:0:19b::b869:805d yegle.net
 #Others
 174.129.202.202 paper.li
 208.109.178.73 itweet.net
