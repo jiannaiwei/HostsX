@@ -1,4 +1,4 @@
-;version=201107230701
+;version=201107241950
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -7996,6 +7996,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tblog.tj.haodianpu.com
 0.0.0.0 tongji.haodianpu.com
 0.0.0.0 www.haodianpu.com
+#HeroClick
+0.0.0.0 p.heroclick.cn
+0.0.0.0 st.heroclick.cn
 #Jiankongbao
 0.0.0.0 exp.jiankongbao.com
 0.0.0.0 stat.jiankongbao.com
