@@ -1,4 +1,4 @@
-;version=201107241950
+;version=201107241952
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -9083,3 +9083,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.7155333.cn
 0.0.0.0 www.21d99.com
 0.0.0.0 res.sa20.com
+0.0.0.0 game.ad1111.com
