@@ -1,4 +1,4 @@
-;version=201107241952
+;version=201107251450
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -103,6 +103,20 @@ ff02::3 ip6-allhosts
 #Multiupload
 85.17.76.195 www.multiupload.com
 85.17.76.195 multiupload.com
+#GoogleSSL
+66.102.7.100 encrypted.google.com 
+74.125.43.102 encrypted.google.com 
+74.125.227.4 encrypted.google.com
+#GoogleHK
+74.125.71.99 google.com.hk
+74.125.71.104 google.com.hk
+74.125.71.103 google.com.hk
+74.125.71.106 google.com.hk
+74.125.71.147 google.com.hk
+#Chrome
+74.125.39.99 clients2.google.com
+74.125.39.99 chrome.google.com
+74.125.39.99 tools.google.com
 #Plurk
 74.120.121.80 plurk.com
 74.120.121.16 www.plurk.com
@@ -8106,6 +8120,7 @@ $      下载最新版本的 HostsX。
 #域名劫持
 0.0.0.0 ss.cnnic.cn
 #运营商劫持
+0.0.0.0 sh.114so.cn
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn
 0.0.0.0 114search.118114.cn
@@ -8346,6 +8361,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.qeee1.com
 0.0.0.0 www.chnsy.net
 0.0.0.0 www.expo2010-sc.com
+0.0.0.0 www.m1905.in
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
