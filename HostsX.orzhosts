@@ -1,4 +1,4 @@
-;version=201108011728
+;version=201108011729
 ;hostsxversion=0.5.2.1
 ;author=KwokTree¡¢jason_jiang¡¢OrzFly
 @HostsX Smart Direct
@@ -143,6 +143,7 @@ ff02::3 ip6-allhosts
 203.208.46.30 pop.gmail.com
 203.208.46.30 profiles.google.com
 203.208.46.30 scholar.l.google.com
+203.208.46.30 talkgadget.google.com
 203.208.46.30 video.google.com
 #Plurk
 74.120.121.80 plurk.com
