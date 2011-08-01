@@ -1,4 +1,4 @@
-;version=201108011708
+;version=201108011728
 ;hostsxversion=0.5.2.1
 ;author=KwokTree¡¢jason_jiang¡¢OrzFly
 @HostsX Smart Direct
@@ -83,20 +83,31 @@ ff02::3 ip6-allhosts
 76.13.18.79 farm5.static.flickr.com
 76.13.18.79 gq1.farm5.static.flickr.com
 #Picasa
-203.208.46.29 lh0.ggpht.com
-203.208.46.29 lh1.ggpht.com
-203.208.46.29 lh1.googleusercontent.com
-203.208.46.29 lh2.ggpht.com
-203.208.46.29 lh2.googleusercontent.com
-203.208.46.29 lh3.ggpht.com
-203.208.46.29 lh3.googleusercontent.com
-203.208.46.29 lh4.ggpht.com
-203.208.46.29 lh4.googleusercontent.com
-203.208.46.29 lh5.ggpht.com
-203.208.46.29 lh5.googleusercontent.com
-203.208.46.29 lh6.ggpht.com
-203.208.46.29 lh6.googleusercontent.com
-203.208.46.29 picasaweb.google.com
+203.208.46.30 lh1.ggpht.com
+203.208.46.30 lh1.googleusercontent.com
+203.208.46.30 lh2.ggpht.com
+203.208.46.30 lh2.googleusercontent.com
+203.208.46.30 lh3.ggpht.com
+203.208.46.30 lh3.googleusercontent.com
+203.208.46.30 lh4.ggpht.com
+203.208.46.30 lh4.googleusercontent.com
+203.208.46.30 lh5.ggpht.com
+203.208.46.30 lh5.googleusercontent.com
+203.208.46.30 lh6.ggpht.com
+203.208.46.30 lh6.googleusercontent.com
+203.208.46.30 s1.googleusercontent.com
+203.208.46.30 s2.googleusercontent.com
+203.208.46.30 s3.googleusercontent.com
+203.208.46.30 s4.googleusercontent.com
+203.208.46.30 s5.googleusercontent.com
+203.208.46.30 s6.googleusercontent.com
+203.208.46.30 images1-focus-opensocial.googleusercontent.com
+203.208.46.30 images2-focus-opensocial.googleusercontent.com
+203.208.46.30 images3-focus-opensocial.googleusercontent.com
+203.208.46.30 images4-focus-opensocial.googleusercontent.com
+203.208.46.30 images5-focus-opensocial.googleusercontent.com
+203.208.46.30 images6-focus-opensocial.googleusercontent.com
+203.208.46.30 picasaweb.google.com
 #Imdb
 92.122.217.186 ia.media-imdb.com
 198.78.213.126 i.media-imdb.com
@@ -108,6 +119,7 @@ ff02::3 ip6-allhosts
 74.125.43.102 encrypted.google.com 
 74.125.227.4 encrypted.google.com
 #GoogleHK
+203.208.46.30 www.google.com
 74.125.71.99 google.com.hk
 74.125.71.104 google.com.hk
 74.125.71.103 google.com.hk
@@ -117,6 +129,21 @@ ff02::3 ip6-allhosts
 74.125.39.99 clients2.google.com
 74.125.39.99 chrome.google.com
 74.125.39.99 tools.google.com
+#Google
+203.208.46.29 groups.google.com
+203.208.46.29 spreadsheets.google.com
+203.208.46.29 translate.google.com
+203.208.46.29 writely.google.com
+203.208.46.30 ditu.google.com
+203.208.46.30 docs.google.com
+203.208.46.30 mail.google.com
+203.208.46.30 maps-api-ssl.google.com
+203.208.46.30 news.google.com
+203.208.46.30 plus.google.com
+203.208.46.30 pop.gmail.com
+203.208.46.30 profiles.google.com
+203.208.46.30 scholar.l.google.com
+203.208.46.30 video.google.com
 #Plurk
 74.120.121.80 plurk.com
 74.120.121.16 www.plurk.com
