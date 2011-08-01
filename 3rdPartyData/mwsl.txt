@@ -1,12 +1,13 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.7.25
+恶意网站HOSTS屏蔽文件-2011.8.1
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
 警告：不得将此数据用于违法犯罪行为！
-All Rights Reserved 2007-2010
 ---------------------------------------
+All Rights Reserved 2007-2010
+***************************************
 127.0.0.1 localhost
 0.0.0.0 www.zzzz1.com
 0.0.0.0 zzzz1.com
@@ -24927,7 +24928,6 @@ All Rights Reserved 2007-2010
 0.0.0.0 adobenew-exe.co.tv
 0.0.0.0 dianping.timedg.com
 0.0.0.0 www.talkio.com
-0.0.0.0 depositfiles.com
 0.0.0.0 www.qq.com.oiue.info
 0.0.0.0 qq.com.oiue.info
 0.0.0.0 statst.in
@@ -26333,3 +26333,63 @@ All Rights Reserved 2007-2010
 0.0.0.0 muralzinho.com.br
 0.0.0.0 www.ww2qq.com
 0.0.0.0 123.kukankan.com
+0.0.0.0 www.a5ak.com
+0.0.0.0 www.radio-80.com
+0.0.0.0 x.riniririni.info
+0.0.0.0 www.91-china.cn
+0.0.0.0 www.runescapesr.com
+0.0.0.0 runescapesr.com
+0.0.0.0 983211.vicp.net
+0.0.0.0 web3.fimmu.com
+0.0.0.0 www.wg.gd
+0.0.0.0 bsea.3322.org
+0.0.0.0 www.as9999.com
+0.0.0.0 vipsine.com
+0.0.0.0 lkbbs.mba.org.cn
+0.0.0.0 2fcc.com
+0.0.0.0 www.511222.tk
+0.0.0.0 share-home.net
+0.0.0.0 www.84777666.com
+0.0.0.0 www.120yxb.com
+0.0.0.0 www.ckios0.com
+0.0.0.0 www.stourismbangladesh.com
+0.0.0.0 www.entpk.com
+0.0.0.0 resev.ru
+0.0.0.0 freetraxdlyatebya.ru
+0.0.0.0 notepad2.info
+0.0.0.0 sim.whu.edu.cn
+0.0.0.0 cobami.org
+0.0.0.0 332998.com
+0.0.0.0 websnewmails.tk
+0.0.0.0 www.mtvye.com
+0.0.0.0 wwweee.xxnimeixx.info
+0.0.0.0 malwox.biz
+0.0.0.0 somev.ru
+0.0.0.0 www.googlecai.com
+0.0.0.0 tingv.ru
+0.0.0.0 yomwarayom2001.ru
+0.0.0.0 533377.com
+0.0.0.0 ii.ebatmoyhuy.com
+0.0.0.0 www.556389.com
+0.0.0.0 wootryp.com
+0.0.0.0 www.vagosangshop.com
+0.0.0.0 www.googlertf.com
+0.0.0.0 cp20110705.vicp.net
+0.0.0.0 146.xdwan.cn
+0.0.0.0 www.softgx.com
+0.0.0.0 www.ytuku.com
+0.0.0.0 www.bbylw.com
+0.0.0.0 www.zeetone.com
+0.0.0.0 b48.4dq.com
+0.0.0.0 b47.4dq.com
+0.0.0.0 mailssrvs.com
+0.0.0.0 noticias.rangdhanubuilders.com
+0.0.0.0 www.mrpee.net
+0.0.0.0 www.xiankenet.com
+0.0.0.0 www.yztzxd888.com
+0.0.0.0 www.311422.com.6804.cn
+0.0.0.0 www.caderm.org
+0.0.0.0 www.whink.com
+0.0.0.0 w.xt918.com
+0.0.0.0 www.cptitan.com
+0.0.0.0 www.fc755.co.cc

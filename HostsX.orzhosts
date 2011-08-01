@@ -1,4 +1,4 @@
-;version=201107251450
+;version=201108011708
 ;hostsxversion=0.5.2.1
 ;author=KwokTree、jason_jiang、OrzFly
 @HostsX Smart Direct
@@ -6338,6 +6338,8 @@ $      下载最新版本的 HostsX。
 #搜狐高清
 0.0.0.0 images.sohu.com
 @HostsX 国内站点广告/区域类网站
+#德州之窗
+0.0.0.0 gg.dzwindows.com
 #河池365
 0.0.0.0 bbs.corp.gxhc365.com
 #北海365
@@ -6470,6 +6472,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code2.2bj.cc
 0.0.0.0 code3.2bj.cc
 0.0.0.0 code4.2bj.cc
+0.0.0.0 code.2bj.cn
+0.0.0.0 code1.2bj.cn
+0.0.0.0 code2.2bj.cn
+0.0.0.0 code3.2bj.cn
+0.0.0.0 code4.2bj.cn
 0.0.0.0 pic.2bj.cn
 0.0.0.0 www.2bj.cn
 #37cs
@@ -6498,6 +6505,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 new4.user.55.la
 0.0.0.0 preview.55.la
 0.0.0.0 zhuti.55.la
+#70e
+0.0.0.0 e.70e.com
+0.0.0.0 g.70e.com
+0.0.0.0 t.70e.com
+0.0.0.0 t2.70e.com
+0.0.0.0 www.70e.com
 #7794
 0.0.0.0 www.7794.com
 #77869
@@ -6514,6 +6527,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u592022.778669.com
 0.0.0.0 u923032.778669.com
 0.0.0.0 u948016.778669.com
+0.0.0.0 u291014.778669.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -6521,6 +6535,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code.82816.com
 0.0.0.0 js.82816.com
 0.0.0.0 www.82816.com
+#84422
+0.0.0.0 code.84422.com
+0.0.0.0 pic.84422.com
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
@@ -8155,6 +8172,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑行为拦截/病毒拦截
 #广告诈骗钓鱼等
+0.0.0.0 www.qu.cc
+0.0.0.0 www.krgou.com
+0.0.0.0 pic.cnmk.cc
+0.0.0.0 www.cnmk.cc
+0.0.0.0 img.cnmk.cc
 0.0.0.0 www.taob.cc
 0.0.0.0 wevs.uk.pn
 0.0.0.0 web1125828.w95.1860php.com
@@ -8373,6 +8395,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.bokecc.com
 0.0.0.0 www.vunion.net
 0.0.0.0 sm2.netitv.com
+0.0.0.0 ygsp.da123.cc
+0.0.0.0 chat.live800.com
 #IE劫持
 0.0.0.0 www.256h.com
 0.0.0.0 054.cc
