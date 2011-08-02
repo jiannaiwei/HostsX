@@ -163,6 +163,9 @@ ff02::3 ip6-allhosts
 2001:470:83f2::710:1 mail-archive.com
 2001:470:83f2::710:1 meme.yahoo.com
 @HostsX Google
+#Chrome
+74.125.39.99 chrome.google.com
+74.125.39.99 clients2.google.com
 #Google
 203.208.46.29 groups.google.com
 203.208.46.29 spreadsheets.google.com
