@@ -1,6 +1,6 @@
-;version=201108021030
+;version=201108021040
 ;hostsxversion=0.5.2.1
-;author=KwokTree、jason_jiang、OrzFly
+;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
 #Localhost
 127.0.0.1   localhost
@@ -210,12 +210,6 @@ ff02::3 ip6-allhosts
 66.102.7.100 encrypted.google.com 
 74.125.43.102 encrypted.google.com 
 74.125.227.4 encrypted.google.com
-#GoogleHK
-74.125.71.99 google.com.hk
-74.125.71.104 google.com.hk
-74.125.71.103 google.com.hk
-74.125.71.106 google.com.hk
-74.125.71.147 google.com.hk
 #Appspot
 2404:6800:8005::8d autoproxy2pac.appspot.com
 2404:6800:8005::8d bang590.appspot.com
@@ -7947,17 +7941,21 @@ $      下载最新版本的 HostsX。
 #Union001
 0.0.0.0 union001.com
 0.0.0.0 p.union001.com
+#Union178
+0.0.0.0 u.union178.com
+0.0.0.0 uimg.union178.com
 #Union188
 0.0.0.0 c.union188.com
 0.0.0.0 img.union188.com
 #Unionbig
-0.0.0.0 txt.unionli.com
-0.0.0.0 u.unionli.com
-0.0.0.0 uimg.unionli.com
+0.0.0.0 code01.unionli.com
 0.0.0.0 ds2.unionbig.com
 0.0.0.0 p.unionbig.com
 0.0.0.0 s2.unionbig.com 
 0.0.0.0 track.unionbig.com
+0.0.0.0 txt.unionli.com
+0.0.0.0 u.unionli.com
+0.0.0.0 uimg.unionli.com
 0.0.0.0 ww.unionbig.com
 0.0.0.0 wwv.unionbig.com
 0.0.0.0 www.ubcpm.com
@@ -9443,7 +9441,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yhchuanqi.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 img.voolee.cn
-0.0.0.0 uimg.union178.com
 #TestData
 0.0.0.0 1133.baiduskxn.cn
 0.0.0.0 131377.com
