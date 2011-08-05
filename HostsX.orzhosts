@@ -1,4 +1,4 @@
-;version=201108021115
+;version=201108050855
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -112,28 +112,23 @@ ff02::3 ip6-allhosts
 74.54.212.172 tumblr.com
 74.54.212.172 www.tumblr.com
 #Twitter
-199.59.148.84 oauth.twitter.com
-199.59.148.84 twitter.com
-199.59.148.84 www.twitter.com
-199.59.148.84 api.twitter.com
+199.59.148.13 oauth.twitter.com
+199.59.148.13 twitter.com
+199.59.148.13 www.twitter.com
+199.59.148.13 api.twitter.com
 199.59.148.201 search.twitter.com
 199.59.148.139 userstream.twitter.com
-199.59.148.84 ssl.twitter.com
-199.59.148.84 status.twitter.com
-199.59.148.84 assets0.twitter.com
-199.59.148.84 assets1.twitter.com
-199.59.148.84 assets2.twitter.com
-199.59.148.84 assets3.twitter.com
-199.59.148.84 static.twitter.com
+199.59.148.13 ssl.twitter.com
+199.59.148.13 status.twitter.com
+199.59.148.13 assets0.twitter.com
+199.59.148.13 assets1.twitter.com
+199.59.148.13 assets2.twitter.com
+199.59.148.13 assets3.twitter.com
+199.59.148.13 static.twitter.com
 184.29.36.124 platform.twitter.com
 219.76.10.138 platform0.twitter.com
 199.59.148.206 help.twitter.com
 199.59.148.206 support.twitter.com
-209.84.4.102 si1.twimg.com
-209.84.4.102 si2.twimg.com
-209.84.4.102 si3.twimg.com
-209.84.4.102 si4.twimg.com
-209.84.4.102 si5.twimg.com
 #Twitpic
 174.36.58.234 twitpic.com
 174.36.58.234 www.twitpic.com
