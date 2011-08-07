@@ -7,14 +7,14 @@
 #有新的Google地址需要添加？请在这里提交或编辑，帮助我完善此列表，谢谢～
 #欢迎穿越传阅
 # 5/7 v*.lscache*.l.google.com IP地址变更（youtube视频储存服务器除外，谁有日本yt的IP告诉我- -），由日本东京改为澳洲悉尼，速度我测试变快了
-# 5/10 更新 v*.lscache*.c.google.com 感谢 JL Hwung 的提供
-# 7/12 《电脑报》你威武！（2010年7月12日G14版第四列）
-# 6/* 大量更新（另新增谷奥、Orkut、Plurk、Mozilla、bit.ly / j.mp 等；本月 Google 系 CDN 已多次调整，请及时更新）
-# 您正在查看的版本更新于 2011-07-31；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
+ # 5/10 更新 v*.lscache*.c.google.com 感谢 JL Hwung 的提供
+ # 7/12 《电脑报》你威武！（2010年7月12日G14版第四列）
+ # 6/* 大量更新（另新增谷奥、Orkut、Plurk、Mozilla、bit.ly / j.mp 等；本月 Google 系 CDN 已多次调整，请及时更新）
+ # 您正在查看的版本更新于 2011-08-01；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
 #顺便提供能够解析出 Google IPv6 地址的 DNS 服务器 (其 ISP 已加入 Google over IPv6 计划)，这样不需要修改 hosts，只需改变本机 DNS 设置就可以自动将 Google 域名解析为 IPv6 地址了。
-# 2001:470:20::2 (v6)
-# 74.82.42.42 (v4)
-#由HE提供。当然在内地使用IPv4的DNS会出问题。(by www.lostriver.net)可以和本host文件配合使用
+ # 2001:470:20::2 (v6)
+ # 74.82.42.42 (v4)
+ #由HE提供。当然在内地使用IPv4的DNS会出问题。(by www.lostriver.net)可以和本host文件配合使用
 #最近好像有0.5不停的在举报本文有不适宜内容（滥用行为），然后接连收到10余封google发来的本文审核通过可以发表的邮件，我建议大家备份一下本文，免得某些人把本文404，reset什么的之类- -
 #用文本编辑器打开hosts文件，复制以下内容到hosts文件中，保存即可（hosts文件没有后缀）
 #Windows 用户可以以管理员身份直接运行 notepad "%SystemRoot%\system32\drivers\etc\hosts" 进行编辑
@@ -372,27 +372,27 @@
 2404:6800:8005::13 googlemail.l.google.com
 2404:6800:8005::bd chatenabled.mail.google.com #Gmail 中 Gtalk 聊天服务
 2404:6800:8005::bd filetransferenabled.mail.google.com #可能会造成 GTalk 客户端异常
-#2404:6800:8005::bd b.googlemail.l.google.com
+2404:6800:8005::bd b.googlemail.l.google.com
 2404:6800:8005::62 talk.gmail.com #Gmail中Gtalk聊天服务
-2404:6800:8005::62 gmail.google.com
-2404:6800:8005::62 gmail.l.google.com
-2404:6800:8005::62 www.gmail.com
-2404:6800:8005::62 gmail.com
-2404:6800:8005::62 pop.gmail.com #pop服务
-2404:6800:8005::62 smtp.gmail.com #smtp服务
+2404:6800:8005::64 gmail.google.com
+2404:6800:8005::11 www.gmail.com
+2404:6800:8005::13 gmail.com
+2001:4860:8005::6d pop.gmail.com
+2001:4860:8005::6d gmail-pop.l.google.com
+2001:4860:8005::6d smtp.gmail.com
+2001:4860:8005::6d gmail-smtp-msa.l.google.com
 2404:6800:8005::62 smtp1.google.com
 2404:6800:8005::62 smtp2.google.com
 2404:6800:8005::62 smtp3.google.com
-2404:6800:8005::62 smtp4.google.com
-2404:6800:8005::62 smtp5.google.com
 2404:6800:8005::62 smtp-out.google.com
-2404:6800:8005::62 smtp-out2.google.com
 2404:6800:8005::62 smtp-out3.google.com
-2404:6800:8005::62 imap.google.com
-2404:6800:8005::62 gmail-pop.l.google.com
-2404:6800:8005::62 gmail-smtp.l.google.com
+2001:4860:8004::6d gmail-smtp.l.google.com
 2404:6800:8005::62 gmail-smtp-in.l.google.com
 2404:6800:8005::62 gmr-smtp-in.l.google.com
+2001:4860:8005::6d smtp.googlemail.com
+2001:4860:8005::6d googlemail-smtp.l.google.com
+2001:4860:8005::6d imap.google.com
+2001:4860:8005::6d gmail-imap.l.google.com
 #Group 论坛
 2404:6800:8005::65 groups.google.com
 2401:3800:c001::68 groups.google.cn
@@ -1046,6 +1046,46 @@
 2404:6800:4008:3::12 v24.nonxt6.googlevideo.com
 2404:6800:4008:3::12 v24.nonxt7.googlevideo.com
 2404:6800:4008:3::12 v24.nonxt8.googlevideo.com
+2404:6800:4008:2::6 r1.tpe05s03.googlevideo.com
+2404:6800:4008:3::6 r1.tpe05s04.googlevideo.com
+2404:6800:4008:2::7 r2.tpe05s03.googlevideo.com
+2404:6800:4008:3::7 r2.tpe05s04.googlevideo.com
+2404:6800:4008:2::8 r3.tpe05s03.googlevideo.com
+2404:6800:4008:3::8 r3.tpe05s04.googlevideo.com
+2404:6800:4008:2::9 r4.tpe05s03.googlevideo.com
+2404:6800:4008:3::9 r4.tpe05s04.googlevideo.com
+2404:6800:4008:2::a r5.tpe05s03.googlevideo.com
+2404:6800:4008:3::a r5.tpe05s04.googlevideo.com
+2404:6800:4008:2::b r6.tpe05s03.googlevideo.com
+2404:6800:4008:3::b r6.tpe05s04.googlevideo.com
+2404:6800:4008:2::c r7.tpe05s03.googlevideo.com
+2404:6800:4008:3::c r7.tpe05s04.googlevideo.com
+2404:6800:4008:2::d r8.tpe05s03.googlevideo.com
+2404:6800:4008:3::d r8.tpe05s04.googlevideo.com
+2404:6800:4008:2::e r9.tpe05s03.googlevideo.com
+2404:6800:4008:3::e r9.tpe05s04.googlevideo.com
+2404:6800:4008:2::f r10.tpe05s03.googlevideo.com
+2404:6800:4008:3::f r10.tpe05s04.googlevideo.com
+2404:6800:4008:2::10 r11.tpe05s03.googlevideo.com
+2404:6800:4008:3::10 r11.tpe05s04.googlevideo.com
+2404:6800:4008:2::11 r12.tpe05s03.googlevideo.com
+2404:6800:4008:3::11 r12.tpe05s04.googlevideo.com
+2404:6800:4008:2::12 r13.tpe05s03.googlevideo.com
+2404:6800:4008:3::12 r13.tpe05s04.googlevideo.com
+2404:6800:4008:2::13 r14.tpe05s03.googlevideo.com
+2404:6800:4008:3::13 r14.tpe05s04.googlevideo.com
+2404:6800:4008:2::14 r15.tpe05s03.googlevideo.com
+2404:6800:4008:3::14 r15.tpe05s04.googlevideo.com
+2404:6800:4008:2::15 r16.tpe05s03.googlevideo.com
+2404:6800:4008:3::15 r16.tpe05s04.googlevideo.com
+2404:6800:4008:2::16 r17.tpe05s03.googlevideo.com
+2404:6800:4008:3::16 r17.tpe05s04.googlevideo.com
+2404:6800:4008:2::17 r18.tpe05s03.googlevideo.com
+2404:6800:4008:3::17 r18.tpe05s04.googlevideo.com
+2404:6800:4008:2::18 r19.tpe05s03.googlevideo.com
+2404:6800:4008:3::18 r19.tpe05s04.googlevideo.com
+2404:6800:4008:2::19 r20.tpe05s03.googlevideo.com
+2404:6800:4008:3::19 r20.tpe05s04.googlevideo.com
 2404:6800:8005::a0 www.gvt0.cn
 2404:6800:8005::a0 0.gvt0.cn
 2404:6800:8005::a0 1.gvt0.cn
@@ -2631,6 +2671,46 @@
 2404:6800:4008:2::12 tc.v24.cache6.c.youtube.com
 2404:6800:4008:2::12 tc.v24.cache7.c.youtube.com
 2404:6800:4008:3::12 tc.v24.cache8.c.youtube.com
+2404:6800:4008:2::6 r1.tpe05s03.c.youtube.com
+2404:6800:4008:3::6 r1.tpe05s04.c.youtube.com
+2404:6800:4008:2::7 r2.tpe05s03.c.youtube.com
+2404:6800:4008:3::7 r2.tpe05s04.c.youtube.com
+2404:6800:4008:2::8 r3.tpe05s03.c.youtube.com
+2404:6800:4008:3::8 r3.tpe05s04.c.youtube.com
+2404:6800:4008:2::9 r4.tpe05s03.c.youtube.com
+2404:6800:4008:3::9 r4.tpe05s04.c.youtube.com
+2404:6800:4008:2::a r5.tpe05s03.c.youtube.com
+2404:6800:4008:3::a r5.tpe05s04.c.youtube.com
+2404:6800:4008:2::b r6.tpe05s03.c.youtube.com
+2404:6800:4008:3::b r6.tpe05s04.c.youtube.com
+2404:6800:4008:2::c r7.tpe05s03.c.youtube.com
+2404:6800:4008:3::c r7.tpe05s04.c.youtube.com
+2404:6800:4008:2::d r8.tpe05s03.c.youtube.com
+2404:6800:4008:3::d r8.tpe05s04.c.youtube.com
+2404:6800:4008:2::e r9.tpe05s03.c.youtube.com
+2404:6800:4008:3::e r9.tpe05s04.c.youtube.com
+2404:6800:4008:2::f r10.tpe05s03.c.youtube.com
+2404:6800:4008:3::f r10.tpe05s04.c.youtube.com
+2404:6800:4008:2::10 r11.tpe05s03.c.youtube.com
+2404:6800:4008:3::10 r11.tpe05s04.c.youtube.com
+2404:6800:4008:2::11 r12.tpe05s03.c.youtube.com
+2404:6800:4008:3::11 r12.tpe05s04.c.youtube.com
+2404:6800:4008:2::12 r13.tpe05s03.c.youtube.com
+2404:6800:4008:3::12 r13.tpe05s04.c.youtube.com
+2404:6800:4008:2::13 r14.tpe05s03.c.youtube.com
+2404:6800:4008:3::13 r14.tpe05s04.c.youtube.com
+2404:6800:4008:2::14 r15.tpe05s03.c.youtube.com
+2404:6800:4008:3::14 r15.tpe05s04.c.youtube.com
+2404:6800:4008:2::15 r16.tpe05s03.c.youtube.com
+2404:6800:4008:3::15 r16.tpe05s04.c.youtube.com
+2404:6800:4008:2::16 r17.tpe05s03.c.youtube.com
+2404:6800:4008:3::16 r17.tpe05s04.c.youtube.com
+2404:6800:4008:2::17 r18.tpe05s03.c.youtube.com
+2404:6800:4008:3::17 r18.tpe05s04.c.youtube.com
+2404:6800:4008:2::18 r19.tpe05s03.c.youtube.com
+2404:6800:4008:3::18 r19.tpe05s04.c.youtube.com
+2404:6800:4008:2::19 r20.tpe05s03.c.youtube.com
+2404:6800:4008:3::19 r20.tpe05s04.c.youtube.com
 #AdWords/AdSense 广告服务
 #2404:6800:8005::62 www.googlesyndication.com
 2404:6800:8005::60 www.googleadservices.com
@@ -2643,6 +2723,70 @@
 2404:6800:8005::62 afd.l.google.com
 2404:6800:8005::98 tpc.googlesyndication.com
 2404:6800:8005::98 pagead-tpc.l.google.com
+2404:6800:4008:2::6 v1.cache1.c.googlesyndication.com
+2404:6800:4008:3::6 v1.cache2.c.googlesyndication.com
+2404:6800:4008:2::6 v1.cache3.c.googlesyndication.com
+2404:6800:4008:3::6 v1.cache4.c.googlesyndication.com
+2404:6800:4008:3::6 v1.cache5.c.googlesyndication.com
+2404:6800:4008:3::6 v1.cache6.c.googlesyndication.com
+2404:6800:4008:3::6 v1.cache7.c.googlesyndication.com
+2404:6800:4008:3::6 v1.cache8.c.googlesyndication.com
+2404:6800:4008:3::a v2.cache1.c.googlesyndication.com
+2404:6800:4008:3::a v2.cache2.c.googlesyndication.com
+2404:6800:4008:2::a v2.cache3.c.googlesyndication.com
+2404:6800:4008:2::a v2.cache4.c.googlesyndication.com
+2404:6800:4008:3::a v2.cache5.c.googlesyndication.com
+2404:6800:4008:3::a v2.cache6.c.googlesyndication.com
+2404:6800:4008:2::a v2.cache7.c.googlesyndication.com
+2404:6800:4008:2::a v2.cache8.c.googlesyndication.com
+2404:6800:4008:3::e v3.cache1.c.googlesyndication.com
+2404:6800:4008:2::e v3.cache2.c.googlesyndication.com
+2404:6800:4008:3::e v3.cache3.c.googlesyndication.com
+2404:6800:4008:3::e v3.cache4.c.googlesyndication.com
+2404:6800:4008:3::e v3.cache5.c.googlesyndication.com
+2404:6800:4008:2::e v3.cache6.c.googlesyndication.com
+2404:6800:4008:3::e v3.cache7.c.googlesyndication.com
+2404:6800:4008:3::e v3.cache8.c.googlesyndication.com
+2404:6800:4008:3::12 v4.cache1.c.googlesyndication.com
+2404:6800:4008:3::12 v4.cache2.c.googlesyndication.com
+2404:6800:4008:2::12 v4.cache3.c.googlesyndication.com
+2404:6800:4008:3::12 v4.cache4.c.googlesyndication.com
+2404:6800:4008:3::12 v4.cache5.c.googlesyndication.com
+2404:6800:4008:3::12 v4.cache6.c.googlesyndication.com
+2404:6800:4008:3::12 v4.cache7.c.googlesyndication.com
+2404:6800:4008:2::12 v4.cache8.c.googlesyndication.com
+2404:6800:4008:3::16 v5.cache1.c.googlesyndication.com
+2404:6800:4008:3::16 v5.cache2.c.googlesyndication.com
+2404:6800:4008:2::16 v5.cache3.c.googlesyndication.com
+2404:6800:4008:2::16 v5.cache4.c.googlesyndication.com
+2404:6800:4008:3::16 v5.cache5.c.googlesyndication.com
+2404:6800:4008:3::16 v5.cache6.c.googlesyndication.com
+2404:6800:4008:3::16 v5.cache7.c.googlesyndication.com
+2404:6800:4008:2::16 v5.cache8.c.googlesyndication.com
+2404:6800:4008:3::7 v6.cache1.c.googlesyndication.com
+2404:6800:4008:3::7 v6.cache2.c.googlesyndication.com
+2404:6800:4008:3::7 v6.cache3.c.googlesyndication.com
+2404:6800:4008:2::7 v6.cache4.c.googlesyndication.com
+2404:6800:4008:2::7 v6.cache5.c.googlesyndication.com
+2404:6800:4008:3::7 v6.cache6.c.googlesyndication.com
+2404:6800:4008:3::7 v6.cache7.c.googlesyndication.com
+2404:6800:4008:3::7 v6.cache8.c.googlesyndication.com
+2404:6800:4008:2::b v7.cache1.c.googlesyndication.com
+2404:6800:4008:2::b v7.cache2.c.googlesyndication.com
+2404:6800:4008:2::b v7.cache3.c.googlesyndication.com
+2404:6800:4008:3::b v7.cache4.c.googlesyndication.com
+2404:6800:4008:3::b v7.cache5.c.googlesyndication.com
+2404:6800:4008:3::b v7.cache6.c.googlesyndication.com
+2404:6800:4008:2::b v7.cache7.c.googlesyndication.com
+2404:6800:4008:2::b v7.cache8.c.googlesyndication.com
+2404:6800:4008:3::f v8.cache1.c.googlesyndication.com
+2404:6800:4008:2::f v8.cache2.c.googlesyndication.com
+2404:6800:4008:3::f v8.cache3.c.googlesyndication.com
+2404:6800:4008:3::f v8.cache4.c.googlesyndication.com
+2404:6800:4008:3::f v8.cache5.c.googlesyndication.com
+2404:6800:4008:2::f v8.cache6.c.googlesyndication.com
+2404:6800:4008:2::f v8.cache7.c.googlesyndication.com
+2404:6800:4008:3::f v8.cache8.c.googlesyndication.com
 2404:6800:8005::70 adwords.google.com
 2404:6800:8005::41 adwords.google.sk
 2404:6800:8005::a7 partner.googleadservices.com
@@ -2788,9 +2932,11 @@
 #88.221.84.18 static.ak.fbcdn.net #网站资源（图像、脚本等），新机制暂无 ipv6 入口
 #Plurk
 2607:f128:47::1:1 plurk.com
-2607:f128:47::1:1 ipv6.plurk.com###IPV6代理翻墙
+2607:f128:47::1:1 ipv6.plurk.com
+###IPV6代理翻墙
 ##来源;http://docs.google.com/ViewDoc?docid=0AahDRK_oy3_TZGdqeHN4d3NfMTQ4ZnZwejZ3ZGc
-##http://aa.cx/ipv6-reverse-proxy###其他IPv6网站
+##http://aa.cx/ipv6-reverse-proxy
+###其他IPv6网站
 ##People Republic of China 中华人民共和国
 #GuAo.hk 谷奥
 #2001:470:a803::250 www.guao.hk
