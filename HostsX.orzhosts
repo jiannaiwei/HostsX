@@ -1,4 +1,4 @@
-;version=201108082150
+;version=201108082233
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -3290,6 +3290,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.casee.cn
 0.0.0.0 wap.cttol.cn
 0.0.0.0 www.lanteanstudio.com
+#Duomeng
+0.0.0.0 duomeng.cn
 #Flurry
 0.0.0.0 data.flurry.com
 0.0.0.0 flurry.com
