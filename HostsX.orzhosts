@@ -1,4 +1,4 @@
-;version=201108080800
+;version=201108082150
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -3300,6 +3300,11 @@ $      下载最新版本的 HostsX。
 #Lyy
 0.0.0.0 www.lyy.mobi
 0.0.0.0 uni.lyy.mobi
+#Madhouse
+0.0.0.0 www.madhouse.cn
+#Madserving
+0.0.0.0 ad1.madserving.cn
+0.0.0.0 appsrv1.madserving.cn
 #Mobclix
 0.0.0.0 www.umeng.com
 0.0.0.0 ads.mobclix.com
@@ -3314,8 +3319,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 wap.moad.cn
 0.0.0.0 moad.cn
 0.0.0.0 wap.6262.com.cn
-#Madhouse
-0.0.0.0 www.madhouse.cn
 #Mydas
 0.0.0.0 bank01.ads.dt.mydas.mobi
 0.0.0.0 bank01.ads.mp.mydas.mobi
