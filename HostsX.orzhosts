@@ -1,4 +1,4 @@
-;version=201108082233
+;version=201108091550
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -10375,12 +10375,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u1.cxadv.com
 0.0.0.0 69card.com
 0.0.0.0 images.9wad.com
-0.0.0.0 t2.17pfa.com
 0.0.0.0 zcomcdl.zcominc.com
 0.0.0.0 content.aimatch.com
 0.0.0.0 show.altitudedigitalpartners.com
 0.0.0.0 download.wagabb.com
 0.0.0.0 www.mr66.com
+0.0.0.0 www2.zjbdt.com
+0.0.0.0 www1.zjbdt.com
 @HostsX 可疑行为拦截/弹窗屏蔽
 #签名弹窗
 0.0.0.0 code.aizhuanlove.cn
@@ -10485,6 +10486,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www1.9wee.com
 0.0.0.0 newtest.5622.cn
 0.0.0.0 cpm.5622.cn
+0.0.0.0 k3.17pfa.com
+0.0.0.0 t2.17pfa.com
+0.0.0.0 kj1.17pfa.com
 0.0.0.0 asqx.qq937.com
 0.0.0.0 frxz.qq937.com
 0.0.0.0 frxz01.qq937.com
@@ -10746,7 +10750,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.youxi186.com
 0.0.0.0 www.zuixiaoyao.com
 0.0.0.0 www1.xman.cn
-0.0.0.0 www1.zjbdt.com
 0.0.0.0 www21.hlggtc.com
 0.0.0.0 www5.yx.xkwan.com
 0.0.0.0 x.17iw.com
