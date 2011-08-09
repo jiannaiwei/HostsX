@@ -1,4 +1,4 @@
-;version=201108091550
+;version=201108091836
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1923,7 +1923,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 allyes.the9.com
 0.0.0.0 aperture.displaymarketplace.com
 0.0.0.0 ccc.xdowns.com
-0.0.0.0 cs.adkongjian.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
 0.0.0.0 counter.gouzai.cn
@@ -8136,6 +8135,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 images.cms.yidaba.com
 0.0.0.0 static.yidaba.com
 @HostsX 国内广告联盟
+#华为
+0.0.0.0 cs.adkongjian.com
 #0252
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
