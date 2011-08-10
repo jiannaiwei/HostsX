@@ -1,4 +1,4 @@
-;version=201108091836
+;version=201108102238
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2772,6 +2772,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 sohu.ad-plus.cn
 0.0.0.0 u.ad-plus.cn
 0.0.0.0 sohu.datamaster.com.cn
+#搜狐高清
+0.0.0.0 images.sohu.com
 #搜狗
 0.0.0.0 a1click.cpc.sogou.com
 0.0.0.0 adsence.sogou.com
@@ -2930,10 +2932,16 @@ $      下载最新版本的 HostsX。
 #起点中文网
 0.0.0.0 qidian.adsame.com
 0.0.0.0 uedas.qidian.com
+0.0.0.0 cj.qidian.com
 0.0.0.0 js.ap.snyu.com
 0.0.0.0 rr.ap.snyu.com
 0.0.0.0 de.ap.snyu.com
+0.0.0.0 pic.snyu.com
+#盛大统计
 0.0.0.0 ipic.staticsdo.com
+0.0.0.0 sda.ibw.sdo.com
+0.0.0.0 static.ex.ibw.sdo.com
+0.0.0.0 feo.staticsdo.com
 #igalive
 0.0.0.0 doubleclick.igalive.com
 0.0.0.0 ipagent.igalive.com
@@ -7807,8 +7815,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 log.17k.com
 #逐浪网
 0.0.0.0 images2.zhulang.com
+0.0.0.0 pv.zhulang.com
 #红袖添香
 0.0.0.0 m.union.hongxiu.com
+#小说阅读网
+0.0.0.0 stat.readnovel.com
+#虚拟天空
+0.0.0.0 b.xntk.com
 @HostsX 国内站点广告/新闻类网站
 #新华网
 0.0.0.0 adcenter.xinhuanet.com
@@ -8028,7 +8041,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 gug.ku6cdn.com
 0.0.0.0 ku6.allyes.com
 0.0.0.0 main.gslb.ku6.com
-0.0.0.0 pic.snyu.com
 0.0.0.0 pq.stat.ku6.com
 0.0.0.0 st.vq.ku6.cn
 0.0.0.0 stat0.888.ku6.com
@@ -8057,8 +8069,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pro.letv.com
 #巨鲸网
 0.0.0.0 t.top100.cn
-#搜狐高清
-0.0.0.0 images.sohu.com
 @HostsX 国内站点广告/区域类网站
 #德州之窗
 0.0.0.0 gg.dzwindows.com
@@ -8203,9 +8213,14 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code4.2bj.cn
 0.0.0.0 pic.2bj.cn
 0.0.0.0 www.2bj.cn
+#21union
+0.0.0.0 21union.com
+0.0.0.0 i.21union.com
+0.0.0.0 www.21union.com
 #37cs
 0.0.0.0 c.37cs.com
 0.0.0.0 code.37cs.com
+0.0.0.0 fb.37cs.com
 0.0.0.0 www.37cs.com
 0.0.0.0 cs.37see.com
 0.0.0.0 cs.twcczhu.com
@@ -8263,6 +8278,11 @@ $      下载最新版本的 HostsX。
 #84422
 0.0.0.0 code.84422.com
 0.0.0.0 pic.84422.com
+#88210212
+0.0.0.0 c.88210212.com
+0.0.0.0 cc.88210212.com
+0.0.0.0 g.88210212.com
+0.0.0.0 gg.88210212.com
 #91ivr
 0.0.0.0 g.91ivr.com
 0.0.0.0 u.91ivr.com
@@ -9003,6 +9023,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.doyoo.net
 0.0.0.0 www.looyu.com
 #egooad
+0.0.0.0 i.egooad.cn
 0.0.0.0 code.egooad.com
 0.0.0.0 egooad.com
 0.0.0.0 img.egooad.com
@@ -9016,6 +9037,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 monitor.yigao.com
 0.0.0.0 p.yigao.com
 0.0.0.0 www.emar.com.cn
+#Flunion
+0.0.0.0 flunion.cn
+0.0.0.0 js.flunion.cn
 #Gamediad
 0.0.0.0 book.gamediad.com
 0.0.0.0 resource.gamediad.com
@@ -9123,6 +9147,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 click.linktech.cn
 0.0.0.0 track.linktech.cn
 0.0.0.0 www.gw8888.com
+#Maxreturn
+0.0.0.0 go.maxreturn.cn
+0.0.0.0 img.maxreturn.cn
+0.0.0.0 mayi.maxreturn.cn
+0.0.0.0 www.maxreturn.cn
 #Mediav
 0.0.0.0 click.mediav.com
 0.0.0.0 material.mediav.com
@@ -9366,13 +9395,17 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xt918.com
 0.0.0.0 w.xt918.com
 0.0.0.0 ww.xt918.com
-#Yyclick
-0.0.0.0 t.yyclick.com
-0.0.0.0 www.yyclick.com
+#Yiqiwin
+0.0.0.0 js.yiqiwin.com
 #Yoyi
 0.0.0.0 amps.yoyi.com.cn
 0.0.0.0 d.yoyi.tv
 0.0.0.0 www.yoyi.com.cn
+#Yqit
+0.0.0.0 js.yqit.net
+#Yyclick
+0.0.0.0 t.yyclick.com
+0.0.0.0 www.yyclick.com
 #Zdy
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
@@ -9904,6 +9937,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑行为拦截/病毒拦截
 #广告诈骗钓鱼等
+0.0.0.0 98712.com
+0.0.0.0 t.98712.com
+0.0.0.0 zx.98712.com
 0.0.0.0 www.qu.cc
 0.0.0.0 www.krgou.com
 0.0.0.0 pic.cnmk.cc
@@ -9960,7 +9996,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 2010texq.com
 0.0.0.0 360.legoumall.com
 0.0.0.0 888888fa.com
-0.0.0.0 98712.com
 0.0.0.0 a.ads99.cn
 0.0.0.0 adtaobao.tobo123.com
 0.0.0.0 ajim.delphibbs.com
@@ -10110,12 +10145,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xiazai.cpushpop.com
 0.0.0.0 xinw.net
 0.0.0.0 zh.qingchun001.cn
-0.0.0.0 zx.98712.com
 0.0.0.0 zx360.v1kk.com
 0.0.0.0 www.qeee1.com
 0.0.0.0 www.chnsy.net
 0.0.0.0 www.expo2010-sc.com
 0.0.0.0 www.m1905.in
+0.0.0.0 xxsy.bohelady.com
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -10414,7 +10449,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 dfhgg.huanlang.com
 0.0.0.0 yktj.yezizhu.com
 0.0.0.0 e8.yezizhu.com
-0.0.0.0 go.maxreturn.cn
 0.0.0.0 abc.96pk.com
 0.0.0.0 e3.96pk.com
 0.0.0.0 e8.96pk.com
@@ -10522,10 +10556,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adimg.37117.com
 0.0.0.0 ads.17hug.com
 0.0.0.0 member.slb.17hug.com
-0.0.0.0 c.88210212.com
-0.0.0.0 cc.88210212.com
-0.0.0.0 g.88210212.com
-0.0.0.0 gg.88210212.com
 0.0.0.0 cpm.union.52xiyou.com
 0.0.0.0 s1.pic.union.52xiyou.com
 0.0.0.0 union.52xiyou.com
@@ -10760,8 +10790,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yhchuanqi.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 img.voolee.cn
+0.0.0.0 p.yocc.net
 #TestData
 0.0.0.0 1133.baiduskxn.cn
+0.0.0.0 123.360kaixin.com
 0.0.0.0 131377.com
 0.0.0.0 189.zhanguotj.com
 0.0.0.0 1st.ecoma.glb0.lxdns.com
@@ -10789,6 +10821,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 f.mtmmt.com
 0.0.0.0 fashion.701sou.com
 0.0.0.0 ftxy.528day.com
+0.0.0.0 game.ad1111.com
 0.0.0.0 game.tdwan.com
 0.0.0.0 gg.29ww.net
 0.0.0.0 gg1.173hl.com
@@ -10798,9 +10831,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 home.wangmeng.com
 0.0.0.0 hxsg.528day.com
 0.0.0.0 hz.www.rbc.cn
+0.0.0.0 i.84232.com
 0.0.0.0 images.zhenming.net
 0.0.0.0 irs09.com
 0.0.0.0 j.zqgame.com
+0.0.0.0 js.ssrj.net
 0.0.0.0 links.panr.com
 0.0.0.0 media.wushen.com
 0.0.0.0 mm.3992929.com
@@ -10813,6 +10848,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 reg.njeee.com
 0.0.0.0 reg.nonoyx.com
 0.0.0.0 reg.ucjoy.com
+0.0.0.0 res.sa20.com
 0.0.0.0 show.sogua.com
 0.0.0.0 statistic.5ding.com
 0.0.0.0 syjcq.com 
@@ -10828,17 +10864,21 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.qjwm.com
 0.0.0.0 u22.85soho.com
 0.0.0.0 un.5i.com
+0.0.0.0 union.ff84.com
 0.0.0.0 union.jiyougame.com
 0.0.0.0 union.link7.cn
 0.0.0.0 vip1.cachecn.com
+0.0.0.0 vs.mr66.com
 0.0.0.0 wa66.com
 0.0.0.0 wd.gyyx.cn
 0.0.0.0 wen.wwwfollow5.com
 0.0.0.0 ww.2366.com
 0.0.0.0 www-google-analytics.l.goole.com
 0.0.0.0 www.16768.com
+0.0.0.0 www.21d99.com
 0.0.0.0 www.587188.cn
 0.0.0.0 www.68yo.com
+0.0.0.0 www.7155333.cn
 0.0.0.0 www.773.com.cn
 0.0.0.0 www.ads.gmodules.com
 0.0.0.0 www.aloho.cn
@@ -10857,8 +10897,3 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xy.skdaren.com
 0.0.0.0 yee.js.cn
 0.0.0.0 yourchinalove.com
-0.0.0.0 www.7155333.cn
-0.0.0.0 www.21d99.com
-0.0.0.0 res.sa20.com
-0.0.0.0 game.ad1111.com
-0.0.0.0 union.ff84.com
