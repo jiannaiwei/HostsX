@@ -1,4 +1,4 @@
-;version=201108102238
+;version=201108111500
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8198,6 +8198,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 a.5qwg.com
 0.0.0.0 js.160ads.com
 0.0.0.0 www.160ads.com
+#1o26
+0.0.0.0 ck.1o26.com
+0.0.0.0 cp.1o26.com
 #2bj
 0.0.0.0 click.5j.com
 0.0.0.0 click2.5j.com
@@ -8244,6 +8247,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 new4.user.55.la
 0.0.0.0 preview.55.la
 0.0.0.0 zhuti.55.la
+#5622
+0.0.0.0 cpm.5622.cn
+0.0.0.0 newtest.5622.cn
 #70e
 0.0.0.0 e.70e.com
 0.0.0.0 g.70e.com
@@ -10511,6 +10517,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 keyside.r.arpg2.com
 0.0.0.0 rom.r.arpg2.com
 0.0.0.0 smal.r.arpg2.com
+0.0.0.0 tg.r.arpg2.com
 0.0.0.0 xiaoh.r.arpg2.com
 0.0.0.0 xiaohua.r.arpg2.com
 0.0.0.0 yithgao.r.arpg2.com
@@ -10520,8 +10527,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.9wee.com
 0.0.0.0 web.9wee.com
 0.0.0.0 www1.9wee.com
-0.0.0.0 newtest.5622.cn
-0.0.0.0 cpm.5622.cn
 0.0.0.0 k3.17pfa.com
 0.0.0.0 t2.17pfa.com
 0.0.0.0 kj1.17pfa.com
@@ -10601,7 +10606,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
 0.0.0.0 counter.hitslink.com
-0.0.0.0 cp.1o26.com
 0.0.0.0 cp1.blcx.com
 0.0.0.0 cpm.71aiyou.com
 0.0.0.0 cpm.e7wan.com
@@ -10897,3 +10901,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xy.skdaren.com
 0.0.0.0 yee.js.cn
 0.0.0.0 yourchinalove.com
+0.0.0.0 hk-rolex.com
