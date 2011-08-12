@@ -1,4 +1,4 @@
-;version=201108111500
+;version=201108121336
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2696,6 +2696,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rd.qihoo.com
 0.0.0.0 union.qihoo.com
 #360
+0.0.0.0 down.360safe.com
 0.0.0.0 inst.360safe.com
 0.0.0.0 seapp.stat.360safe.com
 0.0.0.0 stat.360safe.com
@@ -8014,6 +8015,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 atm.youku.com
 0.0.0.0 Fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
+0.0.0.0 hz.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 speed.lstat.youku.com
 0.0.0.0 stat.youku.com
