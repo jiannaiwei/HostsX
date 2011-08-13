@@ -3,7 +3,7 @@
 
 /*
 Name: /浏览辅助
-Version: 2.71
+Version: 2.72
 Author: KwokTree
 Description: MayBe a better User CSS Help U.
 */
@@ -185,7 +185,7 @@ div[id^="followDiv"],div[id^="kxsoMovie"],div[id^="pop_container_],div[id^="_QQP
 #paypopupScriptDiv,#qqaddiv,#ShowQQ,#SlipLay,#ty_msg_box,.QQbox {display: none !important;}
 
 /* 各种提示隐藏 */
-#browse_se_tgbar,#tg_qq,#_tc_browser_promotion,#mbCarduserNotLogin,#mentionTip,#popTudouVA,
+#browse_popularize,#tips_qihoo,#tg_qq,#_tc_browser_promotion,#mbCarduserNotLogin,#mentionTip,#popTudouVA,
 [id*="sogou_se"],div[class="upgrade_your_browser"],DIV[class="fblike_button"] {
 display: none !important;
 	}
@@ -215,3 +215,29 @@ DIV[class="newslist"]>DL>DD[class="detail"]>EM{display:none !important}
 div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="deerway"],div[id="klw_ent"],div[class="l_qq_com"]{display:none !important}
 div[class="bp-popup"][id="J_popup"]{display:none !important}
 div[id^="ArpAdPro"],div[id^="ifengAeCrimp"],span[id="StreamMediaWrap"]{display:none !important}
+
+
+/* 已删除备份
+div[class$="AD"], http://www.macmillandictionary.com/dictionary/british/tree 发音部分
+a[href*="/adclick.php?"], googleplus网页显示不全
+[id*="-popup"],http://mb.qq.com/s60v2v3 弹出下载框
+[class$="_ad"],cctv视频播放已改版
+table[border="0"][cellpadding="0"][cellspacing="0"][width="100%"][align="center"],部分页面的主要内容和主要广告
+div[id$="TopAD"],div[class$="TopAD"]
+div[class="text"][id^="text"],环球网网页面内容
+div[class="links"],网易邮箱右上角链接
+iframe[id*="ad"],网易邮箱邮件页面
+[class*="-popup"],淘宝网聚划算登录
+[id*="_popup"],百度空间登陆迟缓
+IFRAME[src="about:blank"],淘宝机票弹出页面显示层
+div[class^="ad"],凤凰网部分视频
+IMG[src^="http://img.ifeng.com/tres/"],凤凰网logo
+[class*="popup"],人人网分享预览
+div[id*="float"],div[class*="float"],论坛登录页面层
+#focus,youku音乐焦点
+div[class^="ad"],#hiddenlpsubmitdiv, bbs.ngacn.cc
+div[class$="-banner"],www.ipc.me
+[id^="ad"],div[class^="banner_"],[id^="banner"],verycd
+[id$="ads"],hk.yahoo.com https://i.doit.im/download 下载页面显示问题
+div[id^="AD"],cnbeta
+div[id$="ad"],[id$="ad"], 深度论坛 */
