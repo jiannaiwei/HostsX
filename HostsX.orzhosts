@@ -1,4 +1,4 @@
-;version=201108121932
+;version=201108141111
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2711,7 +2711,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 8.show.sina.com.cn
 0.0.0.0 ad3.sina.com.cn
 0.0.0.0 ad4.sina.com.cn
-0.0.0.0 all.vic.sina.com.cn
 0.0.0.0 beacon.sina.com.cn
 0.0.0.0 bf.sina.com.cn
 0.0.0.0 cl.sina.com.cn
