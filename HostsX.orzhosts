@@ -1,4 +1,4 @@
-;version=201108151127
+;version=201108160621
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8052,16 +8052,8 @@ $      下载最新版本的 HostsX。
 #巨鲸网
 0.0.0.0 t.top100.cn
 @HostsX 国内站点广告/区域类网站
-#德州之窗
-0.0.0.0 gg.dzwindows.com
-#河池365
-0.0.0.0 bbs.corp.gxhc365.com
-#北海365
-0.0.0.0 ad.beihai365.com
-#华声论坛
-0.0.0.0 click.hnol.net
-0.0.0.0 clickip.hnol.net
-0.0.0.0 ts.instreet.cn
+#携程网
+0.0.0.0 allyes.ctrip.com
 #21CN
 0.0.0.0 analytics.21cn.com
 0.0.0.0 click.21cn.com
@@ -8104,6 +8096,16 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ad.ynet.com
 0.0.0.0 fun.ynet.com
 0.0.0.0 ranking.ynet.com
+#德州之窗
+0.0.0.0 gg.dzwindows.com
+#河池365
+0.0.0.0 bbs.corp.gxhc365.com
+#北海365
+0.0.0.0 ad.beihai365.com
+#华声论坛
+0.0.0.0 click.hnol.net
+0.0.0.0 clickip.hnol.net
+0.0.0.0 ts.instreet.cn
 #亿房
 0.0.0.0 shows.fdc.com.cn
 #大洋网
@@ -8111,6 +8113,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 rnd.dayoo.com
 0.0.0.0 sta.dayoo.com
 #51Job
+0.0.0.0 ac.51job.com
 0.0.0.0 logs.51job.com
 0.0.0.0 kwdsrv.51job.com
 #Yidaba
@@ -8421,6 +8424,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v2www.adpower.cn
 0.0.0.0 v3t.adpower.cn
 0.0.0.0 www.adpower.cn
+#Ads001
+0.0.0.0 www.ads001.com
+0.0.0.0 res1.ads001.com
+0.0.0.0 t.ads001.com
 #AdSame
 0.0.0.0 0127.adsame.com
 0.0.0.0 114study.adsame.com
@@ -9928,6 +9935,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑行为拦截/病毒拦截
 #广告诈骗钓鱼等
+0.0.0.0 www.quna.com
+0.0.0.0 www.qunaa.cn
+0.0.0.0 www.jqb168.com
 0.0.0.0 www.weibosr.in
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
