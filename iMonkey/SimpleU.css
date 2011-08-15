@@ -3,7 +3,7 @@
 
 /*
 Name: /浏览辅助
-Version: 2.72
+Version: 2.75
 Author: KwokTree
 Description: MayBe a better User CSS Help U.
 */
@@ -51,10 +51,7 @@ font-weight: bold !important;
 blink, .blink, *[style*="blink"]{text-decoration : inherit !important;}
 
 /* Google */
-ol[onmouseover="return true"],div[id="rhs_block"],[href*="pagead"],[id*="adsense"],[src*="pagead"],[href*="doubleclick.net"],[href*="googlesyndication.com"],
-[href="http://www.google-analytics.com/urchin.js"],[src="http://www.google-analytics.com/urchin.js"]  {
-	display: none !important;
-}
+[id*="adsense"],[href*="pagead"],[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"] {display:none !important}
 
 /* Baidu */
 a[href*="cb.baidu.com"],a[href*="hm.baidu.com"],a[href*="cpro.baidu.com"]{display:none !important}
@@ -66,25 +63,32 @@ a[href*="www.baidu.com/baidu.php?"] + BR + FONT {display:none !important}
 /* Taobao */
 [href*="网购排行：淘宝网最新热门东西"]{display:none !important}
 [src*="网购排行：淘宝网最新热门东西"]{display:none !important}
-a[href*="alimama.c"]{display:none !important}
-iframe[src*="alimama.c"]{display:none !important}
-a[href*="http://click.mz.simba.taobao.com/"],a[href*="http://s.click.taobao.com"],A[href^="http://click.simba.taobao.com"] {
+a[href*="http://click.mz.simba.taobao.com/"],a[href*="http://s.click.taobao.com"],A[href^="http://click.simba.taobao.com"]{display:none !important}
+
+/* 广告和指向链接隐藏 */
+iframe[name="ads_frame"],IFRAME[src="adb.php"],IFRAME[src="adt.php"] {
 	display: none !important;
 }
 
-/* AD Union */
-a[href*=".oadz.com"],a[href*=".allyes.c"],a[href^="http://click.mediav.com"],
-a[href*="wrating.com"],[src*=".adsame.com/"] {
+[src*=".adsame.com"],a[href*=".allyes.c"],a[href*=".mediav.com"],a[href*=".oadz.com"],a[href*="alimama.c"],
+a[href*="doubleclick.net"],a[href*="googlesyndication.com"],a[href*="wrating.com"],iframe[src*="alimama.c"] {
 	display: none !important;
 }
 
-/* 广告框架过滤 */
-a[href^="http://cnrdn.com/"][target="_blank"]{display:none !important}
-TD[width="50%"][align="center"]{display: none !important;}
-TD[width="960"][height="90"][align="center"]{display: none !important;}
-ARTICLE>div[class^="ad"],div[align="center"][id^="ad"]{
+IMG[src*="/a-d-s/"],a[href*="/adfclick?"],[href*="clickpromotion.php?"],a[href*="/guanggao"],
+a[href*="/interface/cpm.php?"],IFRAME[src*="/interface/cpmblank.php?"],a[href*="/showavd.aspx?adid="]{
+	display: none !important;
+}
+/* 论坛广告和外链 */
+div[class="a_b"],div[class="a_mu"],div[class="bm a_c"],
+div[class^="a_fl"],div[class^="a_p"],div[class^="wp a_"],div[id^="thread_ads_"]{
 display: none !important;
 	}
+.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
+/* 签名过滤 */
+[class^="signature"],.sign,.postertext{display: none !important;}
+/* 论坛浮动过滤 */
+#bshareF,#ckepop,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
 
 /* AD规则 */
 div[class^=AD],div[id$="AD"],[id$="_ad"],
@@ -164,11 +168,6 @@ div[class$="turn_ad"],ul[class="ad_doc_text"] {
 display: none !important;
 	}
 
-/* 论坛签名，广告和外链 */
-div[class^="a_mu"],div[class^="wp a_"],[id^="thread_ads_"],div[class^="a_p"],.postbit_adcode,#adbottom,#GoogleAd,#footerStuff {display: none !important;}
-[class^="signature"],.sign,.postertext {display: none !important;}
-.forumimglink,.forumlinks,.forumtxtlink,div[id="online"][class="bm oll"],div[id="category_lk"][class="bm_c ptm"] {display:none !important}
-
 /* 浮动 弹窗广告 */
 div[id^="p4pblock"],span[id^="ad_"],span[id="tmpMsgDiv"],span[class="close"],span[id="urlup"],span[id="afterurl"] {display: none !important;}
 div[class*="focus"][id$="focus"],div[id="popup"][style*="display:"],div[class$="-floatgg"],
@@ -181,8 +180,8 @@ display: none !important;
 	}
 
 div[id^="followDiv"],div[id^="kxsoMovie"],div[id^="pop_container_],div[id^="_QQPopDIV"] {display: none !important;}
-#adZljcRightBottomDiv,#bbsPOPFrame,#bshareF,#feedback-box,#fixedLayertop,#msg-faq{display: none !important;}
-#paypopupScriptDiv,#qqaddiv,#ShowQQ,#SlipLay,#ty_msg_box,.QQbox {display: none !important;}
+#adZljcRightBottomDiv,#bbsPOPFrame,#feedback-box,#msg-faq{display: none !important;}
+#paypopupScriptDiv,#qqaddiv,#ShowQQ,#SlipLay,#ty_msg_box{display: none !important;}
 
 /* 各种提示隐藏 */
 #browse_popularize,#tips_qihoo,#tg_qq,#_tc_browser_promotion,#mbCarduserNotLogin,#mentionTip,#popTudouVA,
@@ -190,54 +189,20 @@ div[id^="followDiv"],div[id^="kxsoMovie"],div[id^="pop_container_],div[id^="_QQP
 display: none !important;
 	}
 
-/* 广告和指向链接隐藏 */
-iframe[name="ads_frame"],IFRAME[src="adb.php"],IFRAME[src="adt.php"] {
-	display: none !important;
-}
-
-[href*="/ads"],[href*="/adv"],IMG[src*="/a-d-s/"],a[href*="/adfclick?"],[href*="counter"],[href*="clickpromotion.php?"],
-a[href*="/guanggao"],a[href*="/interface/cpm.php?"],IFRAME[src*="/interface/cpmblank.php?"],a[href*="/showavd.aspx?adid="]{
-	display: none !important;
-}
+/* 广告框架过滤 */
+a[href^="http://cnrdn.com/"][target="_blank"]{display:none !important}
+TD[width="50%"][align="center"]{display: none !important;}
+TD[width="960"][height="90"][align="center"]{display: none !important;}
+ARTICLE>div[class^="ad"],div[align="center"][id^="ad"]{
+display: none !important;
+	}
 
 /* 部分站点广告 */
-div[class="ruanw box"],div[class="tips_player"],div[class="xfl_out"][id="xfl_out"],
+div[class="ruanw box"],div[class="xfl_out"][id="xfl_out"],
 div[class="bannerleft"],div[id="zolFloat"],img[id$="_pvm]{
 display: none !important;
 	}
 div[id="sp"],LI[id="sp"]{display: none !important;}
 sohuadcode {display:none !important}
-DIV[class="mbm cl"] {display:none !important}
-DIV[class^="content ad-b"]{display:none !important}
-DIV[class="insbox"][id="xmpInstallTips"],DIV[class="playad"][id="normal_lamu"],DIV[class="kktezheng"][id="playInstallTips"]{display:none !important}
-div[class="btmad"][id^="adsp_content_banner_"],div[id="couplet_left_NULL"],div[id="couplet_right_NULL"]{display:none !important}
-DIV[class="newslist"]>DL>DD[class="detail"]>EM{display:none !important}
 div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="deerway"],div[id="klw_ent"],div[class="l_qq_com"]{display:none !important}
 div[class="bp-popup"][id="J_popup"]{display:none !important}
-div[id^="ArpAdPro"],div[id^="ifengAeCrimp"],span[id="StreamMediaWrap"]{display:none !important}
-
-
-/* 已删除备份
-div[class$="AD"], http://www.macmillandictionary.com/dictionary/british/tree 发音部分
-a[href*="/adclick.php?"], googleplus网页显示不全
-[id*="-popup"],http://mb.qq.com/s60v2v3 弹出下载框
-[class$="_ad"],cctv视频播放已改版
-table[border="0"][cellpadding="0"][cellspacing="0"][width="100%"][align="center"],部分页面的主要内容和主要广告
-div[id$="TopAD"],div[class$="TopAD"]
-div[class="text"][id^="text"],环球网网页面内容
-div[class="links"],网易邮箱右上角链接
-iframe[id*="ad"],网易邮箱邮件页面
-[class*="-popup"],淘宝网聚划算登录
-[id*="_popup"],百度空间登陆迟缓
-IFRAME[src="about:blank"],淘宝机票弹出页面显示层
-div[class^="ad"],凤凰网部分视频
-IMG[src^="http://img.ifeng.com/tres/"],凤凰网logo
-[class*="popup"],人人网分享预览
-div[id*="float"],div[class*="float"],论坛登录页面层
-#focus,youku音乐焦点
-div[class^="ad"],#hiddenlpsubmitdiv, bbs.ngacn.cc
-div[class$="-banner"],www.ipc.me
-[id^="ad"],div[class^="banner_"],[id^="banner"],verycd
-[id$="ads"],hk.yahoo.com https://i.doit.im/download 下载页面显示问题
-div[id^="AD"],cnbeta
-div[id$="ad"],[id$="ad"], 深度论坛 */
