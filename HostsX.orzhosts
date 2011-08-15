@@ -1,4 +1,4 @@
-;version=201108151038
+;version=201108151055
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9428,6 +9428,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 directui.kuaiche.com.showq.net
 0.0.0.0 static.u966.com
 0.0.0.0 m.u966.com
+0.0.0.0 al.myrice.com
+0.0.0.0 all.myrice.com
+0.0.0.0 client.myrice.com
 #Funshion
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
