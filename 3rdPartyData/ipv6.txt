@@ -4,19 +4,15 @@
 #欢迎转载，请注明来源，以便网友及时更新，谢谢
 #本文的发布地址：http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq
 #本文的共享链接：http://docs.google.com/Doc?docid=0ARhAbsvps1PlZGZrZG14bnRfNjFkOWNrOWZmcQ
-#有新的Google地址需要添加？请在这里提交或编辑，帮助我完善此列表，谢谢～
+#有新的Google地址需要添加？请在这里提交或在线编辑，帮助我完善此列表，谢谢～
 #欢迎穿越传阅
 # 5/7 v*.lscache*.l.google.com IP地址变更（youtube视频储存服务器除外，谁有日本yt的IP告诉我- -），由日本东京改为澳洲悉尼，速度我测试变快了
  # 5/10 更新 v*.lscache*.c.google.com 感谢 JL Hwung 的提供
  # 7/12 《电脑报》你威武！（2010年7月12日G14版第四列）
- # 6/* 大量更新（另新增谷奥、Orkut、Plurk、Mozilla、bit.ly / j.mp 等；本月 Google 系 CDN 已多次调整，请及时更新）
- # 您正在查看的版本更新于 2011-08-01；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
-#顺便提供能够解析出 Google IPv6 地址的 DNS 服务器 (其 ISP 已加入 Google over IPv6 计划)，这样不需要修改 hosts，只需改变本机 DNS 设置就可以自动将 Google 域名解析为 IPv6 地址了。
- # 2001:470:20::2 (v6)
- # 74.82.42.42 (v4)
- #由HE提供。当然在内地使用IPv4的DNS会出问题。(by www.lostriver.net)可以和本host文件配合使用
+ # 您正在查看的版本更新于 2011-08-14（bit.ly 失效）；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
+#顺便提供能够解析出 Google IPv6 地址的 DNS 服务器 (其 ISP 已加入 Google over IPv6 计划)，这样不需要修改 hosts，只需改变本机 DNS 设置就可以自动解析出 IPv6 地址，由HE提供：2001:470:20::2 (ipv6) 74.82.42.42 (ipv4，在内地可能会遭污染，可以和本 hosts 文件配合使用 by www.lostriver.net)
 #最近好像有0.5不停的在举报本文有不适宜内容（滥用行为），然后接连收到10余封google发来的本文审核通过可以发表的邮件，我建议大家备份一下本文，免得某些人把本文404，reset什么的之类- -
-#用文本编辑器打开hosts文件，复制以下内容到hosts文件中，保存即可（hosts文件没有后缀）
+#用文本编辑器打开hosts文件，将以下内容复制进去，保存即可（hosts 文件没有后缀）
 #Windows 用户可以以管理员身份直接运行 notepad "%SystemRoot%\system32\drivers\etc\hosts" 进行编辑
 #Linux 用户在终端中执行 sudo gedit /etc/hosts 即可开始编辑
 #关闭某个IPv6的转发请在那一行的最前面添加#号，启用请去除最前面#号，每行中间的#号是为了区分地址和注释，不用理睬- -
@@ -152,6 +148,9 @@
 2404:6800:8005::8d haiticrisis.appspot.com #Google Person Finder: Haiti Earthquake
 2404:6800:8005::8d i18napis.appspot.com
 2404:6800:8005::8d googlesharedspaces.appspot.com
+2404:6800:8005::8d project-slingshot-gp.appspot.com
+2404:6800:8005::8d r3085-dot-latest-dot-project-slingshot-gp.appspot.com
+2404:6800:8005::8d newsfeed-dot-latest-dot-rovio-ad-engine.appspot.com
 2404:6800:8005::8d *.appspot.com #可以添加自己的 gae 应用
 #Answers/Guru/WenDa 问答社区（国际版已停止运营）
 2404:6800:8005::66 answers.google.com
@@ -191,6 +190,7 @@
 #Blogspot 博客服务
 2404:6800:8005::62 www.blogspot.com
 #2404:6800:8005::62 blogger.l.google.com
+2404:6800:8005::bf blogspot.com
 2404:6800:8005::62 blogsofnote.blogspot.com #留言博客（英文版本）
 2404:6800:8005::62 knownissues.blogspot.com #已知问题
 2404:6800:8005::62 1.bp.blogspot.com
@@ -274,6 +274,7 @@
 2404:6800:8005::65 browsersync.google.com
 2404:6800:8005::65 browsersync.l.google.com
 2404:6800:8005::63 toolbarqueries.google.com #PageRank 查询（工具栏显示）
+2404:6800:8005::63 toolbarqueries.google.com.hk
 2404:6800:8005::63 toolbarqueries.clients.google.com
 2404:6800:8005::63 toolbarqueries.l.google.com
 2404:6800:8005::79 chrome.angrybirds.com
@@ -386,7 +387,7 @@
 2404:6800:8005::62 smtp3.google.com
 2404:6800:8005::62 smtp-out.google.com
 2404:6800:8005::62 smtp-out3.google.com
-2001:4860:8004::6d gmail-smtp.l.google.com
+2001:4860:8005::6d gmail-smtp.l.google.com
 2404:6800:8005::62 gmail-smtp-in.l.google.com
 2404:6800:8005::62 gmr-smtp-in.l.google.com
 2001:4860:8005::6d smtp.googlemail.com
@@ -472,20 +473,14 @@
 2404:6800:8005::66 cbks2.google.com
 2404:6800:8005::66 cbks3.google.com
 2404:6800:8005::8a khms.l.google.com
-2404:6800:8005::62 mw0.google.com
 2404:6800:8005::76 mw1.google.com #small
 2404:6800:8005::76 mw2.google.com #medium
-2404:6800:8005::62 mw3.google.com
 2404:6800:8005::71 mt.l.google.com
 2404:6800:8005::71 mt.google.com
 2404:6800:8005::71 mt0.google.com
 2404:6800:8005::71 mt1.google.com
 2404:6800:8005::71 mt2.google.com
 2404:6800:8005::71 mt3.google.com
-2404:6800:8005::62 mlt0.google.com
-2404:6800:8005::62 mlt1.google.com
-2404:6800:8005::62 mlt2.google.com
-2404:6800:8005::62 mlt3.google.com
 2404:6800:8005::62 gg.google.com
 2404:6800:8005::8a gg.google.cn
 2404:6800:8005::62 csi.l.google.com
@@ -560,17 +555,17 @@
 #2404:6800:8005::5d picasaweb.l.google.com
 2404:6800:8005::63 picasa.google.com
 2404:6800:8005::be picasaweb.google.com
-2404:6800:8005::62 lh0.ggpht.com
-2404:6800:8005::62 lh1.ggpht.com
-2404:6800:8005::62 lh2.ggpht.com
-2404:6800:8005::62 lh3.ggpht.com
-2404:6800:8005::62 lh4.ggpht.com
-2404:6800:8005::62 lh5.ggpht.com
-2404:6800:8005::62 lh6.ggpht.com
-2404:6800:8005::62 lh7.ggpht.com
-2404:6800:8005::62 lh8.ggpht.com
-2404:6800:8005::62 lh9.ggpht.com
-2404:6800:8005::62 lh6.google.com
+2404:6800:8005::84 lh3.ggpht.com
+2404:6800:8005::84 lh4.ggpht.com
+2404:6800:8005::84 lh5.ggpht.com
+2404:6800:8005::84 lh6.ggpht.com
+2404:6800:8005::84 photos-ugc.l.google.com
+2404:6800:8005::66 lh2.google.com
+2404:6800:8005::66 lh3.google.com
+2404:6800:8005::66 lh4.google.com
+2404:6800:8005::66 lh5.google.com
+2404:6800:8005::66 lh6.google.com
+2404:6800:8005::66 lh2.l.google.com
 #Profiles 个人主页
 2404:6800:8005::71 profiles.google.com
 2404:6800:8005::65 plusone.google.com
@@ -1146,6 +1141,7 @@
 #Google APIs 开发接口服务
 2404:6800:8005::65 apis.google.com
 2404:6800:8005::62 chart.apis.google.com
+2404:6800:8005::5f www.googleapis.com
 2404:6800:8005::5f *.googleapis.com
 2404:6800:8005::5f googleapis.l.google.com
 2404:6800:8005::5f ajax.googleapis.com
@@ -1587,6 +1583,7 @@
 2404:6800:8005::84 lh5.googleusercontent.com
 2404:6800:8005::84 lh6.googleusercontent.com
 2404:6800:8005::84 music-onebox.googleusercontent.com
+2404:6800:8005::84 oauth.googleusercontent.com
 2404:6800:8005::84 static.googleusercontent.com
 2404:6800:8005::84 s2.googleusercontent.com
 2404:6800:8005::84 themes.googleusercontent.com #开放字体库
@@ -1618,6 +1615,7 @@
 2404:6800:8005::84 2-focus-opensocial.googleusercontent.com
 2404:6800:8005::84 3-focus-opensocial.googleusercontent.com
 2404:6800:8005::84 www-kix-opensocial.googleusercontent.com
+2404:6800:8005::84 images-lso-opensocial.googleusercontent.com
 2404:6800:8005::84 www-onepick-opensocial.googleusercontent.com
 2404:6800:8005::84 images-onepick-opensocial.googleusercontent.com
 2404:6800:8005::84 www-open-opensocial.googleusercontent.com
@@ -1625,6 +1623,25 @@
 2404:6800:8005::84 1-open-opensocial.googleusercontent.com
 2404:6800:8005::84 2-open-opensocial.googleusercontent.com
 2404:6800:8005::84 3-open-opensocial.googleusercontent.com
+2404:6800:8005::84 www-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 images-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 4fjvqid3r3oq66t548clrdj52df15coc-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 53rd6p0catml6vat6qra84rs0del836d-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 59cbv4l9s05pbaks9v77vc3mengeqors-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 8kubpeu8314p2efdd7jlv09an9i2ljdo-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 adstvca8k2ooaknjjmv89j22n9t676ve-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 bt26mravu2qpe56n8gnmjnpv2inl84bf-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 debh8vg7vd93bco3prdajidmm7dhql3f-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 hsco54a20sh11q9jkmb51ad2n3hmkmrg-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 i8brh95qor6r54nkl52hidj2ggcs4jgm-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 k6v18tjr24doa89b55o3na41kn4v73eb-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 ob7f2qc0i50kbjnc81vkhgmb5hsv7a8l-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 qhie5b8u979rnch1q0hqbrmbkn9estf7-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 r70rmsn4s0rhk6cehcbbcbfbs31pu0va-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 rbjhe237k979f79d87gmenp3gejfonu9-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 u807isd5egseeabjccgcns005p2miucq-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 upt14k1i2veesusrda9nfotcrbp9d7p5-a-oz-opensocial.googleusercontent.com
+2404:6800:8005::84 *-a-oz-opensocial.googleusercontent.com #建议通过 pac 实现
 2404:6800:8005::84 images-pos-opensocial.googleusercontent.com
 2404:6800:8005::84 www-wave-opensocial.googleusercontent.com
 2404:6800:8005::84 wave-opensocial.googleusercontent.com
@@ -1686,6 +1703,7 @@
 2404:6800:8005::5b ru.youtube.com
 2404:6800:8005::5b uk.youtube.com
 2404:6800:8005::5b tw.youtube.com
+2404:6800:8005::64 ads.youtube.com
 2404:6800:8005::5b www.youtube-nocookie.com
 2404:6800:8005::5b youtube-ui.l.google.com
 2404:6800:8005::66 m.youtube.com
@@ -2787,6 +2805,70 @@
 2404:6800:4008:2::f v8.cache6.c.googlesyndication.com
 2404:6800:4008:2::f v8.cache7.c.googlesyndication.com
 2404:6800:4008:3::f v8.cache8.c.googlesyndication.com
+2404:6800:4008:2::6 v1.lscache1.c.googlesyndication.com
+2404:6800:4008:3::6 v1.lscache2.c.googlesyndication.com
+2404:6800:4008:2::6 v1.lscache3.c.googlesyndication.com
+2404:6800:4008:3::6 v1.lscache4.c.googlesyndication.com
+2404:6800:4008:3::6 v1.lscache5.c.googlesyndication.com
+2404:6800:4008:3::6 v1.lscache6.c.googlesyndication.com
+2404:6800:4008:3::6 v1.lscache7.c.googlesyndication.com
+2404:6800:4008:3::6 v1.lscache8.c.googlesyndication.com
+2404:6800:4008:3::a v2.lscache1.c.googlesyndication.com
+2404:6800:4008:3::a v2.lscache2.c.googlesyndication.com
+2404:6800:4008:2::a v2.lscache3.c.googlesyndication.com
+2404:6800:4008:2::a v2.lscache4.c.googlesyndication.com
+2404:6800:4008:3::a v2.lscache5.c.googlesyndication.com
+2404:6800:4008:3::a v2.lscache6.c.googlesyndication.com
+2404:6800:4008:2::a v2.lscache7.c.googlesyndication.com
+2404:6800:4008:2::a v2.lscache8.c.googlesyndication.com
+2404:6800:4008:3::e v3.lscache1.c.googlesyndication.com
+2404:6800:4008:2::e v3.lscache2.c.googlesyndication.com
+2404:6800:4008:3::e v3.lscache3.c.googlesyndication.com
+2404:6800:4008:3::e v3.lscache4.c.googlesyndication.com
+2404:6800:4008:3::e v3.lscache5.c.googlesyndication.com
+2404:6800:4008:2::e v3.lscache6.c.googlesyndication.com
+2404:6800:4008:3::e v3.lscache7.c.googlesyndication.com
+2404:6800:4008:3::e v3.lscache8.c.googlesyndication.com
+2404:6800:4008:3::12 v4.lscache1.c.googlesyndication.com
+2404:6800:4008:3::12 v4.lscache2.c.googlesyndication.com
+2404:6800:4008:2::12 v4.lscache3.c.googlesyndication.com
+2404:6800:4008:3::12 v4.lscache4.c.googlesyndication.com
+2404:6800:4008:3::12 v4.lscache5.c.googlesyndication.com
+2404:6800:4008:3::12 v4.lscache6.c.googlesyndication.com
+2404:6800:4008:3::12 v4.lscache7.c.googlesyndication.com
+2404:6800:4008:2::12 v4.lscache8.c.googlesyndication.com
+2404:6800:4008:3::16 v5.lscache1.c.googlesyndication.com
+2404:6800:4008:3::16 v5.lscache2.c.googlesyndication.com
+2404:6800:4008:2::16 v5.lscache3.c.googlesyndication.com
+2404:6800:4008:2::16 v5.lscache4.c.googlesyndication.com
+2404:6800:4008:3::16 v5.lscache5.c.googlesyndication.com
+2404:6800:4008:3::16 v5.lscache6.c.googlesyndication.com
+2404:6800:4008:3::16 v5.lscache7.c.googlesyndication.com
+2404:6800:4008:2::16 v5.lscache8.c.googlesyndication.com
+2404:6800:4008:3::7 v6.lscache1.c.googlesyndication.com
+2404:6800:4008:3::7 v6.lscache2.c.googlesyndication.com
+2404:6800:4008:3::7 v6.lscache3.c.googlesyndication.com
+2404:6800:4008:2::7 v6.lscache4.c.googlesyndication.com
+2404:6800:4008:2::7 v6.lscache5.c.googlesyndication.com
+2404:6800:4008:3::7 v6.lscache6.c.googlesyndication.com
+2404:6800:4008:3::7 v6.lscache7.c.googlesyndication.com
+2404:6800:4008:3::7 v6.lscache8.c.googlesyndication.com
+2404:6800:4008:2::b v7.lscache1.c.googlesyndication.com
+2404:6800:4008:2::b v7.lscache2.c.googlesyndication.com
+2404:6800:4008:2::b v7.lscache3.c.googlesyndication.com
+2404:6800:4008:3::b v7.lscache4.c.googlesyndication.com
+2404:6800:4008:3::b v7.lscache5.c.googlesyndication.com
+2404:6800:4008:3::b v7.lscache6.c.googlesyndication.com
+2404:6800:4008:2::b v7.lscache7.c.googlesyndication.com
+2404:6800:4008:2::b v7.lscache8.c.googlesyndication.com
+2404:6800:4008:3::f v8.lscache1.c.googlesyndication.com
+2404:6800:4008:2::f v8.lscache2.c.googlesyndication.com
+2404:6800:4008:3::f v8.lscache3.c.googlesyndication.com
+2404:6800:4008:3::f v8.lscache4.c.googlesyndication.com
+2404:6800:4008:3::f v8.lscache5.c.googlesyndication.com
+2404:6800:4008:2::f v8.lscache6.c.googlesyndication.com
+2404:6800:4008:2::f v8.lscache7.c.googlesyndication.com
+2404:6800:4008:3::f v8.lscache8.c.googlesyndication.com
 2404:6800:8005::70 adwords.google.com
 2404:6800:8005::41 adwords.google.sk
 2404:6800:8005::a7 partner.googleadservices.com
@@ -2883,26 +2965,26 @@
 2404:6800:8005::79 www.emailintervention.com
 ###其他主流服务
 #bit.ly / j.mp
-2001:418:e801::10:1 bit.ly
-2001:418:e801::11:1 bit.ly
-2001:418:e801::12:1 bit.ly
-2001:418:e801::15:1 bit.ly
-2001:418:e801::10:2 j.mp
-2001:418:e801::11:2 j.mp
-2001:418:e801::12:2 j.mp
-2001:418:e801::15:2 j.mp
-2001:418:e801::10:2 bitly.com
-2001:418:e801::11:2 bitly.com
-2001:418:e801::13:2 bitly.com
-2001:418:e801::15:2 bitly.com
-2001:418:e801::10:7 api.bit.ly
-2001:418:e801::11:7 api.bit.ly
-2001:418:e801::12:7 api.bit.ly
-2001:418:e801::15:7 api.bit.ly
-2001:418:e801::10:7 api.bitly.com
-2001:418:e801::11:7 api.bitly.com
-2001:418:e801::12:7 api.bitly.com
-2001:418:e801::15:7 api.bitly.com
+#2001:418:e801::10:1 bit.ly
+#2001:418:e801::11:1 bit.ly
+#2001:418:e801::12:1 bit.ly
+#2001:418:e801::15:1 bit.ly
+#2001:418:e801::10:2 j.mp
+#2001:418:e801::11:2 j.mp
+#2001:418:e801::12:2 j.mp
+#2001:418:e801::15:2 j.mp
+#2001:418:e801::10:2 bitly.com
+#2001:418:e801::11:2 bitly.com
+#2001:418:e801::13:2 bitly.com
+#2001:418:e801::15:2 bitly.com
+#2001:418:e801::10:7 api.bit.ly
+#2001:418:e801::11:7 api.bit.ly
+#2001:418:e801::12:7 api.bit.ly
+#2001:418:e801::15:7 api.bit.ly
+#2001:418:e801::10:7 api.bitly.com
+#2001:418:e801::11:7 api.bitly.com
+#2001:418:e801::12:7 api.bitly.com
+#2001:418:e801::15:7 api.bitly.com
 #Facebook 脸谱网（尚未完全部署）
 2620:0:1cfe:face:b00c::3 www.v6.facebook.com #Facebook（官方指定主机名）
 2620:0:1cfe:face:b00c::3 attachments.facebook.com
@@ -3124,11 +3206,11 @@ ipv6.freeipv6.info
 2001:7b8:3:37::21:2 ipv6.torrent.ubuntu.com #IPv6 Tracker
 2001:7b8:3:37::21:2 nl.archive.ubuntu.com #Archive Mirror NL
 ##Norway 挪威
-#Opera
-2001:840:4073:1::1:100 www.opera.com
-2001:840:4073:1::1:101 www.opera.com
-2001:840:4073:1::1:102 www.opera.com
-2001:840:4073:1::1:103 www.opera.com
+#Opera（失效，参见 Issue 31）
+#2001:840:4073:1::1:100 www.opera.com
+#2001:840:4073:1::1:101 www.opera.com
+#2001:840:4073:1::1:102 www.opera.com
+#2001:840:4073:1::1:103 www.opera.com
 ##Sweden 瑞典
 #IPv6.org
 2001:6b0:1:ea:202:a5ff:fecd:13a6 www.ipv6.org
@@ -3147,6 +3229,7 @@ ipv6.freeipv6.info
 2404:6800:8005::62 ipv6-or-no-ipv6.blogspot.com #IPv6 Related Stuff
 2404:6800:8005::62 chinafreenet.blogspot.com #中国自由网
 2404:6800:8005::62 gfwrev.blogspot.com #GFW 技术评论
+2404:6800:8005::62 kamonka.blogspot.com
 #Google Code 上的其他常用项目
 2404:6800:8005::52 ipv6-hosts.googlecode.com
 2404:6800:8005::52 kibbles.googlecode.com

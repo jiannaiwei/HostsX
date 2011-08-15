@@ -1,4 +1,4 @@
-;version=201108141206
+;version=201108150836
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -152,28 +152,6 @@ ff02::3 ip6-allhosts
 208.94.0.61 a.yfrog.com
 208.94.0.61 yfrog.com
 208.94.0.61 www.yfrog.com
-#bit.ly
-2001:418:e801::10:1 bit.ly
-2001:418:e801::11:1 bit.ly
-2001:418:e801::12:1 bit.ly
-2001:418:e801::15:1 bit.ly
-2001:418:e801::10:2 bitly.com
-2001:418:e801::11:2 bitly.com
-2001:418:e801::13:2 bitly.com
-2001:418:e801::15:2 bitly.com
-2001:418:e801::10:7 api.bit.ly
-2001:418:e801::11:7 api.bit.ly
-2001:418:e801::12:7 api.bit.ly
-2001:418:e801::15:7 api.bit.ly
-2001:418:e801::10:7 api.bitly.com
-2001:418:e801::11:7 api.bitly.com
-2001:418:e801::12:7 api.bitly.com
-2001:418:e801::15:7 api.bitly.com
-#j.mp
-2001:418:e801::10:2 j.mp
-2001:418:e801::11:2 j.mp
-2001:418:e801::12:2 j.mp
-2001:418:e801::15:2 j.mp
 #Others
 174.129.202.202 paper.li
 208.109.178.73 itweet.net
@@ -10904,3 +10882,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yee.js.cn
 0.0.0.0 yourchinalove.com
 0.0.0.0 hk-rolex.com
+0.0.0.0 ad.ni2.netinsight.co.kr
