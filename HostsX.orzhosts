@@ -25,7 +25,7 @@ ff02::3 ip6-allhosts
 75.101.129.115 dl.dropbox.com
 75.101.159.151 dl-web.dropbox.com
 #FlashGet
-221.123.176.125 s5.flashget.com 
+221.123.176.125 s5.flashget.com
 221.123.176.136 cplog.flashget.com
 #ioage
 118.145.31.149 www.ioage.com
@@ -251,7 +251,7 @@ ff02::3 ip6-allhosts
 66.102.7.100 encrypted.google.com
 74.125.227.4 encrypted.google.com
 74.125.43.102 encrypted.google.com
-203.208.46.132 webcache.googleusercontent.com 
+203.208.46.132 webcache.googleusercontent.com
 203.208.46.148 encrypted-tbn0.google.com
 203.208.46.148 encrypted-tbn1.google.com
 203.208.46.148 encrypted-tbn2.google.com
@@ -9285,7 +9285,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code01.unionli.com
 0.0.0.0 ds2.unionbig.com
 0.0.0.0 p.unionbig.com
-0.0.0.0 s2.unionbig.com 
+0.0.0.0 s2.unionbig.com
 0.0.0.0 track.unionbig.com
 0.0.0.0 txt.unionli.com
 0.0.0.0 u.unionli.com
@@ -9406,7 +9406,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 videoinfo.baofeng.com
 #Bitcomet
 0.0.0.0 inside.bitcomet.com
-#Flashget
 0.0.0.0 dll.flashget.com
 0.0.0.0 down1.flashget.com
 0.0.0.0 down2.flashget.com
@@ -10743,7 +10742,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 stat.ziye8.com
 0.0.0.0 state.urgamer.com
 0.0.0.0 statistic.5ding.com
-0.0.0.0 syjcq.com 
+0.0.0.0 syjcq.com
 0.0.0.0 sz.198game.com
 0.0.0.0 t.15yl.com
 0.0.0.0 t.1stcngame.com
