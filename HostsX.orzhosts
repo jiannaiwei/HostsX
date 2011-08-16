@@ -1,4 +1,4 @@
-;version=201108160621
+;version=201108162222
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -169,9 +169,6 @@ ff02::3 ip6-allhosts
 74.125.39.99 chrome.google.com
 74.125.39.99 clients2.google.com
 #Google
-203.208.46.29 chrome.google.com
-203.208.46.29 clients2.google.com
-203.208.46.29 clients4.google.com
 203.208.46.29 docs.google.com
 203.208.46.29 groups.google.com
 203.208.46.29 labs.google.com
