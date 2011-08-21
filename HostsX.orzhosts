@@ -1,4 +1,4 @@
-;version=201108181822
+;version=201108211831
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8052,6 +8052,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 casting.openv.com
 0.0.0.0 m.openv.tv
 0.0.0.0 uniclick.openv.com
+#皮皮影视
+0.0.0.0 afm.pipi.cn
+0.0.0.0 qian.pipi.cn
 #Wo318
 0.0.0.0 wo318.k621.com
 #爆米花
