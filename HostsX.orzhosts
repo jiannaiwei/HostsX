@@ -1,4 +1,4 @@
-;version=201108211831
+;version=201108211855
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8054,6 +8054,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 uniclick.openv.com
 #皮皮影视
 0.0.0.0 afm.pipi.cn
+0.0.0.0 dl.pipi.cn
+0.0.0.0 game.pipi.cn
+0.0.0.0 long.pipi.cn
 0.0.0.0 qian.pipi.cn
 #Wo318
 0.0.0.0 wo318.k621.com
@@ -9468,6 +9471,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 mobile.isoshu.com
 0.0.0.0 mobile1.isoshu.com
 0.0.0.0 pub.isoshu.com
+#isGame
+0.0.0.0 isgame.ipark.cn
+0.0.0.0 ghpage.iuzone.com
+0.0.0.0 page.iuzone.com
 #Koowo
 0.0.0.0 g.koowo.com
 0.0.0.0 g.kuwo.cn
@@ -9481,8 +9488,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 links.kugoo.com
 0.0.0.0 mkg.kugou.com
 0.0.0.0 myonline.kugou.com
+0.0.0.0 opt.kugou.com
 0.0.0.0 sdn.kugoo.com
 0.0.0.0 sdn.kugou.com
+0.0.0.0 softstart.kugou.com
 0.0.0.0 softstat.kugou.com
 0.0.0.0 yx.kugou.com
 #Maxthon
@@ -9947,10 +9956,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑行为拦截/病毒拦截
 #广告诈骗钓鱼等
-0.0.0.0 www.quna.com
-0.0.0.0 www.qunaa.cn
-0.0.0.0 www.jqb168.com
-0.0.0.0 www.weibosr.in
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
 0.0.0.0 zx.98712.com
@@ -10165,6 +10170,23 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.expo2010-sc.com
 0.0.0.0 www.m1905.in
 0.0.0.0 xxsy.bohelady.com
+0.0.0.0 lankou.cctv-hjmg.com
+0.0.0.0 www.bjewdz.com
+0.0.0.0 www.bjlida88.com
+0.0.0.0 www.bjluoke.com
+0.0.0.0 www.ccc39.com
+0.0.0.0 www.cctv-hjmg.com
+0.0.0.0 www.gaohaizi.cn
+0.0.0.0 www.gzab199.com
+0.0.0.0 www.iphone315.com
+0.0.0.0 www.iphone4gs-iphone4.com
+0.0.0.0 www.jp288.com
+0.0.0.0 www.jstarbar.com
+0.0.0.0 www.yigan120.com
+0.0.0.0 www.quna.com
+0.0.0.0 www.qunaa.cn
+0.0.0.0 www.jqb168.com
+0.0.0.0 www.weibosr.in
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -10179,6 +10201,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ygsp.da123.cc
 0.0.0.0 chat.live800.com
 #IE劫持
+0.0.0.0 www.88488.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2548.cn
