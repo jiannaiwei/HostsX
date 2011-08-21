@@ -3,7 +3,7 @@
 
 /*
 Name: /浏览辅助
-Version: 2.75
+Version: 2.77
 Author: KwokTree
 Description: MayBe a better User CSS Help U.
 */
@@ -26,10 +26,10 @@ background-attachment:
 scroll!important
 }
 
-/* 网页隐藏文字和链接过滤 [style*="font-size:0p"],[style*="font-size: 0p"]{display: none;} */
+/* 网页隐藏文字和链接过滤 */
 font[color*="FAE"]{display:none !important}
-[style*="font-size:0p"]{display:none !important}
-[style*="font-size: 0p"]{display:none !important}
+font[style*="font-size:0p"]{display:none !important}
+font[style*="font-size: 0p"]{display:none !important}
 SPAN[class="transparent"],fieldset[style*=”:1px dashed“] {display: none !important;}
 *[href*="tag.php?name="],.t_tag { border: none !important; }
 
@@ -104,7 +104,7 @@ div[class^="adList"],ul[class^="adList"],div[class*="areaAd"],div[class^="adarea
 display: none !important;
 	}
 div[id^="adbn_"],div[class^="adFrame"],ul[class$="adBlue"],div[class^="block_ad"],
-[class^="adNone"],[class$="adclass"]{
+[class^="adNone"],[class$="adclass"],div[id="ads-bot"],div[id="ad-flash"]{
 display: none !important;
 	}
 div[id*="0_AD_1"],div[id^="ad0"],div[id^="ad1"],div[class^="ad1"]{
@@ -202,7 +202,12 @@ div[class="ruanw box"],div[class="xfl_out"][id="xfl_out"],
 div[class="bannerleft"],div[id="zolFloat"],img[id$="_pvm]{
 display: none !important;
 	}
-div[id="sp"],LI[id="sp"]{display: none !important;}
 sohuadcode {display:none !important}
-div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="deerway"],div[id="klw_ent"],div[class="l_qq_com"]{display:none !important}
+div[id="sp"],LI[id="sp"]{display: none !important;}
+DIV[class^="content ad-b"]{display:none !important}
+DIV[class="newslist"]>DL>DD[class="detail"]>EM{display:none !important}
+DIV[class="mbm cl"] {display:none !important}
+div[class="btmad"][id^="adsp_content_banner_"],div[id="couplet_left_NULL"],div[id="couplet_right_NULL"]{display:none !important}
 div[class="bp-popup"][id="J_popup"]{display:none !important}
+div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="deerway"],div[id="klw_ent"],div[class*="l_qq_com"]{display:none !important}
+span[id="StreamMediaWrap"]{display:none !important}
