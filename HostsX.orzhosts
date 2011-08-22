@@ -1,4 +1,4 @@
-;version=201108212020
+;version=201108221020
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2718,6 +2718,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d5.sina.com.cn
 0.0.0.0 dcads.sina.com.cn
 0.0.0.0 int.dpool.sina.com.cn
+0.0.0.0 ja.cnt.v.sina.com.cn
 0.0.0.0 mybizsite.sina.com.cn
 0.0.0.0 online.sso.sina.com.cn
 0.0.0.0 pfp.sina.com.cn
@@ -2732,6 +2733,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinasc.allyes.com
 #iCast
+0.0.0.0 v.iask.com
 0.0.0.0 cast.ra.icast.cn
 0.0.0.0 js.icast.cn
 0.0.0.0 kw.ra.icast.cn
@@ -10191,6 +10193,14 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.qunaa.cn
 0.0.0.0 www.jqb168.com
 0.0.0.0 www.weibosr.in
+0.0.0.0 img.dianshi88.com
+0.0.0.0 pic.dddddd.net
+0.0.0.0 qingrenz.com
+0.0.0.0 www.163xingai.com
+0.0.0.0 www.460.com.cn
+0.0.0.0 www.dianshi88.com
+0.0.0.0 www.meilizi.com
+0.0.0.0 www.zyh66.com
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
