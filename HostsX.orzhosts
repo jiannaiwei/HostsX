@@ -1,4 +1,4 @@
-;version=201108222152
+;version=201108230010
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -206,21 +206,21 @@ ff02::3 ip6-allhosts
 203.208.46.29 images4-focus-opensocial.googleusercontent.com
 203.208.46.29 images5-focus-opensocial.googleusercontent.com
 203.208.46.29 images6-focus-opensocial.googleusercontent.com
-203.208.46.29 lh1.ggpht.com 
-203.208.46.29 lh1.googleusercontent.com 
-203.208.46.29 lh2.ggpht.com 
-203.208.46.29 lh2.googleusercontent.com 
-203.208.46.29 lh3.ggpht.com 
-203.208.46.29 lh3.googleusercontent.com 
-203.208.46.29 lh4.ggpht.com 
-203.208.46.29 lh4.googleusercontent.com 
-203.208.46.29 lh5.ggpht.com 
-203.208.46.29 lh5.googleusercontent.com 
-203.208.46.29 lh6.ggpht.com 
-203.208.46.29 lh6.googleusercontent.com 
-203.208.46.29 picasaweb.google.com 
-203.208.46.29 plus.google.com 
-203.208.46.29 plus.google.com.hk 
+203.208.46.29 lh1.ggpht.com
+203.208.46.29 lh1.googleusercontent.com
+203.208.46.29 lh2.ggpht.com
+203.208.46.29 lh2.googleusercontent.com
+203.208.46.29 lh3.ggpht.com
+203.208.46.29 lh3.googleusercontent.com
+203.208.46.29 lh4.ggpht.com
+203.208.46.29 lh4.googleusercontent.com
+203.208.46.29 lh5.ggpht.com
+203.208.46.29 lh5.googleusercontent.com
+203.208.46.29 lh6.ggpht.com
+203.208.46.29 lh6.googleusercontent.com
+203.208.46.29 picasaweb.google.com
+203.208.46.29 plus.google.com
+203.208.46.29 plus.google.com.hk
 203.208.46.29 s1.googleusercontent.com
 203.208.46.29 s2.googleusercontent.com
 203.208.46.29 s3.googleusercontent.com
@@ -1899,43 +1899,6 @@ ff02::3 ip6-allhosts
 2404:6800:8005::52 get-flash-videos.googlecode.com
 2404:6800:8005::52 youplayer.googlecode.com
 2404:6800:8005::52 cclive.googlecode.com
-@HostsX OneKey
-#常用站点广告过滤
-0.0.0.0 39net.datamaster.com.cn
-0.0.0.0 a4.yeshj.com
-0.0.0.0 ad.networld.hk
-0.0.0.0 ad.tsinghua.edu.cn
-0.0.0.0 ad.zanox.com
-0.0.0.0 ad1.tiezun.com
-0.0.0.0 adcount.178.com
-0.0.0.0 ads.wopus.org
-0.0.0.0 adv.blogupp.com
-0.0.0.0 allyes.the9.com
-0.0.0.0 aperture.displaymarketplace.com
-0.0.0.0 ccc.xdowns.com
-0.0.0.0 count.jdyou.com
-0.0.0.0 count.qiannao.com
-0.0.0.0 counter.gouzai.cn
-0.0.0.0 dpvc.39.net
-0.0.0.0 gg.joytod.com
-0.0.0.0 hot.269.net
-0.0.0.0 i1.hk
-0.0.0.0 image10.autobild.cn
-0.0.0.0 js.laishu.com
-0.0.0.0 me.youheme.com
-0.0.0.0 pro.blogbus.com
-0.0.0.0 s1.wopti.net
-0.0.0.0 stat.hudong.com
-0.0.0.0 static.hudong.com
-0.0.0.0 union.51ditu.com
-0.0.0.0 union.the999.com
-0.0.0.0 union.zhongsou.com
-0.0.0.0 union2.50bang.org
-0.0.0.0 up.hiao.com
-0.0.0.0 update.yunduan.cn
-0.0.0.0 wap.pingan.com
-0.0.0.0 www.adhere.com.hk
-0.0.0.0 myad.toocle.com
 @HostsX OneKey/Google AD
 #2mdn
 0.0.0.0 affiliate.2mdn.net
@@ -4197,13 +4160,19 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cdn4.eyewonder.com
 0.0.0.0 eyewonder.com
 #Fastclick
+0.0.0.0 ad.fastclick.net
+0.0.0.0 ads.fastclick.net
+0.0.0.0 banner.fastclick.net
+0.0.0.0 banners.fastclick.net
 0.0.0.0 cdn.fastclick.net
 0.0.0.0 code.fastclick.net
+0.0.0.0 fastclick.net
 0.0.0.0 images.fastclick.net
 0.0.0.0 media.fastclick.net
 0.0.0.0 secure.fastclick.net
 0.0.0.0 sp.fastclick.net
 0.0.0.0 www.fastclick.com
+0.0.0.0 www.fastclick.net
 #FoxAudienceNetwork
 0.0.0.0 cache.opt.fimserve.com
 0.0.0.0 trgc.opt.fimserve.com
@@ -7788,22 +7757,22 @@ $      下载最新版本的 HostsX。
 #大旗网
 0.0.0.0 gg.daqi.com
 0.0.0.0 union.daqi.com
-#51.com
-0.0.0.0 v3.apic.51.com
 #西祠胡同
 0.0.0.0 ad.xici.net
 0.0.0.0 data.xici.net
-#各种论坛广告
-0.0.0.0 gg.inpot.mobi
-0.0.0.0 img.uu1001.cn
-0.0.0.0 jj.topzj.com
+#5d6d
 0.0.0.0 d.5d6d.com
 0.0.0.0 un.5d6d.com
-0.0.0.0 stat.discuz.com
+#PhpWInd
 0.0.0.0 init.phpwind.com
 0.0.0.0 nt.phpwind.com
 0.0.0.0 union.phpwind.com
-0.0.0.0 stat.bokecc.com
+#Discuz
+0.0.0.0 stat.discuz.com
+#BlogBus
+0.0.0.0 pro.blogbus.com
+#51.com
+0.0.0.0 v3.apic.51.com
 @HostsX 国内站点广告/小说类网站
 #一起看小说
 0.0.0.0 ad.17k.com
@@ -8071,7 +8040,17 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pro.letv.com
 #巨鲸网
 0.0.0.0 t.top100.cn
+#DJ527
+0.0.0.0 ad.dj527.com
+0.0.0.0 sy.0575dp.com
+0.0.0.0 www.0575dp.com
 @HostsX 国内站点广告/区域类网站
+#39健康网
+0.0.0.0 dpvc.39.net
+0.0.0.0 39net.datamaster.com.cn
+#互动百科
+0.0.0.0 stat.hudong.com
+0.0.0.0 static.hudong.com
 #携程网
 0.0.0.0 allyes.ctrip.com
 #21CN
@@ -8124,6 +8103,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 bbs.corp.gxhc365.com
 #北海365
 0.0.0.0 ad.beihai365.com
+#Hiao好网
+0.0.0.0 stat.hiao.com
+0.0.0.0 up.hiao.com
 #华声论坛
 0.0.0.0 click.hnol.net
 0.0.0.0 clickip.hnol.net
@@ -8138,6 +8120,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ac.51job.com
 0.0.0.0 logs.51job.com
 0.0.0.0 kwdsrv.51job.com
+#智联招聘
+0.0.0.0 cnt.zhaopin.com
 #Yidaba
 0.0.0.0 adc.yidaba.com
 0.0.0.0 adfv.yidaba.com
@@ -8276,12 +8260,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u4.778669.com
 0.0.0.0 u5.778669.com
 0.0.0.0 u6.778669.com
-0.0.0.0 www.778669.com
+0.0.0.0 u034024.778669.com
+0.0.0.0 u291014.778669.com
 0.0.0.0 u493025.778669.com
 0.0.0.0 u592022.778669.com
 0.0.0.0 u923032.778669.com
 0.0.0.0 u948016.778669.com
-0.0.0.0 u291014.778669.com
+0.0.0.0 www.778669.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -8669,6 +8654,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js1.openeye.com.tw
 0.0.0.0 pic.dotmore.com.tw
 0.0.0.0 rs.interserv.com.tw
+#Blogupp
+0.0.0.0 adv.blogupp.com
 #Bolaa
 0.0.0.0 bolaa.com
 0.0.0.0 creative.unionsys.bolaa.com
@@ -9328,6 +9315,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pics.unionsky.cn
 0.0.0.0 play.unionsky.cn
 0.0.0.0 unionsky.cn
+#Unionwan
+0.0.0.0 www.unionwan.com
 #Wanliuliang
 0.0.0.0 c2m.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com
@@ -9424,6 +9413,10 @@ $      下载最新版本的 HostsX。
 #Yyclick
 0.0.0.0 t.yyclick.com
 0.0.0.0 www.yyclick.com
+#Zoomino
+0.0.0.0 ads-res.zoomino.cn
+0.0.0.0 zoomino.cn
+0.0.0.0 www.zoomino.cn
 #Zdy
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
@@ -9565,6 +9558,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ad.qqceo.net
 0.0.0.0 toufei.qqceo.net
 0.0.0.0 toufei2.qqceo.net
+#QQBM
+0.0.0.0 qqbm.zhuiying.net
+0.0.0.0 qqbmad.mycode8.com
+0.0.0.0 update2.zhuiying.net
 #Qvod
 0.0.0.0 110.qvod.com
 0.0.0.0 buffer-ad.qvod.com
@@ -9689,6 +9686,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 crl.usertrust.com
 #Emurasoft（EmEditor）
 0.0.0.0 www.emurasoft.com
+#FlashFXP
+0.0.0.0 liveupdate.inicom.net
 #Nikon Imaging
 0.0.0.0 sams.nikonimaging.com
 #RealNetworks
@@ -9701,7 +9700,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 globalscape.com
 0.0.0.0 www.cuteftp.com
 0.0.0.0 www.globalscape.com
-#FlashFXP
 0.0.0.0 flashfxp.com
 0.0.0.0 flashfxp.org
 0.0.0.0 flashfxp.ws
@@ -10210,6 +10208,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 hot7.bokecc.com
 0.0.0.0 mc.bokecc.com
 0.0.0.0 re2.bokecc.com
+0.0.0.0 stat.bokecc.com
 0.0.0.0 trade.bokecc.com
 0.0.0.0 www.bokecc.com
 0.0.0.0 www.vunion.net
@@ -10217,7 +10216,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ygsp.da123.cc
 0.0.0.0 chat.live800.com
 #IE劫持
-0.0.0.0 www.88488.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2548.cn
@@ -10301,6 +10299,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.5go.com.cn
 0.0.0.0 www.6313.com
 0.0.0.0 www.66234.net
+0.0.0.0 www.6655.com
 0.0.0.0 www.6661.cc
 0.0.0.0 www.68262.com
 0.0.0.0 www.7249.cn
@@ -10309,6 +10308,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.789654.com
 0.0.0.0 www.860114.com
 0.0.0.0 www.884599.cn
+0.0.0.0 www.88488.com
 0.0.0.0 www.8d.cn
 0.0.0.0 www.8hao123.com
 0.0.0.0 www.9281.net
@@ -10492,7 +10492,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.918kf.com
 0.0.0.0 www.54kfqq.com
 0.0.0.0 www.live800.com
-#恶意弹窗
+#游戏弹窗
 0.0.0.0 astd.snsfun.cc
 0.0.0.0 astds3.snsfun.cc
 0.0.0.0 plsm.snsfun.cc
@@ -10615,6 +10615,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.52xiyou.com
 0.0.0.0 tg.000wan.com
 0.0.0.0 www.000wan.com
+#恶意弹窗
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 1133.baiduskxn.cn
@@ -10643,6 +10644,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ad.hylzad.com
 0.0.0.0 ad.leetoou.com
 0.0.0.0 ad.letdoo.com
+0.0.0.0 ad.ni2.netinsight.co.kr
 0.0.0.0 ad1.greedland.net
 0.0.0.0 ad71.doubleadx.com
 0.0.0.0 adcount.moliyo.com
@@ -10666,10 +10668,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ccyi.r.game2.com.cn
 0.0.0.0 cheer.cjoy.com.cn
 0.0.0.0 cj.8le8le.com
+0.0.0.0 ck.lingdang.com
 0.0.0.0 click.315ts.net
 0.0.0.0 click.moonbasa.com
 0.0.0.0 cn.88db.com
-0.0.0.0 cnt.zhaopin.com
 0.0.0.0 code.51sotu.com
 0.0.0.0 code.ceyunshi.cn
 0.0.0.0 code.comuce.com
@@ -10750,6 +10752,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.tuigoo.com
 0.0.0.0 js.union001.com
 0.0.0.0 lai.4299.com
+0.0.0.0 lg7894.565882.com
 0.0.0.0 link.f1.com.tw
 0.0.0.0 link.hao251.com
 0.0.0.0 links.panr.com
@@ -10837,6 +10840,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.51fswd.com
 0.0.0.0 u.56wan.com
 0.0.0.0 u.7town.com
+0.0.0.0 u.adbutler.com.cn
 0.0.0.0 u.haom.us
 0.0.0.0 u.molidao.com
 0.0.0.0 u.qjwm.com
@@ -10952,5 +10956,29 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yhchuanqi.com
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
-#TestData
-0.0.0.0 ad.ni2.netinsight.co.kr
+0.0.0.0 counter.gouzai.cn
+0.0.0.0 wap.pingan.com
+0.0.0.0 www.adhere.com.hk
+0.0.0.0 a4.yeshj.com
+0.0.0.0 ad.networld.hk
+0.0.0.0 ad.tsinghua.edu.cn
+0.0.0.0 ad.zanox.com
+0.0.0.0 ad1.tiezun.com
+0.0.0.0 adcount.178.com
+0.0.0.0 gg.inpot.mobi
+0.0.0.0 allyes.the9.com
+0.0.0.0 aperture.displaymarketplace.com
+0.0.0.0 ccc.xdowns.com
+0.0.0.0 count.jdyou.com
+0.0.0.0 count.qiannao.com
+0.0.0.0 gg.joytod.com
+0.0.0.0 hot.269.net
+0.0.0.0 i1.hk
+0.0.0.0 image10.autobild.cn
+0.0.0.0 js.laishu.com
+0.0.0.0 me.youheme.com
+0.0.0.0 union.51ditu.com
+0.0.0.0 union.the999.com
+0.0.0.0 union.zhongsou.com
+0.0.0.0 union2.50bang.org
+0.0.0.0 myad.toocle.com
