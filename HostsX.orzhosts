@@ -1,4 +1,4 @@
-;version=201108221020
+;version=201108222152
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8118,6 +8118,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ranking.ynet.com
 #德州之窗
 0.0.0.0 gg.dzwindows.com
+#北方网
+0.0.0.0 swf.enorth.com.cn
 #河池365
 0.0.0.0 bbs.corp.gxhc365.com
 #北海365
