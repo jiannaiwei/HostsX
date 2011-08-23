@@ -1,4 +1,4 @@
-;version=201108231020
+;version=201108232106
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9039,6 +9039,7 @@ $      下载最新版本的 HostsX。
 #Emar
 0.0.0.0 image.yiqifa.com
 0.0.0.0 p.yiqifa.com
+0.0.0.0 g.yiqifa.com
 0.0.0.0 www.yiqifa.com
 0.0.0.0 image.yigao.com
 0.0.0.0 monitor.yigao.com
