@@ -1,5 +1,5 @@
 @echo off
-set ver=2.85
+set ver=2.86
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 mode con cols=30 lines=10
@@ -34,6 +34,8 @@ net stop "Dnscache">nul 2>nul
 sc stop "DNSCache">nul 2>nul
 sc config Dnscache start= disabled>nul 2>nul
 sc config iphlpsvc start= AUTO>nul 2>nul
+netsh interface ipv6 isatap set router isatap.sjtu.edu.cn>nul 2>nul
+netsh interface ipv6 isatap set state enabled>nul 2>nul
 if not exist %etc%\ md %etc%\ >nul
 takeown /F %etc%\ /R >nul 2>nul
 copy /y %hosts% %etc%\"Hosts_%bak%.txt" >nul 2>nul

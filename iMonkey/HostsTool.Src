@@ -1,5 +1,5 @@
 @echo off
-set ver=2.85
+set ver=2.86
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -69,6 +69,8 @@ sc stop "DNSCache">nul 2>nul
 sc config Dnscache start= disabled>nul 2>nul
 rem 开启 IPv6 转换技术 服务，以辅助DNS解析;
 sc config iphlpsvc start= AUTO>nul 2>nul
+netsh interface ipv6 isatap set router isatap.sjtu.edu.cn>nul 2>nul
+netsh interface ipv6 isatap set state enabled>nul 2>nul
 del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt ie.txt>nul 2>nul
 if not exist %etc%\ md %etc%\ >nul
 if not exist %hosts% goto fixhosts
