@@ -1,4 +1,4 @@
-;version=201108232106
+;version=201108241555
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9141,6 +9141,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.langtaojin.com
 0.0.0.0 www.uctrac.com
 #Leshu
+0.0.0.0 cluclick.leshu.com
 0.0.0.0 image.leshu.com
 0.0.0.0 wp.leshu.com
 0.0.0.0 www.leshu.com
@@ -10618,6 +10619,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.52xiyou.com
 0.0.0.0 tg.000wan.com
 0.0.0.0 www.000wan.com
+0.0.0.0 lg7894.565882.com
+0.0.0.0 lg3457.565882.com
 #恶意弹窗
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -10755,7 +10758,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.tuigoo.com
 0.0.0.0 js.union001.com
 0.0.0.0 lai.4299.com
-0.0.0.0 lg7894.565882.com
 0.0.0.0 link.f1.com.tw
 0.0.0.0 link.hao251.com
 0.0.0.0 links.panr.com
