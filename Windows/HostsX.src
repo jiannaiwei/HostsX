@@ -86,14 +86,14 @@ ipconfig /flushdns>nul 2>nul&cls&echo HostsX data has been updated£¡ & choice /t
 cls
 md Bakup\ >nul 2>nul
 copy /y %0 Bakup\"HostsX_%ver%.bat" >nul 2>nul
-echo Complete backup of the old version(%ver%) of HostsTool in Bakup\
+echo Complete backup of the old version(%ver%) of HostsX in Bakup\
 echo Downloading update         ...Please wait...
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
 echo WScript.sleep 200 >>%temp%/Upnew.vbs
 echo loop >>%temp%/Upnew.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
-cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsX.Src">%temp%\HostsTool.bat
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsX.Src">%temp%\HostsX.bat
 echo @echo off>%temp%\up.bat
 echo Mode con cols=50 lines=10>>%temp%\up.bat
 echo Color 0a>>%temp%\up.bat
