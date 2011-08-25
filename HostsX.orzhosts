@@ -1,4 +1,4 @@
-;version=201108242345
+;version=201108252250
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2697,7 +2697,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinasc.allyes.com
 #iCast
-0.0.0.0 v.iask.com
 0.0.0.0 cast.ra.icast.cn
 0.0.0.0 js.icast.cn
 0.0.0.0 kw.ra.icast.cn

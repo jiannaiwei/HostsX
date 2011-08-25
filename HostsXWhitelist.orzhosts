@@ -1,4 +1,4 @@
-;version=201107190950
+;version=20110252250
 ;author=郭鹏锟
 #导致Apple产品恢复固件时无法正常验证。
 gs.apple.com
@@ -19,6 +19,7 @@ $DELETE
 
 #导致新浪看视频无法正常播放。
 swf.games.sina.com.cn
+v.iask.com
 $DELETE
 
 #!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
