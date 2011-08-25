@@ -85,7 +85,7 @@ ipconfig /flushdns>nul 2>nul&cls&echo HostsX data has been updated£¡ & choice /t
 :Updates
 cls
 md Bakup\ >nul 2>nul
-copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
+copy /y %0 Bakup\"HostsX_%ver%.bat" >nul 2>nul
 echo Complete backup of the old version(%ver%) of HostsTool in Bakup\
 echo Downloading update         ...Please wait...
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
@@ -99,9 +99,9 @@ echo Mode con cols=50 lines=10>>%temp%\up.bat
 echo Color 0a>>%temp%\up.bat
 echo Title Update>>%temp%\up.bat
 echo echo.>>%temp%\up.bat
-echo echo ...Restart HostsTool...>>%temp%\up.bat
+echo echo ...Restart HostsX...>>%temp%\up.bat
 echo ping /n 1 127.1^>nul>>%temp%\up.bat
-echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
+echo copy /y "%temp%\HostsX.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
 echo Exit>>%temp%\up.bat
 start %temp%\up.bat
