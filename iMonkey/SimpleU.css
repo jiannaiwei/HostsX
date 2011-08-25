@@ -3,7 +3,7 @@
 
 /*
 Name: /浏览辅助
-Version: 2.77
+Version: 2.8
 Author: KwokTree
 Description: MayBe a better User CSS Help U.
 */
@@ -16,8 +16,8 @@ input:not([type='submit']):not([type='reset']):not([type='button']):not([type='c
 
 /*调整选中文本及其背景的颜色*/
 ::selection{
-color: #F7931D !important;
-background-color: #BCBDC0 !important;
+color: #CCCED7 !important;
+background-color: #3399FF !important;
 }
 
 /* 解决固定背景滚屏卡的问题 */
@@ -81,7 +81,7 @@ a[href*="/interface/cpm.php?"],IFRAME[src*="/interface/cpmblank.php?"],a[href*="
 }
 /* 论坛广告和外链 */
 div[class="a_b"],div[class="a_mu"],div[class="bm a_c"],
-div[class^="a_fl"],div[class^="a_p"],div[class^="wp a_"],div[id^="thread_ads_"]{
+div[class^="a_f"],div[class^="a_p"],div[class^="wp a_"],div[id^="thread_ads_"]{
 display: none !important;
 	}
 .forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
@@ -198,7 +198,7 @@ display: none !important;
 	}
 
 /* 部分站点广告 */
-div[class="ruanw box"],div[class="xfl_out"][id="xfl_out"],
+div[class="ruanw box"],div[class="xfl_out"][id="xfl_out"],div[class^="tingx_"],
 div[class="bannerleft"],div[id="zolFloat"],img[id$="_pvm]{
 display: none !important;
 	}
