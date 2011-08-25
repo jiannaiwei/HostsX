@@ -93,7 +93,7 @@ echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
 echo WScript.sleep 200 >>%temp%/Upnew.vbs
 echo loop >>%temp%/Upnew.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
-cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsX.Src">%temp%\HostsX.bat
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsX.src">%temp%\HostsX.bat
 echo @echo off>%temp%\up.bat
 echo Mode con cols=50 lines=10>>%temp%\up.bat
 echo Color 0a>>%temp%\up.bat
