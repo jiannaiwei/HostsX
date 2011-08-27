@@ -1,4 +1,4 @@
-;version=201108271434
+;version=201108280017
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2245,10 +2245,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 wangmeng.baidu.com
 #ÆæÒÕ
 0.0.0.0 afp.qiyi.com
+0.0.0.0 cache.video.qiyi.com
+0.0.0.0 dispatcher.video.qiyi.com
+0.0.0.0 msg.video.qiyi.com
+0.0.0.0 uestat.video.qiyi.com
 0.0.0.0 focusbaiduafp.allyes.com
 0.0.0.0 imgc.unlitui.com
 0.0.0.0 bsg.unlitui.com
 0.0.0.0 b.scorecardresearch.com
+0.0.0.0 log.51network.com
 #Ç§Ç§¾²Ìý
 0.0.0.0 ads.qianqian.com
 0.0.0.0 ttads.ttplayer.com
