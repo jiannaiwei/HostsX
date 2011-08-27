@@ -2245,7 +2245,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wangmeng.baidu.com
 #∆Ê“’
 0.0.0.0 afp.qiyi.com
-0.0.0.0 cache.video.qiyi.com
+0.0.0.0 api.cupid.qiyi.com
 0.0.0.0 dispatcher.video.qiyi.com
 0.0.0.0 msg.video.qiyi.com
 0.0.0.0 uestat.video.qiyi.com
