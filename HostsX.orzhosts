@@ -1,4 +1,4 @@
-;version=201108271239
+;version=201108271434
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8057,6 +8057,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.0575dp.com
 @HostsX 国内站点广告/区域类网站
 #39健康网
+0.0.0.0 app-g.39.net
 0.0.0.0 dpvc.39.net
 0.0.0.0 39net.datamaster.com.cn
 #互动百科
