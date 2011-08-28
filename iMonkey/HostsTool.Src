@@ -1,5 +1,5 @@
 @echo off
-set ver=2.86
+set ver=2.87
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -605,8 +605,8 @@ echo  Repaired!
 cls&goto menu
 
 :adfilter
-del AdFilter.css AdFilter.vbs
-wget http://hostsx.googlecode.com/svn/trunk/iMonkey/AdFilter.css
+del Custom.css AdFilter.vbs
+wget http://hostsx.googlecode.com/svn/trunk/iMonkey/Custom.css
 wget http://hostsx.googlecode.com/svn/trunk/iMonkey/AdFilter.vbs
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto menu
 
@@ -647,7 +647,7 @@ echo 清除系统LJ完成! & choice /t 2 /d y /n >nul &goto menu
 mode con cols=60 lines=20
 echo.
 echo 		  【 Super Deleter 】
-echo 	           -----------------------
+echo 	        -----------------------
 echo.
 echo  专门快速删除那种不能打开、不能进入、不能删除的顽固目录。
 echo. Remove the kind of expertise can not be opened quickly, 
