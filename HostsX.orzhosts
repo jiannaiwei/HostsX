@@ -1,4 +1,4 @@
-;version=201108280017
+;version=201108281050
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2787,7 +2787,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingback.ie.sogou.com
 @HostsX OneKey/ÌÚÑ¶QQ
 #QQ
-0.0.0.0 tcss.qq.com
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
@@ -2803,7 +2802,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
 0.0.0.0 c.gdt.qq.com
-0.0.0.0 f.qstatic.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fodder.tc.qq.com
 0.0.0.0 fw.qq.com
@@ -2821,6 +2819,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rs2.qq.com
 0.0.0.0 scdown.qq.com
 0.0.0.0 show-msgch.qq.com
+0.0.0.0 tcss.qq.com
 0.0.0.0 trace.qq.com
 0.0.0.0 union.qq.com
 0.0.0.0 c.l.qq.com
@@ -2829,6 +2828,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 l.qq.com
 0.0.0.0 p.l.qq.com
 0.0.0.0 w.l.qq.com
+0.0.0.0 f.qstatic.com
+0.0.0.0 pgdt.gtimg.cn
 #ËÑËÑ
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
