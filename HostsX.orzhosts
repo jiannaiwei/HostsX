@@ -1,4 +1,4 @@
-;version=201108291037
+;version=201108291336
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9845,6 +9845,7 @@ $      下载最新版本的 HostsX。
 #HeroClick
 0.0.0.0 p.heroclick.cn
 0.0.0.0 st.heroclick.cn
+0.0.0.0 www.heroclick.cn
 #Jiankongbao
 0.0.0.0 exp.jiankongbao.com
 0.0.0.0 stat.jiankongbao.com
@@ -11096,3 +11097,5 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yzol.szgla.com
 0.0.0.0 ads.im286.com
 0.0.0.0 p.cpm360.com
+0.0.0.0 x.cc190.com
+
