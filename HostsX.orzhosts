@@ -1,4 +1,4 @@
-;version=201108290829
+;version=201108291037
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -11095,3 +11095,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
 0.0.0.0 ads.im286.com
+0.0.0.0 p.cpm360.com
