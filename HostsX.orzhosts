@@ -1,4 +1,4 @@
-;version=201108281050
+;version=201108290829
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7809,6 +7809,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ads.people.com.cn
 0.0.0.0 pro.people.com.cn
 #凤凰网
+0.0.0.0 bc.ifeng.com
 0.0.0.0 sta.ifeng.com
 0.0.0.0 stadig.ifeng.com
 #联合早报

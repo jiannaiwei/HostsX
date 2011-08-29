@@ -1,13 +1,11 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.8.8
+恶意网站HOSTS屏蔽文件-2011.8.29
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
-警告：不得将此数据用于违法犯罪行为！
----------------------------------------
-All Rights Reserved 2007-2011
-***************************************
+- 警告：不得将此数据用于违法犯罪行为！-
+*****All Rights Reserved 2007-2011*****
 127.0.0.1 localhost
 0.0.0.0 www.8wt.com
 0.0.0.0 www.5566y.com
@@ -14293,7 +14291,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 dl3.kanlela.com
 0.0.0.0 dl4.kanlela.com
 0.0.0.0 dl6.kanlela.com
-0.0.0.0 www.zhcw.com
 0.0.0.0 www.informatik-lehren.de
 0.0.0.0 www.ottogi.co.kr
 0.0.0.0 www.wow-duowan.com
@@ -14476,3 +14473,75 @@ All Rights Reserved 2007-2011
 0.0.0.0 ourtulip.ru
 0.0.0.0 qdcchg.com
 0.0.0.0 www.9999qb.com
+0.0.0.0 annbortakimcastollvivi.c0m.li
+0.0.0.0 www.hh2266.com
+0.0.0.0 www.qq.com.nbv5.info
+0.0.0.0 xia.qunyou.info
+0.0.0.0 pillowcasetze.com
+0.0.0.0 dl.caimaobuy.com
+0.0.0.0 wg.d1club.com
+0.0.0.0 ujixuwrubvf.com
+0.0.0.0 htxz.wdjpq.net
+0.0.0.0 www.sh-tz.com
+0.0.0.0 www.vielkind.at
+0.0.0.0 www.853368.co.cc
+0.0.0.0 agkiws.com
+0.0.0.0 worldnewsmagazines.org
+0.0.0.0 www.y0888.com
+0.0.0.0 bb2011.xoom.it
+0.0.0.0 idc.zhuyy.com
+0.0.0.0 cdn.download.sweetim.com
+0.0.0.0 wungrp.com
+0.0.0.0 goldenoudhproperties.com
+0.0.0.0 steklo-bel.by
+0.0.0.0 down.vippin.cn
+0.0.0.0 thejobscentral.com
+0.0.0.0 www.qq8you.cn.im
+0.0.0.0 365.kv900.com
+0.0.0.0 vente-directe-2010.com
+0.0.0.0 ff88.dyndns.info
+0.0.0.0 www.mykeylogger.com
+0.0.0.0 sdkjgndfjnf.ru
+0.0.0.0 streamcentral.ueuo.com
+0.0.0.0 www.911angers.tk
+0.0.0.0 easystarwars.cz.cc
+0.0.0.0 wscksuka.cz.cc
+0.0.0.0 www.newfree-tech.com
+0.0.0.0 www.rxsdrj.com
+0.0.0.0 b50.6600.org
+0.0.0.0 c270377132.v2.0515114.com
+0.0.0.0 asdfadgtyuyipfgjns.cx.cc
+0.0.0.0 donrodriguez.cz.cc
+0.0.0.0 s8.syooo.cn
+0.0.0.0 www.5500595.com
+0.0.0.0 gohaen.info
+0.0.0.0 sghvegpsbvf.com
+0.0.0.0 go-download.in
+0.0.0.0 earlyship.ru
+0.0.0.0 database.wolf-lander.info
+0.0.0.0 formauxilium.it
+0.0.0.0 niudoudou.com
+0.0.0.0 fewd.com5.tw
+0.0.0.0 hao.jiuku123.com
+0.0.0.0 xvgh.isgre.at
+0.0.0.0 www.degtn118.cn.im
+0.0.0.0 www.cykj88.com
+0.0.0.0 www.dingdingyouhui.com
+0.0.0.0 down1.mgxf.net
+0.0.0.0 sb.degreesbuy.com
+0.0.0.0 log.y5z.info
+0.0.0.0 www.51juben.com.cn
+0.0.0.0 figureframeez.com
+0.0.0.0 tompedurante.com
+0.0.0.0 www.nanabuy.com
+0.0.0.0 adenpshabvf.com
+0.0.0.0 atorat.be
+0.0.0.0 en.bjork2.com
+0.0.0.0 doeik.fuyss.com
+0.0.0.0 cjdmekwa.com
+0.0.0.0 www.cndbsm.com
+0.0.0.0 www.teendre.com
+0.0.0.0 gtc123.com
+0.0.0.0 h1.ripway.com
+0.0.0.0 jeepvihecle.shop.co
+0.0.0.0 www.shuma1997.com
