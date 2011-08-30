@@ -1,4 +1,4 @@
-;version=201108302323
+;version=201108302356
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9672,25 +9672,53 @@ $      下载最新版本的 HostsX。
 0.0.0.0 acdupdater.acdsystems.com
 0.0.0.0 soapintouch.acdnet.com
 #Adobe
+0.0.0.0 3dns-1.adobe.com
 0.0.0.0 3dns-2.adobe.com
 0.0.0.0 3dns-3.adobe.com
+0.0.0.0 3dns-4.adobe.com
 0.0.0.0 activate-sea.adobe.com
 0.0.0.0 activate-sjc0.adobe.com
 0.0.0.0 activate.adobe.com
+0.0.0.0 activate.wip.adobe.com
+0.0.0.0 activate.wip1.adobe.com
+0.0.0.0 activate.wip2.adobe.com
 0.0.0.0 activate.wip3.adobe.com
+0.0.0.0 activate.wip4.adobe.com
+0.0.0.0 adobe-dns-1.adobe.com
 0.0.0.0 adobe-dns-2.adobe.com
 0.0.0.0 adobe-dns-3.adobe.com
+0.0.0.0 adobe-dns-4.adobe.com
 0.0.0.0 adobe-dns.adobe.com
 0.0.0.0 adobe.activate.com
 0.0.0.0 adobeereg.com
 0.0.0.0 ereg.adobe.com
+0.0.0.0 ereg.wip.adobe.com
+0.0.0.0 ereg.wip1.adobe.com
+0.0.0.0 ereg.wip2.adobe.com
 0.0.0.0 ereg.wip3.adobe.com
+0.0.0.0 ereg.wip4.adobe.com
+0.0.0.0 hl2rcv.adobe.com
 0.0.0.0 ns.adobe.com
+0.0.0.0 ood.opsource.net
+0.0.0.0 practivate.adobe
 0.0.0.0 practivate.adobe.com
+0.0.0.0 practivate.adobe.ipp
+0.0.0.0 practivate.adobe.ntp
 0.0.0.0 stats.adobe.com
+0.0.0.0 t3dns.adobe.com
+0.0.0.0 tpractivate.adobe.newoa
+0.0.0.0 wip.adobe.com
+0.0.0.0 wip1.adobe.com
+0.0.0.0 wip2.adobe.com
 0.0.0.0 wip3.adobe.com
+0.0.0.0 wip4.adobe.com
 0.0.0.0 wwis-dubc1-vip60.adobe.com
 0.0.0.0 www.adobeereg.com
+0.0.0.0 www.wip.adobe.com
+0.0.0.0 www.wip1.adobe.com
+0.0.0.0 www.wip2.adobe.com
+0.0.0.0 www.wip3.adobe.com
+0.0.0.0 www.wip4.adobe.com
 #Aignes
 0.0.0.0 aignes.com
 0.0.0.0 aignes.net
@@ -11117,3 +11145,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
+0.0.0.0 adn.fusionads.net
