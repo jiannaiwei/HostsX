@@ -1,4 +1,4 @@
-;version=201108291336
+;version=201108301512
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7778,6 +7778,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 d.5d6d.com
 0.0.0.0 un.5d6d.com
 #PhpWInd
+0.0.0.0 init.phpwind.net
 0.0.0.0 init.phpwind.com
 0.0.0.0 nt.phpwind.com
 0.0.0.0 union.phpwind.com
@@ -7840,6 +7841,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 gg.tgbus.com
 #游侠网
 0.0.0.0 bmp.ali213.net
+#52pk
+0.0.0.0 ads.52pk.com
+0.0.0.0 market.52pk.com
 #CDCGames
 0.0.0.0 gg.cdcgames.net
 #CNGBA
@@ -7907,6 +7911,7 @@ $      下载最新版本的 HostsX。
 #Pconline
 0.0.0.0 adv.pconline.com.cn
 0.0.0.0 count5.pconline.com.cn
+0.0.0.0 imgad0.3conline.com
 0.0.0.0 imgad1.3conline.com
 0.0.0.0 imgad2.3conline.com
 0.0.0.0 ivy.pconline.com.cn
@@ -8050,6 +8055,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 game.pipi.cn
 0.0.0.0 long.pipi.cn
 0.0.0.0 qian.pipi.cn
+#第一放映室
+0.0.0.0 admin.onefy.com
 #Wo318
 0.0.0.0 wo318.k621.com
 #爆米花
@@ -10227,6 +10234,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.dianshi88.com
 0.0.0.0 www.meilizi.com
 0.0.0.0 www.zyh66.com
+0.0.0.0 www.09shouji.com
+0.0.0.0 www.668phone.com
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -10702,6 +10711,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ad71.doubleadx.com
 0.0.0.0 adcount.178.com
 0.0.0.0 adcount.moliyo.com
+0.0.0.0 ads.im286.com
 0.0.0.0 ads.youshang.com
 0.0.0.0 adv.imhb.cn
 0.0.0.0 aj.tg.niux88.com
@@ -10735,6 +10745,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code.comuce.com
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
+0.0.0.0 code.u.18dx.com
 0.0.0.0 content.caixun.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
@@ -10807,6 +10818,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 hot.269.net
 0.0.0.0 huangjinquxian.com
 0.0.0.0 hwachun.webplus.com.tw
+0.0.0.0 hx.hxgame.net
 0.0.0.0 hxsg.528day.com
 0.0.0.0 hy.wan71.com
 0.0.0.0 hy.wowan365.com
@@ -10838,6 +10850,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 k4.cy2009.com
 0.0.0.0 kxgg.ys.kxyou.com
 0.0.0.0 lai.4299.com
+0.0.0.0 link.33878.com
 0.0.0.0 link.f1.com.tw
 0.0.0.0 link.hao251.com
 0.0.0.0 links.panr.com
@@ -10863,6 +10876,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 p.17kuxun.com
 0.0.0.0 p.37lai.com
 0.0.0.0 p.9kele.com
+0.0.0.0 p.cpm360.com
 0.0.0.0 p.eqiso.com
 0.0.0.0 p.srwchina.com
 0.0.0.0 p.yocc.net
@@ -10982,6 +10996,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 up4.kuwan8.com
 0.0.0.0 user.game2.cn
 0.0.0.0 v.xi666.com
+0.0.0.0 v4.acode.ifocus.cn
 0.0.0.0 vip1.cachecn.com
 0.0.0.0 vs.mr66.com
 0.0.0.0 w2.zxrj400.com
@@ -11050,6 +11065,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.kugame.cn
 0.0.0.0 www.lanjingads.com
 0.0.0.0 www.leeuu.net
+0.0.0.0 www.linkhelper.cn
 0.0.0.0 www.maomao8.com
 0.0.0.0 www.mengxiang.in
 0.0.0.0 www.qqmohe.com
@@ -11058,8 +11074,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.shumenol.com
 0.0.0.0 www.slg2.com
 0.0.0.0 www.snstele.com
+0.0.0.0 www.soo-boo.com
 0.0.0.0 www.u17.com
 0.0.0.0 www.ucgame8.com
+0.0.0.0 www.union163.com
 0.0.0.0 www.uokor.com
 0.0.0.0 www.uwan.com
 0.0.0.0 www.wa66.com
@@ -11076,13 +11094,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.zuixiaoyao.com
 0.0.0.0 www1.leeuu.net
 0.0.0.0 www1.xman.cn
-0.0.0.0 www.union163.com
 0.0.0.0 www21.hlggtc.com
-0.0.0.0 www.soo-boo.com
 0.0.0.0 www5.yx.xkwan.com
 0.0.0.0 www7.54rich.net
 0.0.0.0 wx.klonweb.com.cn
 0.0.0.0 x.17iw.com
+0.0.0.0 x.cc190.com
 0.0.0.0 xc.ewtang.com
 0.0.0.0 xs.mingbu.net
 0.0.0.0 xt.junnew.com
@@ -11095,7 +11112,3 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
-0.0.0.0 ads.im286.com
-0.0.0.0 p.cpm360.com
-0.0.0.0 x.cc190.com
-
