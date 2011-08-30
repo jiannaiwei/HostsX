@@ -1,4 +1,4 @@
-;version=201108301523
+;version=201108302323
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -3580,6 +3580,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ads.ign.com
 0.0.0.0 ads.miniclip.com
 0.0.0.0 ads.ttv.com.tw
+0.0.0.0 a.jojos.tw
 @HostsX 国外广告联盟
 #Aavalue
 0.0.0.0 adc.aavalue.com
@@ -8050,6 +8051,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 casting.openv.com
 0.0.0.0 m.openv.tv
 0.0.0.0 uniclick.openv.com
+#UstreamTV
+0.0.0.0 media.scanscout.com
+0.0.0.0 log.adap.tv
 #皮皮影视
 0.0.0.0 afm.pipi.cn
 0.0.0.0 game.pipi.cn
