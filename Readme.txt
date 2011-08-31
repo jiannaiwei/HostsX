@@ -32,7 +32,6 @@
 # http://www.mvps.org/winhelp2002/hosts.txt                                  #
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
 # http://is.gd/9WteB                                                         #
-# http://item.taobao.com/item.htm?id=8548364162                              #
 #                                                                            #
 # Copyright (C) 2007-2010 orztech.com All Rights Reserved.                   #
 #****************************************************************************#
@@ -138,6 +137,8 @@
        ipad: /private/etc/hosts 
    iPhone OS：/etc
  ! Mac OS 刷新网络命令:  sudo niload -v -m hosts
+                         sudo dscacheutil -flushcache (适用于10.6、10.7及以后版本)                         
+       
 
  - OS/2及eComStation："bootdrive":\mptn\etc\
 

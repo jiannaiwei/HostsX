@@ -1,4 +1,4 @@
-;version=201108302356
+;version=201108311052
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -10462,19 +10462,14 @@ $      下载最新版本的 HostsX。
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
 0.0.0.0 union.boodvd.com
-0.0.0.0 www.duote.com
-0.0.0.0 www.duotegame.com
-0.0.0.0 img.duote.com
 0.0.0.0 js.ok8848.com
 0.0.0.0 img.ok8848.com
-0.0.0.0 www.xiazaiba.com
-0.0.0.0 xiazaiba.com
-0.0.0.0 xiazai.xiazaiba.com
 0.0.0.0 52z.com
 0.0.0.0 adv.iemao.com
 0.0.0.0 Anywhere-games.com
 0.0.0.0 bc.ie222.com
 0.0.0.0 down.2345g.info
+0.0.0.0 tg.gw.com.cn
 0.0.0.0 down.jghdtv.com
 0.0.0.0 down.softdown951.com
 0.0.0.0 down.vbuv.cn
@@ -11146,3 +11141,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
 0.0.0.0 adn.fusionads.net
+0.0.0.0 code.xwadv.com
+0.0.0.0 hz.www.rbc.cn  
+0.0.0.0 js1.union001.cn
+0.0.0.0 user.dayouyouxi.com
+0.0.0.0 www.lianyu.com
