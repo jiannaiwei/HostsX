@@ -1,4 +1,4 @@
-;version=201108311058
+;version=201108311250
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2736,8 +2736,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 sohu.ad-plus.cn
 0.0.0.0 u.ad-plus.cn
 0.0.0.0 sohu.datamaster.com.cn
-#หับüธ฿วๅ
-0.0.0.0 images.sohu.com
 #หันท
 0.0.0.0 a1click.cpc.sogou.com
 0.0.0.0 adsence.sogou.com
