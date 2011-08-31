@@ -1,4 +1,4 @@
-;version=201108311052
+;version=201108311058
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -20,10 +20,13 @@ ff02::3 ip6-allhosts
 255.255.255.255 broadcasthost
 #DropBox
 174.36.30.67 dropbox.com
-174.36.30.67 forums.dropbox.com
 174.36.30.71 www.dropbox.com
+174.36.30.72 www.dropbox.com
+174.36.30.73 www.dropbox.com
 75.101.129.115 dl.dropbox.com
 75.101.159.151 dl-web.dropbox.com
+174.36.30.67 forums.dropbox.com
+174.36.30.67 wiki.dropbox.com
 #FlashGet
 221.123.176.125 s5.flashget.com
 221.123.176.136 cplog.flashget.com
