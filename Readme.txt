@@ -32,7 +32,8 @@
 # http://www.mvps.org/winhelp2002/hosts.txt                                  #
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
 # http://is.gd/9WteB                                                         #
-#                                                                            #
+# http://shhx2005.gotoip3.com/2011/01/02/dropbox.html                        #
+#                                                                            # 
 # Copyright (C) 2007-2010 orztech.com All Rights Reserved.                   #
 #****************************************************************************#
 
