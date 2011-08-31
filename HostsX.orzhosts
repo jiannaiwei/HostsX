@@ -1,4 +1,4 @@
-;version=201108311250
+;version=201108311550
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -3716,6 +3716,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.adscale.de
 0.0.0.0 ads.heias.com
 0.0.0.0 view.binlayer.com
+#Adserverpub
+0.0.0.0 banner.adserverpub.com
+0.0.0.0 js.adserverpub.com
+0.0.0.0 www.adserverpub.com
+0.0.0.0 www2.adserverpub.com
 #ADTech
 0.0.0.0 ad-dc2.adtech.de
 0.0.0.0 ad.dc2.adtech.de
@@ -6082,7 +6087,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 freeps3.peel.com
 0.0.0.0 www.peel.com
 0.0.0.0 www.peel.net
-#PeterHost.Ru
+#PeterHost
 0.0.0.0 adskape.ru
 0.0.0.0 p543.adskape.ru
 0.0.0.0 p13178.adskape.ru
@@ -6145,6 +6150,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 t.pointroll.com
 0.0.0.0 track.pointroll.com
 0.0.0.0 www.pointroll.com
+#Pubdirecte
+0.0.0.0 static.pubdirecte.com
+0.0.0.0 www.pubdirecte.com
 #Publicus
 0.0.0.0 bbads.sv.publicus.com
 0.0.0.0 beads.sx.atl.publicus.com
