@@ -1,4 +1,4 @@
-;version=201109012320
+;version=201109012330
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2620,7 +2620,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
-0.0.0.0 img3.126.net
 #Эјвз163
 0.0.0.0 adc.163.com
 0.0.0.0 adclient.163.com
