@@ -1,4 +1,4 @@
-;version=201109022027
+;version=201109022201
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -3076,8 +3076,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 srv2.wa.marketingsolutions.yahoo.com
 0.0.0.0 srv3.wa.marketingsolutions.yahoo.com
 0.0.0.0 ts.richmedia.yahoo.com
-0.0.0.0 us.ard.yahoo.com
-0.0.0.0 global.ard.yahoo.com
 0.0.0.0 visit.webhosting.yahoo.com
 #Yimg
 0.0.0.0 ads.yimg.com
