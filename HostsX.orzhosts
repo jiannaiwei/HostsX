@@ -1,4 +1,4 @@
-;version=201109021100
+;version=201109022027
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7984,7 +7984,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 d.cntv.cn
 0.0.0.0 adguanggao.eee114.com
 0.0.0.0 cctv.adsunion.com
+0.0.0.0 js.bmgad.com
 0.0.0.0 luck.v1.cn
+0.0.0.0 med.soodao.com
 #我乐网
 0.0.0.0 acs.56.com
 0.0.0.0 acs.agent.56.com
