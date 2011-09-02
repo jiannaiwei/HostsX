@@ -1,4 +1,4 @@
-;version=201109012330
+;version=201109020900
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -10699,6 +10699,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 161.xdwan.cn
 0.0.0.0 164.xdwan.cn
 0.0.0.0 166.xdwan.cn
+0.0.0.0 www.333wan.com
+0.0.0.0 js.333wan.com
 #恶意弹窗
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -10741,6 +10743,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ad71.doubleadx.com
 0.0.0.0 adcount.178.com
 0.0.0.0 adcount.moliyo.com
+0.0.0.0 adn.fusionads.net
 0.0.0.0 ads.im286.com
 0.0.0.0 ads.youshang.com
 0.0.0.0 adv.imhb.cn
@@ -10776,6 +10779,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
 0.0.0.0 code.u.18dx.com
+0.0.0.0 code.xwadv.com
 0.0.0.0 content.caixun.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
@@ -10789,6 +10793,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cpm.uoyoo.cn
 0.0.0.0 cpm.uutu.com.cn
 0.0.0.0 cpm.webxgame.com
+0.0.0.0 cpm.woniu666.com
 0.0.0.0 cpm.zzsf.com
 0.0.0.0 cpp.ggyad.com
 0.0.0.0 cps.freedom-game.com
@@ -10853,6 +10858,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 hy.wan71.com
 0.0.0.0 hy.wowan365.com
 0.0.0.0 hz.www.rbc.cn
+0.0.0.0 hz.www.rbc.cn  
 0.0.0.0 i.2wanwan.com
 0.0.0.0 i.84232.com
 0.0.0.0 i.jingwei.net
@@ -10875,6 +10881,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.ssrj.net
 0.0.0.0 js.tuigoo.com
 0.0.0.0 js.union001.com
+0.0.0.0 js1.union001.cn
 0.0.0.0 jzzy.mttmtt.com
 0.0.0.0 k2.cy2009.com
 0.0.0.0 k4.cy2009.com
@@ -11024,6 +11031,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union10.chinagames.net
 0.0.0.0 union2.50bang.org
 0.0.0.0 up4.kuwan8.com
+0.0.0.0 user.dayouyouxi.com
 0.0.0.0 user.game2.cn
 0.0.0.0 v.xi666.com
 0.0.0.0 v4.acode.ifocus.cn
@@ -11052,7 +11060,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.21d99.com
 0.0.0.0 www.22930.com
 0.0.0.0 www.265g.info
-0.0.0.0 www.333wan.com
 0.0.0.0 www.33hy.com
 0.0.0.0 www.360yanjing.info
 0.0.0.0 www.513wan.com
@@ -11095,6 +11102,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.kugame.cn
 0.0.0.0 www.lanjingads.com
 0.0.0.0 www.leeuu.net
+0.0.0.0 www.lianyu.com
 0.0.0.0 www.linkhelper.cn
 0.0.0.0 www.maomao8.com
 0.0.0.0 www.mengxiang.in
@@ -11142,9 +11150,3 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
-0.0.0.0 adn.fusionads.net
-0.0.0.0 code.xwadv.com
-0.0.0.0 hz.www.rbc.cn  
-0.0.0.0 js1.union001.cn
-0.0.0.0 user.dayouyouxi.com
-0.0.0.0 www.lianyu.com
