@@ -1,4 +1,4 @@
-;version=201109022300
+;version=201109031430
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1897,6 +1897,7 @@ ff02::3 ip6-allhosts
 2404:6800:8005::52 get-flash-videos.googlecode.com
 2404:6800:8005::52 youplayer.googlecode.com
 2404:6800:8005::52 cclive.googlecode.com
+@HostsX OneKey
 @HostsX OneKey/Google AD
 #2mdn
 0.0.0.0 affiliate.2mdn.net
