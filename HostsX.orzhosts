@@ -1,4 +1,4 @@
-;version=201109042152
+;version=201109042256
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -161,6 +161,9 @@ ff02::3 ip6-allhosts
 2001:470:83f2::710:1 mail-archive.com
 2001:470:83f2::710:1 meme.yahoo.com
 @HostsX Google
+#Chrome
+74.125.39.99 chrome.google.com
+74.125.39.99 clients2.google.com
 #Goo.gl
 2404:6800:8005::65 goo.gl
 2404:6800:8005::65 g.co
@@ -172,7 +175,6 @@ ff02::3 ip6-allhosts
 203.208.46.29 profiles.google.com
 203.208.46.29 services.google.com
 203.208.46.29 spreadsheets.google.com
-203.208.46.29 ssl.gstatic.com
 203.208.46.29 tools.google.com
 203.208.46.29 translate.google.com
 203.208.46.29 webcache.googleusercontent.com
