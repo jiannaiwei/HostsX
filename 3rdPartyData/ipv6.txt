@@ -7,9 +7,9 @@
 #有新的Google地址需要添加？请在这里提交或在线编辑，帮助我完善此列表，谢谢～
 #欢迎穿越传阅
 # 5/7 v*.lscache*.l.google.com IP 地址变更（youtube 视频储存服务器除外，谁有日本 yt 的 IP 告诉我- -），由日本东京改为澳洲悉尼，速度我测试变快了
- # 5/10 更新 v*.lscache*.c.google.com 感谢 JL Hwung 的提供
- # 7/12 《电脑报》你威武！（2010年7月12日G14版第四列）
- # 您正在查看的版本更新于 2011-08-28；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
+# 5/10 更新 v*.lscache*.c.google.com 感谢 JL Hwung 的提供
+# 7/12 《电脑报》你威武！（2010年7月12日G14版第四列）
+# 您正在查看的版本更新于 2011-09-01；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接）
 #顺便提供能够解析出 Google IPv6 地址的 DNS 服务器 (其 ISP 已加入 Google over IPv6 计划)，这样不需要修改 hosts，只需改变本机 DNS 设置就可以自动解析出 IPv6 地址，由HE提供：2001:470:20::2 (ipv6) 74.82.42.42 (ipv4，在内地可能会遭污染，可以和本 hosts 文件配合使用 by www.lostriver.net)
 #最近好像有0.5不停的在举报本文有不适宜内容（滥用行为），然后接连收到10余封google发来的本文审核通过可以发表的邮件，建议大家备份一下本文，免得某些人把本文404，reset什么的之类- -
 #用文本编辑器打开hosts文件，将以下内容复制进去，保存即可（hosts 文件没有后缀）
@@ -154,6 +154,7 @@
 2404:6800:8005::8d project-slingshot-gp.appspot.com
 2404:6800:8005::8d r3085-dot-latest-dot-project-slingshot-gp.appspot.com
 2404:6800:8005::8d newsfeed-dot-latest-dot-rovio-ad-engine.appspot.com
+2404:6800:8005::8d evolutionofweb.appspot.com
 2404:6800:8005::8d *.appspot.com #可以添加自己的 gae 应用
 #Answers/Guru/WenDa 问答社区（国际版已停止运营）
 2404:6800:8005::66 answers.google.com
@@ -3458,9 +3459,6 @@
 #Plurk
 2607:f128:47::1:1 plurk.com
 2607:f128:47::1:1 ipv6.plurk.com
-###IPV6代理翻墙
-##来源;http://docs.google.com/ViewDoc?docid=0AahDRK_oy3_TZGdqeHN4d3NfMTQ4ZnZwejZ3ZGc
-##http://aa.cx/ipv6-reverse-proxy
 ###其他IPv6网站
 ##People Republic of China 中华人民共和国
 #GuAo.hk 谷奥
@@ -3691,7 +3689,79 @@ ipv6.freeipv6.info
 2404:6800:8005::8d proxytea.appspot.com
 2404:6800:8005::8d sivanproxy.appspot.com
 2404:6800:8005::8d autoproxy2pac.appspot.com
+2404:6800:8005::8d fakegdict.appspot.com
 # 托管在 Google 上的其他常用域名
 2404:6800:8005::79 wdyl.com
 2404:6800:8005::79 www.wdyl.com
+2404:6800:8005::79 blog.twitter.com
 2404:6800:8005::79 blog.opensocial.org
+### IPv6/IPv4 转换代理
+# 以下地址均非各网站官方地址，属于 LITNET-NAT64 网段提供转换代理服务（技术细节）。
+# DNS64 服务器：
+2001:778::37 dns64.litnet.lt
+#Twitter
+2001:778:0:ffff:64:0:c73b:95e6 twitter.com
+2001:778:0:ffff:64:0:c73b:940a twitter.com
+2001:778:0:ffff:64:0:c73b:9452 twitter.com
+2001:778:0:ffff:64:0:c73b:95e8 api.twitter.com
+2001:778:0:ffff:64:0:c73b:9414 api.twitter.com
+2001:778:0:ffff:64:0:c73b:9457 api.twitter.com
+2001:778:0:ffff:64:0:c73b:95c8 api.twitter.com
+2001:778:0:ffff:64:0:210:2537 cdn.api.twitter.com
+2001:778:0:ffff:64:0:c73b:9454 business.twitter.com
+2001:778:0:ffff:64:0:c73b:95d0 business.twitter.com
+2001:778:0:ffff:64:0:c73b:95f3 business.twitter.com
+2001:778:0:ffff:64:0:c73b:940b business.twitter.com
+2001:778:0:ffff:64:0:c73b:9589 dev.twitter.com
+2001:778:0:ffff:64:0:c73b:95f0 m.twitter.com
+2001:778:0:ffff:64:0:c73b:9460 m.twitter.com
+2001:778:0:ffff:64:0:adcb:d34a media.twitter.com
+2001:778:0:ffff:64:0:c73b:95f0 mobile.twitter.com
+2001:778:0:ffff:64:0:c73b:9460 mobile.twitter.com
+2001:778:0:ffff:64:0:c73b:9454 oauth.twitter.com
+2001:778:0:ffff:64:0:c73b:95d0 oauth.twitter.com
+2001:778:0:ffff:64:0:c73b:95f3 oauth.twitter.com
+2001:778:0:ffff:64:0:c73b:940b oauth.twitter.com
+2001:778:0:ffff:64:0:c73b:9454 scribe.twitter.com
+2001:778:0:ffff:64:0:c73b:95d0 scribe.twitter.com
+2001:778:0:ffff:64:0:c73b:95f3 scribe.twitter.com
+2001:778:0:ffff:64:0:c73b:940b scribe.twitter.com
+2001:778:0:ffff:64:0:c73b:94c9 search.twitter.com
+2001:778:0:ffff:64:0:c73b:948a stream.twitter.com
+2001:778:0:ffff:64:0:4820:e708 status.twitter.com
+2001:778:0:ffff:64:0:c73b:94ce support.twitter.com
+2001:778:0:ffff:64:0:c73b:940a www.twitter.com
+2001:778:0:ffff:64:0:c73b:95c6 www.twitter.com
+2001:778:0:ffff:64:0:c73b:95e6 www.twitter.com
+2001:778:0:ffff:64:0:214:b632 twimg0-a.akamaihd.net
+2001:778:0:ffff:64:0:214:b618 twimg0-a.akamaihd.net
+2001:778:0:ffff:64:0:5e7f:4c35 si0.twimg.com
+2001:778:0:ffff:64:0:214:b618 a0.twimg.com
+2001:778:0:ffff:64:0:214:b632 a0.twimg.com
+2001:778:0:ffff:64:0:214:b633 a1.twimg.com
+2001:778:0:ffff:64:0:214:b61b a1.twimg.com
+2001:778:0:ffff:64:0:214:b631 a2.twimg.com
+2001:778:0:ffff:64:0:214:b619 a2.twimg.com
+2001:778:0:ffff:64:0:214:b612 a3.twimg.com
+2001:778:0:ffff:64:0:214:b630 a3.twimg.com
+2001:778:0:ffff:64:0:80c:d47e a4.twimg.com
+2001:778:0:ffff:64:0:81b:807e a4.twimg.com
+2001:778:0:ffff:64:0:417:2c7e a4.twimg.com
+2001:778:0:ffff:64:0:214:b610 a5.twimg.com
+2001:778:0:ffff:64:0:214:b60a a5.twimg.com
+2001:778:0:ffff:64:0:cdfb:dbe5 widgets.twimg.com
+2001:778:0:ffff:64:0:cdfb:db4a widgets.twimg.com
+2001:778:0:ffff:64:0:cdfb:db73 widgets.twimg.com
+2001:778:0:ffff:64:0:cdfb:db8e widgets.twimg.com
+2001:778:0:ffff:64:0:cdfb:db90 widgets.twimg.com
+2001:778:0:ffff:64:0:cdfb:dbac widgets.twimg.com
+2001:778:0:ffff:64:0:cdfb:dbbb widgets.twimg.com
+2001:778:0:ffff:64:0:cdfb:dbde widgets.twimg.com
+2001:778:0:ffff:64:0:d050:9802 wikipedia.org
+2001:778:0:ffff:64:0:5bc6:aee8 www.wikipedia.org
+2001:778:0:ffff:64:0:5bc6:aee8 en.wikipedia.org
+2001:778:0:ffff:64:0:5bc6:aee8 zh.wikipedia.org
+2001:778:0:ffff:64:0:5bc6:aeea upload.wikimedia.org
+###IPv6 代理翻墙
+#IPv6 HTTP 代理：gfw-proxy.co.cc:3128
+2607:fcd0:1337:4b::2 gfw-proxy.co.cc
