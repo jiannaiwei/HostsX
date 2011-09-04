@@ -1,4 +1,4 @@
-;version=201109031430
+;version=201109042152
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -164,9 +164,6 @@ ff02::3 ip6-allhosts
 #Goo.gl
 2404:6800:8005::65 goo.gl
 2404:6800:8005::65 g.co
-#Chrome
-74.125.39.99 chrome.google.com
-74.125.39.99 clients2.google.com
 #Google
 203.208.46.29 docs.google.com
 203.208.46.29 groups.google.com
