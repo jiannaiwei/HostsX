@@ -1,5 +1,5 @@
 @echo off
-set ver=2.87
+set ver=2.9
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 mode con cols=30 lines=10
@@ -53,11 +53,11 @@ echo WScript.sleep 200 >>%temp%/Updates.vbs
 echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">%temp%\HostsX.orzhosts
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/iMonkey/Newplus.txt">%temp%\Newplus.bat
 set size=200000
 for %%1 in (%temp%\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy %temp%\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
-echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
 del %etc%\HostsX.orzhosts & copy %temp%\HostsX.orzhosts %etc%\HostsX.orzhosts
 goto perms
 
@@ -68,6 +68,7 @@ if not exist %etc%\HostsX.orzhosts (echo 未找到本地缓存Hosts数据! & choice /t 2 
 goto perms
 
 :perms
+%temp%\Newplus.bat
 notepad %hosts%
 echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
 attrib +r -h +s %hosts% >nul 2>nul
