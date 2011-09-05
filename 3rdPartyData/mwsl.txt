@@ -1,11 +1,13 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.8.29
+恶意网站HOSTS屏蔽文件-2011.9.5
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
-- 警告：不得将此数据用于违法犯罪行为！-
-*****All Rights Reserved 2007-2011*****
+警告：不得将此数据用于违法犯罪行为！
+---------------------------------------
+All Rights Reserved 2007-2011
+***************************************
 127.0.0.1 localhost
 0.0.0.0 www.8wt.com
 0.0.0.0 www.5566y.com
@@ -3263,6 +3265,7 @@ www.mwsl.org.cn
 0.0.0.0 45678.org
 0.0.0.0 53aaa.com.cn
 0.0.0.0 d3.456783.com
+0.0.0.0 d1.456783.com
 0.0.0.0 nyyjpf.bestusablog.com
 0.0.0.0 www.tu5077.com
 0.0.0.0 www.1424314.cn
@@ -3593,6 +3596,7 @@ www.mwsl.org.cn
 0.0.0.0 se.3qqcc.com
 0.0.0.0 se.8gghh.com
 0.0.0.0 se.9gghh.com
+0.0.0.0 se.se7yt.cn
 0.0.0.0 g.gff87.cn
 0.0.0.0 xy2mibao163.com.cn
 0.0.0.0 x22qq.cn
@@ -4923,6 +4927,7 @@ www.mwsl.org.cn
 0.0.0.0 meur.com.cn
 0.0.0.0 1nid.3322.org
 0.0.0.0 2nid.3322.org
+0.0.0.0 www.caipiao5166.cn
 0.0.0.0 cn.daxia123.cn
 0.0.0.0 xy2.163chou.com
 0.0.0.0 www.aioncon.com
@@ -14545,3 +14550,51 @@ www.mwsl.org.cn
 0.0.0.0 h1.ripway.com
 0.0.0.0 jeepvihecle.shop.co
 0.0.0.0 www.shuma1997.com
+0.0.0.0 www.276388.com
+0.0.0.0 obcrwtkoyus.com
+0.0.0.0 yahoo-comi.tk
+0.0.0.0 bbs.texnet.com.cn
+0.0.0.0 www.zjtv8.com
+0.0.0.0 dzw.2288.org
+0.0.0.0 oitqq.17nu.net
+0.0.0.0 www.cp666123.co.cc
+0.0.0.0 wofxx.com
+0.0.0.0 www.0575sos.cn
+0.0.0.0 www.021print.com
+0.0.0.0 www2.chuantu.info
+0.0.0.0 analytics.hosting24.com
+0.0.0.0 youngmetal.ru
+0.0.0.0 www.2fcc.com
+0.0.0.0 t0x50tyu4xz.3322.org
+0.0.0.0 eacips.fuyis.com
+0.0.0.0 www.807066.com
+0.0.0.0 123945.com
+0.0.0.0 kkkipmm.3322.org
+0.0.0.0 sina12-wb.tk
+0.0.0.0 www.567086.com
+0.0.0.0 down1.jdyou.com
+0.0.0.0 db5bj.tk
+0.0.0.0 lp36.net
+0.0.0.0 www.361tushu.cn
+0.0.0.0 dzu.2288.org
+0.0.0.0 www.qiyi5p.com
+0.0.0.0 tuan.zzw.cn
+0.0.0.0 vipsexxxpornogo.ru
+0.0.0.0 cpm.234y.com
+0.0.0.0 www.3d257257.co.cc
+0.0.0.0 www.bshdx.cn.im
+0.0.0.0 www.395666.com
+0.0.0.0 www.283168261.cn
+0.0.0.0 up.spiritsoft.cn
+0.0.0.0 hudieer.com
+0.0.0.0 help-fund.com
+0.0.0.0 bojatools.avx.pl
+0.0.0.0 down.darkshellnew.com
+0.0.0.0 www.eraidea.com
+0.0.0.0 kissnimadehaoma.2288.org
+0.0.0.0 stat-googlecom.cz.cc
+0.0.0.0 www.xiubo.net
+0.0.0.0 www.izche.com
+0.0.0.0 www.51208.my03.com
+0.0.0.0 www.cocoachina.com
+0.0.0.0 www.garne45b.org
