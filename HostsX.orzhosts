@@ -1,4 +1,4 @@
-;version=201109061536
+;version=201109061552
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -679,7 +679,6 @@ fe80::1%lo0	localhost
 2404:6800:8005::52 cclive.googlecode.com
 2404:6800:8005::52 china-addthis.googlecode.com
 2404:6800:8005::52 get-flash-videos.googlecode.com
-2404:6800:8005::52 hostsx.googlecode.com
 2404:6800:8005::52 ipv6-hosts.googlecode.com
 2404:6800:8005::52 kibbles.googlecode.com
 2404:6800:8005::52 searchforchrome.googlecode.com

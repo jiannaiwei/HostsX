@@ -234,7 +234,7 @@ echo %ggl% hsco54a20sh11q9jkmb51ad2n3hmkmrg-a-oz-opensocial.googleusercontent.co
 echo %ggl% qhie5b8u979rnch1q0hqbrmbkn9estf7-a-oz-opensocial.googleusercontent.com >>%hosts%
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
 for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
-if %ytb%==203.208.46.181 (echo 获取失败，已手动设置) else echo 获取成功，请稍后
+if %ytb%==203.208.46.181 (echo 获取失败，已手动设置) else echo Loading...
 echo #Youtube >>%hosts%
 echo %ytb% youtube.com >>%hosts%
 echo %ytb% www.youtube.com >>%hosts%
