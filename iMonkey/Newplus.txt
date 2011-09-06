@@ -1,5 +1,5 @@
 @echo off
-echo 请稍等,正在获取服务器的IP
+echo 获取智能转向数据...
 setlocal enabledelayedexpansion
 set hosts=%windir%\system32\drivers\etc\hosts
 set min=160
@@ -8,7 +8,8 @@ set /a mod=!max!-!min!+1
 set /a r=!random!%%!mod!+!min!
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ggl=%%i
 for /f "delims=." %%i in ("%ggl%") do if not %%i==203 set ggl=203.208.46.%r%
-if %ggl%==203.208.46.%r% (echo 你获取的不是北京服务器的地址，已帮你随机设置为203.208.46.%r%北京服务器地址) else echo 你获取的是Google北京服务器地址，正在更新hosts，请稍等
+if %ggl%==203.208.46.%r% (echo 获取失败，已手动设置) else echo 获取成功，请稍后
+rem 为203.208.46.%r%
 echo #Google >>%hosts%
 echo %ggl% 0-focus-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
@@ -231,10 +232,9 @@ echo %ggl% debh8vg7vd93bco3prdajidmm7dhql3f-a-oz-opensocial.googleusercontent.co
 echo %ggl% 4fjvqid3r3oq66t548clrdj52df15coc-a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% hsco54a20sh11q9jkmb51ad2n3hmkmrg-a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% qhie5b8u979rnch1q0hqbrmbkn9estf7-a-oz-opensocial.googleusercontent.com >>%hosts%
-echo 请稍等,正在获取服务器的IP
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
 for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
-if %ytb%==203.208.46.181 (echo 你获取的不是北京服务器的地址，已手动帮你设置为203.208.46.181北京服务器地址) else echo 你获取的是Youtube北京服务器地址，正在更新hosts，请稍等
+if %ytb%==203.208.46.181 (echo 获取失败，已手动设置) else echo 获取成功，请稍后
 echo #Youtube >>%hosts%
 echo %ytb% youtube.com >>%hosts%
 echo %ytb% www.youtube.com >>%hosts%
@@ -1148,5 +1148,5 @@ echo %ytb% v22.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v23.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
-echo 成功运行完所有脚本
+echo ^_____________,^
 exit
