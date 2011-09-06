@@ -1,4 +1,4 @@
-;version=201109061552
+;version=201109062142
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -114,9 +114,6 @@ fe80::1%lo0	localhost
 2607:f128:47::1:1 plurk.com
 2607:f128:47::1:1 www.plurk.com
 2607:f128:47::1:1 ipv6.plurk.com
-#Mozilla
-2620:101:8001:5::2:4 www.mozilla.org
-2620:101:8001:5::2:6 addons.mozilla.org
 #Kenengba
 2001:470:18:5f5::2 www.kenengba.com
 2001:470:18:5f5::2 m.kenengba.com
@@ -177,24 +174,8 @@ fe80::1%lo0	localhost
 208.94.0.61 a.yfrog.com
 208.94.0.61 yfrog.com
 208.94.0.61 www.yfrog.com
-#Thepiratebay
-2a01:298:3:1::2 tracker.thepiratebay.org
-2a01:298:3:1::abcd ipv6.thepiratebay.org
-2a01:298:3:1::b000 static.thepiratebay.org
-2a01:298:3:1::bee torrents.thepiratebay.org
 @HostsX OneKey
 @HostsX OneKey/Google
-#News
-2404:6800:8005::64 news.google.com
-2404:6800:8005::64 news.google.com.hk
-2404:6800:8005::64 news.google.com.tw
-2404:6800:8005::64 news.l.google.com
-2404:6800:8005::62 nt0.ggpht.com
-2404:6800:8005::62 nt1.ggpht.com
-2404:6800:8005::62 nt2.ggpht.com
-2404:6800:8005::62 nt3.ggpht.com
-2404:6800:8005::62 nt4.ggpht.com
-2404:6800:8005::62 nt5.ggpht.com
 #Picasa
 203.208.46.30 lh1.ggpht.com
 203.208.46.30 lh2.ggpht.com
@@ -202,69 +183,7 @@ fe80::1%lo0	localhost
 203.208.46.30 lh4.ggpht.com
 203.208.46.30 lh5.ggpht.com
 203.208.46.30 lh6.ggpht.com
-2404:6800:8005::5d photos.google.com
-2404:6800:8005::63 picasa.google.com
-2404:6800:8005::66 lh2.google.com
-2404:6800:8005::66 lh2.l.google.com
-2404:6800:8005::66 lh3.google.com
-2404:6800:8005::66 lh4.google.com
-2404:6800:8005::66 lh5.google.com
-2404:6800:8005::66 lh6.google.com
-2404:6800:8005::84 lh3.ggpht.com
-2404:6800:8005::84 lh4.ggpht.com
-2404:6800:8005::84 lh5.ggpht.com
-2404:6800:8005::84 lh6.ggpht.com
-2404:6800:8005::84 photos-ugc.l.google.com
-2404:6800:8005::be picasaweb.google.com
-#Profiles
-2404:6800:8005::71 profiles.google.com
-2404:6800:8005::65 plusone.google.com
-2404:6800:8005::8a plus.google.com
-2404:6800:8005::8a plus.google.com.hk
-#Reader
-2404:6800:8005::68 reader.google.com
 #Appspot
-2404:6800:8005::67 googlemashups.com
-2404:6800:8005::62 googlemashups.l.google.com
-2404:6800:8005::63 *.googlemashups.com
-2404:6800:8005::64 appengine.google.com
-2404:6800:8005::68 www.googlemashups.com
-2404:6800:8005::8d appspot.l.google.com
-2404:6800:8005::8d autoproxy2pac.appspot.com
-2404:6800:8005::8d bang590.appspot.com
-2404:6800:8005::8d cactus-wave.appspot.com
-2404:6800:8005::8d evolutionofweb.appspot.com
-2404:6800:8005::8d fakegdict.appspot.com
-2404:6800:8005::8d gfw.appspot.com
-2404:6800:8005::8d go-west.appspot.com
-2404:6800:8005::8d go2china9.appspot.com
-2404:6800:8005::8d googcloudlabs.appspot.com
-2404:6800:8005::8d googlesharedspaces.appspot.com
-2404:6800:8005::8d gv-gadget.appspot.com
-2404:6800:8005::8d haiticrisis.appspot.com
-2404:6800:8005::8d i18napis.appspot.com
-2404:6800:8005::8d ipgoto.appspot.com
-2404:6800:8005::8d kwoktree.appspot.com
-2404:6800:8005::8d meme2028.appspot.com
-2404:6800:8005::8d mirrornt.appspot.com
-2404:6800:8005::8d mirrorrr.appspot.com
-2404:6800:8005::8d moderator.appspot.com
-2404:6800:8005::8d mytracks.appspot.com
-2404:6800:8005::8d newsfeed-dot-latest-dot-rovio-ad-engine.appspot.com
-2404:6800:8005::8d productideas.appspot.com
-2404:6800:8005::8d project-slingshot-gp.appspot.com
-2404:6800:8005::8d proxybay.appspot.com
-2404:6800:8005::8d proxytea.appspot.com
-2404:6800:8005::8d r3232-dot-latest-dot-project-slingshot-gp.appspot.com
-2404:6800:8005::8d reader2twitter.appspot.com
-2404:6800:8005::8d sivanproxy.appspot.com
-2404:6800:8005::8d so-proxy.appspot.com
-2404:6800:8005::8d soproxy.appspot.com
-2404:6800:8005::8d storegadgetwizard.appspot.com
-2404:6800:8005::8d twitese.appspot.com
-2404:6800:8005::8d twitese2.appspot.com
-2404:6800:8005::8d wave-api.appspot.com
-2404:6800:8005::8d wave-skynet.appspot.com
 203.208.39.104 007blogchina.appspot.com
 203.208.39.104 1m.appspot.com
 203.208.39.104 2beesinchina.appspot.com
@@ -285,9 +204,11 @@ fe80::1%lo0	localhost
 203.208.39.104 appengine-cookbook.appspot.com
 203.208.39.104 appgam.appspot.com
 203.208.39.104 application-id.appspot.com
+203.208.39.104 appspot.l.google.com
 203.208.39.104 artlozd.appspot.com
 203.208.39.104 autoproxy2pac.appspot.com
 203.208.39.104 badgm.appspot.com
+203.208.39.104 bang590.appspot.com
 203.208.39.104 bitkb.appspot.com
 203.208.39.104 bittrk.appspot.com
 203.208.39.104 blog4tomato.appspot.com
@@ -299,6 +220,7 @@ fe80::1%lo0	localhost
 203.208.39.104 bret.appspot.com
 203.208.39.104 bugway.appspot.com
 203.208.39.104 buzzsync.appspot.com
+203.208.39.104 cactus-wave.appspot.com
 203.208.39.104 caiwo.appspot.com
 203.208.39.104 caojblog.appspot.com
 203.208.39.104 cet468.appspot.com
@@ -335,8 +257,10 @@ fe80::1%lo0	localhost
 203.208.39.104 ei.appspot.com
 203.208.39.104 emoonwolf.appspot.com
 203.208.39.104 ether.appspot.com
+203.208.39.104 evolutionofweb.appspot.com
 203.208.39.104 ewutai.appspot.com
 203.208.39.104 fakebookquotes.appspot.com
+203.208.39.104 fakegdict.appspot.com
 203.208.39.104 fangbinxing.appspot.com
 203.208.39.104 fashion-girls.appspot.com
 203.208.39.104 feed2pdf.appspot.com
@@ -360,16 +284,22 @@ fe80::1%lo0	localhost
 203.208.39.104 geekqiao.appspot.com
 203.208.39.104 geo-twitter.appspot.com
 203.208.39.104 getfavicon.appspot.com
+203.208.39.104 gfw.appspot.com
 203.208.39.104 girls-birthday.appspot.com
 203.208.39.104 givetor.appspot.com
 203.208.39.104 gjqtdq.appspot.com
+203.208.39.104 go-west.appspot.com
 203.208.39.104 go2-proxy.appspot.com
+203.208.39.104 go2china9.appspot.com
 203.208.39.104 godashboard.appspot.com
+203.208.39.104 googcloudlabs.appspot.com
 203.208.39.104 google-gruyere.appspot.com
 203.208.39.104 googlemapsholidays.appspot.com
+203.208.39.104 googlesharedspaces.appspot.com
 203.208.39.104 googlewave.luck.appspot.com
 203.208.39.104 gothefirst.appspot.com
 203.208.39.104 guukguuk.appspot.com
+203.208.39.104 gv-gadget.appspot.com
 203.208.39.104 haiticrisis.appspot.com
 203.208.39.104 hanson.appspot.com
 203.208.39.104 haxball.appspot.com
@@ -423,6 +353,7 @@ fe80::1%lo0	localhost
 203.208.39.104 hydrozoasandgames.appspot.com
 203.208.39.104 hzqtcblog.appspot.com
 203.208.39.104 i-tuan.appspot.com
+203.208.39.104 i18napis.appspot.com
 203.208.39.104 icity.appspot.com
 203.208.39.104 iguangblog.appspot.com
 203.208.39.104 ihere.appspot.com
@@ -431,6 +362,7 @@ fe80::1%lo0	localhost
 203.208.39.104 imimom0.appspot.com
 203.208.39.104 ip.appspot.com
 203.208.39.104 ip2loc.appspot.com
+203.208.39.104 ipgoto.appspot.com
 203.208.39.104 itnewsvendor.appspot.com
 203.208.39.104 itopidea.appspot.com
 203.208.39.104 ivoluntarily.appspot.com
@@ -463,11 +395,15 @@ fe80::1%lo0	localhost
 203.208.39.104 maleoapp.appspot.com
 203.208.39.104 marsdreamblog.appspot.com
 203.208.39.104 mcpunkmusic.appspot.com
+203.208.39.104 meme2028.appspot.com
 203.208.39.104 miaolegewu.appspot.com
 203.208.39.104 mickeywaley.appspot.com
 203.208.39.104 micolog.appspot.com
 203.208.39.104 mindon.appspot.com
+203.208.39.104 mirrornt.appspot.com
+203.208.39.104 mirrorrr.appspot.com
 203.208.39.104 mistapostle.appspot.com
+203.208.39.104 moderator.appspot.com
 203.208.39.104 moeloader.appspot.com
 203.208.39.104 monnand.appspot.com
 203.208.39.104 moses.appspot.com
@@ -480,6 +416,7 @@ fe80::1%lo0	localhost
 203.208.39.104 mytracks.appspot.com
 203.208.39.104 n23.appspot.com
 203.208.39.104 navwebd.appspot.com
+203.208.39.104 newsfeed-dot-latest-dot-rovio-ad-engine.appspot.com
 203.208.39.104 nocapricorn.appspot.com
 203.208.39.104 notwewant1984.appspot.com
 203.208.39.104 now-here.appspot.com
@@ -498,6 +435,10 @@ fe80::1%lo0	localhost
 203.208.39.104 pgfishmicoblog.appspot.com
 203.208.39.104 picasawebutility.appspot.com
 203.208.39.104 pictureworthsthousandwords.appspot.com
+203.208.39.104 productideas.appspot.com
+203.208.39.104 project-slingshot-gp.appspot.com
+203.208.39.104 proxybay.appspot.com
+203.208.39.104 proxytea.appspot.com
 203.208.39.104 psp-music.appspot.com
 203.208.39.104 pubinbeijing.appspot.com
 203.208.39.104 pubsubhubbub.appspot.com
@@ -506,6 +447,7 @@ fe80::1%lo0	localhost
 203.208.39.104 qhm123.appspot.com
 203.208.39.104 quizipedia.appspot.com
 203.208.39.104 qunianjinri.appspot.com
+203.208.39.104 r3232-dot-latest-dot-project-slingshot-gp.appspot.com
 203.208.39.104 ragecomic.appspot.com
 203.208.39.104 random-guardian.appspot.com
 203.208.39.104 randomtaste.appspot.com
@@ -528,13 +470,17 @@ fe80::1%lo0	localhost
 203.208.39.104 shuiqunawaimai.appspot.com
 203.208.39.104 simple-note.appspot.com
 203.208.39.104 site-map.appspot.com
+203.208.39.104 sivanproxy.appspot.com
 203.208.39.104 sms4twitter.appspot.com
 203.208.39.104 snowshowswhite.appspot.com
 203.208.39.104 snshelper.appspot.com
+203.208.39.104 so-proxy.appspot.com
 203.208.39.104 socghop.appspot.com
 203.208.39.104 softjiecn.appspot.com
+203.208.39.104 soproxy.appspot.com
 203.208.39.104 spy.appspot.com
 203.208.39.104 squall0629.appspot.com
+203.208.39.104 storegadgetwizard.appspot.com
 203.208.39.104 sunxiangyao.appspot.com
 203.208.39.104 susan.appspot.com
 203.208.39.104 sypxue.appspot.com
@@ -571,7 +517,9 @@ fe80::1%lo0	localhost
 203.208.39.104 wap.shoujimoka.appspot.com
 203.208.39.104 warbabyy.appspot.com
 203.208.39.104 waterzeong.appspot.com
+203.208.39.104 wave-api.appspot.com
 203.208.39.104 wave-samples-gallery.appspot.com
+203.208.39.104 wave-skynet.appspot.com
 203.208.39.104 wbunle.appspot.com
 203.208.39.104 weatherlib.appspot.com
 203.208.39.104 webisbeauty.appspot.com
@@ -610,44 +558,6 @@ fe80::1%lo0	localhost
 203.208.39.104 zqt.appspot.com
 203.208.39.104 zxing.appspot.com
 #BlogSpot
-2404:6800:8005::68 blogsearch.google.com
-2404:6800:8005::68 blogsearch.google.com.hk
-2404:6800:8005::68 blogsearch.google.com.tw
-2404:6800:8005::a0 blogsearch.google.cn
-2404:6800:8005::62 1.bp.blogspot.com
-2404:6800:8005::62 2.bp.blogspot.com
-2404:6800:8005::62 3.bp.blogspot.com
-2404:6800:8005::62 4.bp.blogspot.com
-2404:6800:8005::62 bloggertemplatespreview.blogspot.com
-2404:6800:8005::62 blogsofnote.blogspot.com
-2404:6800:8005::62 knownissues.blogspot.com
-2404:6800:8005::62 www.blogspot.com
-2404:6800:8005::65 bloggerphotos.l.google.com
-2404:6800:8005::65 bp0.blogger.com
-2404:6800:8005::65 bp1.blogger.com
-2404:6800:8005::65 bp2.blogger.com
-2404:6800:8005::65 bp3.blogger.com
-2404:6800:8005::79 www.textcube.com
-2404:6800:8005::84 blogspot.l.google.com
-2404:6800:8005::84 img.blogblog.com
-2404:6800:8005::bf beta.blogger.com
-2404:6800:8005::bf blogger.com
-2404:6800:8005::bf blogger.google.com
-2404:6800:8005::bf blogger.l.google.com
-2404:6800:8005::bf blogspot.com
-2404:6800:8005::bf buttons.blogger.com
-2404:6800:8005::bf buzz.blogger.com
-2404:6800:8005::bf draft.blogger.com
-2404:6800:8005::bf help.blogger.com
-2404:6800:8005::bf img1.blogblog.com
-2404:6800:8005::bf img2.blogblog.com
-2404:6800:8005::bf photos1.blogger.com
-2404:6800:8005::bf status.blogger.com
-2404:6800:8005::bf www.blogblog.com
-2404:6800:8005::bf www.blogger.com
-2404:6800:8005::bf www1.blogblog.com
-2404:6800:8005::bf www2.blogblog.com
-2404:6800:8005::bf www2.blogger.com
 2404:6800:8005::84 kwoktree.blogspot.com
 2404:6800:8005::84 chinafreenet.blogspot.com
 2404:6800:8005::84 chinagfw.blogspot.com
@@ -664,42 +574,6 @@ fe80::1%lo0	localhost
 2404:6800:8005::84 wallpapers-arena.blogspot.com
 2404:6800:8005::84 whiteappleer.blogspot.com
 2404:6800:8005::84 xiangeliushui.blogspot.com
-#Code
-2404:6800:8005::64 code.google.com
-2404:6800:8005::64 code.l.google.com
-2404:6800:8005::52 *.googlecode.com
-2404:6800:8005::52 googlecode.l.google.com
-2404:6800:8005::52 chromium.googlecode.com
-2404:6800:8005::52 closure-library.googlecode.com
-2404:6800:8005::52 earth-api-samples.googlecode.com
-2404:6800:8005::52 gmaps-samples-flash.googlecode.com
-2404:6800:8005::52 googleappengine.googlecode.com
-2404:6800:8005::52 google-code-feed-gadget.googlecode.com
-2404:6800:8005::52 android-scripting.googlecode.com
-2404:6800:8005::52 cclive.googlecode.com
-2404:6800:8005::52 china-addthis.googlecode.com
-2404:6800:8005::52 get-flash-videos.googlecode.com
-2404:6800:8005::52 ipv6-hosts.googlecode.com
-2404:6800:8005::52 kibbles.googlecode.com
-2404:6800:8005::52 searchforchrome.googlecode.com
-2404:6800:8005::52 youplayer.googlecode.com
-#FeedBurner
-2404:6800:8005::62 feedburner.google.com
-2404:6800:8005::62 www.feedburner.com
-2404:6800:8005::62 feeds.feedburner.com
-2404:6800:8005::62 feeds2.feedburner.com
-2404:6800:8005::76 feedproxy.google.com
-#Groups
-2404:6800:8005::8b groups.google.com
-2401:3800:c001::68 groups.google.cn
-2404:6800:8005::8b groups.google.com.hk
-2404:6800:8005::8b groups-beta.google.com
-2404:6800:8005::8b groups.l.google.com
-2404:6800:8005::89 blob-s-docs.googlegroups.com
-2404:6800:8005::89 *.googlegroups.com
-#Goo.gl
-2404:6800:8005::65 goo.gl
-2404:6800:8005::65 g.co
 #2mdn
 0.0.0.0 affiliate.2mdn.net
 0.0.0.0 m.de.2mdn.net
