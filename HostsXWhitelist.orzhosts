@@ -1,5 +1,9 @@
-;version=201109012336
+;version=201109072210
 ;author=郭鹏锟
+#导致皮皮影视客户端无法正常显示页面。
+long.pipi.cn
+$DELETE
+
 #导致Apple产品恢复固件时无法正常验证。
 gs.apple.com
 $DELETE

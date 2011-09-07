@@ -12,7 +12,7 @@
 # http://creativecommons.org/licenses/by-nc-sa/3.0/                          #
 #                                                                            #
 # Authors:                                                                   #
-# OrzFly,JocKwok                                                             #
+# OrzFly,jason_jiang,JocKwok                                                             #
 #                                                                            # 
 # Contributors:                                                              #
 # Thanks for all the feedback from users and friends.                        #
@@ -33,6 +33,7 @@
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
 # http://is.gd/9WteB                                                         #
 # http://shhx2005.gotoip3.com/2011/01/02/dropbox.html                        #
+# http://commondatastorage.googleapis.com/fgqi/hosts/fgqi.bat                # 
 #                                                                            # 
 # Copyright (C) 2007-2010 orztech.com All Rights Reserved.                   #
 #****************************************************************************#

@@ -1,4 +1,4 @@
-;version=201109062230
+;version=201109072207
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6739,7 +6739,6 @@ $      下载最新版本的 HostsX。
 #皮皮影视
 0.0.0.0 afm.pipi.cn
 0.0.0.0 game.pipi.cn
-0.0.0.0 long.pipi.cn
 0.0.0.0 qian.pipi.cn
 #第一放映室
 0.0.0.0 admin.onefy.com
