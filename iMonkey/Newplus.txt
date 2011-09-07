@@ -6,8 +6,8 @@ set min=160
 set max=180
 set /a mod=!max!-!min!+1
 set /a r=!random!%%!mod!+!min!
-for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set GOOGLE=%%i
-for /f "delims=." %%i in ("%GOOGLE%") do if not %%i==203 set GOOGLE=203.208.46.%r%
+for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ggl=%%i
+for /f "delims=." %%i in ("%ggl%") do if not %%i==203 set ggl=203.208.46.%r%
 if %ggl%==203.208.46.%r% (echo 获取失败，已手动设置) else echo 获取成功，请稍后
 echo #Google By FGQI >>%hosts%
 echo %ggl% 0-focus-opensocial.googleusercontent.com >>%hosts%
@@ -1140,5 +1140,4 @@ echo %ytb% v21.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v22.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v23.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
-echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net>>%hosts%
-exit
+echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%&del %0

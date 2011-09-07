@@ -234,7 +234,7 @@ set size=200000
 for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy gdown\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
-goto perms
+goto newplus
 
 :dftvbs
 echo       Update Hosts Data...Please wait...
