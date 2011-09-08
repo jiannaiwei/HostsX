@@ -1,5 +1,5 @@
 @echo off
-set ver=2.92
+set ver=2.93
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -229,7 +229,7 @@ if not exist %systemroot%\system32\wget.exe (goto dftvbs) else (goto dftwget)
 if not exist %windir%\system32\wget.exe (start /min iexplore http://users.ugent.be/~bpuype/wget/wget.exe)&(echo Please Save the wget.exe to the current directory!)& choice /t 2 /d y /n >nul &start explorer %windir%\system32\
 echo       Update Hosts Data...Please wait...
 %down% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-wget http://hostsx.googlecode.com/svn/trunk/iMonkey/Newplus.txt -O %temp%\newplus.bat
+wget http://hostsx.googlecode.com/svn/trunk/iMonkey/Newplus.txt -O %temp%Newplus.bat
 set size=200000
 for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy gdown\HostsX.orzhosts %hosts%)
