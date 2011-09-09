@@ -1,0 +1,20 @@
+div[class="colR"],.wb-wraper {
+  display: none !important;
+}
+div[class="bg_endPage_blue clearfix"]{
+  width: 99.8% !important;
+  border: 1px solid #DCDDDD !important;
+}
+
+div[class="bg_endPage_blue clearfix"]>*{
+  background-color: #F7FCFF !important;
+  width: 96% !important;
+}
+
+#endText , div#tieArea , div[class="endArea"]>div[class="colL"]{
+  width: 99.8% !important;
+}
+
+#endMain .endSummary,.theCurrent, #endMain{
+  width: auto !important;
+}

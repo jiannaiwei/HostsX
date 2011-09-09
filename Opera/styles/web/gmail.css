@@ -1,0 +1,29 @@
+/* hide ads and "about these links" */
+.Bu .oM, .Bu .u8 {
+	display:none !important;
+}
+
+/* reduce the size of the composing textarea (and the banner above it) 
+ * only in the plain text mode
+ * this does not apply when composing in a new window
+ * Comment the following line if you don't like it  */
+div.no div.eJ, div.no div[class*="Ar As"] {
+	width:60% !important;
+}
+
+/* hide several elements
+ * div.yAeSuc: link to google home and disable buzz
+ * div.pY: invite people box */
+div.oy8Mbf div.yAeSuc, div[class*="T0 pp"] div.pY {
+    display: none !important;
+}
+
+/* set the width of the remaining elements at the bottom to 50% */
+div.oy8Mbf div.svirc, div.oy8Mbf div.KkMbSe {
+    width: 50% !important;
+}
+
+/* hide the ads that appear below the message */
+.Bu .OH0apf {
+    display:none !important;
+}

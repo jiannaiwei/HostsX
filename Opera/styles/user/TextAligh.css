@@ -1,0 +1,6 @@
+@charset "utf-8";
+/*	Name:文本对齐
+*/
+td { 
+text-align:left !important; 
+}

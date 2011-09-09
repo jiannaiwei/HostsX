@@ -1,0 +1,55 @@
+/*人人网去广告CSS*/
+
+/*----------------------------主要结构-----------------------------*/
+#banner,                                       /*好友顶部广告*/
+#feedback-box,                                 /*V5反馈*/
+#header-wide-banner,                           /*首页顶部广告*/
+#jebeWidget,                                   /*日志侧边广告*/
+#nokiaN8,                                      /*状态发布栏*/
+#nostar				               /* 提示实名 */
+#nostar,                                       /*星级用户提示*/
+#notice_system,                                /*状态栏上方-系统消息*/
+#sponsorsWidget,                               /*右部链接广告*/
+#studentsRecommend                             /*推荐认识*/ {
+display: none !important;
+	}
+.ad-bar				               /*右边栏广告*/
+.adimgr,
+.blank-bar,			               /*左边栏广告*/
+.blank-holder,			               /*头部和底部广告*/
+div[class^="guide-steps"],                     /*首页弹出信息框*/ 
+div[class="share-success-more"],               /*分享弹出框广告*/ 
+div[class="side-item sales-poll"]              /*人人网调查*/ {
+display: none !important;
+	}
+
+/*----------------------------细致清理------------------------------*/
+HTML>BODY[class="layout_home3cols"]>DIV[id="container"]>DIV[id="main"]>DIV[id="container2"]>DIV[id="main2"]>DIV[id="sidebar2"][class="x-prefetchframecontent"]>DIV[class="side-item"]>DIV[class="side-item-header clearfix"]
+/*右侧站内功能清理*/
+
+DIV[id="navBar"][class="site-nav rr"]:nth-child(2)>DIV[class="navigation-wrapper"]>DIV[class="navigation clearfix"]>DIV[class="nav-body clearfix"]:nth-child(2)>DIV[class="nav-other"]:nth-child(2)>DIV[class="menu"]:nth-child(1)>DIV[class="menu-title"]>A[href="http://i.renren.com/pay/upgrade?wc=10000"],
+/*主页顶部升级VIP链接按钮*/
+
+DIV[id="navBar"][class="menu-bar rr"]:nth-child(5)>DIV[class="navigation-wrapper"]>DIV[class="navigation clearfix"]>DIV[class="nav-body clearfix"]:nth-child(2)>DIV[class="nav-other"]:nth-child(2)>DIV[class="menu"]:nth-child(1)>DIV[class="menu-title"]>A[href="http://i.renren.com/pay/upgrade?wc=10000"],
+/*个人主页顶部升级VIP链接按钮*/
+
+DIV[id="navBar"][class="site-nav rr"]:nth-child(2)>DIV[class="navigation-wrapper"]>DIV[class="navigation clearfix"]>DIV[class="nav-body clearfix"]:nth-child(2)>DIV[class="nav-other"]:nth-child(2)>DIV[class="menu"]:nth-child(2)>DIV[class="charge menu-title"]>A[href="http://pay.renren.com"],
+/*主页顶部充值链接按钮*/
+
+DIV[id="navBar"][class="menu-bar rr"]:nth-child(5)>DIV[class="navigation-wrapper"]>DIV[class="navigation clearfix"]>DIV[class="nav-body clearfix"]:nth-child(2)>DIV[class="nav-other"]:nth-child(2)>DIV[class="menu"]:nth-child(2)>DIV[class="charge menu-title"]>A[href="http://pay.renren.com"],
+/*个人主页顶部充值链接按钮*/
+
+DIV[id="sidebar"]:nth-child(1)>DIV[class="site-menu-box box"]>DIV[class="site-menu-user-box box"]:nth-child(1)>ARTICLE[class="site-menu-user"]>DIV[class="site-menu-user-info"]:nth-child(2)>DIV[class="got-score"]:nth-child(5)>A[class="expired vip-level"][href="http://i.renren.com/index.action?wc=40000"],
+/*头像右下VIP等级图标*/
+
+DIV[id="opi"]:nth-child(6)>DIV[class="full-page-holder"]>DIV[class="col-full"]:nth-child(1)>DIV[class="status-holder"]:nth-child(2)>SPAN[class="icons"]:nth-child(2)>A[class="expired vip-level"][href="http://i.renren.com/index.action?wc=20000"],
+/*个人主页VIP等级图标*/
+
+DIV[id="sidebar"]:nth-child(1)>DIV[class="site-menu-box box"]>DIV[class="site-menu-nav-box box"]:nth-child(2)>ARTICLE[class="site-menu-apps"]:nth-child(2)>SECTION:nth-child(1)>DIV[class="apps-item"]:nth-child(5)>DIV[class="item-title"]>SPAN[class="item-main"]>A[href="http://i.renren.com/index.action?wc=40000&origin=103"]
+/*左侧VIP会员链接*/
+
+{display:none !important;}
+
+/*----------------------------其他备份------------------------------*/
+DIV[class="star-new"]/* 人气之星 */
+div[class="side-item pymk"] /*推荐好友 */

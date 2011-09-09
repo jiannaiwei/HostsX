@@ -1,0 +1,97 @@
+/*
+    百度整站去广告样式表
+    
+    如果发现第一页空白没有内容
+    那是垃圾竞价排名被过滤了。
+    
+                    AutoXBC
+                      2011.2.5
+
+http://bbs.operachina.com/viewtopic.php?f=41&t=29451
+
+*/
+
+#ecad  /*  新闻  */ ,
+#rightAd   /* 贴吧 */ ,
+#tbl > #login_lead  /* 贴吧登录提示  */ ,
+a[href^="http://www.baidu.com/adrc.php"]  /*  贴吧Banner广告  */ ,
+div#mabox.box2   /*  百科  */ ,
+/*    顶部链接    */
+table.bi + table ,
+
+/*    网页搜索开始    */
+
+/*  有边框的推广链接  */
+div[style="position:relative;zoom:1;border:1px solid #D9E1F6;"] ,
+
+/*  顶部包含 td[id^="taw"] 的 table  */
+table[width="65%"][bgcolor="#f5f5f5"] ,
+table[width="65%"][bgcolor="#f5f5f5"] + br ,
+
+/*  右侧栏广告  */
+div[style="border-left:1px solid #e1e1e1;padding-left:10px;word-break:break-all;word-wrap:break-word;"] ,
+/*    网页搜索结束    */
+
+/*  知道开始  */
+#qb-ad-cpro , #ad-brand-down , .ad-fc-down ,
+/*  知道新用户向导  */
+#new-guide-container ,
+/*  短信  */
+#wise-ask-box ,
+/*  顶部的关联广告  */
+div[class="banner"][id="topBanner"] ,
+/*  推广链接  */
+table[bgcolor="#f5f5f5"][style="word-break:break-all;margin-left:15px;table-layout:fixed;"] ,
+/*  底部推广  */
+.fc-down ,
+/*  右侧广告  */
+div.r[id^="bdfs"] ,
+/*  知道结束  */
+
+/*    mp3 搜索开始    */
+/*  右侧广告  */
+div[class="sidebar grid_4 center alpha omega"] > div.inner > div[style="text-align:left;margin:0 0 0 6px;"] ,
+/*  右侧广告end  */
+table.bi + div[id="dMA"] + script + table ,
+#searchMeta + div[class="top container_20"] ,
+/*  权利声明  */
+#leftRes > #sm ,
+/*  手机娱乐  */
+#TbMp3 + table ,
+/*  结果分页下部  */
+#adv ,
+/*    mp3 搜索结束    */
+
+/*    图片 搜索开始    */
+/*  手机娱乐  */
+#pgw + script + div > br:first-child + table > tbody > tr:first-child + tr ,
+/*  底部  */
+#relecom54 ,
+/*  顶部  */
+#relEcom ,
+/*    图片 搜索结束    */
+
+/*    视频 搜索开始    */
+#ecom , table + table + div[style="display:block;width:1024px;height:90px;"] ,
+/*    视频 搜索结束    */
+
+/*  竞价排名  */
+body[link="#261cdc"] > table[border="0"][cellpadding="0"][cellspacing="0"]:not([id]):nth-child(n+3) + br ,
+td[class="f EC_PP"]
+{display:none !important;}
+
+/*  搜索结果宽度*/
+body > table + table.bi + table + table ,
+table + br + table
+{width:900px !important;}
+
+/*  贴吧宽度调整 & 分隔线  */
+.ListHead , .post , .rep ,
+#thread_title , #thread_header , #thread_footer ,
+.post_split , /*  新版分隔线  */
+hr.fenge , /*  旧版分隔线  */
+table.c_post  /*  旧版正文区宽度限制  */
+{width:95% !important;}
+
+/*  旧版分隔线高度  */
+hr.fenge {height:1px !important;}

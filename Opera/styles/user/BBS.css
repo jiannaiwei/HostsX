@@ -1,0 +1,22 @@
+@charset "utf-8";
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/*
+Name: /BBS看帖整理
+Version: 1.2
+Author: vokins
+Description: MayBe a better BBS CSS.
+*/
+
+/* 网页隐藏文字和链接过滤 */
+font[color*="FAE"]{display:none !important}
+[style*="font-size:0p"]{display:none !important}
+[style*="font-size: 0p"]{display:none !important}
+SPAN[class="transparent"],fieldset[style*=”:1px dashed“] {
+display: none !important;
+	}
+*[href*="tag.php?name="],.t_tag { border: none !important; }
+
+#sign,DIV[class^="signature"],.sign,.postertext {display: none !important;}
+div[class="quote"],td[class="postauthor"],dl[class="newrate"],div[class="postact s_clear"],
+#footer,#header,.postinfo,.posterinfo,.postauthor,.modaction,.useraction {display: none !important;}

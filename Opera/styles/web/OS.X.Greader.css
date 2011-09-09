@@ -1,0 +1,408 @@
+/*
+    Google 阅读器 Mac 主题
+           written by AutoXBC
+                   2011.06.25
+    http://bbs.operachina.com/viewtopic.php?f=41&t=39962
+*/
+
+
+/*  修正 F 键全屏空白  */
+html , body {height:100% !important;}
+
+/*  隐藏元素  */
+/*  Google 全局导航栏  */
+a[href="/reader/axs"] + #gb #gbx1 ,
+a[href="/reader/axs"] + #gb #gbx2 ,
+a[href="/reader/axs"] + #gb #gbx3 ,
+a[href="/reader/axs"] + #gb #gbx4 ,
+a[href="/reader/axs"] + #gb #gbz ,
+a[href="/reader/axs"] + #gb #gbg .gbtcb ,
+a[href="/reader/axs"] + #gb .gbt.gbtb ,
+#sub-tree-subscriptions ,/*  左下角管理订阅按钮  */
+#chrome-title ,/*  右栏频道标题  */
+#viewer-footer   /*  正文底部翻页按钮区  */
+{display:none !important;}
+
+/*  去掉关注对象 添加到组 提示  */
+/*  需要的话，去掉这行
+.friend-interruption
+{display:none !important;}
+     需要的话，去掉这行  */
+
+/*  隐藏左侧频道弹出菜单
+希望显示时，去掉下面两句  */
+.tree-item-action-container
+{display:none !important;}
+
+/*  顶部导航修正  */
+a[href="/reader/axs"] + #gb .gbzt,
+a[href="/reader/axs"] + #gb .gbgt {
+border-top-width:0px !important;
+}
+
+a[href="/reader/axs"] + #gb .gbgt:hover ,
+a[href="/reader/axs"] + #gb .gbmt:hover {
+background-image:none !important;
+background-color:transparent !important;
+}
+
+a[href="/reader/axs"] + #gb #gbd4 ,
+a[href="/reader/axs"] + #gb #gbd5 ,
+a[href="/reader/axs"] + #gb #gbs {
+top:30px !important;
+}
+
+/*  添加浅灰导航栏  */
+a[href="/reader/axs"] + #gb {
+/*  高度调整  */
+height:30px !important;
+/*  底部添加装饰线  */
+border-bottom:1px solid #939393 !important;
+/*  填充灰色背景图  */
+background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAMAAADaS4T1AAAAA3NCSVQICAjb4U/gAAAAPFBMVEXs7Ozr6+vq6urp6eno6Ojn5+fm5ubl5eXk5OTj4+Pi4uLh4eHg4ODf39/e3t7d3d3c3Nzb29va2tr///+KsXasAAAAFHRSTlP/////////////////////////AE9P5xEAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAUdEVYdENyZWF0aW9uIFRpbWUAOC85LzA32WH5FwAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTM5jWRgMAAAAbSURBVAiZY2CAA2YoZINDTjjkgUJ+OBRiEAIAEcQA92wvhr0AAAAASUVORK5CYII=')  repeat-x !important;
+}
+
+/*  Google reader 标题  */
+.loaded #logo-container {
+top:-27px !important;
+left:10px !important;
+width:148px !important;
+}
+
+.loaded #logo {
+background-image:none !important;
+width:auto !important;
+}
+
+.loaded #logo span {
+display:block !important;
+font-size:18px !important;
+}
+
+/*  导航栏去下划线 & 修改颜色  */
+#chrome-title , a[href="/reader/axs"] + #gbar * ,
+a[href="/reader/axs"] + #gbar + #guser * {
+text-decoration:none !important;
+font-weight:bold !important;
+color:#565656 !important;
+}
+
+/*  整体框架提升  */
+.opera.loaded:not(.fullscreen) #main {
+margin-top:-40px !important;
+}
+
+/*  内置搜索位置调整  */
+body.opera.loaded #search {
+margin-top:-37px !important;
+margin-left:115px !important;
+}
+
+/*  输入框  */
+body.opera.loaded #search-input {width:120px !important;}
+
+/*  下拉菜单  */
+body.opera.loaded #search-restrict {border-bottom-color:transparent !important;}
+
+/*  搜索按钮 高度调整 */
+body.opera.loaded #search-submit .goog-button-body {padding-bottom:2px !important;}
+/*  标记为已读按钮 高度调整  
+#mark-all-as-read-options .goog-button-base-content {padding-bottom:1px !important;}
+*/
+
+/*  下拉菜单背景  */
+.goog-menu ,
+.goog-menu-vertical {
+background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAECAIAAAArjXluAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABhJREFUGFdjfPH6HQMQACkQ6+mL10AEpQD0KxMly6lXZwAAAABJRU5ErkJggg==') repeat !important;
+}
+
+/*  U 模式导航菜单位置  */
+#chrome-lhn-menu {
+margin-top:0 !important;
+margin-left:-10px !important;
+z-index:200 !important;
+}
+
+.lhn-menu #nav {
+margin-left:-140px !important;
+margin-top:48px !important;
+}
+
+/*    左栏调整开始    */
+
+/*  主页概要图标  */
+#overview-selector a {
+background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAA3NCSVQICAjb4U/gAAAA9lBMVEX///8JCQkAAAAREREJCQkAAAAiIiIYGBgREREsLCwiIiJZWVlZWVlISEciIiJ7e3l2dnYiIiJ4eHdra2qTk5J7e3mZmZmlpaXFxcXa2tnY2NXS0tDv7+/m5ub////5+vv39/fv9/fv7+/u7/Xq6/Hm5ubj4+Lf4evf39/d3uTV197R09zOz9bKz+LIzNnBx9vExtLDxdDFxcW+w9a/ws6/v8S7vs25vdO8vL21u8u1uca0tsSvtMSxs7+usb+rrr2lqr2jprelpaWdoreZnrWWnbSVm7CLkauGjq2EjKZ8haV6gaB2gKB2fZxteJxwd5hudpdlcJZRqJ8AAAAAUnRSTlMAEREiIiIzMzNERFVmZmZ3d3eIiJmZqrvM3d3d7u7/////////////////////////////////////////////////////////////////////eDqsNwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAAUdEVYdENyZWF0aW9uIFRpbWUAOS80LzA34FfybwAAAP9JREFUGJVdkFlTwjAURiOKCyrijgI3IaVoS6ytlmKD3WgNFnD7/3/GJmacgfNyz5yXbxKEENpqnfzT2kZ/7MLD5FkxeYRDHY/gfVkqlgt8oeMV/vz+UHz99Ns6to3VXBR5nov5atCpqVa7vSsCZluWzfzc7u2peNB1BPec0Yi5QR7gY73zKqa+y5jj8yKFcxXPoHiLeOB5Pp8WAi71eCmymPOQR6koybVc2un0Q5fxJI4TztzQuJFv2u9BBcvSNGPSunK+gU3TpC9JmkVPtFJoyAiUUnI/G1vjIalUR4MQgs0h0OoSQ0fpBAPGSnTEa+i4gYz15ukazbr6pQ0Q+gU0bzAbCvk++AAAAABJRU5ErkJggg==") no-repeat !important;
+background-position:35px 1px !important;
+}
+
+/*  所有项目图标  
+#reading-list-selector a {
+background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAA3NCSVQICAjb4U/gAAABa1BMVEX///8GCQ8AAAAAAAAEBgsAAAARGSkAAAAhKUoAAAAlM1ANGDEYKU4NGDEnPWcgN2dGY5Q9VIQvS4NAWpI5VZEvTH4nPWc6YaVCWpw5WZ40VZkyUpQ5T3zs7Oh8eX1HcLY3WqQvTH7////2+f729vH29vTw9Pzs8fvm7/3s7u7s7Ojk6vLe6fvd5PDV5Pze3t7R4PjN3/zY2djF2PjC2Py/1PW60fPMzMy1zv+1zfbDw8Onxfakv+ybv/m7uruZue+SuPi0s7OTs+mKs/eHsfisra2Dr/iFr/Onp6d8q/h5qPZ+pupzpfdzo/GDnNBwn+t6nNNwnelsnO5tmuRqlt5jlOZlkeBjj91hjNdbjN1dh9NXh9pahc9Sg9ZPf9NResBKe9BSesVLedVQdbRJdM1Mcr9HcLZGbsRDa8BDabdDarA+YrA6YaU5WZ49WYwwWaU3WJU5VZEuVKk2VIszUIYvTH4sR3gqQ3EpQm40k0pLAAAAeXRSTlMAEREiMzNEVWZmd3eIiJmZu7u7zMzMzN3d3d3d3e7u7u7u////////////////////////////////////////////////////////////////////////////////////////////////////////////////////YO8CAgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAAUdEVYdENyZWF0aW9uIFRpbWUAOS80LzA34FfybwAAASdJREFUGJVVy2dbglAAhmHae9qiYQWnUstMAzUJO66TIDTMjYJoZmY7Gz8/hhW9H+/rfTAMG6t3puZwHF9cstlsM6ujmLbx+pnbvQYAcDoB2AJgWsfPYIplYzGG8ftpetflWtfxK1hmWVG8PL/KZAoXHo9iPjUUeHPFLn5YMW9FCnbR5zNzpgwhQezH/uWsCiGiSRJac6jG4xyPHLr+5O9xBSHCizTlhHwg8IeUViPS+4sdrsFxAnI4BIY4zXXxjb/heYpCJCOSR/lQyMCX9J0okkT6cC9LH5TCYQOfpXY2mzrJRbeLxzulSMTAh+q9JEmVSkWWC1E1kTDwtfkky3LVXCOZVHo17J9Y2Jxfabdum9e1WstuH9HRXM/g8OTs8sbjwFAfhn0D2pNXNFKgprIAAAAASUVORK5CYII=") no-repeat !important;
+background-position:65px 1px !important;
+}
+*/
+
+/*  加星项目图标  */
+#star-selector a .selector-icon {
+background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAA3NCSVQICAjb4U/gAAAAt1BMVEX///9Kjes4fd0tcM4hYr4AAABKjeswc9AAAAArbswoasYkZsMAAAA/gd8yddQrbswdXrpAheY0eNdKjesyddQtcM4oasZKjes4etctcM4oasZHiedAheY0eNcoasZKjetAheY4fd0tcM4yddQrbswrbsxAheY/gd84fd0yddQtcM4rbsxKjetHiedAheY+g+Q/gd84fd04etc0eNcyddQwc9AtcM4rbswoasYlZ8QkZsMhYr4dXrpo+wmyAAAAPXRSTlMAEREREREiIiIzMzMzRERERFVVZmZmZnd3iIiZqqqqu7u7u8zM3e7u7u7u7v//////////////////////n9s/LQAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAAUdEVYdENyZWF0aW9uIFRpbWUAOS80LzA34FfybwAAAKlJREFUGJVtzekSgiAUBWAtMbM9KysrWy0LKUmUovd/rmDcmMHzh8M3d+7VtDKmqalx3Qb0fdV0CHUFHQgdBb0o8hQMEArq3+D6KkMo+zE6Fdo6xCJYCGOPTjG8xBingr6fY71iGGZMEJ3LZ3ZCaJa2JTNyIslMwgUXTsl7K+ElJXe7G8bxTUKSnA2+5PREk8pGyTovK7SpcNwrm73PXwAsy+oX4RWAZvwDi9UXRQUgxVcAAAAASUVORK5CYII=") no-repeat !important;
+margin-top:0px !important;
+margin-left:3px !important;
+padding-right:4px !important;
+padding-bottom:4px !important;
+}
+
+/*  共享项目图标  */
+.icon.broadcast-icon {
+background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAA3NCSVQICAjb4U/gAAABHVBMVEX///99ukIAAAAfSSAAAAAAAAB9ukJ9ukJDkz46jT45hjv////5/Pj3+vLw+O7r9N/m8tve79jd6s3Z6sTX6M3Q58PO5s3P4cvH47nC4sLL3rvL3MXH3LrF2cW/1Li40Lew1IShzXSWzYmixJ6px0WbyGKixUWexESVxFqWwkSUv0OKvUN5vl+FvEN6vFh9ukKOtDt5t0J0tEGEsTpstUF5rjpkskFesUBqrUFbsEBXsEpxqDdlqkFTrj9UrFVgpkBKqz9cpEBqnGFXpTlDqT5CqD5VojhYoEA9oz5RnD9fk1NcmC5clSw5nD1Ilj5OlTBXkDw4lz1Dkz46lEJSijg6jT5IhTg/fzo7fjc+fB40eB0xdCAydBorcBkeaBh1IC8rAAAAX3RSTlMAEREiIjOZqqqqqv///////////////////////////////////////////////////////////////////////////////////////////////////////////////wGaLGQAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAfdEVYdFNvZnR3YXJlAE1hY3JvbWVkaWEgRmlyZXdvcmtzIDi1aNJ4AAAAFHRFWHRDcmVhdGlvbiBUaW1lADkvNC8wN+BX8m8AAAD7SURBVBiVbc5rU4JQEIBhRJJyyTTTMkvTzJMYEUQm5b1EzaQ0u2ji//8Z7RI4OdP76cwzO3uW4/4tEFLXCgUQRYUVvK5mi9m1IiKqRd8K0wxkpkx10U9OA0D6FxljJUx+fgWqRKjJN3Nnfj/8PtyW0HbLOqJe/sBVT0ewc3IWh/i5QmgotEqK5vybqohVzV1laF56DbFm7NFk58XwaiI2K5cJSBxI+/aD5Swdq9JGbN+6XcQip59ZyH6ZPcSeaZp1Kh+hk47rA8RBy+/O/bFFaD+uSqIluzZhf1UjBalGf4K4ORn9aTx+20IMht/XCgcReV4QhA0vfPI89wMuEjviJasEDwAAAABJRU5ErkJggg==") no-repeat !important;
+padding-right:4px !important;
+padding-bottom:4px !important;
+margin-top:-1px !important;
+}
+/*  图标文字距离  */
+.name.broadcast-name {margin-left:8px !important;}
+
+/*  备注项目图标  */
+.icon.created-icon {
+background:url("data:image/gif;base64,R0lGODlhFAAUAOZ/ACeL1wItNxpDUAAqNAc1Qi2V4C6Y48vS0SuS3ieJ1iOCz624tgArNiiN2XqyaC2X4iSE0SWF0yuR3QApNAApMvv8/CqQ3DKh6pg9SCWG0ymO2jCc5urkjOnNJIfL9zFYYv7+/zWm7wYzQCBKVpTX/obF8SF+zTOh6zCb5enQMyKAzhU9Rnd+fXV8ezGd50uPOx12xSFLV4bJ9CB7yk2QQIzQ+iiM2IvT/pbY/12n4Bluvi+Z5OPn5orO+jKf6R55yILL+f3+/4jN+eiepZk9SClRXCaH1IfI837P/4DD8YPE8SyT3zmp8dje3YnJ9EJmcUBlbmOo4HPC9YzP+U2b2hpxwCiH03/A7n/H9SqP22mw5iaI1TVeaHK36nW77UlsdU2QP3fF9pHU/JDV/pLU/Due5IDA7jSk7TOi7ISNi4iPjrG8urO+vFOy8Y7Q+jWl7kqOPujMJOigpuihqBx0xIHK+IrS/urji/3+/iF9zInQ+4vQ+y+a5UFlcP///////yH5BAEAAH8ALAAAAAAUABQAQAf/gH+Cg4SFhoICfkBCdWFtbxcbBksqd3EChBR+RhkZERAQCip5MzoONAODPE1rSGM3elNCHk4lV1ZDGB+EIn4GDw8FCAgWDQkRMC8HBIRQUlgyMkclSl5dWjlUc0Rcgwsjfno1QX7l5gUKKQcx3iwtaCcnPhuSBRINMxwdK4MVBwsIJEjIokEDgC0RFNBxAIdBoQATBkhkQLHihIuGnvTZyLEjx0Jf/OAgQYKMmx60kpiJIkeXtzRq7IgBgcdcuTIQchUhBG5PDRA2y6FTx06QPzZMQoQ4c+GCix0FLJjQx28QAT8uUKDgY8CAPQ0JfuhjZrTXr2DDih1LtqxdiwY2GGwASJAgQygTVU6lGqQpqF8HYCgcGmwoEAA7") no-repeat !important;
+padding-right:4px !important;
+padding-bottom:4px !important;
+margin-top:-1px !important;
+margin-left:-1px !important;
+}
+/*  图标文字距离  */
+.name.created-name {margin-left:8px !important;}
+
+/*  趋势分析图标  */
+#trends-selector a .selector-icon {
+background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAA3NCSVQICAjb4U/gAAAAw1BMVEX///8AAAAAAADt7e3k6OgAAAAAAACJjY2DiYr6/Pz1+Pjv9vfl7/Dh7e7f5uj////6/Pz3+vv1+Pjv9vfm7/fl7/Dh7e7d6ezf5ujV5efc4eLP4ePW3t/R29zJ3eDP2dvM19nF1Na8zdBN30I/1jb/mhf/lBQxzCr/jhI9rf8jwx7/gg06pP+TlJSQkpL/fAqMj5A3nP+JjY3/dggUuhE0lP//agMGsQUxi///ZgAvg/8sev8pcv8mav8jYv8gWf8fVf/0jUZdAAAAQXRSTlMAESJERERVd3fu7u7u7u7//////////////////////////////////////////////////////////////////xySBRYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAUdEVYdENyZWF0aW9uIFRpbWUAOS80LzA34FfybwAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTM5jWRgMAAAQRdEVYdFhNTDpjb20uYWRvYmUueG1wADw/eHBhY2tldCBiZWdpbj0iICAgIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDQuMS1jMDM0IDQ2LjI3Mjk3NiwgU2F0IEphbiAyNyAyMDA3IDIyOjExOjQxICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4YXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iPgogICAgICAgICA8eGFwOkNyZWF0b3JUb29sPkFkb2JlIEZpcmV3b3JrcyBDUzM8L3hhcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhhcDpDcmVhdGVEYXRlPjIwMDctMDgtMTVUMTk6NDY6MjlaPC94YXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhhcDpNb2RpZnlEYXRlPjIwMDctMDgtMTVUMjA6NTQ6NTNaPC94YXA6TW9kaWZ5RGF0ZT4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyI+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIINkeeMAAAD4SURBVBiVbdDZUoMwGIbhgFZtXVoSAlKDbdm3su9lu/+rMhCcsTO+h0/mO8gPwL89bPesA2v3CAC3vWKMpTl5Ce44wO2v87sgCBC6rosQEjjAz7gQhEEQHCnyFEPJNE1lXiZJclEWPISCZVlHSIdFURBRhAtCx3HoDKG6romIV/R9f8G2bQleUaZ4UWi32037WhFFUUR0Xf/suk7FEqIohCjLMmIYBun7XpUYxqgsS2LbtjoMw+kXFYqa53naOI7at8wQN02j5nl+mqbpLC8IGVZVdf6LrHRNmfE1poeL6d1S+vtUkfEbD7jnd3TXxwu9J795umvDcz9tWiiIJDO1/gAAAABJRU5ErkJggg==") no-repeat !important;
+padding-right:4px !important;
+padding-bottom:4px !important;
+margin-left:-55px !important;
+margin-top:0px !important;
+}
+/*  图标文字位置  */
+#trends-selector a span {margin-left:25px !important;}
+
+/*  频道目录图标  */
+.icon.folder-icon {
+background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAA3NCSVQICAjb4U/gAAABa1BMVEX///8GCQ8AAAAAAAAEBgsAAAARGSkAAAAhKUoAAAAlM1ANGDEYKU4NGDEnPWcgN2dGY5Q9VIQvS4NAWpI5VZEvTH4nPWc6YaVCWpw5WZ40VZkyUpQ5T3zs7Oh8eX1HcLY3WqQvTH7////2+f729vH29vTw9Pzs8fvm7/3s7u7s7Ojk6vLe6fvd5PDV5Pze3t7R4PjN3/zY2djF2PjC2Py/1PW60fPMzMy1zv+1zfbDw8Onxfakv+ybv/m7uruZue+SuPi0s7OTs+mKs/eHsfisra2Dr/iFr/Onp6d8q/h5qPZ+pupzpfdzo/GDnNBwn+t6nNNwnelsnO5tmuRqlt5jlOZlkeBjj91hjNdbjN1dh9NXh9pahc9Sg9ZPf9NResBKe9BSesVLedVQdbRJdM1Mcr9HcLZGbsRDa8BDabdDarA+YrA6YaU5WZ49WYwwWaU3WJU5VZEuVKk2VIszUIYvTH4sR3gqQ3EpQm40k0pLAAAAeXRSTlMAEREiMzNEVWZmd3eIiJmZu7u7zMzMzN3d3d3d3e7u7u7u////////////////////////////////////////////////////////////////////////////////////////////////////////////////////YO8CAgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAAUdEVYdENyZWF0aW9uIFRpbWUAOS80LzA34FfybwAAASdJREFUGJVVy2dbglAAhmHae9qiYQWnUstMAzUJO66TIDTMjYJoZmY7Gz8/hhW9H+/rfTAMG6t3puZwHF9cstlsM6ujmLbx+pnbvQYAcDoB2AJgWsfPYIplYzGG8ftpetflWtfxK1hmWVG8PL/KZAoXHo9iPjUUeHPFLn5YMW9FCnbR5zNzpgwhQezH/uWsCiGiSRJac6jG4xyPHLr+5O9xBSHCizTlhHwg8IeUViPS+4sdrsFxAnI4BIY4zXXxjb/heYpCJCOSR/lQyMCX9J0okkT6cC9LH5TCYQOfpXY2mzrJRbeLxzulSMTAh+q9JEmVSkWWC1E1kTDwtfkky3LVXCOZVHo17J9Y2Jxfabdum9e1WstuH9HRXM/g8OTs8sbjwFAfhn0D2pNXNFKgprIAAAAASUVORK5CYII=") no-repeat !important;
+padding-right:4px !important;
+padding-bottom:4px !important;
+}
+/*  图标文字距离  */
+.name.folder-name {margin-left:6px !important;}
+
+/*  频道项目图标  
+li.unread > a >  .icon.sub-icon {
+background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAA3NCSVQICAjb4U/gAAAAS1BMVEX////9+PL78OX34sv127/1277z07HxzaXvxZjuxZjsvovsvYvqt3/qtn7or3Lor3HmqGTmqGXkoVjkoFfimkvgkj7gkj3eizH////ACO6rAAAAGXRSTlP///////////////////////////////8AATQKtwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAAUdEVYdENyZWF0aW9uIFRpbWUAMi80LzA3ipACrAAAAHdJREFUGJVlz1ESwiAMBNBNsBqsttiCy/1PKiCtVffzTZLZIP8EOfvInugrGA+xApHQ022bKUCiRKe3NCBnB1yOQAbBeQeoJa6CaQMn0IUBuq88PTTR4d7hcU0jPGcMHQQjReutBpGDhDJf+7Rif9WzfZ6z9u13XtjiEkob0Ut6AAAAAElFTkSuQmCC") no-repeat !important;
+padding-right:4px !important;
+padding-bottom:4px !important;
+margin-top:1px !important;
+}
+*/
+
+/*  左栏频道列表  */
+#main > #nav {
+left:140px !important;
+top:-22px !important;
+z-index:300 !important;
+}
+
+/*  整体添加蓝背景色  */
+#main > #nav , .lhn-section , .scroll-tree li {background-color:#E5EDF7 !important;}
+
+/*  添加订阅按钮区域深灰背景  */
+#lhn-add-subscription-section {
+background:#E5EDF7 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAeCAIAAACJwFiTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIhJREFUGFctxekOwVAABtHPKyMIIYISao8laOu21dYaxO7pzA+Tk0wq2H9F/u4DmeQNefELcqIntAof0CK4QzNzgybeFRo7F2i4PEO9xQmy50eoPT1ArckOssZbqDFKoNoghqr9CKp0N1DZDqFSJ4CKbR8qtAyUbxooZ62hbMODMnUXStdd/PcDHF9obvHFM60AAAAASUVORK5CYII=')   !important;
+height:30px !important;
+}
+
+/*  第一栏与顶部交接处无装饰线  */
+#lhn-selectors {border-top-width:0px !important;}
+
+/*  标题行鼠标浮动淡蓝背景色  */
+#lhn-selectors .selector:hover ,
+.scroll-tree li a:hover 
+{background-color:#BECDEE !important;}
+
+/*  J K 导航浮动淡黄背景色  */
+.scroll-tree li .cursor {
+background-color:#ffc !important;
+}
+
+/*  当前选中行变背景  */
+.tree-link-selected {
+background:#E5EDF7 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAZCAIAAACZ2xhsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAADlJREFUKFNjXLv7AgMcADlwxEAkZ9WOc3DEQDFn2dYzcMRAMWfRppNwxEAOZ976E3DEgMLpmbEBjgBNj9Ae6N2C/gAAAABJRU5ErkJggg==')   !important;
+}
+
+/*  未读计数右浮动 & 红色  */
+.unread-count {
+color:red !important;
+}
+
+/*  .name .unread-count  */
+.sub-unread-count ,
+.friend-unread-count ,
+[id^="sub-tree"].folder-unread-count {
+position:absolute !important;
+right:10px !important;
+}
+
+/*    左栏调整结束    */
+
+
+/*    右栏调整开始    */
+
+/*  左右分栏深灰色装饰线  */
+#chrome {border-color:#939393 !important;}
+
+/*  阅读区总标题栏  */
+#chrome-header {
+color:white !important;
+font-weight:bold !important;
+overflow:visible !important;
+height: 22px !important;
+padding-top:4px !important;
+padding-bottom:4px !important;
+/*  亮蓝色背景  */
+background: transparent url('data:image/gif;base64,R0lGODlhAgAgAKIAAB1eujSC6iB25kSK6zqF6kqN6yF55UKE5iH5BAAHAP8ALAAAAAACACAAAAMSaFbcziPKSKqtIQfFu/8fIAIJADs=')  repeat-x !important;
+}
+/*  灰色背景备份  
+background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAeCAIAAACJwFiTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIhJREFUGFctxekOwVAABtHPKyMIIYISao8laOu21dYaxO7pzA+Tk0wq2H9F/u4DmeQNefELcqIntAof0CK4QzNzgybeFRo7F2i4PEO9xQmy50eoPT1ArckOssZbqDFKoNoghqr9CKp0N1DZDqFSJ4CKbR8qtAyUbxooZ62hbMODMnUXStdd/PcDHF9obvHFM60AAAAASUVORK5CYII=')   !important;
+*/
+
+/*  频道工具栏按钮  
+    全屏模式下不改动  */
+.opera.loaded:not(.fullscreen) #viewer-header {
+margin-top:-32px !important;
+background-color:transparent !important;
+}
+
+/*  顶部按钮区去装饰线  
+    全屏模式下不改动  */
+.opera.loaded:not(.fullscreen) #viewer-top-controls {
+border-bottom-width:0px !important;
+margin-top:-1px !important;
+color:white !important;
+}
+
+/*  非全屏 U 模式下 新条目 or 所有条目 切换 左侧边距  */
+.opera.loaded.lhn-hidden #viewer-top-controls {
+padding-left:65px !important;
+}
+
+/*  全屏时工具栏文字黑色 &  当前链接黑色  */
+.opera.loaded.fullscreen #viewer-top-controls ,
+.opera.loaded.fullscreen #viewer-top-controls * ,
+.opera.loaded.fullscreen #viewer-top-controls span.link-selected {
+color:black !important;
+font-weight:400 !important;
+}
+
+/*  新条目 or 所有条目 切换 & 显示信息 蓝色  */
+.opera.loaded.fullscreen #viewer-details-toggle ,
+.opera.loaded.fullscreen #viewer-top-controls span {
+color:#2244BB !important;
+}
+
+/*  显示 新条目or所有条目 工具栏
+框架相对移动导致按钮消失，用绝对定位修正
+*/
+#viewer-all-new-links {
+position:absolute !important;
+top:5px !important;
+margin-left:2px !important;
+color:white !important;
+}
+
+/*  给前一个按钮让出空间  */
+#mark-all-as-read-split-button {
+margin-left:204px !important;
+}
+
+/*  详情按钮
+框架相对移动导致按钮消失，用绝对定位修正
+*/
+#viewer-details-toggle {
+position:absolute !important;
+top:5px !important;
+right:133px !important;
+}
+
+/*  普通链接浅灰色  */
+.unselectable.link {color:#CCCCCC !important;}
+
+/*  标记链接(已读,星号)灰色  */
+.entry-actions .unselectable.link {color:#999999 !important;}
+
+/*  当前链接白色  */
+.unselectable.link.link-selected {
+color:white !important;
+}
+
+/*  显示模式切换：展开-列表 去背景色  */
+#chrome-view-links {background-color: transparent !important;}
+
+/*  正文内置字体大小修正  */
+.entry-body .item-body div * {font-size:1.0em !important;}
+
+/*  已读标记按钮加粗  */
+.read-state {font-weight:bolder !important;}
+
+/*  小字号下列表视图文字残影  */
+#entries.list .entry .collapsed { 
+height:2.6ex !important;
+line-height:2.7ex !important;
+}
+
+/*  正文背景色，自己按偏好调整  */
+/*  条目周边底色  */
+#entries .entry {background-color:#fafafa !important;}
+/*  圆角处底色  */
+.ccard-container {background-color:#fafafa !important;}
+/*  文字底色  */
+.ccard {background-color:#ffffff !important;}
+
+/*    底部翻页按钮区开始    */
+
+/*  背景 & 高度  */
+#viewer-footer {
+padding-top:0px !important;
+padding-bottom:0px !important;
+background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAYCAIAAACwW9CwAAAABGdBTUEAALGPC/xhBQAAACpJREFUGFdj/Pv3LwMEAFkQgMT6BQMM2FjfYYABwfoCAwwI1jMYYBhwFgCyDsLbEhFyyQAAAABJRU5ErkJggg==')  repeat-x !important;
+}
+
+/*  按钮位置修正  */
+.goog-button div {
+line-height:20px !important;
+display:block !important;
+}
+
+/*  按钮去背景色  */
+#viewer-footer .goog-button-base-top-shadow ,
+#viewer-footer .goog-inline-block {
+background-color:transparent !important;
+border-bottom-color:transparent !important;
+}
+
+/*  按钮去装饰线  */
+#viewer-footer .goog-button-base-outer-box ,
+#viewer-footer .goog-button-base-inner-box {
+border-width:0px !important;
+}
+
+/*  右下角状态提示  */
+#entries-status {top:0px !important;}
+
+/*    底部翻页按钮区结束    */
+
+
+/*    右栏调整结束    */
+
+
+/*  趋势页信息显示修正  */
+#trends-item-count-list {width:180px !important;}
+
+/*  设置页黄色背景宽度修正  */
+#settings {width:930px !important;}
