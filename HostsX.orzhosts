@@ -1,4 +1,4 @@
-;version=201109090909
+;version=201109101538
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8322,6 +8322,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 dw.hiido.cn
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
+#VeryCD
+0.0.0.0 download.verycd.com
 @HostsX 软件验证屏蔽
 #Game Assassin's Creed
 0.0.0.0 onlineconfigservice.ubi.com
