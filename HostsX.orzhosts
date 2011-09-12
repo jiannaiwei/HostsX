@@ -1,4 +1,4 @@
-;version=201109101538
+;version=201109122210
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9388,6 +9388,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.333wan.com
 0.0.0.0 cpm.woniu666.com
 0.0.0.0 pic.woniu666.com
+0.0.0.0 irs09.com
+0.0.0.0 static.irs09.com
 #恶意弹窗
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -9560,7 +9562,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 img.voolee.cn
 0.0.0.0 in.kunlun.com
 0.0.0.0 info.uubig.com
-0.0.0.0 irs09.com
 0.0.0.0 j.zqgame.com
 0.0.0.0 jksc.xywy.com
 0.0.0.0 js.laishu.com
