@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 2.93
+Version: 2.932
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -88,11 +88,14 @@ display: none !important;
 	}
 
 /* 论坛广告和外链 */
-div[class="a_b"],div[class="a_mu"],div[class="bm a_c"],
-div[class^="a_f"],div[class^="wp a_"],div[id^="thread_ads_"]{
+div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],
+div[class="a_b"],div[class="a_mu"],div[class^="a_f"]{
 display: none !important;
 	}
-.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
+td[class="plc plm"],DIV[class="mbm cl"],div[class="bm a_c"],div[class^="wp a_"]{
+display: none !important;
+	}
+div[id^="thread_ads_"],.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
 /* 签名过滤 */
 [class^="signature"],.sign,.postertext{display: none !important;}
 /* 论坛浮动过滤 */
@@ -136,7 +139,6 @@ sohuadcode {display:none !important}
 div[id="sp"],LI[id="sp"]{display: none !important;}
 DIV[class^="content ad-b"]{display:none !important}
 DIV[class="newslist"]>DL>DD[class="detail"]>EM{display:none !important}
-DIV[class="mbm cl"] {display:none !important}
 div[class="btmad"][id^="adsp_content_banner_"],div[id="couplet_left_NULL"],div[id="couplet_right_NULL"]{display:none !important}
 div[class="bp-popup"][id="J_popup"]{display:none !important}
 div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="deerway"],div[id="klw_ent"],div[class*="l_qq_com"]{display:none !important}

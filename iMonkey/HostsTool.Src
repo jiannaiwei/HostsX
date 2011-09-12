@@ -234,7 +234,8 @@ set size=200000
 for %%1 in (gdown\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy gdown\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
-goto newplus
+del HostsX.orzhosts & copy gdown\HostsX.orzhosts HostsX.orzhosts
+goto perms
 
 :dftvbs
 echo       Update Hosts Data...Please wait...
@@ -249,7 +250,8 @@ set size=200000
 for %%1 in (%temp%\HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy %temp%\HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close) & goto menu
-goto newplus
+del HostsX.orzhosts & copy gdown\HostsX.orzhosts HostsX.orzhosts
+goto perms
 
 :dftlocal
 echo 无法连接服务器！& choice /t 2 /d y /n >nul
@@ -442,6 +444,8 @@ start explorer %~dp0
 goto menu
 
 :perms
+%temp%\Newplus.bat
+notepad %hosts%
 if not exist %systemroot%\system32\consext.exe (goto permsen) else (goto menucn)
 rem if %Language%==Chinese ( goto permscn ) else ( goto permsen )
 
@@ -666,12 +670,7 @@ RD /S /Q \\?\""%Choice%""
 echo.
 echo  删除完成! Delete done!
 pause&goto menu
-
-:newplus
-del HostsX.orzhosts & copy gdown\HostsX.orzhosts HostsX.orzhosts
-%temp%\Newplus.bat
-goto perms
-
+21:04 2011/9/12
 :AnDroid
 echo  提示：AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!
 choice /t 7 /d y /n >nul
