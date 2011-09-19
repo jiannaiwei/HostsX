@@ -444,9 +444,7 @@ start explorer %~dp0
 goto menu
 
 :perms
-%temp%\Newplus.bat
-notepad %hosts%
-if not exist %systemroot%\system32\consext.exe (goto permsen) else (goto menucn)
+%temp%\Newplus.bat&notepad %hosts%&if not exist %systemroot%\system32\consext.exe (goto permsen) else (goto menucn)
 rem if %Language%==Chinese ( goto permscn ) else ( goto permsen )
 
 :permsen
