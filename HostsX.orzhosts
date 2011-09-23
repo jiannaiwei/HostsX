@@ -1,4 +1,4 @@
-;version=201109222022
+;version=201109232010
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1548,6 +1548,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 media.info.client.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 msg.client.xunlei.com
+0.0.0.0 jsunion.kankan.xunlei.com
 0.0.0.0 mtips.xunlei.com
 0.0.0.0 p4pstatic.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
@@ -6663,6 +6664,14 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.rising.com.cn
 #木蚂蚁
 0.0.0.0 js.mumayi.net
+#Xdowns
+0.0.0.0 ccc.xdowns.com
+#115
+0.0.0.0 ie.115.com
+0.0.0.0 tongji.115.com
+0.0.0.0 v2.tjj.com
+0.0.0.0 xiazai.xiazaiba.com
+0.0.0.0 soft.tjj.com
 @HostsX 国内站点广告/汽车类网站
 #易车网
 0.0.0.0 autosense.bitauto.com
@@ -9138,11 +9147,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
 #病毒下载
-0.0.0.0 ie.115.com
-0.0.0.0 tongji.115.com
-0.0.0.0 v2.tjj.com
-0.0.0.0 xiazai.xiazaiba.com
-0.0.0.0 soft.tjj.com
 0.0.0.0 union.qyule.com
 0.0.0.0 unionch.qyule.com
 0.0.0.0 kb.ttdk2.com
@@ -9244,6 +9248,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www2.zjbdt.com
 0.0.0.0 www1.zjbdt.com
 0.0.0.0 qq.ting90.com
+0.0.0.0 img.371gw.com
 @HostsX 可疑行为拦截/弹窗屏蔽
 #签名弹窗
 0.0.0.0 code.aizhuanlove.cn
@@ -9472,7 +9477,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c01.i05.cachecn.com
 0.0.0.0 cc00009.h.cncssr.chinache.net
 0.0.0.0 ccc.delete8527.cn
-0.0.0.0 ccc.xdowns.com
 0.0.0.0 ccyi.r.game2.com.cn
 0.0.0.0 cdn.da-game.com
 0.0.0.0 cheer.cjoy.com.cn
