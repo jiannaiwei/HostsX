@@ -1,4 +1,4 @@
-;version=201109232010
+;version=201109242018
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6662,16 +6662,19 @@ $      下载最新版本的 HostsX。
 #Rising
 0.0.0.0 alert.rising.com.cn
 0.0.0.0 union.rising.com.cn
+#115
+0.0.0.0 ie.115.com
+0.0.0.0 tongji.115.com
+0.0.0.0 soft.tjj.com
+0.0.0.0 v2.tjj.com
+0.0.0.0 xiazai.xiazaiba.com
+0.0.0.0 www.114la.com
+#Ctdisk
+0.0.0.0 static.ctdisk.com
 #木蚂蚁
 0.0.0.0 js.mumayi.net
 #Xdowns
 0.0.0.0 ccc.xdowns.com
-#115
-0.0.0.0 ie.115.com
-0.0.0.0 tongji.115.com
-0.0.0.0 v2.tjj.com
-0.0.0.0 xiazai.xiazaiba.com
-0.0.0.0 soft.tjj.com
 @HostsX 国内站点广告/汽车类网站
 #易车网
 0.0.0.0 autosense.bitauto.com
@@ -9053,7 +9056,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.0344.net
 0.0.0.0 www.111.dh.com
 0.0.0.0 www.113w.com
-0.0.0.0 www.114la.com
 0.0.0.0 www.1155.com
 0.0.0.0 www.1188.com
 0.0.0.0 www.126666666.cn
@@ -9414,6 +9416,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pic.woniu666.com
 0.0.0.0 irs09.com
 0.0.0.0 static.irs09.com
+0.0.0.0 360.sharele.cn
+0.0.0.0 un.sharele.cn
 #恶意弹窗
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -9725,7 +9729,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u7.91wanyx.net
 0.0.0.0 un.173737.com
 0.0.0.0 un.5i.com
-0.0.0.0 un.sharele.cn
 0.0.0.0 union.51ditu.com
 0.0.0.0 union.7cv.com
 0.0.0.0 union.88go.cc
