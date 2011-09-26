@@ -1141,7 +1141,6 @@ echo %ytb% v22.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v23.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%
-notepad %hosts%
 echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
 attrib +r -h +s %hosts% >nul 2>nul
 echo y| cacls %hosts% /c /t /p everyone:r >nul
