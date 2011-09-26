@@ -1141,3 +1141,16 @@ echo %ytb% v22.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v23.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%
+notepad %hosts%
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib +r -h +s %hosts% >nul 2>nul
+echo y| cacls %hosts% /c /t /p everyone:r >nul
+ipconfig /flushdns>nul 2>nul
+del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
+del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
+del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
+del /f /q %userprofile%\recent\*.*>nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
+reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
+ipconfig /flushdns>nul 2>nul&cls&echo HostsX data has been updated£¡ & choice /t 2 /d y /n >nul &Exit

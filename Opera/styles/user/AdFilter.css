@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 2.932
+Version: 2.94
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -32,7 +32,7 @@ div[class^="ad336"],div[class="ad660"],div[class^="ad680"],div[class^="ad728"],
 div[class="ad750"],div[class="ad950"],div[class^="ad960"]{
 display: none !important;
 	}
-.ad,.rec_text,.aXd,.adinfo,#adcontent,#header_ads,table[class="header_gg"],
+div[class=ad],.rec_text,.aXd,.adinfo,#adcontent,#header_ads,table[class="header_gg"],
 div[class="advertising"],div[class="ggarea clearfix"],div[class^="con_ad"],div[class^="bt_ad"]{
 display: none !important;
 	}
