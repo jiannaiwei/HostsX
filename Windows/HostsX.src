@@ -1,5 +1,5 @@
 @echo off
-set ver=2.93
+set ver=2.94
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 mode con cols=30 lines=10
