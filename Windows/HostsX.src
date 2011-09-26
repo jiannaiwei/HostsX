@@ -68,8 +68,7 @@ if not exist %etc%\HostsX.orzhosts (echo 未找到本地缓存Hosts数据! & choice /t 2 
 goto perms
 
 :perms
-%temp%\Newplus.bat&notepad %hosts%
-echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+call: %temp%\Newplus.bat&notepad %hosts%&echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
 attrib +r -h +s %hosts% >nul 2>nul
 echo y| cacls %hosts% /c /t /p everyone:r >nul
 ipconfig /flushdns>nul 2>nul
