@@ -1,4 +1,4 @@
-;version=201109261005
+;version=201109271613
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8984,6 +8984,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.zyh66.com
 0.0.0.0 www.09shouji.com
 0.0.0.0 www.668phone.com
+0.0.0.0 tenccnect.co.cc
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
