@@ -1,4 +1,4 @@
-;version=201109271613
+;version=201109271837
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6720,8 +6720,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 Fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
 0.0.0.0 lstat.youku.com
+0.0.0.0 nc.youku.com
 0.0.0.0 speed.lstat.youku.com
 0.0.0.0 stat.youku.com
+0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
 0.0.0.0 urchin.lstat.youku.com
 0.0.0.0 valb.atm.youku.com
