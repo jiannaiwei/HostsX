@@ -1,4 +1,4 @@
-;version=201109271837
+;version=201109282000
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6669,8 +6669,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 v2.tjj.com
 0.0.0.0 xiazai.xiazaiba.com
 0.0.0.0 www.114la.com
-#Ctdisk
-0.0.0.0 static.ctdisk.com
 #木蚂蚁
 0.0.0.0 js.mumayi.net
 #Xdowns
@@ -6925,8 +6923,10 @@ $      下载最新版本的 HostsX。
 #1lo0
 0.0.0.0 c1.1lo0.net
 0.0.0.0 f1.1lo0.net
+0.0.0.0 f2.1lo0.net
 0.0.0.0 f3.1lo0.net
 0.0.0.0 f4.1lo0.net
+0.0.0.0 f5.1lo0.net
 0.0.0.0 f6.1lo0.net
 0.0.0.0 p1.1lo0.net
 0.0.0.0 p2.1lo0.net
@@ -9868,3 +9868,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 x.rt97.org
 0.0.0.0 b.ax91.com
 0.0.0.0 g.656864ss.com
+0.0.0.0 res001.kogo12345.com
+0.0.0.0 www1.zjbdt.com
+
