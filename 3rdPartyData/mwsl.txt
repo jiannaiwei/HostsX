@@ -1,6 +1,6 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.9.19
+恶意网站HOSTS屏蔽文件-2011.9.26
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
@@ -8021,8 +8021,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 www.feitncn.com
 0.0.0.0 ss.sssae.us
 0.0.0.0 q.sssae.us
-0.0.0.0 zz10000.com
-0.0.0.0 www.zz10000.com
 0.0.0.0 flcpglzx.com
 0.0.0.0 www.39807.com
 0.0.0.0 39807.com
@@ -11083,7 +11081,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 asdf.52zy.com
 0.0.0.0 360caonima01.3322.org
 0.0.0.0 fxtn5.com
-0.0.0.0 www.sat-china.com
 0.0.0.0 rz12.135831.com
 0.0.0.0 www.z130827.infobox.ru
 0.0.0.0 aq.qq.com.tencent-cw.com
@@ -14686,3 +14683,57 @@ All Rights Reserved 2007-2011
 0.0.0.0 www.mhou.net
 0.0.0.0 www.dyjtjz.net
 0.0.0.0 www.ou1e365.com
+0.0.0.0 www.989418.com
+0.0.0.0 114.585431.com
+0.0.0.0 s.1717388.com
+0.0.0.0 res001.kogo12345.com
+0.0.0.0 hengyuan58.cn
+0.0.0.0 www.hengyuan58.cn
+0.0.0.0 jjshah.ws
+0.0.0.0 wojucn.com
+0.0.0.0 sd.xl-hotline.com
+0.0.0.0 tw.demisetoken.com
+0.0.0.0 www.1gm.la
+0.0.0.0 ssldrv.012.net.il
+0.0.0.0 b61.4dq.com
+0.0.0.0 jabbdstjyus.com
+0.0.0.0 advancedmediarecovery.com
+0.0.0.0 eepegypt.com
+0.0.0.0 sb.letmedo.net
+0.0.0.0 dl.sysexe.info
+0.0.0.0 www.beijing.net.br
+0.0.0.0 huhu.mybiao.info
+0.0.0.0 kidscaree.com
+0.0.0.0 isnower.com
+0.0.0.0 kaninchen-24.de
+0.0.0.0 chengzhibing.com
+0.0.0.0 92taojin.com
+0.0.0.0 skutery-info.pl
+0.0.0.0 hepto.in
+0.0.0.0 waferdigs.co.cc
+0.0.0.0 shop-e-tennis.fr
+0.0.0.0 milleford.co.cc
+0.0.0.0 www.18caob.com
+0.0.0.0 elg.2288.org
+0.0.0.0 app2.tsmon.co.kr
+0.0.0.0 arryada.info
+0.0.0.0 img.soft.mail.ru
+0.0.0.0 arama.edu.tc
+0.0.0.0 ad.7er9w3kijs4.info
+0.0.0.0 aq.qq.tecnnect.com
+0.0.0.0 diaoyu123.com
+0.0.0.0 www.watermarksmosaics.com
+0.0.0.0 www.krindus.co.kr
+0.0.0.0 en.bigdebussy.com
+0.0.0.0 epfm.net
+0.0.0.0 www.699cp.tk
+0.0.0.0 www.qq.com.azoy.in
+0.0.0.0 savexa.narod2.ru
+0.0.0.0 ijasmine.cn
+0.0.0.0 ell.2288.org
+0.0.0.0 dl.3ddown.com
+0.0.0.0 tgbfg.in
+0.0.0.0 tpoprpq.tk
+0.0.0.0 al.myrice.com
+0.0.0.0 tdown.tdown123.info
+0.0.0.0 english.foodqs.cn
