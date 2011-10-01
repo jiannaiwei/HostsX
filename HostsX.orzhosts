@@ -1,4 +1,4 @@
-;version=201109301539
+;version=201110020726
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -171,6 +171,8 @@ fe80::1%lo0	localhost
 @HostsX OneKey
 @HostsX OneKey/Google
 #Appspot
+203.208.39.104 tickleservice.appspot.com
+203.208.39.104 rommanager.appspot.com
 203.208.39.104 007blogchina.appspot.com
 203.208.39.104 1m.appspot.com
 203.208.39.104 2beesinchina.appspot.com
@@ -9873,5 +9875,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 b.ax91.com
 0.0.0.0 g.656864ss.com
 0.0.0.0 res001.kogo12345.com
-0.0.0.0 www1.zjbdt.com
 
