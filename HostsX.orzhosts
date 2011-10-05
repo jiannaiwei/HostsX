@@ -1,4 +1,4 @@
-;version=201110052022
+;version=201110052039
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8742,6 +8742,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 sddns7.cncmax.cn
 0.0.0.0 sddnserror1.wo.com.cn
 0.0.0.0 sddnserror3.wo.com.cn
+0.0.0.0 sddnserror5.wo.com.cn
 0.0.0.0 sddnserror7.wo.com.cn
 #各地运营商广告
 0.0.0.0 lc.havod.com
