@@ -1,4 +1,4 @@
-;version=201110051728
+;version=201110051738
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8322,16 +8322,19 @@ $      下载最新版本的 HostsX。
 0.0.0.0 update2.zhuiying.net
 #Qvod
 0.0.0.0 110.qvod.com
+0.0.0.0 adi.qvod.com
 0.0.0.0 buffer-ad.qvod.com
 0.0.0.0 insert-ad.qvod.com
 0.0.0.0 pause-ad.qvod.com
 0.0.0.0 text-ad.qvod.com
 0.0.0.0 tj.qvod.com
-0.0.0.0 update.qvod.com
 0.0.0.0 hao.kuaibo.com
+0.0.0.0 pause-ad.kuaibo.com
 0.0.0.0 searchstat.kuaibo.com
-0.0.0.0 qvodlink.hco.cc
+0.0.0.0 text-ad.kuaibo.com
 0.0.0.0 web.kuaiwan.com
+0.0.0.0 game.ad1111.com
+0.0.0.0 qvodlink.hco.cc
 #SopCast
 0.0.0.0 home.sopserv.com
 #Tvants
@@ -9544,7 +9547,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 g.topguang.com
 0.0.0.0 g.xuanyx.com
 0.0.0.0 game.49you.com
-0.0.0.0 game.ad1111.com
 0.0.0.0 game.dvd189.com
 0.0.0.0 game.tdwan.com
 0.0.0.0 gamefiles.qq494.cn
@@ -9873,4 +9875,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 b.ax91.com
 0.0.0.0 g.656864ss.com
 0.0.0.0 res001.kogo12345.com
-
+0.0.0.0 pic.cs020.com
