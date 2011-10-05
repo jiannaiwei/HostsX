@@ -1,4 +1,4 @@
-;version=201110052039
+;version=201110060745
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2086,6 +2086,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cx.360doo.com
 0.0.0.0 m.ymapp.com
 #WapSite
+0.0.0.0 www.uyunad.com
 0.0.0.0 www.adview.cn
 0.0.0.0 ads.lmmob.com
 0.0.0.0 api.airpush.com
