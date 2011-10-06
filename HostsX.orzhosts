@@ -1,4 +1,4 @@
-;version=201110061902
+;version=201110062229
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1401,10 +1401,11 @@ fe80::1%lo0	localhost
 0.0.0.0 p4p.so.sohu.com
 0.0.0.0 partner.search.sohu.com
 0.0.0.0 pv.sohu.com
-0.0.0.0 js2.pp.sohu.com.cn
 0.0.0.0 scalink.sohu.com
 0.0.0.0 suvset.sohu.com
 0.0.0.0 txt.go.sohu.com
+0.0.0.0 js2.pp.sohu.com.cn
+0.0.0.0 pb.hd.sohu.com.cn
 0.0.0.0 sohusc.allyes.com
 0.0.0.0 imp.ad-plus.cn
 0.0.0.0 sohu.ad-plus.cn
@@ -8299,11 +8300,15 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ins.pplive.com
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 pp1.pplive.com
-0.0.0.0 pp2.pptv.com
-0.0.0.0 up.pplive.com
+0.0.0.0 drag.synacast.com
+0.0.0.0 ik.synacast.com
+0.0.0.0 jump.synacast.com
 0.0.0.0 g.pptv.com
 0.0.0.0 ga.pptv.com
+0.0.0.0 iafp.pptv.com
+0.0.0.0 pp2.pptv.com
 0.0.0.0 ppsj.pptv.com
+0.0.0.0 up.pplive.com
 0.0.0.0 wafp.pptv.com
 0.0.0.0 wstat.pptv.com
 0.0.0.0 h.g1d.net
@@ -8336,6 +8341,14 @@ $      下载最新版本的 HostsX。
 0.0.0.0 web.kuaiwan.com
 0.0.0.0 game.ad1111.com
 0.0.0.0 qvodlink.hco.cc
+#RealPlayer
+0.0.0.0 client-software.real.com
+0.0.0.0 free-dl.cn.real.com
+0.0.0.0 switchboard.real.com
+0.0.0.0 track.cn.real.com
+0.0.0.0 adimg.realnetworks.com.cn
+0.0.0.0 log.realone.com
+0.0.0.0 realafp.allyes.com
 #SopCast
 0.0.0.0 home.sopserv.com
 #Tvants
@@ -9265,6 +9278,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www1.zjbdt.com
 0.0.0.0 qq.ting90.com
 0.0.0.0 img.371gw.com
+0.0.0.0 www.sese860.info
+0.0.0.0 www.kk21.info
 @HostsX 可疑行为拦截/弹窗屏蔽
 #签名弹窗
 0.0.0.0 code.aizhuanlove.cn
@@ -9356,6 +9371,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 bean.r.arpg2.com
 0.0.0.0 chess.r.arpg2.com
 0.0.0.0 cybor.r.arpg2.com
+0.0.0.0 dam.r.arpg2.com
 0.0.0.0 dots.r.arpg2.com
 0.0.0.0 dx.arpg2.com
 0.0.0.0 dxzjto.r.arpg2.com
