@@ -1,4 +1,4 @@
-;version=201109301515
+;version=201110062235
 ;author=郭鹏锟
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
@@ -11,6 +11,12 @@ $DELETE
 #导致迅雷用户头像(客户端)无法正常显示。
 iimg.xunlei.com
 res.stat.xunlei.com
+$DELETE
+
+#导致RealPlayer无法正常显示欢迎页面。
+real.67.com
+trailer.cn.real.com
+switchboard.real.com
 $DELETE
 
 #导致飞信(客户端)无法正常使用，邮件链接无法正常跳转。

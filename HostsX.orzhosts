@@ -1,4 +1,4 @@
-;version=201110062229
+;version=201110062235
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8344,7 +8344,6 @@ $      下载最新版本的 HostsX。
 #RealPlayer
 0.0.0.0 client-software.real.com
 0.0.0.0 free-dl.cn.real.com
-0.0.0.0 switchboard.real.com
 0.0.0.0 track.cn.real.com
 0.0.0.0 adimg.realnetworks.com.cn
 0.0.0.0 log.realone.com
