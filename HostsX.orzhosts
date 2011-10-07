@@ -40,7 +40,6 @@ fe80::1%lo0	localhost
 59.151.106.253 wiki.operachina.com
 59.151.106.253 www.operachina.com
 #Facebook
-#Facebook
 118.214.114.110	s-static.ak.facebook.com
 118.214.190.105	profile.ak.facebook.com
 202.157.186.28 static.ak.facebook.com
@@ -9583,7 +9582,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 hy.wan71.com
 0.0.0.0 hy.wowan365.com
 0.0.0.0 hz.www.rbc.cn
-0.0.0.0 hz.www.rbc.cn  
 0.0.0.0 i.2wanwan.com
 0.0.0.0 i.84232.com
 0.0.0.0 i.jingwei.net
