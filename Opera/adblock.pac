@@ -9,7 +9,9 @@
 //开始过滤
 function FindProxyForURL(url, host){
     url = url.toLowerCase();
-
+    
+    //for (i in proxy_list) { if (shExpMatch(url,proxy_list[i].toLowerCase())){return MYPROXY;};};                      //处理翻墙代理名单
+    
     for (i in gz_blacklist) { if (gz_blacklist[i].test(url)){return whitelist_check(url);};};                         //处理公用正则黑名单
     for (i in gt_blacklist) {	if (shExpMatch(url,gt_blacklist[i].toLowerCase())){return whitelist_check(url);};};     //处理公用通配符黑名单
 
@@ -22,20 +24,29 @@ function FindProxyForURL(url, host){
     return ALLOW;
 };
 
-var BLOCK="PROXY 0.0.0.0";   //屏蔽广告的代理
-var ALLOW= "DIRECT";         //放行
+var BLOCK="PROXY 0.0.0.0";            //屏蔽广告的代理
+var ALLOW= "DIRECT";                  //放行
+var MYPROXY="SOCKS 127.0.0.1:1080";   //翻墙代理，请修改这里的代理类型和IP、端口
+
+//通配符翻墙名单
+var proxy_list = new Array(
+"*.youtube.com*",
+"*facebook.com*",
+"*.fbcdn.net*",
+"*.twitter.com*",
+"*.la-forum.org*"
+);
 
 //公用正则黑名单
 var gz_blacklist = new Array(
 /51\.la|51yes|cnzz\.com|linezing\.com|\/tongji\.js|google-analytics\.com\/ga\.js/i,
-/\.ct10000\.com[\s\S]*?\/push\/|\d{2,3}\.\d{2,3}\.\d{2,3}\.\d{2,3}[^\/]\/openv\d\.js/i,
 /(?:cbjs|spcode|eiv)\.baidu|\.alimama\.cn\/s?inf\.js|clickeye|\.allyes\.|vogate|icast|guangg|\/[\w]\.91wan\.com|zdy\.cc|egooad|qqpflm|\.p4p\.|ok8848|csyouxi|pp9a|9dcpm|71aiyou|4001688|45511\.com|pee\.cn/i,
 /\/ghost\d[^\.]*?\.gif|heima8|\.myad\.cn|keyrun|un\.so|un\.265|7click|\/cpc\/|chinaih|778669|gamediad|cpm9v|yoyi|adsame|keydot|imrworldwide|2bj\.cc|na7\.cc|sharele|61ads|2bj\.cc|ejoina\.com/i,
 /yigao|busjs\.vodone|\/cpro\/|1133\.cc|leomediachina|37cs|netgy|wauee|qianming|duilian|100fenlm|8le8le|manyan|qqw36|9vcpm|onetad|naqigs|58win|66789\.com|popjs|yiqiwin|9vcpc|ifocus|kfwan/i,
 /heroclick\.cn|33hy\.com|redu\.com|youday|\.84232\.com|code\.tjlove8\.com|\.37see\.com|\.5622\.cn|\.qling\.com|198game|ulink\.cc|155game|star8\.net|zedo\.com|xi666\.com|qiyou\.com|88210212\.com/i,
-/img\.cnbeta\.com\/\w+\d{3}\.[f-p]{3}|dcads|qqnews|cnmovie|market\.duowan\.com|bbs\.17173\.com\/x\/|91now\.com\/down\/other\/js\/A_|newhuagg\/[\s\S]*?(?:newhua_|_bannar)[\s\S]*?\.js/i,
+/img\.cnbeta\.com\/\w+\d{3}\.[f-p]{3}|dcads|qqnews|cnmovie|SHKL_LINING_|market\.duowan\.com|bbs\.17173\.com\/x\/|91now\.com\/down\/other\/js\/A_|newhuagg\/[\s\S]*?(?:newhua_|_bannar)[\s\S]*?\.js/i,
 /\/ivy[\/\.]|pconline\.com\.cn\/(?:images\/lmt\/area_lmt|itbbs09\/js\/itbbs09_wd)\.js|piaodown\.com\/other\/js\/|img\d\.126\.net\/|d\d\.sina\.com\.cn/i,
-/115\.com\/static\/tjj\/|806\.tianya\.cn|img\.jb51\.net\/imgby\/|966\.com\/js\/msn\.js|pic\.zol-img\.com\.cn|\/g\.hsw\.cn/i,
+/806\.tianya\.cn|img\.jb51\.net\/imgby\/|966\.com\/js\/msn\.js|pic\.zol-img\.com\.cn|\/g\.hsw\.cn/i,
 /tvbkt\.cn\/js\/tvb\/hd\d\.js|\.piaohua\.com\/[\s\S]*?_nei_|ifeng\.com\/tres\/(?:recommend|ifeng\/game)\/|by\.dm5\.com\/jsv2\/|cj\.qidian\.com\/Picture\//i,
 //下载网站
 /xiazaiba\.com\/js\/[\s\S]*?(?:_center|down_advert|detail_|img_text)|\/orsoon\/[\s\S]*?\.js/i,
@@ -62,11 +73,12 @@ var gt_whitelist =new Array(
 
 //特殊黑白名单
 var black_tvad = new Array(
-/images\.sohu\.com\/|\.atm\.youku\.com\/|asc86|biz\d|acs\.(?:56|agent)|888\.ku6|a\.cntv\.cn|cntv\.cn\/adplayer\/|\/adpolestar\//i,
+/images\.sohu\.com\/|\.atm\.youku\.com\/|f\.youku\.com[\s\S]*?yad=1|asc86|biz\d|acs\.(?:56|agent)|888\.ku6|a\.cntv\.cn|cntv\.cn\/adplayer\/|\/adpolestar\//i,
 /\.m1905.com\/uploadfile\/[\s\S]*?\.swf|afp\.qiyi\.com\/|86file\.megajoy|megajoy\.com\/toolbar\//i,
 /js\.tudouui\.com\/js\/fn\/minibar_\d\.js|tdcm\.tudou\.com|v2\.tudou\.com\/tdcm\//i);
 var white_t_tvad = new Array(
 "*.youku.com/so_*",
+"*valf.atm.youku.com*",
 "*6.cn/csjs10/*.js*",
 "*images.sohu.com/bill/s20*/comm/index.html" //修复搜狐的评论被误过滤 
 );
@@ -78,7 +90,12 @@ var white_t_js = new Array(
 "*.sse.com.cn/*/sse_popup.js*",
 "*.qq.com/js/*",
 "*.ik123.com/js/*",
+"*.99manga.com/w/i.js",   //漫画网站不能浏览图片
+"*.99comic.com/x/i.js",   //漫画网站不能浏览图片
+"*.99770.cc/x/t.js",   //漫画网站不能浏览图片
+"*1mh.com/x/t.js",   //漫画网站不能浏览图片
 "*tv.sohu.com/upload/jq_plugin/*",  //修复搜狐视频连续剧页面不能显示剧集列表
+"*q.115.com/static/js/new/y.js",    //115圈子签到
 "*msdn.itellyou.cn/*");
 
 var black_ad = /[\/\_\.\?\&\-]ads?[\/\_\.\d\-]|[^eop]ads?(?:id|puba|top|flash|click|client|code|file|frame|view|img|text|info|page|sence|show|serv|ertimg|detail)/i;
@@ -117,7 +134,7 @@ function white_zt_check(url,white_z,white_t){
     for (i in gz_whitelist) { if (gz_whitelist[i].test(url)){return ALLOW;};};
     for (i in gt_whitelist) {	if (shExpMatch(url,gt_whitelist[i].toLowerCase())){return ALLOW;};};
     for (i in white_z) { if (white_z[i].test(url)){return ALLOW;};};
-    for (i in white_t) {	if (shExpMatch(url,white_t[i].toLowerCase())){return ALLOW;};};
+    for (i in white_t) { if (shExpMatch(url,white_t[i].toLowerCase())){return ALLOW;};};
     return BLOCK;
 };
 //处理特殊白名单(正则)
