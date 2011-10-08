@@ -1,4 +1,4 @@
-;version=201110072044
+;version=201110082301
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -87,6 +87,8 @@ fe80::1%lo0	localhost
 #Multiupload
 85.17.76.195 www.multiupload.com
 85.17.76.195 multiupload.com
+#HotGoo
+174.37.89.51 www.hotgoo.com
 #Plurk
 74.120.121.80 plurk.com
 74.120.121.16 www.plurk.com
