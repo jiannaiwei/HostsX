@@ -1,4 +1,4 @@
-;version=201110082351
+;version=201110082355
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -3676,6 +3676,10 @@ $      下载最新版本的 HostsX。
 #Jumptap
 0.0.0.0 tapad.jumptap.com
 0.0.0.0 a.jumptap.com
+#Jizzads
+0.0.0.0 jizzads.com
+0.0.0.0 www.jizzads.com
+0.0.0.0 img.jizzads.com
 #Kontera
 0.0.0.0 dc.kontera.com
 0.0.0.0 te.kontera.com
@@ -9877,4 +9881,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 g.656864ss.com
 0.0.0.0 res001.kogo12345.com
 0.0.0.0 ad.ki33.info
-0.0.0.0 jizzads.com
+0.0.0.0 aff.boundgods.com
