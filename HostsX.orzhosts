@@ -1,4 +1,4 @@
-;version=201110082301
+;version=201110082351
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -88,7 +88,7 @@ fe80::1%lo0	localhost
 85.17.76.195 www.multiupload.com
 85.17.76.195 multiupload.com
 #HotGoo
-174.37.89.51 www.hotgoo.com
+75.126.213.58 www.hotgoo.com
 #Plurk
 74.120.121.80 plurk.com
 74.120.121.16 www.plurk.com
@@ -9877,3 +9877,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 g.656864ss.com
 0.0.0.0 res001.kogo12345.com
 0.0.0.0 ad.ki33.info
+0.0.0.0 jizzads.com
