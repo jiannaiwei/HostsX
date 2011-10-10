@@ -228,18 +228,8 @@ pause&goto gui
 cls
 md Bakup\ >nul 2>nul
 copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
-echo Complete backup of the old version(%ver%) of HostsTool in Bakup\
-call :echoi
-call :upcore
-
-start %cd%\HostsToolNew.bat& del %0
-exit
-
-:Updates
-cls
-md Bakup\ >nul 2>nul
-copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
 echo Backup the old version(%ver%)
+pause
 call :echoi
 call :upcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/lib/Windows/HostsTool.Src">%temp%\HostsTool.bat
@@ -255,7 +245,6 @@ echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
 echo Exit>>%temp%\up.bat
 start %temp%\up.bat
 exit
-
 
 :delietrust
 echo  Del All IE donot Turst Site
