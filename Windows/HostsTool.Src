@@ -21,24 +21,17 @@ echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
 cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto NoUpgrade) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
+if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
 cls
-:NoUpgrade
-set dver=You are Using the Latest Version.
-set dvercn=*当前版本已经是最新
-cls
-call :check
-call :unlock
-call :set
-goto gui
 
 :gui
+call :unlock
+call :set
 if not exist consext.exe goto dftvbs
 mode con cols=60 lines=29
 ConsExt /crv 0
-set force=0
 cls
-title G+ Hosts %ver% GUI  %version%
+title G+ Hosts %ver%   %version%
 cls
 echo.
 echo   请用鼠标点击【 】内选择操作！      【Flush  DNS 刷新】
@@ -76,7 +69,7 @@ if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
 if %y% equ 1 if %x% gtr  12 if %x% lss 29 goto helpme
-if %y% equ 1 if %x% gtr  12 if %x% lss 44 goto flushdns
+if %y% equ 1 if %x% gtr  12 if %x% lss 44 call :flushdns & goto gui
 if %y% equ 4 if %x% gtr  12 if %x% lss 32 goto dft
 if %y% equ 4 if %x% gtr  12 if %x% lss 54 goto run
 if %y% equ 6 if %x% gtr  12 if %x% lss 24 goto Google
@@ -92,7 +85,7 @@ if %y% equ 15 if %x% gtr  12 if %x% lss 30 goto ntfsrefused
 if %y% equ 15 if %x% gtr  12 if %x% lss 50 goto fixie
 if %y% equ 17 if %x% gtr  12 if %x% lss 30 goto ntfscancle
 if %y% equ 19 if %x% gtr  12 if %x% lss 30 goto readonly
-if %y% equ 19 if %x% gtr  12 if %x% lss 50 start explorer %etc%\ & goto gui
+if %y% equ 19 if %x% gtr  12 if %x% lss 50 start explorer %etc% & goto gui
 if %y% equ 21 if %x% gtr  12 if %x% lss 30 goto clean
 if %y% equ 21 if %x% gtr  12 if %x% lss 50 goto shortcut
 if %y% equ 23 if %x% gtr  12 if %x% lss 50 start explorer %~dp0 & goto gui
@@ -132,13 +125,15 @@ echo 程序将在3s后退出!& choice /t 3 /d y /n >nul&Exit
 call :echoi
 wget http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
 copy ipv6.txt %hosts%
-goto flushdns
+call :flushdns
+goto gui
 
 :mvpshosts
 call :echoi
 wget http://www.mvps.org/winhelp2002/hosts.txt
 copy hosts.txt %hosts%
-goto flushdns
+call :flushdns
+goto gui
 
 :nohosts
 call :unlock
@@ -189,8 +184,8 @@ goto pmfinish
 :pmfinish
 echo.
 echo Hosts文件权限设置完成！
-echo The permissions of Hosts file set complete!
-goto flushdns
+call :flushdns
+goto gui
 
 :clean
 echo 正在清除系统垃圾文件，请稍等......  
@@ -290,8 +285,9 @@ call :unlock
 wget http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ent.txt
 for /f  "delims=" %%i in (ent.txt) do @echo %%i>>%hosts%
 echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.
-echo You Can Use Hosts File Fix and Restore to Cancle.
-choice /t 5 /d y /n >nul &goto gui
+echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 3 /d y /n >nul
+call :flushdns
+goto gui
 
 :feedback
 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
@@ -307,6 +303,10 @@ echo. >>GFeedBack.txt
 echo. >>GFeedBack.txt
 echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
 notepad GFeedBack.txt&cls&del GFeedBack.txt&goto gui
+
+:helpme
+start /min iexplore http://orztech.com/forms/3
+goto gui
 
 :iecss
 del Custom.css AdFilter.vbs
@@ -393,7 +393,6 @@ reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 
 reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
 reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
 ipconfig /flushdns>nul 2>nul
-call :gui
 goto:EOF
 
 :check
@@ -401,8 +400,12 @@ ver|find   "5."
 if   %errorlevel%==0   goto   cacls5   
 ver|find   "6."   
 if   %errorlevel%==0   goto   cacls6   
+goto:EOF
+
 :cacls5
 if exist "%windir%\system32\cacls.exe" (goto gui) else (wget http://hostsx.googlecode.com/svn/trunk/Windows/cacls5.exe &ren cacls5.exe cacls.exe&goto gui)
+goto:EOF
+
 :cacls6
 if exist "%windir%\system32\cacls.exe" (goto gui) else (wget http://hostsx.googlecode.com/svn/trunk/Windows/cacls6.exe &ren cacls6.exe cacls.exe&goto gui)
 goto:EOF
