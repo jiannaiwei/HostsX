@@ -14,9 +14,13 @@ Rd "%a%\test_permissions"
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 cls
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
-call :upcore
-cscript //NoLogo /e:vbscript %gm%//Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%gm%/ver.txt 2>nul
-for /f %%i in (%gm%\ver.txt) do set verNew=%%i
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
+echo WScript.sleep 50 >>%temp%/chkver.vbs
+echo loop >>%temp%/chkver.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
+cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/iMonkey/ver.txt">%temp%/ver.txt 2>nul
+for /f %%i in (%temp%\ver.txt) do set verNew=%%i
 if %ver%==%verNew% (goto NoUpgrade) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
 cls
 :NoUpgrade
@@ -136,6 +140,29 @@ wget http://www.mvps.org/winhelp2002/hosts.txt
 copy hosts.txt %hosts%
 goto flushdns
 
+:nohosts
+call :unlock
+if not exist WinHosts.txt (goto nohostsimple) Else (goto nohostslocal)
+goto:EOF
+
+:nohostslocal
+set size=824
+for %%1 in (WinHosts.txt)do set gsize=%%~z1
+if %gsize% equ %size% (copy WinHosts.txt %hosts%)
+call :echofixhosts
+goto:EOF
+
+:nohostsimple
+echo 127.0.0.1       localhost> %hosts%
+echo ::1             localhost>> %hosts%
+echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
+call :echofixhosts
+goto:EOF
+
+:echofixhosts
+cls&mshta vbscript:msgbox("Hosts文件已恢复到系统默认状态!",64,"G+ Hosts")(window.close)
+goto run
+
 :run
 call :unlock
 if not exist %hosts% (call :nohosts) else (notepad %hosts%)
@@ -226,19 +253,23 @@ md Bakup\ >nul 2>nul
 copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
 echo Backup the old version(%ver%)
 call :echoi
-call :upcore
-cscript //NoLogo /e:vbscript %gm%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/lib/Windows/HostsTool.Src">%gm%\HostsTool.bat
-echo @echo off>%gm%\up.bat
-echo Mode con cols=50 lines=10>>%gm%\up.bat
-echo Color 0a>>%gm%\up.bat
-echo Title Update>>%gm%\up.bat
-echo echo.>>%gm%\up.bat
-echo echo ...Restart HostsTool...>>%gm%\up.bat
-echo ping /n 1 127.1^>nul>>%gm%\up.bat
-echo copy /y "%gm%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%gm%\up.bat
-echo start "" "%~dp0\%~n0.bat">>%gm%\up.bat
-echo Exit>>%gm%\up.bat
-start %gm%\up.bat
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
+echo WScript.sleep 200 >>%temp%/Upnew.vbs
+echo loop >>%temp%/Upnew.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/iMonkey/HostsTool.Src">%temp%\HostsTool.bat
+echo @echo off>%temp%\up.bat
+echo Mode con cols=50 lines=10>>%temp%\up.bat
+echo Color 0a>>%temp%\up.bat
+echo Title Update>>%temp%\up.bat
+echo echo.>>%temp%\up.bat
+echo echo ...Restart HostsTool...>>%temp%\up.bat
+echo ping /n 1 127.1^>nul>>%temp%\up.bat
+echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
+echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
+echo Exit>>%temp%\up.bat
+start %temp%\up.bat
 exit
 
 :delietrust
@@ -288,18 +319,6 @@ echo  提示：AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技
 choice /t 7 /d y /n >nul
 if not exist AndriodHosts.vbs (wget http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
 AndriodHosts.vbs&cls&goto gui
-
-:fixhost
-color 0c
-mode con: cols=50 lines=12
-echo 修复HOSTS文件？（还原系统默认状态）
-Pause
-del %hosts% /q
-echo 127.0.0.1       localhost> %hosts%
-echo ::1             localhost>> %hosts%
-echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
-cls&mshta vbscript:msgbox("Hosts文件已恢复到系统默认状态",64,"G+ Hosts")(window.close)
-goto flushdns
 
 :size
 set size=200000
@@ -399,7 +418,7 @@ set /a r=!random!%%!mod!+!min!
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ggl=%%i
 for /f "delims=." %%i in ("%ggl%") do if not %%i==203 set ggl=203.208.46.%r%
 if %ggl%==203.208.46.%r% (echo IP获取失败，已手动设置) else echo IP获取成功，请稍后
-echo #Google >>%hosts%
+echo #GoogleIP >>%hosts%
 echo 203.208.46.180 www.google.com >>%hosts%
 echo 203.208.45.200 plus.google.com >>%hosts%
 echo %ggl% accounts.google.com >>%hosts%
