@@ -225,7 +225,6 @@ cls
 md Bakup\ >nul 2>nul
 copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
 echo Backup the old version(%ver%)
-pause
 call :echoi
 call :upcore
 cscript //NoLogo /e:vbscript %gm%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/lib/Windows/HostsTool.Src">%gm%\HostsTool.bat
