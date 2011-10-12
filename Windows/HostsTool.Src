@@ -11,9 +11,16 @@ If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键管理员身份运行! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions"
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
-cls
 call :hostsbak
-call :checkver
+cls
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
+echo WScript.sleep 50 >>%temp%/chkver.vbs
+echo loop >>%temp%/chkver.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
+cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
+for /f %%i in (%temp%\ver.txt) do set verNew=%%i
+if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
 cls
 
 :gui
@@ -63,29 +70,30 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  12 if %x% lss 29 goto helpme
-if %y% equ 1 if %x% gtr  12 if %x% lss 44 call :flushdns & goto gui
+if %y% equ 1 if %x% gtr  12 if %x% lss 30 goto helpme
+if %y% equ 1 if %x% gtr  12 if %x% lss 58 call :flushdns & goto gui
 if %y% equ 4 if %x% gtr  12 if %x% lss 32 goto dft
-if %y% equ 4 if %x% gtr  12 if %x% lss 54 goto run
+if %y% equ 4 if %x% gtr  12 if %x% lss 58 goto run
 if %y% equ 6 if %x% gtr  12 if %x% lss 24 goto Google
 if %y% equ 6 if %x% gtr  12 if %x% lss 41 goto ipv6
 if %y% equ 8 if %x% gtr  12 if %x% lss 24 goto mwsl
 if %y% equ 8 if %x% gtr  12 if %x% lss 41 goto mvps
 if %y% equ 8 if %x% gtr  12 if %x% lss 58 goto fixhosts
 if %y% equ 10 if %x% gtr  12 if %x% lss 16 goto entdata
-if %y% equ 10 if %x% gtr  12 if %x% lss 52 goto AnDroid
+if %y% equ 10 if %x% gtr  12 if %x% lss 58 goto AnDroid
 if %y% equ 13 if %x% gtr  12 if %x% lss 30 goto ntfsread
-if %y% equ 13 if %x% gtr  12 if %x% lss 50 goto adfilter
+if %y% equ 13 if %x% gtr  12 if %x% lss 58 goto adfilter
 if %y% equ 15 if %x% gtr  12 if %x% lss 30 goto ntfsrefused
-if %y% equ 15 if %x% gtr  12 if %x% lss 50 goto fixie
+if %y% equ 15 if %x% gtr  12 if %x% lss 58 goto fixie
 if %y% equ 17 if %x% gtr  12 if %x% lss 30 goto ntfscancle
+if %y% equ 17 if %x% gtr  12 if %x% lss 58 goto ie
 if %y% equ 19 if %x% gtr  12 if %x% lss 30 goto readonly
-if %y% equ 19 if %x% gtr  12 if %x% lss 50 start explorer %etc% & goto gui
+if %y% equ 19 if %x% gtr  12 if %x% lss 58 start explorer %etc% & goto gui
 if %y% equ 21 if %x% gtr  12 if %x% lss 30 goto clean
-if %y% equ 21 if %x% gtr  12 if %x% lss 50 goto shortcut
-if %y% equ 23 if %x% gtr  12 if %x% lss 50 start explorer %~dp0 & goto gui
+if %y% equ 21 if %x% gtr  12 if %x% lss 58 goto shortcut
+if %y% equ 23 if %x% gtr  12 if %x% lss 58 start explorer %~dp0 & goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 32 goto feedback
-if %y% equ 25 if %x% gtr  31 if %x% lss 48 goto :eof
+if %y% equ 27 if %x% gtr  31 if %x% lss 50 goto :eof
 goto mouse
 
 :helpme
@@ -127,17 +135,6 @@ if not exist %etc%\ md %etc%\ >nul
 if not exist %gm%\ md %gm%\ >nul
 call :unlock
 if not exist %hosts% goto fixhosts
-goto:eof
-
-:checkver
-echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
-echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
-echo WScript.sleep 50 >>%temp%/chkver.vbs
-echo loop >>%temp%/chkver.vbs
-echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
-cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
-for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
 goto:eof
 
 :ipv6load
