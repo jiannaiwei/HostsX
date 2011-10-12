@@ -1,5 +1,5 @@
-@echo off
-set ver=3
+@echo off
+set ver=2.9
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -343,6 +343,10 @@ call :echoi
 call :upcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
 echo @echo off>%temp%\up.bat
+echo Mode con cols=50 lines=10>>%temp%\up.bat
+echo Color 0a>>%temp%\up.bat
+echo Title Update>>%temp%\up.bat
+echo echo.>>%temp%\up.bat
 echo echo ...Restart HostsTool...>>%temp%\up.bat
 echo ping /n 1 127.1^>nul>>%temp%\up.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
