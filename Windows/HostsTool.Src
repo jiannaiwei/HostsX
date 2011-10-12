@@ -1,5 +1,5 @@
 @echo off
-set ver=2.98
+set ver=2.9
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -70,8 +70,8 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  12 if %x% lss 38 goto helpme
-if %y% equ 1 if %x% gtr  12 if %x% lss 56 call :flushdns & goto gui
+if %y% equ 1 if %x% gtr  12 if %x% lss 30 goto helpme
+if %y% equ 1 if %x% gtr  12 if %x% lss 58 call :flushdns & goto gui
 if %y% equ 4 if %x% gtr  12 if %x% lss 32 goto dft
 if %y% equ 4 if %x% gtr  12 if %x% lss 58 goto run
 if %y% equ 6 if %x% gtr  12 if %x% lss 24 goto Google
@@ -117,10 +117,10 @@ goto:eof
 :templist
 call :Google
 call :Xunlei
-copy /y %hosts% %etc%\"GHosts_%date%.txt" >nul 2>nul
 goto:eof
 
 :hostsbak
+echo Backup Your Hosts File
 copy /y %hosts% %etc%\"HostsBak_%date%.txt" >nul 2>nul
 goto:eof
 
@@ -181,11 +181,12 @@ echo WScript.echo oDOM.documentElement.outerText >>%gm%/Updates.vbs
 goto:eof
 
 :dft
-if not exist wget.exe (goto dftvbs) else (goto dftwget)
+if not exist %systemroot%\system32\wget.exe (goto dftvbs) else (goto dftwget)
 
 :dftwget
 wget -O http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-copy HostsX.orzhosts %hosts%
+call :size
+call :GG
 call :templist
 goto gui
 
@@ -337,7 +338,7 @@ AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
 :Google
 echo.
-echo 请稍等...
+echo 请稍等,正在获取Google服务器的IP
 setlocal enabledelayedexpansion
 set min=160
 set max=180
