@@ -11,7 +11,14 @@ If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键管理员身份运行! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions"
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
-call :hostsbak
+set etc=%windir%\system32\drivers\etc
+set hosts=%windir%\system32\drivers\etc\hosts
+del /f /q echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt>nul 2>nul
+call :ipv6load
+if not exist %etc%\ md %etc%\ >nul
+call :unlock
+if not exist %hosts% goto fixhosts
+copy /y %hosts% %etc%\"HostsBak_%date%.txt" >nul 2>nul
 cls
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
@@ -24,45 +31,43 @@ if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice 
 cls
 
 :gui
-call :unlock
-call :set
 if "%1" == "/6" goto:ipv6
 if "%1" == "/f" goto:fixhosts
 if not exist consext.exe goto dftvbs
-mode con cols=60 lines=29
+mode con cols=57 lines=29
 color 0%xc%
 ConsExt /crv 0
 cls
 title G+ Hosts %ver%   %version%
 cls
 echo.
-echo   请用鼠标点击【 】内选择操作！      【Flush  DNS 刷新】
-echo   =======================================================
+echo   请用鼠标点击【 】内选择操作！     【Flush   DNS 刷新】
+echo   ======================================================
 echo   Hosts Data:                        
-echo   【更新/Update Hosts】              【编辑/Edit Hosts】
+echo   【更新/Update Hosts】             【编辑/Edit  Hosts】
 echo.
-echo   A.(Google Rd)      (IPV6 Data)               
+echo  Add.  (Google Rd)                      (IPV6 Data)
 echo.
-echo.  R.(MWSL Data)      (MVPS Data)     【修复/FixedHosts】
+echo  RP.  【MWSL Data】                    【MVPS Data】
 echo.
-echo   【娱乐网站屏蔽】                   【ForAnDroidHosts】
-echo   =======================================================
+echo    (娱乐应用 网站屏蔽)              【修复/Fixed Hosts】
+echo   ======================================================
 echo   Permissions:                     IE:
-echo   【NTReadit/读取权限】              【 IE  页面样式 】
+echo   【NTReadit/读取权限】             【  IE  页面样式  】
 echo.
-echo   【NTRefuse/拒绝权限】              【 IE  快速修复 】
+echo   【NTRefuse/拒绝权限】             【  IE  快速修复  】
 echo.
-echo   【NTCancel/取消权限】              【 IE  信任站点 】
+echo   【NTCancel/取消权限】             【  IE  信任站点  】
 echo.
-echo   【Readit/设置为只读】              【 Hosts   目录 】
-echo   =======================================================
-echo   【系统 垃圾文件清理】              【ShortCut  修复】  
-echo.              
-echo.   当前目录：%~dp0
-echo.               
-rem if /i !force! neq 0 (echo   当前模式：CMD模式) else (echo   当前模式：GUI模式)
+echo   【Readit/设置为只读】             【  Hosts   目录  】
+echo   ======================================================
+echo   【系统 垃圾文件清理】             【 ShortCut  修复 】
 echo.
-echo           【FeedBack反馈】        【   退  出   】
+echo   【For AnDroid Hosts】
+echo.
+echo   当前目录：%~dp0
+echo.
+echo   【FeedBack 问题反馈】             【  退出 极佳猴子 】
 
 :mouse
 ConsExt /event
@@ -70,35 +75,31 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  12 if %x% lss 30 goto helpme
-if %y% equ 1 if %x% gtr  12 if %x% lss 58 call :flushdns & goto gui
-if %y% equ 4 if %x% gtr  12 if %x% lss 32 goto dft
-if %y% equ 4 if %x% gtr  12 if %x% lss 58 goto run
-if %y% equ 6 if %x% gtr  12 if %x% lss 24 goto Google
-if %y% equ 6 if %x% gtr  12 if %x% lss 41 goto ipv6
-if %y% equ 8 if %x% gtr  12 if %x% lss 24 goto mwsl
-if %y% equ 8 if %x% gtr  12 if %x% lss 41 goto mvps
-if %y% equ 8 if %x% gtr  12 if %x% lss 58 goto fixhosts
-if %y% equ 10 if %x% gtr  12 if %x% lss 16 goto entdata
-if %y% equ 10 if %x% gtr  12 if %x% lss 58 goto AnDroid
-if %y% equ 13 if %x% gtr  12 if %x% lss 30 goto ntfsread
-if %y% equ 13 if %x% gtr  12 if %x% lss 58 goto adfilter
-if %y% equ 15 if %x% gtr  12 if %x% lss 30 goto ntfsrefused
-if %y% equ 15 if %x% gtr  12 if %x% lss 58 goto fixie
-if %y% equ 17 if %x% gtr  12 if %x% lss 30 goto ntfscancle
-if %y% equ 17 if %x% gtr  12 if %x% lss 58 goto ie
-if %y% equ 19 if %x% gtr  12 if %x% lss 30 goto readonly
-if %y% equ 19 if %x% gtr  12 if %x% lss 58 start explorer %etc% & goto gui
-if %y% equ 21 if %x% gtr  12 if %x% lss 30 goto clean
-if %y% equ 21 if %x% gtr  12 if %x% lss 58 goto shortcut
-if %y% equ 23 if %x% gtr  12 if %x% lss 58 start explorer %~dp0 & goto gui
-if %y% equ 27 if %x% gtr  12 if %x% lss 32 goto feedback
-if %y% equ 27 if %x% gtr  31 if %x% lss 50 goto :eof
+if %y% equ 1 if %x% gtr  12 if %x% lss 35 start /min iexplore http://orztech.com/forms/3 &goto gui
+if %y% equ 1 if %x% gtr  12 if %x% lss 56 call :flushdns & goto gui
+if %y% equ 4 if %x% gtr  12 if %x% lss 35 if not exist wget.exe (call :dftvbs) else (call :dftwget)&goto gui
+if %y% equ 4 if %x% gtr  12 if %x% lss 56 goto run
+if %y% equ 6 if %x% gtr  12 if %x% lss 35 goto Google
+if %y% equ 6 if %x% gtr  12 if %x% lss 56 goto ipv6
+if %y% equ 8 if %x% gtr  12 if %x% lss 35 goto mwsl
+if %y% equ 8 if %x% gtr  12 if %x% lss 56 goto mvps
+if %y% equ 10 if %x% gtr  12 if %x% lss 35 goto entdata
+if %y% equ 10 if %x% gtr  12 if %x% lss 56 goto fixhosts
+if %y% equ 13 if %x% gtr  12 if %x% lss 35 goto ntfsread
+if %y% equ 13 if %x% gtr  12 if %x% lss 56 goto iecss
+if %y% equ 15 if %x% gtr  12 if %x% lss 35 goto ntfsrefused
+if %y% equ 15 if %x% gtr  12 if %x% lss 56 goto fixie
+if %y% equ 17 if %x% gtr  12 if %x% lss 35 goto ntfscancle
+if %y% equ 17 if %x% gtr  12 if %x% lss 56 goto ie
+if %y% equ 19 if %x% gtr  12 if %x% lss 35 goto readonly
+if %y% equ 19 if %x% gtr  12 if %x% lss 56 start explorer %etc% & goto gui
+if %y% equ 21 if %x% gtr  12 if %x% lss 35 goto clean
+if %y% equ 21 if %x% gtr  12 if %x% lss 56 goto shortcut
+if %y% equ 23 if %x% gtr  12 if %x% lss 35 goto AnDroid
+if %y% equ 25 if %x% gtr  12 if %x% lss 56 start explorer %~dp0 & goto gui
+if %y% equ 27 if %x% gtr  12 if %x% lss 35 goto feedback
+if %y% equ 27 if %x% gtr  31 if %x% lss 56 goto :eof
 goto mouse
-
-:helpme
-start /min iexplore http://orztech.com/forms/3
-goto gui
 
 :flushdns
 echo FlushDns...
@@ -117,24 +118,6 @@ goto:eof
 :templist
 call :Google
 call :Xunlei
-goto:eof
-
-:hostsbak
-echo Backup Your Hosts File
-copy /y %hosts% %etc%\"HostsBak_%date%.txt" >nul 2>nul
-goto:eof
-
-:set
-set dl=wget -nH -N -c -t 10 -w 2 -T 10 -P
-set gm=%appdata%\HostsTool
-set etc=%windir%\system32\drivers\etc
-set hosts=%windir%\system32\drivers\etc\hosts
-del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt ie.txt>nul 2>nul
-call :ipv6load
-if not exist %etc%\ md %etc%\ >nul
-if not exist %gm%\ md %gm%\ >nul
-call :unlock
-if not exist %hosts% goto fixhosts
 goto:eof
 
 :ipv6load
@@ -157,17 +140,6 @@ echo Download and Update,
 echo Please wait... ...
 goto:eof
 
-:size
-set size=200000
-for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
-if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
-if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close)
-goto:eof
-
-:GG
-copy HostsX.orzhosts %hosts% & move HostsX.orzhosts %etc%\ 
-goto:eof
-
 :choice
 echo 请用鼠标点击【 】内选择操作！
 goto:eof
@@ -180,13 +152,12 @@ echo loop >>%temp%/Updates.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
 goto:eof
 
-:dft
-if not exist %systemroot%\system32\wget.exe (goto dftvbs) else (goto dftwget)
-
 :dftwget
-wget -O http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-call :size
-call :GG
+wget http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+set size=200000
+for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
+if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
+if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close)
 call :templist
 goto gui
 
@@ -208,22 +179,23 @@ if not exist HostsX.orzhosts (echo 未找到本地缓存Hosts数据!) else (copy HostsX.o
 echo 程序将在3s后退出!& choice /t 3 /d y /n >nul&Exit
 
 :ipv6
+call :ipv6load
 call :echoi
-wget -O http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
+wget http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
 for /f  "delims=" %%i in (ipv6.txt) do @echo %%i>>%hosts%
 call :flushdns
 goto gui
 
 :mvps
 call :echoi
-wget -O http://www.mvps.org/winhelp2002/hosts.txt
+wget  http://www.mvps.org/winhelp2002/hosts.txt
 copy hosts.txt %hosts%
 call :flushdns
 goto gui
 
 :mwsl
 call :echoi
-wget -O http://hostsx.googlecode.com/svn/trunk/3rdPartyData/mwsl.txt
+wget  http://hostsx.googlecode.com/svn/trunk/3rdPartyData/mwsl.txt
 copy mwsl.txt %hosts%
 call :flushdns
 goto gui
@@ -231,7 +203,7 @@ goto gui
 :entdata
 call :unlock
 call :echoi
-wget -O http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ent.txt
+wget  http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ent.txt
 for /f  "delims=" %%i in (ent.txt) do @echo %%i>>%hosts%
 echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.
 echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 5 /d y /n >nul
@@ -239,9 +211,9 @@ call :flushdns
 goto gui
 
 :fixhosts
-color 74
+color 04
 mode con: cols=50 lines=12
-echo Fix Hosts File?（Restore the system default）choice /t 5 /d y /n >nul &pause& del %hosts% /q &goto nohosts
+echo Fix Hosts File?（Restore the system default）choice /t 5 /d y /n >nul & del %hosts% /q &goto nohosts
 
 :nohosts
 call :unlock
@@ -267,9 +239,9 @@ cls&mshta vbscript:msgbox("Hosts文件已恢复到系统默认状态!",64,"G+ Hosts")(window
 goto run
 
 :AnDroid
-cls&mshta vbscript:msgbox("AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!",64,"提示")(window.close)
+cls&echo AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!
 choice /t 7 /d y /n >nul
-if not exist AndriodHosts.vbs (wget -O http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
+if not exist AndriodHosts.vbs (wget  http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
 AndriodHosts.vbs&cls&goto gui
 
 :run
@@ -301,7 +273,7 @@ call :flushdns
 goto gui
 
 :shortcut
-if not exist g.ico (wget -O http://hostsx.googlecode.com/svn/trunk/iMonkey/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
+if not exist g.ico (wget  http://hostsx.googlecode.com/svn/trunk/iMonkey/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
 
 :shortcutfix
 mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\G+ Hosts.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.Hotkey=""Ctrl+Shift+g"":b.IconLocation=""%~dp0\g.ico"":b.Description=""Hosts文件工具-A Little Monkey - MayBe the Best Hosts Tool"":b.Save:close")
@@ -329,9 +301,8 @@ reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zon
 goto gui
 
 :iecss
-del Custom.css AdFilter.vbs
-wget http://hostsx.googlecode.com/svn/trunk/iMonkey/Custom.css
-wget http://hostsx.googlecode.com/svn/trunk/iMonkey/iecss.vbs
+wget  http://hostsx.googlecode.com/svn/trunk/iMonkey/Custom.css
+wget  http://hostsx.googlecode.com/svn/trunk/iMonkey/iecss.vbs
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
 :Updates
@@ -356,8 +327,9 @@ start %temp%\up.bat
 exit
 
 :Google
+call :unlock
 echo.
-echo 请稍等,正在获取Google服务器的IP
+echo 请稍等...
 setlocal enabledelayedexpansion
 set min=160
 set max=180
@@ -365,7 +337,7 @@ set /a mod=!max!-!min!+1
 set /a r=!random!%%!mod!+!min!
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ggl=%%i
 for /f "delims=." %%i in ("%ggl%") do if not %%i==203 set ggl=203.208.46.%r%
-if %ggl%==203.208.46.%r% (echo IP获取失败，已手动设置) else echo IP获取成功，请稍后
+if %ggl%==203.208.46.%r% (echo IP获取失败，已手动设置) else echo IP获取成功!
 echo #GoogleIP >>%hosts%
 echo 203.208.46.180 www.google.com >>%hosts%
 echo 203.208.45.200 plus.google.com >>%hosts%
