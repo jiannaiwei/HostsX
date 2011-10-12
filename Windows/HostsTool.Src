@@ -340,13 +340,13 @@ md Bakup\ >nul 2>nul
 copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
 echo Backup of the old version(%ver%)
 call :echoi
-call :upcore
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
+echo WScript.sleep 200 >>%temp%/Upnew.vbs
+echo loop >>%temp%/Upnew.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
 echo @echo off>%temp%\up.bat
-echo Mode con cols=50 lines=10>>%temp%\up.bat
-echo Color 0a>>%temp%\up.bat
-echo Title Update>>%temp%\up.bat
-echo echo.>>%temp%\up.bat
 echo echo ...Restart HostsTool...>>%temp%\up.bat
 echo ping /n 1 127.1^>nul>>%temp%\up.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
