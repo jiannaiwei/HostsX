@@ -1,5 +1,5 @@
 @echo off
-set ver=3
+set ver=2.98
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -7,28 +7,23 @@ set te=
 for %%i in (c d e f a) do (
 set /a te=!!te!+1!
 if "!xc!"=="!te!" set xc=%%i)
-color 0%xc%
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键管理员身份运行! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions"
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 cls
-set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
-echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
-echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
-echo WScript.sleep 50 >>%temp%/chkver.vbs
-echo loop >>%temp%/chkver.vbs
-echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
-cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
-for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
+call :hostsbak
+call :checkver
 cls
 
 :gui
 call :unlock
 call :set
+if "%1" == "/6" goto:ipv6
+if "%1" == "/f" goto:fixhosts
 if not exist consext.exe goto dftvbs
 mode con cols=60 lines=29
+color 0%xc%
 ConsExt /crv 0
 cls
 title G+ Hosts %ver%   %version%
@@ -93,11 +88,106 @@ if %y% equ 27 if %x% gtr  12 if %x% lss 32 goto feedback
 if %y% equ 25 if %x% gtr  31 if %x% lss 48 goto :eof
 goto mouse
 
+:helpme
+start /min iexplore http://orztech.com/forms/3
+goto gui
+
+:flushdns
+echo FlushDns...
+ipconfig /flushdns>nul 2>nul
+del /f /q %Appdata%\HostsTool\*.*>nul 2>nul
+del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
+del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
+del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
+del /f /q %userprofile%\recent\*.*>nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
+reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
+ipconfig /flushdns>nul 2>nul
+goto:eof
+
+:templist
+call :Google
+call :Xunlei
+goto:eof
+
+:hostsbak
+echo Backup Your Hosts File
+copy /y %hosts% %etc%\"HostsBak_%date%.txt" >nul 2>nul
+goto:eof
+
+:set
+set dl=wget -nH -N -c -t 10 -w 2 -T 10 -P
+set gm=%appdata%\HostsTool
+set etc=%windir%\system32\drivers\etc
+set hosts=%windir%\system32\drivers\etc\hosts
+del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt ie.txt>nul 2>nul
+call :ipv6load
+if not exist %etc%\ md %etc%\ >nul
+if not exist %gm%\ md %gm%\ >nul
+call :unlock
+if not exist %hosts% goto fixhosts
+goto:eof
+
+:checkver
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
+echo WScript.sleep 50 >>%temp%/chkver.vbs
+echo loop >>%temp%/chkver.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
+cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
+for /f %%i in (%temp%\ver.txt) do set verNew=%%i
+if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
+goto:eof
+
+:ipv6load
+ipv6 install>nul 2>nul
+net stop "Dnscache">nul 2>nul
+sc stop "DNSCache">nul 2>nul
+sc config Dnscache start= disabled>nul 2>nul
+sc config iphlpsvc start= AUTO>nul 2>nul
+netsh interface ipv6 isatap set router isatap.sjtu.edu.cn>nul 2>nul
+netsh interface ipv6 isatap set state enabled>nul 2>nul
+goto:eof
+
+:unlock
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib %hosts% -r -h -s >nul 2>nul
+goto:eof
+
+:echoi
+echo Download and Update,
+echo Please wait... ...
+goto:eof
+
+:size
+set size=200000
+for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
+if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
+if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close)
+goto:eof
+
+:GG
+copy HostsX.orzhosts %hosts% & move HostsX.orzhosts %etc%\ 
+goto:eof
+
+:choice
+echo 请用鼠标点击【 】内选择操作！
+goto:eof
+
+:upcore
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%gm%/Updates.vbs
+echo do until oDOM.readyState = "complete" >>%gm%/Updates.vbs
+echo WScript.sleep 200 >>%gm%/Updates.vbs
+echo loop >>%gm%/Updates.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%gm%/Updates.vbs
+goto:eof
+
 :dft
 if not exist %systemroot%\system32\wget.exe (goto dftvbs) else (goto dftwget)
 
 :dftwget
-wget http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+wget -O http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 call :size
 call :GG
 call :templist
@@ -123,40 +213,68 @@ echo 程序将在3s后退出!& choice /t 3 /d y /n >nul&Exit
 
 :ipv6
 call :echoi
-wget http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
-copy ipv6.txt %hosts%
+wget -O http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
+for /f  "delims=" %%i in (ipv6.txt) do @echo %%i>>%hosts%
 call :flushdns
 goto gui
 
-:mvpshosts
+:mvps
 call :echoi
-wget http://www.mvps.org/winhelp2002/hosts.txt
+wget -O http://www.mvps.org/winhelp2002/hosts.txt
 copy hosts.txt %hosts%
 call :flushdns
 goto gui
 
+:mwsl
+call :echoi
+wget -O http://hostsx.googlecode.com/svn/trunk/3rdPartyData/mwsl.txt
+copy mwsl.txt %hosts%
+call :flushdns
+goto gui
+
+:entdata
+call :unlock
+call :echoi
+wget -O http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ent.txt
+for /f  "delims=" %%i in (ent.txt) do @echo %%i>>%hosts%
+echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.
+echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 5 /d y /n >nul
+call :flushdns
+goto gui
+
+:fixhosts
+color 74
+mode con: cols=50 lines=12
+echo Fix Hosts File?（Restore the system default）choice /t 5 /d y /n >nul &pause& del %hosts% /q &goto nohosts
+
 :nohosts
 call :unlock
 if not exist WinHosts.txt (goto nohostsimple) Else (goto nohostslocal)
-goto:EOF
+goto:eof
 
 :nohostslocal
 set size=824
 for %%1 in (WinHosts.txt)do set gsize=%%~z1
 if %gsize% equ %size% (copy WinHosts.txt %hosts%)
 call :echofixhosts
-goto:EOF
+goto:eof
 
 :nohostsimple
 echo 127.0.0.1       localhost> %hosts%
 echo ::1             localhost>> %hosts%
 echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
 call :echofixhosts
-goto:EOF
+goto:eof
 
 :echofixhosts
 cls&mshta vbscript:msgbox("Hosts文件已恢复到系统默认状态!",64,"G+ Hosts")(window.close)
 goto run
+
+:AnDroid
+cls&mshta vbscript:msgbox("AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!",64,"提示")(window.close)
+choice /t 7 /d y /n >nul
+if not exist AndriodHosts.vbs (wget -O http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
+AndriodHosts.vbs&cls&goto gui
 
 :run
 call :unlock
@@ -182,112 +300,16 @@ echo y| cacls %hosts% /D everyone >nul
 goto pmfinish
 
 :pmfinish
-echo.
 echo Hosts文件权限设置完成！
 call :flushdns
 goto gui
 
-:clean
-echo 正在清除系统垃圾文件，请稍等......  
-del /f /s /q %systemdrive%\*.tmp
-del /f /s /q %systemdrive%\*._mp
-del /f /s /q %systemdrive%\*.gid
-del /f /s /q %systemdrive%\*.chk
-del /f /s /q %systemdrive%\*.old
-del /f /s /q %systemdrive%\*.ftg
-del /f /s /q %systemdrive%\*.fts
-del /f /s /q %systemdrive%\*.syd
-del /f /s /q %systemdrive%\*.diz
-del /f /s /q %systemdrive%\recycled\*.*
-del /f /s /q %windir%\prefetch\*.*
-del /f /q %userprofile%\recent\*.*
-del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
-del /f /s /q "%userprofile%\Local Settings\Temp\*.*"
-del /f /s /q "%userprofile%\recent\*.*"
-del /f /s /q %windir%\SoftwareDistribution\Download\*.* 2>nul
-del /f /q /s /a "%systemroot%\minidump\*.*" 2>nul
-echo 正在清理系统升级补丁留下来的反安装目录……
-for /f "tokens=1" %%i in ('dir %SystemRoot%\$*$ /s /b /ad') do rd /s /q %%i    
-echo 清除浏览器地址记录...
-reg delete "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" /f 2>nul
-reg add "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" 
-echo 清除运行记录...
-reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
-reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f               
-echo 清除系统LJ完成! & choice /t 2 /d y /n >nul &goto gui
-
-:delit
-mode con cols=60 lines=20
-echo.
-echo 		  【 Super Delete 】
-echo 	        ----------------------
-echo.
-echo  专门快速删除那种不能打开、不能进入、不能删除的顽固目录。
-echo. Remove the kind of expertise can not be opened quickly, 
-echo.  can not enter, can not remove the stubborn directory
-echo 	注意：删除目录将同时删除其子目录中所有数据！
-echo Warning：Delete the directory will also delete all the data subdirectory!
-echo.
-set Choice=
-echo 	请将要删除的顽固目录直接拖入本窗口，然后回车:
-echo  Please stubborn to delete the directory directly  
-echo     dragged into the window,then press Enter:
-echo.
-set /p Choice=
-if ""%Choice%"" == "" goto gui
-echo y|Cacls ""%Choice%"" /c /t /p Everyone:f
-DEL /F /A /Q \\?\""%Choice%""
-RD /S /Q \\?\""%Choice%""
-echo.
-echo  删除完成! Delete done!
-pause&goto gui
-
-:Updates
-cls
-md Bakup\ >nul 2>nul
-copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
-echo Backup the old version(%ver%)
-call :echoi
-echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
-echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
-echo WScript.sleep 200 >>%temp%/Upnew.vbs
-echo loop >>%temp%/Upnew.vbs
-echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
-cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
-echo @echo off>%temp%\up.bat
-echo Mode con cols=50 lines=10>>%temp%\up.bat
-echo Color 0a>>%temp%\up.bat
-echo Title Update>>%temp%\up.bat
-echo echo.>>%temp%\up.bat
-echo echo ...Restart HostsTool...>>%temp%\up.bat
-echo ping /n 1 127.1^>nul>>%temp%\up.bat
-echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
-echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
-echo Exit>>%temp%\up.bat
-start %temp%\up.bat
-exit
-
-:delietrust
-echo  Del All IE donot Turst Site
-pause
-reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
-goto gui
-
 :shortcut
-if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/iMonkey/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
+if not exist g.ico (wget -O http://hostsx.googlecode.com/svn/trunk/iMonkey/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
 
 :shortcutfix
 mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\G+ Hosts.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.Hotkey=""Ctrl+Shift+g"":b.IconLocation=""%~dp0\g.ico"":b.Description=""Hosts文件工具-A Little Monkey - MayBe the Best Hosts Tool"":b.Save:close")
 echo G+ Hosts桌面快捷方式已创建! 您可使用Ctrl+Shift+g快捷键操作！& choice /t 2 /d y /n >nul&goto gui
-
-:entdata
-call :unlock
-wget http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ent.txt
-for /f  "delims=" %%i in (ent.txt) do @echo %%i>>%hosts%
-echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.
-echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 3 /d y /n >nul
-call :flushdns
-goto gui
 
 :feedback
 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
@@ -304,8 +326,10 @@ echo. >>GFeedBack.txt
 echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
 notepad GFeedBack.txt&cls&del GFeedBack.txt&goto gui
 
-:helpme
-start /min iexplore http://orztech.com/forms/3
+:delietrust
+echo  Del All IE donot Turst Site
+pause
+reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
 goto gui
 
 :iecss
@@ -314,101 +338,6 @@ wget http://hostsx.googlecode.com/svn/trunk/iMonkey/Custom.css
 wget http://hostsx.googlecode.com/svn/trunk/iMonkey/iecss.vbs
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
-:AnDroid
-echo  提示：AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!
-choice /t 7 /d y /n >nul
-if not exist AndriodHosts.vbs (wget http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
-AndriodHosts.vbs&cls&goto gui
-
-:size
-set size=200000
-for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
-if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
-if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"G+ Hosts")(window.close)
-goto:EOF
-
-:upcore
-echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%gm%/Updates.vbs
-echo do until oDOM.readyState = "complete" >>%gm%/Updates.vbs
-echo WScript.sleep 200 >>%gm%/Updates.vbs
-echo loop >>%gm%/Updates.vbs
-echo WScript.echo oDOM.documentElement.outerText >>%gm%/Updates.vbs
-goto:EOF
-
-:GG
-copy HostsX.orzhosts %hosts% & move HostsX.orzhosts %etc%\ 
-goto:EOF
-
-:choice
-echo 请用鼠标点击【 】内选择操作！
-goto:EOF
-
-:templist
-call :Google
-call :Xunlei
-goto:EOF
-
-:set
-set dl=wget -nH -N -c -t 10 -w 2 -T 10 -P
-set gm=%appdata%\HostsTool
-set etc=%windir%\system32\drivers\etc
-set hosts=%windir%\system32\drivers\etc\hosts
-del /f /q echo host hosts setup.bat mwslcn.txt hbhosts.txt ghosts.txt ie.txt>nul 2>nul
-call :ipv6load
-if not exist %etc%\ md %etc%\ >nul
-if not exist %gm%\ md %gm%\ >nul
-call :unlock
-if not exist %hosts% goto fixhosts
-goto:EOF
-
-:ipv6load
-ipv6 install>nul 2>nul
-net stop "Dnscache">nul 2>nul
-sc stop "DNSCache">nul 2>nul
-sc config Dnscache start= disabled>nul 2>nul
-sc config iphlpsvc start= AUTO>nul 2>nul
-netsh interface ipv6 isatap set router isatap.sjtu.edu.cn>nul 2>nul
-netsh interface ipv6 isatap set state enabled>nul 2>nul
-goto:EOF
-
-:unlock
-echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
-attrib %hosts% -r -h -s >nul 2>nul
-goto:EOF
-
-:echoi
-echo Download and Update,
-echo Please wait... ...
-goto:EOF
-
-:flushdns
-echo FlushDns...
-ipconfig /flushdns>nul 2>nul
-del /f /q %Appdata%\HostsTool\*.*>nul 2>nul
-del /f /s /q "%userprofile%\local Settings\temporary Internet Files\*.*">nul 2>nul
-del /f /s /q "%userprofile%\local Settings\temp\*.*">nul 2>nul
-del /f /s /q "%userprofile%\recent\*.*">nul 2>nul
-del /f /q %userprofile%\recent\*.*>nul 2>nul
-reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 2>nul
-reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
-reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
-ipconfig /flushdns>nul 2>nul
-goto:EOF
-
-:check
-ver|find   "5."   
-if   %errorlevel%==0   goto   cacls5   
-ver|find   "6."   
-if   %errorlevel%==0   goto   cacls6   
-goto:EOF
-
-:cacls5
-if exist "%windir%\system32\cacls.exe" (goto gui) else (wget http://hostsx.googlecode.com/svn/trunk/Windows/cacls5.exe &ren cacls5.exe cacls.exe&goto gui)
-goto:EOF
-
-:cacls6
-if exist "%windir%\system32\cacls.exe" (goto gui) else (wget http://hostsx.googlecode.com/svn/trunk/Windows/cacls6.exe &ren cacls6.exe cacls.exe&goto gui)
-goto:EOF
 
 :Google
 echo.
@@ -1559,11 +1488,120 @@ echo %ytb% v22.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v23.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
 rem 成功运行Google脚本,(Youtube暂时只能进入网站，但不能播放视频)
-goto:EOF
+goto:eof
 
 :Xunlei
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%
-goto:EOF
+goto:eof
+
+:fixie
+title IE Optimization and Fix
+cls
+echo  Please close all about IE browser windows before your fix!
+pause
+taskkill /F /IM iexplore.exe /T>nul 2>nul
+regsvr32 /s actxprxy.dll
+regsvr32 /s shdocvw.dll
+regsvr32 /s oleaut32.dll
+Regsvr32 /s URLMON.DLL
+Regsvr32 /s mshtml.dll
+Regsvr32 /s msjava.dll
+Regsvr32 /s browseui.dll
+Regsvr32 /s softpub.dll
+Regsvr32 /s wintrust.dll
+echo 50 percent (Please wait)
+Regsvr32 /s initpki.dll
+Regsvr32 /s dssenh.dll
+Regsvr32 /s rsaenh.dll
+Regsvr32 /s gpkcsp.dll
+Regsvr32 /s sccbase.dll
+Regsvr32 /s slbcsp.dll
+Regsvr32 /s cryptdlg.dll
+echo 100 percent
+echo IE Optimization and Fix finished.
+title IE Repaired
+rem  开始修复 IE 及相关的系统设置项目……
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKLM\Software\CLASSES\.reg" /f /ve /d regfile>nul 2>nul
+rem  恢复EXE文件打开方式
+reg add "HKCR\exefile\shell\open\command" /f /ve /t REG_SZ /d ""%1" %*">nul 2>nul
+rem  删除地址栏下拉菜单内的网址
+reg delete "HKCU\Software\Microsoft\Internet Explorer\TypedURLs" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\TypedURLs">nul 2>nul
+rem  恢复被隐藏的桌面图标
+reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
+rem  恢复internet选项安全页面自定义按钮
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecChangeSettings /t REG_DWORD /d 00000000>nul 2>nul
+rem  恢复IE浏览器缺省主页的设置锁定状态
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Settings /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Links /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecAddSites /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKU\.DEFAULT\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
+rem  删除分级审查密码
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings" /f>nul 2>nul
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings">nul 2>nul
+rem  恢复internet选项
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\restrictions" /f /v NoBrowserOptions /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoFolderOptions /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v GeneralTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecurityTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ContentTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ConnectionsTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ProgramsTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v AdvancedTab /t REG_DWORD /d 00000000>nul 2>nul
+rem  修复IE察看源文件按钮
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
+rem  修复网页中右键菜单的广告
+reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
+rem  恢复网页右键菜单
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoBrowserContextMenu /t REG_DWORD /d 00000000>nul 2>nul
+rem  恢复OE标题栏广告
+reg add "HKCU\Software\Microsoft\Outlook Express" /f /v WindowTitle /t REG_DWORD /d 00000000>nul 2>nul
+rem  恢复IE标题栏
+reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
+rem  恢复主页修改
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
+rem  解开注册表
+rem  修复IE的默认页面和起始为空白页
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Default_Page_URL" /d "about:blank">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Start Page" /d "about:blank">nul 2>nul
+rem  恢复IE搜索引擎
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s"
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Use Search Asst" /d "no" /f
+reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "gogl" /f
+reg add "HKLM\Software\Microsoft\Internet Explorer\" /f /ve /d "about:blank"
+reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "http://www.google.com/intl/zh-CN/"
+reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f
+rem  修复IE工具栏广告
+reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+rem  修复开始菜单广告
+reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
+echo  Repaired!
+cls&goto menu
+
+:check
+ver|find   "5."   
+if   %errorlevel%==0   goto   cacls5   
+ver|find   "6."   
+if   %errorlevel%==0   goto   cacls6   
+goto:eof
+
+:cacls5
+if exist "%windir%\system32\cacls.exe" (goto gui) else (wget http://hostsx.googlecode.com/svn/trunk/Windows/cacls5.exe &ren cacls5.exe cacls.exe&goto gui)
+goto:eof
+
+:cacls6
+if exist "%windir%\system32\cacls.exe" (goto gui) else (wget http://hostsx.googlecode.com/svn/trunk/Windows/cacls6.exe &ren cacls6.exe cacls.exe&goto gui)
+goto:eof
 
 :hostpath
 echo 如果HostsTool未能正确获取路径，请用记事本按提示修改变量。
