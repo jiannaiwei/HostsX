@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 2.96
+Version: 2.961
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -69,7 +69,7 @@ div[id^="banner0"],div[id^="banner1"],div[class="banner"][id^="banner"],div[clas
 div[id$="banner_left"],div[id$="banner_right"],div[id$="top_banner"],[id$="right_banner"],[id$="left_banner"] {
 display: none !important;
 	}
-div[id^="AD"][style*="w"],{display: none !important;}
+div[id^="AD"][style*="w"],div[class^="ad-banner"]{display: none !important;}
 img[class="ad"],img[id^="ad"],img[src$="_ad.jpg"]{display: none !important;}
 
 /* Flash 广告*/
@@ -106,7 +106,7 @@ div[id^="thread_ads_"],.forumimglink,.forumlinks,.forumtxtlink {display: none !i
 
 /* 浮动 弹窗广告 */
 span[id="StreamMediaWrap"]{display:none !important}
-span[class^="ad"],span[id^="ad_"],span[class$="adv"],span[class="close"],
+span[class="ad"],span[id^="ad_"],span[class$="adv"],span[class="close"],
 span[id*="adsense"],span[id="afterurl"],span[id="urlup"],span[id="tmpMsgDiv"] {
 display: none !important;
 	}
