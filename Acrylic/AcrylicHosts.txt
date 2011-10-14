@@ -1,5 +1,47 @@
 ;version=20110216
 ;author=郭鹏锟（JocKwok）
+#############################################################################
+#                                                                           #
+# IF YOU MAKE ANY CHANGES TO THIS FILE YOU HAVE TO RESTART THE ACRYLIC DNS  #
+# PROXY SERVICE IN ORDER TO SEE THEIR EFFECTS.                              #
+#                                                                           #
+# This is the AcrylicHosts.txt file.                                        #
+#                                                                           #
+# It contains predefined mappings between names and addresses exactly the   #
+# same way the native HOSTS file does.                                      #
+#                                                                           #
+# The format is: IPADDRESS HOSTNAME1 [HOSTNAME2] [HOSTNAME3] ...            #
+#                                                                           #
+# Where IPADDRESS is in quad-dotted notation and HOSTNAMES are strings.     #
+#                                                                           #
+# The separator between IPADDRESS and HOSTNAMES can be any number of spaces #
+# or tabs or both. If the HOSTNAMES contain the special characters '*' and  #
+# '?' a (slow) "dir" like pattern matching algorithm is used instead of a   #
+# (fast) binary search within the list of host names:                       #
+#                                                                           #
+# 127.0.0.1 ad.* ads.*                                                      #
+#                                                                           #
+# If a HOSTNAME starts with the '/' character instead it is treated like a  #
+# regular expression (also very slow compared to a binary search):          #
+#                                                                           #
+# 127.0.0.1 /^ads?\..*$                                                     #
+#                                                                           #
+# Note: More info about the regular expression engine and its syntax can be #
+# found at: http://regexpstudio.com                                         #
+#                                                                           #
+# It is also possible to specify exceptions when regular expressions or     #
+# pattern based matching is used. If for example we would like to filter    #
+# out all ads.* like domains except for the ads.test1 and the ads.test2 we  #
+# should write:                                                             #
+#                                                                           #
+# 127.0.0.1 ads.* -ads.test1 -ads.test2                                     #
+#                                                                           #
+# Note: A line starting with the '#' character (and everything after it if  #
+# it's found within a line) is considered a comment and therefore ignored.  #
+#                                                                           #
+#############################################################################
+
+127.0.0.1 localhost
 #常用通配符过滤
 0.0.0.0	clkstat.*
 0.0.0.0 *.allyes.*
@@ -58,7 +100,7 @@
 0.0.0.0 uniclick.*
 0.0.0.0 union.*
 0.0.0.0 x.*
-@HostsX 站点智能转向
+@HostsX Smart Direct
 #Localhost
 127.0.0.1   localhost
 ::1         localhost
@@ -73,79 +115,142 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 #Mac
-0.0.0.0 gs.apple.com
-255.255.255.255 broadcasthost
-#Google
-74.125.39.191 www.blogger.com
-74.125.39.191 blogger.l.google.com
-74.125.39.191 blogger.google.com
-74.125.19.147 nt0.ggpht.com
-74.125.19.147 nt1.ggpht.com
-74.125.19.147 nt2.ggpht.com
-74.125.19.147 nt3.ggpht.com
-209.85.225.102 groups.google.com
-74.125.127.100 services.google.com
-74.125.127.100 sites.google.com
-209.85.225.104 reader.google.com
-74.125.127.101 calendar.google.com
-209.85.225.101 docs.google.com
-74.125.127.100 writely.google.com
-74.125.127.139 spreadsheets.google.com
-66.102.7.100 encrypted.google.com
-74.125.43.102 encrypted.google.com
-74.125.227.4 encrypted.google.com
-#Picasa
-74.125.91.99 www.picasa.com
-203.208.39.104 picadaweb.google.com
-203.208.39.104 lh1.ggpht.com
-203.208.39.104 lh2.ggpht.com
-203.208.39.104 lh3.ggpht.com
-203.208.39.104 lh4.ggpht.com
-203.208.39.104 lh5.ggpht.com
-203.208.39.104 lh6.ggpht.com
-203.208.39.104 lh7.ggpht.com
-203.208.39.104 lh8.ggpht.com
-203.208.39.104 lh9.ggpht.com
-#Facebook
-2620:0:1cfe:face:b00c::3 www.v6.facebook.com
-2620:0:1cfe:face:b00c::3 apps.facebook.com
-2620:0:1cfe:face:b00c::4 login.v6.facebook.com
-2620:0:1cfe:face:b00c::7  m.v6.facebook.com
-2610:d0:face::9 www.lisp6.facebook.com
-2610:d0:face::9 m.lisp6.facebook.com
-2620:0:1cfe:face:b00c::3 static.ak.fbcdn.net
-2620:0:1cfe:face:b00c::4 s-static.ak.facebook.com
+fe80::1%lo0	localhost
+255.255.255.255	broadcasthost
+0.0.0.0 advertising.apple.com
 #DropBox
-174.36.30.67 dropbox.com
-174.36.30.71 www.dropbox.com
-75.101.129.115 dl.dropbox.com
-75.101.159.151 dl-web.dropbox.com
-174.36.30.67 forums.dropbox.com
+199.47.217.179 www.dropbox.com
+174.129.218.39 dl.dropbox.com
+50.17.206.117 dl-web.dropbox.com
+#FlashGet
+221.123.176.125 s5.flashget.com
+221.123.176.136 cplog.flashget.com
+#ioage
+118.145.31.149 www.ioage.com
+115.182.38.16 bbs.ioage.com
+#Operachina
+59.151.106.253 operachina.com
+59.151.106.253 bbs.operachina.com
+59.151.106.253 mini.operachina.com
+59.151.106.253 portal.operachina.com
+59.151.106.253 press.operachina.com
+59.151.106.253 redir.operachina.com
+59.151.106.253 static.operachina.com
+59.151.106.253 wiki.operachina.com
+59.151.106.253 www.operachina.com
+#Facebook
+118.214.114.110	s-static.ak.facebook.com
+118.214.190.105	profile.ak.facebook.com
+202.157.186.28 static.ak.facebook.com
+202.157.186.34 b.static.ak.facebook.com
+66.220.146.18 apps.facebook.com
+66.220.146.50 graph.facebook.com
+66.220.147.62 ssl.facebook.com
+66.220.149.36 api.facebook.com
+69.63.178.57 secure-media-sf2p.facebook.com
+69.63.178.57 secure-profile.facebook.com
+69.63.179.70 secure.facebook.com
+69.63.181.16 zh-CN.facebook.com
+69.63.181.20 login.facebook.com
+69.63.181.31 m.facebook.com
+69.63.181.31 touch.facebook.com
+69.63.189.16 facebook.com
+69.171.228.14 www.facebook.com
+69.63.190.18 apps.facebook.com
+118.214.190.128	profile.ak.fbcdn.net
+124.155.222.50 vthumb.ak.fbcdn.net
+125.56.199.9 photos-a.ak.fbcdn.net
+125.56.199.9 photos-b.ak.fbcdn.net
+125.56.199.9 photos-c.ak.fbcdn.net
+125.56.199.9 photos-d.ak.fbcdn.net
+125.56.199.9 photos-e.ak.fbcdn.net
+125.56.199.9 photos-f.ak.fbcdn.net
+125.56.199.9 photos-g.ak.fbcdn.net
+125.56.199.9 photos-h.ak.fbcdn.net
+202.157.186.34 creative.ak.fbcdn.net
+69.63.176.21 s-hprofile-sf2p.fbcdn.net
+69.63.187.17 fbcdn.net
+97.65.135.139 external.ak.fbcdn.net
+97.65.135.163 b.static.ak.fbcdn.net
+97.65.135.163 static.ak.fbcdn.net
+69.63.180.51 upload.facebook.com
 #Flickr
 76.13.18.78 farm3.static.flickr.com
 76.13.18.78 sp1.farm3.static.flickr.com
+76.13.18.79 farm3.static.flickr.com
 76.13.18.79 farm5.static.flickr.com
 76.13.18.79 gq1.farm5.static.flickr.com
-#Puff
-64.71.141.148 intl.easyssh.info
+#Imdb
+92.122.217.186 ia.media-imdb.com
+198.78.213.126 i.media-imdb.com
+#Multiupload
+85.17.76.195 www.multiupload.com
+85.17.76.195 multiupload.com
+#HotGoo
+75.126.213.58 www.hotgoo.com
+#Plurk
+74.120.121.80 plurk.com
+74.120.121.16 www.plurk.com
+2607:f128:47::1:1 plurk.com
+2607:f128:47::1:1 www.plurk.com
+2607:f128:47::1:1 ipv6.plurk.com
 #Soutong
+2001:470:a:17c::2 ipv6.5isotoi5.org
 2001:470:a:17c::2 soutong.iloveyou
 63.223.106.181 soutong.com
-#Twitter
-128.242.240.29 twitter.com
-128.242.240.29 www.twitter.com
-128.242.240.29 api.twitter.com
-128.242.245.43 search.twitter.com
 #Tumblr
-74.54.212.172 www.tumblr.com
 74.54.212.172 assets.tumblr.com
-74.54.212.172 safe.tumblr.com
 74.54.212.172 safariextensions.tumblr.com
+74.54.212.172 safe.tumblr.com
 74.54.212.172 tumblr.com
-#GAE
-74.125.39.99 simple-note.appspot.com
-74.125.39.99 v2ex.appspot.com
-74.125.39.99 kskyapi.appspot.com
+74.54.212.172 www.tumblr.com
+#Twitter
+199.59.149.243 oauth.twitter.com
+199.59.149.243 twitter.com
+199.59.149.243 www.twitter.com
+199.59.149.243 mobile.twitter.com
+199.59.149.243 api.twitter.com
+199.59.148.201 search.twitter.com
+199.59.148.139 userstream.twitter.com
+199.59.149.243 ssl.twitter.com
+199.59.149.243 status.twitter.com
+199.59.149.243 assets0.twitter.com
+199.59.149.243 assets1.twitter.com
+199.59.149.243 assets2.twitter.com
+199.59.149.243 assets3.twitter.com
+199.59.149.243 static.twitter.com
+184.29.36.124 platform.twitter.com
+219.76.10.138 platform0.twitter.com
+199.59.148.206 help.twitter.com
+199.59.148.206 support.twitter.com
+209.84.4.102 si0.twimg.com
+209.84.4.102 si1.twimg.com
+209.84.4.102 si2.twimg.com
+209.84.4.102 si3.twimg.com
+209.84.4.102 si4.twimg.com
+209.84.4.102 si5.twimg.com
+199.59.149.243 upload.twitter.com
+199.59.149.210 t.co
+#Foursquare
+50.16.194.30 foursquare.com
+50.16.194.30 www.foursquare.com
+#Twitpic
+174.36.58.234 twitpic.com
+174.36.58.234 www.twitpic.com
+174.36.46.32 web7.twitpic.com
+174.36.58.204 web1.twitpic.com
+174.36.58.224 web2.twitpic.com
+174.36.58.200 web3.twitpic.com
+174.37.33.184 web4.twitpic.com
+174.37.75.16 web5.twitpic.com
+174.36.35.60 web6.twitpic.com
+66.228.120.92 web8.twitpic.com
+74.86.100.160 web9.twitpic.com
+74.86.87.236 web10.twitpic.com
+#yfrog
+208.94.0.61 a.yfrog.com
+208.94.0.61 yfrog.com
+208.94.0.61 www.yfrog.com
 @HostsX OneKey
 #常用站点过滤
 0.0.0.0 168.it168.com
