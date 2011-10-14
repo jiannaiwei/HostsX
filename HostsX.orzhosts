@@ -1,4 +1,4 @@
-;version=201110082355
+;version=201110141000
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -156,7 +156,6 @@ fe80::1%lo0	localhost
 @HostsX OneKey/Google
 #GoogleServ
 203.208.45.206 0-focus-opensocial.googleusercontent.com
-203.208.45.206 0-focus-opensocial.googleusercontent.com
 203.208.45.206 0-open-opensocial.googleusercontent.com
 203.208.45.206 0.docs.google.com
 203.208.45.206 0.gvt0.cn
@@ -180,19 +179,14 @@ fe80::1%lo0	localhost
 203.208.45.206 4.gvt0.cn
 203.208.45.206 4.gvt0.com
 203.208.45.206 4fjvqid3r3oq66t548clrdj52df15coc-a-oz-opensocial.googleusercontent.com
-203.208.45.206 4fjvqid3r3oq66t548clrdj52df15coc-a-oz-opensocial.googleusercontent.com
 203.208.45.206 5.docs.google.com
 203.208.45.206 5.gvt0.com
 203.208.45.206 53rd6p0catml6vat6qra84rs0del836d-a-oz-opensocial.googleusercontent.com
-203.208.45.206 53rd6p0catml6vat6qra84rs0del836d-a-oz-opensocial.googleusercontent.com
 203.208.45.206 59cbv4l9s05pbaks9v77vc3mengeqors-a-oz-opensocial.googleusercontent.com
-203.208.45.206 59cbv4l9s05pbaks9v77vc3mengeqors-a-oz-opensocial.googleusercontent.com
-203.208.45.206 8kubpeu8314p2efdd7jlv09an9i2ljdo-a-oz-opensocial.googleusercontent.com
 203.208.45.206 8kubpeu8314p2efdd7jlv09an9i2ljdo-a-oz-opensocial.googleusercontent.com
 203.208.45.206 a-oz-opensocial.googleusercontent.com
 203.208.45.206 accounts.google.com
 203.208.45.206 accounts.youtube.com
-203.208.45.206 adstvca8k2ooaknjjmv89j22n9t676ve-a-oz-opensocial.googleusercontent.com
 203.208.45.206 adstvca8k2ooaknjjmv89j22n9t676ve-a-oz-opensocial.googleusercontent.com
 203.208.45.206 ajax.googleapis.com
 203.208.45.206 apis.google.com
@@ -222,7 +216,6 @@ fe80::1%lo0	localhost
 203.208.45.206 browserchannel-spreadsheets.l.google.com
 203.208.45.206 browsersync.google.com
 203.208.45.206 browsersync.l.google.com
-203.208.45.206 bt26mravu2qpe56n8gnmjnpv2inl84bf-a-oz-opensocial.googleusercontent.com
 203.208.45.206 bt26mravu2qpe56n8gnmjnpv2inl84bf-a-oz-opensocial.googleusercontent.com
 203.208.45.206 cache.pack.google.com
 203.208.45.206 calendar.google.com
@@ -263,15 +256,12 @@ fe80::1%lo0	localhost
 203.208.45.206 csi.gstatic.com
 203.208.45.206 csi.l.google.com
 203.208.45.206 debh8vg7vd93bco3prdajidmm7dhql3f-a-oz-opensocial.googleusercontent.com
-203.208.45.206 debh8vg7vd93bco3prdajidmm7dhql3f-a-oz-opensocial.googleusercontent.com
-203.208.45.206 desktop.google.com
 203.208.45.206 desktop.google.com
 203.208.45.206 desktop.google.com.hk
 203.208.45.206 desktop.l.google.com
 203.208.45.206 desktop2.google.com
 203.208.45.206 ditu.google.cn
 203.208.45.206 ditu.google.com
-203.208.45.206 dl.google.com
 203.208.45.206 dl.google.com
 203.208.45.206 dl.l.google.com
 203.208.45.206 doc-00-7o-docs.googleusercontent.com
@@ -295,7 +285,6 @@ fe80::1%lo0	localhost
 203.208.45.206 domains.googlesyndication.com
 203.208.45.206 earth-api-samples.googlecode.com
 203.208.45.206 earth.google.com
-203.208.45.206 earth.google.com
 203.208.45.206 encrypted-tbn.l.google.com
 203.208.45.206 encrypted-tbn0.google.com
 203.208.45.206 encrypted-tbn1.google.com
@@ -304,15 +293,12 @@ fe80::1%lo0	localhost
 203.208.45.206 encrypted.google.com
 203.208.45.206 encrypted.google.com.hk
 203.208.45.206 feedback.googleusercontent.com
-203.208.45.206 feedback.googleusercontent.com
 203.208.45.206 feedburner.google.com
 203.208.45.206 feedproxy.google.com
 203.208.45.206 feeds.feedburner.com
 203.208.45.206 finance.google.com
 203.208.45.206 fonts.googleapis.com
-203.208.45.206 fonts.googleapis.com
 203.208.45.206 g.co
-203.208.45.206 g0.gstatic.com
 203.208.45.206 g0.gstatic.com
 203.208.45.206 g1.gstatic.com
 203.208.45.206 g2.gstatic.com
@@ -338,14 +324,9 @@ fe80::1%lo0	localhost
 203.208.45.206 groups.google.com
 203.208.45.206 gv-gadget.appspot.com
 203.208.45.206 hsco54a20sh11q9jkmb51ad2n3hmkmrg-a-oz-opensocial.googleusercontent.com
-203.208.45.206 hsco54a20sh11q9jkmb51ad2n3hmkmrg-a-oz-opensocial.googleusercontent.com
-203.208.45.206 i8brh95qor6r54nkl52hidj2ggcs4jgm-a-oz-opensocial.googleusercontent.com
 203.208.45.206 i8brh95qor6r54nkl52hidj2ggcs4jgm-a-oz-opensocial.googleusercontent.com
 203.208.45.206 id.google.cn
-203.208.45.206 id.google.cn
 203.208.45.206 id.google.com
-203.208.45.206 id.google.com
-203.208.45.206 id.google.com.hk
 203.208.45.206 id.google.com.hk
 203.208.45.206 id.l.google.com
 203.208.45.206 images-docs-opensocial.googleusercontent.com
@@ -355,7 +336,6 @@ fe80::1%lo0	localhost
 203.208.45.206 images-pos-opensocial.googleusercontent.com
 203.208.45.206 images.google.com
 203.208.45.206 images.google.com.hk
-203.208.45.206 images0-focus-opensocial.googleusercontent.com
 203.208.45.206 images0-focus-opensocial.googleusercontent.com
 203.208.45.206 images1-focus-opensocial.googleusercontent.com
 203.208.45.206 images2-focus-opensocial.googleusercontent.com
@@ -367,7 +347,6 @@ fe80::1%lo0	localhost
 203.208.45.206 images8-focus-opensocial.googleusercontent.com
 203.208.45.206 images9-focus-opensocial.googleusercontent.com
 203.208.45.206 jmt0.google.com
-203.208.45.206 k6v18tjr24doa89b55o3na41kn4v73eb-a-oz-opensocial.googleusercontent.com
 203.208.45.206 k6v18tjr24doa89b55o3na41kn4v73eb-a-oz-opensocial.googleusercontent.com
 203.208.45.206 kh.google.com
 203.208.45.206 kh.l.google.com
@@ -381,8 +360,6 @@ fe80::1%lo0	localhost
 203.208.45.206 khms.google.com
 203.208.45.206 khms.l.google.com
 203.208.45.206 khms0.google.com
-203.208.45.206 khms0.google.com
-203.208.45.206 khms1.google.com
 203.208.45.206 khms1.google.com
 203.208.45.206 khms2.google.com
 203.208.45.206 khms3.google.com
@@ -428,7 +405,6 @@ fe80::1%lo0	localhost
 203.208.45.206 mt2.gstatic.com
 203.208.45.206 mt3.google.cn
 203.208.45.206 mt3.google.com
-203.208.45.206 mt3.google.com
 203.208.45.206 mt3.gstatic.com
 203.208.45.206 mt4.gstatic.com
 203.208.45.206 mt5.gstatic.com
@@ -437,8 +413,6 @@ fe80::1%lo0	localhost
 203.208.45.206 mts.google.com
 203.208.45.206 mts.l.google.com
 203.208.45.206 mts0.google.com
-203.208.45.206 mts0.google.com
-203.208.45.206 mts1.google.com
 203.208.45.206 mts1.google.com
 203.208.45.206 mts2.google.com
 203.208.45.206 mts3.google.com
@@ -446,29 +420,21 @@ fe80::1%lo0	localhost
 203.208.45.206 music.googleusercontent.cn
 203.208.45.206 mw1.google.com
 203.208.45.206 mw2.google.com
-203.208.45.206 mw2.google.com
 203.208.45.206 news.google.com
 203.208.45.206 newsfeed-dot-latest-dot-rovio-ad-engine.appspot.com
 203.208.45.206 nt0.ggpht.com
-203.208.45.206 nt0.ggpht.com
-203.208.45.206 nt1.ggpht.com
 203.208.45.206 nt1.ggpht.com
 203.208.45.206 nt2.ggpht.com
-203.208.45.206 nt2.ggpht.com
-203.208.45.206 nt3.ggpht.com
 203.208.45.206 nt3.ggpht.com
 203.208.45.206 nt4.ggpht.com
 203.208.45.206 nt5.ggpht.com
 203.208.45.206 oauth.googleusercontent.com
 203.208.45.206 ob7f2qc0i50kbjnc81vkhgmb5hsv7a8l-a-oz-opensocial.googleusercontent.com
-203.208.45.206 ob7f2qc0i50kbjnc81vkhgmb5hsv7a8l-a-oz-opensocial.googleusercontent.com
 203.208.45.206 ode25pfjgmvpquh3b1oqo31ti5ibg5fr-a-calendar-opensocial.googleusercontent.com
 203.208.45.206 photos-ugc.l.google.com
 203.208.45.206 photos.google.com
 203.208.45.206 picasa.google.com
-203.208.45.206 picasa.google.com
 203.208.45.206 picasaweb.google.com
-203.208.45.206 picasaweb.google.com.hk
 203.208.45.206 picasaweb.google.com.hk
 203.208.45.206 picasaweb.l.google.com
 203.208.45.206 places.google.com
@@ -478,16 +444,13 @@ fe80::1%lo0	localhost
 203.208.45.206 profiles.google.com
 203.208.45.206 project-slingshot-gp.appspot.com
 203.208.45.206 qhie5b8u979rnch1q0hqbrmbkn9estf7-a-oz-opensocial.googleusercontent.com
-203.208.45.206 qhie5b8u979rnch1q0hqbrmbkn9estf7-a-oz-opensocial.googleusercontent.com
 203.208.45.206 r2303.latest.project-slingshot-hr.appspot.com
 203.208.45.206 r3085-dot-latest-dot-project-slingshot-gp.appspot.com
 203.208.45.206 r3091-dot-latest-dot-project-slingshot-gp.appspot.com
 203.208.45.206 r3101-dot-latest-dot-project-slingshot-gp.appspot.com
 203.208.45.206 r70rmsn4s0rhk6cehcbbcbfbs31pu0va-a-oz-opensocial.googleusercontent.com
-203.208.45.206 r70rmsn4s0rhk6cehcbbcbfbs31pu0va-a-oz-opensocial.googleusercontent.com
 203.208.45.206 r8.pek01s01.c.youtube.com
 203.208.45.206 r9.pek01s01.c.youtube.com
-203.208.45.206 rbjhe237k979f79d87gmenp3gejfonu9-a-oz-opensocial.googleusercontent.com
 203.208.45.206 rbjhe237k979f79d87gmenp3gejfonu9-a-oz-opensocial.googleusercontent.com
 203.208.45.206 s.youtube.com
 203.208.45.206 s.ytimg.com
@@ -521,17 +484,11 @@ fe80::1%lo0	localhost
 203.208.45.206 static.cache.l.google.com
 203.208.45.206 static.googleusercontent.com
 203.208.45.206 suggestqueries.google.com
-203.208.45.206 suggestqueries.google.com
 203.208.45.206 suggestqueries.l.google.com
 203.208.45.206 t0.gstatic.com
-203.208.45.206 t0.gstatic.com
-203.208.45.206 t1.gstatic.com
 203.208.45.206 t1.gstatic.com
 203.208.45.206 t2.gstatic.com
-203.208.45.206 t2.gstatic.com
 203.208.45.206 t3.gstatic.com
-203.208.45.206 t3.gstatic.com
-203.208.45.206 themes.googleusercontent.com
 203.208.45.206 themes.googleusercontent.com
 203.208.45.206 toolbar.google.com
 203.208.45.206 toolbarqueries.clients.google.com
@@ -543,8 +500,6 @@ fe80::1%lo0	localhost
 203.208.45.206 translate.googleapis.com
 203.208.45.206 translate.googleusercontent.com
 203.208.45.206 u807isd5egseeabjccgcns005p2miucq-a-oz-opensocial.googleusercontent.com
-203.208.45.206 u807isd5egseeabjccgcns005p2miucq-a-oz-opensocial.googleusercontent.com
-203.208.45.206 upt14k1i2veesusrda9nfotcrbp9d7p5-a-oz-opensocial.googleusercontent.com
 203.208.45.206 upt14k1i2veesusrda9nfotcrbp9d7p5-a-oz-opensocial.googleusercontent.com
 203.208.45.206 video-stats.l.google.com
 203.208.45.206 video.google.com
@@ -569,7 +524,6 @@ fe80::1%lo0	localhost
 203.208.45.206 www-oz-opensocial.googleusercontent.com
 203.208.45.206 www.gmail.com
 203.208.45.206 www.google-analytics.com
-203.208.45.206 www.google-analytics.com
 203.208.45.206 www.google.cn
 203.208.45.206 www.google.com.hk
 203.208.45.206 www.googleadservices.com
@@ -577,7 +531,6 @@ fe80::1%lo0	localhost
 203.208.45.206 www.googlelabs.com
 203.208.45.206 www.googleusercontent.com
 203.208.45.206 www.gstatic.cn
-203.208.45.206 www.gstatic.com
 203.208.45.206 www.gstatic.com
 203.208.45.206 www.l.google.com
 203.208.45.206 www0.l.google.com
@@ -8266,6 +8219,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 up.kuwan8.com
 0.0.0.0 up1.kuwan8.com
 0.0.0.0 up3.kuwan8.com
+#Keyyou
+0.0.0.0 pic.keyyou.net
+0.0.0.0 t1.keyyou.net
+0.0.0.0 c1.keyyou.net
 #Keyrun
 0.0.0.0 linkpage.cn
 0.0.0.0 code.51link.com
@@ -9706,7 +9663,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www2.zjbdt.com
 0.0.0.0 www1.zjbdt.com
 0.0.0.0 qq.ting90.com
-0.0.0.0 img.371gw.com
 0.0.0.0 www.sese860.info
 0.0.0.0 www.kk21.info
 @HostsX 可疑行为拦截/弹窗屏蔽
@@ -9877,6 +9833,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 static.irs09.com
 0.0.0.0 360.sharele.cn
 0.0.0.0 un.sharele.cn
+0.0.0.0 img.371gw.com
+0.0.0.0 p.371gw.com
+0.0.0.0 code.116b.com
+0.0.0.0 tt.116b.com
 #恶意弹窗
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -9907,6 +9867,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ad.f1.com.tw
 0.0.0.0 ad.greedland.net
 0.0.0.0 ad.hylzad.com
+0.0.0.0 ad.ki33.info
 0.0.0.0 ad.leetoou.com
 0.0.0.0 ad.letdoo.com
 0.0.0.0 ad.networld.hk
@@ -9923,11 +9884,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ads.im286.com
 0.0.0.0 ads.youshang.com
 0.0.0.0 adv.imhb.cn
+0.0.0.0 aff.boundgods.com
 0.0.0.0 aj.tg.niux88.com
 0.0.0.0 allyes.the9.com
 0.0.0.0 am.6park.com
 0.0.0.0 aperture.displaymarketplace.com
 0.0.0.0 api.flash45.com
+0.0.0.0 b.ax91.com
 0.0.0.0 benchic.9966.org
 0.0.0.0 bt.52yeyou.com
 0.0.0.0 bto.52yeyou.com
@@ -9949,6 +9912,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 click.moonbasa.com
 0.0.0.0 cn.88db.com
 0.0.0.0 code.51sotu.com
+0.0.0.0 code.77union.cn
 0.0.0.0 code.ceyunshi.cn
 0.0.0.0 code.comuce.com
 0.0.0.0 code.myxmdh.com
@@ -9988,6 +9952,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ftxy.528day.com
 0.0.0.0 ftxy.qq437.cn
 0.0.0.0 g.175pt.com
+0.0.0.0 g.656864ss.com
 0.0.0.0 g.91mangrandi.com
 0.0.0.0 g.91sanguo.cn
 0.0.0.0 g.9444.com
@@ -10052,6 +10017,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.tuigoo.com
 0.0.0.0 js.union001.com
 0.0.0.0 js1.union001.cn
+0.0.0.0 jump.100yl.net
 0.0.0.0 jzzy.mttmtt.com
 0.0.0.0 k2.cy2009.com
 0.0.0.0 k4.cy2009.com
@@ -10116,6 +10082,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 res.9dzc.com
 0.0.0.0 res.sa20.com
 0.0.0.0 res.yytou.cn
+0.0.0.0 res001.kogo12345.com
 0.0.0.0 resmkt.dipan.com
 0.0.0.0 s.1634399.com
 0.0.0.0 s.1717388.com
@@ -10135,6 +10102,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 statistic.5ding.com
 0.0.0.0 syjcq.com
 0.0.0.0 sz.198game.com
+0.0.0.0 t.100tjs.com
 0.0.0.0 t.15yl.com
 0.0.0.0 t.1stcngame.com
 0.0.0.0 t.37lai.com
@@ -10301,11 +10269,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www1.leeuu.net
 0.0.0.0 www1.xman.cn
 0.0.0.0 www21.hlggtc.com
+0.0.0.0 www5.admin88.com
 0.0.0.0 www5.yx.xkwan.com
 0.0.0.0 www7.54rich.net
 0.0.0.0 wx.klonweb.com.cn
 0.0.0.0 x.17iw.com
 0.0.0.0 x.cc190.com
+0.0.0.0 x.rt97.org
 0.0.0.0 xc.ewtang.com
 0.0.0.0 xs.mingbu.net
 0.0.0.0 xt.junnew.com
@@ -10318,9 +10288,3 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
-0.0.0.0 x.rt97.org
-0.0.0.0 b.ax91.com
-0.0.0.0 g.656864ss.com
-0.0.0.0 res001.kogo12345.com
-0.0.0.0 ad.ki33.info
-0.0.0.0 aff.boundgods.com
