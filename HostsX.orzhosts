@@ -1,4 +1,4 @@
-;version=201110141000
+;version=201110141014
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8109,6 +8109,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 unionadmin.cnzz.com
 0.0.0.0 updateimcnzz.cnzz.com
 0.0.0.0 v1.cnzz.com
+0.0.0.0 cache.adm.cnzz.net
 0.0.0.0 v10.cnzz.com
 0.0.0.0 v11.cnzz.com
 0.0.0.0 v12.cnzz.com
@@ -10288,3 +10289,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
+0.0.0.0 ff.wanlicity.com
