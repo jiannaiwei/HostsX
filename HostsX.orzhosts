@@ -1,4 +1,4 @@
-;version=201110141014
+;version=201110162124
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8561,6 +8561,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
 0.0.0.0 zdy.cc
+#zhubajie
+0.0.0.0 union.zhubajie.com
+0.0.0.0 list.zhubajie.com
+0.0.0.0 un.zhubajie.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 game.baofeng.com

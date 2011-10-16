@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 2.97
+Version: 2.98
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -35,7 +35,7 @@ display: none !important;
 	}
 div[class=ad],.rec_text,.aXd,.adinfo,#adcontent,#header_ads,table[class="header_gg"],
 div[class="advertising"],div[class="ggarea clearfix"],div[class^="con_ad"],div[class^="bt_ad"]
-div[id^="AdLayer"],div[class^="advlist"],div[class="advdiv"]{
+div[id^="AdLayer"],div[class^="advlist"],div[class="advdiv"],div[class="ad-bar"]{
 display: none !important;
 	}
 	
