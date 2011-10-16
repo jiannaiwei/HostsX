@@ -16,7 +16,7 @@
 //
 // ("no monies exchanged" in Copyright clause removed 11/2001)
 //
-var noadsver = "$Id: no-ads.pac,v 5.95 2011/04/13 01:12:42 loverso Exp loverso $";
+var noadsver = "$Id: no-ads.pac,v 5.96 2011/10/04 12:55:07 loverso Exp loverso $";
 
 // ****
 // **** If you do not use a proxy to access the Internet, then the following
@@ -502,7 +502,7 @@ var bypass = normal;
 
 var re_banner  = /[/]([^/]*?)(advert|adimage|adframe|adserv|admentor|adview|banner|popup|popunder|media\/subtract)s?/i;
 
-var re_banner_white  = /popupmenu\.css|loginpopup|bannerbomb|popup\.lala\.com\//i;
+var re_banner_white  = /popupplayer|popupmenu\.css|loginpopup|bannerbomb|popup\.lala\.com\//i;
 
 // try to not block guids containing '...-ad...'
 var re_banner2 = /[/](?!no-ads)([^/]*?([^0-9/][^-/]))?(\b|[_])(ad[s]?)(\b|[_0-9])/i;
@@ -536,7 +536,7 @@ var re_crud = /www\.\w+\.com\/image-\d+-\d+$/;
 //	popup.foo.bar
 
 // matched against hostname
-var re_whitelist_domains = /\.(adirondack\..*|kintera\.org|sprintpcs\.com|adp\.com|lego\.com|dell\.com|mozdev\.org|mozilla\.org|fidelity\.com|tirerack\.com|titantv\.com|lala\.com|sprint\.com|nextel\.com|rit\.edu|mididb\.com|sony\.tv)$/i;
+var re_whitelist_domains = /(^|\.)(adirondack\..*|kintera\.org|sprintpcs\.com|adp\.com|lego\.com|dell\.com|mozdev\.org|mozilla\.org|fidelity\.com|tirerack\.com|titantv\.com|lala\.com|sprint\.com|nextel\.com|verizon\.com\||rit\.edu|mididb\.com|sony\.tv|adf\.ly)$/i;
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -590,7 +590,7 @@ function FindProxyForURL(url, host)
     // Adding rules here enables the use of 'local'
     //
     if (0
-	// LOCAL
+	//LOCAL-RULES
 	// add rules such as:
   	//	|| dnsDomainIs(host, "schooner.com")
 	//	|| isPlainHostName(host)
@@ -607,7 +607,7 @@ function FindProxyForURL(url, host)
     // Add sites here that should never be matched for ads.
     //
     if (0
-	// WHITELIST
+	//WHITELIST-RULES
     	// To add whitelist domains, simple add a line such as:
   	//	|| dnsDomainIs(host, "schooner.com")
 	// or for a single host
@@ -649,7 +649,7 @@ function FindProxyForURL(url, host)
     // The sites below are ones I currently block.  Tell me of others you add!
 
     if (0
-	// BLOCK
+	//BLOCK-RULES
 	//DEBUG2 || alert("start")
 
 	// Block IE4/5 "favicon.ico" fetches
@@ -1423,12 +1423,14 @@ function FindProxyForURL(url, host)
 	|| dnsDomainIs(host, "pussygreen.com")
 	|| dnsDomainIs(host, "livejasmin.com")
 	|| dnsDomainIs(host, "imlive.com")
+	|| dnsDomainIs(host, "ihookup.com")
 
 	|| (dnsDomainIs(host, ".shufuni.com")
 	    && (   shExpMatch(url, "*images/activepage*")
 	    )
 	)
 
+	//EXTRA-BLOCK-RULES
     ) {
 	//LOG2 alert("no-ads blocking: " + url);
 
@@ -1462,7 +1464,7 @@ if (0) {
 		"	normal:		"+normal+"\n" +
 		"	localproxy:	"+localproxy+"\n" +
 		"	bypass:		"+bypass+"\n"
-		// MSG
+		//MSG
 	);
 }
 
