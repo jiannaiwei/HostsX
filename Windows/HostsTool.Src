@@ -1,5 +1,5 @@
 @echo off
-set ver=2.9
+set ver=2.97
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
