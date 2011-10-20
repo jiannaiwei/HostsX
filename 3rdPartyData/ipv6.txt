@@ -10,7 +10,7 @@
 # 5/7 v*.lscache*.l.google.com IP 地址变更（youtube 视频储存服务器除外，谁有日本 yt 的 IP 告诉我- -），由日本东京改为澳洲悉尼，速度我测试变快了
  # 5/10 更新 v*.lscache*.c.google.com 感谢 JL Hwung 的提供
  # 7/12 《电脑报》你威武！（2010年7月12日G14版第四列）
- # 您正在查看的版本更新于 2011-09-21；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
+ # 您正在查看的版本更新于 2011-10-019；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
 #顺便提供能够解析出 Google IPv6 地址的 DNS 服务器 (其 ISP 已加入 Google over IPv6 计划)，这样不需要修改 hosts，只需改变本机 DNS 设置就可以自动解析出 IPv6 地址，由HE提供：2001:470:20::2 ordns.he.net (ipv6) 74.82.42.42 (ipv4，在内地可能会遭污染，可以和本 hosts 文件配合使用 by www.lostriver.net)
 #最近好像有0.5不停的在举报本文有不适宜内容（滥用行为），然后接连收到10余封google发来的本文审核通过可以发表的邮件，建议大家备份一下本文，免得某些人把本文404，reset什么的之类- -
 #用文本编辑器打开hosts文件，将以下内容复制进去，保存即可（hosts 文件没有后缀）
@@ -4211,6 +4211,7 @@ ipv6.freeipv6.info
 2001:778:0:ffff:64:0:42dc:9747 5-12.channel.facebook.com
 2001:778:0:ffff:64:0:42dc:9747 6-12.channel.facebook.com
 2001:778:0:ffff:64:0:5435:a7ce s-external.ak.fbcdn.net
+2001:778:0:ffff:64:0:42dc:9a1d hphotos-iad1.fbcdn.net
 2001:778:0:ffff:64:0:453f:b897 hphotos-ash1.fbcdn.net
 2001:778:0:ffff:64:0:42dc:9a23 hphotos-ash2.fbcdn.net
 2001:778:0:ffff:64:0:45ab:f00a hphotos-ash4.fbcdn.net
@@ -4248,6 +4249,66 @@ ipv6.freeipv6.info
 2001:778:0:ffff:64:0:c12d:f88 photos-p.ak.fbcdn.net
 2001:778:0:ffff:64:0:c12d:f90 photos-t.ak.fbcdn.net
 2001:778:0:ffff:64:0:c12d:f90 photos-x.ak.fbcdn.net#photos-d.ak.facebook.com.edgesuite.net
+2001:778:0:ffff:64:0:5c7b:4491	a1.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:449b	a1.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44a2	a1.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44a3	a1.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44a9	a1.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44ab	a1.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44b1	a1.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:446b	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4473	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4479	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:447a	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4480	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4481	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4498	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:449a	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44a0	a2.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4510	a3.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4520	a3.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4523	a3.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:452b	a3.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:450a	a4.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:450b	a4.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4528	a4.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4529	a4.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4469	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4471	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4473	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4491	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:449a	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44a0	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44a1	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44a2	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44b1	a5.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:446a	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4473	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4478	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:447a	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:447b	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4482	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4483	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:448a	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44b3	a6.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4d9	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4db	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4e3	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d509	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d513	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d522	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d523	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d529	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d52a	a7.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4c9	a8.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4ca	a8.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4d1	a8.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4e2	a8.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4ea	a8.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d4fa	a8.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d508	a8.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d509	a8.sphotos.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7a:d52b	a8.sphotos.ak.fbcdn.net
 2001:778:0:ffff:64:0:40d6:ce19 profile.ak.fbcdn.net
 2001:778:0:ffff:64:0:40d6:ce1a profile.ak.fbcdn.net
 2001:778:0:ffff:64:0:40d6:ce20 profile.ak.fbcdn.net
@@ -4259,6 +4320,15 @@ ipv6.freeipv6.info
 2001:778:0:ffff:64:0:40d6:ce18 profile.ak.fbcdn.net
 2001:778:0:ffff:64:0:5c7b:442b static.ak.fbcdn.net
 2001:778:0:ffff:64:0:5c7b:4422 static.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4478 vthumb.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:447b vthumb.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4481 vthumb.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4483 vthumb.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:448b vthumb.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4498 vthumb.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:4499 vthumb.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:449a vthumb.ak.fbcdn.net
+2001:778:0:ffff:64:0:5c7b:44b0 vthumb.ak.fbcdn.net
 2001:778:0:ffff:64:0:c12d:f58 fbcdn-photos-a.akamaihd.net
 2001:778:0:ffff:64:0:c12d:f59 fbcdn-photos-a.akamaihd.net
 2001:778:0:ffff:64:0:c12d:f60 fbcdn-photos-a.akamaihd.net
@@ -4275,6 +4345,15 @@ ipv6.freeipv6.info
 2001:778:0:ffff:64:0:5c7a:d4fb fbcdn-sphotos-a.akamaihd.net
 2001:778:0:ffff:64:0:5c7a:d4e0 fbcdn-sphotos-a.akamaihd.net
 2001:778:0:ffff:64:0:5c7a:d4e2 fbcdn-sphotos-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:4470 fbcdn-vthumb-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:4472 fbcdn-vthumb-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:447b fbcdn-vthumb-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:4483 fbcdn-vthumb-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:4488 fbcdn-vthumb-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:448b fbcdn-vthumb-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:4498 fbcdn-vthumb-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:44b0 fbcdn-vthumb-a.akamaihd.net
+2001:778:0:ffff:64:0:5c7b:44b3 fbcdn-vthumb-a.akamaihd.net
 #Twitter
 2001:778:0:ffff:64:0:c73b:95e6 twitter.com
 2001:778:0:ffff:64:0:c73b:940a twitter.com
@@ -5145,3 +5224,4 @@ ipv6.freeipv6.info
 ###IPv6 代理翻墙
 #IPv6 HTTP 代理：gfw-proxy.co.cc:3128
 2607:fcd0:1337:4b::2 gfw-proxy.co.cc
+

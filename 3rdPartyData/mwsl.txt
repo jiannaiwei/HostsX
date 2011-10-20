@@ -1,12 +1,20 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.9.26
+恶意网站HOSTS屏蔽文件-2011.10.17
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
 警告：不得将此数据用于违法犯罪行为！
 ---------------------------------------
 All Rights Reserved 2007-2011
+***************************************
+59.151.106.253 operachina.com
+59.151.106.253 www.operachina.com
+59.151.106.253 bbs.operachina.com
+59.151.106.253 wiki.operachina.com
+59.151.106.253 press.operachina.com
+59.151.106.253 redir.operachina.com
+59.151.106.253 static.operachina.com
 ***************************************
 127.0.0.1 localhost
 0.0.0.0 www.8wt.com
@@ -8519,7 +8527,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 www.0551pop.com
 0.0.0.0 4j3j.cn
 0.0.0.0 baidu828.8866.org
-0.0.0.0 www.hfbus.cn
 0.0.0.0 www.bobo.3ggss.com
 0.0.0.0 www.guaptelnet.com.br
 0.0.0.0 4.wwwddd.net
@@ -13819,7 +13826,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 yahcoo.top.to
 0.0.0.0 www.2476.com
 0.0.0.0 piensaingles.com
-0.0.0.0 www.byeserver.com
 0.0.0.0 liao.w4.8868.in
 0.0.0.0 dl.cjr001.com
 0.0.0.0 url.cjr001.com
@@ -14717,6 +14723,7 @@ All Rights Reserved 2007-2011
 0.0.0.0 elg.2288.org
 0.0.0.0 app2.tsmon.co.kr
 0.0.0.0 arryada.info
+0.0.0.0 www.byeserver.com
 0.0.0.0 img.soft.mail.ru
 0.0.0.0 arama.edu.tc
 0.0.0.0 ad.7er9w3kijs4.info
@@ -14737,3 +14744,79 @@ All Rights Reserved 2007-2011
 0.0.0.0 al.myrice.com
 0.0.0.0 tdown.tdown123.info
 0.0.0.0 english.foodqs.cn
+0.0.0.0 vip.976.cc
+0.0.0.0 ia.qxoh.info
+0.0.0.0 www.xjfl.com
+0.0.0.0 gcba.biz
+0.0.0.0 down.netbarad.net
+0.0.0.0 w.light2012.info
+0.0.0.0 www.aimeidao.net
+0.0.0.0 we.qxoh.info
+0.0.0.0 3dw33.co.cc
+0.0.0.0 weibobx.sg.tf
+0.0.0.0 v.taogu.org.cn
+0.0.0.0 www.cpc.pa.gov.br
+0.0.0.0 lovertext.com
+0.0.0.0 www.zhengtu328.com
+0.0.0.0 www.xiaoyuanju.com
+0.0.0.0 www.alisousou.com
+0.0.0.0 mike.markaz-royal.net
+0.0.0.0 www.zntt13.com
+0.0.0.0 mm.ppzy.com
+0.0.0.0 bbsk.6600.org
+0.0.0.0 wt5.softwiki.cn
+0.0.0.0 polkp.tk
+0.0.0.0 dvdmp4.net
+0.0.0.0 www.98fs.tk
+0.0.0.0 www.comanqq.com
+0.0.0.0 hdions.be
+0.0.0.0 xx2011.s.3322.net
+0.0.0.0 www.zutuanmai.com
+0.0.0.0 www.338703.com
+0.0.0.0 japonesavirtual.qipim.ru
+0.0.0.0 kotelvb.ru
+0.0.0.0 amigosejogos.com
+0.0.0.0 bestnzb.com
+0.0.0.0 moondawgsjokeoftheweek.com
+0.0.0.0 www.330900.com
+0.0.0.0 www.eugenioc-club.com
+0.0.0.0 t.100tjs.com
+0.0.0.0 www.ypindia.com
+0.0.0.0 img9.1133.cc
+0.0.0.0 file.jxxyshoping.com
+0.0.0.0 datehotwomen.info
+0.0.0.0 weitaipacking.com
+0.0.0.0 uimg.unionli.com
+0.0.0.0 camplaces.net
+0.0.0.0 www.dobreliny.pl
+0.0.0.0 www.ipod-hacking.com
+0.0.0.0 www.livingradiantly.com
+0.0.0.0 s1nawei5.3322.org
+0.0.0.0 foto-screen.org
+0.0.0.0 utechwatch.com
+0.0.0.0 b66.4dq.com
+0.0.0.0 savebotstat.com
+0.0.0.0 alphabyte.info
+0.0.0.0 www.vanwiches.co.uk
+0.0.0.0 www.eoeoyouxi.com
+0.0.0.0 videoslegais000.000a.de
+0.0.0.0 colegioiso.com.br
+0.0.0.0 www.jcwz.net
+0.0.0.0 ru.letmedo.net
+0.0.0.0 360llq.net
+0.0.0.0 bigfoot.duoynn.com
+0.0.0.0 hao654321.com
+0.0.0.0 liujunnan000.hljvip.net
+0.0.0.0 www.552200.com
+0.0.0.0 pic.woniu666.com
+0.0.0.0 d1.youxi.31dj.com
+0.0.0.0 dl.playvcd.net
+0.0.0.0 img.qiyou.com
+0.0.0.0 dx65.newyx.net
+0.0.0.0 jump.989game.com
+0.0.0.0 hanson.net9.org
+0.0.0.0 www.avawg.com
+0.0.0.0 123.greenhome001.com.cn
+0.0.0.0 qq4934109.dydisk.com
+0.0.0.0 pic.ulink.cc
+0.0.0.0 d.qzone6.com
