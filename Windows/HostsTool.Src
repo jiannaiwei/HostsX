@@ -1,5 +1,5 @@
 @echo off
-set ver=2.981
+set ver=2.982
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -31,6 +31,7 @@ cls
 
 :gui
 del /f /q HostsX.orzhosts echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt>nul 2>nul
+if "%1" == "/g" goto:Google
 if "%1" == "/6" goto:ipv6
 if "%1" == "/f" goto:fixhosts
 if not exist consext.exe goto dftvbs
@@ -96,7 +97,7 @@ if %y% equ 19 if %x% gtr  12 if %x% lss 56 echo Del All IE donot Turst Site &pau
 if %y% equ 21 if %x% gtr  12 if %x% lss 35 goto clean
 if %y% equ 21 if %x% gtr  12 if %x% lss 56 start explorer %etc% & goto gui
 if %y% equ 23 if %x% gtr  12 if %x% lss 35 goto AnDroid
-if %y% equ 23 if %x% gtr  12 if %x% lss 56 if not exist g.ico (wget  http://hostsx.googlecode.com/svn/trunk/iMonkey/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
+if %y% equ 23 if %x% gtr  12 if %x% lss 56 if not exist g.ico (wget  http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
 if %y% equ 25 if %x% gtr  12 if %x% lss 56 start explorer %~dp0 & goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 35 goto feedback
 if %y% equ 27 if %x% gtr  31 if %x% lss 56 goto :eof
@@ -302,8 +303,8 @@ echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack
 notepad GFeedBack.txt&cls&del GFeedBack.txt&goto gui
 
 :iecss
-wget http://hostsx.googlecode.com/svn/trunk/iMonkey/Custom.css
-wget http://hostsx.googlecode.com/svn/trunk/iMonkey/iecss.vbs
+wget http://hostsx.googlecode.com/svn/trunk/Windows/Custom.css
+wget http://hostsx.googlecode.com/svn/trunk/Windows/iecss.vbs
 start http://dayngo.com/static/filter.html
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
@@ -343,9 +344,12 @@ if %ggl%==203.208.46.%r% (echo IP获取失败，已手动设置) else echo IP获取成功!
 echo #GoogleIP >>%hosts%
 echo 203.208.46.180 www.google.com >>%hosts%
 echo 203.208.45.200 plus.google.com >>%hosts%
+echo %ggl% 0-focus-opensocial.googleusercontent.com >>%hosts%
+echo %ggl% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% accounts.google.com >>%hosts%
 echo %ggl% ajax.googleapis.com >>%hosts%
 echo %ggl% android.l.google.com >>%hosts%
+echo %ggl% a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% apis.google.com >>%hosts%
 echo %ggl% appengine.google.com >>%hosts%
 echo %ggl% bks0.books.google.com >>%hosts%
@@ -472,6 +476,7 @@ echo %ggl% nt1.ggpht.com >>%hosts%
 echo %ggl% nt2.ggpht.com >>%hosts%
 echo %ggl% nt3.ggpht.com >>%hosts%
 echo %ggl% oauth.googleusercontent.com >>%hosts%
+echo %ggl% ode25pfjgmvpquh3b1oqo31ti5ibg5fr-a-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% pack.google.cn >>%hosts%
 echo %ggl% pack.google.com >>%hosts%
 echo %ggl% picasa.google.com >>%hosts%
@@ -522,7 +527,7 @@ echo %ggl% translate.google.com >>%hosts%
 echo %ggl% translate.google.com.hk >>%hosts%
 echo %ggl% translate.googleapis.com >>%hosts%
 echo %ggl% uploadsj.clients.google.com >>%hosts%
-echo %ggl% 0-focus-opensocial.googleusercontent.com >>%hosts%
+echo %ggl% v8mq9slfbk1dglresapkg0i5f8pm64lc-a-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% video.google.cn >>%hosts%
 echo %ggl% video.google.com >>%hosts%
 echo %ggl% video.google.com.hk >>%hosts%
@@ -540,10 +545,6 @@ echo %ggl% www.gstatic.com >>%hosts%
 echo %ggl% www-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% www-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% www-oz-opensocial.googleusercontent.com >>%hosts%
-echo %ggl% a-oz-opensocial.googleusercontent.com >>%hosts%
-echo %ggl% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
-echo %ggl% ode25pfjgmvpquh3b1oqo31ti5ibg5fr-a-calendar-opensocial.googleusercontent.com >>%hosts%
-echo %ggl% v8mq9slfbk1dglresapkg0i5f8pm64lc-a-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% bt26mravu2qpe56n8gnmjnpv2inl84bf-a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% rbjhe237k979f79d87gmenp3gejfonu9-a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %ggl% k6v18tjr24doa89b55o3na41kn4v73eb-a-oz-opensocial.googleusercontent.com >>%hosts%
@@ -566,6 +567,7 @@ for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
 for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
 if %ytb%==203.208.46.181 (echo 获取失败，已手动设置) else echo Loading...
 echo #Youtube By FGQI >>%hosts%
+
 echo %ytb% youtube.com >>%hosts%
 echo %ytb% www.youtube.com >>%hosts%
 echo %ytb% gdata.youtube.com >>%hosts%
