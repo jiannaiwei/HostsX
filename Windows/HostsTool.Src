@@ -1,5 +1,5 @@
 @echo off
-set ver=2.97
+set ver=2.971
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -13,7 +13,7 @@ Rd "%a%\test_permissions"
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 set etc=%windir%\system32\drivers\etc
 set hosts=%windir%\system32\drivers\etc\hosts
-del /f /q echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt>nul 2>nul
+del /f /q HostsX.orzhosts echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt>nul 2>nul
 call :ipv6load
 if not exist %etc%\ md %etc%\ >nul
 call :unlock
