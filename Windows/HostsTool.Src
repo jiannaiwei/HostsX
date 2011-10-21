@@ -1,5 +1,5 @@
 @echo off
-set ver=2.971
+set ver=2.98
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -13,7 +13,6 @@ Rd "%a%\test_permissions"
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 set etc=%windir%\system32\drivers\etc
 set hosts=%windir%\system32\drivers\etc\hosts
-del /f /q HostsX.orzhosts echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt>nul 2>nul
 call :ipv6load
 if not exist %etc%\ md %etc%\ >nul
 call :unlock
@@ -31,6 +30,7 @@ if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice 
 cls
 
 :gui
+del /f /q HostsX.orzhosts echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt>nul 2>nul
 if "%1" == "/6" goto:ipv6
 if "%1" == "/f" goto:fixhosts
 if not exist consext.exe goto dftvbs
@@ -59,11 +59,11 @@ echo   【NTRefuse/拒绝权限】             【  IE  快速修复  】
 echo.
 echo   【NTCancel/取消权限】             【  IE  信任站点  】
 echo.
-echo   【Readit/设置为只读】             【  Hosts   目录  】
+echo   【Readit/设置为只读】             【 IE信任站点清空 】
 echo   ======================================================
-echo   【系统 垃圾文件清理】             【 ShortCut  修复 】
+echo   【系统 垃圾文件清理】             【  Hosts   目录  】
 echo.
-echo   【For AnDroid Hosts】
+echo   【For AnDroid Hosts】             【 ShortCut  修复 】
 echo.
 echo   当前目录：%~dp0
 echo.
@@ -90,12 +90,13 @@ if %y% equ 13 if %x% gtr  12 if %x% lss 56 goto iecss
 if %y% equ 15 if %x% gtr  12 if %x% lss 35 goto ntfsrefused
 if %y% equ 15 if %x% gtr  12 if %x% lss 56 goto fixie
 if %y% equ 17 if %x% gtr  12 if %x% lss 35 goto ntfscancle
-if %y% equ 17 if %x% gtr  12 if %x% lss 56 goto ie
+if %y% equ 17 if %x% gtr  12 if %x% lss 56 goto addietrust
 if %y% equ 19 if %x% gtr  12 if %x% lss 35 goto readonly
-if %y% equ 19 if %x% gtr  12 if %x% lss 56 start explorer %etc% & goto gui
+if %y% equ 19 if %x% gtr  12 if %x% lss 56 goto delietrust
 if %y% equ 21 if %x% gtr  12 if %x% lss 35 goto clean
-if %y% equ 21 if %x% gtr  12 if %x% lss 56 goto shortcut
+if %y% equ 21 if %x% gtr  12 if %x% lss 56 start explorer %etc% & goto gui
 if %y% equ 23 if %x% gtr  12 if %x% lss 35 goto AnDroid
+if %y% equ 23 if %x% gtr  12 if %x% lss 56 goto shortcut
 if %y% equ 25 if %x% gtr  12 if %x% lss 56 start explorer %~dp0 & goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 35 goto feedback
 if %y% equ 27 if %x% gtr  31 if %x% lss 56 goto :eof
@@ -272,6 +273,21 @@ echo Hosts文件权限设置完成！
 call :flushdns
 goto gui
 
+:addietrust
+echo We Used yoyo data(pgl.yoyo.org) and very thanks!
+wget http://hostsx.googlecode.com/svn/trunk/Windows/ie.txt
+echo   Adding non-malicious URL into your browser security zones.
+echo   Please wait……
+set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
+for /F %%a in (ie.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
+echo  New Data Has been added!&pause&goto menu
+
+:delietrust
+echo  Del All IE donot Turst Site
+pause
+reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
+goto menu
+
 :shortcut
 if not exist g.ico (wget  http://hostsx.googlecode.com/svn/trunk/iMonkey/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
 
@@ -301,8 +317,9 @@ reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zon
 goto gui
 
 :iecss
-wget  http://hostsx.googlecode.com/svn/trunk/iMonkey/Custom.css
-wget  http://hostsx.googlecode.com/svn/trunk/iMonkey/iecss.vbs
+wget http://hostsx.googlecode.com/svn/trunk/iMonkey/Custom.css
+wget http://hostsx.googlecode.com/svn/trunk/iMonkey/iecss.vbs
+start http://dayngo.com/static/filter.html
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
 :Updates
@@ -1485,7 +1502,7 @@ goto:eof
 :fixie
 title IE Optimization and Fix
 cls
-echo  Please close all about IE browser windows before your fix!
+echo  Please close your Internet Explorer !
 pause
 taskkill /F /IM iexplore.exe /T>nul 2>nul
 regsvr32 /s actxprxy.dll
