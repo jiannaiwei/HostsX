@@ -285,7 +285,7 @@ echo  New Data Has been added!&pause&goto gui
 
 :shortcutfix
 mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\G+ Hosts.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.Hotkey=""Ctrl+Shift+g"":b.IconLocation=""%~dp0\g.ico"":b.Description=""Hosts文件工具-A Little Monkey - MayBe the Best Hosts Tool"":b.Save:close")
-echo G+ Hosts桌面快捷方式已创建! 您可使用Ctrl+Shift+g快捷键操作！& choice /t 2 /d y /n >nul&goto gui
+echo G+ Hosts桌面快捷方式已创建! 您可使用Ctrl+Shift+g快捷键！& choice /t 2 /d y /n >nul&goto gui
 
 :feedback
 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
