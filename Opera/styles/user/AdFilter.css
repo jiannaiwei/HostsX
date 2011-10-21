@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 2.98
+Version: 2.982
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -21,10 +21,6 @@ div[class*="AdBox"],div[class^="adbox"],a[id*="_adbox"],div[class^="ad-box"],
 div[class^="adList"],ul[class^="adList"],div[class*="areaAd"],div[class^="adarea"]{
 display: none !important;
 	}
-div[id^="adbn_"],div[class^="adFrame"],ul[class$="adBlue"],div[class^="block_ad"],
-[class^="adNone"],[class$="adclass"],div[id="ads-bot"],div[id="ad-flash"]{
-display: none !important;
-	}
 div[id*="0_AD_1"],div[id^="ad0"],div[id^="ad1"],div[class^="ad1"],
 div[id^="AD4"],div[id^="AD5"] {
 display: none !important;
@@ -33,18 +29,28 @@ div[class^="ad336"],div[class="ad660"],div[class^="ad680"],div[class^="ad728"],
 div[class="ad750"],div[class^="ad760"],div[class="ad950"],div[class^="ad960"]{
 display: none !important;
 	}
-div[class=ad],.rec_text,.aXd,.adinfo,#adcontent,#header_ads,table[class="header_gg"],
-div[class="advertising"],div[class="ggarea clearfix"],div[class^="con_ad"],div[class^="bt_ad"]
-div[id^="AdLayer"],div[class^="advlist"],div[class="advdiv"],div[class="ad-bar"]{
+div[id^="AdLayer"],div[class^="advlist"],div[class^="adFrame"],div[class^="block_ad"],
+div[class^="bt_ad"],div[class^="con_ad"],[class^="adNone"],[class$="adclass"]{
 display: none !important;
 	}
-	
-/* GG规则 */
+div[class=ad],div[class="aXd"],div[class="ad-bar"],div[class="adinfo"],
+div[class="advdiv"],div[class="advertising"],div[class="yourad"]{
+display: none !important;
+	}
+div[id^="adbn_"],ul[class$="adBlue"],div[class="rec_text"],div[id="header_ads"],
+div[id="ad-flash"],div[id="adcontent"],div[id="ads-bot"],div[id="particular_ad"]{
+display: none !important;
+	}
+
+/* GG */
 [class^="colL gg"],[class^="l-gg"],div[class^="ggtop"],div[id="topgg"],
 div[class^="ggAD"],div[class*="gg-"],div[class="ggjs"],[id^="gg"] {
 display: none !important;
 	}
-div[class$="-gg"],div[class$="guanggao"]{display:none !important;}
+div[class$="-gg"],div[class$="guanggao"],div[class="ggarea clearfix"],table[class="header_gg"],
+div[id="hdggs"] {
+display: none !important;
+	}
 
 /* 方位广告*/
 [class*="top_ad"],div[id*="top_ad"],div[id*="AdTop"],div[class*="AdTop"],
@@ -83,14 +89,14 @@ div[class^="richMedia],div[id^="AdLayer"],div[id^="StreamMediaWrap"] {display: n
 
 /* 文字广告 */
 div[class^="adtext"],[id^="adText"],div[class*="ad_text"],[id*="ad_text"],
-div[class^="adtxt"],div[class^="adTxt"],ul[class="ad_doc_text"]{
+div[class^="adtxt"],div[class^="adTxt"],DIV[class*="ad-text"],div[id*="textad"]{
 display: none !important;
 	}
 [class*="textad"],[class*="TextAd"],[id^="text_ad"],[class*="word_ad"],
 div[class*="padd_t"],div[id^="adwords"],div[class$="turn_ad"] {
 display: none !important;
 	}
-DIV[class*="ad-text"],div[id*="textad"]{display: none !important;}
+ul[class="ad_doc_text"]{display: none !important;}
 
 /* 论坛广告和外链 */
 div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],
@@ -103,7 +109,7 @@ display: none !important;
 div[id^="thread_ads_"],.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
 div[style^="clear:both;margin:"],div[style^="position:relative;padding:"] { display:none !important }
 /* 签名过滤 */
-[class*="signature"],.sign,.postertext{display: none !important;}
+div[class^="sign0"],[class*="signature"],.sign,.postertext{display: none !important;}
 /* 论坛浮动过滤 */
 #bshareF,#ckepop,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
 
