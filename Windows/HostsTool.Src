@@ -364,7 +364,7 @@ REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls"
 echo 清除运行记录...
 reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f               
-echo 清除系统LJ完成! & choice /t 2 /d y /n >nul &goto menu
+echo 清除系统LJ完成! & choice /t 2 /d y /n >nul &goto gui
 
 :Google
 call :unlock
