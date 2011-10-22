@@ -1,5 +1,5 @@
 @echo off
-set ver=2.983
+set ver=2.985
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -62,7 +62,7 @@ echo   【NTCancel/取消权限】             【  IE  信任站点  】
 echo.
 echo   【Readit/设置为只读】             【 IE信任站点清空 】
 echo   ======================================================
-echo   【系统 垃圾文件清理】             【  Hosts   目录  】
+echo   【系统 垃圾文件清理】             【  顽固文件删除  】
 echo.
 echo   【For AnDroid Hosts】             【 ShortCut  修复 】
 echo.
@@ -76,7 +76,7 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  12 if %x% lss 35 start /min iexplore http://orztech.com/forms/3 &goto gui
+if %y% equ 1 if %x% gtr  12 if %x% lss 35 start explorer %etc% & goto gui
 if %y% equ 1 if %x% gtr  12 if %x% lss 56 call :flushdns & goto gui
 if %y% equ 4 if %x% gtr  12 if %x% lss 35 if not exist wget.exe (call :dftvbs) else (call :dftwget)&goto gui
 if %y% equ 4 if %x% gtr  12 if %x% lss 56 goto run
@@ -95,7 +95,7 @@ if %y% equ 17 if %x% gtr  12 if %x% lss 56 goto addietrust
 if %y% equ 19 if %x% gtr  12 if %x% lss 35 goto readonly
 if %y% equ 19 if %x% gtr  12 if %x% lss 56 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f &cls& goto gui
 if %y% equ 21 if %x% gtr  12 if %x% lss 35 goto clean
-if %y% equ 21 if %x% gtr  12 if %x% lss 56 start explorer %etc% & goto gui
+if %y% equ 21 if %x% gtr  12 if %x% lss 56 goto delit
 if %y% equ 23 if %x% gtr  12 if %x% lss 35 goto AnDroid
 if %y% equ 23 if %x% gtr  12 if %x% lss 56 if not exist g.ico (wget  http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
 if %y% equ 25 if %x% gtr  12 if %x% lss 56 start explorer %~dp0 & goto gui
@@ -289,7 +289,7 @@ echo G+ Hosts桌面快捷方式已创建! 您可使用Ctrl+Shift+g快捷键！& choice /t 2 /d y 
 
 :feedback
 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
-if exist Readme.txt (notepad Readme.txt) else (start /min iexplore http://orztech.com/forms/3)
+if exist Readme.txt (notepad Readme.txt) else (start /min iexplore http://orztech.com/softwares/hostsx/)
 echo 用户名：%username% >GFeedBack.txt
 echo 计算机名：%userdomain% >>GFeedBack.txt
 SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt
@@ -300,7 +300,33 @@ echo 遇到问题的网页地址：>>GFeedBack.txt
 echo. >>GFeedBack.txt
 echo. >>GFeedBack.txt
 echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
-notepad GFeedBack.txt&cls&del GFeedBack.txt&goto gui
+notepad GFeedBack.txt&start iexplore http://orztech.com/forms/3 &cls&del GFeedBack.txt&goto gui
+
+:delit
+mode con cols=60 lines=20
+echo.
+echo 		  【 Super Deleter 】
+echo 	        -----------------------
+echo.
+echo  专门快速删除那种不能打开、不能进入、不能删除的顽固目录。
+echo. Remove the kind of expertise can not be opened quickly, 
+echo.  can not enter, can not remove the stubborn directory
+echo 	注意：删除目录将同时删除其子目录中所有数据！
+echo Warning：Delete the directory will also delete all the data subdirectory!
+echo.
+set Choice=
+echo 	请将要删除的顽固目录直接拖入本窗口，然后回车:
+echo  Please stubborn to delete the directory directly  
+echo     dragged into the window,then press Enter:
+echo.
+set /p Choice=
+if ""%Choice%"" == "" goto menu
+echo y|Cacls ""%Choice%"" /c /t /p Everyone:f
+DEL /F /A /Q \\?\""%Choice%""
+RD /S /Q \\?\""%Choice%""
+echo.
+echo  删除完成! Delete done!
+pause&goto gui
 
 :iecss
 wget http://hostsx.googlecode.com/svn/trunk/Windows/Custom.css
