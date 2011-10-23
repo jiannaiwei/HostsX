@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 2.982
+Version: 2.983
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -139,7 +139,7 @@ div[class^="ad"][id^="div"],div[id^="pf_ad"],div[id$="adshow"],[id^="iframeAd"],
 a[class$="CloseX"],div[id="tikionly"],div[id^="followDiv"],div[id^="kxsoMovie"]{
 display: none !important;
 	}
-#box,.qqbox,#divQQbox,#adZljcRightBottomDiv,#feedback-box,#msg-faq{display: none !important;}
+.qqbox,#divQQbox,#adZljcRightBottomDiv,#feedback-box,#msg-faq{display: none !important;}
 #dnDownloadProgress,#qqaddiv,#ShowQQ,#SlipLay,#ty_msg_box{display: none !important;}
 
 /* 各种提示隐藏 */
