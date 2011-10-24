@@ -1,6 +1,6 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.10.17
+恶意网站HOSTS屏蔽文件-2011.10.24
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
@@ -14820,3 +14820,68 @@ All Rights Reserved 2007-2011
 0.0.0.0 qq4934109.dydisk.com
 0.0.0.0 pic.ulink.cc
 0.0.0.0 d.qzone6.com
+0.0.0.0 yduocthainguyen.org
+0.0.0.0 www.010991.com
+0.0.0.0 st4.cndwn.cn
+0.0.0.0 www.pejonfreight.com
+0.0.0.0 weaktrash.ru
+0.0.0.0 zt.0592hh.com
+0.0.0.0 www.266cf.com
+0.0.0.0 mayau.cn
+0.0.0.0 www.monclerjohanna.com
+0.0.0.0 feiliao.cc
+0.0.0.0 b67.4dq.com
+0.0.0.0 dl.airplayme.com
+0.0.0.0 www.uk-expat-pension.com
+0.0.0.0 www.92taojin.com
+0.0.0.0 serviec.2288.org
+0.0.0.0 c.nmgsrgsgg.com
+0.0.0.0 media.usw7.com
+0.0.0.0 175yo.com
+0.0.0.0 www.175yo.com
+0.0.0.0 www.interconexioncp.com
+0.0.0.0 brentnallfg.com
+0.0.0.0 bdengineers.co.ke
+0.0.0.0 love.803.cn
+0.0.0.0 fuduolai.com
+0.0.0.0 www.6188.com
+0.0.0.0 www.3neek.com
+0.0.0.0 dc440.4shared.com
+0.0.0.0 www.westcn.com
+0.0.0.0 www.zhile365.com
+0.0.0.0 nbnjki.com
+0.0.0.0 crr.2uc2.com
+0.0.0.0 gorycup.ru
+0.0.0.0 www.takeitoffweightloss.com
+0.0.0.0 dzmeritelshop.ru
+0.0.0.0 www.856567.com
+0.0.0.0 papertulip.ru
+0.0.0.0 bbs.vchina.com
+0.0.0.0 www.k432q.com
+0.0.0.0 78qqq.com
+0.0.0.0 ftp.my33home.com
+0.0.0.0 www.top-password.com
+0.0.0.0 hmy02.gicp.ne
+0.0.0.0 www.cannabisfx.com
+0.0.0.0 count.hfcp.net
+0.0.0.0 dlg.ns01.us
+0.0.0.0 show.ideatree.kr
+0.0.0.0 dl.sdflt.com
+0.0.0.0 124860823abc.hljvip.net
+0.0.0.0 ad.rjdl.net
+0.0.0.0 www.123bo.com
+0.0.0.0 www.amo.org.br
+0.0.0.0 vip8.com.nu
+0.0.0.0 cmp.woniu666.com
+0.0.0.0 bbs.jk136.com
+0.0.0.0 cp889.blogbus.com
+0.0.0.0 djn.ns01.us
+0.0.0.0 nostalgicfortomorrow.com
+0.0.0.0 gqdd.net
+0.0.0.0 n3w0rkutth3m3.viralhosts.com
+0.0.0.0 cazarecampina.com
+0.0.0.0 www.kv85.com
+0.0.0.0 www.uc97.com
+0.0.0.0 kbgoldfree.com
+0.0.0.0 static.droidnetwork.net
+0.0.0.0 www.leifeng99.com

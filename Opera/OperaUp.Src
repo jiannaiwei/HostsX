@@ -1,5 +1,5 @@
 @echo off
-set ver=1.5
+set ver=1.6
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 Color 0a
@@ -36,13 +36,13 @@ exit
 mshta vbscript:msgbox("请先注意保存数据并关闭Opera！",64,"您将要更新定制版数据!")(window.close)
 taskkill /f /im opera.exe
 del /f /q /s *.ini *.css *.pac >nul 2>nul
-del /f /q script\ieopera.js script\Super_preloader.db.js>nul 2>nul
+del /f /q script\ieopera.js script\Super_preloader.db.js pac/*.pac>nul 2>nul
 cls
-mkdir keyboard menu mouse toolbar script styles\web\ styles\user\ >nul 2>nul
+mkdir keyboard menu mouse pac toolbar script styles\web\ styles\user\ >nul 2>nul
 wget http://hostsx.googlecode.com/svn/trunk/Opera/dialog.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/adblock.pac
-wget http://hostsx.googlecode.com/svn/trunk/Opera/autoproxy.pac
-wget http://hostsx.googlecode.com/svn/trunk/Opera/noads.pac
+wget http://hostsx.googlecode.com/svn/trunk/Opera/pac/ADBlock.pac &move ADBlock.pac pac\
+wget http://hostsx.googlecode.com/svn/trunk/Opera/pac/autoproxy.pac &move autoproxy.pac pac\
+wget http://hostsx.googlecode.com/svn/trunk/Opera/pac/noads.pac &move noads.pac pac\
 wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/search.ini

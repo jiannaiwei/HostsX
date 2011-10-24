@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 2.983
+Version: 2.99
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -79,6 +79,7 @@ display: none !important;
 	}
 div[id^="AD"][style*="w"],div[class^="ad-banner"]{display: none !important;}
 img[class="ad"],img[id^="ad"],img[src$="_ad.jpg"]{display: none !important;}
+img[alt$="告"]{display: none !important;}
 
 /* Flash 广告*/
 [id*="_flash_click_"],[id*="Adflash"],[id*="FLASH_AD"],

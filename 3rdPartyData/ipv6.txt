@@ -10,7 +10,7 @@
 # 5/7 v*.lscache*.l.google.com IP 地址变更（youtube 视频储存服务器除外，谁有日本 yt 的 IP 告诉我- -），由日本东京改为澳洲悉尼，速度我测试变快了
  # 5/10 更新 v*.lscache*.c.google.com 感谢 JL Hwung 的提供
  # 7/12 《电脑报》你威武！（2010年7月12日G14版第四列）
- # 您正在查看的版本更新于 2011-10-019；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
+ # 您正在查看的版本更新于 2011-10- 19；详细更新日志请见 http://code.google.com/p/ipv6-hosts/source/list （RSS 链接） 
 #顺便提供能够解析出 Google IPv6 地址的 DNS 服务器 (其 ISP 已加入 Google over IPv6 计划)，这样不需要修改 hosts，只需改变本机 DNS 设置就可以自动解析出 IPv6 地址，由HE提供：2001:470:20::2 ordns.he.net (ipv6) 74.82.42.42 (ipv4，在内地可能会遭污染，可以和本 hosts 文件配合使用 by www.lostriver.net)
 #最近好像有0.5不停的在举报本文有不适宜内容（滥用行为），然后接连收到10余封google发来的本文审核通过可以发表的邮件，建议大家备份一下本文，免得某些人把本文404，reset什么的之类- -
 #用文本编辑器打开hosts文件，将以下内容复制进去，保存即可（hosts 文件没有后缀）
@@ -5224,4 +5224,3 @@ ipv6.freeipv6.info
 ###IPv6 代理翻墙
 #IPv6 HTTP 代理：gfw-proxy.co.cc:3128
 2607:fcd0:1337:4b::2 gfw-proxy.co.cc
-
