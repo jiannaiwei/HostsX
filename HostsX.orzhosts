@@ -1,4 +1,4 @@
-;version=201110202106
+;version=201110242248
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2253,6 +2253,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 nb.myspace.com
 0.0.0.0 count.myspace.cn
 0.0.0.0 gg.un.myspace.cn
+#Nownews
+0.0.0.0 ad1.nownews.com
 #Pixnet
 0.0.0.0 ad.pixnet.in
 0.0.0.0 ad.pixnet.net
@@ -9941,3 +9943,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
 0.0.0.0 ff.wanlicity.com
+0.0.0.0 c.ooo1000.com
+0.0.0.0 ggg.cn0378.com
+0.0.0.0 www.viger.la
+0.0.0.0 x.wawa123456.com
+0.0.0.0 yingguoweiku.wfx100.com

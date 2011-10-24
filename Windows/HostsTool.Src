@@ -372,7 +372,8 @@ rd /s /q %windir%\temp & md %windir%\temp
 del /f /q %userprofile%\recent\*.*          
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*" 
 del /f /s /q "%userprofile%\Local Settings\Temp\*.*"          
-del /f /s /q "%userprofile%\recent\*.*" 
+del /f /s /q "%userprofile%\recent\*.*"
+defrag %systemdrive% -b
 if exist "%windir%\SoftwareDistribution\Download\*.*" del /f /s /q %windir%\SoftwareDistribution\Download\*.* 2>nul
 if exist "%systemroot%\temp\*.*" del /a /f /s /q "%systemroot%\temp\*.*" 2>nul
 rd /s /q %windir%\temp & md %windir%\temp

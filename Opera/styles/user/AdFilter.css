@@ -52,6 +52,8 @@ div[id="hdggs"] {
 display: none !important;
 	}
 
+div[id^="sponsored"],iframe[id^="sponsored"] {display:none;}
+
 /* 方位广告*/
 [class*="top_ad"],div[id*="top_ad"],div[id*="AdTop"],div[class*="AdTop"],
 div[id*="topAD"],div[class*="topAD"],div[id*="topad"],div[class*="topad"] {
@@ -145,9 +147,12 @@ display: none !important;
 
 /* 各种提示隐藏 */
 #tips_qihoo,#tg_qq,#_tc_browser_promotion,#mbCarduserNotLogin,#mentionTip,
-[id*="sogou_se"],div[class="upgrade_your_browser"],DIV[class="fblike_button"],div[class="webgame_list"] {
+[id*="sogou_se"],div[class="upgrade_your_browser"],div[class="webgame_list"] {
 display: none !important;
 	}
+
+DIV[class="fblike_button"],#fb_like,#fb_plugin,div.like_it_frame, 
+iframe[src^="http://www.facebook.com"] {display:none !important;}
 
 /* 广告框架过滤 */
 a[href^="http://cnrdn.com/"][target="_blank"]{display:none !important}
@@ -173,6 +178,7 @@ div[class="sleekadbubble section squareBrowsead ch"]{display:none !important}
 
 /*受影响的过滤元素整理排除
 /* 已删除备份
+.box ,影响dbank首页显示（未登录情况下）
 div[class^="a_p"],http://www.anzhuo.cn/thread-134443-1-1.html 帖子内容在加载翻页js时无法正常显示
 .postbit_adcode,#adbottom,#GoogleAd,#footerStuff 
 div[id="online"][class="bm oll"],div[id="category_lk"][class="bm_c ptm"]
