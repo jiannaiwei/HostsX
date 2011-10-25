@@ -1,4 +1,4 @@
-;version=201110242248
+;version=201110251751
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -175,6 +175,18 @@ fe80::1%lo0	localhost
 203.208.46.85 mail.google.com
 203.208.46.85 www.google.com
 203.208.46.85 www.google.com.hk
+203.208.46.148 encrypted-tbn0.google.com
+203.208.46.148 encrypted-tbn1.google.com
+203.208.46.148 encrypted-tbn2.google.com
+203.208.46.148 encrypted-tbn3.google.com
+203.208.46.148 encrypted-tbn4.google.com
+203.208.46.148 encrypted-tbn5.google.com
+203.208.46.148 encrypted-tbn6.google.com
+203.208.46.148 encrypted-tbn7.google.com
+203.208.46.148 encrypted-tbn8.google.com
+203.208.46.148 encrypted-tbn9.google.com
+203.208.46.148 encrypted.google.com
+203.208.46.148 encrypted.google.com.hk
 #Appspot
 203.208.39.104 tickleservice.appspot.com
 203.208.39.104 rommanager.appspot.com
