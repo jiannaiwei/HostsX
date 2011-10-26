@@ -1674,3 +1674,16 @@ rem 请删除if exist %ComSpec% 至此行上面的内容，并将获取到的Hosts路径填入下方即可
 set etc=
 set hosts=
 goto gui
+
+:symantec
+del /s /q *-v5i32.exe
+del /s /q *-x86.exe
+del /s /q *-i32.exe
+cls
+wget --passive-ftp ftp://ftp.symantec.com/AVDEFS/symantec_antivirus_corp/static/symcdefsv5i32.exe
+ren symcdefsv5i32.exe %date:~0,10%-v5i32.exe
+wget --passive-ftp ftp://ftp.symantec.com/AVDEFS/symantec_antivirus_corp/static/symcdefsi32.exe
+ren symcdefsi32.exe %date:~0,10%-i32.exe
+wget --passive-ftp ftp://ftp.symantec.com/AVDEFS/symantec_antivirus_corp/static/symcdefsx86.exe
+ren symcdefsx86.exe %date:~0,10%-x86.exe
+goto:eof
