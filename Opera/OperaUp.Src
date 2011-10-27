@@ -1,5 +1,5 @@
 @echo off
-set ver=1.6
+set ver=1.61
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 Color 0a
@@ -40,7 +40,7 @@ del /f /q script\ieopera.js script\Super_preloader.db.js pac/*.pac>nul 2>nul
 cls
 mkdir keyboard menu mouse pac toolbar script styles\web\ styles\user\ >nul 2>nul
 wget http://hostsx.googlecode.com/svn/trunk/Opera/dialog.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/pac/ADBlock.pac &move ADBlock.pac pac\
+wget http://yangqun.sx2.topnic.net/ADBlock.pac &move ADBlock.pac pac\
 wget http://hostsx.googlecode.com/svn/trunk/Opera/pac/autoproxy.pac &move autoproxy.pac pac\
 wget http://hostsx.googlecode.com/svn/trunk/Opera/pac/noads.pac &move noads.pac pac\
 wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
