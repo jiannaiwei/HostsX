@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 2.99
+Version: 3.0
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -133,7 +133,7 @@ div[id^="couplet3_"]{
 display: none !important;
 	}
 	
-div[class$="-floatgg"],div[id^="Float"],div[id$="Float"],
+div[class$="-floatgg"],div[id^="Float"],div[id$="Float"],div[id^="floatAdv"],
 div[id$="Float"],[class^="ad_float"]{
 display: none !important;
 	}
@@ -147,7 +147,7 @@ display: none !important;
 
 /* 各种提示隐藏 */
 #tips_qihoo,#tg_qq,#_tc_browser_promotion,#mbCarduserNotLogin,#mentionTip,
-[id*="sogou_se"],div[class="upgrade_your_browser"],div[class="webgame_list"] {
+div[id="baidu_tip"],[id*="sogou_se"],div[class="upgrade_your_browser"],div[class="webgame_list"] {
 display: none !important;
 	}
 
