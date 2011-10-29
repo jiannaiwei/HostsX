@@ -1,4 +1,4 @@
-;version=201110291414
+;version=201110291436
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9980,3 +9980,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.129game.com
 0.0.0.0 pk.513top.com
 0.0.0.0 uucm.net
+0.0.0.0 www.9519.net
+0.0.0.0 c.xsu.cc
+0.0.0.0 www.kuqi.com
+0.0.0.0 www.maca39.com

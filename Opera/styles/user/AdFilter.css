@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 3.0
+Version: 3.02
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -14,7 +14,7 @@ div[class^=AD],div[id$="AD"],[id$="_ad"],
 display: none !important;
 	}
 [class^="ads"],[id^="ads_"],[id$="Ads"],[class$="Ads"],
-div[id$="Adv"],[class^="adv_"],[id^="adv_"]{
+div[id$="Adv"],[class^="adv_"],[id^="adv_"],div[class="adv"]{
 display: none !important;
 	}
 div[class*="AdBox"],div[class^="adbox"],a[id*="_adbox"],div[class^="ad-box"],
@@ -59,17 +59,20 @@ div[id^="sponsored"],iframe[id^="sponsored"] {display:none;}
 div[id*="topAD"],div[class*="topAD"],div[id*="topad"],div[class*="topad"] {
 display: none !important;
 	}
-div[class*="AdRight"],div[class*="RightAD"]{display:none !important}
-div[id*="AdRight"],[id*="ightAd"],[id*="ad_right"],
-DIV[class="rAD"],div[id="rAD"],div[class="rAd_img"],
-[class*="rightad"],[id*="rightad"],[class*="right_ad"] {
+div[id="topmad"]{display:none;}
+
+div[class*="AdRight"],div[class*="RightAD"],div[id*="AdRight"],[id*="ightAd"],
+[id*="ad_right"],[class*="rightad"],[id*="rightad"],[class*="right_ad"] {
+display: none !important;
+	}
+DIV[class="rAD"],div[id="rAD"],div[class="rAd_img"],div[class="adrr"] {
 display: none !important;
 	}
 [class*="left_ad"],[id*="left_ad"],[class*="leftad"],[id*="leftad"],
 [class*="pic_ad"],[id*="pic_ad"] {
 display: none !important;
 	}
-div[class="left"][id^="ad"],
+div[class="left"][id^="ad"],div[class="adll"],
 div[class="right"][id^="ad"] {
 display: none !important;
 	}
@@ -129,7 +132,7 @@ div[id="popup"][style*="display:"],div[id="popup"][class="t"],div[id="bbsPOPFram
 display: none !important;
 	}
 div[id="browse_popularize"],div[id="paypopupScriptDiv"],div[id="popTudouVA"],div[id^="p4pblock"],
-div[id^="couplet3_"]{
+div[id^="couplet3_"],div[id^="dotopAlert"],div[id^="yw__on_"],div[class^="flwin flwin"]{
 display: none !important;
 	}
 	
@@ -142,11 +145,14 @@ div[class^="ad"][id^="div"],div[id^="pf_ad"],div[id$="adshow"],[id^="iframeAd"],
 a[class$="CloseX"],div[id="tikionly"],div[id^="followDiv"],div[id^="kxsoMovie"]{
 display: none !important;
 	}
-.qqbox,#divQQbox,#adZljcRightBottomDiv,#feedback-box,#msg-faq{display: none !important;}
-#dnDownloadProgress,#qqaddiv,#ShowQQ,#SlipLay,#ty_msg_box{display: none !important;}
+.qqbox,#divQQbox,#adZljcRightBottomDiv,#feedback-box,
+#msg-faq,#dnDownloadProgress,#qqaddiv,#ShowQQ{
+display: none !important;
+	}
+div[id^="Cnxad"],#SlipLay,#ty_msg_box{display: none !important;}
 
 /* 各种提示隐藏 */
-#tips_qihoo,#tg_qq,#_tc_browser_promotion,#mbCarduserNotLogin,#mentionTip,
+#tips_qihoo,#tg_qq,#_tc_browser_promotion,#mbCarduserNotLogin,#mentionTip,#myproterodivctget{display: none !important;}
 div[id="baidu_tip"],[id*="sogou_se"],div[class="upgrade_your_browser"],div[class="webgame_list"] {
 display: none !important;
 	}
