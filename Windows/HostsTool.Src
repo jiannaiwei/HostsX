@@ -1,5 +1,5 @@
 @echo off
-set ver=3.02
+set ver=3.03
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -30,13 +30,13 @@ if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice 
 cls
 
 :gui
-del /f /q HostsX.orzhosts echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt>nul 2>nul
+del /f /q $ HostsX.orzhosts echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt temp.txt>nul 2>nul
 if "%1" == "/g" goto:Google
 if "%1" == "/6" goto:ipv6
 if "%1" == "/f" goto:fixhosts
 if '%1'=='opera' goto:operasimpleu
 if not exist consext.exe goto dftvbs
-mode con cols=57 lines=29
+mode con cols=57 lines=30
 color 0%xc%
 ConsExt /crv 0
 cls
@@ -69,7 +69,7 @@ echo   【For AnDroid Hosts】             【 ShortCut  修复 】
 echo.
 echo   当前目录：%~dp0
 echo.
-echo   【FeedBack 问题反馈】             【  退出 极佳猴子 】
+echo   【FeedBack 问题反馈】             【替换为 127.0.0.1】
 
 :mouse
 ConsExt /event
@@ -101,7 +101,7 @@ if %y% equ 23 if %x% gtr  12 if %x% lss 35 goto AnDroid
 if %y% equ 23 if %x% gtr  12 if %x% lss 56 if not exist g.ico (wget  http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
 if %y% equ 25 if %x% gtr  12 if %x% lss 56 start explorer %~dp0 & goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 35 goto feedback
-if %y% equ 27 if %x% gtr  31 if %x% lss 56 goto :eof
+if %y% equ 27 if %x% gtr  31 if %x% lss 56 goto rp127
 goto mouse
 
 :flushdns
@@ -393,6 +393,21 @@ echo 清除运行记录...
 reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f               
 echo 清除系统LJ完成! & choice /t 2 /d y /n >nul &goto gui
+
+:rp127
+SetLocal EnableDelayedExpansion
+call :unlock
+copy %hosts% temp.txt
+for %%a in (temp.txt) do (
+     (for /f "usebackq delims=" %%b in ("%%a") do  (
+          set "str=%%b"
+          for %%b in (0.0.0.0-127.0.0.1) do (
+               for /f "tokens=1,2 delims=-" %%c in ("%%b") do set "str=!str:%%c=%%d!"
+          )
+          echo !str!
+      ))>$
+      copy $ %hosts%&del temp.txt $&call :flushdns&echo 已将0.0.0.0 全部替换为127.0.0.1! & choice /t 2 /d y /n >nul &goto gui
+)
 
 :Google
 call :unlock

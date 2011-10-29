@@ -1,4 +1,4 @@
-;version=201110291517
+;version=201110292055
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6748,7 +6748,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 #优酷网
-0.0.0.0 g1.ykimg.com
 0.0.0.0 atm.youku.com
 0.0.0.0 Fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
