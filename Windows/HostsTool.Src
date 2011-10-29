@@ -1647,7 +1647,7 @@ cls&goto menu
 :operasimpleu
 pushd %~dp0
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
-Tasklist|Find /i "opera.exe">nul&&(Echo 请先退出Opera！，按任意键继续)&Pause&goto operasimpleu
+Tasklist|Find /i "opera.exe">nul&&(Echo 请先退出Opera！)&Pause
 del /f /q /s *.ini *.css *.pac >nul 2>nul
 del /f /q script\ieopera.js script\Super_preloader.db.js pac/*.pac>nul 2>nul
 cls
