@@ -1,5 +1,5 @@
 @echo off
-set ver=2.99
+set ver=3.0
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -1646,8 +1646,6 @@ cls&goto menu
 
 :operasimpleu
 pushd %~dp0
-echo %~dp0
-pause
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&&(Echo 请先退出Opera！，按任意键继续)&Pause&goto operasimpleu
 del /f /q /s *.ini *.css *.pac >nul 2>nul
