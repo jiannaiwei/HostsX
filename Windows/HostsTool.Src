@@ -1,5 +1,5 @@
 @echo off
-set ver=3.0
+set ver=3.02
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -1642,14 +1642,14 @@ reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
 rem  修复开始菜单广告
 reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
 echo  Repaired!
-cls&goto menu
+cls&goto gui
 
 :operasimpleu
 pushd %~dp0
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
-Tasklist|Find /i "opera.exe">nul&&(Echo 请先退出Opera！)&Pause
+Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
 del /f /q /s *.ini *.css *.pac >nul 2>nul
-del /f /q script\ieopera.js script\Super_preloader.db.js pac/*.pac>nul 2>nul
+del /f /q script\ieopera.js script\Super_preloader.db.js >nul 2>nul
 cls
 mkdir keyboard menu mouse pac toolbar script styles\web\ styles\user\ >nul 2>nul
 wget http://hostsx.googlecode.com/svn/trunk/Opera/dialog.ini
@@ -1690,7 +1690,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js &move Su
 rem wget http://hostsx.googlecode.com/svn/trunk/Opera/SiteFix.js &move SiteFix.js script\
 wget http://hostsx.googlecode.com/svn/trunk/Opera/ieopera.js &move ieopera.js script\
 cls&start /min iexplore http://goo.gl/YxZWw
-echo You are Using the Latest Version.*当前版本数据已经是最新 & choice /t 2 /d y /n >nul&exit
+echo 当前版本数据已经是最新! & choice /t 2 /d y /n >nul&exit
 
 :check
 ver|find   "5."   
