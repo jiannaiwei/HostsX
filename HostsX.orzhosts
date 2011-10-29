@@ -1,4 +1,4 @@
-;version=201110291302
+;version=201110291414
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6553,6 +6553,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ads.zaobao.com
 #新民网
 0.0.0.0 iads.xinmin.cn
+#环球网
+0.0.0.0 huanqiu.allyes.com
+0.0.0.0 huanqiu.datamaster.com.cn
+0.0.0.0 bjafp.allyes.com
 #中新网
 0.0.0.0 www.pagechoice.net
 0.0.0.0 report.chinanews.com
@@ -6807,6 +6811,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 qian.pipi.cn
 #第一放映室
 0.0.0.0 admin.onefy.com
+0.0.0.0 bo.tv365.cc
 #Wo318
 0.0.0.0 wo318.k621.com
 #爆米花
@@ -7380,7 +7385,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ebooafa7.allyes.com
 0.0.0.0 ftchinese.allyes.com
 0.0.0.0 goqoafp6.allyes.com
-0.0.0.0 huanqiu.allyes.com
 0.0.0.0 iplus.allyes.com
 0.0.0.0 lhzbafp.allyes.com
 0.0.0.0 mscdn.allyes.cn
@@ -9054,6 +9058,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.09shouji.com
 0.0.0.0 www.668phone.com
 0.0.0.0 tenccnect.co.cc
+0.0.0.0 www.qq.com.e999888.josyzev.info
+0.0.0.0 wer.fo0.eor99.t99.dddfew.com
 #垃圾视频
 0.0.0.0 1.bokeccimg.com
 0.0.0.0 bokecc.com
@@ -9397,6 +9403,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.9lwan.com
 0.0.0.0 51.51wan.com
 0.0.0.0 img2.51wan.com
+0.0.0.0 images.51wan.com
 0.0.0.0 union.51wan.com
 0.0.0.0 union1.51wan.com
 0.0.0.0 g.webgame.com.cn
@@ -9965,3 +9972,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.viger.la
 0.0.0.0 x.wawa123456.com
 0.0.0.0 yingguoweiku.wfx100.com
+0.0.0.0 l.youxitui.net
+0.0.0.0 js.hl58.com
+0.0.0.0 ufile.qushimeiti.com
+0.0.0.0 js.zfjiu.com
+0.0.0.0 union.ziye8.com
+0.0.0.0 www.129game.com
+0.0.0.0 pk.513top.com
+0.0.0.0 uucm.net
