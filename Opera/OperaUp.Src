@@ -5,7 +5,7 @@ SetLocal EnableDelayedExpansion
 Color 0a
 
 :check
-if not exist wget.exe goto exit
+if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
 echo WScript.sleep 50 >>%temp%/chkver.vbs
@@ -13,7 +13,7 @@ echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
 cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Opera/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto dataUpgrade) else (echo Found the new version,press any key update.&echo 发现新版本，程序将自动更新！& choice /t 2 /d y /n >nul & goto Updates)
+if %ver%==%verNew% (goto dataUpgrade) else (echo 发现新版本，程序将自动更新！& choice /t 2 /d y /n >nul & goto Updates)
 
 :Updates
 echo Downloading update         ...Please wait...
@@ -32,7 +32,7 @@ echo Exit>>%temp%\up.bat
 start %temp%\up.bat
 exit
 
-:dataUpgrade
+:operasimpleu
 mshta vbscript:msgbox("请先注意保存数据并关闭Opera！",64,"您将要更新定制版数据!")(window.close)
 taskkill /f /im opera.exe
 del /f /q /s *.ini *.css *.pac >nul 2>nul

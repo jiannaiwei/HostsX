@@ -34,7 +34,7 @@ del /f /q HostsX.orzhosts echo mwsl.txt hosts.txt ipv6.txt ent.txt ie.txt>nul 2>
 if "%1" == "/g" goto:Google
 if "%1" == "/6" goto:ipv6
 if "%1" == "/f" goto:fixhosts
-if "%1" == "/o" goto:operasimpleu
+if '%1'=='opera' goto:operasimpleu
 if not exist consext.exe goto dftvbs
 mode con cols=57 lines=29
 color 0%xc%
@@ -1645,8 +1645,11 @@ echo  Repaired!
 cls&goto menu
 
 :operasimpleu
+pushd %~dp0
+echo %~dp0
+pause
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
-Tasklist|Find /i "opera.exe">nul&&(Echo 请先退出Opera！，按任意键继续)&Pause
+Tasklist|Find /i "opera.exe">nul&&(Echo 请先退出Opera！，按任意键继续)&Pause&goto operasimpleu
 del /f /q /s *.ini *.css *.pac >nul 2>nul
 del /f /q script\ieopera.js script\Super_preloader.db.js pac/*.pac>nul 2>nul
 cls
