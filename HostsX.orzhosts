@@ -1,4 +1,4 @@
-;version=201110291436
+;version=201110291445
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1443,6 +1443,7 @@ fe80::1%lo0	localhost
 0.0.0.0 img.store.sogou.com
 0.0.0.0 inte.sogou.com
 0.0.0.0 lk.brand.sogou.com
+0.0.0.0 lu.sogou.com
 0.0.0.0 pb.sogou.com
 0.0.0.0 pbd.sogou.com
 0.0.0.0 pingback.sogou.com
