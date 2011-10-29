@@ -59,7 +59,7 @@ div[id^="sponsored"],iframe[id^="sponsored"] {display:none;}
 div[id*="topAD"],div[class*="topAD"],div[id*="topad"],div[class*="topad"] {
 display: none !important;
 	}
-div[id="topmad"]{display:none;}
+div[id="topmad"],span[id="zjtop"]{display:none;}
 
 div[class*="AdRight"],div[class*="RightAD"],div[id*="AdRight"],[id*="ightAd"],
 [id*="ad_right"],[class*="rightad"],[id*="rightad"],[class*="right_ad"] {

@@ -1,4 +1,4 @@
-;version=201110291445
+;version=201110291517
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9985,3 +9985,5 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c.xsu.cc
 0.0.0.0 www.kuqi.com
 0.0.0.0 www.maca39.com
+0.0.0.0 www.jugao.com
+0.0.0.0 cpm.234y.com
