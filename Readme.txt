@@ -23,6 +23,7 @@
 # http://forum.xda-developers.com/showthread.php?t=696084                    #
 # http://www.itfunz.com                                                      #
 # http://sslcheck.net/nsreport.php                                           #
+# http://bbs.chromi.org/thread-14152-1-1.html                                #
 #                                                                            #
 # 3rd-Party-Data:                                                            #
 # http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq                         #
