@@ -1,6 +1,6 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.10.24
+恶意网站HOSTS屏蔽文件-2011.10.31
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
@@ -1721,7 +1721,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 www.taobaobed.cn
 0.0.0.0 allyourguide.cn
 0.0.0.0 spkwo.thecoupondiscount.com
-0.0.0.0 www.killman.net
 0.0.0.0 itsyouronline.cn
 0.0.0.0 df0x.54.pl
 0.0.0.0 www.eretukyig.cn
@@ -13459,7 +13458,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 www.199580.com
 0.0.0.0 shezmint.com
 0.0.0.0 gate.corsgate.com
-0.0.0.0 blog.cnfol.com
 0.0.0.0 www.fieldscom.com
 0.0.0.0 9158.999999998.com
 0.0.0.0 www.163ht3.com
@@ -14885,3 +14883,55 @@ All Rights Reserved 2007-2011
 0.0.0.0 kbgoldfree.com
 0.0.0.0 static.droidnetwork.net
 0.0.0.0 www.leifeng99.com
+0.0.0.0 www.ssq885.com.
+0.0.0.0 www.guocai688.com
+0.0.0.0 umsonst.biz
+0.0.0.0 www.hdsq.cc
+0.0.0.0 jmpenterprises.co.uk
+0.0.0.0 www.tjflcpw.com
+0.0.0.0 lottery.titan24.com
+0.0.0.0 test.bezpecnosti.cz
+0.0.0.0 www.888089.co.cc
+0.0.0.0 pyrus.user.icpnet.pl
+0.0.0.0 deltasn.com
+0.0.0.0 www.ydfc.net.cn
+0.0.0.0 www.itafd.com
+0.0.0.0 lp.nk39.net
+0.0.0.0 47a.cn
+0.0.0.0 flos.8866.org
+0.0.0.0 lowestykorers.com
+0.0.0.0 lqugrayed.info
+0.0.0.0 a.wbsz.com
+0.0.0.0 hallmark.redirectme.net
+0.0.0.0 www.taorar.com
+0.0.0.0 b68.4dq.com
+0.0.0.0 araidistributors.com
+0.0.0.0 mz.ruan8.com
+0.0.0.0 xcvnvc.baixingsound.org
+0.0.0.0 www.seluoliao8.info
+0.0.0.0 nodisk.jiajiaee.cn
+0.0.0.0 documentionline.zzl.org
+0.0.0.0 33.198game.com
+0.0.0.0 anyhub.net
+0.0.0.0 f.anyhub.net
+0.0.0.0 download.cpudln.com
+0.0.0.0 www.pyrus.user.icpnet.pl
+0.0.0.0 dx1.haote.com
+0.0.0.0 qqaiku.com
+0.0.0.0 seivee.aq.9968.us
+0.0.0.0 vnxsz.tuyge.com
+0.0.0.0 c.u.uuhar.com
+0.0.0.0 www.nanjing114.net
+0.0.0.0 www.xiyou52.com
+0.0.0.0 bmb-tuning.eu
+0.0.0.0 dstatic.esqimg.com
+0.0.0.0 vvoo.bij.pl
+0.0.0.0 floodad.com
+0.0.0.0 dartzofmybpull.ru
+0.0.0.0 www.ouyaoxiazai.com
+0.0.0.0 moneyindahouse.com
+0.0.0.0 ad.18lehu.com
+0.0.0.0 fjss.com
+0.0.0.0 corp.5351.net
+0.0.0.0 artzofmybpull.ru
+0.0.0.0 down.naibo.tk

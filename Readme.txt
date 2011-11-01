@@ -26,7 +26,7 @@
 # http://bbs.chromi.org/thread-14152-1-1.html                                #
 #                                                                            #
 # 3rd-Party-Data:                                                            #
-# http://docs.google.com/View?id=dfkdmxnt_61d9ck9ffq                         #
+# http://code.google.com/p/ipv6-hosts/                                       #
 # http://www.du110.com/thread-11742-1-1.html                                 #
 # http://hi.baidu.com/villagesecu                                            #
 # http://www.mwsl.org.cn                                                     #
