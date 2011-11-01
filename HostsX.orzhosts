@@ -1,4 +1,4 @@
-;version=201110301735
+;version=201111010913
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6709,6 +6709,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.mumayi.net
 #Xdowns
 0.0.0.0 ccc.xdowns.com
+#Crsky
+0.0.0.0 images.crsky.com
 @HostsX 国内站点广告/汽车类网站
 #易车网
 0.0.0.0 autosense.bitauto.com
