@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 3.02
+Version: 3.03
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -109,7 +109,7 @@ div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],
 div[class="a_b"],div[class="a_mu"],div[class^="a_f"]{
 display: none !important;
 	}
-td[class="plc plm"],DIV[class="mbm cl"],div[class="bm a_c"],div[class^="wp a_"]{
+DIV[class="mbm cl"],div[class="bm a_c"],div[class^="wp a_"]{
 display: none !important;
 	}
 div[id^="thread_ads_"],.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
