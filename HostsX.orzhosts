@@ -1,4 +1,4 @@
-;version=201111031035
+;version=201111031510
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6847,7 +6847,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 vid.atm.youku.com
 0.0.0.0 walp.atm.youku.com
 0.0.0.0 lstat.youku.com
-0.0.0.0 static.youku.com
 #土豆网
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com

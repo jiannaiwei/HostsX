@@ -1,4 +1,4 @@
-;version=201111031026
+;version=201111031510
 ;author=郭鹏锟
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
@@ -158,6 +158,7 @@ $RemoveFromIEBlockedSites
 
 #导致 优酷网 视频缩率图无法正常显示。
 g1.ykimg.com
+static.youku.com
 $DELETE
 
 #导致新浪视讯聊天大厅无法进入。
