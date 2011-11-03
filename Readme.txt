@@ -24,6 +24,15 @@
 # http://www.itfunz.com                                                      #
 # http://sslcheck.net/nsreport.php                                           #
 # http://bbs.chromi.org/thread-14152-1-1.html                                #
+# http://is.gd/9WteB                                                         #
+# http://shhx2005.gotoip3.com/2011/01/02/dropbox.html                        #
+# http://commondatastorage.googleapis.com/fgqi/hosts/fgqi.bat                # 
+# http://www.anzhuo.cn/thread-136601-1-1.html                                # 
+# http://blog.csdn.net/harry960/article/details/6897614                      # 
+# http://tsusoft.wordpress.com/2011/09/19/change-hosts-to-access-flickr/     #
+# http://lucifr.com/2469/modify-host-to-visit-wordpress-com-normally/        # 
+# http://lucifr.com/2387/modify-host-file-to-show-gravatar-image/            # 
+# http://iwongs.tk/2011/09/yahoo-flickr-hosts.html                           #
 #                                                                            #
 # 3rd-Party-Data:                                                            #
 # http://code.google.com/p/ipv6-hosts/                                       #
@@ -32,12 +41,8 @@
 # http://www.mwsl.org.cn                                                     #
 # http://www.mvps.org/winhelp2002/hosts.txt                                  #
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
-# http://is.gd/9WteB                                                         #
-# http://shhx2005.gotoip3.com/2011/01/02/dropbox.html                        #
-# http://commondatastorage.googleapis.com/fgqi/hosts/fgqi.bat                # 
-# http://www.anzhuo.cn/thread-136601-1-1.html                                # 
-#                                                                            # 
-# Copyright (C) 2007-2010 orztech.com All Rights Reserved.                   #
+#                                                                            #
+# Copyright (C) 2007-2011 orztech.com All Rights Reserved.                   #
 #****************************************************************************#
 
 --------------------------------------------------------------------------------
@@ -77,7 +82,7 @@
 1. 软件简介
 
  - HostsX(G+ Hosts) 是一款Hosts相关管理软件, 基于 前身为纯数据的Hosts整理文件
-   (Beautiful Hosts Patch)和简易的Hosts批处理文件Go（Gay）Hosts整理合并而成
+   (Beautiful Hosts Patch)和简易的Hosts批处理文件Go Hosts整理合并而成
    其数据可被广泛适用于多种操作平台(Windows/Mac OS/UNIX/Java/Symbian/iPhone OS/Android)
 
    目前已包含针对Windows和Android系统的专用工具。欢迎各位制作相关专用客户端
