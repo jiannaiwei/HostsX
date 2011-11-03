@@ -33,6 +33,9 @@
 # http://lucifr.com/2469/modify-host-to-visit-wordpress-com-normally/        # 
 # http://lucifr.com/2387/modify-host-file-to-show-gravatar-image/            # 
 # http://iwongs.tk/2011/09/yahoo-flickr-hosts.html                           #
+# http://www.soupis.com/thread-53899-1-1.html                                #
+# http://www.flickr.com/help/test                                            #
+# http://www.flickr.com/help/forum/zh-hk/72157626877675955/                  #
 #                                                                            #
 # 3rd-Party-Data:                                                            #
 # http://code.google.com/p/ipv6-hosts/                                       #

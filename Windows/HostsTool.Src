@@ -1,5 +1,5 @@
 @echo off
-set ver=3.03
+set ver=3.05
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -13,7 +13,6 @@ Rd "%a%\test_permissions"
 for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
 set etc=%windir%\system32\drivers\etc
 set hosts=%windir%\system32\drivers\etc\hosts
-call :ipv6load
 if not exist %etc%\ md %etc%\ >nul
 call :unlock
 if not exist %hosts% goto fixhosts
@@ -184,7 +183,9 @@ echo 程序将在3s后退出!& choice /t 3 /d y /n >nul&Exit
 :ipv6
 call :ipv6load
 call :echoi
-wget http://hostsx.googlecode.com/svn/trunk/3rdPartyData/ipv6.txt
+call :upcore
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "https://ipv6-hosts.googlecode.com/hg/hosts">temp.txt
+for /f "tokens=1,2 skip=4" %%i in (temp.txt) do @echo %%i %%j>ipv6.txt
 for /f  "delims=" %%i in (ipv6.txt) do @echo %%i>>%hosts%
 call :flushdns
 goto gui
