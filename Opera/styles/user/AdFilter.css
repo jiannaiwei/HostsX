@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 3.03
+Version: 3.06
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -17,10 +17,6 @@ display: none !important;
 div[id$="Adv"],[class^="adv_"],[id^="adv_"],div[class="adv"]{
 display: none !important;
 	}
-div[class*="AdBox"],div[class^="adbox"],a[id*="_adbox"],div[class^="ad-box"],
-div[class^="adList"],ul[class^="adList"],div[class*="areaAd"],div[class^="adarea"]{
-display: none !important;
-	}
 div[id*="0_AD_1"],div[id^="ad0"],div[id^="ad1"],div[class^="ad1"],
 div[id^="AD4"],div[id^="AD5"] {
 display: none !important;
@@ -29,16 +25,20 @@ div[class^="ad336"],div[class="ad660"],div[class^="ad680"],div[class^="ad728"],
 div[class="ad750"],div[class^="ad760"],div[class="ad950"],div[class^="ad960"]{
 display: none !important;
 	}
-div[id^="AdLayer"],div[class^="advlist"],div[class^="adFrame"],div[class^="block_ad"],
-div[class^="bt_ad"],div[class^="con_ad"],[class^="adNone"],[class$="adclass"]{
+div[class*="AdBox"],div[class^="adbox"],a[id*="_adbox"],div[class^="ad-box"],
+div[class^="adList"],ul[class^="adList"],div[class*="areaAd"],div[class^="adarea"]{
 display: none !important;
 	}
-div[class=ad],div[class="aXd"],div[class="ad-bar"],div[class="adinfo"],
-div[class="advdiv"],div[class="advertising"],div[class="yourad"]{
+div[class=ad],[class$="adclass"],[class^="adNone"],div[class="adinfo"],
+div[class^="adFrame"],div[class^="adindex"],div[class^="advlist"],div[id="adcontent"]{
 display: none !important;
 	}
-div[id^="adbn_"],ul[class$="adBlue"],div[class="rec_text"],div[id="header_ads"],
-div[id="ad-flash"],div[id="adcontent"],div[id="ads-bot"],div[id="particular_ad"]{
+div[class="aXd"],div[class="ad-bar"],div[id="ad-flash"],div[id="ads-bot"],div[id^="AdLayer"],
+div[class="advdiv"],div[class="advertising"],div[id^="adbn_"],ul[class$="adBlue"]{
+display: none !important;
+	}
+div[class^="block_ad"],div[class^="bt_ad"],div[class^="con_ad"],div[id="particular_ad"],
+div[class="yourad"],div[id="header_ads"],div[class="rec_text"]{
 display: none !important;
 	}
 
@@ -158,7 +158,7 @@ display: none !important;
 	}
 
 DIV[class="fblike_button"],#fb_like,#fb_plugin,div.like_it_frame, 
-iframe[src^="http://www.facebook.com"] {display:none !important;}
+iframe[src^="http://www.facebook.com"],a[href^="http://www.facebook.com/"][target="_blank"] {display:none !important;}
 
 /* 广告框架过滤 */
 a[href^="http://cnrdn.com/"][target="_blank"]{display:none !important}

@@ -3,7 +3,7 @@
 
 /*
 Name: /浏览辅助
-Version: 2.92
+Version: 3.0
 Author: KwokTree
 Description: MayBe a better User CSS Help U.
 */
@@ -32,6 +32,8 @@ font[style*="font-size:0p"]{display:none !important}
 font[style*="font-size: 0p"]{display:none !important}
 SPAN[class="transparent"],fieldset[style*=”:1px dashed“] {display: none !important;}
 *[href*="tag.php?name="],.t_tag { border: none !important; }
+span[style="display:none"]{display:none;}
+font[class="jammer"] {display:none;}
 
 /* 去除伪链接的下划线 */
 A:not([href]){
