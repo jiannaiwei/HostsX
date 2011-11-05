@@ -1,4 +1,4 @@
-;version=201111051335
+;version=201111051752
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8397,6 +8397,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 clientconfig.neoimaging.cn
 0.0.0.0 jump.neoimaging.cn
 0.0.0.0 recommend.neoimaging.cn
+#P2pover
+0.0.0.0 ext.netsoft2005.com
+0.0.0.0 i.netsoft2005.com
+0.0.0.0 img.img18.com
+0.0.0.0 www.uu654.com
 #Pctutu
 0.0.0.0 info.klplayer.com
 0.0.0.0 update.klplayer.com
