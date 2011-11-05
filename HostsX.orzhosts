@@ -1,4 +1,4 @@
-;version=201111051800
+;version=201111051850
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8046,7 +8046,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 d.miaozhen.com
 0.0.0.0 e.cn.miaozhen.com
 0.0.0.0 e.miaozhen.com
-0.0.0.0 g.cn.miaozhen.com
 0.0.0.0 g.cn.miaozhen.com
 0.0.0.0 g.miaozhen.com
 0.0.0.0 msg.cn.miaozhen.com
