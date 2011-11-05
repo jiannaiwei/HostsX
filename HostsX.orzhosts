@@ -1,4 +1,4 @@
-;version=201111051325
+;version=201111051335
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1614,6 +1614,7 @@ fe80::1%lo0	localhost
 0.0.0.0 hubciddata.sandai.net
 0.0.0.0 hubstat.sandai.net
 0.0.0.0 logic.cpm.cm.sandai.net
+0.0.0.0 logictest.cpm.cm.sandai.net
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 mpv.sandai.net
 0.0.0.0 pubstat.sandai.net
