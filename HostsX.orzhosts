@@ -1,4 +1,4 @@
-;version=201111051752
+;version=201111051800
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7446,11 +7446,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.adsit.cn
 #All4ad
 0.0.0.0 go.all4ad.cn
+0.0.0.0 5000.all4ad.cn
 0.0.0.0 goldlink.all4ad.cn
 0.0.0.0 img.all4ad.cn
 0.0.0.0 jump.all4ad.cn
 0.0.0.0 nad1.all4ad.cn
 0.0.0.0 www.ad4all.net
+0.0.0.0 cs.all4ad.net
 0.0.0.0 v.taolai.cn
 0.0.0.0 y.taolai.cn
 #Allyes
@@ -8172,10 +8174,12 @@ $      下载最新版本的 HostsX。
 0.0.0.0 img.union188.com
 #Unionbig
 0.0.0.0 code01.unionli.com
+0.0.0.0 s1.unionbig.com
 0.0.0.0 ds2.unionbig.com
 0.0.0.0 p.unionbig.com
 0.0.0.0 s2.unionbig.com
 0.0.0.0 track.unionbig.com
+0.0.0.0 www.unionbig.com
 0.0.0.0 txt.unionli.com
 0.0.0.0 u.unionli.com
 0.0.0.0 uimg.unionli.com
@@ -8398,6 +8402,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 jump.neoimaging.cn
 0.0.0.0 recommend.neoimaging.cn
 #P2pover
+0.0.0.0 cache.netsoft2005.com
 0.0.0.0 ext.netsoft2005.com
 0.0.0.0 i.netsoft2005.com
 0.0.0.0 img.img18.com
@@ -10071,3 +10076,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
+0.0.0.0 run.iso001.com
