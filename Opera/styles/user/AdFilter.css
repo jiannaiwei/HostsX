@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 3.07
+Version: 3.08
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -51,10 +51,9 @@ div[class^="ggAD"],div[class*="gg-"],div[class="ggjs"],[id^="gg"] {
 display: none !important;
 	}
 div[class$="-gg"],div[class$="guanggao"],div[class="ggarea clearfix"],table[class="header_gg"],
-div[id="hdggs"] {
+div[id="hdggs"],div[class^="g_ad"] {
 display: none !important;
 	}
-
 div[id^="sponsored"],iframe[id^="sponsored"] {display:none;}
 
 /* 方位广告*/
@@ -128,7 +127,6 @@ span[class="ad"],span[id^="ad_"],span[class$="adv"],span[class="close"],
 span[id*="adsense"],span[id="afterurl"],span[id="urlup"],span[id="tmpMsgDiv"] {
 display: none !important;
 	}
-
 div[class="bp-popup"][id="J_popup"]{display:none !important}
 div[id^="popWin"],DIV[id^="popupWin"],div[id^="pop_container_],div[id="PopWindow"],
 div[id="popup"][style*="display:"],div[id="popup"][class="t"],div[id="bbsPOPFrame"],div[id^="_QQPopDIV"]{
@@ -138,12 +136,10 @@ div[id="browse_popularize"],div[id="paypopupScriptDiv"],div[id="popTudouVA"],div
 div[id^="couplet3_"],div[id^="dotopAlert"],div[id^="yw__on_"],div[class^="flwin flwin"]{
 display: none !important;
 	}
-	
 div[class$="-floatgg"],div[id^="Float"],div[id$="Float"],div[id^="floatAdv"],
 div[id$="Float"],[class^="ad_float"]{
 display: none !important;
 	}
-
 div[class^="ad"][id^="div"],div[id^="pf_ad"],div[id$="adshow"],[id^="iframeAd"],
 a[class$="CloseX"],div[id^="followDiv"],div[id^="kxsoMovie"]{
 display: none !important;
