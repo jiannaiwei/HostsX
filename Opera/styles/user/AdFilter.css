@@ -3,13 +3,13 @@
 
 /*
 Name: /广告过滤
-Version: 3.06
+Version: 3.07
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
 
 /* AD规则 */
-div[class^=AD],div[id$="AD"],[id$="_ad"],
+div[class^=AD],div[id$="AD"],[id$="_ad"],div[class=ad],
 [id$="Ad"],[class$="Ad"],div[id^="ad_"],div[class^="ad_"] {
 display: none !important;
 	}
@@ -26,19 +26,22 @@ div[class="ad750"],div[class^="ad760"],div[class="ad950"],div[class^="ad960"]{
 display: none !important;
 	}
 div[class*="AdBox"],div[class^="adbox"],a[id*="_adbox"],div[class^="ad-box"],
-div[class^="adList"],ul[class^="adList"],div[class*="areaAd"],div[class^="adarea"]{
+div[class^="adArea"],div[class*="areaAd"],div[class^="adarea"],div[id="adcontent"]{
 display: none !important;
 	}
-div[class=ad],[class$="adclass"],[class^="adNone"],div[class="adinfo"],
-div[class^="adFrame"],div[class^="adindex"],div[class^="advlist"],div[id="adcontent"]{
+div[class^="adList"],ul[class^="adList"],div[class^="advlist"],div[class="advdiv"],
+div[class="adfoot"],div[class="admiddle"],div[class^="adindex"],div[class="adinfo"]{
 display: none !important;
 	}
-div[class="aXd"],div[class="ad-bar"],div[id="ad-flash"],div[id="ads-bot"],div[id^="AdLayer"],
-div[class="advdiv"],div[class="advertising"],div[id^="adbn_"],ul[class$="adBlue"]{
+[class$="adclass"],[class^="adNone"],div[class="advertising"],div[class^="adFrame"],
+div[id="ad-flash"],div[id="ads-bot"],div[class="ad-bar"],div[id^="AdLayer"]{
 display: none !important;
 	}
-div[class^="block_ad"],div[class^="bt_ad"],div[class^="con_ad"],div[id="particular_ad"],
-div[class="yourad"],div[id="header_ads"],div[class="rec_text"]{
+div[class="aXd"],div[id^="adbn_"],ul[class$="adBlue"]{
+display: none !important;
+	}
+div[class^="block_ad"],div[class^="bt_ad"],div[class="boxad"],div[class^="con_ad"],
+div[id="particular_ad"],div[class="yourad"],div[id="header_ads"]{
 display: none !important;
 	}
 
@@ -99,7 +102,7 @@ div[class^="adtxt"],div[class^="adTxt"],DIV[class*="ad-text"],div[id*="textad"]{
 display: none !important;
 	}
 [class*="textad"],[class*="TextAd"],[id^="text_ad"],[class*="word_ad"],
-div[class*="padd_t"],div[id^="adwords"],div[class$="turn_ad"] {
+div[class*="padd_t"],div[id^="adwords"],div[class$="turn_ad"],div[class="rec_text"]{
 display: none !important;
 	}
 ul[class="ad_doc_text"]{display: none !important;}
@@ -142,21 +145,22 @@ display: none !important;
 	}
 
 div[class^="ad"][id^="div"],div[id^="pf_ad"],div[id$="adshow"],[id^="iframeAd"],
-a[class$="CloseX"],div[id="tikionly"],div[id^="followDiv"],div[id^="kxsoMovie"]{
+a[class$="CloseX"],div[id^="followDiv"],div[id^="kxsoMovie"]{
 display: none !important;
 	}
 .qqbox,#divQQbox,#adZljcRightBottomDiv,#feedback-box,
 #msg-faq,#dnDownloadProgress,#qqaddiv,#ShowQQ{
 display: none !important;
 	}
-div[id^="Cnxad"],#SlipLay,#ty_msg_box{display: none !important;}
+div[id^="Cnxad"],#SlipLay,#winpop,div[id^="ty_msg_box"]{display: none !important;}
 
 /* 各种提示隐藏 */
 #tips_qihoo,#tg_qq,#_tc_browser_promotion,#mbCarduserNotLogin,#mentionTip,#myproterodivctget{display: none !important;}
-div[id="baidu_tip"],[id*="sogou_se"],div[class="upgrade_your_browser"],div[class="webgame_list"] {
+.fromwap,div[id="baidu_tip"],[id*="sogou_se"],div[class="upgrade_your_browser"],
+div[class="webgame_list"],div[id="followall_mod"] {
 display: none !important;
 	}
-
+/* FaceBook */
 DIV[class="fblike_button"],#fb_like,#fb_plugin,div.like_it_frame, 
 iframe[src^="http://www.facebook.com"],a[href^="http://www.facebook.com/"][target="_blank"] {display:none !important;}
 
