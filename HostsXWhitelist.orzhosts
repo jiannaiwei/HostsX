@@ -1,11 +1,20 @@
-;version=201111051335
-;author=郭鹏锟
+;version=201111081705
+;author=KwokTree
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
 $DELETE
 
 #导致Apple产品恢复固件时无法正常验证。
 gs.apple.com
+$DELETE
+
+#导致金山卫士(客户端)无法正常升级。
+dl.ijinshan.com
+up.ijinshan.com
+cu001.www.duba.net
+cu002.www.duba.net
+cu003.www.duba.net
+cu004.www.duba.net
 $DELETE
 
 #导致迅雷用户头像(客户端)无法正常显示。
