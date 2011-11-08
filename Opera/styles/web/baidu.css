@@ -10,7 +10,8 @@
 http://bbs.operachina.com/viewtopic.php?f=41&t=29451
 
 */
-
+div[id="tip_holder"],
+div[class="tip-holder"],
 #ecad  /*  新闻  */ ,
 #rightAd   /* 贴吧 */ ,
 #tbl > #login_lead  /* 贴吧登录提示  */ ,

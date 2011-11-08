@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 3.08
+Version: 3.09
 Author: KwokTree
 Description: MayBe a better User CSS Hide AD.
 */
@@ -117,7 +117,7 @@ display: none !important;
 div[id^="thread_ads_"],.forumimglink,.forumlinks,.forumtxtlink {display: none !important;}
 div[style^="clear:both;margin:"],div[style^="position:relative;padding:"] { display:none !important }
 /* 签名过滤 */
-div[class^="sign0"],[class*="signature"],.sign,.postertext{display: none !important;}
+div[class^="sign0"],[class*="signature"],div[class="sign"],.postertext{display: none !important;}
 /* 论坛浮动过滤 */
 #bshareF,#ckepop,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
 
