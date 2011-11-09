@@ -1,4 +1,4 @@
-;version=201111081705
+;version=201111090936
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6839,6 +6839,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 walp.atm.youku.com
 0.0.0.0 lstat.youku.com
 #土豆网
+0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
 0.0.0.0 erreport.tudou.com
@@ -9858,6 +9859,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 res.yytou.cn
 0.0.0.0 res001.kogo12345.com
 0.0.0.0 resmkt.dipan.com
+0.0.0.0 run.iso001.com
 0.0.0.0 s.1634399.com
 0.0.0.0 s.1717388.com
 0.0.0.0 s.51e78.com
@@ -10073,4 +10075,3 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
-0.0.0.0 run.iso001.com
