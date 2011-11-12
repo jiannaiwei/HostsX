@@ -1,5 +1,5 @@
 @echo off
-set ver=3.07
+set ver=3.08
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -23,7 +23,7 @@ echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
 echo WScript.sleep 50 >>%temp%/chkver.vbs
 echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
-cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://kwoktree.googlecode.com/svn/trunk/hosts/ver.txt">%temp%/ver.txt 2>nul
+cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://kwoktree.googlecode.com/svn/trunk/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
 if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
 cls
@@ -347,7 +347,7 @@ echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
 echo WScript.sleep 200 >>%temp%/Upnew.vbs
 echo loop >>%temp%/Upnew.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
-cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://kwoktree.googlecode.com/svn/trunk/hosts/HostsTool.Src">%temp%\HostsTool.bat
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://kwoktree.googlecode.com/svn/trunk/SimpleUTool.Src">%temp%\HostsTool.bat
 echo @echo off>%temp%\up.bat
 echo echo ...Restart HostsTool...>>%temp%\up.bat
 echo ping /n 1 127.1^>nul>>%temp%\up.bat
