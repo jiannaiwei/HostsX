@@ -1,1 +1,0 @@
-reg add  HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /t REG_EXPAND_SZ /v "PPS Accelerator"  /f  
