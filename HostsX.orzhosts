@@ -1,4 +1,4 @@
-;version=201111090936
+;version=201111232231
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -19,17 +19,9 @@ ff02::3 ip6-allhosts
 fe80::1%lo0	localhost
 255.255.255.255	broadcasthost
 0.0.0.0 advertising.apple.com
-#DropBox
-199.47.217.179 www.dropbox.com
-174.129.218.39 dl.dropbox.com
-50.17.206.117 dl-web.dropbox.com
 #FlashGet
 221.123.176.125 s5.flashget.com
 221.123.176.136 cplog.flashget.com
-#Eeload
-220.189.250.122 gg.eeload.com
-#Potplayer
-124.238.246.15 potplayer.5d6d.com
 #ioage
 118.145.31.149 www.ioage.com
 115.182.38.16 bbs.ioage.com
@@ -43,26 +35,37 @@ fe80::1%lo0	localhost
 59.151.106.253 static.operachina.com
 59.151.106.253 wiki.operachina.com
 59.151.106.253 www.operachina.com
+#Soutong
+2001:470:a:17c::2 ipv6.5isotoi5.org
+2001:470:a:17c::2 soutong.iloveyou
+63.223.106.181 soutong.com
+#DropBox
+199.47.217.179 www.dropbox.com
+174.129.218.39 dl.dropbox.com
+50.17.206.117 dl-web.dropbox.com
+#MediaFire.com
+205.196.120.12 mediafire.com
+205.196.120.12 www.mediafire.com
+#Flickr
+76.13.18.78 bf1.farm3.static.flickr.com
+76.13.18.78 farm3.static.flickr.com
+76.13.18.78 gq1.farm3.static.flickr.com
+76.13.18.78 sp1.farm3.static.flickr.com
+76.13.18.79 bf1.farm5.static.flickr.com
+76.13.18.79 farm5.static.flickr.com
+76.13.18.79 gq1.farm5.static.flickr.com
+98.139.102.46 bf1.farm7.static.flickr.com
+98.139.102.46 farm7.static.flickr.com
+98.139.102.46 gq1.farm7.static.flickr.com
+98.139.102.46 ne1.farm7.static.flickr.com
+98.139.197.254 bf1.farm6.static.flickr.com
+98.139.197.254 farm6.static.flickr.com
+98.139.197.254 gq1.farm6.static.flickr.com
 #Facebook
 118.214.114.110	s-static.ak.facebook.com
+118.214.114.110 s-static.ak.facebook.com
 118.214.190.105	profile.ak.facebook.com
-202.157.186.28 static.ak.facebook.com
-202.157.186.34 b.static.ak.facebook.com
-66.220.146.18 apps.facebook.com
-66.220.146.50 graph.facebook.com
-66.220.147.62 ssl.facebook.com
-66.220.149.36 api.facebook.com
-69.63.178.57 secure-media-sf2p.facebook.com
-69.63.178.57 secure-profile.facebook.com
-69.63.179.70 secure.facebook.com
-69.63.181.16 zh-CN.facebook.com
-69.63.181.20 login.facebook.com
-69.63.181.31 m.facebook.com
-69.63.181.31 touch.facebook.com
-69.63.189.16 facebook.com
-69.171.228.14 www.facebook.com
-69.63.190.18 apps.facebook.com
-118.214.190.128	profile.ak.fbcdn.net
+118.214.190.128 profile.ak.fbcdn.net
 124.155.222.50 vthumb.ak.fbcdn.net
 125.56.199.9 photos-a.ak.fbcdn.net
 125.56.199.9 photos-b.ak.fbcdn.net
@@ -72,133 +75,125 @@ fe80::1%lo0	localhost
 125.56.199.9 photos-f.ak.fbcdn.net
 125.56.199.9 photos-g.ak.fbcdn.net
 125.56.199.9 photos-h.ak.fbcdn.net
+202.157.186.28 static.ak.facebook.com
+202.157.186.34 b.static.ak.facebook.com
 202.157.186.34 creative.ak.fbcdn.net
+210.0.146.9 profile.ak.facebook.com
+66.220.146.18 apps.facebook.com
+66.220.146.50 graph.facebook.com
+66.220.147.47 api.facebook.com
+66.220.147.62 ssl.facebook.com
+66.220.149.36 api.facebook.com
+69.171.228.14 www.facebook.com
 69.63.176.21 s-hprofile-sf2p.fbcdn.net
+69.63.178.15 ssl.facebook.com
+69.63.178.57 secure-media-sf2p.facebook.com
+69.63.178.57 secure-profile.facebook.com
+69.63.179.70 secure.facebook.com
+69.63.180.51 upload.facebook.com
+69.63.181.16 zh-CN.facebook.com
+69.63.181.20 login.facebook.com
+69.63.181.31 m.facebook.com
+69.63.181.31 touch.facebook.com
 69.63.187.17 fbcdn.net
+69.63.189.16 facebook.com
+69.63.189.16 www.facebook.com
+69.63.190.18 apps.facebook.com
 97.65.135.139 external.ak.fbcdn.net
 97.65.135.163 b.static.ak.fbcdn.net
 97.65.135.163 static.ak.fbcdn.net
-69.63.180.51 upload.facebook.com
 #Photobucket
 209.17.69.31 i37.photobucket.com
 209.17.69.33 i37.photobucket.com
 209.17.69.35 i37.photobucket.com
-#Flickr
-66.94.233.186 www.flickr.com
-66.94.233.187 www.flickr.com
-68.142.214.24 www.flickr.com
-216.115.110.118 www.flickr.com
-216.115.110.119 www.flickr.com
-66.196.66.156 www.flickr.com
-66.196.66.157 www.flickr.com
-66.196.66.212 www.flickr.com
-66.196.66.213 www.flickr.com
-87.248.105.216 www.flickr.com
-87.248.105.221 www.flickr.com
-209.191.105.102 adjax.flickr.yahoo.com
-66.196.118.49 farm1.static.flickr.com
-68.142.214.43 farm1.static.flickr.com
-69.147.123.63 farm2.static.flickr.com
-69.147.90.159 farm2.static.flickr.com
-69.147.90.215 farm3.static.flickr.com
-76.13.18.78 farm3.static.flickr.com
-76.13.18.78 sp1.farm3.static.flickr.com
-67.195.19.66 farm4.static.flickr.com
-76.13.18.77 farm4.static.flickr.com
-77.238.160.184 ch1.farm4.static.flickr.com
-67.195.19.74 farm5.static.flickr.com
-76.13.18.79 farm5.static.flickr.com
-76.13.18.79 gq1.farm5.static.flickr.com
-98.139.197.254 farm6.static.flickr.com
-98.136.170.121 farm6.static.flickr.com
-98.139.197.254 gq1.farm6.static.flickr.com
-98.138.8.116 farm7.static.flickr.com
-98.139.102.46 farm7.static.flickr.com
-98.139.102.46 bf1.farm7.static.flickr.com
-98.139.102.46 gq1.farm7.static.flickr.com
-98.139.102.46 ne1.farm7.static.flickr.com
-68.142.214.43 static.flickr.com
-66.196.118.49 static.flickr.com
-209.191.121.31 up.flickr.com
 #Imdb
 92.122.217.186 ia.media-imdb.com
 198.78.213.126 i.media-imdb.com
 #Multiupload
-85.17.76.195 www.multiupload.com
 85.17.76.195 multiupload.com
-#HotGoo
-75.126.213.58 www.hotgoo.com
+85.17.76.195 www.multiupload.com
+85.17.76.195 www2.multiupload.com
+85.17.76.195 www3.multiupload.com
+85.17.76.195 www4.multiupload.com
+85.17.76.195 www5.multiupload.com
+85.17.76.195 www6.multiupload.com
+85.17.76.195 www7.multiupload.com
+85.17.76.195 www8.multiupload.com
+85.17.76.195 www9.multiupload.com
+85.17.76.195 www10.multiupload.com
+85.17.76.195 www11.multiupload.com
+85.17.76.195 www12.multiupload.com
+85.17.76.195 www13.multiupload.com
+85.17.76.195 www14.multiupload.com
+85.17.76.195 www15.multiupload.com
+85.17.76.195 www16.multiupload.com
+85.17.76.195 www17.multiupload.com
+85.17.76.195 www18.multiupload.com
+85.17.76.195 www19.multiupload.com
+85.17.76.195 www20.multiupload.com
+85.17.76.195 www21.multiupload.com
+85.17.76.195 www22.multiupload.com
+85.17.76.195 www23.multiupload.com
+85.17.76.195 www24.multiupload.com
+85.17.76.195 www25.multiupload.com
+85.17.76.195 www26.multiupload.com
+85.17.76.195 www28.multiupload.com
+85.17.76.195 www29.multiupload.com
+85.17.76.195 www30.multiupload.com
+85.17.76.195 www31.multiupload.com
+85.17.76.195 www32.multiupload.com
+85.17.76.195 www33.multiupload.com
+85.17.76.195 www34.multiupload.com
+85.17.76.195 www35.multiupload.com
+85.17.76.195 www36.multiupload.com
+85.17.76.195 www37.multiupload.com
+85.17.76.195 www38.multiupload.com
+85.17.76.195 www39.multiupload.com
+85.17.76.195 www40.multiupload.com
+85.17.76.195 www41.multiupload.com
+85.17.76.195 www42.multiupload.com
+85.17.76.195 www43.multiupload.com
+85.17.76.195 www44.multiupload.com
+85.17.76.195 www45.multiupload.com
+85.17.76.195 www46.multiupload.com
+85.17.76.195 www47.multiupload.com
+85.17.76.195 www48.multiupload.com
+85.17.76.195 www49.multiupload.com
+85.17.76.195 www50.multiupload.com
 #Gravatar
 93.184.220.20 s.gravatar.com
 93.184.220.20 0.gravatar.com
 93.184.220.20 1.gravatar.com
 93.184.220.20 2.gravatar.com
-#Plurk
-74.120.121.80 plurk.com
-74.120.121.16 www.plurk.com
-2607:f128:47::1:1 plurk.com
-2607:f128:47::1:1 www.plurk.com
-2607:f128:47::1:1 ipv6.plurk.com
-#Soutong
-2001:470:a:17c::2 ipv6.5isotoi5.org
-2001:470:a:17c::2 soutong.iloveyou
-63.223.106.181 soutong.com
-#Tumblr
-74.54.212.172 assets.tumblr.com
-74.54.212.172 safariextensions.tumblr.com
-74.54.212.172 safe.tumblr.com
-74.54.212.172 tumblr.com
-74.54.212.172 www.tumblr.com
-205.168.237.32 24.media.tumblr.com
-205.168.237.32 25.media.tumblr.com
-205.168.237.32 26.media.tumblr.com
-205.168.237.32 27.media.tumblr.com
-205.168.237.32 28.media.tumblr.com
-205.168.237.32 29.media.tumblr.com
-205.168.237.32 30.media.tumblr.com
 #Twitter
 199.59.149.243 oauth.twitter.com
-199.59.149.243 twitter.com
-199.59.149.243 www.twitter.com
-199.59.149.243 mobile.twitter.com
-199.59.149.243 api.twitter.com
+199.59.149.230 twitter.com
+199.59.148.82 www.twitter.com
+199.59.148.96 mobile.twitter.com
+199.59.148.20 api.twitter.com
 199.59.148.201 search.twitter.com
 199.59.148.139 userstream.twitter.com
-199.59.149.243 ssl.twitter.com
-199.59.149.243 status.twitter.com
-199.59.149.243 assets0.twitter.com
-199.59.149.243 assets1.twitter.com
-199.59.149.243 assets2.twitter.com
-199.59.149.243 assets3.twitter.com
-199.59.149.243 static.twitter.com
-184.29.36.124 platform.twitter.com
+72.32.231.8 status.twitter.com
+199.59.148.92 assets0.twitter.com
+199.59.149.199 assets1.twitter.com
+199.59.148.92 assets2.twitter.com
+199.59.149.199 assets3.twitter.com
+199.59.148.92 static.twitter.com
+2.16.149.55 platform.twitter.com
 219.76.10.138 platform0.twitter.com
 199.59.148.206 help.twitter.com
 199.59.148.206 support.twitter.com
-209.84.4.102 si0.twimg.com
-209.84.4.102 si1.twimg.com
-209.84.4.102 si2.twimg.com
-209.84.4.102 si3.twimg.com
-209.84.4.102 si4.twimg.com
-209.84.4.102 si5.twimg.com
-199.59.149.243 upload.twitter.com
-199.59.149.210 t.co
+184.169.78.33 si0.twimg.com
+184.169.78.33 si1.twimg.com
+184.169.78.33 si2.twimg.com
+184.169.78.33 si3.twimg.com
+184.169.78.33 si4.twimg.com
+184.169.78.33 si5.twimg.com
+199.59.148.213 upload.twitter.com
+199.59.148.12 t.co
 #Foursquare
 50.16.194.30 foursquare.com
 50.16.194.30 www.foursquare.com
-#Twitpic
-174.36.58.234 twitpic.com
-174.36.58.234 www.twitpic.com
-174.36.46.32 web7.twitpic.com
-174.36.58.204 web1.twitpic.com
-174.36.58.224 web2.twitpic.com
-174.36.58.200 web3.twitpic.com
-174.37.33.184 web4.twitpic.com
-174.37.75.16 web5.twitpic.com
-174.36.35.60 web6.twitpic.com
-66.228.120.92 web8.twitpic.com
-74.86.100.160 web9.twitpic.com
-74.86.87.236 web10.twitpic.com
 #Wordpress
 72.233.119.209 i.polldaddy.com
 72.233.119.209 i0.poll.fm
@@ -232,24 +227,6 @@ fe80::1%lo0	localhost
 @HostsX OneKey
 @HostsX OneKey/Google
 #GoogleServ
-203.208.46.85 lh1.googleusercontent.com
-203.208.46.85 lh2.googleusercontent.com
-203.208.46.85 lh3.googleusercontent.com
-203.208.46.85 lh4.googleusercontent.com
-203.208.46.85 lh5.googleusercontent.com
-203.208.46.85 lh6.googleusercontent.com
-203.208.46.85 lh7.googleusercontent.com
-203.208.46.85 s1.googleusercontent.com
-203.208.46.85 s2.googleusercontent.com
-203.208.46.85 images1-focus-opensocial.googleusercontent.com
-203.208.46.85 images2-focus-opensocial.googleusercontent.com
-203.208.46.85 images3-focus-opensocial.googleusercontent.com
-203.208.46.85 webcache.googleusercontent.com
-203.208.46.85 picasaweb.google.com
-203.208.46.85 plus.google.com
-203.208.46.85 mail.google.com
-203.208.46.85 www.google.com
-203.208.46.85 www.google.com.hk
 203.208.46.148 encrypted-tbn0.google.com
 203.208.46.148 encrypted-tbn1.google.com
 203.208.46.148 encrypted-tbn2.google.com
@@ -262,382 +239,6 @@ fe80::1%lo0	localhost
 203.208.46.148 encrypted-tbn9.google.com
 203.208.46.148 encrypted.google.com
 203.208.46.148 encrypted.google.com.hk
-#Appspot
-203.208.39.104 tickleservice.appspot.com
-203.208.39.104 rommanager.appspot.com
-203.208.39.104 007blogchina.appspot.com
-203.208.39.104 1m.appspot.com
-203.208.39.104 2beesinchina.appspot.com
-203.208.39.104 5172306.appspot.com
-203.208.39.104 51openapi.appspot.com
-203.208.39.104 52jizhang.appspot.com
-203.208.39.104 669775.appspot.com
-203.208.39.104 6lianmeng.appspot.com
-203.208.39.104 abbaaddc.appspot.com
-203.208.39.104 ace-fucking-diary.appspot.com
-203.208.39.104 ad-research.appspot.com
-203.208.39.104 adotstudio.appspot.com
-203.208.39.104 amuse.appspot.com
-203.208.39.104 androiddosbox.appspot.com
-203.208.39.104 androiddrawableexplorer.appspot.com
-203.208.39.104 andy-blog.appspot.com
-203.208.39.104 app-store.appspot.com
-203.208.39.104 appengine-cookbook.appspot.com
-203.208.39.104 appgam.appspot.com
-203.208.39.104 application-id.appspot.com
-203.208.39.104 appspot.l.google.com
-203.208.39.104 artlozd.appspot.com
-203.208.39.104 autoproxy2pac.appspot.com
-203.208.39.104 badgm.appspot.com
-203.208.39.104 bang590.appspot.com
-203.208.39.104 bitkb.appspot.com
-203.208.39.104 bittrk.appspot.com
-203.208.39.104 blog4tomato.appspot.com
-203.208.39.104 blogblambin.appspot.com
-203.208.39.104 blogz.appspot.com
-203.208.39.104 bloodygui.appspot.com
-203.208.39.104 bntwitter.appspot.com
-203.208.39.104 boat-man.appspot.com
-203.208.39.104 bret.appspot.com
-203.208.39.104 bugway.appspot.com
-203.208.39.104 buzzsync.appspot.com
-203.208.39.104 cactus-wave.appspot.com
-203.208.39.104 caiwo.appspot.com
-203.208.39.104 caojblog.appspot.com
-203.208.39.104 cet468.appspot.com
-203.208.39.104 cggo1985.appspot.com
-203.208.39.104 checknerds.appspot.com
-203.208.39.104 chenyehaohome.appspot.com
-203.208.39.104 chilepersonfinder.appspot.com
-203.208.39.104 china-app-blog.appspot.com
-203.208.39.104 chonglangban.appspot.com
-203.208.39.104 chrometophone.appspot.com
-203.208.39.104 cindy-blog.appspot.com
-203.208.39.104 climode.appspot.com
-203.208.39.104 closure-compiler.appspot.com
-203.208.39.104 cloverfoever.appspot.com
-203.208.39.104 cnfyblog.appspot.com
-203.208.39.104 cnyjzz.appspot.com
-203.208.39.104 codereview.appspot.com
-203.208.39.104 colin-young.appspot.com
-203.208.39.104 createqrcode.appspot.com
-203.208.39.104 daguofan.appspot.com
-203.208.39.104 daobook.appspot.com
-203.208.39.104 dbdsgnr.appspot.com
-203.208.39.104 de-javu.appspot.com
-203.208.39.104 demoslam.appspot.com
-203.208.39.104 dengdaisisuo.appspot.com
-203.208.39.104 desaigongyuan.appspot.com
-203.208.39.104 diabloimage2.appspot.com
-203.208.39.104 dictsearch.appspot.com
-203.208.39.104 ds-1210.appspot.com
-203.208.39.104 dsnake110.appspot.com
-203.208.39.104 duanli1987.appspot.com
-203.208.39.104 dx.appspot.com
-203.208.39.104 edikud.appspot.com
-203.208.39.104 ei.appspot.com
-203.208.39.104 emoonwolf.appspot.com
-203.208.39.104 ether.appspot.com
-203.208.39.104 evolutionofweb.appspot.com
-203.208.39.104 ewutai.appspot.com
-203.208.39.104 fakebookquotes.appspot.com
-203.208.39.104 fakegdict.appspot.com
-203.208.39.104 fangbinxing.appspot.com
-203.208.39.104 fashion-girls.appspot.com
-203.208.39.104 feed2pdf.appspot.com
-203.208.39.104 fenglaiblog.appspot.com
-203.208.39.104 fetionapi.appspot.com
-203.208.39.104 fetionlib.appspot.com
-203.208.39.104 flickrforbusypeople.appspot.com
-203.208.39.104 fmlchinese.appspot.com
-203.208.39.104 followboatman.appspot.com
-203.208.39.104 foremilyz.appspot.com
-203.208.39.104 four-cats.appspot.com
-203.208.39.104 four-corner.appspot.com
-203.208.39.104 freegeoip.appspot.com
-203.208.39.104 fwall-f.appspot.com
-203.208.39.104 fwall-w.appspot.com
-203.208.39.104 g-arcade.appspot.com
-203.208.39.104 gadgets-mike.appspot.com
-203.208.39.104 gae-django-cms.appspot.com
-203.208.39.104 gannchina.appspot.com
-203.208.39.104 geekaa3.appspot.com
-203.208.39.104 geekqiao.appspot.com
-203.208.39.104 geo-twitter.appspot.com
-203.208.39.104 getfavicon.appspot.com
-203.208.39.104 gfw.appspot.com
-203.208.39.104 girls-birthday.appspot.com
-203.208.39.104 givetor.appspot.com
-203.208.39.104 gjqtdq.appspot.com
-203.208.39.104 go-west.appspot.com
-203.208.39.104 go2-proxy.appspot.com
-203.208.39.104 go2china9.appspot.com
-203.208.39.104 godashboard.appspot.com
-203.208.39.104 googcloudlabs.appspot.com
-203.208.39.104 google-gruyere.appspot.com
-203.208.39.104 googlemapsholidays.appspot.com
-203.208.39.104 googlesharedspaces.appspot.com
-203.208.39.104 googlewave.luck.appspot.com
-203.208.39.104 gothefirst.appspot.com
-203.208.39.104 guukguuk.appspot.com
-203.208.39.104 gv-gadget.appspot.com
-203.208.39.104 haiticrisis.appspot.com
-203.208.39.104 hanson.appspot.com
-203.208.39.104 haxball.appspot.com
-203.208.39.104 heliumchan.appspot.com
-203.208.39.104 hello-math.appspot.com
-203.208.39.104 hpbtoapps.appspot.com
-203.208.39.104 hrzlvn-about.appspot.com
-203.208.39.104 htmlfive.appspot.com
-203.208.39.104 hugozhu.appspot.com
-203.208.39.104 hx-001.appspot.com
-203.208.39.104 hx-002.appspot.com
-203.208.39.104 hx-003.appspot.com
-203.208.39.104 hx-004.appspot.com
-203.208.39.104 hx-005.appspot.com
-203.208.39.104 hx-006.appspot.com
-203.208.39.104 hx-007.appspot.com
-203.208.39.104 hx-008.appspot.com
-203.208.39.104 hx-009.appspot.com
-203.208.39.104 hx-010.appspot.com
-203.208.39.104 hx-011.appspot.com
-203.208.39.104 hx-012.appspot.com
-203.208.39.104 hx-013.appspot.com
-203.208.39.104 hx-014.appspot.com
-203.208.39.104 hx-015.appspot.com
-203.208.39.104 hx-016.appspot.com
-203.208.39.104 hx-017.appspot.com
-203.208.39.104 hx-018.appspot.com
-203.208.39.104 hx-019.appspot.com
-203.208.39.104 hx-020.appspot.com
-203.208.39.104 hx-021.appspot.com
-203.208.39.104 hx-022.appspot.com
-203.208.39.104 hx-023.appspot.com
-203.208.39.104 hx-024.appspot.com
-203.208.39.104 hx-025.appspot.com
-203.208.39.104 hx-026.appspot.com
-203.208.39.104 hx-027.appspot.com
-203.208.39.104 hx-028.appspot.com
-203.208.39.104 hx-029.appspot.com
-203.208.39.104 hx-030.appspot.com
-203.208.39.104 hx-031.appspot.com
-203.208.39.104 hx-032.appspot.com
-203.208.39.104 hx-033.appspot.com
-203.208.39.104 hx-034.appspot.com
-203.208.39.104 hx-035.appspot.com
-203.208.39.104 hx-036.appspot.com
-203.208.39.104 hx-037.appspot.com
-203.208.39.104 hx-038.appspot.com
-203.208.39.104 hx-039.appspot.com
-203.208.39.104 hx-040.appspot.com
-203.208.39.104 hx-041.appspot.com
-203.208.39.104 hydrozoasandgames.appspot.com
-203.208.39.104 hzqtcblog.appspot.com
-203.208.39.104 i-tuan.appspot.com
-203.208.39.104 i18napis.appspot.com
-203.208.39.104 icity.appspot.com
-203.208.39.104 iguangblog.appspot.com
-203.208.39.104 ihere.appspot.com
-203.208.39.104 ihnfsa.appspot.com
-203.208.39.104 imagecharteditor.appspot.com
-203.208.39.104 imimom0.appspot.com
-203.208.39.104 ip.appspot.com
-203.208.39.104 ip2loc.appspot.com
-203.208.39.104 ipgoto.appspot.com
-203.208.39.104 itnewsvendor.appspot.com
-203.208.39.104 itopidea.appspot.com
-203.208.39.104 ivoluntarily.appspot.com
-203.208.39.104 jackzoublog.appspot.com
-203.208.39.104 javatweet.appspot.com
-203.208.39.104 jiangxiaolei.appspot.com
-203.208.39.104 jiayiming.appspot.com
-203.208.39.104 justriff.appspot.com
-203.208.39.104 k266.appspot.com
-203.208.39.104 kanyelicious.appspot.com
-203.208.39.104 keeng2008.appspot.com
-203.208.39.104 kongxuba.appspot.com
-203.208.39.104 kskyapi.appspot.com
-203.208.39.104 kualantool.appspot.com
-203.208.39.104 kwokphp.appspot.com
-203.208.39.104 kwoktree.appspot.com
-203.208.39.104 lbywsm.appspot.com
-203.208.39.104 leebloger.appspot.com
-203.208.39.104 leeight.appspot.com
-203.208.39.104 lenicblog.appspot.com
-203.208.39.104 lianyunhelper.appspot.com
-203.208.39.104 linkpush.appspot.com
-203.208.39.104 linpython.appspot.com
-203.208.39.104 linxu01.appspot.com
-203.208.39.104 livejournal2blogger.appspot.com
-203.208.39.104 lostdecadegamesapp.appspot.com
-203.208.39.104 luck.appspot.com
-203.208.39.104 ly50247.appspot.com
-203.208.39.104 lylmiclog.appspot.com
-203.208.39.104 maleoapp.appspot.com
-203.208.39.104 marsdreamblog.appspot.com
-203.208.39.104 mcpunkmusic.appspot.com
-203.208.39.104 meme2028.appspot.com
-203.208.39.104 miaolegewu.appspot.com
-203.208.39.104 mickeywaley.appspot.com
-203.208.39.104 micolog.appspot.com
-203.208.39.104 mindon.appspot.com
-203.208.39.104 mirrornt.appspot.com
-203.208.39.104 mirrorrr.appspot.com
-203.208.39.104 mistapostle.appspot.com
-203.208.39.104 moderator.appspot.com
-203.208.39.104 moeloader.appspot.com
-203.208.39.104 monnand.appspot.com
-203.208.39.104 moses.appspot.com
-203.208.39.104 movabletype2blogger.appspot.com
-203.208.39.104 moyige.appspot.com
-203.208.39.104 muxianhai.appspot.com
-203.208.39.104 my-todo.appspot.com
-203.208.39.104 mydfblog.appspot.com
-203.208.39.104 mynicesms.appspot.com
-203.208.39.104 mytracks.appspot.com
-203.208.39.104 n23.appspot.com
-203.208.39.104 navwebd.appspot.com
-203.208.39.104 newsfeed-dot-latest-dot-rovio-ad-engine.appspot.com
-203.208.39.104 nocapricorn.appspot.com
-203.208.39.104 notwewant1984.appspot.com
-203.208.39.104 now-here.appspot.com
-203.208.39.104 nuslibrary.appspot.com
-203.208.39.104 onlypython.appspot.com
-203.208.39.104 openid-provider.appspot.com
-203.208.39.104 openradar.appspot.com
-203.208.39.104 openstreetbugs.appspot.com
-203.208.39.104 orzbar.appspot.com
-203.208.39.104 orzminjie.appspot.com
-203.208.39.104 osda.appspot.com
-203.208.39.104 partychapp.appspot.com
-203.208.39.104 paswd.appspot.com
-203.208.39.104 pdsguo.appspot.com
-203.208.39.104 peterbookmace.appspot.com
-203.208.39.104 pgfishmicoblog.appspot.com
-203.208.39.104 picasawebutility.appspot.com
-203.208.39.104 pictureworthsthousandwords.appspot.com
-203.208.39.104 productideas.appspot.com
-203.208.39.104 project-slingshot-gp.appspot.com
-203.208.39.104 proxybay.appspot.com
-203.208.39.104 proxytea.appspot.com
-203.208.39.104 psp-music.appspot.com
-203.208.39.104 pubinbeijing.appspot.com
-203.208.39.104 pubsubhubbub.appspot.com
-203.208.39.104 py-bow.appspot.com
-203.208.39.104 pynotes.appspot.com
-203.208.39.104 qhm123.appspot.com
-203.208.39.104 quizipedia.appspot.com
-203.208.39.104 qunianjinri.appspot.com
-203.208.39.104 r3232-dot-latest-dot-project-slingshot-gp.appspot.com
-203.208.39.104 ragecomic.appspot.com
-203.208.39.104 random-guardian.appspot.com
-203.208.39.104 randomtaste.appspot.com
-203.208.39.104 readable-app.appspot.com
-203.208.39.104 reader2twitter.appspot.com
-203.208.39.104 redondoself.appspot.com
-203.208.39.104 revcanonical.appspot.com
-203.208.39.104 rss4py.appspot.com
-203.208.39.104 samhooxee.appspot.com
-203.208.39.104 sangoodapp.appspot.com
-203.208.39.104 sastuffs.appspot.com
-203.208.39.104 savetwitterinchina.appspot.com
-203.208.39.104 sdsm2008.appspot.com
-203.208.39.104 searchtaobao.appspot.com
-203.208.39.104 secbrowsing.appspot.com
-203.208.39.104 secinn.appspot.com
-203.208.39.104 sheepsblog.appspot.com
-203.208.39.104 shell.appspot.com
-203.208.39.104 shepherdinha911.appspot.com
-203.208.39.104 shuiqunawaimai.appspot.com
-203.208.39.104 simple-note.appspot.com
-203.208.39.104 site-map.appspot.com
-203.208.39.104 sivanproxy.appspot.com
-203.208.39.104 sms4twitter.appspot.com
-203.208.39.104 snowshowswhite.appspot.com
-203.208.39.104 snshelper.appspot.com
-203.208.39.104 so-proxy.appspot.com
-203.208.39.104 socghop.appspot.com
-203.208.39.104 softjiecn.appspot.com
-203.208.39.104 soproxy.appspot.com
-203.208.39.104 spy.appspot.com
-203.208.39.104 squall0629.appspot.com
-203.208.39.104 storegadgetwizard.appspot.com
-203.208.39.104 sunxiangyao.appspot.com
-203.208.39.104 susan.appspot.com
-203.208.39.104 sypxue.appspot.com
-203.208.39.104 tag080808.appspot.com
-203.208.39.104 tedtalksubtitledownload.appspot.com
-203.208.39.104 thisisgaosong.appspot.com
-203.208.39.104 thousandd.appspot.com
-203.208.39.104 treasurehunt.appspot.com
-203.208.39.104 tuitutwiiter.appspot.com
-203.208.39.104 tunileaks.appspot.com
-203.208.39.104 tweetforcn.appspot.com
-203.208.39.104 tweetsfun.appspot.com
-203.208.39.104 twiforcn.appspot.com
-203.208.39.104 twitalker.appspot.com
-203.208.39.104 twitcn.appspot.com
-203.208.39.104 twiterlist2rss.appspot.com
-203.208.39.104 twitese.appspot.com
-203.208.39.104 twitese2.appspot.com
-203.208.39.104 twiteseapi.appspot.com
-203.208.39.104 twitter2gtalk.appspot.com
-203.208.39.104 twittergadget.appspot.com
-203.208.39.104 twittersentiment.appspot.com
-203.208.39.104 twittersina.appspot.com
-203.208.39.104 ulipad.appspot.com
-203.208.39.104 uliwebproject.appspot.com
-203.208.39.104 uupickup.appspot.com
-203.208.39.104 v0rtex.appspot.com
-203.208.39.104 v2ex.appspot.com
-203.208.39.104 v4.appspot.com
-203.208.39.104 variablysfw.appspot.com
-203.208.39.104 vvonderblog.appspot.com
-203.208.39.104 w3w.appspot.com
-203.208.39.104 wansishuang.appspot.com
-203.208.39.104 wap.shoujimoka.appspot.com
-203.208.39.104 warbabyy.appspot.com
-203.208.39.104 waterzeong.appspot.com
-203.208.39.104 wave-api.appspot.com
-203.208.39.104 wave-samples-gallery.appspot.com
-203.208.39.104 wave-skynet.appspot.com
-203.208.39.104 wbunle.appspot.com
-203.208.39.104 weatherlib.appspot.com
-203.208.39.104 webisbeauty.appspot.com
-203.208.39.104 wenjian36.appspot.com
-203.208.39.104 wknet1988.appspot.com
-203.208.39.104 wmr-proxy.appspot.com
-203.208.39.104 wordpress2blogger.appspot.com
-203.208.39.104 wowbeingpic.appspot.com
-203.208.39.104 wrenasheblog.appspot.com
-203.208.39.104 wubuntustg.appspot.com
-203.208.39.104 wupinyin.appspot.com
-203.208.39.104 www.duyanpili.appspot.com
-203.208.39.104 www.sea-horizon-net.appspot.com
-203.208.39.104 www.thusaepa.appspot.com
-203.208.39.104 wxcity4.appspot.com
-203.208.39.104 wyattwanglife.appspot.com
-203.208.39.104 xc1943.appspot.com
-203.208.39.104 xfox.appspot.com
-203.208.39.104 xreamblog.appspot.com
-203.208.39.104 xwl.appspot.com
-203.208.39.104 xxlazy.appspot.com
-203.208.39.104 yao-blog.appspot.com
-203.208.39.104 yinhm.appspot.com
-203.208.39.104 yongbus.appspot.com
-203.208.39.104 you-talk.appspot.com
-203.208.39.104 yourfirstfanfoumessage.appspot.com
-203.208.39.104 yt-subs.appspot.com
-203.208.39.104 zaichunchen.appspot.com
-203.208.39.104 zerolabrary.appspot.com
-203.208.39.104 zhengbo0409.appspot.com
-203.208.39.104 zhpy.appspot.com
-203.208.39.104 zhuziblog.appspot.com
-203.208.39.104 zhyway.appspot.com
-203.208.39.104 zkaipm.appspot.com
-203.208.39.104 zqqblog.appspot.com
-203.208.39.104 zqt.appspot.com
-203.208.39.104 zxing.appspot.com
 #BlogSpot
 2404:6800:8005::84 kwoktree.blogspot.com
 2404:6800:8005::84 chinafreenet.blogspot.com
@@ -937,16 +538,23 @@ fe80::1%lo0	localhost
 0.0.0.0 s.click.alimama.com
 0.0.0.0 static.alimama.com
 0.0.0.0 sutao.alimama.com
+0.0.0.0 t.alimama.com
 0.0.0.0 taoke.alimama.com
 0.0.0.0 tms.taoke.alimama.com
 0.0.0.0 www.alimama.com
 0.0.0.0 z.alimama.com
 #阿里巴巴
+0.0.0.0 acookie.alibaba.com
 0.0.0.0 cmweb.ilike.alibaba.com
 0.0.0.0 dmtracking.alibaba.com
 0.0.0.0 dmtracking2.alibaba.com
 0.0.0.0 p3p.alibaba.com
 0.0.0.0 p4psearch.china.alibaba.com
+0.0.0.0 survey.china.alibaba.com
+0.0.0.0 files.dailyupdate.wangwang.taobao.com
+0.0.0.0 download.im.alisoft.com
+0.0.0.0 jc.wangwang.taobao.com
+0.0.0.0 dailyupdate.wangwang.taobao.com
 #淘宝
 0.0.0.0 click.mz.simba.taobao.com
 0.0.0.0 click.tz.simba.taobao.com
@@ -956,8 +564,9 @@ fe80::1%lo0	localhost
 0.0.0.0 re.taobao.com
 0.0.0.0 redirect.simba.taobao.com
 0.0.0.0 s.click.taobao.com
-0.0.0.0 search8.taobao.com
 0.0.0.0 s8.taobao.com
+0.0.0.0 search8.taobao.com
+0.0.0.0 stat.simba.taobao.com
 0.0.0.0 hz.mmstat.com
 0.0.0.0 p3p.mmstat.com
 0.0.0.0 www.tao123.com
@@ -966,6 +575,7 @@ fe80::1%lo0	localhost
 0.0.0.0 taobaoafp.allyes.com
 @HostsX OneKey/百度联盟
 #百度
+dl.client.baidu.com
 0.0.0.0 a.baidu.com
 0.0.0.0 adm.baidu.com
 0.0.0.0 baidutv.baidu.com
@@ -976,7 +586,6 @@ fe80::1%lo0	localhost
 0.0.0.0 cbjs.baidu.com
 0.0.0.0 cjhq.baidu.com
 0.0.0.0 cpro.baidu.com
-0.0.0.0 dl.client.baidu.com
 0.0.0.0 drmcmm.baidu.com
 0.0.0.0 dzl.baidu.com
 0.0.0.0 e.baidu.com
@@ -1012,6 +621,8 @@ fe80::1%lo0	localhost
 0.0.0.0 api.cupid.qiyi.com
 0.0.0.0 dispatcher.video.qiyi.com
 0.0.0.0 msg.video.qiyi.com
+0.0.0.0 policy.cupid.qiyi.com
+0.0.0.0 show.cupid.qiyi.com
 0.0.0.0 uestat.video.qiyi.com
 0.0.0.0 focusbaiduafp.allyes.com
 0.0.0.0 imgc.unlitui.com
@@ -1405,6 +1016,7 @@ fe80::1%lo0	localhost
 0.0.0.0 codown.youdao.com
 0.0.0.0 impservice.union.youdao.com
 0.0.0.0 impservice.youdao.com
+0.0.0.0 union.youdao.com
 #有道词典
 0.0.0.0 clkservice2.dict.youdao.com
 0.0.0.0 feedback.youdao.com
@@ -1419,14 +1031,30 @@ fe80::1%lo0	localhost
 0.0.0.0 qd.code.qihoo.com
 0.0.0.0 rd.qihoo.com
 0.0.0.0 union.qihoo.com
-#360
+#360safe
 0.0.0.0 inst.360safe.com
+0.0.0.0 pdown.stat.360safe.com
+0.0.0.0 plugin.stat.360safe.com
 0.0.0.0 seapp.stat.360safe.com
 0.0.0.0 stat.360safe.com
 0.0.0.0 upload.360safe.com
 0.0.0.0 x.360safe.com
+#360
+0.0.0.0 cdn.apc.360.cn
+0.0.0.0 click.stat.hao.360.cn
+0.0.0.0 es.f.360.cn
 0.0.0.0 pinst.360.cn
+0.0.0.0 q.leak.360.cn
+0.0.0.0 q.soft.360.cn
+0.0.0.0 qd.code.360.cn
+0.0.0.0 qup.f.360.cn
 0.0.0.0 rd.360.cn
+0.0.0.0 s.se.360.cn
+0.0.0.0 st.se.360.cn
+0.0.0.0 stat.apc.360.cn
+0.0.0.0 stat.sd.360.cn
+0.0.0.0 static.apc.360.cn
+0.0.0.0 up.f.360.cn
 @HostsX OneKey/新浪
 #3G新浪
 0.0.0.0 iyh365.cn
@@ -1459,6 +1087,9 @@ fe80::1%lo0	localhost
 0.0.0.0 sms.sina.com.cn
 0.0.0.0 ta.sass.sina.com.cn
 0.0.0.0 uic.sso.sina.com.cn
+0.0.0.0 rs.sinajs.cn
+0.0.0.0 l.you.video.sina.com.cn
+0.0.0.0 cnt.v.sina.com.cn
 0.0.0.0 adsina.allyes.com
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinasc.allyes.com
@@ -1478,6 +1109,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ylunion.com
 @HostsX OneKey/搜狐
 #搜狐
+js2.pp.sohu.com.cn#搜狐博客页面显示
 0.0.0.0 ad.mail.sohu.com
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 adnet.sohu.com
@@ -1490,7 +1122,6 @@ fe80::1%lo0	localhost
 0.0.0.0 scalink.sohu.com
 0.0.0.0 suvset.sohu.com
 0.0.0.0 txt.go.sohu.com
-0.0.0.0 js2.pp.sohu.com.cn
 0.0.0.0 pb.hd.sohu.com.cn
 0.0.0.0 sohusc.allyes.com
 0.0.0.0 imp.ad-plus.cn
@@ -1559,7 +1190,9 @@ fe80::1%lo0	localhost
 0.0.0.0 adstextview.qq.com
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
+0.0.0.0 adver.pengyou.com
 0.0.0.0 c.l.qq.com
+0.0.0.0 f.qstatic.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fodder.tc.qq.com
 0.0.0.0 fw.qq.com
@@ -1585,7 +1218,11 @@ fe80::1%lo0	localhost
 0.0.0.0 tcss.qq.com
 0.0.0.0 trace.qq.com
 0.0.0.0 w.l.qq.com
-0.0.0.0 f.qstatic.com
+#QQ管家
+0.0.0.0 dl_dir2.qq.com
+0.0.0.0 pc1.gtimg.com
+0.0.0.0 pc2.gtimg.com
+0.0.0.0 s.pcmgr.qq.com
 #搜搜
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
@@ -1616,10 +1253,8 @@ fe80::1%lo0	localhost
 0.0.0.0 ub.dphub.sandai.net
 0.0.0.0 vodsts.sandai.net
 #Thunder
-$FUNCTION:THUNDERAD
-$提示：您好，您正在使用的 HostsX 尚不支持生成此特殊 Hosts 项，
-$　　　请至囧科技官方网站 http://orztech.com/softwares/hostsx ，
-$      下载最新版本的 HostsX。
+0.0.0.0 images.client.xunlei.com
+0.0.0.0 tips.xmp.kankan.xunlei.com
 #狗狗搜索
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
@@ -1660,6 +1295,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adsr.xcb.sdo.com
 0.0.0.0 adrs.sdo.com
 0.0.0.0 ibw.sdo.com
+0.0.0.0 static.ex.ibw.sdo.com
 #起点中文网
 0.0.0.0 qidian.adsame.com
 0.0.0.0 uedas.qidian.com
@@ -1669,16 +1305,20 @@ $      下载最新版本的 HostsX。
 0.0.0.0 de.ap.snyu.com
 0.0.0.0 pic.snyu.com
 #盛大统计
-0.0.0.0 ipic.staticsdo.com
 0.0.0.0 sda.ibw.sdo.com
-0.0.0.0 static.ex.ibw.sdo.com
 0.0.0.0 feo.staticsdo.com
 #igalive
 0.0.0.0 doubleclick.igalive.com
 0.0.0.0 ipagent.igalive.com
 0.0.0.0 js.igalive.com
 0.0.0.0 resource.igalive.com
-@HostsX OneKey/Yahoo！
+@HostsX OneKey/Yahoo!
+#us.lrd.yahoo.com
+cn.rd.yahoo.com
+us.rd.yahoo.com
+cn.yimg.com
+l.yimg.com
+rd.yahoo.co.jp
 #Adinterax
 0.0.0.0 adinterax.com
 0.0.0.0 mi.adinterax.com
@@ -6599,9 +6239,13 @@ $      下载最新版本的 HostsX。
 #逐浪网
 0.0.0.0 images2.zhulang.com
 0.0.0.0 pv.zhulang.com
+#潇湘书院
+0.0.0.0 images.xxsy.net
+0.0.0.0 xxsy.bohelady.com
 #红袖添香
 0.0.0.0 m.union.hongxiu.com
 #小说阅读网
+0.0.0.0 a.readnovel.com
 0.0.0.0 stat.readnovel.com
 #虚拟天空
 0.0.0.0 b.xntk.com
@@ -6652,6 +6296,7 @@ $      下载最新版本的 HostsX。
 #52pk
 0.0.0.0 ads.52pk.com
 0.0.0.0 market.52pk.com
+0.0.0.0 5y9nfpes.52pk.com
 #CDCGames
 0.0.0.0 gg.cdcgames.net
 #CNGBA
@@ -6780,6 +6425,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ccc.xdowns.com
 #Crsky
 0.0.0.0 images.crsky.com
+0.0.0.0 dlc2.pconline.com.cn
 @HostsX 国内站点广告/汽车类网站
 #易车网
 0.0.0.0 autosense.bitauto.com
@@ -6804,6 +6450,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.bmgad.com
 0.0.0.0 luck.v1.cn
 0.0.0.0 med.soodao.com
+#CNR
+0.0.0.0 d1.cnr.cn
+0.0.0.0 d2.cnr.cn
 #我乐网
 0.0.0.0 acs.56.com
 0.0.0.0 acs.agent.56.com
@@ -6821,23 +6470,20 @@ $      下载最新版本的 HostsX。
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 #优酷网
-0.0.0.0 atm.youku.com
-0.0.0.0 Fvid.atm.youku.com
-0.0.0.0 html.atm.youku.com
-0.0.0.0 nc.youku.com
-0.0.0.0 speed.lstat.youku.com
+0.0.0.0 e.stat.youku.com
+0.0.0.0 hz.lstat.youku.com
+0.0.0.0 lstat.youku.com
+0.0.0.0 player.lstat.youku.com
 0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
-0.0.0.0 static.lstat.youku.com
-0.0.0.0 urchin.lstat.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
 0.0.0.0 valf.atm.youku.com
-0.0.0.0 valo.atm.youku.com
 0.0.0.0 valp.atm.youku.com
 0.0.0.0 vid.atm.youku.com
-0.0.0.0 walp.atm.youku.com
-0.0.0.0 lstat.youku.com
+0.0.0.0 valo.atm.youku.com
+0.0.0.0 smarttrade.allyes.com
+0.0.0.0 a.htwisdom.com
 #土豆网
 0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com
@@ -6905,6 +6551,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 app-g.39.net
 0.0.0.0 dpvc.39.net
 0.0.0.0 39net.datamaster.com.cn
+#糗事百科
+0.0.0.0 ad.qiushibaike.com
 #互动百科
 0.0.0.0 stat.hudong.com
 #携程网
@@ -6973,7 +6621,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 rnd.dayoo.com
 0.0.0.0 sta.dayoo.com
 #51Job
-0.0.0.0 ac.51job.com
 0.0.0.0 logs.51job.com
 0.0.0.0 kwdsrv.51job.com
 #智联招聘
@@ -7050,6 +6697,10 @@ $      下载最新版本的 HostsX。
 #1o26
 0.0.0.0 ck.1o26.com
 0.0.0.0 cp.1o26.com
+#163ads
+0.0.0.0 www.163ads.com
+0.0.0.0 267f42a0a93.345ads.com
+0.0.0.0 img.345ads.com
 #2bj
 0.0.0.0 click.5j.com
 0.0.0.0 click2.5j.com
@@ -7151,6 +6802,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 a1139.oadz.com
 0.0.0.0 a1410.oadz.com
 0.0.0.0 a777.oadz.com
+0.0.0.0 a1491.oadz.com
 0.0.0.0 a814.oadz.com
 0.0.0.0 a873.oadz.com
 0.0.0.0 dns1.oadz.com
@@ -7465,6 +7117,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 iplus.allyes.com
 0.0.0.0 lhzbafp.allyes.com
 0.0.0.0 mscdn.allyes.cn
+0.0.0.0 msnms.allyes.com.cn
 0.0.0.0 mscdn.allyes.com.cn
 0.0.0.0 msn.allyes.com
 0.0.0.0 msnms.allyes.cn
@@ -7474,7 +7127,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 realafp.allyes.cn
 0.0.0.0 sm51shai.allyes.com
 0.0.0.0 smartmedia.allyes.com
-0.0.0.0 smarttrade.allyes.com
 0.0.0.0 smmedia.allyes.com.cn
 0.0.0.0 smcommon.allyes.com
 0.0.0.0 smcreative.allyes.com
@@ -7562,6 +7214,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.cnxad.com
 0.0.0.0 x.cnxad.com
 0.0.0.0 y.cnxad.com
+0.0.0.0 c.star8.net
+0.0.0.0 img.star8.net
+0.0.0.0 star8.net
+0.0.0.0 js.star8.net
+0.0.0.0 c.xsu.cc
+0.0.0.0 js.xsu.cc
+0.0.0.0 www.xsu.cc
 #CNZZ
 0.0.0.0 qs7.cnzz.com
 0.0.0.0 10 mail.cnzz.com
@@ -7916,6 +7575,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www1.gamediad.com
 0.0.0.0 www2.gamediad.com
 0.0.0.0 www3.gamediad.com
+#Game3737
+0.0.0.0 flash.game3737.com
+0.0.0.0 pop.game3737.com
 #Heima8
 0.0.0.0 c.heima8.com
 0.0.0.0 pc.heima8.com
@@ -8079,11 +7741,6 @@ $      下载最新版本的 HostsX。
 #Rj518
 0.0.0.0 img.rj518.com
 0.0.0.0 www.rj518.com
-#Star8
-0.0.0.0 c.star8.net
-0.0.0.0 img.star8.net
-0.0.0.0 star8.net
-0.0.0.0 js.star8.net
 #Scupio
 0.0.0.0 ad.scupio.com
 0.0.0.0 ad.scupio.com.tw
@@ -8273,6 +7930,10 @@ $      下载最新版本的 HostsX。
 #Wyunion
 0.0.0.0 c.wyunion.com
 0.0.0.0 www.wyunion.com
+#Xixianad
+0.0.0.0 tc.xixianad.com
+0.0.0.0 union.xixianad.com
+0.0.0.0 www.xixianad.com
 #Xt918
 0.0.0.0 www.xt918.com
 0.0.0.0 xt918.com
@@ -8281,6 +7942,7 @@ $      下载最新版本的 HostsX。
 #Yiqiwin
 0.0.0.0 js.yiqiwin.com
 #Yoyi
+0.0.0.0 atm.yoyi.com.cn
 0.0.0.0 amps.yoyi.com.cn
 0.0.0.0 d.yoyi.tv
 0.0.0.0 www.yoyi.com.cn
@@ -9116,7 +8778,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.chnsy.net
 0.0.0.0 www.expo2010-sc.com
 0.0.0.0 www.m1905.in
-0.0.0.0 xxsy.bohelady.com
 0.0.0.0 lankou.cctv-hjmg.com
 0.0.0.0 www.bjewdz.com
 0.0.0.0 www.bjlida88.com
@@ -9587,6 +9248,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.333wan.com
 0.0.0.0 js.333wan.com
 0.0.0.0 cpm.woniu666.com
+0.0.0.0 dy.woniu666.com
 0.0.0.0 pic.woniu666.com
 0.0.0.0 irs09.com
 0.0.0.0 static.irs09.com
@@ -9667,7 +9329,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 c.ooo1000.com
 0.0.0.0 c.ourclick.net
 0.0.0.0 c.sfilm.com
-0.0.0.0 c.xsu.cc
 0.0.0.0 c01.i05.cachecn.com
 0.0.0.0 cc00009.h.cncssr.chinache.net
 0.0.0.0 ccc.delete8527.cn
@@ -9687,6 +9348,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code.tjlove8.com
 0.0.0.0 code.u.18dx.com
 0.0.0.0 code.xwadv.com
+0.0.0.0 codes.xp3366.com
 0.0.0.0 content.caixun.com
 0.0.0.0 count.jdyou.com
 0.0.0.0 count.qiannao.com
@@ -9795,6 +9457,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 k2.cy2009.com
 0.0.0.0 k4.cy2009.com
 0.0.0.0 kxgg.ys.kxyou.com
+0.0.0.0 l.betrad.com
 0.0.0.0 l.youxitui.net
 0.0.0.0 lai.4299.com
 0.0.0.0 link.33878.com
@@ -9874,6 +9537,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 show.sogua.com
 0.0.0.0 stat.ziye8.com
 0.0.0.0 state.urgamer.com
+0.0.0.0 static.bshare.cn
 0.0.0.0 static.mg.5pk.com
 0.0.0.0 statistic.5ding.com
 0.0.0.0 syjcq.com
@@ -9978,6 +9642,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.22930.com
 0.0.0.0 www.265g.info
 0.0.0.0 www.33hy.com
+0.0.0.0 www.33xs.com
 0.0.0.0 www.360yanjing.info
 0.0.0.0 www.513wan.com
 0.0.0.0 www.587188.cn
@@ -10044,13 +9709,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.webgame188.com
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 www.xiazai189.com
-0.0.0.0 www.xixianad.com
 0.0.0.0 www.xwadv.com
 0.0.0.0 www.yiqiwin.com
 0.0.0.0 www.ymd88.com
 0.0.0.0 www.youxi186.com
 0.0.0.0 www.zazgame.com
 0.0.0.0 www.zuixiaoyao.com
+0.0.0.0 www.zyiis.com
 0.0.0.0 www1.leeuu.net
 0.0.0.0 www1.xman.cn
 0.0.0.0 www21.hlggtc.com
@@ -10075,3 +9740,4 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
+0.0.0.0 ad.6cqgd.com

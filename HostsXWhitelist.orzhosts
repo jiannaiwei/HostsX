@@ -1,4 +1,4 @@
-;version=201111081705
+;version=201111232231
 ;author=KwokTree
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
@@ -6,6 +6,10 @@ $DELETE
 
 #导致Apple产品恢复固件时无法正常验证。
 gs.apple.com
+$DELETE
+
+#导致盛大网络部分页面无法正常显示。
+ipic.staticsdo.com
 $DELETE
 
 #导致金山卫士(客户端)无法正常升级。
@@ -166,8 +170,16 @@ group.store.qq.com
 $DELETE
 
 #导致 优酷网 搜索功能无法正常使用。
-*.atm.youku.com
-$RemoveFromIEBlockedSites
+atm.youku.com
+fvid.atm.youku.com
+html.atm.youku.com
+hz.youku.com
+nc.youku.com
+speed.lstat.youku.com
+static.lstat.youku.com
+urchin.lstat.youku.com
+walp.atm.youku.com
+$DELETE
 
 #导致 优酷网 视频缩率图无法正常显示。
 g1.ykimg.com
