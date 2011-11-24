@@ -1,4 +1,4 @@
-;version=201111232231
+;version=19:23 2011/11/24
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9291,6 +9291,7 @@ rd.yahoo.co.jp
 0.0.0.0 ad.16wan.com
 0.0.0.0 ad.363.in
 0.0.0.0 ad.633.com
+0.0.0.0 ad.6cqgd.com
 0.0.0.0 ad.astd.17.com
 0.0.0.0 ad.doubleadv.tv
 0.0.0.0 ad.f1.com.tw
@@ -9652,6 +9653,7 @@ rd.yahoo.co.jp
 0.0.0.0 www.6dudu.com
 0.0.0.0 www.7155333.cn
 0.0.0.0 www.773.com.cn
+0.0.0.0 www.91xdyz.com
 0.0.0.0 www.9519.net
 0.0.0.0 www.99mmc.com
 0.0.0.0 www.9see.com
@@ -9740,4 +9742,3 @@ rd.yahoo.co.jp
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
-0.0.0.0 ad.6cqgd.com
