@@ -1,4 +1,4 @@
-;version=19:23 2011/11/24
+;version=20:48 2011/11/24
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6344,9 +6344,9 @@ rd.yahoo.co.jp
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 rcm.amazon.com
 #京东商城
-0.0.0.0 union.360buy.com
 0.0.0.0 click.union.360buy.com
 0.0.0.0 show.union.360buy.com
+0.0.0.0 union.360buy.com
 #当当网
 0.0.0.0 a.dangdang.com
 0.0.0.0 central.dangdang.com
@@ -7965,9 +7965,21 @@ rd.yahoo.co.jp
 0.0.0.0 un.zhubajie.com
 @HostsX 软件广告过滤
 #Baofeng
-0.0.0.0 game.baofeng.com
+0.0.0.0 config.baofeng.net
+0.0.0.0 diag.baofeng.net
+0.0.0.0 downlist.baofeng.net
+0.0.0.0 listlog.baofeng.net
+0.0.0.0 nclog.p2p.baofeng.net
+0.0.0.0 p2plist.baofeng.net
+0.0.0.0 userlog.baofeng.net
+0.0.0.0 config5.update.baofeng.com
+0.0.0.0 diag.baofeng.com
+0.0.0.0 doppler.logger.baofeng.com
+0.0.0.0 realplugin.baofeng.com
+0.0.0.0 softassistant.baofeng.com
+0.0.0.0 update5.logger.baofeng.com
 0.0.0.0 videodown.baofeng.com
-0.0.0.0 videoinfo.baofeng.com
+0.0.0.0 wzinfo.baofeng.com
 #Bitcomet
 0.0.0.0 inside.bitcomet.com
 0.0.0.0 dll.flashget.com
