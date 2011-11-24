@@ -1,4 +1,4 @@
-;version=21:02 2011/11/24
+;version=21:11 2011/11/24
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6960,7 +6960,6 @@ rd.yahoo.co.jp
 0.0.0.0 asus.adsame.com
 0.0.0.0 autobild.adsame.com
 0.0.0.0 awstats.adsame.com
-0.0.0.0 baofeng.adsame.com
 0.0.0.0 benz.adsame.com
 0.0.0.0 bihu.adsame.com
 0.0.0.0 blog.adsame.com
@@ -7965,6 +7964,7 @@ rd.yahoo.co.jp
 0.0.0.0 un.zhubajie.com
 @HostsX 软件广告过滤
 #Baofeng
+0.0.0.0 clicklog.moviebox.baofeng.net
 0.0.0.0 config.baofeng.net
 0.0.0.0 diag.baofeng.net
 0.0.0.0 downlist.baofeng.net
@@ -7973,6 +7973,7 @@ rd.yahoo.co.jp
 0.0.0.0 p2plist.baofeng.net
 0.0.0.0 pvlog.moviebox.baofeng.net
 0.0.0.0 userlog.baofeng.net
+0.0.0.0 baofeng.adsame.com
 0.0.0.0 clicklog.moviebox.baofeng.com
 0.0.0.0 config5.update.baofeng.com
 0.0.0.0 diag.baofeng.com
