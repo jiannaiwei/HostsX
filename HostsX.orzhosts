@@ -1,4 +1,4 @@
-;version=20:48 2011/11/24
+;version=20:54 2011/11/24
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7971,7 +7971,9 @@ rd.yahoo.co.jp
 0.0.0.0 listlog.baofeng.net
 0.0.0.0 nclog.p2p.baofeng.net
 0.0.0.0 p2plist.baofeng.net
+0.0.0.0 pvlog.moviebox.baofeng.net
 0.0.0.0 userlog.baofeng.net
+0.0.0.0 clicklog.moviebox.baofeng.com
 0.0.0.0 config5.update.baofeng.com
 0.0.0.0 diag.baofeng.com
 0.0.0.0 doppler.logger.baofeng.com
