@@ -1,4 +1,4 @@
-;version=20:45 2011/11/25
+;version=20:38 2011/11/26
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8320,6 +8320,7 @@ rd.yahoo.co.jp
 0.0.0.0 d5.tjq.com
 0.0.0.0 e2.tjq.com
 0.0.0.0 i.tjq.com
+0.0.0.0 c40.tjq.com
 0.0.0.0 img.tjq.com
 0.0.0.0 js.tjq.com
 0.0.0.0 www.tjq.com
