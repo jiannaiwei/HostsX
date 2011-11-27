@@ -1,4 +1,4 @@
-;version=20:38 2011/11/26
+;version=9:59 2011/11/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2225,8 +2225,10 @@ rd.yahoo.co.jp
 0.0.0.0 mobus.vodone.cn
 0.0.0.0 images.vodone.com
 #Moad
-0.0.0.0 wap.moad.cn
+0.0.0.0 ft.moad.cn
 0.0.0.0 moad.cn
+0.0.0.0 pic.moad.cn
+0.0.0.0 wap.moad.cn
 0.0.0.0 wap.6262.com.cn
 #Mydas
 0.0.0.0 bank01.ads.dt.mydas.mobi
