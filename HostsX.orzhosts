@@ -1,4 +1,4 @@
-;version=16:22 2011/11/27
+;version=20:31 2011/11/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6866,6 +6866,8 @@ rd.yahoo.co.jp
 0.0.0.0 union.dangdang.com
 #凡客诚品
 0.0.0.0 union.vancl.com
+#梦芭莎
+0.0.0.0 click.moonbasa.com
 #家电联盟
 0.0.0.0 pic.jdunion.com
 @HostsX 国内站点广告/IT类网站
@@ -8608,8 +8610,8 @@ rd.yahoo.co.jp
 0.0.0.0 update.pctutu.com
 0.0.0.0 update.pctutu.net
 #PPStream
-0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
+0.0.0.0 notice.ppstream.com
 0.0.0.0 update.111222.cn
 0.0.0.0 game.pps.tv
 0.0.0.0 g.pps.tv
@@ -8625,9 +8627,12 @@ rd.yahoo.co.jp
 0.0.0.0 ins.pplive.com
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 pp1.pplive.com
+0.0.0.0 static1.pplive.cn
 0.0.0.0 drag.synacast.com
 0.0.0.0 ik.synacast.com
 0.0.0.0 jump.synacast.com
+0.0.0.0 ol.synacast.com
+0.0.0.0 ppvalog.synacast.com
 0.0.0.0 g.pptv.com
 0.0.0.0 ga.pptv.com
 0.0.0.0 iafp.pptv.com
@@ -9870,7 +9875,6 @@ rd.yahoo.co.jp
 0.0.0.0 cj.8le8le.com
 0.0.0.0 ck.lingdang.com
 0.0.0.0 click.315ts.net
-0.0.0.0 click.moonbasa.com
 0.0.0.0 cn.88db.com
 0.0.0.0 code.51sotu.com
 0.0.0.0 code.77union.cn
