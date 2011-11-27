@@ -1,4 +1,4 @@
-;version=9:59 2011/11/27
+;version=10:21 2011/11/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -517,7 +517,6 @@ fe80::1%lo0	localhost
 203.208.45.208 writely-china.l.google.com
 203.208.45.208 www.googleapis.com
 203.208.45.208 www.googlelabs.com
-203.208.45.208 www.gstatic.com
 203.208.45.208 www-calendar-opensocial.googleusercontent.com
 203.208.45.208 www-opensocial.googleusercontent.com
 203.208.45.208 www-oz-opensocial.googleusercontent.com
