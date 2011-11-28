@@ -1,4 +1,4 @@
-;version=19:35 2011/11/28
+;version=20:25 2011/11/28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1727,8 +1727,6 @@ js2.pp.sohu.com.cn#搜狐博客页面显示
 0.0.0.0 w.l.qq.com
 #QQ管家
 0.0.0.0 dl_dir2.qq.com
-0.0.0.0 pc1.gtimg.com
-0.0.0.0 pc2.gtimg.com
 0.0.0.0 s.pcmgr.qq.com
 #搜搜
 0.0.0.0 dr.soso.com
