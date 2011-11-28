@@ -1,4 +1,4 @@
-;version=201111232231
+;version=19:00 2011/11/28
 ;author=KwokTree
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
@@ -220,6 +220,7 @@ upexe.pplive.com
 $DELETE
 
 #第三方数据的错误过滤，导致部分网站无法打开。
+www.clicki.cn
 www.in9.cn
 bt.ktxp.com
 rapidshare.com

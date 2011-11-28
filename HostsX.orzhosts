@@ -1,4 +1,4 @@
-;version=20:31 2011/11/27
+;version=18:59 2011/11/28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9051,7 +9051,6 @@ rd.yahoo.co.jp
 0.0.0.0 stats.norton.com
 0.0.0.0 track.did-it.com
 0.0.0.0 vip1.1tong.com.cn
-0.0.0.0 www.clicki.cn
 0.0.0.0 www.nasboq.com
 0.0.0.0 www.referer.cn
 0.0.0.0 www.zzcount.com
