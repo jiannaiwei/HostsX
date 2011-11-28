@@ -1,4 +1,4 @@
-;version=18:59 2011/11/28
+;version=19:12 2011/11/28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -269,9 +269,6 @@ fe80::1%lo0	localhost
 74.200.244.59 lucifr.wordpress.com
 74.200.244.59 *.wordpress.com
 #yfrog
-208.94.0.61 a.yfrog.com
-208.94.0.61 yfrog.com
-208.94.0.61 www.yfrog.com
 #Wikipedia
 208.80.152.201 bugs.wikimedia.org
 208.80.152.201 bugzilla.wikimedia.org
@@ -1129,11 +1126,7 @@ dl.client.baidu.com
 0.0.0.0 wangmeng.baidu.com
 #∆Ê“’
 0.0.0.0 afp.qiyi.com
-0.0.0.0 api.cupid.qiyi.com
-0.0.0.0 dispatcher.video.qiyi.com
 0.0.0.0 msg.video.qiyi.com
-0.0.0.0 policy.cupid.qiyi.com
-0.0.0.0 show.cupid.qiyi.com
 0.0.0.0 uestat.video.qiyi.com
 0.0.0.0 focusbaiduafp.allyes.com
 0.0.0.0 imgc.unlitui.com
