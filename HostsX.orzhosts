@@ -1,4 +1,4 @@
-;version=20:51 2011/11/29
+;version=13:36 2011/11/30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6670,6 +6670,7 @@ rd.yahoo.co.jp
 0.0.0.0 yads.zedo.com
 0.0.0.0 zedo.com
 #Other foreign ads
+0.0.0.0 ad.clickotmedia.com
 0.0.0.0 ad.sitemaji.com
 0.0.0.0 ads.asp.net
 0.0.0.0 banner.hosteurope.de
@@ -7618,6 +7619,7 @@ rd.yahoo.co.jp
 0.0.0.0 y.taolai.cn
 #Allyes
 0.0.0.0 114.allyes.com
+0.0.0.0 idigger.allyes.com
 0.0.0.0 adzjvnet.allyes.com
 0.0.0.0 allyesbjafa.allyes.com
 0.0.0.0 allyesshafa.allyes.com
@@ -9781,6 +9783,7 @@ rd.yahoo.co.jp
 0.0.0.0 166.xdwan.cn
 0.0.0.0 www.333wan.com
 0.0.0.0 js.333wan.com
+0.0.0.0 cpm.xiyou53.com
 0.0.0.0 cpm.woniu666.com
 0.0.0.0 dy.woniu666.com
 0.0.0.0 pic.woniu666.com
