@@ -1,4 +1,4 @@
-;version=21:17 2011/12/1
+;version=21:45 2011/12/1
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1706,6 +1706,7 @@ js2.pp.sohu.com.cn#ËÑºü²©¿ÍÒ³ÃæÏÔÊ¾
 0.0.0.0 adsview2.qq.com
 0.0.0.0 adver.pengyou.com
 0.0.0.0 c.l.qq.com
+0.0.0.0 c2.l.qq.com
 0.0.0.0 f.qstatic.com
 0.0.0.0 fodder.qq.com
 0.0.0.0 fodder.tc.qq.com
@@ -10105,6 +10106,7 @@ rd.yahoo.co.jp
 0.0.0.0 t3.keydot.net
 0.0.0.0 tantra.ccjoy.com
 0.0.0.0 tao.37wan.com
+0.0.0.0 tc.100tjs.com
 0.0.0.0 tc.lianmeng2010.com
 0.0.0.0 tdyx.baomihua.com
 0.0.0.0 tg.01lm.com
@@ -10286,4 +10288,3 @@ rd.yahoo.co.jp
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
-0.0.0.0 tc.100tjs.com
