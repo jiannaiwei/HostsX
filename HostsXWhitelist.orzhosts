@@ -1,4 +1,4 @@
-;version=19:00 2011/11/28
+;version=13:07 2011/12/1
 ;author=KwokTree
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
@@ -137,8 +137,10 @@ $DELETE
 ju.atpanel.com
 $DELETE
 
-#导致百度空间图片链接无法正常显示。
+#导致奇异 百度空间图片链接无法正常显示。
 hiphotos.baidu.com
+cache.video.qiyi.com
+data.video.qiyi.com
 $DELETE
 
 #导致光影魔术手客户端素材无法正常下载。
