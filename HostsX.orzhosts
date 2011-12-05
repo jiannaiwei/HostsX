@@ -1,4 +1,4 @@
-;version=21:45 2011/12/1
+;version=19:26 2011-12-5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7067,7 +7067,6 @@ rd.yahoo.co.jp
 @HostsX 国内站点广告/信息服务类网站
 #阿邦网
 0.0.0.0 abangafp.abang.com
-0.0.0.0 z.abang.com
 #中国天气
 0.0.0.0 poster1.weather.com.cn
 0.0.0.0 poster.weather.com.cn
