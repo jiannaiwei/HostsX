@@ -1,4 +1,4 @@
-;version=21:31 2011-12-7
+;version=21:32 2011-12-11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2517,6 +2517,7 @@ rd.yahoo.co.jp
 0.0.0.0 ad.hiiir.com
 0.0.0.0 ad.jamba.net
 0.0.0.0 ad.jamster.co.uk
+0.0.0.0 ad.sitemaji.com
 0.0.0.0 ad.obuy.tw
 0.0.0.0 ad.snsplus.com
 0.0.0.0 ad.sogi.com.tw
@@ -6795,6 +6796,8 @@ rd.yahoo.co.jp
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
 0.0.0.0 richmedia.china.com
+#大众网
+0.0.0.0 ad.dzwww.com
 #齐鲁在线
 0.0.0.0 c.iqilu.com
 0.0.0.0 g.iqilu.com
