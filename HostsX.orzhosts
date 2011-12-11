@@ -1,4 +1,4 @@
-;version=21:32 2011-12-11
+;version=21:44 2011-12-11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -10299,4 +10299,4 @@ rd.yahoo.co.jp
 0.0.0.0 yzol.szgla.com
 0.0.0.0 mi.521gc.info
 0.0.0.0 11.ki99.info
-
+0.0.0.0 media.adunioncode.com
