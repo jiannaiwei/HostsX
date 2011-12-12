@@ -1,4 +1,4 @@
-;version=21:44 2011-12-11
+;version=14:23 2011-12-12
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8540,6 +8540,8 @@ rd.yahoo.co.jp
 0.0.0.0 al.myrice.com
 0.0.0.0 all.myrice.com
 0.0.0.0 client.myrice.com
+#Duomi
+0.0.0.0 pc.boxshows.com
 #Fetion
 0.0.0.0 f.10086.cn
 0.0.0.0 gg.joytod.com
