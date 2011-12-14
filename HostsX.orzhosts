@@ -1,4 +1,4 @@
-;version=14:23 2011-12-12
+;version=20:55 2011/12/14
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8644,7 +8644,6 @@ rd.yahoo.co.jp
 0.0.0.0 ins.pplive.com
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 pp1.pplive.com
-0.0.0.0 static1.pplive.cn
 0.0.0.0 drag.synacast.com
 0.0.0.0 ik.synacast.com
 0.0.0.0 jump.synacast.com

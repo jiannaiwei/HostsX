@@ -1,4 +1,4 @@
-;version=13:07 2011/12/1
+;version=20:56 2011/12/14
 ;author=KwokTree
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
@@ -47,6 +47,10 @@ $DELETE
 
 #导致PPTV搜索时无法完整显示结果的问题。
 iptable.pplive.com
+$DELETE
+
+#导致PPTV无法完整显示的问题。
+static1.pplive.cn
 $DELETE
 
 #!导致土豆网无法正常显示评论，但是可以去除土豆网广告，根据用户自己选择。
