@@ -1,4 +1,4 @@
-;version=20:55 2011/12/14
+;version=21:21 2011/12/14
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1804,9 +1804,11 @@ js2.pp.sohu.com.cn#搜狐博客页面显示
 @HostsX OneKey/盛大在线
 #盛大游戏
 0.0.0.0 act.dn.sdo.com
+0.0.0.0 adrs.sdo.com
 0.0.0.0 adsr.dn.sdo.com
 0.0.0.0 adsr.xcb.sdo.com
-0.0.0.0 adrs.sdo.com
+0.0.0.0 c.aa.sdo.com
+0.0.0.0 g.aa.sdo.com
 0.0.0.0 ibw.sdo.com
 0.0.0.0 static.ex.ibw.sdo.com
 #起点中文网
@@ -7026,7 +7028,6 @@ rd.yahoo.co.jp
 0.0.0.0 ku6.allyes.com
 0.0.0.0 gug.ku6cdn.com
 0.0.0.0 analytics.ku6.com
-0.0.0.0 main.gslb.ku6.com
 0.0.0.0 pq.stat.ku6.com
 0.0.0.0 st.vq.ku6.cn
 0.0.0.0 stat0.888.ku6.com
