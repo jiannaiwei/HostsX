@@ -1,4 +1,4 @@
-;version=21:20 2011/12/14
+;version=22:03 2011/12/15
 ;author=KwokTree
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
@@ -10,6 +10,10 @@ $DELETE
 
 #导致盛大网络部分页面无法正常显示。
 ipic.staticsdo.com
+$DELETE
+
+#导致搜狐博客页面无法正常显示。
+js2.pp.sohu.com.cn
 $DELETE
 
 #导致金山卫士(客户端)无法正常升级。

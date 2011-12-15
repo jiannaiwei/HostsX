@@ -1,4 +1,4 @@
-;version=21:40 2011/12/15
+;version=22:03 2011/12/15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1623,7 +1623,11 @@ dl.client.baidu.com
 0.0.0.0 ylunion.com
 @HostsX OneKey/ËÑºü
 #ËÑºü
-js2.pp.sohu.com.cn#ËÑºü²©¿ÍÒ³ÃæÏÔÊ¾
+0.0.0.0 imp.go.sohu.com
+0.0.0.0 count.vrs.sohu.com
+0.0.0.0 hot.vrs.sohu.com
+0.0.0.0 aty.tv.sohu.com
+0.0.0.0 imp.go.sohu.com
 0.0.0.0 ad.mail.sohu.com
 0.0.0.0 adclick.bai.sohu.com
 0.0.0.0 adnet.sohu.com
