@@ -1,4 +1,4 @@
-;version=21:21 2011/12/14
+;version=21:10 2011/12/15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6815,6 +6815,9 @@ rd.yahoo.co.jp
 0.0.0.0 g.tgbus.com
 0.0.0.0 g.tgbusdata.cn
 0.0.0.0 gg.tgbus.com
+#178
+0.0.0.0 adcount.178.com
+0.0.0.0 market.178.com
 #сноюмЬ
 0.0.0.0 bmp.ali213.net
 #52pk
@@ -9866,7 +9869,6 @@ rd.yahoo.co.jp
 0.0.0.0 ad1.greedland.net
 0.0.0.0 ad1.tiezun.com
 0.0.0.0 ad71.doubleadx.com
-0.0.0.0 adcount.178.com
 0.0.0.0 adcount.moliyo.com
 0.0.0.0 adn.fusionads.net
 0.0.0.0 ads.im286.com
