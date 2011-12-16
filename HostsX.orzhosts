@@ -1,4 +1,4 @@
-;version=21:44 2011/12/16
+;version=22:31 2011/12/16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9387,6 +9387,7 @@ rd.yahoo.co.jp
 #IE½Ù³Ö
 0.0.0.0 054.cc
 0.0.0.0 1188.com
+0.0.0.0 2345.com
 0.0.0.0 2548.cn
 0.0.0.0 300.cc
 0.0.0.0 3448.com
@@ -9528,6 +9529,7 @@ rd.yahoo.co.jp
 0.0.0.0 www.w234.com
 0.0.0.0 www.wanyx.com
 0.0.0.0 www.wz123.com
+0.0.0.0 www.2345.com
 0.0.0.0 www.zhidao001.com
 0.0.0.0 www.zongfo.cn
 0.0.0.0 xiujue.net
