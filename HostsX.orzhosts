@@ -1,4 +1,4 @@
-;version=22:03 2011/12/15
+;version=21:44 2011/12/16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7071,7 +7071,9 @@ rd.yahoo.co.jp
 #±¬Ã×»¨
 0.0.0.0 union.pomoho.com
 #ÀÖÊÓÍø
+0.0.0.0 dc.letv.com
 0.0.0.0 pro.letv.com
+0.0.0.0 stat.letv.com
 #¾Þ¾¨Íø
 0.0.0.0 t.top100.cn
 #DJ527
