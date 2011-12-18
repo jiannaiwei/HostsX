@@ -1,4 +1,4 @@
-;version=18:08 2011/12/18
+;version=18:11 2011/12/18
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8712,6 +8712,8 @@ rd.yahoo.co.jp
 0.0.0.0 realafp.allyes.com
 #SopCast
 0.0.0.0 home.sopserv.com
+#Splayer
+0.0.0.0 splayer11.shooter.cn
 #Tvants
 0.0.0.0 ads.tvants.com
 0.0.0.0 cache2.tvants.com
