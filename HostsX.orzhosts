@@ -1,4 +1,4 @@
-;version=19:37 2011/12/18
+;version=20:21 2011/12/18
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6689,7 +6689,8 @@ rd.yahoo.co.jp
 0.0.0.0 xads.zedo.com
 0.0.0.0 yads.zedo.com
 0.0.0.0 zedo.com
-#Other foreign ads
+#Other Foreign ads
+0.0.0.0 www.da-ads.com
 0.0.0.0 ad.clickotmedia.com
 0.0.0.0 ad.sitemaji.com
 0.0.0.0 ads.asp.net
