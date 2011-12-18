@@ -1,4 +1,4 @@
-;version=22:31 2011/12/16
+;version=18:08 2011/12/18
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1814,6 +1814,8 @@ dl.client.baidu.com
 0.0.0.0 c.aa.sdo.com
 0.0.0.0 g.aa.sdo.com
 0.0.0.0 ibw.sdo.com
+0.0.0.0 dwtracking.sdo.com
+0.0.0.0 stat.aa.sdo.com
 0.0.0.0 static.ex.ibw.sdo.com
 #起点中文网
 0.0.0.0 qidian.adsame.com
@@ -6804,6 +6806,9 @@ rd.yahoo.co.jp
 0.0.0.0 richmedia.china.com
 #大众网
 0.0.0.0 ad.dzwww.com
+#千龙网
+0.0.0.0 ad.cqnews.net
+0.0.0.0 adimg.cqnews.net
 #齐鲁在线
 0.0.0.0 c.iqilu.com
 0.0.0.0 g.iqilu.com
@@ -7389,6 +7394,7 @@ rd.yahoo.co.jp
 #Admaster
 0.0.0.0 www.admaster.com.cn
 0.0.0.0 click.admaster.com.cn
+0.0.0.0 e.admaster.com.cn
 0.0.0.0 view.admaster.com.cn
 #Adpolestar
 0.0.0.0 ad1.adpolestar.net
