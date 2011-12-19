@@ -1,4 +1,4 @@
-;version=15:30 2011/12/19
+;version=21:01 2011/12/19
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1764,7 +1764,6 @@ dl.client.baidu.com
 0.0.0.0 trace.qq.com
 0.0.0.0 w.l.qq.com
 #QQ¹Ü¼Ò
-0.0.0.0 dl_dir2.qq.com
 0.0.0.0 s.pcmgr.qq.com
 #ËÑËÑ
 0.0.0.0 dr.soso.com
