@@ -1,4 +1,4 @@
-;version=12:37 2011/12/20
+;version=19:03 2011/12/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6625,11 +6625,6 @@ rd.yahoo.co.jp
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 #”≈ø·Õ¯
-0.0.0.0 e.stat.youku.com
-0.0.0.0 hz.lstat.youku.com
-0.0.0.0 lstat.youku.com
-0.0.0.0 player.lstat.youku.com
-0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
@@ -9938,3 +9933,4 @@ rd.yahoo.co.jp
 0.0.0.0 11.ki99.info
 0.0.0.0 media.adunioncode.com
 0.0.0.0 tj.37wanwan.com
+0.0.0.0 img9.3393.com

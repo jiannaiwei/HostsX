@@ -1,5 +1,5 @@
-;version=22:03 2011/12/15
-;author=KwokTree
+;version=19:03 2011/12/21
+;author=KwokTree.jason_jiang
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
 $DELETE
@@ -77,6 +77,10 @@ $DELETE
 
 #导致QQ客户端群搜索页面无法正常显示。
 mini.group.qq.com
+$DELETE
+
+#导致DZ论坛查找时相关主题内容无法正常显示。
+cache.soso.com
 $DELETE
 
 #!iPhone 恢复固件的验证服务器，会导致 iPhone无法完成验证，如果您正在越狱不建议删除。
@@ -181,6 +185,11 @@ group.store.qq.com
 $DELETE
 
 #导致 优酷网 搜索功能无法正常使用。
+e.stat.youku.com
+hz.lstat.youku.com
+lstat.youku.com
+player.lstat.youku.com
+stat.youku.com
 atm.youku.com
 fvid.atm.youku.com
 html.atm.youku.com
