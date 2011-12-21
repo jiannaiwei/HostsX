@@ -1,4 +1,4 @@
-;version=21:26 2011/12/21
+;version=7:55 2011/12/22
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -462,6 +462,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.gstatic.com
 #Admob
 0.0.0.0 a.admob.com
+0.0.0.0 ad.qwapi.com
 0.0.0.0 admob.at
 0.0.0.0 admob.be
 0.0.0.0 admob.biz
@@ -509,17 +510,22 @@ fe80::1%lo0	localhost
 0.0.0.0 e.admob.com
 0.0.0.0 f.admob.com
 0.0.0.0 g.admob.com
+0.0.0.0 ge-0-0-1-edge1.sc9.admob.com
+0.0.0.0 ge-0-0-43-crs1.sc9.admob.com
 0.0.0.0 h.admob.com
 0.0.0.0 i.admob.com
 0.0.0.0 j.admob.com
 0.0.0.0 k.admob.com
 0.0.0.0 l.admob.com
 0.0.0.0 m.admob.com
+0.0.0.0 media.admob.com
 0.0.0.0 mm.admob.com
+0.0.0.0 mm1.vip.sc1.admob.com
 0.0.0.0 mmv.admob.com
 0.0.0.0 n.admob.com
 0.0.0.0 o.admob.com
 0.0.0.0 p.admob.com
+0.0.0.0 paix1.sc1.admob.com
 0.0.0.0 q.admob.com
 0.0.0.0 r.admob.com
 0.0.0.0 s.admob.com
@@ -529,15 +535,10 @@ fe80::1%lo0	localhost
 0.0.0.0 u.admob.com
 0.0.0.0 v.admob.com
 0.0.0.0 w.admob.com
+0.0.0.0 www1.vip.sc9.admob.com
 0.0.0.0 x.admob.com
 0.0.0.0 y.admob.com
 0.0.0.0 z.admob.com
-0.0.0.0 ad.qwapi.com
-0.0.0.0 ge-0-0-1-edge1.sc9.admob.com
-0.0.0.0 ge-0-0-43-crs1.sc9.admob.com
-0.0.0.0 mm1.vip.sc1.admob.com
-0.0.0.0 paix1.sc1.admob.com
-0.0.0.0 www1.vip.sc9.admob.com
 #Doubleclick
 0.0.0.0 ad-apac.doubleclick.net
 0.0.0.0 ad-emea.doubleclick.net
@@ -1824,6 +1825,9 @@ rd.yahoo.co.jp
 0.0.0.0 data.flurry.com
 0.0.0.0 flurry.com
 0.0.0.0 www.flurry.com
+#Guohead
+0.0.0.0 mob.guohead.com
+0.0.0.0 met.guohead.com
 #Kongzhong
 0.0.0.0 zhulang.em.kongzhong.com
 0.0.0.0 cps.kongzhong.com
@@ -1838,6 +1842,7 @@ rd.yahoo.co.jp
 0.0.0.0 req.adsmogo.com
 0.0.0.0 ad1.madserving.cn
 0.0.0.0 appsrv1.madserving.cn
+0.0.0.0 appsrv1.madserving.com
 #Mobclix
 0.0.0.0 www.umeng.com
 0.0.0.0 ads.mobclix.com
@@ -1901,6 +1906,9 @@ rd.yahoo.co.jp
 0.0.0.0 ads1.ucweb.com
 0.0.0.0 down2.ucweb.com
 0.0.0.0 wap.ycwb.com
+#Uyunad
+0.0.0.0 i.uyunad.com
+0.0.0.0 www.uyunad.com
 #Vodone
 0.0.0.0 autou.vodone.cn
 0.0.0.0 busjs.vodone.cn
@@ -1925,6 +1933,7 @@ rd.yahoo.co.jp
 #Wapsx
 0.0.0.0 ads.waps.cn
 0.0.0.0 ads.wapx.cn
+0.0.0.0 app.wapx.cn
 #Wiyun
 0.0.0.0 d.wiyun.com
 0.0.0.0 wiyun.com
@@ -1957,21 +1966,21 @@ rd.yahoo.co.jp
 0.0.0.0 cx.360doo.com
 0.0.0.0 m.ymapp.com
 #WapSite
-0.0.0.0 www.uyunad.com
-0.0.0.0 www.adview.cn
-0.0.0.0 ads.lmmob.com
-0.0.0.0 api.airpush.com
 0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
+0.0.0.0 ads.lmmob.com
+0.0.0.0 api.airpush.com
 0.0.0.0 d.gfan.com
+0.0.0.0 dl.91rb.com
 0.0.0.0 em.kongzhong.com
 0.0.0.0 hi.fywap.com
 0.0.0.0 hot.icittys.com
 0.0.0.0 static.189works.com
+0.0.0.0 test.adpooh.com
 0.0.0.0 wap.cellufun.com
 0.0.0.0 www.adtouchnetwork.com
+0.0.0.0 www.adview.cn
 0.0.0.0 www.hidroid.net
-0.0.0.0 dl.91rb.com
 #WapEN
 0.0.0.0 ads.namiflow.com
 0.0.0.0 admarvel.mojiva.com
