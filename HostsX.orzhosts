@@ -1,4 +1,4 @@
-;version=19:03 2011/12/21
+;version=19:19 2011/12/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9453,9 +9453,12 @@ rd.yahoo.co.jp
 0.0.0.0 c.ooo1000.com
 0.0.0.0 d.ooo1000.com
 0.0.0.0 e.ooo1000.com
+0.0.0.0 img9.3393.com
+0.0.0.0 u.3393.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
+0.0.0.0 11.ki99.info
 0.0.0.0 1133.baiduskxn.cn
 0.0.0.0 1188s.info
 0.0.0.0 123.360kaixin.com
@@ -9658,7 +9661,9 @@ rd.yahoo.co.jp
 0.0.0.0 max.gunggo.com
 0.0.0.0 mcsd.qq437.cn
 0.0.0.0 me.youheme.com
+0.0.0.0 media.adunioncode.com
 0.0.0.0 media.wushen.com
+0.0.0.0 mi.521gc.info
 0.0.0.0 mini.zzjk.net
 0.0.0.0 mm.3992929.com
 0.0.0.0 mu.ruoren.com
@@ -9763,6 +9768,7 @@ rd.yahoo.co.jp
 0.0.0.0 tg.youwo.com
 0.0.0.0 tg1.1000one.com
 0.0.0.0 tgame.joqoo.com
+0.0.0.0 tj.37wanwan.com
 0.0.0.0 tj4.feesee.com
 0.0.0.0 tongji.wan5d.com
 0.0.0.0 towin.r.the2009.cn
@@ -9929,8 +9935,3 @@ rd.yahoo.co.jp
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
-0.0.0.0 mi.521gc.info
-0.0.0.0 11.ki99.info
-0.0.0.0 media.adunioncode.com
-0.0.0.0 tj.37wanwan.com
-0.0.0.0 img9.3393.com
