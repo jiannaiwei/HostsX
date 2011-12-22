@@ -1,4 +1,4 @@
-;version=19:03 2011/12/21
+;version=15:50 2011/12/22
 ;author=KwokTree.jason_jiang
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
@@ -6,6 +6,10 @@ $DELETE
 
 #导致Apple产品恢复固件时无法正常验证。
 gs.apple.com
+$DELETE
+
+#导致Dveye视频无法正常播放。
+union.bokecc.com
 $DELETE
 
 #导致盛大网络部分页面无法正常显示。
