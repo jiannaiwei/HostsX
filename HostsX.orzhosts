@@ -1,4 +1,4 @@
-;version=7:55 2011/12/22
+;version=13:49 2011/12/22
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9945,3 +9945,5 @@ rd.yahoo.co.jp
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
+0.0.0.0 www.szd123.com
+0.0.0.0 www.2010hot.com
