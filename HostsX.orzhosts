@@ -1,4 +1,4 @@
-;version=13:49 2011/12/22
+;version=15:37 2011/12/22
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9002,13 +9002,20 @@ rd.yahoo.co.jp
 0.0.0.0 ttkk1699.com
 #À¬»øÊÓÆµ
 0.0.0.0 1.bokeccimg.com
+0.0.0.0 1.material.bokecc.com
+0.0.0.0 b12.bokecc.com
 0.0.0.0 bokecc.com
+0.0.0.0 click.bokecc.com
 0.0.0.0 cncre12.bokecc.com
 0.0.0.0 hot7.bokecc.com
+0.0.0.0 imedia.bokecc.com
+0.0.0.0 material.bokecc.com
 0.0.0.0 mc.bokecc.com
 0.0.0.0 re2.bokecc.com
+0.0.0.0 recommended.bokecc.com
 0.0.0.0 stat.bokecc.com
 0.0.0.0 trade.bokecc.com
+0.0.0.0 union.bokecc.com
 0.0.0.0 www.bokecc.com
 0.0.0.0 www.vunion.net
 0.0.0.0 sm2.netitv.com
