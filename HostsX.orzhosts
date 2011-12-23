@@ -1,4 +1,4 @@
-;version=15:51 2011/12/22
+;version=14:25 2011/12/23
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -909,6 +909,10 @@ dl.client.baidu.com
 0.0.0.0 union.wps.kingsoft.com
 #金山毒霸
 0.0.0.0 bo.duba.net
+0.0.0.0 cu001.www.duba.net
+0.0.0.0 cu002.www.duba.net
+0.0.0.0 cu003.www.duba.net
+0.0.0.0 cu004.www.duba.net
 0.0.0.0 i2c.duba.net
 0.0.0.0 i2u.www.duba.net
 0.0.0.0 ifr.duba.net
@@ -916,6 +920,7 @@ dl.client.baidu.com
 0.0.0.0 labs.duba.net
 0.0.0.0 u.www.duba.net
 0.0.0.0 stat.ijinshan.com
+0.0.0.0 dl.ijinshan.com
 0.0.0.0 api.pc120.com
 #金山词霸
 0.0.0.0 34.goto.www.iciba.com
@@ -6618,13 +6623,15 @@ rd.yahoo.co.jp
 0.0.0.0 d1.cnr.cn
 0.0.0.0 d2.cnr.cn
 #我乐网
+0.0.0.0 acs.agent.v-56.com
+0.0.0.0 bill.agent.v-56.com
+0.0.0.0 stat3.corp.v-56.com
 0.0.0.0 acs.56.com
 0.0.0.0 acs.agent.56.com
-0.0.0.0 acs.agent.v-56.com
 0.0.0.0 bill.agent.56.com
-0.0.0.0 bill.agent.v-56.com
 0.0.0.0 stat.56.com
 0.0.0.0 stat2.corp.56.com
+0.0.0.0 t4p.stat.56.com
 0.0.0.0 union.56.com
 0.0.0.0 uvimage.56.com
 0.0.0.0 v16.56.com
@@ -8281,11 +8288,22 @@ rd.yahoo.co.jp
 0.0.0.0 update.pctutu.com
 0.0.0.0 update.pctutu.net
 #PPStream
-0.0.0.0 stat.ppstream.com
+0.0.0.0 areainfo.ppstream.com
+0.0.0.0 dp.ppstream.com
 0.0.0.0 notice.ppstream.com
-0.0.0.0 update.111222.cn
-0.0.0.0 game.pps.tv
+0.0.0.0 stat.ppstream.com
+0.0.0.0 dp.ppstv.com
+0.0.0.0 br.pps.tv
+0.0.0.0 dp.ugc.pps.tv
+0.0.0.0 dy.ugc.pps.tv
+0.0.0.0 dyn.ugc.pps.tv
 0.0.0.0 g.pps.tv
+0.0.0.0 game.pps.tv
+0.0.0.0 pl.pps.tv
+0.0.0.0 stat.y.pps.tv
+0.0.0.0 y.pps.tv
+0.0.0.0 update.base-service.net
+0.0.0.0 update.111222.cn
 #PPTV（PPVA）
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
@@ -8298,19 +8316,24 @@ rd.yahoo.co.jp
 0.0.0.0 ins.pplive.com
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 pp1.pplive.com
-0.0.0.0 drag.synacast.com
-0.0.0.0 ik.synacast.com
-0.0.0.0 jump.synacast.com
-0.0.0.0 ol.synacast.com
-0.0.0.0 ppvalog.synacast.com
+0.0.0.0 client-play.pptv.com
 0.0.0.0 g.pptv.com
 0.0.0.0 ga.pptv.com
 0.0.0.0 iafp.pptv.com
 0.0.0.0 pp2.pptv.com
 0.0.0.0 ppsj.pptv.com
+0.0.0.0 tj.g.pptv.com
 0.0.0.0 up.pplive.com
 0.0.0.0 wafp.pptv.com
 0.0.0.0 wstat.pptv.com
+0.0.0.0 drag.synacast.com
+0.0.0.0 h.synacast.com
+0.0.0.0 ik.synacast.com
+0.0.0.0 jump.synacast.com
+0.0.0.0 ol.synacast.com
+0.0.0.0 pplive-va.synacast.com
+0.0.0.0 ppvalog.synacast.com
+0.0.0.0 rec.ik.synacast.com
 0.0.0.0 h.g1d.net
 0.0.0.0 p.g1d.net
 0.0.0.0 ppva.g1d.net
@@ -9953,3 +9976,4 @@ rd.yahoo.co.jp
 0.0.0.0 yzol.szgla.com
 0.0.0.0 www.szd123.com
 0.0.0.0 www.2010hot.com
+0.0.0.0 jy7.jt7i.in
