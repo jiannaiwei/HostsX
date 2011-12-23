@@ -1,4 +1,4 @@
-;version=14:25 2011/12/23
+;version=15:05 2011/12/23
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1353,6 +1353,7 @@ dl.client.baidu.com
 0.0.0.0 qqlogo.qq.com
 0.0.0.0 qring-tms.qq.com
 0.0.0.0 qss-client.qq.com
+0.0.0.0 rh.qq.com
 0.0.0.0 rich.qq.com
 0.0.0.0 rs1.qq.com
 0.0.0.0 rs2.qq.com
