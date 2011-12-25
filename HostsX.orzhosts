@@ -1,4 +1,4 @@
-;version=15:05 2011/12/23
+;version=19:51 2011/12/25
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6448,6 +6448,9 @@ rd.yahoo.co.jp
 #华商网
 0.0.0.0 g.hsw.cn
 0.0.0.0 stat.hsw.cn
+#南海网
+0.0.0.0 emarketing.hinews.cn
+0.0.0.0 pl.hinews.cn
 #重庆晚报
 0.0.0.0 ad.cqwb.com.cn
 @HostsX 国内站点广告/游戏类网站
@@ -8137,6 +8140,8 @@ rd.yahoo.co.jp
 0.0.0.0 atm.yoyi.com.cn
 0.0.0.0 amps.yoyi.com.cn
 0.0.0.0 d.yoyi.tv
+0.0.0.0 js.yoyi.tv
+0.0.0.0 atm.yoyi.com.cn
 0.0.0.0 www.yoyi.com.cn
 #Yqit
 0.0.0.0 js.yqit.net
