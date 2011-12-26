@@ -1,4 +1,4 @@
-;version=19:51 2011/12/25
+;version=18:22 2011/12/26
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6464,6 +6464,11 @@ rd.yahoo.co.jp
 0.0.0.0 market.178.com
 #сноюмЬ
 0.0.0.0 bmp.ali213.net
+#776
+0.0.0.0 dynamic.766.com
+0.0.0.0 get.766.com
+0.0.0.0 img.ue.766.com
+0.0.0.0 res.get.766.com
 #52pk
 0.0.0.0 ads.52pk.com
 0.0.0.0 market.52pk.com

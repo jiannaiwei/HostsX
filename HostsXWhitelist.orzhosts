@@ -1,5 +1,9 @@
-;version=14:17 2011/12/23
+;version=18:22 2011/12/26
 ;author=KwokTree.jason_jiang
+#导致776站点的评论框无法加载或显示不正常！
+static.766.com
+$DELETE
+
 #导致皮皮影视客户端无法正常显示页面。
 long.pipi.cn
 $DELETE
