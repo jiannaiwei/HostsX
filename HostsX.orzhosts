@@ -1,4 +1,4 @@
-;version=18:22 2011/12/26
+;version=15:27 2011/12/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6747,7 +6747,6 @@ rd.yahoo.co.jp
 #Tom.com
 0.0.0.0 ad.tom.com
 0.0.0.0 hao.tom.com
-0.0.0.0 hjsm.tom.com
 0.0.0.0 p4p.tom.com
 0.0.0.0 pre1.pub.tom.com
 0.0.0.0 pv.tom.com
@@ -8146,7 +8145,6 @@ rd.yahoo.co.jp
 0.0.0.0 amps.yoyi.com.cn
 0.0.0.0 d.yoyi.tv
 0.0.0.0 js.yoyi.tv
-0.0.0.0 atm.yoyi.com.cn
 0.0.0.0 www.yoyi.com.cn
 #Yqit
 0.0.0.0 js.yqit.net
@@ -9988,3 +9986,6 @@ rd.yahoo.co.jp
 0.0.0.0 www.szd123.com
 0.0.0.0 www.2010hot.com
 0.0.0.0 jy7.jt7i.in
+0.0.0.0 down.o2ocn.com
+0.0.0.0 www.paopaoche.net
+0.0.0.0 cpv.ugooo.cc

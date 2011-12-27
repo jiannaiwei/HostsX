@@ -1,4 +1,4 @@
-;version=18:22 2011/12/26
+;version=15:28 2011/12/27
 ;author=KwokTree.jason_jiang
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
@@ -253,6 +253,7 @@ upexe.pplive.com
 $DELETE
 
 #第三方数据的错误过滤，导致部分网站无法打开。
+hjsm.tom.com
 www.clicki.cn
 www.in9.cn
 bt.ktxp.com
