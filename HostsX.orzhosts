@@ -1,4 +1,4 @@
-;version=15:27 2011/12/27
+;version=18:13 2011/12/29
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8263,7 +8263,6 @@ rd.yahoo.co.jp
 0.0.0.0 softstat.kugou.com
 0.0.0.0 yx.kugou.com
 #Maxthon
-0.0.0.0 go.maxthon.cn
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 datacn-dl.maxthon.com
 0.0.0.0 stat-w.maxthon.com
