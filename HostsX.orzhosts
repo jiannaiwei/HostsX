@@ -1,4 +1,4 @@
-;version=13:03 2011/12/30
+;version=21:21 2011/12/30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2144,6 +2144,11 @@ rd.yahoo.co.jp
 0.0.0.0 static1.secretchina.com
 0.0.0.0 a.epochtimes.com
 0.0.0.0 ad.epochtimes.com
+#Udn
+0.0.0.0 ad1.udn.com
+0.0.0.0 ad2.udn.com
+0.0.0.0 ad3.udn.com
+0.0.0.0 ad4.udn.com
 #Yam
 0.0.0.0 ad.blog.yam.com
 0.0.0.0 ad2.yam.com
