@@ -1,5 +1,5 @@
 @echo off
-set ver=3.60
+set ver=3.61
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -8,8 +8,11 @@ for %%i in (c d e f a) do (
 set /a te=!!te!+1!
 if "!xc!"=="!te!" set xc=%%i)
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
-Md "%a%\test_permissions" 2>nul||(echo 请使用右键管理员身份运行! & choice /t 2 /d y /n >nul &Exit)
-Rd "%a%\test_permissions"
+Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
+Rd "%a%\test_permissions" >nul 2>nul
+rem 复制运行库
+if not exist %a%\consext.exe copy consext.exe %a%
+if not exist %a%\wget.exe copy wget.exe %a%
 rem 判断操作系统版本
 if exist %ComSpec% (set etc=%windir%\system32\drivers\etc&set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir%\&set hosts=%windir%\hosts)
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
@@ -30,8 +33,7 @@ echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
 cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://kwoktree.googlecode.com/svn/trunk/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto gui) else (echo 检测到新版本,正在升级中,请稍等! & choice /t 2 /d y /n >nul & goto Updates)
-cls
+if %ver%==%verNew% (goto gui) else (msg %username% /time:3 "【新版本升级中,请稍后!】"& goto Updates)
 
 :gui
 ipconfig /flushdns >nul 2>nul
@@ -42,12 +44,12 @@ if '%1'=='/6' goto:ipv6
 if '%1'=='/f' goto:fixhosts
 if '%1'=='opera' goto:operau
 if '%1'=='opc' goto:opclean
-if not exist consext.exe goto dftvbs
+if not exist %a%\consext.exe (msg %username% /time:3 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!"&goto dftvbs)
 mode con cols=57 lines=30
 ConsExt /crv 0
 color 0%xc%
 cls
-title SimpleU %ver%
+title SimpleU %ver% %time%
 cls
 echo.
 echo   请用鼠标点击【 】内选择操作！     【Flush   DNS 刷新】
@@ -85,8 +87,8 @@ if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
 if %y% equ 1 if %x% gtr  12 if %x% lss 35 start explorer %etc% & goto gui
-if %y% equ 1 if %x% gtr  12 if %x% lss 56 echo FlushDns&ipconfig /flushdns & goto gui
-if %y% equ 4 if %x% gtr  12 if %x% lss 35 if not exist wget.exe (call :dftvbs &echo 未检测到wget组件，自动使用VBS下载更新数据&ping 00 -n 3 -w >nul&goto gui) else (call :dftwget)
+if %y% equ 1 if %x% gtr  12 if %x% lss 56 call :dns
+if %y% equ 4 if %x% gtr  12 if %x% lss 35 if not exist %a%\wget.exe (call :dftvbs &msg %username% /time:3 "【未检测到wGet组件，自动使用VBS下载更新数据!】"&goto gui) else (call :dftwget)
 if %y% equ 4 if %x% gtr  12 if %x% lss 56 goto run
 if %y% equ 6 if %x% gtr  12 if %x% lss 35 call :Google &goto gui
 if %y% equ 6 if %x% gtr  12 if %x% lss 56 call :smartrd &goto gui
@@ -115,7 +117,17 @@ if %y% equ 27 if %x% gtr  12 if %x% lss 35 goto feedback
 if %y% equ 27 if %x% gtr  31 if %x% lss 56 goto rp127
 goto mouse
 
+:dns
+del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files" 
+del /f /s /q "%userprofile%\Local Settings\Temp"
+del /f /s /q "%userprofile%\cookies" 
+del /f /s /q "%userprofile%\recent"
+ipconfig /flushdns
+goto:eof
+
 :cleansoft
+Tasklist|Find /i "iexplore.exe">nul&&(Echo 请先关闭IExplore.exe!&Pause)
+call :dns
 call :cleanwmp
 call :cleanpps
 call :cleanpptv
@@ -172,6 +184,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\Wg
 goto:eof
 
 :cleanqq
+msg %username% /time:3 "【请先关闭QQ、TM!】"&pause
 %k% qq.exe
 %k% tm.exe
 %k% TXOPShow.exe
@@ -255,10 +268,6 @@ echo Download and Update,
 echo Please wait... ...
 goto:eof
 
-:choice
-echo 请用鼠标点击【 】内选择操作！
-goto:eof
-
 :temp
 call :BeijingIP
 call :Youtube
@@ -289,9 +298,7 @@ call :echoi
 call :upcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
 copy %temp%\HostsX.orzhosts %hosts%
-call :temp
-echo FlushDns&ipconfig /flushdns&del /f /s /q "%temp%"
-cls&echo Hosts data has been updated！ & choice /t 2 /d y /n >nul &Exit
+call :temp&call :dns&msg %username% /time:3 "Hosts Data has been Updated!"&Exit
 
 :dftlocal
 echo 无法连接服务器！&echo.&echo 将使用本地缓存Hosts数据！& choice /t 2 /d y /n >nul
