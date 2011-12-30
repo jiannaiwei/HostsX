@@ -1,4 +1,4 @@
-;version=12:58 2011/12/30
+;version=13:03 2011/12/30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6460,6 +6460,7 @@ rd.yahoo.co.jp
 0.0.0.0 g.tgbusdata.cn
 0.0.0.0 gg.tgbus.com
 0.0.0.0 vista.tgbus.com
+0.0.0.0 vista.tgbusdata.c
 0.0.0.0 tools.tiancity.com
 #178
 0.0.0.0 adcount.178.com
