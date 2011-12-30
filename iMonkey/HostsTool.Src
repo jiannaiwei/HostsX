@@ -1,5 +1,5 @@
 @echo off
-set ver=3.625
+set ver=3.63
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -10,6 +10,7 @@ if "!xc!"=="!te!" set xc=%%i)
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions" >nul 2>nul
+ren %0 HostsTool.bat
 rem 复制运行库
 pushd %~dp0
 if not exist %a%\consext.exe copy consext.exe %a%
@@ -67,7 +68,7 @@ echo   ======================================================
 echo   Permissions:
 echo   【NTReadit/读取权限】             【  VBS  静默更新 】
 echo.
-echo   【NTRefuse/拒绝权限】             【  Opera缓存清理 】
+echo   【NTRefuse/拒绝权限】             【 IE信任列表清理 】
 echo.
 echo   【NTCancel/取消权限】             【  IE  页面样式  】
 echo.
@@ -104,7 +105,7 @@ if %y% equ 10 if %x% gtr  12 if %x% lss 56 goto fixhosts
 if %y% equ 13 if %x% gtr  12 if %x% lss 35 goto ntfsread
 if %y% equ 13 if %x% gtr  12 if %x% lss 56 if not exist %qt% (call :qtvbs &echo 每隔4小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
 if %y% equ 15 if %x% gtr  12 if %x% lss 35 goto ntfsrefused
-if %y% equ 15 if %x% gtr  12 if %x% lss 56 goto opclean
+if %y% equ 15 if %x% gtr  12 if %x% lss 56 Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f &cls& goto gui
 if %y% equ 17 if %x% gtr  12 if %x% lss 35 goto ntfscancle
 if %y% equ 17 if %x% gtr  12 if %x% lss 56 goto iecss
 if %y% equ 19 if %x% gtr  12 if %x% lss 35 goto readonly
@@ -112,7 +113,7 @@ if %y% equ 19 if %x% gtr  12 if %x% lss 56 echo fixie
 if %y% equ 21 if %x% gtr  12 if %x% lss 35 goto clean
 if %y% equ 21 if %x% gtr  12 if %x% lss 56 goto delit
 if %y% equ 23 if %x% gtr  12 if %x% lss 35 goto AnDroid
-if %y% equ 23 if %x% gtr  12 if %x% lss 56 if not exist g.ico (wget http://kwoktree.googlecode.com/svn/trunk/hosts/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
+if %y% equ 23 if %x% gtr  12 if %x% lss 56 if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
 if %y% equ 25 if %x% gtr  12 if %x% lss 56 start explorer %~dp0 & goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 35 goto feedback
 if %y% equ 27 if %x% gtr  31 if %x% lss 56 goto rp127
@@ -318,7 +319,7 @@ goto:eof
 
 :smartrd
 call :echoi
-wget http://kwoktree.googlecode.com/svn/trunk/hosts/SmartRD.txt
+wget http://hostsx.googlecode.com/svn/trunk/Windows/SmartRD.txt
 (for /f "delims=" %%i in (SmartRD.txt) do (
 call :nslookup %%i
 ))>hosts.txt
@@ -382,7 +383,7 @@ goto:eof
 :AnDroid
 cls&echo AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!
 choice /t 7 /d y /n >nul
-if not exist AndriodHosts.vbs (wget http://kwoktree.googlecode.com/svn/trunk/hosts/AndriodHosts.vbs) else (goto err)
+if not exist AndriodHosts.vbs (wget http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
 AndriodHosts.vbs&cls&goto gui
 
 :run
@@ -1929,8 +1930,8 @@ goto gui
 :addietrust
 echo We Used yoyo data(pgl.yoyo.org) and very thanks!
 wget http://kwoktree.googlecode.com/svn/trunk/hosts/3pd/ie.txt
-echo   Adding non-malicious URL into your browser security zones.
-echo   Please wait……
+echo Adding non-malicious URL into your browser security zones.
+echo Please wait……
 set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
 for /F %%a in (ie.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
 echo  New Data Has been added!&pause&goto gui
