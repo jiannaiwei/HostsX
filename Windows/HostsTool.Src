@@ -1,5 +1,5 @@
 @echo off
-set ver=3.631
+set ver=3.632
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -400,6 +400,7 @@ goto:eof
 set size=824
 for %%1 in (Win.txt)do set gsize=%%~z1
 if %gsize% equ %size% (copy Win.txt %hosts%)
+msg %username% /time:2 "【Hosts文件已恢复到系统默认状态!】"
 call :run
 goto:eof
 
@@ -407,6 +408,7 @@ goto:eof
 echo 127.0.0.1       localhost> %hosts%
 echo ::1             localhost>> %hosts%
 echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
+msg %username% /time:2 "【Hosts文件已恢复到系统默认状态!】"
 call :run
 goto:eof
 
@@ -418,7 +420,6 @@ AndriodHosts.vbs&cls&goto gui
 
 :run
 call :unlock
-msg %username% /time:2 "【Hosts文件已恢复到系统默认状态!】"
 if not exist %hosts% (call :nohosts) else (notepad %hosts%)
 goto gui
 
@@ -487,7 +488,7 @@ pause&goto gui
 wget http://kwoktree.googlecode.com/svn/trunk/css/Custom.css
 wget http://kwoktree.googlecode.com/svn/trunk/css/iecss.vbs
 start http://dayngo.com/static/filter.html
-start http://userstyles.org/styles/58249/remove-ads
+start http://userstyles.org/styles/58249/
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
 :Updates
