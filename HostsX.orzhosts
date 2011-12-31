@@ -1,4 +1,4 @@
-;version=21:21 2011/12/30
+;version=11:00 2011/12/31
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6438,9 +6438,12 @@ rd.yahoo.co.jp
 0.0.0.0 www.pagechoice.net
 0.0.0.0 report.chinanews.com
 #中华网
+0.0.0.0 c.china.com
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
+0.0.0.0 military.china.com
 0.0.0.0 richmedia.china.com
+0.0.0.0 track.china.com
 #大众网
 0.0.0.0 ad.dzwww.com
 #千龙网
