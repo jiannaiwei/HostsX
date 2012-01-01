@@ -1,4 +1,4 @@
-;version=11:00 2011/12/31
+;version=12:45 2012/1/1
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8176,6 +8176,7 @@ rd.yahoo.co.jp
 0.0.0.0 un.zhubajie.com
 @HostsX 软件广告过滤
 #Baofeng
+0.0.0.0 boxlist.baofeng.net
 0.0.0.0 clicklog.moviebox.baofeng.net
 0.0.0.0 diag.baofeng.net
 0.0.0.0 downlist.baofeng.net
