@@ -1,4 +1,4 @@
-;version=12:45 2012/1/1
+;version=20:09 2012/1/1
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9627,6 +9627,7 @@ rd.yahoo.co.jp
 0.0.0.0 events.syyx.com
 0.0.0.0 f.mtmmt.com
 0.0.0.0 fashion.701sou.com
+0.0.0.0 www.xp500.com
 0.0.0.0 ff.wanlicity.com
 0.0.0.0 fk.86mmo.com
 0.0.0.0 frxz.mttmtt.com
