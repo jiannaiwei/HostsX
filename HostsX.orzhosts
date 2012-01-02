@@ -1,4 +1,4 @@
-;version=20:09 2012/1/1
+;version=20:49 2012/1/2
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7789,10 +7789,11 @@ rd.yahoo.co.jp
 0.0.0.0 pop.game3737.com
 #Heima8
 0.0.0.0 c.heima8.com
-0.0.0.0 pc.heima8.com
-0.0.0.0 pic.heima8.com
+0.0.0.0 dh.heima8.com
 0.0.0.0 member.heima8.com
 0.0.0.0 owner.heima8.com
+0.0.0.0 pc.heima8.com
+0.0.0.0 pic.heima8.com
 0.0.0.0 u.heima8.com
 0.0.0.0 www.heima8.com
 #Hxad
@@ -7838,6 +7839,7 @@ rd.yahoo.co.jp
 0.0.0.0 keyrun.cn
 0.0.0.0 www.keyrun.cn
 0.0.0.0 a.keyrun.com
+0.0.0.0 b.keyrun.com
 0.0.0.0 code16.keyrun.com
 0.0.0.0 pic0.keyrun.com
 0.0.0.0 pic1.keyrun.com
