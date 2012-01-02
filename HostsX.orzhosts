@@ -1,4 +1,4 @@
-;version=20:49 2012/1/2
+;version=22:33 2012/1/2
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -10003,3 +10003,5 @@ rd.yahoo.co.jp
 0.0.0.0 down.o2ocn.com
 0.0.0.0 www.paopaoche.net
 0.0.0.0 cpv.ugooo.cc
+0.0.0.0 t.yigouw.com
+0.0.0.0 126dy.co.cc
