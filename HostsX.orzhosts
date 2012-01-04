@@ -1,4 +1,4 @@
-;version=19:36 2012/1/4
+;version=20:01 2012/1/4
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8417,7 +8417,6 @@ rd.yahoo.co.jp
 0.0.0.0 hao.kaikai001.com
 #UUSee
 0.0.0.0 g.uusee.com
-0.0.0.0 hkclient.uusee.com
 0.0.0.0 sa.uusee.com
 0.0.0.0 traffic.uusee.com
 0.0.0.0 uhms.uusee.com
