@@ -1,4 +1,4 @@
-;version=17:57 2012/1/3
+;version=19:36 2012/1/4
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8226,6 +8226,18 @@ rd.yahoo.co.jp
 0.0.0.0 client.myrice.com
 #Duomi
 0.0.0.0 pc.boxshows.com
+#Duowan
+0.0.0.0 ad.yy.duowan.com
+0.0.0.0 do.yy.duowan.com
+0.0.0.0 forceupdate.yy.duowan.com
+0.0.0.0 gamecollaborate.yy.duowan.com
+0.0.0.0 market.duowan.com
+0.0.0.0 mstat.duowan.com
+0.0.0.0 update.yy.duowan.com
+0.0.0.0 yydl.duowan.com
+0.0.0.0 dw.hiido.cn
+0.0.0.0 im.yy.hiido.cn
+0.0.0.0 njs.dw.hiido.cn
 #Fetion
 0.0.0.0 f.10086.cn
 0.0.0.0 gg.joytod.com
@@ -8405,6 +8417,7 @@ rd.yahoo.co.jp
 0.0.0.0 hao.kaikai001.com
 #UUSee
 0.0.0.0 g.uusee.com
+0.0.0.0 hkclient.uusee.com
 0.0.0.0 sa.uusee.com
 0.0.0.0 traffic.uusee.com
 0.0.0.0 uhms.uusee.com
@@ -8413,18 +8426,11 @@ rd.yahoo.co.jp
 0.0.0.0 btjoy.com
 0.0.0.0 img.daodao001.cn
 0.0.0.0 text.mplayer.org.cn
-0.0.0.0 ad.yy.duowan.com
-0.0.0.0 do.yy.duowan.com
-0.0.0.0 forceupdate.yy.duowan.com
-0.0.0.0 gamecollaborate.yy.duowan.com
-0.0.0.0 market.duowan.com
-0.0.0.0 mstat.duowan.com
-0.0.0.0 update.yy.duowan.com
-0.0.0.0 yydl.duowan.com
-0.0.0.0 dw.hiido.cn
-0.0.0.0 im.yy.hiido.cn
-0.0.0.0 njs.dw.hiido.cn
+#VeryCD
 0.0.0.0 download.verycd.com
+#Yunduan
+0.0.0.0 tj.yunduan.cn
+0.0.0.0 update.yunduan.cn
 @HostsX »Ìº˛—È÷§∆¡±Œ
 #Game Assassin's Creed
 0.0.0.0 onlineconfigservice.ubi.com
@@ -9435,6 +9441,7 @@ rd.yahoo.co.jp
 0.0.0.0 skygam.r.arpg2.com
 0.0.0.0 smal.r.arpg2.com
 0.0.0.0 tg.r.arpg2.com
+0.0.0.0 ushb.r.arpg2.com
 0.0.0.0 winnine.r.arpg2.com
 0.0.0.0 xdjzdy.r.arpg2.com
 0.0.0.0 xiaoh.r.arpg2.com
