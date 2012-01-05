@@ -1,4 +1,4 @@
-;version=20:01 2012/1/4
+;version=22:01 2012/1/5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -808,6 +808,7 @@ dl.client.baidu.com
 #CNet
 0.0.0.0 adimg.cnet.com
 0.0.0.0 bwp.cnet.com
+0.0.0.0 bwp.download.cnet.com
 0.0.0.0 bwp.cnet.com.au
 0.0.0.0 dw.cnet.com
 0.0.0.0 mads.cnet.com
@@ -6441,7 +6442,6 @@ rd.yahoo.co.jp
 0.0.0.0 c.china.com
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
-0.0.0.0 military.china.com
 0.0.0.0 richmedia.china.com
 0.0.0.0 track.china.com
 #´óÖÚÍø
