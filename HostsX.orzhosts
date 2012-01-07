@@ -1,4 +1,4 @@
-;version=22:01 2012/1/5
+;version=19:50 2012/1/7
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6459,6 +6459,8 @@ rd.yahoo.co.jp
 #南海网
 0.0.0.0 emarketing.hinews.cn
 0.0.0.0 pl.hinews.cn
+#三联素材
+0.0.0.0 ad.3lian.com
 #重庆晚报
 0.0.0.0 ad.cqwb.com.cn
 @HostsX 国内站点广告/游戏类网站
@@ -10014,3 +10016,6 @@ rd.yahoo.co.jp
 0.0.0.0 cpv.ugooo.cc
 0.0.0.0 t.yigouw.com
 0.0.0.0 126dy.co.cc
+0.0.0.0 show.k184.com
+0.0.0.0 ygame.gy9y.com
+0.0.0.0 gg.ihuanju.com

@@ -41,7 +41,7 @@
 # http://code.google.com/p/ipv6-hosts/                                       #
 # http://www.du110.com/thread-11742-1-1.html                                 #
 # http://hi.baidu.com/villagesecu                                            #
-# http://www.mwsl.org.cn                                                     #
+# http://www.mwsl.org.cn/hosts/hosts2011.12.26.zip                           #
 # http://www.mvps.org/winhelp2002/hosts.txt                                  #
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
 #                                                                            #
