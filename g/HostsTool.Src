@@ -1,5 +1,5 @@
 @echo off
-set ver=3.631
+set ver=3.65
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -20,11 +20,12 @@ if exist %ComSpec% (set etc=%windir%\system32\drivers\etc&set hosts=%windir%\sys
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set str=%date:~0,4%%date:~5,2%00
 set k=taskkill /f /t /im
+set tks=简桢祥（jianwinking）
 set qt=QuietUpdate.vbs
 if not exist %etc%\Bakup\ md %etc%\Bakup\ >nul
 call :unlock
 copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
-if not exist %hosts% goto fixhosts
+if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..."&call :fixhosts
 set force=0
 del /f /s /q "%temp%"
 cls
@@ -35,7 +36,7 @@ echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
 cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto gui) else (msg %username% /time:2 "【新版本升级中,请稍后!】"& goto Updates)
+if %ver%==%verNew% (goto gui) else (msg %username% /time:2 "【新版本升级中,请稍后！】"& goto Updates)
 
 :gui
 ipconfig /flushdns >nul 2>nul
@@ -47,40 +48,33 @@ if '%1'=='/f' goto:fixhosts
 if '%1'=='ou' goto:opup
 if '%1'=='oc' goto:opclean
 if not exist %a%\consext.exe (msg %username% /time:2 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!"&goto dftvbs)
-mode con cols=57 lines=30
+mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
 cls
 title HostsTool(%ver%)-SimpleU  For %username% Use
-cls
 echo.
-echo   请用鼠标点击【 】内选择操作！     【Flush   DNS 刷新】
-echo   ======================================================
-echo   Hosts Data:
-echo   【更新/Update Hosts】             【编辑/Edit  Hosts】
+echo  【更多 设备支持】      ‘      【Flush DNS 刷新】   
+echo  HostsData：  【更新/Update Hosts】
 echo.
-echo  Add.  (Google Rd)                    (SmartRd 测试!)
-if /i !force! neq 0 (echo 当前模式：G.cn服务器IP) else (echo 当前模式：北京服务器 推荐)
-echo        (IPV6 Data)                   RP.【MVPS Data】
+echo  【编辑Hosts文件】             【修复 Hosts文件】          
+echo     (Google  RD)                  (IPV6 Data) 
+if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
+echo     (Smart Rd！)                  (Ent Block)
 echo.
-echo    (娱乐应用 网站屏蔽)              【修复/Fixed Hosts】
-echo   ======================================================
-echo   Permissions:
-echo   【NTReadit/读取权限】             【  VBS  静默更新 】
+echo    【MVPS  Data】                【MWSL Data】
+echo  Permissions：==================================
+echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
+echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
+echo   ==============================================
+echo  【IE 信任站点 清理】        【垃圾缓存文件清理】   
+echo  【IE  浏览器  修复】        【图标快捷方式修复】
+echo   ==============================================
+echo  【IE CSS样式表设定】        【VBS*后台静默更新】             
+echo  【顽固文件/夹 删除】        【替换为 127.0.0.1】              
+echo  当前目录：%~dp0
 echo.
-echo   【NTRefuse/拒绝权限】             【 IE信任列表清理 】
-echo.
-echo   【NTCancel/取消权限】             【  IE  页面样式  】
-echo.
-echo   【Readit/设置为只读】             【  IE  快速修复  】
-echo   ======================================================
-echo   【垃圾 缓存文件清理】             【  顽固文件删除  】
-echo.
-echo   【For AnDroid Hosts】             【 ShortCut  修复 】
-echo.
-echo   当前目录：%~dp0
-echo.
-echo   【FeedBack 问题反馈】             【替换为 127.0.0.1】
+echo  【FeedBack问题反馈】        【【￥捐助我们￥】】
 
 :mouse
 ConsExt /event
@@ -88,35 +82,37 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  12 if %x% lss 35 start explorer %etc% & goto gui
-if %y% equ 1 if %x% gtr  12 if %x% lss 56 call :dns & goto gui
-if %y% equ 4 if %x% gtr  12 if %x% lss 35 if not exist %a%\wget.exe (call :dftvbs &msg %username% /time:2 "【未检测到wGet组件，自动使用VBS下载更新数据!】"&goto gui) else (call :dftwget)
-if %y% equ 4 if %x% gtr  12 if %x% lss 56 goto run
-if %y% equ 6 if %x% gtr  12 if %x% lss 35 call :Google &goto gui
-if %y% equ 6 if %x% gtr  12 if %x% lss 56 call :smartrd &goto gui
-if %y% equ 7 if %x% gtr  12 if %x% lss 56 (
+if %y% equ 1 if %x% gtr  1 if %x% lss 26 start iexplore http://code.google.com/p/kwoktree/ &goto gui
+if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & goto gui
+if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %a%\wget.exe (call :dftvbs &msg %username% /time:2 "【未检测到wGet组件，自动使用VBS下载更新数据!】"&goto gui) else (call :dftwget)
+if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q &call :fixhosts& goto gui) else (call :unlock &notepad %hosts%& goto gui)
+if %y% equ 5 if %x% gtr  26 if %x% lss 50 call :fixhosts&goto gui
+if %y% equ 7 if %x% gtr  1 if %x% lss 26 call :Google &goto gui
+if %y% equ 7 if %x% gtr  26 if %x% lss 50 call :ipv6 &goto gui
+if %y% equ 8 if %x% gtr  1 if %x% lss 50 (
 if /i !force! neq 0 (set force=0) else (set force=1)
 goto gui
 )
-if %y% equ 8 if %x% gtr  12 if %x% lss 35 call :ipv6 & goto gui
-if %y% equ 8 if %x% gtr  12 if %x% lss 56 goto mwsl
-if %y% equ 10 if %x% gtr  12 if %x% lss 35 call :entdata & goto gui
-if %y% equ 10 if %x% gtr  12 if %x% lss 56 goto fixhosts
-if %y% equ 13 if %x% gtr  12 if %x% lss 35 goto ntfsread
-if %y% equ 13 if %x% gtr  12 if %x% lss 56 if not exist %qt% (call :qtvbs &echo 每隔4小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
-if %y% equ 15 if %x% gtr  12 if %x% lss 35 goto ntfsrefused
-if %y% equ 15 if %x% gtr  12 if %x% lss 56 Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f &cls& goto gui
-if %y% equ 17 if %x% gtr  12 if %x% lss 35 goto ntfscancle
-if %y% equ 17 if %x% gtr  12 if %x% lss 56 goto iecss
-if %y% equ 19 if %x% gtr  12 if %x% lss 35 goto readonly
-if %y% equ 19 if %x% gtr  12 if %x% lss 56 echo fixie
-if %y% equ 21 if %x% gtr  12 if %x% lss 35 goto clean
-if %y% equ 21 if %x% gtr  12 if %x% lss 56 goto delit
-if %y% equ 23 if %x% gtr  12 if %x% lss 35 goto AnDroid
-if %y% equ 23 if %x% gtr  12 if %x% lss 56 if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!) else goto shortcutfix
-if %y% equ 25 if %x% gtr  12 if %x% lss 56 start explorer %~dp0 & goto gui
-if %y% equ 27 if %x% gtr  12 if %x% lss 35 goto feedback
-if %y% equ 27 if %x% gtr  31 if %x% lss 56 goto rp127
+if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :smartrd &goto gui
+if %y% equ 9 if %x% gtr  26 if %x% lss 50 call :entdata &goto gui
+if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :mvps &goto gui
+if %y% equ 11 if %x% gtr  26 if %x% lss 50 call :mwsl &goto gui
+if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts% &msg %username% /time:2 "【已设置Hosts文件权限为：只读！】"&exit
+if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "【Hosts文件已成功解锁！】"&goto gui
+if %y% equ 15 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r -h +s %hosts% & echo y| cacls %hosts% /c /t /p everyone:r&msg %username% /time:2 "【已设置Hosts文件权限为：NTFS 读取权限！】"&goto gui
+if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock &attrib %hosts% +r -h +s &echo y| cacls %hosts% /D everyone&msg %username% /time:2 "【已设置Hosts文件权限为：NTFS 拒绝权限！】"&goto gui
+if %y% equ 17 if %x% gtr  1 if %x% lss 26 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f &cls& goto gui
+if %y% equ 17 if %x% gtr  26 if %x% lss 50 goto clean
+if %y% equ 19 if %x% gtr  1 if %x% lss 26 goto fixie
+if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!&goto shortcutfix) else (goto shortcutfix)
+if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto iecss
+if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :qtvbs &echo 每隔4小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
+if %y% equ 23 if %x% gtr  12 if %x% lss 26 goto delit
+if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
+if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 &goto gui
+if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% &goto gui
+if %y% equ 27 if %x% gtr  12 if %x% lss 26 goto feedback
+if %y% equ 27 if %x% gtr  31 if %x% lss 50 start iexplore https://me.alipay.com/vokins &msg %username% /time:2 "【感谢您：%tks%的捐赠，您的支持我的动力！】"&goto gui
 goto mouse
 
 :dns
@@ -344,7 +340,7 @@ wget --no-check-certificate --restrict-file-name=windows https://ipv6-hosts.goog
 findstr /v "#" temp.txt >b.txt&del temp.txt
 for /f "tokens=1,2,*" %%i in (b.txt) do (if not defined a%%j set "a%%j=a" &echo %%i %%j %%k>>temp.txt)
 type temp.txt>>%hosts%
-echo FlushDns&ipconfig /flushdns"
+echo FlushDns&ipconfig /flushdns
 goto:eof
 
 :smartrd
@@ -366,11 +362,17 @@ goto :eof
 call :echoi
 wget  http://www.mvps.org/winhelp2002/hosts.txt
 copy hosts.txt %hosts%
-goto gui
+goto :eof
+
+:mwsl
+call :echoi
+wget  http://hostsx.googlecode.com/svn/trunk/3rdParty/mwsl.txt
+copy mwsl.txt %hosts%
+call :flushdns
+goto :eof
 
 :entdata
 call :unlock
-call :echoi
 set pb=115.47.219.95
 echo %pb% www.kaixin001.com >>%hosts%
 echo %pb% apps.renren.com >>%hosts%
@@ -382,32 +384,14 @@ echo %pb% www.2366.com >>%hosts%
 echo %pb% www.4399.com >>%hosts%
 echo %pb% www.7k7k.com >>%hosts%
 echo %pb% 4.gvt0.cn >>%hosts%
-echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.
-echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 5 /d y /n >nul
+echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.&echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 2 /d y /n >nul
 goto :eof
 
 :fixhosts
-color 04
-mode con: cols=50 lines=12
-msg %username% /time:2 "Fix Hosts File?（Restore the system default）"&pause& del %hosts% /q &goto nohosts
-
-:nohosts
 call :unlock
-if not exist Win.txt (goto nohostsimple) Else (goto nohostslocal)
-goto:eof
-
-:nohostslocal
-set size=824
-for %%1 in (Win.txt)do set gsize=%%~z1
-if %gsize% equ %size% (copy Win.txt %hosts%)
-call :run
-goto:eof
-
-:nohostsimple
-echo 127.0.0.1       localhost> %hosts%
-echo ::1             localhost>> %hosts%
-echo 127.0.0.1 localhost.localdomain localhost>> %hosts%
-call :run
+if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts%&echo ::1             localhost>> %hosts%&echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
+msg %username% /time:2 "【已恢复Hosts文件至系统初始状态！】"
+notepad %hosts%
 goto:eof
 
 :AnDroid
@@ -416,40 +400,17 @@ choice /t 7 /d y /n >nul
 if not exist AndriodHosts.vbs (wget http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
 AndriodHosts.vbs&cls&goto gui
 
-:run
-call :unlock
-msg %username% /time:2 "【Hosts文件已恢复到系统默认状态!】"
-if not exist %hosts% (call :nohosts) else (notepad %hosts%)
-goto gui
-
-:readonly
-call :unlock
-attrib +r +a +s %hosts%
-echo Hosts文件权限设置完成！&goto gui
-
-:ntfsread
-call :unlock
-attrib +r -h +s %hosts% >nul 2>nul
-echo y| cacls %hosts% /c /t /p everyone:r >nul
-echo Hosts文件权限设置完成！&goto gui
-
-:ntfsrefused
-call :unlock
-attrib %hosts% +r -h +s >nul 2>nul
-echo y| cacls %hosts% /D everyone >nul
-echo Hosts文件权限设置完成！&goto gui
-
 :shortcutfix
 mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\g.ico"":b.Description=""A Little Monkey"":b.Save:close")
 echo 桌面快捷方式已创建！& choice /t 2 /d y /n >nul&goto gui
 
 :feedback
-echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈^__________,^
-echo 用户名：%username% >GFeedBack.txt
+echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt
+echo 用户名：%username% >>GFeedBack.txt
 echo 计算机名：%userdomain% >>GFeedBack.txt
 SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt
 echo IE版本：%iever% >>GFeedBack.txt
-echo G+Hosts版本：%ver% >>GFeedBack.txt
+echo HostsTool版本：%ver% >>GFeedBack.txt
 echo 今天是：%date% >>GFeedBack.txt
 echo 遇到问题的网页地址：>>GFeedBack.txt
 echo. >>GFeedBack.txt
@@ -487,7 +448,7 @@ pause&goto gui
 wget http://kwoktree.googlecode.com/svn/trunk/css/Custom.css
 wget http://kwoktree.googlecode.com/svn/trunk/css/iecss.vbs
 start http://dayngo.com/static/filter.html
-start http://userstyles.org/styles/58249/remove-ads
+start http://userstyles.org/styles/58249/
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
 :Updates
@@ -520,7 +481,7 @@ del /f /s /q %windir%\*.bak
 del /f /s /q "%systemdrive%\recycled"
 del /f /s /q "%Temp%"
 del /f /q /s /a "%systemroot%\minidump"
-"%userprofile%\Cookies\"
+del /f /q /s /a "%userprofile%\Cookies\"
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
 del /f /s /q "%userprofile%\recent"
 del /f /s /q "%windir%\prefetch"
@@ -1767,31 +1728,31 @@ Regsvr32 /s cryptdlg.dll
 echo 100 percent
 echo IE Optimization and Fix finished.
 title IE Repaired
-rem  开始修复 IE 及相关的系统设置项目……
+echo 开始修复 IE 及相关的系统设置项目……
 reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKLM\Software\CLASSES\.reg" /f /ve /d regfile>nul 2>nul
-rem  恢复EXE文件打开方式
+echo 恢复EXE文件打开方式
 reg add "HKCR\exefile\shell\open\command" /f /ve /t REG_SZ /d ""%1" %*">nul 2>nul
 rem Del All IE donot Turst Site
 reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f
-rem  删除地址栏下拉菜单内的网址
+echo 删除地址栏下拉菜单内的网址
 reg delete "HKCU\Software\Microsoft\Internet Explorer\TypedURLs" /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Internet Explorer\TypedURLs">nul 2>nul
-rem  恢复被隐藏的桌面图标
+echo 恢复被隐藏的桌面图标
 reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
 reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
-rem  恢复internet选项安全页面自定义按钮
+echo 恢复internet选项安全页面自定义按钮
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecChangeSettings /t REG_DWORD /d 00000000>nul 2>nul
-rem  恢复IE浏览器缺省主页的设置锁定状态
+echo 恢复IE浏览器缺省主页的设置锁定状态
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Settings /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Links /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecAddSites /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKU\.DEFAULT\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
-rem  删除分级审查密码
+echo 删除分级审查密码
 reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings" /f>nul 2>nul
 reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings">nul 2>nul
-rem  恢复internet选项
+echo 恢复internet选项
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\restrictions" /f /v NoBrowserOptions /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoFolderOptions /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v GeneralTab /t REG_DWORD /d 00000000>nul 2>nul
@@ -1800,27 +1761,27 @@ reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ConnectionsTab /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ProgramsTab /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v AdvancedTab /t REG_DWORD /d 00000000>nul 2>nul
-rem  修复IE察看源文件按钮
+echo 修复IE察看源文件按钮
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
-rem  修复网页中右键菜单的广告
+echo 修复网页中右键菜单的广告
 reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
 reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
-rem  恢复网页右键菜单
+echo 恢复网页右键菜单
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoBrowserContextMenu /t REG_DWORD /d 00000000>nul 2>nul
-rem  恢复OE标题栏广告
+echo 恢复OE标题栏广告
 reg add "HKCU\Software\Microsoft\Outlook Express" /f /v WindowTitle /t REG_DWORD /d 00000000>nul 2>nul
-rem  恢复IE标题栏
+echo 恢复IE标题栏
 reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
-rem  恢复主页修改
+echo 恢复主页修改
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
-rem  修复IE的默认页面和起始为空白页
+echo 修复IE的默认页面和起始为空白页
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Default_Page_URL" /d "about:blank">nul 2>nul
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Start Page" /d "about:blank">nul 2>nul
-rem  恢复IE搜索引擎
+echo 恢复IE搜索引擎
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s"
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f
 reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Use Search Asst" /d "no" /f
@@ -1828,8 +1789,7 @@ reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "
 reg add "HKLM\Software\Microsoft\Internet Explorer\" /f /ve /d "about:blank"
 reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "http://www.google.com/intl/zh-CN/"
 reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f
-echo  Repaired!
-cls&goto gui
+echo  Repaired&cls&goto gui
 
 :opup
 if not exist %a%\wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
