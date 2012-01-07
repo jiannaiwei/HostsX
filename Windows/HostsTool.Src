@@ -1,5 +1,5 @@
 @echo off
-set ver=3.651
+set ver=3.652
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -20,7 +20,7 @@ if exist %ComSpec% (set etc=%windir%\system32\drivers\etc&set hosts=%windir%\sys
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set str=%date:~0,4%%date:~5,2%00
 set k=taskkill /f /t /im
-set tks=简桢祥（jianwinking）
+set tks=简桢祥（jianwinking）邹萌（www-xyz）
 set qt=QuietUpdate.vbs
 if not exist %etc%\Bakup\ md %etc%\Bakup\ >nul
 call :unlock
@@ -781,7 +781,7 @@ goto:eof
 :Youtube
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
 for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
-if %ytb%==203.208.46.181 (echo 你获取的不是北京服务器的地址，已手动帮你设置为203.208.46.181北京服务器地址) else echo Loading...
+if %ytb%==203.208.46.181 (echo 你获取的不是YTB BJ服务器的地址，已手动帮你设置为203.208.46.181 BJ服务器地址) else echo Loading...
 echo #Youtube By FGQI >>%hosts%
 echo %ytb% youtube.com >>%hosts%
 echo %ytb% www.youtube.com >>%hosts%
