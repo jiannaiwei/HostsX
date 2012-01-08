@@ -1,4 +1,4 @@
-;version=20:20 2012/1/8
+;version=23:10 2012/1/8
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1221,17 +1221,17 @@ dl.client.baidu.com
 0.0.0.0 online.sso.sina.com.cn
 0.0.0.0 pfp.sina.com.cn
 0.0.0.0 pfpclick.sina.com.cn
-0.0.0.0 pfpip.sina.com
 0.0.0.0 rm.sina.com.cn
 0.0.0.0 sgup.beacon.sina.com.cn
 0.0.0.0 sms.sina.com.cn
+0.0.0.0 swf.games.sina.com.cn
 0.0.0.0 ta.sass.sina.com.cn
 0.0.0.0 uic.sso.sina.com.cn
+0.0.0.0 pfpip.sina.com
 0.0.0.0 rs.sinajs.cn
-0.0.0.0 l.you.video.sina.com.cn
-0.0.0.0 cnt.v.sina.com.cn
 0.0.0.0 adsina.allyes.com
 0.0.0.0 sina.allyes.com
+0.0.0.0 sinas.allyes.com
 0.0.0.0 sinasc.allyes.com
 #iCast
 0.0.0.0 cast.ra.icast.cn
@@ -6879,6 +6879,9 @@ rd.yahoo.co.jp
 0.0.0.0 f4.1lo0.net
 0.0.0.0 f5.1lo0.net
 0.0.0.0 f6.1lo0.net
+0.0.0.0 c1.1lo0.net
+0.0.0.0 c2.1lo0.net
+0.0.0.0 c3.1lo0.net
 0.0.0.0 p1.1lo0.net
 0.0.0.0 p2.1lo0.net
 0.0.0.0 p3.1lo0.net
@@ -9324,6 +9327,7 @@ rd.yahoo.co.jp
 0.0.0.0 show.altitudedigitalpartners.com
 0.0.0.0 download.wagabb.com
 0.0.0.0 www.mr66.com
+0.0.0.0 www3.zjbdt.com
 0.0.0.0 www2.zjbdt.com
 0.0.0.0 www1.zjbdt.com
 0.0.0.0 qq.ting90.com
@@ -10020,3 +10024,8 @@ rd.yahoo.co.jp
 0.0.0.0 gg.ihuanju.com
 0.0.0.0 p.haliyuya.com
 0.0.0.0 s.tiaosa.cn
+0.0.0.0 juu.tg.wulinyingxiong.net
+0.0.0.0 614.hlwan.net
+0.0.0.0 www.nyerc.com
+0.0.0.0 www.gxdyy.com
+0.0.0.0 p.yocc.net
