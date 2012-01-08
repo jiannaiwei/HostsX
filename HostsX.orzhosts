@@ -1,4 +1,4 @@
-;version=22:38 2012/1/7
+;version=20:20 2012/1/8
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8427,7 +8427,6 @@ rd.yahoo.co.jp
 0.0.0.0 btjoy.com
 0.0.0.0 img.daodao001.cn
 0.0.0.0 text.mplayer.org.cn
-#VeryCD
 0.0.0.0 download.verycd.com
 #Yunduan
 0.0.0.0 tj.yunduan.cn
