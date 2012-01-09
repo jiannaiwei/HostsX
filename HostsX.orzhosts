@@ -1,4 +1,4 @@
-;version=23:10 2012/1/8
+;version=13:04 2012/1/9
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -10029,3 +10029,4 @@ rd.yahoo.co.jp
 0.0.0.0 www.nyerc.com
 0.0.0.0 www.gxdyy.com
 0.0.0.0 p.yocc.net
+0.0.0.0 3.232j.com
