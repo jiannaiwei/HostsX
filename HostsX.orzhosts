@@ -1,4 +1,4 @@
-;version=13:04 2012/1/9
+;version=13:12 2012/1/9
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6879,7 +6879,6 @@ rd.yahoo.co.jp
 0.0.0.0 f4.1lo0.net
 0.0.0.0 f5.1lo0.net
 0.0.0.0 f6.1lo0.net
-0.0.0.0 c1.1lo0.net
 0.0.0.0 c2.1lo0.net
 0.0.0.0 c3.1lo0.net
 0.0.0.0 p1.1lo0.net
@@ -10028,5 +10027,7 @@ rd.yahoo.co.jp
 0.0.0.0 614.hlwan.net
 0.0.0.0 www.nyerc.com
 0.0.0.0 www.gxdyy.com
-0.0.0.0 p.yocc.net
 0.0.0.0 3.232j.com
+0.0.0.0 168.mashangwan.com
+0.0.0.0 www.y2126.com
+0.0.0.0 www.232.com
