@@ -1,4 +1,4 @@
-;version=13:12 2012/1/9
+;version=7:35 2012/1/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -10031,3 +10031,4 @@ rd.yahoo.co.jp
 0.0.0.0 168.mashangwan.com
 0.0.0.0 www.y2126.com
 0.0.0.0 www.232.com
+0.0.0.0 code.woiring.com
