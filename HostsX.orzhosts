@@ -1,4 +1,4 @@
-;version=23:36 2012/1/10
+;version=23:45 2012/1/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2103,6 +2103,10 @@ rd.yahoo.co.jp
 0.0.0.0 ads.pics.gogobox.com.tw
 0.0.0.0 advs.gogobox.com.tw
 0.0.0.0 event.gogobox.com.tw
+#Hinet
+0.0.0.0 adasad.myweb.hinet.net
+0.0.0.0 blogad01.myweb.hinet.net
+0.0.0.0 blogad02.myweb.hinet.net
 #Intel
 0.0.0.0 syndication.intel.com
 0.0.0.0 www.cnetdirectintl.com
@@ -2167,7 +2171,6 @@ rd.yahoo.co.jp
 0.0.0.0 ad.obuy.tw
 0.0.0.0 ad.snsplus.com
 0.0.0.0 ad.sogi.com.tw
-0.0.0.0 adasad.myweb.hinet.net
 0.0.0.0 ads.citytalk.tw
 0.0.0.0 ads.doublemax.net
 0.0.0.0 ads.fetnet.net
@@ -2460,6 +2463,7 @@ rd.yahoo.co.jp
 0.0.0.0 weblog.blogads.com
 0.0.0.0 www.blogads.com
 0.0.0.0 z.blogads.com
+0.0.0.0 www.blogad.com.tw
 #Bluekai
 0.0.0.0 bluekai.com
 0.0.0.0 tags.bluekai.com
