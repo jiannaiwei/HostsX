@@ -1,4 +1,4 @@
-;version=7:35 2012/1/10
+;version=23:36 2012/1/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -2443,6 +2443,8 @@ rd.yahoo.co.jp
 0.0.0.0 www.bidvertiser.com
 0.0.0.0 bidvertiser.com
 0.0.0.0 srv.bidvertiser.com
+#Betrad
+0.0.0.0 l.betrad.com
 #Blogads
 0.0.0.0 b.blogads.com
 0.0.0.0 banners.blogads.com
@@ -6555,6 +6557,7 @@ rd.yahoo.co.jp
 #Pconline
 0.0.0.0 adv.pconline.com.cn
 0.0.0.0 count5.pconline.com.cn
+0.0.0.0 dlc2.pconline.com.cn
 0.0.0.0 imgad0.3conline.com
 0.0.0.0 imgad1.3conline.com
 0.0.0.0 imgad2.3conline.com
@@ -6616,7 +6619,6 @@ rd.yahoo.co.jp
 0.0.0.0 ccc.xdowns.com
 #Crsky
 0.0.0.0 images.crsky.com
-0.0.0.0 dlc2.pconline.com.cn
 @HostsX 国内站点广告/汽车类网站
 #易车网
 0.0.0.0 autosense.bitauto.com
@@ -8471,10 +8473,6 @@ rd.yahoo.co.jp
 0.0.0.0 activation.acronis.com
 0.0.0.0 liveupdate.acronis.com
 #Adobe
-0.0.0.0 3dns-1.adobe.com
-0.0.0.0 3dns-2.adobe.com
-0.0.0.0 3dns-3.adobe.com
-0.0.0.0 3dns-4.adobe.com
 0.0.0.0 activate-sea.adobe.com
 0.0.0.0 activate-sjc0.adobe.com
 0.0.0.0 activate.adobe.com
@@ -8506,11 +8504,6 @@ rd.yahoo.co.jp
 0.0.0.0 stats.adobe.com
 0.0.0.0 t3dns.adobe.com
 0.0.0.0 tpractivate.adobe.newoa
-0.0.0.0 wip.adobe.com
-0.0.0.0 wip1.adobe.com
-0.0.0.0 wip2.adobe.com
-0.0.0.0 wip3.adobe.com
-0.0.0.0 wip4.adobe.com
 0.0.0.0 wwis-dubc1-vip60.adobe.com
 0.0.0.0 www.adobeereg.com
 0.0.0.0 www.wip.adobe.com
