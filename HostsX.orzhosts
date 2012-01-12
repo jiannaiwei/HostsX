@@ -1,4 +1,4 @@
-;version=10:40 2012/1/12
+;version=12:45 2012/1/12
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -888,7 +888,6 @@ dl.client.baidu.com
 #西域IT
 0.0.0.0 apic.xiyuit.com
 #中关村在线
-0.0.0.0 active.zol.com.cn
 0.0.0.0 adm.zol.com.cn
 0.0.0.0 bd.zol.com.cn
 0.0.0.0 bwp.zol.com.cn
