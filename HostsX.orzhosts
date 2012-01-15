@@ -1,4 +1,4 @@
-;version=22:48 2012/1/12
+;version=18:07 2012/1/15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1788,7 +1788,9 @@ rd.yahoo.co.jp
 0.0.0.0 ad.16kxs.com
 0.0.0.0 wap10.16kxs.com
 #91
+0.0.0.0 agency.91.com
 0.0.0.0 g2.v3.91.com
+0.0.0.0 image.agency.91.com
 0.0.0.0 v2.g2.91.com
 #Adchina
 0.0.0.0 mobile.adchina.com
