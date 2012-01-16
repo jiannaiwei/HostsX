@@ -1,4 +1,4 @@
-;version=13:33 2012/1/16
+;version=19:53 2012/1/16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6976,11 +6976,15 @@ rd.yahoo.co.jp
 0.0.0.0 adguanggao.eee114.com
 0.0.0.0 cctv.adsunion.com
 0.0.0.0 js.bmgad.com
-0.0.0.0 luck.v1.cn
 0.0.0.0 med.soodao.com
 #CNR
 0.0.0.0 d1.cnr.cn
 0.0.0.0 d2.cnr.cn
+#V1CN
+0.0.0.0 luck.v1.cn
+0.0.0.0 lucklog4.v1.cn
+0.0.0.0 luckshow.v1.cn
+0.0.0.0 luckstatic.v1.cn
 #Œ“¿÷Õ¯
 0.0.0.0 acs.agent.v-56.com
 0.0.0.0 bill.agent.v-56.com
