@@ -1,4 +1,4 @@
-;version=19:53 2012/1/16
+;version=21:03 2012/1/16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1223,7 +1223,6 @@ dl.client.baidu.com
 0.0.0.0 rm.sina.com.cn
 0.0.0.0 sgup.beacon.sina.com.cn
 0.0.0.0 sms.sina.com.cn
-0.0.0.0 swf.games.sina.com.cn
 0.0.0.0 ta.sass.sina.com.cn
 0.0.0.0 uic.sso.sina.com.cn
 0.0.0.0 pfpip.sina.com
@@ -1926,7 +1925,6 @@ rd.yahoo.co.jp
 0.0.0.0 clubpic.vodone.com
 0.0.0.0 ego.vodone.com
 0.0.0.0 msn.vodone.com
-0.0.0.0 pic.vodone.com
 0.0.0.0 stat2.vodone.com
 0.0.0.0 u.vodone.com
 0.0.0.0 u3.vodone.com
@@ -1934,7 +1932,6 @@ rd.yahoo.co.jp
 0.0.0.0 v.vodone.com
 0.0.0.0 vlog.vodone.com
 0.0.0.0 vodone.com
-0.0.0.0 www.vodone.com
 #Vpon
 0.0.0.0 cn.ad.adon.vpon.com
 0.0.0.0 cn.img.adon.vpon.com
@@ -7004,14 +7001,28 @@ rd.yahoo.co.jp
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 #”≈ø·Õ¯
+0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
+0.0.0.0 e.stat.youku.com
+0.0.0.0 fvid.atm.youku.com
+0.0.0.0 html.atm.youku.com
+0.0.0.0 hz.lstat.youku.com
+0.0.0.0 hz.youku.com
+0.0.0.0 lstat.youku.com
+0.0.0.0 nc.youku.com
+0.0.0.0 player.lstat.youku.com
+0.0.0.0 speed.lstat.youku.com
+0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
+0.0.0.0 static.lstat.youku.com
+0.0.0.0 urchin.lstat.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
 0.0.0.0 valf.atm.youku.com
 0.0.0.0 valo.atm.youku.com
 0.0.0.0 valp.atm.youku.com
 0.0.0.0 vid.atm.youku.com
+0.0.0.0 walp.atm.youku.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
 #Õ¡∂πÕ¯

@@ -1,4 +1,4 @@
-;version=12:47 2012/1/12
+;version=21:01 2012/1/16
 ;author=KwokTree.jason_jiang
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
@@ -199,23 +199,6 @@ $DELETE
 
 #导致 腾讯 QQ 群相册无法正常显示。
 group.store.qq.com
-$DELETE
-
-#导致 优酷网 搜索功能无法正常使用。
-e.stat.youku.com
-hz.lstat.youku.com
-lstat.youku.com
-player.lstat.youku.com
-stat.youku.com
-atm.youku.com
-fvid.atm.youku.com
-html.atm.youku.com
-hz.youku.com
-nc.youku.com
-speed.lstat.youku.com
-static.lstat.youku.com
-urchin.lstat.youku.com
-walp.atm.youku.com
 $DELETE
 
 #导致 优酷网 视频缩率图无法正常显示。
