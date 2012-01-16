@@ -1,4 +1,4 @@
-;version=18:07 2012/1/15
+;version=13:33 2012/1/16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -9635,6 +9635,8 @@ rd.yahoo.co.jp
 0.0.0.0 qq.ting90.com
 0.0.0.0 www.sese860.info
 0.0.0.0 www.kk21.info
+0.0.0.0 www.houdao8.cn
+0.0.0.0 www.wagabb.com
 @HostsX ¿ÉÒÉÐÐÎªÀ¹½Ø/µ¯´°ÆÁ±Î
 #Ç©Ãûµ¯´°
 0.0.0.0 code.2010qianming.com
