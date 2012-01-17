@@ -1,5 +1,5 @@
 @echo off
-set ver=3.652
+set ver=3.66
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -529,30 +529,32 @@ CLS
 goto:eof
 
 :BeijingIP
-echo 正在使用Google北京服务器地址更新hosts
+echo.
+echo 正在使用Google北京服务器地址更新hosts，请稍等
 setlocal enabledelayedexpansion
 set min=160
 set max=180
 set /a mod=!max!-!min!+1
 set /a r=!random!%%!mod!+!min!
 set gg=203.208.46.%r%
+call :GoogleIP
 echo 203.208.45.200 plus.google.com >>%hosts%
 echo 203.208.46.180 www.google.com >>%hosts%
-call :GoogleIP
 goto:eof
 
 :GoogleCN
 echo 请稍等,正在获取G.cn服务器的IP
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set gg=%%i
-for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，正在更新hosts，请稍等) else echo 你获取的是%gg%，不是Google北京服务器地址，正在更新hosts，请稍等
+for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，请稍等) else echo 你获取的是%gg%，正在更新hosts，Loading...
 for /f "delims=." %%i in ("%gg%") do if not %%i==203 echo 因为地址不是北京服务器，可能导致服务不能用，推荐使用:北京服务器IP
+call :GoogleIP
 echo %gg% plus.google.com >>%hosts%
 echo %gg% www.google.com >>%hosts%
-call :GoogleIP
 goto:eof
 
 :GoogleIP
-echo #Google By FGQI >>%hosts%
+echo #Google >>%hosts%
+echo %gg% plus.url.google.com >>%hosts%
 echo %gg% 0-focus-opensocial.googleusercontent.com >>%hosts%
 echo %gg% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %gg% accounts.google.com >>%hosts%
@@ -776,13 +778,17 @@ echo %gg% 66fl6oqbdsqf5fjl032t5iulimtqjhpa-a-oz-opensocial.googleusercontent.com
 echo %gg% vvpk2b7flnbhcm2p10u4hcnatnp40i3i-a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %gg% 0rgn8o7pqk7dq7rm8q0639erjd8gnf7g-a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %gg% cfmmurgvo3fqrmfu0tjfcpgdt7mh6ccv-a-oz-opensocial.googleusercontent.com >>%hosts%
+start http://www.google.com/ncr
 goto:eof
 
 :Youtube
+echo.
+echo 正在运行Youtube脚本（现在只能进Youtube的网页，但不能播放视频）
+echo 请稍等,正在获取Youtube服务器的IP
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
 for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
-if %ytb%==203.208.46.181 (echo 你获取的不是YTB BJ服务器的地址，已手动帮你设置为203.208.46.181 BJ服务器地址) else echo Loading...
-echo #Youtube By FGQI >>%hosts%
+if %ytb%==203.208.46.181 (echo 你获取的不是北京服务器的地址，已手动帮你设置为203.208.46.181北京服务器地址) else echo Loading...
+echo #Youtube >>%hosts%
 echo %ytb% youtube.com >>%hosts%
 echo %ytb% www.youtube.com >>%hosts%
 echo %ytb% gdata.youtube.com >>%hosts%
