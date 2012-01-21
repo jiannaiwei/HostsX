@@ -1,4 +1,4 @@
-;version=21:18 2012/1/21
+;version=21:21 2012/1/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -7742,6 +7742,7 @@ rd.yahoo.co.jp
 0.0.0.0 js.xsu.cc
 0.0.0.0 www.xsu.cc
 #CNZZ
+0.0.0.0 hzs8.cnzz.com
 0.0.0.0 qs7.cnzz.com
 0.0.0.0 10 mail.cnzz.com
 0.0.0.0 17k.cnzz.com
@@ -9811,14 +9812,19 @@ rd.yahoo.co.jp
 0.0.0.0 1133.baiduskxn.cn
 0.0.0.0 1188s.info
 0.0.0.0 123.360kaixin.com
+0.0.0.0 126dy.co.cc
 0.0.0.0 131377.com
+0.0.0.0 168.mashangwan.com
 0.0.0.0 189.zhanguotj.com
 0.0.0.0 1st.ecoma.glb0.lxdns.com
 0.0.0.0 21456.18bm.com
 0.0.0.0 21456.3ii1.com
 0.0.0.0 2z.5pk.com
+0.0.0.0 3.232j.com
 0.0.0.0 5.nihao600.com
 0.0.0.0 58.gyyx.cn
+0.0.0.0 614.hlwan.net
+0.0.0.0 616.hlwan.net
 0.0.0.0 6dad.com
 0.0.0.0 7k7kimg.cn
 0.0.0.0 a.65975.com
@@ -9886,6 +9892,7 @@ rd.yahoo.co.jp
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
 0.0.0.0 code.u.18dx.com
+0.0.0.0 code.woiring.com
 0.0.0.0 code.xwadv.com
 0.0.0.0 codes.xp3366.com
 0.0.0.0 content.caixun.com
@@ -9905,11 +9912,13 @@ rd.yahoo.co.jp
 0.0.0.0 cpm.zzsf.com
 0.0.0.0 cpp.ggyad.com
 0.0.0.0 cps.freedom-game.com
+0.0.0.0 cpv.ugooo.cc
 0.0.0.0 cs01.csyouxi.com
 0.0.0.0 d.5ding.com
 0.0.0.0 dds.sogua.com
 0.0.0.0 dev.tongxue.com
 0.0.0.0 dl1.365jishi.com
+0.0.0.0 down.o2ocn.com
 0.0.0.0 e.appsasia.net
 0.0.0.0 e8.969g.com
 0.0.0.0 engine.100fenlm.cn
@@ -9917,7 +9926,6 @@ rd.yahoo.co.jp
 0.0.0.0 events.syyx.com
 0.0.0.0 f.mtmmt.com
 0.0.0.0 fashion.701sou.com
-0.0.0.0 www.xp500.com
 0.0.0.0 ff.wanlicity.com
 0.0.0.0 fk.86mmo.com
 0.0.0.0 frxz.mttmtt.com
@@ -9938,6 +9946,7 @@ rd.yahoo.co.jp
 0.0.0.0 gg.12354.com
 0.0.0.0 gg.1qyx.com
 0.0.0.0 gg.29ww.net
+0.0.0.0 gg.ihuanju.com
 0.0.0.0 gg.inpot.mobi
 0.0.0.0 gg.qc101.com
 0.0.0.0 gg.ruiidc.com
@@ -9993,6 +10002,8 @@ rd.yahoo.co.jp
 0.0.0.0 js.zfjiu.com
 0.0.0.0 js1.union001.cn
 0.0.0.0 jump.100yl.net
+0.0.0.0 juu.tg.wulinyingxiong.net
+0.0.0.0 jy7.jt7i.in
 0.0.0.0 jzzy.mttmtt.com
 0.0.0.0 k2.cy2009.com
 0.0.0.0 k4.cy2009.com
@@ -10029,6 +10040,7 @@ rd.yahoo.co.jp
 0.0.0.0 p.9kele.com
 0.0.0.0 p.cpm360.com
 0.0.0.0 p.eqiso.com
+0.0.0.0 p.haliyuya.com
 0.0.0.0 p.srwchina.com
 0.0.0.0 p.yocc.net
 0.0.0.0 p4p.cnaz.com
@@ -10069,12 +10081,14 @@ rd.yahoo.co.jp
 0.0.0.0 s.51e78.com
 0.0.0.0 s.85tu.com
 0.0.0.0 s.ksy168.com
+0.0.0.0 s.tiaosa.cn
 0.0.0.0 s1.mcjh.mingchao.com
 0.0.0.0 s1.moo8.com
 0.0.0.0 s1.pic.52kkk.com
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 sh.lezi.com
 0.0.0.0 shop8.x.com.cn
+0.0.0.0 show.k184.com
 0.0.0.0 show.sogua.com
 0.0.0.0 stat.ziye8.com
 0.0.0.0 state.urgamer.com
@@ -10098,6 +10112,7 @@ rd.yahoo.co.jp
 0.0.0.0 t.jiuyaoyouxi.com
 0.0.0.0 t.qqcb.com
 0.0.0.0 t.uuplay.com
+0.0.0.0 t.yigouw.com
 0.0.0.0 t3.keydot.net
 0.0.0.0 tantra.ccjoy.com
 0.0.0.0 tao.37wan.com
@@ -10181,8 +10196,10 @@ rd.yahoo.co.jp
 0.0.0.0 www.176web.net
 0.0.0.0 www.18lehu.com
 0.0.0.0 www.1styouxi.com
+0.0.0.0 www.2010hot.com
 0.0.0.0 www.21d99.com
 0.0.0.0 www.22930.com
+0.0.0.0 www.232.com
 0.0.0.0 www.265g.info
 0.0.0.0 www.33hy.com
 0.0.0.0 www.33xs.com
@@ -10218,6 +10235,7 @@ rd.yahoo.co.jp
 0.0.0.0 www.feihuo.com
 0.0.0.0 www.feilongdao.com
 0.0.0.0 www.gamewan.net
+0.0.0.0 www.gxdyy.com
 0.0.0.0 www.hlggtc.com
 0.0.0.0 www.huaqimen.com
 0.0.0.0 www.iasoho.com
@@ -10236,6 +10254,9 @@ rd.yahoo.co.jp
 0.0.0.0 www.maca39.com
 0.0.0.0 www.maomao8.com
 0.0.0.0 www.mengxiang.in
+0.0.0.0 www.moyichina.com
+0.0.0.0 www.nyerc.com
+0.0.0.0 www.paopaoche.net
 0.0.0.0 www.qqmohe.com
 0.0.0.0 www.sdgj.net.cn
 0.0.0.0 www.self.com.cn
@@ -10243,6 +10264,7 @@ rd.yahoo.co.jp
 0.0.0.0 www.slg2.com
 0.0.0.0 www.snstele.com
 0.0.0.0 www.soo-boo.com
+0.0.0.0 www.szd123.com
 0.0.0.0 www.ucgame8.com
 0.0.0.0 www.union163.com
 0.0.0.0 www.uokor.com
@@ -10253,7 +10275,9 @@ rd.yahoo.co.jp
 0.0.0.0 www.webgame188.com
 0.0.0.0 www.wooigoo.cn
 0.0.0.0 www.xiazai189.com
+0.0.0.0 www.xp500.com
 0.0.0.0 www.xwadv.com
+0.0.0.0 www.y2126.com
 0.0.0.0 www.yiqiwin.com
 0.0.0.0 www.ymd88.com
 0.0.0.0 www.youxi186.com
@@ -10279,32 +10303,9 @@ rd.yahoo.co.jp
 0.0.0.0 xy.hxage.com
 0.0.0.0 xy.skdaren.com
 0.0.0.0 yee.js.cn
+0.0.0.0 ygame.gy9y.com
 0.0.0.0 yhchuanqi.com
 0.0.0.0 yingguoweiku.wfx100.com
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
-0.0.0.0 www.szd123.com
-0.0.0.0 www.2010hot.com
-0.0.0.0 jy7.jt7i.in
-0.0.0.0 down.o2ocn.com
-0.0.0.0 www.paopaoche.net
-0.0.0.0 cpv.ugooo.cc
-0.0.0.0 t.yigouw.com
-0.0.0.0 126dy.co.cc
-0.0.0.0 show.k184.com
-0.0.0.0 ygame.gy9y.com
-0.0.0.0 gg.ihuanju.com
-0.0.0.0 p.haliyuya.com
-0.0.0.0 s.tiaosa.cn
-0.0.0.0 juu.tg.wulinyingxiong.net
-0.0.0.0 614.hlwan.net
-0.0.0.0 www.nyerc.com
-0.0.0.0 www.gxdyy.com
-0.0.0.0 3.232j.com
-0.0.0.0 168.mashangwan.com
-0.0.0.0 www.y2126.com
-0.0.0.0 www.232.com
-0.0.0.0 code.woiring.com
-0.0.0.0 www.moyichina.com
-0.0.0.0 616.hlwan.net
