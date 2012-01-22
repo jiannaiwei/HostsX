@@ -1,0 +1,140 @@
+@HostsX 国内站点广告/视频类网站
+#CNTV
+0.0.0.0 a.cctv.com
+0.0.0.0 a.cntv.cn
+0.0.0.0 ad.cctv.com
+0.0.0.0 d.cntv.cn
+0.0.0.0 adguanggao.eee114.com
+0.0.0.0 cctv.adsunion.com
+0.0.0.0 js.bmgad.com
+0.0.0.0 med.soodao.com
+#CNR
+0.0.0.0 d1.cnr.cn
+0.0.0.0 d2.cnr.cn
+#V1CN
+0.0.0.0 luck.v1.cn
+0.0.0.0 lucklog4.v1.cn
+0.0.0.0 luckshow.v1.cn
+0.0.0.0 luckstatic.v1.cn
+#i奇艺
+0.0.0.0 api.t.qiyi.com
+0.0.0.0 meta.video.qiyi.com
+0.0.0.0 minisite.qiyi.com
+0.0.0.0 msg.video.qiyi.com
+0.0.0.0 policy.cupid.qiyi.com
+0.0.0.0 rec.inter.qiyi.com
+0.0.0.0 show.cupid.qiyi.com
+0.0.0.0 track.cupid.qiyi.com
+0.0.0.0 track.video.qiyi.com
+0.0.0.0 uestat.video.qiyi.com
+0.0.0.0 focusbaiduafp.allyes.com
+0.0.0.0 imgc.unlitui.com
+0.0.0.0 bsg.unlitui.com
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 log.51network.com
+#我乐网
+0.0.0.0 acs.agent.v-56.com
+0.0.0.0 bill.agent.v-56.com
+0.0.0.0 stat3.corp.v-56.com
+0.0.0.0 acs.56.com
+0.0.0.0 acs.agent.56.com
+0.0.0.0 bill.agent.56.com
+0.0.0.0 stat.56.com
+0.0.0.0 stat2.corp.56.com
+0.0.0.0 t4p.stat.56.com
+0.0.0.0 union.56.com
+0.0.0.0 uvimage.56.com
+0.0.0.0 v16.56.com
+#6间房
+0.0.0.0 pole.6rooms.com
+0.0.0.0 shrek.6.cn
+0.0.0.0 simba.6.cn
+0.0.0.0 union.6.cn
+#优酷网
+0.0.0.0 atm.youku.com
+0.0.0.0 count.atm.youku.com
+0.0.0.0 e.stat.youku.com
+0.0.0.0 fvid.atm.youku.com
+0.0.0.0 html.atm.youku.com
+0.0.0.0 hz.lstat.youku.com
+0.0.0.0 hz.youku.com
+0.0.0.0 lstat.youku.com
+0.0.0.0 nc.youku.com
+0.0.0.0 player.lstat.youku.com
+0.0.0.0 speed.lstat.youku.com
+0.0.0.0 stat.youku.com
+0.0.0.0 static.atm.youku.com
+0.0.0.0 static.lstat.youku.com
+0.0.0.0 urchin.lstat.youku.com
+0.0.0.0 valb.atm.youku.com
+0.0.0.0 valc.atm.youku.com
+0.0.0.0 valf.atm.youku.com
+0.0.0.0 valo.atm.youku.com
+0.0.0.0 valp.atm.youku.com
+0.0.0.0 vid.atm.youku.com
+0.0.0.0 walp.atm.youku.com
+0.0.0.0 smarttrade.allyes.com
+0.0.0.0 a.htwisdom.com
+#土豆网
+0.0.0.0 adcontrol.tudou.com
+0.0.0.0 adextensioncontrol.tudou.com
+0.0.0.0 adplay.tudou.com
+0.0.0.0 erreport.tudou.com
+0.0.0.0 iwstat.tudou.com
+0.0.0.0 nstat.tudou.com
+0.0.0.0 stat.tudou.com
+0.0.0.0 stats.tudou.com
+0.0.0.0 tdap.tudou.com
+0.0.0.0 tdcm.tudou.com
+0.0.0.0 wwwtest.tudou.com
+0.0.0.0 tudouflv.dnion.com
+#酷6网
+0.0.0.0 1.allyes.com.cn
+0.0.0.0 ku6.allyes.com
+0.0.0.0 gug.ku6cdn.com
+0.0.0.0 analytics.ku6.com
+0.0.0.0 pq.stat.ku6.com
+0.0.0.0 st.vq.ku6.cn
+0.0.0.0 stat0.888.ku6.com
+0.0.0.0 stat1.888.ku6.com
+0.0.0.0 stat2.888.ku6.com
+0.0.0.0 stat3.888.ku6.com
+0.0.0.0 static.ku6.com
+0.0.0.0 v0.stat.ku6.com
+0.0.0.0 v1.stat.ku6.com
+0.0.0.0 v2.stat.ku6.com
+0.0.0.0 v3.stat.ku6.com
+0.0.0.0 youyou.ku6.com
+#激动网
+0.0.0.0 86file.megajoy.com
+0.0.0.0 86mms.megajoy.com
+0.0.0.0 86get.joy.cn
+0.0.0.0 86log.joy.cn
+#天线视频
+0.0.0.0 casting.openv.com
+0.0.0.0 m.openv.tv
+0.0.0.0 uniclick.openv.com
+#UstreamTV
+0.0.0.0 media.scanscout.com
+0.0.0.0 log.adap.tv
+#皮皮影视
+0.0.0.0 afm.pipi.cn
+0.0.0.0 game.pipi.cn
+0.0.0.0 qian.pipi.cn
+#第一放映室
+0.0.0.0 admin.onefy.com
+0.0.0.0 bo.tv365.cc
+#Wo318
+0.0.0.0 wo318.k621.com
+#爆米花
+0.0.0.0 union.pomoho.com
+#乐视网
+0.0.0.0 dc.letv.com
+0.0.0.0 pro.letv.com
+0.0.0.0 stat.letv.com
+#巨鲸网
+0.0.0.0 t.top100.cn
+#DJ527
+0.0.0.0 ad.dj527.com
+0.0.0.0 sy.0575dp.com
+0.0.0.0 www.0575dp.com
