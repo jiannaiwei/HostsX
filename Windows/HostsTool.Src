@@ -1,5 +1,5 @@
 @echo off
-set ver=3.661
+set ver=3.67
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -28,7 +28,6 @@ call :unlock
 copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
 if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..."&call :fixhosts
 set force=0
-del /f /s /q "%temp%"
 cls
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
@@ -53,7 +52,7 @@ mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
 cls
-title HostsTool(%ver%)-SimpleU  For %username% Use
+title HostsTool(%ver%)- SimpleU: 1 and More!
 echo.
 echo  【更多 设备支持】      ‘      【Flush DNS 刷新】   
 echo  HostsData：  【更新/Update Hosts】
@@ -113,7 +112,7 @@ if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 &goto gui
 if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% &goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 26 goto feedback
-if %y% equ 27 if %x% gtr  31 if %x% lss 50 start iexplore https://me.alipay.com/vokins &msg %username% /time:2 "【感谢您：%tks%的捐赠，您的支持我的动力！】"&goto gui
+if %y% equ 27 if %x% gtr  31 if %x% lss 50 start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢您：%tks%的捐赠，您的支持我的动力！】"&goto gui
 goto mouse
 
 :dns
@@ -298,7 +297,7 @@ echo Please wait... ...
 goto:eof
 
 :temp
-call :BeijingIP
+call :iGoogle
 call :Youtube
 call :Xunlei
 goto:eof
@@ -519,6 +518,64 @@ echo !str!
 ))>$
 copy $ %hosts%&del temp.txt $&ipconfig /flushdns&echo 已将0.0.0.0 全部替换为127.0.0.1! & choice /t 2 /d y /n >nul &goto gui
 )
+
+:iGoogle
+REM Felix Hsu and Patched by logicmd
+ipconfig /flushdns
+cls
+echo 请稍等,正在获取Google+ 可用IP
+REM 然后ping www.google.cn和www.google.com以获取最新的IP,赋值%CNIP%和%COMIP%
+REM ping ditu.google.cn获取最新的IP,赋值%MAPIP%
+for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set CNIP=%%i
+for /f "tokens=2 delims=[]" %%i in ('ping www.l.google.com') do set COMIP=%%i
+for /f "tokens=2 delims=[]" %%i in ('ping ditu.google.cn') do set MAPIP=%%i
+REM 为了美观和避免直接在文件末尾添加的惨剧,咱空一行
+echo.  >>%hosts%
+echo #Google Plus >>%hosts%
+echo %CNIP% plus.google.com >>%hosts%
+echo %CNIP% talkgadget.google.com >>%hosts%
+echo %COMIP% picasaweb.google.com >>%hosts%
+echo %COMIP% lh1.ggpht.com >>%hosts%
+echo %COMIP% lh2.ggpht.com >>%hosts%
+echo %COMIP% lh3.ggpht.com >>%hosts%
+echo %COMIP% lh4.ggpht.com >>%hosts%
+echo %COMIP% lh5.ggpht.com >>%hosts%
+echo %COMIP% lh6.ggpht.com >>%hosts%
+echo %CNIP% lh6.googleusercontent.com >>%hosts%
+echo %CNIP% lh5.googleusercontent.com >>%hosts%
+echo %CNIP% lh4.googleusercontent.com >>%hosts%
+echo %CNIP% lh3.googleusercontent.com >>%hosts%
+echo %CNIP% lh2.googleusercontent.com >>%hosts%
+echo %CNIP% lh1.googleusercontent.com >>%hosts%
+echo %CNIP% plus.google.com.hk >>%hosts%
+echo %CNIP% s2.googleusercontent.com >>%hosts%
+echo %CNIP% s1.googleusercontent.com >>%hosts%
+echo %CNIP% images1-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images2-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images3-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images4-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images5-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images6-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images-pos-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% maps-api-ssl.google.com >>%hosts%
+echo %CNIP% www.google.com.hk >>%hosts%
+echo %CNIP% www.google.com >>%hosts%
+echo %CNIP% webcache.googleusercontent.com >>%hosts%
+echo %CNIP% mail.google.com >>%hosts%
+echo %CNIP% www.googlelabs.com >>%hosts%
+echo %CNIP% docs.google.com >>%hosts%
+echo %CNIP% plus.google.com >>%hosts%
+echo %CNIP% profiles.google.com >>%hosts%
+echo %CNIP% services.google.com >>%hosts%
+echo %CNIP% clients4.google.com >>%hosts%
+echo %CNIP% clients2.google.com >>%hosts%
+echo %CNIP% chrome.google.com >>%hosts%
+echo %CNIP% tools.google.com >>%hosts%
+REM 把获取到的%MAPIP%
+echo %MAPIP% maps.google.com >>%hosts%
+echo %MAPIP% ditu.google.com >>%hosts%
+CLS
+goto:eof
 
 :Google
 call :unlock

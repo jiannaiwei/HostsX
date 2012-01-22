@@ -1,4 +1,4 @@
-;version=21:21 2012/1/21
+;version=19:50 2012/1/22
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8695,6 +8695,9 @@ rd.yahoo.co.jp
 0.0.0.0 qqbm.zhuiying.net
 0.0.0.0 qqbmad.mycode8.com
 0.0.0.0 update2.zhuiying.net
+#QQvoice
+0.0.0.0 union.qqvoice.com
+0.0.0.0 union.uucall.hk
 #Qvod
 0.0.0.0 110.qvod.com
 0.0.0.0 adi.qvod.com

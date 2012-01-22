@@ -1,5 +1,5 @@
 @echo off
-set ver=3.65
+set ver=3.67
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -15,19 +15,19 @@ rem 复制运行库
 pushd %~dp0
 if not exist %a%\consext.exe copy consext.exe %a%
 if not exist %a%\wget.exe copy wget.exe %a%
+if '%1'=='opinst' goto:opinst
 rem 判断操作系统版本
 if exist %ComSpec% (set etc=%windir%\system32\drivers\etc&set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir%\&set hosts=%windir%\hosts)
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set str=%date:~0,4%%date:~5,2%00
 set k=taskkill /f /t /im
-set tks=简桢祥（jianwinking）
+set tks=简桢祥（jianwinking）邹萌（www-xyz）
 set qt=QuietUpdate.vbs
 if not exist %etc%\Bakup\ md %etc%\Bakup\ >nul
 call :unlock
 copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
 if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..."&call :fixhosts
 set force=0
-del /f /s /q "%temp%"
 cls
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
@@ -52,7 +52,7 @@ mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
 cls
-title HostsTool(%ver%)-SimpleU  For %username% Use
+title HostsTool(%ver%)- SimpleU: 1 and More!
 echo.
 echo  【更多 设备支持】      ‘      【Flush DNS 刷新】   
 echo  HostsData：  【更新/Update Hosts】
@@ -112,7 +112,7 @@ if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 &goto gui
 if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% &goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 26 goto feedback
-if %y% equ 27 if %x% gtr  31 if %x% lss 50 start iexplore https://me.alipay.com/vokins &msg %username% /time:2 "【感谢您：%tks%的捐赠，您的支持我的动力！】"&goto gui
+if %y% equ 27 if %x% gtr  31 if %x% lss 50 start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢您：%tks%的捐赠，您的支持我的动力！】"&goto gui
 goto mouse
 
 :dns
@@ -297,7 +297,7 @@ echo Please wait... ...
 goto:eof
 
 :temp
-call :BeijingIP
+call :iGoogle
 call :Youtube
 call :Xunlei
 goto:eof
@@ -519,6 +519,64 @@ echo !str!
 copy $ %hosts%&del temp.txt $&ipconfig /flushdns&echo 已将0.0.0.0 全部替换为127.0.0.1! & choice /t 2 /d y /n >nul &goto gui
 )
 
+:iGoogle
+REM Felix Hsu and Patched by logicmd
+ipconfig /flushdns
+cls
+echo 请稍等,正在获取Google+ 可用IP
+REM 然后ping www.google.cn和www.google.com以获取最新的IP,赋值%CNIP%和%COMIP%
+REM ping ditu.google.cn获取最新的IP,赋值%MAPIP%
+for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set CNIP=%%i
+for /f "tokens=2 delims=[]" %%i in ('ping www.l.google.com') do set COMIP=%%i
+for /f "tokens=2 delims=[]" %%i in ('ping ditu.google.cn') do set MAPIP=%%i
+REM 为了美观和避免直接在文件末尾添加的惨剧,咱空一行
+echo.  >>%hosts%
+echo #Google Plus >>%hosts%
+echo %CNIP% plus.google.com >>%hosts%
+echo %CNIP% talkgadget.google.com >>%hosts%
+echo %COMIP% picasaweb.google.com >>%hosts%
+echo %COMIP% lh1.ggpht.com >>%hosts%
+echo %COMIP% lh2.ggpht.com >>%hosts%
+echo %COMIP% lh3.ggpht.com >>%hosts%
+echo %COMIP% lh4.ggpht.com >>%hosts%
+echo %COMIP% lh5.ggpht.com >>%hosts%
+echo %COMIP% lh6.ggpht.com >>%hosts%
+echo %CNIP% lh6.googleusercontent.com >>%hosts%
+echo %CNIP% lh5.googleusercontent.com >>%hosts%
+echo %CNIP% lh4.googleusercontent.com >>%hosts%
+echo %CNIP% lh3.googleusercontent.com >>%hosts%
+echo %CNIP% lh2.googleusercontent.com >>%hosts%
+echo %CNIP% lh1.googleusercontent.com >>%hosts%
+echo %CNIP% plus.google.com.hk >>%hosts%
+echo %CNIP% s2.googleusercontent.com >>%hosts%
+echo %CNIP% s1.googleusercontent.com >>%hosts%
+echo %CNIP% images1-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images2-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images3-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images4-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images5-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images6-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images-pos-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% maps-api-ssl.google.com >>%hosts%
+echo %CNIP% www.google.com.hk >>%hosts%
+echo %CNIP% www.google.com >>%hosts%
+echo %CNIP% webcache.googleusercontent.com >>%hosts%
+echo %CNIP% mail.google.com >>%hosts%
+echo %CNIP% www.googlelabs.com >>%hosts%
+echo %CNIP% docs.google.com >>%hosts%
+echo %CNIP% plus.google.com >>%hosts%
+echo %CNIP% profiles.google.com >>%hosts%
+echo %CNIP% services.google.com >>%hosts%
+echo %CNIP% clients4.google.com >>%hosts%
+echo %CNIP% clients2.google.com >>%hosts%
+echo %CNIP% chrome.google.com >>%hosts%
+echo %CNIP% tools.google.com >>%hosts%
+REM 把获取到的%MAPIP%
+echo %MAPIP% maps.google.com >>%hosts%
+echo %MAPIP% ditu.google.com >>%hosts%
+CLS
+goto:eof
+
 :Google
 call :unlock
 type %hosts%|find "FGQI" /i /v|find "Google" /i /v|find "ggpht" /i /v|find "gmail" /i /v|find "gstatic" /i /v|find "appspot" /i /v|find "g.cn" /i /v|find "Youtube" /i /v|find "ytimg" /i /v|find "gvt0" /i /v|findstr "." >%etc%\hostsbak
@@ -529,30 +587,32 @@ CLS
 goto:eof
 
 :BeijingIP
-echo 请稍等,正在获取北京服务器IP&ping 00 -n 3 -w >nul
+echo.
+echo 正在使用Google北京服务器地址更新hosts，请稍等
 setlocal enabledelayedexpansion
 set min=160
 set max=180
 set /a mod=!max!-!min!+1
 set /a r=!random!%%!mod!+!min!
 set gg=203.208.46.%r%
+call :GoogleIP
 echo 203.208.45.200 plus.google.com >>%hosts%
 echo 203.208.46.180 www.google.com >>%hosts%
-call :GoogleIP
 goto:eof
 
 :GoogleCN
 echo 请稍等,正在获取G.cn服务器的IP
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set gg=%%i
-for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，正在更新hosts，请稍等) else echo 你获取的是%gg%，不是Google北京服务器地址，正在更新hosts，请稍等
+for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，请稍等) else echo 你获取的是%gg%，正在更新hosts，Loading...
 for /f "delims=." %%i in ("%gg%") do if not %%i==203 echo 因为地址不是北京服务器，可能导致服务不能用，推荐使用:北京服务器IP
+call :GoogleIP
 echo %gg% plus.google.com >>%hosts%
 echo %gg% www.google.com >>%hosts%
-call :GoogleIP
 goto:eof
 
 :GoogleIP
-echo #Google By FGQI >>%hosts%
+echo #Google >>%hosts%
+echo %gg% plus.url.google.com >>%hosts%
 echo %gg% 0-focus-opensocial.googleusercontent.com >>%hosts%
 echo %gg% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %gg% accounts.google.com >>%hosts%
@@ -776,13 +836,17 @@ echo %gg% 66fl6oqbdsqf5fjl032t5iulimtqjhpa-a-oz-opensocial.googleusercontent.com
 echo %gg% vvpk2b7flnbhcm2p10u4hcnatnp40i3i-a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %gg% 0rgn8o7pqk7dq7rm8q0639erjd8gnf7g-a-oz-opensocial.googleusercontent.com >>%hosts%
 echo %gg% cfmmurgvo3fqrmfu0tjfcpgdt7mh6ccv-a-oz-opensocial.googleusercontent.com >>%hosts%
+start http://www.google.com/ncr
 goto:eof
 
 :Youtube
+echo.
+echo 正在运行Youtube脚本（现在只能进Youtube的网页，但不能播放视频）
+echo 请稍等,正在获取Youtube服务器的IP
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
 for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
 if %ytb%==203.208.46.181 (echo 你获取的不是北京服务器的地址，已手动帮你设置为203.208.46.181北京服务器地址) else echo Loading...
-echo #Youtube By FGQI >>%hosts%
+echo #Youtube >>%hosts%
 echo %ytb% youtube.com >>%hosts%
 echo %ytb% www.youtube.com >>%hosts%
 echo %ytb% gdata.youtube.com >>%hosts%
@@ -1791,6 +1855,13 @@ reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d 
 reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f
 echo  Repaired&cls&goto gui
 
+:opinst
+mshta vbscript:msgbox("如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)
+Del /f /q "%ALLUSERSPROFILE%\Desktop\Opera*.lnk"
+opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 1 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
+msg %username% /time:1 "Opera SimpleU 安装/更新完成！"
+exit
+
 :opup
 if not exist %a%\wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
@@ -1800,8 +1871,6 @@ echo 正在下载数据，请稍候... ...
 wget http://kwoktree.googlecode.com/svn/trunk/opera/operau.CAB
 EXPAND -F:*.* operau.CAB .\
 cls
-echo G+ Hosts数据库已更新!
-echo 即将进行Hosts文件调整。
 pause
 wget http://kwoktree.googlecode.com/svn/trunk/opera/downlists.txt
 wget -c -i downlists.txt
