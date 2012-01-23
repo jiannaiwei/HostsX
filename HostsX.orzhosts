@@ -1,4 +1,4 @@
-;version=20:30 2012/1/23
+;version=23:27 2012/1/23
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -102,6 +102,8 @@ fe80::1%lo0	localhost
 97.65.135.163 b.static.ak.fbcdn.net
 97.65.135.163 static.ak.fbcdn.net
 #Twitter
+199.16.156.7 twitter.com
+199.16.156.8 api.twitter.com
 120.88.53.33 a1.twimg.com
 184.169.75.33 si0.twimg.com
 184.169.75.33 si1.twimg.com
@@ -111,9 +113,7 @@ fe80::1%lo0	localhost
 184.169.75.33 si5.twimg.com
 184.28.97.55 p.twimg.com
 184.29.36.124 platform.twitter.com
-199.59.148.104 twitter.com
 199.59.148.104 www.twitter.com
-199.59.148.105 api.twitter.com
 199.59.148.139 userstream.twitter.com
 199.59.148.206 help.twitter.com
 199.59.148.206 support.twitter.com
