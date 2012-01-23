@@ -268,7 +268,7 @@ fe80::1%lo0	localhost
 208.80.152.201 stats.wikimedia.org
 208.80.152.201 ticket.wikimedia.org
 208.80.152.201 tools.wikimedia.org
-208.80.152.211	upload.wikimedia.org
+208.80.152.211 upload.wikimedia.org
 208.80.152.201 wikimediafoundation.org
 208.80.152.201 www.wikimediafoundation.org
 208.80.152.201 mediawiki.org

@@ -1,5 +1,5 @@
 @HostsX 软件广告过滤
-#360Safe
+#360safe
 0.0.0.0 inst.360safe.com
 0.0.0.0 pdown.stat.360safe.com
 0.0.0.0 plugin.stat.360safe.com
@@ -69,6 +69,21 @@
 0.0.0.0 al.myrice.com
 0.0.0.0 all.myrice.com
 0.0.0.0 client.myrice.com
+#Duba
+0.0.0.0 bo.duba.net
+0.0.0.0 cu001.www.duba.net
+0.0.0.0 cu002.www.duba.net
+0.0.0.0 cu003.www.duba.net
+0.0.0.0 cu004.www.duba.net
+0.0.0.0 i2c.duba.net
+0.0.0.0 i2u.www.duba.net
+0.0.0.0 ifr.duba.net
+0.0.0.0 info.duba.net
+0.0.0.0 labs.duba.net
+0.0.0.0 u.www.duba.net
+0.0.0.0 stat.ijinshan.com
+0.0.0.0 dl.ijinshan.com
+0.0.0.0 api.pc120.com
 #Duomi
 0.0.0.0 pc.boxshows.com
 #YY
@@ -99,7 +114,13 @@
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
-#Immunet FREE
+#iCiba
+0.0.0.0 34.goto.www.iciba.com
+0.0.0.0 counter.kds.iciba.com
+0.0.0.0 goto.www.iciba.com
+0.0.0.0 u.iciba.com
+0.0.0.0 u.sl.iciba.com
+#Immunet
 0.0.0.0 banner.immunet.com
 #iSeesoft
 0.0.0.0 msg.iseesoft.cn
@@ -113,6 +134,9 @@
 0.0.0.0 isgame.ipark.cn
 0.0.0.0 ghpage.iuzone.com
 0.0.0.0 page.iuzone.com
+#Keniu
+0.0.0.0 stat.sd.keniu.com
+0.0.0.0 tq.sd.keniu.com
 #Koowo
 0.0.0.0 g.koowo.com
 0.0.0.0 g.kuwo.cn
@@ -293,6 +317,9 @@
 0.0.0.0 img.daodao001.cn
 0.0.0.0 text.mplayer.org.cn
 0.0.0.0 download.verycd.com
+#YoudaoDict
+0.0.0.0 clkservice2.dict.youdao.com
+0.0.0.0 feedback.youdao.com
 #Yunduan
 0.0.0.0 tj.yunduan.cn
 0.0.0.0 update.yunduan.cn

@@ -57,10 +57,8 @@
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
 0.0.0.0 hz.lstat.youku.com
-0.0.0.0 hz.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
-0.0.0.0 player.lstat.youku.com
 0.0.0.0 speed.lstat.youku.com
 0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
@@ -138,3 +136,17 @@
 0.0.0.0 ad.dj527.com
 0.0.0.0 sy.0575dp.com
 0.0.0.0 www.0575dp.com
+#iCast
+0.0.0.0 cast.ra.icast.cn
+0.0.0.0 js.icast.cn
+0.0.0.0 kw.ra.icast.cn
+0.0.0.0 post.ra.icast.cn
+0.0.0.0 pre.ra.icast.cn
+0.0.0.0 pv.ra.icast.cn
+0.0.0.0 rm.ra.icast.cn
+0.0.0.0 track.ra.icast.cn
+0.0.0.0 track2.ra.icast.cn
+#Ylunion
+0.0.0.0 js.ylunion.com
+0.0.0.0 www.ylunion.com
+0.0.0.0 ylunion.com
