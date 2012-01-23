@@ -1,4 +1,4 @@
-;version=21:01 2012/1/16
+;version=14:31 2012/1/23
 ;author=KwokTree.jason_jiang
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
@@ -6,6 +6,10 @@ $DELETE
 
 #导致导致http://ces.zol.com.cn/页面无法正常显示。
 active.zol.com.cn
+$DELETE
+
+#导致导致GoogleCode等及其他页面无法正常显示。
+www.gstatic.com
 $DELETE
 
 #导致皮皮影视客户端无法正常显示页面。

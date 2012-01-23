@@ -70,7 +70,6 @@
 0.0.0.0 googleanalytlcs.net
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 www.gstatic.com
 #Syndication
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 buttons.googlesyndication.com

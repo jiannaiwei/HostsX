@@ -1,4 +1,4 @@
-;version=19:50 2012/1/22
+;version=14:31 2012/1/23
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -412,7 +412,6 @@ fe80::1%lo0	localhost
 0.0.0.0 pagead5.googlesyndication.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 www.googlesyndication.com
-0.0.0.0 www.gstatic.com
 #Admob
 0.0.0.0 a.admob.com
 0.0.0.0 ad.qwapi.com
@@ -1410,12 +1409,6 @@ dl.client.baidu.com
 0.0.0.0 js.igalive.com
 0.0.0.0 resource.igalive.com
 @HostsX OneKey/Yahoo!
-#us.lrd.yahoo.com
-cn.rd.yahoo.com
-us.rd.yahoo.com
-cn.yimg.com
-l.yimg.com
-rd.yahoo.co.jp
 #Adinterax
 0.0.0.0 adinterax.com
 0.0.0.0 mi.adinterax.com
