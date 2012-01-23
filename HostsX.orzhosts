@@ -1,4 +1,4 @@
-;version=14:31 2012/1/23
+;version=20:30 2012/1/23
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -658,6 +658,7 @@ fe80::1%lo0	localhost
 #百度
 dl.client.baidu.com
 0.0.0.0 a.baidu.com
+0.0.0.0 wm.baidu.com
 0.0.0.0 adm.baidu.com
 0.0.0.0 baidutv.baidu.com
 0.0.0.0 banlv.baidu.com
@@ -1323,6 +1324,7 @@ dl.client.baidu.com
 0.0.0.0 toolbar.soso.com
 @HostsX OneKey/迅雷在线
 #Sandai
+0.0.0.0 cop.my.sandai.net
 0.0.0.0 adcount.sandai.net
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
@@ -6958,7 +6960,6 @@ dl.client.baidu.com
 0.0.0.0 hz.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
-0.0.0.0 player.lstat.youku.com
 0.0.0.0 speed.lstat.youku.com
 0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
@@ -8355,6 +8356,7 @@ dl.client.baidu.com
 0.0.0.0 txt.unionli.com
 0.0.0.0 u.unionli.com
 0.0.0.0 uimg.unionli.com
+0.0.0.0 www.unionli.com
 0.0.0.0 ww.unionbig.com
 0.0.0.0 wwv.unionbig.com
 0.0.0.0 www.ubcpm.com
@@ -10305,3 +10307,5 @@ dl.client.baidu.com
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
+0.0.0.0 u.douxie.com
+0.0.0.0 uimg.xiaoangel.com
