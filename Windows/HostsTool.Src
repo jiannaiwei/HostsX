@@ -1857,7 +1857,7 @@ echo  Repaired&cls&goto gui
 
 :opinst
 mshta vbscript:msgbox("如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)
-Del /f /q "%ALLUSERSPROFILE%\Desktop\Opera*.lnk"
+rem Del /f /q "%ALLUSERSPROFILE%\Desktop\Opera*.lnk"
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 1 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
 msg %username% /time:1 "Opera SimpleU 安装/更新完成！"
 exit
