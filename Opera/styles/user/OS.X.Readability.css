@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*	Name: Readability */
+/*	Mac 风格样式
+           2010.8.5
+	          autoxbc@gmail.com */
+
+
+/*  整体背景  */
+body.style-ebook {
+background: transparent url('SkinBG.jpg') no-repeat fixed center top !important;
+}
+
+/*  去掉背景色  */
+body.style-ebook #readOverlay {
+background-color: transparent !important;
+}
+
+/*  框架宽度  */
+body.style-ebook #readInner {
+width:764px !important;
+margin-bottom:0px !important;
+background-color:transparent !important;
+}
+
+/*  背景填充  */
+body.style-ebook #readability-warning ,
+body.style-ebook #readability-content {
+padding:0px 50px 10px 50px !important;
+background-color:#E8E8E8 !important;
+}
+
+/*  标题图片  */
+body.style-ebook #readInner > h1 {
+height:78px !important;
+overflow:hidden !important;
+font-size:20px !important;
+line-height:115px !important;
+background: #E8E8E8 url('header.png') no-repeat center top !important;
+text-align:center !important;
+border-width:0px !important;
+padding-bottom:0px !important;
+margin-bottom:0px !important;
+}
+
+/*  正文区域圆角  */
+body.style-ebook #readInner > h1 ,
+body.style-ebook #readFooter {
+box-shadow:1px 2px 15px #515151 !important;
+}
+
+body.style-ebook #readability-content {
+box-shadow:1px 15px 15px #515151 !important;
+padding-top:1px !important;
+}
+
+/*  页脚  */
+body.style-ebook #readFooter {
+height:25px !important;
+background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAbCAIAAAAyOnIjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAG5JREFUGFcNw2sPgVAAgOH3t2NYGmon1ap1YTEM84nVKpcuo5qf5DzbgxYUrK8/wktPcO7xTx3escU9fHH2H+xdgyWb25pVXCE2JXr0RoteLMMnC//BXFa9nJmboTgZUztlYiWMzYSRcWcoD8TtD39uNSY6e3wiAAAAAElFTkSuQmCC')  repeat-x !important;
+border-bottom-left-radius:4px !important;
+border-bottom-right-radius:4px !important;
+border-width:0px !important;
+padding-bottom:0px !important;
+}
+
+body.style-ebook #rdb-footer-wrapper {
+border-width:0px !important;
+margin:0px !important;
+}
+
+body.style-ebook #rdb-footer-left ,
+body.style-ebook #rdb-footer-right {
+display:none !important;
+}
+
+/*  内嵌图片限制大小  */
+body.style-ebook #readInner img {
+float:none !important;
+max-width:98% !important;
+box-shadow:1px 1px 8px #253767 !important;
+}
+
+/*  强制禁止折行的代码区折行  */
+body.style-ebook pre {
+white-space:pre-wrap !important;
+}

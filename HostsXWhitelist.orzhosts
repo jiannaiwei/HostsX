@@ -212,6 +212,7 @@ $DELETE
 
 #导致 优酷网 视频无法正常分享。
 player.lstat.youku.com
+hz.youku.com
 $DELETE
 
 #导致新浪视讯聊天大厅无法进入。

@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/*
+Name: 图片自动缩放
+Version: 1.0
+Author: greenworld
+Description: 图片自动缩放为原来大小。
+*/
+
+img:hover {
+  max-height: none !important;
+  max-width: none !important;
+  height: auto !important;
+  width: auto !important;}

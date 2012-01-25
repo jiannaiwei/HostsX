@@ -1,4 +1,4 @@
-;version=23:27 2012/1/23
+;version=22:05 2012/1/25
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -6957,7 +6957,6 @@ dl.client.baidu.com
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
 0.0.0.0 hz.lstat.youku.com
-0.0.0.0 hz.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
 0.0.0.0 speed.lstat.youku.com

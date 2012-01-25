@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+
+/*
+Name: 标记已访问
+*/
+
+/*----------访问过的链接锚点样式表--------------*/
+a:visited, a:visited *, a:active, a:active *
+{
+color: #119999 !important;
+background: 0 !important;
+text-decoration: line-through !important;
+}
+/*----------媒体元素悬停时样式------------------*/
+@media screen and (min-width: 128px)
+{
+a:hover, a:hover *
+{
+color: red !important;
+background: 0 ;
+}
+}
+/*----------特别添加一个小红点*------------------*/
+*a:visited:after {color: red !important; content: "." !important;}*

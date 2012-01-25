@@ -1,0 +1,47 @@
+﻿/* 去掉OPERA9.5在新浪的下划线 */
+a {
+  text-decoration: none !important;
+}
+
+/* 新浪广告 */
+div[class^="topAD"],div[class^="ad"],div[id^="ad"],table[class="adNone"],div[class="S_WC_SBar"],div[id="nav_01"],div[class="hScape8"],div[class="PartE"],div[class="left"],div[id="mmisina"],div[id="ghc1"],div[class="md_3 md_blue"],div[id="czBlk"],span[class="medialogo"],table[class="a1"],table[class="agz"],div[style^="float:left; width:950px;"],
+
+/* 新浪首页顶端广告 */
+div[class^="topads"],
+
+/* 页面新闻顶部搜索栏 */
+div[style="border-bottom:1px solid #ebebeb;"],
+
+/* 新浪竞技顶端nike广告 */
+div[style="width:950px; height:30px; margin:0px auto; overflow:hidden;"],div[id="dingtong"],
+
+/* 隐藏sina视频图片栏 */
+div[class="box"],
+
+/* 隐藏页面打印关闭一栏及其它 */
+DIV[class="toollinks"],td[class^="link_2008_"],
+
+/* 其它广告过滤补充 */
+div[class="blk_10"] ul[class="list_333"],div[class="blk_22"],div[class="sidebarOlpc"]
+
+{display:none !important;}
+
+/* sina城市广告过滤补充 */
+td[align="right"]
+
+{display:none !important;}
+
+/* sina广告过滤补充 */
+div[class="blkTopGoogleSearch"],div[class^="Ad_"],div[class="sidebar"],div[id="realstock"]
+
+{display:none !important;}
+
+/* 排版去侧边 ，920px、915px自行调整*/
+.lc_blue,.artibody,.lc_blue h1
+{width:920px !important;}
+
+div[class="blkContainer"]
+{width:100% !important;} 
+
+div[class="blkContainerSblk"]
+{width:915px !important;}
