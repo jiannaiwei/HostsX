@@ -1,4 +1,4 @@
-;version=22:05 2012/1/25
+;version=16:44 2012/1/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -8561,6 +8561,9 @@ dl.client.baidu.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
+#Hotspot Shield
+0.0.0.0 rss2search.com
+0.0.0.0 box.anchorfree.net
 #Immunet FREE
 0.0.0.0 banner.immunet.com
 #iSeesoft

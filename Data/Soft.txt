@@ -114,6 +114,9 @@
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
+#Hotspot Shield
+0.0.0.0 rss2search.com
+0.0.0.0 box.anchorfree.net
 #iCiba
 0.0.0.0 34.goto.www.iciba.com
 0.0.0.0 counter.kds.iciba.com
