@@ -1,5 +1,5 @@
 @echo off
-set ver=3.67
+set ver=3.68
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -297,7 +297,7 @@ echo Please wait... ...
 goto:eof
 
 :temp
-call :iGoogle
+call :BeijingIP
 call :Youtube
 call :Xunlei
 goto:eof
@@ -1859,7 +1859,8 @@ echo  Repaired&cls&goto gui
 mshta vbscript:msgbox("如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)
 rem Del /f /q "%ALLUSERSPROFILE%\Desktop\Opera*.lnk"
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
-msg %username% /time:1 "Opera SimpleU 安装/更新完成！"
+msg %username% /time:1 "如果您觉得SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我，感谢您！"
+start iexplore https://me.alipay.com/vokins
 exit
 
 :opup
