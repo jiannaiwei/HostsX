@@ -1,4 +1,4 @@
-;version=16:44 2012/1/27
+;version=23:10 2012/1/30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX Smart Direct
@@ -1730,219 +1730,6 @@ dl.client.baidu.com
 0.0.0.0 www.rightmedia.com
 0.0.0.0 www.yfdmedia.com
 0.0.0.0 ym.bannerconnect.net
-@HostsX OneKey/Mobile
-#16kxs
-0.0.0.0 ad.16kxs.com
-0.0.0.0 wap10.16kxs.com
-#91
-0.0.0.0 agency.91.com
-0.0.0.0 g2.v3.91.com
-0.0.0.0 image.agency.91.com
-0.0.0.0 v2.g2.91.com
-#Adchina
-0.0.0.0 mobile.adchina.com
-0.0.0.0 www.adchina.com
-#Adigou
-0.0.0.0 adigou.com
-0.0.0.0 x.adigou.com
-0.0.0.0 igou.cn
-0.0.0.0 caipiao.igou.cn
-#Adtouchnetwork
-0.0.0.0 a1.adtouchnetwork.net
-0.0.0.0 ad.adtouchnetwork.net
-0.0.0.0 adtouchnetwork.net
-#Adwhirl
-0.0.0.0 met.adwhirl.com
-0.0.0.0 mob.adwhirl.com
-0.0.0.0 www.adwhirl.com
-#Adwo
-0.0.0.0 r2.adwo.com
-0.0.0.0 static.adwo.com
-#Airad
-0.0.0.0 ad.airad.com
-0.0.0.0 hermes.airad.com
-#Casee
-0.0.0.0 d.casee.cn
-0.0.0.0 d2.casee.cn
-0.0.0.0 developer.casee.cn
-0.0.0.0 moto.casee.cn
-0.0.0.0 wap.casee.cn
-0.0.0.0 pic.casee.cn
-0.0.0.0 www.casee.cn
-0.0.0.0 wap.cttol.cn
-0.0.0.0 www.lanteanstudio.com
-#Domob
-0.0.0.0 r.domob.cn
-0.0.0.0 s.domob.cn
-#Duomeng
-0.0.0.0 duomeng.cn
-#Flurry
-0.0.0.0 data.flurry.com
-0.0.0.0 flurry.com
-0.0.0.0 www.flurry.com
-#Guohead
-0.0.0.0 mob.guohead.com
-0.0.0.0 met.guohead.com
-#Kongzhong
-0.0.0.0 zhulang.em.kongzhong.com
-0.0.0.0 cps.kongzhong.com
-#Lyy
-0.0.0.0 www.lyy.mobi
-0.0.0.0 uni.lyy.mobi
-#Madhouse
-0.0.0.0 www.madhouse.cn
-#Madserving
-0.0.0.0 cfg.adsmogo.com
-0.0.0.0 imp.adsmogo.com
-0.0.0.0 req.adsmogo.com
-0.0.0.0 ad1.madserving.cn
-0.0.0.0 appsrv1.madserving.cn
-0.0.0.0 appsrv1.madserving.com
-#Mobclix
-0.0.0.0 www.umeng.com
-0.0.0.0 ads.mobclix.com
-0.0.0.0 data.mobclix.com
-0.0.0.0 s.mobclix.com
-#Mobus
-0.0.0.0 mobus.cn
-0.0.0.0 www.mobus.cn
-0.0.0.0 mobus.vodone.cn
-0.0.0.0 images.vodone.com
-#Moad
-0.0.0.0 ft.moad.cn
-0.0.0.0 moad.cn
-0.0.0.0 pic.moad.cn
-0.0.0.0 wap.moad.cn
-0.0.0.0 wap.6262.com.cn
-#Mydas
-0.0.0.0 bank01.ads.dt.mydas.mobi
-0.0.0.0 bank01.ads.mp.mydas.mobi
-0.0.0.0 bank02.ads.dt.mydas.mobi
-0.0.0.0 bank02.ads.mp.mydas.mobi
-0.0.0.0 bank03.ads.dt.mydas.mobi
-0.0.0.0 bank03.ads.mp.mydas.mobi
-0.0.0.0 bank04.ads.dt.mydas.mobi
-0.0.0.0 bank04.ads.mp.mydas.mobi
-0.0.0.0 bank05.ads.dt.mydas.mobi
-0.0.0.0 bank05.ads.mp.mydas.mobi
-0.0.0.0 bank06.ads.dt.mydas.mobi
-0.0.0.0 bank06.ads.mp.mydas.mobi
-0.0.0.0 bank07.ads.dt.mydas.mobi
-0.0.0.0 bank07.ads.mp.mydas.mobi
-0.0.0.0 bank08.ads.dt.mydas.mobi
-0.0.0.0 bank08.ads.mp.mydas.mobi
-0.0.0.0 bank09.ads.dt.mydas.mobi
-0.0.0.0 bank09.ads.mp.mydas.mobi
-0.0.0.0 bank10.ads.dt.mydas.mobi
-0.0.0.0 bank10.ads.mp.mydas.mobi
-0.0.0.0 bank11.ads.dt.mydas.mobi
-0.0.0.0 bank11.ads.mp.mydas.mobi
-0.0.0.0 bank12.ads.dt.mydas.mobi
-0.0.0.0 bank12.ads.mp.mydas.mobi
-0.0.0.0 bank13.ads.dt.mydas.mobi
-0.0.0.0 bank13.ads.mp.mydas.mobi
-0.0.0.0 bank15.ads.dt.mydas.mobi
-0.0.0.0 bank15.ads.mp.mydas.mobi
-0.0.0.0 bank16.ads.dt.mydas.mobi
-0.0.0.0 bank16.ads.mp.mydas.mobi
-0.0.0.0 bank17.ads.dt.mydas.mobi
-0.0.0.0 bank17.ads.mp.mydas.mobi
-0.0.0.0 bank18.ads.dt.mydas.mobi
-0.0.0.0 bank18.ads.mp.mydas.mobi
-0.0.0.0 bank19.ads.dt.mydas.mobi
-0.0.0.0 bank19.ads.mp.mydas.mobi
-0.0.0.0 bank20.ads.dt.mydas.mobi
-0.0.0.0 bank20.ads.mp.mydas.mobi
-#UCWeb
-0.0.0.0 adsclick.uc123.com
-0.0.0.0 ads1.uc.cn
-0.0.0.0 down2.uc.cn
-0.0.0.0 adsclick.uc.cn
-0.0.0.0 ads1.ucweb.com
-0.0.0.0 down2.ucweb.com
-0.0.0.0 wap.ycwb.com
-#Uyunad
-0.0.0.0 i.uyunad.com
-0.0.0.0 www.uyunad.com
-#Vodone
-0.0.0.0 autou.vodone.cn
-0.0.0.0 busjs.vodone.cn
-0.0.0.0 stat.vodone.cn
-0.0.0.0 bus.vodone.com
-0.0.0.0 cai.vodone.com
-0.0.0.0 clubpic.vodone.com
-0.0.0.0 ego.vodone.com
-0.0.0.0 msn.vodone.com
-0.0.0.0 stat2.vodone.com
-0.0.0.0 u.vodone.com
-0.0.0.0 u3.vodone.com
-0.0.0.0 uflv.vodone.com
-0.0.0.0 v.vodone.com
-0.0.0.0 vlog.vodone.com
-0.0.0.0 vodone.com
-#Vpon
-0.0.0.0 cn.ad.adon.vpon.com
-0.0.0.0 cn.img.adon.vpon.com
-#Wapsx
-0.0.0.0 ads.waps.cn
-0.0.0.0 ads.wapx.cn
-0.0.0.0 app.wapx.cn
-#Wiyun
-0.0.0.0 d.wiyun.com
-0.0.0.0 wiyun.com
-0.0.0.0 www.wiyun.com
-0.0.0.0 gb.cri.cn
-0.0.0.0 scpworld.com.cn
-0.0.0.0 www.ypzs88.com
-#Wooboo
-0.0.0.0 ade.wooboo.com.cn
-0.0.0.0 admin.wooboo.com.cn
-0.0.0.0 download.wooboo.com.cn
-0.0.0.0 m.wooboo.com.cn
-0.0.0.0 static.wooboo.com.cn
-0.0.0.0 w.wooboo.com.cn
-0.0.0.0 wap.wooboo.com.cn
-0.0.0.0 wooboo.com.cn
-0.0.0.0 www.wooboo.com.cn
-0.0.0.0 www1.wooboo.com.cn
-#Youmi
-0.0.0.0 ads.youmi.net
-0.0.0.0 aos.gw.youmi.net
-0.0.0.0 go.youmi.net
-0.0.0.0 gw.youmi.net
-0.0.0.0 notifiter.youmi.net
-0.0.0.0 stat.gw.youmi.net
-0.0.0.0 static.youmi.net
-0.0.0.0 www.youmi.net
-0.0.0.0 youmi.net
-0.0.0.0 cnota.cn
-0.0.0.0 cx.360doo.com
-0.0.0.0 m.ymapp.com
-#WapSite
-0.0.0.0 24sp.cc
-0.0.0.0 ad.3g.cn
-0.0.0.0 ads.lmmob.com
-0.0.0.0 api.airpush.com
-0.0.0.0 d.gfan.com
-0.0.0.0 dl.91rb.com
-0.0.0.0 em.kongzhong.com
-0.0.0.0 hi.fywap.com
-0.0.0.0 hot.icittys.com
-0.0.0.0 static.189works.com
-0.0.0.0 test.adpooh.com
-0.0.0.0 wap.cellufun.com
-0.0.0.0 www.adtouchnetwork.com
-0.0.0.0 www.adview.cn
-0.0.0.0 www.hidroid.net
-#WapEN
-0.0.0.0 ads.namiflow.com
-0.0.0.0 admarvel.mojiva.com
-0.0.0.0 ads.admarvel.com
-0.0.0.0 m.askalok.com
-0.0.0.0 m.millennialmedia.com
-0.0.0.0 content.mobango.com
-0.0.0.0 www.spjoy.com
-0.0.0.0 www.stickylogic.com
 @HostsX 海外站点广告
 #ABCNews
 0.0.0.0 Adsatt.ABCNews.starwave.com
@@ -8482,6 +8269,219 @@ dl.client.baidu.com
 0.0.0.0 union.zhubajie.com
 0.0.0.0 list.zhubajie.com
 0.0.0.0 un.zhubajie.com
+@HostsX Mobile手机广告平台
+#16kxs
+0.0.0.0 ad.16kxs.com
+0.0.0.0 wap10.16kxs.com
+#91
+0.0.0.0 agency.91.com
+0.0.0.0 g2.v3.91.com
+0.0.0.0 image.agency.91.com
+0.0.0.0 v2.g2.91.com
+#Adchina
+0.0.0.0 mobile.adchina.com
+0.0.0.0 www.adchina.com
+#Adigou
+0.0.0.0 adigou.com
+0.0.0.0 x.adigou.com
+0.0.0.0 igou.cn
+0.0.0.0 caipiao.igou.cn
+#Adtouchnetwork
+0.0.0.0 a1.adtouchnetwork.net
+0.0.0.0 ad.adtouchnetwork.net
+0.0.0.0 adtouchnetwork.net
+#Adwhirl
+0.0.0.0 met.adwhirl.com
+0.0.0.0 mob.adwhirl.com
+0.0.0.0 www.adwhirl.com
+#Adwo
+0.0.0.0 r2.adwo.com
+0.0.0.0 static.adwo.com
+#Airad
+0.0.0.0 ad.airad.com
+0.0.0.0 hermes.airad.com
+#Casee
+0.0.0.0 d.casee.cn
+0.0.0.0 d2.casee.cn
+0.0.0.0 developer.casee.cn
+0.0.0.0 moto.casee.cn
+0.0.0.0 wap.casee.cn
+0.0.0.0 pic.casee.cn
+0.0.0.0 www.casee.cn
+0.0.0.0 wap.cttol.cn
+0.0.0.0 www.lanteanstudio.com
+#Domob
+0.0.0.0 r.domob.cn
+0.0.0.0 s.domob.cn
+#Duomeng
+0.0.0.0 duomeng.cn
+#Flurry
+0.0.0.0 data.flurry.com
+0.0.0.0 flurry.com
+0.0.0.0 www.flurry.com
+#Guohead
+0.0.0.0 mob.guohead.com
+0.0.0.0 met.guohead.com
+#Kongzhong
+0.0.0.0 zhulang.em.kongzhong.com
+0.0.0.0 cps.kongzhong.com
+#Lyy
+0.0.0.0 www.lyy.mobi
+0.0.0.0 uni.lyy.mobi
+#Madhouse
+0.0.0.0 www.madhouse.cn
+#Madserving
+0.0.0.0 cfg.adsmogo.com
+0.0.0.0 imp.adsmogo.com
+0.0.0.0 req.adsmogo.com
+0.0.0.0 ad1.madserving.cn
+0.0.0.0 appsrv1.madserving.cn
+0.0.0.0 appsrv1.madserving.com
+#Mobclix
+0.0.0.0 www.umeng.com
+0.0.0.0 ads.mobclix.com
+0.0.0.0 data.mobclix.com
+0.0.0.0 s.mobclix.com
+#Mobus
+0.0.0.0 mobus.cn
+0.0.0.0 www.mobus.cn
+0.0.0.0 mobus.vodone.cn
+0.0.0.0 images.vodone.com
+#Moad
+0.0.0.0 ft.moad.cn
+0.0.0.0 moad.cn
+0.0.0.0 pic.moad.cn
+0.0.0.0 wap.moad.cn
+0.0.0.0 wap.6262.com.cn
+#Mydas
+0.0.0.0 bank01.ads.dt.mydas.mobi
+0.0.0.0 bank01.ads.mp.mydas.mobi
+0.0.0.0 bank02.ads.dt.mydas.mobi
+0.0.0.0 bank02.ads.mp.mydas.mobi
+0.0.0.0 bank03.ads.dt.mydas.mobi
+0.0.0.0 bank03.ads.mp.mydas.mobi
+0.0.0.0 bank04.ads.dt.mydas.mobi
+0.0.0.0 bank04.ads.mp.mydas.mobi
+0.0.0.0 bank05.ads.dt.mydas.mobi
+0.0.0.0 bank05.ads.mp.mydas.mobi
+0.0.0.0 bank06.ads.dt.mydas.mobi
+0.0.0.0 bank06.ads.mp.mydas.mobi
+0.0.0.0 bank07.ads.dt.mydas.mobi
+0.0.0.0 bank07.ads.mp.mydas.mobi
+0.0.0.0 bank08.ads.dt.mydas.mobi
+0.0.0.0 bank08.ads.mp.mydas.mobi
+0.0.0.0 bank09.ads.dt.mydas.mobi
+0.0.0.0 bank09.ads.mp.mydas.mobi
+0.0.0.0 bank10.ads.dt.mydas.mobi
+0.0.0.0 bank10.ads.mp.mydas.mobi
+0.0.0.0 bank11.ads.dt.mydas.mobi
+0.0.0.0 bank11.ads.mp.mydas.mobi
+0.0.0.0 bank12.ads.dt.mydas.mobi
+0.0.0.0 bank12.ads.mp.mydas.mobi
+0.0.0.0 bank13.ads.dt.mydas.mobi
+0.0.0.0 bank13.ads.mp.mydas.mobi
+0.0.0.0 bank15.ads.dt.mydas.mobi
+0.0.0.0 bank15.ads.mp.mydas.mobi
+0.0.0.0 bank16.ads.dt.mydas.mobi
+0.0.0.0 bank16.ads.mp.mydas.mobi
+0.0.0.0 bank17.ads.dt.mydas.mobi
+0.0.0.0 bank17.ads.mp.mydas.mobi
+0.0.0.0 bank18.ads.dt.mydas.mobi
+0.0.0.0 bank18.ads.mp.mydas.mobi
+0.0.0.0 bank19.ads.dt.mydas.mobi
+0.0.0.0 bank19.ads.mp.mydas.mobi
+0.0.0.0 bank20.ads.dt.mydas.mobi
+0.0.0.0 bank20.ads.mp.mydas.mobi
+#UCWeb
+0.0.0.0 adsclick.uc123.com
+0.0.0.0 ads1.uc.cn
+0.0.0.0 down2.uc.cn
+0.0.0.0 adsclick.uc.cn
+0.0.0.0 ads1.ucweb.com
+0.0.0.0 down2.ucweb.com
+0.0.0.0 wap.ycwb.com
+#Uyunad
+0.0.0.0 i.uyunad.com
+0.0.0.0 www.uyunad.com
+#Vodone
+0.0.0.0 autou.vodone.cn
+0.0.0.0 busjs.vodone.cn
+0.0.0.0 stat.vodone.cn
+0.0.0.0 bus.vodone.com
+0.0.0.0 cai.vodone.com
+0.0.0.0 clubpic.vodone.com
+0.0.0.0 ego.vodone.com
+0.0.0.0 msn.vodone.com
+0.0.0.0 stat2.vodone.com
+0.0.0.0 u.vodone.com
+0.0.0.0 u3.vodone.com
+0.0.0.0 uflv.vodone.com
+0.0.0.0 v.vodone.com
+0.0.0.0 vlog.vodone.com
+0.0.0.0 vodone.com
+#Vpon
+0.0.0.0 cn.ad.adon.vpon.com
+0.0.0.0 cn.img.adon.vpon.com
+#Wapsx
+0.0.0.0 ads.waps.cn
+0.0.0.0 ads.wapx.cn
+0.0.0.0 app.wapx.cn
+#Wiyun
+0.0.0.0 d.wiyun.com
+0.0.0.0 wiyun.com
+0.0.0.0 www.wiyun.com
+0.0.0.0 gb.cri.cn
+0.0.0.0 scpworld.com.cn
+0.0.0.0 www.ypzs88.com
+#Wooboo
+0.0.0.0 ade.wooboo.com.cn
+0.0.0.0 admin.wooboo.com.cn
+0.0.0.0 download.wooboo.com.cn
+0.0.0.0 m.wooboo.com.cn
+0.0.0.0 static.wooboo.com.cn
+0.0.0.0 w.wooboo.com.cn
+0.0.0.0 wap.wooboo.com.cn
+0.0.0.0 wooboo.com.cn
+0.0.0.0 www.wooboo.com.cn
+0.0.0.0 www1.wooboo.com.cn
+#Youmi
+0.0.0.0 ads.youmi.net
+0.0.0.0 aos.gw.youmi.net
+0.0.0.0 go.youmi.net
+0.0.0.0 gw.youmi.net
+0.0.0.0 notifiter.youmi.net
+0.0.0.0 stat.gw.youmi.net
+0.0.0.0 static.youmi.net
+0.0.0.0 www.youmi.net
+0.0.0.0 youmi.net
+0.0.0.0 cnota.cn
+0.0.0.0 cx.360doo.com
+0.0.0.0 m.ymapp.com
+#WapSite
+0.0.0.0 24sp.cc
+0.0.0.0 ad.3g.cn
+0.0.0.0 ads.lmmob.com
+0.0.0.0 api.airpush.com
+0.0.0.0 d.gfan.com
+0.0.0.0 dl.91rb.com
+0.0.0.0 em.kongzhong.com
+0.0.0.0 hi.fywap.com
+0.0.0.0 hot.icittys.com
+0.0.0.0 static.189works.com
+0.0.0.0 test.adpooh.com
+0.0.0.0 wap.cellufun.com
+0.0.0.0 www.adtouchnetwork.com
+0.0.0.0 www.adview.cn
+0.0.0.0 www.hidroid.net
+#WapEN
+0.0.0.0 ads.namiflow.com
+0.0.0.0 admarvel.mojiva.com
+0.0.0.0 ads.admarvel.com
+0.0.0.0 m.askalok.com
+0.0.0.0 m.millennialmedia.com
+0.0.0.0 content.mobango.com
+0.0.0.0 www.spjoy.com
+0.0.0.0 www.stickylogic.com
 @HostsX 软件广告过滤
 #Baofeng
 0.0.0.0 boxlist.baofeng.net
@@ -8741,7 +8741,7 @@ dl.client.baidu.com
 #Yunduan
 0.0.0.0 tj.yunduan.cn
 0.0.0.0 update.yunduan.cn
-@HostsX 软件验证屏蔽
+@HostsX 游戏验证屏蔽
 #Game Assassin's Creed
 0.0.0.0 onlineconfigservice.ubi.com
 0.0.0.0 orbitservice.ubi.com
@@ -8772,6 +8772,7 @@ dl.client.baidu.com
 0.0.0.0 mangler9.generals.ea.com
 0.0.0.0 mangler10.generals.ea.com
 0.0.0.0 servserv.generals.ea.com
+@HostsX 软件验证屏蔽
 #ACDSee
 0.0.0.0 acdupdater.acdsystems.com
 0.0.0.0 soapintouch.acdnet.com
@@ -8884,8 +8885,7 @@ dl.client.baidu.com
 0.0.0.0 ps2.zonelabs.com
 0.0.0.0 register.zonelabs.com
 0.0.0.0 update.zonelabs.com
-@HostsX 可疑行为拦截
-@HostsX 可疑行为拦截/数据统计
+@HostsX 跟踪统计屏蔽
 #51la
 0.0.0.0 img.users.51.la
 0.0.0.0 js.users.51.la
@@ -9057,7 +9057,7 @@ dl.client.baidu.com
 0.0.0.0 www.referer.cn
 0.0.0.0 www.zzcount.com
 0.0.0.0 zjomo2.app9.hubspot.com
-@HostsX 可疑行为拦截/网络劫持
+@HostsX 防止网络劫持
 #域名劫持
 0.0.0.0 ss.cnnic.cn
 #运营商劫持
@@ -9098,7 +9098,7 @@ dl.client.baidu.com
 0.0.0.0 ad.xunkoo.com
 0.0.0.0 ads.iisdoor.com
 0.0.0.0 pv.bbapp.net
-@HostsX 可疑行为拦截/病毒拦截
+@HostsX 可疑病毒拦截
 #广告诈骗钓鱼等
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
@@ -9608,7 +9608,7 @@ dl.client.baidu.com
 0.0.0.0 www.kk21.info
 0.0.0.0 www.houdao8.cn
 0.0.0.0 www.wagabb.com
-@HostsX 可疑行为拦截/弹窗屏蔽
+@HostsX 恶意弹窗屏蔽
 #签名弹窗
 0.0.0.0 code.2010qianming.com
 0.0.0.0 code.52qiangming.com

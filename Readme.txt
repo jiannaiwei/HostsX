@@ -38,14 +38,16 @@
 # http://www.flickr.com/help/forum/zh-hk/72157626877675955/                  #
 #                                                                            #
 # 3rd-Party-Data:                                                            #
+# https://gist.github.com/1364545                                            #
 # http://code.google.com/p/ipv6-hosts/                                       #
+# http://code.google.com/p/smarthosts/                                       #
 # http://www.du110.com/thread-11742-1-1.html                                 #
 # http://hi.baidu.com/villagesecu                                            #
 # http://www.mwsl.org.cn/hosts/hosts2011.12.26.zip                           #
 # http://www.mvps.org/winhelp2002/hosts.txt                                  #
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
 #                                                                            #
-# Copyright (C) 2007-2011 orztech.com All Rights Reserved.                   #
+# Copyright (C) 2007-2012 orztech.com All Rights Reserved.                   #
 #****************************************************************************#
 
 --------------------------------------------------------------------------------
@@ -103,9 +105,6 @@
    基于Du110反黑论坛和村落安全网络专杀整理的恶意网站和弹窗广告数据，
    基于xda-developers和itfunz论坛整理的手机客户端广告屏蔽数据
 
-
-
-，
    基于mvps.org和pgl.yoyo.org整理的国外网络广告和联盟数据） 
    
    收录 冰临宸夏 整理的 IPV6 智能转向数据

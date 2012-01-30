@@ -5,7 +5,7 @@
 property myPWD : ""
 
 -- 一个可以获取最新hosts的URL（下载的hosts第一行最好是更新时间）
-property hostsURL : "https://smarthosts.sinaapp.com/hosts"
+property hostsURL : "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts"
 
 -- 用于暂时保存更新的hosts文件的文件路径
 property hostsTempPath : "~/hosts"
@@ -15,7 +15,7 @@ property hostsTempPath : "~/hosts"
 property hostsCustomPath : ""
 
 -- 一个可以获取最新autoproxy.pac的URL
-property pacURL : ""
+property pacURL : "http://hostsx.googlecode.com/svn/trunk/Autoproxy.pac"
 
 -- autoproxy.pac保存位置
 -- PS:这个文件路径一定要有文件存在，不然脚本不会更新autoproxy.pac
