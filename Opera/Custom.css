@@ -3,14 +3,14 @@
 
 /*
 Name: /广告过滤
-Version: 4.15
+Version: 4.153
 Author: KwokTree.googlecode.com
 Description: MayBe a better User CSS Help U.
 */
 
 /* ADvertisment */
-div[class^="ad1"],div[class^="ad2"],div[class^="ad_"],div[class^="AD"],
-div[class*="Ad"],div[class^="ads"],div[class$="_ads"],div[class*="_ads"]{
+div[class="ad"],div[class^="ad1"],div[class^="ad2"],div[class^="ad_"],
+div[class^="AD"],div[class^="ads"],div[class$="_ads"],div[class*="_ads"]{
 display: none !important;
 	}
 div[class^="ad3"],div[class^="ad4"],div[class^="ad5"],div[class^="ad6"],
@@ -25,8 +25,8 @@ div[class="ad-bar"],div[class="ad-button"],div[class^="ad-block"],div[class$="ad
 div[id="ad-flash"],div[class^="ad-box"],div[class^="adbox"],div[class^="ad_box"]{
 display: none !important;
 	}
-div[id$="AD"],div[id^="ad-"],div[id^="ad_"],div[id*="-ad-"],div[id*="-ads-"],
-div[id^="ads-"],div[id^="ads_"],div[id$="_ads"],div[id*="0_AD_"],div[id^="afp_"]{
+div[id$="AD"],div[id^="ad-"],div[id^="ad_"],div[id*="-ad-"],div[id*="-ads-"],div[id="push-down-ad"],
+div[id^="ads-"],div[id^="ads_"],div[id$="_ads"],div[id*="0_AD_"],div[id^="adhere"],div[id^="afp_"]{
 display: none !important;
 	}
 div[align="center"][id^="ad"],div[id^="AD"][style*="w"],center>div[id^="AD"],[id$="Ad"],
@@ -72,15 +72,19 @@ div[id^="adword"],div[class^="adword"],div[class="ad-text"],div[class^="adtxt"],
 div[class^="txtads"],div[id^="text_ad"],div[class="textMes"],ul[class="ad_doc_text"]{
 display: none !important;
 	}
-table[class="adbottom"],table[class="adNone"],table[id="ShowAD"],td[id^="adp_"],td[class="adslot"],
+td[id^="adp_"],td[class="adslot"],,td[class="ad"],
+tr[class="ad"],tr[class^="ad_"],img[class="ad"]{
+display: none !important;
+	}
+table[class="adbottom"],table[class="adNone"],table[id="ShowAD"],
 span[id^="ad_"],span[id="baidu"],span[id="idc"],span[id="zjtop"]{
 display: none !important;
 	}
-div[id="clickbg"],a[id*="_adbox"],tr[class="ad"],tr[class^="ad_"],img[class="ad"],
 img[id^="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
 display: none !important;
 	}
-ul[class*="_ad"],ul[id*="listAD"],ul[class*="textad"],ul[id="ad_container"],ul[class="res-list"]{
+ul[class="ad"],ul[class*="_ad"],ul[id*="listAD"],ul[class*="textad"],ul[id="ad_container"],
+ul[class="AD-txt"],ul[class="res-list"],div[id="clickbg"],a[id*="_adbox"]{
 display: none !important;
 	}
 
