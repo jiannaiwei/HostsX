@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 4.153
+Version: 4.16
 Author: KwokTree.googlecode.com
 Description: MayBe a better User CSS Help U.
 */
@@ -25,17 +25,20 @@ div[class="ad-bar"],div[class="ad-button"],div[class^="ad-block"],div[class$="ad
 div[id="ad-flash"],div[class^="ad-box"],div[class^="adbox"],div[class^="ad_box"]{
 display: none !important;
 	}
-div[id$="AD"],div[id^="ad-"],div[id^="ad_"],div[id*="-ad-"],div[id*="-ads-"],div[id="push-down-ad"],
-div[id^="ads-"],div[id^="ads_"],div[id$="_ads"],div[id*="0_AD_"],div[id^="adhere"],div[id^="afp_"]{
+div[id$="AD"],div[id^="ad-"],div[id^="ad_"],div[id$="Adv"],div[id^="adv_"],div[id*="-ad-"],
+div[id*="-ads-"],div[id^="ads-"],div[id^="ads_"],div[id$="_ads"]{
 display: none !important;
 	}
-div[align="center"][id^="ad"],div[id^="AD"][style*="w"],center>div[id^="AD"],[id$="Ad"],
-div[id$="Adv"],div[id^="adv_"],div[id^="AdZone"],div[id*="AdContainer"],div[id*="allyesAdv"]{
+div[align="center"][id^="ad"],div[id^="AD"][style*="w"],center>div[id^="AD"],[id$="Ad"],div[id*="0_AD_"],
+div[id^="adhere"],div[id^="adspot"],div[id^="AdZone"],div[id^="afp_"],div[id*="AdContainer"]{
 display: none !important;
 	}
-div[class$="adclass"],div[class^="adclass"],div[class^="adBlk ad"],
-div[class*="adWrapper"],div[class^="adFrame"],div[class^="adindex"],
-div[class^="adposter"],div[class^="adset_"],div[class="business"],div[class="flashNews"]{
+div[class$="adclass"],div[class^="adclass"],div[class^="adBlk ad"],div[class*="adWrapper"],
+div[class^="adFrame"],div[class^="adindex"],div[class^="adposter"],div[class^="adset_"]{
+display: none !important;
+	}
+div[class="business"],div[class="flashNews"],div[class^="other_adv"],
+div[id="clickbg"],div[id*="allyesAdv"],div[id="push-down-ad"]{
 display: none !important;
 	}
 
@@ -73,18 +76,18 @@ div[class^="txtads"],div[id^="text_ad"],div[class="textMes"],ul[class="ad_doc_te
 display: none !important;
 	}
 td[id^="adp_"],td[class="adslot"],,td[class="ad"],
-tr[class="ad"],tr[class^="ad_"],img[class="ad"]{
+tr[class="ad"],tr[class^="ad_"],p[class="ad"],a[id*="_adbox"]{
 display: none !important;
 	}
 table[class="adbottom"],table[class="adNone"],table[id="ShowAD"],
-span[id^="ad_"],span[id="baidu"],span[id="idc"],span[id="zjtop"]{
+span[id^="ad_"],span[class="adlink"],span[id="baidu"],span[id="idc"],span[id="zjtop"]{
 display: none !important;
 	}
-img[id^="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
+img[id^="ad"],img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
 display: none !important;
 	}
-ul[class="ad"],ul[class*="_ad"],ul[id*="listAD"],ul[class*="textad"],ul[id="ad_container"],
-ul[class="AD-txt"],ul[class="res-list"],div[id="clickbg"],a[id*="_adbox"]{
+ul[class="ad"],ul[class*="_ad"],ul[id*="listAD"],ul[class*="textad"],
+ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"]{
 display: none !important;
 	}
 

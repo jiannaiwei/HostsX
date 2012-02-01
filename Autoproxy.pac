@@ -13,6 +13,7 @@ var patterns = new Array(
 "appspot.com",
 "archive.org",
 "atnext.com",
+"chinagfw.org",
 "bbc.co.uk",
 "bit.ly",
 "blip.tv",
