@@ -1,5 +1,5 @@
 
-;version=18:51 2012/2/2
+;version=19:20 2012/2/2
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÖÇÄÜ×ªÏò
@@ -2151,6 +2151,7 @@ dl.client.baidu.com
 0.0.0.0 analytics.21cn.com
 0.0.0.0 click.21cn.com
 0.0.0.0 market.21cn.com
+0.0.0.0 shows.21cn.com
 0.0.0.0 ranking.21cn.com
 #Tom.com
 0.0.0.0 ad.tom.com
