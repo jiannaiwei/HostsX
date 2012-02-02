@@ -1,4 +1,4 @@
-;version=20:31 2012/1/23
+;version=18:52 2012/2/2
 ;author=KwokTree.jason_jiang
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
@@ -123,6 +123,10 @@ $DELETE
 
 #导致网易 NBA 频道无法正常显示网页。
 temp.163.com
+$DELETE
+
+#导致网易视频无法正常播放。
+g.163.com
 $DELETE
 
 #导致网易首页天气预报图像无法正常显示的问题。
