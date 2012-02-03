@@ -1,5 +1,5 @@
 
-;version=19:20 2012/2/2
+;version=23:26 2012/2/3
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX 智能转向
@@ -1739,6 +1739,8 @@ dl.client.baidu.com
 0.0.0.0 dvsend.china.com
 0.0.0.0 richmedia.china.com
 0.0.0.0 track.china.com
+#星岛环球网
+0.0.0.0 stnn.adsame.com
 #大众网
 0.0.0.0 ad.dzwww.com
 #千龙网
@@ -2704,6 +2706,91 @@ dl.client.baidu.com
 0.0.0.0 register.zonelabs.com
 0.0.0.0 update.zonelabs.com
 @HostsX 国外广告平台
+#247realmedia
+
+0.0.0.0 adv.247realmedia.com
+0.0.0.0 adv0005.247realmedia.com
+0.0.0.0 adv0035.247realmedia.com
+0.0.0.0 adv0054.247realmedia.com
+0.0.0.0 betcollect.247realmedia.com
+0.0.0.0 ftbusinesscollect.247realmedia.com
+0.0.0.0 gmtvcollect.247realmedia.com
+0.0.0.0 imagec05.247realmedia.com
+0.0.0.0 imagec07.247realmedia.com
+0.0.0.0 imagec08.247realmedia.com
+0.0.0.0 imagec09.247realmedia.com
+0.0.0.0 imagec10.247realmedia.com
+0.0.0.0 imagec11.247realmedia.com
+0.0.0.0 imagec12.247realmedia.com
+0.0.0.0 imagec14.247realmedia.com
+0.0.0.0 imagec16.247realmedia.com
+0.0.0.0 imagec17.247realmedia.com
+0.0.0.0 imagec18.247realmedia.com
+0.0.0.0 imageceu1.247realmedia.com
+0.0.0.0 imagenen1.247realmedia.com
+0.0.0.0 imagesn02.247realmedia.com
+0.0.0.0 ipro.247realmedia.com
+0.0.0.0 looksmartcollect.247realmedia.com
+0.0.0.0 lseducationcollect.247realmedia.com
+0.0.0.0 lshlcollect.247realmedia.com
+0.0.0.0 lsmusiccollect.247realmedia.com
+0.0.0.0 lssportscollect.247realmedia.com
+0.0.0.0 lycos.247realmedia.com
+0.0.0.0 lycoscollect.247realmedia.com
+0.0.0.0 mediafr.247realmedia.com
+0.0.0.0 mediauk.247realmedia.com
+0.0.0.0 medicinenetcollect.247realmedia.com
+0.0.0.0 mfr.247realmedia.com
+0.0.0.0 network-ca.247realmedia.com
+0.0.0.0 nx-adv0035.247realmedia.com
+0.0.0.0 oas-eu.247realmedia.com
+0.0.0.0 oasc02023.247realmedia.com
+0.0.0.0 oasc03012.247realmedia.com
+0.0.0.0 oasc03049.247realmedia.com
+0.0.0.0 oasc04052.247realmedia.com
+0.0.0.0 oasc05.247realmedia.com
+0.0.0.0 oasc05024.247realmedia.com
+0.0.0.0 oasc05134.247realmedia.com
+0.0.0.0 oasc05135.247realmedia.com
+0.0.0.0 oasc05139.247realmedia.com
+0.0.0.0 oasc06.247realmedia.com
+0.0.0.0 oasc06006.247realmedia.com
+0.0.0.0 oasc07.247realmedia.com
+0.0.0.0 oasc08.247realmedia.com
+0.0.0.0 oasc08006.247realmedia.com
+0.0.0.0 oasc08008.247realmedia.com
+0.0.0.0 oasc08011.247realmedia.com
+0.0.0.0 oasc08024.247realmedia.com
+0.0.0.0 oasc09.247realmedia.com
+0.0.0.0 oasc10.247realmedia.com
+0.0.0.0 oasc11.247realmedia.com
+0.0.0.0 oasc11009.247realmedia.com
+0.0.0.0 oasc12.247realmedia.com
+0.0.0.0 oasc12001.247realmedia.com
+0.0.0.0 oasc12016.247realmedia.com
+0.0.0.0 oasc12056.247realmedia.com
+0.0.0.0 oasc17.247realmedia.com
+0.0.0.0 oasn04.247realmedia.com
+0.0.0.0 openadstream-eu1.247realmedia.com
+0.0.0.0 pittlive.247realmedia.com
+0.0.0.0 postgazette.247realmedia.com
+0.0.0.0 postgazettecollect.247realmedia.com
+0.0.0.0 retaildirect.realmedia.com
+0.0.0.0 singletraining56.247realmedia.com
+0.0.0.0 villagevoicecollect.247realmedia.com
+0.0.0.0 ads.realmedia.com.br
+0.0.0.0 icover.realmedia.com
+0.0.0.0 lycos.realmedia.com
+0.0.0.0 lycoscollect.realmedia.com
+0.0.0.0 mserv1.realmedia.com
+0.0.0.0 network.realmedia.com
+0.0.0.0 oad.realmedia.com
+0.0.0.0 oas-central.realmedia.com
+0.0.0.0 au.track.decideinteractive.com
+0.0.0.0 au.link.decideinteractive.com
+0.0.0.0 eu.link.decideinteractive.com
+0.0.0.0 link.decideinteractive.com
+0.0.0.0 www.decideinteractive.com
 #Aavalue
 0.0.0.0 adc.aavalue.com
 0.0.0.0 adserv.aavalue.com

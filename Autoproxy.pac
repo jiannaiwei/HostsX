@@ -26,6 +26,8 @@ var patterns = new Array(
 "clients1.google.com/complete/search",
 "cnd.org",
 "cnn.com",
+"www.rfa.org",
+"rsf-chinese.org",
 "cuhkacs.org",
 "dailymotion.com",
 "discuss.com.hk",
