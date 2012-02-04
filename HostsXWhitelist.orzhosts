@@ -1,5 +1,5 @@
-;version=18:52 2012/2/2
-;author=KwokTree.jason_jiang
+;version=20:32 2012/2/4
+;author=KwokTree.OrzFly.jason_jiang
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
 $DELETE
@@ -67,6 +67,12 @@ $DELETE
 
 #导致PPS客户端页面无法完整显示的问题。
 vodguide.pps.tv
+$DELETE
+
+#导致PPS视频无法完整加载的问题。
+dp.ugc.pps.tv
+dy.ugc.pps.tv
+dyn.ugc.pps.tv
 $DELETE
 
 #导致PPTV搜索时无法完整显示结果的问题。

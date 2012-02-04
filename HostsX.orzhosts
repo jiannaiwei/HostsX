@@ -1,5 +1,5 @@
 
-;version=23:26 2012/2/3
+;version=21:39 2012/2/4
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÖÇÄÜ×ªÏò
@@ -657,6 +657,7 @@ dl.client.baidu.com
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinas.allyes.com
 0.0.0.0 sinasc.allyes.com
+0.0.0.0 ad.ylunion.com
 0.0.0.0 js.ylunion.com
 0.0.0.0 ylunion.com
 0.0.0.0 www.ylunion.com
@@ -2291,9 +2292,6 @@ dl.client.baidu.com
 0.0.0.0 stat.ppstream.com
 0.0.0.0 dp.ppstv.com
 0.0.0.0 br.pps.tv
-0.0.0.0 dp.ugc.pps.tv
-0.0.0.0 dy.ugc.pps.tv
-0.0.0.0 dyn.ugc.pps.tv
 0.0.0.0 g.pps.tv
 0.0.0.0 game.pps.tv
 0.0.0.0 pl.pps.tv
@@ -9880,6 +9878,7 @@ dl.client.baidu.com
 0.0.0.0 ccyi.r.game2.com.cn
 0.0.0.0 cdn.da-game.com
 0.0.0.0 cheer.cjoy.com.cn
+0.0.0.0 cpm.fk5.com
 0.0.0.0 cj.8le8le.com
 0.0.0.0 ck.lingdang.com
 0.0.0.0 click.315ts.net
@@ -10311,3 +10310,4 @@ dl.client.baidu.com
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
+0.0.0.0 u33.mfpcr.com
