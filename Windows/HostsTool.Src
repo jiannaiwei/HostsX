@@ -1,5 +1,5 @@
 @echo off
-set ver=3.68
+set ver=3.681
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -297,8 +297,6 @@ echo Please wait... ...
 goto:eof
 
 :temp
-call :BeijingIP
-call :Youtube
 call :Xunlei
 goto:eof
 
