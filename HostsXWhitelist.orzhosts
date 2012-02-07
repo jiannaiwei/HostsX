@@ -1,4 +1,4 @@
-;version=20:32 2012/2/4
+;version=21:10 2012/2/7
 ;author=KwokTree.OrzFly.jason_jiang
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
@@ -133,6 +133,10 @@ $DELETE
 
 #导致网易视频无法正常播放。
 g.163.com
+$DELETE
+
+#导致网易应用中心软件无法正常下载。
+analytics.163.com
 $DELETE
 
 #导致网易首页天气预报图像无法正常显示的问题。
