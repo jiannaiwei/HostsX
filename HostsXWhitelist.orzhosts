@@ -1,5 +1,10 @@
-;version=21:10 2012/2/7
+;version=7:30 2012/2/10
 ;author=KwokTree.OrzFly.jason_jiang
+
+#导致安卓应用 千寻影视无法加载播放视频！
+jump.synacast.com
+$DELETE
+
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
 $DELETE

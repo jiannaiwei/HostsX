@@ -1,5 +1,5 @@
 
-;version=23:31 2012/2/9
+;version=7:29 2012/2/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÖÇÄÜ×ªÏò
@@ -2744,7 +2744,6 @@ dl.client.baidu.com
 0.0.0.0 drag.synacast.com
 0.0.0.0 h.synacast.com
 0.0.0.0 ik.synacast.com
-0.0.0.0 jump.synacast.com
 0.0.0.0 ol.synacast.com
 0.0.0.0 pplive-va.synacast.com
 0.0.0.0 ppvalog.synacast.com
