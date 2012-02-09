@@ -83,8 +83,8 @@ td[id^="adp_"],td[class="adslot"],,td[class="ad"],
 tr[class="ad"],tr[class^="ad_"],p[class="ad"],a[id*="_adbox"]{
 display: none !important;
 	}
-table[class="adbottom"],table[class="adNone"],table[id="ShowAD"],
-span[id^="ad_"],span[class="adlink"],span[id="baidu"],span[id="idc"],span[id="zjtop"]{
+table[class="adbottom"],table[class="adNone"],table[id="ShowAD"],span[id^="ad_"],
+span[class="adlink"],span[id="baidu"],span[id="idc"],span[id="zjtop"],span[class="bdad"],span[id^="ptcmsad"]{
 display: none !important;
 	}
 img[id^="ad"],img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{

@@ -14,6 +14,7 @@ var patterns = new Array(
 "archive.org",
 "atnext.com",
 "chinagfw.org",
+"is.gd",
 "bbc.co.uk",
 "bit.ly",
 "blip.tv",

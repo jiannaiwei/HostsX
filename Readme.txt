@@ -12,7 +12,7 @@
 # http://creativecommons.org/licenses/by-nc-sa/3.0/                          #
 #                                                                            #
 # Authors:                                                                   #
-# OrzFly,jason_jiang,JocKwok                                                 #
+# OrzFly,jason_jiang,KwokTree                                                #
 #                                                                            # 
 # Contributors:                                                              #
 # Thanks for all the feedback from users and friends.                        #
@@ -20,32 +20,31 @@
 # http://www.clxp.net.cn                                                     #
 # http://bbs.crsky.com                                                       #
 # http://bbs.wmzhe.com                                                       #
-# http://forum.xda-developers.com/showthread.php?t=696084                    #
-# http://www.itfunz.com                                                      #
-# http://sslcheck.net/nsreport.php                                           #
-# http://bbs.chromi.org/thread-14152-1-1.html                                #
-# http://is.gd/9WteB                                                         #
-# http://shhx2005.gotoip3.com/2011/01/02/dropbox.html                        #
-# http://commondatastorage.googleapis.com/fgqi/hosts/fgqi.bat                # 
-# http://www.anzhuo.cn/thread-136601-1-1.html                                # 
-# http://blog.csdn.net/harry960/article/details/6897614                      # 
-# http://tsusoft.wordpress.com/2011/09/19/change-hosts-to-access-flickr/     #
-# http://lucifr.com/2469/modify-host-to-visit-wordpress-com-normally/        # 
-# http://lucifr.com/2387/modify-host-file-to-show-gravatar-image/            # 
-# http://iwongs.tk/2011/09/yahoo-flickr-hosts.html                           #
-# http://www.soupis.com/thread-53899-1-1.html                                #
-# http://www.flickr.com/help/test                                            #
-# http://www.flickr.com/help/forum/zh-hk/72157626877675955/                  #
-#                                                                            #
-# 3rd-Party-Data:                                                            #
-# https://gist.github.com/1364545                                            #
-# http://code.google.com/p/ipv6-hosts/                                       #
-# http://code.google.com/p/smarthosts/                                       #
 # http://www.du110.com/thread-11742-1-1.html                                 #
-# http://hi.baidu.com/villagesecu                                            #
-# http://www.mwsl.org.cn/hosts/hosts2011.12.26.zip                           #
+#                                                                            #
+# Tutorial:                                                                  #
+#   Tomato DualWAN: http://bbs.dualwan.cn/viewthread.php?tid=233861          #
+#                                                                            #
+# 3rd-Party Data&Tool:                                                       #
+# http://code.google.com/p/ipv6-hosts/                                       #
+# http://commondatastorage.googleapis.com/fgqi/hosts/fgqi.bat                # 
+# http://sslcheck.net/nsreport.php                                           #
+# https://gist.github.com/1364545                                            #
+# http://code.google.com/p/smarthosts/                                       #
+# http://www.mwsl.org.cn/hosts/                                              #
 # http://www.mvps.org/winhelp2002/hosts.txt                                  #
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
+#                                                                            #
+# 3rd-Party-Data have been used:                                             #
+# http://is.gd/9WteB   #Twitter                                              #
+# http://shhx2005.gotoip3.com/2011/01/02/dropbox.html   #DropBox             #
+# http://forum.xda-developers.com/showthread.php?t=696084                    #
+# http://www.anzhuo.cn/thread-136601-1-1.html   #For Mobile                  # 
+# http://forum.xda-developers.com/showthread.php?t=696084   #For Android     #
+# http://lucifr.com/ #WordPress #Gravatar                                    # 
+# http://hi.baidu.com/villagesecu   #IE Hijack                               #
+# http://www.soupis.com/thread-53899-1-1.html   #Flickr                      #
+# http://www.flickr.com/help/test                                            #
 #                                                                            #
 # Copyright (C) 2007-2012 orztech.com All Rights Reserved.                   #
 #****************************************************************************#
@@ -128,7 +127,7 @@
    X林的网站屏蔽工具的批处理代码,部分深山红叶维护光盘里的批处理内容,在此表示感谢！
 
 --------------------------------------------------------------------------------
-3. Hosts文件位置和使用方法（hosts文件没有后缀）
+3. 不同设备的Hosts文件位置和使用方法（hosts文件没有后缀）
 
  - Hosts文件 修改完毕后如果无法生效，请在系统命令行里运行 ！一行的命令
 
@@ -150,7 +149,6 @@
  ! Mac OS 刷新网络命令:  sudo niload -v -m hosts
                          sudo dscacheutil -flushcache (适用于10.6、10.7及以后版本)                         
        
-
  - OS/2及eComStation："bootdrive":\mptn\etc\
 
  - Palm Pre：
@@ -162,6 +160,22 @@
    然后输入：
        mv hosts /etc
 
+ - Tomato DualWAN
+   addn-hosts=/tmp/HostsX.orzhosts
+   rm /tmp/HostsX.orzhosts
+   wget -P /tmp http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+   sleep 2
+   service dnsmasq restart
+   Q&A：
+   PS1 :重启后失效请将代码
+        rm /tmp/hosts
+        wget -P /tmp http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts 
+        sleep 2
+        service dnsmasq restart
+        加到 脚本设置 ——> 当WAN联机 
+        这样每次重启都会自动更新一次。 
+   PS2：如果你的googlecode.com 被qiang，可以先使用这位同学(http://bbs.dualwan.cn/viewthread.php?tid=222251 )的数据源（http://wjhych.3322.org:8081/hosts）先更新下
+   
  - Symbian第1/2版手机：C:\system\data\hosts
    Symbian第3版手机：C:\private\10000882\hosts，只能使用兼容AllFiles的文件浏览器访问
    S60手机破解工作请访问OPDA,CNPDA等相关网站获取帮助
@@ -177,12 +191,11 @@
    Tips:
     使用"cat /etc/hosts"   可以查看Hosts文件有没有修改成功
     使用"adb pull /system/etc/hosts"  #把hosts文件从机器上取出来
-
-Q&A:如果在Windows下更新Andorid Hosts文件时，adb devieces正常检测,但adb remount命令failed，提示 operation not pemitted
-
-  A:请先root，用root explorer，进入etc/路径下，然后选择右上角的“remount as R/w”
-    点一下！！！再past！搞定啦！！！！！！！！！！
-    注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽只有使用127.0.0.1方可生效
+    
+    Q&A:如果在Windows下更新Andorid Hosts文件时，adb devieces正常检测,但adb remount命令failed，提示 operation not pemitted
+        请先root，用root explorer，进入etc/路径下，然后选择右上角的“remount as R/w”
+        点一下！！！再粘贴就可以搞定啦！！！！！！！！！！
+        注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽只有使用127.0.0.1方可生效
 
 --------------------------------------------------------------------------------
 4. IPV6支持信息
