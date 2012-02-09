@@ -1,5 +1,5 @@
 
-;version=21:09 2012/2/7
+;version=21:25 2012/2/9
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX 智能转向
@@ -1199,6 +1199,7 @@ dl.client.baidu.com
 0.0.0.0 ai.yimg.jp
 0.0.0.0 ard.yahoo.co.jp
 0.0.0.0 yjaxc.yahoo.co.jp
+0.0.0.0 rd.ane.yahoo.co.jp
 #Yahoo.com.cn
 0.0.0.0 click.tanx.com
 0.0.0.0 p.tanx.com
@@ -1560,6 +1561,9 @@ dl.client.baidu.com
 0.0.0.0 ad.pixnet.net
 #Playboy
 0.0.0.0 pei-ads.playboy.com
+#Pixiv
+0.0.0.0 img.ads.pixiv.org
+0.0.0.0 serv.ads.pixiv.org
 #SecretChina
 0.0.0.0 ad.secretchina.com
 0.0.0.0 static1.secretchina.com
@@ -1608,6 +1612,9 @@ dl.client.baidu.com
 0.0.0.0 urchin.tianya.cn
 0.0.0.0 801.tianyaui.com
 0.0.0.0 click.tianyaui.com
+#凯迪网
+0.0.0.0 panda.kdnet.net
+0.0.0.0 tracking.kdnet.net
 #奇虎社区
 0.0.0.0 aimg.qihoo.com
 0.0.0.0 clkstat.qihoo.com
@@ -1726,10 +1733,6 @@ dl.client.baidu.com
 0.0.0.0 ads.zaobao.com
 #新民网
 0.0.0.0 iads.xinmin.cn
-#环球网
-0.0.0.0 huanqiu.allyes.com
-0.0.0.0 huanqiu.datamaster.com.cn
-0.0.0.0 bjafp.allyes.com
 #中新网
 0.0.0.0 www.pagechoice.net
 0.0.0.0 report.chinanews.com
@@ -1760,6 +1763,22 @@ dl.client.baidu.com
 0.0.0.0 ad.3lian.com
 #重庆晚报
 0.0.0.0 ad.cqwb.com.cn
+#大洋网
+0.0.0.0 adimg.dayoo.com
+0.0.0.0 rnd.dayoo.com
+0.0.0.0 sta.dayoo.com
+#北方网
+0.0.0.0 eap.enorth.com.cn
+0.0.0.0 jsp5.enorth.com.cn
+0.0.0.0 swf.enorth.com.cn
+#环球网
+0.0.0.0 cl2.webterren.com
+0.0.0.0 bjafp.allyes.com
+0.0.0.0 himg2.huanqiu.com
+0.0.0.0 huanqiu.allyes.com
+0.0.0.0 huanqiu.datamaster.com.cn
+#珠海视窗
+0.0.0.0 poo.zhuhai.gd.cn
 @HostsX 国内站点广告/游戏类网站
 #电玩巴士
 0.0.0.0 bill.tgbus.com
@@ -2193,8 +2212,6 @@ dl.client.baidu.com
 0.0.0.0 ranking.ynet.com
 #德州之窗
 0.0.0.0 gg.dzwindows.com
-#北方网
-0.0.0.0 swf.enorth.com.cn
 #河池365
 0.0.0.0 bbs.corp.gxhc365.com
 #北海365
@@ -2208,10 +2225,6 @@ dl.client.baidu.com
 0.0.0.0 ts.instreet.cn
 #亿房
 0.0.0.0 shows.fdc.com.cn
-#大洋网
-0.0.0.0 adimg.dayoo.com
-0.0.0.0 rnd.dayoo.com
-0.0.0.0 sta.dayoo.com
 #51Job
 0.0.0.0 logs.51job.com
 0.0.0.0 kwdsrv.51job.com
