@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 4.17
+Version: 4.18
 Author: KwokTree.googlecode.com
 Description: MayBe a better User CSS Help U.
 */
@@ -43,12 +43,16 @@ display: none !important;
 	}
 
 /* Position AD */
-div[class="ad_top"],div[class^="top_ad"],div[class$="topa_d"],div[class^="topad"],div[class="topAD"],div[class*="AdTop-Article"],
-div[class="ada"],div[class="tad"],div[id^="topad"],div[id="topmad"],div[id="toplink"],div[id$="head_ad"]{
+div[class="ada"],div[class*="AdTop-"],div[class="ad_top"],div[class="tad"],div[class^="topAD"],
+div[class^="topAd"],div[class^="topad"],div[class^="top_ad"],div[class$="topa_d"]{
+display: none !important;
+	}
+div[class^="nav-ad"],div[id$="head_ad"],div[id="adTop"],div[id="navads"],
+div[id="toplink"],div[id="topmad"],div[id^="topad"]{
 display: none !important;
 	}
 div[id^="AdRight"],div[class^="rightad"],div[id$="rightad"],div[class="RightAD"],div[class="adrr"],
-div[class="adll"],div[id="navads"],div[class^="nav-ad"],div[class^="footad"],div[id^="pad_"]{
+div[class="adll"],div[class^="footad"],div[id^="pad_"]{
 display: none !important;
 	}
 div[id="adDiv"],div[id="adsmid"],div[id="particular_ad"],div[id^="pic_ad"],
