@@ -181,7 +181,7 @@
    S60手机破解工作请访问OPDA,CNPDA等相关网站获取帮助
 
  - Android手机系统：\etc\hosts (即：\system\etc\hosts)
-   在安装好您的手机驱动后可以使用adb调试工具
+   !在安装好您的手机驱动后可以使用adb调试工具
    并依次运行如下命令：
   "adb devices
    adb remount
@@ -194,7 +194,8 @@
     
     Q&A:如果在Windows下更新Andorid Hosts文件时，adb devieces正常检测,但adb remount命令failed，提示 operation not pemitted
         请先root，用root explorer，进入etc/路径下，然后选择右上角的“remount as R/w”
-        点一下！！！再粘贴就可以搞定啦！！！！！！！！！！
+        点一下！再粘贴就可以搞定啦！改回原来系统的属性权限（rw-r-r），然后重启手机，要重启！！！！！
+        
         注意：Android手机平台不支持Hosts文件一行写多个域名，广告数据屏蔽只有使用127.0.0.1方可生效
 
 --------------------------------------------------------------------------------

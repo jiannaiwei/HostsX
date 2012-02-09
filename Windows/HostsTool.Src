@@ -1,5 +1,5 @@
 @echo off
-set ver=3.681
+set ver=3.682
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -102,7 +102,7 @@ if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2
 if %y% equ 15 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r -h +s %hosts% & echo y| cacls %hosts% /c /t /p everyone:r&msg %username% /time:2 "【已设置Hosts文件权限为：NTFS 读取权限！】"&goto gui
 if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock &attrib %hosts% +r -h +s &echo y| cacls %hosts% /D everyone&msg %username% /time:2 "【已设置Hosts文件权限为：NTFS 拒绝权限！】"&goto gui
 if %y% equ 17 if %x% gtr  1 if %x% lss 26 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f &cls& goto gui
-if %y% equ 17 if %x% gtr  26 if %x% lss 50 goto clean
+if %y% equ 17 if %x% gtr  26 if %x% lss 50 call :clean &goto gui
 if %y% equ 19 if %x% gtr  1 if %x% lss 26 goto fixie
 if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!&goto shortcutfix) else (goto shortcutfix)
 if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto iecss
@@ -443,8 +443,8 @@ echo  删除完成! Delete done!
 pause&goto gui
 
 :iecss
-wget http://kwoktree.googlecode.com/svn/trunk/css/Custom.css
-wget http://kwoktree.googlecode.com/svn/trunk/css/iecss.vbs
+wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
+wget http://hostsx.googlecode.com/svn/trunk/Windows/iecss.vbs
 start http://dayngo.com/static/filter.html
 start http://userstyles.org/styles/58249/
 AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
@@ -479,7 +479,7 @@ del /f /s /q %windir%\*.bak
 del /f /s /q "%systemdrive%\recycled"
 del /f /s /q "%Temp%"
 del /f /q /s /a "%systemroot%\minidump"
-del /f /q /s /a "%userprofile%\Cookies\"
+del /f /q /s /a "%userprofile%\Cookies"
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
 del /f /s /q "%userprofile%\recent"
 del /f /s /q "%windir%\prefetch"
@@ -500,7 +500,8 @@ REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls"
 echo 清除运行记录...
 reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f
-echo 垃圾缓存文件已清理! & choice /t 2 /d y /n >nul &goto gui
+echo 垃圾缓存文件已清理! & choice /t 2 /d y /n >nul
+goto:eof
 
 :rp127
 SetLocal EnableDelayedExpansion
@@ -1851,7 +1852,7 @@ reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "
 reg add "HKLM\Software\Microsoft\Internet Explorer\" /f /ve /d "about:blank"
 reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "http://www.google.com/intl/zh-CN/"
 reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f
-echo  Repaired&cls&goto gui
+echo Repaired&cls&goto gui
 
 :opinst
 mshta vbscript:msgbox("如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)

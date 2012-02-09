@@ -57,8 +57,8 @@ End Sub
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 objFSO.DeleteFile(".\new.txt"), True
 objFSO.DeleteFile(".\hostsx.orzhosts"), True
-MsgBox "Hosts Data downloaded and conversion!", vbInformation, "G+ Hosts"
-MsgBox "Please send your phone connected to the computer£¬and open the USB debug mode!", vbInformation, "G+ Hosts"
+MsgBox "Hosts Data downloaded and conversion!", vbInformation, "HostsX"
+MsgBox "Please send your phone connected to the computer£¬and open the USB debug mode!", vbInformation, "HostsX"
 set fso=createobject("scripting.filesystemobject")
 set ws=CreateObject("wscript.shell")
 set fw=fso.createtextfile("transfer.bat",2)
