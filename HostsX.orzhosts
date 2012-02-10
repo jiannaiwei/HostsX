@@ -1,5 +1,5 @@
 
-;version=19:14 2012/2/10
+;version=23:37 2012/2/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÖÇÄÜ×ªÏò
@@ -10733,3 +10733,4 @@ dl.client.baidu.com
 0.0.0.0 c1.is686.com
 0.0.0.0 media.17leyi.com
 0.0.0.0 images.17leyi.com
+0.0.0.0 js.a3p4.com
