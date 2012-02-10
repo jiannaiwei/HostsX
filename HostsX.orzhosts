@@ -1,5 +1,5 @@
 
-;version=7:29 2012/2/10
+;version=19:14 2012/2/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX 智能转向
@@ -2182,7 +2182,6 @@ dl.client.baidu.com
 #环球网
 0.0.0.0 cl2.webterren.com
 0.0.0.0 bjafp.allyes.com
-0.0.0.0 himg2.huanqiu.com
 0.0.0.0 huanqiu.allyes.com
 0.0.0.0 huanqiu.datamaster.com.cn
 #珠海视窗

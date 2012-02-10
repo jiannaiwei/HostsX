@@ -1,4 +1,4 @@
-;version=7:30 2012/2/10
+;version=19:14 2012/2/10
 ;author=KwokTree.OrzFly.jason_jiang
 
 #导致安卓应用 千寻影视无法加载播放视频！
@@ -278,6 +278,7 @@ rapidshare.com
 www.18p2p.com
 www.97xxoo.com
 cidian.youdao.com
+himg2.huanqiu.com
 $DELETE
 
 #!腾讯 QQ 会自动在 Hosts 文件中查找这些数据并篡改，以达到恢复广告显示的目的。对付方法并非这里修复，而是通过工具菜单内的加锁 Hosts 文件为 Hosts 文件加锁。
