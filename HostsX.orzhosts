@@ -1,5 +1,5 @@
 
-;version=21:28 2012/2/14
+;version=21:48 2012/2/14
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÖÇÄÜ×ªÏò
@@ -8437,6 +8437,10 @@ dl.client.baidu.com
 #Crispadvertising
 0.0.0.0 cdn1.crispadvertising.com
 0.0.0.0 cdn2.crispadvertising.com
+#Dianru
+0.0.0.0 d.dianru.com
+0.0.0.0 static.dianru.com
+0.0.0.0 www.dianru.com
 #Domob
 0.0.0.0 r.domob.cn
 0.0.0.0 s.domob.cn
