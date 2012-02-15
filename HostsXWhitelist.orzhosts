@@ -1,5 +1,9 @@
-;version=19:14 2012/2/10
+;version=21:51 2012/2/15
 ;author=KwokTree.OrzFly.jason_jiang
+
+#导致起点仙侠小说页面部分图片无法正常加载！
+cj.qidian.com
+$DELETE
 
 #导致安卓应用 千寻影视无法加载播放视频！
 jump.synacast.com
