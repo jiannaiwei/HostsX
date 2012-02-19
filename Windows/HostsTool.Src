@@ -1,5 +1,5 @@
 @echo off
-set ver=3.682
+set ver=3.683
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -127,18 +127,17 @@ goto:eof
 
 :cleansoft
 Tasklist|Find /i "iexplore.exe">nul&&(Echo 请先关闭IExplore.exe!&Pause)
-call :dns
 call :cleanwmp
 call :cleanpps
 call :cleanpptv
-call :cleanqq
-call :cleanuus
-call :cleanxunlei
-call :cleanwps
-call :cleanmschk
 call :cleanvagaa
+call :cleanmschk
+call :cleanxunlei
+call :cleanuus
+call :cleanwps
 call :cleansogou
 call :cleanie
+call :cleanqq
 goto:eof
 
 :cleanwmp
@@ -223,10 +222,8 @@ net stop "XLDoctor Service"
 sc stop XLServicePlatform
 sc delete "XLDoctor Service"
 sc delete XLServicePlatform
-attrib -r -s -h "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat" >nul
-attrib -r -s -h "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat" >nul
-del /f /q "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat" >nul
-del /f /q "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat" >nul
+DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat" >nul
+DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat" >nul
 Md "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat"
 Md "%AllUsersProfile%\Application Data\Thunder Network\emule_upload_list.dat"
 Md "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat"
@@ -269,11 +266,11 @@ goto:eof
 echo 清除SOGOU搜狗的IE加载项so.dll
 regsvr32 /u /s so.dll >nul 2>nul
 del /f %windir%\system32\so.dll >nul 2>nul
-reg delete HKCR\NetCafeHlp.AddrHelper /f
-reg delete HKCR\NetCafeHlp.AddrHelper.1 /f
-reg delete "HKCU\Software\Microsoft\Internet Explorer\URLSearchHooks" /v {02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f
-reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f
-reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072}" /f
+reg delete HKCR\NetCafeHlp.AddrHelper /f >nul 2>nul
+reg delete HKCR\NetCafeHlp.AddrHelper.1 /f >nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\URLSearchHooks" /v {02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f >nul 2>nul
+reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f >nul 2>nul
+reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072}" /f >nul 2>nul
 goto:eof
 
 :ipv6load
