@@ -1,6 +1,6 @@
 ***************************************
 恶意网站实验室(MWSL)
-恶意网站HOSTS屏蔽文件-2011.2.6
+恶意网站HOSTS屏蔽文件-2011.2.20
 www.mwsl.org.cn
 ---------------------------------------
 注意：115.47.219.95为MWSL的拦截警示页面
@@ -5782,7 +5782,7 @@ All Rights Reserved 2007-2011
 0.0.0.0 844666.com
 0.0.0.0 644888.com
 0.0.0.0 3328gp.com
-0.0.0.0 900788.com
+0.0.0.0 900788.com 
 0.0.0.0 07212.com
 0.0.0.0 www.xg569.cn
 0.0.0.0 xg569.cn
@@ -7184,7 +7184,7 @@ All Rights Reserved 2007-2011
 0.0.0.0 922088.cn
 0.0.0.0 www.gmdzgs.cn
 0.0.0.0 qt0955.cn
-0.0.0.0 www.qt0955.cn
+0.0.0.0 www.qt0955.cn  
 0.0.0.0 gmdzgs.cn
 0.0.0.0 www.5252se.com
 0.0.0.0 gaoav.com
@@ -7593,7 +7593,7 @@ All Rights Reserved 2007-2011
 0.0.0.0 771567.cn
 0.0.0.0 www.64838.com
 0.0.0.0 64838.com
-0.0.0.0 www.caipiao568.com
+0.0.0.0 www.caipiao568.com 
 0.0.0.0 caipiao568.com
 0.0.0.0 www.0109888.cn
 0.0.0.0 0109888.cn
@@ -10509,7 +10509,7 @@ All Rights Reserved 2007-2011
 0.0.0.0 cctv603.cn
 0.0.0.0 www.cctv603.cn
 0.0.0.0 nbadata.9966.org
-0.0.0.0 dl8899.3322.org
+0.0.0.0 dl8899.3322.org 
 0.0.0.0 txt.3ul2.cn
 0.0.0.0 ppd.hco.cc
 0.0.0.0 ppe.hco.cc
@@ -11502,7 +11502,7 @@ All Rights Reserved 2007-2011
 0.0.0.0 buzmsh.3322.org
 0.0.0.0 www.eyx8.com
 0.0.0.0 ku1.installstorm.com
-0.0.0.0 asdrewwyqs7.3322.org
+0.0.0.0 asdrewwyqs7.3322.org 
 0.0.0.0 music.163wgw.com
 0.0.0.0 reishus.de
 0.0.0.0 mail.you8x.com
@@ -13257,7 +13257,7 @@ All Rights Reserved 2007-2011
 0.0.0.0 upnext.info
 0.0.0.0 videoplugs.net
 0.0.0.0 www.kortech.cn
-0.0.0.0 perejopa.com
+0.0.0.0 perejopa.com 
 0.0.0.0 surprise-knsme.tk
 0.0.0.0 iphone4.17pfa.com
 0.0.0.0 great-film-tvs.info
@@ -13804,7 +13804,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 habbometox2.altervista.org
 0.0.0.0 sxm1.net
 0.0.0.0 ad.inewsweek.cn
-0.0.0.0 www.buy-hk.com
 0.0.0.0 hwomiale.ru
 0.0.0.0 go.okjtoday.info
 0.0.0.0 www.kapege.de
@@ -14595,7 +14594,6 @@ All Rights Reserved 2007-2011
 0.0.0.0 www.xiubo.net
 0.0.0.0 www.izche.com
 0.0.0.0 www.51208.my03.com
-0.0.0.0 www.cocoachina.com
 0.0.0.0 www.garne45b.org
 0.0.0.0 www.apymatelleri.org
 0.0.0.0 kj1.nct8.com
@@ -15441,3 +15439,65 @@ All Rights Reserved 2007-2011
 0.0.0.0 www.hzh999.net
 0.0.0.0 www.3hot8.com
 0.0.0.0 www.669887.com
+0.0.0.0 www.736202.com
+0.0.0.0 wt6.haote.com
+0.0.0.0 topguide.co.kr
+0.0.0.0 www.7kmf.com
+0.0.0.0 www.cc3tvgg.com
+0.0.0.0 xoutside.com
+0.0.0.0 weaponomd.ru
+0.0.0.0 www.unnicom.com
+0.0.0.0 www.bitspro.com
+0.0.0.0 www.cetinaestetica.com
+0.0.0.0 www.xiaomigo.com
+0.0.0.0 sorriananet.net
+0.0.0.0 www.ctv3e.be
+0.0.0.0 qbx111.com
+0.0.0.0 www.qbx111.com
+0.0.0.0 gpu.ns02.us
+0.0.0.0 fotolog13.beepworld.it
+0.0.0.0 www.sinac5q.com
+0.0.0.0 www.tuyitu.com
+0.0.0.0 steam-hack.ru
+0.0.0.0 abc.cngr.cn
+0.0.0.0 gql.ns02.us
+0.0.0.0 hggj.com.cn
+0.0.0.0 928dss42w.no-ip.info
+0.0.0.0 www.zisportsmedicine.com
+0.0.0.0 www.dnf6677.com
+0.0.0.0 gqa.ns02.us
+0.0.0.0 www.999272.com
+0.0.0.0 yumarsiv.info
+0.0.0.0 www.yayayixiao.com
+0.0.0.0 www.bostonhitech.com
+0.0.0.0 www.400ii.com
+0.0.0.0 www.toptenreport.com
+0.0.0.0 gml.ns02.us
+0.0.0.0 www.sscqab.tk
+0.0.0.0 www.nanawg.com
+0.0.0.0 ad1.sysexe.info
+0.0.0.0 gpo.ns02.us
+0.0.0.0 k70.9966.org
+0.0.0.0 cruelsummer.ru
+0.0.0.0 www.cctv341.com
+0.0.0.0 ad1.game119.info
+0.0.0.0 www.ananwg.com
+0.0.0.0 oprsyu.info
+0.0.0.0 sdkf032.com
+0.0.0.0 wt.zhapi.info
+0.0.0.0 www.99tianji.com
+0.0.0.0 ww2.35465543.com
+0.0.0.0 storylootybuz.com
+0.0.0.0 fdsqaxcv.com
+0.0.0.0 1024tb.com
+0.0.0.0 down.1024tb.com
+0.0.0.0 jetcrafting.ru
+0.0.0.0 makethemdie.ru
+0.0.0.0 light.wiseie.com
+0.0.0.0 3gf.sjs1.in
+0.0.0.0 www.kaixinhanguo.com
+0.0.0.0 daren8.8866.org
+0.0.0.0 www.undjc.com
+0.0.0.0 ysbweb.com
+0.0.0.0 www.ecran-de-veille.org
+0.0.0.0 www.dubrava.hr
