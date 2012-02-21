@@ -1,5 +1,5 @@
 @echo off
-set ver=3.69
+set ver=3.691
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -294,15 +294,6 @@ echo Please wait... ...
 goto:eof
 
 :temp
-for %%a in (%hosts%) do (
-(for /f "usebackq delims=" %%b in ("%%a") do  (
-set "str=%%b"
-for %%b in (127.0.0.1-0.0.0.0) do (
-for /f "tokens=1,2 delims=-" %%c in ("%%b") do set "str=!str:%%c=%%d!"
-)
-echo !str!
-))>$
-copy $ %hosts%
 call :Xunlei
 goto:eof
 
