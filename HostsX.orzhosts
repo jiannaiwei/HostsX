@@ -1,5 +1,5 @@
 
-;version=20:50 2012/2/21
+;version=20:58 2012/2/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÖÇÄÜ×ªÏò
@@ -2334,38 +2334,28 @@ dl.client.baidu.com
 127.0.0.1 update.111222.cn
 127.0.0.1 update.base-service.net
 #PPTV
-http://ins.pplive.com/config/pptv/self/forqd1/bind_zh-cn.ini
-http://tj.g.pptv.com/click.php?t=url&cid=83&ccid=162&url=http%3A%2F%2Fzt.
-
-
-http://sd.cn.miaozhen.com/m.gif?pid=4^tid=client_pos_100011^cid=cpl_930^ext=pptv_213030225^ver=2^ret=2
-
-pptv.com%2Fgamestg%2Finst_pop2.html
-http://ins-stat.pplive.com/interface/bind_submit.aspx?softid=7%2C23%2C84%2C91%2C77%2C79%2C24&product=pptv&custom=self&channel=forqd1
-http://pp2.as.pplive.cn/imgs/materials/2012/2/20/20120220154156_shengshi120221shouyebutton.jpg
-http://h.synacast.com/1.html?sdPg0uXTraCSqrOalrKpmpyoraGSrbOWlrWpj7yioOjPnaqboamen6+eqKHNnpysraGfm6+doqSenKiLuK2cj7+ioJa2pqaLvK2dl6aToZ6cmqaWlr2pm5yzraA
-=http://live.v2.pplive.com/zh-cn/ad/adconfig3.html
 127.0.0.1 afp.pplive.com
 127.0.0.1 afv.pplive.com
 127.0.0.1 caipiao.pplive.com
+127.0.0.1 client-play.pptv.com
 127.0.0.1 dh.pplive.com
 127.0.0.1 download.pplive.com
 127.0.0.1 g.pplive.com
+127.0.0.1 g.pptv.com
+127.0.0.1 ga.pptv.com
+127.0.0.1 iafp.pptv.com
 127.0.0.1 ins-stat.pplive.com
 127.0.0.1 ins-version.pplive.com
 127.0.0.1 ins.pplive.com
 127.0.0.1 live.v2.pplive.com
 127.0.0.1 pp1.pplive.com
-127.0.0.1 client-play.pptv.com
-127.0.0.1 g.pptv.com
-127.0.0.1 ga.pptv.com
-127.0.0.1 iafp.pptv.com
 127.0.0.1 pp2.pptv.com
 127.0.0.1 ppsj.pptv.com
 127.0.0.1 tj.g.pptv.com
 127.0.0.1 up.pplive.com
 127.0.0.1 wafp.pptv.com
 127.0.0.1 wstat.pptv.com
+127.0.0.1 pp2.as.pplive.cn
 127.0.0.1 drag.synacast.com
 127.0.0.1 h.synacast.com
 127.0.0.1 ik.synacast.com
@@ -8127,6 +8117,7 @@ http://h.synacast.com/1.html?sdPg0uXTraCSqrOalrKpmpyoraGSrbOWlrWpj7yioOjPnaqboam
 127.0.0.1 g.cn.miaozhen.com
 127.0.0.1 g.miaozhen.com
 127.0.0.1 msg.cn.miaozhen.com
+127.0.0.1 sd.cn.miaozhen.com
 127.0.0.1 survey.miaozhen.com
 127.0.0.1 www.millwardbrownacsr.com
 #Myad
