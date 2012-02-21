@@ -1,5 +1,5 @@
 
-;version=20:42 2012/2/21
+;version=20:50 2012/2/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÷«ƒ‹◊™œÚ
@@ -2420,6 +2420,8 @@ http://h.synacast.com/1.html?sdPg0uXTraCSqrOalrKpmpyoraGSrbOWlrWpj7yioOjPnaqboam
 127.0.0.1 uuseeafp.allyes.com
 #Bitcomet
 127.0.0.1 inside.bitcomet.com
+#FlashGet
+127.0.0.1 ack.flashget.com
 127.0.0.1 dll.flashget.com
 127.0.0.1 down1.flashget.com
 127.0.0.1 down2.flashget.com
@@ -2430,9 +2432,11 @@ http://h.synacast.com/1.html?sdPg0uXTraCSqrOalrKpmpyoraGSrbOWlrWpj7yioOjPnaqboam
 127.0.0.1 down7.flashget.com
 127.0.0.1 fetch.flashget.com
 127.0.0.1 ggstat.flashget.com
+127.0.0.1 news.flashget.com
 127.0.0.1 olstat.flashget.com
 127.0.0.1 stac.flashget.com
 127.0.0.1 stat.flashget.com
+127.0.0.1 zx.flashget.com
 127.0.0.1 bc.kuaiche.com
 127.0.0.1 cimg.kuaiche.com
 127.0.0.1 ufile.kuaiche.com
@@ -2495,9 +2499,10 @@ http://h.synacast.com/1.html?sdPg0uXTraCSqrOalrKpmpyoraGSrbOWlrWpj7yioOjPnaqboam
 127.0.0.1 ttads.ttplayer.com
 127.0.0.1 ttmsg.qianqian.com
 #ø·Œ““Ù¿÷
-127.0.0.1 g.koowo.com
 127.0.0.1 g.kuwo.cn
 127.0.0.1 wa.kuwo.cn
+127.0.0.1 updatepage.kuwo.cn
+127.0.0.1 g.koowo.com
 127.0.0.1 wa.koowo.com
 #ø·π∑“Ù¿÷
 127.0.0.1 dl.ddong.com
