@@ -1,4 +1,4 @@
-;version=21:51 2012/2/15
+;version=13:07 2012/2/21
 ;author=KwokTree.OrzFly.jason_jiang
 
 #导致起点仙侠小说页面部分图片无法正常加载！
@@ -8,7 +8,7 @@ $DELETE
 #导致安卓应用 千寻影视无法加载播放视频！
 jump.synacast.com
 $DELETE
-
+13:06 2012/2/21
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
 $DELETE
@@ -82,6 +82,7 @@ $DELETE
 dp.ugc.pps.tv
 dy.ugc.pps.tv
 dyn.ugc.pps.tv
+y.pps.tv
 $DELETE
 
 #导致PPTV搜索时无法完整显示结果的问题。
