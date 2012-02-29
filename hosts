@@ -1,5 +1,5 @@
 
-;version=7:50 2012/2/29
+;version=21:41 2012/2/29
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX 智能转向
@@ -699,6 +699,8 @@ fe80::1%lo0	localhost
 #网易163
 127.0.0.1 analytics.ws.126.net
 127.0.0.1 img1.126.net
+127.0.0.1 stat.ws.126.net
+127.0.0.1 flv.bn.netease.com
 127.0.0.1 img2.126.net
 127.0.0.1 listen.ph.126.net
 127.0.0.1 adc.163.com
@@ -1995,6 +1997,8 @@ fe80::1%lo0	localhost
 127.0.0.1 v2.tjj.com
 127.0.0.1 xiazai.xiazaiba.com
 127.0.0.1 www.114la.com
+127.0.0.1 un.i.116.com
+127.0.0.1 un.v.116.com
 #木蚂蚁
 127.0.0.1 js.mumayi.net
 #Xdowns
@@ -2023,6 +2027,8 @@ fe80::1%lo0	localhost
 127.0.0.1 33.autohome.com.cn
 127.0.0.1 adshow.che168.com
 127.0.0.1 pv.che168.com
+#太平洋汽车网
+127.0.0.1 count.pcauto.com.cn
 #中国汽车网
 127.0.0.1 chinacarsafp.allyes.com
 @HostsX 国内站点广告/视频类网站
@@ -2073,6 +2079,8 @@ fe80::1%lo0	localhost
 127.0.0.1 track.video.qiyi.com
 127.0.0.1 uestat.video.qiyi.com
 127.0.0.1 focusbaiduafp.allyes.com
+127.0.0.1 pub.htwisdom.com
+127.0.0.1 pub.buzz-time.com.cn
 127.0.0.1 imgc.unlitui.com
 127.0.0.1 bsg.unlitui.com
 127.0.0.1 b.scorecardresearch.com
@@ -11004,304 +11012,3 @@ fe80::1%lo0	localhost
 127.0.0.1 yourchinalove.com
 127.0.0.1 yz.szgla.com
 127.0.0.1 yzol.szgla.com
-#FromJinshanUrl
-bbs.838998.com
-bbs.fcgame.com
-hao.91ok.com
-love.qingquzhuanchang.com
-myc.qnm138.com
-vipdx.06tu.com
-www.0006gp.com
-www.001bank.com
-www.004006.com
-www.006088.com
-www.008688.com
-www.0105588.com
-www.015wnag.com
-www.02199678.com
-www.07118.com
-www.093456.com
-www.09pp.com
-www.110008.com
-www.118678.com
-www.122788.com
-www.133122.com
-www.136444.com
-www.14499.com
-www.160dh.com
-www.1668.qqu5.com
-www.167567.com
-www.16812.com
-www.1689555.com
-www.192yy.com
-www.200355.com
-www.2183779.com
-www.221188777.com
-www.2225222.com
-www.2233168.com
-www.226wz.com
-www.229ball.com
-www.233211.com
-www.234001.com
-www.24559.com
-www.263999.com
-www.279888.com
-www.27gp.com
-www.27yx.com
-www.28259.com
-www.311188.com
-www.31357.com
-www.31432.com
-www.315goubao.com
-www.3311678.com
-www.33297.com
-www.334555.com
-www.338668.com
-www.338738.com
-www.348999.com
-www.355255.com
-www.355399.com
-www.3608.com
-www.366777.com
-www.369188.com
-www.37278.com
-www.37418.com
-www.37668.com
-www.39677.com
-www.3d0088.com
-www.3d148.com
-www.3d4999.com
-www.3d586.com
-www.3g300.com
-www.40878.com
-www.444345.com
-www.44447777.com
-www.444zzz.com
-www.45198.com
-www.48345.com
-www.49499.com
-www.50787.com
-www.520xiaole.com
-www.52679.com
-www.52wmgj.com
-www.533118.com
-www.533533.com
-www.55228.com
-www.552999.com
-www.55496.com
-www.555089.com
-www.555345.com
-www.556787.com
-www.558818.com
-www.561111.com
-www.566499.com
-www.566936.com
-www.567307.com
-www.5689988.com
-www.57286.com
-www.576166.com
-www.58829.com
-www.588333.com
-www.588456.com
-www.58846.com
-www.59130.com
-www.59206.com
-www.5996.com
-www.5999888.com
-www.5hao123.com
-www.61249.com
-www.616658.com
-www.64608.com
-www.65149.com
-www.654555.com
-www.65884.com
-www.66238.com
-www.663303.com
-www.663456.com
-www.666128.com
-www.666239.com
-www.668805.com
-www.676666.com
-www.67776888.com
-www.678797.com
-www.68302.com
-www.684888.com
-www.69178.com
-www.69905.com
-www.699998.com
-www.6k68.com
-www.70686.com
-www.71127.com
-www.73368.com
-www.736760.com
-www.755678.com
-www.767788.com
-www.767989.com
-www.777488.com
-www.777525.com
-www.777737.com
-www.778913.com
-www.786888.com
-www.789337.com
-www.7899cpw.com
-www.795888.com
-www.798222.com
-www.798988.com
-www.800989.com
-www.802803.com
-www.80559.com
-www.80e3.com
-www.811999.com
-www.81209.com
-www.828181.com
-www.833736.com
-www.83905.com
-www.849999.com
-www.85762.com
-www.868778.com
-www.8724r.com
-www.877168.com
-www.87769.com
-www.8832888.com
-www.883300.com
-www.888165.com
-www.888511.com
-www.888978.com
-www.8899dd.com
-www.88fg.com
-www.89790.com
-www.898689.com
-www.899399.com
-www.900788.com
-www.90337.com
-www.91234.com
-www.93zq.com
-www.960888.com
-www.966678.com
-www.977677.com
-www.988733.com
-www.988789.com
-www.989666.com
-www.996h.com
-www.998828.com
-www.998876.com
-www.9m88.com
-www.bio2001.com
-www.bj-gj120.com
-www.bj975.com
-www.bjkm88.com
-www.bjxh88.com
-www.bo1188.com
-www.btcha.com
-www.cctv9866.com
-www.cctvtz19.com
-www.ccv1106.com
-www.china900.com
-www.cp1678.com
-www.cp2298.com
-www.cp6698.com
-www.cp8555.com
-www.dh.cooole.com
-www.dlqvod.com
-www.dnf2020.com
-www.evwin.com
-www.expotuan.com
-www.fc18188.com
-www.fsgb2011.com
-www.gd2sqc.com
-www.gouboy.com
-www.gp0885.com
-www.gp33158.com
-www.gp7288.com
-www.gp8111.com
-www.gs799.com
-www.gupiao889.com
-www.gw488.com
-www.hao253.com
-www.hao420.com
-www.hcmtc168.com
-www.hgjtq.com
-www.hk3377.com
-www.hszq88.com
-www.ht685.com
-www.huataixindai.com
-www.hxzqwang.com
-www.hy878.com
-www.ji28.com
-www.jk686.com
-www.jxdk88.com
-www.jyb168.com
-www.k88888.com
-www.k907.com
-www.klwz365.com
-www.kukankan.com
-www.kunmingbanzheng.com
-www.let8.com
-www.lhc2010.com
-www.lian2sc.com
-www.lichang88.com
-www.lyzq2005.com
-www.lzjgaoyao.com
-www.mhy1.com
-www.mkgzb.com
-www.mnxd88.com
-www.pfbhosp.com
-www.ps928.com
-www.qc618.com
-www.qn678.com
-www.qq.com.trezs.com
-www.qq2010pv.com
-www.qqcomg1.com
-www.qqku5.com
-www.qt002.com
-www.qt468.com
-www.qt7878.com
-www.qunnlu.com
-www.ra738.com
-www.ruishixdgs.com
-www.sdnel.com
-www.sh45678.com
-www.shgt778.com
-www.sm00601.com
-www.soft60.com
-www.sports138.com
-www.stock85.com
-www.szl999.com
-www.t998t.com
-www.tbsxg.com
-www.th518.com
-www.tjgp.com
-www.tobbto.com
-www.toorpne1.com
-www.tsit315.com
-www.twkj16.com
-www.vip-l0.com
-www.vipqqz.com
-www.w1kj.com
-www.wadun.com
-www.wanhongw.com
-www.welcome.41533.com
-www.wywqq.com
-www.wz567.com
-www.xg44.com
-www.xg7979.com
-www.xiaourl.com
-www.xindatz.com
-www.xn8-vix.com
-www.xuesuo.com
-www.xwodi888.com
-www.xysbao.com
-www.ycw1118.com
-www.yes125.com
-www.yhynl.com
-www.ykjtrj.com
-www.yokucn.com
-www.yp68.com
-www.yuer123.com
-www.yxjidi.com
-www.zhcw188.com
-www.zlbm120.com
-www.zq550.com
-www.zs87.com
-www.zyzj168.com
-wz58.com
