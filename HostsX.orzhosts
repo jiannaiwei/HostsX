@@ -1,5 +1,5 @@
 
-;version=21:41 2012/2/29
+;version=22:05 2012/2/29
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX 智能转向
@@ -2068,16 +2068,10 @@ fe80::1%lo0	localhost
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 #i奇艺
-0.0.0.0 api.t.qiyi.com
-0.0.0.0 meta.video.qiyi.com
 0.0.0.0 minisite.qiyi.com
-0.0.0.0 msg.video.qiyi.com
 0.0.0.0 policy.cupid.qiyi.com
-0.0.0.0 rec.inter.qiyi.com
 0.0.0.0 show.cupid.qiyi.com
 0.0.0.0 track.cupid.qiyi.com
-0.0.0.0 track.video.qiyi.com
-0.0.0.0 uestat.video.qiyi.com
 0.0.0.0 focusbaiduafp.allyes.com
 0.0.0.0 pub.htwisdom.com
 0.0.0.0 pub.buzz-time.com.cn
