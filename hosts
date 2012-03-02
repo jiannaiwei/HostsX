@@ -1,5 +1,5 @@
 
-;version=22:05 2012/2/29
+;version=19:51 2012/3/2
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÖÇÄÜ×ªÏò
@@ -1660,7 +1660,6 @@ fe80::1%lo0	localhost
 127.0.0.1 in.t.mop.com
 127.0.0.1 ovsmbt.mop.com
 127.0.0.1 p4pad.mop.com
-127.0.0.1 pub.mop.com
 127.0.0.1 stat.ent.mop.com
 127.0.0.1 tj.itv.mop.com
 127.0.0.1 tj.mop.com

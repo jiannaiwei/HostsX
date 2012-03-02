@@ -1,4 +1,4 @@
-;version=13:07 2012/2/21
+;version=19:49 2012/3/2
 ;author=KwokTree.OrzFly.jason_jiang
 
 #导致起点仙侠小说页面部分图片无法正常加载！
@@ -8,9 +8,13 @@ $DELETE
 #导致安卓应用 千寻影视无法加载播放视频！
 jump.synacast.com
 $DELETE
-13:06 2012/2/21
+
 #导致776站点的评论框无法加载或显示不正常！
 static.766.com
+$DELETE
+
+#导致Mop主页部分图片无法正常显示！
+pub.mop.com
 $DELETE
 
 #导致导致http://ces.zol.com.cn/页面无法正常显示。
