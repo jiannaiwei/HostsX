@@ -2640,12 +2640,16 @@ fe80::1%lo0	localhost
 0.0.0.0 3dns-3.adobe.com
 0.0.0.0 activate-sea.adobe.com
 0.0.0.0 activate-sjc0.adobe.com
+0.0.0.0 activate.adobe.com
 0.0.0.0 activate.wip3.adobe.com
 0.0.0.0 adobe-dns-2.adobe.com
 0.0.0.0 adobe-dns-3.adobe.com
 0.0.0.0 adobe-dns.adobe.com
+0.0.0.0 adobe.activate.com
+0.0.0.0 adobeereg.com
 0.0.0.0 ereg.adobe.com
 0.0.0.0 ereg.wip3.adobe.com
+0.0.0.0 hl2rcv.adobe.com
 0.0.0.0 practivate.adobe.com
 0.0.0.0 wip3.adobe.com
 0.0.0.0 wwis-dubc1-vip60.adobe.com
