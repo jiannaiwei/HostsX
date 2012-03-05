@@ -1,5 +1,5 @@
 
-;version=21:55 2012/3/3
+;version=19:14 2012/3/5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly
 @HostsX ÖÇÄÜ×ªÏò
@@ -7991,6 +7991,7 @@ fe80::1%lo0	localhost
 127.0.0.1 t2.70e.com
 127.0.0.1 www.70e.com
 #7794
+127.0.0.1 code.7794.com
 127.0.0.1 www.7794.com
 127.0.0.1 js.7794.com
 #77869
