@@ -3,30 +3,31 @@
 
 /*
 Name: /广告过滤
-Version: 4.23
-Author: KwokTree.googlecode.com
+Version: 4.265
+Author: KwokTree
+Url: Hostsx.googlecode.com
 Description: MayBe a better User CSS Help U.
 */
 
 /* ADvertisment */
-div[class="ad"],div[class^="ad1"],div[class^="ad2"],div[class^="ad_"],
+div[class="ad"],div[class="adv"],div[class^="ad_"],div[class^="adj"],div[class^="adx"],
 div[class^="AD"],div[class^="ads"],div[class$="_ads"],div[class*="_ads"]{
 display: none !important;
 	}
-div[class^="ad3"],div[class^="ad4"],div[class^="ad5"],div[class^="ad6"],
-div[class^="ad7"],div[class^="ad8"],div[class^="ad9"],div[class^="ad0"]{
+div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[class^="ad4"],div[class^="ad5"],
+div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"],div[class^="ad0"]{
 display: none !important;
 	}
-div[class="adv"],div[class="advp"],div[class^="adj"],div[class^="adx"],div[class="adbanner"],
-div[class^="adarea"],div[class^="adArea"],div[class^="adList"],div[class^="adlist"]{
+div[class^="ad-box"],div[class^="adbox"],div[class^="ad_box"],div[class^="adarea"],div[class^="adArea"],
+div[class^="ad-block"],div[class^="adBlock "],div[class$="ad_block"],div[class^="adList"],div[class^="adlist"]{
 display: none !important;
 	}
-div[class="ad-bar"],div[class="ad-button"],div[class^="ad-block"],div[class^="adBlock "],div[class$="ad_block"],
-div[class^="adSpace"],div[id="ad-flash"],div[class^="ad-box"],div[class^="adbox"],div[class^="ad_box"]{
+div[class="ad-bar"],div[class="ad-button"],div[class^="ad-banner"],div[class="adbanner"],
+div[class="advarticle"],div[class="advp"],div[class^="adSpace"],div[id="ad-flash"]{
 display: none !important;
 	}
-div[id$="AD"],div[id^="ad-"],div[id$="Adv"],div[id^="adv_"],div[id*="-ad-"],
-div[id*="-ads-"],div[id^="ads-"],div[id^="ads_"],div[id$="_ads"],div[id="ADAREA"]{
+div[id$="AD"],div[id^="ad-"],div[id$="Adv"],div[id^="adv_"],div[id*="-ad-"],div[id="ad760"],
+div[id*="-ads-"],div[id^="ads-"],div[id^="ads_"],div[id$="_ads"],div[id^="ADV_"],div[id="ADAREA"]{
 display: none !important;
 	}
 div[align="center"][id^="ad"],div[id^="AD"][style*="w"],center>div[id^="AD"],[id$="Ad"],div[id*="0_AD_"],
@@ -37,7 +38,7 @@ div[class$="adclass"],div[class^="adclass"],div[class^="adBlk ad"],div[class*="a
 div[class^="adFrame"],div[class^="adindex"],div[class^="adposter"],div[class^="adset_"]{
 display: none !important;
 	}
-div[class="business"],div[class="flashNews"],div[class^="other_adv"],
+div[class="business"],div[class="flashNews"],div[class^="other_adv"],div[class^="ad-9"],
 div[id="clickbg"],div[id*="allyesAdv"],div[id="push-down-ad"]{
 display: none !important;
 	}
@@ -47,7 +48,7 @@ div[class="ada"],div[class*="AdTop-"],div[class="ad_top"],div[class="tad"],div[c
 div[class^="topAd"],div[class^="topad"],div[class^="top_ad"],div[class$="topa_d"]{
 display: none !important;
 	}
-div[class^="nav-ad"],div[id$="head_ad"],div[id="adTop"],div[id="navads"],
+div[class^="nav-ad"],div[id$="head_ad"],div[id="adTop"],div[id="navads"],div[class^="float-ad-"],
 div[id="toplink"],div[id="topmad"],div[id^="topad"]{
 display: none !important;
 	}
@@ -61,12 +62,12 @@ display: none !important;
 	}
 
 /* GG */
-div[class^="gg_"],div[class*="gg-"],div[class^="gg3"],ul[class^="gg"],div[class$="-gg"],
-span[class^="gg"],div[class^="ggAD"]{
+div[class="gg"],div[class^="gg_"],div[class*="gg-"],div[class^="gg3"],div[class$="-gg"],
+div[class^="ggAD"],div[class^="topgg"],ul[class^="gg"],span[class^="gg"]{
 display: none !important;
 	}
-div[class="ggarea clearfix"],table[class="header_gg"],div[class$="guanggao"],div[id="hdggs"],
-div[id^="gg"][style$="px"]{
+div[class="ggSideBox"],div[class="ggBanner"],div[class="ggarea clearfix"],table[class="header_gg"],
+div[class$="guanggao"],div[id="hdggs"],div[id^="gg"][style$="px"]{
 display: none !important;
 	}
 
@@ -83,11 +84,12 @@ td[id^="adp_"],td[class="adslot"],,td[class="ad"],
 tr[class="ad"],tr[class^="ad_"],p[class="ad"],a[id*="_adbox"]{
 display: none !important;
 	}
-table[class="adbottom"],table[class="adNone"],table[id="ShowAD"],span[id^="ad_"],span[class="ads_sponcer"],
-span[class="adlink"],span[id="baidu"],span[id="idc"],span[id="zjtop"],span[class="bdad"],span[id^="ptcmsad"]{
+span[id^="ad_"],span[class="adlink"],span[class="ads_sponcer"],span[class="bdad"],span[id="baidu"],
+span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"]{
 display: none !important;
 	}
-img[id^="ad"],img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
+table[class="adbottom"],table[class="adNone"],table[id="ShowAD"],img[id^="ad"],
+img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
 display: none !important;
 	}
 ul[class="ad"],ul[class="adwindow"],ul[class*="_ad"],ul[id*="listAD"],ul[class*="textad"],
@@ -157,7 +159,7 @@ div[class="tips_player"],div[id="browse_popularize"]{display:none !important}
 sohuadcode {display:none !important}
 div[class^="aa_"][id^="gg"],div[id^="b"][class^="cl970"],div[style="margin:0 0 10px 0;height:170px;padding-top:10px;border-top:1px solid #cdcdcd;"]{display:none !important}
 div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
-div[id^="ifengAe"],div[id*="_flash_click_"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
+div[id^="smExtObj"],div[id^="ifengAe"],div[id*="_flash_click_"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
 div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"],div[id="sp"],LI[id="sp"]{display:none !important}
 div[class*="l_qq_com"],div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],embed[name="flash_focus"],div[id="followall_mod"]{display:none !important}
-div[class="sleekadbubble section squareBrowsead ch"]{display:none !important}
+div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
