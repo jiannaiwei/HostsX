@@ -1,5 +1,5 @@
 
-;version=22:31 2012/3/9
+;version=22:07 2012/3/12
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.linjimmy
 @HostsX ÖÇÄÜ×ªÏò
@@ -2380,6 +2380,7 @@ fe80::1%lo0	localhost
 0.0.0.0 up.pplive.com
 0.0.0.0 wafp.pptv.com
 0.0.0.0 wstat.pptv.com
+0.0.0.0 asimgs.pplive.cn
 0.0.0.0 pp2.as.pplive.cn
 0.0.0.0 drag.synacast.com
 0.0.0.0 h.synacast.com
