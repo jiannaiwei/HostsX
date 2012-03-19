@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 4.265
+Version: 4.29
 Author: KwokTree
 Url: Hostsx.googlecode.com
 Description: MayBe a better User CSS Help U.
@@ -39,7 +39,7 @@ div[class^="adFrame"],div[class^="adindex"],div[class^="adposter"],div[class^="a
 display: none !important;
 	}
 div[class="business"],div[class="flashNews"],div[class^="other_adv"],div[class^="ad-9"],
-div[id="clickbg"],div[id*="allyesAdv"],div[id="push-down-ad"]{
+div[id="adList"],div[id="clickbg"],div[id*="allyesAdv"],div[id="push-down-ad"]{
 display: none !important;
 	}
 
@@ -49,7 +49,7 @@ div[class^="topAd"],div[class^="topad"],div[class^="top_ad"],div[class$="topa_d"
 display: none !important;
 	}
 div[class^="nav-ad"],div[id$="head_ad"],div[id="adTop"],div[id="navads"],div[class^="float-ad-"],
-div[id="toplink"],div[id="topmad"],div[id^="topad"]{
+div[id="toplink"],div[id="topmad"],div[id^="topad"],div[id^="top_ad"]{
 display: none !important;
 	}
 div[id^="AdRight"],div[class^="rightad"],div[id$="rightad"],div[class="RightAD"],div[class="adrr"],
@@ -88,7 +88,7 @@ span[id^="ad_"],span[class="adlink"],span[class="ads_sponcer"],span[class="bdad"
 span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"]{
 display: none !important;
 	}
-table[class="adbottom"],table[class="adNone"],table[id="ShowAD"],img[id^="ad"],
+table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],img[id^="ad"],
 img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
 display: none !important;
 	}
@@ -128,6 +128,7 @@ SPAN[class="transparent"]{display: none !important;}
 font[color="#EFF0EB"][style^="color:"]{display:none !important}
 /* 晋江原创 */
 font[color*="FAE"]{display:none !important}
+font[style="font-size:10px;color:#b4b4b4"]{display:none !important}
 
 /* 浮动过滤 */
 embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[class^="adFloat"]{display: none !important;}
