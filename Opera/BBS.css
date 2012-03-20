@@ -1,0 +1,28 @@
+﻿@charset "utf-8";
+/*
+Name: /BBS看帖整理
+Description: MayBe a Better Forum CSS.
+*/
+
+.postprofile dd ,.postprofile dt *:nth-child(n+2)
+{
+display:none !important;
+}
+.postbody .content{
+min-height:0px !important;
+}
+.postprofile
+{
+margin:0px !important;
+}
+.postbody,.postprofile dt
+{
+margin-bottom:0px !important;
+margin-top:0px !important;
+}
+td[class="postcontent postbottom"]{
+min-height:0px !important;
+}
+
+#footer,#header,div[class="quote"],div[class="postact s_clear"],td[class="postcontent postbottom"]{display: none !important;}
+.modaction,.useraction,dl[class="newrate"],td[class="plc plm"],td[class="postauthor"]{display: none !important;}

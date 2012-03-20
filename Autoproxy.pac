@@ -189,8 +189,7 @@ var adblocklist = new Array(
 for (i in patterns) {
 	if(shExpMatch(url.toLowerCase(),"*" + patterns[i].toLowerCase() + "*")){return port_1;};
 	};
-//解除download误屏蔽
-	if (shExpMatch(url, '*download*')) return 'DIRECT';
+
 for (j in patterns2) {
 	if(shExpMatch(url.toLowerCase(),"*" + patterns2[j].toLowerCase() + "*")){return port_2;};
 	};
