@@ -196,7 +196,7 @@ for (j in patterns2) {
 	};
 
 for (k in adblocklist) {
-//	if(shExpMatch(url.toLowerCase(),"*" + adblocklist[k].toLowerCase() + "*")){return Blackhole;};
+	if(shExpMatch(url.toLowerCase(),"*" + adblocklist[k].toLowerCase() + "*")){return Blackhole;};
 	};
 
 	return "DIRECT";
