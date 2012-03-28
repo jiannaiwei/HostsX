@@ -21,7 +21,6 @@ if exist %ComSpec% (set etc=%windir%\system32\drivers\etc&set hosts=%windir%\sys
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set str=%date:~0,4%%date:~5,2%00
 set k=taskkill /f /t /im
-set tks=简桢祥、邹萌、蔡必铨、孟宪昌、牛延强
 set qt=QuietUpdate.vbs
 if not exist %etc%\Bakup\ md %etc%\Bakup\ >nul
 call :unlock
@@ -127,7 +126,7 @@ ipconfig /flushdns>nul 2>nul
 goto:eof
 
 :thanks
-start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：%tks%的捐赠，您的支持，我的动力！】"
+start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强；的捐赠，您的支持，我的动力！】"
 goto:eof
 
 :cleansoft
