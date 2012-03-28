@@ -1,5 +1,5 @@
 @echo off
-set ver=3.7
+set ver=3.71
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -112,7 +112,7 @@ if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 &goto gui
 if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% &goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 26 goto feedback
-if %y% equ 27 if %x% gtr  31 if %x% lss 50 start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢您：%tks%的捐赠，您的支持我的动力！】"&goto gui
+if %y% equ 27 if %x% gtr  31 if %x% lss 50 call :thanks&goto gui
 goto mouse
 
 :dns
@@ -124,6 +124,10 @@ del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
 del /f /s /q "%userprofile%\cookies">nul 2>nul
 del /f /s /q "%userprofile%\recent">nul 2>nul
 ipconfig /flushdns>nul 2>nul
+goto:eof
+
+:thanks
+start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：%tks%的捐赠，您的支持，我的动力！】"
 goto:eof
 
 :cleansoft
@@ -1856,9 +1860,8 @@ echo Repaired&cls&goto gui
 mshta vbscript:msgbox("如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)
 rem Del /f /q "%ALLUSERSPROFILE%\Desktop\Opera*.lnk"
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
-msg %username% /time:12 "如果您觉得SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我，感谢您！"
-start iexplore https://me.alipay.com/vokins
-exit
+msg %username% /time:12 "如果您觉得SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
+call :thanks&exit
 
 :opup
 if not exist %a%\wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
