@@ -1,12 +1,28 @@
 ﻿function FindProxyForURL(url, host){
 
-var port_1="PROXY 127.0.0.1:8087"; //想换代理在这里改端口，不用重启的
+var port_1="DIRECT; PROXY 127.0.0.1:1998"; //想换代理在这里改端口，不用重启的
 
-var port_2="PROXY 127.0.0.1:8000;DIRECT";
+var port_2="PROXY 127.0.0.1:1998";
 
 var patterns = new Array(
-//下面可以添加你需要用代理的网站地址
+//墙与未墙之间
+"wikibooks.org",
+"wikileaks.info",
+"wikileaks.org",
+"wikimedia.org",
+"wikipedia.org",
+"wikisource.org",
+"yahoo.com",
+"www.google.com",
+"www.google.com.hk",
+"webcache.googleusercontent.com"
+);
 
+var patterns2 = new Array(
+//明确的穿，待瘦身
+
+"facebook.com",
+"fbcdn.net",
 "174.37.164.71/image/",
 "70.38.64.248/image/",
 "aol.com",
@@ -38,8 +54,6 @@ var patterns = new Array(
 "dropbox.com",
 "dwnews.com",
 "eyny.com",
-"facebook.com",
-"fbcdn.net",
 "fc2.com",
 "feedburner.com",
 "ff.im",
@@ -105,16 +119,8 @@ var patterns = new Array(
 "video.google.com",
 "vimeo.com",
 "voanews.com",
-"webcache.googleusercontent.com",
 "websitepulse.com",
 "wenxuecity.com",
-"wikia.com",
-"wikibooks.org",
-"wikileaks.info",
-"wikileaks.org",
-"wikimedia.org",
-"wikipedia.org",
-"wikisource.org",
 "wordpress.com",
 "wordpress.org",
 "worldjournal.com",
@@ -124,13 +130,7 @@ var patterns = new Array(
 "wpoforum.com",
 "wretch.cc",
 "wsj.com",
-"www.google.com",
-"www.google.com.hk",
 "xuite.net",
-"yahoo.co.jp",
-"yahoo.com",
-"yahoo.com.hk",
-"yahoo.com.tw",
 "yam.com",
 "yamedia.tw",
 "yimg.com",
@@ -141,12 +141,6 @@ var patterns = new Array(
 "zdnet.com.tw",
 "ziddu.com",
 "ytimg.com"
-
-);
-
-var patterns2 = new Array(
-//下面可以添加上面代理不管的网站地址
-
 
 
 );
@@ -167,11 +161,11 @@ var adblocklist = new Array(
 "/ad/",
 "/ads",
 "/gg/",
-"atm.youku.com",
-"hz.youku.com",
-"nc.youku.com",
-"stat.youku.com",
-"doubleclick",
+"*atm.youku.com*",
+"*hz.youku.com*",
+"*nc.youku.com*",
+"*stat.youku.com*",
+"*doubleclick*",
 "/gg.",
 "/gg?.",
 ".gg?.",
@@ -199,5 +193,5 @@ for (k in adblocklist) {
 	if(shExpMatch(url.toLowerCase(),"*" + adblocklist[k].toLowerCase() + "*")){return Blackhole;};
 	};
 
-	return "DIRECT";
+	{return port_1;};
 };
