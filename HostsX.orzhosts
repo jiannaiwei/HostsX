@@ -1,6 +1,6 @@
 
 
-;version=12:01 2012-4-3
+;version=9:54 2012-4-6
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -9779,6 +9779,12 @@ fe80::1%lo0	localhost
 0.0.0.0 taobao.linezing.com
 0.0.0.0 tongji.linezing.com
 0.0.0.0 www.linezing.com
+#Soua
+0.0.0.0 code1.soua.com
+0.0.0.0 code2.soua.com
+0.0.0.0 code3.soua.com
+0.0.0.0 www.soua.com
+0.0.0.0 union.soua.com
 #Ê¢´óÍ³¼Æ
 0.0.0.0 feo.staticsdo.com
 0.0.0.0 adrs.sdo.com
