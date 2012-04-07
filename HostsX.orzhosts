@@ -1,6 +1,5 @@
 
-
-;version=9:54 2012-4-6
+;version=21:05 2012/4/7
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -9053,12 +9052,19 @@ fe80::1%lo0	localhost
 #Adchina
 0.0.0.0 mobile.adchina.com
 0.0.0.0 www.adchina.com
-#AdMob
 #Adigou
 0.0.0.0 adigou.com
 0.0.0.0 x.adigou.com
 0.0.0.0 igou.cn
 0.0.0.0 caipiao.igou.cn
+#AdMob
+0.0.0.0 api.admob.com
+0.0.0.0 mm.admob.com
+0.0.0.0 r.admob.com
+0.0.0.0 mmv.admob.com
+0.0.0.0 media.admob.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.com
 #Adtouchnetwork
 0.0.0.0 a1.adtouchnetwork.net
 0.0.0.0 ad.adtouchnetwork.net
@@ -9070,6 +9076,10 @@ fe80::1%lo0	localhost
 #Adwo
 0.0.0.0 r2.adwo.com
 0.0.0.0 static.adwo.com
+#Adsage
+0.0.0.0 config.adsage.com
+0.0.0.0 mobi.adsage.com
+0.0.0.0 trc.adsage.com
 #Airad
 0.0.0.0 ad.airad.com
 0.0.0.0 hermes.airad.com
@@ -9098,10 +9108,14 @@ fe80::1%lo0	localhost
 0.0.0.0 d18q5nc9wflibl.cloudfront.net
 0.0.0.0 d2bgg7rjywcwsy.cloudfront.net
 0.0.0.0 d3oltyb66oj2v8.cloudfront.net
+#Cooguo
+0.0.0.0 www.cooguo.com
+0.0.0.0 download.cooguo.com
 #Crispadvertising
 0.0.0.0 cdn1.crispadvertising.com
 0.0.0.0 cdn2.crispadvertising.com
 #Dianru
+0.0.0.0 api.dianru.com
 0.0.0.0 d.dianru.com
 0.0.0.0 static.dianru.com
 0.0.0.0 www.dianru.com
@@ -9115,8 +9129,9 @@ fe80::1%lo0	localhost
 0.0.0.0 flurry.com
 0.0.0.0 www.flurry.com
 #Guohead
-0.0.0.0 mob.guohead.com
+0.0.0.0 ads.guohead.com
 0.0.0.0 met.guohead.com
+0.0.0.0 mob.guohead.com
 #inmobi
 0.0.0.0 i.w.inmobi.com
 0.0.0.0 r.w.inmobi.com
@@ -9129,9 +9144,13 @@ fe80::1%lo0	localhost
 #Madhouse
 0.0.0.0 www.madhouse.cn
 #Madserving
+0.0.0.0 blk.adsmogo.org
 0.0.0.0 cfg.adsmogo.com
+0.0.0.0 cfg.adsmogo.net
 0.0.0.0 imp.adsmogo.com
+0.0.0.0 imp.adsmogo.org
 0.0.0.0 req.adsmogo.com
+0.0.0.0 req.adsmogo.org
 0.0.0.0 ad1.madserving.cn
 0.0.0.0 appsrv1.madserving.cn
 0.0.0.0 appsrv1.madserving.com
@@ -9163,6 +9182,7 @@ fe80::1%lo0	localhost
 0.0.0.0 img.ads3.mojiva.com
 0.0.0.0 img.ads4.mojiva.com
 #Mydas
+0.0.0.0 androidsdk.ads.mp.mydas.mobi
 0.0.0.0 bank01.ads.dt.mydas.mobi
 0.0.0.0 bank01.ads.mp.mydas.mobi
 0.0.0.0 bank02.ads.dt.mydas.mobi
@@ -9206,6 +9226,9 @@ fe80::1%lo0	localhost
 0.0.0.0 mdn2.phluantmobile.net
 0.0.0.0 mdn3.phluantmobile.net
 0.0.0.0 mdn3origin.phluantmobile.net
+#QQ
+0.0.0.0 mw.app.qq.com
+0.0.0.0 adpm.app.qq.com
 #Smaato
 0.0.0.0 c01.smaato.net
 0.0.0.0 c02.smaato.net
@@ -9292,11 +9315,16 @@ fe80::1%lo0	localhost
 0.0.0.0 vodone.com
 #Vpon
 0.0.0.0 cn.ad.adon.vpon.com
+0.0.0.0 cn.api.vpon.com
 0.0.0.0 cn.img.adon.vpon.com
 #Wapsx
 0.0.0.0 ads.waps.cn
 0.0.0.0 ads.wapx.cn
 0.0.0.0 app.wapx.cn
+0.0.0.0 push.wapx.cn
+#Winads
+0.0.0.0 www.winads.cn
+0.0.0.0 down.winads.cn
 #Wiyun
 0.0.0.0 d.wiyun.com
 0.0.0.0 wiyun.com
@@ -9318,6 +9346,7 @@ fe80::1%lo0	localhost
 #Youmi
 0.0.0.0 ads.youmi.net
 0.0.0.0 aos.gw.youmi.net
+0.0.0.0 aos.wall.youmi.net
 0.0.0.0 go.youmi.net
 0.0.0.0 gw.youmi.net
 0.0.0.0 notifiter.youmi.net
@@ -9331,31 +9360,17 @@ fe80::1%lo0	localhost
 #WapSite
 0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
-0.0.0.0 ads.lmmob.com
-0.0.0.0 d.gfan.com
-0.0.0.0 dl.91rb.com
-0.0.0.0 em.kongzhong.com
-0.0.0.0 hi.fywap.com
-0.0.0.0 hot.icittys.com
-0.0.0.0 static.189works.com
-0.0.0.0 test.adpooh.com
-0.0.0.0 wap.cellufun.com
-0.0.0.0 www.adtouchnetwork.com
-0.0.0.0 www.adview.cn
-0.0.0.0 ads.namiflow.com
-0.0.0.0 ads.admarvel.com
-0.0.0.0 m.askalok.com
-0.0.0.0 m.millennialmedia.com
-0.0.0.0 content.mobango.com
-0.0.0.0 www.spjoy.com
-0.0.0.0 www.stickylogic.com
 0.0.0.0 ad.where.com
+0.0.0.0 ads.admarvel.com
+0.0.0.0 ads.lmmob.com
 0.0.0.0 ads.mopub.com
 0.0.0.0 ads.n-ws.org
+0.0.0.0 ads.namiflow.com
 0.0.0.0 ads.smartdevicemedia.com
 0.0.0.0 ads.xlxtra.com
 0.0.0.0 adserver.ubiyoo.com
 0.0.0.0 adultmoda.com
+0.0.0.0 api.suizong.com
 0.0.0.0 api.yp.com
 0.0.0.0 assets.cntdy.mobi
 0.0.0.0 c753738.r38.cf2.rackcdn.com
@@ -9363,16 +9378,34 @@ fe80::1%lo0	localhost
 0.0.0.0 cdn.mdotm.com
 0.0.0.0 cdn.ons.ms
 0.0.0.0 cdn.vdopia.com
+0.0.0.0 content.mobango.com
+0.0.0.0 d.gfan.com
 0.0.0.0 display-img.g.atti.com
+0.0.0.0 dl.91rb.com
+0.0.0.0 dp2.devopenserv.com
 0.0.0.0 edge.reporo.net
+0.0.0.0 em.kongzhong.com
+0.0.0.0 ex.puata.info
+0.0.0.0 hi.fywap.com
+0.0.0.0 hot.icittys.com
 0.0.0.0 i.tapit.com
 0.0.0.0 images.millennialmedia.com
 0.0.0.0 images.mpression.net
 0.0.0.0 img.ads.taptapnetworks.com
 0.0.0.0 m.adsymptotic.com
+0.0.0.0 m.askalok.com
+0.0.0.0 m.millennialmedia.com
 0.0.0.0 media.motrixi.com
 0.0.0.0 medrx.sensis.com.au
+0.0.0.0 mws.pubsage.com
 0.0.0.0 rs-staticart.ybcdn.net
+0.0.0.0 static.189works.com
+0.0.0.0 test.adpooh.com
+0.0.0.0 wap.cellufun.com
+0.0.0.0 www.adtouchnetwork.com
+0.0.0.0 www.adview.cn
+0.0.0.0 www.spjoy.com
+0.0.0.0 www.stickylogic.com
 @HostsX Í³¼Æ¸ú×ÙÆÁ±Î
 #51La
 0.0.0.0 img.users.51.la
@@ -11147,4 +11180,3 @@ fe80::1%lo0	localhost
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
 0.0.0.0 www.168links.com
-
