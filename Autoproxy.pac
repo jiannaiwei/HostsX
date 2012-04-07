@@ -40,6 +40,7 @@ var patterns = new Array(
 "eyny.com",
 "facebook.com",
 "fbcdn.net",
+"akamaihd.net",
 "fc2.com",
 "feedburner.com",
 "ff.im",

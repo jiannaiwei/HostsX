@@ -23,6 +23,7 @@ var patterns2 = new Array(
 
 "facebook.com",
 "fbcdn.net",
+"akamaihd.net",
 "174.37.164.71/image/",
 "70.38.64.248/image/",
 "aol.com",
