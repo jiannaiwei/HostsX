@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 4.3
+Version: 4.32
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Description: MayBe a better User CSS Help U.
@@ -98,9 +98,9 @@ display: none !important;
 	}
 
 /* 论坛广告和外链 */
-font[class="jammer"],span[style="display:none"],span[style="font-size: 0pt"]{display: none;}
-font[size="1"],fieldset[style*=”:1px dashed“]{display:none !important}
-div[class="tac mb5"],td[class="f_one black tac"],div[class^="wp a_"]{display: none !important;}
+font[class="jammer"],span[style="display:none"],span[style="font-size: 0pt"],font[color="#FFFFFF"]{display: none;}
+font[size="1"],fieldset[style*=”:1px dashed“],p[class="Wtz196"]{display:none !important}
+div[id^="ad_head"],div[class="tac mb5"],td[class="f_one black tac"],div[class^="wp a_"]{display: none !important;}
 div[class$="a_cb"],div[class^="a_f"],div[class="a_b"],div[class="a_mu"],
 div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],div[class="bm a_c"]{
 display: none !important;
