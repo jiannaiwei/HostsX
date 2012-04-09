@@ -1,5 +1,5 @@
 
-;version=21:05 2012/4/7
+;version=11:53 2012-4-9
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -1967,7 +1967,6 @@ fe80::1%lo0	localhost
 #东方财富网
 127.0.0.1 ay.eastmoney.com
 127.0.0.1 cp.eastmoney.com
-127.0.0.1 g1.dfcfw.com
 127.0.0.1 js1.eastmoney.com
 127.0.0.1 same.eastmoney.com
 127.0.0.1 eastmoney.allyes.com
