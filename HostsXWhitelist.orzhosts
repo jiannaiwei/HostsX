@@ -1,5 +1,9 @@
-;version=19:49 2012/3/2
+;version=11:53 2012-4-9
 ;author=KwokTree.OrzFly.jason_jiang
+
+#导致东方财富网首页Logo图片无法正常加载！
+g1.dfcfw.com
+$DELETE
 
 #导致起点仙侠小说页面部分图片无法正常加载！
 cj.qidian.com
