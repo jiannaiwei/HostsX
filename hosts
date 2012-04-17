@@ -1,5 +1,5 @@
 
-;version=14:38 2012-4-14
+;version=14:06 2012-4-17
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -8095,6 +8095,10 @@ fe80::1%lo0	localhost
 127.0.0.1 img.37dz.com
 127.0.0.1 js.37dz.com
 127.0.0.1 www.37dz.com
+#3975
+127.0.0.1 ccb.com.3975.com
+127.0.0.1 images.3975.com
+127.0.0.1 js.3975.com
 #3Bu
 127.0.0.1 c.3bu.cn
 127.0.0.1 qm.3bu.cn
@@ -11180,3 +11184,8 @@ fe80::1%lo0	localhost
 127.0.0.1 yz.szgla.com
 127.0.0.1 yzol.szgla.com
 127.0.0.1 www.168links.com
+127.0.0.1 tg.dg.woniu.com
+127.0.0.1 eros.wsxsp.com
+127.0.0.1 j.7794lm.com
+127.0.0.1 cryp.55620.com
+127.0.0.1 o.eros-cn.com
