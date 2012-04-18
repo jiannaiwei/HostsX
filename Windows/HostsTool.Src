@@ -1,5 +1,5 @@
 @echo off
-set ver=3.712
+set ver=3.72
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -117,7 +117,7 @@ goto mouse
 :dns
 echo FlushDns...
 ipconfig /flushdns>nul 2>nul
-DEL /F /Q /A -R -H -S -A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db"
+DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
 del /f /s /q "%userprofile%\cookies">nul 2>nul
@@ -126,7 +126,7 @@ ipconfig /flushdns>nul 2>nul
 goto:eof
 
 :thanks
-start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿；的捐赠，您的支持，我的动力！】"
+start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥；的捐赠，您的支持，我的动力！】"
 goto:eof
 
 :cleansoft
