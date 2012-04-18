@@ -1,5 +1,5 @@
 
-;version=9:55 2012-4-18
+;version=14:53 2012-4-18
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -8513,6 +8513,11 @@ fe80::1%lo0	localhost
 0.0.0.0 viafriend.allyes.com
 0.0.0.0 wanmoafa7.allyes.com
 0.0.0.0 xiciafp.allyes.com
+#At918
+0.0.0.0 at918.com
+0.0.0.0 js.at918.com
+0.0.0.0 sy.at918.com
+0.0.0.0 ww.at918.com
 #At98
 0.0.0.0 c.at98.com
 0.0.0.0 js.at98.com
@@ -8899,6 +8904,10 @@ fe80::1%lo0	localhost
 0.0.0.0 www.thinkmedia.cn
 #Tuigoo
 0.0.0.0 js.tuigoo.com
+#Tuite8
+0.0.0.0 i.tuite8.com
+0.0.0.0 js.tuite8.com
+0.0.0.0 www.tuite8.com
 #Union001
 0.0.0.0 union001.com
 0.0.0.0 p.union001.com
@@ -11190,3 +11199,8 @@ fe80::1%lo0	localhost
 0.0.0.0 eros.wsxsp.com
 0.0.0.0 cryp.55620.com
 0.0.0.0 o.eros-cn.com
+0.0.0.0 code.hc-cy.com
+0.0.0.0 www.9tn.cc
+0.0.0.0 play.unionsky2.cn
+0.0.0.0 www.859652.com
+0.0.0.0 optimized.by.vitalads.net
