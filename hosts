@@ -1,5 +1,5 @@
 
-;version=14:53 2012-4-18
+;version=14:05 2012-4-21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -1752,6 +1752,8 @@ fe80::1%lo0	localhost
 #凯迪网
 127.0.0.1 panda.kdnet.net
 127.0.0.1 tracking.kdnet.net
+#开心网
+127.0.0.1 m222034.kaixin001.com
 #奇虎社区
 127.0.0.1 aimg.qihoo.com
 127.0.0.1 clkstat.qihoo.com
@@ -2012,6 +2014,7 @@ fe80::1%lo0	localhost
 127.0.0.1 union.vancl.com
 #梦芭莎
 127.0.0.1 click.moonbasa.com
+127.0.0.1 static.moonbasa.com
 #家电联盟
 127.0.0.1 pic.jdunion.com
 @HostsX 国内站点广告/IT类网站
@@ -9413,6 +9416,7 @@ fe80::1%lo0	localhost
 127.0.0.1 media.motrixi.com
 127.0.0.1 medrx.sensis.com.au
 127.0.0.1 mws.pubsage.com
+127.0.0.1 moreapps.droidhen.com
 127.0.0.1 rs-staticart.ybcdn.net
 127.0.0.1 static.189works.com
 127.0.0.1 test.adpooh.com
