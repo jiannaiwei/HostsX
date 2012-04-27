@@ -1,5 +1,5 @@
 
-;version=22:43 2012/4/27
+;version=22:54 2012/4/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.Newtamax
 ;description=1 and More,Thanks For Every One.
@@ -2297,6 +2297,8 @@ swcdn.apple.com
 127.0.0.1 app-g.39.net
 127.0.0.1 dpvc.39.net
 127.0.0.1 39net.datamaster.com.cn
+#寻医问药网
+127.0.0.1 gg.xywy.com
 #糗事百科
 127.0.0.1 ad.qiushibaike.com
 #互动百科
