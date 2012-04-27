@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 4.34
+Version: 4.36
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Description: MayBe a better User CSS Help U.
@@ -26,7 +26,7 @@ div[class="ad-bar"],div[class="ad-button"],div[class^="ad-banner"],div[class="ad
 div[class="advarticle"],div[class="advp"],div[class^="adSpace"],div[id="ad-flash"]{
 display: none !important;
 	}
-div[id$="AD"],div[id^="ad-"],div[id$="Adv"],div[id^="adv_"],div[id*="-ad-"],div[id="ad760"],
+div[id$="AD"],div[id^="ad-"],div[id$="Adv"],div[id^="adv_"],div[id*="-ad-"],div[id^="ad4"],div[id^="ad7"],
 div[id*="-ads-"],div[id^="ads-"],div[id^="ads_"],div[id$="_ads"],div[id^="ADV_"],div[id="ADAREA"]{
 display: none !important;
 	}
@@ -147,7 +147,7 @@ a[href^="http://click.simba.taobao.com"],a[href*="http://click.mz.simba.taobao.c
 div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],div[id="p4p-sidebar"],section[class="hotsale"],ul[class="p4p-list"]{display:none !important}
 
 /* 框架过滤 */
-div[class="tabcontent"],iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"]{display: none !important;}
+iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"]{display: none !important;}
 a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{display:none !important}
 
 /* 浮动广告过滤 */

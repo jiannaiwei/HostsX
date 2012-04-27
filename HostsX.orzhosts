@@ -1,5 +1,5 @@
 
-;version=14:05 2012-4-21
+;version=13:58 2012-4-27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -764,6 +764,7 @@ fe80::1%lo0	localhost
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
 #新浪网
+0.0.0.0 c.biz.weibo.com
 0.0.0.0 iyh365.cn
 0.0.0.0 8.show.sina.com.cn
 0.0.0.0 ad3.sina.com.cn
@@ -1872,6 +1873,8 @@ fe80::1%lo0	localhost
 0.0.0.0 ads.zaobao.com
 #新民网
 0.0.0.0 iads.xinmin.cn
+#慧聪网
+0.0.0.0 hcafp.allyes.com
 #中新网
 0.0.0.0 www.pagechoice.net
 0.0.0.0 report.chinanews.com
