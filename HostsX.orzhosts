@@ -1,5 +1,5 @@
 
-;version=21:10 2012/4/27
+;version=21:26 2012/4/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -2202,6 +2202,7 @@ fe80::1%lo0	localhost
 0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
 0.0.0.0 urchin.lstat.youku.com
+0.0.0.0 valf.atm.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
 0.0.0.0 valo.atm.youku.com
