@@ -1,5 +1,5 @@
 @echo off
-set ver=3.72
+set ver=3.73
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -81,7 +81,7 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  1 if %x% lss 26 start iexplore http://code.google.com/p/kwoktree/ &goto gui
+if %y% equ 1 if %x% gtr  1 if %x% lss 26 start iexplore http://code.google.com/p/hostsx/ &goto gui
 if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & goto gui
 if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %a%\wget.exe (call :dftvbs &msg %username% /time:2 "【未检测到wGet组件，自动使用VBS下载更新数据!】"&goto gui) else (call :dftwget)
 if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q &call :fixhosts& goto gui) else (call :unlock &notepad %hosts%& goto gui)
@@ -298,6 +298,7 @@ echo Please wait... ...
 goto:eof
 
 :temp
+call :BeijingIP 
 call :Xunlei
 goto:eof
 
@@ -601,9 +602,11 @@ echo 203.208.46.180 www.google.com >>%hosts%
 goto:eof
 
 :GoogleCN
-echo 请稍等,正在获取G.cn服务器的IP
+echo.
+echo 请稍等,正在获取Google服务器的IP
+
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set gg=%%i
-for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，请稍等) else echo 你获取的是%gg%，正在更新hosts，Loading...
+for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，请稍等) else echo 你获取的是%gg%，不是北京服务器地址，正在更新hosts，请稍等...
 for /f "delims=." %%i in ("%gg%") do if not %%i==203 echo 因为地址不是北京服务器，可能导致服务不能用，推荐使用:北京服务器IP
 call :GoogleIP
 echo %gg% plus.google.com >>%hosts%
@@ -611,7 +614,10 @@ echo %gg% www.google.com >>%hosts%
 goto:eof
 
 :GoogleIP
-echo #Google >>%hosts%
+echo #Google By FGQI >>%hosts%
+echo %gg% drive.google.com >>%hosts%
+echo %gg% doc-10-3o-docs.googleusercontent.com >>%hosts%
+echo %gg% play.google.com >>%hosts%
 echo %gg% plus.url.google.com >>%hosts%
 echo %gg% 0-focus-opensocial.googleusercontent.com >>%hosts%
 echo %gg% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
@@ -840,13 +846,12 @@ start http://www.google.com/ncr
 goto:eof
 
 :Youtube
-echo.
 echo 正在运行Youtube脚本（现在只能进Youtube的网页，但不能播放视频）
 echo 请稍等,正在获取Youtube服务器的IP
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
 for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
-if %ytb%==203.208.46.181 (echo 你获取的不是北京服务器的地址，已手动帮你设置为203.208.46.181北京服务器地址) else echo Loading...
-echo #Youtube >>%hosts%
+if %ytb%==203.208.46.181 (echo 你获取的不是北京服务器的地址，已手动帮你设置为203.208.46.181北京服务器地址) else echo 你获取的是Youtube北京服务器地址，正在更新hosts，请稍等
+echo #Youtube By FGQI >>%hosts%
 echo %ytb% youtube.com >>%hosts%
 echo %ytb% www.youtube.com >>%hosts%
 echo %ytb% gdata.youtube.com >>%hosts%
