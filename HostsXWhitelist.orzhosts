@@ -1,4 +1,4 @@
-;version=11:53 2012-4-9
+;version=21:12 2012/4/27
 ;author=KwokTree.OrzFly.jason_jiang
 
 #导致东方财富网首页Logo图片无法正常加载！
@@ -281,6 +281,7 @@ upexe.pplive.com
 $DELETE
 
 #第三方数据的错误过滤，导致部分网站无法打开。
+gb.cri.cn
 go.maxthon.cn
 hjsm.tom.com
 www.clicki.cn

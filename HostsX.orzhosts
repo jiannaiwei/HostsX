@@ -1,5 +1,5 @@
 
-;version=20:42 2012/4/27
+;version=21:10 2012/4/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy
 ;description=1 and More,Thanks For Every One.
@@ -8458,6 +8458,9 @@ fe80::1%lo0	localhost
 0.0.0.0 tracker.91adv.com
 0.0.0.0 www.91adv.com
 0.0.0.0 www.adsit.cn
+#AdYun
+0.0.0.0 t.adyun.com
+0.0.0.0 res1.adyun.com
 #All4ad
 0.0.0.0 go.all4ad.cn
 0.0.0.0 5000.all4ad.cn
@@ -8809,6 +8812,7 @@ fe80::1%lo0	localhost
 0.0.0.0 r.qiyou.com
 0.0.0.0 s.qiyou.com
 0.0.0.0 p.qiyou.com
+0.0.0.0 rs.qiyou.com
 #Qizhao
 0.0.0.0 code.qizhao.com
 0.0.0.0 qizhao.com
