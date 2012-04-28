@@ -1,5 +1,5 @@
 
-;version=23:12 2012/4/27
+;version=10:52 2012-4-28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9114,7 +9114,7 @@ swcdn.apple.com
 127.0.0.1 mobi.adsage.com
 127.0.0.1 trc.adsage.com
 #Adwaken
-127.0.0.1 a.cn
+127.0.0.1 adwaken.cn
 127.0.0.1 adwaken.com
 #Airad
 127.0.0.1 ad.airad.com
@@ -10082,6 +10082,7 @@ swcdn.apple.com
 127.0.0.1 sddnserror3.wo.com.cn
 127.0.0.1 sddnserror5.wo.com.cn
 127.0.0.1 sddnserror7.wo.com.cn
+127.0.0.1 nfdnserror8.wo.com.cn
 127.0.0.1 pop.17lele.net
 #各地运营商广告
 127.0.0.1 lc.havod.com
