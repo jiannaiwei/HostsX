@@ -1,5 +1,5 @@
 
-;version=10:52 2012-4-28
+;version=11:01 2012-4-28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -4778,11 +4778,6 @@ swcdn.apple.com
 #ixlink
 127.0.0.1 counter.ixlink.net
 127.0.0.1 textlink.ixlink.net
-#Jumptap
-127.0.0.1 a.jumptap.com
-127.0.0.1 i.jumptap.com
-127.0.0.1 tapad.jumptap.com
-127.0.0.1 www.jumptap.com
 #Jizzads
 127.0.0.1 jizzads.com
 127.0.0.1 www.jizzads.com
@@ -9183,6 +9178,11 @@ swcdn.apple.com
 #inmobi
 127.0.0.1 i.w.inmobi.com
 127.0.0.1 r.w.inmobi.com
+#Jumptap
+127.0.0.1 a.jumptap.com
+127.0.0.1 i.jumptap.com
+127.0.0.1 tapad.jumptap.com
+127.0.0.1 www.jumptap.com
 #Kongzhong
 127.0.0.1 zhulang.em.kongzhong.com
 127.0.0.1 cps.kongzhong.com
