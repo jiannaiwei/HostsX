@@ -1,4 +1,4 @@
-;version=21:12 2012/4/27
+;version=11:38 2012-4-28
 ;author=KwokTree.OrzFly.jason_jiang
 
 #导致东方财富网首页Logo图片无法正常加载！
@@ -90,7 +90,6 @@ $DELETE
 dp.ugc.pps.tv
 dy.ugc.pps.tv
 dyn.ugc.pps.tv
-y.pps.tv
 $DELETE
 
 #导致PPTV搜索时无法完整显示结果的问题。
