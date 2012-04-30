@@ -1,5 +1,5 @@
 
-;version=11:01 2012-4-28
+;version=17:12 2012-4-30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1711,6 +1711,7 @@ swcdn.apple.com
 0.0.0.0 admd.yam.com
 0.0.0.0 ads.yam.com
 0.0.0.0 rec.n.yam.com
+0.0.0.0 yam.adsbro.com
 #Taiwan
 0.0.0.0 a.jojos.tw
 0.0.0.0 ad.cacafly.com
