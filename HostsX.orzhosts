@@ -1,5 +1,5 @@
 
-;version=17:12 2012-4-30
+;version=10:53 2012-5-2
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2217,6 +2217,10 @@ swcdn.apple.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
 #ÍÁ¶¹Íø
+0.0.0.0 at-img1.tdimg.com
+0.0.0.0 at-img2.tdimg.com
+0.0.0.0 at-img3.tdimg.com
+0.0.0.0 at-img4.tdimg.com 
 0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
