@@ -3,48 +3,53 @@
 
 /*
 Name: /广告过滤
-Version: 4.36
+Version: 5.03
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Description: MayBe a better User CSS Help U.
 */
 
 /* ADvertisment */
-div[class="ad"],div[class="adv"],div[class^="ad_"],div[class^="adj"],div[class^="adx"],
-div[class^="AD"],div[class^="ads"],div[class$="_ads"],div[class*="_ads"],div[class^="advertising"]{
+div[class^="ad0"],div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[class^="ad4"],
+div[class^="ad5"],div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"]{
 display: none !important;
 	}
-div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[class^="ad4"],div[class^="ad5"],
-div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"],div[class^="ad0"]{
+div[class="ad"],div[class^="AD"],div[class^="ad_"],div[class$="_ad"],
+div[class^="ads"],div[class$="_ads"],div[class*="_ads"],div[class^="adS"]{
 display: none !important;
 	}
-div[class^="ad-box"],div[class^="adbox"],div[class^="ad_box"],div[class^="adarea"],div[class^="adArea"],
-div[class^="ad-block"],div[class^="adBlock "],div[class$="ad_block"],div[class^="adList"],div[class^="adlist"]{
+div[class^="ad_b"],div[class^="ad-b"],div[class^="adB"],div[class^="adb"],
+div[class^="adv"],div[class^="adj"],div[class^="adx"],div[class*="adclass"]{
 display: none !important;
 	}
-div[class="ad-bar"],div[class="ad-button"],div[class^="ad-banner"],div[class="adbanner"],
-div[class="advarticle"],div[class="advp"],div[class^="adSpace"],div[id="ad-flash"]{
+div[class^="adarea"],div[class^="adArea"],div[class^="adList"],div[class^="adlist"],
+div[class$="ad_block"],div[class^="adFrame"],div[class^="adindex"],div[class^="adposter"]{
 display: none !important;
 	}
-div[id$="AD"],div[id^="ad-"],div[id$="Adv"],div[id^="adv_"],div[id*="-ad-"],div[id^="ad4"],div[id^="ad7"],
-div[id*="-ads-"],div[id^="ads-"],div[id^="ads_"],div[id$="_ads"],div[id^="ADV_"],div[id="ADAREA"]{
+div[class*="adWrapper"],div[class*="ad-banner"],div[class="business"],
+div[class="flashNews"],div[class^="other_adv"],div[class="ad-widget"]{
 display: none !important;
 	}
-div[align="center"][id^="ad"],div[id^="AD"][style*="w"],center>div[id^="AD"],[id$="Ad"],div[id*="0_AD_"],
-div[id^="adhere"],div[id^="adspot"],div[id^="AdZone"],div[id^="afp_"],div[id*="AdContainer"]{
+
+div[id^="Adv"],div[id$="Adv"],div[id^="adv_"],div[id^="ADV_"],
+div[id*="-ads-"],div[id^="ads-"],div[id^="ads_"],div[id$="_ads"]{
 display: none !important;
 	}
-div[class$="adclass"],div[class^="adclass"],div[class^="adBlk ad"],div[class*="adWrapper"],
-div[class^="adFrame"],div[class^="adindex"],div[class^="adposter"],div[class^="adset_"]{
+div[id^="ad_"],div[id$="-ad"],div[id*="-ad-"],div[id$="AD"],div[id^="ad-"],
+div[id$="Ad"],div[id*="0_AD_"],div[id*="ad-flash"],div[id^="adflash"]{
 display: none !important;
 	}
-div[class="business"],div[class="flashNews"],div[class^="other_adv"],div[class^="ad-9"],
-div[id="adList"],div[id="clickbg"],div[id*="allyesAdv"],div[id="push-down-ad"]{
+div[id*="AdContainer"],div[id*="allyesAdv"],div[id^="ADAREA"],div[id="adList"],
+div[id^="AdZone"],div[id^="adhere"],div[id$="AdBanner"],div[id^="adspot"]{
+display: none !important;
+	}
+div[id^="ad4"],div[id^="ad7"],div[class^="ad-9"],
+div[id="clickbg"],div[id="push-down-ad"],div[id^="afp_"]{
 display: none !important;
 	}
 
 /* Position AD */
-div[class="ada"],div[class*="AdTop-"],div[class="ad_top"],div[class="tad"],div[class^="topAD"],
+div[class="ada"],div[class^="adA"],div[class*="AdTop-"],div[class="ad_top"],div[class="tad"],div[class^="topAD"],
 div[class^="topAd"],div[class^="topad"],div[class^="top_ad"],div[class$="topa_d"]{
 display: none !important;
 	}
@@ -72,12 +77,12 @@ display: none !important;
 	}
 
 /* Banner & Flash & Word AD*/
-div[id^="banner0"],div[id^="banner1"],div[class^="banner2"],div[class^="banner7"],div[class^="banner9"],div[id="bannerPanel"],
-div[class*="topBanner"],div[class="topbanner"],div[class*="ad-banner"],div[class="banner"][id^="adsp_content"],div[class="banner"][id^="banner"]{
+div[id^="banner0"],div[id^="banner1"],div[class^="banner2"],div[class^="banner7"],div[class^="banner9"]{display: none !important;}
+div[id="bannerPanel"],div[class="banner"][id^="adsp_content"],div[class="banner"][id^="banner"],div[class*="topBanner"],div[class="topbanner"]{
 display: none !important;
 	}
-div[id^="adword"],div[class^="adword"],div[class="ad-text"],div[class^="adtxt"],
-div[class^="txtads"],div[id^="text_ad"],div[class="textMes"],ul[class="ad_doc_text"]{
+div[id^="adword"],div[class^="adword"],div[class^="ad-text"],div[class^="adtxt"],
+div[class^="txtads"],div[id^="text_ad"],div[class="textMes"]{
 display: none !important;
 	}
 td[id^="adp_"],td[class="adslot"],td[class="ad"],iframe[id$="_tuiguang"],
@@ -93,7 +98,7 @@ img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
 display: none !important;
 	}
 ul[class="ad"],ul[class="adwindow"],ul[class*="_ad"],ul[id*="listAD"],ul[class*="textad"],
-ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"]{
+ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"],ul[class="ad_doc_text"]{
 display: none !important;
 	}
 
