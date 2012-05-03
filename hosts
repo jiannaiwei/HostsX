@@ -1,5 +1,5 @@
 
-;version=17:12 2012-4-30
+;version=11:09 2012-5-3
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2217,6 +2217,10 @@ swcdn.apple.com
 127.0.0.1 smarttrade.allyes.com
 127.0.0.1 a.htwisdom.com
 #土豆网
+127.0.0.1 at-img1.tdimg.com
+127.0.0.1 at-img2.tdimg.com
+127.0.0.1 at-img3.tdimg.com
+127.0.0.1 at-img4.tdimg.com 
 127.0.0.1 adcontrol.tudou.com
 127.0.0.1 adextensioncontrol.tudou.com
 127.0.0.1 adplay.tudou.com
@@ -9958,6 +9962,7 @@ swcdn.apple.com
 127.0.0.1 www.soua.com
 127.0.0.1 union.soua.com
 #盛大统计
+127.0.0.1 photo.staticsdo.com
 127.0.0.1 feo.staticsdo.com
 127.0.0.1 adrs.sdo.com
 127.0.0.1 c.aa.sdo.com

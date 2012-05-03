@@ -1,5 +1,5 @@
 
-;version=10:53 2012-5-2
+;version=11:09 2012-5-3
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9962,6 +9962,7 @@ swcdn.apple.com
 0.0.0.0 www.soua.com
 0.0.0.0 union.soua.com
 #Ê¢´óÍ³¼Æ
+0.0.0.0 photo.staticsdo.com
 0.0.0.0 feo.staticsdo.com
 0.0.0.0 adrs.sdo.com
 0.0.0.0 c.aa.sdo.com
