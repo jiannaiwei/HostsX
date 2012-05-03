@@ -1,5 +1,5 @@
 
-;version=11:09 2012-5-3
+;version=13:05 2012-5-3
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -43,6 +43,12 @@ swcdn.apple.com
 203.69.113.128 a6.mzstatic.com
 203.69.113.128 a7.mzstatic.com
 203.69.113.128 a8.mzstatic.com
+#Avira
+62.146.87.171 premium.avira-update.com premium.avira-cdn.com
+62.146.87.172 prempeak.avira-update.com
+62.146.87.173 premium.de.avira-update.com
+89.105.213.21 premium.nl.avira-update.com
+89.105.213.22 premium.avira-update.net
 #FlashGet
 221.123.176.125 s5.flashget.com
 221.123.176.136 cplog.flashget.com
