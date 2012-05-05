@@ -56,7 +56,7 @@
  - 欢迎报告 bug, 以及提出建议
 
  - 如果您有任何疑问或者资助意向, 可以使用以下方式与我们联系
- - E-mail: vokins#gmail.com (把#换成at)
+ - E-mail: support.hostsx#orztech.com (把#换成at)
  - @我，直接反馈问题 http://fanfou.com/iV.c
 
  - 发送错误报告, 请尽量记录以下信息:

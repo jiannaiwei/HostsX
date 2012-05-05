@@ -1,5 +1,5 @@
 
-;version=9:38 2012-5-5
+;version=10:48 2012-5-5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9192,6 +9192,9 @@ swcdn.apple.com
 0.0.0.0 ads.guohead.com
 0.0.0.0 met.guohead.com
 0.0.0.0 mob.guohead.com
+#Hotmob
+0.0.0.0 ad.hot-mob.com
+0.0.0.0 www.hot-mob.com
 #inmobi
 0.0.0.0 i.w.inmobi.com
 0.0.0.0 r.w.inmobi.com
@@ -9561,6 +9564,7 @@ swcdn.apple.com
 0.0.0.0 www.spjoy.com
 0.0.0.0 www.stickylogic.com
 0.0.0.0 www.wqmobile.com
+0.0.0.0 pixel-hk.pixelinteractivemedia.com
 @HostsX Í³¼Æ¸ú×ÙÆÁ±Î
 #51La
 0.0.0.0 img.users.51.la
@@ -10364,6 +10368,7 @@ swcdn.apple.com
 0.0.0.0 ygsp.da123.cc
 0.0.0.0 chat.live800.com
 0.0.0.0 zxrj.400fly.com
+0.0.0.0 3g.wjdb007.com
 #ä¯ÀÀÆ÷½Ù³Ö
 0.0.0.0 054.cc
 0.0.0.0 1188.com
