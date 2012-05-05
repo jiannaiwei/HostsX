@@ -1,4 +1,4 @@
-@HostsX 网络劫持
+@HostsX 防止网络劫持
 #域名劫持
 0.0.0.0 ss.cnnic.cn
 #运营商劫持
@@ -29,6 +29,7 @@
 0.0.0.0 sddnserror3.wo.com.cn
 0.0.0.0 sddnserror5.wo.com.cn
 0.0.0.0 sddnserror7.wo.com.cn
+0.0.0.0 nfdnserror8.wo.com.cn
 0.0.0.0 pop.17lele.net
 #各地运营商广告
 0.0.0.0 lc.havod.com
@@ -39,7 +40,8 @@
 0.0.0.0 ad.xunkoo.com
 0.0.0.0 ads.iisdoor.com
 0.0.0.0 pv.bbapp.net
-#诈骗钓鱼等
+@HostsX 可疑病毒拦截
+#钓鱼诈骗
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
 0.0.0.0 zx.98712.com
@@ -290,7 +292,7 @@
 0.0.0.0 sm2.netitv.com
 0.0.0.0 ygsp.da123.cc
 0.0.0.0 chat.live800.com
-#IE劫持
+#浏览器劫持
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2345.com
@@ -464,6 +466,8 @@
 0.0.0.0 www.imrw0rldwide.com
 0.0.0.0 pic.imrw0rldwide.com
 0.0.0.0 tj.imrw0rldwide.com
+0.0.0.0 boxdown.962.net
+0.0.0.0 gamebox.962.net
 0.0.0.0 jsunion.boodvd.cn
 0.0.0.0 jsunion.boodvd.com
 0.0.0.0 union.boodvd.com
@@ -548,3 +552,9 @@
 0.0.0.0 www.kk21.info
 0.0.0.0 www.houdao8.cn
 0.0.0.0 www.wagabb.com
+0.0.0.0 box.cr173.com
+0.0.0.0 www.putty.org.cn
+0.0.0.0 putty.ws
+0.0.0.0 www.winscp.cc
+0.0.0.0 www.sshsecure.com
+0.0.0.0 l.ip-163.com

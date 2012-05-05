@@ -1,4 +1,4 @@
-@HostsX Mobile
+@Mobile 手机广告平台
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -10,11 +10,14 @@
 #Adchina
 127.0.0.1 mobile.adchina.com
 127.0.0.1 www.adchina.com
-#Admob
+#AdMob
 127.0.0.1 api.admob.com
 127.0.0.1 mm.admob.com
 127.0.0.1 r.admob.com
-127.0.0.1 www.gstatic.com
+127.0.0.1 mmv.admob.com
+127.0.0.1 media.admob.com
+127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 pagead2.googlesyndication.com
 #Adigou
 127.0.0.1 adigou.com
 127.0.0.1 x.adigou.com
@@ -29,11 +32,36 @@
 127.0.0.1 mob.adwhirl.com
 127.0.0.1 www.adwhirl.com
 #Adwo
+127.0.0.1 ad-count.adwo.com
+127.0.0.1 adtest.adwo.com
+127.0.0.1 www.adwo.com
 127.0.0.1 r2.adwo.com
 127.0.0.1 static.adwo.com
+#Appads
+127.0.0.1 an.appads.com
+127.0.0.1 img.appads.com
+#Adsage
+127.0.0.1 config.adsage.com
+127.0.0.1 mobi.adsage.com
+127.0.0.1 trc.adsage.com
+#Adwaken
+127.0.0.1 adwaken.cn
+127.0.0.1 adwaken.com
 #Airad
 127.0.0.1 ad.airad.com
 127.0.0.1 hermes.airad.com
+127.0.0.1 www.airad.com
+#Airpush
+127.0.0.1 api.airpush.com
+127.0.0.1 ad.leadboltapps.net
+#Appstores
+127.0.0.1 austin2011.appstores.com
+127.0.0.1 infochimps.appstores.com
+127.0.0.1 nick.appstores.com
+127.0.0.1 photohackday.appstores.com
+127.0.0.1 sfmusictech.appstores.com
+127.0.0.1 techcrunch.appstores.com
+127.0.0.1 topix.appstores.com
 #Casee
 127.0.0.1 d.casee.cn
 127.0.0.1 d2.casee.cn
@@ -44,50 +72,147 @@
 127.0.0.1 www.casee.cn
 127.0.0.1 wap.cttol.cn
 127.0.0.1 www.lanteanstudio.com
+#Cloudfront
+127.0.0.1 d18q5nc9wflibl.cloudfront.net
+127.0.0.1 d2bgg7rjywcwsy.cloudfront.net
+127.0.0.1 d3oltyb66oj2v8.cloudfront.net
+#Cooguo
+127.0.0.1 www.cooguo.com
+127.0.0.1 download.cooguo.com
+#Crispadvertising
+127.0.0.1 cdn1.crispadvertising.com
+127.0.0.1 cdn2.crispadvertising.com
+#Dianru
+127.0.0.1 api.dianru.com
+127.0.0.1 d.dianru.com
+127.0.0.1 static.dianru.com
+127.0.0.1 www.dianru.com
 #Domob
+127.0.0.1 api.domob.cn
+127.0.0.1 e.domob.cn
 127.0.0.1 r.domob.cn
 127.0.0.1 s.domob.cn
+#Datouniao
+127.0.0.1 ws1.datouniao.com
+127.0.0.1 ws2.datouniao.com
+#Devopenserv
+127.0.0.1 cloud2.devopenserv.com
+127.0.0.1 ck2.devopenserv.com
+127.0.0.1 dp3.devopenserv.com 
+127.0.0.1 dp2.devopenserv.com
 #Duomeng
 127.0.0.1 duomeng.cn
 #Flurry
+127.0.0.1 ad.flurry.com
 127.0.0.1 data.flurry.com
 127.0.0.1 flurry.com
 127.0.0.1 www.flurry.com
 #Guohead
-127.0.0.1 mob.guohead.com
+127.0.0.1 ads.guohead.com
 127.0.0.1 met.guohead.com
+127.0.0.1 mob.guohead.com
+#inmobi
+127.0.0.1 i.w.inmobi.com
+127.0.0.1 r.w.inmobi.com
+#Jumptap
+127.0.0.1 a.jumptap.com
+127.0.0.1 i.jumptap.com
+127.0.0.1 tapad.jumptap.com
+127.0.0.1 www.jumptap.com
 #Kongzhong
 127.0.0.1 zhulang.em.kongzhong.com
 127.0.0.1 cps.kongzhong.com
+#Lmmob
+127.0.0.1 ads.lmmob.com
+127.0.0.1 api.lmmob.com
 #Lyy
 127.0.0.1 www.lyy.mobi
 127.0.0.1 uni.lyy.mobi
+#Lsense
+127.0.0.1 show.lsense.cn
+127.0.0.1 lsense.cn
+127.0.0.1 www.lsense.cn
 #Madhouse
 127.0.0.1 www.madhouse.cn
+#Mobcent
+127.0.0.1 sdk.mobcent.com
+127.0.0.1 img.mobcent.com
+#Mobfox
+127.0.0.1 my.mobfox.com
+127.0.0.1 www.mobfox.com
 #Madserving
-127.0.0.1 cfg.adsmogo.com
-127.0.0.1 imp.adsmogo.com
-127.0.0.1 req.adsmogo.com
 127.0.0.1 ad1.madserving.cn
+127.0.0.1 blk.adsmogo.com
+127.0.0.1 blk.adsmogo.mobi
+127.0.0.1 blk.adsmogo.net
+127.0.0.1 blk.adsmogo.org
+127.0.0.1 cfg.adsmogo.com
+127.0.0.1 cfg.adsmogo.mobi
+127.0.0.1 cfg.adsmogo.net
+127.0.0.1 cfg.adsmogo.org
+127.0.0.1 clk.adsmogo.com
+127.0.0.1 clk.adsmogo.mobi
+127.0.0.1 clk.adsmogo.net
+127.0.0.1 clk.adsmogo.org
+127.0.0.1 cus.adsmogo.com
+127.0.0.1 cus.adsmogo.mobi
+127.0.0.1 cus.adsmogo.net
+127.0.0.1 cus.adsmogo.org
+127.0.0.1 imp.adsmogo.com
+127.0.0.1 imp.adsmogo.mobi
+127.0.0.1 imp.adsmogo.net
+127.0.0.1 imp.adsmogo.org
+127.0.0.1 req.adsmogo.com
+127.0.0.1 req.adsmogo.mobi
+127.0.0.1 req.adsmogo.net
+127.0.0.1 req.adsmogo.org
+127.0.0.1 serv.adsmogo.com
+127.0.0.1 serv.adsmogo.mobi
+127.0.0.1 serv.adsmogo.net
+127.0.0.1 serv.adsmogo.org
+127.0.0.1 www.adsmogo.com
+127.0.0.1 www.adsmogo.mobi
+127.0.0.1 www.adsmogo.net
+127.0.0.1 www.adsmogo.org
 127.0.0.1 appsrv1.madserving.cn
 127.0.0.1 appsrv1.madserving.com
+#Mocean
+127.0.0.1 img.ads1.mocean.mobi
+127.0.0.1 img.ads2.mocean.mobi
+127.0.0.1 img.ads3.mocean.mobi
+127.0.0.1 img.ads4.mocean.mobi
 #Mobclix
+127.0.0.1 ex.umengcloud.com
+127.0.0.1 www.umeng.co
 127.0.0.1 www.umeng.com
 127.0.0.1 ads.mobclix.com
 127.0.0.1 data.mobclix.com
 127.0.0.1 s.mobclix.com
+127.0.0.1 vc.mobclix.com
+127.0.0.1 www.mobclix.com
 #Mobus
 127.0.0.1 mobus.cn
 127.0.0.1 www.mobus.cn
 127.0.0.1 mobus.vodone.cn
 127.0.0.1 images.vodone.com
+127.0.0.1 pic.vodone.com
+127.0.0.1 www.vodone.com
 #Moad
 127.0.0.1 ft.moad.cn
 127.0.0.1 moad.cn
 127.0.0.1 pic.moad.cn
 127.0.0.1 wap.moad.cn
 127.0.0.1 wap.6262.com.cn
+#Mojiva
+127.0.0.1 admarvel.mojiva.com
+127.0.0.1 img.ads1.mojiva.com
+127.0.0.1 img.ads2.mojiva.com
+127.0.0.1 img.ads3.mojiva.com
+127.0.0.1 img.ads4.mojiva.com
 #Mydas
+127.0.0.1 cvt.mydas.mobi
+127.0.0.1 ads.mp.mydas.mobi
+127.0.0.1 androidsdk.ads.mp.mydas.mobi
 127.0.0.1 bank01.ads.dt.mydas.mobi
 127.0.0.1 bank01.ads.mp.mydas.mobi
 127.0.0.1 bank02.ads.dt.mydas.mobi
@@ -126,6 +251,79 @@
 127.0.0.1 bank19.ads.mp.mydas.mobi
 127.0.0.1 bank20.ads.dt.mydas.mobi
 127.0.0.1 bank20.ads.mp.mydas.mobi
+#Phluantmobile
+127.0.0.1 mdn1.phluantmobile.net
+127.0.0.1 mdn2.phluantmobile.net
+127.0.0.1 mdn3.phluantmobile.net
+127.0.0.1 mdn3origin.phluantmobile.net
+#Pubsage
+127.0.0.1 mws.pubsage.com
+127.0.0.1 trc.pubsage.com
+127.0.0.1 mobi.pubsage.com
+#QQ
+127.0.0.1 softfile.3g.qq.com
+127.0.0.1 sqsh.3g.qq.com
+127.0.0.1 3gsoftfile.tcdn.qq.com
+127.0.0.1 3gsoftfile.tc.qq.com
+127.0.0.1 mw.app.qq.com
+127.0.0.1 adpm.app.qq.com
+#Smaato
+127.0.0.1 c01.smaato.net
+127.0.0.1 c02.smaato.net
+127.0.0.1 c03.smaato.net
+127.0.0.1 c04.smaato.net
+127.0.0.1 c05.smaato.net
+127.0.0.1 c06.smaato.net
+127.0.0.1 c07.smaato.net
+127.0.0.1 c08.smaato.net
+127.0.0.1 c09.smaato.net
+127.0.0.1 c10.smaato.net
+127.0.0.1 c11.smaato.net
+127.0.0.1 c12.smaato.net
+127.0.0.1 c13.smaato.net
+127.0.0.1 c14.smaato.net
+127.0.0.1 c15.smaato.net
+127.0.0.1 c16.smaato.net
+127.0.0.1 c17.smaato.net
+127.0.0.1 c18.smaato.net
+127.0.0.1 c19.smaato.net
+127.0.0.1 c20.smaato.net
+127.0.0.1 c21.smaato.net
+127.0.0.1 c22.smaato.net
+127.0.0.1 c23.smaato.net
+127.0.0.1 c24.smaato.net
+127.0.0.1 c25.smaato.net
+127.0.0.1 c26.smaato.net
+127.0.0.1 c27.smaato.net
+127.0.0.1 c28.smaato.net
+127.0.0.1 c29.smaato.net
+127.0.0.1 c29new.smaato.net
+127.0.0.1 c30.smaato.net
+127.0.0.1 c31.smaato.net
+127.0.0.1 c32.smaato.net
+127.0.0.1 c33.smaato.net
+127.0.0.1 c34.smaato.net
+127.0.0.1 c35.smaato.net
+127.0.0.1 c36.smaato.net
+127.0.0.1 c37.smaato.net
+127.0.0.1 c38.smaato.net
+127.0.0.1 c39.smaato.net
+127.0.0.1 c40.smaato.net
+127.0.0.1 c41.smaato.net
+127.0.0.1 c42.smaato.net
+127.0.0.1 c43.smaato.net
+127.0.0.1 c44.smaato.net
+127.0.0.1 f01.smaato.net
+127.0.0.1 f02.smaato.net
+127.0.0.1 f03.smaato.net
+127.0.0.1 f04.smaato.net
+127.0.0.1 f05.smaato.net
+127.0.0.1 f06.smaato.net
+127.0.0.1 f07.smaato.net
+127.0.0.1 f08.smaato.net
+127.0.0.1 f09.smaato.net
+127.0.0.1 f10.smaato.net
+127.0.0.1 soma.smaato.net
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
@@ -154,17 +352,33 @@
 127.0.0.1 vlog.vodone.com
 127.0.0.1 vodone.com
 #Vpon
+127.0.0.1 beta.vpon.com
+127.0.0.1 www.vpon.com
+127.0.0.1 tw.api.vpon.com
+127.0.0.1 cn.pub.vpon.com
+127.0.0.1 tw.pub.vpon.com
+127.0.0.1 sh2.vpon.com
 127.0.0.1 cn.ad.adon.vpon.com
+127.0.0.1 cn.api.vpon.com
 127.0.0.1 cn.img.adon.vpon.com
 #Wapsx
 127.0.0.1 ads.waps.cn
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
+127.0.0.1 push.wapx.cn
+#Whalecloud
+127.0.0.1 feedback.whalecloud.com
+127.0.0.1 sns.whalecloud.com
+#Winsmedia
+127.0.0.1 api.winsmedia.net
+127.0.0.1 www.winsmedia.net
+#Winads
+127.0.0.1 www.winads.cn
+127.0.0.1 down.winads.cn
 #Wiyun
 127.0.0.1 d.wiyun.com
 127.0.0.1 wiyun.com
 127.0.0.1 www.wiyun.com
-127.0.0.1 gb.cri.cn
 127.0.0.1 scpworld.com.cn
 127.0.0.1 www.ypzs88.com
 #Wooboo
@@ -181,8 +395,10 @@
 #Youmi
 127.0.0.1 ads.youmi.net
 127.0.0.1 aos.gw.youmi.net
+127.0.0.1 aos.wall.youmi.net
 127.0.0.1 go.youmi.net
 127.0.0.1 gw.youmi.net
+127.0.0.1 sdk.youmi.net
 127.0.0.1 notifiter.youmi.net
 127.0.0.1 stat.gw.youmi.net
 127.0.0.1 static.youmi.net
@@ -191,28 +407,76 @@
 127.0.0.1 cnota.cn
 127.0.0.1 cx.360doo.com
 127.0.0.1 m.ymapp.com
+#Zestadz
+127.0.0.1 a.zestadz.com
+127.0.0.1 assets.zestadz.com
+127.0.0.1 www.zestadz.com
 #WapSite
 127.0.0.1 24sp.cc
 127.0.0.1 ad.3g.cn
-127.0.0.1 ads.lmmob.com
-127.0.0.1 api.airpush.com
+127.0.0.1 ad.jiemai-tech.com
+127.0.0.1 ad.where.com
+127.0.0.1 ad.zhidian3g.cn
+127.0.0.1 ads.admarvel.com
+127.0.0.1 ads.mdotm.com
+127.0.0.1 ads.mopub.com
+127.0.0.1 ads.n-ws.org
+127.0.0.1 ads.namiflow.com
+127.0.0.1 ads.smartdevicemedia.com
+127.0.0.1 ads.xlxtra.com
+127.0.0.1 ads2.greystripe.com
+127.0.0.1 adserver.ubiyoo.com
+127.0.0.1 adultmoda.com
+127.0.0.1 api.suizong.com
+127.0.0.1 api.yp.com
+127.0.0.1 assets.cntdy.mobi
+127.0.0.1 c753738.r38.cf2.rackcdn.com
+127.0.0.1 cast.ra.imocha.com
+127.0.0.1 cdn.celtra.com
+127.0.0.1 cdn.mdotm.com
+127.0.0.1 cdn.ons.ms
+127.0.0.1 cdn.vdopia.com
+127.0.0.1 client.azrj.cn
+127.0.0.1 content.mobango.com
 127.0.0.1 d.gfan.com
+127.0.0.1 dev.adtouchnetwork.net
+127.0.0.1 dev.say-on.net
+127.0.0.1 display-img.g.atti.com
 127.0.0.1 dl.91rb.com
+127.0.0.1 edge.reporo.net
 127.0.0.1 em.kongzhong.com
+127.0.0.1 ex.mobmore.com
+127.0.0.1 ex.puata.info
 127.0.0.1 hi.fywap.com
 127.0.0.1 hot.icittys.com
-127.0.0.1 static.189works.com
-127.0.0.1 test.adpooh.com
-127.0.0.1 wap.cellufun.com
-127.0.0.1 www.adtouchnetwork.com
-127.0.0.1 www.adview.cn
-127.0.0.1 www.hidroid.net
-#WapEN
-127.0.0.1 ads.namiflow.com
-127.0.0.1 admarvel.mojiva.com
-127.0.0.1 ads.admarvel.com
+127.0.0.1 i.tapit.com
+127.0.0.1 i.w.sandbox.inmobi.com
+127.0.0.1 images.millennialmedia.com
+127.0.0.1 images.mpression.net
+127.0.0.1 img.ads.taptapnetworks.com
+127.0.0.1 m.adsymptotic.com
 127.0.0.1 m.askalok.com
 127.0.0.1 m.millennialmedia.com
-127.0.0.1 content.mobango.com
+127.0.0.1 media.motrixi.com
+127.0.0.1 medrx.sensis.com.au
+127.0.0.1 millennialmedia.com
+127.0.0.1 moreapps.droidhen.com
+127.0.0.1 mpro.e.shifen.com
+127.0.0.1 myapk.cn
+127.0.0.1 proxy.youdraw.cn
+127.0.0.1 rs-staticart.ybcdn.net
+127.0.0.1 s.wap.io
+127.0.0.1 sandbox.suizong.com
+127.0.0.1 static.189works.com
+127.0.0.1 test.adpooh.com
+127.0.0.1 w.sandbox.mkhoj.com
+127.0.0.1 wap.cellufun.com
+127.0.0.1 www.admarket.mobi
+127.0.0.1 www.adtouchnetwork.com
+127.0.0.1 www.adview.cn
+127.0.0.1 www.appmedia.cn
+127.0.0.1 www.guohead.com
+127.0.0.1 www.speedtong.net
 127.0.0.1 www.spjoy.com
 127.0.0.1 www.stickylogic.com
+127.0.0.1 www.wqmobile.com

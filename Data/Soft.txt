@@ -1,5 +1,5 @@
-@HostsX 软件广告过滤
-#360safe
+@Windows 软件广告过滤
+#360Safe
 0.0.0.0 inst.360safe.com
 0.0.0.0 pdown.stat.360safe.com
 0.0.0.0 plugin.stat.360safe.com
@@ -22,7 +22,11 @@
 0.0.0.0 stat.sd.360.cn
 0.0.0.0 static.apc.360.cn
 0.0.0.0 up.f.360.cn
-#Baofeng
+#ESTsoft
+0.0.0.0 advert.estsoft.com
+#Potplayer
+0.0.0.0 m.adtc.daum.net
+#暴风影音
 0.0.0.0 boxlist.baofeng.net
 0.0.0.0 clicklog.moviebox.baofeng.net
 0.0.0.0 diag.baofeng.net
@@ -43,68 +47,6 @@
 0.0.0.0 videodown.baofeng.com
 0.0.0.0 vvlog.moviebox.baofeng.com
 0.0.0.0 wzinfo.baofeng.com
-#Bitcomet
-0.0.0.0 inside.bitcomet.com
-0.0.0.0 dll.flashget.com
-0.0.0.0 down1.flashget.com
-0.0.0.0 down2.flashget.com
-0.0.0.0 down3.flashget.com
-0.0.0.0 down4.flashget.com
-0.0.0.0 down5.flashget.com
-0.0.0.0 down6.flashget.com
-0.0.0.0 down7.flashget.com
-0.0.0.0 fetch.flashget.com
-0.0.0.0 ggstat.flashget.com
-0.0.0.0 olstat.flashget.com
-0.0.0.0 stac.flashget.com
-0.0.0.0 stat.flashget.com
-0.0.0.0 bc.kuaiche.com
-0.0.0.0 cimg.kuaiche.com
-0.0.0.0 ufile.kuaiche.com
-0.0.0.0 client.kuaiche.com
-0.0.0.0 imgcache.kuaiche.com
-0.0.0.0 directui.kuaiche.com.showq.net
-0.0.0.0 static.u966.com
-0.0.0.0 m.u966.com
-0.0.0.0 al.myrice.com
-0.0.0.0 all.myrice.com
-0.0.0.0 client.myrice.com
-#Duba
-0.0.0.0 bo.duba.net
-0.0.0.0 cu001.www.duba.net
-0.0.0.0 cu002.www.duba.net
-0.0.0.0 cu003.www.duba.net
-0.0.0.0 cu004.www.duba.net
-0.0.0.0 i2c.duba.net
-0.0.0.0 i2u.www.duba.net
-0.0.0.0 ifr.duba.net
-0.0.0.0 info.duba.net
-0.0.0.0 labs.duba.net
-0.0.0.0 u.www.duba.net
-0.0.0.0 stat.ijinshan.com
-0.0.0.0 dl.ijinshan.com
-0.0.0.0 api.pc120.com
-#Duomi
-0.0.0.0 pc.boxshows.com
-#YY
-0.0.0.0 ad.yy.duowan.com
-0.0.0.0 do.yy.duowan.com
-0.0.0.0 forceupdate.yy.duowan.com
-0.0.0.0 gamecollaborate.yy.duowan.com
-0.0.0.0 mstat.duowan.com
-0.0.0.0 update.yy.duowan.com
-0.0.0.0 yydl.duowan.com
-0.0.0.0 dw.hiido.cn
-0.0.0.0 im.yy.hiido.cn
-0.0.0.0 njs.dw.hiido.cn
-#Fetion
-0.0.0.0 f.10086.cn
-0.0.0.0 gg.joytod.com
-0.0.0.0 hdss1fta.fetion.com.cn
-0.0.0.0 huodong.feixin.10086.cn
-0.0.0.0 imgl.fetionpic.com
-0.0.0.0 minisite.fetionpic.com
-0.0.0.0 minisite0.fetionpic.com
 #Funshion
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
@@ -114,127 +56,52 @@
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
-#Hotspot Shield
-0.0.0.0 rss2search.com
-0.0.0.0 box.anchorfree.net
-#iCiba
-0.0.0.0 34.goto.www.iciba.com
-0.0.0.0 counter.kds.iciba.com
-0.0.0.0 goto.www.iciba.com
-0.0.0.0 u.iciba.com
-0.0.0.0 u.sl.iciba.com
-#Immunet
-0.0.0.0 banner.immunet.com
-#iSeesoft
-0.0.0.0 msg.iseesoft.cn
-0.0.0.0 p.iseeclan.com
-0.0.0.0 stat.iseeclan.com
-#isoshu
-0.0.0.0 mobile.isoshu.com
-0.0.0.0 mobile1.isoshu.com
-0.0.0.0 pub.isoshu.com
-#isGame
-0.0.0.0 isgame.ipark.cn
-0.0.0.0 ghpage.iuzone.com
-0.0.0.0 page.iuzone.com
-#Keniu
-0.0.0.0 stat.sd.keniu.com
-0.0.0.0 tq.sd.keniu.com
-#Koowo
-0.0.0.0 g.koowo.com
-0.0.0.0 g.kuwo.cn
-0.0.0.0 wa.kuwo.cn
-0.0.0.0 wa.koowo.com
-#Kugou
-0.0.0.0 dl.ddong.com
-0.0.0.0 game.kugou.com
-0.0.0.0 games.kugou.com
-0.0.0.0 install.kugou.com
-0.0.0.0 links.kugoo.com
-0.0.0.0 mkg.kugou.com
-0.0.0.0 myonline.kugou.com
-0.0.0.0 opt.kugou.com
-0.0.0.0 sdn.kugoo.com
-0.0.0.0 sdn.kugou.com
-0.0.0.0 softstart.kugou.com
-0.0.0.0 softstat.kugou.com
-0.0.0.0 yx.kugou.com
-#Maxthon
-0.0.0.0 mk.maxthon.cn
-0.0.0.0 datacn-dl.maxthon.com
-0.0.0.0 stat-w.maxthon.com
-0.0.0.0 stat.maxthon.com
-0.0.0.0 statcn-c.maxthon.com
-0.0.0.0 smarturlcn-up.maxthon.com
-0.0.0.0 kernel-c.maxthon.com
-#Micronichefinder
-0.0.0.0 www.micronichefinder.com
-0.0.0.0 micronichefinder.com
-#Neoimage
-0.0.0.0 ad.neoimaging.cn
-0.0.0.0 clientconfig.neoimaging.cn
-0.0.0.0 jump.neoimaging.cn
-0.0.0.0 recommend.neoimaging.cn
-#P2pover
-0.0.0.0 cache.netsoft2005.com
-0.0.0.0 ext.netsoft2005.com
-0.0.0.0 i.netsoft2005.com
-0.0.0.0 img.img18.com
-0.0.0.0 www.uu654.com
-#Pctutu
-0.0.0.0 info.klplayer.com
-0.0.0.0 update.klplayer.com
-0.0.0.0 info.pcpc8.com
-0.0.0.0 m.pcpc8.com
-0.0.0.0 info.pctutu.net
-0.0.0.0 link.pctutu.com
-0.0.0.0 srtj.pctutu.net
-0.0.0.0 tj.pctutu.net
-0.0.0.0 update.pctutu.com
-0.0.0.0 update.pctutu.net
 #PPStream
 0.0.0.0 areainfo.ppstream.com
 0.0.0.0 dp.ppstream.com
+0.0.0.0 list1.ppstream.com
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
-0.0.0.0 dp.ppstv.com
 0.0.0.0 br.pps.tv
-0.0.0.0 dp.ugc.pps.tv
-0.0.0.0 dy.ugc.pps.tv
-0.0.0.0 dyn.ugc.pps.tv
+0.0.0.0 dp.ppstv.com
 0.0.0.0 g.pps.tv
 0.0.0.0 game.pps.tv
+0.0.0.0 in.pps.tv
+0.0.0.0 mini.pps.tv
+0.0.0.0 msg.y.pps.tv
 0.0.0.0 pl.pps.tv
+0.0.0.0 spider.pps.tv
 0.0.0.0 stat.y.pps.tv
-0.0.0.0 y.pps.tv
-0.0.0.0 update.base-service.net
 0.0.0.0 update.111222.cn
+0.0.0.0 update.base-service.net
 #PPTV
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
 0.0.0.0 caipiao.pplive.com
+0.0.0.0 client-play.pptv.com
+0.0.0.0 de.as.pptv.com
 0.0.0.0 dh.pplive.com
 0.0.0.0 download.pplive.com
 0.0.0.0 g.pplive.com
+0.0.0.0 g.pptv.com
+0.0.0.0 ga.pptv.com
+0.0.0.0 iafp.pptv.com
 0.0.0.0 ins-stat.pplive.com
 0.0.0.0 ins-version.pplive.com
 0.0.0.0 ins.pplive.com
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 pp1.pplive.com
-0.0.0.0 client-play.pptv.com
-0.0.0.0 g.pptv.com
-0.0.0.0 ga.pptv.com
-0.0.0.0 iafp.pptv.com
 0.0.0.0 pp2.pptv.com
 0.0.0.0 ppsj.pptv.com
 0.0.0.0 tj.g.pptv.com
 0.0.0.0 up.pplive.com
 0.0.0.0 wafp.pptv.com
 0.0.0.0 wstat.pptv.com
+0.0.0.0 asimgs.pplive.cn
+0.0.0.0 pp2.as.pplive.cn
 0.0.0.0 drag.synacast.com
 0.0.0.0 h.synacast.com
 0.0.0.0 ik.synacast.com
-0.0.0.0 jump.synacast.com
 0.0.0.0 ol.synacast.com
 0.0.0.0 pplive-va.synacast.com
 0.0.0.0 ppvalog.synacast.com
@@ -246,19 +113,6 @@
 0.0.0.0 pplive-ppva.datamaster.com.cn
 0.0.0.0 pplive-probe.datamaster.com.cn
 0.0.0.0 res-pplive.datamaster.com.cn
-#QQPCMgr
-0.0.0.0 s.pcmgr.qq.com
-#QQCEO
-0.0.0.0 ad.qqceo.net
-0.0.0.0 toufei.qqceo.net
-0.0.0.0 toufei2.qqceo.net
-#QQvoice
-0.0.0.0 union.qqvoice.com
-0.0.0.0 union.uucall.hk
-#QQBM
-0.0.0.0 qqbm.zhuiying.net
-0.0.0.0 qqbmad.mycode8.com
-0.0.0.0 update2.zhuiying.net
 #Qvod
 0.0.0.0 110.qvod.com
 0.0.0.0 adi.qvod.com
@@ -285,7 +139,181 @@
 0.0.0.0 home.sopserv.com
 #Splayer
 0.0.0.0 splayer11.shooter.cn
-#SougouPinyin
+#Tvants
+0.0.0.0 ads.tvants.com
+0.0.0.0 cache2.tvants.com
+#TtkVod
+0.0.0.0 ad.ttkvod.com
+0.0.0.0 hao.kaikai001.com
+#UUSee
+0.0.0.0 g.uusee.com
+0.0.0.0 sa.uusee.com
+0.0.0.0 traffic.uusee.com
+0.0.0.0 uhms.uusee.com
+0.0.0.0 uuseeafp.allyes.com
+#Bitcomet
+0.0.0.0 inside.bitcomet.com
+0.0.0.0 ack.flashget.com
+0.0.0.0 dll.flashget.com
+0.0.0.0 down1.flashget.com
+0.0.0.0 down2.flashget.com
+0.0.0.0 down3.flashget.com
+0.0.0.0 down4.flashget.com
+0.0.0.0 down5.flashget.com
+0.0.0.0 down6.flashget.com
+0.0.0.0 down7.flashget.com
+0.0.0.0 fetch.flashget.com
+0.0.0.0 ggstat.flashget.com
+0.0.0.0 news.flashget.com
+0.0.0.0 olstat.flashget.com
+0.0.0.0 stac.flashget.com
+0.0.0.0 stat.flashget.com
+0.0.0.0 zx.flashget.com
+0.0.0.0 bc.kuaiche.com
+0.0.0.0 cimg.kuaiche.com
+0.0.0.0 ufile.kuaiche.com
+0.0.0.0 client.kuaiche.com
+0.0.0.0 imgcache.kuaiche.com
+0.0.0.0 directui.kuaiche.com.showq.net
+0.0.0.0 static.u966.com
+0.0.0.0 m.u966.com
+0.0.0.0 al.myrice.com
+0.0.0.0 all.myrice.com
+0.0.0.0 client.myrice.com
+#多米音乐
+0.0.0.0 pc.boxshows.com
+#YY语音
+0.0.0.0 ad.yy.duowan.com
+0.0.0.0 do.yy.duowan.com
+0.0.0.0 forceupdate.yy.duowan.com
+0.0.0.0 gamecollaborate.yy.duowan.com
+0.0.0.0 market.duowan.com
+0.0.0.0 mstat.duowan.com
+0.0.0.0 update.yy.duowan.com
+0.0.0.0 yydl.duowan.com
+0.0.0.0 dw.hiido.cn
+0.0.0.0 im.yy.hiido.cn
+0.0.0.0 njs.dw.hiido.cn
+#飞信客户端
+0.0.0.0 f.10086.cn
+0.0.0.0 gg.joytod.com
+0.0.0.0 hdss1fta.fetion.com.cn
+0.0.0.0 huodong.feixin.10086.cn
+0.0.0.0 imgl.fetionpic.com
+0.0.0.0 minisite.fetionpic.com
+0.0.0.0 minisite0.fetionpic.com
+#阿里旺旺
+0.0.0.0 jc.wangwang.taobao.com
+0.0.0.0 p3p.alisoft.com
+0.0.0.0 po.im.alisoft.com
+0.0.0.0 download.im.alisoft.com
+0.0.0.0 dailyupdate.wangwang.taobao.com
+0.0.0.0 files.dailyupdate.wangwang.taobao.com
+#Hotspot Shield
+0.0.0.0 rss2search.com
+0.0.0.0 box.anchorfree.net
+#Immunet FREE
+0.0.0.0 banner.immunet.com
+#iSeesoft
+0.0.0.0 msg.iseesoft.cn
+0.0.0.0 p.iseeclan.com
+0.0.0.0 stat.iseeclan.com
+#isoshu
+0.0.0.0 mobile.isoshu.com
+0.0.0.0 mobile1.isoshu.com
+0.0.0.0 pub.isoshu.com
+#isGame
+0.0.0.0 isgame.ipark.cn
+0.0.0.0 ghpage.iuzone.com
+0.0.0.0 page.iuzone.com
+#千千静听
+0.0.0.0 ads.qianqian.com
+0.0.0.0 ttads.ttplayer.com
+0.0.0.0 ttmsg.qianqian.com
+#酷我音乐
+0.0.0.0 g.kuwo.cn
+0.0.0.0 wa.kuwo.cn
+0.0.0.0 updatepage.kuwo.cn
+0.0.0.0 g.koowo.com
+0.0.0.0 wa.koowo.com
+#酷狗音乐
+0.0.0.0 dl.ddong.com
+0.0.0.0 game.kugou.com
+0.0.0.0 games.kugou.com
+0.0.0.0 install.kugou.com
+0.0.0.0 links.kugoo.com
+0.0.0.0 mkg.kugou.com
+0.0.0.0 myonline.kugou.com
+0.0.0.0 opt.kugou.com
+0.0.0.0 sdn.kugoo.com
+0.0.0.0 sdn.kugou.com
+0.0.0.0 softstart.kugou.com
+0.0.0.0 softstat.kugou.com
+0.0.0.0 yx.kugou.com
+#Maxthon
+0.0.0.0 mk.maxthon.cn
+0.0.0.0 datacn-dl.maxthon.com
+0.0.0.0 stat-w.maxthon.com
+0.0.0.0 stat.maxthon.com
+0.0.0.0 statcn-c.maxthon.com
+0.0.0.0 smarturlcn-up.maxthon.com
+0.0.0.0 kernel-c.maxthon.com
+#Micronichefinder
+0.0.0.0 www.micronichefinder.com
+0.0.0.0 micronichefinder.com
+#光影魔术手
+0.0.0.0 ad.neoimaging.cn
+0.0.0.0 clientconfig.neoimaging.cn
+0.0.0.0 jump.neoimaging.cn
+0.0.0.0 recommend.neoimaging.cn
+#P2pover
+0.0.0.0 cache.netsoft2005.com
+0.0.0.0 ext.netsoft2005.com
+0.0.0.0 i.netsoft2005.com
+0.0.0.0 img.img18.com
+0.0.0.0 www.uu654.com
+#Pctutu
+0.0.0.0 info.klplayer.com
+0.0.0.0 update.klplayer.com
+0.0.0.0 info.pcpc8.com
+0.0.0.0 m.pcpc8.com
+0.0.0.0 info.pctutu.net
+0.0.0.0 link.pctutu.com
+0.0.0.0 srtj.pctutu.net
+0.0.0.0 tj.pctutu.net
+0.0.0.0 update.pctutu.com
+0.0.0.0 update.pctutu.net
+#金山毒霸
+0.0.0.0 i2c.duba.net
+0.0.0.0 i2u.www.duba.net
+0.0.0.0 ifr.duba.net
+0.0.0.0 info.duba.net
+0.0.0.0 labs.duba.net
+0.0.0.0 u.www.duba.net
+0.0.0.0 stat.ijinshan.com
+0.0.0.0 api.pc120.com
+0.0.0.0 stat.sd.keniu.com
+0.0.0.0 tq.sd.keniu.com
+#金山词霸
+0.0.0.0 34.goto.www.iciba.com
+0.0.0.0 counter.kds.iciba.com
+0.0.0.0 goto.www.iciba.com
+0.0.0.0 u.iciba.com
+0.0.0.0 u.sl.iciba.com
+#QQ管家
+0.0.0.0 s.pcmgr.qq.com
+#QQCEO
+0.0.0.0 ad.qqceo.net
+0.0.0.0 toufei.qqceo.net
+0.0.0.0 toufei2.qqceo.net
+#QQBM
+0.0.0.0 qqbm.zhuiying.net
+0.0.0.0 qqbmad.mycode8.com
+0.0.0.0 update2.zhuiying.net
+#QQvoice
+0.0.0.0 union.qqvoice.com
+0.0.0.0 union.uucall.hk
+#搜狗拼音
 0.0.0.0 files2.sogou.com
 0.0.0.0 config.pinyin.sogou.com
 0.0.0.0 ime.sogou.com
@@ -293,36 +321,17 @@
 0.0.0.0 ping.pinyin.sogou.com
 0.0.0.0 pinyin.sogou.com
 0.0.0.0 st.pinyin.sogou.com
-#SougouIE
+#搜狗浏览器
 0.0.0.0 download.ie.sogou.com
 0.0.0.0 conf.ie.sogou.com
 0.0.0.0 config.ie.sogou.com
 0.0.0.0 ping.ie.sogou.com
 0.0.0.0 pingback.ie.sogou.com
-#Tvants
-0.0.0.0 ads.tvants.com
-0.0.0.0 cache2.tvants.com
-#TtkVod
-0.0.0.0 ad.ttkvod.com
-0.0.0.0 hao.kaikai001.com
-#TTPlayer
-0.0.0.0 ads.qianqian.com
-0.0.0.0 ttads.ttplayer.com
-0.0.0.0 ttmsg.qianqian.com
-#UUSee
-0.0.0.0 g.uusee.com
-0.0.0.0 sa.uusee.com
-0.0.0.0 traffic.uusee.com
-0.0.0.0 uhms.uusee.com
-0.0.0.0 uuseeafp.allyes.com
 #Vagaa
 0.0.0.0 btjoy.com
 0.0.0.0 img.daodao001.cn
 0.0.0.0 text.mplayer.org.cn
 0.0.0.0 download.verycd.com
-#YoudaoDict
-0.0.0.0 clkservice2.dict.youdao.com
-0.0.0.0 feedback.youdao.com
 #Yunduan
 0.0.0.0 tj.yunduan.cn
 0.0.0.0 update.yunduan.cn

@@ -1,4 +1,3 @@
-@HostsX 国内站点广告/视频类网站
 #CNTV
 0.0.0.0 a.cctv.com
 0.0.0.0 a.cntv.cn
@@ -16,22 +15,6 @@
 0.0.0.0 lucklog4.v1.cn
 0.0.0.0 luckshow.v1.cn
 0.0.0.0 luckstatic.v1.cn
-#i奇艺
-0.0.0.0 api.t.qiyi.com
-0.0.0.0 meta.video.qiyi.com
-0.0.0.0 minisite.qiyi.com
-0.0.0.0 msg.video.qiyi.com
-0.0.0.0 policy.cupid.qiyi.com
-0.0.0.0 rec.inter.qiyi.com
-0.0.0.0 show.cupid.qiyi.com
-0.0.0.0 track.cupid.qiyi.com
-0.0.0.0 track.video.qiyi.com
-0.0.0.0 uestat.video.qiyi.com
-0.0.0.0 focusbaiduafp.allyes.com
-0.0.0.0 imgc.unlitui.com
-0.0.0.0 bsg.unlitui.com
-0.0.0.0 b.scorecardresearch.com
-0.0.0.0 log.51network.com
 #我乐网
 0.0.0.0 acs.agent.v-56.com
 0.0.0.0 bill.agent.v-56.com
@@ -50,6 +33,18 @@
 0.0.0.0 shrek.6.cn
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
+#i奇艺
+0.0.0.0 minisite.qiyi.com
+0.0.0.0 policy.cupid.qiyi.com
+0.0.0.0 show.cupid.qiyi.com
+0.0.0.0 track.cupid.qiyi.com
+0.0.0.0 focusbaiduafp.allyes.com
+0.0.0.0 pub.htwisdom.com
+0.0.0.0 pub.buzz-time.com.cn
+0.0.0.0 imgc.unlitui.com
+0.0.0.0 bsg.unlitui.com
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 log.51network.com
 #优酷网
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
@@ -64,9 +59,9 @@
 0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
 0.0.0.0 urchin.lstat.youku.com
+0.0.0.0 valf.atm.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
-0.0.0.0 valf.atm.youku.com
 0.0.0.0 valo.atm.youku.com
 0.0.0.0 valp.atm.youku.com
 0.0.0.0 vid.atm.youku.com
@@ -74,6 +69,10 @@
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
 #土豆网
+0.0.0.0 at-img1.tdimg.com
+0.0.0.0 at-img2.tdimg.com
+0.0.0.0 at-img3.tdimg.com
+0.0.0.0 at-img4.tdimg.com 
 0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
@@ -136,17 +135,3 @@
 0.0.0.0 ad.dj527.com
 0.0.0.0 sy.0575dp.com
 0.0.0.0 www.0575dp.com
-#iCast
-0.0.0.0 cast.ra.icast.cn
-0.0.0.0 js.icast.cn
-0.0.0.0 kw.ra.icast.cn
-0.0.0.0 post.ra.icast.cn
-0.0.0.0 pre.ra.icast.cn
-0.0.0.0 pv.ra.icast.cn
-0.0.0.0 rm.ra.icast.cn
-0.0.0.0 track.ra.icast.cn
-0.0.0.0 track2.ra.icast.cn
-#Ylunion
-0.0.0.0 js.ylunion.com
-0.0.0.0 www.ylunion.com
-0.0.0.0 ylunion.com

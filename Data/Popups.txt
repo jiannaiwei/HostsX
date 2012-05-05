@@ -1,4 +1,4 @@
-@HostsX µØ¥∞∆¡±Œ
+@HostsX ∂Ò“‚µØ¥∞∆¡±Œ
 #«©√˚µØ¥∞
 0.0.0.0 code.2010qianming.com
 0.0.0.0 code.52qiangming.com
@@ -193,8 +193,6 @@
 0.0.0.0 c.ooo1000.com
 0.0.0.0 d.ooo1000.com
 0.0.0.0 e.ooo1000.com
-0.0.0.0 img9.3393.com
-0.0.0.0 u.3393.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -266,6 +264,7 @@
 0.0.0.0 c.ourclick.net
 0.0.0.0 c.sfilm.com
 0.0.0.0 c01.i05.cachecn.com
+0.0.0.0 c1.is686.com
 0.0.0.0 cc00009.h.cncssr.chinache.net
 0.0.0.0 ccc.delete8527.cn
 0.0.0.0 ccyi.r.game2.com.cn
@@ -295,6 +294,7 @@
 0.0.0.0 cpm.234y.com
 0.0.0.0 cpm.71aiyou.com
 0.0.0.0 cpm.e7wan.com
+0.0.0.0 cpm.fk5.com
 0.0.0.0 cpm.jiuwan.com
 0.0.0.0 cpm.uoyoo.cn
 0.0.0.0 cpm.uutu.com.cn
@@ -376,6 +376,7 @@
 0.0.0.0 image.86661.com
 0.0.0.0 image.tazhao.com
 0.0.0.0 image10.autobild.cn
+0.0.0.0 images.17leyi.com
 0.0.0.0 images.9zwar.com
 0.0.0.0 images.zhenming.net
 0.0.0.0 img.a.07073.com
@@ -384,10 +385,10 @@
 0.0.0.0 info.uubig.com
 0.0.0.0 j.zqgame.com
 0.0.0.0 jksc.xywy.com
+0.0.0.0 js.a3p4.com
 0.0.0.0 js.hl58.com
 0.0.0.0 js.laishu.com
 0.0.0.0 js.ssrj.net
-0.0.0.0 js.tuigoo.com
 0.0.0.0 js.union001.com
 0.0.0.0 js.zfjiu.com
 0.0.0.0 js1.union001.cn
@@ -411,6 +412,7 @@
 0.0.0.0 max.gunggo.com
 0.0.0.0 mcsd.qq437.cn
 0.0.0.0 me.youheme.com
+0.0.0.0 media.17leyi.com
 0.0.0.0 media.adunioncode.com
 0.0.0.0 media.wushen.com
 0.0.0.0 mi.521gc.info
@@ -532,14 +534,18 @@
 0.0.0.0 u.56wan.com
 0.0.0.0 u.7town.com
 0.0.0.0 u.adbutler.com.cn
+0.0.0.0 u.douxie.com
 0.0.0.0 u.haom.us
 0.0.0.0 u.molidao.com
 0.0.0.0 u.qjwm.com
 0.0.0.0 u.tdwan.com
 0.0.0.0 u11.gzfiat.com
 0.0.0.0 u22.85soho.com
+0.0.0.0 u33.mfpcr.com
+0.0.0.0 u47.adv0755.com
 0.0.0.0 u7.91wanyx.net
 0.0.0.0 ufile.qushimeiti.com
+0.0.0.0 uimg.xiaoangel.com
 0.0.0.0 un.173737.com
 0.0.0.0 un.5i.com
 0.0.0.0 union.51ditu.com
@@ -699,3 +705,13 @@
 0.0.0.0 yourchinalove.com
 0.0.0.0 yz.szgla.com
 0.0.0.0 yzol.szgla.com
+0.0.0.0 www.168links.com
+0.0.0.0 tg.dg.woniu.com
+0.0.0.0 eros.wsxsp.com
+0.0.0.0 cryp.55620.com
+0.0.0.0 o.eros-cn.com
+0.0.0.0 code.hc-cy.com
+0.0.0.0 www.9tn.cc
+0.0.0.0 play.unionsky2.cn
+0.0.0.0 www.859652.com
+0.0.0.0 optimized.by.vitalads.net

@@ -1,5 +1,5 @@
 
-;version=11:09 2012-5-3
+;version=9:38 2012-5-5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -43,6 +43,12 @@ swcdn.apple.com
 203.69.113.128 a6.mzstatic.com
 203.69.113.128 a7.mzstatic.com
 203.69.113.128 a8.mzstatic.com
+#Avira
+62.146.87.171 premium.avira-update.com premium.avira-cdn.com
+62.146.87.172 prempeak.avira-update.com
+62.146.87.173 premium.de.avira-update.com
+89.105.213.21 premium.nl.avira-update.com
+89.105.213.22 premium.avira-update.net
 #FlashGet
 221.123.176.125 s5.flashget.com
 221.123.176.136 cplog.flashget.com
@@ -2163,6 +2169,9 @@ swcdn.apple.com
 127.0.0.1 lucklog4.v1.cn
 127.0.0.1 luckshow.v1.cn
 127.0.0.1 luckstatic.v1.cn
+#JSTV
+127.0.0.1 jstvimedia.allyes.com
+127.0.0.1 jstv.allyes.com
 #Œ“¿÷Õ¯
 127.0.0.1 acs.agent.v-56.com
 127.0.0.1 bill.agent.v-56.com
@@ -8833,6 +8842,9 @@ swcdn.apple.com
 127.0.0.1 qyclick.com
 127.0.0.1 vvww.qyclick.com
 127.0.0.1 www.qyclick.com
+#Redu
+127.0.0.1 cpro.redu.com
+127.0.0.1 www.redu-click.com
 #Rj518
 127.0.0.1 img.rj518.com
 127.0.0.1 www.rj518.com
@@ -10351,6 +10363,7 @@ swcdn.apple.com
 127.0.0.1 sm2.netitv.com
 127.0.0.1 ygsp.da123.cc
 127.0.0.1 chat.live800.com
+127.0.0.1 zxrj.400fly.com
 #‰Ø¿¿∆˜ΩŸ≥÷
 127.0.0.1 054.cc
 127.0.0.1 1188.com
