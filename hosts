@@ -1,5 +1,5 @@
 
-;version=11:13 2012-5-5
+;version=11:01 2012-5-6
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8132,10 +8132,14 @@ swcdn.apple.com
 127.0.0.1 newtest.5622.cn
 #70e
 127.0.0.1 e.70e.com
+127.0.0.1 f.70e.com
 127.0.0.1 g.70e.com
+127.0.0.1 img.70e.com
 127.0.0.1 t.70e.com
 127.0.0.1 t2.70e.com
 127.0.0.1 www.70e.com
+127.0.0.1 www.baidu.com.t2.70e.com
+127.0.0.1 www.g.cn.70e.com
 #7794
 127.0.0.1 code.7794.com
 127.0.0.1 www.7794.com
@@ -8177,6 +8181,9 @@ swcdn.apple.com
 127.0.0.1 g.91ivr.com
 127.0.0.1 u.91ivr.com
 127.0.0.1 www.91ivr.com
+#973
+127.0.0.1 media.973.com
+127.0.0.1 xyx.973.com
 #99click
 127.0.0.1 1116.oadz.com
 127.0.0.1 159.oadz.com
@@ -8932,6 +8939,7 @@ swcdn.apple.com
 127.0.0.1 union001.com
 127.0.0.1 p.union001.com
 #Union178
+127.0.0.1 code01.union178.com
 127.0.0.1 u.union178.com
 127.0.0.1 uimg.union178.com
 #Union188
@@ -10753,6 +10761,7 @@ swcdn.apple.com
 127.0.0.1 tg1.hlwan.com
 127.0.0.1 tg2.hlwan.com
 127.0.0.1 111a.hlwan.net
+127.0.0.1 197.hlwan.net
 127.0.0.1 u.9wee.com
 127.0.0.1 web.9wee.com
 127.0.0.1 www1.9wee.com
@@ -11348,3 +11357,5 @@ swcdn.apple.com
 127.0.0.1 play.unionsky2.cn
 127.0.0.1 www.859652.com
 127.0.0.1 optimized.by.vitalads.net
+127.0.0.1 www.qq937.com
+127.0.0.1 pic.tameili.net
