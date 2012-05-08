@@ -1,5 +1,5 @@
 
-;version=11:01 2012-5-6
+;version=21:35 2012/5/8
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1884,6 +1884,10 @@ swcdn.apple.com
 0.0.0.0 dvsend.china.com
 0.0.0.0 richmedia.china.com
 0.0.0.0 track.china.com
+#东方热线
+0.0.0.0 adi.cnool.net
+0.0.0.0 adp1.cnool.net
+0.0.0.0 countimages.cnool.net
 #星岛环球网
 0.0.0.0 stnn.adsame.com
 #大众网
@@ -2021,6 +2025,8 @@ swcdn.apple.com
 0.0.0.0 static.moonbasa.com
 #家电联盟
 0.0.0.0 pic.jdunion.com
+#淘积分
+0.0.0.0 ad.taojifen.net
 @HostsX 国内站点广告/IT类网站
 #电脑之家
 0.0.0.0 ad.adver.com.tw
