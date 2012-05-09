@@ -4026,5 +4026,5 @@
 203.69.113.128 a1995.v.phobos.apple.com
 203.69.113.128 a1996.v.phobos.apple.com
 203.69.113.128 a1997.v.phobos.apple.com
-203.69.113.128 a1998v.v.phobos.apple.com
-203.69.113.128 a1999v.v.phobos.apple.com
+203.69.113.128 a1998.v.phobos.apple.com
+203.69.113.128 a1999.v.phobos.apple.com
