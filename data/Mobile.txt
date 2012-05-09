@@ -1,4 +1,4 @@
-@Mobile 手机广告平台
+锘緻Mobile 鎵嬫満骞垮憡骞冲彴
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com

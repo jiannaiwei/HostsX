@@ -1,4 +1,4 @@
-#CNTV
+ï»¿#CNTV
 0.0.0.0 a.cctv.com
 0.0.0.0 a.cntv.cn
 0.0.0.0 ad.cctv.com
@@ -15,7 +15,7 @@
 0.0.0.0 lucklog4.v1.cn
 0.0.0.0 luckshow.v1.cn
 0.0.0.0 luckstatic.v1.cn
-#ÎÒÀÖÍø
+#æˆ‘ä¹ç½‘
 0.0.0.0 acs.agent.v-56.com
 0.0.0.0 bill.agent.v-56.com
 0.0.0.0 stat3.corp.v-56.com
@@ -28,12 +28,12 @@
 0.0.0.0 union.56.com
 0.0.0.0 uvimage.56.com
 0.0.0.0 v16.56.com
-#6¼ä·¿
+#6é—´æˆ¿
 0.0.0.0 pole.6rooms.com
 0.0.0.0 shrek.6.cn
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
-#iÆæÒÕ
+#iå¥‡è‰º
 0.0.0.0 minisite.qiyi.com
 0.0.0.0 policy.cupid.qiyi.com
 0.0.0.0 show.cupid.qiyi.com
@@ -45,7 +45,7 @@
 0.0.0.0 bsg.unlitui.com
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 log.51network.com
-#ÓÅ¿áÍø
+#ä¼˜é…·ç½‘
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
 0.0.0.0 e.stat.youku.com
@@ -68,7 +68,7 @@
 0.0.0.0 walp.atm.youku.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
-#ÍÁ¶¹Íø
+#åœŸè±†ç½‘
 0.0.0.0 at-img1.tdimg.com
 0.0.0.0 at-img2.tdimg.com
 0.0.0.0 at-img3.tdimg.com
@@ -85,7 +85,7 @@
 0.0.0.0 tdcm.tudou.com
 0.0.0.0 wwwtest.tudou.com
 0.0.0.0 tudouflv.dnion.com
-#¿á6Íø
+#é…·6ç½‘
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 ku6.allyes.com
 0.0.0.0 gug.ku6cdn.com
@@ -102,34 +102,34 @@
 0.0.0.0 v2.stat.ku6.com
 0.0.0.0 v3.stat.ku6.com
 0.0.0.0 youyou.ku6.com
-#¼¤¶¯Íø
+#æ¿€åŠ¨ç½‘
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86mms.megajoy.com
 0.0.0.0 86get.joy.cn
 0.0.0.0 86log.joy.cn
-#ÌìÏßÊÓÆµ
+#å¤©çº¿è§†é¢‘
 0.0.0.0 casting.openv.com
 0.0.0.0 m.openv.tv
 0.0.0.0 uniclick.openv.com
 #UstreamTV
 0.0.0.0 media.scanscout.com
 0.0.0.0 log.adap.tv
-#Æ¤Æ¤Ó°ÊÓ
+#çš®çš®å½±è§†
 0.0.0.0 afm.pipi.cn
 0.0.0.0 game.pipi.cn
 0.0.0.0 qian.pipi.cn
-#µÚÒ»·ÅÓ³ÊÒ
+#ç¬¬ä¸€æ”¾æ˜ å®¤
 0.0.0.0 admin.onefy.com
 0.0.0.0 bo.tv365.cc
 #Wo318
 0.0.0.0 wo318.k621.com
-#±¬Ã×»¨
+#çˆ†ç±³èŠ±
 0.0.0.0 union.pomoho.com
-#ÀÖÊÓÍø
+#ä¹è§†ç½‘
 0.0.0.0 dc.letv.com
 0.0.0.0 pro.letv.com
 0.0.0.0 stat.letv.com
-#¾Ş¾¨Íø
+#å·¨é²¸ç½‘
 0.0.0.0 t.top100.cn
 #DJ527
 0.0.0.0 ad.dj527.com

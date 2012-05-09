@@ -1,4 +1,4 @@
-@Windows Èí¼ş¹ã¸æ¹ıÂË
+ï»¿@Windows è½¯ä»¶å¹¿å‘Šè¿‡æ»¤
 #360Safe
 0.0.0.0 inst.360safe.com
 0.0.0.0 pdown.stat.360safe.com
@@ -26,7 +26,7 @@
 0.0.0.0 advert.estsoft.com
 #Potplayer
 0.0.0.0 m.adtc.daum.net
-#±©·çÓ°Òô
+#æš´é£å½±éŸ³
 0.0.0.0 boxlist.baofeng.net
 0.0.0.0 clicklog.moviebox.baofeng.net
 0.0.0.0 diag.baofeng.net
@@ -180,9 +180,9 @@
 0.0.0.0 al.myrice.com
 0.0.0.0 all.myrice.com
 0.0.0.0 client.myrice.com
-#¶àÃ×ÒôÀÖ
+#å¤šç±³éŸ³ä¹
 0.0.0.0 pc.boxshows.com
-#YYÓïÒô
+#YYè¯­éŸ³
 0.0.0.0 ad.yy.duowan.com
 0.0.0.0 do.yy.duowan.com
 0.0.0.0 forceupdate.yy.duowan.com
@@ -194,7 +194,7 @@
 0.0.0.0 dw.hiido.cn
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
-#·ÉĞÅ¿Í»§¶Ë
+#é£ä¿¡å®¢æˆ·ç«¯
 0.0.0.0 f.10086.cn
 0.0.0.0 gg.joytod.com
 0.0.0.0 hdss1fta.fetion.com.cn
@@ -202,7 +202,7 @@
 0.0.0.0 imgl.fetionpic.com
 0.0.0.0 minisite.fetionpic.com
 0.0.0.0 minisite0.fetionpic.com
-#°¢ÀïÍúÍú
+#é˜¿é‡Œæ—ºæ—º
 0.0.0.0 jc.wangwang.taobao.com
 0.0.0.0 p3p.alisoft.com
 0.0.0.0 po.im.alisoft.com
@@ -226,17 +226,17 @@
 0.0.0.0 isgame.ipark.cn
 0.0.0.0 ghpage.iuzone.com
 0.0.0.0 page.iuzone.com
-#Ç§Ç§¾²Ìı
+#åƒåƒé™å¬
 0.0.0.0 ads.qianqian.com
 0.0.0.0 ttads.ttplayer.com
 0.0.0.0 ttmsg.qianqian.com
-#¿áÎÒÒôÀÖ
+#é…·æˆ‘éŸ³ä¹
 0.0.0.0 g.kuwo.cn
 0.0.0.0 wa.kuwo.cn
 0.0.0.0 updatepage.kuwo.cn
 0.0.0.0 g.koowo.com
 0.0.0.0 wa.koowo.com
-#¿á¹·ÒôÀÖ
+#é…·ç‹—éŸ³ä¹
 0.0.0.0 dl.ddong.com
 0.0.0.0 game.kugou.com
 0.0.0.0 games.kugou.com
@@ -261,7 +261,7 @@
 #Micronichefinder
 0.0.0.0 www.micronichefinder.com
 0.0.0.0 micronichefinder.com
-#¹âÓ°Ä§ÊõÊÖ
+#å…‰å½±é­”æœ¯æ‰‹
 0.0.0.0 ad.neoimaging.cn
 0.0.0.0 clientconfig.neoimaging.cn
 0.0.0.0 jump.neoimaging.cn
@@ -283,7 +283,7 @@
 0.0.0.0 tj.pctutu.net
 0.0.0.0 update.pctutu.com
 0.0.0.0 update.pctutu.net
-#½ğÉ½¶¾°Ô
+#é‡‘å±±æ¯’éœ¸
 0.0.0.0 i2c.duba.net
 0.0.0.0 i2u.www.duba.net
 0.0.0.0 ifr.duba.net
@@ -294,13 +294,13 @@
 0.0.0.0 api.pc120.com
 0.0.0.0 stat.sd.keniu.com
 0.0.0.0 tq.sd.keniu.com
-#½ğÉ½´Ê°Ô
+#é‡‘å±±è¯éœ¸
 0.0.0.0 34.goto.www.iciba.com
 0.0.0.0 counter.kds.iciba.com
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
 0.0.0.0 u.sl.iciba.com
-#QQ¹Ü¼Ò
+#QQç®¡å®¶
 0.0.0.0 s.pcmgr.qq.com
 #QQCEO
 0.0.0.0 ad.qqceo.net
@@ -313,7 +313,7 @@
 #QQvoice
 0.0.0.0 union.qqvoice.com
 0.0.0.0 union.uucall.hk
-#ËÑ¹·Æ´Òô
+#æœç‹—æ‹¼éŸ³
 0.0.0.0 files2.sogou.com
 0.0.0.0 config.pinyin.sogou.com
 0.0.0.0 ime.sogou.com
@@ -321,7 +321,7 @@
 0.0.0.0 ping.pinyin.sogou.com
 0.0.0.0 pinyin.sogou.com
 0.0.0.0 st.pinyin.sogou.com
-#ËÑ¹·ä¯ÀÀÆ÷
+#æœç‹—æµè§ˆå™¨
 0.0.0.0 download.ie.sogou.com
 0.0.0.0 conf.ie.sogou.com
 0.0.0.0 config.ie.sogou.com

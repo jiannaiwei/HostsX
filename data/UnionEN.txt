@@ -1,4 +1,4 @@
-@HostsX AD Union
+﻿@HostsX AD Union
 #247realmedia
 0.0.0.0 ads.247wsr.com
 0.0.0.0 banner.clickfinders.com

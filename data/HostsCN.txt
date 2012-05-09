@@ -1,14 +1,14 @@
-@HostsCN OneKey
+ï»¿@HostsCN OneKey
 
-@HostsCN OneKey/°¢ÀïÁªÃË
+@HostsCN OneKey/é˜¿é‡Œè”ç›Ÿ
 #Atpanel
 0.0.0.0 ac.atpanel.com
 0.0.0.0 t.atpanel.com
 0.0.0.0 www.atpanel.com
-#°¢ÀïÍúÍú
+#é˜¿é‡Œæ—ºæ—º
 0.0.0.0 p3p.alisoft.com
 0.0.0.0 po.im.alisoft.com
-#°¢ÀïÂèÂè
+#é˜¿é‡Œå¦ˆå¦ˆ
 0.0.0.0 a.alimama.cn
 0.0.0.0 bm.alimama.cn
 0.0.0.0 bmvip.alimama.cn
@@ -28,7 +28,7 @@
 0.0.0.0 tms.taoke.alimama.com
 0.0.0.0 www.alimama.com
 0.0.0.0 z.alimama.com
-#°¢Àï°Í°Í
+#é˜¿é‡Œå·´å·´
 0.0.0.0 acookie.alibaba.com
 0.0.0.0 cmweb.ilike.alibaba.com
 0.0.0.0 dmtracking.alibaba.com
@@ -40,7 +40,7 @@
 0.0.0.0 download.im.alisoft.com
 0.0.0.0 jc.wangwang.taobao.com
 0.0.0.0 dailyupdate.wangwang.taobao.com
-#ÌÔ±¦
+#æ·˜å®
 0.0.0.0 click.mz.simba.taobao.com
 0.0.0.0 click.tz.simba.taobao.com
 0.0.0.0 count.taobao.com
@@ -135,20 +135,20 @@
 0.0.0.0 pv.zdnet.com.cn
 0.0.0.0 tracker.zdnet.com.au
 
-#ÍòÎ¬¼ÒµçÍø
+#ä¸‡ç»´å®¶ç”µç½‘
 0.0.0.0 js.ea3w.com
 0.0.0.0 pic.ea3w.com
 0.0.0.0 stat.ea3w.com
 
 
-#î£ÉÌÔÚÏß
+#ç¿å•†åœ¨çº¿
 0.0.0.0 count.spn.com.cn
 0.0.0.0 www2.spn.com.cn
 
 
 
-@HostsCN OneKey/½ğÉ½ÔÚÏß
-#½ğÉ½ÔÚÏß
+@HostsCN OneKey/é‡‘å±±åœ¨çº¿
+#é‡‘å±±åœ¨çº¿
 0.0.0.0 kinfo.wps.cn
 0.0.0.0 db.union.download.kingsoft.com
 0.0.0.0 push.db.kingsoft.com
@@ -314,15 +314,15 @@
 0.0.0.0 spd.netconversions.com
 0.0.0.0 madserver.net
 0.0.0.0 ads.msn.com.nsatc.net
-@HostsCN OneKey/Ç§Ïğ»¥¶¯
+@HostsCN OneKey/åƒæ©¡äº’åŠ¨
 
-@HostsCN OneKey/ÍøÒ×
+@HostsCN OneKey/ç½‘æ˜“
 #126
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
 0.0.0.0 listen.ph.126.net
-#ÍøÒ×163
+#ç½‘æ˜“163
 0.0.0.0 adc.163.com
 0.0.0.0 adclient.163.com
 0.0.0.0 adgeo.163.com
@@ -339,7 +339,7 @@
 0.0.0.0 proimg.163.com
 0.0.0.0 ud.blog.163.com
 0.0.0.0 union.163.com
-#ÓĞµÀËÑË÷
+#æœ‰é“æœç´¢
 0.0.0.0 a.youdao.com
 0.0.0.0 clkservice.mail.youdao.com
 0.0.0.0 clkservice.youdao.com
@@ -350,8 +350,8 @@
 
 
 
-@HostsCN OneKey/ËÑºü
-#ËÑºü
+@HostsCN OneKey/æœç‹
+#æœç‹
 0.0.0.0 imp.go.sohu.com
 0.0.0.0 count.vrs.sohu.com
 0.0.0.0 hot.vrs.sohu.com
@@ -374,7 +374,7 @@
 0.0.0.0 sohu.ad-plus.cn
 0.0.0.0 u.ad-plus.cn
 0.0.0.0 sohu.datamaster.com.cn
-#ËÑ¹·
+#æœç‹—
 0.0.0.0 a1click.cpc.sogou.com
 0.0.0.0 adsence.sogou.com
 0.0.0.0 alpha.brand.sogou.com
@@ -397,7 +397,7 @@
 0.0.0.0 union.sogou.com
 0.0.0.0 wb.brand.sogou.com
 0.0.0.0 xls.go.sohu.com
-#ËÑ·¿
+#æœæˆ¿
 0.0.0.0 clickn.soufun.com
 0.0.0.0 count.soufun.com
 0.0.0.0 flas.soufun.com
@@ -406,7 +406,7 @@
 0.0.0.0 show.soufun.com
 0.0.0.0 shows.soufun.com
 0.0.0.0 shows1.soufun.com
-@HostsCN OneKey/ÌÚÑ¶QQ
+@HostsCN OneKey/è…¾è®¯QQ
 #QQ
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
@@ -452,15 +452,15 @@
 0.0.0.0 tcss.qq.com
 0.0.0.0 trace.qq.com
 0.0.0.0 w.l.qq.com
-#QQ¹Ü¼Ò
+#QQç®¡å®¶
 0.0.0.0 s.pcmgr.qq.com
-#ËÑËÑ
+#æœæœ
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
 0.0.0.0 pingfore.soso.com
 0.0.0.0 v3.toolbar.soso.com
 0.0.0.0 toolbar.soso.com
-@HostsCN OneKey/Ñ¸À×ÔÚÏß
+@HostsCN OneKey/è¿…é›·åœ¨çº¿
 #Sandai
 0.0.0.0 adcount.sandai.net
 0.0.0.0 analytics-union.sandai.net
@@ -486,11 +486,11 @@
 #Thunder
 0.0.0.0 images.client.xunlei.com
 0.0.0.0 tips.xmp.kankan.xunlei.com
-#¹·¹·ËÑË÷
+#ç‹—ç‹—æœç´¢
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
 0.0.0.0 www.155.com
-#Ñ¸À×¿´¿´
+#è¿…é›·çœ‹çœ‹
 0.0.0.0 advstat.xunlei.com
 0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
@@ -519,8 +519,8 @@
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
-@HostsCN OneKey/Ê¢´óÔÚÏß
-#Ê¢´óÓÎÏ·
+@HostsCN OneKey/ç››å¤§åœ¨çº¿
+#ç››å¤§æ¸¸æˆ
 0.0.0.0 act.dn.sdo.com
 0.0.0.0 adrs.sdo.com
 0.0.0.0 adsr.dn.sdo.com
@@ -532,7 +532,7 @@
 0.0.0.0 stat.aa.sdo.com
 0.0.0.0 static.ex.ibw.sdo.com
 
-#Ê¢´óÍ³¼Æ
+#ç››å¤§ç»Ÿè®¡
 0.0.0.0 sda.ibw.sdo.com
 0.0.0.0 feo.staticsdo.com
 #igalive
@@ -839,7 +839,7 @@
 0.0.0.0 www.rightmedia.com
 0.0.0.0 www.topscreensavers.com
 0.0.0.0 ym.bannerconnect.net
-@HostsCN º£ÍâÕ¾µã¹ã¸æ
+@HostsCN æµ·å¤–ç«™ç‚¹å¹¿å‘Š
 #ABCNews
 0.0.0.0 Adsatt.ABCNews.starwave.com
 0.0.0.0 adsatt.disney.starwave.com

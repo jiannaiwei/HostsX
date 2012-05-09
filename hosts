@@ -1,9 +1,9 @@
-
-;version=21:35 2012/5/8
+锘?
+;version=17:21 2012-5-9
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
-@HostsX 智能转向
+@HostsX 鏅鸿兘杞悜
 #Localhost
 127.0.0.1   localhost
 ::1         localhost
@@ -21,7 +21,6 @@ ff02::3 ip6-allhosts
 fe80::1%lo0	localhost
 255.255.255.255	broadcasthost
 127.0.0.1 advertising.apple.com
-
 #Apple Services
 203.69.113.128 adcdownload.apple.com
 203.69.113.128 deimos3.apple.com
@@ -4314,17 +4313,17 @@ fe80::1%lo0	localhost
 203.208.46.145 opliruqi.appspot.com
 203.208.46.90 encrypted.google.com
 #Youtube
-203.208.45.206 apiblog.youtube.com
-203.208.45.206 help.youtube.com
-203.208.45.206 i.ytimg.com
-203.208.45.206 i1.ytimg.com
-203.208.45.206 i2.ytimg.com
-203.208.45.206 i3.ytimg.com
-203.208.45.206 i4.ytimg.com
-203.208.45.206 insight.youtube.com
-203.208.45.206 m.youtube.com
-203.208.45.206 s.ytimg.com
-203.208.45.206 ytimg.l.google.com
+203.208.46.206 apiblog.youtube.com
+203.208.46.200 help.youtube.com
+203.208.46.200 i.ytimg.com
+203.208.46.200 i1.ytimg.com
+203.208.46.200 i2.ytimg.com
+203.208.46.200 i3.ytimg.com
+203.208.46.200 i4.ytimg.com
+203.208.46.200 insight.youtube.com
+203.208.46.200 m.youtube.com
+203.208.46.200 s.ytimg.com
+203.208.46.200 ytimg.l.google.com
 #Gravatar
 93.184.220.20 s.gravatar.com
 93.184.220.20 0.gravatar.com
@@ -4408,7 +4407,7 @@ fe80::1%lo0	localhost
 208.80.152.201 zh.wikisource.org
 208.80.152.201 zh.wiktionary.org
 208.80.152.211 upload.wikimedia.org
-@门户和常用网站
+@闂ㄦ埛鍜屽父鐢ㄧ綉绔?
 #GoogleAdWord
 127.0.0.1 adwords.google.com
 127.0.0.1 adwords.google.sk
@@ -4670,7 +4669,7 @@ fe80::1%lo0	localhost
 127.0.0.1 pagead-dclk.l.google.com
 127.0.0.1 mobileads.google.com
 127.0.0.1 mobwin.android.com
-#百度广告联盟
+#鐧惧害骞垮憡鑱旂洘
 127.0.0.1 m1.baidu.com
 127.0.0.1 mobads.baidu.com
 127.0.0.1 mpro.baidu.com
@@ -4717,7 +4716,7 @@ fe80::1%lo0	localhost
 127.0.0.1 utility.baidu.com
 127.0.0.1 utk.baidu.com
 127.0.0.1 wangmeng.baidu.com
-#阿里广告联盟
+#闃块噷骞垮憡鑱旂洘
 127.0.0.1 a.alimama.cn
 127.0.0.1 bm.alimama.cn
 127.0.0.1 bmvip.alimama.cn
@@ -4764,7 +4763,7 @@ fe80::1%lo0	localhost
 127.0.0.1 adtaobao.allyes.cn
 127.0.0.1 taobaoafp.allyes.cn
 127.0.0.1 taobaoafp.allyes.com
-#新浪网
+#鏂版氮缃?
 127.0.0.1 c.biz.weibo.com
 127.0.0.1 iyh365.cn
 127.0.0.1 8.show.sina.com.cn
@@ -4814,7 +4813,7 @@ fe80::1%lo0	localhost
 127.0.0.1 rm.ra.icast.cn
 127.0.0.1 track.ra.icast.cn
 127.0.0.1 track2.ra.icast.cn
-#网易163
+#缃戞槗163
 127.0.0.1 analytics.ws.126.net
 127.0.0.1 img1.126.net
 127.0.0.1 stat.ws.126.net
@@ -4835,7 +4834,7 @@ fe80::1%lo0	localhost
 127.0.0.1 proimg.163.com
 127.0.0.1 ud.blog.163.com
 127.0.0.1 union.163.com
-#有道搜索
+#鏈夐亾鎼滅储
 127.0.0.1 a.youdao.com
 127.0.0.1 clkservice.mail.youdao.com
 127.0.0.1 clkservice.youdao.com
@@ -4846,7 +4845,7 @@ fe80::1%lo0	localhost
 127.0.0.1 impservice.youdao.com
 127.0.0.1 impservice2.youdao.com
 127.0.0.1 union.youdao.com
-#腾讯QQ
+#鑵捐QQ
 127.0.0.1 ad.qq.com
 127.0.0.1 adping.qq.com
 127.0.0.1 adsclick.qq.com
@@ -4891,17 +4890,17 @@ fe80::1%lo0	localhost
 127.0.0.1 tcss.qq.com
 127.0.0.1 trace.qq.com
 127.0.0.1 w.l.qq.com
-#搜搜
+#鎼滄悳
 127.0.0.1 dr.soso.com
 127.0.0.1 jzclick.soso.com
 127.0.0.1 pingfore.soso.com
 127.0.0.1 v3.toolbar.soso.com
 127.0.0.1 toolbar.soso.com
-#狗狗搜索
+#鐙楃嫍鎼滅储
 127.0.0.1 s.gougou.com
 127.0.0.1 un.so.gougou.com
 127.0.0.1 www.155.com
-#迅雷看看
+#杩呴浄鐪嬬湅
 127.0.0.1 cop.my.sandai.net
 127.0.0.1 adcount.sandai.net
 127.0.0.1 analytics-union.sandai.net
@@ -4954,7 +4953,7 @@ fe80::1%lo0	localhost
 127.0.0.1 websts.xunlei.com
 127.0.0.1 wy.xunlei.com
 127.0.0.1 xmlconf.client.xunlei.com
-#搜狐
+#鎼滅嫄
 127.0.0.1 imp.go.sohu.com
 127.0.0.1 count.vrs.sohu.com
 127.0.0.1 hot.vrs.sohu.com
@@ -4977,7 +4976,7 @@ fe80::1%lo0	localhost
 127.0.0.1 sohu.ad-plus.cn
 127.0.0.1 u.ad-plus.cn
 127.0.0.1 sohu.datamaster.com.cn
-#搜狗
+#鎼滅嫍
 127.0.0.1 a1click.cpc.sogou.com
 127.0.0.1 adsence.sogou.com
 127.0.0.1 alpha.brand.sogou.com
@@ -5000,7 +4999,7 @@ fe80::1%lo0	localhost
 127.0.0.1 union.sogou.com
 127.0.0.1 wb.brand.sogou.com
 127.0.0.1 xls.go.sohu.com
-#金山在线
+#閲戝北鍦ㄧ嚎
 127.0.0.1 kinfo.wps.cn
 127.0.0.1 db.union.download.kingsoft.com
 127.0.0.1 push.db.kingsoft.com
@@ -5008,7 +5007,7 @@ fe80::1%lo0	localhost
 127.0.0.1 union.jx2.kingsoft.com
 127.0.0.1 union.kingsoft.com
 127.0.0.1 union.wps.kingsoft.com
-@门户和常用网站/Microsoft AD
+@闂ㄦ埛鍜屽父鐢ㄧ綉绔?Microsoft AD
 #Adbureau
 127.0.0.1 ad101com-images.adbureau.net
 127.0.0.1 ad101com.adbureau.net
@@ -5165,7 +5164,7 @@ fe80::1%lo0	localhost
 127.0.0.1 spd.netconversions.com
 127.0.0.1 madserver.net
 127.0.0.1 ads.msn.com.nsatc.net
-@门户和常用网站/Yahoo!
+@闂ㄦ埛鍜屽父鐢ㄧ綉绔?Yahoo!
 #Adinterax
 127.0.0.1 adinterax.com
 127.0.0.1 mi.adinterax.com
@@ -5487,7 +5486,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.rightmedia.com
 127.0.0.1 www.yfdmedia.com
 127.0.0.1 ym.bannerconnect.net
-@HostsX 海外站点广告
+@HostsX 娴峰绔欑偣骞垮憡
 #BNet
 127.0.0.1 bwp.bnet.com
 127.0.0.1 mads.bnet.com
@@ -5740,9 +5739,9 @@ fe80::1%lo0	localhost
 127.0.0.1 ads.miniclip.com
 127.0.0.1 ads.ttv.com.tw
 127.0.0.1 drd.hauchi.com.tw
-@HostsX 国内站点广告
-@HostsX 国内站点广告/社区类网站
-#天涯社区
+@HostsX 鍥藉唴绔欑偣骞垮憡
+@HostsX 鍥藉唴绔欑偣骞垮憡/绀惧尯绫荤綉绔?
+#澶╂动绀惧尯
 127.0.0.1 801.tianya.cn
 127.0.0.1 803.tianya.cn
 127.0.0.1 806.tianya.cn
@@ -5754,12 +5753,12 @@ fe80::1%lo0	localhost
 127.0.0.1 urchin.tianya.cn
 127.0.0.1 801.tianyaui.com
 127.0.0.1 click.tianyaui.com
-#凯迪网
+#鍑开缃?
 127.0.0.1 panda.kdnet.net
 127.0.0.1 tracking.kdnet.net
-#开心网
+#寮�蹇冪綉
 127.0.0.1 m222034.kaixin001.com
-#奇虎社区
+#濂囪檸绀惧尯
 127.0.0.1 aimg.qihoo.com
 127.0.0.1 clkstat.qihoo.com
 127.0.0.1 code.qihoo.com
@@ -5769,7 +5768,7 @@ fe80::1%lo0	localhost
 127.0.0.1 qd.code.qihoo.com
 127.0.0.1 rd.qihoo.com
 127.0.0.1 union.qihoo.com
-#猫扑网
+#鐚墤缃?
 127.0.0.1 g.mop.com
 127.0.0.1 gg.mop.com
 127.0.0.1 imgpub.mop.com
@@ -5790,7 +5789,7 @@ fe80::1%lo0	localhost
 127.0.0.1 yx.mop.com
 127.0.0.1 union.uume.com
 127.0.0.1 jh.uume.com
-#人人网
+#浜轰汉缃?
 127.0.0.1 c.renren.com
 127.0.0.1 click.jebe.renren.com
 127.0.0.1 cupid.jebe.renren.com
@@ -5804,23 +5803,23 @@ fe80::1%lo0	localhost
 127.0.0.1 shaft.jebe.renren.com
 127.0.0.1 track.yx.renren.com
 127.0.0.1 jebe.xnimg.cn
-#铁血网
+#閾佽缃?
 127.0.0.1 ads.tiexue.net
 127.0.0.1 x.itiexue.net
 #VeryCD
 127.0.0.1 sp.vcimg.com
 127.0.0.1 sponsor.verycd.com
-#西陆网
+#瑗块檰缃?
 127.0.0.1 a.xilu.com
 127.0.0.1 content.xilu.com
 127.0.0.1 stat.xilu.com
 127.0.0.1 test.xilu.com
-#大旗网
+#澶ф棗缃?
 127.0.0.1 adcount.yoka.com
 127.0.0.1 gg.daqi.com
 127.0.0.1 log.daqi.com
 127.0.0.1 union.daqi.com
-#西祠胡同
+#瑗跨鑳″悓
 127.0.0.1 ad.xici.net
 127.0.0.1 data.xici.net
 #5d6d
@@ -5837,99 +5836,99 @@ fe80::1%lo0	localhost
 127.0.0.1 pro.blogbus.com
 #51.com
 127.0.0.1 v3.apic.51.com
-@HostsX 国内站点广告/小说类网站
-#起点中文网
+@HostsX 鍥藉唴绔欑偣骞垮憡/灏忚绫荤綉绔?
+#璧风偣涓枃缃?
 127.0.0.1 qidian.adsame.com
 127.0.0.1 uedas.qidian.com
 127.0.0.1 js.ap.snyu.com
 127.0.0.1 rr.ap.snyu.com
 127.0.0.1 de.ap.snyu.com
 127.0.0.1 pic.snyu.com
-#一起看小说
+#涓�璧风湅灏忚
 127.0.0.1 ad.17k.com
 127.0.0.1 log.17k.com
-#逐浪网
+#閫愭氮缃?
 127.0.0.1 images2.zhulang.com
 127.0.0.1 pv.zhulang.com
-#潇湘书院
+#娼囨箻涔﹂櫌
 127.0.0.1 images.xxsy.net
 127.0.0.1 xxsy.bohelady.com
-#红袖添香
+#绾㈣娣婚
 127.0.0.1 m.union.hongxiu.com
-#小说阅读网
+#灏忚闃呰缃?
 127.0.0.1 a.readnovel.com
 127.0.0.1 stat.readnovel.com
-#虚拟天空
+#铏氭嫙澶╃┖
 127.0.0.1 b.xntk.com
-@HostsX 国内站点广告/新闻类网站
-#新华网
+@HostsX 鍥藉唴绔欑偣骞垮憡/鏂伴椈绫荤綉绔?
+#鏂板崕缃?
 127.0.0.1 adcenter.xinhuanet.com
 127.0.0.1 embed.xinhuanet.com
 127.0.0.1 entity.xinhuanet.com
-#人民网
+#浜烘皯缃?
 127.0.0.1 ads.people.com.cn
 127.0.0.1 pro.people.com.cn
-#凤凰网
+#鍑ゅ嚢缃?
 127.0.0.1 bc.ifeng.com
 127.0.0.1 sta.ifeng.com
 127.0.0.1 stadig.ifeng.com
-#联合早报
+#鑱斿悎鏃╂姤
 127.0.0.1 ads.zaobao.com
-#新民网
+#鏂版皯缃?
 127.0.0.1 iads.xinmin.cn
-#慧聪网
+#鎱ц仾缃?
 127.0.0.1 hcafp.allyes.com
-#中新网
+#涓柊缃?
 127.0.0.1 www.pagechoice.net
 127.0.0.1 report.chinanews.com
-#中华网
+#涓崕缃?
 127.0.0.1 c.china.com
 127.0.0.1 dvs.china.com
 127.0.0.1 dvsend.china.com
 127.0.0.1 richmedia.china.com
 127.0.0.1 track.china.com
-#东方热线
+#涓滄柟鐑嚎
 127.0.0.1 adi.cnool.net
 127.0.0.1 adp1.cnool.net
 127.0.0.1 countimages.cnool.net
-#星岛环球网
+#鏄熷矝鐜悆缃?
 127.0.0.1 stnn.adsame.com
-#大众网
+#澶т紬缃?
 127.0.0.1 ad.dzwww.com
-#千龙网
+#鍗冮緳缃?
 127.0.0.1 ad.cqnews.net
 127.0.0.1 adimg.cqnews.net
-#齐鲁在线
+#榻愰瞾鍦ㄧ嚎
 127.0.0.1 c.iqilu.com
 127.0.0.1 g.iqilu.com
 127.0.0.1 gimg.iqilu.com
-#华商网
+#鍗庡晢缃?
 127.0.0.1 g.hsw.cn
 127.0.0.1 stat.hsw.cn
-#南海网
+#鍗楁捣缃?
 127.0.0.1 emarketing.hinews.cn
 127.0.0.1 pl.hinews.cn
-#三联素材
+#涓夎仈绱犳潗
 127.0.0.1 ad.3lian.com
-#重庆晚报
+#閲嶅簡鏅氭姤
 127.0.0.1 ad.cqwb.com.cn
-#大洋网
+#澶ф磱缃?
 127.0.0.1 adimg.dayoo.com
 127.0.0.1 rnd.dayoo.com
 127.0.0.1 sta.dayoo.com
-#北方网
+#鍖楁柟缃?
 127.0.0.1 eap.enorth.com.cn
 127.0.0.1 jsp5.enorth.com.cn
 127.0.0.1 swf.enorth.com.cn
-#环球网
+#鐜悆缃?
 127.0.0.1 cl2.webterren.com
 127.0.0.1 bjafp.allyes.com
 127.0.0.1 huanqiu.allyes.com
 127.0.0.1 huanqiu.datamaster.com.cn
-#珠海视窗
+#鐝犳捣瑙嗙獥
 127.0.0.1 poo.zhuhai.gd.cn
-@HostsX 国内站点广告/游戏类网站
-#电玩巴士
+@HostsX 鍥藉唴绔欑偣骞垮憡/娓告垙绫荤綉绔?
+#鐢电帺宸村＋
 127.0.0.1 bill.tgbus.com
 127.0.0.1 g.tgbus.com
 127.0.0.1 g.tgbusdata.cn
@@ -5940,9 +5939,9 @@ fe80::1%lo0	localhost
 #178
 127.0.0.1 adcount.178.com
 127.0.0.1 market.178.com
-#游侠网
+#娓镐緺缃?
 127.0.0.1 bmp.ali213.net
-#爱拍游戏
+#鐖辨媿娓告垙
 127.0.0.1 apas.aipai.com
 #776
 127.0.0.1 dynamic.766.com
@@ -5959,14 +5958,14 @@ fe80::1%lo0	localhost
 127.0.0.1 js.adm.cngba.com
 #DM5
 127.0.0.1 by.dm5.com
-#游久网
+#娓镐箙缃?
 127.0.0.1 stat.uuu9.com
-#4399小游戏
+#4399灏忔父鎴?
 127.0.0.1 aszt1.my4399.com
 127.0.0.1 stat.api.4399.com
 127.0.0.1 uimg.my4399.com
-@HostsX 国内站点广告/财经类网站
-#和讯财经
+@HostsX 鍥藉唴绔欑偣骞垮憡/璐㈢粡绫荤綉绔?
+#鍜岃璐㈢粡
 127.0.0.1 ads.hexun.com
 127.0.0.1 analytics.tool.hexun.com
 127.0.0.1 count.tool.hexun.com
@@ -5977,62 +5976,62 @@ fe80::1%lo0	localhost
 127.0.0.1 union.hexun.com
 127.0.0.1 utrack.hexun.com
 127.0.0.1 wizard.stock.hexun.com
-#东方财富网
+#涓滄柟璐㈠瘜缃?
 127.0.0.1 ay.eastmoney.com
 127.0.0.1 cp.eastmoney.com
 127.0.0.1 js1.eastmoney.com
 127.0.0.1 same.eastmoney.com
 127.0.0.1 eastmoney.allyes.com
 127.0.0.1 wonderadafa7.allyes.com
-#金融界
+#閲戣瀺鐣?
 127.0.0.1 allyes.jrj.com
 127.0.0.1 aps4.jrjimg.cn
-#证券之星
+#璇佸埜涔嬫槦
 127.0.0.1 allyes.stockstar.com
-#中金在线
+#涓噾鍦ㄧ嚎
 127.0.0.1 click.cnfol.com
 127.0.0.1 pagead.cnfol.com
 127.0.0.1 he.js.cnfol.com
 127.0.0.1 csad.adsame.com
-#MACD金融网
+#MACD閲戣瀺缃?
 127.0.0.1 xc.macd.cn
-#中国资本证券网
+#涓浗璧勬湰璇佸埜缃?
 127.0.0.1 ads.ccstock.cn
-@HostsX 国内站点广告/摄影类网站
-#蜂鸟网
+@HostsX 鍥藉唴绔欑偣骞垮憡/鎽勫奖绫荤綉绔?
+#铚傞笩缃?
 127.0.0.1 pic.fengniao.com
 127.0.0.1 stat.fengniao.com
 127.0.0.1 js.fengniao.com
-#色影无忌
+#鑹插奖鏃犲繉
 127.0.0.1 www8.xitek.com
 #POCO
 127.0.0.1 a-m-s.poco.cn
-#新摄影
+#鏂版憚褰?
 127.0.0.1 util.nphoto.net
-@HostsX 国内站点广告/购物类网站
+@HostsX 鍥藉唴绔欑偣骞垮憡/璐墿绫荤綉绔?
 #Amazon
 127.0.0.1 rcm-images.amazon.com
 127.0.0.1 rcm.amazon.com
 127.0.0.1 rcm-cn.amazon.cn
-#京东商城
+#浜笢鍟嗗煄
 127.0.0.1 click.union.360buy.com
 127.0.0.1 show.union.360buy.com
 127.0.0.1 union.360buy.com
-#当当网
+#褰撳綋缃?
 127.0.0.1 a.dangdang.com
 127.0.0.1 central.dangdang.com
 127.0.0.1 union.dangdang.com
-#凡客诚品
+#鍑″璇氬搧
 127.0.0.1 union.vancl.com
-#梦芭莎
+#姊﹁姯鑾?
 127.0.0.1 click.moonbasa.com
 127.0.0.1 static.moonbasa.com
-#家电联盟
+#瀹剁數鑱旂洘
 127.0.0.1 pic.jdunion.com
-#淘积分
+#娣樼Н鍒?
 127.0.0.1 ad.taojifen.net
-@HostsX 国内站点广告/IT类网站
-#电脑之家
+@HostsX 鍥藉唴绔欑偣骞垮憡/IT绫荤綉绔?
+#鐢佃剳涔嬪
 127.0.0.1 ad.adver.com.tw
 127.0.0.1 ad.pchome.net
 127.0.0.1 btm.pchome.net
@@ -6042,7 +6041,7 @@ fe80::1%lo0	localhost
 127.0.0.1 js-1.pchome.net
 127.0.0.1 market.pchome.net
 127.0.0.1 stat.pchome.net
-#中关村在线
+#涓叧鏉戝湪绾?
 127.0.0.1 adm.zol.com.cn
 127.0.0.1 bd.zol.com.cn
 127.0.0.1 bwp.zol.com.cn
@@ -6053,7 +6052,7 @@ fe80::1%lo0	localhost
 127.0.0.1 pvmsite.zol.com.cn
 127.0.0.1 pvsite.zol.com.cn
 127.0.0.1 stat.zol.com.cn
-#Pc泡泡
+#Pc娉℃场
 127.0.0.1 33.pcpop.com
 127.0.0.1 app.pcpop.com
 127.0.0.1 ashow.pcpop.com
@@ -6070,16 +6069,16 @@ fe80::1%lo0	localhost
 127.0.0.1 168.it168.com
 127.0.0.1 adshow.it168.com
 127.0.0.1 stat.it168.com
-#西域IT
+#瑗垮煙IT
 127.0.0.1 apic.xiyuit.com
-#睿商在线
+#鐫垮晢鍦ㄧ嚎
 127.0.0.1 count.spn.com.cn
 127.0.0.1 www2.spn.com.cn
-#万维家电网
+#涓囩淮瀹剁數缃?
 127.0.0.1 js.ea3w.com
 127.0.0.1 pic.ea3w.com
 127.0.0.1 stat.ea3w.com
-#天极网
+#澶╂瀬缃?
 127.0.0.1 counter.tianjimedia.com
 127.0.0.1 more.tianjimedia.com
 127.0.0.1 pv.tianjimedia.com
@@ -6088,21 +6087,21 @@ fe80::1%lo0	localhost
 127.0.0.1 ucpn.yesky.com
 127.0.0.1 union.yesky.com
 127.0.0.1 yeskyafp.allyes.com
-#硅谷动力
+#纭呰胺鍔ㄥ姏
 127.0.0.1 trace.enet.com.cn
 127.0.0.1 enet4.enet.com.cn
-#比特网
+#姣旂壒缃?
 127.0.0.1 adsame.tianjimedia.com
-#赛迪网
+#璧涜开缃?
 127.0.0.1 stat.ccidnet.com
 127.0.0.1 www2.ccidnet.com
-#豆豆网
+#璞嗚眴缃?
 127.0.0.1 ad.ddvip.com
 #Donews
 127.0.0.1 gg.donews.com
-#小熊在线
+#灏忕唺鍦ㄧ嚎
 127.0.0.1 yahoo1.beareyes.com.cn
-#蓝色理想
+#钃濊壊鐞嗘兂
 127.0.0.1 gg.blueidea.com
 #CSDN
 127.0.0.1 counter.csdn.net
@@ -6113,7 +6112,7 @@ fe80::1%lo0	localhost
 127.0.0.1 img.rayfile.com
 127.0.0.1 raya.rayfile.com
 127.0.0.1 w105.rayfile.com
-#华为网盘
+#鍗庝负缃戠洏
 127.0.0.1 acd.adkongjian.com
 127.0.0.1 cs.adkongjian.com
 127.0.0.1 cs.twcczhu.com
@@ -6129,39 +6128,39 @@ fe80::1%lo0	localhost
 127.0.0.1 www.114la.com
 127.0.0.1 un.i.116.com
 127.0.0.1 un.v.116.com
-#木蚂蚁
+#鏈ㄨ殏铓?
 127.0.0.1 js.mumayi.net
 #Xdowns
 127.0.0.1 ccc.xdowns.com
 #Crsky
 127.0.0.1 images.crsky.com
-@HostsX 国内站点广告/汽车类网站
-#车市网
+@HostsX 鍥藉唴绔欑偣骞垮憡/姹借溅绫荤綉绔?
+#杞﹀競缃?
 127.0.0.1 analyze.cheshi.com
 127.0.0.1 click.cheshi.com
 127.0.0.1 media.cheshi-img.com
 127.0.0.1 pv.cheshi.com
 127.0.0.1 fallyesbjafa.allyes.com
-#爱卡汽车
+#鐖卞崱姹借溅
 127.0.0.1 count.xcar.com.cn
 127.0.0.1 d0.xcar.com.cn
 127.0.0.1 d1.xcar.com.cn
 127.0.0.1 dw.xcar.com.cn
-#易车网
+#鏄撹溅缃?
 127.0.0.1 autosense.bitauto.com
 127.0.0.1 g.bitauto.com
 127.0.0.1 gimg.bitauto.com
 127.0.0.1 ip.bitauto.com
 127.0.0.1 log.bitauto.com
-#汽车之家
+#姹借溅涔嬪
 127.0.0.1 33.autohome.com.cn
 127.0.0.1 adshow.che168.com
 127.0.0.1 pv.che168.com
-#太平洋汽车网
+#澶钩娲嬫苯杞︾綉
 127.0.0.1 count.pcauto.com.cn
-#中国汽车网
+#涓浗姹借溅缃?
 127.0.0.1 chinacarsafp.allyes.com
-@HostsX 国内站点广告/视频类网站
+@HostsX 鍥藉唴绔欑偣骞垮憡/瑙嗛绫荤綉绔?
 #CNTV
 127.0.0.1 a.cctv.com
 127.0.0.1 a.cntv.cn
@@ -6182,7 +6181,7 @@ fe80::1%lo0	localhost
 #JSTV
 127.0.0.1 jstvimedia.allyes.com
 127.0.0.1 jstv.allyes.com
-#我乐网
+#鎴戜箰缃?
 127.0.0.1 acs.agent.v-56.com
 127.0.0.1 bill.agent.v-56.com
 127.0.0.1 stat3.corp.v-56.com
@@ -6195,12 +6194,12 @@ fe80::1%lo0	localhost
 127.0.0.1 union.56.com
 127.0.0.1 uvimage.56.com
 127.0.0.1 v16.56.com
-#6间房
+#6闂存埧
 127.0.0.1 pole.6rooms.com
 127.0.0.1 shrek.6.cn
 127.0.0.1 simba.6.cn
 127.0.0.1 union.6.cn
-#i奇艺
+#i濂囪壓
 127.0.0.1 minisite.qiyi.com
 127.0.0.1 policy.cupid.qiyi.com
 127.0.0.1 show.cupid.qiyi.com
@@ -6212,7 +6211,7 @@ fe80::1%lo0	localhost
 127.0.0.1 bsg.unlitui.com
 127.0.0.1 b.scorecardresearch.com
 127.0.0.1 log.51network.com
-#优酷网
+#浼橀叿缃?
 127.0.0.1 atm.youku.com
 127.0.0.1 count.atm.youku.com
 127.0.0.1 e.stat.youku.com
@@ -6235,7 +6234,7 @@ fe80::1%lo0	localhost
 127.0.0.1 walp.atm.youku.com
 127.0.0.1 smarttrade.allyes.com
 127.0.0.1 a.htwisdom.com
-#土豆网
+#鍦熻眴缃?
 127.0.0.1 adcontrol.tudou.com
 127.0.0.1 adextensioncontrol.tudou.com
 127.0.0.1 adplay.tudou.com
@@ -6248,7 +6247,7 @@ fe80::1%lo0	localhost
 127.0.0.1 tdcm.tudou.com
 127.0.0.1 wwwtest.tudou.com
 127.0.0.1 tudouflv.dnion.com
-#酷6网
+#閰?缃?
 127.0.0.1 1.allyes.com.cn
 127.0.0.1 ku6.allyes.com
 127.0.0.1 gug.ku6cdn.com
@@ -6265,41 +6264,41 @@ fe80::1%lo0	localhost
 127.0.0.1 v2.stat.ku6.com
 127.0.0.1 v3.stat.ku6.com
 127.0.0.1 youyou.ku6.com
-#激动网
+#婵�鍔ㄧ綉
 127.0.0.1 86file.megajoy.com
 127.0.0.1 86mms.megajoy.com
 127.0.0.1 86get.joy.cn
 127.0.0.1 86log.joy.cn
-#天线视频
+#澶╃嚎瑙嗛
 127.0.0.1 casting.openv.com
 127.0.0.1 m.openv.tv
 127.0.0.1 uniclick.openv.com
 #UstreamTV
 127.0.0.1 media.scanscout.com
 127.0.0.1 log.adap.tv
-#皮皮影视
+#鐨毊褰辫
 127.0.0.1 afm.pipi.cn
 127.0.0.1 game.pipi.cn
 127.0.0.1 qian.pipi.cn
-#第一放映室
+#绗竴鏀炬槧瀹?
 127.0.0.1 admin.onefy.com
 127.0.0.1 bo.tv365.cc
 #Wo318
 127.0.0.1 wo318.k621.com
-#爆米花
+#鐖嗙背鑺?
 127.0.0.1 union.pomoho.com
-#乐视网
+#涔愯缃?
 127.0.0.1 dc.letv.com
 127.0.0.1 pro.letv.com
 127.0.0.1 stat.letv.com
-#巨鲸网
+#宸ㄩ哺缃?
 127.0.0.1 t.top100.cn
 #DJ527
 127.0.0.1 ad.dj527.com
 127.0.0.1 sy.0575dp.com
 127.0.0.1 www.0575dp.com
-@HostsX 国内站点广告/信息服务类网站
-#搜房
+@HostsX 鍥藉唴绔欑偣骞垮憡/淇℃伅鏈嶅姟绫荤綉绔?
+#鎼滄埧
 127.0.0.1 clickn.soufun.com
 127.0.0.1 count.soufun.com
 127.0.0.1 flas.soufun.com
@@ -6308,22 +6307,22 @@ fe80::1%lo0	localhost
 127.0.0.1 show.soufun.com
 127.0.0.1 shows.soufun.com
 127.0.0.1 shows1.soufun.com
-#阿邦网
+#闃块偊缃?
 127.0.0.1 abangafp.abang.com
-#中国天气
+#涓浗澶╂皵
 127.0.0.1 poster1.weather.com.cn
 127.0.0.1 poster.weather.com.cn
-#39健康网
+#39鍋ュ悍缃?
 127.0.0.1 app-g.39.net
 127.0.0.1 dpvc.39.net
 127.0.0.1 39net.datamaster.com.cn
-#寻医问药网
+#瀵诲尰闂嵂缃?
 127.0.0.1 gg.xywy.com
-#糗事百科
+#绯椾簨鐧剧
 127.0.0.1 ad.qiushibaike.com
-#互动百科
+#浜掑姩鐧剧
 127.0.0.1 stat.hudong.com
-#携程网
+#鎼虹▼缃?
 127.0.0.1 allyes.ctrip.com
 #21CN
 127.0.0.1 analytics.21cn.com
@@ -6360,32 +6359,32 @@ fe80::1%lo0	localhost
 127.0.0.1 skypetools5.tom.com
 127.0.0.1 store.ule.tom.com
 127.0.0.1 ule.tom.com
-#北青网
+#鍖楅潚缃?
 127.0.0.1 a.emedia.cn
 127.0.0.1 v.emedia.cn
 127.0.0.1 z3.emedia.cn
 127.0.0.1 ad.ynet.com
 127.0.0.1 fun.ynet.com
 127.0.0.1 ranking.ynet.com
-#德州之窗
+#寰峰窞涔嬬獥
 127.0.0.1 gg.dzwindows.com
-#河池365
+#娌虫睜365
 127.0.0.1 bbs.corp.gxhc365.com
-#北海365
+#鍖楁捣365
 127.0.0.1 ad.beihai365.com
-#Hiao好网
+#Hiao濂界綉
 127.0.0.1 stat.hiao.com
 127.0.0.1 up.hiao.com
-#华声论坛
+#鍗庡０璁哄潧
 127.0.0.1 click.hnol.net
 127.0.0.1 clickip.hnol.net
 127.0.0.1 ts.instreet.cn
-#亿房
+#浜挎埧
 127.0.0.1 shows.fdc.com.cn
 #51Job
 127.0.0.1 logs.51job.com
 127.0.0.1 kwdsrv.51job.com
-#智联招聘
+#鏅鸿仈鎷涜仒
 127.0.0.1 cnt.zhaopin.com
 #Yidaba
 127.0.0.1 adc.yidaba.com
@@ -6400,7 +6399,7 @@ fe80::1%lo0	localhost
 127.0.0.1 images.yidaba.com
 127.0.0.1 images.cms.yidaba.com
 127.0.0.1 static.yidaba.com
-@Windows 软件广告过滤
+@Windows 杞欢骞垮憡杩囨护
 #360Safe
 127.0.0.1 inst.360safe.com
 127.0.0.1 pdown.stat.360safe.com
@@ -6428,7 +6427,7 @@ fe80::1%lo0	localhost
 127.0.0.1 advert.estsoft.com
 #Potplayer
 127.0.0.1 m.adtc.daum.net
-#暴风影音
+#鏆撮褰遍煶
 127.0.0.1 boxlist.baofeng.net
 127.0.0.1 clicklog.moviebox.baofeng.net
 127.0.0.1 diag.baofeng.net
@@ -6582,9 +6581,9 @@ fe80::1%lo0	localhost
 127.0.0.1 al.myrice.com
 127.0.0.1 all.myrice.com
 127.0.0.1 client.myrice.com
-#多米音乐
+#澶氱背闊充箰
 127.0.0.1 pc.boxshows.com
-#YY语音
+#YY璇煶
 127.0.0.1 ad.yy.duowan.com
 127.0.0.1 do.yy.duowan.com
 127.0.0.1 forceupdate.yy.duowan.com
@@ -6596,7 +6595,7 @@ fe80::1%lo0	localhost
 127.0.0.1 dw.hiido.cn
 127.0.0.1 im.yy.hiido.cn
 127.0.0.1 njs.dw.hiido.cn
-#飞信客户端
+#椋炰俊瀹㈡埛绔?
 127.0.0.1 f.10086.cn
 127.0.0.1 gg.joytod.com
 127.0.0.1 hdss1fta.fetion.com.cn
@@ -6604,7 +6603,7 @@ fe80::1%lo0	localhost
 127.0.0.1 imgl.fetionpic.com
 127.0.0.1 minisite.fetionpic.com
 127.0.0.1 minisite0.fetionpic.com
-#阿里旺旺
+#闃块噷鏃烘椇
 127.0.0.1 jc.wangwang.taobao.com
 127.0.0.1 p3p.alisoft.com
 127.0.0.1 po.im.alisoft.com
@@ -6628,17 +6627,17 @@ fe80::1%lo0	localhost
 127.0.0.1 isgame.ipark.cn
 127.0.0.1 ghpage.iuzone.com
 127.0.0.1 page.iuzone.com
-#千千静听
+#鍗冨崈闈欏惉
 127.0.0.1 ads.qianqian.com
 127.0.0.1 ttads.ttplayer.com
 127.0.0.1 ttmsg.qianqian.com
-#酷我音乐
+#閰锋垜闊充箰
 127.0.0.1 g.kuwo.cn
 127.0.0.1 wa.kuwo.cn
 127.0.0.1 updatepage.kuwo.cn
 127.0.0.1 g.koowo.com
 127.0.0.1 wa.koowo.com
-#酷狗音乐
+#閰风嫍闊充箰
 127.0.0.1 dl.ddong.com
 127.0.0.1 game.kugou.com
 127.0.0.1 games.kugou.com
@@ -6663,7 +6662,7 @@ fe80::1%lo0	localhost
 #Micronichefinder
 127.0.0.1 www.micronichefinder.com
 127.0.0.1 micronichefinder.com
-#光影魔术手
+#鍏夊奖榄旀湳鎵?
 127.0.0.1 ad.neoimaging.cn
 127.0.0.1 clientconfig.neoimaging.cn
 127.0.0.1 jump.neoimaging.cn
@@ -6685,7 +6684,7 @@ fe80::1%lo0	localhost
 127.0.0.1 tj.pctutu.net
 127.0.0.1 update.pctutu.com
 127.0.0.1 update.pctutu.net
-#金山毒霸
+#閲戝北姣掗湼
 127.0.0.1 i2c.duba.net
 127.0.0.1 i2u.www.duba.net
 127.0.0.1 ifr.duba.net
@@ -6696,13 +6695,13 @@ fe80::1%lo0	localhost
 127.0.0.1 api.pc120.com
 127.0.0.1 stat.sd.keniu.com
 127.0.0.1 tq.sd.keniu.com
-#金山词霸
+#閲戝北璇嶉湼
 127.0.0.1 34.goto.www.iciba.com
 127.0.0.1 counter.kds.iciba.com
 127.0.0.1 goto.www.iciba.com
 127.0.0.1 u.iciba.com
 127.0.0.1 u.sl.iciba.com
-#QQ管家
+#QQ绠″
 127.0.0.1 s.pcmgr.qq.com
 #QQCEO
 127.0.0.1 ad.qqceo.net
@@ -6715,7 +6714,7 @@ fe80::1%lo0	localhost
 #QQvoice
 127.0.0.1 union.qqvoice.com
 127.0.0.1 union.uucall.hk
-#搜狗拼音
+#鎼滅嫍鎷奸煶
 127.0.0.1 files2.sogou.com
 127.0.0.1 config.pinyin.sogou.com
 127.0.0.1 ime.sogou.com
@@ -6723,7 +6722,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ping.pinyin.sogou.com
 127.0.0.1 pinyin.sogou.com
 127.0.0.1 st.pinyin.sogou.com
-#搜狗浏览器
+#鎼滅嫍娴忚鍣?
 127.0.0.1 download.ie.sogou.com
 127.0.0.1 conf.ie.sogou.com
 127.0.0.1 config.ie.sogou.com
@@ -6737,7 +6736,7 @@ fe80::1%lo0	localhost
 #Yunduan
 127.0.0.1 tj.yunduan.cn
 127.0.0.1 update.yunduan.cn
-@Windows 软件验证屏蔽
+@Windows 杞欢楠岃瘉灞忚斀
 #Game Assassin's Creed
 127.0.0.1 onlineconfigservice.ubi.com
 127.0.0.1 orbitservice.ubi.com
@@ -6835,7 +6834,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.comodogroup.com
 127.0.0.1 www.usertrust.com
 127.0.0.1 crl.usertrust.com
-#Emurasoft（EmEditor）
+#Emurasoft锛圗mEditor锛?
 127.0.0.1 www.emurasoft.com
 #FlashFXP
 127.0.0.1 liveupdate.inicom.net
@@ -6899,7 +6898,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ps2.zonelabs.com
 127.0.0.1 register.zonelabs.com
 127.0.0.1 update.zonelabs.com
-@HostsX 国外广告平台
+@HostsX 鍥藉骞垮憡骞冲彴
 #247realmedia
 127.0.0.1 accuweathercollect.247realmedia.com
 127.0.0.1 adv.247realmedia.com
@@ -12021,7 +12020,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.linkworth.com
 127.0.0.1 ox-d.majorgeeks.com
 127.0.0.1 ox-i.majorgeeks.com
-@HostsX 国内广告联盟
+@HostsX 鍥藉唴骞垮憡鑱旂洘
 #0252
 127.0.0.1 js.0252.com
 127.0.0.1 jump.0252.com
@@ -13093,7 +13092,7 @@ fe80::1%lo0	localhost
 127.0.0.1 union.zhubajie.com
 127.0.0.1 list.zhubajie.com
 127.0.0.1 un.zhubajie.com
-@Mobile 手机广告平台
+@Mobile 鎵嬫満骞垮憡骞冲彴
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -13579,7 +13578,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.stickylogic.com
 127.0.0.1 www.wqmobile.com
 127.0.0.1 pixel-hk.pixelinteractivemedia.com
-@HostsX 统计跟踪屏蔽
+@HostsX 缁熻璺熻釜灞忚斀
 #51La
 127.0.0.1 img.users.51.la
 127.0.0.1 js.users.51.la
@@ -13991,7 +13990,7 @@ fe80::1%lo0	localhost
 127.0.0.1 code3.soua.com
 127.0.0.1 www.soua.com
 127.0.0.1 union.soua.com
-#盛大统计
+#鐩涘ぇ缁熻
 127.0.0.1 photo.staticsdo.com
 127.0.0.1 feo.staticsdo.com
 127.0.0.1 adrs.sdo.com
@@ -14087,10 +14086,10 @@ fe80::1%lo0	localhost
 127.0.0.1 www.referer.cn
 127.0.0.1 www.zzcount.com
 127.0.0.1 zjomo2.app9.hubspot.com
-@HostsX 防止网络劫持
-#域名劫持
+@HostsX 闃叉缃戠粶鍔寔
+#鍩熷悕鍔寔
 127.0.0.1 ss.cnnic.cn
-#运营商劫持
+#杩愯惀鍟嗗姭鎸?
 127.0.0.1 sh.114so.cn
 127.0.0.1 118114.cn
 127.0.0.1 so.118114.cn
@@ -14120,7 +14119,7 @@ fe80::1%lo0	localhost
 127.0.0.1 sddnserror7.wo.com.cn
 127.0.0.1 nfdnserror8.wo.com.cn
 127.0.0.1 pop.17lele.net
-#各地运营商广告
+#鍚勫湴杩愯惀鍟嗗箍鍛?
 127.0.0.1 lc.havod.com
 127.0.0.1 havod.com
 127.0.0.1 www.havod.com
@@ -14129,8 +14128,8 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.xunkoo.com
 127.0.0.1 ads.iisdoor.com
 127.0.0.1 pv.bbapp.net
-@HostsX 可疑病毒拦截
-#钓鱼诈骗
+@HostsX 鍙枒鐥呮瘨鎷︽埅
+#閽撻奔璇堥獥
 127.0.0.1 98712.com
 127.0.0.1 t.98712.com
 127.0.0.1 zx.98712.com
@@ -14383,7 +14382,7 @@ fe80::1%lo0	localhost
 127.0.0.1 chat.live800.com
 127.0.0.1 zxrj.400fly.com
 127.0.0.1 3g.wjdb007.com
-#浏览器劫持
+#娴忚鍣ㄥ姭鎸?
 127.0.0.1 054.cc
 127.0.0.1 1188.com
 127.0.0.1 2345.com
@@ -14534,7 +14533,7 @@ fe80::1%lo0	localhost
 127.0.0.1 xiujue.net
 127.0.0.1 yaoxp.com
 127.0.0.1 yxbao.com
-#病毒下载
+#鐥呮瘨涓嬭浇
 127.0.0.1 union.qyule.com
 127.0.0.1 unionch.qyule.com
 127.0.0.1 kb.ttdk2.com
@@ -14649,8 +14648,8 @@ fe80::1%lo0	localhost
 127.0.0.1 www.winscp.cc
 127.0.0.1 www.sshsecure.com
 127.0.0.1 l.ip-163.com
-@HostsX 恶意弹窗屏蔽
-#签名弹窗
+@HostsX 鎭舵剰寮圭獥灞忚斀
+#绛惧悕寮圭獥
 127.0.0.1 code.2010qianming.com
 127.0.0.1 code.52qiangming.com
 127.0.0.1 code.aizhuanlove.cn
@@ -14665,7 +14664,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.aiqianming.cn
 127.0.0.1 www.cangtoushi.cn
 127.0.0.1 www1.99mc.com
-#客服弹窗
+#瀹㈡湇寮圭獥
 127.0.0.1 chat.53kf.com
 127.0.0.1 up.53kf.com
 127.0.0.1 www.53kf.com
@@ -14673,7 +14672,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.918kf.com
 127.0.0.1 www.54kfqq.com
 127.0.0.1 www.live800.com
-#游戏弹窗
+#娓告垙寮圭獥
 127.0.0.1 astd.snsfun.cc
 127.0.0.1 astds3.snsfun.cc
 127.0.0.1 plsm.snsfun.cc
@@ -14845,7 +14844,7 @@ fe80::1%lo0	localhost
 127.0.0.1 c.ooo1000.com
 127.0.0.1 d.ooo1000.com
 127.0.0.1 e.ooo1000.com
-#恶意弹窗
+#鎭舵剰寮圭獥
 127.0.0.1 1.usazm.net
 127.0.0.1 10000.mm.oishow.com
 127.0.0.1 11.ki99.info

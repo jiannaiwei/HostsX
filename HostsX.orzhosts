@@ -1,9 +1,9 @@
-
-;version=21:35 2012/5/8
+ï»¿
+;version=17:21 2012-5-9
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
-@HostsX ÖÇÄÜ×ªÏò
+@HostsX æ™ºèƒ½è½¬å‘
 #Localhost
 127.0.0.1   localhost
 ::1         localhost
@@ -21,7 +21,6 @@ ff02::3 ip6-allhosts
 fe80::1%lo0	localhost
 255.255.255.255	broadcasthost
 0.0.0.0 advertising.apple.com
-
 #Apple Services
 203.69.113.128 adcdownload.apple.com
 203.69.113.128 deimos3.apple.com
@@ -4314,17 +4313,17 @@ fe80::1%lo0	localhost
 203.208.46.145 opliruqi.appspot.com
 203.208.46.90 encrypted.google.com
 #Youtube
-203.208.45.206 apiblog.youtube.com
-203.208.45.206 help.youtube.com
-203.208.45.206 i.ytimg.com
-203.208.45.206 i1.ytimg.com
-203.208.45.206 i2.ytimg.com
-203.208.45.206 i3.ytimg.com
-203.208.45.206 i4.ytimg.com
-203.208.45.206 insight.youtube.com
-203.208.45.206 m.youtube.com
-203.208.45.206 s.ytimg.com
-203.208.45.206 ytimg.l.google.com
+203.208.46.206 apiblog.youtube.com
+203.208.46.200 help.youtube.com
+203.208.46.200 i.ytimg.com
+203.208.46.200 i1.ytimg.com
+203.208.46.200 i2.ytimg.com
+203.208.46.200 i3.ytimg.com
+203.208.46.200 i4.ytimg.com
+203.208.46.200 insight.youtube.com
+203.208.46.200 m.youtube.com
+203.208.46.200 s.ytimg.com
+203.208.46.200 ytimg.l.google.com
 #Gravatar
 93.184.220.20 s.gravatar.com
 93.184.220.20 0.gravatar.com
@@ -4408,7 +4407,7 @@ fe80::1%lo0	localhost
 208.80.152.201 zh.wikisource.org
 208.80.152.201 zh.wiktionary.org
 208.80.152.211 upload.wikimedia.org
-@ÃÅ»§ºÍ³£ÓÃÍøÕ¾
+@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™
 #GoogleAdWord
 0.0.0.0 adwords.google.com
 0.0.0.0 adwords.google.sk
@@ -4670,7 +4669,7 @@ fe80::1%lo0	localhost
 0.0.0.0 pagead-dclk.l.google.com
 0.0.0.0 mobileads.google.com
 0.0.0.0 mobwin.android.com
-#°Ù¶È¹ã¸æÁªÃË
+#ç™¾åº¦å¹¿å‘Šè”ç›Ÿ
 0.0.0.0 m1.baidu.com
 0.0.0.0 mobads.baidu.com
 0.0.0.0 mpro.baidu.com
@@ -4717,7 +4716,7 @@ fe80::1%lo0	localhost
 0.0.0.0 utility.baidu.com
 0.0.0.0 utk.baidu.com
 0.0.0.0 wangmeng.baidu.com
-#°¢Àï¹ã¸æÁªÃË
+#é˜¿é‡Œå¹¿å‘Šè”ç›Ÿ
 0.0.0.0 a.alimama.cn
 0.0.0.0 bm.alimama.cn
 0.0.0.0 bmvip.alimama.cn
@@ -4764,7 +4763,7 @@ fe80::1%lo0	localhost
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
-#ĞÂÀËÍø
+#æ–°æµªç½‘
 0.0.0.0 c.biz.weibo.com
 0.0.0.0 iyh365.cn
 0.0.0.0 8.show.sina.com.cn
@@ -4814,7 +4813,7 @@ fe80::1%lo0	localhost
 0.0.0.0 rm.ra.icast.cn
 0.0.0.0 track.ra.icast.cn
 0.0.0.0 track2.ra.icast.cn
-#ÍøÒ×163
+#ç½‘æ˜“163
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 stat.ws.126.net
@@ -4835,7 +4834,7 @@ fe80::1%lo0	localhost
 0.0.0.0 proimg.163.com
 0.0.0.0 ud.blog.163.com
 0.0.0.0 union.163.com
-#ÓĞµÀËÑË÷
+#æœ‰é“æœç´¢
 0.0.0.0 a.youdao.com
 0.0.0.0 clkservice.mail.youdao.com
 0.0.0.0 clkservice.youdao.com
@@ -4846,7 +4845,7 @@ fe80::1%lo0	localhost
 0.0.0.0 impservice.youdao.com
 0.0.0.0 impservice2.youdao.com
 0.0.0.0 union.youdao.com
-#ÌÚÑ¶QQ
+#è…¾è®¯QQ
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
@@ -4891,17 +4890,17 @@ fe80::1%lo0	localhost
 0.0.0.0 tcss.qq.com
 0.0.0.0 trace.qq.com
 0.0.0.0 w.l.qq.com
-#ËÑËÑ
+#æœæœ
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
 0.0.0.0 pingfore.soso.com
 0.0.0.0 v3.toolbar.soso.com
 0.0.0.0 toolbar.soso.com
-#¹·¹·ËÑË÷
+#ç‹—ç‹—æœç´¢
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
 0.0.0.0 www.155.com
-#Ñ¸À×¿´¿´
+#è¿…é›·çœ‹çœ‹
 0.0.0.0 cop.my.sandai.net
 0.0.0.0 adcount.sandai.net
 0.0.0.0 analytics-union.sandai.net
@@ -4954,7 +4953,7 @@ fe80::1%lo0	localhost
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
-#ËÑºü
+#æœç‹
 0.0.0.0 imp.go.sohu.com
 0.0.0.0 count.vrs.sohu.com
 0.0.0.0 hot.vrs.sohu.com
@@ -4977,7 +4976,7 @@ fe80::1%lo0	localhost
 0.0.0.0 sohu.ad-plus.cn
 0.0.0.0 u.ad-plus.cn
 0.0.0.0 sohu.datamaster.com.cn
-#ËÑ¹·
+#æœç‹—
 0.0.0.0 a1click.cpc.sogou.com
 0.0.0.0 adsence.sogou.com
 0.0.0.0 alpha.brand.sogou.com
@@ -5000,7 +4999,7 @@ fe80::1%lo0	localhost
 0.0.0.0 union.sogou.com
 0.0.0.0 wb.brand.sogou.com
 0.0.0.0 xls.go.sohu.com
-#½ğÉ½ÔÚÏß
+#é‡‘å±±åœ¨çº¿
 0.0.0.0 kinfo.wps.cn
 0.0.0.0 db.union.download.kingsoft.com
 0.0.0.0 push.db.kingsoft.com
@@ -5008,7 +5007,7 @@ fe80::1%lo0	localhost
 0.0.0.0 union.jx2.kingsoft.com
 0.0.0.0 union.kingsoft.com
 0.0.0.0 union.wps.kingsoft.com
-@ÃÅ»§ºÍ³£ÓÃÍøÕ¾/Microsoft AD
+@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™/Microsoft AD
 #Adbureau
 0.0.0.0 ad101com-images.adbureau.net
 0.0.0.0 ad101com.adbureau.net
@@ -5165,7 +5164,7 @@ fe80::1%lo0	localhost
 0.0.0.0 spd.netconversions.com
 0.0.0.0 madserver.net
 0.0.0.0 ads.msn.com.nsatc.net
-@ÃÅ»§ºÍ³£ÓÃÍøÕ¾/Yahoo!
+@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™/Yahoo!
 #Adinterax
 0.0.0.0 adinterax.com
 0.0.0.0 mi.adinterax.com
@@ -5487,7 +5486,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.rightmedia.com
 0.0.0.0 www.yfdmedia.com
 0.0.0.0 ym.bannerconnect.net
-@HostsX º£ÍâÕ¾µã¹ã¸æ
+@HostsX æµ·å¤–ç«™ç‚¹å¹¿å‘Š
 #BNet
 0.0.0.0 bwp.bnet.com
 0.0.0.0 mads.bnet.com
@@ -5740,9 +5739,9 @@ fe80::1%lo0	localhost
 0.0.0.0 ads.miniclip.com
 0.0.0.0 ads.ttv.com.tw
 0.0.0.0 drd.hauchi.com.tw
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/ÉçÇøÀàÍøÕ¾
-#ÌìÑÄÉçÇø
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/ç¤¾åŒºç±»ç½‘ç«™
+#å¤©æ¶¯ç¤¾åŒº
 0.0.0.0 801.tianya.cn
 0.0.0.0 803.tianya.cn
 0.0.0.0 806.tianya.cn
@@ -5754,12 +5753,12 @@ fe80::1%lo0	localhost
 0.0.0.0 urchin.tianya.cn
 0.0.0.0 801.tianyaui.com
 0.0.0.0 click.tianyaui.com
-#¿­µÏÍø
+#å‡¯è¿ªç½‘
 0.0.0.0 panda.kdnet.net
 0.0.0.0 tracking.kdnet.net
-#¿ªĞÄÍø
+#å¼€å¿ƒç½‘
 0.0.0.0 m222034.kaixin001.com
-#Ææ»¢ÉçÇø
+#å¥‡è™ç¤¾åŒº
 0.0.0.0 aimg.qihoo.com
 0.0.0.0 clkstat.qihoo.com
 0.0.0.0 code.qihoo.com
@@ -5769,7 +5768,7 @@ fe80::1%lo0	localhost
 0.0.0.0 qd.code.qihoo.com
 0.0.0.0 rd.qihoo.com
 0.0.0.0 union.qihoo.com
-#Ã¨ÆËÍø
+#çŒ«æ‰‘ç½‘
 0.0.0.0 g.mop.com
 0.0.0.0 gg.mop.com
 0.0.0.0 imgpub.mop.com
@@ -5790,7 +5789,7 @@ fe80::1%lo0	localhost
 0.0.0.0 yx.mop.com
 0.0.0.0 union.uume.com
 0.0.0.0 jh.uume.com
-#ÈËÈËÍø
+#äººäººç½‘
 0.0.0.0 c.renren.com
 0.0.0.0 click.jebe.renren.com
 0.0.0.0 cupid.jebe.renren.com
@@ -5804,23 +5803,23 @@ fe80::1%lo0	localhost
 0.0.0.0 shaft.jebe.renren.com
 0.0.0.0 track.yx.renren.com
 0.0.0.0 jebe.xnimg.cn
-#ÌúÑªÍø
+#é“è¡€ç½‘
 0.0.0.0 ads.tiexue.net
 0.0.0.0 x.itiexue.net
 #VeryCD
 0.0.0.0 sp.vcimg.com
 0.0.0.0 sponsor.verycd.com
-#Î÷Â½Íø
+#è¥¿é™†ç½‘
 0.0.0.0 a.xilu.com
 0.0.0.0 content.xilu.com
 0.0.0.0 stat.xilu.com
 0.0.0.0 test.xilu.com
-#´óÆìÍø
+#å¤§æ——ç½‘
 0.0.0.0 adcount.yoka.com
 0.0.0.0 gg.daqi.com
 0.0.0.0 log.daqi.com
 0.0.0.0 union.daqi.com
-#Î÷ìôºúÍ¬
+#è¥¿ç¥ èƒ¡åŒ
 0.0.0.0 ad.xici.net
 0.0.0.0 data.xici.net
 #5d6d
@@ -5837,99 +5836,99 @@ fe80::1%lo0	localhost
 0.0.0.0 pro.blogbus.com
 #51.com
 0.0.0.0 v3.apic.51.com
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/Ğ¡ËµÀàÍøÕ¾
-#ÆğµãÖĞÎÄÍø
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/å°è¯´ç±»ç½‘ç«™
+#èµ·ç‚¹ä¸­æ–‡ç½‘
 0.0.0.0 qidian.adsame.com
 0.0.0.0 uedas.qidian.com
 0.0.0.0 js.ap.snyu.com
 0.0.0.0 rr.ap.snyu.com
 0.0.0.0 de.ap.snyu.com
 0.0.0.0 pic.snyu.com
-#Ò»Æğ¿´Ğ¡Ëµ
+#ä¸€èµ·çœ‹å°è¯´
 0.0.0.0 ad.17k.com
 0.0.0.0 log.17k.com
-#ÖğÀËÍø
+#é€æµªç½‘
 0.0.0.0 images2.zhulang.com
 0.0.0.0 pv.zhulang.com
-#äìÏæÊéÔº
+#æ½‡æ¹˜ä¹¦é™¢
 0.0.0.0 images.xxsy.net
 0.0.0.0 xxsy.bohelady.com
-#ºìĞäÌíÏã
+#çº¢è¢–æ·»é¦™
 0.0.0.0 m.union.hongxiu.com
-#Ğ¡ËµÔÄ¶ÁÍø
+#å°è¯´é˜…è¯»ç½‘
 0.0.0.0 a.readnovel.com
 0.0.0.0 stat.readnovel.com
-#ĞéÄâÌì¿Õ
+#è™šæ‹Ÿå¤©ç©º
 0.0.0.0 b.xntk.com
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/ĞÂÎÅÀàÍøÕ¾
-#ĞÂ»ªÍø
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/æ–°é—»ç±»ç½‘ç«™
+#æ–°åç½‘
 0.0.0.0 adcenter.xinhuanet.com
 0.0.0.0 embed.xinhuanet.com
 0.0.0.0 entity.xinhuanet.com
-#ÈËÃñÍø
+#äººæ°‘ç½‘
 0.0.0.0 ads.people.com.cn
 0.0.0.0 pro.people.com.cn
-#·ï»ËÍø
+#å‡¤å‡°ç½‘
 0.0.0.0 bc.ifeng.com
 0.0.0.0 sta.ifeng.com
 0.0.0.0 stadig.ifeng.com
-#ÁªºÏÔç±¨
+#è”åˆæ—©æŠ¥
 0.0.0.0 ads.zaobao.com
-#ĞÂÃñÍø
+#æ–°æ°‘ç½‘
 0.0.0.0 iads.xinmin.cn
-#»Û´ÏÍø
+#æ…§èªç½‘
 0.0.0.0 hcafp.allyes.com
-#ÖĞĞÂÍø
+#ä¸­æ–°ç½‘
 0.0.0.0 www.pagechoice.net
 0.0.0.0 report.chinanews.com
-#ÖĞ»ªÍø
+#ä¸­åç½‘
 0.0.0.0 c.china.com
 0.0.0.0 dvs.china.com
 0.0.0.0 dvsend.china.com
 0.0.0.0 richmedia.china.com
 0.0.0.0 track.china.com
-#¶«·½ÈÈÏß
+#ä¸œæ–¹çƒ­çº¿
 0.0.0.0 adi.cnool.net
 0.0.0.0 adp1.cnool.net
 0.0.0.0 countimages.cnool.net
-#ĞÇµº»·ÇòÍø
+#æ˜Ÿå²›ç¯çƒç½‘
 0.0.0.0 stnn.adsame.com
-#´óÖÚÍø
+#å¤§ä¼—ç½‘
 0.0.0.0 ad.dzwww.com
-#Ç§ÁúÍø
+#åƒé¾™ç½‘
 0.0.0.0 ad.cqnews.net
 0.0.0.0 adimg.cqnews.net
-#ÆëÂ³ÔÚÏß
+#é½é²åœ¨çº¿
 0.0.0.0 c.iqilu.com
 0.0.0.0 g.iqilu.com
 0.0.0.0 gimg.iqilu.com
-#»ªÉÌÍø
+#åå•†ç½‘
 0.0.0.0 g.hsw.cn
 0.0.0.0 stat.hsw.cn
-#ÄÏº£Íø
+#å—æµ·ç½‘
 0.0.0.0 emarketing.hinews.cn
 0.0.0.0 pl.hinews.cn
-#ÈıÁªËØ²Ä
+#ä¸‰è”ç´ æ
 0.0.0.0 ad.3lian.com
-#ÖØÇìÍí±¨
+#é‡åº†æ™šæŠ¥
 0.0.0.0 ad.cqwb.com.cn
-#´óÑóÍø
+#å¤§æ´‹ç½‘
 0.0.0.0 adimg.dayoo.com
 0.0.0.0 rnd.dayoo.com
 0.0.0.0 sta.dayoo.com
-#±±·½Íø
+#åŒ—æ–¹ç½‘
 0.0.0.0 eap.enorth.com.cn
 0.0.0.0 jsp5.enorth.com.cn
 0.0.0.0 swf.enorth.com.cn
-#»·ÇòÍø
+#ç¯çƒç½‘
 0.0.0.0 cl2.webterren.com
 0.0.0.0 bjafp.allyes.com
 0.0.0.0 huanqiu.allyes.com
 0.0.0.0 huanqiu.datamaster.com.cn
-#Öéº£ÊÓ´°
+#ç æµ·è§†çª—
 0.0.0.0 poo.zhuhai.gd.cn
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/ÓÎÏ·ÀàÍøÕ¾
-#µçÍæ°ÍÊ¿
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/æ¸¸æˆç±»ç½‘ç«™
+#ç”µç©å·´å£«
 0.0.0.0 bill.tgbus.com
 0.0.0.0 g.tgbus.com
 0.0.0.0 g.tgbusdata.cn
@@ -5940,9 +5939,9 @@ fe80::1%lo0	localhost
 #178
 0.0.0.0 adcount.178.com
 0.0.0.0 market.178.com
-#ÓÎÏÀÍø
+#æ¸¸ä¾ ç½‘
 0.0.0.0 bmp.ali213.net
-#°®ÅÄÓÎÏ·
+#çˆ±æ‹æ¸¸æˆ
 0.0.0.0 apas.aipai.com
 #776
 0.0.0.0 dynamic.766.com
@@ -5959,14 +5958,14 @@ fe80::1%lo0	localhost
 0.0.0.0 js.adm.cngba.com
 #DM5
 0.0.0.0 by.dm5.com
-#ÓÎ¾ÃÍø
+#æ¸¸ä¹…ç½‘
 0.0.0.0 stat.uuu9.com
-#4399Ğ¡ÓÎÏ·
+#4399å°æ¸¸æˆ
 0.0.0.0 aszt1.my4399.com
 0.0.0.0 stat.api.4399.com
 0.0.0.0 uimg.my4399.com
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/²Æ¾­ÀàÍøÕ¾
-#ºÍÑ¶²Æ¾­
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/è´¢ç»ç±»ç½‘ç«™
+#å’Œè®¯è´¢ç»
 0.0.0.0 ads.hexun.com
 0.0.0.0 analytics.tool.hexun.com
 0.0.0.0 count.tool.hexun.com
@@ -5977,62 +5976,62 @@ fe80::1%lo0	localhost
 0.0.0.0 union.hexun.com
 0.0.0.0 utrack.hexun.com
 0.0.0.0 wizard.stock.hexun.com
-#¶«·½²Æ¸»Íø
+#ä¸œæ–¹è´¢å¯Œç½‘
 0.0.0.0 ay.eastmoney.com
 0.0.0.0 cp.eastmoney.com
 0.0.0.0 js1.eastmoney.com
 0.0.0.0 same.eastmoney.com
 0.0.0.0 eastmoney.allyes.com
 0.0.0.0 wonderadafa7.allyes.com
-#½ğÈÚ½ç
+#é‡‘èç•Œ
 0.0.0.0 allyes.jrj.com
 0.0.0.0 aps4.jrjimg.cn
-#Ö¤È¯Ö®ĞÇ
+#è¯åˆ¸ä¹‹æ˜Ÿ
 0.0.0.0 allyes.stockstar.com
-#ÖĞ½ğÔÚÏß
+#ä¸­é‡‘åœ¨çº¿
 0.0.0.0 click.cnfol.com
 0.0.0.0 pagead.cnfol.com
 0.0.0.0 he.js.cnfol.com
 0.0.0.0 csad.adsame.com
-#MACD½ğÈÚÍø
+#MACDé‡‘èç½‘
 0.0.0.0 xc.macd.cn
-#ÖĞ¹ú×Ê±¾Ö¤È¯Íø
+#ä¸­å›½èµ„æœ¬è¯åˆ¸ç½‘
 0.0.0.0 ads.ccstock.cn
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/ÉãÓ°ÀàÍøÕ¾
-#·äÄñÍø
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/æ‘„å½±ç±»ç½‘ç«™
+#èœ‚é¸Ÿç½‘
 0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
 0.0.0.0 js.fengniao.com
-#É«Ó°ÎŞ¼É
+#è‰²å½±æ— å¿Œ
 0.0.0.0 www8.xitek.com
 #POCO
 0.0.0.0 a-m-s.poco.cn
-#ĞÂÉãÓ°
+#æ–°æ‘„å½±
 0.0.0.0 util.nphoto.net
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/¹ºÎïÀàÍøÕ¾
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/è´­ç‰©ç±»ç½‘ç«™
 #Amazon
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 rcm.amazon.com
 0.0.0.0 rcm-cn.amazon.cn
-#¾©¶«ÉÌ³Ç
+#äº¬ä¸œå•†åŸ
 0.0.0.0 click.union.360buy.com
 0.0.0.0 show.union.360buy.com
 0.0.0.0 union.360buy.com
-#µ±µ±Íø
+#å½“å½“ç½‘
 0.0.0.0 a.dangdang.com
 0.0.0.0 central.dangdang.com
 0.0.0.0 union.dangdang.com
-#·²¿Í³ÏÆ·
+#å‡¡å®¢è¯šå“
 0.0.0.0 union.vancl.com
-#ÃÎ°ÅÉ¯
+#æ¢¦èŠ­è
 0.0.0.0 click.moonbasa.com
 0.0.0.0 static.moonbasa.com
-#¼ÒµçÁªÃË
+#å®¶ç”µè”ç›Ÿ
 0.0.0.0 pic.jdunion.com
-#ÌÔ»ı·Ö
+#æ·˜ç§¯åˆ†
 0.0.0.0 ad.taojifen.net
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/ITÀàÍøÕ¾
-#µçÄÔÖ®¼Ò
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/ITç±»ç½‘ç«™
+#ç”µè„‘ä¹‹å®¶
 0.0.0.0 ad.adver.com.tw
 0.0.0.0 ad.pchome.net
 0.0.0.0 btm.pchome.net
@@ -6042,7 +6041,7 @@ fe80::1%lo0	localhost
 0.0.0.0 js-1.pchome.net
 0.0.0.0 market.pchome.net
 0.0.0.0 stat.pchome.net
-#ÖĞ¹Ø´åÔÚÏß
+#ä¸­å…³æ‘åœ¨çº¿
 0.0.0.0 adm.zol.com.cn
 0.0.0.0 bd.zol.com.cn
 0.0.0.0 bwp.zol.com.cn
@@ -6053,7 +6052,7 @@ fe80::1%lo0	localhost
 0.0.0.0 pvmsite.zol.com.cn
 0.0.0.0 pvsite.zol.com.cn
 0.0.0.0 stat.zol.com.cn
-#PcÅİÅİ
+#Pcæ³¡æ³¡
 0.0.0.0 33.pcpop.com
 0.0.0.0 app.pcpop.com
 0.0.0.0 ashow.pcpop.com
@@ -6070,16 +6069,16 @@ fe80::1%lo0	localhost
 0.0.0.0 168.it168.com
 0.0.0.0 adshow.it168.com
 0.0.0.0 stat.it168.com
-#Î÷ÓòIT
+#è¥¿åŸŸIT
 0.0.0.0 apic.xiyuit.com
-#î£ÉÌÔÚÏß
+#ç¿å•†åœ¨çº¿
 0.0.0.0 count.spn.com.cn
 0.0.0.0 www2.spn.com.cn
-#ÍòÎ¬¼ÒµçÍø
+#ä¸‡ç»´å®¶ç”µç½‘
 0.0.0.0 js.ea3w.com
 0.0.0.0 pic.ea3w.com
 0.0.0.0 stat.ea3w.com
-#Ìì¼«Íø
+#å¤©æç½‘
 0.0.0.0 counter.tianjimedia.com
 0.0.0.0 more.tianjimedia.com
 0.0.0.0 pv.tianjimedia.com
@@ -6088,21 +6087,21 @@ fe80::1%lo0	localhost
 0.0.0.0 ucpn.yesky.com
 0.0.0.0 union.yesky.com
 0.0.0.0 yeskyafp.allyes.com
-#¹è¹È¶¯Á¦
+#ç¡…è°·åŠ¨åŠ›
 0.0.0.0 trace.enet.com.cn
 0.0.0.0 enet4.enet.com.cn
-#±ÈÌØÍø
+#æ¯”ç‰¹ç½‘
 0.0.0.0 adsame.tianjimedia.com
-#ÈüµÏÍø
+#èµ›è¿ªç½‘
 0.0.0.0 stat.ccidnet.com
 0.0.0.0 www2.ccidnet.com
-#¶¹¶¹Íø
+#è±†è±†ç½‘
 0.0.0.0 ad.ddvip.com
 #Donews
 0.0.0.0 gg.donews.com
-#Ğ¡ĞÜÔÚÏß
+#å°ç†Šåœ¨çº¿
 0.0.0.0 yahoo1.beareyes.com.cn
-#À¶É«ÀíÏë
+#è“è‰²ç†æƒ³
 0.0.0.0 gg.blueidea.com
 #CSDN
 0.0.0.0 counter.csdn.net
@@ -6113,7 +6112,7 @@ fe80::1%lo0	localhost
 0.0.0.0 img.rayfile.com
 0.0.0.0 raya.rayfile.com
 0.0.0.0 w105.rayfile.com
-#»ªÎªÍøÅÌ
+#åä¸ºç½‘ç›˜
 0.0.0.0 acd.adkongjian.com
 0.0.0.0 cs.adkongjian.com
 0.0.0.0 cs.twcczhu.com
@@ -6129,39 +6128,39 @@ fe80::1%lo0	localhost
 0.0.0.0 www.114la.com
 0.0.0.0 un.i.116.com
 0.0.0.0 un.v.116.com
-#Ä¾ÂìÒÏ
+#æœ¨èš‚èš
 0.0.0.0 js.mumayi.net
 #Xdowns
 0.0.0.0 ccc.xdowns.com
 #Crsky
 0.0.0.0 images.crsky.com
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/Æû³µÀàÍøÕ¾
-#³µÊĞÍø
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/æ±½è½¦ç±»ç½‘ç«™
+#è½¦å¸‚ç½‘
 0.0.0.0 analyze.cheshi.com
 0.0.0.0 click.cheshi.com
 0.0.0.0 media.cheshi-img.com
 0.0.0.0 pv.cheshi.com
 0.0.0.0 fallyesbjafa.allyes.com
-#°®¿¨Æû³µ
+#çˆ±å¡æ±½è½¦
 0.0.0.0 count.xcar.com.cn
 0.0.0.0 d0.xcar.com.cn
 0.0.0.0 d1.xcar.com.cn
 0.0.0.0 dw.xcar.com.cn
-#Ò×³µÍø
+#æ˜“è½¦ç½‘
 0.0.0.0 autosense.bitauto.com
 0.0.0.0 g.bitauto.com
 0.0.0.0 gimg.bitauto.com
 0.0.0.0 ip.bitauto.com
 0.0.0.0 log.bitauto.com
-#Æû³µÖ®¼Ò
+#æ±½è½¦ä¹‹å®¶
 0.0.0.0 33.autohome.com.cn
 0.0.0.0 adshow.che168.com
 0.0.0.0 pv.che168.com
-#Ì«Æ½ÑóÆû³µÍø
+#å¤ªå¹³æ´‹æ±½è½¦ç½‘
 0.0.0.0 count.pcauto.com.cn
-#ÖĞ¹úÆû³µÍø
+#ä¸­å›½æ±½è½¦ç½‘
 0.0.0.0 chinacarsafp.allyes.com
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/ÊÓÆµÀàÍøÕ¾
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/è§†é¢‘ç±»ç½‘ç«™
 #CNTV
 0.0.0.0 a.cctv.com
 0.0.0.0 a.cntv.cn
@@ -6182,7 +6181,7 @@ fe80::1%lo0	localhost
 #JSTV
 0.0.0.0 jstvimedia.allyes.com
 0.0.0.0 jstv.allyes.com
-#ÎÒÀÖÍø
+#æˆ‘ä¹ç½‘
 0.0.0.0 acs.agent.v-56.com
 0.0.0.0 bill.agent.v-56.com
 0.0.0.0 stat3.corp.v-56.com
@@ -6195,12 +6194,12 @@ fe80::1%lo0	localhost
 0.0.0.0 union.56.com
 0.0.0.0 uvimage.56.com
 0.0.0.0 v16.56.com
-#6¼ä·¿
+#6é—´æˆ¿
 0.0.0.0 pole.6rooms.com
 0.0.0.0 shrek.6.cn
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
-#iÆæÒÕ
+#iå¥‡è‰º
 0.0.0.0 minisite.qiyi.com
 0.0.0.0 policy.cupid.qiyi.com
 0.0.0.0 show.cupid.qiyi.com
@@ -6212,7 +6211,7 @@ fe80::1%lo0	localhost
 0.0.0.0 bsg.unlitui.com
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 log.51network.com
-#ÓÅ¿áÍø
+#ä¼˜é…·ç½‘
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
 0.0.0.0 e.stat.youku.com
@@ -6235,7 +6234,7 @@ fe80::1%lo0	localhost
 0.0.0.0 walp.atm.youku.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
-#ÍÁ¶¹Íø
+#åœŸè±†ç½‘
 0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
@@ -6248,7 +6247,7 @@ fe80::1%lo0	localhost
 0.0.0.0 tdcm.tudou.com
 0.0.0.0 wwwtest.tudou.com
 0.0.0.0 tudouflv.dnion.com
-#¿á6Íø
+#é…·6ç½‘
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 ku6.allyes.com
 0.0.0.0 gug.ku6cdn.com
@@ -6265,41 +6264,41 @@ fe80::1%lo0	localhost
 0.0.0.0 v2.stat.ku6.com
 0.0.0.0 v3.stat.ku6.com
 0.0.0.0 youyou.ku6.com
-#¼¤¶¯Íø
+#æ¿€åŠ¨ç½‘
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86mms.megajoy.com
 0.0.0.0 86get.joy.cn
 0.0.0.0 86log.joy.cn
-#ÌìÏßÊÓÆµ
+#å¤©çº¿è§†é¢‘
 0.0.0.0 casting.openv.com
 0.0.0.0 m.openv.tv
 0.0.0.0 uniclick.openv.com
 #UstreamTV
 0.0.0.0 media.scanscout.com
 0.0.0.0 log.adap.tv
-#Æ¤Æ¤Ó°ÊÓ
+#çš®çš®å½±è§†
 0.0.0.0 afm.pipi.cn
 0.0.0.0 game.pipi.cn
 0.0.0.0 qian.pipi.cn
-#µÚÒ»·ÅÓ³ÊÒ
+#ç¬¬ä¸€æ”¾æ˜ å®¤
 0.0.0.0 admin.onefy.com
 0.0.0.0 bo.tv365.cc
 #Wo318
 0.0.0.0 wo318.k621.com
-#±¬Ã×»¨
+#çˆ†ç±³èŠ±
 0.0.0.0 union.pomoho.com
-#ÀÖÊÓÍø
+#ä¹è§†ç½‘
 0.0.0.0 dc.letv.com
 0.0.0.0 pro.letv.com
 0.0.0.0 stat.letv.com
-#¾Ş¾¨Íø
+#å·¨é²¸ç½‘
 0.0.0.0 t.top100.cn
 #DJ527
 0.0.0.0 ad.dj527.com
 0.0.0.0 sy.0575dp.com
 0.0.0.0 www.0575dp.com
-@HostsX ¹úÄÚÕ¾µã¹ã¸æ/ĞÅÏ¢·şÎñÀàÍøÕ¾
-#ËÑ·¿
+@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/ä¿¡æ¯æœåŠ¡ç±»ç½‘ç«™
+#æœæˆ¿
 0.0.0.0 clickn.soufun.com
 0.0.0.0 count.soufun.com
 0.0.0.0 flas.soufun.com
@@ -6308,22 +6307,22 @@ fe80::1%lo0	localhost
 0.0.0.0 show.soufun.com
 0.0.0.0 shows.soufun.com
 0.0.0.0 shows1.soufun.com
-#°¢°îÍø
+#é˜¿é‚¦ç½‘
 0.0.0.0 abangafp.abang.com
-#ÖĞ¹úÌìÆø
+#ä¸­å›½å¤©æ°”
 0.0.0.0 poster1.weather.com.cn
 0.0.0.0 poster.weather.com.cn
-#39½¡¿µÍø
+#39å¥åº·ç½‘
 0.0.0.0 app-g.39.net
 0.0.0.0 dpvc.39.net
 0.0.0.0 39net.datamaster.com.cn
-#Ñ°Ò½ÎÊÒ©Íø
+#å¯»åŒ»é—®è¯ç½‘
 0.0.0.0 gg.xywy.com
-#ôÜÊÂ°Ù¿Æ
+#ç³—äº‹ç™¾ç§‘
 0.0.0.0 ad.qiushibaike.com
-#»¥¶¯°Ù¿Æ
+#äº’åŠ¨ç™¾ç§‘
 0.0.0.0 stat.hudong.com
-#Ğ¯³ÌÍø
+#æºç¨‹ç½‘
 0.0.0.0 allyes.ctrip.com
 #21CN
 0.0.0.0 analytics.21cn.com
@@ -6360,32 +6359,32 @@ fe80::1%lo0	localhost
 0.0.0.0 skypetools5.tom.com
 0.0.0.0 store.ule.tom.com
 0.0.0.0 ule.tom.com
-#±±ÇàÍø
+#åŒ—é’ç½‘
 0.0.0.0 a.emedia.cn
 0.0.0.0 v.emedia.cn
 0.0.0.0 z3.emedia.cn
 0.0.0.0 ad.ynet.com
 0.0.0.0 fun.ynet.com
 0.0.0.0 ranking.ynet.com
-#µÂÖİÖ®´°
+#å¾·å·ä¹‹çª—
 0.0.0.0 gg.dzwindows.com
-#ºÓ³Ø365
+#æ²³æ± 365
 0.0.0.0 bbs.corp.gxhc365.com
-#±±º£365
+#åŒ—æµ·365
 0.0.0.0 ad.beihai365.com
-#HiaoºÃÍø
+#Hiaoå¥½ç½‘
 0.0.0.0 stat.hiao.com
 0.0.0.0 up.hiao.com
-#»ªÉùÂÛÌ³
+#åå£°è®ºå›
 0.0.0.0 click.hnol.net
 0.0.0.0 clickip.hnol.net
 0.0.0.0 ts.instreet.cn
-#ÒÚ·¿
+#äº¿æˆ¿
 0.0.0.0 shows.fdc.com.cn
 #51Job
 0.0.0.0 logs.51job.com
 0.0.0.0 kwdsrv.51job.com
-#ÖÇÁªÕĞÆ¸
+#æ™ºè”æ‹›è˜
 0.0.0.0 cnt.zhaopin.com
 #Yidaba
 0.0.0.0 adc.yidaba.com
@@ -6400,7 +6399,7 @@ fe80::1%lo0	localhost
 0.0.0.0 images.yidaba.com
 0.0.0.0 images.cms.yidaba.com
 0.0.0.0 static.yidaba.com
-@Windows Èí¼ş¹ã¸æ¹ıÂË
+@Windows è½¯ä»¶å¹¿å‘Šè¿‡æ»¤
 #360Safe
 0.0.0.0 inst.360safe.com
 0.0.0.0 pdown.stat.360safe.com
@@ -6428,7 +6427,7 @@ fe80::1%lo0	localhost
 0.0.0.0 advert.estsoft.com
 #Potplayer
 0.0.0.0 m.adtc.daum.net
-#±©·çÓ°Òô
+#æš´é£å½±éŸ³
 0.0.0.0 boxlist.baofeng.net
 0.0.0.0 clicklog.moviebox.baofeng.net
 0.0.0.0 diag.baofeng.net
@@ -6582,9 +6581,9 @@ fe80::1%lo0	localhost
 0.0.0.0 al.myrice.com
 0.0.0.0 all.myrice.com
 0.0.0.0 client.myrice.com
-#¶àÃ×ÒôÀÖ
+#å¤šç±³éŸ³ä¹
 0.0.0.0 pc.boxshows.com
-#YYÓïÒô
+#YYè¯­éŸ³
 0.0.0.0 ad.yy.duowan.com
 0.0.0.0 do.yy.duowan.com
 0.0.0.0 forceupdate.yy.duowan.com
@@ -6596,7 +6595,7 @@ fe80::1%lo0	localhost
 0.0.0.0 dw.hiido.cn
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
-#·ÉĞÅ¿Í»§¶Ë
+#é£ä¿¡å®¢æˆ·ç«¯
 0.0.0.0 f.10086.cn
 0.0.0.0 gg.joytod.com
 0.0.0.0 hdss1fta.fetion.com.cn
@@ -6604,7 +6603,7 @@ fe80::1%lo0	localhost
 0.0.0.0 imgl.fetionpic.com
 0.0.0.0 minisite.fetionpic.com
 0.0.0.0 minisite0.fetionpic.com
-#°¢ÀïÍúÍú
+#é˜¿é‡Œæ—ºæ—º
 0.0.0.0 jc.wangwang.taobao.com
 0.0.0.0 p3p.alisoft.com
 0.0.0.0 po.im.alisoft.com
@@ -6628,17 +6627,17 @@ fe80::1%lo0	localhost
 0.0.0.0 isgame.ipark.cn
 0.0.0.0 ghpage.iuzone.com
 0.0.0.0 page.iuzone.com
-#Ç§Ç§¾²Ìı
+#åƒåƒé™å¬
 0.0.0.0 ads.qianqian.com
 0.0.0.0 ttads.ttplayer.com
 0.0.0.0 ttmsg.qianqian.com
-#¿áÎÒÒôÀÖ
+#é…·æˆ‘éŸ³ä¹
 0.0.0.0 g.kuwo.cn
 0.0.0.0 wa.kuwo.cn
 0.0.0.0 updatepage.kuwo.cn
 0.0.0.0 g.koowo.com
 0.0.0.0 wa.koowo.com
-#¿á¹·ÒôÀÖ
+#é…·ç‹—éŸ³ä¹
 0.0.0.0 dl.ddong.com
 0.0.0.0 game.kugou.com
 0.0.0.0 games.kugou.com
@@ -6663,7 +6662,7 @@ fe80::1%lo0	localhost
 #Micronichefinder
 0.0.0.0 www.micronichefinder.com
 0.0.0.0 micronichefinder.com
-#¹âÓ°Ä§ÊõÊÖ
+#å…‰å½±é­”æœ¯æ‰‹
 0.0.0.0 ad.neoimaging.cn
 0.0.0.0 clientconfig.neoimaging.cn
 0.0.0.0 jump.neoimaging.cn
@@ -6685,7 +6684,7 @@ fe80::1%lo0	localhost
 0.0.0.0 tj.pctutu.net
 0.0.0.0 update.pctutu.com
 0.0.0.0 update.pctutu.net
-#½ğÉ½¶¾°Ô
+#é‡‘å±±æ¯’éœ¸
 0.0.0.0 i2c.duba.net
 0.0.0.0 i2u.www.duba.net
 0.0.0.0 ifr.duba.net
@@ -6696,13 +6695,13 @@ fe80::1%lo0	localhost
 0.0.0.0 api.pc120.com
 0.0.0.0 stat.sd.keniu.com
 0.0.0.0 tq.sd.keniu.com
-#½ğÉ½´Ê°Ô
+#é‡‘å±±è¯éœ¸
 0.0.0.0 34.goto.www.iciba.com
 0.0.0.0 counter.kds.iciba.com
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
 0.0.0.0 u.sl.iciba.com
-#QQ¹Ü¼Ò
+#QQç®¡å®¶
 0.0.0.0 s.pcmgr.qq.com
 #QQCEO
 0.0.0.0 ad.qqceo.net
@@ -6715,7 +6714,7 @@ fe80::1%lo0	localhost
 #QQvoice
 0.0.0.0 union.qqvoice.com
 0.0.0.0 union.uucall.hk
-#ËÑ¹·Æ´Òô
+#æœç‹—æ‹¼éŸ³
 0.0.0.0 files2.sogou.com
 0.0.0.0 config.pinyin.sogou.com
 0.0.0.0 ime.sogou.com
@@ -6723,7 +6722,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ping.pinyin.sogou.com
 0.0.0.0 pinyin.sogou.com
 0.0.0.0 st.pinyin.sogou.com
-#ËÑ¹·ä¯ÀÀÆ÷
+#æœç‹—æµè§ˆå™¨
 0.0.0.0 download.ie.sogou.com
 0.0.0.0 conf.ie.sogou.com
 0.0.0.0 config.ie.sogou.com
@@ -6737,7 +6736,7 @@ fe80::1%lo0	localhost
 #Yunduan
 0.0.0.0 tj.yunduan.cn
 0.0.0.0 update.yunduan.cn
-@Windows Èí¼şÑéÖ¤ÆÁ±Î
+@Windows è½¯ä»¶éªŒè¯å±è”½
 #Game Assassin's Creed
 0.0.0.0 onlineconfigservice.ubi.com
 0.0.0.0 orbitservice.ubi.com
@@ -6835,7 +6834,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.comodogroup.com
 0.0.0.0 www.usertrust.com
 0.0.0.0 crl.usertrust.com
-#Emurasoft£¨EmEditor£©
+#Emurasoftï¼ˆEmEditorï¼‰
 0.0.0.0 www.emurasoft.com
 #FlashFXP
 0.0.0.0 liveupdate.inicom.net
@@ -6899,7 +6898,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ps2.zonelabs.com
 0.0.0.0 register.zonelabs.com
 0.0.0.0 update.zonelabs.com
-@HostsX ¹úÍâ¹ã¸æÆ½Ì¨
+@HostsX å›½å¤–å¹¿å‘Šå¹³å°
 #247realmedia
 0.0.0.0 accuweathercollect.247realmedia.com
 0.0.0.0 adv.247realmedia.com
@@ -12021,7 +12020,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.linkworth.com
 0.0.0.0 ox-d.majorgeeks.com
 0.0.0.0 ox-i.majorgeeks.com
-@HostsX ¹úÄÚ¹ã¸æÁªÃË
+@HostsX å›½å†…å¹¿å‘Šè”ç›Ÿ
 #0252
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
@@ -13093,7 +13092,7 @@ fe80::1%lo0	localhost
 0.0.0.0 union.zhubajie.com
 0.0.0.0 list.zhubajie.com
 0.0.0.0 un.zhubajie.com
-@Mobile ÊÖ»ú¹ã¸æÆ½Ì¨
+@Mobile æ‰‹æœºå¹¿å‘Šå¹³å°
 #16kxs
 0.0.0.0 ad.16kxs.com
 0.0.0.0 wap10.16kxs.com
@@ -13579,7 +13578,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.stickylogic.com
 0.0.0.0 www.wqmobile.com
 0.0.0.0 pixel-hk.pixelinteractivemedia.com
-@HostsX Í³¼Æ¸ú×ÙÆÁ±Î
+@HostsX ç»Ÿè®¡è·Ÿè¸ªå±è”½
 #51La
 0.0.0.0 img.users.51.la
 0.0.0.0 js.users.51.la
@@ -13991,7 +13990,7 @@ fe80::1%lo0	localhost
 0.0.0.0 code3.soua.com
 0.0.0.0 www.soua.com
 0.0.0.0 union.soua.com
-#Ê¢´óÍ³¼Æ
+#ç››å¤§ç»Ÿè®¡
 0.0.0.0 photo.staticsdo.com
 0.0.0.0 feo.staticsdo.com
 0.0.0.0 adrs.sdo.com
@@ -14087,10 +14086,10 @@ fe80::1%lo0	localhost
 0.0.0.0 www.referer.cn
 0.0.0.0 www.zzcount.com
 0.0.0.0 zjomo2.app9.hubspot.com
-@HostsX ·ÀÖ¹ÍøÂç½Ù³Ö
-#ÓòÃû½Ù³Ö
+@HostsX é˜²æ­¢ç½‘ç»œåŠ«æŒ
+#åŸŸååŠ«æŒ
 0.0.0.0 ss.cnnic.cn
-#ÔËÓªÉÌ½Ù³Ö
+#è¿è¥å•†åŠ«æŒ
 0.0.0.0 sh.114so.cn
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn
@@ -14120,7 +14119,7 @@ fe80::1%lo0	localhost
 0.0.0.0 sddnserror7.wo.com.cn
 0.0.0.0 nfdnserror8.wo.com.cn
 0.0.0.0 pop.17lele.net
-#¸÷µØÔËÓªÉÌ¹ã¸æ
+#å„åœ°è¿è¥å•†å¹¿å‘Š
 0.0.0.0 lc.havod.com
 0.0.0.0 havod.com
 0.0.0.0 www.havod.com
@@ -14129,8 +14128,8 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.xunkoo.com
 0.0.0.0 ads.iisdoor.com
 0.0.0.0 pv.bbapp.net
-@HostsX ¿ÉÒÉ²¡¶¾À¹½Ø
-#µöÓãÕ©Æ­
+@HostsX å¯ç–‘ç—…æ¯’æ‹¦æˆª
+#é’“é±¼è¯ˆéª—
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
 0.0.0.0 zx.98712.com
@@ -14383,7 +14382,7 @@ fe80::1%lo0	localhost
 0.0.0.0 chat.live800.com
 0.0.0.0 zxrj.400fly.com
 0.0.0.0 3g.wjdb007.com
-#ä¯ÀÀÆ÷½Ù³Ö
+#æµè§ˆå™¨åŠ«æŒ
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2345.com
@@ -14534,7 +14533,7 @@ fe80::1%lo0	localhost
 0.0.0.0 xiujue.net
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
-#²¡¶¾ÏÂÔØ
+#ç—…æ¯’ä¸‹è½½
 0.0.0.0 union.qyule.com
 0.0.0.0 unionch.qyule.com
 0.0.0.0 kb.ttdk2.com
@@ -14649,8 +14648,8 @@ fe80::1%lo0	localhost
 0.0.0.0 www.winscp.cc
 0.0.0.0 www.sshsecure.com
 0.0.0.0 l.ip-163.com
-@HostsX ¶ñÒâµ¯´°ÆÁ±Î
-#Ç©Ãûµ¯´°
+@HostsX æ¶æ„å¼¹çª—å±è”½
+#ç­¾åå¼¹çª—
 0.0.0.0 code.2010qianming.com
 0.0.0.0 code.52qiangming.com
 0.0.0.0 code.aizhuanlove.cn
@@ -14665,7 +14664,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.aiqianming.cn
 0.0.0.0 www.cangtoushi.cn
 0.0.0.0 www1.99mc.com
-#¿Í·şµ¯´°
+#å®¢æœå¼¹çª—
 0.0.0.0 chat.53kf.com
 0.0.0.0 up.53kf.com
 0.0.0.0 www.53kf.com
@@ -14673,7 +14672,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.918kf.com
 0.0.0.0 www.54kfqq.com
 0.0.0.0 www.live800.com
-#ÓÎÏ·µ¯´°
+#æ¸¸æˆå¼¹çª—
 0.0.0.0 astd.snsfun.cc
 0.0.0.0 astds3.snsfun.cc
 0.0.0.0 plsm.snsfun.cc
@@ -14845,7 +14844,7 @@ fe80::1%lo0	localhost
 0.0.0.0 c.ooo1000.com
 0.0.0.0 d.ooo1000.com
 0.0.0.0 e.ooo1000.com
-#¶ñÒâµ¯´°
+#æ¶æ„å¼¹çª—
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 11.ki99.info

@@ -1,7 +1,7 @@
-@HostsX ·ÀÖ¹ÍøÂç½Ù³Ö
-#ÓòÃû½Ù³Ö
+ï»¿@HostsX é˜²æ­¢ç½‘ç»œåŠ«æŒ
+#åŸŸååŠ«æŒ
 0.0.0.0 ss.cnnic.cn
-#ÔËÓªÉÌ½Ù³Ö
+#è¿è¥å•†åŠ«æŒ
 0.0.0.0 sh.114so.cn
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn
@@ -31,7 +31,7 @@
 0.0.0.0 sddnserror7.wo.com.cn
 0.0.0.0 nfdnserror8.wo.com.cn
 0.0.0.0 pop.17lele.net
-#¸÷µØÔËÓªÉÌ¹ã¸æ
+#å„åœ°è¿è¥å•†å¹¿å‘Š
 0.0.0.0 lc.havod.com
 0.0.0.0 havod.com
 0.0.0.0 www.havod.com
@@ -40,8 +40,8 @@
 0.0.0.0 ad.xunkoo.com
 0.0.0.0 ads.iisdoor.com
 0.0.0.0 pv.bbapp.net
-@HostsX ¿ÉÒÉ²¡¶¾À¹½Ø
-#µöÓãÕ©Æ­
+@HostsX å¯ç–‘ç—…æ¯’æ‹¦æˆª
+#é’“é±¼è¯ˆéª—
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
 0.0.0.0 zx.98712.com
@@ -292,7 +292,7 @@
 0.0.0.0 sm2.netitv.com
 0.0.0.0 ygsp.da123.cc
 0.0.0.0 chat.live800.com
-#ä¯ÀÀÆ÷½Ù³Ö
+#æµè§ˆå™¨åŠ«æŒ
 0.0.0.0 054.cc
 0.0.0.0 1188.com
 0.0.0.0 2345.com
@@ -443,7 +443,7 @@
 0.0.0.0 xiujue.net
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
-#²¡¶¾ÏÂÔØ
+#ç—…æ¯’ä¸‹è½½
 0.0.0.0 union.qyule.com
 0.0.0.0 unionch.qyule.com
 0.0.0.0 kb.ttdk2.com

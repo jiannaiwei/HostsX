@@ -1,8 +1,8 @@
-;dataver=13:05 2012-5-3
+ï»¿;dataver=13:05 2012-5-3
 ;author=linjimmy
-;description=¼«ËÙ MAC APP StoreÏÂÔØ,¼«ËÙ IOS iPhone/iPad APPÏÂÔØ,¼«ËÙ MAC/PC iTunesÓ¦ÓÃ³ÌĞò,
-ÏÂÔØ»òÔÚÏß¿´ MoviesÓëTV Shows,¼«ËÙ Trailers.apple.com Æ»¹ûºÃÀ³ÎëÔ¤¸æÆ¬ÔÚÏß²¥·ÅÓëÏÂÔØ (Ö§³ÖAPPLE TV¼ÓËÙ),
-¼«ËÙ iTunes ÏÂÔØIOS APP ¸ßËÙÏÂÔØ,¼«ËÙ MAC Internet Lion²Ù×÷ÏµÍ³/Internet Recovery»Ö¸´·ÖÇø ÍøÂçÔÚÏßÏÂÔØ
+;description=æé€Ÿ MAC APP Storeä¸‹è½½,æé€Ÿ IOS iPhone/iPad APPä¸‹è½½,æé€Ÿ MAC/PC iTunesåº”ç”¨ç¨‹åº,
+ä¸‹è½½æˆ–åœ¨çº¿çœ‹ Moviesä¸TV Shows,æé€Ÿ Trailers.apple.com è‹¹æœå¥½è±åé¢„å‘Šç‰‡åœ¨çº¿æ’­æ”¾ä¸ä¸‹è½½ (æ”¯æŒAPPLE TVåŠ é€Ÿ),
+æé€Ÿ iTunes ä¸‹è½½IOS APP é«˜é€Ÿä¸‹è½½,æé€Ÿ MAC Internet Lionæ“ä½œç³»ç»Ÿ/Internet Recoveryæ¢å¤åˆ†åŒº ç½‘ç»œåœ¨çº¿ä¸‹è½½
 #Apple Services
 203.69.113.128 adcdownload.apple.com
 203.69.113.128 deimos3.apple.com

@@ -1,5 +1,5 @@
-@HostsX 国内广告联盟
-#华为
+锘緻HostsX 鍥藉唴骞垮憡鑱旂洘
+#鍗庝负
 0.0.0.0 cs.adkongjian.com
 #0252
 0.0.0.0 js.0252.com

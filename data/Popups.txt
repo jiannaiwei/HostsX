@@ -1,5 +1,5 @@
-@HostsX ¶ñÒâµ¯´°ÆÁ±Î
-#Ç©Ãûµ¯´°
+ï»¿@HostsX æ¶æ„å¼¹çª—å±è”½
+#ç­¾åå¼¹çª—
 0.0.0.0 code.2010qianming.com
 0.0.0.0 code.52qiangming.com
 0.0.0.0 code.aizhuanlove.cn
@@ -14,7 +14,7 @@
 0.0.0.0 www.aiqianming.cn
 0.0.0.0 www.cangtoushi.cn
 0.0.0.0 www1.99mc.com
-#¿Í·şµ¯´°
+#å®¢æœå¼¹çª—
 0.0.0.0 chat.53kf.com
 0.0.0.0 up.53kf.com
 0.0.0.0 www.53kf.com
@@ -22,7 +22,7 @@
 0.0.0.0 www.918kf.com
 0.0.0.0 www.54kfqq.com
 0.0.0.0 www.live800.com
-#ÓÎÏ·µ¯´°
+#æ¸¸æˆå¼¹çª—
 0.0.0.0 astd.snsfun.cc
 0.0.0.0 astds3.snsfun.cc
 0.0.0.0 plsm.snsfun.cc
@@ -193,7 +193,7 @@
 0.0.0.0 c.ooo1000.com
 0.0.0.0 d.ooo1000.com
 0.0.0.0 e.ooo1000.com
-#¶ñÒâµ¯´°
+#æ¶æ„å¼¹çª—
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
 0.0.0.0 11.ki99.info

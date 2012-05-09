@@ -1,4 +1,4 @@
-@ÃÅ»§ºÍ³£ÓÃÍøÕ¾
+ï»¿@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™
 #GoogleAdWord
 0.0.0.0 adwords.google.com
 0.0.0.0 adwords.google.sk
@@ -260,7 +260,7 @@
 0.0.0.0 pagead-dclk.l.google.com
 0.0.0.0 mobileads.google.com
 0.0.0.0 mobwin.android.com
-#°Ù¶È¹ã¸æÁªÃË
+#ç™¾åº¦å¹¿å‘Šè”ç›Ÿ
 0.0.0.0 m1.baidu.com
 0.0.0.0 mobads.baidu.com
 0.0.0.0 mpro.baidu.com
@@ -307,7 +307,7 @@
 0.0.0.0 utility.baidu.com
 0.0.0.0 utk.baidu.com
 0.0.0.0 wangmeng.baidu.com
-#°¢Àï¹ã¸æÁªÃË
+#é˜¿é‡Œå¹¿å‘Šè”ç›Ÿ
 0.0.0.0 a.alimama.cn
 0.0.0.0 bm.alimama.cn
 0.0.0.0 bmvip.alimama.cn
@@ -354,7 +354,7 @@
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
-@ÃÅ»§ºÍ³£ÓÃÍøÕ¾/Microsoft AD
+@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™/Microsoft AD
 #Adbureau
 0.0.0.0 ad101com-images.adbureau.net
 0.0.0.0 ad101com.adbureau.net
@@ -511,7 +511,7 @@
 0.0.0.0 spd.netconversions.com
 0.0.0.0 madserver.net
 0.0.0.0 ads.msn.com.nsatc.net
-@ÃÅ»§ºÍ³£ÓÃÍøÕ¾/Yahoo!
+@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™/Yahoo!
 #Adinterax
 0.0.0.0 adinterax.com
 0.0.0.0 mi.adinterax.com

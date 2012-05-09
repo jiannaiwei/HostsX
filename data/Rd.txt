@@ -1,4 +1,4 @@
-@HostsX ÖÇÄÜ×ªÏò
+ï»¿@HostsX æ™ºèƒ½è½¬å‘
 #Localhost
 127.0.0.1   localhost
 ::1         localhost
