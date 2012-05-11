@@ -1,8 +1,6 @@
 ﻿;dataver=13:05 2012-5-3
 ;author=linjimmy
-;description=极速 MAC APP Store下载,极速 IOS iPhone/iPad APP下载,极速 MAC/PC iTunes应用程序,
-下载或在线看 Movies与TV Shows,极速 Trailers.apple.com 苹果好莱坞预告片在线播放与下载 (支持APPLE TV加速),
-极速 iTunes 下载IOS APP 高速下载,极速 MAC Internet Lion操作系统/Internet Recovery恢复分区 网络在线下载
+;description=MAC APP Store,IOS iPhone/iPad APP,MAC/PC iTunes APP,Down and online Movies & TV Shows,Trailers.apple.com Down & Online (APPLE TV & PC/MAC),iTunes IOS APP,MAC Internet Lion OS/Internet Recovery Online Down.
 #Apple Services
 203.69.113.128 adcdownload.apple.com
 203.69.113.128 deimos3.apple.com
