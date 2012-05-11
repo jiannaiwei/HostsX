@@ -1,4 +1,4 @@
-203.208.47.8 webcache.googleusercontent.com
+203.208.47.126 webcache.googleusercontent.com
 203.208.47.126 chrome.google.com
 203.208.47.126 mail.google.com
 #Google Drive 20120507
@@ -1068,3 +1068,28 @@
 203.208.47.126	www.youtube.com
 203.208.47.126	youtube.com
 #YouTube END
+
+# autoddvpn.googlecode.com
+209.85.175.100 autoddvpn.googlecode.com
+209.85.175.113 autoddvpn.googlecode.com
+209.85.175.101 autoddvpn.googlecode.com
+209.85.175.138 autoddvpn.googlecode.com
+209.85.175.139 autoddvpn.googlecode.com
+209.85.175.102 autoddvpn.googlecode.com
+203.208.47.2 autoddvpn.googlecode.com
+# hostsx.googlecode.com
+209.85.175.100 hostsx.googlecode.com
+209.85.175.113 hostsx.googlecode.com
+209.85.175.101 hostsx.googlecode.com
+209.85.175.138 hostsx.googlecode.com
+209.85.175.139 hostsx.googlecode.com
+209.85.175.102 hostsx.googlecode.com
+203.208.47.2 hostsx.googlecode.com
+# smarthosts.googlecode.com
+209.85.175.100 smarthosts.googlecode.com
+209.85.175.113 smarthosts.googlecode.com
+209.85.175.101 smarthosts.googlecode.com
+209.85.175.138 smarthosts.googlecode.com
+209.85.175.139 smarthosts.googlecode.com
+209.85.175.102 smarthosts.googlecode.com
+203.208.47.2 smarthosts.googlecode.com
