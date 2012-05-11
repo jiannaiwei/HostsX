@@ -1,7 +1,7 @@
 ﻿;dataver=13:05 2012-5-3
 ;author=linjimmy
-;description=MAC APP Store,IOS iPhone/iPad APP,MAC/PC iTunes APP,Down and online Movies & TV Shows,Trailers.apple.com Down & Online (APPLE TV & PC/MAC),iTunes IOS APP,MAC Internet Lion OS/Internet Recovery Online Down.
-#Apple Services
+;description=Chinese ISP High Speed Download : Mac OS [App Store],iOS iPhone/iPad [App Store],Mac OS/PC iTunes [iTunes Store],Download and Online Play [iTunes Movies & TV Shows],Trailers.apple.com Download & Online Play (Support Apple TV 2/3,iOS iPhone,iPad,iTouch,PC/MAC Browser),iTunes iOS App,Mac Genuine Internet Lion OS/Internet Recovery Online Download.
+#Apple Service
 203.69.113.128 adcdownload.apple.com
 203.69.113.128 deimos3.apple.com
 203.69.113.128 appldnld.apple.com
