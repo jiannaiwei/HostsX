@@ -1,5 +1,5 @@
 
-;version=13:55 2012-5-16
+;version=17:46 2012-5-16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8135,6 +8135,10 @@ fe80::1%lo0	localhost
 #5622
 127.0.0.1 cpm.5622.cn
 127.0.0.1 newtest.5622.cn
+#6dad
+127.0.0.1 f4.6dad.com
+127.0.0.1 6dad.com
+127.0.0.1 web.6dad.com
 #70e
 127.0.0.1 e.70e.com
 127.0.0.1 f.70e.com
@@ -8189,6 +8193,7 @@ fe80::1%lo0	localhost
 #973
 127.0.0.1 media.973.com
 127.0.0.1 xyx.973.com
+127.0.0.1 www.973web.com
 #99click
 127.0.0.1 1116.oadz.com
 127.0.0.1 159.oadz.com
@@ -9639,6 +9644,7 @@ fe80::1%lo0	localhost
 127.0.0.1 count9.51yes.com
 127.0.0.1 countt.51yes.com
 #CNZZ
+127.0.0.1 hzs12.cnzz.com
 127.0.0.1 zs16.cnzz.com
 127.0.0.1 hzs8.cnzz.com
 127.0.0.1 qs7.cnzz.com
@@ -10863,7 +10869,6 @@ fe80::1%lo0	localhost
 127.0.0.1 58.gyyx.cn
 127.0.0.1 614.hlwan.net
 127.0.0.1 616.hlwan.net
-127.0.0.1 6dad.com
 127.0.0.1 7k7kimg.cn
 127.0.0.1 a.65975.com
 127.0.0.1 a.66xycc.com
@@ -11239,7 +11244,6 @@ fe80::1%lo0	localhost
 127.0.0.1 www.15159.net
 127.0.0.1 www.16768.com
 127.0.0.1 www.168un.com
-127.0.0.1 www.176web.net
 127.0.0.1 www.18lehu.com
 127.0.0.1 www.1styouxi.com
 127.0.0.1 www.2010hot.com
@@ -11367,3 +11371,5 @@ fe80::1%lo0	localhost
 127.0.0.1 optimized.by.vitalads.net
 127.0.0.1 www.qq937.com
 127.0.0.1 pic.tameili.net
+127.0.0.1 www.web887.com
+127.0.0.1 www.4311.com
