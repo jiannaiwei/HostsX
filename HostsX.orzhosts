@@ -1,5 +1,5 @@
 
-;version=13:50 2012/5/13
+;version=13:55 2012-5-16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2478,7 +2478,6 @@ fe80::1%lo0	localhost
 0.0.0.0 client-play.pptv.com
 0.0.0.0 de.as.pptv.com
 0.0.0.0 dh.pplive.com
-0.0.0.0 download.pplive.com
 0.0.0.0 g.pplive.com
 0.0.0.0 g.pptv.com
 0.0.0.0 ga.pptv.com
@@ -2491,7 +2490,6 @@ fe80::1%lo0	localhost
 0.0.0.0 pp2.pptv.com
 0.0.0.0 ppsj.pptv.com
 0.0.0.0 tj.g.pptv.com
-0.0.0.0 up.pplive.com
 0.0.0.0 wafp.pptv.com
 0.0.0.0 wstat.pptv.com
 0.0.0.0 asimgs.pplive.cn
@@ -9509,6 +9507,7 @@ fe80::1%lo0	localhost
 0.0.0.0 assets.zestadz.com
 0.0.0.0 www.zestadz.com
 #WapSite
+0.0.0.0 ad.camera360.us
 0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
 0.0.0.0 ad.jiemai-tech.com
