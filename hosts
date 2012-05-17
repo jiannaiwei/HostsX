@@ -1,5 +1,5 @@
 
-;version=17:46 2012-5-16
+;version=9:10 2012-5-17
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8136,6 +8136,9 @@ fe80::1%lo0	localhost
 127.0.0.1 cpm.5622.cn
 127.0.0.1 newtest.5622.cn
 #6dad
+127.0.0.1 f1.6dad.com
+127.0.0.1 f2.6dad.com
+127.0.0.1 f3.6dad.com
 127.0.0.1 f4.6dad.com
 127.0.0.1 6dad.com
 127.0.0.1 web.6dad.com
