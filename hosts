@@ -1,5 +1,5 @@
 
-;version=9:10 2012-5-17
+;version=13:50 2012-5-18
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9212,7 +9212,15 @@ fe80::1%lo0	localhost
 #Hotmob
 127.0.0.1 ad.hot-mob.com
 127.0.0.1 www.hot-mob.com
+#Himogo
+127.0.0.1 cus.himogo.com
+127.0.0.1 cfg.himogo.com
+127.0.0.1 imp.himogo.com
+127.0.0.1 clk.himogo.com
+127.0.0.1 req.himogo.com
+127.0.0.1 blk.himogo.com
 #inmobi
+127.0.0.1 w.inmobi.com
 127.0.0.1 i.w.inmobi.com
 127.0.0.1 r.w.inmobi.com
 #Jumptap
