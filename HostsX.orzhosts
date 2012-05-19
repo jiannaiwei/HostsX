@@ -1,5 +1,5 @@
 
-;version=13:50 2012-5-18
+;version=12:29 2012-5-19
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2714,10 +2714,8 @@ fe80::1%lo0	localhost
 0.0.0.0 ime.sogou.com
 0.0.0.0 info.pinyin.sogou.com
 0.0.0.0 ping.pinyin.sogou.com
-0.0.0.0 pinyin.sogou.com
 0.0.0.0 st.pinyin.sogou.com
 #ËÑ¹·ä¯ÀÀÆ÷
-0.0.0.0 download.ie.sogou.com
 0.0.0.0 conf.ie.sogou.com
 0.0.0.0 config.ie.sogou.com
 0.0.0.0 ping.ie.sogou.com
@@ -10007,7 +10005,6 @@ fe80::1%lo0	localhost
 0.0.0.0 www.soua.com
 0.0.0.0 union.soua.com
 #Ê¢´óÍ³¼Æ
-0.0.0.0 photo.staticsdo.com
 0.0.0.0 feo.staticsdo.com
 0.0.0.0 adrs.sdo.com
 0.0.0.0 c.aa.sdo.com

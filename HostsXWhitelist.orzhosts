@@ -1,4 +1,4 @@
-;version=11:38 2012-4-28
+;version=12:30 2012-5-19
 ;author=KwokTree.OrzFly.jason_jiang
 
 #导致东方财富网首页Logo图片无法正常加载！
@@ -260,6 +260,7 @@ $DELETE
 
 #!导致搜狗拼音无法下载词库。此域名包含了搜狗拼音的桌面推送广告和弹出提示，不建议用户删除。请访问 http://9bu.org/36 查看更好的解决方案。
 pinyin.sogou.com
+download.ie.sogou.com
 $DELETE
 
 #!导致 部分手机网站 页面无法正常跳转。此域名存放了很多的广告图片和链接跳转，不建议用户删除。请访问 http://9bu.org/38 查看更好的解决方案。
@@ -281,6 +282,7 @@ $DELETE
 
 #第三方数据的错误过滤，导致部分网站无法打开。
 gb.cri.cn
+photo.staticsdo.com
 go.maxthon.cn
 hjsm.tom.com
 www.clicki.cn
