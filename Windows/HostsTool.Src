@@ -1,5 +1,5 @@
 @echo off
-set ver=3.73
+set ver=3.75
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -128,7 +128,8 @@ ipconfig /flushdns>nul 2>nul
 goto:eof
 
 :thanks
-start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥；的捐赠，您的支持，我的动力！】"
+msg %username% /time:12 "如果您觉得SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
+start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】"
 goto:eof
 
 :cleansoft
@@ -1863,11 +1864,11 @@ reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" 
 echo Repaired&cls&goto gui
 
 :opinst
-mshta vbscript:msgbox("如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)
+intAnswer = MsgBox("请务必在使用前详细阅读服务条款中的内容和问题解答！" , vbYes, "Opera SimpleU Edition")
+rem mshta vbscript:msgbox("要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)
 rem Del /f /q "%ALLUSERSPROFILE%\Desktop\Opera*.lnk"
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
-msg %username% /time:12 "如果您觉得SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
-call :thanks&exit
+exit
 
 :opup
 if not exist %a%\wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
@@ -1915,7 +1916,7 @@ move sina.css profile\styles\web\
 move sohu.css profile\styles\web\
 move u17.css profile\styles\web\
 del /f /q downlists.txt
-cls&start /min iexplore http://code.google.com/p/kwoktree/
+cls&start /min iexplore http://code.google.com/p/hostsx/
 echo 当前版本数据已经是最新! & choice /t 2 /d y /n >nul&exit
 
 :opclean
