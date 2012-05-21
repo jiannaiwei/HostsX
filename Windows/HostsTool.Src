@@ -1872,7 +1872,7 @@ reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" 
 echo Repaired&cls&goto gui
 
 :opinst
-intAnswer = MsgBox("请务必在使用前详细阅读服务条款中的内容和问题解答！" , vbYes, "Opera SimpleU Edition")
+mshta vbscript:msgbox("请务必在使用前详细阅读服务条款中的内容和问题解答！！！",64,"Opera SimpleU Edition")(window.close)
 rem mshta vbscript:msgbox("要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)
 rem Del /f /q "%ALLUSERSPROFILE%\Desktop\Opera*.lnk"
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
