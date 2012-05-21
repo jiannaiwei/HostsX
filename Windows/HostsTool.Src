@@ -466,11 +466,7 @@ echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
 cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
 set size=100000
 for %%1 in (HostsTool.bat)do set gsize=%%~z1
-if %gsize% gtr %size% (goto Updateit) else goto uperror
-
-:uperror
-echo ÍøÂç»ñÈ¡Ê§°Ü
-goto gui
+if %gsize% gtr %size% (goto Updateit) else (echo ÍøÂç»ñÈ¡Ê§°Ü&pause&goto gui)
 
 :Updateit
 echo @echo off>%temp%\up.bat
