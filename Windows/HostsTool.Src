@@ -1,5 +1,5 @@
 @echo off
-set ver=3.75
+set ver=3.76
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -116,7 +116,9 @@ goto mouse
 
 :dns
 echo FlushDns...
-ipconfig /flushdns>nul 2>nul
+ipconfig -flushdns>nul 2>nul
+ipconfig -registerdns>nul 2>nul
+ipconfig -renew>nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
 DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
@@ -451,8 +453,8 @@ pause&goto gui
 wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 wget http://hostsx.googlecode.com/svn/trunk/Windows/iecss.vbs
 start http://dayngo.com/static/filter.html
-start http://userstyles.org/styles/58249/
-AdFilter.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
+rem start http://userstyles.org/styles/58249/
+iecss.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
 :Updates
 cls
@@ -462,6 +464,15 @@ echo WScript.sleep 10 >>%temp%/Upnew.vbs
 echo loop >>%temp%/Upnew.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
 cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
+set size=100000
+for %%1 in (HostsTool.bat)do set gsize=%%~z1
+if %gsize% gtr %size% (goto Updateit) else goto uperror
+
+:uperror
+echo 网络获取失败
+goto gui
+
+:Updateit
 echo @echo off>%temp%\up.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
