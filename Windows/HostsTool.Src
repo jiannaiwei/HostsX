@@ -467,6 +467,7 @@ cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/
 set size=100000
 for %%1 in (HostsTool.bat)do set gsize=%%~z1
 if %gsize% gtr %size% (goto Updateit) else (echo ÍøÂç»ñÈ¡Ê§°Ü&pause&goto gui)
+goto:eof
 
 :Updateit
 echo @echo off>%temp%\up.bat
