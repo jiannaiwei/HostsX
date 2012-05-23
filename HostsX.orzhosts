@@ -1,5 +1,5 @@
 
-;version=11:42 2012-5-22
+;version=09:19 2012-5-23
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9380,7 +9380,6 @@ fe80::1%lo0	localhost
 0.0.0.0 trc.pubsage.com
 0.0.0.0 mobi.pubsage.com
 #QQ
-0.0.0.0 softfile.3g.qq.com
 0.0.0.0 sqsh.3g.qq.com
 0.0.0.0 3gsoftfile.tcdn.qq.com
 0.0.0.0 3gsoftfile.tc.qq.com
