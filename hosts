@@ -1,5 +1,5 @@
 
-;version=09:19 2012-5-23
+;version=14:18 2012-5-25
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9134,6 +9134,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.adtouchnetwork.net
 127.0.0.1 adtouchnetwork.net
 #Adwhirl
+127.0.0.1 cus.adwhirl.com
 127.0.0.1 met.adwhirl.com
 127.0.0.1 mob.adwhirl.com
 127.0.0.1 www.adwhirl.com
@@ -9256,6 +9257,9 @@ fe80::1%lo0	localhost
 #Mobcent
 127.0.0.1 sdk.mobcent.com
 127.0.0.1 img.mobcent.com
+#Momark
+127.0.0.1 api.momark.cc
+127.0.0.1 open.momark.cn
 #Mobfox
 127.0.0.1 my.mobfox.com
 127.0.0.1 www.mobfox.com
@@ -11387,3 +11391,4 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.crwdcntrl.net
 127.0.0.1 nw.ads.doko.jp
 127.0.0.1 ad-cdn.technoratimedia.com
+127.0.0.1 cpm.7555.net
