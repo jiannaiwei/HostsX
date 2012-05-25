@@ -1,5 +1,5 @@
 
-;version=14:18 2012-5-25
+;version=15:01 2012-5-25
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9124,6 +9124,13 @@ fe80::1%lo0	localhost
 0.0.0.0 mobile.adchina.com
 0.0.0.0 www.adchina.com
 #AdMob
+0.0.0.0 api.admob.com
+0.0.0.0 mm.admob.com
+0.0.0.0 r.admob.com
+0.0.0.0 mmv.admob.com
+0.0.0.0 media.admob.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.com
 #Adigou
 0.0.0.0 adigou.com
 0.0.0.0 x.adigou.com
@@ -9384,6 +9391,7 @@ fe80::1%lo0	localhost
 0.0.0.0 trc.pubsage.com
 0.0.0.0 mobi.pubsage.com
 #QQ
+0.0.0.0 softfile.3g.qq.com
 0.0.0.0 sqsh.3g.qq.com
 0.0.0.0 3gsoftfile.tcdn.qq.com
 0.0.0.0 3gsoftfile.tc.qq.com
