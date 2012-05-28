@@ -1,5 +1,5 @@
 
-;version=15:01 2012-5-25
+;version=15:01 2012-5-28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2077,6 +2077,8 @@ fe80::1%lo0	localhost
 127.0.0.1 168.it168.com
 127.0.0.1 adshow.it168.com
 127.0.0.1 stat.it168.com
+#It华军
+127.0.0.1 count.newhua.com
 #驱动之家
 127.0.0.1 images.mydrivers.com
 #西域IT
@@ -9111,6 +9113,11 @@ fe80::1%lo0	localhost
 127.0.0.1 union.zhubajie.com
 127.0.0.1 list.zhubajie.com
 127.0.0.1 un.zhubajie.com
+#Yucmedia
+127.0.0.1 img.yucmedia.com
+127.0.0.1 script.yucmedia.com
+127.0.0.1 api.yucmedia.com
+127.0.0.1 www.yucmedia.com
 @Mobile 手机广告平台
 #16kxs
 127.0.0.1 ad.16kxs.com
