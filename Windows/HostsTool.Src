@@ -1,5 +1,5 @@
 @echo off
-set ver=3.76
+set ver=3.761
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -474,7 +474,7 @@ cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/
 set size=100000
 for %%1 in (HostsTool.bat)do set gsize=%%~z1
 cls
-if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/HostsTool.Src&ren HostsTool.Src&pause&goto gui) else (goto Updateit)
+if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src&ren HostsTool.Src NewHostsTool.bat&echo 升级成功，请重新运行！&exit) else (goto Updateit)
 goto:eof
 
 :clean

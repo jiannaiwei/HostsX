@@ -1,5 +1,5 @@
 
-;version=15:01 2012-5-28
+;version=15:20 2012-5-29
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -11407,3 +11407,5 @@ fe80::1%lo0	localhost
 127.0.0.1 nw.ads.doko.jp
 127.0.0.1 ad-cdn.technoratimedia.com
 127.0.0.1 cpm.7555.net
+127.0.0.1 www.union009.com
+127.0.0.1 ufile.qushimeiti.com
