@@ -1,5 +1,5 @@
 @echo off
-set ver=3.77
+set ver=3.8
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -38,7 +38,9 @@ cls
 
 :gui
 ipconfig -flushdns >nul 2>nul
+del /f /q %tmp%\*.bat %tmp%\*.vbs>nul 2>nul
 del /f /q $ echo HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
+if '%1'=='/q' goto:quiteup
 if '%1'=='/d' goto:dftvbs
 if '%1'=='/g' goto:Google
 if '%1'=='/6' goto:ipv6
@@ -60,7 +62,7 @@ echo     (Google  RD)                  (IPV6 Data)
 if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
 echo    【MVPS  Data】                 (Ent  Block)
 echo.
-echo    【MWSL  Data】            【 更新 HostsTool 】
+echo  【系统服务 配置】             【更新 HostsTool】
 echo  Permissions：==================================
 echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
 echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
@@ -93,7 +95,7 @@ goto gui
 )
 if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :mvps &goto gui
 if %y% equ 9 if %x% gtr  26 if %x% lss 50 call :entdata &goto gui
-if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :mwsl &goto gui
+if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :ipv6load &goto gui
 if %y% equ 11 if %x% gtr  26 if %x% lss 50 goto updates
 if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts% &msg %username% /time:2 "【已设置Hosts文件权限为：只读！】"&exit
 if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "【Hosts文件已成功解锁！】"&goto gui
@@ -132,6 +134,23 @@ goto:eof
 msg %username% /time:12 "如果您觉得SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
 start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】"
 goto:eof
+
+:qtvbs
+>"%qt%" echo do
+>>"%qt%" echo set ws=createobject("wscript.shell")
+>>"%qt%" echo ws.run".\HostsTool.bat /q",vbhide
+>>"%qt%" echo wscript.sleep 720000
+>>"%qt%" echo loop
+goto:EOF
+
+:quiteup
+call :unlock
+call :ipv6load
+call :dftvbs
+call :temp
+attrib +r +a +s %hosts%
+call :dns
+goto:EOF
 
 :cleansoft
 Tasklist|Find /i "iexplore.exe">nul&&(Echo 请先关闭IExplore.exe!&Pause)
@@ -287,6 +306,7 @@ net stop "Dnscache">nul 2>nul
 sc stop "DNSCache">nul 2>nul
 sc config Dnscache start= disabled>nul 2>nul
 sc config iphlpsvc start= AUTO>nul 2>nul
+sc config HTTPFilter start= AUTO>nul 2>nul
 netsh interface ipv6 isatap set router isatap.sjtu.edu.cn>nul 2>nul
 netsh interface ipv6 isatap set state enabled>nul 2>nul
 goto:eof
@@ -405,7 +425,7 @@ if not exist AndriodHosts.vbs (wget http://hostsx.googlecode.com/svn/trunk/Andro
 AndriodHosts.vbs&cls&goto gui
 
 :shortcutfix
-mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\g.ico"":b.Description=""A Little Monkey"":b.Save:close")
+mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\g.ico"":b.Description=""优佳猴子"":b.Save:close")
 echo 桌面快捷方式已创建！& choice /t 2 /d y /n >nul&goto gui
 
 :feedback
@@ -1962,14 +1982,6 @@ rd /s /q profile\temporary_downloads
 rd /s /q profile\vps\
 rd /s /q profile\webserver
 echo 使用痕迹清理完毕! & choice /t 2 /d y /n >nul&goto gui
-
-:qtvbs
->"%qt%" echo do
->>"%qt%" echo set ws=createobject("wscript.shell")
->>"%qt%" echo ws.run".\HostsTool.bat /k",vbhide
->>"%qt%" echo wscript.sleep 720000
->>"%qt%" echo loop
-goto:EOF
 
 :check
 ver|find   "5."
