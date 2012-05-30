@@ -1,5 +1,5 @@
 @echo off
-set ver=3.761
+set ver=3.762
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -27,7 +27,6 @@ call :unlock
 copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
 if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..."&call :fixhosts
 set force=0
-cls
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
 echo WScript.sleep 50 >>%temp%/chkver.vbs
@@ -35,10 +34,10 @@ echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
 cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto gui) else (msg %username% /time:2 "【新版本升级中,请稍后！】"& goto Updates)
+cls
 
 :gui
-ipconfig /flushdns >nul 2>nul
+ipconfig -flushdns >nul 2>nul
 del /f /q $ echo HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
 if '%1'=='/d' goto:dftvbs
 if '%1'=='/g' goto:Google
@@ -51,17 +50,17 @@ mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
 cls
-title HostsTool(%ver%)- SimpleU: 1 and More!
+if %ver%==%verNew% (title HostsTool(%ver%)- SimpleU: 1 and More!) else (title 发现新版 HostsTool(%verNew%)请更新!)
 echo.
-echo  【更多 设备支持】      ‘      【Flush DNS 刷新】   
+echo  【更多 设备支持】      ‘     【Flush DNS 刷新】   
 echo  HostsData：  【更新/Update Hosts】
 echo.
 echo  【编辑Hosts文件】             【修复 Hosts文件】          
 echo     (Google  RD)                  (IPV6 Data) 
 if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
-echo     (Smart Rd！)                  (Ent Block)
+echo    【MVPS  Data】                 (Ent  Block)
 echo.
-echo    【MVPS  Data】                【MWSL Data】
+echo    【MWSL  Data】            【 更新 HostsTool 】
 echo  Permissions：==================================
 echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
 echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
@@ -92,10 +91,10 @@ if %y% equ 8 if %x% gtr  1 if %x% lss 50 (
 if /i !force! neq 0 (set force=0) else (set force=1)
 goto gui
 )
-if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :smartrd &goto gui
+if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :mvps &goto gui
 if %y% equ 9 if %x% gtr  26 if %x% lss 50 call :entdata &goto gui
-if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :mvps &goto gui
-if %y% equ 11 if %x% gtr  26 if %x% lss 50 call :mwsl &goto gui
+if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :mwsl &goto gui
+if %y% equ 11 if %x% gtr  26 if %x% lss 50 goto updates
 if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts% &msg %username% /time:2 "【已设置Hosts文件权限为：只读！】"&exit
 if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "【Hosts文件已成功解锁！】"&goto gui
 if %y% equ 15 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r -h +s %hosts% & echo y| cacls %hosts% /c /t /p everyone:r&msg %username% /time:2 "【已设置Hosts文件权限为：NTFS 读取权限！】"&goto gui
@@ -116,9 +115,9 @@ goto mouse
 
 :dns
 echo FlushDns...
-ipconfig -flushdns>nul 2>nul
-ipconfig -registerdns>nul 2>nul
-ipconfig -renew>nul 2>nul
+ipconfig -flushdns >nul 2>nul
+ipconfig -registerdns >nul 2>nul
+ipconfig -renew >nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
 DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
@@ -474,7 +473,7 @@ cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/
 set size=100000
 for %%1 in (HostsTool.bat)do set gsize=%%~z1
 cls
-if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src&ren HostsTool.Src NewHostsTool.bat&echo 升级成功，请重新运行！&exit) else (goto Updateit)
+if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src -o %temp% &ren HostsTool.Src HostsTool.bat&goto Updateit) else (goto Updateit)
 goto:eof
 
 :clean
