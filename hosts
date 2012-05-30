@@ -1,5 +1,5 @@
 
-;version=10:22 2012-5-30
+;version=10:47 2012-5-30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -760,6 +760,7 @@ fe80::1%lo0	localhost
 127.0.0.1 taobaoafp.allyes.com
 #新浪网
 127.0.0.1 c.biz.weibo.com
+127.0.0.1 widget.weibo.com
 127.0.0.1 iyh365.cn
 127.0.0.1 8.show.sina.com.cn
 127.0.0.1 ad3.sina.com.cn
@@ -1969,8 +1970,11 @@ fe80::1%lo0	localhost
 127.0.0.1 www.qq937.com
 127.0.0.1 gamefiles.qq937.com
 127.0.0.1 aszt1.my4399.com
-127.0.0.1 stat.api.4399.com
+127.0.0.1 pic.my4399.com
+127.0.0.1 u.my4399.com
 127.0.0.1 uimg.my4399.com
+127.0.0.1 stat.api.4399.com
+127.0.0.1 web.4399.com
 @HostsX 国内站点广告/财经类网站
 #和讯财经
 127.0.0.1 ads.hexun.com
@@ -8711,6 +8715,7 @@ fe80::1%lo0	localhost
 #Game3737
 127.0.0.1 flash.game3737.com
 127.0.0.1 pop.game3737.com
+127.0.0.1 poufo.game3737.com
 #Heima8
 127.0.0.1 c.heima8.com
 127.0.0.1 dh.heima8.com
@@ -8980,18 +8985,19 @@ fe80::1%lo0	localhost
 127.0.0.1 img.union188.com
 #Unionbig
 127.0.0.1 code01.unionli.com
-127.0.0.1 s1.unionbig.com
-127.0.0.1 ds2.unionbig.com
-127.0.0.1 p.unionbig.com
-127.0.0.1 s2.unionbig.com
-127.0.0.1 track.unionbig.com
-127.0.0.1 www.unionbig.com
+127.0.0.1 p.unionli.com
 127.0.0.1 txt.unionli.com
 127.0.0.1 u.unionli.com
 127.0.0.1 uimg.unionli.com
 127.0.0.1 www.unionli.com
+127.0.0.1 ds2.unionbig.com
+127.0.0.1 p.unionbig.com
+127.0.0.1 s1.unionbig.com
+127.0.0.1 s2.unionbig.com
+127.0.0.1 track.unionbig.com
 127.0.0.1 ww.unionbig.com
 127.0.0.1 wwv.unionbig.com
+127.0.0.1 www.unionbig.com
 127.0.0.1 www.ubcpm.com
 127.0.0.1 uimg.youxjia.com
 127.0.0.1 uimg.yxcpm.com
@@ -11412,3 +11418,7 @@ fe80::1%lo0	localhost
 127.0.0.1 cpm.7555.net
 127.0.0.1 www.union009.com
 127.0.0.1 ufile.qushimeiti.com
+127.0.0.1 ad.6zzsf.com
+127.0.0.1 cc.88210212.com
+127.0.0.1 pop.game3896.com
+
