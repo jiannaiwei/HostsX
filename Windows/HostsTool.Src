@@ -1,5 +1,5 @@
 @echo off
-set ver=3.81
+set ver=3.82
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -144,6 +144,7 @@ goto:eof
 goto:EOF
 
 :quiteup
+%k% wscript.exe
 call :unlock
 call :ipv6load
 call :dftvbs
