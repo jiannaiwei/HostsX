@@ -1,5 +1,5 @@
 
-;version=15:20 2012-5-29
+;version=10:22 2012-5-30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8738,6 +8738,9 @@ fe80::1%lo0	localhost
 #Junyilm
 0.0.0.0 www.junyilm.com
 0.0.0.0 tp.junyilm.com
+#JuanDou
+0.0.0.0 www.juandou.com
+0.0.0.0 js.juandou.com
 #Keduo
 0.0.0.0 images.keduo.cc
 0.0.0.0 qy.keduo.cc
