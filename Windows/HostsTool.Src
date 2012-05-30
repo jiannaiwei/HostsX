@@ -1,5 +1,5 @@
 @echo off
-set ver=3.762
+set ver=3.77
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -474,7 +474,7 @@ set size=100000
 for %%1 in (HostsTool.bat)do set gsize=%%~z1
 cls
 if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src -o %temp% &ren HostsTool.Src HostsTool.bat&goto Updateit) else (goto Updateit)
-goto:eof
+msg %username% /time:2 "【新版本升级中,请稍后！】"& goto:eof
 
 :clean
 echo 正在清除系统垃圾文件，请稍等......
