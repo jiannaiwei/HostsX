@@ -456,6 +456,7 @@ rem start http://userstyles.org/styles/58249/
 iecss.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
 
 :Updateit
+msg %username% /time:2 "【新版本升级中,请稍后！】"
 echo @echo off>%temp%\up.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
@@ -474,7 +475,7 @@ set size=100000
 for %%1 in (HostsTool.bat)do set gsize=%%~z1
 cls
 if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src -o %temp% &ren HostsTool.Src HostsTool.bat&goto Updateit) else (goto Updateit)
-msg %username% /time:2 "【新版本升级中,请稍后！】"& goto:eof
+goto:eof
 
 :clean
 echo 正在清除系统垃圾文件，请稍等......
