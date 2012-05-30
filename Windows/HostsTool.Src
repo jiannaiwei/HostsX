@@ -1,5 +1,5 @@
 @echo off
-set ver=3.8
+set ver=3.81
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -106,7 +106,7 @@ if %y% equ 17 if %x% gtr  26 if %x% lss 50 call :clean &goto gui
 if %y% equ 19 if %x% gtr  1 if %x% lss 26 goto fixie
 if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!&goto shortcutfix) else (goto shortcutfix)
 if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto iecss
-if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :qtvbs &echo 每隔4小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
+if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :qtvbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
 if %y% equ 23 if %x% gtr  12 if %x% lss 26 goto delit
 if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 &goto gui
@@ -139,7 +139,7 @@ goto:eof
 >"%qt%" echo do
 >>"%qt%" echo set ws=createobject("wscript.shell")
 >>"%qt%" echo ws.run".\HostsTool.bat /q",vbhide
->>"%qt%" echo wscript.sleep 720000
+>>"%qt%" echo wscript.sleep 7200000
 >>"%qt%" echo loop
 goto:EOF
 
