@@ -1,5 +1,5 @@
 
-;version=10:47 2012-5-30
+;version=14:50 2012-5-30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9255,6 +9255,8 @@ fe80::1%lo0	localhost
 0.0.0.0 w.inmobi.com
 0.0.0.0 i.w.inmobi.com
 0.0.0.0 r.w.inmobi.com
+0.0.0.0 ma.inmobi.com
+0.0.0.0 hosting.sproutbuilder.com
 #Jumptap
 0.0.0.0 a.jumptap.com
 0.0.0.0 i.jumptap.com
