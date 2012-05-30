@@ -50,7 +50,7 @@ mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
 cls
-if %ver%==%verNew% (title HostsTool(%ver%)- SimpleU: 1 and More!) else (title 发现新版 HostsTool(%verNew%)请更新!)
+title HostsTool(%ver%)- 最新版本(%verNew%)
 echo.
 echo  【更多 设备支持】      ‘     【Flush DNS 刷新】   
 echo  HostsData：  【更新/Update Hosts】
