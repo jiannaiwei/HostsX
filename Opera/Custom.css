@@ -151,7 +151,7 @@ a[href*="www.baidu.com/baidu.php?"],a[href^="http://www.baidu.com/adrc.php"]{dis
 /* Taobao */
 [src*="网购排行：淘宝网最新热门东西"],[href*="网购排行：淘宝网最新热门东西"]{display:none !important}
 a[href^="http://click.simba.taobao.com"],a[href*="http://click.mz.simba.taobao.com/"],a[href*="http://s.click.taobao.com"]{display:none !important}
-div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],div[id="p4p-sidebar"],section[class="hotsale"],ul[class="p4p-list"]{display:none !important}
+div[id^="p4pblock"],div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],div[id="p4p-sidebar"],section[class="hotsale"],ul[class="p4p-list"]{display:none !important}
 
 /* 框架过滤 */
 iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"]{display: none !important;}
