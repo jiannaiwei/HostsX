@@ -302,14 +302,16 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Help
 goto:eof
 
 :ipv6load
-ipv6 install>nul 2>nul
-net stop "Dnscache">nul 2>nul
-sc stop "DNSCache">nul 2>nul
-sc config Dnscache start= disabled>nul 2>nul
-sc config iphlpsvc start= AUTO>nul 2>nul
-sc config HTTPFilter start= AUTO>nul 2>nul
-netsh interface ipv6 isatap set router isatap.sjtu.edu.cn>nul 2>nul
-netsh interface ipv6 isatap set state enabled>nul 2>nul
+ipv6 install >nul 2>nul
+net stop "Dnscache" >nul 2>nul
+sc stop "DNSCache" >nul 2>nul
+sc config Dnscache start= disabled >nul 2>nul
+sc config iphlpsvc start= AUTO > nul 2>nul
+sc config HTTPFilter start= AUTO >nul 2>nul
+sc config 6to4 start= auto >nul 2>nul
+net start 6to4 >nul 2>nul
+netsh interface ipv6 isatap set router isatap.sjtu.edu.cn >nul 2>nul
+netsh interface ipv6 isatap set state enabled >nul 2>nul
 goto:eof
 
 :unlock
@@ -1829,6 +1831,10 @@ Regsvr32 /s cryptdlg.dll
 echo 100 percent
 echo IE Optimization and Fix finished.
 title IE Repaired
+assoc .vbs=VBSFile
+ftype vbsfile=%SystemRoot%\System32\WScript.exe "%1" %*
+assoc .ini=inifile
+ftype inifile=%SystemRoot%\System32\NOTEPAD.EXE %1
 echo 开始修复 IE 及相关的系统设置项目……
 reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
