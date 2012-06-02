@@ -1,5 +1,9 @@
-;version=11:11 2012-5-22
-;author=KwokTree.OrzFly.jason_jiang
+;version=13:53 2012/6/2
+;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致乐视平板程序FC，无法正常运行！
+dc.letv.com
+$DELETE
 
 #导致东方财富网首页Logo图片无法正常加载！
 g1.dfcfw.com
