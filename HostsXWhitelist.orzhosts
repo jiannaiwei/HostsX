@@ -1,4 +1,4 @@
-;version=13:53 2012/6/2
+;version=20:07 2012/6/2
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致乐视平板程序FC，无法正常运行！
@@ -118,6 +118,10 @@ $DELETE
 pinst.360.cn
 $DELETE
 
+#!阻止115优蛋自动更新，不建议用户删除。
+pc.115.com
+$DELETE
+ 
 #导致Flickr页面无法正常显示。
 l.yimg.com
 s0.2mdn.net

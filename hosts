@@ -1,5 +1,5 @@
 
-;version=13:55 2012/6/2
+;version=20:07 2012/6/2
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2140,6 +2140,7 @@ fe80::1%lo0	localhost
 #Rising
 127.0.0.1 alert.rising.com.cn
 #115
+127.0.0.1 pc.115.com
 127.0.0.1 ie.115.com
 127.0.0.1 tongji.115.com
 127.0.0.1 soft.tjj.com
