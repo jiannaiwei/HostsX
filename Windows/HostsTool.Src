@@ -1,5 +1,5 @@
 @echo off
-set ver=3.82
+set ver=3.83
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -45,7 +45,7 @@ if '%1'=='/d' goto:dftvbs
 if '%1'=='/g' goto:Google
 if '%1'=='/6' goto:ipv6
 if '%1'=='/f' goto:fixhosts
-if '%1'=='ou' goto:opup
+if '%1'=='opup' goto:opup
 if '%1'=='oc' goto:opclean
 if not exist %a%\consext.exe (msg %username% /time:2 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!"&goto dftvbs)
 mode con cols=50 lines=30
@@ -1908,50 +1908,61 @@ exit
 :opup
 if not exist %a%\wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
-del /f /q operaprefs_default.ini
-del /f /q *.css
 echo 正在下载数据，请稍候... ...
-wget http://kwoktree.googlecode.com/svn/trunk/opera/operau.CAB
-EXPAND -F:*.* operau.CAB .\
-cls
-pause
-wget http://kwoktree.googlecode.com/svn/trunk/opera/downlists.txt
-wget -c -i downlists.txt
-del /f /q defaults\bookmarks.adr defaults\feedreaders.ini defaults\standard_speeddial.ini
-move bookmarks.adr defaults\
-move feedreaders.ini defaults\
-move standard_speeddial.ini defaults\
-del /f /q ui\dialog.ini ui\standard_keyboard.ini ui\fastforward.ini ui\standard_mouse.ini
-move dialog.ini ui\
-move fastforward.ini ui\
-move standard_keyboard.ini ui\
-move standard_mouse.ini ui\
-del /f /q profile\search.ini profile\override.ini profile\urlfilter.ini
-move search.ini profile\
-move override.ini profile\
-move urlfilter.ini profile\
-del /f /q profile\menu\standard_menu.ini profile\toolbar\standard_toolbar.ini
-move standard_menu.ini profile\menu\
-move standard_toolbar.ini profile\toolbar\
-del /f /q profile\styles\user\*.css
-move BBS.css profile\styles\user\
-move Classid.css profile\styles\user\
-move Custom.css profile\styles\user\
-move Gray.css profile\styles\user\
-move Green.css profile\styles\user\
-move OperaU.css profile\styles\user\
-move Picture.css profile\styles\user\
-move Visited.css profile\styles\user\
-del /f /q profile\styles\web\*.css
-move 115.css profile\styles\web\
-move 163.css profile\styles\web\
-move gmail.css profile\styles\web\
-move pcbeta.css profile\styles\web\
-move sina.css profile\styles\web\
-move sohu.css profile\styles\web\
-move u17.css profile\styles\web\
-del /f /q downlists.txt
-cls&start /min iexplore http://code.google.com/p/hostsx/
+del /f /q operaprefs_default.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
+msg %username% /time:2 "【默认配置已更新！】"
+cd profile\script
+del *.user.jsx
+del DBankLinker.jsx OnlinedownNoAds.user.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js CleanPlayer.user.js goglrwt.js
+wget http://userscripts.org/scripts/source/105184.user.js
+ren 105184.user.js angerOfPresident.user.jsx
+wget http://userscripts.org/scripts/source/120679.user.js
+ren 120679.user.js CleanPlayer.user.jsx
+wget http://userscripts.org/scripts/source/64877.user.js
+ren 64877.user.js Enhanced-word-highlight.user.jsx
+wget http://userscripts.org/scripts/source/88932.user.js
+ren 88932.user.js greasemonkey-emulation.user.jsx
+wget http://userscripts.org/scripts/source/45836.user.js
+ren 45836.user.js xiaonei_reformer.min.user.jsx
+wget http://userscripts.org/scripts/source/103552.user.js
+ren 103552.user.js doubanimdb.user.js
+wget http://userscripts.org/scripts/source/116879.user.js
+ren 116879.user.js DBankLinker.jsx
+wget http://userscripts.org/scripts/source/129215.user.js
+ren 129215.user.js OnlinedownNoAds.user.js
+wget http://userscripts.org/scripts/source/129534.user.js
+ren 129534.user.js doubanfilm.user.js
+wget http://userscripts.org/scripts/source/113577.user.js
+ren 113577.user.js goglrwt.js
+wget http://userscripts.org/scripts/source/91662.user.js
+ren 91662.user.js doubaniask.user.js
+wget http://userscripts.org/scripts/source/128239.user.js
+ren 128239.user.js TianyaRead.user.js
+msg %username% /time:2 "【UserJs数据已更新！】"
+cd profile
+del fastforward.ini override.ini search.ini urlfilter.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/search.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/urlfilter.ini
+del keyboard\standard_keyboard.ini menu\fastforward.ini mouse\standard_mouse.ini toolbar\standard_toolbar.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_keyboard.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
+move standard_keyboard.ini keyboard\
+move standard_menu menu\
+move standard_mouse.ini mouse\
+move standard_toolbar.ini toolbar\
+msg %username% /time:2 "【Profiles数据已更新！】"
+cd styles\user
+del BBS.css Custom.css OperaU.css
+wget http://hostsx.googlecode.com/svn/trunk/Opera/BBS.css
+wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
+wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
+msg %username% /time:2 "【CSS数据已更新！】"
+cls&start /min iexplore http://weibo.com/vokins
 echo 当前版本数据已经是最新! & choice /t 2 /d y /n >nul&exit
 
 :opclean
