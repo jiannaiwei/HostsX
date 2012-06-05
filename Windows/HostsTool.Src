@@ -1,5 +1,5 @@
 @echo off
-set ver=3.83
+set ver=3.85
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -1940,13 +1940,13 @@ ren 91662.user.js doubaniask.user.js
 wget http://userscripts.org/scripts/source/128239.user.js
 ren 128239.user.js TianyaRead.user.js
 msg %username% /time:2 "【UserJs数据已更新！】"
-cd profile
+cd ..
 del fastforward.ini override.ini search.ini urlfilter.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/search.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/urlfilter.ini
-del keyboard\standard_keyboard.ini menu\fastforward.ini mouse\standard_mouse.ini toolbar\standard_toolbar.ini
+del keyboard\standard_keyboard.ini menu\standard_menu.ini mouse\standard_mouse.ini toolbar\standard_toolbar.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_keyboard.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
@@ -1955,8 +1955,9 @@ move standard_keyboard.ini keyboard\
 move standard_menu menu\
 move standard_mouse.ini mouse\
 move standard_toolbar.ini toolbar\
+cd ..
 msg %username% /time:2 "【Profiles数据已更新！】"
-cd styles\user
+cd profile\styles\user
 del BBS.css Custom.css OperaU.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/BBS.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
