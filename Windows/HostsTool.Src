@@ -1962,8 +1962,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/BBS.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
 msg %username% /time:2 "【CSS数据已更新！】"
-cls&start /min iexplore http://weibo.com/vokins
-echo 当前版本数据已经是最新! & choice /t 2 /d y /n >nul&exit
+cls&start /min iexplore http://weibo.com/vokins &exit
 
 :opclean
 if not exist opera.exe echo 没有找到Opera&start iexplore http://www.everbox.com/f/XQggwEwf73bxQyeHCgSDLpcx9V & choice /t 2 /d y /n >nul & goto exit
