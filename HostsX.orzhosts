@@ -1,5 +1,5 @@
 
-;version=20:07 2012/6/2
+;version=19:18 2012/6/7
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9188,6 +9188,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.airad.com
 #Airpush
 0.0.0.0 api.airpush.com
+0.0.0.0 beta.airpush.com
 0.0.0.0 ad.leadboltapps.net
 #Appstores
 0.0.0.0 austin2011.appstores.com
@@ -9227,6 +9228,8 @@ fe80::1%lo0	localhost
 0.0.0.0 e.domob.cn
 0.0.0.0 r.domob.cn
 0.0.0.0 s.domob.cn
+#Doumob
+0.0.0.0 api.doumob.com
 #Datouniao
 0.0.0.0 ws1.datouniao.com
 0.0.0.0 ws2.datouniao.com
