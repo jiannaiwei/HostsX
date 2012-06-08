@@ -1,5 +1,5 @@
 @echo off
-set ver=3.85
+set ver=3.86
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set/a xc=%random%%%5+1
@@ -302,14 +302,18 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Help
 goto:eof
 
 :ipv6load
+echo 正在安装ipv6服务...
 ipv6 install >nul 2>nul
+echo 正在优化Hosts相关服务，以加快解析速度
 net stop "Dnscache" >nul 2>nul
 sc stop "DNSCache" >nul 2>nul
 sc config Dnscache start= disabled >nul 2>nul
+echo 正在启动Https相关服务，请卸载国产的XX卫士等安全产品
 sc config iphlpsvc start= AUTO > nul 2>nul
 sc config HTTPFilter start= AUTO >nul 2>nul
 sc config 6to4 start= auto >nul 2>nul
 net start 6to4 >nul 2>nul
+echo 正在设置ipv6相关信息
 netsh interface ipv6 isatap set router isatap.sjtu.edu.cn >nul 2>nul
 netsh interface ipv6 isatap set state enabled >nul 2>nul
 goto:eof
