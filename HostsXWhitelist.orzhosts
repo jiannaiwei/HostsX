@@ -1,5 +1,14 @@
-;version=20:07 2012/6/2
+;version=16:11 2012/6/9
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#!导致 115 网盘客户端无法升级。屏蔽此域名可以防止您的115在后台自动，不建议用户删除。
+pc.115.com
+$DELETE
+
+#!导致 淘宝 和 京东 推荐产品的广告链接无法打开。屏蔽此域名可以防止您在不知不觉中通过此链接让一些用户拿到推广收入，不建议用户删除。
+click.union.360buy.com
+s.click.taobao.com
+$DELETE
 
 #导致乐视平板程序FC，无法正常运行！
 dc.letv.com
