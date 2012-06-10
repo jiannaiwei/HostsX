@@ -1,5 +1,5 @@
 
-;version=9:51 2012/6/10
+;version=17:02 2012/6/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8012,7 +8012,12 @@ fe80::1%lo0	localhost
 127.0.0.1 xads.zedo.com
 127.0.0.1 yads.zedo.com
 127.0.0.1 zedo.com
+#Fling
+127.0.0.1 cachep.fling.com
+127.0.0.1 promos.fling.com
+127.0.0.1 www.fling.com
 #Other Foreign ads
+127.0.0.1 ads.trafficjunky.net
 127.0.0.1 feed-ads.com
 127.0.0.1 www.da-ads.com
 127.0.0.1 ad.clickotmedia.com
