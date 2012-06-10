@@ -1,5 +1,5 @@
 
-;version=19:18 2012/6/7
+;version=9:51 2012/6/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9287,6 +9287,10 @@ fe80::1%lo0	localhost
 0.0.0.0 www.lsense.cn
 #Madhouse
 0.0.0.0 www.madhouse.cn
+#Mgogo
+0.0.0.0 m1.mgogo.com
+0.0.0.0 m.mgogo.com
+0.0.0.0 www.mgogo.com
 #Mobcent
 0.0.0.0 sdk.mobcent.com
 0.0.0.0 img.mobcent.com
