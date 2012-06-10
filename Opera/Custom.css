@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.15
+Version: 5.21
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 10:31 2012-5-30
+Lastchage: 17:13 2012/6/10
 Description: MayBe a better User CSS Help U.
 */
 
@@ -15,7 +15,7 @@ div[class^="ad0"],div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[clas
 div[class^="ad5"],div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"]{
 display: none !important;
 	}
-div[class="ad"],div[class^="AD"],div[class^="ad_"],div[class$="_adv"],
+div[class="ad"],div[class^="ad_"],div[class$="_adv"],
 div[class^="ads"],div[class$="_ads"],div[class*="_ads"],div[class^="adS"]{
 display: none !important;
 	}
@@ -95,7 +95,7 @@ span[id^="ad_"],span[class="adlink"],span[class="ads_sponcer"],span[class="bdad"
 span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"]{
 display: none !important;
 	}
-table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],
+table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],aside[class="advertisement"],
 img[id^="ad"],img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
 display: none !important;
 	}
