@@ -2261,12 +2261,14 @@ fe80::1%lo0	localhost
 0.0.0.0 erreport.tudou.com
 0.0.0.0 iwstat.tudou.com
 0.0.0.0 nstat.tudou.com
+0.0.0.0 pl.pb.ops.tudou.com
 0.0.0.0 stat.tudou.com
 0.0.0.0 stats.tudou.com
 0.0.0.0 tdap.tudou.com
 0.0.0.0 tdcm.tudou.com
-0.0.0.0 wwwtest.tudou.com
 0.0.0.0 tudouflv.dnion.com
+0.0.0.0 tvp.tudou.com
+0.0.0.0 wwwtest.tudou.com
 #¿á6Íø
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 ku6.allyes.com
@@ -11438,3 +11440,6 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.6zzsf.com
 0.0.0.0 pop.game3896.com
 0.0.0.0 union.zhichsp.cn
+0.0.0.0 pic.8kk.com
+0.0.0.0 www.yj84.com
+0.0.0.0 image.qndown.com
