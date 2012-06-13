@@ -1,32 +1,37 @@
 @echo off
-set ver=3.861
+set ver=3.863
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
+rem 随机变色模块
 set/a xc=%random%%%5+1
 set te=
 for %%i in (c d e f a) do (
 set /a te=!!te!+1!
 if "!xc!"=="!te!" set xc=%%i)
+rem 权限检测模块
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions" >nul 2>nul
+rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
 pushd %~dp0
 if not exist %a%\consext.exe copy consext.exe %a%
 if not exist %a%\wget.exe copy wget.exe %a%
-if '%1'=='opinst' goto:opinst
-rem 判断操作系统版本
+rem 判断操作系统版本，支持从Win98-Win8
 if exist %ComSpec% (set etc=%windir%\system32\drivers\etc&set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir%\&set hosts=%windir%\hosts)
+rem 快捷参数设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set str=%date:~0,4%%date:~5,2%00
+set force=0
 set k=taskkill /f /t /im
 set qt=QuietUpdate.vbs
+rem Hosts文件备份模块，以运行时的小时为单位
 if not exist %etc%\Bakup\ md %etc%\Bakup\ >nul
 call :unlock
 copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
 if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..."&call :fixhosts
-set force=0
+rem 自动检测升级模块
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
 echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
 echo WScript.sleep 50 >>%temp%/chkver.vbs
@@ -38,22 +43,25 @@ if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice 
 cls
 
 :gui
+rem 运行前准备工作
 ipconfig -flushdns >nul 2>nul
 del /f /q %tmp%\*.bat %tmp%\*.vbs>nul 2>nul
 del /f /q $ echo HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
+rem 参数调用设置
+if '%1'=='opis' goto:opinst
+if '%1'=='opup' goto:opupdate
+if '%1'=='opcl' goto:opclean
+if '%1'=='/f' goto:fixhosts
 if '%1'=='/q' goto:quiteup
 if '%1'=='/d' goto:dftvbs
 if '%1'=='/g' goto:Google
 if '%1'=='/6' goto:ipv6
-if '%1'=='/f' goto:fixhosts
-if '%1'=='opup' goto:opup
-if '%1'=='oc' goto:opclean
 if not exist %a%\consext.exe (msg %username% /time:2 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!"&goto dftvbs)
 mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
 cls
-title HostsTool(%ver%)- 最新版本(%verNew%)
+title U+ Hosts(%ver%)- 最新版本(%verNew%)
 echo.
 echo  【更多 设备支持】      ‘     【Flush DNS 刷新】   
 echo  HostsData：  【更新/Update Hosts】
@@ -75,7 +83,7 @@ echo  【IE CSS样式表设定】        【VBS*后台静默更新】
 echo  【顽固文件/夹 删除】        【替换为 127.0.0.1】              
 echo  当前目录：%~dp0
 echo.
-echo  【FeedBack问题反馈】        【【￥捐助我们￥】】
+echo  【FeedBack问题反馈】        【【￥捐助 U+ ￥】】
 
 :mouse
 ConsExt /event
@@ -104,10 +112,10 @@ if %y% equ 15 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r -h +s %hosts%
 if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock &attrib %hosts% +r -h +s &echo y| cacls %hosts% /D everyone&msg %username% /time:2 "【已设置Hosts文件权限为：NTFS 拒绝权限！】"&goto gui
 if %y% equ 17 if %x% gtr  1 if %x% lss 26 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f &cls& goto gui
 if %y% equ 17 if %x% gtr  26 if %x% lss 50 call :clean &goto gui
-if %y% equ 19 if %x% gtr  1 if %x% lss 26 goto fixie
+if %y% equ 19 if %x% gtr  1 if %x% lss 26 call :fixie &goto gui
 if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!&goto shortcutfix) else (goto shortcutfix)
 if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto iecss
-if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :qtvbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
+if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quitevbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
 if %y% equ 23 if %x% gtr  12 if %x% lss 26 goto delit
 if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 &goto gui
@@ -119,8 +127,6 @@ goto mouse
 :dns
 echo FlushDns...
 ipconfig -flushdns >nul 2>nul
-ipconfig -registerdns >nul 2>nul
-ipconfig -renew >nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
 DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
@@ -128,15 +134,46 @@ del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
 del /f /s /q "%userprofile%\cookies">nul 2>nul
 del /f /s /q "%userprofile%\recent">nul 2>nul
-ipconfig /flushdns>nul 2>nul
+ipconfig -flushdns >nul 2>nul
+ipconfig -registerdns >nul 2>nul
+ipconfig -renew >nul 2>nul
 goto:eof
 
-:thanks
-msg %username% /time:12 "如果您觉得SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
-start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】"
+:echoi
+echo Download and Update...
+echo Please wait...
 goto:eof
 
-:qtvbs
+:temp
+call :BeijingIP 
+call :Xunlei
+goto:eof
+
+:upcore
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
+echo WScript.sleep 200 >>%temp%/Updates.vbs
+echo loop >>%temp%/Updates.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
+goto:eof
+
+:dftwget
+if not exist %a%\wget.exe (echo 需要命令提示符下载工具wget.exe支持&echo 下载地址：http://users.ugent.be/~bpuype/wget/wget.exe&pause>nul)
+wget http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+set size=200000
+for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
+if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
+if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"HostsTool")(window.close)
+call :temp
+goto gui
+
+:dftvbs
+call :upcore
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
+copy %temp%\HostsX.orzhosts %hosts%
+call :temp&call :dns&msg %username% /time:1 "U+ Hosts data has been Updated！"&Exit
+
+:quitevbs
 >"%qt%" echo do
 >>"%qt%" echo set ws=createobject("wscript.shell")
 >>"%qt%" echo ws.run".\HostsTool.bat /q",vbhide
@@ -149,13 +186,243 @@ goto:EOF
 call :unlock
 call :ipv6load
 call :dftvbs
-call :temp
 attrib +r +a +s %hosts%
-call :dns
-goto:EOF
+call :dns&Exit
 
-:cleansoft
+:unlock
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib %hosts% -r -h -s >nul 2>nul
+goto:eof
+
+:ipv6
+call :ipv6load
+call :echoi
+wget --no-check-certificate --restrict-file-name=windows https://ipv6-hosts.googlecode.com/hg/hosts -O temp.txt
+findstr /v "#" temp.txt >b.txt&del temp.txt
+for /f "tokens=1,2,*" %%i in (b.txt) do (if not defined a%%j set "a%%j=a" &echo %%i %%j %%k>>temp.txt)
+type temp.txt>>%hosts%
+call :dns
+goto:eof
+
+:mvps
+call :echoi
+wget  http://www.mvps.org/winhelp2002/hosts.txt
+copy hosts.txt %hosts%
+goto :eof
+
+:mwsl
+call :echoi
+wget  http://hostsx.googlecode.com/svn/trunk/3rdParty/mwsl.txt
+copy mwsl.txt %hosts%
+goto :eof
+
+:fixhosts
+call :unlock
+if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts%&echo ::1             localhost>> %hosts%&echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
+msg %username% /time:2 "【已恢复Hosts文件至系统初始状态！】"
+notepad %hosts%
+goto:eof
+
+:Updateit
+msg %username% /time:2 "【新版本升级中,请稍后！】"
+echo @echo off>%temp%\up.bat
+echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
+echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
+echo Exit>>%temp%\up.bat
+start %temp%\up.bat
+exit
+
+:Updates
+cls
+md Bakup\ >nul 2>nul
+copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
+echo Backup of the old version(%ver%)
+call :echoi
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
+echo WScript.sleep 200 >>%temp%/Upnew.vbs
+echo loop >>%temp%/Upnew.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
+set size=100000
+for %%1 in (HostsTool.bat)do set gsize=%%~z1
+cls
+if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src -o %temp% &ren HostsTool.Src HostsTool.bat&goto Updateit) else (goto Updateit)
+goto:eof
+
+:rp127
+call :unlock
+copy %hosts% temp.txt
+for %%a in (temp.txt) do (
+(for /f "usebackq delims=" %%b in ("%%a") do  (
+set "str=%%b"
+for %%b in (0.0.0.0-127.0.0.1) do (
+for /f "tokens=1,2 delims=-" %%c in ("%%b") do set "str=!str:%%c=%%d!"
+)
+echo !str!
+))>$
+copy $ %hosts%&del temp.txt $&ipconfig /flushdns&echo 已将0.0.0.0 全部替换为127.0.0.1! & choice /t 2 /d y /n >nul &goto gui
+)
+
+:ipv6load
+echo 正在安装ipv6服务...
+ipv6 install >nul 2>nul
+echo 正在优化Hosts相关服务，以加快解析速度
+net stop "Dnscache" >nul 2>nul
+sc stop "DNSCache" >nul 2>nul
+sc config Dnscache start= disabled >nul 2>nul
+echo 正在启动Https相关服务，请卸载国产的XX卫士等安全产品
+sc config iphlpsvc start= AUTO > nul 2>nul
+sc config HTTPFilter start= AUTO >nul 2>nul
+sc config 6to4 start= auto >nul 2>nul
+net start 6to4 >nul 2>nul
+echo 正在设置ipv6相关信息
+netsh interface ipv6 isatap set router isatap.sjtu.edu.cn >nul 2>nul
+netsh interface ipv6 isatap set state enabled >nul 2>nul
+goto:eof
+
+:entdata
+call :unlock
+set pb=115.47.219.95
+echo %pb% www.kaixin001.com >>%hosts%
+echo %pb% apps.renren.com >>%hosts%
+echo %pb% happyfarm.qzone.qq.com >>%hosts%
+echo %pb% user.qzone.qq.com >>%hosts%
+echo %pb% wan.360.cn >>%hosts%
+echo %pb% www.2144.cn >>%hosts%
+echo %pb% www.2366.com >>%hosts%
+echo %pb% www.4399.com >>%hosts%
+echo %pb% www.7k7k.com >>%hosts%
+echo %pb% 4.gvt0.cn >>%hosts%
+echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.&echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 2 /d y /n >nul
+goto :eof
+
+:Xunlei
+set /a str+=1
+echo 0.0.0.0 %str%.biz5.sandai.net >>%hosts%
+if not %str%==%date:~0,4%%date:~5,2%31 (goto Xunlei)
+echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%
+goto:eof
+
+:AnDroid
+cls&echo AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!
+choice /t 7 /d y /n >nul
+if not exist AndriodHosts.vbs (wget http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
+AndriodHosts.vbs&cls&goto gui
+
+:shortcutfix
+mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\g.ico"":b.Description=""优佳猴子"":b.Save:close")
+echo 桌面快捷方式已创建！& choice /t 2 /d y /n >nul&goto gui
+
+:feedback
+echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt
+echo 用户名：%username% >>GFeedBack.txt
+echo 计算机名：%userdomain% >>GFeedBack.txt
+SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt
+echo IE版本：%iever% >>GFeedBack.txt
+echo HostsTool版本：%ver% >>GFeedBack.txt
+echo 今天是：%date% >>GFeedBack.txt
+echo 遇到问题的网页地址：>>GFeedBack.txt
+echo. >>GFeedBack.txt
+echo. >>GFeedBack.txt
+echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
+notepad GFeedBack.txt&start iexplore http://code.google.com/p/hostsx/issues/list &cls&del GFeedBack.txt&goto gui
+
+:iecss
+wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
+wget http://hostsx.googlecode.com/svn/trunk/Windows/IECss.vbs
+start http://dayngo.com/static/filter.html
+rem start http://userstyles.org/styles/58249/
+iecss.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
+
+:fixie
+title IE浏览器修复和优化
+echo  请先关闭 Internet Explorer !
+pause
+taskkill /F /IM iexplore.exe /T>nul 2>nul
+regsvr32 /s actxprxy.dll
+regsvr32 /s shdocvw.dll
+regsvr32 /s oleaut32.dll
+Regsvr32 /s URLMON.DLL
+Regsvr32 /s mshtml.dll
+Regsvr32 /s msjava.dll
+Regsvr32 /s browseui.dll
+Regsvr32 /s softpub.dll
+Regsvr32 /s wintrust.dll
+echo 50 percent (Please wait)
+Regsvr32 /s initpki.dll
+Regsvr32 /s dssenh.dll
+Regsvr32 /s rsaenh.dll
+Regsvr32 /s gpkcsp.dll
+Regsvr32 /s sccbase.dll
+Regsvr32 /s slbcsp.dll
+Regsvr32 /s cryptdlg.dll
+echo 100 percent
+echo IE 优化完毕。
+title IE Repaired
+echo 开始修复 IE 及相关的系统设置项目……
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKLM\Software\CLASSES\.reg" /f /ve /d regfile>nul 2>nul
+echo 恢复EXE文件打开方式
+reg add "HKCR\exefile\shell\open\command" /f /ve /t REG_SZ /d ""%1" %*">nul 2>nul
+rem Del All IE donot Turst Site
+reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f>nul 2>nul
+echo 删除地址栏下拉菜单内的网址
+reg delete "HKCU\Software\Microsoft\Internet Explorer\TypedURLs" /f >nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\TypedURLs">nul 2>nul
+echo 恢复被隐藏的桌面图标
+reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
+echo 恢复internet选项安全页面自定义按钮
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecChangeSettings /t REG_DWORD /d 00000000>nul 2>nul
+echo 恢复IE浏览器缺省主页的设置锁定状态
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Settings /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Links /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecAddSites /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKU\.DEFAULT\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
+echo 删除分级审查密码
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings" /f>nul 2>nul
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings">nul 2>nul
+echo 恢复internet选项
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\restrictions" /f /v NoBrowserOptions /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoFolderOptions /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v GeneralTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecurityTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ContentTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ConnectionsTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ProgramsTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v AdvancedTab /t REG_DWORD /d 00000000>nul 2>nul
+echo 修复IE察看源文件按钮
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
+echo 修复网页中右键菜单的广告
+reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
+echo 恢复网页右键菜单
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoBrowserContextMenu /t REG_DWORD /d 00000000>nul 2>nul
+echo 恢复OE标题栏广告
+reg add "HKCU\Software\Microsoft\Outlook Express" /f /v WindowTitle /t REG_DWORD /d 00000000>nul 2>nul
+echo 恢复IE标题栏
+reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
+echo 恢复主页修改
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
+echo 修复IE的默认页面和起始为空白页
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Default_Page_URL" /d "about:blank">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Start Page" /d "about:blank">nul 2>nul
+echo 恢复IE搜索引擎
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f >nul 2>nul
+reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "http://www.google.com/intl/zh-CN/" >nul 2>nul
+reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f >nul 2>nul
+goto:eof
+
+:clean
 Tasklist|Find /i "iexplore.exe">nul&&(Echo 请先关闭IExplore.exe!&Pause)
+call :cleansys
 call :cleanwmp
 call :cleanpps
 call :cleanpptv
@@ -167,6 +434,42 @@ call :cleanwps
 call :cleansogou
 call :cleanie
 call :cleanqq
+goto:eof
+
+:cleansys
+echo 正在清除系统垃圾文件，请稍等......
+del /f /s /q %systemdrive%\*.tmp
+del /f /s /q %systemdrive%\*._mp
+del /f /s /q %systemdrive%\*.gid
+del /f /s /q %systemdrive%\*.chk
+del /f /s /q %systemdrive%\*.ftg
+del /f /s /q %systemdrive%\*.fts
+del /f /s /q %systemdrive%\*.syd
+del /f /s /q %systemdrive%\*.diz
+del /f /s /q %windir%\KB*.log
+del /f /s /q %windir%\*.bak
+del /f /s /q "%systemdrive%\recycled"
+del /f /s /q "%Temp%"
+del /f /q /s /a "%systemroot%\minidump"
+del /f /q /s /a "%userprofile%\Cookies"
+del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
+del /f /s /q "%userprofile%\recent"
+del /f /s /q "%windir%\prefetch"
+del /f /s /q "%windir%\SoftwareDistribution\Download"
+del /f /s /q "%windir%\temp"
+echo 正在清理系统升级补丁留下来的反安装目录……
+RD %windir%\$hf_mig$ /Q /S
+dir %windir%\$NtUninstall* /a:d /b >%windir%\del.txt
+for /f %%i in (%windir%\del.txt) do rd %windir%\%%i /s /q
+del %windir%\del.txt /f /q
+for /f "tokens=1" %%i in ('dir %SystemRoot%\$*$ /s /b /ad') do rd /s /q %%i
+defrag %systemdrive% -b
+echo 清除浏览器地址记录...
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" /f 2>nul
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls"
+echo 清除运行记录...
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f
 goto:eof
 
 :cleanwmp
@@ -213,37 +516,6 @@ rem REG ADD "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG__SZ /d
 reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\Wgalogon" /f
 goto:eof
 
-:cleanqq
-msg %username% /time:2 "【请先关闭QQ、TM!】"&pause
-%k% qq.exe
-%k% tm.exe
-%k% TXOPShow.exe
-cd "%AppData%\Tencent\QQ\Misc"
-for /d %%i in (com.tencent.advertisement*) do rd "%%i" /s /q
-cd "%AppData%\Tencent\Users\"
-del misc.db /s /q
-echo 屏蔽QQ自动生成的不必要文件.
-if exist "%APPDATA%\Tencent\IM\" (rd /q /s "%APPDATA%\Tencent\IM") else (del /f /s /q "%APPDATA%\Tencent\IM")
-@cd.>"%APPDATA%\Tencent\IM"
-echo 屏蔽QQ自动升级文件
-for /r "%APPDATA%\Tencent\QQ\AuTemp" %%i in (AUStat.ini) do (set a=%%i)
-if exist "%a%" (del /f /s /q "%a%")
-echo [STAT] >> "%a%"
-echo Flag5=0 >> "%a%"
-echo Flag3=0 >> "%a%"
-echo y|cacls "%a%" /p everyone:r
-echo 屏蔽QQ群相册快照临时文件
-if exist "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot\" (rd /q /s "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot")
-@cd.>"%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot"
-echo 屏蔽QQ群直播图标
-if exist "%APPDATA%\Tencent\QQ\Misc\GTB_Icons\" (rd /q /s  "%APPDATA%\Tencent\QQ\Misc\GTB_Icons") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GTB_Icons")
-@cd.>"%APPDATA%\Tencent\QQ\Misc\GTB_Icons"
-echo 屏蔽QQ群页面
-if exist "%APPDATA%\Tencent\QQ\Temp\gm\" (rd /q /s  "%APPDATA%\Tencent\QQ\Temp\gm") else (del /f /s /q "%APPDATA%\Tencent\QQ\Temp\gm")
-if exist "%APPDATA%\Tencent\QQ\Misc\GMF\" (rd /q /s  "%APPDATA%\Tencent\QQ\Misc\GMF") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GMF")
-@cd.>"%APPDATA%\Tencent\QQ\Misc\GMF"
-goto:eof
-
 :cleanxunlei
 del "C:\Program Files\Thunder\Program\MiniXmpInstall.exe"
 rd  "C:\Program Files\Thunder\BBInside" /s /q
@@ -276,21 +548,6 @@ sc stop "Kingsoft_WPS_UpdateService"
 sc delete "Kingsoft_WPS_UpdateService"
 goto:eof
 
-:cleanie
-rem  修复IE工具栏广告
-reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
-reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
-rem  修复开始菜单广告
-reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
-echo 恢复IE搜索引擎,修复IE工具栏广告
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s"
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Use Search Asst" /d "no" /f
-reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "gogl" /f
-reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "https://www.google.com/intl/zh-CN/"
-reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f
-goto:eof
-
 :cleansogou
 echo 清除SOGOU搜狗的IE加载项so.dll
 regsvr32 /u /s so.dll >nul 2>nul
@@ -302,153 +559,44 @@ reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{02AC20DD-55
 reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072}" /f >nul 2>nul
 goto:eof
 
-:ipv6load
-echo 正在安装ipv6服务...
-ipv6 install >nul 2>nul
-echo 正在优化Hosts相关服务，以加快解析速度
-net stop "Dnscache" >nul 2>nul
-sc stop "DNSCache" >nul 2>nul
-sc config Dnscache start= disabled >nul 2>nul
-echo 正在启动Https相关服务，请卸载国产的XX卫士等安全产品
-sc config iphlpsvc start= AUTO > nul 2>nul
-sc config HTTPFilter start= AUTO >nul 2>nul
-sc config 6to4 start= auto >nul 2>nul
-net start 6to4 >nul 2>nul
-echo 正在设置ipv6相关信息
-netsh interface ipv6 isatap set router isatap.sjtu.edu.cn >nul 2>nul
-netsh interface ipv6 isatap set state enabled >nul 2>nul
+:cleanie
+rem  修复IE工具栏广告
+reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+rem  修复开始菜单广告
+reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
 goto:eof
 
-:unlock
-echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
-attrib %hosts% -r -h -s >nul 2>nul
+:cleanqq
+msg %username% /time:2 "【请先关闭QQ、TM!】"&pause
+%k% qq.exe
+%k% tm.exe
+%k% TXOPShow.exe
+cd "%AppData%\Tencent\QQ\Misc"
+for /d %%i in (com.tencent.advertisement*) do rd "%%i" /s /q
+cd "%AppData%\Tencent\Users\"
+del misc.db /s /q
+echo 屏蔽QQ自动生成的不必要文件.
+if exist "%APPDATA%\Tencent\IM\" (rd /q /s "%APPDATA%\Tencent\IM") else (del /f /s /q "%APPDATA%\Tencent\IM")
+@cd.>"%APPDATA%\Tencent\IM"
+echo 屏蔽QQ自动升级文件
+for /r "%APPDATA%\Tencent\QQ\AuTemp" %%i in (AUStat.ini) do (set a=%%i)
+if exist "%a%" (del /f /s /q "%a%")
+echo [STAT] >> "%a%"
+echo Flag5=0 >> "%a%"
+echo Flag3=0 >> "%a%"
+echo y|cacls "%a%" /p everyone:r
+echo 屏蔽QQ群相册快照临时文件
+if exist "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot\" (rd /q /s "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot")
+@cd.>"%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot"
+echo 屏蔽QQ群直播图标
+if exist "%APPDATA%\Tencent\QQ\Misc\GTB_Icons\" (rd /q /s  "%APPDATA%\Tencent\QQ\Misc\GTB_Icons") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GTB_Icons")
+@cd.>"%APPDATA%\Tencent\QQ\Misc\GTB_Icons"
+echo 屏蔽QQ群页面
+if exist "%APPDATA%\Tencent\QQ\Temp\gm\" (rd /q /s  "%APPDATA%\Tencent\QQ\Temp\gm") else (del /f /s /q "%APPDATA%\Tencent\QQ\Temp\gm")
+if exist "%APPDATA%\Tencent\QQ\Misc\GMF\" (rd /q /s  "%APPDATA%\Tencent\QQ\Misc\GMF") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GMF")
+@cd.>"%APPDATA%\Tencent\QQ\Misc\GMF"
 goto:eof
-
-:echoi
-echo Download and Update,
-echo Please wait... ...
-goto:eof
-
-:temp
-call :BeijingIP 
-call :Xunlei
-goto:eof
-
-:upcore
-echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
-echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
-echo WScript.sleep 200 >>%temp%/Updates.vbs
-echo loop >>%temp%/Updates.vbs
-echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
-goto:eof
-
-:dftwget
-if not exist %a%\wget.exe (echo 需要命令提示符下载工具wget.exe支持&echo 下载地址：http://users.ugent.be/~bpuype/wget/wget.exe&pause>nul)
-wget http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
-set size=200000
-for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
-if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
-if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"HostsTool")(window.close)
-call :temp
-goto gui
-
-:dftvbs
-mode con cols=30 lines=10
-call :echoi
-call :upcore
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
-copy %temp%\HostsX.orzhosts %hosts%
-call :temp&call :dns&msg %username% /time:1 "Hosts Data has been Updated！"&Exit
-
-:dftlocal
-echo 无法连接服务器！&echo.&echo 将使用本地缓存Hosts数据！& choice /t 2 /d y /n >nul
-if not exist HostsX.orzhosts (echo 未找到本地缓存Hosts数据!) else (copy HostsX.orzhosts %hosts% &echo 已更换至本地缓存Hosts数据！)
-echo 程序将在3s后退出!& choice /t 3 /d y /n >nul&Exit
-
-:ipv6
-call :ipv6load
-call :echoi
-wget --no-check-certificate --restrict-file-name=windows https://ipv6-hosts.googlecode.com/hg/hosts -O temp.txt
-findstr /v "#" temp.txt >b.txt&del temp.txt
-for /f "tokens=1,2,*" %%i in (b.txt) do (if not defined a%%j set "a%%j=a" &echo %%i %%j %%k>>temp.txt)
-type temp.txt>>%hosts%
-echo FlushDns&ipconfig /flushdns
-goto:eof
-
-:smartrd
-call :echoi
-wget http://hostsx.googlecode.com/svn/trunk/Windows/SmartRD.txt
-(for /f "delims=" %%i in (SmartRD.txt) do (
-call :nslookup %%i
-))>hosts.txt
-for /f "delims=" %%i in (hosts.txt) do @echo %%i >>%hosts%
-goto :eof
-
-:nslookup
-for /f "skip=4 tokens=1* delims=:" %%j in ('nslookup %1') do (
-echo,%%k   %%i&goto :eof
-)
-goto :eof
-
-:mvps
-call :echoi
-wget  http://www.mvps.org/winhelp2002/hosts.txt
-copy hosts.txt %hosts%
-goto :eof
-
-:mwsl
-call :echoi
-wget  http://hostsx.googlecode.com/svn/trunk/3rdParty/mwsl.txt
-copy mwsl.txt %hosts%
-call :flushdns
-goto :eof
-
-:entdata
-call :unlock
-set pb=115.47.219.95
-echo %pb% www.kaixin001.com >>%hosts%
-echo %pb% apps.renren.com >>%hosts%
-echo %pb% happyfarm.qzone.qq.com >>%hosts%
-echo %pb% user.qzone.qq.com >>%hosts%
-echo %pb% wan.360.cn >>%hosts%
-echo %pb% www.2144.cn >>%hosts%
-echo %pb% www.2366.com >>%hosts%
-echo %pb% www.4399.com >>%hosts%
-echo %pb% www.7k7k.com >>%hosts%
-echo %pb% 4.gvt0.cn >>%hosts%
-echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.&echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 2 /d y /n >nul
-goto :eof
-
-:fixhosts
-call :unlock
-if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts%&echo ::1             localhost>> %hosts%&echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
-msg %username% /time:2 "【已恢复Hosts文件至系统初始状态！】"
-notepad %hosts%
-goto:eof
-
-:AnDroid
-cls&echo AnDroid Hosts 文件更新调用了服务器端的Vbs脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!
-choice /t 7 /d y /n >nul
-if not exist AndriodHosts.vbs (wget http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
-AndriodHosts.vbs&cls&goto gui
-
-:shortcutfix
-mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\g.ico"":b.Description=""优佳猴子"":b.Save:close")
-echo 桌面快捷方式已创建！& choice /t 2 /d y /n >nul&goto gui
-
-:feedback
-echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt
-echo 用户名：%username% >>GFeedBack.txt
-echo 计算机名：%userdomain% >>GFeedBack.txt
-SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt
-echo IE版本：%iever% >>GFeedBack.txt
-echo HostsTool版本：%ver% >>GFeedBack.txt
-echo 今天是：%date% >>GFeedBack.txt
-echo 遇到问题的网页地址：>>GFeedBack.txt
-echo. >>GFeedBack.txt
-echo. >>GFeedBack.txt
-echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
-notepad GFeedBack.txt&start iexplore http://code.google.com/p/hostsx/issues/list &cls&del GFeedBack.txt&goto gui
 
 :delit
 mode con cols=60 lines=20
@@ -476,185 +624,33 @@ echo.
 echo  删除完成! Delete done!
 pause&goto gui
 
-:iecss
-wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-wget http://hostsx.googlecode.com/svn/trunk/Windows/iecss.vbs
-start http://dayngo.com/static/filter.html
-rem start http://userstyles.org/styles/58249/
-iecss.vbs&echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul &goto gui
-
-:Updateit
-msg %username% /time:2 "【新版本升级中,请稍后！】"
-echo @echo off>%temp%\up.bat
-echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
-echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
-echo Exit>>%temp%\up.bat
-start %temp%\up.bat
-exit
-
-:Updates
-cls
-md Bakup\ >nul 2>nul
-copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
-echo Backup of the old version(%ver%)
-call :echoi
-echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
-echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
-echo WScript.sleep 200 >>%temp%/Upnew.vbs
-echo loop >>%temp%/Upnew.vbs
-echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
-cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
-set size=100000
-for %%1 in (HostsTool.bat)do set gsize=%%~z1
-cls
-if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src -o %temp% &ren HostsTool.Src HostsTool.bat&goto Updateit) else (goto Updateit)
-goto:eof
-
-:clean
-echo 正在清除系统垃圾文件，请稍等......
-del /f /s /q %systemdrive%\*.tmp
-del /f /s /q %systemdrive%\*._mp
-del /f /s /q %systemdrive%\*.gid
-del /f /s /q %systemdrive%\*.chk
-del /f /s /q %systemdrive%\*.ftg
-del /f /s /q %systemdrive%\*.fts
-del /f /s /q %systemdrive%\*.syd
-del /f /s /q %systemdrive%\*.diz
-del /f /s /q %windir%\KB*.log
-del /f /s /q %windir%\*.bak
-del /f /s /q "%systemdrive%\recycled"
-del /f /s /q "%Temp%"
-del /f /q /s /a "%systemroot%\minidump"
-del /f /q /s /a "%userprofile%\Cookies"
-del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
-del /f /s /q "%userprofile%\recent"
-del /f /s /q "%windir%\prefetch"
-del /f /s /q "%windir%\SoftwareDistribution\Download"
-del /f /s /q "%windir%\temp"
-echo 正在清理系统升级补丁留下来的反安装目录……
-RD %windir%\$hf_mig$ /Q /S
-dir %windir%\$NtUninstall* /a:d /b >%windir%\del.txt
-for /f %%i in (%windir%\del.txt) do rd %windir%\%%i /s /q
-del %windir%\del.txt /f /q
-for /f "tokens=1" %%i in ('dir %SystemRoot%\$*$ /s /b /ad') do rd /s /q %%i
-defrag %systemdrive% -b
-echo 清除浏览器地址记录...
-reg delete "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" /f 2>nul
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls"
-echo 清除运行记录...
-reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f
-echo 正在软件缓存垃圾文件，请稍等......
-call :cleansoft
-echo 垃圾缓存文件已清理! & choice /t 2 /d y /n >nul
-goto:eof
-
-:rp127
-SetLocal EnableDelayedExpansion
-call :unlock
-copy %hosts% temp.txt
-for %%a in (temp.txt) do (
-(for /f "usebackq delims=" %%b in ("%%a") do  (
-set "str=%%b"
-for %%b in (0.0.0.0-127.0.0.1) do (
-for /f "tokens=1,2 delims=-" %%c in ("%%b") do set "str=!str:%%c=%%d!"
-)
-echo !str!
-))>$
-copy $ %hosts%&del temp.txt $&ipconfig /flushdns&echo 已将0.0.0.0 全部替换为127.0.0.1! & choice /t 2 /d y /n >nul &goto gui
-)
-
-:iGoogle
-REM Felix Hsu and Patched by logicmd
-ipconfig /flushdns
-cls
-echo 请稍等,正在获取Google+ 可用IP
-REM 然后ping www.google.cn和www.google.com以获取最新的IP,赋值%CNIP%和%COMIP%
-REM ping ditu.google.cn获取最新的IP,赋值%MAPIP%
-for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set CNIP=%%i
-for /f "tokens=2 delims=[]" %%i in ('ping www.l.google.com') do set COMIP=%%i
-for /f "tokens=2 delims=[]" %%i in ('ping ditu.google.cn') do set MAPIP=%%i
-REM 为了美观和避免直接在文件末尾添加的惨剧,咱空一行
-echo.  >>%hosts%
-echo #Google Plus >>%hosts%
-echo %CNIP% plus.google.com >>%hosts%
-echo %CNIP% talkgadget.google.com >>%hosts%
-echo %COMIP% picasaweb.google.com >>%hosts%
-echo %COMIP% lh1.ggpht.com >>%hosts%
-echo %COMIP% lh2.ggpht.com >>%hosts%
-echo %COMIP% lh3.ggpht.com >>%hosts%
-echo %COMIP% lh4.ggpht.com >>%hosts%
-echo %COMIP% lh5.ggpht.com >>%hosts%
-echo %COMIP% lh6.ggpht.com >>%hosts%
-echo %CNIP% lh6.googleusercontent.com >>%hosts%
-echo %CNIP% lh5.googleusercontent.com >>%hosts%
-echo %CNIP% lh4.googleusercontent.com >>%hosts%
-echo %CNIP% lh3.googleusercontent.com >>%hosts%
-echo %CNIP% lh2.googleusercontent.com >>%hosts%
-echo %CNIP% lh1.googleusercontent.com >>%hosts%
-echo %CNIP% plus.google.com.hk >>%hosts%
-echo %CNIP% s2.googleusercontent.com >>%hosts%
-echo %CNIP% s1.googleusercontent.com >>%hosts%
-echo %CNIP% images1-focus-opensocial.googleusercontent.com >>%hosts%
-echo %CNIP% images2-focus-opensocial.googleusercontent.com >>%hosts%
-echo %CNIP% images3-focus-opensocial.googleusercontent.com >>%hosts%
-echo %CNIP% images4-focus-opensocial.googleusercontent.com >>%hosts%
-echo %CNIP% images5-focus-opensocial.googleusercontent.com >>%hosts%
-echo %CNIP% images6-focus-opensocial.googleusercontent.com >>%hosts%
-echo %CNIP% images-pos-opensocial.googleusercontent.com >>%hosts%
-echo %CNIP% maps-api-ssl.google.com >>%hosts%
-echo %CNIP% www.google.com.hk >>%hosts%
-echo %CNIP% www.google.com >>%hosts%
-echo %CNIP% webcache.googleusercontent.com >>%hosts%
-echo %CNIP% mail.google.com >>%hosts%
-echo %CNIP% www.googlelabs.com >>%hosts%
-echo %CNIP% docs.google.com >>%hosts%
-echo %CNIP% plus.google.com >>%hosts%
-echo %CNIP% profiles.google.com >>%hosts%
-echo %CNIP% services.google.com >>%hosts%
-echo %CNIP% clients4.google.com >>%hosts%
-echo %CNIP% clients2.google.com >>%hosts%
-echo %CNIP% chrome.google.com >>%hosts%
-echo %CNIP% tools.google.com >>%hosts%
-REM 把获取到的%MAPIP%
-echo %MAPIP% maps.google.com >>%hosts%
-echo %MAPIP% ditu.google.com >>%hosts%
-CLS
-goto:eof
-
 :Google
 call :unlock
-type %hosts%|find "FGQI" /i /v|find "Google" /i /v|find "ggpht" /i /v|find "gmail" /i /v|find "gstatic" /i /v|find "appspot" /i /v|find "g.cn" /i /v|find "Youtube" /i /v|find "ytimg" /i /v|find "gvt0" /i /v|findstr "." >%etc%\hostsbak
-del %hosts% & ren %etc%\hostsbak hosts
+type %hosts%|find "FGQI" /i /v|find "Google" /i /v|find "ggpht" /i /v|find "gmail" /i /v|find "gstatic" /i /v|find "appspot" /i /v|findstr "." >>%hosts%fgqi
+ren %hosts%fgqi hosts
 if /i !force! neq 0 (call :GoogleCN ) else (call :BeijingIP )
 call :Youtube
-CLS
 goto:eof
 
 :BeijingIP
 echo.
 echo 正在使用Google北京服务器地址更新hosts，请稍等
 setlocal enabledelayedexpansion
-set min=160
-set max=180
+set min=20
+set max=30
 set /a mod=!max!-!min!+1
 set /a r=!random!%%!mod!+!min!
-set gg=203.208.46.%r%
+set GOOGLE=203.208.47.%r%
 call :GoogleIP
-echo 203.208.45.200 plus.google.com >>%hosts%
-echo 203.208.46.180 www.google.com >>%hosts%
 goto:eof
 
 :GoogleCN
 echo.
 echo 请稍等,正在获取Google服务器的IP
-
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set gg=%%i
-for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，请稍等) else echo 你获取的是%gg%，不是北京服务器地址，正在更新hosts，请稍等...
+for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，正在更新hosts，请稍等) else echo 你获取的是%gg%，不是Google北京服务器地址，正在更新hosts，请稍等
 for /f "delims=." %%i in ("%gg%") do if not %%i==203 echo 因为地址不是北京服务器，可能导致服务不能用，推荐使用:北京服务器IP
 call :GoogleIP
-echo %gg% plus.google.com >>%hosts%
-echo %gg% www.google.com >>%hosts%
 goto:eof
 
 :GoogleIP
@@ -662,7 +658,6 @@ echo #Google By FGQI >>%hosts%
 echo %gg% drive.google.com >>%hosts%
 echo %gg% doc-10-3o-docs.googleusercontent.com >>%hosts%
 echo %gg% play.google.com >>%hosts%
-echo %gg% plus.url.google.com >>%hosts%
 echo %gg% 0-focus-opensocial.googleusercontent.com >>%hosts%
 echo %gg% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %gg% accounts.google.com >>%hosts%
@@ -803,6 +798,7 @@ echo %gg% picasa.google.com >>%hosts%
 echo %gg% picasaweb.google.com >>%hosts%
 echo %gg% picasaweb.google.com.hk >>%hosts%
 echo %gg% places.google.com >>%hosts%
+echo %gg% plus.google.com >>%hosts%
 echo %gg% plus.google.com.hk >>%hosts%
 echo %gg% plusone.google.com >>%hosts%
 echo %gg% pop.gmail.com >>%hosts%
@@ -855,6 +851,7 @@ echo %gg% wave.google.com >>%hosts%
 echo %gg% webcache.googleusercontent.com >>%hosts%
 echo %gg% wenda.google.com.hk >>%hosts%
 echo %gg% www.gmail.com >>%hosts%
+echo %gg% www.google.com >>%hosts%
 echo %gg% www.google.com.hk >>%hosts%
 echo %gg% www.googleadservices.com >>%hosts%
 echo %gg% www.google-analytics.com >>%hosts%
@@ -895,6 +892,8 @@ echo 请稍等,正在获取Youtube服务器的IP
 for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
 for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
 if %ytb%==203.208.46.181 (echo 你获取的不是北京服务器的地址，已手动帮你设置为203.208.46.181北京服务器地址) else echo 你获取的是Youtube北京服务器地址，正在更新hosts，请稍等
+type %hosts%|find "Youtube" /i /v|find "ytimg" /i /v|find "gvt0" /i /v|findstr "." >>%hosts%fgqi
+ren %hosts%fgqi hosts
 echo #Youtube By FGQI >>%hosts%
 echo %ytb% youtube.com >>%hosts%
 echo %ytb% www.youtube.com >>%hosts%
@@ -1809,113 +1808,12 @@ echo %ytb% v23.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
 goto:eof
 
-:Xunlei
-set /a str+=1
-echo 0.0.0.0 %str%.biz5.sandai.net >>%hosts%
-if not %str%==%date:~0,4%%date:~5,2%31 (goto Xunlei)
-echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%
-goto:eof
-
-:fixie
-title IE Optimization and Fix
-echo  Please close your Internet Explorer !
-pause
-taskkill /F /IM iexplore.exe /T>nul 2>nul
-regsvr32 /s actxprxy.dll
-regsvr32 /s shdocvw.dll
-regsvr32 /s oleaut32.dll
-Regsvr32 /s URLMON.DLL
-Regsvr32 /s mshtml.dll
-Regsvr32 /s msjava.dll
-Regsvr32 /s browseui.dll
-Regsvr32 /s softpub.dll
-Regsvr32 /s wintrust.dll
-echo 50 percent (Please wait)
-Regsvr32 /s initpki.dll
-Regsvr32 /s dssenh.dll
-Regsvr32 /s rsaenh.dll
-Regsvr32 /s gpkcsp.dll
-Regsvr32 /s sccbase.dll
-Regsvr32 /s slbcsp.dll
-Regsvr32 /s cryptdlg.dll
-echo 100 percent
-echo IE Optimization and Fix finished.
-title IE Repaired
-assoc .vbs=VBSFile
-ftype vbsfile=%SystemRoot%\System32\WScript.exe "%1" %*
-assoc .ini=inifile
-ftype inifile=%SystemRoot%\System32\NOTEPAD.EXE %1
-echo 开始修复 IE 及相关的系统设置项目……
-reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKLM\Software\CLASSES\.reg" /f /ve /d regfile>nul 2>nul
-echo 恢复EXE文件打开方式
-reg add "HKCR\exefile\shell\open\command" /f /ve /t REG_SZ /d ""%1" %*">nul 2>nul
-rem Del All IE donot Turst Site
-reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f
-echo 删除地址栏下拉菜单内的网址
-reg delete "HKCU\Software\Microsoft\Internet Explorer\TypedURLs" /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Internet Explorer\TypedURLs">nul 2>nul
-echo 恢复被隐藏的桌面图标
-reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
-reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
-echo 恢复internet选项安全页面自定义按钮
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecChangeSettings /t REG_DWORD /d 00000000>nul 2>nul
-echo 恢复IE浏览器缺省主页的设置锁定状态
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Settings /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Links /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecAddSites /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKU\.DEFAULT\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
-echo 删除分级审查密码
-reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings" /f>nul 2>nul
-reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings">nul 2>nul
-echo 恢复internet选项
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\restrictions" /f /v NoBrowserOptions /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoFolderOptions /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v GeneralTab /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecurityTab /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ContentTab /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ConnectionsTab /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ProgramsTab /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v AdvancedTab /t REG_DWORD /d 00000000>nul 2>nul
-echo 修复IE察看源文件按钮
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
-reg add "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
-echo 修复网页中右键菜单的广告
-reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
-reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
-echo 恢复网页右键菜单
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoBrowserContextMenu /t REG_DWORD /d 00000000>nul 2>nul
-echo 恢复OE标题栏广告
-reg add "HKCU\Software\Microsoft\Outlook Express" /f /v WindowTitle /t REG_DWORD /d 00000000>nul 2>nul
-echo 恢复IE标题栏
-reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
-echo 恢复主页修改
-reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
-echo 修复IE的默认页面和起始为空白页
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Default_Page_URL" /d "about:blank">nul 2>nul
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Start Page" /d "about:blank">nul 2>nul
-echo 恢复IE搜索引擎
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s"
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f
-reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Use Search Asst" /d "no" /f
-reg add "HKCU\Software\Microsoft\Internet Explorer\SearchURL" /v "provider" /d "gogl" /f
-reg add "HKLM\Software\Microsoft\Internet Explorer\" /f /ve /d "about:blank"
-reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "http://www.google.com/intl/zh-CN/"
-reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f
-echo Repaired&cls&goto gui
-
 :opinst
 mshta vbscript:msgbox("请务必在安装使用前详细阅读服务条款中的内容和问题解答！！！",64,"Opera SimpleU Edition")(window.close)
-rem mshta vbscript:msgbox("要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！",64,"OperaU")(window.close)
-rem Del /f /q "%ALLUSERSPROFILE%\Desktop\Opera*.lnk"
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
 exit
 
-:opup
+:opupdate
 if not exist %a%\wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
 echo 正在下载数据，请稍候... ...
@@ -1976,7 +1874,7 @@ msg %username% /time:2 "【CSS数据已更新！】"
 cls&start /min iexplore http://weibo.com/vokins &exit
 
 :opclean
-if not exist opera.exe echo 没有找到Opera&start iexplore http://www.everbox.com/f/XQggwEwf73bxQyeHCgSDLpcx9V & choice /t 2 /d y /n >nul & goto exit
+if not exist opera.exe echo 没有找到Opera&start iexplore http://sdrv.ms/L1ihpd & choice /t 2 /d y /n >nul & goto gui
 del /f /q profile\autoupdate_response.xml
 del /f /q profile\download.dat
 del /f /q profile\global_history.dat
@@ -2011,37 +1909,78 @@ rd /s /q profile\vps\
 rd /s /q profile\webserver
 echo 使用痕迹清理完毕! & choice /t 2 /d y /n >nul&goto gui
 
-:check
-ver|find   "5."
-if   %errorlevel%==0   goto   cacls5
-ver|find   "6."
-if   %errorlevel%==0   goto   cacls6
+:iGoogle
+REM Felix Hsu and Patched by logicmd
+ipconfig /flushdns
+cls
+echo 请稍等,正在获取Google+ 可用IP
+REM 然后ping www.google.cn和www.google.com以获取最新的IP,赋值%CNIP%和%COMIP%
+REM ping ditu.google.cn获取最新的IP,赋值%MAPIP%
+for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set CNIP=%%i
+for /f "tokens=2 delims=[]" %%i in ('ping www.l.google.com') do set COMIP=%%i
+for /f "tokens=2 delims=[]" %%i in ('ping ditu.google.cn') do set MAPIP=%%i
+REM 为了美观和避免直接在文件末尾添加的惨剧,咱空一行
+echo.  >>%hosts%
+echo #Google Plus >>%hosts%
+echo %CNIP% plus.google.com >>%hosts%
+echo %CNIP% talkgadget.google.com >>%hosts%
+echo %COMIP% picasaweb.google.com >>%hosts%
+echo %COMIP% lh1.ggpht.com >>%hosts%
+echo %COMIP% lh2.ggpht.com >>%hosts%
+echo %COMIP% lh3.ggpht.com >>%hosts%
+echo %COMIP% lh4.ggpht.com >>%hosts%
+echo %COMIP% lh5.ggpht.com >>%hosts%
+echo %COMIP% lh6.ggpht.com >>%hosts%
+echo %CNIP% lh6.googleusercontent.com >>%hosts%
+echo %CNIP% lh5.googleusercontent.com >>%hosts%
+echo %CNIP% lh4.googleusercontent.com >>%hosts%
+echo %CNIP% lh3.googleusercontent.com >>%hosts%
+echo %CNIP% lh2.googleusercontent.com >>%hosts%
+echo %CNIP% lh1.googleusercontent.com >>%hosts%
+echo %CNIP% plus.google.com.hk >>%hosts%
+echo %CNIP% s2.googleusercontent.com >>%hosts%
+echo %CNIP% s1.googleusercontent.com >>%hosts%
+echo %CNIP% images1-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images2-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images3-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images4-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images5-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images6-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images-pos-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% maps-api-ssl.google.com >>%hosts%
+echo %CNIP% www.google.com.hk >>%hosts%
+echo %CNIP% www.google.com >>%hosts%
+echo %CNIP% webcache.googleusercontent.com >>%hosts%
+echo %CNIP% mail.google.com >>%hosts%
+echo %CNIP% www.googlelabs.com >>%hosts%
+echo %CNIP% docs.google.com >>%hosts%
+echo %CNIP% plus.google.com >>%hosts%
+echo %CNIP% profiles.google.com >>%hosts%
+echo %CNIP% services.google.com >>%hosts%
+echo %CNIP% clients4.google.com >>%hosts%
+echo %CNIP% clients2.google.com >>%hosts%
+echo %CNIP% chrome.google.com >>%hosts%
+echo %CNIP% tools.google.com >>%hosts%
+REM 把获取到的%MAPIP%
+echo %MAPIP% maps.google.com >>%hosts%
+echo %MAPIP% ditu.google.com >>%hosts%
+CLS
 goto:eof
 
-:cacls5
-if exist "%windir%\system32\cacls.exe" (goto gui) else (wget http://kwoktree.googlecode.com/svn/trunk/hosts/dll/cacls5.exe &ren cacls5.exe cacls.exe&goto gui)
-goto:eof
+:smartrd
+call :echoi
+wget http://hostsx.googlecode.com/svn/trunk/Windows/SmartRD.txt
+(for /f "delims=" %%i in (SmartRD.txt) do (
+call :nslookup %%i
+))>hosts.txt
+for /f "delims=" %%i in (hosts.txt) do @echo %%i >>%hosts%
+goto :eof
 
-:cacls6
-if exist "%windir%\system32\cacls.exe" (goto gui) else (wget http://kwoktree.googlecode.com/svn/trunk/hosts/dll/cacls6.exe &ren cacls6.exe cacls.exe&goto gui)
-goto:eof
-
-:hostpath
-echo 如果未能正确获取Hosts路径，请用记事本按提示修改变量。
-echo 正在获取系统Hosts文件位置
-for /f "tokens=2*" %%i in ('reg query "HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" /v "DataBasePath"') do set hp=%%j
-set hostpath=%hp%\hosts
-echo 当前系统的Hosts路径为：>hostspath.txt
-echo %hostpath%>>hostspath.txt
-echo 替换下面的set hosts=右面的内容。>>hostspath.txt
-pause
-notepad %0
-notepad %~dp0\hostspath.txt
-exit
-rem 请删除if exist %ComSpec% 至此行上面的内容，并将获取到的Hosts路径填入下方即可。
-set etc=
-set hosts=
-goto gui
+:nslookup
+for /f "skip=4 tokens=1* delims=:" %%j in ('nslookup %1') do (
+echo,%%k   %%i&goto :eof
+)
+goto :eof
 
 :addietrust
 echo We Used yoyo data(pgl.yoyo.org) and very thanks!
@@ -2052,31 +1991,18 @@ set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneM
 for /F %%a in (ie.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
 echo  New Data Has been added!&pause&goto gui
 
-wget http://kwoktree.googlecode.com/svn/trunk/hosts/ent.txt
-for /f  "delims=" %%i in (ent.txt) do @echo %%i>>%hosts%
+#fgqi
+echo 正在下载最新的hosts脚本，请稍等。。。。。
+ping 127.0.0.1 -n 2 >nul
+wget.exe http://commondatastorage.googleapis.com/fgqi/hosts/fgqi.bat -O fgqi.bat
+echo hosts自动修改脚本 By FGQI
+echo 下载完成，自动运行脚本
+ping 127.0.0.1 -n 2 >nul
+call fgqi.bat
+del fgqi.bat /q
+exit
 
-:detect
-ping /n 2 kwoktree.googlecode.com >nul&&goto ok||goto no
-:ok
-echo GoogleCode网络连接正常！！！
-:no
-echo GoogleCode网络连接失败
-echo 正在添加Google服务Hosts....
-choice /t 3 /d y /n >nul
-call :BeijingIP
-rem devcon disable =net
-rem devcon enable =net
-goto ok
-
-:symantec
-del /s /q *-v5i32.exe
-del /s /q *-x86.exe
-del /s /q *-i32.exe
-cls
-wget --passive-ftp ftp://ftp.symantec.com/AVDEFS/symantec_antivirus_corp/static/symcdefsv5i32.exe
-ren symcdefsv5i32.exe %date:~0,10%-v5i32.exe
-wget --passive-ftp ftp://ftp.symantec.com/AVDEFS/symantec_antivirus_corp/static/symcdefsi32.exe
-ren symcdefsi32.exe %date:~0,10%-i32.exe
-wget --passive-ftp ftp://ftp.symantec.com/AVDEFS/symantec_antivirus_corp/static/symcdefsx86.exe
-ren symcdefsx86.exe %date:~0,10%-x86.exe
+:thanks
+msg %username% /time:12 "如果您觉得U+系列软件：Opera SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
+start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】"
 goto:eof

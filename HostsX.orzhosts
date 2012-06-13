@@ -1505,6 +1505,7 @@ fe80::1%lo0	localhost
 0.0.0.0 dw.mysimon.com
 0.0.0.0 dw.ncaa.com
 0.0.0.0 dw.search.com
+0.0.0.0 domainhelp.search.com
 0.0.0.0 dw.tv.com
 0.0.0.0 adimg.tv.com
 0.0.0.0 mads.tv.com
@@ -11455,3 +11456,5 @@ fe80::1%lo0	localhost
 0.0.0.0 www.252c.com
 0.0.0.0 ygame.wansxd.com
 0.0.0.0 tg.g.lava.cn
+0.0.0.0 goto.yizuya.com
+
