@@ -1,5 +1,5 @@
 
-;version=12:15 2012/6/13
+;version=13:13 2012/6/13
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8880,6 +8880,10 @@ fe80::1%lo0	localhost
 127.0.0.1 click3.ooommm.com.cn
 127.0.0.1 dbs.omosys.com.cn
 127.0.0.1 www.ooommm.com.cn
+#Q150
+127.0.0.1 ac.q150.com
+127.0.0.1 ia.q150.com
+127.0.0.1 aa.q150.com
 #Qiyou
 127.0.0.1 www.qiyou.com
 127.0.0.1 img.qiyou.com
@@ -11445,3 +11449,9 @@ fe80::1%lo0	localhost
 127.0.0.1 pic.8kk.com
 127.0.0.1 www.yj84.com
 127.0.0.1 image.qndown.com
+127.0.0.1 p.777wyx.com
+127.0.0.1 reg.gow.ucjoy.com
+127.0.0.1 tg.61758.cn
+127.0.0.1 www.252c.com
+127.0.0.1 ygame.wansxd.com
+127.0.0.1 tg.g.lava.cn
