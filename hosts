@@ -1,5 +1,5 @@
 
-;version=20:36 2012/6/10
+;version=12:15 2012/6/13
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2314,6 +2314,8 @@ fe80::1%lo0	localhost
 127.0.0.1 stat.letv.com
 #¾Þ¾¨Íø
 127.0.0.1 t.top100.cn
+#310v
+127.0.0.1 gg.310v.net
 #DJ527
 127.0.0.1 ad.dj527.com
 127.0.0.1 sy.0575dp.com
