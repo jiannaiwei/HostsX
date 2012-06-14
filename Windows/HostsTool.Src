@@ -1,5 +1,5 @@
 @echo off
-set ver=3.863
+set ver=3.87
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -1849,20 +1849,17 @@ wget http://userscripts.org/scripts/source/128239.user.js
 ren 128239.user.js TianyaRead.user.js
 msg %username% /time:2 "【UserJs数据已更新！】"
 cd ..
-del fastforward.ini override.ini search.ini urlfilter.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
+del override.ini search.ini urlfilter.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/search.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/urlfilter.ini
-del keyboard\standard_keyboard.ini menu\standard_menu.ini mouse\standard_mouse.ini toolbar\standard_toolbar.ini
+del keyboard\standard_keyboard.ini menu\standard_menu.ini mouse\standard_mouse.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_keyboard.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
 move standard_keyboard.ini keyboard\
 move standard_menu menu\
 move standard_mouse.ini mouse\
-move standard_toolbar.ini toolbar\
 cd ..
 msg %username% /time:2 "【Profiles数据已更新！】"
 cd profile\styles\user
