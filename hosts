@@ -1,5 +1,5 @@
 
-;version=16:13 2012/6/14
+;version=7:42 2012/6/15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -934,8 +934,10 @@ fe80::1%lo0	localhost
 127.0.0.1 media.info.client.xunlei.com
 127.0.0.1 mediapv.xunlei.com
 127.0.0.1 p4pstatic.xunlei.com
+127.0.0.1 plugin.xl7.xunlei.com
 127.0.0.1 pv.kankan.stat.xunlei.com
 127.0.0.1 recommend.xunlei.com
+127.0.0.1 search.daquan.xunlei.com
 127.0.0.1 skin.client.xunlei.com
 127.0.0.1 stat.xunlei.com
 127.0.0.1 static.soft.xunlei.com
