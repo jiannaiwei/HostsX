@@ -1,5 +1,5 @@
 
-;version=8:53 2012/6/14
+;version=16:00 2012/6/14
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2612,13 +2612,10 @@ fe80::1%lo0	localhost
 0.0.0.0 gamecollaborate.yy.duowan.com
 0.0.0.0 market.duowan.com
 0.0.0.0 mstat.duowan.com
-0.0.0.0 update.yy.duowan.com
-0.0.0.0 yydl.duowan.com
 0.0.0.0 dw.hiido.cn
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
 #·ÉÐÅ¿Í»§¶Ë
-0.0.0.0 f.10086.cn
 0.0.0.0 gg.joytod.com
 0.0.0.0 hdss1fta.fetion.com.cn
 0.0.0.0 huodong.feixin.10086.cn
