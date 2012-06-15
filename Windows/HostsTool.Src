@@ -1,5 +1,5 @@
 @echo off
-set ver=3.87
+set ver=3.872
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -12,6 +12,10 @@ rem 权限检测模块
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions" >nul 2>nul
+rem Opera参数调用设置
+if '%1'=='opis' goto:opinst
+if '%1'=='opup' goto:opupdate
+if '%1'=='opcl' goto:opclean
 rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
@@ -48,9 +52,6 @@ ipconfig -flushdns >nul 2>nul
 del /f /q %tmp%\*.bat %tmp%\*.vbs>nul 2>nul
 del /f /q $ echo HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
 rem 参数调用设置
-if '%1'=='opis' goto:opinst
-if '%1'=='opup' goto:opupdate
-if '%1'=='opcl' goto:opclean
 if '%1'=='/f' goto:fixhosts
 if '%1'=='/q' goto:quiteup
 if '%1'=='/d' goto:dftvbs
