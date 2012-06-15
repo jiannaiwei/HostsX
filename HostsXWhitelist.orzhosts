@@ -1,4 +1,4 @@
-;version=16:11 2012/6/9
+;version=8:58 2012/6/15
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #!导致 115 网盘客户端无法升级。屏蔽此域名可以防止您的115在后台自动，不建议用户删除。
@@ -151,6 +151,7 @@ $DELETE
 #导致酷6页面无法正常显示。
 ku6afp.allyes.com
 main.gslb.ku6.com
+gug.ku6cdn.com
 $DELETE
 
 #导致 CNTV 客户端脚本错误。

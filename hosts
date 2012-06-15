@@ -1,5 +1,5 @@
 
-;version=7:42 2012/6/15
+;version=9:01 2012/6/15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1842,6 +1842,7 @@ fe80::1%lo0	localhost
 #起点中文网
 127.0.0.1 qidian.adsame.com
 127.0.0.1 uedas.qidian.com
+127.0.0.1 hot.snyu.com
 127.0.0.1 js.ap.snyu.com
 127.0.0.1 rr.ap.snyu.com
 127.0.0.1 de.ap.snyu.com
@@ -2275,7 +2276,6 @@ fe80::1%lo0	localhost
 #酷6网
 127.0.0.1 1.allyes.com.cn
 127.0.0.1 ku6.allyes.com
-127.0.0.1 gug.ku6cdn.com
 127.0.0.1 analytics.ku6.com
 127.0.0.1 pq.stat.ku6.com
 127.0.0.1 st.vq.ku6.cn
