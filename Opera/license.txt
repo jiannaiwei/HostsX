@@ -1,0 +1,561 @@
+﻿SimpleU 定制版参数详解：
+By KwokTree
+8:27 2012/6/18
+
+用之前请务必先阅读一下本介绍，谢谢！
+不建议跨版本安装，情先备份个人数据！
+删除旧版后，安装新版，恢复个人数据。谢谢！
+
+SimpleU定制版下载：http://sdrv.ms/L1ihpd
+         更新日志：http://bbs.operachina.com/viewtopic.php?f=15&t=88316&p=545868#p545876
+
+ Opera 官方版下载：ftp://ftp.opera.com/pub/opera/win/
+-----------------------------------------------------------------------
+Q&A：
+ 部分版本备注：Opera 从 11.60版开始，对CSS的选择器区分大小写。
+ 
+ 
+Opera 官方中文社区上不去怎么解决？
+无法正常访问Opera相关网站的同学请注意，请将下列条目加入 hosts 文件
+  Windows 下位置为 C:\Windows\System32\drivers\etc/hosts
+  Linux/Mac 下为 /etc/hosts
+59.151.106.253   operachina.com
+59.151.106.253   bbs.operachina.com
+59.151.106.253   mini.operachina.com
+59.151.106.253   portal.operachina.com
+59.151.106.253   press.operachina.com
+59.151.106.253   redir.operachina.com
+59.151.106.253   static.operachina.com
+59.151.106.253   wiki.operachina.com
+59.151.106.253   www.operachina.com
+ 您也可以使用SimpleU自带的HostsTool来更新Hosts文件。
+ 
+当您反馈问题时必要的提交出现问题的网址，和相应的重现步骤。否则我解决不了。
+当您反馈说为什么不好用啊，有些网站兼容性不好啊诸如此类的问题我都不会解决的。因为没有网址和重现步骤。
+
+安装SimpleU定制版的时候提示无效的安装包。错误代码：45。这是怎么回事啊？
+出现这个原因可能是您之前安装过Opera极速版，如果你想继续使用SimpleU定制版可以用7z等软件，右键解压运行。
+
+下载Opera SimpleU定制版后，金山毒霸和360杀毒，报毒怎么办？
+请本着疑者不用，用者不疑的态度处理此问题。
+http://www.virscan.org/ 可以提交到此网站此行检测。
+Ps.另，Nod32都不报毒，金山.360什么的就误报，国内的厂商和国外厂商果然是有很大差距啊。
+
+
+[color=Red]下载方法：鼠标移动到.exe上面，后方会出现下载，点击下载就好了。
+如果下载需要登录说明100次用完了，我会尽快续期，如果您有注册everbox，可以转存到您的文件夹[/color]
+
+
+
+为什么我在安装Opera插件的时候会提示不完整？
+这是国内网络访问Opera服务器的原因，您可以使用右键--目标另存为来保存插件，然后从本地安装就可以解决此问题。
+
+为什么用代理进入youtube总是弹出什么证书问题，几乎每打开一个视频都会有此问题？
+打开Opera的证书管理，在“证书颁发机构”里面导入您的代理软件的证书即可。
+
+有些视频播放不正常，网页展开不正常怎么办？
+部分视频网站不正常可能是由部分js影响导致的网页问题。比如：CleanPlayer.user.js和DBankLinker.js，删除即可解决。
+
+部分discuz论坛下载附件扩展名为html该怎么办？
+(会导致下载站下载以下扩展名文件时不能弹出下载对话框)
+[File Types]
+text/html=2,,,,rar,zip,7z,apk,sis,sisx,htm,html,shtml,|
+
+SongTaste的歌曲为什么不能正常播放？
+用IE打开SongTaste任一播放链接一次，再用opera，打开就能播放了。
+
+5sing的歌曲为什么无法正常播放？
+请下载安装微软的silverlight插件，重启Opera后即可正常播放。
+https://www.microsoft.com/getsilverlight/get-started/install/default.aspx?reason=unsupportedbrowser
+
+Urlfilter出现uuid了怎么办？
+UUID:是Opera官方加入的，如果不喜欢。
+可以采用支持正则的文本编辑器进行替换：正则匹配=UUID:\w+$ 替换为空格就行了。
+
+为什么没有64位的Opera SimpleU定制版？
+很抱歉，因为我这里没有64位的环境，不会发布64为版本的安装版，您可以下载7z压缩包配置文件，
+下载Opera官方64位安装包解压。然后用“Opera SimpleU配置文件.7z”解压后，
+覆盖官方的解压版本，即可得到一个64位的Opera SimpleU定制版。
+
+按钮里面涉及到CSS数字勾选的，其中的数字是如何确定的？
+Select user CSS file,6 表示使用User CSS文件夹里第6（不过是从0开始数起）个css文件（按文件名升序排序）。
+所以这个数字6可能要修改。
+
+为什么我觉得SimpleU定制版占用内存很大？
+你把快速拨号全部删除掉，内存占用一下子就掉下来了。
+
+双击Opera图标后，出现Startup error的白底黑字的对话框怎么办？
+解压/剪切到其他目录运行试试。
+
+我不想使用自动翻页该如何解决？
+在页面载入时按住Ctrl+鼠标左键可以临时关闭。
+如果您不想使用此功能可以删除Super_preloader.js Super_preloader.db.js两个js文件解决。
+
+有些页面图片显示不正常，CSS加载不正产或者出现其他诡异的问题怎么办？
+清楚持久储存，或者清除所有历史内容试试，或许就能解决了。
+
+为什么我使用SimpleU后，反馈有些网站的广告过滤不完全，其他SimpleU用户却无法重现？
+SimpleU定制版需要配合HostsX的数据使用的，才可以获得更好的广告过滤效果。
+将部分去广告数据交由系统处理，即加快了Opera的启动速度，也获得了更好的平台兼容性。
+
+为什么我的Opera SimpleU 定制版acid3测试只得了98分？
+部分JS可能影响得分情况，请删除OnlinedownNoAds.user.js此文件，即可得满分。
+
+如何取消对cnnic证书的信任？
+打开Opera的证书管理，需要手动配置添加此证书的信任排除
+文件位于 profile\opcacrt6.dat;profile\opicacrt6.dat
+
+SimpleU定制版为什么没有绿色版？
+SimpleU定制版调用了Opera自带的安装界面。
+当然，对于想使用绿色版的朋友可以用7-zip等压缩软件右键直接解压到一个干净的目录即可使用。
+
+设置Opera为默认浏览器后，为什么有些SimpleU定制版的功能无法使用了？
+如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！
+
+为什么访问有些网站会出现页面显示错乱？
+请尝试关闭CSS里面的微软雅黑的显示，看能否可解决此问题。
+或者把最小字体由12改为默认的10试试看。
+
+为什么会有ieopera和ieonly两个调用IE的JS文件？
+运行program\OperaJR.exe ，得到reg文件，双击导入。在浏览很多银行的时候便会自动调用IE打开了。
+
+-----------------------------------------------------------------------
+
+配置调整
+搜索引擎（括号()内为搜索关键字）：
+Google(g) 百度(b) GoogleSSL(o) 有道(y) Bing(bi) Verycd(v) 谷歌音乐(m) Songtaste(s) 优酷(yk) 土豆(td)
+Qvod影视(q) 射手字幕(zm) 淘宝(t) 卓越亚马逊(z) 维基百科(w) 汉典(d) QQ强制聊天(qq)
+
+启用双击关闭标签
+启用在新窗口中打开链接
+启用超级拖拽(拖曳并在后台打开链接)
+启用在当前标签旁打开新标签
+启用显示完整网址
+启用下载管理器(自动检测已安装的下载软件)
+启用了单键快捷键
+启用了用户Javascript 默认设置路径为profile\scripts
+
+不允许Javascript脚本检测右键单击
+不启用服务发现通知
+不启用使用统计
+不显示网速变化通知
+不启用拼写检查
+不开启在邮件中阻止外部元素
+不在标签上嵌入缩略图
+不开启双击文本弹出右键菜单
+不检查自动更新
+不开启内置的BitTorrent|Enable功能
+关闭了地理位置信息共享
+关闭了语音控制浏览功能
+关闭了程序声音通知功能
+
+设置首页为：https://www.google.com/ncr
+设置版本UA信息为:SimpleU
+设置User JS Storage Quota=102400以方便Js文件的使用
+设置了更大的磁盘缓存
+设置了额外默认显示的皮肤
+Opera:config首选项中添加了中文注释
+移植了Opera中国版的fastforward.ini(超级快进配置)文件
+调整了了载入和渲染页面参数
+完善了默认的订阅列表更适合中国用户
+包含了部分常用的插件
+修改了部分快捷键更好用
+修改了鼠标手势更顺手
+
+
+快捷键修改详见：standard_keyboard.ini
+B (goto baidu)用baidu搜索选中的文本内容
+F10 OperaCacheView工具
+O 快速缩放按键
+T 显示隐藏状态栏
+X 快进
+Z 后退
+
+Alt+F4 退出
+Alt+A  收藏夹菜单
+Alt+B  BugMeNot
+Alt+C  Simpleu快捷分享
+Alt+D  显示盗链图片
+Alt+E  编辑模式
+Alt+F  视频解析
+Alt+G  Google快照
+Alt+H  老板键，快速隐藏opera到托盘
+Alt+I  快捷分享
+Alt+J  启用/禁用JS
+Alt+K  删除私人数据
+Alt+L  复制页面标题和链接
+Alt+M  Goo.gl短链生成
+Alt+N  新建隐私标签
+Alt+O  打开Opera文件夹
+Alt+P  代理开关
+Alt+Q  切换自动填表
+Alt+R  Readability
+Alt+S  站点信息
+Alt+T  Opera关于
+Alt+U  更新Userjs
+Alt+V  网页历史存档
+Alt+X  快速引用；空白页面访问剪切板网址或进行google搜索
+Alt+Z  只看楼主
+Ctrl+F5 刷新所有标签
+Ctrl+F9 Opera:Config详细配置
+Ctrl+M 链接对话框，极为重要的功能，好几个功能由此演化而来，里面常点的按钮，打开和下载
+Ctrl+alt+R    刷新样式表
+Ctrl+alt+Up   自动滚屏，可多次使用以加速
+Ctrl+alt+Down 滚屏停止
+Ctrl+Shift+F  最大化当前帧，Opera独有功能
+F5 shift 设置当前页面自动刷新时间为3分钟
+g,g (goto google)用google搜索选中的文本内容
+g,r (googleReader)将当前网址订阅到GoogleReader
+g,f (goto find)在本页之中高亮搜索当前选择的文本
+g,i (goto IE)用IE打开当前页面
+g,s (goto search)将选中文本转到搜索框之中
+g,z (google z站内)选中文本提交到google进行站内搜索
+g,1 伪装为Firefox
+g,2 伪装为IE浏览器
+g,t 用世界之窗浏览器打开
+
+鼠标手势修改详见：standard_mouse.ini
+;←  左    = 后退,超级后退 | 自动翻页上一页；
+;←↓ 左-下 = 快退
+;→  右    = 登录 Wand 填表 | 前进,超级快进 | 自动翻页下一页；
+;→↑ 右-上 = 访问该网址 | 搜索该内容
+;↑   上    = 停止载入 | 转到页面顶部
+;↑↓  上-下 = 刷新
+;↑← 上-左 = 转到上级目录
+;↑→ 上-右 = 转到本标签右边的标签
+;↓← 下-左 = 恢复刚才关闭的标签；
+;↓→ 下-右 = 关闭当前标签
+;↓   下    = 如果在页面的链接上使用本手势，则在后台打开该链接 | 转到页面底部
+;↓↑  下-上 =  新建隐身标签
+;→←→右左右 = 克隆标签
+;←→←左右左 = 锁定标签 | 解锁标签
+;↓↑↓   下上下 = 下载
+;↑↓↑   上下上 = 退出，关闭所有窗口，这些窗口在下次启动时会被恢复
+
+
+插件选择与调整:
+ViewinIE插件：http://bbs.operachina.com/viewtopic.php?f=54&t=7730
+silverlight插件：http://www.microsoft.com/getsilverlight/get-started/install/default.aspx?reason=unsupportedbrowser
+Flash插件下载：http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player.exe
+CNTV播放插件：http://t.live.cntv.cn/ieocx/CCTV_FF_Plug-in.xpi
+支付宝支付插件下载:https://download.alipay.com/aliedit/npaliedit/1302/npaliedit.exe
+    支付宝安全控件 https://download.alipay.com/sec/edit/aliedit.exe
+    支付宝数字证书控件 https://download.alipay.com/ukey/cf/alicert.exe
+QQ空间音乐播放插件：http://dl_dir.qq.com/music/clntupate/QzoneMusicInstall.exe
+115上传控件下载：http://115.com/static/plug/install_help/install_step2.html
+
+Override.ini（站点首选项）相关：
+天极网的网站编码修正
+Gmail界面的广告隐藏：https://addons.opera.com/addons/extensions/details/hide-gmail-ads/
+淘宝网伪装为FF，以方便调用阿里旺旺
+cntv伪装为FF，以方便播放插件调用
+Opera 对抗图片反盗链：http://bbs.operachina.com/viewtopic.php?f=30&t=104229&hilit=%E5%9B%BE%E7%89%87%E7%9B%97%E9%93%BE
+绕过U17的强制登录：http://bbs.operachina.com/viewtopic.php?f=41&t=103429#p648699
+汽车之家论坛显示错位
+人人网的css页面改写完善
+修改其他诸如picasaweb，西祠胡同，网银等的识别信息
+
+
+defaults/feedreaders.ini 修改:
+[豆瓣]
+ID=10
+URL=http://9.douban.com/reader/subscribe?url=%s
+
+[抓虾]
+ID=11
+URL=http://www.zhuaxia.com/add_channel.php?url=%s
+
+[鲜果]
+ID=12
+URL=http://www.xianguo.com/subscribe.php?url=%s
+
+[有道]
+ID=13
+URL=http://reader.yodao.com/#url=%s
+
+[哪吒]
+ID=14
+URL=http://iNeZha.com/add?url=%s
+
+[QQ 邮箱]
+ID=15
+URL=http://mail.qq.com/cgi-bin/feed?u=%s
+
+
+ui/fastforward.ini 修改:
+;Chinese (traditional and simplified)
+下一頁
+下一页
+;douban.com
+更多小组讨论 = 102
+;Wordpress
+"« 上一页" = 110
+"[下一頁]"
+"[下一页]"
+"[下頁]"
+"[下页]"
+"[繼續]"
+"[继续]"
+"[翻下頁]"
+"[翻下页]"
+"« 上一頁" = 200
+下一个
+下一個
+下一幅
+下一幅 >
+下一张 = 102
+下一张 >
+下一張
+下一步
+下一章
+下一節
+下一篇
+下一节
+下一頁>
+下一頁>>
+下一頁（快捷鍵→）
+下一页>
+下一页>>
+下一页（快捷键→）
+下篇
+下頁
+下页
+前进
+前進
+后一页=90
+后页
+后页> = 102
+往后>>
+往後>>
+後一頁 = 90
+後頁
+後頁>
+更多 = 102
+看下一頁
+看下一页
+繼續
+继续
+翻下頁
+翻下页
+翻頁
+翻页
+
+
+skin\SimpleU.zip\skin.ini  皮肤元素修改：http://jude.im/opera/skin.html
+
+[Speed Dial Search Widget Skin]
+Padding Top         = 38
+
+[Statusbar Button Skin]
+Padding Left        = 4
+Padding Right       = 4
+Margin Left         = 2
+Margin Right        = 2
+
+
+;Mod By SimpleU
+10:43 2012-5-10
+#Favicon
+alexa            =simpleu/favicon/alexa.png
+baidu            =simpleu/favicon/baidu.png
+bing             =simpleu/favicon/bing.png
+blogger          =simpleu/favicon/blogger.png
+bugmenot         =simpleu/favicon/bugmenot.png
+delicious        =simpleu/favicon/delicious.png
+Dict             =simpleu/favicon/Dict.png
+digg             =simpleu/favicon/digg.png
+douban           =simpleu/favicon/douban.png
+evernote         =simpleu/favicon/evernote.png
+facebook         =simpleu/favicon/facebook.png
+fanfou           =simpleu/favicon/fanfou.png
+faxianla         =simpleu/favicon/faxianla.png
+Google           =simpleu/favicon/google.png
+hexun            =simpleu/favicon/hexun.png
+imouto           =simpleu/favicon/imouto.png
+kaixin001        =simpleu/favicon/kaixin001.png
+printwhatyoulike =simpleu/favicon/printwhatyoulike.png
+qq               =simpleu/favicon/qq.png
+qqdict           =simpleu/favicon/qqdict.png
+qqweibo          =simpleu/favicon/qqweibo.png
+qzone            =simpleu/favicon/qzone.png
+renren           =simpleu/favicon/renren.png
+sdonote          =simpleu/favicon/sdonote.png
+sinavivi         =simpleu/favicon/sinavivi.png
+sinaweibo        =simpleu/favicon/sinaweibo.png
+sogou            =simpleu/favicon/sogou.png
+someyi           =simpleu/favicon/someyi.png
+tianya           =simpleu/favicon/tianya.png
+tieba            =simpleu/favicon/tieba.png
+tineye           =simpleu/favicon/tineye.png
+translation      =simpleu/favicon/translation.png
+twitter          =simpleu/favicon/twitter.png
+whois            =simpleu/favicon/whois.png
+wiki             =simpleu/favicon/wiki.png
+yahoo            =simpleu/favicon/yahoo.png
+ydnote           =simpleu/favicon/ydnote.png
+youdao           =simpleu/favicon/youdao.png
+zdic             =simpleu/favicon/zdic.png
+
+#FSCapture
+FS_ActiveWindow  =simpleu/fscapture/ActiveWindow.png
+FS_eyedropper    =simpleu/fscapture/eyedropper.png
+FS_Freehand      =simpleu/fscapture/Freehand.png
+FS_full          =simpleu/fscapture/full.png
+FS_magnifier     =simpleu/fscapture/magnifier.png
+FS_Object        =simpleu/fscapture/Object.png
+FS_Rectangular   =simpleu/fscapture/Rectangular.png
+FS_rule          =simpleu/fscapture/rule.png
+FS_Scroll        =simpleu/fscapture/Scroll.png
+FSCapture        =simpleu/fscapture/FSCapture.png
+
+#Program
+calc             =simpleu/program/calc.png
+cmd              =simpleu/program/cmd.png
+hash             =simpleu/program/hash.png
+osk              =simpleu/program/osk.png
+paint            =simpleu/program/paint.png
+screener         =simpleu/program/screener.png
+snap             =simpleu/program/snap.png
+firefox          =simpleu/program/firefox.png
+ie               =simpleu/program/ie.png
+
+#Proxy
+fg               =simpleu/proxy/fg.png
+fu               =simpleu/proxy/fu.png
+gapp             =simpleu/proxy/gapp.png
+goagent          =simpleu/proxy/goagent.png
+gtu              =simpleu/proxy/gtu.png
+hyk              =simpleu/proxy/hyk.png
+p                =simpleu/proxy/p.png
+proxo            =simpleu/proxy/proxo.png
+puff             =simpleu/proxy/puff.png
+tor              =simpleu/proxy/tor.png
+wapp             =simpleu/proxy/wapp.png
+wito             =simpleu/proxy/wito.png
+wj               =simpleu/proxy/wj.png
+
+
+-----------------------------------------------------------------------
+
+Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+*/ads/*          yahoo 新闻页面显示
+http://*/adm/*   新浪爱问资料网盘
+*/js/ad*.js 可能为admin.js,而非广告 所以直接改为了 */js/ad.js
+
+
+CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+div[class*="_ads"],meidfire 网盘下载
+div[class^="AD"],gmail 左侧talk无法弹出。<div class="AD" style="position: absolute">
+div[id$="AD"]，东方热线新闻页面主要内容被过滤。<div class="newstxt newsboxw" id="taojifenAD">
+div[class="tabcontent"],http://www.zjw.cn/ 这个网页中间栏目部分
+div[id^="ad_"],div[class$="anner"][id^="ad"], dbank资源页面误伤严重
+div[class*="Ad"],tmall 商城  <div class="actAdvice">
+,div[id^="portal_block"],http://bbs.kukupig.com/forum.php,首页顶部热帖等内容,<div id="portal_block_150" class="block move-span">
+ul[class^="ad"],淘宝购物收货地址 <ul id="address-list" class="address-list">
+div[class^="ad-"], 178.com ,首页显示 <div class="ad-bg">
+body>div[class^="ad"], 刷机网 shuaji.net <div class="advancedsearch">
+#已失效div[class^="wp a_"],http://bbs.laoqianzhuang.com/, <div class="wp a_t">
+td[id="banner"],softjie.cn,<td id="banner" class="vt tar">
+div[class*="_ad"], 新浪微博取消关注框，<div class="W_addbtn_even" title="互相关注">
+div[id$="_banner"],虎扑http://bbs.hoopchina.com/cba
+div[class$="ads"] gmail
+#ckepop,jiathis分享
+div[id^="ads"],div[id^="ad"],天涯回复框 <div class="respond" id="adsp_content_replybox_frame_1">
+.box ,影响dbank首页显示（未登录情况下）
+div[class^="a_p"],http://www.anzhuo.cn/thread-134443-1-1.html 帖子内容在加载翻页js时无法正常显示
+.postbit_adcode,#adbottom,#GoogleAd,#footerStuff 
+div[id="online"][class="bm oll"],div[id="category_lk"][class="bm_c ptm"]
+div[class$="AD"], http://www.macmillandictionary.com/dictionary/british/tree 发音部分
+a[href*="/adclick.php?"], googleplus网页显示不全
+[id*="-popup"],http://mb.qq.com/s60v2v3 弹出下载框
+[class$="_ad"],cctv视频播放已改版
+table[width="100%"][cellspacing="0"][cellpadding="0"];
+table[border="0"][cellpadding="0"][cellspacing="0"][width="100%"][align="center"],部分页面的主要内容和主要广告
+div[id$="TopAD"],div[class$="TopAD"]
+div[class="text"][id^="text"],环球网网页面内容
+div[class="links"],网易邮箱右上角链接
+iframe[id*="ad"],网易邮箱邮件页面
+[class*="-popup"],淘宝网聚划算登录
+[id*="_popup"],百度空间登陆迟缓
+IFRAME[src="about:blank"],淘宝机票弹出页面显示层
+div[class^="ad"],凤凰网部分视频
+IMG[src^="http://img.ifeng.com/tres/"],凤凰网logo
+[class*="popup"],人人网分享预览
+div[id*="float"],div[class*="float"],论坛登录页面层
+#focus,youku音乐焦点
+div[class^="ad"],#hiddenlpsubmitdiv, bbs.ngacn.cc
+div[class$="-banner"],www.ipc.me
+[id^="ad"],div[class^="banner_"],[id^="banner"],verycd
+[id$="ads"],hk.yahoo.com https://i.doit.im/download 下载页面显示问题
+div[id^="AD"],cnbeta
+div[id$="ad"],[id$="ad"], 深度论坛
+
+/* BackUp */
+div[class$="_ad"],cntv播放页面播放器被过滤
+div[class="ad-bar"],div[class="ad-button"],div[class^="ad-block"],div[class^="ad-box"],
+div[class^="ad_box"],
+div[class^="adbanner"],div[class^="adbox"],
+div[class^="advert"],div[class="advarticle"],div[class="advp"],
+div[class$="adclass"],div[class^="adclass"],
+div[class^="adBlock "],div[class^="adBlk ad"],
+div[align="center"][id^="ad"],center>div[id^="AD"],div[id^="AD"][style*="w"]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~偶是华丽滴分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+OPERA SOFTWARE END-USER LICENSE AGREEMENT FOR OPERA DESKTOP BROWSER
+
+BY ACCEPTING DELIVERY OF THE SOFTWARE AND/OR SERVICES, YOU (HEREINAFTER “User”) ARE EXPRESSLY AGREEING TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT TO THE EXCLUSION OF ALL OTHER TERMS. IF THESE TERMS ARE CONSIDERED AN OFFER BY OPERA SOFTWARE, ASA (“Opera”), ACCEPTANCE IS EXPRESSLY LIMITED TO THESE TERMS.  OPERA IS WILLING TO MAKE THE SOFTWARE AVAILABLE TO USER ONLY UPON THE CONDITION THAT USER ACCEPTS THE TERMS OF THIS AGREEMENT. WRITTEN APPROVAL IS NOT A PREREQUISITE TO THE VALIDITY OR ENFORCEABILITY OF THIS AGREEMENT.
+
+TERMS AND CONDITIONS.  This End-User License Agreement (the “Agreement”) is between User and Opera.  This Agreement governs User’s use of the Software provided to User by Opera, including any releases of or to the Software that User may receive from Opera, together with the documentation included therewith.
+
+1. DEFINITIONS.  For purposes of this Agreement, the following terms will have the following meanings:  
+
+1.1 “User” means the legal entity or person who orders or downloads the Software and/or activates the Services. 
+
+1.2  “Documentation” means the standard end-user technical documentation, specifications, materials and other information Opera supplies with the Software and/or Services.
+
+1.3 "Services" means the various services to which Opera provides users with access, including without limitation, Opera Turbo, the My Opera community, the Opera Portal website, the Dev.Opera website, the Opera Add-ons website, Opera Unite, search services, personalized content and branded offering through its network of services that may be accessed through any various medium or device now known or hereafter developed. 
+
+1.4 “Software” means the proprietary Opera software products (in object code format only) delivered to User hereunder (including but not limited to the Opera browser ), together with any update or upgrade thereto, when and if made available to you by Opera.  Software does not include Third-Party Software.
+
+1.5 “Third-Party Software” means the software of certain third parties that Opera may deliver with the Software, including but not limited to widgets or extensions of certain third parties and independent developers.
+
+1.6 “Use” means to cause a computer system to execute any machine-executable portion of the Software in accordance with the Documentation or to make use of any Documentation or related materials in connection with the execution of any machine-executable portion of the Software.
+
+2. LICENSE.  Subject to the terms and conditions of this Agreement, Opera hereby grants User a limited, non-exclusive, non-transferable, non-sublicensable license to use the Services and to install and Use the Software supplied to User hereunder, as installed on User’s personal computer, including your laptop, desktop, or on computers within User’s organization.
+
+3. LICENSE RESTRICTIONS AND THIRD-PARTY SOFTWARE.  
+
+3.1 User shall not and shall not allow any third party to: (a) use the Software or Services except as expressly permitted under Section 2; (b) separate the component programs of the Software for use on different computers; (c) adapt, alter, publicly display, publicly perform, translate, embed into any other product, or otherwise create derivative works of, or otherwise modify the Software or Services; (d) sublicense, lease, rent, loan, or distribute the Software or Services to any third party; (e) transfer the Software or Services to any third party; (f) reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code for the Software, (i) except as permitted by applicable law, or (ii) solely to the extent required to debug changes to any third party LGPL-libraries linked to by the Software; (g) remove, alter or obscure any proprietary notices on the Software or Services, or the applicable documentation therefore; or (h) allow third parties to access or use the Software or Services, including without limitation any use in any application service provider environment, service bureau, or time-sharing arrangements.
+
+3.2 Third-Party Software is subject to separate terms and conditions included with, or contained in the setup installation segments of such Third-Party Software.  The license restrictions contained in this Agreement do not apply to Third-Party Software to the extent they are inconsistent with such Third-Party Software terms. . Opera shall not be responsible for any Third Party Software.
+
+4. USE OF SERVICES
+
+4.1 Opera provides users with access to a rich collection of resources and Services, including without limitation various communications tools, forums such as the "My Opera” community site, and personalized content through its network of services which may be accessed through any various medium or device now known or hereafter developed.  Certain features of these Services may allow User to post or send content that can be viewed by others ("User-Generated Content").  User agrees that Opera is not liable for User-Generated Content that is provided by others. Opera has no duty to pre-screen User-Generated Content, but Opera has the right to refuse to post, edit, or deliver submitted User-Generated Content. Opera reserves the right to remove User-Generated Content for any reason, but Opera is not responsible for any failure or delay in removing such material. Opera reserves the right to block any user's access to any content, website or webpage that Opera provides in our sole discretion.
+
+4.2 Disputes may arise between User and others or between User and Opera related to content, including User-Generated Content.  Such disputes could involve, among other things, the use or misuse of domain names; the infringement of copyrights, trademarks, or other rights in intellectual property; defamation; fraud; the use or misuse of information; and problems with online auction or commerce transactions. User agrees that all claims, disputes or wrongdoing that result from, or are related in any way to, the content of information that User posts, transmits, re-transmits or receives through the Services, Opera's network or Software are User’s sole and exclusive responsibility. Opera may at its discretion block certain websites or domains and re-route you to other pages.
+
+4.3 The use of several of the Services, including Opera Link, requires that User is a registered Opera ID user. You can register for an Opera ID without any charge at http://my.opera.com/. Opera Link allows User to synchronize some data, such as bookmarks, among their Opera for desktop, Opera Mobile, Opera Mini Web browsers and through the Opera Link API. The Terms of Service for the Services is found at http://my.opera.com/community/terms-of-service/, and is incorporated in this Agreement by reference.
+
+4.4 Opera reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Services (or any part thereof) with or without notice. User agrees that Opera shall not be liable to User or to any third-party for any modification, suspension or discontinuance of the Services.
+
+4.5 Without limiting the applicability of the foregoing general terms, the following terms and conditions apply for the specific services discussed below.
+
+4.5.1	Opera Turbo:  When Opera Turbo is enabled, it will request normal web content through an Opera Software proxy server.  Opera Turbo will exclude webpages located on an intranet or using secure connections (HTTPS).  The browsing experience may change due to increased webpage loading speeds when using Opera Turbo. Opera reserves the right to change, limit usage of, charge for continued usage of (of course require User to opt in before incurring any charges), and/or discontinue the Opera Turbo service at any point in time.  Furthermore, Opera reserves the right to revise the terms of the Opera Turbo service, which may include making the Opera Turbo service subject to a separate agreement. 
+
+4.5.2	Opera Unite: Opera Unite is a service whereby Opera provides users with a web-browser communication that allows User  to share content, collaborate, and interact with others. Certain features of Opera Unite allow User to post and send content and/or links to User-Generated Content stored on User’s computer, which can be viewed and/or accessed by others. The content is not stored by Opera, and Opera exercises no control over User-Generated Content passing through its network or equipment or available on or through the Services. User agrees that Opera is not liable for any loss of data.  User may only post or send via the Services User-Generated Content that User created or that User has permission to send and/or post.  User agrees not to use Opera Unite to upload, transfer or otherwise make available files, images, code, materials, or other information or content that is obscene, vulgar, hateful, threatening, or that violates any laws or third-party rights, hereunder but not limited to third-party intellectual property rights. Opera reserves the right to terminate User’s account if User use Opera Unite to transmit copyrighted material unlawfully without a license, valid defense or fair use privilege to do so. Opera does not claim ownership of any User-Generated Content.  However, by submitting User-Generated Content to Opera, User grants Opera the right and limited license to use, copy, display, perform, distribute and adapt this User-Generated Content for the purpose of carrying out the Services.
+
+5. PROPRIETARY RIGHTS.  User acknowledges and agrees that the Services and the Software, including without limitation the Software’s sequence, structure, organization, source code and applicable documentation contains valuable trade secrets and other intellectual property of Opera and its suppliers and is considered Opera’s confidential information.  The Software and Services are licensed and not sold to User, and no title or ownership to such Software or Services or the intellectual property rights embodied therein passes as a result of this Agreement or any act pursuant to this Agreement.  The Software and Services and all intellectual property rights therein are the exclusive property of Opera and its suppliers, and all rights in and to the Software and Services not expressly granted to User in this Agreement are reserved.  Opera owns all copies of the Software, however made.  Nothing in this Agreement will be deemed to grant, by implication, estoppel or otherwise, a license under any existing or future patents of Opera, except to the extent necessary for User to use the Software or Services as expressly permitted under this Agreement.
+
+6. PRIVACY.  Opera takes the matters of protection and security of its users information very seriously and will treat any and all such information in accordance with the Opera Privacy Statement, which is located at www.opera.com/privacy, and incorporated into this Agreement by this reference.  
+
+7. TERM AND TERMINATION.  The term of this Agreement will commence upon User’s download of the Software and/or User’s commencement of the Services and, unless earlier terminated as provided in this Section 7, will continue in perpetuity.  This Agreement will immediately terminate upon User’s breach of this Agreement, unless such breach is curable and is actually and immediately cured by User after Opera provides notice of breach to User.  Upon the termination of this Agreement, User will discontinue all use of the Software and/or Services, promptly destroy or have destroyed the Software and any copies thereof, and, upon request by Opera, certify in writing to Opera that such destruction has taken place.  These remedies are cumulative and in addition to any other remedies available to Opera.  Sections 1, 3, 5, 6, 7, 8, 9, 10, 11, and 12, shall survive such termination.
+
+8. DISCLAIMER OF WARRANTIES.  THE SOFTWARE AND SERVICES ARE PROVIDED “AS IS,” AND ALL WARRANTIES AND CONDITIONS, EXPRESS, IMPLIED, AND STATUTORY, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR USE, ACCURACY OR COMPLETENESS, SATISFACTORY QUALITY, AND QUIET ENJOYMENT, OR OTHER WARRANTIES OR CONDITIONS ARISING BY STATUTE, OPERATION OR LAW, COURSE OF DEALING, USAGE OF TRADE OR OTHERWISE ARE HEREBY DISCLAIMED.  SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO USER.  OPERA DOES NOT WARRANT THAT THE USE OF THE SOFTWARE OR SERVICES WILL BE UNINTERRUPTED OR ERROR FREE OR THAT THE SOFTWARE OR SERVICES DO NOT CONTAIN ANY VIRUSES.  THIS WARRANTY DISCLAIMER IS A FUNDAMENTAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN USER AND OPERA.  OPERA WOULD NOT PROVIDE THE SOFTWARE OR SERVICES ABSENT SUCH DISCLAIMER. NO REPRESENTATIONS OR WARRANTIES ARE MADE BY ANY SUPPLIERS TO OPERA UNDER OR BY VIRTUE OF THIS AGREEMENT.
+
+9. LIMITATION OF LIABILITY.  IN NO EVENT SHALL OPERA BE LIABLE FOR ANY INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR INDIRECT DAMAGES OF ANY KIND (INCLUDING WITHOUT LIMITATION DAMAGES FOR INTERRUPTION OF BUSINESS, LOST DATA, LOST PROFITS, OR THE LIKE) REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT (INCLUDING WITHOUT LIMITATION NEGLIGENCE), STRICT PRODUCT LIABILITY, OR OTHER THEORY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  IN NO EVENT WILL THE CUMULATIVE LIABILITY OF OPERA ARISING OUT OF OR RELATED TO THIS AGREEMENT EXCEED THE AMOUNT PAID TO OPERA IN RESPECT OF THE SOFTWARE GIVING RISE TO THE CLAIM OR IF NO FEES WERE PAID THEN FIVE HUNDRED EUROS.  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE FOREGOING EXCLUSION AND LIMITATION MAY NOT APPLY TO USER.  THIS LIMITATION OF LIABILITY WILL APPLY NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY SET FORTH HEREIN.  IN NO EVENT WILL ANY SUPPLIER TO OPERA HAVE ANY LIABILITY TO USER UNDER THIS AGREEMENT.  THIS LIMITATION OF LIABILITY IS A FUNDAMENTAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN USER AND OPERA.  OPERA WOULD NOT PROVIDE THE SOFTWARE TO USER ABSENT SUCH LIMITATION. 
+
+10. NOTICES.  All notices required under this Agreement will be given as follows: (a) in the case of notices to Opera, by certified mail, return receipt requested, to the following address: Chief Operating Officer, Opera Software ASA, Waldemar Thranes gate 98, 0175 Oslo, Norway, such notice to be deemed effective upon receipt by Opera; and (b) in the case of notices to User, by email to the email address that User provided to Opera prior to initiating the download of the Software or start of the Services, such notice to be deemed effective upon the earlier of (i) twenty-four (24) hours after sending, or (ii) User’s actual receipt of any such e-mail.
+
+11. INJUNCTIVE RELIEF.  User acknowledges and agrees that the Software and Services contain valuable trade secrets, confidential information and proprietary information of Opera.  User further acknowledge that any actual or threatened breach or violation of Section 2 or Section 3 of this Agreement will constitute immediate, irreparable harm to Opera for which monetary damages would be an inadequate remedy, and that injunctive relief is an appropriate remedy for any such breach or violation. 
+
+12. GENERAL.  User acknowledges and agrees that the Software may contain cryptographic functionality the export of which is restricted under applicable export control law.  User will comply with all applicable laws and regulations in User’s activities under this Agreement.  User will not export or re-export the Software in violation of such laws or regulations or without all required licenses and authorizations. This Agreement will be governed by the laws of Norway without giving effect to any conflicts of law principles that may require the application of the laws of a different country.  The United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement.  All actions or proceedings arising under or related to this Agreement must be brought in the Oslo City Court, and each party hereby agrees to irrevocably submit to the jurisdiction and venue of any such court in all such actions or proceedings.  If any provision of this Agreement is determined by a court of competent jurisdiction to be invalid, illegal, or unenforceable, the remaining provisions of this Agreement shall not be affected or impaired thereby.  User may not assign or transfer this Agreement without obtaining Opera’s prior written consent, and any purported assignment or transfer in violation of this Section 12 will be null and void. Opera may update the terms of this Agreement if and when User install and update or upgrade to the Software and/or Services.  User will be responsible for all of User’s access and data charges from User’s Internet service provider or mobile operator. Applications User downloads or that are made available to User may automatically connect to the Internet to update information or provide a service to User.

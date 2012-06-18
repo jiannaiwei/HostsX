@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.21
+Version: 5.23
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 17:13 2012/6/10
+Lastchage: 8:23 2012/6/18
 Description: MayBe a better User CSS Help U.
 */
 
@@ -15,8 +15,8 @@ div[class^="ad0"],div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[clas
 div[class^="ad5"],div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"]{
 display: none !important;
 	}
-div[class="ad"],div[class^="ad_"],div[class$="_adv"],
-div[class^="ads"],div[class$="_ads"],div[class*="_ads"],div[class^="adS"]{
+div[class="ad"],div[class^="ad_"],div[class$="_adv"],div[class$="-ad ad"],
+div[class^="ads"],div[class$="_ads"],div[class^="adS"]{
 display: none !important;
 	}
 div[class^="ad_b"],div[class^="ad-b"],div[class^="adB"],div[class^="adb"],
@@ -92,7 +92,7 @@ tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[class="ad_details"],a[id*="_adbo
 display: none !important;
 	}
 span[id^="ad_"],span[class="adlink"],span[class="ads_sponcer"],span[class="bdad"],span[id="baidu"],
-span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"]{
+span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"],span[class*="AdWrapper"]{
 display: none !important;
 	}
 table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],aside[class="advertisement"],
@@ -158,10 +158,10 @@ iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"]{display: no
 a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{display:none !important}
 
 /* 浮动广告过滤 */
-div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"]{display:none !important}
+div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{display:none !important}
 
 /* 各种提示隐藏 */
-div[class="tips_player"],div[id="browse_popularize"]{display:none !important}
+div[class="tips_player"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
 
 /* 部分站点广告 */
 sohuadcode {display:none !important}
@@ -172,3 +172,4 @@ div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"],div[id=
 div[class*="l_qq_com"],div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],embed[name="flash_focus"],div[id="followall_mod"]{display:none !important}
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="tingx_"],ul[class="rz"],div[id="div_d0_js_14"],div[id="x1"],div[id="x2"]{display:none !important}
+div[id^="remove_ads"]{display:none !important}
