@@ -1,5 +1,5 @@
 
-;version=8:32 2012/6/18
+;version=23:50 2012/6/19
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -857,6 +857,7 @@ fe80::1%lo0	localhost
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
 0.0.0.0 adver.pengyou.com
+0.0.0.0 caclick.qq.com
 0.0.0.0 c.l.qq.com
 0.0.0.0 c2.l.qq.com
 0.0.0.0 f.qstatic.com
@@ -2027,6 +2028,7 @@ fe80::1%lo0	localhost
 0.0.0.0 util.nphoto.net
 @HostsX 国内站点广告/购物类网站
 #Amazon
+0.0.0.0 g-ecx.images-amazon.com
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 rcm.amazon.com
 0.0.0.0 rcm-cn.amazon.cn
