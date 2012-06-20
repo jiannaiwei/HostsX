@@ -1,5 +1,5 @@
 
-;version=23:50 2012/6/19
+;version=20:56 2012/6/20
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -10481,6 +10481,7 @@ fe80::1%lo0	localhost
 0.0.0.0 chat.live800.com
 0.0.0.0 zxrj.400fly.com
 0.0.0.0 3g.wjdb007.com
+0.0.0.0 www.fengxiong.hk
 #ä¯ÀÀÆ÷½Ù³Ö
 0.0.0.0 054.cc
 0.0.0.0 1188.com
@@ -10766,6 +10767,8 @@ fe80::1%lo0	localhost
 #¿Í·þµ¯´°
 0.0.0.0 chat.53kf.com
 0.0.0.0 up.53kf.com
+0.0.0.0 adv.53kf.com
+0.0.0.0 yingxiao.53kf.com
 0.0.0.0 www.53kf.com
 0.0.0.0 www3.53kf.com
 0.0.0.0 www.918kf.com
