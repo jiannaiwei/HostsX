@@ -1,5 +1,5 @@
 
-;version=20:56 2012/6/20
+;version=21:47 2012/6/20
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8035,6 +8035,7 @@ fe80::1%lo0	localhost
 0.0.0.0 feeds.videosz.com
 0.0.0.0 ts.videosz.com
 #Other Foreign ads
+0.0.0.0 banner.kiev.ua
 0.0.0.0 a.panxh.com
 0.0.0.0 engine.adsupply.com
 0.0.0.0 d.recomendedsite.com
