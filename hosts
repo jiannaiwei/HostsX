@@ -1,5 +1,5 @@
 
-;version=21:47 2012/6/20
+;version=21:23 2012/6/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2057,7 +2057,6 @@ fe80::1%lo0	localhost
 127.0.0.1 btn.pchome.net
 127.0.0.1 click.pchome.net
 127.0.0.1 count.club.pchome.net
-127.0.0.1 icon-z.pchome.net
 127.0.0.1 js-1.pchome.net
 127.0.0.1 market.pchome.net
 127.0.0.1 stat.pchome.net

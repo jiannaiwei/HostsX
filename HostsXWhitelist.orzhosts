@@ -1,5 +1,9 @@
-;version=8:58 2012/6/15
+;version=21:24 2012/6/21
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致导致PcHome页面无法正常显示。
+icon-z.pchome.net
+$DELETE
 
 #!导致 115 网盘客户端无法升级。屏蔽此域名可以防止您的115在后台自动，不建议用户删除。
 pc.115.com
