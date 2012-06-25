@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:28 2012/6/25
+20:43 2012/6/25
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -41,11 +41,8 @@ Opera 官方中文社区上不去怎么解决？
 http://www.virscan.org/ 可以提交到此网站此行检测。
 Ps.另，Nod32都不报毒，金山.360什么的就误报，国内的厂商和国外厂商果然是有很大差距啊。
 
-
-[color=Red]下载方法：鼠标移动到.exe上面，后方会出现下载，点击下载就好了。
-如果下载需要登录说明100次用完了，我会尽快续期，如果您有注册everbox，可以转存到您的文件夹[/color]
-
-
+下载方法：鼠标移动到.exe上面，后方会出现下载，点击下载就好了。
+如果下载需要登录说明100次用完了，我会尽快续期，如果您有注册everbox，可以转存到您的文件夹。
 
 为什么我在安装Opera插件的时候会提示不完整？
 这是国内网络访问Opera服务器的原因，您可以使用右键--目标另存为来保存插件，然后从本地安装就可以解决此问题。
@@ -119,6 +116,25 @@ SimpleU定制版调用了Opera自带的安装界面。
 为什么会有ieopera和ieonly两个调用IE的JS文件？
 运行program\OperaJR.exe ，得到reg文件，双击导入。在浏览很多银行的时候便会自动调用IE打开了。
 
+设置 Opera Dragonfly 为离线版或实验版的方法？
+ 1.在 https://dragonfly.opera.com/app/stp-1/zips/latest/ （最新稳定版）
+      或者 https://dragonfly.opera.com/app/stp-1/experimental/zips/latest/ （最新实验版）
+   下载一个 .zip 压缩包（有各个地区语言版本，随你喜欢选一个）。
+   最新稳定版 Dragonfly 是针对最新正式版 Opera 使用的，在旧版本 Opera 上使用不保证没有额外的问题。
+ 2.在硬盘里任意位置解压这个压缩包，把里面的 client-*.xml 拖进浏览器 （文件名因各个地区语言版本而异，总之后缀名是xml那个就错不了） ，然后复制这时地址栏的地址，是以 file://localhost 开头的文件路径。
+ 3.在 Opera 中打开 opera:config#DeveloperTools，设置值填入刚才得到的文件路径，保存设置。搞定。如果你已经开着 Dragonfly，关掉。
+
+实验版 Dragonfly 的设置方法？
+ 在 Opera 中打开 opera:config#DeveloperTools，设置值为 https://dragonfly.opera.com/app/experimental/ ，保存设置。搞定。
+ 
+为什么我设置的 UserJS 黑白名单无效？
+ // ==UserScript==
+ // @include http://xxx.xxx.xxx/*
+ // @exclude http://zzz.zzz.zzz/*
+ // ==/UserScript==
+ 其中以 include 标注的即白名单，exclude的为黑名单，可以设置多条。
+ 若黑白名单失效，请保存脚本为 UTF-8 without BOM 格式。
+ 
 -----------------------------------------------------------------------
 
 配置调整
