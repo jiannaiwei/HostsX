@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-8:27 2012/6/18
+20:28 2012/6/25
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -444,6 +444,7 @@ http://*/adm/*   新浪爱问资料网盘
 
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+div[id^="ad-"],黑光网相册，http://www.heiguang.com/photo/sm/20120621/91999.html，<div class="ad-image" style="float:none; overflow:hidden; text-align:center;" id="ad-image">
 div[class*="_ads"],meidfire 网盘下载
 div[class^="AD"],gmail 左侧talk无法弹出。<div class="AD" style="position: absolute">
 div[id$="AD"]，东方热线新闻页面主要内容被过滤。<div class="newstxt newsboxw" id="taojifenAD">

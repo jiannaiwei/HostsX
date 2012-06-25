@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.23
+Version: 5.25
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 8:23 2012/6/18
+Lastchage: 20:27 2012/6/25
 Description: MayBe a better User CSS Help U.
 */
 
@@ -27,7 +27,7 @@ div[class^="adarea"],div[class^="adArea"],div[class^="adList"],div[class^="adlis
 div[class$="ad_block"],div[class^="adFrame"],div[class^="adindex"],div[class^="adposter"]{
 display: none !important;
 	}
-div[class*="adWrapper"],div[class*="ad-banner"],div[class="business"],
+div[class*="adWrapper"],div[class*="ad-banner"],div[class="business"],div[class*="_ad_img"],div[class^="ad-img"]
 div[class="flashNews"],div[class^="other_adv"],div[class="ad-widget"]{
 display: none !important;
 	}
@@ -36,15 +36,15 @@ div[id^="Adv"],div[id$="Adv"],div[id^="adv_"],div[id^="ADV_"],
 div[id*="-ads-"],div[id^="ads-"],div[id^="ads_"],div[id$="_ads"]{
 display: none !important;
 	}
-div[id^="ad_"],div[id$="-ad"],div[id*="-ad-"],div[id^="ad-"],
-div[id$="Ad"],div[id*="0_AD_"],div[id*="ad-flash"],div[id^="adflash"]{
+div[id^="ad_"],div[id$="-ad"],div[id*="-ad-"],div[id$="Ad"],
+div[id*="0_AD_"],div[id*="ad-flash"],div[id^="adflash"]{
 display: none !important;
 	}
 div[id*="AdContainer"],div[id*="allyesAdv"],div[id^="ADAREA"],div[id="adList"],
 div[id^="AdZone"],div[id^="adhere"],div[id$="AdBanner"],div[id^="adspot"]{
 display: none !important;
 	}
-div[id^="topAD"],div[id*="TopAD"],div[id^="ad4"],div[id^="ad7"],div[class^="ad-9"],
+div[id^="topAD"],div[id*="TopAD"],div[id*="top_ad"],div[id^="ad4"],div[id^="ad7"],div[class^="ad-9"],
 div[id="clickbg"],div[id="push-down-ad"],div[id^="afp_"]{
 display: none !important;
 	}
@@ -55,7 +55,7 @@ div[class^="topAd"],div[class^="topad"],div[class^="top_ad"],div[class$="topa_d"
 display: none !important;
 	}
 div[class^="nav-ad"],div[id$="head_ad"],div[id="adTop"],div[id="navads"],div[class^="float-ad-"],
-div[id="toplink"],div[id="topmad"],div[id^="topad"],div[id^="top_ad"]{
+div[class*="inner_ad"],div[id="toplink"],div[id="topmad"],div[id^="topad"],div[id^="top_ad"]{
 display: none !important;
 	}
 div[id^="AdRight"],div[class^="rightad"],div[id$="rightad"],div[class="RightAD"],div[class="adrr"],
@@ -84,7 +84,7 @@ div[class="banner-box"],div[class="banner"][id^="banner"],div[class*="topBanner"
 display: none !important;
 	}
 div[id^="adword"],div[class^="adword"],div[class^="ad-text"],div[class^="adtxt"],
-div[class^="txtads"],div[id^="text_ad"],div[class="textMes"]{
+div[class^="ad-txt"],div[class^="txtads"],div[id^="text_ad"],div[class="textMes"]{
 display: none !important;
 	}
 td[id^="adp_"],td[class="adslot"],td[class="ad"],iframe[id$="_tuiguang"],
@@ -144,7 +144,7 @@ embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[c
 /* Google */
 div[class="c"][id="tads"],[id*="adsense"],[href*="pagead"],[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{display:none !important}
 /* FaceBook */
-div[class="fblike_button"],#fb_like,#fb_plugin,div.like_it_frame,iframe[src^="http://www.facebook.com"],a[href^="http://www.facebook.com/"][target="_blank"] {display:none !important;}
+div[class="fblike_button"],#fb_like,#fb_plugin,iframe[src^="http://www.facebook.com"]{display:none !important;}
 /* Baidu */
 a[href*="www.baidu.com/baidu.php?"],a[href^="http://www.baidu.com/adrc.php"]{display:none !important}
 
@@ -172,4 +172,4 @@ div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"],div[id=
 div[class*="l_qq_com"],div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],embed[name="flash_focus"],div[id="followall_mod"]{display:none !important}
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="tingx_"],ul[class="rz"],div[id="div_d0_js_14"],div[id="x1"],div[id="x2"]{display:none !important}
-div[id^="remove_ads"]{display:none !important}
+div[id^="remove_ads"],div[id="tuanad"]{display:none !important}
