@@ -131,7 +131,6 @@ ipconfig -flushdns >nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
 DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
-call :youku >nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
 del /f /s /q "%userprofile%\cookies">nul 2>nul
@@ -139,13 +138,14 @@ del /f /s /q "%userprofile%\recent">nul 2>nul
 ipconfig -flushdns >nul 2>nul
 ipconfig -registerdns >nul 2>nul
 ipconfig -renew >nul 2>nul
+call :youku >nul 2>nul
 goto:eof
 
 :youku
 cd %homepath%\application data\macromedia\flash player\#sharedobjects
 dir /ad /b >%temp%\dirname.txt
-for /f %%i in (%temp%\dirname.txt) do set a=%%i
-cd %a%
+for /f %%i in (%temp%\dirname.txt) do set b=%%i
+cd %b%
 attrib static.youku.com -r -h -s >nul 2>nul
 rd /s /q static.youku.com 2>nul
 echo. >>static.youku.com
