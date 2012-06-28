@@ -141,14 +141,15 @@ call :youku >nul 2>nul
 goto:eof
 
 :youku
-cd %homepath%\application data\macromedia\flash player\#sharedobjects
-dir /ad /b >%temp%\dirname.txt
-for /f %%i in (%temp%\dirname.txt) do set b=%%i
-cd %b%
+cd %homepath%\application data\macromedia\flash player\#sharedobjects >nul 2>nul
+dir /ad /b >%temp%\dirname.txt >nul 2>nul
+for /f %%i in (%temp%\dirname.txt) do set b=%%i >nul 2>nul
+cd %b% >nul 2>nul
 attrib static.youku.com -r -h -s >nul 2>nul
-rd /s /q static.youku.com 2>nul
-echo. >>static.youku.com
-attrib +r static.youku.com
+rd /s /q static.youku.com >nul 2>nul
+del static.youku.com >nul 2>nul
+echo. >>static.youku.com >nul 2>nul
+attrib +r static.youku.com >nul 2>nul
 rem start explorer.exe %homepath%\application data\macromedia\flash player\#sharedobjects\%a%
 goto:eof
 
