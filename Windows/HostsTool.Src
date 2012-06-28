@@ -1,5 +1,5 @@
 @echo off
-set ver=3.88
+set ver=3.881
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -126,6 +126,7 @@ goto mouse
 
 :dns
 echo FlushDns...
+%k% iexplore.exe
 ipconfig -flushdns >nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
