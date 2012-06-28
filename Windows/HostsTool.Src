@@ -19,7 +19,6 @@ if '%1'=='opcl' goto:opclean
 rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
-pushd %~dp0
 if not exist %a%\consext.exe copy consext.exe %a%
 if not exist %a%\wget.exe copy wget.exe %a%
 rem 判断操作系统版本，支持从Win98-Win8
@@ -1828,6 +1827,7 @@ opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 
 exit
 
 :opupdate
+pushd %~dp0
 if not exist %a%\wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
 echo 正在下载数据，请稍候... ...
