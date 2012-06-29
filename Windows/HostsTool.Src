@@ -1,5 +1,5 @@
 @echo off
-set ver=3.881
+set ver=3.882
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -113,7 +113,7 @@ if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock &attrib %hosts% +r -h +s
 if %y% equ 17 if %x% gtr  1 if %x% lss 26 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f &cls& goto gui
 if %y% equ 17 if %x% gtr  26 if %x% lss 50 call :clean &goto gui
 if %y% equ 19 if %x% gtr  1 if %x% lss 26 call :fixie &goto gui
-if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!&goto shortcutfix) else (goto shortcutfix)
+if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (wget http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!&call :shortcutfix) else (call :shortcutfix)&goto gui
 if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto iecss
 if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quitevbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
 if %y% equ 23 if %x% gtr  12 if %x% lss 26 goto delit
@@ -327,7 +327,8 @@ AndriodHosts.vbs&cls&goto gui
 
 :shortcutfix
 mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\g.ico"":b.Description=""优佳猴子"":b.Save:close")
-echo 桌面快捷方式已创建！& choice /t 2 /d y /n >nul&goto gui
+echo 桌面快捷方式已创建！& pause
+goto:eof
 
 :feedback
 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt
