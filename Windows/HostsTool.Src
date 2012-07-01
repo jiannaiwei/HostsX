@@ -1,5 +1,5 @@
 @echo off
-set ver=3.882
+set ver=3.883
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -233,6 +233,7 @@ goto :eof
 
 :fixhosts
 call :unlock
+pushd %~dp0
 if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts%&echo ::1             localhost>> %hosts%&echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
 msg %username% /time:2 "【已恢复Hosts文件至系统初始状态！】"
 notepad %hosts%
@@ -656,7 +657,7 @@ set min=20
 set max=30
 set /a mod=!max!-!min!+1
 set /a r=!random!%%!mod!+!min!
-set GOOGLE=203.208.47.%r%
+set gg=203.208.47.%r%
 call :GoogleIP
 goto:eof
 
