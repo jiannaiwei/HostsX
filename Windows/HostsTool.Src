@@ -1,5 +1,5 @@
 @echo off
-set ver=3.883
+set ver=3.885
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -233,6 +233,7 @@ goto :eof
 
 :fixhosts
 call :unlock
+pushd %~dp0
 if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts%&echo ::1             localhost>> %hosts%&echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
 msg %username% /time:2 "【已恢复Hosts文件至系统初始状态！】"
 notepad %hosts%
