@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:43 2012/6/25
+20:40 2012/7/2
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -113,10 +113,14 @@ SimpleU定制版调用了Opera自带的安装界面。
 请尝试关闭CSS里面的微软雅黑的显示，看能否可解决此问题。
 或者把最小字体由12改为默认的10试试看。
 
+为什么我的Opera滚动时会出现文字出现模糊重影的问题？
+请检查是否开启了IDM下载软件监视Opera的选项。关闭即可解决。若未安装IDM，请尝试将此问题提交给官方予以重视。
+
 为什么会有ieopera和ieonly两个调用IE的JS文件？
 运行program\OperaJR.exe ，得到reg文件，双击导入。在浏览很多银行的时候便会自动调用IE打开了。
 
 设置 Opera Dragonfly 为离线版或实验版的方法？
+ 如果在安装时将Opera安装目录更改为“d:\Program Files\Opera”，则可以默认使用本地化DragonFly。
  1.在 https://dragonfly.opera.com/app/stp-1/zips/latest/ （最新稳定版）
       或者 https://dragonfly.opera.com/app/stp-1/experimental/zips/latest/ （最新实验版）
    下载一个 .zip 压缩包（有各个地区语言版本，随你喜欢选一个）。
@@ -460,6 +464,7 @@ http://*/adm/*   新浪爱问资料网盘
 
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+div[class*="adWrapper"], ddvip <div class="HeadWrapper">
 div[id^="ad-"],黑光网相册，http://www.heiguang.com/photo/sm/20120621/91999.html，<div class="ad-image" style="float:none; overflow:hidden; text-align:center;" id="ad-image">
 div[class*="_ads"],meidfire 网盘下载
 div[class^="AD"],gmail 左侧talk无法弹出。<div class="AD" style="position: absolute">

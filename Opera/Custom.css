@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.26
+Version: 5.27
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 7:15 2012/7/2
+Lastchage: 20:42 2012/7/2
 Description: MayBe a better User CSS Help U.
 */
 
@@ -27,7 +27,7 @@ div[class^="adarea"],div[class^="adArea"],div[class^="adList"],div[class^="adlis
 div[class$="ad_block"],div[class^="adFrame"],div[class^="adindex"],div[class^="adposter"]{
 display: none !important;
 	}
-div[class*="adWrapper"],div[class*="ad-banner"],div[class="business"],div[class*="_ad_img"],div[class^="ad-img"]
+div[class*="ad-banner"],div[class="business"],div[class*="_ad_img"],div[class^="ad-img"],
 div[class="flashNews"],div[class^="other_adv"],div[class="ad-widget"]{
 display: none !important;
 	}
@@ -87,20 +87,23 @@ div[id^="adword"],div[class^="adword"],div[class^="ad-text"],div[class^="adtxt"]
 div[class^="ad-txt"],div[class^="txtads"],div[id^="text_ad"],div[class="textMes"]{
 display: none !important;
 	}
-td[id^="adp_"],td[class="adslot"],td[class="ad"],iframe[id$="_tuiguang"],
-tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[class="ad_details"],a[id*="_adbox"],dd[id^="AdTop"]{
+td[id^="adp_"],td[class="adslot"],td[class="ad"],iframe[id$="_tuiguang"],td[id="banner"],
+tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[class="ad_details"]{
 display: none !important;
 	}
 span[id^="ad_"],span[class="adlink"],span[class="ads_sponcer"],span[class="bdad"],span[id="baidu"],
 span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"],span[class*="AdWrapper"]{
 display: none !important;
 	}
-table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],aside[class="advertisement"],
+table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],
 img[id^="ad"],img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
 display: none !important;
 	}
 ul[class="ad"],ul[class="adwindow"],ul[class*="_ad"],ul[id*="listAD"],ul[class*="textad"],
 ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"],ul[class="ad_doc_text"]{
+display: none !important;
+	}
+aside[class="advertisement"],a[id*="_adbox"],dd[id^="AdTop"]{
 display: none !important;
 	}
 
