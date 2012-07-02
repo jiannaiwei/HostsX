@@ -1,5 +1,5 @@
 @echo off
-set ver=3.885
+set ver=3.886
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -1840,7 +1840,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
 msg %username% /time:2 "【默认配置已更新！】"
 cd profile\script
 del *.user.jsx
-del DBankLinker.jsx OnlinedownNoAds.user.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js CleanPlayer.user.js goglrwt.js
+del DBankLinker.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js CleanPlayer.user.js goglrwt.js
 wget http://userscripts.org/scripts/source/105184.user.js
 ren 105184.user.js angerOfPresident.user.jsx
 wget http://userscripts.org/scripts/source/120679.user.js
@@ -1854,9 +1854,9 @@ ren 45836.user.js xiaonei_reformer.min.user.jsx
 wget http://userscripts.org/scripts/source/103552.user.js
 ren 103552.user.js doubanimdb.user.js
 wget http://userscripts.org/scripts/source/116879.user.js
-ren 116879.user.js DBankLinker.jsx
+ren 116879.user.js DBankLinker.js
 wget http://userscripts.org/scripts/source/129215.user.js
-ren 129215.user.js OnlinedownNoAds.user.js
+ren 129215.user.js OnlinedownNoAds.user.jsx
 wget http://userscripts.org/scripts/source/129534.user.js
 ren 129534.user.js doubanfilm.user.js
 wget http://userscripts.org/scripts/source/113577.user.js
@@ -1865,7 +1865,7 @@ wget http://userscripts.org/scripts/source/91662.user.js
 ren 91662.user.js doubaniask.user.js
 wget http://userscripts.org/scripts/source/128239.user.js
 ren 128239.user.js TianyaRead.user.js
-msg %username% /time:2 "【UserJs数据已更新！】"
+msg %username% /time:3 "【UserJs数据已更新！】"
 cd ..
 del override.ini search.ini urlfilter.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
