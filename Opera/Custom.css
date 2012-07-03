@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.272
+Version: 5.273
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 21:18 2012/7/2
+Lastchage: 14:26 2012/7/3
 Description: MayBe a better User CSS Help U.
 */
 
@@ -146,6 +146,7 @@ embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[c
 
 /* Google */
 div[class="c"][id="tads"],[id*="adsense"],[href*="pagead"],[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{display:none !important}
+div[id="homepage-sidebar-ads"]{display:none !important}
 /* FaceBook */
 div[class="fblike_button"],#fb_like,#fb_plugin,iframe[src^="http://www.facebook.com"]{display:none !important;}
 /* Baidu */
