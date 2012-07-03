@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.273
+Version: 5.275
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 14:26 2012/7/3
@@ -15,7 +15,7 @@ div[class^="ad0"],div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[clas
 div[class^="ad5"],div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"]{
 display: none !important;
 	}
-div[class="ad"],div[class^="ad_"],div[class$="_adv"],div[class$="-ad ad"],
+div[class="ad"],div[class^="ad_"],div[class$="-ad ad"],div[class="ads_"],
 div[class^="ads"],div[class$="_ads"],div[class^="adS"],div[class*=" adspace"]{
 display: none !important;
 	}
@@ -103,14 +103,14 @@ ul[class="ad"],ul[class="adwindow"],ul[class*="_ad"],ul[id*="listAD"],ul[class*=
 ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"],ul[class="ad_doc_text"]{
 display: none !important;
 	}
-aside[class="advertisement"],a[id*="_adbox"],dd[id^="AdTop"]{
+aside[class="advertisement"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"]{
 display: none !important;
 	}
 
 /* 论坛广告和外链 */
 font[class="jammer"],span[style="display:none"],span[style="font-size: 0pt"],font[color="#FFFFFF"]{display: none;}
 font[size="1"],fieldset[style*=”:1px dashed“],p[class="Wtz196"]{display:none !important}
-div[id^="ad_head"],div[class="tac mb5"],td[class="f_one black tac"],div[class^="wp a_"]{display: none !important;}
+div[class="tac mb5"],td[class="f_one black tac"],div[class^="wp a_"]{display: none !important;}
 div[class$="a_cb"],div[class^="a_f"],div[class="a_b"],div[class="a_mu"],
 div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],div[class="bm a_c"]{
 display: none !important;
