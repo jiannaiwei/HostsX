@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:40 2012/7/2
+12:19 2012/7/3
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -464,6 +464,7 @@ http://*/adm/*   新浪爱问资料网盘
 
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+td[id="banner"],http://www.cntuw.com/ 右上角登录框，td id="banner" align="right" style="line-height:25px;valign:middle;color:#666666">
 div[class*="adWrapper"], ddvip <div class="HeadWrapper">
 div[id^="ad-"],黑光网相册，http://www.heiguang.com/photo/sm/20120621/91999.html，<div class="ad-image" style="float:none; overflow:hidden; text-align:center;" id="ad-image">
 div[class*="_ads"],meidfire 网盘下载
