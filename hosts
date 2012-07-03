@@ -1,5 +1,5 @@
 
-;version=21:08 2012/7/1
+;version=14:05 2012/7/3
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9441,6 +9441,9 @@ fe80::1%lo0	localhost
 127.0.0.1 bank19.ads.mp.mydas.mobi
 127.0.0.1 bank20.ads.dt.mydas.mobi
 127.0.0.1 bank20.ads.mp.mydas.mobi
+#Mmarket
+127.0.0.1 ota.mmarket.com
+127.0.0.1 oop.mmarket.com
 #Phluantmobile
 127.0.0.1 mdn1.phluantmobile.net
 127.0.0.1 mdn2.phluantmobile.net
