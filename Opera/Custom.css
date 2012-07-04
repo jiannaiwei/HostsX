@@ -145,7 +145,7 @@ embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[c
 #bbs_jxtj,#bshareF,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
 
 /* Google */
-div[class="c"][id="tads"],[id*="adsense"],[href*="pagead"],[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{display:none !important}
+div[class="c"][id="tads"],[class="c"][id="tadsb"],[id*="adsense"],[href*="pagead"],[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{display:none !important}
 div[id="homepage-sidebar-ads"]{display:none !important}
 /* FaceBook */
 div[class="fblike_button"],#fb_like,#fb_plugin,iframe[src^="http://www.facebook.com"]{display:none !important;}
