@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-7:26 2012/7/4
+18:34 2012/7/4
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -461,7 +461,7 @@ Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为�
 */ads/*          yahoo 新闻页面显示
 http://*/adm/*   新浪爱问资料网盘
 */js/ad*.js 可能为admin.js,而非广告 所以直接改为了 */js/ad.js
-
+http://*.tianjimedia.com/* 天极网css显示
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
 div[class$="_adv"],http://club.tgfcer.com/forum-10-1.html论坛帖子内容 <div id="content_adv" class="content_adv">，
