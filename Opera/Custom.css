@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.275
+Version: 5.276
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 14:26 2012/7/3
+Lastchage: 22:02 2012/7/4
 Description: MayBe a better User CSS Help U.
 */
 
@@ -28,7 +28,7 @@ div[class$="ad_block"],div[class^="adFrame"],div[class^="adindex"],div[class^="a
 display: none !important;
 	}
 div[class*="ad-banner"],div[class="business"],div[class*="_ad_img"],div[class^="ad-img"],
-div[class="flashNews"],div[class^="other_adv"],div[class="ad-widget"]{
+div[class="flashNews"],div[class^="other_adv"],div[class="ad-widget"],div[class="ades"],div[class^="Indexad"]{
 display: none !important;
 	}
 
@@ -83,7 +83,7 @@ div[class="banner"]>dl,div[id="bannerPanel"],div[class="banner"][id^="adsp_conte
 div[class="banner-box"],div[class="banner"][id^="banner"],div[class*="topBanner"],div[class="topbanner"]{
 display: none !important;
 	}
-div[id^="adword"],div[class^="adword"],div[class^="ad-text"],div[class^="adtxt"],
+div[id^="adword"],div[class^="adword"],div[class^="ad-text"],div[class^="adtxt"],div[id="splink"],
 div[class^="ad-txt"],div[class^="txtads"],div[id^="text_ad"],div[class="textMes"]{
 display: none !important;
 	}
