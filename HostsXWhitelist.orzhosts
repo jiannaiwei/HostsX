@@ -1,8 +1,12 @@
-;version=21:24 2012/6/21
+;version=14:01 2012/7/5
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
-#导致导致PcHome页面无法正常显示。
+#导致PcHome页面无法正常显示。
 icon-z.pchome.net
+$DELETE
+
+#导致金山词霸查词页面无法正常显示。
+static.www.iciba.com
 $DELETE
 
 #!导致 115 网盘客户端无法升级。屏蔽此域名可以防止您的115在后台自动，不建议用户删除。
