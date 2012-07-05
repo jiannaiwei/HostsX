@@ -1,5 +1,5 @@
 
-;version=14:05 2012/7/3
+;version=14:00 2012/7/5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2715,7 +2715,6 @@ fe80::1%lo0	localhost
 0.0.0.0 stat.sd.keniu.com
 0.0.0.0 tq.sd.keniu.com
 #½ðÉ½´Ê°Ô
-0.0.0.0 static.www.iciba.com
 0.0.0.0 34.goto.www.iciba.com
 0.0.0.0 counter.kds.iciba.com
 0.0.0.0 goto.www.iciba.com
