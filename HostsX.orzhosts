@@ -1,5 +1,5 @@
 
-;version=20:25 2012/7/5
+;version=21:09 2012/7/5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2146,6 +2146,8 @@ fe80::1%lo0	localhost
 0.0.0.0 www.114la.com
 0.0.0.0 un.i.116.com
 0.0.0.0 un.v.116.com
+#idown
+0.0.0.0 idown.stsword.cn
 #Ä¾ÂìÒÏ
 0.0.0.0 js.mumayi.net
 #Xdowns
