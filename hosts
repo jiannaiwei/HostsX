@@ -1,5 +1,5 @@
 
-;version=12:01 2012/7/7
+;version=22:55 2012/7/7
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8121,6 +8121,7 @@ fe80::1%lo0	localhost
 127.0.0.1 p1.1lo0.net
 127.0.0.1 p2.1lo0.net
 127.0.0.1 p3.1lo0.net
+127.0.0.1 p4.1lo0.net
 #114lm
 127.0.0.1 www.114lm.com
 #160ads
