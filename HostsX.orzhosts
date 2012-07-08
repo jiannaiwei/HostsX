@@ -1,5 +1,5 @@
 
-;version=22:55 2012/7/7
+;version=17:23 2012/7/8
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1171,7 +1171,6 @@ fe80::1%lo0	localhost
 0.0.0.0 ae.adserver.yahoo.com
 0.0.0.0 ar.adserver.yahoo.com
 0.0.0.0 au.adserver.yahoo.com
-0.0.0.0 bc-beta.ads.yahoo.com
 0.0.0.0 be.adserver.yahoo.com
 0.0.0.0 br.adserver.yahoo.com
 0.0.0.0 ca.adserver.yahoo.com
@@ -1180,6 +1179,7 @@ fe80::1%lo0	localhost
 0.0.0.0 de.adserver.yahoo.com
 0.0.0.0 dk.adserver.yahoo.com
 0.0.0.0 es.adserver.yahoo.com
+0.0.0.0 eu-pn4.adserver.yahoo.com
 0.0.0.0 fr.adserver.yahoo.com
 0.0.0.0 gr.adserver.yahoo.com
 0.0.0.0 hk.adserver.yahoo.com
@@ -1192,6 +1192,7 @@ fe80::1%lo0	localhost
 0.0.0.0 nz.adserver.yahoo.com
 0.0.0.0 pn1.adserver.yahoo.com
 0.0.0.0 pn2.adserver.yahoo.com
+0.0.0.0 s.analytics.yahoo.com
 0.0.0.0 se.adserver.yahoo.com
 0.0.0.0 sg.adserver.yahoo.com
 0.0.0.0 tw.adserver.yahoo.com
@@ -1310,6 +1311,7 @@ fe80::1%lo0	localhost
 0.0.0.0 advision.webevents.yahoo.com
 0.0.0.0 analytics.yahoo.com
 0.0.0.0 asia.pclick.internal.yahoo.com
+0.0.0.0 bc-beta.ads.yahoo.com
 0.0.0.0 cookex.amp.yahoo.com
 0.0.0.0 geo.yahoo.com
 0.0.0.0 installerstats.yahoo.com
@@ -1317,11 +1319,12 @@ fe80::1%lo0	localhost
 0.0.0.0 pclick.internal.yahoo.com
 0.0.0.0 pclick.yahoo.com
 0.0.0.0 rd.software.yahoo.com
-0.0.0.0 s.analytics.yahoo.com
 0.0.0.0 srv1.wa.marketingsolutions.yahoo.com
 0.0.0.0 srv2.wa.marketingsolutions.yahoo.com
 0.0.0.0 srv3.wa.marketingsolutions.yahoo.com
 0.0.0.0 ts.richmedia.yahoo.com
+0.0.0.0 tw.js.webmaster.yahoo.com
+0.0.0.0 tw.rc.webmaster.yahoo.com
 0.0.0.0 visit.webhosting.yahoo.com
 #Yimg
 0.0.0.0 ads.yimg.com
@@ -1361,8 +1364,6 @@ fe80::1%lo0	localhost
 0.0.0.0 view.aliunion.cn.yahoo.com
 #Yahoo Taiwan
 0.0.0.0 ad.wretch.cc
-0.0.0.0 tw.js.webmaster.yahoo.com
-0.0.0.0 tw.rc.webmaster.yahoo.com
 #Yahoo Altavista Company
 0.0.0.0 pic.geocities.com
 0.0.0.0 visit.geocities.com
@@ -3385,6 +3386,7 @@ fe80::1%lo0	localhost
 0.0.0.0 signup.adultplex.com
 0.0.0.0 stats.adultplex.com
 #Advertising
+0.0.0.0 r1-ads.ace.advertising.com
 0.0.0.0 ace-lb.advertising.com
 0.0.0.0 ace-tag.advertising.com
 0.0.0.0 adserve.advertising.com
@@ -8030,6 +8032,12 @@ fe80::1%lo0	localhost
 0.0.0.0 feeds.videosz.com
 0.0.0.0 ts.videosz.com
 #Other Foreign ads
+0.0.0.0 clickserv.sitescout.com
+0.0.0.0 track.wamcpc.com
+0.0.0.0 tracking.theultimateonlinejob.com
+0.0.0.0 creative2.myrdns.org
+0.0.0.0 www.quibids.com
+0.0.0.0 redirect.ad-feeds.net
 0.0.0.0 adhitz.com
 0.0.0.0 p1.adhitzads.com
 0.0.0.0 banner.kiev.ua
@@ -9175,14 +9183,6 @@ fe80::1%lo0	localhost
 0.0.0.0 image.agency.91.com
 0.0.0.0 v2.g2.91.com
 #AdMob
-0.0.0.0 api.admob.com
-0.0.0.0 e.admob.com
-0.0.0.0 media.admob.com
-0.0.0.0 mm.admob.com
-0.0.0.0 mmv.admob.com
-0.0.0.0 r.admob.com
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 pagead2.googlesyndication.com
 #Adchina
 0.0.0.0 mobile.adchina.com
 0.0.0.0 www.adchina.com
@@ -11487,12 +11487,9 @@ fe80::1%lo0	localhost
 0.0.0.0 goto.yizuya.com
 0.0.0.0 c1.qmeishi.com
 0.0.0.0 www4.zjbdt.com
-0.0.0.0 www3.zjbdt.com
-0.0.0.0 www2.zjbdt.com
-0.0.0.0 www1.zjbdt.com
 0.0.0.0 www.zjbdt.com
 0.0.0.0 js.50bang.org
 0.0.0.0 jifen.2345.com
 0.0.0.0 u.18819.com
 0.0.0.0 s.18819.com
-
+0.0.0.0 union.suda123.com
