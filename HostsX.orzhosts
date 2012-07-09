@@ -1,5 +1,5 @@
 
-;version=17:23 2012/7/8
+;version=9:24 2012/7/9
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9183,6 +9183,14 @@ fe80::1%lo0	localhost
 0.0.0.0 image.agency.91.com
 0.0.0.0 v2.g2.91.com
 #AdMob
+0.0.0.0 api.admob.com
+0.0.0.0 e.admob.com
+0.0.0.0 media.admob.com
+0.0.0.0 mm.admob.com
+0.0.0.0 mmv.admob.com
+0.0.0.0 r.admob.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.com
 #Adchina
 0.0.0.0 mobile.adchina.com
 0.0.0.0 www.adchina.com

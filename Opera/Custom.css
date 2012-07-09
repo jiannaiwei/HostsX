@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.32
+Version: 5.321
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 20:28 2012/7/5
+Lastchage: 9:23 2012/7/9
 Description: MayBe a better User CSS Help U.
 */
 
@@ -15,7 +15,11 @@ div[class^="ad0"],div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[clas
 div[class^="ad5"],div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"]{
 display: none !important;
 	}
-div[class="ad"],div[class^="ad_"],div[class^="ad-"],div[class$="-ad ad"],div[class$="_ads"],
+div[id^="ad1"],div[id^="ad2"],div[id^="ad3"],div[id^="ad4"],div[id^="ad5"],
+div[id^="ad6"],div[id^="ad7"],div[id^="ad8"],div[class^="ad-9"]{
+display: none !important;
+	}
+div[class="ad"],div[class^="ad_"],div[class$="-ad ad"],div[class$="_ads"],
 div[class^="adarea"],div[class*="adclass"],div[class^="adlist"],div[class^="adList"]{
 display: none !important;
 	}
@@ -42,7 +46,7 @@ div[id*="AdContainer"],div[id*="allyesAdv"],div[id^="ADAREA"],div[id="adList"]{
 display: none !important;
 	}
 div[id^="AdZone"],div[id^="adhere"],div[id$="AdBanner"],div[id^="adspot"],
-div[id^="ad4"],div[id^="ad7"],div[class^="ad-9"],div[id="adcontent"]{
+div[id="adcontent"]{
 display: none !important;
 	}
 
@@ -51,8 +55,8 @@ div[id="adTop"],div[id^="topAD"],div[id^="topad"],div[id*="TopAD"],div[id*="top_
 div[id="topmad"],div[id="toplink"],div[id="navads"],div[id$="head_ad"]{
 display: none !important;
 	}
-div[class^="topA"],div[class^="topad"],div[class^="top_ad"],div[class$="topa_d"],div[class^="ATopTxt"],
-div[class="tad"],div[class="ada"],div[class*="AdTop-"],div[class^="nav-ad"],div[class^="double_ad"]{
+div[class^="topAD"],div[class^="topAd"],div[class^="topad"],div[class^="top_ad"],div[class$="topa_d"],
+div[class^="ATopTxt"],div[class="tad"],div[class="ada"],div[class*="AdTop-"],div[class^="nav-ad"],div[class^="double_ad"]{
 display: none !important;
 	}
 div[class^="adRight"],div[class^="rightad"],div[class="RightAD"],div[class="adrr"],

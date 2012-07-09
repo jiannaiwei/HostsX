@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-18:34 2012/7/4
+9:23 2012/7/9
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -464,9 +464,12 @@ http://*/adm/*   新浪爱问资料网盘
 http://*.tianjimedia.com/* 天极网css显示
 
 
-论坛过滤备份，重复：div[id^="ad_head"],div[class^="ad_head"],div[class^="ad_text"],div[class^="ad_foot"],div[class^="ad_b"],div[class^="ads_"],div[class="ad_top"],
+论坛过滤备份，重复：
+div[class^="ad-"],
+
+div[id^="ad_head"],div[class^="ad_head"],div[class^="ad_text"],div[class^="ad_foot"],div[class^="ad_b"],div[class^="ads_"],div[class="ad_top"],
 div[class="ad-bar"],div[class="ad-button"],div[class^="ad-block"],div[class^="ad-box"],div[class^="ad-b"],div[class^="ad-img"],div[class="ad-widget"],div[class^="ad-text"],div[class^="ad-txt"],
-div[class^="adposter"],div[class^="adArea"],div[class^="topAD"],div[class^="topAd"],div[id^="top_ad"]
+div[class^="adposter"],div[class^="adArea"],div[id^="top_ad"]
 div[class="banner-top"],div[class="banner-box"],
 /* Discuz! 版头规则中的图片 */
 div#tab_c_2.rule img {display: none !important;}
@@ -475,6 +478,8 @@ div[id^="forum_rules"] img {display: none !important;}
 div[id^="forum_rules"] a img {display: inline !important;}
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+
+div[class^="topA"],环球军事头栏<div class="topAll">
 div[class$="_adv"],http://club.tgfcer.com/forum-10-1.html论坛帖子内容 <div id="content_adv" class="content_adv">，
 td[id="banner"],http://www.cntuw.com/ 右上角登录框，td id="banner" align="right" style="line-height:25px;valign:middle;color:#666666">
 div[class*="adWrapper"], ddvip <div class="HeadWrapper">
