@@ -1,5 +1,5 @@
 
-;version=9:24 2012/7/9
+;version=22:16 2012/7/9
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1753,6 +1753,7 @@ fe80::1%lo0	localhost
 #凯迪网
 0.0.0.0 panda.kdnet.net
 0.0.0.0 tracking.kdnet.net
+0.0.0.0 super.kdnet.net
 #开心网
 0.0.0.0 m222034.kaixin001.com
 #奇虎社区
