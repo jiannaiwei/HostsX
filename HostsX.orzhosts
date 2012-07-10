@@ -1,5 +1,5 @@
 
-;version=22:16 2012/7/9
+;version=14:53 2012/7/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9617,6 +9617,13 @@ fe80::1%lo0	localhost
 0.0.0.0 assets.zestadz.com
 0.0.0.0 www.zestadz.com
 #WapSite
+0.0.0.0 gg.googlesyndcation.com
+0.0.0.0 img1.googlesyndcation.com
+0.0.0.0 img1.gogle.cn
+0.0.0.0 gogle.cn
+0.0.0.0 1.ad-locus.com
+0.0.0.0 ad-locus.com
+0.0.0.0 promev3-web.hyxencloud.com
 0.0.0.0 ad.camera360.us
 0.0.0.0 24sp.cc
 0.0.0.0 ad.3g.cn
