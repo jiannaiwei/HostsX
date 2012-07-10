@@ -1,5 +1,5 @@
 
-;version=20:13 2012/7/10
+;version=22:32 2012/7/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9283,6 +9283,9 @@ fe80::1%lo0	localhost
 0.0.0.0 dp2.devopenserv.com
 #Duomeng
 0.0.0.0 duomeng.cn
+#EasyMobi
+0.0.0.0 adver.easymobi.cn
+0.0.0.0 app.easymobi.cn
 #Flurry
 0.0.0.0 ad.flurry.com
 0.0.0.0 data.flurry.com
