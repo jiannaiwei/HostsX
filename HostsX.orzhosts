@@ -1,5 +1,5 @@
 
-;version=14:53 2012/7/10
+;version=20:13 2012/7/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9255,8 +9255,9 @@ fe80::1%lo0	localhost
 0.0.0.0 d2bgg7rjywcwsy.cloudfront.net
 0.0.0.0 d3oltyb66oj2v8.cloudfront.net
 #Cooguo
-0.0.0.0 www.cooguo.com
 0.0.0.0 download.cooguo.com
+0.0.0.0 video.cooguo.com
+0.0.0.0 www.cooguo.com
 #Crispadvertising
 0.0.0.0 cdn1.crispadvertising.com
 0.0.0.0 cdn2.crispadvertising.com
@@ -9302,10 +9303,12 @@ fe80::1%lo0	localhost
 0.0.0.0 imp.himogo.com
 0.0.0.0 req.himogo.com
 #inmobi
-0.0.0.0 w.inmobi.com
 0.0.0.0 i.w.inmobi.com
-0.0.0.0 r.w.inmobi.com
 0.0.0.0 ma.inmobi.com
+0.0.0.0 r.w.inmobi.com
+0.0.0.0 w.inmobi.com
+0.0.0.0 www.inmobi.com
+0.0.0.0 www.noreply.inmobi.com
 0.0.0.0 hosting.sproutbuilder.com
 #Jumptap
 0.0.0.0 a.jumptap.com
@@ -9317,6 +9320,8 @@ fe80::1%lo0	localhost
 0.0.0.0 cps.kongzhong.com
 #Kuguopush
 0.0.0.0 www.kuguopush.com
+#KUAD
+0.0.0.0 kuad.kusogi.com
 #Lmmob
 0.0.0.0 ads.lmmob.com
 0.0.0.0 api.lmmob.com
@@ -9557,15 +9562,17 @@ fe80::1%lo0	localhost
 0.0.0.0 vlog.vodone.com
 0.0.0.0 vodone.com
 #Vpon
+0.0.0.0 beta.api.vpon.com
 0.0.0.0 beta.vpon.com
-0.0.0.0 www.vpon.com
-0.0.0.0 tw.api.vpon.com
-0.0.0.0 cn.pub.vpon.com
-0.0.0.0 tw.pub.vpon.com
-0.0.0.0 sh2.vpon.com
 0.0.0.0 cn.ad.adon.vpon.com
 0.0.0.0 cn.api.vpon.com
 0.0.0.0 cn.img.adon.vpon.com
+0.0.0.0 cn.pub.vpon.com
+0.0.0.0 medad.vpon.com
+0.0.0.0 sh2.vpon.com
+0.0.0.0 tw.api.vpon.com
+0.0.0.0 tw.pub.vpon.com
+0.0.0.0 www.vpon.com
 #Wapsx
 0.0.0.0 ads.waps.cn
 0.0.0.0 ads.wapx.cn
