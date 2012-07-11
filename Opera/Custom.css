@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.321
+Version: 5.322
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 9:23 2012/7/9
@@ -153,7 +153,7 @@ a[href^="http://click.simba.taobao.com"],a[href*="http://click.mz.simba.taobao.c
 div[id^="p4pblock"],div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],div[id="p4p-sidebar"],section[class="hotsale"],ul[class="p4p-list"]{display:none !important}
 
 /* 框架过滤 */
-iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"],a[href^="adredir.php?"]{display: none !important;}
+div[id^="cnzz_"],iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"],a[href^="adredir.php?"]{display: none !important;}
 a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{display:none !important}
 
 /* 浮动广告过滤 */
