@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.322
+Version: 5.323
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 9:23 2012/7/9
+Lastchage: 19:11 2012/7/11
 Description: MayBe a better User CSS Help U.
 */
 
@@ -85,7 +85,7 @@ div[class="banner"][id^="banner"],div[class*="topBanner"],div[class="topbanner"]
 display: none !important;
 	}
 div[id^="adword"],div[id="splink"],div[id="clickbg"],div[id^="text_ad"],div[id="push-down-ad"],
-div[class^="adword"],div[class^="adtxt"],div[class^="txtads"],div[class="textMes"]{
+div[class^="adword"],div[class^="adtxt"],div[class^="txtads"],div[class="textMes"],div[class^="page_ad "]{
 display: none !important;
 	}
 td[id^="adp_"],td[class="adslot"],td[class="ad"],iframe[id$="_tuiguang"],
@@ -96,7 +96,7 @@ span[id^="ad_"],span[class="adlink"],span[class="ads_sponcer"],span[class="bdad"
 span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"],span[class*="AdWrapper"]{
 display: none !important;
 	}
-table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],
+table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],table[class="advtable"],
 img[id^="ad"],img[class="ad"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
 display: none !important;
 	}
