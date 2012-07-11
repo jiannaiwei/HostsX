@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-9:23 2012/7/9
+15:39 2012/7/11
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -195,12 +195,11 @@ Alt+F4 退出
 Alt+A  收藏夹菜单
 Alt+B  BugMeNot
 Alt+C  Simpleu快捷分享
-Alt+D  显示盗链图片
 Alt+E  编辑模式
 Alt+F  视频解析
 Alt+G  Google快照
 Alt+H  老板键，快速隐藏opera到托盘
-Alt+I  快捷分享
+Alt+I  显示盗链图片
 Alt+J  启用/禁用JS
 Alt+K  删除私人数据
 Alt+L  复制页面标题和链接
