@@ -1,5 +1,5 @@
 
-;version=22:32 2012/7/10
+;version=15:41 2012/7/11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1809,7 +1809,6 @@ fe80::1%lo0	localhost
 127.0.0.1 sponsor.verycd.com
 #Î÷Â½Íø
 127.0.0.1 a.xilu.com
-127.0.0.1 content.xilu.com
 127.0.0.1 stat.xilu.com
 127.0.0.1 test.xilu.com
 #´óÆìÍø

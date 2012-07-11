@@ -1,5 +1,9 @@
-;version=14:01 2012/7/5
+;version=15:42 2012/7/11
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致西陆社区页面无法正常显示。
+content.xilu.com
+$DELETE
 
 #导致PcHome页面无法正常显示。
 icon-z.pchome.net
