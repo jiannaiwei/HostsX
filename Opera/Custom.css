@@ -6,7 +6,7 @@ Name: /广告过滤
 Version: 5.326
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 16:09 2012/7/12
+Lastchage: 20:44 2012/7/12
 Description: MayBe a better User CSS Help U.
 */
 
@@ -28,7 +28,7 @@ div[class^="ads"],div[class^="adS"],div[class^="adv"],div[class^="adx"]{
 display: none !important;
 	}
 div[class^="adindex"],div[class^="adFrame"],div[class*=" adspace"],div[class*="_ad_img"],
-div[class$="ad_block"],div[class="ades"],div[class^="Indexad"],
+div[class$="ad_block"],div[class="ades"],div[class^="Indexad"],div[class*="cvAd"],
 div[class="flashNews"],div[class="business"],div[class^="other_adv"]{
 display: none !important;
 	}

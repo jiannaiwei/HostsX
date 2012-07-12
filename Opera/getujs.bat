@@ -1,11 +1,11 @@
 @echo off
 pushd %~dp0
 del *.user.jsx
-del DBankLinker.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js CleanPlayer.user.js goglrwt.js
+del Super_preloader.db.js DBankLinker.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrwt.js
 wget http://userscripts.org/scripts/source/105184.user.js
 ren 105184.user.js angerOfPresident.user.jsx
-wget http://userscripts.org/scripts/source/120679.user.js
-ren 120679.user.js CleanPlayer.user.jsx
+rem wget http://userscripts.org/scripts/source/120679.user.js
+rem ren 120679.user.js CleanPlayer.user.jsx
 wget http://userscripts.org/scripts/source/64877.user.js
 ren 64877.user.js Enhanced-word-highlight.user.jsx
 wget http://userscripts.org/scripts/source/88932.user.js
@@ -26,4 +26,5 @@ wget http://userscripts.org/scripts/source/91662.user.js
 ren 91662.user.js doubaniask.user.js
 wget http://userscripts.org/scripts/source/128239.user.js
 ren 128239.user.js TianyaRead.user.js
+wget http://Hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 msg %username% /time:3 "【UserJs数据已更新！】"
