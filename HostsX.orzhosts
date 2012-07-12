@@ -1,5 +1,5 @@
 
-;version=15:41 2012/7/11
+;version=16:01 2012/7/12
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -805,12 +805,16 @@ fe80::1%lo0	localhost
 0.0.0.0 track2.ra.icast.cn
 #Эјвз163
 0.0.0.0 analytics.ws.126.net
+0.0.0.0 swf.ws.126.net
+0.0.0.0 letv.ws.126.net
+0.0.0.0 stat.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 stat.ws.126.net
 0.0.0.0 flv.bn.netease.com
 0.0.0.0 img2.126.net
 0.0.0.0 listen.ph.126.net
 0.0.0.0 adc.163.com
+0.0.0.0 ntes-analytics.163.com
 0.0.0.0 adclient.163.com
 0.0.0.0 adgeo.163.com
 0.0.0.0 adimg.163.com
