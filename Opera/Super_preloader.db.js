@@ -377,6 +377,14 @@
 				pageElement:'//div[@class="t5 t2"]',
 			}
 		},
+		{siteName:'游民星空',
+			url:/http:\/\/www\.gamersky\.com\/news/i,
+			siteExample:'http://www.gamersky.com/news/201207/206490.shtml',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@class="act mid"]',
+			}
+		},
 		{siteName:'猴岛论坛',
 			url:/^http:\/\/bbs\.houdao\.com/i,
 			siteExample:'http://bbs.houdao.com/f142',
