@@ -1,4 +1,4 @@
-;version=15:42 2012/7/11
+;version=9:54 2012/7/15
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致西陆社区页面无法正常显示。
@@ -311,6 +311,7 @@ upexe.pplive.com
 $DELETE
 
 #第三方数据的错误过滤，导致部分网站无法打开。
+www.xp500.com
 gb.cri.cn
 photo.staticsdo.com
 go.maxthon.cn
