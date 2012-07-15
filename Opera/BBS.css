@@ -24,5 +24,5 @@ td[class="postcontent postbottom"]{
 min-height:0px !important;
 }
 
-#footer,#header,div[class="quote"],div[class="postact s_clear"],td[class="postcontent postbottom"]{display: none !important;}
+#footer,#header,div[class="quote"],div[class^="related"],td[class="floot_left"],div[class^="floot_left"],div[class="postact s_clear"],td[class="postcontent postbottom"]{display: none !important;}
 .modaction,.useraction,dl[class="newrate"],td[class="plc plm"],td[class="postauthor"]{display: none !important;}
