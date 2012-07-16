@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 21:34 2012/7/12
+// @lastmodified 21:50 2012/7/16
 // @version 1.0.0.5
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://bbs.operachina.com/viewtopic.php?f=41&t=74923
@@ -375,6 +375,14 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@class="t5 t2"]',
+			}
+		},
+		{siteName:'乐优文学',
+			url:/http:\/\/www\.4619\.cn\/html\/\d+\/\d+/i,
+			siteExample:'http://www.4619.cn/html/2010/1365063.html',
+			nextLink:'//div[@class="page"]/a[text()="下页→"][@href]',
+			autopager:{
+				pageElement:'//div[@id="partbody"]',
 			}
 		},
 		{siteName:'游民星空',
