@@ -1357,6 +1357,7 @@ fe80::1%lo0	localhost
 0.0.0.0 cm.p4p.cn.yahoo.com
 0.0.0.0 cn.promo.yahoo.com
 0.0.0.0 img.mmcdn.cn
+0.0.0.0 i.mmcdn.cn
 0.0.0.0 js.tongji.cn.yahoo.com
 0.0.0.0 js.tongji.yahoo.com.cn
 0.0.0.0 new.rd.cn.yahoo.com
@@ -2222,6 +2223,7 @@ fe80::1%lo0	localhost
 0.0.0.0 pole.6rooms.com
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
+0.0.0.0 shrek.6.cn
 #i∆Ê“’
 0.0.0.0 minisite.qiyi.com
 0.0.0.0 policy.cupid.qiyi.com
