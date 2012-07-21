@@ -1,5 +1,5 @@
 @echo off
-set ver=3.886
+set ver=1.0
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -673,7 +673,21 @@ goto:eof
 :GoogleIP
 echo #Google By FGQI >>%hosts%
 echo %gg% drive.google.com >>%hosts%
+echo %gg% doc-1-ac-docs.googleusercontent.com >>%hosts%
 echo %gg% doc-10-3o-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-11-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-12-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-13-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-14-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-2-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-3-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-4-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-5-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-6-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-7-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-8-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-8-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-9-ac-docs.googleusercontent.com >>%hosts%
 echo %gg% play.google.com >>%hosts%
 echo %gg% 0-focus-opensocial.googleusercontent.com >>%hosts%
 echo %gg% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
