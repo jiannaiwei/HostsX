@@ -1,9 +1,28 @@
 ﻿@charset "utf-8";
 /*
 Name: /浏览辅助
-Version:1.3
+Version:1.5
 Description: Opera Default & Plus Style.
 */
+
+/*当前标签打开该链接，链接显示红色*/
+a:hover{
+color: red !important;/*链接颜色自定义*/
+text-shadow:-5px 3px 18px #F90 !important;/*链接阴影*/
+-o-transition: all 0.2s ease-out;/*链接变色动画显示时长及类型，具体参考相关资料*/
+}
+
+/*图片在当前标签打开。 图片放大1.05倍*/
+img:hover { 
+-o-transform: scale(1.05) rotate(0deg);
+-o-transition: all 0.3s ease-out;
+}
+
+/*当前标签打开该链接，链接显示红色，放大1.05倍*/
+a[target="_blank"]>img:hover{
+-o-transform: scale(1.0) rotate(5deg);/*不放大，旋转角度，顺时针5度*/
+-o-transition: all 0.3s ease-out;
+}
 
 /*输入框类chrome高亮*/
 input:not([type='submit']):not([type='reset']):not([type='button']):not([type='checkbox']):not([type='radio']):focus, textarea:focus, select:focus{ border:1px solid #0099FF;  box-shadow: 1px 1px 0 #0099FF, 1px -1px 0 #0099FF, -1px 1px 0 #0099FF, -1px -1px 0 #0099FF, 0px 0px 5px 1px #0099FF !important;  border-radius:3px!important; }
