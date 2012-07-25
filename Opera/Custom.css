@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x12
+Version: 5.x13
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 22:46 2012/7/13
@@ -80,8 +80,8 @@ display: none !important;
 
 /* Banner & Flash & Word AD*/
 div[id^="banner0"],div[id^="banner1"],div[class^="banner2"],div[class^="banner7"],div[class^="banner9"]{display: none !important;}
-div[class*="ad-banner"],div[class^="banner-"],div[class="banner"]>dl,div[id="bannerPanel"],div[class="banner"][id^="adsp_content"],
-div[class="banner"][id^="banner"],div[class*="topBanner"],div[class="topbanner"]{
+div[class*="ad-banner"],div[class^="banner-"],div[class="banner"]>dl,div[id="bannerPanel"],
+div[class="banner"][id^="adsp_content"],div[class="banner"][id^="banner"],div[class*="topBanner"]{
 display: none !important;
 	}
 div[id^="adword"],div[id="splink"],div[id="clickbg"],div[id^="text_ad"],div[id="push-down-ad"],
