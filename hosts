@@ -1,5 +1,5 @@
 
-;version=11:36 2012/7/18
+;version=20:22 2012-07-25
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -10911,6 +10911,7 @@ fe80::1%lo0	localhost
 127.0.0.1 bean.r.arpg2.com
 127.0.0.1 chess.r.arpg2.com
 127.0.0.1 cybor.r.arpg2.com
+127.0.0.1 tsrjtl.r.arpg2.com
 127.0.0.1 dam.r.arpg2.com
 127.0.0.1 dots.r.arpg2.com
 127.0.0.1 dx.arpg2.com
@@ -10930,6 +10931,8 @@ fe80::1%lo0	localhost
 127.0.0.1 xiaohua.r.arpg2.com
 127.0.0.1 xybor.r.arpg2.com
 127.0.0.1 yithgao.r.arpg2.com
+127.0.0.1 cpm.webxgame.com
+127.0.0.1 r.webxgame.com
 127.0.0.1 tg1.hlwan.com
 127.0.0.1 tg2.hlwan.com
 127.0.0.1 111a.hlwan.net
@@ -11106,7 +11109,6 @@ fe80::1%lo0	localhost
 127.0.0.1 cpm.jiuwan.com
 127.0.0.1 cpm.uoyoo.cn
 127.0.0.1 cpm.uutu.com.cn
-127.0.0.1 cpm.webxgame.com
 127.0.0.1 cpm.zzsf.com
 127.0.0.1 cpp.ggyad.com
 127.0.0.1 cps.freedom-game.com
