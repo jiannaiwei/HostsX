@@ -1,5 +1,5 @@
 
-;version=20:22 2012-07-25
+;version=18:54 2012-07-26
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -809,9 +809,10 @@ fe80::1%lo0	localhost
 0.0.0.0 stat.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 stat.ws.126.net
-0.0.0.0 flv.bn.netease.com
 0.0.0.0 img2.126.net
 0.0.0.0 listen.ph.126.net
+0.0.0.0 flv.bn.netease.com
+0.0.0.0 union.netease.com
 0.0.0.0 adc.163.com
 0.0.0.0 ntes-analytics.163.com
 0.0.0.0 adclient.163.com
