@@ -1,5 +1,5 @@
 
-;version=6:21 2012-07-28
+;version=21:38 2012-07-30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8992,6 +8992,10 @@ fe80::1%lo0	localhost
 127.0.0.1 v1.textclick.com
 127.0.0.1 textclick.com
 127.0.0.1 www.textlink.cn
+#T3nlink
+127.0.0.1 go.t3nlink.com
+127.0.0.1 img.t3nlink.com
+127.0.0.1 s.t3nlink.com
 #Targetedmedia
 127.0.0.1 e.banmamedia.com
 127.0.0.1 un2.banmamedia.com
