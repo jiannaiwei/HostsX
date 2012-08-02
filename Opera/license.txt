@@ -1,12 +1,13 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-19:53 2012-07-25
+20:38 2012-08-02
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
 删除旧版后，安装新版，恢复个人数据。谢谢！
 
-SimpleU定制版下载：http://sdrv.ms/L1ihpd
+SimpleU定制版下载：http://www.everbox.com/f/xdPFcKSMhnWYliSCdchbxb6m5R
+                   http://sdrv.ms/L1ihpd
          更新日志：http://bbs.operachina.com/viewtopic.php?f=15&t=88316&p=545868#p545876
 
  Opera 官方版下载：ftp://ftp.opera.com/pub/opera/win/

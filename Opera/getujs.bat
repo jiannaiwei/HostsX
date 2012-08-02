@@ -1,11 +1,11 @@
 @echo off
 pushd %~dp0
 del *.user.jsx
-del Super_preloader.db.js DBankLinker.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrwt.js
+del CleanPlayer.user.js Super_preloader.db.js DBankLinker.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrwt.js
 wget http://userscripts.org/scripts/source/105184.user.js
 ren 105184.user.js angerOfPresident.user.jsx
 wget http://userscripts.org/scripts/source/120679.user.js
-ren 120679.user.js CleanPlayer.user.jsx
+ren 120679.user.js CleanPlayer.user.js
 wget http://userscripts.org/scripts/source/138814.user.js
 ren 138814.user.js Xunlei.Any.Player.user.jsx
 wget http://userscripts.org/scripts/source/64877.user.js
