@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:06 2012-07-23
+// @lastmodified 20:13 2012-08-03
 // @version 1.0.0.5
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://bbs.operachina.com/viewtopic.php?f=41&t=74923
@@ -375,6 +375,15 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@class="t5 t2"]',
+			}
+		},
+		{siteName:'小说570',
+			url:/http:\/\/www\.xiaoshuo570\.com/i,
+			siteExample:'http://www.xiaoshuo570.com/11/11844/2678383.html',
+			nextLink:'//div[@id="thumb"]/a[text()="下一页"][@href]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="fonts_big"]',
 			}
 		},
 		{siteName:'乐优文学',
