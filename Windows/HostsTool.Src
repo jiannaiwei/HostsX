@@ -1,5 +1,5 @@
 @echo off
-set ver=1.01
+set ver=1.02
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -130,6 +130,7 @@ echo FlushDns...
 ipconfig -flushdns >nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
+del %SystemRoot%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
@@ -1840,25 +1841,25 @@ echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
 goto:eof
 
 :opinst
-mshta vbscript:msgbox("请务必在安装使用前详细阅读服务条款中的内容和问题解答！！！",64,"Opera SimpleU Edition")(window.close)
+mshta vbscript:msgbox("请务必在安装使用前详细阅读服务条款中的内容和问题解答！！！",64,"U+ Opera")(window.close)
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
 exit
 
 :opupdate
 pushd %~dp0
 if not exist %a%\wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
-Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
+Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"U+")(window.close)&Pause
 echo 正在下载数据，请稍候... ...
 del /f /q operaprefs_default.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
 msg %username% /time:2 "【默认配置已更新！】"
 cd profile\script
 del *.user.jsx
-del DBankLinker.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js CleanPlayer.user.js goglrwt.js
+del CleanPlayer.user.js Super_preloader.db.js DBankLinker.js doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrwt.js
 wget http://userscripts.org/scripts/source/105184.user.js
 ren 105184.user.js angerOfPresident.user.jsx
-wget http://userscripts.org/scripts/source/120679.user.js
-ren 120679.user.js CleanPlayer.user.jsx
+wget http://userscripts.org/scripts/source/138814.user.js
+ren 138814.user.js Xunlei.Any.Player.user.jsx
 wget http://userscripts.org/scripts/source/64877.user.js
 ren 64877.user.js Enhanced-word-highlight.user.jsx
 wget http://userscripts.org/scripts/source/88932.user.js
@@ -1867,8 +1868,6 @@ wget http://userscripts.org/scripts/source/45836.user.js
 ren 45836.user.js xiaonei_reformer.min.user.jsx
 wget http://userscripts.org/scripts/source/103552.user.js
 ren 103552.user.js doubanimdb.user.js
-wget http://userscripts.org/scripts/source/116879.user.js
-ren 116879.user.js DBankLinker.js
 wget http://userscripts.org/scripts/source/129215.user.js
 ren 129215.user.js OnlinedownNoAds.user.jsx
 wget http://userscripts.org/scripts/source/129534.user.js
@@ -1879,6 +1878,7 @@ wget http://userscripts.org/scripts/source/91662.user.js
 ren 91662.user.js doubaniask.user.js
 wget http://userscripts.org/scripts/source/128239.user.js
 ren 128239.user.js TianyaRead.user.js
+wget http://Hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 msg %username% /time:3 "【UserJs数据已更新！】"
 cd ..
 del override.ini search.ini urlfilter.ini
@@ -2031,6 +2031,6 @@ del fgqi.bat /q
 exit
 
 :thanks
-msg %username% /time:12 "如果您觉得U+系列软件：Opera SimpleU定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
+msg %username% /time:12 "如果您觉得U+系列软件：Opera U+定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
 start iexplore https://me.alipay.com/vokins &msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】"
 goto:eof
