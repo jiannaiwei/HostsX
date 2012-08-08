@@ -1350,6 +1350,7 @@ fe80::1%lo0	localhost
 0.0.0.0 yjaxc.yahoo.co.jp
 0.0.0.0 rd.ane.yahoo.co.jp
 #Yahoo.com.cn
+0.0.0.0 www.aliyk.com
 0.0.0.0 click.tanx.com
 0.0.0.0 p.tanx.com
 0.0.0.0 aliunion.cn.yahoo.com
@@ -2288,16 +2289,6 @@ fe80::1%lo0	localhost
 0.0.0.0 analytics.ku6.com
 0.0.0.0 pq.stat.ku6.com
 0.0.0.0 st.vq.ku6.cn
-0.0.0.0 stat0.888.ku6.com
-0.0.0.0 stat1.888.ku6.com
-0.0.0.0 stat2.888.ku6.com
-0.0.0.0 stat3.888.ku6.com
-0.0.0.0 static.ku6.com
-0.0.0.0 v0.stat.ku6.com
-0.0.0.0 v1.stat.ku6.com
-0.0.0.0 v2.stat.ku6.com
-0.0.0.0 v3.stat.ku6.com
-0.0.0.0 youyou.ku6.com
 #¼¤¶¯Íø
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86mms.megajoy.com
@@ -10305,6 +10296,7 @@ fe80::1%lo0	localhost
 0.0.0.0 pv.bbapp.net
 @HostsX ¿ÉÒÉ²¡¶¾À¹½Ø
 #µöÓãÕ©Æ­
+0.0.0.0 www.vanbv.com
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
 0.0.0.0 zx.98712.com
@@ -10558,6 +10550,7 @@ fe80::1%lo0	localhost
 0.0.0.0 zxrj.400fly.com
 0.0.0.0 3g.wjdb007.com
 0.0.0.0 www.fengxiong.hk
+0.0.0.0 www.qq.com.2012r.in
 #ä¯ÀÀÆ÷½Ù³Ö
 0.0.0.0 054.cc
 0.0.0.0 1188.com
@@ -11573,4 +11566,3 @@ fe80::1%lo0	localhost
 0.0.0.0 u.otwan.com
 0.0.0.0 tuiguang.yirenw.com
 0.0.0.0 cp.5228167.com
-
