@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x13
+Version: 5.x15
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 22:46 2012/7/13
@@ -69,7 +69,7 @@ display: none !important;
 	}
 	
 /* GG */
-div[class="gg"],div[class^="gg_"],div[class*="gg-"],div[class^="gg2"],div[class^="gg3"],div[class$="-gg"],
+div[class="gg"],div[class="gg01"],div[class^="gg_"],div[class*="gg-"],div[class^="gg2"],div[class^="gg3"],div[class$="-gg"],
 div[class^="ggAD"],div[class^="topgg"],ul[class^="gg"],span[class^="gg"],div[class="ggSideBox"]{
 display: none !important;
 	}
@@ -84,7 +84,7 @@ div[class*="ad-banner"],div[class^="banner-"],div[class="banner"]>dl,div[id="ban
 div[class="banner"][id^="adsp_content"],div[class="banner"][id^="banner"],div[class*="topBanner"]{
 display: none !important;
 	}
-div[id^="adword"],div[id="splink"],div[id="clickbg"],div[id^="text_ad"],div[id="push-down-ad"],
+div[id^="adword"],div[id="splink"],div[id="clickbg"],div[id^="adText"],div[id^="text_ad"],div[id="push-down-ad"],
 div[class^="adword"],div[class^="adtxt"],div[class^="txtads"],div[class^="page_ad "]{
 display: none !important;
 	}

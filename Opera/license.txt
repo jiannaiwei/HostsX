@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:38 2012-08-02
+10:16 2012-08-09
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -593,9 +593,6 @@ Include,Internal skin list
 Item, "----当前站点识别----"=Show popup menu
 Item,"使用迅雷下载"=Execute Program, "Optools\XLNonIESvr.exe", "@%l %u",,"Thunder""
 Item,"使用迅雷下载全部链接"=Execute Program, "Optools\XLNonIESvr.exe", "#%s %u",,"Thunder""
-;Item, 例外站点不使用代理=Set preference, "Proxy|No Proxy Servers Check=1",,"部分网址不用代理" | Set preference, "Proxy|No Proxy Servers Check=0"
-;Item, "为代理启用 HTTP 1.1"=Set preference, "Proxy|Enable HTTP 1.1 for proxy=1",, | Set preference, "Proxy|Enable HTTP 1.1 for proxy=0"
-;Item,"关闭代理及程序=execute program,"cmd.exe","/c taskkill /im fgx.exe  /f /t || taskkill /im fg.exe || taskkill /im freeg.exe || taskkill /im freeu.exe || taskkill /im puff.exe || taskkill /im proxy.exe || taskkill /im u.exe /f" ,,"Expand Disabled"& Disable proxy servers
 ;Item,"关闭全局代理=Disable proxy servers
 ;Item, "释放Opera内存"="Execute program, "optools\empty.exe", "opera.exe", , "empty""
 ;右键点击托盘图标的弹出菜单：[Tray Popup Menu]
