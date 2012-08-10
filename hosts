@@ -1,5 +1,5 @@
 
-;version=7:59 2012-08-10
+;version=14:40 2012-08-10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -6394,6 +6394,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ds.serving-sys.com
 127.0.0.1 serving-sys.com
 127.0.0.1 us.bs.serving-sys.com
+127.0.0.1 bsch.serving-sys.com
 #Sexybabesx127.0.0.1 adrianalima.sexybabesx.com
 127.0.0.1 aliciakeys.sexybabesx.com
 127.0.0.1 amandabynes.sexybabesx.com
