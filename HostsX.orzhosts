@@ -1,5 +1,5 @@
 
-;version=21:50 2012-08-07
+;version=7:59 2012-08-10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9230,6 +9230,7 @@ fe80::1%lo0	localhost
 0.0.0.0 report.adview.cn
 0.0.0.0 www.adview.cn
 #Appmedia
+0.0.0.0 api.appmedia.cn
 0.0.0.0 www.appmedia.cn
 0.0.0.0 img.appmedia.cn
 #Appads
@@ -9660,6 +9661,12 @@ fe80::1%lo0	localhost
 0.0.0.0 assets.zestadz.com
 0.0.0.0 www.zestadz.com
 #WapSite
+0.0.0.0 www.zhesm.com
+0.0.0.0 bos.ads0.nexage.com
+0.0.0.0 apps.outfit7.com
+0.0.0.0 c53.smaato.net
+0.0.0.0 as.adfonic.net
+0.0.0.0 da.feedsportal.com
 0.0.0.0 www.anadmob.net
 0.0.0.0 noticemob.com
 0.0.0.0 ad.moji001.com
