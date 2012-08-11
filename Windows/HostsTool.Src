@@ -1,5 +1,5 @@
 @echo off
-set ver=1.02
+set ver=1.03
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -673,6 +673,8 @@ goto:eof
 
 :GoogleIP
 echo #Google By FGQI >>%hosts%
+echo %gg% hostsx.googlecode.com >>%hosts%
+echo %gg% ntrqq.googlecode.com >>%hosts%
 echo %gg% drive.google.com >>%hosts%
 echo %gg% doc-1-ac-docs.googleusercontent.com >>%hosts%
 echo %gg% doc-10-3o-docs.googleusercontent.com >>%hosts%
