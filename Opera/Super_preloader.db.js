@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:13 2012-08-03
+// @lastmodified 21:21 2012-08-12
 // @version 1.0.0.5
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://bbs.operachina.com/viewtopic.php?f=41&t=74923
@@ -172,7 +172,7 @@
 		{siteName:'百度贴吧帖子内容页面',
 			url:/^http:\/\/tieba\.baidu\.com\/p/i,
 			siteExample:'http://tieba.baidu.com/p/918674650',
-			nextLink:'//li[@class="l_pager"]/a[text()="下一页"]',
+			nextLink:'//li[@class="l_pager pager_theme_2"]/a[text()="下一页"]',
 			autopager:{
 				pageElement:'//div[@class="p_postlist"]',
 			}
