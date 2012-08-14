@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-10:16 2012-08-09
+19:54 2012-08-14
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -480,6 +480,7 @@ div[id^="forum_rules"] img {display: none !important;}
 div[id^="forum_rules"] a img {display: inline !important;}
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+div[class^="ad0"],http://www.dm5.com/manhua-updated/底部栏翻页行;<div id="search_fy" class="ad02">
 div[class="topbanner"],新蛋，今日炸蛋页面
 div[class="textMes"],猴岛论坛短消息内容。div[class="textMes"],
 div[class^="topA"],环球军事头栏<div class="topAll">
