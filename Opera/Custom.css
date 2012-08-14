@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x18
+Version: 5.x2
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 19:53 2012-08-14
+Lastchage: 20:58 2012-08-14
 Description: MayBe a better User CSS Help U.
 */
 
@@ -78,6 +78,12 @@ div[class$="guanggao"],div[id^="guanggao_"],div[id^="gg"][style$="px"]{
 display: none !important;
 	}
 
+/* Adult WebSite AD*/
+div[id="rightdiv"],div[id="leftdiv"],div[id="tuiguang"],div[id^="lovexin"],
+div[id="piaofu"],div[class="piaofu"],span[id^="myads"]{
+display: none !important;
+	}
+
 /* Banner & Flash & Word AD*/
 div[id^="banner0"],div[id^="banner1"],div[class^="banner2"],div[class^="banner7"],div[class^="banner9"]{display: none !important;}
 div[class*="ad-banner"],div[class^="banner-"],div[class="banner"]>dl,div[id="bannerPanel"],
@@ -104,7 +110,7 @@ ul[class="ad"],ul[class="adwindow"],ul[class*="_ad"],ul[id*="listAD"],ul[class*=
 ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"],ul[class="ad_doc_text"]{
 display: none !important;
 	}
-aside[class="advertisement"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"]
+aside[class="advertisement"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"],
 object[class="ad_falsh"]{
 display: none !important;
 	}
