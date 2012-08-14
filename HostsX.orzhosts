@@ -937,6 +937,7 @@ fe80::1%lo0	localhost
 0.0.0.0 p4pstatic.xunlei.com
 0.0.0.0 plugin.xl7.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
+0.0.0.0 res.stat.xunlei.com
 0.0.0.0 recommend.xunlei.com
 0.0.0.0 search.daquan.xunlei.com
 0.0.0.0 skin.client.xunlei.com
