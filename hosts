@@ -1,5 +1,5 @@
 
-;version=21:10 2012-08-14
+;version=21:24 2012-08-14
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -810,7 +810,6 @@ fe80::1%lo0	localhost
 127.0.0.1 letv.ws.126.net
 127.0.0.1 stat.ws.126.net
 127.0.0.1 img1.126.net
-127.0.0.1 stat.ws.126.net
 127.0.0.1 img2.126.net
 127.0.0.1 listen.ph.126.net
 127.0.0.1 flv.bn.netease.com
@@ -9241,7 +9240,6 @@ fe80::1%lo0	localhost
 #Appads
 127.0.0.1 an.appads.com
 127.0.0.1 img.appads.com
-127.0.0.1 an.appads.com
 127.0.0.1 neptune.appads.com
 #Adsage
 127.0.0.1 config.adsage.com
@@ -9747,7 +9745,6 @@ fe80::1%lo0	localhost
 127.0.0.1 wap.cellufun.com
 127.0.0.1 www.admarket.mobi
 127.0.0.1 www.adtouchnetwork.com
-127.0.0.1 www.appmedia.cn
 127.0.0.1 www.guohead.com
 127.0.0.1 www.speedtong.net
 127.0.0.1 www.spjoy.com
@@ -11574,6 +11571,7 @@ fe80::1%lo0	localhost
 127.0.0.1 s.18819.com
 127.0.0.1 union.suda123.com
 127.0.0.1 u.caogenhui.cn
+127.0.0.1 js.caogenhui.cn
 127.0.0.1 u.otwan.com
 127.0.0.1 tuiguang.yirenw.com
 127.0.0.1 cp.5228167.com
@@ -11585,6 +11583,8 @@ fe80::1%lo0	localhost
 127.0.0.1 www.zzxa.info
 127.0.0.1 googleadsensejump.xuanhaowang.net
 127.0.0.1 t.92nb.info
-127.0.0.1 www.zzxa.info
 127.0.0.1 www.wangzhan5.com
-
+127.0.0.1 888k7.com
+127.0.0.1 jump.top123.com.lt258.com
+127.0.0.1 img.cmsem.com
+127.0.0.1 code.345ads.com
