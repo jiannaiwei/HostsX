@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-23:21 2012-08-14
+0:04 2012-08-15
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -552,6 +552,10 @@ div[class$="adclass"],div[class^="adclass"],
 div[class^="adBlock "],div[class^="adBlk ad"],
 div[align="center"][id^="ad"],center>div[id^="AD"],div[id^="AD"][style*="w"]
 
+ 
+;Item,启用全局代理=Disable proxy servers,,,,proxy_all & Open url in new page,"opera:config" & Delay,10 & Enable proxy servers & Go to page,"javascript:var allExc=opera.getPreference('Proxy','No Proxy Servers'),usePAC='proxy_type.pac',useALL='proxy_type.all';if(allExc.indexOf(usePAC)==-1 && allExc.indexOf(useALL)==-1){allExc+=','+useALL}else if(allExc.indexOf(usePAC)!=-1){allExc=allExc.replace(usePAC,useALL)}opera.setPreference('Proxy','No Proxy Servers',allExc);opera.setPreference('Proxy','Use Automatic Proxy Configuration',0);window.close()"& delay,50 & close page
+Item, "为代理启用 HTTP 1.1"=Set preference, "Proxy|Enable HTTP 1.1 for proxy=1",, | Set preference, "Proxy|Enable HTTP 1.1 for proxy=0"
+Item, -455450218=Work offline | Work online
  & close page
 [Fast menu]
 Item, "自动"="Set preference, "User Prefs|Enable Hardware Acceleration=1""
