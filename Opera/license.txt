@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-19:54 2012-08-14
+23:21 2012-08-14
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -304,61 +304,65 @@ URL=http://mail.qq.com/cgi-bin/feed?u=%s
 
 ui/fastforward.ini 修改:
 ;Chinese (traditional and simplified)
+前进
+继续
+翻页
+下页
+下頁
+下篇
+后页
+后页>
+往后>>
 下一頁
-下一页
+下一页=101
+下一页>
+下一页>>
+下一个
+下一张
+下一张 >
+下一幅
+下一幅 >
+下一章
+下一节
+下一節
+下一篇
+后一页=90
+下一步
+翻下页
+翻下頁
+看下一页
+下一页（快捷键→）
+"[下頁]"
+"[下页]"
+"[继续]"
+"[下一頁]"
+"[下一页]"
+"[翻下頁]"
+"[翻下页]"
+---------------
 ;douban.com
 更多小组讨论 = 102
 ;Wordpress
 "« 上一页" = 110
-"[下一頁]"
-"[下一页]"
-"[下頁]"
-"[下页]"
 "[繼續]"
-"[继续]"
-"[翻下頁]"
-"[翻下页]"
 "« 上一頁" = 200
-下一个
 下一個
-下一幅
-下一幅 >
 下一张 = 102
-下一张 >
 下一張
-下一步
-下一章
-下一節
-下一篇
-下一节
 下一頁>
 下一頁>>
 下一頁（快捷鍵→）
-下一页>
-下一页>>
-下一页（快捷键→）
-下篇
-下頁
-下页
-前进
+下一页
 前進
-后一页=90
-后页
 后页> = 102
-往后>>
 往後>>
 後一頁 = 90
 後頁
 後頁>
 更多 = 102
 看下一頁
-看下一页
 繼續
-继续
-翻下頁
-翻下页
 翻頁
-翻页
 
 
 skin\SimpleU.zip\skin.ini  皮肤元素修改：http://jude.im/opera/skin.html
@@ -372,13 +376,15 @@ Padding Right       = 4
 Margin Left         = 2
 Margin Right        = 2
 
-;Mod By SimpleU 22:22 2012-07-24
+;Mod By SimpleU 13:51 2012-08-10
 #Favicon
 alexa            =simpleu/favicon/alexa.png
 baidu            =simpleu/favicon/baidu.png
 bing             =simpleu/favicon/bing.png
 blogger          =simpleu/favicon/blogger.png
 bugmenot         =simpleu/favicon/bugmenot.png
+compete          =simpleu/favicon/compete.png
+dbank            =simpleu/favicon/dbank.png
 delicious        =simpleu/favicon/delicious.png
 diandian         =simpleu/favicon/diandian.png
 dict             =simpleu/favicon/Dict.png
@@ -408,6 +414,7 @@ someyi           =simpleu/favicon/someyi.png
 tianya           =simpleu/favicon/tianya.png
 tieba            =simpleu/favicon/tieba.png
 tineye           =simpleu/favicon/tineye.png
+tinyurl          =simpleu/favicon/tinyurl.png
 translation      =simpleu/favicon/translation.png
 twitter          =simpleu/favicon/twitter.png
 whois            =simpleu/favicon/whois.png
@@ -442,6 +449,7 @@ firefox          =simpleu/program/firefox.png
 ie               =simpleu/program/ie.png
 
 #Proxy
+advor            =simpleu/proxy/advor.png
 fg               =simpleu/proxy/fg.png
 fu               =simpleu/proxy/fu.png
 gapp             =simpleu/proxy/gapp.png
@@ -455,6 +463,7 @@ tor              =simpleu/proxy/tor.png
 wapp             =simpleu/proxy/wapp.png
 wito             =simpleu/proxy/wito.png
 wj               =simpleu/proxy/wj.png
+
 
 
 -----------------------------------------------------------------------
