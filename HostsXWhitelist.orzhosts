@@ -1,5 +1,9 @@
-;version=9:54 2012/7/15
+;version=21:51 2012-08-15
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致Pcpop部分页面无法正常翻页。
+count.pcpop.com
+$DELETE
 
 #导致西陆社区页面无法正常显示。
 content.xilu.com
