@@ -660,6 +660,7 @@ fe80::1%lo0	localhost
 0.0.0.0 pagead-dclk.l.google.com
 0.0.0.0 mobileads.google.com
 0.0.0.0 mobwin.android.com
+0.0.0.0 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
 0.0.0.0 m1.baidu.com
 0.0.0.0 mobads.baidu.com
