@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 21:21 2012-08-12
+// @lastmodified 23:02 2012-08-15
 // @version 1.0.0.5
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://bbs.operachina.com/viewtopic.php?f=41&t=74923
@@ -409,6 +409,15 @@
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//div[@class="act mid"]',
+			}
+		},
+		{siteName:'开心文学',
+			url:/http:\/\/www\.kxwxw\.net\/files\/article\/html\/\d+\/\d+/i,
+			siteExample:'http://www.kxwxw.net/files/article/html/25/25917/1204282.html',
+			nextLink:'//div[@id="footlink"]/a[text()="下一页"][@href]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="content"]',
 			}
 		},
 		{siteName:'猴岛论坛',
