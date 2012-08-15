@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-0:04 2012-08-15
+22:46 2012-08-15
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -473,7 +473,7 @@ Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为�
 http://*/adm/*   新浪爱问资料网盘
 */js/ad*.js 可能为admin.js,而非广告 所以直接改为了 */js/ad.js
 http://*.tianjimedia.com/* 天极网css显示
-
+http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻页 http://tu.pcpop.com/pic-823469.htm#1
 
 论坛过滤备份，重复：
 div[class^="ad-"],

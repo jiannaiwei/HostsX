@@ -1,5 +1,5 @@
 
-;version=21:52 2012-08-15
+;version=22:18 2012-08-15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2245,6 +2245,9 @@ fe80::1%lo0	localhost
 0.0.0.0 bsg.unlitui.com
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 log.51network.com
+#AcFun
+0.0.0.0 img.linekong.com
+0.0.0.0 www.linekong.com
 #”≈ø·Õ¯
 0.0.0.0 ad.atm.youku.com
 0.0.0.0 atm.youku.com
