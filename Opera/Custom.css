@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x25
+Version: 5.x27
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 14:14 2012-08-17
+Lastchage: 21:46 2012-08-18
 Description: MayBe a better User CSS Help U.
 */
 
@@ -46,7 +46,7 @@ div[id*="AdContainer"],div[id*="allyesAdv"],div[id^="ADAREA"],div[id="adList"]{
 display: none !important;
 	}
 div[id^="AdZone"],div[id^="adhere"],div[id$="AdBanner"],div[id^="adspot"],
-div[id="adcontent"]{
+div[id="adcontent"],div[class*="-top-ads"]{
 display: none !important;
 	}
 
@@ -157,7 +157,7 @@ a[href*="www.baidu.com/baidu.php?"],a[href^="http://www.baidu.com/adrc.php"]{dis
 /* Taobao */
 [src*="网购排行：淘宝网最新热门东西"],[href*="网购排行：淘宝网最新热门东西"]{display:none !important}
 a[href^="http://click.simba.taobao.com"],a[href*="http://click.mz.simba.taobao.com/"],a[href*="http://s.click.taobao.com"]{display:none !important}
-div[id^="p4pblock"],div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],div[id="p4p-sidebar"],section[class="hotsale"],ul[class="p4p-list"]{display:none !important}
+div[id^="p4pblock"],div[class^="hotsale"],div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],div[id="p4p-sidebar"],section[class="hotsale"],ul[class="p4p-list"]{display:none !important}
 
 /* 框架过滤 */
 div[id^="cnzz_"],iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"],a[href^="adredir.php?"]{display: none !important;}
