@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x27
+Version: 5.x28
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 21:46 2012-08-18
@@ -81,6 +81,10 @@ display: none !important;
 /* Adult WebSite AD*/
 div[id="rightdiv"],div[id="leftdiv"],div[id="leftDiv"],div[id="rightDiv"],div[id*="_ads_div"],
 div[id="tuiguang"],div[id^="lovexin"],div[id="piaofu"],div[id$="_adImg"],span[id*="myads"]{
+display: none !important;
+	}
+/* TaiWan WebSite AD*/
+div[class="ecomlit"],div[class^="ecomblk"]{
 display: none !important;
 	}
 
