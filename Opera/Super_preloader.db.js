@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 23:02 2012-08-15
+// @lastmodified 21:35 2012-08-26
 // @version 1.0.0.5
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://bbs.operachina.com/viewtopic.php?f=41&t=74923
@@ -428,6 +428,14 @@
 				pageElement:'//div[@class="z threadCommon"] | //div[@class="mb10 bodd"]',
 			}
 		},
+                {siteName:'汽车之家论坛帖子列表页面',
+                        url:/^http:\/\/club\.autohome\.com\.cn\/bbs/i,
+                        siteExample:'http://club.autohome.com.cn/bbs/forum-c-2313-1.html',
+                        nextLink:'auto;',
+                        autopager:{
+                                pageElement:'//dl[@class="list_dl "][@lang] | //div[@class="conmain"]',
+                        }
+                },
 		{siteName:'书书网',
 			url:/http:\/\/www\.shushuw\.cn\/shu/i,
 			siteExample:'http://www.shushuw.cn/shu/28560/4509794.html',

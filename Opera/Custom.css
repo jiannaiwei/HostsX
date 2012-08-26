@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x29
+Version: 5.x3
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 21:46 2012-08-18
@@ -171,7 +171,7 @@ a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{dis
 div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{display:none !important}
 
 /* 各种提示隐藏 */
-div[class="tips_player"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
+div[id="browsertip"],div[class="tips_player"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
 
 /* 部分站点广告 */
 sohuadcode {display:none !important}
