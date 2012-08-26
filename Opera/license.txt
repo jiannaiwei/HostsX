@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-21:48 2012-08-18
+23:07 2012-08-26
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -256,7 +256,11 @@ g,t 用世界之窗浏览器打开
 插件选择与调整:
 ViewinIE插件：http://bbs.operachina.com/viewtopic.php?f=54&t=7730
 silverlight插件：http://www.microsoft.com/getsilverlight/get-started/install/default.aspx?reason=unsupportedbrowser
-Flash插件下载：http://fpdownload.adobe.com/get/flashplayer/current/install_flash_player.exe
+Flash插件下载：
+ 用于IE:
+ http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_11_active_x.exe
+ 用于其它：
+ http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_11_plugin.exe
 CNTV播放插件：http://t.live.cntv.cn/ieocx/CCTV_FF_Plug-in.xpi
 支付宝支付插件下载:https://download.alipay.com/aliedit/npaliedit/1302/npaliedit.exe
     支付宝安全控件 https://download.alipay.com/sec/edit/aliedit.exe
