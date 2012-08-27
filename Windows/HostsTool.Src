@@ -1,5 +1,5 @@
 @echo off
-set ver=1.06
+set ver=1.07
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -139,7 +139,7 @@ del /f /s /q "%userprofile%\recent">nul 2>nul
 ipconfig -flushdns >nul 2>nul
 ipconfig -registerdns >nul 2>nul
 ipconfig -renew >nul 2>nul
-call :youku >nul 2>nul
+call :youku
 goto:eof
 
 :youku
@@ -154,7 +154,21 @@ attrib +r static.youku.com
 start explorer.exe %HOMEPATH%\Application Data\Macromedia\Flash Player\#SharedObjects\%a%
 del %TEMP%\dirname.txt
 echo ***YouKu广告屏蔽完成***
-goto:eof
+goto:EOF
+
+:quitevbs
+>"%qt%" echo do
+>>"%qt%" echo set ws=createobject("wscript.shell")
+>>"%qt%" echo ws.run".\HostsTool.bat /q",vbhide
+>>"%qt%" echo wscript.sleep 7200000
+>>"%qt%" echo loop
+goto:EOF
+
+:dftvbs
+call :upcore
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
+copy %temp%\HostsX.orzhosts %hosts%
+call :temp&call :dns&msg %username% /time:1 "U+ Hosts data has been Updated！"&Exit
 
 :echoi
 echo Download and Update...
@@ -183,20 +197,6 @@ if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"HostsTool")(window.close)
 call :temp
 goto gui
-
-:dftvbs
-call :upcore
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
-copy %temp%\HostsX.orzhosts %hosts%
-call :temp&call :dns&msg %username% /time:1 "U+ Hosts data has been Updated！"&Exit
-
-:quitevbs
->"%qt%" echo do
->>"%qt%" echo set ws=createobject("wscript.shell")
->>"%qt%" echo ws.run".\HostsTool.bat /q",vbhide
->>"%qt%" echo wscript.sleep 7200000
->>"%qt%" echo loop
-goto:EOF
 
 :quiteup
 %k% wscript.exe
