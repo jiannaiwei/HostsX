@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 21:35 2012-08-26
+// @lastmodified 23:38 2012-08-27
 // @version 1.0.0.5
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://bbs.operachina.com/viewtopic.php?f=41&t=74923
@@ -256,7 +256,7 @@
 			siteExample:'http://comic.yesky.com/249/11335749_5.shtml',
 			nextLink:'//div[@id="numpage"]/descendant::a[text()="下一页"]',
 			autopager:{
-				pageElement:'//div[@class="ArticleCnt"]',
+				pageElement:'//div[@class="article"]',
 				remain:1.4,
 				replaceE:'//div[@id="numpage"]',
 			}

@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x3
+Version: 5.x32
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 21:46 2012-08-18
@@ -84,7 +84,8 @@ div[id="tuiguang"],div[id^="lovexin"],div[id="piaofu"],div[id$="_adImg"],span[id
 display: none !important;
 	}
 /* TaiWan WebSite AD*/
-div[class="ecomlit"],div[class^="ecomblk"],div[class="ecominv"],a[href^="http://adcl.pchome.com.tw/"]{
+div[class="ecomlit"],div[class^="ecomblk"],div[class="ecominv"],a[href^="http://adcl.pchome.com.tw/"],
+div[id^="extradiv"]{
 display: none !important;
 	}
 
@@ -147,7 +148,7 @@ font[color*="FAE"]{display:none !important}
 font[style="font-size:10px;color:#b4b4b4"]{display:none !important}
 
 /* 浮动过滤 */
-embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[class^="adFloat"]{display: none !important;}
+div[id^="floatAD_"],embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[class^="adFloat"]{display: none !important;}
 #bbs_jxtj,#bshareF,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
 
 /* Google */
