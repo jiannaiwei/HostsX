@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 23:30 2012-08-29
+// @lastmodified 22:56 2012-08-29
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -289,7 +289,7 @@
 			nextLink:'//p[@class="p_01"]/a[text()="下一章"][@href]',
 			autopager:{
 				useiframe:true,
-				pageElement:'//div[@class="read_cont"]',
+				pageElement:'//div[@class="read_cont"]'
 			}
 		},
 		{siteName:'百书库',
@@ -625,14 +625,14 @@
 				pageElement:'//form[@id="manageForm"]'
 			}
 		},
-    {siteName:'汽车之家论坛帖子和列表',
-      url:/^http:\/\/club\.autohome\.com\.cn\/bbs/i,
-      siteExample:'http://club.autohome.com.cn/bbs/forum-c-2313-1.html',
-      nextLink:'auto;',
-      autopager:{
-        pageElement:'//dl[@class="list_dl "][@lang] | //div[@class="conmain"]',
-      }
-    },
+		{siteName:'汽车之家论坛帖子和列表',
+			url:/^http:\/\/club\.autohome\.com\.cn\/bbs/i,
+			siteExample:'http://club.autohome.com.cn/bbs/forum-c-2313-1.html',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//dl[@class="list_dl "][@lang] | //div[@class="conmain"]',
+			}
+		},
 		{siteName:'爱卡汽车论坛帖子内容',
 			url:/^http:\/\/www\.xcar\.com\.cn\/bbs\/viewthread/i,
 			siteExample:'http://www.xcar.com.cn/bbs/viewthread.php?tid=12474760',
