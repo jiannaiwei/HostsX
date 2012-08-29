@@ -1,5 +1,5 @@
 
-;version=8:33 2012-08-27
+;version=16:35 2012-08-29
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2165,6 +2165,8 @@ fe80::1%lo0	localhost
 127.0.0.1 un.v.116.com
 #2345
 127.0.0.1 2345.com
+127.0.0.1 download.2345.com
+127.0.0.1 ie.2345.com
 127.0.0.1 union.2345.com
 127.0.0.1 union2.2345.com
 127.0.0.1 my.suda123.com

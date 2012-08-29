@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x32
+Version: 5.x34
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 21:46 2012-08-18
+Lastchage: 16:32 2012-08-29
 Description: MayBe a better User CSS Help U.
 */
 
@@ -80,7 +80,7 @@ display: none !important;
 
 /* Adult WebSite AD*/
 div[id="rightdiv"],div[id="leftdiv"],div[id="leftDiv"],div[id="rightDiv"],div[id*="_ads_div"],
-div[id="tuiguang"],div[id^="lovexin"],div[id="piaofu"],div[id$="_adImg"],span[id*="myads"]{
+div[id="tuiguang"],div[id^="lovexin"],div[id="piaofu"],div[id$="_adImg"],td>div[class="tj"],span[id*="myads"]{
 display: none !important;
 	}
 /* TaiWan WebSite AD*/
@@ -149,7 +149,7 @@ font[style="font-size:10px;color:#b4b4b4"]{display:none !important}
 
 /* 浮动过滤 */
 div[id^="floatAD_"],embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[class^="adFloat"]{display: none !important;}
-#bbs_jxtj,#bshareF,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
+div[id="ty_msg_mod"],#bbs_jxtj,#bshareF,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
 
 /* Google */
 div[class="c"][id="tads"],[class="c"][id="tadsb"],[id*="adsense"],[href*="pagead"],[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{display:none !important}
