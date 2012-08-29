@@ -3,74 +3,85 @@
 
 /*
 Name: /广告过滤
-Version: 5.x34
+Version: 5.x5
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 16:32 2012-08-29
+Lastchage: 21:03 2012-08-29
 Description: MayBe a better User CSS Help U.
 */
 
 /* ADvertisment */
-div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[class^="ad4"],
-div[class^="ad5"],div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"]{
-display: none !important;
-	}
-div[id^="ad1"],div[id^="ad2"],div[id^="ad3"],div[id^="ad4"],div[id^="ad5"],
-div[id^="ad6"],div[id^="ad7"],div[id^="ad8"],div[class^="ad-9"]{
-display: none !important;
-	}
-div[class="ad"],div[class="adc"],div[class^="ad_"],div[class$="-ad ad"],div[class$="_ads"],
-div[class^="adarea"],div[class*="adclass"],div[class^="adlist"],div[class^="adList"]{
+div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[class^="ad4"],div[class^="ad5"],
+div[class^="ad6"],div[class^="ad7"],div[class^="ad8"],div[class^="ad9"]{
 display: none !important;
 	}
 div[class^="adA"],div[class^="adB"],div[class^="adb"],div[class^="adj"],div[class^="adp"],
 div[class^="ads"],div[class^="adS"],div[class^="adv"],div[class^="adx"]{
 display: none !important;
 	}
-div[class^="adindex"],div[class^="adFrame"],div[class*=" adspace"],div[class*="_ad_img"],
-div[class$="ad_block"],div[class="ades"],div[class^="Indexad"],div[class*="cvAd"],
-div[class="flashNews"],div[class="business"],div[class^="other_adv"]{
+div[class="ad"],div[class^="ad_"],div[class$="_ads"],div[class$="-ad ad"],div[class*="_ad_img"],
+div[class="ada"],div[class="adc"],div[id^="adv0"],div[class="ades"]{
+display: none !important;
+	}
+div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="adFrame"],
+div[class^="adList"],div[class^="adarea"],div[class^="adindex"],div[class^="adlist"]{
 display: none !important;
 	}
 
-div[id="ad"],div[id^="ad_"],div[id$="Ad"],div[id$="-ad"],div[id*="-ad-"],
-div[id*="0_AD_"],div[id^="afp_"],div[id*="ad-ads-"],div[id^="pad_"]{
+div[id^="ad1"],div[id^="ad2"],div[id^="ad3"],div[id^="ad4"],div[id^="ad5"],
+div[id^="ad6"],div[id^="ad7"],div[id^="ad8"],div[class^="ad-9"]{
 display: none !important;
 	}
 div[id^="adv_"],div[id^="Adv"],div[id^="ADV_"],div[id$="Adv"],
 div[id^="ads_"],div[id^="ads-"],div[id*="-ads-"],div[id$="_ads"]{
 display: none !important;
 	}
-div[id*="ad-flash"],div[id^="adflash"],div[id="adDiv"],div[id="adsmid"],
-div[id*="AdContainer"],div[id*="allyesAdv"],div[id^="ADAREA"],div[id="adList"]{
+div[id="ad"],div[id^="ad_"],div[id$="Ad"],div[id$="-ad"],div[id*="-ad-"],
+div[id*="0_AD_"],div[id*="ad-ads-"],div[id^="afp_"],div[id^="pad_"]{
 display: none !important;
 	}
-div[id^="AdZone"],div[id^="adhere"],div[id$="AdBanner"],div[id^="adspot"],
-div[id="adcontent"],div[class*="-top-ads"]{
+div[id^="adList"],div[id^="adcontent"],div[id^="adhere"],div[id^="adspot"],
+div[id$="AdBanner"],div[id*="AdContainer"],div[id^="ADAREA"],div[id^="AdZone"]{
+display: none !important;
+	}
+div[id*="allyesAdv"],div[id*="ad-flash"],div[id^="adflash"],div[id="adDiv"],
+div[id="adsmid"]{
+display: none !important;
+	}
+div[class="flashNews"],div[class^="Indexad"],div[class*="cvAd"],
+div[class="business"],div[class^="other_adv"],div[class^="myadv_"]{
 display: none !important;
 	}
 
 /* Position AD */
-div[id="adTop"],div[id^="topAD"],div[id^="topad"],div[id*="TopAD"],div[id*="top_ad"],
-div[id="topmad"],div[id="toplink"],div[id="navads"],div[id$="head_ad"]{
+div[id$="head_ad"],div[id="toplink"],div[id*="TopAD"],div[id*="top_ad"],
+div[id^="topAD"],div[id^="topad"],div[id="topmad"]{
 display: none !important;
 	}
-div[class^="topAD"],div[class^="topAd"],div[class^="topad"],div[class^="top_ad"],div[class$="topa_d"],div[class$="_topad"],
-div[class^="ATopTxt"],div[class="tad"],div[class="ada"],div[class*="AdTop-"],div[class^="nav-ad"],div[class^="double_ad"]{
+div[class="tad"],div[class$="_topad"],div[class$="topa_d"],div[class*="-top-ads"],
+div[class^="topAD"],div[class^="topAd"],div[class^="top_ad"],div[class^="topad"]{
 display: none !important;
 	}
-div[class^="adRight"],div[class^="rightad"],div[class="RightAD"],div[class="adrr"],div[id$="tCoupletId"],
-div[class^="adLeft"],div[class="adll"],div[id^="AdRight"],div[id$="rightad"]{
+div[class*="AdTop-"],div[id="adTop"],div[class^="ATopTxt"],div[class^="double_ad"],
+div[class^="nav-ad"],div[id="navads"],div[class*=" video-couplet-"],div[id$="tCoupletId"]{
 display: none !important;
 	}
-div[class^="img-ad"],div[id="particular_ad"],div[class^="footad"],div[class^="float-ad-"],
-div[class*="inner_ad"],div[id^="pic_ad"],div[class="yourad"],div[class="showad"],div[class="boxad"]{
+div[class="adll"],div[class="adrr"],div[class^="adLeft"],div[class^="adRight"],
+div[id="rightdiv"],div[id="leftdiv"],div[id="leftDiv"],div[id="rightDiv"]{
+display: none !important;
+	}
+div[class^="RightAD"],div[class^="rightad"],div[id$="rightad"],
+div[id^="AdRight"],div[id^="rightAd"]{
+display: none !important;
+	}
+div[class^="img-ad"],div[class^="float-ad-"],div[id="particular_ad"],div[class*="inner_ad"],
+div[id^="pic_ad"],div[class="boxad"],div[class^="footad"],div[class="yourad"],div[class="showad"]{
 display: none !important;
 	}
 	
 /* GG */
-div[class="gg"],div[class="gg01"],div[class^="gg_"],div[class*="gg-"],div[class^="gg2"],div[class^="gg3"],div[class$="-gg"],
-div[class^="ggAD"],div[class^="topgg"],ul[class^="gg"],span[class^="gg"],div[class="ggSideBox"]{
+div[class="gg"],div[class^="gg_"],div[class*="gg-"],div[class$="-gg"],div[class^="topgg"],
+div[class="gg01"],div[class^="gg2"],div[class^="gg3"],div[class^="ggAD"],div[class="ggSideBox"]{
 display: none !important;
 	}
 div[class="ggBanner"],div[class="ggarea clearfix"],[class$="header_gg"],div[id="hdggs"],
@@ -79,8 +90,8 @@ display: none !important;
 	}
 
 /* Adult WebSite AD*/
-div[id="rightdiv"],div[id="leftdiv"],div[id="leftDiv"],div[id="rightDiv"],div[id*="_ads_div"],
-div[id="tuiguang"],div[id^="lovexin"],div[id="piaofu"],div[id$="_adImg"],td>div[class="tj"],span[id*="myads"]{
+div[id*="_ads_div"],div[id="tuiguang"],div[id^="lovexin"],
+div[id$="_adImg"],td>div[class="tj"],{
 display: none !important;
 	}
 /* TaiWan WebSite AD*/
@@ -96,7 +107,7 @@ div[class="banner"][id^="adsp_content"],div[class="banner"][id^="banner"],div[cl
 display: none !important;
 	}
 div[id^="adword"],div[id="splink"],div[id="clickbg"],div[id^="adText"],div[id^="text_ad"],div[id="push-down-ad"],
-div[class^="adword"],div[class^="adtxt"],div[class^="txtads"],div[class^="page_ad "]{
+div[class^="adword"],div[class^="adtxt"],div[class^="txtads"],div[class^="page_ad "],div[class="con_ad"]{
 display: none !important;
 	}
 td[id^="adp_"],td[class="adslot"],td[class="ad"],iframe[id$="_tuiguang"],
@@ -104,7 +115,7 @@ tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[class="ad_details"]{
 display: none !important;
 	}
 span[id^="ad_"],span[class="adlink"],span[class="ads_sponcer"],span[class="bdad"],span[id="baidu"],span[id="FullScreenWrap"],
-span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"],span[class*="AdWrapper"]{
+span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"],span[class*="AdWrapper"],span[class^="gg"],span[id*="myads"]{
 display: none !important;
 	}
 table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],table[class="advtable"],
@@ -112,11 +123,11 @@ img[id^="ad"],img[class="ad"],img[class$="adimg"],img[class$="_ad"],img[src$="_a
 display: none !important;
 	}
 ul[class="ad"],ul[class="adwindow"],ul[class*="_ad"],ul[id*="listAD"],ul[class*="textad"],
-ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"],ul[class="ad_doc_text"]{
+ul[class^="gg"],ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"],ul[class="ad_doc_text"]{
 display: none !important;
 	}
 aside[class="advertisement"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"],
-object[class="ad_falsh"],[name^="ad_page"]{
+object[class="ad_falsh"],embed[id^="ad_flash"],embed[id^="_AD"],[name^="ad_page"],{
 display: none !important;
 	}
 
@@ -148,11 +159,14 @@ font[color*="FAE"]{display:none !important}
 font[style="font-size:10px;color:#b4b4b4"]{display:none !important}
 
 /* 浮动过滤 */
-div[id^="floatAD_"],embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[class^="adFloat"]{display: none !important;}
-div[id="ty_msg_mod"],#bbs_jxtj,#bshareF,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
+div[id^="floatAD_"],div[id="piaofu"],embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[class^="adFloat"]{display: none !important;}
+div[id="ty_msg_mod"],div[id$="closeBig"],#bbs_jxtj,#bshareF,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
 
 /* Google */
-div[class="c"][id="tads"],[class="c"][id="tadsb"],[id*="adsense"],[href*="pagead"],[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{display:none !important}
+div[class="c"][id="tads"],[class="c"][id="tadsb"],[id*="adsense"],[href*="pagead"],
+[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{
+display: none !important;
+	}
 div[id="homepage-sidebar-ads"],div[id="google_flash_div"],div[id="google_image_div"]{display:none !important}
 /* FaceBook */
 div[class="fblike_button"],#fb_like,#fb_plugin,iframe[src^="http://www.facebook.com"]{display:none !important;}

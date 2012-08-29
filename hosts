@@ -1,5 +1,5 @@
 
-;version=16:42 2012-08-29
+;version=21:10 2012-08-29
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -969,6 +969,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ip.cms.sohu.com
 127.0.0.1 p4p.so.sohu.com
 127.0.0.1 partner.search.sohu.com
+127.0.0.1 pg.aty.sohu.com
 127.0.0.1 pv.hd.sohu.com
 127.0.0.1 pv.sohu.com
 127.0.0.1 scalink.sohu.com
@@ -1859,8 +1860,11 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.17k.com
 127.0.0.1 log.17k.com
 #逐浪网
+127.0.0.1 adgame.zhulang.com
 127.0.0.1 images2.zhulang.com
 127.0.0.1 pv.zhulang.com
+127.0.0.1 tl.zhulang.com
+127.0.0.1 sjqk.zhulang.com
 #潇湘书院
 127.0.0.1 images.xxsy.net
 127.0.0.1 xxsy.bohelady.com
@@ -2197,6 +2201,7 @@ fe80::1%lo0	localhost
 127.0.0.1 gimg.bitauto.com
 127.0.0.1 ip.bitauto.com
 127.0.0.1 log.bitauto.com
+127.0.0.1 mcc.chinauma.net
 #汽车之家
 127.0.0.1 33.autohome.com.cn
 127.0.0.1 adshow.che168.com
@@ -8338,6 +8343,7 @@ fe80::1%lo0	localhost
 127.0.0.1 pic.adhai.com
 127.0.0.1 put.adhai.com
 #Admaster
+127.0.0.1 c.admaster.com.cn
 127.0.0.1 click.admaster.com.cn
 127.0.0.1 e.admaster.com.cn
 127.0.0.1 v.admaster.com.cn
