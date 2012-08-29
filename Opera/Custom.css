@@ -6,7 +6,7 @@ Name: /广告过滤
 Version: 5.x5
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 21:03 2012-08-29
+Lastchage: 22:25 2012-08-29
 Description: MayBe a better User CSS Help U.
 */
 
@@ -140,7 +140,7 @@ div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],div[class="bm a_c"]{
 display: none !important;
 	}
 /* 论坛签名 */
-div[class^="sign0"],div[class="sigline"],div[class^="sign"][style*="px;"],div[id^="sig"][class="signature"],div[class="signature_wrap"],
+div[class^="sign0"],div[class="sigline"],div[class^="sign mx"],div[class^="sign"][style*="px;"],div[id^="sig"][class="signature"],div[class="signature_wrap"],
 td[class$="signature"],div[class="d_sign_split"],img[onerror="Page.sign_change_img(this)"]{
 display: none !important;
 	}
