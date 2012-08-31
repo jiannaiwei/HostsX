@@ -1,5 +1,5 @@
 
-;version=22:07 2012-08-29
+;version=22:37 2012-08-31
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -750,6 +750,7 @@ fe80::1%lo0	localhost
 0.0.0.0 taourl.com
 0.0.0.0 hz.mmstat.com
 0.0.0.0 p3p.mmstat.com
+0.0.0.0 log.mmstat.com
 0.0.0.0 ac.atpanel.com
 0.0.0.0 t.atpanel.com
 0.0.0.0 www.atpanel.com
@@ -1923,6 +1924,9 @@ fe80::1%lo0	localhost
 #南海网
 0.0.0.0 emarketing.hinews.cn
 0.0.0.0 pl.hinews.cn
+#南都网
+0.0.0.0 oeeee.adsame.com
+0.0.0.0 images.oeeee.com
 #三联素材
 0.0.0.0 ad.3lian.com
 #重庆晚报
@@ -2685,6 +2689,7 @@ fe80::1%lo0	localhost
 0.0.0.0 updatepage.kuwo.cn
 0.0.0.0 g.koowo.com
 0.0.0.0 wa.koowo.com
+0.0.0.0 webstat.kuwo.cn
 #酷狗音乐
 0.0.0.0 dl.ddong.com
 0.0.0.0 game.kugou.com
@@ -2758,6 +2763,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.qqceo.net
 0.0.0.0 toufei.qqceo.net
 0.0.0.0 toufei2.qqceo.net
+0.0.0.0 nl.tg.laolinow.com
 #QQBM
 0.0.0.0 qqbm.zhuiying.net
 0.0.0.0 qqbmad.mycode8.com
@@ -11619,3 +11625,5 @@ fe80::1%lo0	localhost
 0.0.0.0 feijibei.bq8.cn
 0.0.0.0 d.renmo.in
 0.0.0.0 www.mm661.com
+0.0.0.0 js.4738.com
+

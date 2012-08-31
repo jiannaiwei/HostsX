@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x5
+Version: 5.x51
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 22:25 2012-08-29
@@ -132,8 +132,6 @@ display: none !important;
 	}
 
 /* 论坛广告和外链 */
-font[class="jammer"],span[style="display:none"],span[style="font-size: 0pt"],font[color="#FFFFFF"]{display: none;}
-font[size="1"],fieldset[style*=”:1px dashed“],p[class="Wtz196"]{display:none !important}
 div[class="tac mb5"],td[class="f_one black tac"],div[class^="wp a_"]{display: none !important;}
 div[class$="a_cb"],div[class^="a_f"],div[class="a_b"],div[class="a_mu"],
 div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],div[class="bm a_c"]{
@@ -152,10 +150,11 @@ display: none !important;
 font[style*="font-size:0p"]{display:none !important}
 font[style*="font-size: 0p"]{display:none !important}
 SPAN[class="transparent"]{display: none !important;}
-/* 四月天 */
-font[color="#EFF0EB"][style^="color:"]{display:none !important}
-/* 晋江原创 */
-font[color*="FAE"]{display:none !important}
+font[class="jammer"],span[style="display:none"],span[style="font-size: 0pt"],font[color="#FFFFFF"]{display: none;}/* DZ论坛文字广告 */
+font[size="1"],fieldset[style*=”:1px dashed“],p[class="Wtz196"]{display:none !important}
+span[class="nddailyhfiled"]{display: none !important;}/* 南方都市报 */
+font[color="#EFF0EB"][style^="color:"]{display:none !important}/* 四月天 */
+font[color*="FAE"]{display:none !important}/* 晋江原创 */
 font[style="font-size:10px;color:#b4b4b4"]{display:none !important}
 
 /* 浮动过滤 */
