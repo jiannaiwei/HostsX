@@ -180,7 +180,7 @@ echo Please wait...
 goto:eof
 
 :temp
-call :BeijingIP 
+rem call :BeijingIP
 call :Xunlei
 goto:eof
 
