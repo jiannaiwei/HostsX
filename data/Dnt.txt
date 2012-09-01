@@ -60,6 +60,7 @@
 0.0.0.0 count9.51yes.com
 0.0.0.0 countt.51yes.com
 #CNZZ
+0.0.0.0 hzs12.cnzz.com
 0.0.0.0 zs16.cnzz.com
 0.0.0.0 hzs8.cnzz.com
 0.0.0.0 qs7.cnzz.com
@@ -338,6 +339,7 @@
 0.0.0.0 unionadmin.cnzz.com
 0.0.0.0 updateimcnzz.cnzz.com
 0.0.0.0 v1.cnzz.com
+0.0.0.0 js.adm.cnzz.net
 0.0.0.0 cache.adm.cnzz.net
 0.0.0.0 click.am1.adm.cnzz.net
 0.0.0.0 v10.cnzz.com
@@ -411,7 +413,6 @@
 0.0.0.0 www.soua.com
 0.0.0.0 union.soua.com
 #盛大统计
-0.0.0.0 photo.staticsdo.com
 0.0.0.0 feo.staticsdo.com
 0.0.0.0 adrs.sdo.com
 0.0.0.0 c.aa.sdo.com
@@ -494,6 +495,7 @@
 0.0.0.0 s2.zhanzhang.net
 0.0.0.0 s3.zhanzhang.net
 #Statistics
+0.0.0.0 cdn.sstatic.net
 0.0.0.0 icon.ajiang.net
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.getclicky.com

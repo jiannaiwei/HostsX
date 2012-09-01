@@ -260,6 +260,7 @@
 0.0.0.0 pagead-dclk.l.google.com
 0.0.0.0 mobileads.google.com
 0.0.0.0 mobwin.android.com
+0.0.0.0 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
 0.0.0.0 m1.baidu.com
 0.0.0.0 mobads.baidu.com
@@ -346,8 +347,10 @@
 0.0.0.0 s8.taobao.com
 0.0.0.0 search8.taobao.com
 0.0.0.0 stat.simba.taobao.com
+0.0.0.0 taourl.com
 0.0.0.0 hz.mmstat.com
 0.0.0.0 p3p.mmstat.com
+0.0.0.0 log.mmstat.com
 0.0.0.0 ac.atpanel.com
 0.0.0.0 t.atpanel.com
 0.0.0.0 www.atpanel.com
@@ -522,7 +525,6 @@
 0.0.0.0 ae.adserver.yahoo.com
 0.0.0.0 ar.adserver.yahoo.com
 0.0.0.0 au.adserver.yahoo.com
-0.0.0.0 bc-beta.ads.yahoo.com
 0.0.0.0 be.adserver.yahoo.com
 0.0.0.0 br.adserver.yahoo.com
 0.0.0.0 ca.adserver.yahoo.com
@@ -531,6 +533,7 @@
 0.0.0.0 de.adserver.yahoo.com
 0.0.0.0 dk.adserver.yahoo.com
 0.0.0.0 es.adserver.yahoo.com
+0.0.0.0 eu-pn4.adserver.yahoo.com
 0.0.0.0 fr.adserver.yahoo.com
 0.0.0.0 gr.adserver.yahoo.com
 0.0.0.0 hk.adserver.yahoo.com
@@ -543,6 +546,7 @@
 0.0.0.0 nz.adserver.yahoo.com
 0.0.0.0 pn1.adserver.yahoo.com
 0.0.0.0 pn2.adserver.yahoo.com
+0.0.0.0 s.analytics.yahoo.com
 0.0.0.0 se.adserver.yahoo.com
 0.0.0.0 sg.adserver.yahoo.com
 0.0.0.0 tw.adserver.yahoo.com
@@ -661,6 +665,7 @@
 0.0.0.0 advision.webevents.yahoo.com
 0.0.0.0 analytics.yahoo.com
 0.0.0.0 asia.pclick.internal.yahoo.com
+0.0.0.0 bc-beta.ads.yahoo.com
 0.0.0.0 cookex.amp.yahoo.com
 0.0.0.0 geo.yahoo.com
 0.0.0.0 installerstats.yahoo.com
@@ -668,11 +673,12 @@
 0.0.0.0 pclick.internal.yahoo.com
 0.0.0.0 pclick.yahoo.com
 0.0.0.0 rd.software.yahoo.com
-0.0.0.0 s.analytics.yahoo.com
 0.0.0.0 srv1.wa.marketingsolutions.yahoo.com
 0.0.0.0 srv2.wa.marketingsolutions.yahoo.com
 0.0.0.0 srv3.wa.marketingsolutions.yahoo.com
 0.0.0.0 ts.richmedia.yahoo.com
+0.0.0.0 tw.js.webmaster.yahoo.com
+0.0.0.0 tw.rc.webmaster.yahoo.com
 0.0.0.0 visit.webhosting.yahoo.com
 #Yimg
 0.0.0.0 ads.yimg.com
@@ -695,6 +701,7 @@
 0.0.0.0 yjaxc.yahoo.co.jp
 0.0.0.0 rd.ane.yahoo.co.jp
 #Yahoo.com.cn
+0.0.0.0 www.aliyk.com
 0.0.0.0 click.tanx.com
 0.0.0.0 p.tanx.com
 0.0.0.0 aliunion.cn.yahoo.com
@@ -702,6 +709,7 @@
 0.0.0.0 cm.p4p.cn.yahoo.com
 0.0.0.0 cn.promo.yahoo.com
 0.0.0.0 img.mmcdn.cn
+0.0.0.0 i.mmcdn.cn
 0.0.0.0 js.tongji.cn.yahoo.com
 0.0.0.0 js.tongji.yahoo.com.cn
 0.0.0.0 new.rd.cn.yahoo.com
@@ -712,8 +720,6 @@
 0.0.0.0 view.aliunion.cn.yahoo.com
 #Yahoo Taiwan
 0.0.0.0 ad.wretch.cc
-0.0.0.0 tw.js.webmaster.yahoo.com
-0.0.0.0 tw.rc.webmaster.yahoo.com
 #Yahoo Altavista Company
 0.0.0.0 pic.geocities.com
 0.0.0.0 visit.geocities.com
@@ -821,7 +827,6 @@
 0.0.0.0 ext.tyroo.com
 0.0.0.0 go.cpmadvisors.com
 0.0.0.0 i.w55c.net
-0.0.0.0 ib.adnxs.com
 0.0.0.0 ib.mookie1.com
 0.0.0.0 my.adtegrity.net
 0.0.0.0 my.iconadserver.com

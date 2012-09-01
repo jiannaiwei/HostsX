@@ -37,14 +37,14 @@
 # http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
 #                                                                            #
 # 3rd-Party-Data have been used:                                             #
-# http://is.gd/9WteB   #Twitter                                              #
 # http://shhx2005.gotoip3.com/2011/01/02/dropbox.html   #DropBox             #
 # http://forum.xda-developers.com/showthread.php?t=696084                    #
 # http://www.anzhuo.cn/thread-136601-1-1.html   #For Mobile                  # 
 # http://forum.xda-developers.com/showthread.php?t=696084   #For Android     #
+# http://adkiller.mobi/data-update   #AdKiller.mobi数据                      #
 # http://lucifr.com/ #WordPress #Gravatar                                    # 
 # http://hi.baidu.com/villagesecu   #IE Hijack                               #
-# http://www.soupis.com/thread-53899-1-1.html   #Flickr                      #
+# http://www.soupis.com/thread-53899-2-1.html   #Flickr                      #
 # http://www.flickr.com/help/test                                            #
 #                                                                            #
 # Copyright (C) 2007-2012 orztech.com All Rights Reserved.                   #

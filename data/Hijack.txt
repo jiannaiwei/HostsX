@@ -21,13 +21,12 @@
 0.0.0.0 img.dianxin.cn
 0.0.0.0 union.dianxin.cn
 0.0.0.0 www.dianxin.cn
-0.0.0.0 sddns1.cncmax.cn
-0.0.0.0 sddns2.cncmax.cn
-0.0.0.0 sddns5.cncmax.cn
-0.0.0.0 sddns7.cncmax.cn
 0.0.0.0 sddnserror1.wo.com.cn
+0.0.0.0 sddnserror2.wo.com.cn
 0.0.0.0 sddnserror3.wo.com.cn
+0.0.0.0 sddnserror4.wo.com.cn
 0.0.0.0 sddnserror5.wo.com.cn
+0.0.0.0 sddnserror6.wo.com.cn
 0.0.0.0 sddnserror7.wo.com.cn
 0.0.0.0 nfdnserror8.wo.com.cn
 0.0.0.0 pop.17lele.net
@@ -42,6 +41,7 @@
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑病毒拦截
 #钓鱼诈骗
+0.0.0.0 www.vanbv.com
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
 0.0.0.0 zx.98712.com
@@ -292,10 +292,13 @@
 0.0.0.0 sm2.netitv.com
 0.0.0.0 ygsp.da123.cc
 0.0.0.0 chat.live800.com
+0.0.0.0 zxrj.400fly.com
+0.0.0.0 3g.wjdb007.com
+0.0.0.0 www.fengxiong.hk
+0.0.0.0 www.qq.com.2012r.in
 #浏览器劫持
 0.0.0.0 054.cc
 0.0.0.0 1188.com
-0.0.0.0 2345.com
 0.0.0.0 2548.cn
 0.0.0.0 300.cc
 0.0.0.0 3448.com
@@ -340,8 +343,6 @@
 0.0.0.0 t.v22.cc
 0.0.0.0 taobao.loliso.com
 0.0.0.0 u.30so.com
-0.0.0.0 union.2345.com
-0.0.0.0 union2.2345.com
 0.0.0.0 wvv.v921.com
 0.0.0.0 wvw.51150.com
 0.0.0.0 wvw.chuifengtong.com
