@@ -1,4 +1,4 @@
-;version=21:51 2012-08-15
+;version=20:50 2012-09-01
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Pcpop部分页面无法正常翻页。
@@ -176,6 +176,10 @@ $DELETE
 
 #导致 ESET NOD32 无法获取 ID 的可用时间。
 exp01.eset.com
+$DELETE
+
+#导致有道词典无法正常下载。
+codown.youdao.com
 $DELETE
 
 #导致网易 NBA 频道无法正常显示网页。
