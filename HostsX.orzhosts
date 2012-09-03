@@ -1,5 +1,5 @@
 
-;version=20:51 2012-09-01
+;version=0:13 2012-09-04
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2230,6 +2230,7 @@ fe80::1%lo0	localhost
 0.0.0.0 gg.xywy.com
 #糗事百科
 0.0.0.0 ad.qiushibaike.com
+0.0.0.0 resource.duopao.com
 #互动百科
 0.0.0.0 stat.hudong.com
 #携程网
@@ -11479,3 +11480,4 @@ fe80::1%lo0	localhost
 0.0.0.0 d.renmo.in
 0.0.0.0 www.mm661.com
 0.0.0.0 js.4738.com
+0.0.0.0 v.1717gs.com
