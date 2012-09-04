@@ -1,5 +1,5 @@
 
-;version=0:13 2012-09-04
+;version=14:52 2012-09-04
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2231,6 +2231,7 @@ fe80::1%lo0	localhost
 #糗事百科
 127.0.0.1 ad.qiushibaike.com
 127.0.0.1 resource.duopao.com
+127.0.0.1 g.duopao.com
 #互动百科
 127.0.0.1 stat.hudong.com
 #携程网
