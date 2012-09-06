@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-11:39 2012-09-03
+9:41 2012-09-06
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -482,6 +482,55 @@ http://*/adm/*   新浪爱问资料网盘
 */js/ad*.js 可能为admin.js,而非广告 所以直接改为了 */js/ad.js
 http://*.tianjimedia.com/* 天极网css显示
 http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻页 http://tu.pcpop.com/pic-823469.htm#1
+
+删减备份：
+*/stat.php?id=*
+*/tanchuang*.js
+*/sponsoredlink/*
+*/inc/qqnews.js
+http://www.cnbeta.com/js/google.js
+http://*.cnzz.com/stat.php?*
+http://pstatic.xunlei.com/js/webThunderDetect.js
+http://*/gg.htm
+*/ggao/js/*
+http://www.xdowns.com/new/ggdown.html
+*/newhuagg/*.gif
+*/newhuagg/*.swf
+*/js/gg*.js
+*/js/topgg.js
+*/guangg/*
+*/upload/guanggao*
+*/union/.*f
+*.com/union/*
+*/union/.j*
+*/js/float.js
+*/tuiguang/*
+http://www.sohu.com/upload/js/tuiguang_sohu_full.js
+*/js/tan.js
+*/guanggao/*
+http://www.tt1069.com/banners/*
+*/inc/*_banner_dis.js
+http://cn.ziddu.com/banners/*
+http://*/google_analytics.js
+*/code/popjs.asp?uid=*
+http://m.ifengimg.com/2012/olympic/pop_mini.js*
+*/winpop*.js
+http://user.kdnet.net/pop_content/push_window_max.asp*
+http://www.17173.com/if/focus.html
+http://images.17173.com/2011/www/if/video/*
+*/money/webgame/*
+*/static/delivery/*
+http://erebor.douban.com/count/?ad=*
+*/www/delivery/*.php*
+http://*.cnzz.cn/zanzhu/*
+http://www.bitauto.com/hezuo/*AD.shtml
+http://*/js/count.js
+http://www.dbank.com/app/stat/stat.php?*
+http:///*/stat.aspx?*
+http://*/track.php?*
+http://*/stat.php?id=*
+http://tracking.*
+*/baiduiframe.html*
 
 论坛过滤备份，重复：
 div[class^="ad-"],
