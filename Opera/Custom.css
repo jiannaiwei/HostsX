@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x52
+Version: 5.x6
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 22:43 2012-08-31
+Lastchage: 23:33 2012-09-05
 Description: MayBe a better User CSS Help U.
 */
 
@@ -91,7 +91,7 @@ display: none !important;
 
 /* Adult WebSite AD*/
 div[id*="_ads_div"],div[id="tuiguang"],div[id^="lovexin"],
-div[id$="_adImg"],td>div[class="tj"],{
+div[id$="_adImg"],td>div[class="tj"]{
 display: none !important;
 	}
 /* TaiWan WebSite AD*/
@@ -127,7 +127,7 @@ ul[class^="gg"],ul[id="ad_container"],ul[class="AD-txt"],ul[class="res-list"],ul
 display: none !important;
 	}
 aside[class="advertisement"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"],
-object[class="ad_falsh"],embed[id^="ad_flash"],embed[id^="_AD"],[name^="ad_page"],{
+object[class="ad_falsh"],embed[id^="ad_flash"],embed[id^="_AD"],[name^="ad_page"]{
 display: none !important;
 	}
 
@@ -175,7 +175,10 @@ a[href*="www.baidu.com/baidu.php?"],a[href^="http://www.baidu.com/adrc.php"]{dis
 /* Taobao */
 [src*="网购排行：淘宝网最新热门东西"],[href*="网购排行：淘宝网最新热门东西"]{display:none !important}
 a[href^="http://click.simba.taobao.com"],a[href*="http://click.mz.simba.taobao.com/"],a[href*="http://s.click.taobao.com"]{display:none !important}
-div[id^="p4pblock"],div[class^="hotsale"],div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],div[id="p4p-sidebar"],section[class="hotsale"],ul[class="p4p-list"]{display:none !important}
+div[id^="p4pblock"],div[class^="hotsale"],div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],
+div[id="p4p-sidebar"],div[rel="p4p-etao"],section[class="hotsale"],ul[class="p4p-list"]{
+display: none !important;
+	}
 
 /* 框架过滤 */
 div[id^="cnzz_"],iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"],a[href^="adredir.php?"]{display: none !important;}
