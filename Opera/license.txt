@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-21:32 2012-09-06
+22:12 2012-09-07
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -482,7 +482,7 @@ http://*/adm/*   新浪爱问资料网盘
 */js/ad*.js 可能为admin.js,而非广告 所以直接改为了 */js/ad.js
 http://*.tianjimedia.com/* 天极网css显示
 http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻页 http://tu.pcpop.com/pic-823469.htm#1
-
+*l*.youku.com/crossdomain.xml  http://zy.youku.com/voiceonlive 影响直播
 删减备份：
 */stat.php?id=*
 */tanchuang*.js
