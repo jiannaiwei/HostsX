@@ -8,4 +8,5 @@ rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
-echo ***YouKu广告屏蔽完成***
+msg %username% /time:2 "优酷广告已免疫！"
+goto:EOF
