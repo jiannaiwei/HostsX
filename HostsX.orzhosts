@@ -1,5 +1,5 @@
 
-;version=14:52 2012-09-04
+;version=1:20 2012-09-08
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2458,6 +2458,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.ttkvod.com
 0.0.0.0 hao.kaikai001.com
 #UUSee
+0.0.0.0 download.uusee.com
 0.0.0.0 g.uusee.com
 0.0.0.0 sa.uusee.com
 0.0.0.0 traffic.uusee.com
@@ -8010,14 +8011,15 @@ fe80::1%lo0	localhost
 0.0.0.0 z.1133.cc
 #1lo0
 0.0.0.0 c1.1lo0.net
+0.0.0.0 c2.1lo0.net
+0.0.0.0 c3.1lo0.net
+0.0.0.0 d1.1lo0.net
 0.0.0.0 f1.1lo0.net
 0.0.0.0 f2.1lo0.net
 0.0.0.0 f3.1lo0.net
 0.0.0.0 f4.1lo0.net
 0.0.0.0 f5.1lo0.net
 0.0.0.0 f6.1lo0.net
-0.0.0.0 c2.1lo0.net
-0.0.0.0 c3.1lo0.net
 0.0.0.0 p1.1lo0.net
 0.0.0.0 p2.1lo0.net
 0.0.0.0 p3.1lo0.net
@@ -10890,6 +10892,7 @@ fe80::1%lo0	localhost
 0.0.0.0 irs09.com
 0.0.0.0 static.irs09.com
 0.0.0.0 360.sharele.cn
+0.0.0.0 p.sharele.cn
 0.0.0.0 un.sharele.cn
 0.0.0.0 img.371gw.com
 0.0.0.0 p.371gw.com
@@ -11482,3 +11485,5 @@ fe80::1%lo0	localhost
 0.0.0.0 www.mm661.com
 0.0.0.0 js.4738.com
 0.0.0.0 v.1717gs.com
+0.0.0.0 cpv.1717gs.com
+0.0.0.0 api.viglink.com
