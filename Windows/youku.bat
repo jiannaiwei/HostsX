@@ -1,17 +1,11 @@
 @echo off
-cd %APPDATA%\Macromedia\Flash Player\#SharedObjects
-DIR /AD /B >%TEMP%\dirname.txt
-for /f %%i in (%TEMP%\dirname.txt) do set yk=%%i
-cd %yk%
-attrib "static.youku.com" -r -h -s
-if exist "static.youku.com" (rd /q /s "static.youku.com") else (del /f /s /q "static.youku.com")
-@cd.>"static.youku.com"
-attrib +r "static.youku.com"
-attrib "irs01.net" -r -h -s
-if exist "irs01.net" (rd /q /s "irs01.net") else (del /f /s /q "irs01.net")
-@cd.>"irs01.net"
-attrib +r "irs01.net"
-start explorer.exe %APPDATA%\Macromedia\Flash Player\#SharedObjects\%yk%
-del %TEMP%\dirname.txt
+setlocal enabledelayedexpansion
+for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
+set str=%%i
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 echo ***YouKu广告屏蔽完成***
-goto:eof
