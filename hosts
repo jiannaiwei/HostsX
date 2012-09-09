@@ -1,5 +1,5 @@
 
-;version=1:20 2012-09-08
+;version=9:11 2012-09-09
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1770,6 +1770,10 @@ fe80::1%lo0	localhost
 127.0.0.1 c.iqilu.com
 127.0.0.1 g.iqilu.com
 127.0.0.1 gimg.iqilu.com
+#商都网
+127.0.0.1 125.46.61.28
+127.0.0.1 adv.shangdu.com
+127.0.0.1 sdbbsservice.shangdu.com
 #华商网
 127.0.0.1 g.hsw.cn
 127.0.0.1 stat.hsw.cn
