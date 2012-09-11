@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:56 2012-08-29
+// @lastmodified 22:11 2012-09-11
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -496,6 +496,15 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@class="t5 t2"]',
+			}
+		},
+		{siteName:'九尾网',
+			url:/joowii\.com\/arc/i,
+			siteExample:'http://www.joowii.com/arc/ysyl/ssgx/2012/0905/125571.html',
+			nextLink:'auto;',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="article"]',
 			}
 		},
 		{siteName:'游民星空',
