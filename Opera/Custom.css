@@ -222,7 +222,7 @@ a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{dis
 div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{display:none !important}
 
 /* 各种提示隐藏 */
-div[id="browsertip"],div[class="tips_player"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
+div[id="update_popwin"],div[id="browsertip"],div[class="tips_player"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
 
 /* 部分站点广告 */
 sohuadcode {display:none !important}

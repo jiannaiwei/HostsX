@@ -1,5 +1,5 @@
 
-;version=11:42 2012-09-11
+;version=20:21 2012-09-11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -849,7 +849,7 @@ fe80::1%lo0	localhost
 127.0.0.1 image.p4p.sogou.com
 127.0.0.1 images.brand.sogou.com
 127.0.0.1 img.store.sogou.com
-127.0.0.1 inte.sogou.com
+127.0.0.1 eff.inte.sogou.com
 127.0.0.1 lk.brand.sogou.com
 127.0.0.1 lu.sogou.com
 127.0.0.1 pb.sogou.com
@@ -1468,6 +1468,7 @@ fe80::1%lo0	localhost
 127.0.0.1 js.adsonar.com
 127.0.0.1 newsletter.adsonar.com
 127.0.0.1 redir.adsonar.com
+127.0.0.1 ads.patch.com
 127.0.0.1 ar.atwola.com
 127.0.0.1 ar1.atwola.com
 127.0.0.1 ar7.atwola.com
@@ -9319,9 +9320,12 @@ fe80::1%lo0	localhost
 127.0.0.1 img.ads3.mocean.mobi
 127.0.0.1 img.ads4.mocean.mobi
 #Mobclix
-127.0.0.1 ex.umengcloud.com
+127.0.0.1 alog.umeng.com
+127.0.0.1 oc.umeng.co
+127.0.0.1 oc.umeng.com
 127.0.0.1 www.umeng.co
 127.0.0.1 www.umeng.com
+127.0.0.1 ex.umengcloud.com
 127.0.0.1 ads.mobclix.com
 127.0.0.1 data.mobclix.com
 127.0.0.1 s.mobclix.com
