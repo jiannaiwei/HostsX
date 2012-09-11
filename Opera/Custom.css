@@ -3,12 +3,43 @@
 
 /*
 Name: /广告过滤
-Version: 5.x62
+Version: 5.x621
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 21:22 2012-09-06
+Lastchage: 8:36 2012-09-11
 Description: MayBe a better User CSS Help U.
 */
+
+div[id$="_BOXAD"],
+div[id*="AdWrapper"],
+div[id*="YieldManager"],
+div[id*="_column_ad"],
+div[id^="AdsCont"],
+div[id^="Ads_"],
+div[id^="Advert"],
+div[id^="BANNER_"],
+div[id^="BannerAd"],
+div[id^="ContentAd"],
+div[id^="HeaderAd"],
+div[id^="LeftAd"],
+div[id^="RightAd"],
+div[id^="TopAd"],
+div[id^="adSp"],
+div[id^="adver"],
+div[id^="footer-ad"],
+div[id^="footer_ad"],
+div[id^="text-ad"],
+div[id^="text_ad"],
+div[class^="ads-"],
+div[class^="ads_"],
+div[class^="adver"],
+div[class$="_ads"],
+div[class$="_ad"],
+div[class$="-ad"],
+div[id*="Sponsor"],
+div[class*="sponsor"],
+div[class*="textad"]
+{display:none!important}
 
 /* ADvertisment */
 div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[class^="ad4"],div[class^="ad5"],
@@ -162,15 +193,18 @@ div[id^="floatAD_"],div[id="piaofu"],embed[name^="couplet"],div[id^="Float"]>div
 div[id="ty_msg_mod"],div[id$="closeBig"],div[class="blogpop"],#bbs_jxtj,#bshareF,#fixedLayertop,#sitefocus,.QQbox{display: none !important;}
 
 /* Google */
-div[class="c"][id="tads"],[class="c"][id="tadsb"],[id*="adsense"],[href*="pagead"],
-[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{
+div[class="c"][id="tads"],[class="c"][id="tadsb"],[id*="adsense"],[class*="adsense"],
+[href*="pagead"],[src*="pagead"],div[id="rhs_block"],ol[onmouseover="return true"]{
 display: none !important;
 	}
-div[id="homepage-sidebar-ads"],div[id="google_flash_div"],div[id="google_image_div"]{display:none !important}
+div[id="homepage-sidebar-ads"],div[id="google_flash_div"],div[id="google_image_div"],div[id*="GoogleAd"],
+div[id^="google-ad"],div[id^="google_ad"]{
+display: none !important;
+	}
 /* FaceBook */
 div[class="fblike_button"],#fb_like,#fb_plugin,iframe[src^="http://www.facebook.com"]{display:none !important;}
 /* Baidu */
-a[href*="www.baidu.com/baidu.php?"],a[href^="http://www.baidu.com/adrc.php"]{display:none !important}
+a[href*="www.baidu.com/baidu.php?"],a[href*="http://www.baidu.com/adrc.php"]{display:none !important}
 
 /* Taobao */
 [src*="网购排行：淘宝网最新热门东西"],[href*="网购排行：淘宝网最新热门东西"]{display:none !important}
@@ -181,7 +215,7 @@ display: none !important;
 	}
 
 /* 框架过滤 */
-div[id^="cnzz_"],iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"],a[href^="adredir.php?"]{display: none !important;}
+div[id^="cnzz_"],iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"],a[href^="adredir.php?"],iframe[src*="/ad/"]{display: none !important;}
 a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{display:none !important}
 
 /* 浮动广告过滤 */

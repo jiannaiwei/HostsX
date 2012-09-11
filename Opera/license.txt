@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-22:12 2012-09-07
+8:03 2012-09-11 星期二
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -609,7 +609,11 @@ div[class$="adclass"],div[class^="adclass"],
 div[class^="adBlock "],div[class^="adBlk ad"],
 div[align="center"][id^="ad"],center>div[id^="AD"],div[id^="AD"][style*="w"]
 
- 
+ ;Platform Windows, Item,"批量保存图片"=Execute program,"optools\QuickPic.exe","qiuckpic%u",,"Enable display images" & Save document
+Item, "网站历史查询"="Go to page, "http://www.infomall.cn/cgi-bin/arcv/*/%u",,,"Mail Searches""
+Item, "TinyUrl" = "Go to page, "http://tinyurl.com/create.php?url=%u",,,"tinyurl""
+;Item, "自动检测 > 中文..."="Go to Page,"javascript:(function(){var s=encodeURIComponent('%u');if(s.length>0){s='http://translate.google.com/translate?u='+s+'&langpair=auto'+encodeURIComponent('|')+'zh-CN&hl=zh-CN&ie=UTF8';void open(s,'');}})()",,,"translation""
+Item, ">> 英语"="Go to Page,"javascript:(function(){var s=encodeURIComponent('%u');if(s.length>0){s='http://translate.google.com/translate?u='+s+'&langpair=auto'+encodeURIComponent('|')+'en&hl=en&ie=UTF8';void open(s,'');}})()",,,"translation""
 ;Item,启用全局代理=Disable proxy servers,,,,proxy_all & Open url in new page,"opera:config" & Delay,10 & Enable proxy servers & Go to page,"javascript:var allExc=opera.getPreference('Proxy','No Proxy Servers'),usePAC='proxy_type.pac',useALL='proxy_type.all';if(allExc.indexOf(usePAC)==-1 && allExc.indexOf(useALL)==-1){allExc+=','+useALL}else if(allExc.indexOf(usePAC)!=-1){allExc=allExc.replace(usePAC,useALL)}opera.setPreference('Proxy','No Proxy Servers',allExc);opera.setPreference('Proxy','Use Automatic Proxy Configuration',0);window.close()"& delay,50 & close page
 Item, "为代理启用 HTTP 1.1"=Set preference, "Proxy|Enable HTTP 1.1 for proxy=1",, | Set preference, "Proxy|Enable HTTP 1.1 for proxy=0"
 Item, -455450218=Work offline | Work online
