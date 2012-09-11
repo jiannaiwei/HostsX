@@ -1,5 +1,5 @@
 
-;version=20:21 2012-09-11
+;version=20:34 2012-09-11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -850,6 +850,7 @@ fe80::1%lo0	localhost
 0.0.0.0 images.brand.sogou.com
 0.0.0.0 img.store.sogou.com
 0.0.0.0 eff.inte.sogou.com
+0.0.0.0 inte.sogou.com
 0.0.0.0 lk.brand.sogou.com
 0.0.0.0 lu.sogou.com
 0.0.0.0 pb.sogou.com

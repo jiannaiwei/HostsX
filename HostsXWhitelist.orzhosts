@@ -1,10 +1,6 @@
 ;version=20:19 2012-09-11
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
-#乐视电视客户端无法进入电影的详细页面。
-inte.sogou.com
-$DELETE
-
 #导致Pcpop部分页面无法正常翻页。
 count.pcpop.com
 $DELETE
