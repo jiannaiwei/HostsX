@@ -1,5 +1,5 @@
 
-;version=11:42 2012-09-12
+;version=13:25 2012-09-12
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9146,6 +9146,10 @@ fe80::1%lo0	localhost
 #Adview
 127.0.0.1 report.adview.cn
 127.0.0.1 www.adview.cn
+#Aandroid
+127.0.0.1 lw.aandroid.net
+127.0.0.1 wm.aandroid.net
+127.0.0.1 zdt.aandroid.net
 #Appmedia
 127.0.0.1 api.appmedia.cn
 127.0.0.1 www.appmedia.cn
@@ -9581,6 +9585,7 @@ fe80::1%lo0	localhost
 127.0.0.1 assets.zestadz.com
 127.0.0.1 www.zestadz.com
 #WapSite
+127.0.0.1 ad.zhekouku.cn
 127.0.0.1 jmplead.com
 127.0.0.1 ad.leadbolt.net
 127.0.0.1 www.zhesm.com
