@@ -1,5 +1,5 @@
 
-;version=8:03 2012-09-12
+;version=11:42 2012-09-12
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2951,6 +2951,15 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.pop1.adbn.ru
 0.0.0.0 ad.top1.adbn.ru
 0.0.0.0 ad.rich1.adbn.ru
+#Pcads
+0.0.0.0 n.pcads.ru
+0.0.0.0 pc-n9.pcads.ru
+0.0.0.0 st.pcads.ru
+0.0.0.0 pc.adonweb.ru
+0.0.0.0 st.pc.adonweb.ru
+0.0.0.0 trafinfo.info
+0.0.0.0 uno.TRAFF-GO.INFO
+0.0.0.0 uno.traff-go.info
 #ADbrite
 0.0.0.0 1.adbrite.com
 0.0.0.0 2.adbrite.com
@@ -11520,3 +11529,5 @@ fe80::1%lo0	localhost
 0.0.0.0 u.cnzol.com
 0.0.0.0 yaoqing.xifuquan.com
 0.0.0.0 union.juepei.cc
+0.0.0.0 copy.ousns.com
+

@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-22:21 2012-09-11 星期二
+11:35 2012-09-12 星期三
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -531,7 +531,7 @@ http://*/track.php?*
 http://*/stat.php?id=*
 http://tracking.*
 */baiduiframe.html*
-
+http://*/extern_js/*.js
 论坛过滤备份，重复：
 div[class^="ad-"],
 
