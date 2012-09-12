@@ -1,5 +1,5 @@
 
-;version=13:34 2012-09-12
+;version=15:47 2012-09-12
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2951,6 +2951,9 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.pop1.adbn.ru
 0.0.0.0 ad.top1.adbn.ru
 0.0.0.0 ad.rich1.adbn.ru
+#Adcash
+0.0.0.0 adcash.com
+0.0.0.0 www.adcash.com
 #Pcads
 0.0.0.0 n.pcads.ru
 0.0.0.0 pc-n9.pcads.ru
@@ -11536,4 +11539,4 @@ fe80::1%lo0	localhost
 0.0.0.0 yaoqing.xifuquan.com
 0.0.0.0 union.juepei.cc
 0.0.0.0 copy.ousns.com
-
+0.0.0.0 cloud.cashtrafic.info
