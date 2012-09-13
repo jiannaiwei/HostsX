@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-14:43 2012-9-13
+0:12 2012-9-14
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -1251,7 +1251,20 @@ http://*.gameyule.com/*
 http://*.qllianmeng.com/*
 论坛过滤备份，重复：
 div[class^="ad-"],
-
+div[class^="ads-"],
+div[class^="ads_"],
+div[class^="adver"],
+div[class^="adarea"],
+div[id^="Advert"],
+div[id*="ad-ads-"],div[class^="txtads"],
+ul[class*="textad"],div[class*="textad"],
+div[id^="footer-ad"],div[id^="footer_ad"],
+div[class="boxad"],div[class="yourad"],div[class="showad"]
+span[class="adlink"],span[class="bdad"],span[class^="ads_"],span[class^="gg"],span[id*="_ad_"],span[id^="ad_"],span[id^="ptcmsad"],
+ul[class="ad_doc_text"],
+div[class^="topad"],div[class$="_topad"],
+div[class="ecomlit"],div[class^="ecomblk"],div[class="ecominv"],
+div[id^="google_ad"],div[id="google_flash_div"],div[id="google_image_div"],div[id="homepage-sidebar-ads"],
 div[id^="ad_head"],div[class^="ad_head"],div[class^="ad_text"],div[class^="ad_foot"],div[class^="ad_b"],div[class^="ads_"],div[class="ad_top"],
 div[class="ad-bar"],div[class="ad-button"],div[class^="ad-block"],div[class^="ad-box"],div[class^="ad-b"],div[class^="ad-img"],div[class="ad-widget"],div[class^="ad-text"],div[class^="ad-txt"],
 div[class^="adposter"],div[class^="adArea"],div[id^="top_ad"]
