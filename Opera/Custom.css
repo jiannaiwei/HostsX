@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x622
+Version: 5.x65
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 22:22 2012-09-11
+Lastchage: 21:27 2012-9-13
 Description: MayBe a better User CSS Help U.
 */
 
@@ -38,7 +38,8 @@ div[class$="_ad"],
 div[class$="-ad"],
 div[id*="Sponsor"],
 div[class*="sponsor"],
-div[class*="textad"]
+div[class*="textad"],
+div[id="prombar"]
 {display:none!important}
 
 /* ADvertisment */
@@ -145,8 +146,8 @@ td[id^="adp_"],td[class="adslot"],td[class="ad"],iframe[id$="_tuiguang"],
 tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[class="ad_details"]{
 display: none !important;
 	}
-span[id^="ad_"],span[class="adlink"],span[class="ads_sponcer"],span[class="bdad"],span[id="baidu"],span[id="FullScreenWrap"],
-span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id^="ptcmsad"],span[class*="AdWrapper"],span[class^="gg"],span[id*="myads"]{
+span[id^="ad_"],span[class="adlink"],span[class^="ads_"],span[class="bdad"],span[id="baidu"],span[id="FullScreenWrap"],
+span[id="idc"],span[id="StreamMediaWrap"],span[id="zjtop"],span[id*="_ad_"],span[id^="ad_"],span[id^="ptcmsad"],span[class*="AdWrapper"],span[class^="gg"],span[id*="myads"]{
 display: none !important;
 	}
 table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],table[class="advtable"],
@@ -164,7 +165,7 @@ display: none !important;
 
 /* 论坛广告和外链 */
 div[class="tac mb5"],td[class="f_one black tac"],div[class^="wp a_"]{display: none !important;}
-div[class$="a_cb"],div[class^="a_f"],div[class="a_b"],div[class="a_mu"],
+div[class$="a_cb"],div[class^="a_f"],div[class="a_b"],div[class="a_mu"],div[id="wrap"]>div[class="focus"][id="focus"],
 div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],div[class="bm a_c"]{
 display: none !important;
 	}
@@ -201,6 +202,12 @@ div[id="homepage-sidebar-ads"],div[id="google_flash_div"],div[id="google_image_d
 div[id^="google-ad"],div[id^="google_ad"]{
 display: none !important;
 	}
+/* Baidu */
+div[id^="cpro_"],div[class^="brand-ad"],div[id="flashbanner"],div[id="span_banner"],
+div[id^="guanggao"],div[id*="ecomAd"],div[id="container"]>table[width="30%"][align="right"]{
+display: none !important;
+	}
+
 /* FaceBook */
 div[class="fblike_button"],#fb_like,#fb_plugin,iframe[src^="http://www.facebook.com"]{display:none !important;}
 /* Baidu */
@@ -215,8 +222,8 @@ display: none !important;
 	}
 
 /* 框架过滤 */
-div[id^="cnzz_"],iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"],a[href^="adredir.php?"],iframe[src*="/ad/"]{display: none !important;}
-a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{display:none !important}
+iframe[id^="dale_m"],iframe[name="ads_frame"],iframe[src="adt.php"],iframe[src="adb.php"],a[href^="adredir.php?"],iframe[src*="/ad/"]{display: none !important;}
+div[id^="cnzz_"],a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{display:none !important}
 
 /* 浮动广告过滤 */
 div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{display:none !important}
@@ -224,13 +231,16 @@ div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="dis
 /* 各种提示隐藏 */
 div[id="update_popwin"],div[id="browsertip"],div[class="tips_player"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
 
+/* QQ */
+div[class*="l_qq_com"],[id*="l_qq_com"],div[class*="AdBox-Article-QQ"],div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],embed[name="flash_focus"],div[id="followall_mod"]{display:none !important}
+div[class^="area960 "],div[style^="width:960px;height:60px;margin:0px "],div[style^="width:960px; height:60px; margin:0px"],div[style^="width:960px;margin:0px "],div[style^="width:960px;height:90px;margin:0px "],div[style*=";background-color:#E6E6E6;"]{display:none !important}
+
 /* 部分站点广告 */
 sohuadcode {display:none !important}
 div[class^="aa_"][id^="gg"],div[id^="b"][class^="cl970"],div[style="margin:0 0 10px 0;height:170px;padding-top:10px;border-top:1px solid #cdcdcd;"]{display:none !important}
 div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
 div[id^="smExtObj"],div[id^="ifengAe"],div[id*="_flash_click_"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
 div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"],div[id="sp"],LI[id="sp"]{display:none !important}
-div[class*="l_qq_com"],[id*="l_qq_com"],div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],embed[name="flash_focus"],div[id="followall_mod"]{display:none !important}
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="tingx_"],ul[class="rz"],div[id="div_d0_js_14"],div[id="x1"],div[id="x2"]{display:none !important}
-div[id^="remove_ads"],div[id="tuanad"]{display:none !important}
+div[id^="remove_ads"],div[id="tuanad"],div[id^="div_d0_js_"]{display:none !important}
