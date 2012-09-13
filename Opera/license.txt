@@ -1260,7 +1260,7 @@ div[id*="ad-ads-"],div[class^="txtads"],
 ul[class*="textad"],div[class*="textad"],
 div[id^="footer-ad"],div[id^="footer_ad"],
 div[class="boxad"],div[class="yourad"],div[class="showad"]
-span[class="adlink"],span[class="bdad"],span[class^="ads_"],span[class^="gg"],span[id*="_ad_"],span[id^="ad_"],span[id^="ptcmsad"],
+span[class*="ad"],span[id*="ad"],
 ul[class="ad_doc_text"],
 div[class^="topad"],div[class$="_topad"],
 div[class="ecomlit"],div[class^="ecomblk"],div[class="ecominv"],
