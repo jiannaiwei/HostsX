@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x71
+Version: 5.x8
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 0:12 2012-9-14
+Lastchage: 11:11 2012-9-14
 Description: MayBe a better User CSS Help U.
 */
 
@@ -19,7 +19,7 @@ div[class^="adA"],div[class^="adB"],div[class^="adb"],div[class^="adj"],div[clas
 div[class^="ads"],div[class^="adS"],div[class^="adv"],div[class^="adx"]{
 display: none !important;
 	}
-div[class="ad"],div[class^="ad_"],div[class$="ad"],div[class$="_ads"],
+div[class="ad"],div[class^="ad_"],div[class$="_ads"],
 div[class$="-ad ad"],div[class*="_ad_img"],div[class$="_ad"],div[class$="-ad"]{
 display: none !important;
 	}
