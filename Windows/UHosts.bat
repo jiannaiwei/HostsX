@@ -1,5 +1,5 @@
 @echo off
-set ver=0.1
+set ver=0.2
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 mode con cols=30 lines=10
@@ -30,20 +30,9 @@ echo Backup completed!
 ping /n 2 hostsx.googlecode.com >nul||goto dftlocal
 call :upcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
+rem copy /b %temp%\HostsX.orzhosts+smarthosts.txt hbhosts.txt
 copy %temp%\HostsX.orzhosts %hosts%
 call :temp&call :dns&msg %username% /time:1 "U+ Hosts data has been Updated！"&Exit
-
-:temp
-rem call :BeijingIP
-call :Xunlei
-del %etc%\HostsX.orzhosts & copy %temp%\HostsX.orzhosts %etc%\HostsX.orzhosts
-goto:eof
-
-:dftlocal
-echo 无法连接服务器！& choice /t 2 /d y /n >nul
-echo 或将使用本地缓存Hosts数据！& choice /t 2 /d y /n >nul
-if not exist %etc%\HostsX.orzhosts (echo 未找到本地缓存Hosts数据! & choice /t 2 /d y /n >nul&exit) else (copy %etc%\HostsX.orzhosts %hosts% &echo 已更换至本地缓存Hosts数据！)
-goto dns
 
 :dns
 notepad %hosts%
@@ -94,7 +83,7 @@ rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
-msg %username% /time:2 "优酷广告已免疫！"
+mshta vbscript:msgbox("优酷广告已免疫！",64,"SimpleU+")(window.close)
 goto:EOF
 
 :Xunlei
@@ -108,3 +97,15 @@ goto:eof
 echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
 attrib %hosts% -r -h -s >nul 2>nul
 goto:eof
+
+:temp
+rem call :BeijingIP
+call :Xunlei
+del %etc%\HostsX.orzhosts & copy %temp%\HostsX.orzhosts %etc%\HostsX.orzhosts
+goto:eof
+
+:dftlocal
+echo 无法连接服务器！& choice /t 2 /d y /n >nul
+echo 或将使用本地缓存Hosts数据！& choice /t 2 /d y /n >nul
+if not exist %etc%\HostsX.orzhosts (echo 未找到本地缓存Hosts数据! & choice /t 2 /d y /n >nul&exit) else (copy %etc%\HostsX.orzhosts %hosts% &echo 已更换至本地缓存Hosts数据！)
+goto dns

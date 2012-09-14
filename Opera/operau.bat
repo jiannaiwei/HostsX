@@ -1,5 +1,5 @@
 @echo off
-set ver=1.02
+set ver=1.03
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -69,7 +69,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
 md mouse keyboard menu toolbar
 move standard_keyboard.ini keyboard\
-move standard_menu menu\
+move standard_menu.ini menu\
 move standard_mouse.ini mouse\
 move standard_toolbar.ini toolbar\
 cd ..
