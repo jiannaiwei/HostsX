@@ -1,5 +1,5 @@
 
-;version=14:39 2012-9-13
+;version=21:58 2012-9-14
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2206,6 +2206,7 @@ fe80::1%lo0	localhost
 #¿÷ ”Õ¯
 0.0.0.0 pro.letv.com
 0.0.0.0 stat.letv.com
+0.0.0.0 letv.allyes.com
 #æﬁæ®Õ¯
 0.0.0.0 t.top100.cn
 #310v
@@ -10487,6 +10488,7 @@ fe80::1%lo0	localhost
 0.0.0.0 3g.wjdb007.com
 0.0.0.0 www.fengxiong.hk
 0.0.0.0 www.qq.com.2012r.in
+0.0.0.0 go2buynow.info
 #‰Ø¿¿∆˜ΩŸ≥÷
 0.0.0.0 054.cc
 0.0.0.0 1188.com

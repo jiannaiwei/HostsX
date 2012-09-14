@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-11:13 2012-9-14
+21:58 2012-9-14
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -473,6 +473,8 @@ wj               =simpleu/proxy/wj.png
 -----------------------------------------------------------------------
 
 Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+http://temp.163.com/special/* 页面显示不完整 http://news.163.com/special/dydzd2012/
+*/ggc*  *_gg*.j* http://stockhtm.finance.qq.com/astock/ggcx/BIDU.OQ.htm
 *union*js*   *union*.js* http://www.kaixin001.com/!house/ranch/index.php
 *tracker.*  http://www.diandian.com/login http://s.libdd.com/js/lib/tracker/inc/trackerbase.js
 http://st3.dbank.com/*                  http://www.dbank.com/ 显示有问题
