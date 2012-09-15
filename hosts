@@ -1,5 +1,5 @@
 
-;version=21:58 2012-9-14
+;version=19:59 2012-9-15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -831,6 +831,7 @@ fe80::1%lo0	localhost
 127.0.0.1 scalink.sohu.com
 127.0.0.1 suvset.sohu.com
 127.0.0.1 txt.go.sohu.com
+127.0.0.1 xls.go.sohu.com
 127.0.0.1 pb.hd.sohu.com.cn
 127.0.0.1 sohusc.allyes.com
 127.0.0.1 imp.ad-plus.cn
@@ -844,12 +845,13 @@ fe80::1%lo0	localhost
 127.0.0.1 config.acc.sogou.com
 127.0.0.1 cpc.brand.sogou.com
 127.0.0.1 cpc.sogou.com
+127.0.0.1 dl.bizhi.sogou.com
+127.0.0.1 eff.inte.sogou.com
 127.0.0.1 fair.sogou.com
 127.0.0.1 goto.sogou.com
 127.0.0.1 image.p4p.sogou.com
 127.0.0.1 images.brand.sogou.com
 127.0.0.1 img.store.sogou.com
-127.0.0.1 eff.inte.sogou.com
 127.0.0.1 inte.sogou.com
 127.0.0.1 lk.brand.sogou.com
 127.0.0.1 lu.sogou.com
@@ -860,7 +862,6 @@ fe80::1%lo0	localhost
 127.0.0.1 sy.brand.sogou.com
 127.0.0.1 union.sogou.com
 127.0.0.1 wb.brand.sogou.com
-127.0.0.1 xls.go.sohu.com
 #金山在线
 127.0.0.1 kinfo.wps.cn
 127.0.0.1 db.union.download.kingsoft.com
