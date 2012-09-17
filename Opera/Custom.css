@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x81
+Version: 5.x83
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 22:19 2012/9/16
@@ -49,7 +49,7 @@ div[id^="adspot"],div[id^="adver"],div[id^="pad_"]{
 display: none !important;
 	}
 div[id="adDiv"],div[id*="AdContainer"],div[id*="AdWrapper"],div[id*="YieldManager"],
-div[id="adsmid"],div[id^="ADAREA"],div[id^="AdZone"],div[id^="AdsCont"]{
+div[id="adsmid"],div[id^="ADAREA"],div[id^="AdZone"],div[id^="AdsCont"],div[id="adjs_id"]{
 display: none !important;
 	}
 
@@ -216,7 +216,7 @@ div[id="update_popwin"],div[id="browsertip"],div[class="tips_player"],div[id="br
 
 /* 部分站点广告 */
 sohuadcode {display:none !important}
-div[class^="aa_"][id^="gg"],div[id^="b"][class^="cl970"],div[style="margin:0 0 10px 0;height:170px;padding-top:10px;border-top:1px solid #cdcdcd;"]{display:none !important}
+div[class^="aa_"][id^="gg"],div[id^="b"][class^="cl970"],div[id^="c"][class^="cl970"],div[style="margin:0 0 10px 0;height:170px;padding-top:10px;border-top:1px solid #cdcdcd;"]{display:none !important}
 div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
 div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
 div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"],div[id="sp"],LI[id="sp"]{display:none !important}

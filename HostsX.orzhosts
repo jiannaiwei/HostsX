@@ -1,5 +1,5 @@
 
-;version=18:38 2012/9/17
+;version=19:12 2012/9/17
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2010,6 +2010,7 @@ fe80::1%lo0	localhost
 #Donews
 0.0.0.0 gg.donews.com
 #小熊在线
+0.0.0.0 gg.whbear.com
 0.0.0.0 yahoo1.beareyes.com.cn
 #蓝色理想
 0.0.0.0 gg.blueidea.com
@@ -2234,6 +2235,7 @@ fe80::1%lo0	localhost
 #阿邦网
 0.0.0.0 abangafp.abang.com
 0.0.0.0 clk.abang.com
+0.0.0.0 y.abang.com
 #中国天气
 0.0.0.0 poster1.weather.com.cn
 0.0.0.0 poster.weather.com.cn
