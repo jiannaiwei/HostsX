@@ -1,5 +1,5 @@
 
-;version=19:12 2012/9/17
+;version=19:52 2012/9/17
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2303,6 +2303,15 @@ fe80::1%lo0	localhost
 #北海365
 0.0.0.0 ad.beihai365.com
 #Hiao好网
+0.0.0.0 1.up.hiao.com
+0.0.0.0 2.up.hiao.com
+0.0.0.0 3.up.hiao.com
+0.0.0.0 4.up.hiao.com
+0.0.0.0 5.up.hiao.com
+0.0.0.0 932.up.hiao.com
+0.0.0.0 933.up.hiao.com
+0.0.0.0 9628.up.hiao.com
+0.0.0.0 stat.hiao.com
 0.0.0.0 stat.hiao.com
 0.0.0.0 up.hiao.com
 #华声论坛
