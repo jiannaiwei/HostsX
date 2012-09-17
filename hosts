@@ -1,5 +1,5 @@
 
-;version=19:59 2012-9-15
+;version=18:38 2012/9/17
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -744,6 +744,10 @@ fe80::1%lo0	localhost
 127.0.0.1 tcss.qq.com
 127.0.0.1 trace.qq.com
 127.0.0.1 w.l.qq.com
+127.0.0.1 ta.qq.com
+127.0.0.1 tajs.qq.com
+127.0.0.1 pingtas.qq.com
+127.0.0.1 pingtcss.qq.com
 #หัหั
 127.0.0.1 dr.soso.com
 127.0.0.1 jzclick.soso.com
@@ -1841,7 +1845,6 @@ fe80::1%lo0	localhost
 #CNGBA
 127.0.0.1 js.adm.cngba.com
 #DM5
-127.0.0.1 js.cnc.dm5.cn
 127.0.0.1 by.cnc.dm5.cn
 127.0.0.1 by.dm5.com
 #ำฮพรอ๘
@@ -8844,6 +8847,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.qiyou.com
 127.0.0.1 img.qiyou.com
 127.0.0.1 r.qiyou.com
+127.0.0.1 rc.qiyou.com
 127.0.0.1 s.qiyou.com
 127.0.0.1 p.qiyou.com
 127.0.0.1 rs.qiyou.com
@@ -11546,4 +11550,10 @@ fe80::1%lo0	localhost
 127.0.0.1 cp.gs307.com
 127.0.0.1 img.feitian001.com
 127.0.0.1 www.feitian001.com
-
+127.0.0.1 baidu.bj0518.com
+127.0.0.1 dl.17777.com
+127.0.0.1 f1.tbjfw.com
+127.0.0.1 u.3393.com
+127.0.0.1 www.1717388.com
+127.0.0.1 www1.zjbdt.com
+127.0.0.1 www3.zjbdt.com

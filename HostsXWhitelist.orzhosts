@@ -1,5 +1,9 @@
-;version=20:19 2012-09-11
+;version=18:38 2012/9/17
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致DM5页面无法正常显示。
+js.cnc.dm5.cns
+$DELETE
 
 #导致Pcpop部分页面无法正常翻页。
 count.pcpop.com
