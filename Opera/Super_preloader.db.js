@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:11 2012-09-11
+// @lastmodified 14:11 2012/9/18
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -366,10 +366,37 @@
 		},
 		{siteName:'文学迷小说阅读网,小说阅读页面',
 			url:/^http:\/\/www\.wenxuemi\.net\/files\/article\/html\/.+\.html/i,
-			siteExample:'http://www.wenxuemi.net/files/article/html/0/199/1916039.html',
+			siteExample:'http://www.wenxuemi.net/files/article/html/0/199/2640787.html',
 			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
 			autopager:{
 				pageElement:'//div[@id="content"]',
+			}
+		},
+		{siteName:'在线书吧',
+			url:/^http:\/\/www\.bookba\.net\/Html\/Book\/.+\.html/i,
+			siteExample:'http://www.bookba.net/Html/Book/15/15995/2030251.html',
+			nextLink:'//td[@id="thumb"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="content"]',
+			}
+		},
+		{siteName:'万书楼',
+			url:/^http:\/\/www\.wanshulou\.com\/xiaoshuo\/.+\.shtml/i,
+			siteExample:'http://www.wanshulou.com/xiaoshuo/29/29091/2062593.shtml',
+			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="BookText"]',
+			}
+		},
+		{siteName:'小说客栈',
+			url:/^http:\/\/www\.xskz\.com\/xiaoshuo\/.+\.shtml/i,
+			siteExample:'http://www.xskz.com/xiaoshuo/29/29091/2062593.shtml',
+			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="BookText"]',
 			}
 		},
 		{siteName:'Opera官方网站帖子列表页面',
