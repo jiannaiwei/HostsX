@@ -1,5 +1,5 @@
 
-;version=19:52 2012/9/17
+;version=9:58 2012/9/18
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2312,7 +2312,6 @@ fe80::1%lo0	localhost
 0.0.0.0 933.up.hiao.com
 0.0.0.0 9628.up.hiao.com
 0.0.0.0 stat.hiao.com
-0.0.0.0 stat.hiao.com
 0.0.0.0 up.hiao.com
 #华声论坛
 0.0.0.0 click.hnol.net
@@ -3484,7 +3483,6 @@ fe80::1%lo0	localhost
 0.0.0.0 web.burstmedia.com
 0.0.0.0 websurvey.burstmedia.com
 0.0.0.0 ads.burstnet.com
-0.0.0.0 ads.burstnet.com 
 0.0.0.0 bet.burstnet.com
 0.0.0.0 bmuk.burstnet.com
 0.0.0.0 gifs.burstnet.com
@@ -6571,7 +6569,6 @@ fe80::1%lo0	localhost
 0.0.0.0 c28.statcounter.com
 0.0.0.0 c29.statcounter.com
 0.0.0.0 c3.statcounter.com
-0.0.0.0 c3.statcounter.com 
 0.0.0.0 c30.statcounter.com
 0.0.0.0 c31.statcounter.com
 0.0.0.0 c32.statcounter.com
@@ -10236,6 +10233,7 @@ fe80::1%lo0	localhost
 0.0.0.0 sddnserror5.wo.com.cn
 0.0.0.0 sddnserror6.wo.com.cn
 0.0.0.0 sddnserror7.wo.com.cn
+0.0.0.0 sddnserror8.wo.com.cn
 0.0.0.0 nfdnserror8.wo.com.cn
 0.0.0.0 pop.17lele.net
 #各地运营商广告
@@ -11564,7 +11562,4 @@ fe80::1%lo0	localhost
 0.0.0.0 baidu.bj0518.com
 0.0.0.0 dl.17777.com
 0.0.0.0 f1.tbjfw.com
-0.0.0.0 u.3393.com
 0.0.0.0 www.1717388.com
-0.0.0.0 www1.zjbdt.com
-0.0.0.0 www3.zjbdt.com

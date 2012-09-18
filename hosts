@@ -1,5 +1,5 @@
 
-;version=19:52 2012/9/17
+;version=9:58 2012/9/18
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2312,7 +2312,6 @@ fe80::1%lo0	localhost
 127.0.0.1 933.up.hiao.com
 127.0.0.1 9628.up.hiao.com
 127.0.0.1 stat.hiao.com
-127.0.0.1 stat.hiao.com
 127.0.0.1 up.hiao.com
 #华声论坛
 127.0.0.1 click.hnol.net
@@ -3484,7 +3483,6 @@ fe80::1%lo0	localhost
 127.0.0.1 web.burstmedia.com
 127.0.0.1 websurvey.burstmedia.com
 127.0.0.1 ads.burstnet.com
-127.0.0.1 ads.burstnet.com 
 127.0.0.1 bet.burstnet.com
 127.0.0.1 bmuk.burstnet.com
 127.0.0.1 gifs.burstnet.com
@@ -6571,7 +6569,6 @@ fe80::1%lo0	localhost
 127.0.0.1 c28.statcounter.com
 127.0.0.1 c29.statcounter.com
 127.0.0.1 c3.statcounter.com
-127.0.0.1 c3.statcounter.com 
 127.0.0.1 c30.statcounter.com
 127.0.0.1 c31.statcounter.com
 127.0.0.1 c32.statcounter.com
@@ -10236,6 +10233,7 @@ fe80::1%lo0	localhost
 127.0.0.1 sddnserror5.wo.com.cn
 127.0.0.1 sddnserror6.wo.com.cn
 127.0.0.1 sddnserror7.wo.com.cn
+127.0.0.1 sddnserror8.wo.com.cn
 127.0.0.1 nfdnserror8.wo.com.cn
 127.0.0.1 pop.17lele.net
 #各地运营商广告
@@ -11564,7 +11562,4 @@ fe80::1%lo0	localhost
 127.0.0.1 baidu.bj0518.com
 127.0.0.1 dl.17777.com
 127.0.0.1 f1.tbjfw.com
-127.0.0.1 u.3393.com
 127.0.0.1 www.1717388.com
-127.0.0.1 www1.zjbdt.com
-127.0.0.1 www3.zjbdt.com
