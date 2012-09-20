@@ -1,5 +1,5 @@
 
-;version=21:42 2012/9/20
+;version=21:46 2012/9/20
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9119,9 +9119,10 @@ fe80::1%lo0	localhost
 127.0.0.1 list.zhubajie.com
 127.0.0.1 un.zhubajie.com
 #Yucmedia
+127.0.0.1 api.yucmedia.com
+127.0.0.1 demo.yucmedia.com
 127.0.0.1 img.yucmedia.com
 127.0.0.1 script.yucmedia.com
-127.0.0.1 api.yucmedia.com
 127.0.0.1 serv.yucmedia.com
 127.0.0.1 www.yucmedia.com
 @Mobile 手机广告平台
