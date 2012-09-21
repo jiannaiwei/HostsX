@@ -1,5 +1,5 @@
 
-;version=9:01 2012/9/21
+;version=9:17 2012/9/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9195,6 +9195,7 @@ fe80::1%lo0	localhost
 0.0.0.0 mobi.adsage.com
 #Adwaken
 0.0.0.0 adwaken.cn
+0.0.0.0 s2s.adwaken.cn
 0.0.0.0 adwaken.com
 #Aduu
 0.0.0.0 mgr.aduu.cn
@@ -9281,6 +9282,7 @@ fe80::1%lo0	localhost
 0.0.0.0 imp.himogo.com
 0.0.0.0 req.himogo.com
 #inmobi
+0.0.0.0 adserving.immob.cn
 0.0.0.0 i.w.inmobi.com
 0.0.0.0 ma.inmobi.com
 0.0.0.0 r.w.inmobi.com
@@ -9615,6 +9617,7 @@ fe80::1%lo0	localhost
 0.0.0.0 assets.zestadz.com
 0.0.0.0 www.zestadz.com
 #WapSite
+0.0.0.0 chinaron.8866.org
 0.0.0.0 ad.zhekouku.cn
 0.0.0.0 jmplead.com
 0.0.0.0 ad.leadbolt.net
