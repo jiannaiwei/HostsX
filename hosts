@@ -1,5 +1,5 @@
 
-;version=21:46 2012/9/20
+;version=9:01 2012/9/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8518,6 +8518,8 @@ fe80::1%lo0	localhost
 127.0.0.1 v.taolai.cn
 127.0.0.1 y.taolai.cn
 #Allyes
+127.0.0.1 www.allyes.com
+127.0.0.1 a3.allyes.com
 127.0.0.1 114.allyes.com
 127.0.0.1 idigger.allyes.com
 127.0.0.1 adzjvnet.allyes.com
