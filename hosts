@@ -1,5 +1,5 @@
 
-;version=9:17 2012/9/21
+;version=9:19 2012/9/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9281,8 +9281,9 @@ fe80::1%lo0	localhost
 127.0.0.1 cus.himogo.com
 127.0.0.1 imp.himogo.com
 127.0.0.1 req.himogo.com
-#inmobi
+#immob
 127.0.0.1 adserving.immob.cn
+#inmobi
 127.0.0.1 i.w.inmobi.com
 127.0.0.1 ma.inmobi.com
 127.0.0.1 r.w.inmobi.com
