@@ -1,5 +1,5 @@
 
-;version=9:19 2012/9/21
+;version=9:21 2012/9/21
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -11585,3 +11585,4 @@ fe80::1%lo0	localhost
 127.0.0.1 code.ze5.com
 127.0.0.1 count.ze5.com
 127.0.0.1 wb.8adv.com
+127.0.0.1 pic.wanlicity.com
