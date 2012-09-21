@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x862
+Version: 5.x87
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 9:57 2012/9/21
+Lastchage: 10:22 2012/9/21
 Description: MayBe a better User CSS Help U.
 */
 
@@ -72,12 +72,12 @@ div[class^="nav-ad"],div[class^="ndadv"],div[class*="-top-ads"],div[class*="AdTo
 div[id="navads"],div[id="topmad"],div[id="toplink"],div[id="adTop"],div[id$="head_ad"]{
 display: none !important;
 	}
-div[class="adll"],div[class^="adLeft"],div[id^="LeftAd"],div[id="leftdiv"],div[id$="eftDiv"],div[id^="LeftBottom"],
-div[class="adrr"],div[class^="adRight"],div[id^="RightAd"],div[id="rightdiv"],div[id$="ightDiv"],div[id^="RightBottom"]{
+div[class="adll"],div[class^="adLeft"],div[id^="LeftAd"],div[id$="eftDiv"],div[id^="LeftBottom"],
+div[class="adrr"],div[class^="adRight"],div[id^="RightAd"],div[id$="ightDiv"],div[id^="RightBottom"]{
 display: none !important;
 	}
-div[id$="rightad"],div[id^="AdRight"],div[id^="rightAd"],div[id$="tCoupletId"],
-div[class^="RightAD"],div[class^="rightad"],div[class*=" video-couplet-"]{
+div[id*="right"][style*="px;"],div[id^="AdRight"],div[id$="tCoupletId"],
+div[id*="left"][style*="px;"],div[class^="RightAD"],div[class^="rightad"],div[class*=" video-couplet-"]{
 display: none !important;
 	}
 div[class^="Indexad"],div[class*="inner_ad"],div[class^="double_ad"],div[class^="footad"],

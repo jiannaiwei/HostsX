@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-21:43 2012/9/20
+10:22 2012/9/21
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -542,6 +542,7 @@ adsdata.js
 adscomm.js
 
 论坛过滤备份，重复：
+div[id^="rightAd"],div[id$="rightad"],div[id="rightdiv"],div[id="leftdiv"],
 div[class^="ad-"],
 div[class^="ads-"],
 div[class^="ads_"],
