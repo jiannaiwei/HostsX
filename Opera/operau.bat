@@ -1,5 +1,5 @@
 @echo off
-set ver=1.03
+set ver=1.05
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -81,4 +81,4 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
 echo CSS数据已更新!
 mshta vbscript:msgbox("配置文件已是最新状态！",64,"SimpleU+")(window.close)
-start /min iexplore http://weibo.com/vokins &start iexplore http://sdrv.ms/L1ihpd & choice /t 2 /d y /n >nul & goto exit
+start /min iexplore http://weibo.com/vokins & choice /t 2 /d y /n >nul & goto exit

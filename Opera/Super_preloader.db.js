@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 14:11 2012/9/18
+// @lastmodified 10:02 2012/9/21
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -388,6 +388,15 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@id="BookText"]',
+			}
+		},
+		{siteName:'翠微居',
+			url:/^http:\/\/www\.cuiweiju\.com\/html\/.+\.html/i,
+			siteExample:'http://www.cuiweiju.com/html/124/124362/6468025.html',
+			nextLink:'//p[@class="cz_bar"]/descendant::a[text()="下一章 》"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//p[@id="content"]',
 			}
 		},
 		{siteName:'小说客栈',

@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x861
+Version: 5.x862
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 9:22 2012/9/21
+Lastchage: 9:57 2012/9/21
 Description: MayBe a better User CSS Help U.
 */
 
@@ -93,7 +93,7 @@ div[id^="pic_ad"],div[id^="dale_online_"],div[id^="extradiv"]{
 display: none !important;
 	}
 
-td[id^="adp_"],td[class="adslot"],td[class="ad"],
+td[id^="adp_"],td[class="adslot"],td[class="ad"],dl[id^="ad0"],
 tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[class^="ad_details"]{
 display: none !important;
 	}
@@ -120,7 +120,7 @@ div[id*="adflash"],div[id*="ad-flash"],div[id*="_flash_click_"],div[id="flashban
 div[class="flashNews"],object[class*="ad_falsh"],embed[id^="ad_flash"],embed[name="flash_focus"]{
 display: none !important;
 	}
-div[class*="ad-banner"],div[class*="topBanner"],div[class="banner"]>dl,
+div[class*="ad-banner"],div[class*="topBanner"],div[class="banner"]>dl,div[class^="bigbanner"][id^="bigbanner"],
 div[class="banner"][id^="adsp_content"],div[class="banner"][id^="banner"]{
 display: none !important;
 	}
