@@ -1,5 +1,5 @@
 
-;version=22:12 2012/9/21
+;version=9:46 2012/9/22
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2029,9 +2029,11 @@ fe80::1%lo0	localhost
 0.0.0.0 img.rayfile.com
 0.0.0.0 raya.rayfile.com
 0.0.0.0 w105.rayfile.com
-#华为网盘
+#华为
 0.0.0.0 acd.adkongjian.com
 0.0.0.0 cs.adkongjian.com
+0.0.0.0 iacd.adkongjian.com
+0.0.0.0 www.juads.com
 0.0.0.0 cs.twcczhu.com
 0.0.0.0 www.adcccc.com
 #Rising

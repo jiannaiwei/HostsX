@@ -2029,9 +2029,11 @@ fe80::1%lo0	localhost
 127.0.0.1 img.rayfile.com
 127.0.0.1 raya.rayfile.com
 127.0.0.1 w105.rayfile.com
-#华为网盘
+#华为
 127.0.0.1 acd.adkongjian.com
 127.0.0.1 cs.adkongjian.com
+127.0.0.1 iacd.adkongjian.com
+127.0.0.1 www.juads.com
 127.0.0.1 cs.twcczhu.com
 127.0.0.1 www.adcccc.com
 #Rising
