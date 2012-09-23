@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:23 2012/9/23
+// @lastmodified 23:18 2012/9/23
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -70,7 +70,7 @@
 
 	//在以下网站上允许在非顶层窗口上加载JS..比如猫扑之类的框架集网页.
 	var DIExclude=[
-		['猫扑帖子内容页面',true,/http:\/\/dzh\.mop\.com\/topic\/readSub/i],
+		['猫扑帖子',true,/http:\/\/dzh\.mop\.com\/topic\/readSub/i],
 	];
 
 	//////////////////////////---------------规则-------////////////////
@@ -207,7 +207,7 @@
 				remain:1.4,
 			}
 		},
-		{siteName:'百度贴吧帖子列表',
+		{siteName:'百度贴吧列表',
 			url:/^http:\/\/tieba\.baidu\.com\/f\?.*kw=/i,
 			siteExample:'http://tieba.baidu.com/f?kw=opera&fr=tb0_search&ie=utf-8',
 			nextLink:'//div[@class="pager clearfix"]/descendant::a[@class="next"]',
@@ -215,7 +215,7 @@
 				pageElement:'//ul[@id="thread_list"]',
 			}
 		},
-		{siteName:'百度贴吧帖子内容',
+		{siteName:'百度贴吧帖子',
 			url:/^http:\/\/tieba\.baidu\.com\/p/i,
 			siteExample:'http://tieba.baidu.com/p/918674650',
 			nextLink:'//li[@class="l_pager pager_theme_2"]/a[text()="下一页"]',
@@ -223,7 +223,7 @@
 				pageElement:'//div[@class="p_postlist"]',
 			}
 		},
-		{siteName:'百度贴吧俱乐部帖子内容',
+		{siteName:'百度贴吧俱乐部帖子',
 			url:/^http:\/\/tieba\.baidu\.com\/club\/.+\/p\/.+/i,
 			siteExample:'http://tieba.baidu.com/club/6883547/p/4047809',
 			nextLink:'//div[@class="pagination"]/a[text()="下一页"]',
@@ -231,7 +231,7 @@
 				pageElement:'//div[@id="content"]',
 			}
 		},
-		{siteName:'百度贴吧俱乐部帖子列表',
+		{siteName:'百度贴吧俱乐部列表',
 			url:/^http:\/\/tieba\.baidu\.com\/club\/.+(?!\/p\/)/i,
 			siteExample:'http://tieba.baidu.com/club/6883547',
 			nextLink:'//div[@class="pagination"]/a[text()="下一页"]',
@@ -239,7 +239,18 @@
 				pageElement:'//table[@id="thread_table"]',
 			}
 		},
-		{siteName:'起点小说阅读页',
+		{siteName:'万卷书屋',
+			url:/^http:\/\/www\.wjxsw\.net\/book\/.+/i,
+			siteExample:'http://www.wjxsw.net/book/448/38570.shtml',
+			useiframe:true,
+			nextLink:'//div[@id="thumb"]/descendant::a[text()="下一章"]',
+			autopager:{
+				enable:true,
+				useiframe:true,
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'起点小说',
 			url:/^http:\/\/www\.qidian\.com\/BookReader\/\d+,\d+/i,
 			siteExample:'http://www.qidian.com/BookReader/1545376,27301383.aspx',
 			useiframe:true,
@@ -353,9 +364,9 @@
 				pageElement:'//div[@id="bookpartinfo"]',
 			}
 		},
-		{siteName:'文学迷',
+		{siteName:'文学迷小说阅读网',
 			url:/^http:\/\/www\.wenxuemi\.net\/files\/article\/html\/.+\.html/i,
-			siteExample:'http://www.wenxuemi.net/files/article/html/0/199/4254275.html',
+			siteExample:'http://www.wenxuemi.net/files/article/html/0/199/2640787.html',
 			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
 			autopager:{
 				pageElement:'//div[@id="content"]',
@@ -397,16 +408,6 @@
 				pageElement:'//div[@id="BookText"]',
 			}
 		},
-		{siteName:'飞库网',
-			url:/^http:\/\/www\.feiku\.com\/*html\/book\/.+\.shtm/i,
-			siteExample:'http://www.feiku.com//html/book/130/164016/4891625.shtm',
-			nextLink:'//div[@class="prenext"]/descendant::a[text()="下一页→"]',
-			useiframe:true,
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="chcontent"]',
-			}
-		},
 		{siteName:'万卷书屋',
 			url:/^http:\/\/www\.wjsw\.com\/html\/.+\.shtml/i,
 			siteExample:'http://www.wjsw.com/html/35/35404/2887335.shtml',
@@ -418,7 +419,7 @@
 			}
 		},
 		{siteName:'万卷书屋2',
-			url:/wanjuan\.net\/\w+\/\d+\.html/i,
+			url:/^http:\/\/wanjuan\.net\/\w+\/\d+\.html/i,
 			siteExample:'http://wanjuan.net/tiancaixiangshi/3169.html',
 			useiframe:true,
 			nextLink:'//div[@class="book_middle_text_next"]/descendant::a[text()="下一章(快捷键:→)"]',
@@ -437,7 +438,17 @@
 				pageElement:'//div[@id="main"]'
 			}
 		},
-		{siteName:'Opera官方网站帖子列表页面',
+		{siteName:'飞库',
+			url:/^http:\/\/www\.feiku\.com\/\/html\/book\/.+\.shtm/i,
+			siteExample:'http://www.feiku.com//html/book/130/164016/4891625.shtm',
+			useiframe:true,
+			nextLink:'//div[@class="prenext"]/descendant::a[text()="下一页→"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="chcontent"]'
+			}
+		},
+		{siteName:'OperaChina列表',
 			url:/^http:\/\/bbs\.operachina\.com\/viewforum/i,
 			siteExample:'http://bbs.operachina.com/viewforum.php?f=41',
 			nextLink:'//div[starts-with(@class,"pagination")]/descendant::a[text()="下一页"]',
@@ -446,7 +457,7 @@
 				replaceE:'//div[starts-with(@class,"pagination")]',
 			}
 		},
-		{siteName:'Opera官方网站帖子内容页面',
+		{siteName:'OperaChina帖子',
 			url:/^http:\/\/bbs\.operachina\.com\/viewtopic/i,
 			siteExample:'http://bbs.operachina.com/viewtopic',
 			nextLink:'//div[starts-with(@class,"pagination")]/descendant::a[text()="下一页"]',
@@ -456,7 +467,7 @@
 				replaceE:'//div[starts-with(@class,"pagination")]'
 			}
 		},
-		{siteName:'Opera官方网站查看新帖帖子列表页面',
+		{siteName:'OperaChina查看新帖列表',
 			url:/^http:\/\/bbs\.operachina\.com\/search/i,
 			siteExample:'http://bbs.operachina.com/search.php?search_id=newposts',
 			nextLink:'//li[contains(@class,"pagination")]/descendant::a[text()="下一页"]',
@@ -465,87 +476,48 @@
 				replaceE:'//li[contains(@class,"pagination")]'
 			}
 		},
-		{siteName:'机锋论坛帖子列表页面',
-			url:/http:\/\/bbs\.gfan\.com\/forum/i,
+		{siteName:'机锋论坛',
+			url:/http:\/\/bbs\.gfan\.com/i,
 			siteExample:'http://bbs.gfan.com/forum-729-1.html',
 			nextLink:'//div[@class="pages"]/a[@class="next"]',
 			autopager:{
-				pageElement:'//div[@id="threadlist"]',
+				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'机锋论坛帖子内容页面',
-			url:/http:\/\/bbs\.gfan\.com\/android/i,
-			siteExample:'http://bbs.gfan.com/android-4513529-1-1.html',
-			nextLink:'//div[@class="pages"]/a[@class="next"]',
-			autopager:{
-				pageElement:'//div[@id="postlist"]',
-			}
-		},
-		{siteName:'远景论坛帖子内容页面',
-			url:/http:\/\/bbs\.pcbeta\.com\/viewthread/i,
-			siteExample:'http://bbs.pcbeta.com/viewthread',
+		{siteName:'远景论坛',
+			url:/http:\/\/bbs\.pcbeta\.com/i,
+			siteExample:'http://bbs.pcbeta.com/',
 			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
 			autopager:{
 				useiframe:false,
-				pageElement:'//div[@id="postlist"]'
+				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
 			}
 		},
-		{siteName:'远景论坛帖子列表页面',
-			url:/http:\/\/bbs\.pcbeta\.com\/forum/i,
-			siteExample:'http://bbs.pcbeta.com/forum-74-1.html',
-			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
-			autopager:{
-				pageElement:'//form[@id="moderate"]'
-			}
-		},
-		{siteName:'百事高音乐论坛帖子页面',
-			url:/http:\/\/bbs\.besgold\.com\/forum/i,
+		{siteName:'百事高音乐论坛',
+			url:/http:\/\/bbs\.besgold\.com/i,
 			siteExample:'http://bbs.besgold.com/forum-75-2.html',
 			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
 			autopager:{
-				pageElement:'//form[@id="moderate"]'
+				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
 			}
 		},
-		{siteName:'百事高音乐论坛帖子内容页面',
-			url:/http:\/\/bbs\.besgold\.com\/thread/i,
-			siteExample:'http://bbs.besgold.com/thread-287344-1-1.html',
-			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
-			autopager:{
-				pageElement:'//div[@id="postlist"]'
-			}
-		},
-		{siteName:'mozest社区帖子内容页面',
-			url:/^https?:\/\/g\.mozest\.com\/thread/i,
+		{siteName:'mozest社区',
+			url:/^https?:\/\/g\.mozest\.com/i,
 			nextLink:'//div[@class="pages"]/a[@class="next"]',
 			autopager:{
 				useiframe:true,
-				pageElement:'//div[@id="postlist"]'
+				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'mozest社区帖子列表页面',
-			url:/^http:\/\/g\.mozest\.com\/forum/i,
-			nextLink:'//div[@class="pages"]/a[@class="next"]',
-			autopager:{
-				pageElement:'//div[@id="threadlist"]'
-			}
-		},
-		{siteName:'塞班智能手机论坛帖子列表页面',
-			url:/http:\/\/bbs\.dospy\.com\/forum/i,
-			siteExample:'http://bbs.dospy.com/forum-354-1.html',
-			nextLink:'//div[@class="p_bar"]/a[@class="p_curpage"]/following-sibling::a[@class="p_num"]',
-			autopager:{
-				pageElement:'//form[@name="moderate"]'
-			}
-		},
-		{siteName:'塞班智能手机论坛帖子内容页面',
+		{siteName:'塞班智能手机论坛',
 			url:/http:\/\/bbs\.dospy\.com\/thread/i,
 			siteExample:'http://bbs.dospy.com/thread-672836-1-52-1.html',
 			nextLink:'//div[@class="p_bar"]/a[@class="p_curpage"]/following-sibling::a[@class="p_num"]',
 			autopager:{
-				pageElement:'//form[@name="delpost"]'
+				pageElement:'//form[@name="delpost"] | //form[@name="moderate"]',
 			}
 		},
-		{siteName:'思源论坛帖子内容页面',
+		{siteName:'思源论坛帖子',
 			url:/http:\/\/www\.missyuan\.com\/(?:view)?thread/i,
 			siteExample:'http://www.missyuan.com/thread-431242-1-1.html',
 			nextLink:'//div[@class="pages"]/descendant::a[@class="next"]',
@@ -554,7 +526,7 @@
 				pageElement:'//form[@method="post"]',
 			}
 		},
-		{siteName:'霏凡论坛帖子内容页面',
+		{siteName:'霏凡论坛帖子',
 			url:/http:\/\/bbs\.crsky\.com\/read\.php/i,
 			siteExample:'http://bbs.crsky.com/read.php?tid=2041122',
 			nextLink:'auto;',
@@ -588,7 +560,7 @@
 				pageElement:'//div[@class="z threadCommon"] | //div[@class="mb10 bodd"]',
 			}
 		},
-		{siteName:'EZ游戏社区帖子内容页面',
+		{siteName:'EZ游戏社区帖子',
 			url:/http:\/\/bbs\.emu-zone\.org\/thread/i,
 			siteExample:'http://bbs.emu-zone.org/thread',
 			nextLink:'//div[@class="p_bar"]/descendant::a[text()="››"]',
@@ -623,7 +595,7 @@
 				pageElement:'//div[@id="cotent_idd"]'
 			}
 		},
-		{siteName:'PCHOME 社区帖子内容页面',
+		{siteName:'PCHOME 社区帖子',
 			url:/http:\/\/club\.pchome\.net\/thread_/i,
 			siteExample:'http://club.pchome.net/thread_1_15_6009928__.html',
 			nextLink:'auto;',
@@ -641,7 +613,7 @@
                                 remain: 1 / 3,
 			},
 		},
-		{siteName:'天涯论坛帖子内容页面',
+		{siteName:'天涯论坛帖子',
 			url:/http:\/\/www\.tianya\.cn\/.+\/content\/.+/i,
 			siteExample:'http://www.tianya.cn/publicforum/content/2010expo/4eddfdeea800b3957fd4781ff6004bc3/1/0/1.shtml',
 			nextLink:'//*[@id="pageDivTop" or @class="pages"]/descendant::a[text()="下一页"][@href]',
@@ -649,7 +621,7 @@
 				pageElement:'//div[@id="pContentDiv"]'
 			}
 		},
-		{siteName:'猫扑大杂烩帖子内容',
+		{siteName:'猫扑大杂烩帖子',
 			url:/http:\/\/dzh\.mop\.com\/topic\/readSub/i,
 			nextLink:'//a[contains(text(),"下一页")][@href]',
 			autopager:{
@@ -665,7 +637,7 @@
 				
 			}
 		},
-		{siteName:'茶片坊帖子内容页面',
+		{siteName:'茶片坊帖子',
 			url:/http:\/\/www\.soupis\.com\/(?:view)?thread/i,
 			siteExample:'http://www.soupis.com/thread-8004-1-1.html',
 			nextLink:'//div[@class="pages"]/descendant::a[@class="next"]',
@@ -673,7 +645,7 @@
 				pageElement:'//form[@method="post"][@name]',
 			}
 		},
-		{siteName:'色影无忌帖子内容页面',
+		{siteName:'色影无忌帖子',
 			url:/http:\/\/forum\.xitek\.com\/showthread/i,
 			siteExample:'http://forum.xitek.com/showthread.php?threadid=571986',
 			nextLink:'//font[@size="2"]/font[@class="thtcolor"]/following-sibling::a[@href]',
@@ -681,22 +653,14 @@
 				pageElement:'//body/table[position()>2 and position()<(last()-2)]',
 			}
 		},
-		{siteName:'19楼帖子内容',
-			url:/^http:\/\/www\.19lou\.com\/forum.*thread/i,
+		{siteName:'19楼帖子',
+			url:/^http:\/\/www\.19lou\.com/i,
 			siteExample:'http://www.19lou.com/forum-1502-thread-29762777-1-1.html',
-			nextLink:'//div[@class="page-mod fl"]/descendant::a[@class="page-next"]',
+			nextLink:'auto;',
 			useiframe:true,
 			autopager:{
 				useiframe:true,
-				pageElement:'//form[@name="postForm"]'
-			}
-		},
-		{siteName:'19楼帖子列表',
-			url:/^http:\/\/www\.19lou\.com\/forum/i,
-			siteExample:'http://www.19lou.com/forum-1500-1.html',
-			nextLink:'//div[@class="page-mod fr"]/descendant::a[@class="page-next"]',
-			autopager:{
-				pageElement:'//form[@id="manageForm"]'
+				pageElement:'//form[@name="postForm"] | //form[@name="manageForm"]',
 			}
 		},
 		{siteName:'汽车之家论坛帖子和列表',
@@ -707,7 +671,7 @@
 				pageElement:'//dl[@class="list_dl "][@lang] | //div[@class="conmain"]',
 			}
 		},
-		{siteName:'爱卡汽车论坛帖子内容',
+		{siteName:'爱卡汽车论坛帖子',
 			url:/^http:\/\/www\.xcar\.com\.cn\/bbs\/viewthread/i,
 			siteExample:'http://www.xcar.com.cn/bbs/viewthread.php?tid=12474760',
 			nextLink:'//a[text()="下一页＞"][@href]',
@@ -816,7 +780,7 @@
 				pageElement:'//body/table[2]'
 			}
 		},
-		{siteName:'海贼王中文网漫画页',
+		{siteName:'海贼王',
 			url:/http:\/\/op\.52pk\.com\/manhua\/\d+\/\d+/i,
 			siteExample:'http://op.52pk.com/manhua/2010/921364.html',
 			nextLink:'//li[@id="page__next"]/a[1]',
@@ -825,7 +789,7 @@
 				pageElement:'//div[@id="pictureContent"]'
 			}
 		},
-		{siteName:'死神中文网漫画页',
+		{siteName:'死神',
 			url:/http:\/\/sishen\.52pk\.com\/manhua\/\d+\/\d+/i,
 			siteExample:'http://sishen.52pk.com/manhua/2010/927406.html',
 			nextLink:'//li[@id="page__next"]/a[1]',
@@ -834,7 +798,7 @@
 				pageElement:'//div[@id="pictureContent"]'
 			}
 		},
-		{siteName:'火影中文网漫画页',
+		{siteName:'火影',
 			url:/http:\/\/narutocn\.52pk\.com\/manhua\/\d+\/\d+/i,
 			siteExample:'http://narutocn.52pk.com/manhua/2010/921439.html',
 			//nextLink:'css;li#page__next>a:first-child',
@@ -853,7 +817,7 @@
 				pageElement:'//div[@class="inner_img"]',
 			}
 		},
-		{siteName:'有妖气漫画阅读页',
+		{siteName:'有妖气漫画',
 			url:/http:\/\/www\.u17\.com\/comic_show\/.+/i,
 			siteExample:'http://www.u17.com/comic_show/c28540_m0.html',
 			nextLink:function(D){
@@ -900,7 +864,7 @@
 				pageElement:'//div[@id="comic_endtext"]',
 			}
 		},
-		{siteName:'sosg论坛帖子内容',
+		{siteName:'sosg论坛帖子',
 			url:/http:\/\/www\.sosg\.net\/read/i,
 			siteExample:'http://www.sosg.net/read.php?tid=424833',
 			nextLink:'//td[@align="left"]/b/following-sibling::a[@href]',
@@ -930,7 +894,7 @@
 
 	//统配规则..用来灭掉一些DZ.或者phpwind论坛系统..此组规则..优先级自动降为最低..
 	var SITEINFO_TP=[
-		{siteName:'Discuz论坛帖子列表页面',
+		{siteName:'Discuz论坛列表',
 			url:/^https?:\/\/(?:www\.[^\/]+\/|[^\/]+\/(?:bbs\/)?)(?:(?:forum)|(?:showforum)|(?:viewforum))+/i,
 			preLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="prev"][@href]',
 			nextLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="next" or @class="nxt"][@href]',
@@ -940,7 +904,7 @@
 				pageElement:'//form[@method="post"][@name] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'Discuz论坛帖子内容页面',
+		{siteName:'Discuz论坛帖子',
 			url:/https?:\/\/(?:www\.[^\/]+\/|[^\/]+\/(?:bbs\/)?)(?:(?:thread)|(?:viewthread)|(?:showtopic)|(?:viewtopic))+/i,
 			preLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="prev"][@href]',
 			nextLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="next" or @class="nxt"][@href]',
@@ -950,7 +914,7 @@
 				pageElement:'//div[@id="postlist"]',
 			}
 		},
-		{siteName:'phpWind论坛帖子列表页面',
+		{siteName:'phpWind论坛列表',
 			url:/^https?:\/\/(?:www\.[^\/]+\/|[^\/]+\/(?:bbs\/)?)?thread/i,
 			preLink:'//div[starts-with(@class,"pages")]/b[1]/preceding-sibling::a[1][not(@class)][@href] | //div[starts-with(@class,"pages")]/ul[1]/li[b]/preceding-sibling::li/a[1][not(@class)][@href]',
 			nextLink:'//div[starts-with(@class,"pages")]/b[1]/following-sibling::a[1][not(@class)] | //div[starts-with(@class,"pages")]/ul[1]/li[b]/following-sibling::li/a[1][not(@class)]',
@@ -958,7 +922,7 @@
 				pageElement:'//div[@class="t z"] | //div[@class="z"]',
 			}
 		},
-		{siteName:'phpWind论坛帖子内容页面',
+		{siteName:'phpWind论坛帖子',
 			url:/^https?:\/\/(?:www\.[^\/]+\/|[^\/]+\/(?:bbs\/)?)?read/i,
 			preLink:'//div[starts-with(@class,"pages")]/b[1]/preceding-sibling::a[1][not(@class)][@href] | //div[starts-with(@class,"pages")]/ul[1]/li[b]/preceding-sibling::li/a[1][not(@class)][@href]',
 			nextLink:'//div[starts-with(@class,"pages")]/b[1]/following-sibling::a[1][not(@class)] | //div[starts-with(@class,"pages")]/ul[1]/li[b]/following-sibling::li/a[1][not(@class)]',
@@ -966,7 +930,7 @@
 				pageElement:'//div[@class="t5"] | //div[@class="read_t"]',
 			}
 		},
-		{siteName:'phpBB帖子列表页面',
+		{siteName:'phpBB列表',
 			url:/^https?:\/\/[^\/]+(\/[a-z,0-9]+)?\/viewforum/i,
 			siteExample:'http://www.firefox.net.cn/forum/viewforum.php?f=4',
 			nextLink:'auto;',
@@ -976,7 +940,7 @@
 				remain:1/3,
 			}
 		},
-		{siteName:'phpBB帖子内容页面',
+		{siteName:'phpBB帖子',
 			url:/^https?:\/\/[^\/]+(\/[a-z,0-9]+)?\/viewtopic/i,
 			siteExample:'http://www.firefox.net.cn/forum/viewtopic.php?t=34339',
 			nextLink:'auto;',
