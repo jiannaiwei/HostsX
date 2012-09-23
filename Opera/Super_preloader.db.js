@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 10:02 2012/9/21
+// @lastmodified 15:31 2012/9/23
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -406,6 +406,16 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@id="BookText"]',
+			}
+		},
+		{siteName:'飞库网',
+			url:/^http:\/\/www\.feiku\.com\/*html\/book\/.+\.shtm/i,
+			siteExample:'http://www.feiku.com//html/book/130/164016/4891625.shtm',
+			nextLink:'//div[@class="prenext"]/descendant::a[text()="下一页→"]',
+			useiframe:true,
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="chcontent"]',
 			}
 		},
 		{siteName:'Opera官方网站帖子列表页面',

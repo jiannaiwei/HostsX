@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-7:55 2012/9/23
+9:53 2012/9/23
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -451,6 +451,8 @@ screener         =simpleu/program/screener.png
 snap             =simpleu/program/snap.png
 firefox          =simpleu/program/firefox.png
 ie               =simpleu/program/ie.png
+iemode           =simpleu/program/iemode.png
+closedtabs       =simpleu/program/closedtabs.png
 
 #Proxy
 advor            =simpleu/proxy/advor.png
@@ -640,6 +642,8 @@ div[class$="adclass"],div[class^="adclass"],
 div[class^="adBlock "],div[class^="adBlk ad"],
 div[align="center"][id^="ad"],center>div[id^="AD"],div[id^="AD"][style*="w"]
 
+Platform Windows, Button, "兼容模式-View in IE"="Go to page, "javascript:(function(){var h=location.href;if(!h||/^(javascript|about|opera):/i.test(h)){return}window.open().document.write('<html>'+'<head>'+'<title>'+(document.title?document.title:location.href).replace(/</g,'&lt;')+' - view in ie</title>'+'<style type=\x22text/css\x22>body{margin:0;padding:0;}embed{width:100\x25;height:100\x25;}</style>'+'</head>'+'<body>'+'<script type=\x22text/javascript\x22'+'src=\x22data:text/javascript,'+encodeURIComponent('document.write(\'<embed type=\x22application/viewinie\x22 param-location=\x22'+location.href+'\x22></embed>\');')+'\x22>'+'</script>'+'</body>'+'</html>')})();", , "调用IE内核", "iemode" + Copy document address & Close page & New private page & Paste and go,,,"ie""
+Platform Windows, Button, "使用IE打开(长按打开方式菜单)"="Execute program, "iexplore.exe", "%u", , "IE" + Show hidden popup menu, "Open in Menu""
 Item,"生成/显示密码(&W)"=Go to page, "javascript:(function(){var getRandomPass=function(d){var chars='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';var rez='';var len=d>=3?d:3;while(rez.length<len){rez+=chars.charAt(Math.floor(Math.random()*chars.length))}return/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).+$/.test(rez)?rez:arguments.callee(len)};var findPassEle=function(p){var c,s='',r=false,f=document.getElementsByTagName('form');for(var i=0;i<f.length;i++){c=f[i].elements;for(var j=0,e;e=c[j];j++){if(e.type=='password'){r=true;if(p){e.value=p;e.focus()}else if(e.value)s+='\n\n'+e.value}}};return r?s:null};var s=findPassEle();if(s){alert('在这个页面已经有密码:'+s)}else{findPassEle(prompt('密码生成'+(s==null?':':'. 插入?'),getRandomPass(12)))}})()",,,"none"
 Item,"HTTP标头(&H)" = Go to page, "javascript:(function(){var req=new XMLHttpRequest();req.open('HEAD',location.href+'?',true);req.onreadystatechange=function(){if(this.readyState==4){alert('Status: '+this.status+' '+this.statusText+'\n'+this.getAllResponseHeaders())}};req.send(null)})()",,,"Blank"
 Include, Page Elements Menu
