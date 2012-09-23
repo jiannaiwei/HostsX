@@ -32,10 +32,15 @@ div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
 display: none !important;
 	}
 
-div[id^="adv0"],div[id^="ad1"],div[id^="ad2"],div[id^="ad3"],div[id^="ad4"],
+div[id^="ad0"],div[id^="ad1"],div[id^="ad2"],div[id^="ad3"],div[id^="ad4"],
 div[id^="ad5"],div[id^="ad6"],div[id^="ad7"],div[id^="ad8"]{
 display: none !important;
 	}
+div[id^="adv0"],div[id^="adv1"],div[id^="adv2"],div[id^="adv3"],div[id^="adv4"],
+div[id^="adv5"],div[id^="adv6"],div[id^="adv7"],div[id^="adv8"]{
+display: none !important;
+	}
+
 div[id^="adv_"],div[id^="Adv"],div[id^="ADV_"],div[id$="Adv"],
 div[id^="ads_"],div[id^="ads-"],div[id*="-ads-"],div[id$="_ads"]{
 display: none !important;
