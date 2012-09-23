@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 23:18 2012/9/23
+// @lastmodified 23:33 2012/9/23
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -484,13 +484,21 @@
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'远景论坛',
-			url:/http:\/\/bbs\.pcbeta\.com/i,
-			siteExample:'http://bbs.pcbeta.com/',
+		{siteName:'远景论坛帖子',
+			url:/http:\/\/bbs\.pcbeta\.com\/viewthread/i,
+			siteExample:'http://bbs.pcbeta.com/viewthread',
 			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
 			autopager:{
 				useiframe:false,
-				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
+				pageElement:'//div[@id="postlist"]'
+			}
+		},
+		{siteName:'远景论坛列表',
+			url:/http:\/\/bbs\.pcbeta\.com\/forum/i,
+			siteExample:'http://bbs.pcbeta.com/forum-74-1.html',
+			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
+			autopager:{
+				pageElement:'//form[@id="moderate"]'
 			}
 		},
 		{siteName:'百事高音乐论坛',
@@ -509,12 +517,20 @@
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'塞班智能手机论坛',
+		{siteName:'塞班智能手机论坛列表',
+			url:/http:\/\/bbs\.dospy\.com\/forum/i,
+			siteExample:'http://bbs.dospy.com/forum-354-1.html',
+			nextLink:'//div[@class="p_bar"]/a[@class="p_curpage"]/following-sibling::a[@class="p_num"]',
+			autopager:{
+				pageElement:'//form[@name="moderate"]'
+			}
+		},
+		{siteName:'塞班智能手机论坛帖子',
 			url:/http:\/\/bbs\.dospy\.com\/thread/i,
 			siteExample:'http://bbs.dospy.com/thread-672836-1-52-1.html',
 			nextLink:'//div[@class="p_bar"]/a[@class="p_curpage"]/following-sibling::a[@class="p_num"]',
 			autopager:{
-				pageElement:'//form[@name="delpost"] | //form[@name="moderate"]',
+				pageElement:'//form[@name="delpost"]'
 			}
 		},
 		{siteName:'思源论坛帖子',
