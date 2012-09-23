@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 15:31 2012/9/23
+// @lastmodified 20:23 2012/9/23
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -239,17 +239,6 @@
 				pageElement:'//table[@id="thread_table"]',
 			}
 		},
-		{siteName:'万卷书屋小说阅读页',
-			url:/^http:\/\/www\.wjxsw\.net\/book\/.+/i,
-			siteExample:'http://www.wjxsw.net/book/448/38570.shtml',
-			useiframe:true,
-			nextLink:'//div[@id="thumb"]/descendant::a[text()="下一章"]',
-			autopager:{
-				enable:true,
-				useiframe:true,
-				pageElement:'//div[@id="content"]'
-			}
-		},
 		{siteName:'起点小说阅读页',
 			url:/^http:\/\/www\.qidian\.com\/BookReader\/\d+,\d+/i,
 			siteExample:'http://www.qidian.com/BookReader/1545376,27301383.aspx',
@@ -364,9 +353,9 @@
 				pageElement:'//div[@id="bookpartinfo"]',
 			}
 		},
-		{siteName:'文学迷小说阅读网,小说阅读页面',
+		{siteName:'文学迷',
 			url:/^http:\/\/www\.wenxuemi\.net\/files\/article\/html\/.+\.html/i,
-			siteExample:'http://www.wenxuemi.net/files/article/html/0/199/2640787.html',
+			siteExample:'http://www.wenxuemi.net/files/article/html/0/199/4254275.html',
 			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
 			autopager:{
 				pageElement:'//div[@id="content"]',
@@ -416,6 +405,36 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@id="chcontent"]',
+			}
+		},
+		{siteName:'万卷书屋',
+			url:/^http:\/\/www\.wjsw\.com\/html\/.+\.shtml/i,
+			siteExample:'http://www.wjsw.com/html/35/35404/2887335.shtml',
+			useiframe:true,
+			nextLink:'//div[@id="bookreadbottom"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="maincontent"]'
+			}
+		},
+		{siteName:'万卷书屋2',
+			url:/wanjuan\.net\/\w+\/\d+\.html/i,
+			siteExample:'http://wanjuan.net/tiancaixiangshi/3169.html',
+			useiframe:true,
+			nextLink:'//div[@class="book_middle_text_next"]/descendant::a[text()="下一章(快捷键:→)"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="booktext"]'
+			}
+		},
+		{siteName:'百晓生中文网',
+			url:/^http:\/\/www\.bxs\.cc\/book\/.+\.html/i,
+			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
+			useiframe:true,
+			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="main"]'
 			}
 		},
 		{siteName:'Opera官方网站帖子列表页面',
