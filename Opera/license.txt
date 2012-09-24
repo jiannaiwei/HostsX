@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:50 2012/9/23
+8:36 2012/9/24
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -551,6 +551,7 @@ adsdata.js
 adscomm.js
 
 论坛过滤备份，重复：
+div[class$="-ad ad"],div[class^="ad ad-"],
 div[id^="adv0"],div[id^="adv1"],div[id^="adv2"],div[id^="adv3"],div[id^="adv4"],
 div[id^="adv5"],div[id^="adv6"],div[id^="adv7"],div[id^="adv8"]{
 display: none !important;
@@ -607,7 +608,7 @@ body>div[class^="ad"], 刷机网 shuaji.net <div class="advancedsearch">
 td[id="banner"],softjie.cn,<td id="banner" class="vt tar">
 div[class*="_ad"], 新浪微博取消关注框，<div class="W_addbtn_even" title="互相关注">
 div[id$="_banner"],虎扑http://bbs.hoopchina.com/cba
-div[class$="ads"] gmail
+div[class*=" ads"],div[class$="ads"] gmail
 #ckepop,jiathis分享
 div[id^="ads"],div[id^="ad"],天涯回复框 <div class="respond" id="adsp_content_replybox_frame_1">
 .box ,影响dbank首页显示（未登录情况下）

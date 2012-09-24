@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x885
+Version: 5.x892
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 20:09 2012/9/23
+Lastchage: 8:36 2012/9/24
 Description: MayBe a better User CSS Help U.
 */
 
@@ -20,14 +20,14 @@ div[class^="ads"],div[class^="adS"],div[class^="adv"],div[class^="adx"]{
 display: none !important;
 	}
 div[class="ad"],div[class^="ad_"],div[class$="_ads"],div[class$="_ad"][id$="_ad"],
-div[class$="-ad ad"],div[class*="_ad_img"],div[class$="_ad"],div[class$="-ad"]{
+div[class*="-ad ad"],div[class*="_ad_img"],div[class$="_ad"],div[class$="-ad"]{
 display: none !important;
 	}
 div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="adFrame"],
 div[class^="adList"],div[class^="adlist"],div[class^="adindex"],div[class^="ades"]{
 display: none !important;
 	}
-div[class^="ada"],div[class^="adc"],div[class*="cvAd"],div[class^="ad ad-"],
+div[class^="ada"],div[class^="adc"],div[class*="cvAd"],
 div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
 display: none !important;
 	}
@@ -54,12 +54,12 @@ display: none !important;
 	}
 
 /* GG */
-div[class="gg"],div[class^="gg_"],div[class*="gg-"],div[class^="topgg"],div[class="ggBanner"],
+div[class="gg"],div[class="ggs"],div[class^="gg_"],div[class*="gg-"],div[class^="topgg"],div[class="ggBanner"],
 div[class="gg01"],div[class^="gg2"],div[class^="gg3"],div[class^="ggAD"],div[class="ggSideBox"]{
 display: none !important;
 	}
 div[class="ggarea clearfix"],[class$="header_gg"],div[id="hdggs"],div[id="top_gg"],
-div[class$="guanggao"],div[id^="guanggao_"],div[id^="gg"][style$="px"]{
+div[class$="guanggao"],div[id^="guanggao_"],div[id^="gg"][style$="px"],div[class^="aa_"][id^="gg"]{
 display: none !important;
 	}
 
@@ -77,7 +77,7 @@ div[class="adrr"],div[class^="adRight"],div[id^="RightAd"],div[id$="ightDiv"],di
 display: none !important;
 	}
 div[id="leftsp"],div[id^="rightAd"],div[id$="rightad"],div[id^="AdRight"],div[id$="tCoupletId"],div[id^="followDiv"],
-div[id="rightsp"],div[class^="RightAD"],div[class^="rightad"],div[class*=" video-couplet-"]{
+div[id="rightsp"],div[id^="ad_right"],div[class^="RightAD"],div[class^="rightad"],div[class*=" video-couplet-"]{
 display: none !important;
 	}
 div[class^="Indexad"],div[class*="inner_ad"],div[class^="double_ad"],div[class^="footad"],
@@ -89,7 +89,7 @@ div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"]{
 display: none !important;
 	}
 div[id^="BANNER_"],div[id="clickbg"],div[id="prombar"],div[id="splink"],
-div[id^="pic_ad"],div[id^="dale_online_"],div[id^="extradiv"]{
+div[id^="pic_ad"],div[id^="dale_online_"],div[id^="extradiv"],div[id="sp"]{
 display: none !important;
 	}
 
@@ -111,7 +111,7 @@ ul[class="adwindow"],ul[class="res-list"],ul[id*="listAD"],ul[id="ad_container"]
 display: none !important;
 	}
 aside[class="advertisement"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"],
-embed[id^="_AD"],[name^="ad_page"]{
+embed[id^="_AD"],[name^="ad_page"],LI[id="sp"]{
 display: none !important;
 	}
 
@@ -166,6 +166,7 @@ a[href*="/adfclick?"],a[href*="/guanggao"],a[href*="/interface/cpm.php?"],[href*
 a[href*="adredir.php?"],a[href*="/showavd.aspx?adid="],a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{
 display: none !important;
 	}
+div[class^="cl970"],div[class^="cl760"],table[width="960"][border="0"][cellspacing="0"][cellpadding="0"]{display:none !important}
 
 /* Adult WebSite AD*/
 div[id$="_adImg"],div[id*="_ads_div"],div[id*="tuiguang"],div[id^="cnzz_"],
@@ -182,6 +183,9 @@ div[class^="page_ad "],[href*="pagead"],[src*="pagead"],
 div[id^="google-ad"],div[id^="google_"],div[id*="GoogleAd"]{
 display: none !important;
 	}
+div[class="nH adC"],div[class="mq"],td[class="aBC"],div[class="Zs"]{
+    display: none;
+}
 
 /* Baidu */
 div[id^="cpro_"],div[class^="brand-ad"],div[id="span_banner"],span[id="baidu"],
@@ -205,7 +209,7 @@ display: none !important;
 	}
 
 /* QQ */
-div[class*="l_qq_com"],[id*="l_qq_com"],div[class*="AdBox-Article-QQ"],div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[id="followall_mod"]{display:none !important}
+div[class*="l_qq_com"],[id*="l_qq_com"],div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[class*="AdBox-Article-QQ"],div[class*="LoveLife-Article-QQ"],div[id="followall_mod"]{display:none !important}
 div[class^="area960 "],div[style^="width:960px;height:60px;margin:0px "],div[style^="width:960px; height:60px; margin:0px"],div[style^="width:960px;margin:0px "],div[style^="width:960px;height:90px;margin:0px "],div[style*=";background-color:#E6E6E6;"]{display:none !important}
 
 /* 浮动过滤 提示隐藏 */
@@ -216,10 +220,9 @@ div[id="update_popwin"],div[id="browsertip"],div[class="tips_player"],div[id="br
 
 /* 部分站点广告 */
 sohuadcode {display:none !important}
-div[class^="aa_"][id^="gg"],div[id^="b"][class^="cl970"],div[id^="c"][class^="cl970"],div[style="margin:0 0 10px 0;height:170px;padding-top:10px;border-top:1px solid #cdcdcd;"]{display:none !important}
 div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
 div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
-div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"],div[id="sp"],LI[id="sp"]{display:none !important}
+div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"]{display:none !important}
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
 div[id^="remove_ads"],div[id="tuanad"],div[id^="div_d0_js_"]{display:none !important}
