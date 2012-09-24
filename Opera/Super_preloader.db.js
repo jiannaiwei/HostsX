@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 23:33 2012/9/23
+// @lastmodified 14:21 2012/9/24
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -70,7 +70,7 @@
 
 	//在以下网站上允许在非顶层窗口上加载JS..比如猫扑之类的框架集网页.
 	var DIExclude=[
-		['猫扑帖子',true,/http:\/\/dzh\.mop\.com\/topic\/readSub/i],
+		['猫扑帖子',true,/http:\/\/dzh\.mop\.com\/[a-z]{3,6}\/\d{8}\/.*\.shtml$/i],
 	];
 
 	//////////////////////////---------------规则-------////////////////
@@ -434,6 +434,7 @@
 			useiframe:true,
 			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
 			autopager:{
+				enable:true,
 				useiframe:true,
 				pageElement:'//div[@id="main"]'
 			}
@@ -446,6 +447,27 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@id="chcontent"]'
+			}
+		},
+		{siteName:'原创阅读网',
+			url: /^http:\/\/www\.yuanchuang\.com\/bookreader\/.+\.html/i,
+			siteExample:'http://www.yuanchuang.com/bookreader/10165901/10295065.html',
+			useiframe:true,
+			nextLink: function(doc){return doc.getElementById('btnNext').onclick.toString().match(/http.*html/)[0]},
+			autopager:{
+				useiframe:true,
+				HT_insert: ['css;#readtext', 2],
+				pageElement: 'css;#readcon',
+			}
+		},
+		{siteName:'笔趣阁',
+			url:/^http:\/\/www\.biquge\.com\/.+\.html/i,
+			siteExample:'http://www.biquge.com/0_67/471472.html',
+			useiframe:true,
+			nextLink:'//div[@class="bottem2"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="content"]'
 			}
 		},
 		{siteName:'OperaChina列表',
