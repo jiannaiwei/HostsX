@@ -557,7 +557,7 @@ div[id^="adv5"],div[id^="adv6"],div[id^="adv7"],div[id^="adv8"]{
 display: none !important;
 	}
 div[id^="adv_"],
-
+div[id^="sig"][class="signature"],div[class="signature_wrap"],
 div[class^="ad-"],
 div[class^="ads-"],
 div[class^="ads_"],
