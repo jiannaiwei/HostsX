@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 /*
 Name: /浏览辅助
-Version:1.53
+Version:1.55
 Description: Opera Default & Plus Style.
 */
 
@@ -12,8 +12,9 @@ text-shadow:-5px 3px 18px #F90 !important;/*链接阴影*/
 -o-transition: all 0.2s ease-out;/*链接变色动画显示时长及类型，具体参考相关资料*/
 }
 
-/*显示http://www.example.html# 这样带#的迅雷地址*/
+/*显示 迅雷和旋风 带#的下载地址*/
 a[href="#"]{-o-link:attr(thunderHref) !important; -o-link-source:current !important;}
+a[href="###"]{-o-link:attr(qhref) !important; -o-link-source:current !important;}
 
 /*输入框类chrome高亮*/
 input:not([type='submit']):not([type='reset']):not([type='button']):not([type='checkbox']):not([type='radio']):focus, textarea:focus, select:focus{ border:1px solid #0099FF;  box-shadow: 1px 1px 0 #0099FF, 1px -1px 0 #0099FF, -1px 1px 0 #0099FF, -1px -1px 0 #0099FF, 0px 0px 5px 1px #0099FF !important;  border-radius:3px!important; }

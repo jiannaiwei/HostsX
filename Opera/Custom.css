@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x893
+Version: 5.x894
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 13:41 2012/9/24
@@ -111,7 +111,7 @@ ul[class="adwindow"],ul[class="res-list"],ul[id*="listAD"],ul[id="ad_container"]
 display: none !important;
 	}
 aside[class="advertisement"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"],
-embed[id^="_AD"],[name^="ad_page"],LI[id="sp"]{
+embed[id^="_AD"],[name^="ad_page"],LI[id="sp"],li[class="leftad"],li[class="rightad"]{
 display: none !important;
 	}
 
