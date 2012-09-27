@@ -1,5 +1,5 @@
 
-;version=20:13 2012/9/23
+;version=21:05 2012/9/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -6329,12 +6329,12 @@ fe80::1%lo0	localhost
 #Serving-sys
 0.0.0.0 activity.serving-sys.com
 0.0.0.0 bs.serving-sys.com
+0.0.0.0 bsch.serving-sys.com
 0.0.0.0 datacapture.serving-sys.com
 0.0.0.0 ds-ll.serving-sys.com
 0.0.0.0 ds.serving-sys.com
 0.0.0.0 serving-sys.com
 0.0.0.0 us.bs.serving-sys.com
-0.0.0.0 bsch.serving-sys.com
 #Sexybabesx0.0.0.0 adrianalima.sexybabesx.com
 0.0.0.0 aliciakeys.sexybabesx.com
 0.0.0.0 amandabynes.sexybabesx.com
@@ -10209,7 +10209,6 @@ fe80::1%lo0	localhost
 0.0.0.0 s2.zhanzhang.net
 0.0.0.0 s3.zhanzhang.net
 #Statistics
-0.0.0.0 cdn.sstatic.net
 0.0.0.0 icon.ajiang.net
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.getclicky.com
@@ -11006,6 +11005,11 @@ fe80::1%lo0	localhost
 0.0.0.0 reg.gl.ucjoy.com
 0.0.0.0 reg.gow.ucjoy.com
 0.0.0.0 reg.ucjoy.com
+0.0.0.0 ad3713.dnsorg.net
+0.0.0.0 afp.dnsorg.net
+0.0.0.0 shell.dnsorg.net
+0.0.0.0 tp.ads80.com
+0.0.0.0 tongji.ads80.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -11314,10 +11318,8 @@ fe80::1%lo0	localhost
 0.0.0.0 qqmms.net
 0.0.0.0 r.game2.cn
 0.0.0.0 redirect.jooov.cn
-
 0.0.0.0 reg.njeee.com
 0.0.0.0 reg.nonoyx.com
-
 0.0.0.0 reg.xingkong.com
 0.0.0.0 reg.xkni.com
 0.0.0.0 register.haohaowan.com
@@ -11596,3 +11598,6 @@ fe80::1%lo0	localhost
 0.0.0.0 yourchinalove.com
 0.0.0.0 yls.1919e.com
 0.0.0.0 code.3975lm.com
+0.0.0.0 v.wqzyt.net
+0.0.0.0 qqmob.net
+0.0.0.0 images.dou00.com
