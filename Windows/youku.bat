@@ -50,4 +50,5 @@ Md "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat
 attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat"
 attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\emule_upload_list.dat"
 attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat"
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 pause

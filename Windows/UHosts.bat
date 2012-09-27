@@ -43,6 +43,7 @@ del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
 del %SystemRoot%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
 del /f /s /q "%userprofile%\cookies">nul 2>nul
