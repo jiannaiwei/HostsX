@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x894
+Version: 5.x897
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 13:41 2012/9/24
+Lastchage: 22:52 2012/9/27
 Description: MayBe a better User CSS Help U.
 */
 
@@ -45,7 +45,7 @@ div[id*="-ad-"],div[id*="0_AD_"],div[id^="Ads_"],div[id^="afp_"]{
 display: none !important;
 	}
 div[id^="adList"],div[id^="adSp"],div[id^="adcontent"],div[id^="adhere"],
-div[id^="adspot"],div[id^="adver"],div[id^="pad_"]{
+div[id^="adspot"],div[id^="adver"],div[id^="pad_"],div[id="pa_ad"]{
 display: none !important;
 	}
 div[id="adDiv"],div[id*="AdContainer"],div[id*="AdWrapper"],div[id*="YieldManager"],
@@ -110,7 +110,7 @@ ul[class="ad"],ul[class^="ad_"],ul[class*="_ad"],ul[class^="gg"],ul[class="AD-tx
 ul[class="adwindow"],ul[class="res-list"],ul[id*="listAD"],ul[id="ad_container"]{
 display: none !important;
 	}
-aside[class="advertisement"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"],
+aside[class="advertisement"],aside[class^="p_sider hgt"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"],
 embed[id^="_AD"],[name^="ad_page"],LI[id="sp"],li[class="leftad"],li[class="rightad"]{
 display: none !important;
 	}
@@ -128,7 +128,7 @@ div[class^="banner-"],div[class^="banner2"],div[class^="banner7"],div[class^="ba
 div[id^="banner0"],div[id^="banner1"],div[id^="BannerAd"],div[id$="AdBanner"],div[id="bannerPanel"]{
 display: none !important;
 	}
-[class*="textad"],div[class="con_ad"],div[class^="adtxt"],div[class*="sponsor"],
+div[class^="txt_ad"],[class*="textad"],div[class="con_ad"],div[class^="adtxt"],div[class*="sponsor"],
 div[id^="adText"],div[id^="text-ad"],div[id^="text_ad"],div[id*="Sponsor"]{
 display: none !important;
 	}
@@ -204,7 +204,7 @@ div[class="fblike_button"],#fb_like,#fb_plugin,iframe[src^="http://www.facebook.
 [src*="网购排行：淘宝网最新热门东西"],[href*="网购排行：淘宝网最新热门东西"]{display:none !important}
 a[href^="http://click.simba.taobao.com"],a[href*="http://click.mz.simba.taobao.com/"],a[href*="http://s.click.taobao.com"]{display:none !important}
 div[id^="p4pblock"],div[class^="hotsale"],div[id="p4p-tabbed"],div[class="p4p-panel"][rel="p4p"],
-div[id="p4p-sidebar"],div[rel="p4p-etao"],section[class="hotsale"],ul[class="p4p-list"]{
+div[id="p4p-sidebar"],div[rel="p4p-etao"],section[class="hotsale"],ul[class="p4p-list"],div[class^="tao_a_d"]{
 display: none !important;
 	}
 

@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 14:21 2012/9/24
+// @lastmodified 23:01 2012/9/27
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -465,6 +465,16 @@
 			siteExample:'http://www.biquge.com/0_67/471472.html',
 			useiframe:true,
 			nextLink:'//div[@class="bottem2"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'笔下文学',
+			url:/^http:\/\/www\.bxwx\.org\/b\/.+\.html/i,
+			siteExample:'http://www.bxwx.org/b/56/56907/9020932.html',
+			useiframe:true,
+			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页[→]"]',
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@id="content"]'
