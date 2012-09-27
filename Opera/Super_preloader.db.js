@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 23:01 2012/9/27
+// @lastmodified 7:36 2012/9/28
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -456,8 +456,7 @@
 			nextLink: function(doc){return doc.getElementById('btnNext').onclick.toString().match(/http.*html/)[0]},
 			autopager:{
 				useiframe:true,
-				HT_insert: ['css;#readtext', 2],
-				pageElement: 'css;#readcon',
+				pageElement: 'css;#readtext',
 			}
 		},
 		{siteName:'笔趣阁',
