@@ -1,10 +1,13 @@
-;version=21:02 2012/9/27
+;version=8:41 2012/9/28
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致PcOnline无法正常下载。
+dlc2.pconline.com.cn
+$DELETE
 
 #导致stackexchange部分页面CSS无法正常显示。
 cdn.sstatic.net
 $DELETE
-
 
 #导致Amazon部分页面图片无法正常显示。
 g-ecx.images-amazon.com
