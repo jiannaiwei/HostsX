@@ -633,6 +633,14 @@
 				pageElement:'//table[@id="myTable"]'
 			}
 		},
+		{siteName:'CSDN博客',
+			url:/http:\/\/blog\.csdn\.net/i,
+			siteExample:'http://blog.csdn.net/wangjieest?viewmode=list',
+			nextLink:'//div[@id="papelist"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="article_list"]'
+			}
+		},
 		{siteName:'中关村在线新闻页面',
 			url:/http:\/\/(?:[^\.]+\.)?zol.com.cn\/\d+\/\d+/i,
 			siteExample:'http://lcd.zol.com.cn/187/1875145.html',

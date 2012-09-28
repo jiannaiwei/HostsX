@@ -1,5 +1,5 @@
 
-;version=8:40 2012/9/28
+;version=15:28 2012/9/28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -11010,6 +11010,8 @@ fe80::1%lo0	localhost
 127.0.0.1 shell.dnsorg.net
 127.0.0.1 tp.ads80.com
 127.0.0.1 tongji.ads80.com
+127.0.0.1 adcpm.234y.com
+127.0.0.1 cpm.234y.com
 #∂Ò“‚µØ¥∞
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -11122,7 +11124,6 @@ fe80::1%lo0	localhost
 127.0.0.1 cp.gs307.com
 127.0.0.1 cp1.blcx.com
 127.0.0.1 cpc.xioo.cn
-127.0.0.1 cpm.234y.com
 127.0.0.1 cpm.71aiyou.com
 127.0.0.1 cpm.7555.net
 127.0.0.1 cpm.dayi55.com
@@ -11601,3 +11602,5 @@ fe80::1%lo0	localhost
 127.0.0.1 v.wqzyt.net
 127.0.0.1 qqmob.net
 127.0.0.1 images.dou00.com
+127.0.0.1 66.4wad.com
+
