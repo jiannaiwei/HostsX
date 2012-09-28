@@ -1,5 +1,5 @@
 
-;version=15:28 2012/9/28
+;version=15:40 2012/9/28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -11603,4 +11603,5 @@ fe80::1%lo0	localhost
 0.0.0.0 qqmob.net
 0.0.0.0 images.dou00.com
 0.0.0.0 66.4wad.com
+0.0.0.0 p.49ko.com
 
