@@ -1,5 +1,5 @@
 
-;version=21:05 2012/9/27
+;version=8:06 2012/9/28
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2722,6 +2722,7 @@ fe80::1%lo0	localhost
 0.0.0.0 mangler10.generals.ea.com
 0.0.0.0 servserv.generals.ea.com
 #ACDSee
+0.0.0.0 acdid.acdsystems.com
 0.0.0.0 acdupdater.acdsystems.com
 0.0.0.0 soapintouch.acdnet.com
 #Acronis
