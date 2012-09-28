@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x898
+Version: 5.x9
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 15:39 2012/9/28
+Lastchage: 15:46 2012/9/28
 Description: MayBe a better User CSS Help U.
 */
 
@@ -88,7 +88,7 @@ div[id$="_BOXAD"],div[id*="ContentAd"],div[id^="HeaderAd"],div[id*="_column_ad"]
 div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"]{
 display: none !important;
 	}
-div[id^="BANNER_"],div[id="prombar"],div[id="splink"],
+div[id^="BANNER_"],div[id="clickbg"],div[id="prombar"],div[id="splink"],
 div[id^="pic_ad"],div[id^="dale_online_"],div[id^="extradiv"],div[id="sp"]{
 display: none !important;
 	}
@@ -166,7 +166,7 @@ a[href*="/adfclick?"],a[href*="/guanggao"],a[href*="/interface/cpm.php?"],[href*
 a[href*="adredir.php?"],a[href*="/showavd.aspx?adid="],a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{
 display: none !important;
 	}
-div[class^="cl970"],div[class^="cl760"],table[width="960"][border="0"][cellspacing="0"][cellpadding="0"]{display:none !important}
+div[class^="cl970"],div[class^="cl760"]{display:none !important}
 
 /* Adult WebSite AD*/
 div[id$="_adImg"],div[id*="_ads_div"],div[id*="tuiguang"],div[id^="cnzz_"],
@@ -226,4 +226,3 @@ div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"]{display
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
 div[id^="remove_ads"],div[id="tuanad"],div[id^="div_d0_js_"]{display:none !important}
-
