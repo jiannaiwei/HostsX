@@ -6,7 +6,7 @@ Name: /广告过滤
 Version: 5.x91
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 18:08 2012/9/28
+Lastchage: 9:57 2012/9/29
 Description: MayBe a better User CSS Help U.
 */
 
@@ -44,8 +44,8 @@ div[id="ad"],div[id^="ad_"],div[id$="Ad"],div[id$="-ad"],div[id$="-ads"],
 div[id*="-ad-"],div[id*="0_AD_"],div[id^="Ads_"],div[id^="afp_"]{
 display: none !important;
 	}
-div[id^="adList"],div[id^="adSp"],div[id^="adcontent"],div[id^="adhere"],
-div[id^="adspot"],div[id^="adver"],div[id^="pad_"],div[id="pa_ad"]{
+div[id^="adList"],div[id^="adlist"],div[id^="adSp"],div[id^="adcontent"],div[id^="adhere"],
+div[id="adwrap"],div[id^="adspot"],div[id^="adver"],div[id^="pad_"],div[id="pa_ad"]{
 display: none !important;
 	}
 div[id="adDiv"],div[id*="AdContainer"],div[id*="AdWrapper"],div[id*="YieldManager"],
@@ -216,7 +216,7 @@ div[class^="area960 "],div[style^="width:960px;height:60px;margin:0px "],div[sty
 div[class^="float-ad-"],div[id^="floatAD_"],div[id="piaofu"],embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[class^="adFloat"],div[id^="adfloat"]{display: none !important;}
 div[id$="FollowPopUp"],div[id="ty_msg_mod"],div[id$="closeBig"],div[class="blogpop"],#bbs_jxtj,#bshareF,#fixedLayertop,.QQbox{display: none !important;}
 div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{display:none !important}
-div[id="update_popwin"],div[id="browsertip"],div[class="tips_player"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
+div[class^="upgrade_ie6"],div[id="update_popwin"],div[id="browsertip"],div[class="tips_player"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
 
 /* 部分站点广告 */
 sohuadcode {display:none !important}

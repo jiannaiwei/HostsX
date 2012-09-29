@@ -1,5 +1,5 @@
 
-;version=15:40 2012/9/28
+;version=9:52 2012/9/29
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1715,7 +1715,9 @@ fe80::1%lo0	localhost
 0.0.0.0 v3.apic.51.com
 @HostsX 国内站点广告/小说类网站
 #起点中文网
+0.0.0.0 s1.cmfu.com
 0.0.0.0 qidian.adsame.com
+0.0.0.0 o.if.qidian.com
 0.0.0.0 uedas.qidian.com
 0.0.0.0 hot.snyu.com
 0.0.0.0 js.ap.snyu.com
@@ -2643,9 +2645,12 @@ fe80::1%lo0	localhost
 0.0.0.0 info.duba.net
 0.0.0.0 labs.duba.net
 0.0.0.0 u.www.duba.net
+0.0.0.0 c.union.ijinshan.com
+0.0.0.0 dl.liebao.cn
+0.0.0.0 j.union.ijinshan.com
+0.0.0.0 ssc.union.ijinshan.com
 0.0.0.0 stat.ijinshan.com
 0.0.0.0 union.ijinshan.com
-0.0.0.0 j.union.ijinshan.com
 0.0.0.0 api.pc120.com
 0.0.0.0 stat.sd.keniu.com
 0.0.0.0 tq.sd.keniu.com
@@ -10127,15 +10132,20 @@ fe80::1%lo0	localhost
 0.0.0.0 www.soua.com
 0.0.0.0 union.soua.com
 #盛大统计
-0.0.0.0 feo.staticsdo.com
 0.0.0.0 adrs.sdo.com
+0.0.0.0 bf.snyu.sdo.com
+0.0.0.0 bh.snyu.sdo.com
+0.0.0.0 c.0fb00c0e57.sdo.com
 0.0.0.0 c.aa.sdo.com
-0.0.0.0 g.aa.sdo.com
 0.0.0.0 dwtracking.sdo.com
+0.0.0.0 feo.staticsdo.com
+0.0.0.0 g.0fb00c0e57.sdo.com
+0.0.0.0 g.aa.sdo.com
 0.0.0.0 ibw.sdo.com
 0.0.0.0 sda.ibw.sdo.com
 0.0.0.0 stat.aa.sdo.com
 0.0.0.0 static.ex.ibw.sdo.com
+0.0.0.0 zytt.0fb00c0e57.sdo.com
 0.0.0.0 doubleclick.igalive.com
 0.0.0.0 ipagent.igalive.com
 0.0.0.0 js.igalive.com
