@@ -789,6 +789,8 @@ fe80::1%lo0	localhost
 127.0.0.1 cop.my.xunlei.com
 127.0.0.1 gouwu.vip.xunlei.com
 127.0.0.1 hezuo.down.xunlei.com
+127.0.0.1 jump.niu.xunlei.com
+127.0.0.1 record.kuai.xunlei.com
 127.0.0.1 images.client.xunlei.com
 127.0.0.1 jsunion.kankan.xunlei.com
 127.0.0.1 kkpgv.xunlei.com
@@ -1734,6 +1736,9 @@ fe80::1%lo0	localhost
 127.0.0.1 pv.zhulang.com
 127.0.0.1 tl.zhulang.com
 127.0.0.1 sjqk.zhulang.com
+#纵横中文网
+127.0.0.1 ad.zongheng.com
+127.0.0.1 log.zongheng.com
 #潇湘书院
 127.0.0.1 images.xxsy.net
 127.0.0.1 xxsy.bohelady.com
@@ -8192,6 +8197,7 @@ fe80::1%lo0	localhost
 #7pk
 127.0.0.1 al.7pk.com
 127.0.0.1 client.7pk.com
+127.0.0.1 ufile.7pk.com
 #82816
 127.0.0.1 code.82816.com
 127.0.0.1 js.82816.com
@@ -11615,4 +11621,7 @@ fe80::1%lo0	localhost
 127.0.0.1 images.dou00.com
 127.0.0.1 66.4wad.com
 127.0.0.1 p.49ko.com
-
+127.0.0.1 www.qi-yue.com
+127.0.0.1 66.fmx.cn
+127.0.0.1 gong.fmx.cn
+127.0.0.1 360.rbc.cn

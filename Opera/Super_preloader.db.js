@@ -3,7 +3,7 @@
 // @author NLF
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 7:36 2012/9/28
+// @lastmodified 20:20 2012/9/29
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -477,6 +477,55 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'17k',
+			url:/^http:\/\/www\.17k\.com\/chapter\/.+\.html/i,
+			siteExample:'http://www.17k.com/chapter/143095/3714822.html',
+			useiframe:true,
+			nextLink:'//div[@class="read_bottom"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="readAreaBox"]'
+			}
+		},
+		{siteName:'烟雨红尘',
+			url:/^http:\/\/www\.cc222\.com\/chapter\/.+\.html/i,
+			siteExample:'http://www.cc222.com/chapter/558139.html',
+			useiframe:true,
+			nextLink:'//div[@id="paging"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="aContainer"]'
+			}
+		},
+		{siteName:'凤鸣轩',
+			url:/^http:\/\/read\.fmx\.cn\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://read.fmx.cn/files/article/html/5/7/0/4/8/5/70485/1339404.html',
+			useiframe:true,
+			nextLink:'//div[@class="newread_fy"]/descendant::a[text()="下一章>>"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="newbodybox"]'
+			}
+		},
+		{siteName:'红袖添香',
+			url:/^http:\/\/novel\.hongxiu\.com\/a\/.+\.shtml/i,
+			siteExample:'http://novel.hongxiu.com/a/303084/3543064.shtml',
+			nextLink:'//div[@class="papgbutton"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="wrapper_main"]'
+			}
+		},
+		{siteName:'纵横书库',
+			url:/^http:\/\/book\.zongheng\.com\/chapter\/.+\.html/i,
+			siteExample:'http://book.zongheng.com/chapter/207057/3839503.html',
+			useiframe:true,
+			nextLink:'//div[@class="tc quickkey"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="readcon"]'
 			}
 		},
 		{siteName:'OperaChina列表',

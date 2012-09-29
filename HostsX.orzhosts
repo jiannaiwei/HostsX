@@ -789,6 +789,8 @@ fe80::1%lo0	localhost
 0.0.0.0 cop.my.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
+0.0.0.0 jump.niu.xunlei.com
+0.0.0.0 record.kuai.xunlei.com
 0.0.0.0 images.client.xunlei.com
 0.0.0.0 jsunion.kankan.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
@@ -1734,6 +1736,9 @@ fe80::1%lo0	localhost
 0.0.0.0 pv.zhulang.com
 0.0.0.0 tl.zhulang.com
 0.0.0.0 sjqk.zhulang.com
+#纵横中文网
+0.0.0.0 ad.zongheng.com
+0.0.0.0 log.zongheng.com
 #潇湘书院
 0.0.0.0 images.xxsy.net
 0.0.0.0 xxsy.bohelady.com
@@ -8192,6 +8197,7 @@ fe80::1%lo0	localhost
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
+0.0.0.0 ufile.7pk.com
 #82816
 0.0.0.0 code.82816.com
 0.0.0.0 js.82816.com
@@ -11615,4 +11621,7 @@ fe80::1%lo0	localhost
 0.0.0.0 images.dou00.com
 0.0.0.0 66.4wad.com
 0.0.0.0 p.49ko.com
-
+0.0.0.0 www.qi-yue.com
+0.0.0.0 66.fmx.cn
+0.0.0.0 gong.fmx.cn
+0.0.0.0 360.rbc.cn

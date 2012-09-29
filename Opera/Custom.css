@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x91
+Version: 5.x92
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 9:57 2012/9/29
+Lastchage: 17:54 2012/9/29
 Description: MayBe a better User CSS Help U.
 */
 
@@ -85,7 +85,7 @@ div[class^="ATopTxt"],div[class^="img-ad"],div[class^="other_adv"],div[class="ta
 display: none !important;
 	}
 div[id$="_BOXAD"],div[id*="ContentAd"],div[id^="HeaderAd"],div[id*="_column_ad"],
-div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"]{
+div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"],div[id^="duilain"]{
 display: none !important;
 	}
 div[id^="BANNER_"],div[id="clickbg"],div[id="prombar"],div[id="splink"],
@@ -129,7 +129,7 @@ div[id^="banner0"],div[id^="banner1"],div[id^="BannerAd"],div[id$="AdBanner"],di
 display: none !important;
 	}
 div[class^="txt_ad"],[class*="textad"],div[class="con_ad"],div[class^="adtxt"],div[class*="sponsor"],
-div[id^="adText"],div[id^="text-ad"],div[id^="text_ad"],div[id*="Sponsor"]{
+div[id^="adText"],div[id^="text-ad"],div[id^="text_ad"],div[id*="Sponsor"],div[class$="Tuijian"]{
 display: none !important;
 	}
 
