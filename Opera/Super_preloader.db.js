@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:05 2012/9/30
+// @lastmodified 22:55 2012/9/30
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -778,6 +778,14 @@
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//dl[@class="list_dl "][@lang] | //div[@class="conmain"]',
+			}
+		},
+		{siteName:'爱卡汽车论坛帖子',
+			url:/^http:\/\/www\.xcar\.com\.cn\/bbs\/viewthread/i,
+			siteExample:'http://www.xcar.com.cn/bbs/viewthread.php?tid=12474760',
+			nextLink:'//a[text()="下一页＞"][@href]',
+			autopager:{
+				pageElement:'//form[@id="delpost"]',
 			}
 		},
 		{siteName:'VeryCD搜索页面',
