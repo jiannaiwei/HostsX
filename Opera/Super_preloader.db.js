@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:55 2012/9/30
+// @lastmodified 22:57 2012/9/30
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -667,6 +667,14 @@
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//div[@class="z threadCommon"] | //div[@class="mb10 bodd"]',
+			}
+		},
+		{siteName:'EZ游戏社区帖子',
+			url:/http:\/\/bbs\.emu-zone\.org\/thread/i,
+			siteExample:'http://bbs.emu-zone.org/thread',
+			nextLink:'//div[@class="p_bar"]/descendant::a[text()="››"]',
+			autopager:{
+				pageElement:'//form[@method="post"]'
 			}
 		},
 		{siteName:'煎蛋首页',
