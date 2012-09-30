@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x93
+Version: 5.x931
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 10:31 2012/9/30
+Lastchage: 22:19 2012/9/30
 Description: MayBe a better User CSS Help U.
 */
 
@@ -32,7 +32,7 @@ div[class="ad-img"],div[class="business"],div[class^="myadv_"],div[class^="ecoml
 display: none !important;
 	}
 
-div[id^="ad1"],div[id^="ad2"],div[id^="ad3"],div[id^="ad4"],
+div[id^="ad0"],div[id^="ad1"],div[id^="ad2"],div[id^="ad3"],div[id^="ad4"],
 div[id^="ad5"],div[id^="ad6"],div[id^="ad7"],div[id^="ad8"]{
 display: none !important;
 	}
@@ -84,7 +84,7 @@ div[class^="Indexad"],div[class*="inner_ad"],div[class^="double_ad"],div[class^=
 div[class^="ATopTxt"],div[class^="img-ad"],div[class^="other_adv"],div[class="tad"]{
 display: none !important;
 	}
-div[id$="_BOXAD"],div[id*="ContentAd"],div[id^="HeaderAd"],div[id*="_column_ad"],
+div[id$="_BOXAD"],div[id*="ContentAd"],div[id^="HeaderAd"],div[id*="_column_ad"],div[class="innerad"],
 div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"],div[id^="duilain"]{
 display: none !important;
 	}
@@ -93,7 +93,7 @@ div[id^="pic_ad"],div[id^="dale_online_"],div[id^="extradiv"],div[id="sp"]{
 display: none !important;
 	}
 
-td[id^="adp_"],td[class="adslot"],td[class="ad"],dl[id^="ad0"],
+td[id^="adp_"],td[class="adslot"],td[class="ad"],td[class="readads"],dl[id^="ad0"],
 tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[class^="ad_details"]{
 display: none !important;
 	}
@@ -159,7 +159,7 @@ font[color*="FAE"],font[style="font-size:10px;color:#b4b4b4"]{
 display: none !important;
 	}
 iframe[src*="/ad/"],iframe[src="adb.php"],iframe[src="adt.php"],iframe[src*="/interface/cpmblank.php?"],
-iframe[id$="_tuiguang"],iframe[id^="dale_m"],iframe[name="ads_frame"],IMG[src*="/a-d-s/"]{
+iframe[id$="_tuiguang"],iframe[id^="ads_"],iframe[id^="dale_m"],iframe[name="ads_frame"],IMG[src*="/a-d-s/"]{
 display: none !important;
 	}
 a[href*="/adfclick?"],a[href*="/guanggao"],a[href*="/interface/cpm.php?"],[href*="clickpromotion.php?"],a[href^="http://adcl.pchome.com.tw/"],

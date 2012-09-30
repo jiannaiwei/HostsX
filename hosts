@@ -1,5 +1,5 @@
 
-;version=10:29 2012/9/30
+;version=22:15 2012/9/30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -515,6 +515,7 @@ fe80::1%lo0	localhost
 127.0.0.1 mobwin.android.com
 127.0.0.1 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
+127.0.0.1 cpro.baidustatic.com
 127.0.0.1 duiwai.baidu.com
 127.0.0.1 m1.baidu.com
 127.0.0.1 mobads.baidu.com
@@ -1736,6 +1737,8 @@ fe80::1%lo0	localhost
 127.0.0.1 pv.zhulang.com
 127.0.0.1 tl.zhulang.com
 127.0.0.1 sjqk.zhulang.com
+#飞卢网
+127.0.0.1 s.faloo.com
 #纵横中文网
 127.0.0.1 ad.zongheng.com
 127.0.0.1 log.zongheng.com
@@ -11030,6 +11033,8 @@ fe80::1%lo0	localhost
 127.0.0.1 tongji.ads80.com
 127.0.0.1 adcpm.234y.com
 127.0.0.1 cpm.234y.com
+127.0.0.1 counter.hitslink.com
+127.0.0.1 7208853.hitslink.com
 #恶意弹窗
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -11137,7 +11142,6 @@ fe80::1%lo0	localhost
 127.0.0.1 count.jdyou.com
 127.0.0.1 count.qiannao.com
 127.0.0.1 counter.gouzai.cn
-127.0.0.1 counter.hitslink.com
 127.0.0.1 cp.5228167.com
 127.0.0.1 cp.gs307.com
 127.0.0.1 cp1.blcx.com
@@ -11626,3 +11630,5 @@ fe80::1%lo0	localhost
 127.0.0.1 66.fmx.cn
 127.0.0.1 gong.fmx.cn
 127.0.0.1 360.rbc.cn
+127.0.0.1 cpm.feike5.com
+127.0.0.1 ad3.ctrmi.com

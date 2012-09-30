@@ -576,7 +576,6 @@
 		},
 		{siteName:'机锋论坛',
 			url:/http:\/\/bbs\.gfan\.com/i,
-			siteExample:'http://bbs.gfan.com/forum-729-1.html',
 			nextLink:'//div[@class="pages"]/a[@class="next"]',
 			autopager:{
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
@@ -590,9 +589,16 @@
 				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
 			}
 		},
+		{siteName:'无忧论坛',
+			url:/http:\/\/bbs\.wuyou\.com/i,
+			useiframe:true,
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//form[@name="delpost"] | //form[@method="post"]',
+			}
+		},
 		{siteName:'百事高音乐论坛',
 			url:/http:\/\/bbs\.besgold\.com/i,
-			siteExample:'http://bbs.besgold.com/forum-75-2.html',
 			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
 			autopager:{
 				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
@@ -633,7 +639,6 @@
 		},
 		{siteName:'霏凡论坛帖子',
 			url:/http:\/\/bbs\.crsky\.com\/read\.php/i,
-			siteExample:'http://bbs.crsky.com/read.php?tid=2041122',
 			nextLink:'auto;',
 			autopager:{
 				useiframe:true,
@@ -659,18 +664,9 @@
 		},
 		{siteName:'猴岛论坛',
 			url:/^http:\/\/bbs\.houdao\.com/i,
-			siteExample:'http://bbs.houdao.com/f142',
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//div[@class="z threadCommon"] | //div[@class="mb10 bodd"]',
-			}
-		},
-		{siteName:'EZ游戏社区帖子',
-			url:/http:\/\/bbs\.emu-zone\.org\/thread/i,
-			siteExample:'http://bbs.emu-zone.org/thread',
-			nextLink:'//div[@class="p_bar"]/descendant::a[text()="››"]',
-			autopager:{
-				pageElement:'//form[@method="post"]'
 			}
 		},
 		{siteName:'煎蛋首页',
@@ -782,14 +778,6 @@
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//dl[@class="list_dl "][@lang] | //div[@class="conmain"]',
-			}
-		},
-		{siteName:'爱卡汽车论坛帖子',
-			url:/^http:\/\/www\.xcar\.com\.cn\/bbs\/viewthread/i,
-			siteExample:'http://www.xcar.com.cn/bbs/viewthread.php?tid=12474760',
-			nextLink:'//a[text()="下一页＞"][@href]',
-			autopager:{
-				pageElement:'//form[@id="delpost"]',
 			}
 		},
 		{siteName:'VeryCD搜索页面',
