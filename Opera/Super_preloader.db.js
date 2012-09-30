@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name Super_preloader数据库
-// @author NLF
+// @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:20 2012/9/29
+// @lastmodified 8:23 2012/9/30
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -185,6 +185,24 @@
 				pageElement:'(//div[@class="software_station"]|//table[@class="ggTable"])'
 			}
 		},
+		{siteName:'360搜索',
+			url:/^https?:\/\/so\.360\.cn\/s/i,
+			siteExample:'http://http://so.360.cn',
+			enable:true,
+			nextLink:'//div[@id="page"]/a[text()="下一页>"]',
+			autopager:{
+				pageElement:'//div[@id="container"]',
+			}
+		},
+		{siteName:'搜狗搜索',
+			url:/^https?:\/\/www\.sogou\.com\/(?:web|sogou)/i,
+			siteExample:'http://www.sogou.com',
+			enable:true,
+			nextLink:'//div[@id="pagebar_container"]/a[text()="下一页>"]',
+			autopager:{
+				pageElement:'//div[@class="results"]',
+			}
+		},
 		{siteName:'百度搜索',
 			url:/^https?:\/\/www\.baidu\.com\/(?:s|baidu)\?/i,
 			siteExample:'http://www.baidu.com',
@@ -283,13 +301,21 @@
 			}
 		},
 		{siteName:'看书',
-			url:/http:\/\/www\.kanshu\.com\/files\/article\/html\/\d+\/\d+/i,
+			url:/http:\/\/www\.kanshu\.com\/files\/article\/html\/.+\.html/i,
 			siteExample:'http://www.kanshu.com/files/article/html/30997/935806.html',
 			useiframe:true,
-			nextLink:'//p[@class="p_01"]/a[text()="下一章"][@href]',
+			nextLink:'//div[@class="yd_linebot"]/descendant::a[text()="下一章"]',
 			autopager:{
-				useiframe:true,
-				pageElement:'//div[@class="read_cont"]'
+				pageElement:'//table[@class="yd_table"]'
+			}
+		},
+		{siteName:'红薯网',
+			url:/http:\/\/www\.hongshu\.com\/content\/.+\.html/i,
+			siteExample:'http://www.hongshu.com/content/38591/49531-1193339.html',
+			useiframe:true,
+			nextLink:'//div[@class="ann"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="readtext"]'
 			}
 		},
 		{siteName:'百书库',
