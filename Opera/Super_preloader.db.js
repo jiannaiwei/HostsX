@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:57 2012/9/30
+// @lastmodified 23:28 2012/9/30
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -514,6 +514,13 @@
 				pageElement:'//table[@class="yd_table"]'
 			}
 		},
+		{siteName:'全本小说网',
+			url:/^http:\/\/www\.quanben\.com\/xiaoshuo\/.+\.html/i,
+			siteExample:'http://www.quanben.com/xiaoshuo/10/10412/2095098.html',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
 		{siteName:'！五月中文网',
 			url:/^http:\/\/www\.5ycn\.com\/\w+\/\d+\.html/i,
 			siteExample:'http://www.5ycn.com/weiwoduzun/2655380.html',
@@ -543,7 +550,8 @@
 			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
 			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
 			autopager:{
-				pageElement:'//div[@id="content"]'
+				pageElement:'//div[@id="content"]',
+                                filter:'css; #container',
 			}
 		},
 		{siteName:'OperaChina列表',
