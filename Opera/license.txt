@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:10 2012/9/29
+10:36 2012/9/30
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -479,7 +479,6 @@ wj               =simpleu/proxy/wj.png
 -----------------------------------------------------------------------
 
 Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
-
 *_tj.*   http://book.zhulang.com/139696/index.html css显示不正常
 *gg_*.j*  http://www.onlinedown.net/softdown/1424_2.htm 下载地址部分
 */track/*   http://www.utorrent.com/downloads/complete/os/win/track/stable
@@ -497,7 +496,12 @@ http://*/adm/*   新浪爱问资料网盘
 http://*.tianjimedia.com/* 天极网css显示
 http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻页 http://tu.pcpop.com/pic-823469.htm#1
 *l*.youku.com/crossdomain.xml  http://zy.youku.com/voiceonlive 影响直播
+
+
 删减备份：
+*/ad_click.js
+*/tongji.js
+*/2012/www/2012/gg/*
 http://*.com/ads/
 */RealMedia/ads/*
 */images/ads/*

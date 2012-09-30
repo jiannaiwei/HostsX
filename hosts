@@ -1,5 +1,5 @@
 
-;version=11:02 2012/9/29
+;version=10:29 2012/9/30
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -10270,6 +10270,7 @@ fe80::1%lo0	localhost
 127.0.0.1 sddnserror7.wo.com.cn
 127.0.0.1 sddnserror8.wo.com.cn
 127.0.0.1 nfdnserror8.wo.com.cn
+127.0.0.1 nfdnserror3.wo.com.cn.zpsn.com
 127.0.0.1 pop.17lele.net
 #各地运营商广告
 127.0.0.1 lc.havod.com
