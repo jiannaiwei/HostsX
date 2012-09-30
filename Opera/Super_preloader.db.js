@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 8:23 2012/9/30
+// @lastmodified 22:05 2012/9/30
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -257,31 +257,9 @@
 				pageElement:'//table[@id="thread_table"]',
 			}
 		},
-		{siteName:'万卷书屋',
-			url:/^http:\/\/www\.wjxsw\.net\/book\/.+/i,
-			siteExample:'http://www.wjxsw.net/book/448/38570.shtml',
-			useiframe:true,
-			nextLink:'//div[@id="thumb"]/descendant::a[text()="下一章"]',
-			autopager:{
-				enable:true,
-				useiframe:true,
-				pageElement:'//div[@id="content"]'
-			}
-		},
-		{siteName:'起点小说',
-			url:/^http:\/\/www\.qidian\.com\/BookReader\/\d+,\d+/i,
+		{siteName:'起点网',
+			url:/^http:\/\/www\.(qidian|qdmm)\.com\/BookReader\/\d+,\d+/i,
 			siteExample:'http://www.qidian.com/BookReader/1545376,27301383.aspx',
-			useiframe:true,
-			nextLink:'//a[@id="NextLink"]',
-			autopager:{
-				enable:true,
-				useiframe:true,
-				pageElement:'//div[@id="maincontent"]/div[@class="booktitle"] | //div[@id="maincontent"]/div[@id="content"]'
-			}
-		},
-		{siteName:'起点MM',
-			url:/^http:\/\/www\.qdmm\.com\/BookReader\/\d+,\d+/i,
-			siteExample:'http://www.qdmm.com/BookReader/2242880,39413611.aspx',
 			useiframe:true,
 			nextLink:'//a[@id="NextLink"]',
 			autopager:{
@@ -293,109 +271,188 @@
 		{siteName:'逐浪小说',
 			url:/^http:\/\/book\.zhulang\.com\/\d+\/\d+/i,
 			siteExample:'http://book.zhulang.com/215296/97886.html',
-			useiframe:true,
 			nextLink:'//div[@class="readpage_leftnfy"]/a[text()="下一章"][@target]',
 			autopager:{
-				useiframe:true,
 				pageElement:'//div[@class="readpage_leftntxt"]',
 			}
 		},
-		{siteName:'看书',
-			url:/http:\/\/www\.kanshu\.com\/files\/article\/html\/.+\.html/i,
-			siteExample:'http://www.kanshu.com/files/article/html/30997/935806.html',
-			useiframe:true,
-			nextLink:'//div[@class="yd_linebot"]/descendant::a[text()="下一章"]',
+		{siteName:'17k',
+			url:/^http:\/\/www\.17k\.com\/chapter\/.+\.html/i,
+			siteExample:'http://www.17k.com/chapter/143095/3714822.html',
+			nextLink:'//div[@class="read_bottom"]/descendant::a[text()="下一章"]',
 			autopager:{
-				pageElement:'//table[@class="yd_table"]'
+				pageElement:'//div[@class="readAreaBox"]'
+			}
+		},
+		{siteName:'纵横书库',
+			url:/^http:\/\/book\.zongheng\.com\/chapter\/.+\.html/i,
+			siteExample:'http://book.zongheng.com/chapter/207057/3839503.html',
+			nextLink:'//div[@class="tc quickkey"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="readcon"]'
+			}
+		},
+		{siteName:'红袖添香',
+			url:/^http:\/\/novel\.hongxiu\.com\/a\/.+\.shtml/i,
+			siteExample:'http://novel.hongxiu.com/a/303084/3543064.shtml',
+			nextLink:'//div[@class="papgbutton"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="wrapper_main"]'
+			}
+		},
+		{siteName:'言情小说吧',
+			url:/^http:\/\/www\.xs8\.cn\/book\/.+\.html/i,
+			siteExample:'http://www.xs8.cn/book/132368/86157.html',
+			nextLink:'//div[@class="chapter_Turnpage"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="chapter_content"]'
+			}
+		},
+		{siteName:'小说阅读网',
+			url:/^http:\/\/www\.readnovel\.com\/novel\/.+/i,
+			siteExample:'http://www.readnovel.com/novel/142947.html',
+			nextLink:'//div[@class="bottomTools1"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@class="newContentBody "]'
+			}
+		},
+		{siteName:'凤鸣轩',
+			url:/^http:\/\/read\.fmx\.cn\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://read.fmx.cn/files/article/html/5/7/0/4/8/5/70485/1339404.html',
+			nextLink:'//div[@class="newread_fy"]/descendant::a[text()="下一章>>"]',
+			autopager:{
+				pageElement:'//div[@class="newbodybox"]'
+			}
+		},
+		{siteName:'烟雨红尘',
+			url:/^http:\/\/www\.cc222\.com\/chapter\/.+\.html/i,
+			siteExample:'http://www.cc222.com/chapter/558139.html',
+			nextLink:'//div[@id="paging"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="aContainer"]'
 			}
 		},
 		{siteName:'红薯网',
 			url:/http:\/\/www\.hongshu\.com\/content\/.+\.html/i,
 			siteExample:'http://www.hongshu.com/content/38591/49531-1193339.html',
-			useiframe:true,
 			nextLink:'//div[@class="ann"]/descendant::a[text()="下一页"]',
 			autopager:{
 				pageElement:'//div[@id="readtext"]'
 			}
 		},
+		{siteName:'百书斋',
+			url:/^http:\/\/www\.baishuzhai\.com/i,
+			siteExample:'http://www.baishuzhai.com/shancunqirenchuan/683763.html',
+			nextLink:'//div[@class="page"]/descendant::a[text()="下一章(快捷键:→)"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="booktext"]'
+			}
+		},
 		{siteName:'百书库',
-			url:/http:\/\/baishuku\.com\/html/i,
+			url:/^http:\/\/baishuku\.com\/html\/.+\.html/i,
 			siteExample:'http://baishuku.com/html/40/40514/8778339.html',
 			nextLink:'//div[@id="footlink"]/a[text()="下一页(快捷键:→)"]',
 			autopager:{
-				useiframe:true,
 				pageElement:'//div[@id="content"]'
 			}
 		},
 		{siteName:'百书楼',
-			url:/http:\/\/baishulou\.com\/read/i,
+			url:/^http:\/\/baishulou\.com\/read\/.+\.html/i,
 			siteExample:'http://baishulou.com/read/10/10647/2536085.html',
 			nextLink:'//a[text()="下一页(快捷键:→)"][@href]',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'万书楼',
+			url:/^http:\/\/www\.wanshulou\.com\/xiaoshuo\/.+\.shtml/i,
+			siteExample:'http://www.wanshulou.com/xiaoshuo/29/29091/2062593.shtml',
+			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="BookText"]',
+			}
+		},
+		{siteName:'万卷书屋',
+			url:/^http:\/\/www\.wjsw\.com\/html\/.+\.shtml/i,
+			siteExample:'http://www.wjsw.com/html/35/35404/2887335.shtml',
+			nextLink:'//div[@id="bookreadbottom"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="maincontent"]'
+			}
+		},
+		{siteName:'万卷书屋2',
+			url:/^http:\/\/wanjuan\.net\/\w+\/\d+\.html/i,
+			siteExample:'http://wanjuan.net/tiancaixiangshi/3169.html',
+			nextLink:'//div[@class="book_middle_text_next"]/descendant::a[text()="下一章(快捷键:→)"]',
+			autopager:{
+				pageElement:'//div[@id="booktext"]'
+			}
+		},
+		{siteName:'书书网',
+			url:/^http:\/\/shushu\.com\.cn\/html\/.+\.html/i,
+			siteExample:'http://shushu.com.cn/html/41/41258/9229979.html',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@id="content"]',
+			}
+		},
+		{siteName:'书书网2',
+			url:/^http:\/\/www\.shushuw\.cn\/shu\/.+\.html/i,
+			siteExample:'http://www.shushuw.cn/shu/28560/4509794.html',
+			nextLink:'//div[@align="center"]/a[text()="下页"][@href]',
+			autopager:{
+				pageElement:'//div[@class="cendiv"]',
+			}
+		},
+		{siteName:'飞卢小说',
+			url:/^http:\/\/b\.faloo\.com\/p\/.+\.html/i,
+			siteExample:'http://b.faloo.com/p/247559/1.html',
+			nextLink:'//div[@id="pager"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@class="main0"]',
+			}
+		},
+		{siteName:'青帝文学网',
+			url:/^http:\/\/www\.qingdi\.com\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.qingdi.com/files/article/html/0/22/8276907.html',
+			nextLink:'//div[@class="readerFooterPage"]/descendant::a[text()="下一页"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="readerTitle"]'
+			}
+		},
+		{siteName:'笔下文学',
+			url:/^http:\/\/www\.bxwx\.org\/b\/.+\.html/i,
+			siteExample:'http://www.bxwx.org/b/56/56907/9020932.html',
+			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页[→]"]',
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@id="content"]'
 			}
 		},
-		{siteName:'小说570',
-			url:/http:\/\/www\.xiaoshuo570\.com/i,
-			siteExample:'http://www.xiaoshuo570.com/11/11844/2678383.html',
-			nextLink:'//div[@id="thumb"]/a[text()="下一页"][@href]',
+		{siteName:'笔趣阁',
+			url:/^http:\/\/www\.biquge\.com\/.+\.html/i,
+			siteExample:'http://www.biquge.com/0_67/471472.html',
+			nextLink:'//div[@class="bottem2"]/descendant::a[text()="下一章"]',
 			autopager:{
-				useiframe:true,
-				pageElement:'//div[@class="fonts_big"]',
+				pageElement:'//div[@id="content"]'
 			}
 		},
-		{siteName:'乐优文学',
-			url:/http:\/\/www\.4619\.cn\/html\/\d+\/\d+/i,
-			siteExample:'http://www.4619.cn/html/2010/1365063.html',
-			nextLink:'//div[@class="page"]/a[text()="下页→"][@href]',
+		{siteName:'小说客栈',
+			url:/^http:\/\/www\.xskz\.com\/xiaoshuo\/.+\.shtml/i,
+			siteExample:'http://www.xskz.com/xiaoshuo/29/29091/2062593.shtml',
+			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="下一章"]',
 			autopager:{
-				pageElement:'//div[@id="partbody"]',
+				pageElement:'//div[@id="BookText"]',
 			}
 		},
-		{siteName:'北京爱书',
-			url:/http:\/\/www\.bj-ibook\.cn\/book/i,
-			siteExample:'http://www.bj-ibook.cn/book/17/t10409k/12.htm',
-			nextLink:'//div[@class="zh2"]/a[text()="(下一页快捷键→)"][@href]',
+		{siteName:'翠微居',
+			url:/^http:\/\/www\.cuiweiju\.com\/html\/.+\.html/i,
+			siteExample:'http://www.cuiweiju.com/html/124/124362/6468025.html',
+			nextLink:'//p[@class="cz_bar"]/descendant::a[text()="下一章 》"]',
 			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="bmsy_content"]',
-			}
-		},
-		{siteName:'五月中文网',
-			url:/http:\/\/www\.5ycn\.com\/\w+\/\d+\.html/i,
-			siteExample:'http://www.5ycn.com/weiwoduzun/2655380.html',
-			useiframe:true,
-			nextLink:'css;.redbutt:nth-child(3)',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@class="bookcontent clearfix"]',
-			}
-		},
-		{siteName:'开心文学',
-			url:/http:\/\/www\.kxwxw\.net\/files\/article\/html\/\d+\/\d+/i,
-			siteExample:'http://www.kxwxw.net/files/article/html/25/25917/1204282.html',
-			nextLink:'//div[@id="footlink"]/a[text()="下一页"][@href]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="content"]',
-			}
-		},
-		{siteName:'书书网',
-			url:/http:\/\/www\.shushuw\.cn\/shu/i,
-			siteExample:'http://www.shushuw.cn/shu/28560/4509794.html',
-			nextLink:'auto;',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="bookpartinfo"]',
-			}
-		},
-		{siteName:'文学迷小说阅读网',
-			url:/^http:\/\/www\.wenxuemi\.net\/files\/article\/html\/.+\.html/i,
-			siteExample:'http://www.wenxuemi.net/files/article/html/0/199/2640787.html',
-			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
-			autopager:{
-				pageElement:'//div[@id="content"]',
+				pageElement:'//div[@class="book_wrap"]',
 			}
 		},
 		{siteName:'在线书吧',
@@ -407,151 +464,86 @@
 				pageElement:'//div[@id="content"]',
 			}
 		},
-		{siteName:'万书楼',
-			url:/^http:\/\/www\.wanshulou\.com\/xiaoshuo\/.+\.shtml/i,
-			siteExample:'http://www.wanshulou.com/xiaoshuo/29/29091/2062593.shtml',
-			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="下一章"]',
+		{siteName:'文学迷',
+			url:/^http:\/\/www\.wenxuemi\.net\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.wenxuemi.net/files/article/html/10/10884/index.html',
+			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
 			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="BookText"]',
+				pageElement:'//div[@id="content"]',
 			}
 		},
-		{siteName:'翠微居',
-			url:/^http:\/\/www\.cuiweiju\.com\/html\/.+\.html/i,
-			siteExample:'http://www.cuiweiju.com/html/124/124362/6468025.html',
-			nextLink:'//p[@class="cz_bar"]/descendant::a[text()="下一章 》"]',
+		{siteName:'开心文学网',
+			url:/^http:\/\/www\.kxwxw\.net\/files\/article\/html\/\d+\/\d+/i,
+			siteExample:'http://www.kxwxw.net/files/article/html/25/25917/1204282.html',
+			nextLink:'//div[@id="footlink"]/a[text()="下一页"][@href]',
 			autopager:{
-				useiframe:true,
-				pageElement:'//p[@id="content"]',
+				pageElement:'//div[@id="content"]',
 			}
 		},
-		{siteName:'小说客栈',
-			url:/^http:\/\/www\.xskz\.com\/xiaoshuo\/.+\.shtml/i,
-			siteExample:'http://www.xskz.com/xiaoshuo/29/29091/2062593.shtml',
-			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="下一章"]',
+		{siteName:'北京爱书',
+			url:/^http:\/\/www\.bj-ibook\.cn\/book\/.+\.htm/i,
+			siteExample:'http://www.bj-ibook.cn/book/17/t10409k/12.htm',
+			nextLink:'//div[@class="zh2"]/a[text()="(下一页快捷键→)"][@href]',
 			autopager:{
 				useiframe:true,
-				pageElement:'//div[@id="BookText"]',
+				pageElement:'//div[@id="bmsy_content"]',
 			}
 		},
-		{siteName:'万卷书屋',
-			url:/^http:\/\/www\.wjsw\.com\/html\/.+\.shtml/i,
-			siteExample:'http://www.wjsw.com/html/35/35404/2887335.shtml',
-			useiframe:true,
-			nextLink:'//div[@id="bookreadbottom"]/descendant::a[text()="下一章"]',
+		{siteName:'乐优文学',
+			url:/^http:\/\/www\.4619\.cn\/html\/\d+\/\d+/i,
+			siteExample:'http://www.4619.cn/html/2010/1365063.html',
+			nextLink:'//div[@class="page"]/a[text()="下页→"][@href]',
 			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="maincontent"]'
+				pageElement:'//div[@id="partbody"]',
 			}
 		},
-		{siteName:'万卷书屋2',
-			url:/^http:\/\/wanjuan\.net\/\w+\/\d+\.html/i,
-			siteExample:'http://wanjuan.net/tiancaixiangshi/3169.html',
-			useiframe:true,
-			nextLink:'//div[@class="book_middle_text_next"]/descendant::a[text()="下一章(快捷键:→)"]',
+		{siteName:'小说570',
+			url:/^http:\/\/www\.xiaoshuo570\.com/i,
+			siteExample:'http://www.xiaoshuo570.com/11/11844/2678383.html',
+			nextLink:'//div[@id="thumb"]/a[text()="下一页"][@href]',
 			autopager:{
 				useiframe:true,
-				pageElement:'//div[@id="booktext"]'
+				pageElement:'//div[@class="fonts_big"]',
 			}
 		},
-		{siteName:'百晓生中文网',
-			url:/^http:\/\/www\.bxs\.cc\/book\/.+\.html/i,
-			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
-			useiframe:true,
-			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
+		{siteName:'看书',
+			url:/^http:\/\/www\.kanshu\.com\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.kanshu.com/files/article/html/30997/935806.html',
+			nextLink:'//div[@class="yd_linebot"]/descendant::a[text()="下一章"]',
 			autopager:{
-				enable:true,
-				useiframe:true,
-				pageElement:'//div[@id="main"]'
+				pageElement:'//table[@class="yd_table"]'
+			}
+		},
+		{siteName:'！五月中文网',
+			url:/^http:\/\/www\.5ycn\.com\/\w+\/\d+\.html/i,
+			siteExample:'http://www.5ycn.com/weiwoduzun/2655380.html',
+			nextLink:'css;.redbutt:nth-child(3)',
+			autopager:{
+				pageElement:'//div[@class="bookcontent clearfix"]',
+			}
+		},
+		{siteName:'原创阅读网',
+			url:/^http:\/\/www\.yuanchuang\.com\/bookreader\/.+\.html/i,
+			siteExample:'http://www.yuanchuang.com/bookreader/10165901/10295065.html',
+			nextLink: function(doc){return doc.getElementById('btnNext').onclick.toString().match(/http.*html/)[0]},
+			autopager:{
+				pageElement:'//div[@id="readtext"]',
 			}
 		},
 		{siteName:'飞库',
 			url:/^http:\/\/www\.feiku\.com\/\/html\/book\/.+\.shtm/i,
 			siteExample:'http://www.feiku.com//html/book/130/164016/4891625.shtm',
-			useiframe:true,
 			nextLink:'//div[@class="prenext"]/descendant::a[text()="下一页→"]',
 			autopager:{
-				useiframe:true,
 				pageElement:'//div[@id="chcontent"]'
 			}
 		},
-		{siteName:'原创阅读网',
-			url: /^http:\/\/www\.yuanchuang\.com\/bookreader\/.+\.html/i,
-			siteExample:'http://www.yuanchuang.com/bookreader/10165901/10295065.html',
-			useiframe:true,
-			nextLink: function(doc){return doc.getElementById('btnNext').onclick.toString().match(/http.*html/)[0]},
+		{siteName:'百晓生中文网',
+			url:/^http:\/\/www\.bxs\.cc\/book\/.+\.html/i,
+			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
+			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
 			autopager:{
-				useiframe:true,
-				pageElement: 'css;#readtext',
-			}
-		},
-		{siteName:'笔趣阁',
-			url:/^http:\/\/www\.biquge\.com\/.+\.html/i,
-			siteExample:'http://www.biquge.com/0_67/471472.html',
-			useiframe:true,
-			nextLink:'//div[@class="bottem2"]/descendant::a[text()="下一章"]',
-			autopager:{
-				useiframe:true,
 				pageElement:'//div[@id="content"]'
-			}
-		},
-		{siteName:'笔下文学',
-			url:/^http:\/\/www\.bxwx\.org\/b\/.+\.html/i,
-			siteExample:'http://www.bxwx.org/b/56/56907/9020932.html',
-			useiframe:true,
-			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页[→]"]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="content"]'
-			}
-		},
-		{siteName:'17k',
-			url:/^http:\/\/www\.17k\.com\/chapter\/.+\.html/i,
-			siteExample:'http://www.17k.com/chapter/143095/3714822.html',
-			useiframe:true,
-			nextLink:'//div[@class="read_bottom"]/descendant::a[text()="下一章"]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@class="readAreaBox"]'
-			}
-		},
-		{siteName:'烟雨红尘',
-			url:/^http:\/\/www\.cc222\.com\/chapter\/.+\.html/i,
-			siteExample:'http://www.cc222.com/chapter/558139.html',
-			useiframe:true,
-			nextLink:'//div[@id="paging"]/descendant::a[text()="下一章"]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="aContainer"]'
-			}
-		},
-		{siteName:'凤鸣轩',
-			url:/^http:\/\/read\.fmx\.cn\/files\/article\/html\/.+\.html/i,
-			siteExample:'http://read.fmx.cn/files/article/html/5/7/0/4/8/5/70485/1339404.html',
-			useiframe:true,
-			nextLink:'//div[@class="newread_fy"]/descendant::a[text()="下一章>>"]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@class="newbodybox"]'
-			}
-		},
-		{siteName:'红袖添香',
-			url:/^http:\/\/novel\.hongxiu\.com\/a\/.+\.shtml/i,
-			siteExample:'http://novel.hongxiu.com/a/303084/3543064.shtml',
-			nextLink:'//div[@class="papgbutton"]/descendant::a[text()="下一章"]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@class="wrapper_main"]'
-			}
-		},
-		{siteName:'纵横书库',
-			url:/^http:\/\/book\.zongheng\.com\/chapter\/.+\.html/i,
-			siteExample:'http://book.zongheng.com/chapter/207057/3839503.html',
-			useiframe:true,
-			nextLink:'//div[@class="tc quickkey"]/descendant::a[text()="下一章"]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@class="readcon"]'
 			}
 		},
 		{siteName:'OperaChina列表',
@@ -590,21 +582,12 @@
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'远景论坛帖子',
-			url:/http:\/\/bbs\.pcbeta\.com\/viewthread/i,
-			siteExample:'http://bbs.pcbeta.com/viewthread',
+		{siteName:'远景论坛',
+			url:/http:\/\/bbs\.pcbeta\.com/i,
 			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
 			autopager:{
 				useiframe:false,
-				pageElement:'//div[@id="postlist"]'
-			}
-		},
-		{siteName:'远景论坛列表',
-			url:/http:\/\/bbs\.pcbeta\.com\/forum/i,
-			siteExample:'http://bbs.pcbeta.com/forum-74-1.html',
-			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
-			autopager:{
-				pageElement:'//form[@id="moderate"]'
+				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
 			}
 		},
 		{siteName:'百事高音乐论坛',
