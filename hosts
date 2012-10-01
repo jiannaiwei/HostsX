@@ -1,5 +1,5 @@
 
-;version=22:15 2012/9/30
+;version=19:46 2012/10/1
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9234,6 +9234,8 @@ fe80::1%lo0	localhost
 127.0.0.1 sfmusictech.appstores.com
 127.0.0.1 techcrunch.appstores.com
 127.0.0.1 topix.appstores.com
+#ByPush
+127.0.0.1 www.bypush.com
 #Casee
 127.0.0.1 d.casee.cn
 127.0.0.1 d2.casee.cn
