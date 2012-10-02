@@ -1,5 +1,5 @@
 
-;version=10:27 2012/10/2
+;version=16:23 2012/10/2
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -750,6 +750,13 @@ fe80::1%lo0	localhost
 0.0.0.0 tajs.qq.com
 0.0.0.0 pingtas.qq.com
 0.0.0.0 pingtcss.qq.com
+0.0.0.0 j.wit.qq.com
+0.0.0.0 m.l.qq.com
+0.0.0.0 union.discuz.qq.com
+0.0.0.0 lb.l.qq.com
+0.0.0.0 p3.l.qq.com
+0.0.0.0 dp3.qq.com
+0.0.0.0 ls.l.qq.com
 #搜搜
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
@@ -1705,6 +1712,9 @@ fe80::1%lo0	localhost
 0.0.0.0 d.5d6d.com
 0.0.0.0 un.5d6d.com
 #PhpWind
+0.0.0.0 s.phpwind.com
+0.0.0.0 cs10.phpwind.com
+0.0.0.0 cs12.phpwind.com
 0.0.0.0 init.phpwind.net
 0.0.0.0 init.phpwind.com
 0.0.0.0 nt.phpwind.com
@@ -1730,6 +1740,7 @@ fe80::1%lo0	localhost
 #一起看小说
 0.0.0.0 ad.17k.com
 0.0.0.0 log.17k.com
+0.0.0.0 stat.17k.com
 #逐浪网
 0.0.0.0 adgame.zhulang.com
 0.0.0.0 images2.zhulang.com
@@ -1738,6 +1749,8 @@ fe80::1%lo0	localhost
 0.0.0.0 sjqk.zhulang.com
 #飞卢网
 0.0.0.0 s.faloo.com
+#书香电子书
+0.0.0.0 dm.sxcnw.net
 #纵横中文网
 0.0.0.0 ad.zongheng.com
 0.0.0.0 log.zongheng.com
@@ -11633,3 +11646,4 @@ fe80::1%lo0	localhost
 0.0.0.0 360.rbc.cn
 0.0.0.0 cpm.feike5.com
 0.0.0.0 ad3.ctrmi.com
+0.0.0.0 show.61ads.com
