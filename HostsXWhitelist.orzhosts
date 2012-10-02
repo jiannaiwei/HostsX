@@ -1,5 +1,9 @@
-;version=8:41 2012/9/28
+;version=10:27 2012/10/2
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致微软下载无法正常跳转。
+clk.atdmt.com
+$DELETE
 
 #导致PcOnline无法正常下载。
 dlc2.pconline.com.cn
