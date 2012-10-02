@@ -1,5 +1,5 @@
 @echo off
-set ver=1.05
+set ver=1.06
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -16,7 +16,7 @@ move bookmarks.adr locale\zh-cn
 move standard_speeddial.ini locale\zh-cn
 echo 默认配置已更新！
 cd profile\script
-del Super_preloader.db
+del Super_preloader.db.js
 wget http://Hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 echo UserJs数据已更新！
 cd ..
@@ -45,4 +45,5 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/BBS.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
 echo CSS数据已更新!
-mshta vbscript:msgbox("配置文件已是最新状态！",64,"SimpleU+")(window.close) & goto exit
+cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & goto exit
+
