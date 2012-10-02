@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-11:13 2012/10/2
+20:29 2012/10/2
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -479,6 +479,7 @@ wj               =simpleu/proxy/wj.png
 -----------------------------------------------------------------------
 
 Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+*sms.*   http://m.mail.10086.cn:7000/w3/sendsms.html?&mo=ui7bJS0bHRFSDkYUGQslel3F_GACv8P9&vn=274&cmd=40
 http://pub.mop.com/widget.jsp* http://tt.mop.com/read_12801350_1_0.html 11.64版本无法显示图片，12以后版本正常。
 */baidu*.htm* http://player.uusee.com/apps/baidu/index.html
 */baidu*.js http://topic.pptv.com/partner/baiduapp/live/main/
