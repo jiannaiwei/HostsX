@@ -1,5 +1,5 @@
 
-;version=16:23 2012/10/2
+;version=15:39 2012/10/3
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2372,30 +2372,44 @@ fe80::1%lo0	localhost
 #Avira
 127.0.0.1 notifier.avira.com
 #360Safe
+127.0.0.1 hjql.stat.360safe.com
+127.0.0.1 ini.update.360safe.com
 127.0.0.1 inst.360safe.com
 127.0.0.1 pdown.stat.360safe.com
 127.0.0.1 plugin.stat.360safe.com
 127.0.0.1 seapp.stat.360safe.com
+127.0.0.1 seupdate.360safe.com
+127.0.0.1 softm.update.360safe.com
 127.0.0.1 stat.360safe.com
+127.0.0.1 update.360safe.com
 127.0.0.1 upload.360safe.com
 127.0.0.1 x.360safe.com
+127.0.0.1 bp.conf.f.360.cn
 127.0.0.1 cdn.apc.360.cn
 127.0.0.1 click.stat.hao.360.cn
+127.0.0.1 conf.f.360.cn
+127.0.0.1 cz.360.cn
+127.0.0.1 e.360.cn
 127.0.0.1 es.f.360.cn
+127.0.0.1 h.conf.f.360.cn
 127.0.0.1 pinst.360.cn
 127.0.0.1 q.leak.360.cn
 127.0.0.1 q.soft.360.cn
 127.0.0.1 qd.code.360.cn
 127.0.0.1 qup.f.360.cn
+127.0.0.1 qurl.f.360.cn
 127.0.0.1 rd.360.cn
-127.0.0.1 e.360.cn
+127.0.0.1 s.360.cn
 127.0.0.1 s.se.360.cn
+127.0.0.1 sampleup.sd.360.cn
 127.0.0.1 st.se.360.cn
-127.0.0.1 union.360.cn
 127.0.0.1 stat.apc.360.cn
 127.0.0.1 stat.sd.360.cn
+127.0.0.1 static.360.cn
 127.0.0.1 static.apc.360.cn
+127.0.0.1 union.360.cn
 127.0.0.1 up.f.360.cn
+127.0.0.1 zt.360.cn
 #ESTsoft
 127.0.0.1 advert.estsoft.com
 #Potplayer
@@ -9803,6 +9817,7 @@ fe80::1%lo0	localhost
 127.0.0.1 count9.51yes.com
 127.0.0.1 countt.51yes.com
 #CNZZ
+127.0.0.1 hqs9.cnzz.com
 127.0.0.1 hzs12.cnzz.com
 127.0.0.1 zs16.cnzz.com
 127.0.0.1 hzs8.cnzz.com
@@ -11647,3 +11662,4 @@ fe80::1%lo0	localhost
 127.0.0.1 cpm.feike5.com
 127.0.0.1 ad3.ctrmi.com
 127.0.0.1 show.61ads.com
+127.0.0.1 unixpapa.com
