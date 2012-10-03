@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-14:35 2012/10/3
+20:16 2012/10/3
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -675,6 +675,11 @@ div[class^="adBlock "],div[class^="adBlk ad"],
 div[align="center"][id^="ad"],center>div[id^="AD"],div[id^="AD"][style*="w"]
 
 
+Button, "夜间模式"=External action,,,,"none" | Select user CSS file, 0 & Set preference, "Colors|Background=#000000" & Show preferences, 3 & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Click button & delay,1 & Click button & delay,1 & Ok
+Button, "普通模式"=External action,,,,"none" | Deselect user CSS file, 0 & Set preference, "Colors|Background=#ffffff" & Show preferences, 3 & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Click button & delay,1 & Click button & delay,1 & Ok
+Button, "宽度适配(全局)"="Set preference, "User Prefs|Rendering mode=-1",,,"Enable Mediumscreen Mode" | Set preference, "User Prefs|Rendering mode=0""
+Spacer2, 2
+Spacer3, 2
 Item, "Get Flash"=Go to page, "javascript:(function(){var createLink=function(l,t){var oLnk=document.createElement('a');oLnk.setAttribute('href',l);oLnk.appendChild(document.createTextNode(t));oLnk.setAttribute('style','display:inline-block;text-decoration:underline;font:14px Times New Roman;');return oLnk};var showLink=function(oEle,oSrc,oFlv){var cName='ujs_downlink';var p=oEle.previousSibling;if(p&&p.className==cName){oEle.parentNode.removeChild(p);return};var oDiv=document.createElement('div');oDiv.className=cName;oDiv.appendChild(createLink(oSrc,'Download'));var r=/%5Cw=(%5B%5Cw %5C/:.-%5D+flv)/i.exec(decodeURIComponent(oFlv));if(r){oDiv.appendChild(document.createTextNode(' ('));oDiv.appendChild(createLink(r%5B1%5D,'flv'));oDiv.appendChild(document.createTextNode(')'))};oEle.parentNode.insertBefore(oDiv,oEle)};var getParam=function(e,n){var re=new RegExp('^('+n+')$','i');var param=e.getElementsByTagName('param');for(var i=0,p;p=param%5Bi%5D;i++){if(p.getAttribute('name').match(re))return p.getAttribute('value')}};var searchEmbed=function(w){if(!w)return;var obj=w.document.getElementsByTagName('object');for(var i=0,oi;oi=obj%5Bi%5D;i++){var src=oi.getAttribute('data')||oi.getAttribute('src');if(!src)src=getParam(oi,'movie|data|src|code|filename|url');showLink(oi,src,getParam(oi,'flashvars'))};var em=w.document.getElementsByTagName('embed');for(var i=0,ei;ei=em%5Bi%5D;i++){if(ei.parentNode.tagName.toLowerCase()!='object')showLink(ei,ei.getAttribute('src'),ei.getAttribute('flashvars'))};for(var j=0,f;f=w.frames%5Bj%5D;j++){try{arguments.callee(f)}catch(e){}}};searchEmbed(window.top)})()", 1, , "none""
 Item, "制作简单按钮"=External action,,,,"none" | Go to Page, "javascript:void(inivar='%t')" & Go to page, "javascript:(function(){var q=document.getSelection()||window.inivar;if(q){q=q+' '};s=prompt('是否确认生成按钮？',q);if(s){s=s.replace(/(^\s*)|(\s*$)/g, '');if(s.match(/(\s\w$)/i)){var Icon;if(s.match(/n$/i)){Icon='new page'}else if(s.match(/b$/i)){Icon='bookmarks'}else if(s.match(/e$/i)){Icon='Window Mail Compose Icon'}else{Icon='window browser icon'};s='External action\,\,\,\,\x22'+Icon+'\x22\ \| '+s;s=s.substring(0,(s.length-2))};if(location.hostname!=''){}else{window.close()};window.open('data:text/html,<html><head><style type=\'text/css\'>body{background-color:black}.icon{background-image:-o-skin(\'window browser icon\');width:30px;display:inline-block;}.button{font-size:30px;font-weight:bold;text-align:center;margin-top:20%;}a:link,a:visited{color:white;font-size:30px;}</style></head><body><div class=\'button\'><p><span class=\'icon\'>&nbsp;</span><a href=\'opera:/button/'+encodeURIComponent(s)+'\'>Your Button</a></p></div></body></html>');}})()", 1,"Make Your Button","none"
 ;Item, "新华字典(&X)"=External action,,,,"zdic" | COPY & GO TO PAGE ,"http://xh.5156edu.com/index.php?f_type=zi&f_key=%c",,,"none"
