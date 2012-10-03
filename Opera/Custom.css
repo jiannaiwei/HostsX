@@ -3,7 +3,7 @@
 
 /*
 Name: /广告过滤
-Version: 5.x933
+Version: 5.x934
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 14:48 2012/10/3
@@ -189,7 +189,7 @@ div[class="nH adC"],div[class="mq"],td[class="aBC"],div[class="Zs"]{
 }
 
 /* Baidu */
-div[id^="cpro_"],div[class^="brand-ad"],div[id="span_banner"],span[id="baidu"],
+div[id^="cpro_"],div[class^="brand-ad"],div[id="span_banner"],span[id="baidu"],div[class="l_banner banner_theme_"],
 div[id^="guanggao"],div[id*="ecomAd"],div[id="container"]>table[width="30%"][align="right"]{
 display: none !important;
 	}
