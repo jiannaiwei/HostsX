@@ -1,5 +1,5 @@
 
-;version=15:39 2012/10/3
+;version=16:21 2012/10/3
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -571,6 +571,7 @@ fe80::1%lo0	localhost
 0.0.0.0 img.alimama.cn
 0.0.0.0 tw.alimama.cn
 0.0.0.0 acookie.alimama.com
+0.0.0.0 banner.alimama.com
 0.0.0.0 cpc.click.alimama.com
 0.0.0.0 gouwu.alimama.com
 0.0.0.0 log.mm.vip.cnz.alimama.com
@@ -612,6 +613,7 @@ fe80::1%lo0	localhost
 0.0.0.0 adtaobao.allyes.cn
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
+0.0.0.0 img.uu1001.cn
 #ÐÂÀËÍø
 0.0.0.0 c.biz.weibo.com
 0.0.0.0 all.vic.sina.com.cn
