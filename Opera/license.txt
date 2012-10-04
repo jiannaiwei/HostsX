@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:16 2012/10/3
+20:35 2012/10/4
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -675,6 +675,9 @@ div[class^="adBlock "],div[class^="adBlk ad"],
 div[align="center"][id^="ad"],center>div[id^="AD"],div[id^="AD"][style*="w"]
 
 
+;item, "本页自动使用IE内核"=Execute program,"OpTools\AutoIE.bat","%u",,"ieopera"
+;Item, "网站自动转简体编辑"="Execute program, "notepad.exe", "profile\script\tw2cn_auto.jsx", , "Window Mail Compose Icon""
+;Item, "用隐身窗口打开"=External action,,,,"New Private Page Menu" | Copy document address & new private browser window & go to page, "%c"
 Button, "夜间模式"=External action,,,,"none" | Select user CSS file, 0 & Set preference, "Colors|Background=#000000" & Show preferences, 3 & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Click button & delay,1 & Click button & delay,1 & Ok
 Button, "普通模式"=External action,,,,"none" | Deselect user CSS file, 0 & Set preference, "Colors|Background=#ffffff" & Show preferences, 3 & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Click button & delay,1 & Click button & delay,1 & Ok
 Button, "宽度适配(全局)"="Set preference, "User Prefs|Rendering mode=-1",,,"Enable Mediumscreen Mode" | Set preference, "User Prefs|Rendering mode=0""
