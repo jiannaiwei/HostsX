@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 16:34 2012/10/4
+// @lastmodified 17:20 2012/10/4
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -34,7 +34,7 @@
 		someValue:''						,//显示在翻页导航最右边的一个小句子..-_-!!..Powered by Super_preloader隐藏了
 		DisableI:true																			,//只在顶层窗口加载JS..提升性能..如果开启了这项,那么DIExclude数组有效,里面的网页即使不在顶层窗口也会加载....
 		arrowKeyPage:true																	,//允许使用 左右方向键 翻页..
-		updateSet:[false,7,false]													,//(不支持chrome)3项分别为:使用自动更新提醒,检查间隔(天),给firefoxGM注册右键
+		updateSet:[true,7,false]													,//(不支持chrome)3项分别为:使用自动更新提醒,检查间隔(天),给firefoxGM注册右键
 		sepStartN:1																				,//翻页导航上的,从几开始计数.(貌似有人在意这个,所以弄个开关出来,反正简单.-_-!!)
 	};
 

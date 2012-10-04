@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x95
+Version: 5.x96
 Author: KwokTree
 Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 14:48 2012/10/3
+Lastchage: 17:15 2012/10/4
 Description: MayBe a better User CSS Help U.
 */
 
@@ -134,7 +134,7 @@ display: none !important;
 	}
 
 /* 论坛广告和外链 */
-div[class$="a_cb"],div[class^="a_f"],div[class^="wp a_"],div[id="wrap"]>div[class="focus"][id="focus"]{display: none !important;}
+div[class$="a_cb"],div[class^="a_f"],div[class^="wp a_"],div[id="wrap"]>div[class="focus"][id="focus"],div[class^="wrap"]>div[class="focus"][id="sitefocus"]{display: none !important;}
 div[class="a_b"],div[class="a_mu"],div[class="a_pb"],div[class="a_pr"],
 div[class="a_pt"],div[class="bm a_c"],div[class="tac mb5"],td[class="f_one black tac"]{
 display: none !important;
@@ -189,7 +189,7 @@ div[class="nH adC"],div[class="mq"],td[class="aBC"],div[class="Zs"]{
 }
 
 /* Baidu */
-div[id^="cpro_"],div[class^="brand-ad"],div[id="span_banner"],span[id="baidu"],div[class="l_banner banner_theme_"],
+div[id^="cpro_"],div[class^="brand-ad"],div[id="span_banner"],span[id="baidu"],div[class^="l_banner banner_theme_"],
 div[id^="guanggao"],div[id*="ecomAd"],div[id="container"]>table[width="30%"][align="right"]{
 display: none !important;
 	}
