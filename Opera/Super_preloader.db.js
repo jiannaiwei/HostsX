@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 23:28 2012/9/30
+// @lastmodified 16:34 2012/10/4
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -257,8 +257,8 @@
 				pageElement:'//table[@id="thread_table"]',
 			}
 		},
-		{siteName:'起点网',
-			url:/^http:\/\/www\.(qidian|qdmm)\.com\/BookReader\/\d+,\d+/i,
+		{siteName:'起点文学',
+			url:/^http:\/\/www\.(qidian|qdmm|qdwenxue)\.com\/BookReader\/\d+,\d+/i,
 			siteExample:'http://www.qidian.com/BookReader/1545376,27301383.aspx',
 			useiframe:true,
 			nextLink:'//a[@id="NextLink"]',
@@ -276,6 +276,14 @@
 				pageElement:'//div[@class="readpage_leftntxt"]',
 			}
 		},
+		{siteName:'烟雨红尘',
+			url:/^http:\/\/www\.cc222\.com\/chapter\/.+\.html/i,
+			siteExample:'http://www.cc222.com/chapter/558139.html',
+			nextLink:'//div[@id="paging"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="aContainer"]'
+			}
+		},
 		{siteName:'17k',
 			url:/^http:\/\/www\.17k\.com\/chapter\/.+\.html/i,
 			siteExample:'http://www.17k.com/chapter/143095/3714822.html',
@@ -290,6 +298,47 @@
 			nextLink:'//div[@class="tc quickkey"]/descendant::a[text()="下一章"]',
 			autopager:{
 				pageElement:'//div[@class="readcon"]'
+			}
+		},
+		{siteName:'纵横女生',
+			url:/^http:\/\/www\.mmzh\.com\/chapter\/.+\.html/i,
+			siteExample:'http://www.mmzh.com/chapter/182074/3287355.html',
+			nextLink:'//div[@class="tc key"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="book_con"]'
+			}
+		},
+		{siteName:'新小说吧',
+			url:/http:\/\/book\.xxs8\.com\/.+\.html/i,
+			siteExample:'http://book.xxs8.com/165779/859903.html',
+			nextLink:'//div[@class="page"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="midbody"]',
+				maxpage:10,
+			}
+		},
+		{siteName:'玄幻小说网',
+			url:/^http:\/\/www\.xhxsw\.com\/books\/.+\.htm/i,
+			siteExample:'http://www.xhxsw.com/books/1063/1063066/10579171.htm',
+			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="content"]',
+			}
+		},
+		{siteName:'新浪读书',
+			url:/^http:\/\/vip\.book\.sina\.com\.cn\/book\/.+\.html/i,
+			siteExample:'http://vip.book.sina.com.cn/book/chapter_212235_224212.html',
+			nextLink:'//p[@class="pages"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="mainContent"]',
+			}
+		},
+		{siteName:'搜狐原创',
+			url:/^http:\/\/vip\.book\.sohu\.com\/content/i,
+			siteExample:'http://vip.book.sohu.com/content/124852/3902398/',
+			nextLink:'//div[@class="artical_btn"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="bgdiv"]',
 			}
 		},
 		{siteName:'红袖添香',
@@ -322,14 +371,6 @@
 			nextLink:'//div[@class="newread_fy"]/descendant::a[text()="下一章>>"]',
 			autopager:{
 				pageElement:'//div[@class="newbodybox"]'
-			}
-		},
-		{siteName:'烟雨红尘',
-			url:/^http:\/\/www\.cc222\.com\/chapter\/.+\.html/i,
-			siteExample:'http://www.cc222.com/chapter/558139.html',
-			nextLink:'//div[@id="paging"]/descendant::a[text()="下一章"]',
-			autopager:{
-				pageElement:'//div[@id="aContainer"]'
 			}
 		},
 		{siteName:'红薯网',
@@ -519,6 +560,19 @@
 			siteExample:'http://www.quanben.com/xiaoshuo/10/10412/2095098.html',
 			autopager:{
 				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'晋江原创',
+			url:/http:\/\/www\.jjwxc\.net\/onebook\.php\?novelid=/i,
+			siteExample:'http://www.jjwxc.net/onebook.php?novelid=862877&chapterid=6',
+			nextLink: {
+			        startAfter:'&chapterid=',
+			        mFails:[/http:\/\/www\.jjwxc\.net\/onebook\.php\?novelid=/i,'?p=1'],
+			        inc:1,			
+			},
+			autopager:{
+				remain: 0.33,
+				pageElement:'//div[@class="noveltext"]',
 			}
 		},
 		{siteName:'！五月中文网',
