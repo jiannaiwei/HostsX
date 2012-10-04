@@ -1,4 +1,4 @@
-;version=10:27 2012/10/2
+;version=13:09 2012/10/4
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致微软下载无法正常跳转。
@@ -157,6 +157,10 @@ $DELETE
 #导致新浪看视频无法正常播放。
 swf.games.sina.com.cn
 v.iask.com
+$DELETE
+
+#导致 360 浏览器无法正常更新。
+seupdate.360safe.com
 $DELETE
 
 #!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
