@@ -1,5 +1,5 @@
 
-;version=22:36 2012/10/4
+;version=23:01 2012/10/5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -1731,6 +1731,7 @@ fe80::1%lo0	localhost
 @HostsX 国内站点广告/小说类网站
 #起点中文网
 0.0.0.0 s1.cmfu.com
+0.0.0.0 avd.qidian.com
 0.0.0.0 qidian.adsame.com
 0.0.0.0 o.if.qidian.com
 0.0.0.0 uedas.qidian.com
@@ -11670,3 +11671,4 @@ fe80::1%lo0	localhost
 0.0.0.0 codes.xp3366.com
 0.0.0.0 img.xp9365.com
 0.0.0.0 p.xp9365.com
+0.0.0.0 union.limgs.cn

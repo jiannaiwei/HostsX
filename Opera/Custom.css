@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x96
+Version: 5.x98
 Author: KwokTree
-Url: http://Hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 17:15 2012/10/4
+Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
+Lastchage: 23:55 2012/10/5
 Description: MayBe a better User CSS Help U.
 */
 
@@ -20,15 +20,15 @@ div[class^="ads"],div[class^="adS"],div[class^="adv"],div[class^="adx"]{
 display: none !important;
 	}
 div[class="ad"],div[class^="ad_"],div[class$="_ads"],div[class$="_ad"][id$="_ad"],
-div[class*="-ad ad"],div[class*="_ad_img"],div[class$="_ad"],div[class$="-ad"]{
+div[class*="-ad-"],div[class*="-ad ad"],div[class*="_ad_img"],div[class$="_ad"],div[class$="-ad"]{
 display: none !important;
 	}
 div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="adFrame"],
 div[class^="adList"],div[class^="adlist"],div[class^="adindex"],div[class^="ades"]{
 display: none !important;
 	}
-div[class^="ada"],div[class^="adc"],div[class*="cvAd"],div[class^="ad-txt"],div[class^="adbox"],
-div[class="ad-img"],div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
+div[class^="ada"],div[class^="adc"],div[class^="ad-txt"],div[class^="adbox"],div[class="ad-img"],
+div[class^="adarea"],div[class*="cvAd"],div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
 display: none !important;
 	}
 
@@ -41,7 +41,7 @@ div[id^="ads_"],div[id^="ads-"],div[id*="-ads-"],div[id$="_ads"]{
 display: none !important;
 	}
 div[id="ad"],div[id^="ad_"],div[id$="Ad"],div[id$="-ad"],div[id$="-ads"],
-div[id*="-ad-"],div[id*="0_AD_"],div[id^="Ads_"],div[id^="afp_"]{
+div[id*="-ad-"],div[id*="_0_AD_"],div[id^="Ads_"],div[id^="afp_"]{
 display: none !important;
 	}
 div[id^="adList"],div[id^="adlist"],div[id^="adSp"],div[id^="adcontent"],div[id^="adhere"],
@@ -58,7 +58,7 @@ div[class="gg"],div[class="ggs"],div[class^="gg_"],div[class*="gg-"],div[class^=
 div[class="gg01"],div[class^="gg2"],div[class^="gg3"],div[class^="ggAD"],div[class="ggSideBox"]{
 display: none !important;
 	}
-div[class="ggarea clearfix"],[class$="header_gg"],div[id="hdggs"],div[id="top_gg"],div[class*="top-gg-"],
+div[class^="ggarea"],[class$="header_gg"],div[id="hdggs"],div[id="top_gg"],div[class*="top-gg-"],
 div[class$="guanggao"],div[id^="guanggao_"],div[id^="gg"][style$="px"],div[class^="aa_"][id^="gg"]{
 display: none !important;
 	}
@@ -93,12 +93,12 @@ div[id^="pic_ad"],div[id^="dale_online_"],div[id^="extradiv"],div[id="sp"]{
 display: none !important;
 	}
 
-td[id^="adp_"],td[class="adslot"],td[class="ad"],td[class="readads"],dl[id^="ad0"],
+td[id^="adp_"],td[id^="jjwxc_onebook"],td[class="adslot"],td[class="ad"],td[class="readads"],dl[id^="ad0"],
 tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[id="ad_corner_close"],p[class^="ad_details"]{
 display: none !important;
 	}
 table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],table[class="advtable"],
-img[id^="ad"],img[class="ad"],img[class$="adimg"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt$="告"]{
+img[id^="ad"],img[class="ad"],img[class$="adimg"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt*="广告"]{
 display: none !important;
 	}
 span[class^="gg"],span[class="adlink"],span[class="bdad"],span[class^="ads_"],
@@ -116,8 +116,8 @@ display: none !important;
 	}
 
 /* Banner & Flash & Word AD*/
-div[id*="adflash"],div[id*="ad-flash"],div[id*="_flash_click_"],div[id="flashbanner"],
-div[class="flashNews"],object[class*="ad_falsh"],embed[id^="ad_flash"],embed[name="flash_focus"]{
+div[id*="adflash"],div[id*="ad-flash"],div[id*="_flash_"],div[id="flashbanner"],
+div[class="flashNews"],object[id*="flashad"],object[class*="ad_falsh"],embed[id^="ad_flash"],embed[name="flash_focus"]{
 display: none !important;
 	}
 div[class*="ad-banner"],div[class*="topBanner"],div[class="banner"]>dl,div[class^="bigbanner"][id^="bigbanner"],
@@ -135,8 +135,8 @@ display: none !important;
 
 /* 论坛广告和外链 */
 div[class$="a_cb"],div[class^="a_f"],div[class^="wp a_"],div[id="wrap"]>div[class="focus"][id="focus"],div[class^="wrap"]>div[class="focus"][id="sitefocus"]{display: none !important;}
-div[class="a_b"],div[class="a_mu"],div[class="a_pb"],div[class="a_pr"],
-div[class="a_pt"],div[class="bm a_c"],div[class="tac mb5"],td[class="f_one black tac"]{
+div[class="a_b"],div[class="a_mu"],div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],
+div[class="bm a_c"],div[class="tac mb5"],td[class="f_one black tac"]{
 display: none !important;
 	}
 /* 去除Discuz!标签的下边框 */
@@ -158,15 +158,15 @@ font[color="#FFFFFF"]fieldset[style*=”:1px dashed“],p[class="Wtz196"],font[c
 font[color*="FAE"],font[style="font-size:10px;color:#b4b4b4"]{
 display: none !important;
 	}
-iframe[src*="/ad/"],iframe[src="adb.php"],iframe[src="adt.php"],iframe[src*="/interface/cpmblank.php?"],
-iframe[id$="_tuiguang"],iframe[id^="ads_"],iframe[id^="dale_m"],iframe[name="ads_frame"],IMG[src*="/a-d-s/"]{
+IMG[src*="/a-d-s/"],iframe[src*="/ad/"],iframe[src="adb.php"],iframe[src="adt.php"],iframe[src*="/interface/cpmblank.php?"],
+iframe[class="ad_iframe"]iframe[id^="ads_"],iframe[id$="_tuiguang"],iframe[id^="dale_m"],iframe[name="ads_frame"],iframe[src="http://g.163.com/"]{
 display: none !important;
 	}
 a[href*="/adfclick?"],a[href*="/guanggao"],a[href*="/interface/cpm.php?"],[href*="clickpromotion.php?"],a[href^="http://adcl.pchome.com.tw/"],
 a[href*="adredir.php?"],a[href*="/showavd.aspx?adid="],a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{
 display: none !important;
 	}
-div[class^="cl970"],div[class^="cl760"]{display:none !important}
+div[class^="cl970"],div[class^="cl760"],div[class$=" clDiv"]{display:none !important}
 
 /* Adult WebSite AD*/
 div[id$="_adImg"],div[id*="_ads_div"],div[id^="cnzz_"],
@@ -214,16 +214,21 @@ div[class*="l_qq_com"],[id*="l_qq_com"],div[class*="qiye-Article-QQ"],div[class*
 div[class^="area960 "],div[style^="width:960px;height:60px;margin:0px "],div[style^="width:960px; height:60px; margin:0px"],div[style^="width:960px;margin:0px "],div[style^="width:960px;height:90px;margin:0px "],div[style*=";background-color:#E6E6E6;"]{display:none !important}
 
 /* 浮动过滤 提示隐藏 */
-div[class^="float-ad-"],div[id^="floatAD_"],div[id="piaofu"],embed[name^="couplet"],div[id^="Float"]>div[id^="AD"],div[id^="Float"]>div,div[class^="adFloat"],div[id^="adfloat"]{display: none !important;}
-div[id$="FollowPopUp"],div[id="ty_msg_mod"],div[id$="closeBig"],div[class="blogpop"],#bbs_jxtj,#bshareF,#fixedLayertop,.QQbox{display: none !important;}
-div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{display:none !important}
+div[id^="adfloat"],div[id^="floatAD_"],div[id^="Float"]>div,div[id^="floatdiv"],div[id$="_Float_Div"],
+div[id="piaofu"],div[class^="adFloat"],div[class^="float-ad-"],embed[name^="couplet"]{
+display: none !important;
+	}
+div[id$="FollowPopUp"],div[id="ty_msg_mod"],div[id$="closeBig"],div[class="blogpop"],#bbs_jxtj,#bshareF,#fixedLayertop,.QQbox,
+div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{
+display: none !important;
+	}
 div[class^="upgrade_ie6"],div[id="update_popwin"],div[id="browsertip"],div[class="tips_player"],div[class="tips_container"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
 
 /* 部分站点广告 */
 sohuadcode {display:none !important}
 div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
-div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
+div[id^="smExtObj"],div[id^="ifengAe"],div[class$="_adpic"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
 div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"]{display:none !important}
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
-div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
-div[id^="remove_ads"],div[id="tuanad"],div[id^="div_d0_js_"]{display:none !important}
+div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
+div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"]{display:none !important}

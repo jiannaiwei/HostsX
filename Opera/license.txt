@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:35 2012/10/4
+23:55 2012/10/5
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -479,6 +479,7 @@ wj               =simpleu/proxy/wj.png
 -----------------------------------------------------------------------
 
 Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+*/tg.*         http://tg.3cgogo.com/
 */tracking*  http://www.iegallery.com/zh-cn/trackingprotectionlists
 *sms.*   http://m.mail.10086.cn:7000/w3/sendsms.html?&mo=ui7bJS0bHRFSDkYUGQslel3F_GACv8P9&vn=274&cmd=40
 http://pub.mop.com/widget.jsp* http://tt.mop.com/read_12801350_1_0.html 11.64版本无法显示图片，12以后版本正常。
@@ -503,7 +504,9 @@ http://*/adm/*   新浪爱问资料网盘
 http://*.tianjimedia.com/* 天极网css显示
 http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻页 http://tu.pcpop.com/pic-823469.htm#1
 *l*.youku.com/crossdomain.xml  http://zy.youku.com/voiceonlive 影响直播
-
+*/ad*.asp?*       http://www.nd56.com/Network.aspx
+*pconline*/soft/*    http://pcedu.pconline.com.cn/soft/gj/ot ... 29247.html
+http://c.pingba.qidian.com/BookComment.aspx?* 起点书评区
 
 删减备份：
 */ad_click.js
@@ -575,11 +578,13 @@ adsdata.js
 adscomm.js
 
 论坛过滤备份，重复：
+/* 网页隐藏文字和链接过滤 [style*="font-size:0p"],[style*="font-size: 0p"]{display: none;} */ 
 div[class$="-ad ad"],div[class^="ad ad-"],
 div[id^="adv0"],div[id^="adv1"],div[id^="adv2"],div[id^="adv3"],div[id^="adv4"],
 div[id^="adv5"],div[id^="adv6"],div[id^="adv7"],div[id^="adv8"]{
 display: none !important;
 	}
+div[id*="_flash_click_"],<div id="div_flash_
 div[id^="adv_"],
 div[id^="sig"][class="signature"],div[class="signature_wrap"],
 div[class^="ad-"],
@@ -606,8 +611,23 @@ div#tab_c_2.rule img {display: none !important;}
 div#tab_c_2.rule a img {display: inline !important;}
 div[id^="forum_rules"] img {display: none !important;}
 div[id^="forum_rules"] a img {display: inline !important;}
+div[class^="aa_"],
+div[class="side-Rad"],
+div[class="rightfloat"],
+div[class="foot"],
+div[class="*960"], 
+div[class="adj960"],
+<div class="area adpart"
+div[class="focus_ad"],
+div[class="tit_ad"],
+<div class="pro-clent-ad" id="pro-clent-ad"
+div[class^="ad"][style="z-index: 0"]
+<div class="ad950" style="width:980px;">
+<div style="width:640px;height:90px;overflow:hidden;" id="gg200763">
+
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+td[class="plc plm"], 某些论坛（小米论坛、比思）帖子下方的收藏按钮都给屏蔽了
 table[width="960"][border="0"][cellspacing="0"][cellpadding="0"],游民星空 <div id="clickbg" onclick="openlink()"/>
 div[class$="ad"],开心网<div id="head" class="newhead">
 div[class$="-gg"],http://joowii.com/ 右侧边栏
@@ -664,6 +684,10 @@ div[class$="-banner"],www.ipc.me
 [id$="ads"],hk.yahoo.com https://i.doit.im/download 下载页面显示问题
 div[id^="AD"],cnbeta
 div[id$="ad"],[id$="ad"], 深度论坛
+div[class*="adarea"]把新浪博客的banner部分误过滤
+[id*="-popup"] 会把http://msoft.qq.com/ 有些软件的下载提示框搞掉
+
+
 
 /* BackUp */
 div[class$="_ad"],cntv播放页面播放器被过滤
