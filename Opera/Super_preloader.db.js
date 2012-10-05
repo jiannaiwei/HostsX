@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 17:20 2012/10/4
+// @lastmodified 11:30 2012/10/5
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -913,8 +913,17 @@
 				replaceE:'//div[@id="numpage"]',
 			}
 		},
+		{siteName:'178漫画',
+			url:/^http:\/\/manhua\.178\.com\/.+\.shtml/i,
+			siteExample:'http://manhua.178.com/lansechumoshi/15794.shtml',
+			nextLink:'//div[@class="pages2"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@class="inner_img"]',
+				useiframe:true,
+			}
+		},
 		{siteName:'爱漫画',
-			url:/^http:\/\/www\.imanhua\.com\/comic\/.+/i,
+			url:/http:\/\/www\.imanhua\.com\/comic\/.+/i,
 			siteExample:'http://www.imanhua.com/comic/55/list_39448.html',
 			useiframe:true,
 			preLink:{
@@ -937,8 +946,8 @@
 				},
 			},
 			autopager:{
-				pageElement:'//body/table[@class="tbCenter"][1]',
-				remain:1/2
+				remain:1/2,
+				pageElement:'//img[@id="imanhua"]',
 			}
 		},
 		{siteName:'动漫Fans',
@@ -948,7 +957,7 @@
                         autopager: {
                                 pageElement: '//tbody[@id="threadlist"]|//div[@id="pw_content"]',
                         }
-    },
+		},
 		{siteName:'KuKu动漫',
 			url:/http:\/\/comic\.kukudm\.com\/comiclist\/\d+\/\d+.*\.htm/i,
 			siteExample:'http://comic.kukudm.com/comiclist/4/17099/3.htm',
@@ -959,8 +968,8 @@
 				pageElement:'//body/table[2]'
 			}
 		},
-		{siteName:'海贼王',
-			url:/http:\/\/op\.52pk\.com\/manhua\/\d+\/\d+/i,
+		{siteName:'海贼王 死神 火影忍者',
+			url:/http:\/\/(op|sishen|narutocn)\.52pk\.com\/manhua\/\d+\/\d+/i,
 			siteExample:'http://op.52pk.com/manhua/2010/921364.html',
 			nextLink:'//li[@id="page__next"]/a[1]',
 			autopager:{
@@ -968,44 +977,11 @@
 				pageElement:'//div[@id="pictureContent"]'
 			}
 		},
-		{siteName:'死神',
-			url:/http:\/\/sishen\.52pk\.com\/manhua\/\d+\/\d+/i,
-			siteExample:'http://sishen.52pk.com/manhua/2010/927406.html',
-			nextLink:'//li[@id="page__next"]/a[1]',
-			autopager:{
-				relatedObj:['css;li#page__select','bottom'],
-				pageElement:'//div[@id="pictureContent"]'
-			}
-		},
-		{siteName:'火影',
-			url:/http:\/\/narutocn\.52pk\.com\/manhua\/\d+\/\d+/i,
-			siteExample:'http://narutocn.52pk.com/manhua/2010/921439.html',
-			//nextLink:'css;li#page__next>a:first-child',
-			nextLink:'//li[@id="page__next"]/a[1]',
-			autopager:{
-				//pageElement:'//div[@id="pictureContent"]'
-				pageElement:'css;div#pictureContent'
-			}
-		},
-		{siteName:'178在线漫画',
-			url:/http:\/\/www\.178\.com\/mh\/.+\/.+/i,
-			siteExample:'http://www.178.com/mh/haizeiwang/10062.shtml',
-			nextLink:'//div[@class="pages2"]/a[text()="下一页"][@href]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@class="inner_img"]',
-			}
-		},
 		{siteName:'有妖气漫画',
 			url:/http:\/\/www\.u17\.com\/comic_show\/.+/i,
 			siteExample:'http://www.u17.com/comic_show/c28540_m0.html',
-			nextLink:function(D){
-				var input=D.evaluate('//input[@class="btn_next_page"]',D,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;
-				//alert(input.getAttribute('onclick').match(/location.href='(.*)'/i)[1]);
-				return input.getAttribute('onclick').match(/location.href='(.*)'/i)[1];
-			},
 			autopager:{
-				pageElement:'//div[@class="comic_read_img"]',
+				pageElement:'//div[@class="mg_auto"]',
 				useiframe:true,
 			}
 		},
