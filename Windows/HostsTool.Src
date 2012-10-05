@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1
+set ver=1.11
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -506,7 +506,7 @@ reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 
 goto:eof
 
 :cleanpps
-reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /t REG_EXPAND_SZ /v "PPS Accelerator"  /f
+reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /t REG_EXPAND_SZ /v "PPS Accelerator"  /f
 if exist "%AppData%\PPStream\adsys\" (rd /q /s "%AppData%\PPStream\adsys") else (del /f /s /q "%AppData%\PPStream\adsys")
 @cd.>"%AppData%\PPStream\adsys"
 if exist "%AppData%\PPStream\banner\" (rd /q /s "%AppData%\PPStream\banner") else (del /f /s /q "%AppData%\PPStream\banner")
