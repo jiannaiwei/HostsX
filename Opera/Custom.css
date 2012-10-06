@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x98
+Version: 5.x981
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 23:55 2012/10/5
+Lastchage: 19:28 2012/10/6
 Description: MayBe a better User CSS Help U.
 */
 
@@ -143,8 +143,8 @@ display: none !important;
 .t_tag { border-bottom-style: none !important; }
 *[href*="tag.php?name="],.t_tag{border:none !important;}
 
-/* 各种签名div[class^="sign"][style*="px;"], */
-div[class="sign"],div[class^="sign0"],div[class="sigline"],div[class^="sign mx"],div[class^="signature"],
+/* 各种签名 */
+div[class^="sign"][style*="px;"],div[class^="sign0"],div[class="sigline"],div[class^="sign mx"],div[class^="signature"],
 td[class$="signature"],div[class="d_sign_split"],img[onerror="Page.sign_change_img(this)"]{
 display: none !important;
 	}
