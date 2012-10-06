@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x982
+Version: 5.x983
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 20:08 2012/10/6
+Lastchage: 22:01 2012/10/6
 Description: MayBe a better User CSS Help U.
 */
 
@@ -222,7 +222,7 @@ div[id$="FollowPopUp"],div[id="ty_msg_mod"],div[id$="closeBig"],div[class="blogp
 div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="box"][style^="display: block;"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{
 display: none !important;
 	}
-div[class^="upgrade_ie6"],div[id="update_popwin"],div[id="browsertip"],div[class="tips_player"],div[class="tips_container"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
+div[class^="upgrade_ie6"],div[id="update_popwin"],div[id="browsertip"],div[class^="bot_tips"],div[class="tips_player"],div[class="tips_container"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
 
 /* 部分站点广告 */
 sohuadcode {display:none !important}
