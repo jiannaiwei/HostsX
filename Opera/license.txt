@@ -1,6 +1,12 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-20:08 2012/10/6
+20:24 2012/10/6
+
+无关的儿歌：
+逛逛蜻，来过河，
+你一个，我一个，
+扫帚底下还一个，
+唉，又逮一个。
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -148,8 +154,12 @@ SimpleU定制版调用了Opera自带的安装界面。
 
 配置调整
 搜索引擎（括号()内为搜索关键字）：
-Google(g) 百度(b) GoogleSSL(o) 有道(y) Bing(bi) Verycd(v) 谷歌音乐(m) Songtaste(s) 优酷(yk) 土豆(td)
-Qvod影视(q) 射手字幕(zm) 淘宝(t) 卓越亚马逊(z) 维基百科(w) 汉典(d) QQ强制聊天(qq)
+Google(g) 百度(b) 百Google度(bg) 必应(bi) Bing(be) 
+FileCatch(fc) TorrentProject(tp) TorrentDownloads(td) Kat.Ph(kp) Mininova(mn)
+BT迷(bm) FTP 搜索(ftp) SimpleCD(sc) 电驴下载(dl) 电影天堂(dy) 嗶哩嗶哩(bl)
+翻字幕(zm) 搜视频(s) 找音乐(m) 下软件(xz) 求字体(zt)
+QQ聊天(q) 淘宝(t) 卓越亚马逊(z) 买鞋子(x)
+查字典(d) 新华字典(zd) 沪江小D(hj) 成语歇后语(cy)
 
 启用双击关闭标签
 启用在新窗口中打开链接
