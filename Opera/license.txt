@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-19:28 2012/10/6
+20:08 2012/10/6
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -479,6 +479,7 @@ wj               =simpleu/proxy/wj.png
 -----------------------------------------------------------------------
 
 Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+*/game_right_side_*.js http://games.ifeng.com/picture/gaoqing/detail_2012_09/29/18003509_0.shtml#p=16 点击图片无反应
 */tg.*         http://tg.3cgogo.com/
 */tracking*  http://www.iegallery.com/zh-cn/trackingprotectionlists
 *sms.*   http://m.mail.10086.cn:7000/w3/sendsms.html?&mo=ui7bJS0bHRFSDkYUGQslel3F_GACv8P9&vn=274&cmd=40
