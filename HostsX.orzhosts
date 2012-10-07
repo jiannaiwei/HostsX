@@ -1,5 +1,5 @@
 
-;version=20:05 2012/10/6
+;version=10:46 2012/10/7
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9419,6 +9419,9 @@ fe80::1%lo0	localhost
 0.0.0.0 ad1.madserving.cn
 0.0.0.0 appsrv1.madserving.cn
 0.0.0.0 appsrv1.madserving.com
+#Mdotm
+0.0.0.0 ads.mdotm.com
+0.0.0.0 cdn.mdotm.com
 #Mocean
 0.0.0.0 img.ads1.mocean.mobi
 0.0.0.0 img.ads2.mocean.mobi
@@ -9699,7 +9702,6 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.where.com
 0.0.0.0 ad.zhidian3g.cn
 0.0.0.0 ads.admarvel.com
-0.0.0.0 ads.mdotm.com
 0.0.0.0 ads.mopub.com
 0.0.0.0 ads.n-ws.org
 0.0.0.0 ads.namiflow.com
@@ -9714,7 +9716,6 @@ fe80::1%lo0	localhost
 0.0.0.0 c753738.r38.cf2.rackcdn.com
 0.0.0.0 cast.ra.imocha.com
 0.0.0.0 cdn.celtra.com
-0.0.0.0 cdn.mdotm.com
 0.0.0.0 cdn.ons.ms
 0.0.0.0 cdn.vdopia.com
 0.0.0.0 client.azrj.cn
