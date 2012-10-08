@@ -1,5 +1,5 @@
 
-;version=10:46 2012/10/7
+;version=20:55 2012/10/8
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9282,9 +9282,12 @@ fe80::1%lo0	localhost
 0.0.0.0 d2bgg7rjywcwsy.cloudfront.net
 0.0.0.0 d3oltyb66oj2v8.cloudfront.net
 #Cooguo
+0.0.0.0 cdn.cooguo.com
 0.0.0.0 download.cooguo.com
 0.0.0.0 video.cooguo.com
 0.0.0.0 www.cooguo.com
+0.0.0.0 kuzai.cooguo.com
+0.0.0.0 g2.iphonedown.com
 #Crispadvertising
 0.0.0.0 cdn1.crispadvertising.com
 0.0.0.0 cdn2.crispadvertising.com
