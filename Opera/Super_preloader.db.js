@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 11:30 2012/10/5
+// @lastmodified 18:19 2012-10-11
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -175,6 +175,16 @@
 			nextLink:'//div[@class="c-pages"]/a[text()="下一页"]',
 			autopager:{
 				pageElement:'//ol[@id="results"]',
+			}
+		},
+		{siteName:'淘宝搜索',
+			url:/http:\/\/s\.taobao\.com\/search\?/i,
+			siteExample:'http://www.youdao.com/search?',
+			enable:true,																																			//启用.(总开关)(可选)
+			useiframe:false,	
+			nextLink:'//div[@class="pagination"]/a[text()="下一页"]',
+			autopager:{
+				pageElement:'//ol[@id="list-content"]',
 			}
 		},
 		{siteName:'狗狗搜索',
@@ -1074,7 +1084,7 @@
 			preLink:'//div[starts-with(@class,"pages")]/b[1]/preceding-sibling::a[1][not(@class)][@href] | //div[starts-with(@class,"pages")]/ul[1]/li[b]/preceding-sibling::li/a[1][not(@class)][@href]',
 			nextLink:'//div[starts-with(@class,"pages")]/b[1]/following-sibling::a[1][not(@class)] | //div[starts-with(@class,"pages")]/ul[1]/li[b]/following-sibling::li/a[1][not(@class)]',
 			autopager:{
-				pageElement:'//div[@class="t z"] | //div[@class="z"]',
+				pageElement:'//div[@class="t z"] | //div[@class="z"] | //div[@id="ajaxtable"]',
 			}
 		},
 		{siteName:'phpWind论坛帖子',
@@ -1082,7 +1092,7 @@
 			preLink:'//div[starts-with(@class,"pages")]/b[1]/preceding-sibling::a[1][not(@class)][@href] | //div[starts-with(@class,"pages")]/ul[1]/li[b]/preceding-sibling::li/a[1][not(@class)][@href]',
 			nextLink:'//div[starts-with(@class,"pages")]/b[1]/following-sibling::a[1][not(@class)] | //div[starts-with(@class,"pages")]/ul[1]/li[b]/following-sibling::li/a[1][not(@class)]',
 			autopager:{
-				pageElement:'//div[@class="t5"] | //div[@class="read_t"]',
+				pageElement:'//div[@class="t5"] | //div[@class="read_t"] | //div[@id="pw_content"]',
 			}
 		},
 		{siteName:'phpBB列表',
