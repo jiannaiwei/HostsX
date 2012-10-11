@@ -1,5 +1,5 @@
 
-;version=20:55 2012/10/8
+;version=18:07 2012-10-11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9182,9 +9182,11 @@ fe80::1%lo0	localhost
 127.0.0.1 wap10.16kxs.com
 #91
 127.0.0.1 agency.91.com
+127.0.0.1 djoy-dev.91.com
+127.0.0.1 djoy.91test.com
 127.0.0.1 g2.v3.91.com
-127.0.0.1 mjoy.91.com
 127.0.0.1 image.agency.91.com
+127.0.0.1 mjoy.91.com
 127.0.0.1 v2.g2.91.com
 #Adchina
 127.0.0.1 mobile.adchina.com
@@ -11091,10 +11093,13 @@ fe80::1%lo0	localhost
 127.0.0.1 21456.3ii1.com
 127.0.0.1 2z.5pk.com
 127.0.0.1 3.232j.com
+127.0.0.1 360.rbc.cn
 127.0.0.1 5.nihao600.com
 127.0.0.1 58.gyyx.cn
 127.0.0.1 614.hlwan.net
 127.0.0.1 616.hlwan.net
+127.0.0.1 66.4wad.com
+127.0.0.1 66.fmx.cn
 127.0.0.1 7k7kimg.cn
 127.0.0.1 888k7.com
 127.0.0.1 a.65975.com
@@ -11128,6 +11133,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.zanox.com
 127.0.0.1 ad1.greedland.net
 127.0.0.1 ad1.tiezun.com
+127.0.0.1 ad3.ctrmi.com
 127.0.0.1 ad71.doubleadx.com
 127.0.0.1 adcount.moliyo.com
 127.0.0.1 adn.fusionads.net
@@ -11164,10 +11170,12 @@ fe80::1%lo0	localhost
 127.0.0.1 cloud.cashtrafic.info
 127.0.0.1 cn.88db.com
 127.0.0.1 code.345ads.com
+127.0.0.1 code.3975lm.com
 127.0.0.1 code.51sotu.com
 127.0.0.1 code.77union.cn
 127.0.0.1 code.ceyunshi.cn
 127.0.0.1 code.comuce.com
+127.0.0.1 code.game3896.com
 127.0.0.1 code.hc-cy.com
 127.0.0.1 code.myxmdh.com
 127.0.0.1 code.tjlove8.com
@@ -11188,6 +11196,7 @@ fe80::1%lo0	localhost
 127.0.0.1 cpm.7555.net
 127.0.0.1 cpm.dayi55.com
 127.0.0.1 cpm.e7wan.com
+127.0.0.1 cpm.feike5.com
 127.0.0.1 cpm.fk5.com
 127.0.0.1 cpm.jiuwan.com
 127.0.0.1 cpm.uoyoo.cn
@@ -11251,6 +11260,7 @@ fe80::1%lo0	localhost
 127.0.0.1 go.game2me.cn
 127.0.0.1 go.lele.com
 127.0.0.1 go.snsfun.cc
+127.0.0.1 gong.fmx.cn
 127.0.0.1 goto.yizuya.com
 127.0.0.1 graphics.pop6.com
 127.0.0.1 gwc.iblinx.com
@@ -11284,10 +11294,12 @@ fe80::1%lo0	localhost
 127.0.0.1 image10.autobild.cn
 127.0.0.1 images.17leyi.com
 127.0.0.1 images.9zwar.com
+127.0.0.1 images.dou00.com
 127.0.0.1 images.zhenming.net
 127.0.0.1 img.a.07073.com
 127.0.0.1 img.cmsem.com
 127.0.0.1 img.voolee.cn
+127.0.0.1 img.xp9365.com
 127.0.0.1 img4.xdwan.com
 127.0.0.1 in.kunlun.com
 127.0.0.1 info.uubig.com
@@ -11347,12 +11359,14 @@ fe80::1%lo0	localhost
 127.0.0.1 optimized.by.vitalads.net
 127.0.0.1 p.17kuxun.com
 127.0.0.1 p.37lai.com
+127.0.0.1 p.49ko.com
 127.0.0.1 p.777wyx.com
 127.0.0.1 p.9kele.com
 127.0.0.1 p.cpm360.com
 127.0.0.1 p.eqiso.com
 127.0.0.1 p.haliyuya.com
 127.0.0.1 p.srwchina.com
+127.0.0.1 p.xp9365.com
 127.0.0.1 p.yocc.net
 127.0.0.1 p4p.cnaz.com
 127.0.0.1 page.5iplay.cn
@@ -11377,6 +11391,7 @@ fe80::1%lo0	localhost
 127.0.0.1 pv.7fgame.com
 127.0.0.1 qc.ccjoy.com
 127.0.0.1 qqmms.net
+127.0.0.1 qqmob.net
 127.0.0.1 r.game2.cn
 127.0.0.1 redirect.jooov.cn
 127.0.0.1 reg.njeee.com
@@ -11402,6 +11417,7 @@ fe80::1%lo0	localhost
 127.0.0.1 servedby.adsfactor.cn
 127.0.0.1 sh.lezi.com
 127.0.0.1 shop8.x.com.cn
+127.0.0.1 show.61ads.com
 127.0.0.1 show.k184.com
 127.0.0.1 show.sogua.com
 127.0.0.1 sj.51wgg.com
@@ -11490,6 +11506,7 @@ fe80::1%lo0	localhost
 127.0.0.1 union.jiyougame.com
 127.0.0.1 union.juepei.cc
 127.0.0.1 union.keepc.com
+127.0.0.1 union.limgs.cn
 127.0.0.1 union.link7.cn
 127.0.0.1 union.narrowad.com
 127.0.0.1 union.popwan.com
@@ -11500,10 +11517,12 @@ fe80::1%lo0	localhost
 127.0.0.1 union.ziye8.com
 127.0.0.1 union10.chinagames.net
 127.0.0.1 union2.50bang.org
+127.0.0.1 unixpapa.com
 127.0.0.1 up4.kuwan8.com
 127.0.0.1 user.dayouyouxi.com
 127.0.0.1 user.game2.cn
 127.0.0.1 uucm.net
+127.0.0.1 v.wqzyt.net
 127.0.0.1 v.xi666.com
 127.0.0.1 v4.acode.ifocus.cn
 127.0.0.1 vip1.cachecn.com
@@ -11599,6 +11618,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.moyichina.com
 127.0.0.1 www.nyerc.com
 127.0.0.1 www.paopaoche.net
+127.0.0.1 www.qi-yue.com
 127.0.0.1 www.qqmohe.com
 127.0.0.1 www.sdgj.net.cn
 127.0.0.1 www.self.com.cn
@@ -11656,24 +11676,5 @@ fe80::1%lo0	localhost
 127.0.0.1 ygame.wansxd.com
 127.0.0.1 yhchuanqi.com
 127.0.0.1 yingguoweiku.wfx100.com
-127.0.0.1 yourchinalove.com
 127.0.0.1 yls.1919e.com
-127.0.0.1 code.3975lm.com
-127.0.0.1 v.wqzyt.net
-127.0.0.1 qqmob.net
-127.0.0.1 images.dou00.com
-127.0.0.1 66.4wad.com
-127.0.0.1 p.49ko.com
-127.0.0.1 www.qi-yue.com
-127.0.0.1 66.fmx.cn
-127.0.0.1 gong.fmx.cn
-127.0.0.1 360.rbc.cn
-127.0.0.1 cpm.feike5.com
-127.0.0.1 ad3.ctrmi.com
-127.0.0.1 show.61ads.com
-127.0.0.1 unixpapa.com
-127.0.0.1 code.game3896.com
-127.0.0.1 codes.xp3366.com
-127.0.0.1 img.xp9365.com
-127.0.0.1 p.xp9365.com
-127.0.0.1 union.limgs.cn
+127.0.0.1 yourchinalove.com

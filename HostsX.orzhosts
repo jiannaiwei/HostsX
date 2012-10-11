@@ -1,5 +1,5 @@
 
-;version=20:55 2012/10/8
+;version=18:07 2012-10-11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9182,9 +9182,11 @@ fe80::1%lo0	localhost
 0.0.0.0 wap10.16kxs.com
 #91
 0.0.0.0 agency.91.com
+0.0.0.0 djoy-dev.91.com
+0.0.0.0 djoy.91test.com
 0.0.0.0 g2.v3.91.com
-0.0.0.0 mjoy.91.com
 0.0.0.0 image.agency.91.com
+0.0.0.0 mjoy.91.com
 0.0.0.0 v2.g2.91.com
 #Adchina
 0.0.0.0 mobile.adchina.com
@@ -11091,10 +11093,13 @@ fe80::1%lo0	localhost
 0.0.0.0 21456.3ii1.com
 0.0.0.0 2z.5pk.com
 0.0.0.0 3.232j.com
+0.0.0.0 360.rbc.cn
 0.0.0.0 5.nihao600.com
 0.0.0.0 58.gyyx.cn
 0.0.0.0 614.hlwan.net
 0.0.0.0 616.hlwan.net
+0.0.0.0 66.4wad.com
+0.0.0.0 66.fmx.cn
 0.0.0.0 7k7kimg.cn
 0.0.0.0 888k7.com
 0.0.0.0 a.65975.com
@@ -11128,6 +11133,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.zanox.com
 0.0.0.0 ad1.greedland.net
 0.0.0.0 ad1.tiezun.com
+0.0.0.0 ad3.ctrmi.com
 0.0.0.0 ad71.doubleadx.com
 0.0.0.0 adcount.moliyo.com
 0.0.0.0 adn.fusionads.net
@@ -11164,10 +11170,12 @@ fe80::1%lo0	localhost
 0.0.0.0 cloud.cashtrafic.info
 0.0.0.0 cn.88db.com
 0.0.0.0 code.345ads.com
+0.0.0.0 code.3975lm.com
 0.0.0.0 code.51sotu.com
 0.0.0.0 code.77union.cn
 0.0.0.0 code.ceyunshi.cn
 0.0.0.0 code.comuce.com
+0.0.0.0 code.game3896.com
 0.0.0.0 code.hc-cy.com
 0.0.0.0 code.myxmdh.com
 0.0.0.0 code.tjlove8.com
@@ -11188,6 +11196,7 @@ fe80::1%lo0	localhost
 0.0.0.0 cpm.7555.net
 0.0.0.0 cpm.dayi55.com
 0.0.0.0 cpm.e7wan.com
+0.0.0.0 cpm.feike5.com
 0.0.0.0 cpm.fk5.com
 0.0.0.0 cpm.jiuwan.com
 0.0.0.0 cpm.uoyoo.cn
@@ -11251,6 +11260,7 @@ fe80::1%lo0	localhost
 0.0.0.0 go.game2me.cn
 0.0.0.0 go.lele.com
 0.0.0.0 go.snsfun.cc
+0.0.0.0 gong.fmx.cn
 0.0.0.0 goto.yizuya.com
 0.0.0.0 graphics.pop6.com
 0.0.0.0 gwc.iblinx.com
@@ -11284,10 +11294,12 @@ fe80::1%lo0	localhost
 0.0.0.0 image10.autobild.cn
 0.0.0.0 images.17leyi.com
 0.0.0.0 images.9zwar.com
+0.0.0.0 images.dou00.com
 0.0.0.0 images.zhenming.net
 0.0.0.0 img.a.07073.com
 0.0.0.0 img.cmsem.com
 0.0.0.0 img.voolee.cn
+0.0.0.0 img.xp9365.com
 0.0.0.0 img4.xdwan.com
 0.0.0.0 in.kunlun.com
 0.0.0.0 info.uubig.com
@@ -11347,12 +11359,14 @@ fe80::1%lo0	localhost
 0.0.0.0 optimized.by.vitalads.net
 0.0.0.0 p.17kuxun.com
 0.0.0.0 p.37lai.com
+0.0.0.0 p.49ko.com
 0.0.0.0 p.777wyx.com
 0.0.0.0 p.9kele.com
 0.0.0.0 p.cpm360.com
 0.0.0.0 p.eqiso.com
 0.0.0.0 p.haliyuya.com
 0.0.0.0 p.srwchina.com
+0.0.0.0 p.xp9365.com
 0.0.0.0 p.yocc.net
 0.0.0.0 p4p.cnaz.com
 0.0.0.0 page.5iplay.cn
@@ -11377,6 +11391,7 @@ fe80::1%lo0	localhost
 0.0.0.0 pv.7fgame.com
 0.0.0.0 qc.ccjoy.com
 0.0.0.0 qqmms.net
+0.0.0.0 qqmob.net
 0.0.0.0 r.game2.cn
 0.0.0.0 redirect.jooov.cn
 0.0.0.0 reg.njeee.com
@@ -11402,6 +11417,7 @@ fe80::1%lo0	localhost
 0.0.0.0 servedby.adsfactor.cn
 0.0.0.0 sh.lezi.com
 0.0.0.0 shop8.x.com.cn
+0.0.0.0 show.61ads.com
 0.0.0.0 show.k184.com
 0.0.0.0 show.sogua.com
 0.0.0.0 sj.51wgg.com
@@ -11490,6 +11506,7 @@ fe80::1%lo0	localhost
 0.0.0.0 union.jiyougame.com
 0.0.0.0 union.juepei.cc
 0.0.0.0 union.keepc.com
+0.0.0.0 union.limgs.cn
 0.0.0.0 union.link7.cn
 0.0.0.0 union.narrowad.com
 0.0.0.0 union.popwan.com
@@ -11500,10 +11517,12 @@ fe80::1%lo0	localhost
 0.0.0.0 union.ziye8.com
 0.0.0.0 union10.chinagames.net
 0.0.0.0 union2.50bang.org
+0.0.0.0 unixpapa.com
 0.0.0.0 up4.kuwan8.com
 0.0.0.0 user.dayouyouxi.com
 0.0.0.0 user.game2.cn
 0.0.0.0 uucm.net
+0.0.0.0 v.wqzyt.net
 0.0.0.0 v.xi666.com
 0.0.0.0 v4.acode.ifocus.cn
 0.0.0.0 vip1.cachecn.com
@@ -11599,6 +11618,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.moyichina.com
 0.0.0.0 www.nyerc.com
 0.0.0.0 www.paopaoche.net
+0.0.0.0 www.qi-yue.com
 0.0.0.0 www.qqmohe.com
 0.0.0.0 www.sdgj.net.cn
 0.0.0.0 www.self.com.cn
@@ -11656,24 +11676,5 @@ fe80::1%lo0	localhost
 0.0.0.0 ygame.wansxd.com
 0.0.0.0 yhchuanqi.com
 0.0.0.0 yingguoweiku.wfx100.com
-0.0.0.0 yourchinalove.com
 0.0.0.0 yls.1919e.com
-0.0.0.0 code.3975lm.com
-0.0.0.0 v.wqzyt.net
-0.0.0.0 qqmob.net
-0.0.0.0 images.dou00.com
-0.0.0.0 66.4wad.com
-0.0.0.0 p.49ko.com
-0.0.0.0 www.qi-yue.com
-0.0.0.0 66.fmx.cn
-0.0.0.0 gong.fmx.cn
-0.0.0.0 360.rbc.cn
-0.0.0.0 cpm.feike5.com
-0.0.0.0 ad3.ctrmi.com
-0.0.0.0 show.61ads.com
-0.0.0.0 unixpapa.com
-0.0.0.0 code.game3896.com
-0.0.0.0 codes.xp3366.com
-0.0.0.0 img.xp9365.com
-0.0.0.0 p.xp9365.com
-0.0.0.0 union.limgs.cn
+0.0.0.0 yourchinalove.com
