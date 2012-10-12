@@ -1,5 +1,5 @@
 
-;version=18:07 2012-10-11
+;version=21:21 2012/10/12
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -515,6 +515,8 @@ fe80::1%lo0	localhost
 127.0.0.1 mobwin.android.com
 127.0.0.1 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
+127.0.0.1 mobads.baidu.com
+127.0.0.1 madv.baidu.com
 127.0.0.1 cpro.baidustatic.com
 127.0.0.1 duiwai.baidu.com
 127.0.0.1 m1.baidu.com
