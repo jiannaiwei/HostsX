@@ -1,5 +1,5 @@
 
-;version=16:33 2012/10/13
+;version=22:42 2012/10/13
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -10287,6 +10287,8 @@ fe80::1%lo0	localhost
 #域名劫持
 0.0.0.0 ss.cnnic.cn
 #运营商劫持
+0.0.0.0 114so.cn
+0.0.0.0 taobao.114so.cn
 0.0.0.0 sh.114so.cn
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn
