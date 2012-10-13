@@ -1,5 +1,5 @@
 
-;version=21:21 2012/10/12
+;version=16:33 2012/10/13
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -515,17 +515,7 @@ fe80::1%lo0	localhost
 127.0.0.1 mobwin.android.com
 127.0.0.1 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
-127.0.0.1 mobads.baidu.com
-127.0.0.1 madv.baidu.com
-127.0.0.1 cpro.baidustatic.com
-127.0.0.1 duiwai.baidu.com
-127.0.0.1 m1.baidu.com
-127.0.0.1 mobads.baidu.com
-127.0.0.1 mpro.baidu.com
-127.0.0.1 mobads-logs.baidu.com
-127.0.0.1 dl.client.baidu.com
 127.0.0.1 a.baidu.com
-127.0.0.1 wm.baidu.com
 127.0.0.1 adm.baidu.com
 127.0.0.1 baidutv.baidu.com
 127.0.0.1 banlv.baidu.com
@@ -535,7 +525,10 @@ fe80::1%lo0	localhost
 127.0.0.1 cbjs.baidu.com
 127.0.0.1 cjhq.baidu.com
 127.0.0.1 cpro.baidu.com
+127.0.0.1 cpro.baidustatic.com
+127.0.0.1 dl.client.baidu.com
 127.0.0.1 drmcmm.baidu.com
+127.0.0.1 duiwai.baidu.com
 127.0.0.1 dzl.baidu.com
 127.0.0.1 e.baidu.com
 127.0.0.1 eiv.baidu.com
@@ -545,7 +538,12 @@ fe80::1%lo0	localhost
 127.0.0.1 hm.baidu.com
 127.0.0.1 iebar.baidu.com
 127.0.0.1 ikcode.baidu.com
+127.0.0.1 m1.baidu.com
 127.0.0.1 ma.baidu.com
+127.0.0.1 madv.baidu.com
+127.0.0.1 mobads-logs.baidu.com
+127.0.0.1 mobads.baidu.com
+127.0.0.1 mpro.baidu.com
 127.0.0.1 neirong.baidu.com
 127.0.0.1 nsclick.baidu.com
 127.0.0.1 pos.baidu.com
@@ -565,6 +563,7 @@ fe80::1%lo0	localhost
 127.0.0.1 utility.baidu.com
 127.0.0.1 utk.baidu.com
 127.0.0.1 wangmeng.baidu.com
+127.0.0.1 wm.baidu.com
 #阿里广告联盟
 127.0.0.1 a.alimama.cn
 127.0.0.1 bm.alimama.cn
