@@ -839,6 +839,7 @@ fe80::1%lo0	localhost
 0.0.0.0 hot.vrs.sohu.com
 0.0.0.0 images.sohu.com
 0.0.0.0 imp.go.sohu.com
+0.0.0.0 mfiles.sohu.com
 0.0.0.0 interface.hd.sohu.com
 0.0.0.0 ip.cms.sohu.com
 0.0.0.0 p4p.so.sohu.com
