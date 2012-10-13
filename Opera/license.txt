@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-21:47 2012/10/12
+18:38 2012/10/13
 
 无关的儿歌：
 逛逛蜻，来过河，
@@ -21,7 +21,14 @@ SimpleU定制版下载：http://www.everbox.com/f/xdPFcKSMhnWYliSCdchbxb6m5R
 Q&A：
  部分版本备注：Opera 从 11.60版开始，对CSS的选择器区分大小写。
  11.00以下,,display:none元素不下载,,9.64表现尤其好...
- 
+ Opera 11.10以后新增几个延迟选项，微调以下选项可以提升页面响应速度（要最快就设置全为0）
+1. opera:config#Styled First Update Timeout
+2. opera:config#First Update Delay
+3. opera:config#Update Delay
+4. opera:config#Wait For Style
+5. opera:config#Reflow Delay Load
+6. opera:config#Reflow Delay Script
+
 Opera 官方中文社区上不去怎么解决？
 无法正常访问Opera相关网站的同学请注意，请将下列条目加入 hosts 文件
   Windows 下位置为 C:\Windows\System32\drivers\etc/hosts
@@ -521,6 +528,22 @@ http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻�
 http://c.pingba.qidian.com/BookComment.aspx?* 起点书评区
 
 删减备份：
+http://*/js/ads/*
+http://*/Public/ads/*.js
+http://*.com/gg/*
+http://www.*/gg/*
+http://*/piaofuad.js
+http://*/www/delivery/ajs.php*
+http://pfpip.*/ip.js
+http://*/ad-images/*
+http://*/adfile/*
+http://*/forwebad/ad/*
+http://*/images/ad/*
+http://*.com/ad/*
+http://*.com.cn/ad/*
+http://ads.*
+http://adv.*
+*/js/baidu_ads/*
 */ad_click.js
 */tongji.js
 */2012/www/2012/gg/*
