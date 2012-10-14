@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-18:38 2012/10/13
+13:33 2012/10/14
 
 无关的儿歌：
 逛逛蜻，来过河，
@@ -734,6 +734,16 @@ div[class$="adclass"],div[class^="adclass"],
 div[class^="adBlock "],div[class^="adBlk ad"],
 div[align="center"][id^="ad"],center>div[id^="AD"],div[id^="AD"][style*="w"]
 
+
+
+[Simple ImageLike Menu]
+Item, "搜索相似图片(&F)" = External action,,,,"none" | Copy image address,-2 & delay,1 & Go to page, "http://www.tineye.com/parse?url=%c",,"tineye" & Switch to previous page & delay,1 & Go to page, "http://stu.baidu.com/i?rt=0&rn=10&ct=1&tn=baiduimage&objurl=%c",,"百度识图" & Switch to previous page & delay,1 & Go to page, "http://pic.sogou.com/ris?query=%c",,"搜狗识图" & Switch to previous page & delay,1 & Go to page, "http://iqdb.org/?url=%c",,"iqdb" & Switch to previous page
+;Item, "Tineye搜索" = Copy image address,-2,,,"tineye" & New page & Go to page, "http://www.tineye.com/parse?url=%c" & Switch to previous page
+;Item, "搜狗搜图"=Copy image address,-2,,,"sogou" & New page & Go to page, "http://pic.sogou.com/ris?query=%c" & Switch to previous page
+;Item, "Google此图片"=Copy image address,-2,,,"google" & New page & Go to page, "http://images.google.com/searchbyimage?image_url=%c&hl=zh-CN&sourceid=opera&client=opera" & Switch to previous page
+;Item, "百度识图" = Copy image address,-2,,,"baidu" & New page & Go to page, "http://stu.baidu.com/i?rt=0&rn=10&ct=1&tn=baiduimage&objurl=%c" & Switch to previous page
+;Item, "Yande搜索" = Copy image address,-2,,,"imouto" & Delay,1 & Go to page, "javascript: var url = encodeURI('%c'); window.open('http://yande.re/post/similar?services=all&url=' + url).blur();"
+;Item, "IDQB搜索" = Copy image address,-2,,,"Search" & New page & Go to page, "http://iqdb.org/?url=%c" & Switch to previous page
 
 ;item, "本页自动使用IE内核"=Execute program,"OpTools\AutoIE.bat","%u",,"ieopera"
 ;Item, "网站自动转简体编辑"="Execute program, "notepad.exe", "profile\script\tw2cn_auto.jsx", , "Window Mail Compose Icon""
