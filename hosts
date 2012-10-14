@@ -1,5 +1,5 @@
 
-;version=22:42 2012/10/13
+;version=11:55 2012/10/14
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9193,6 +9193,8 @@ fe80::1%lo0	localhost
 #Adchina
 127.0.0.1 mobile.adchina.com
 127.0.0.1 www.adchina.com
+#Adcome
+127.0.0.1 api.adcome.cn
 #AdMob
 127.0.0.1 api.admob.com
 127.0.0.1 e.admob.com
