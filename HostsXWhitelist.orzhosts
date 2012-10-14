@@ -1,4 +1,4 @@
-;version=13:09 2012/10/4
+;version=12:36 2012/10/14
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致微软下载无法正常跳转。
@@ -92,6 +92,10 @@ $DELETE
 
 #导致盛大网络部分页面无法正常显示。
 ipic.staticsdo.com
+$DELETE
+
+#导致搜狐视频源无法正常输出。
+mfiles.sohu.com
 $DELETE
 
 #导致搜狐博客页面无法正常显示。
