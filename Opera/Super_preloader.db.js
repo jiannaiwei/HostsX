@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 18:19 2012-10-11
+// @lastmodified 14:07 2012/10/14
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -591,6 +591,14 @@
 			nextLink:'css;.redbutt:nth-child(3)',
 			autopager:{
 				pageElement:'//div[@class="bookcontent clearfix"]',
+			}
+		},
+		{siteName:'lu5小说网',
+			url:/^http:\/\/www\.lu5\.com\/.+\.html/i,
+			siteExample:'http://www.lu5.com/b/5/5442/1721691.html',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@id="content"]',
 			}
 		},
 		{siteName:'原创阅读网',
