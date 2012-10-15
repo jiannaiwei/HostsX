@@ -1,5 +1,5 @@
 
-;version=12:35 2012/10/14
+;version=19:35 2012/10/15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -692,6 +692,7 @@ fe80::1%lo0	localhost
 0.0.0.0 union.163.com
 #ÓÐµÀËÑË÷
 0.0.0.0 a.youdao.com
+0.0.0.0 clkservice.union.youdao.com
 0.0.0.0 clkservice.mail.youdao.com
 0.0.0.0 clkservice.youdao.com
 0.0.0.0 clkservice2.dict.youdao.com
@@ -703,6 +704,7 @@ fe80::1%lo0	localhost
 0.0.0.0 impservice2.youdao.com
 0.0.0.0 union.youdao.com
 0.0.0.0 adpublish.ydstatic.com
+0.0.0.0 oimageb2.ydstatic.com
 #ÌÚÑ¶QQ
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
@@ -11684,3 +11686,5 @@ fe80::1%lo0	localhost
 0.0.0.0 yls.1919e.com
 0.0.0.0 yourchinalove.com
 0.0.0.0 code.178gg.com
+0.0.0.0 u.xcy8.com
+0.0.0.0 188.webgame86.net
