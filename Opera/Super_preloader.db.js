@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 14:07 2012/10/14
+// @lastmodified 21:56 2012/10/15
 // @version 1.0.0.6
 // @namespace  http://userscripts.org/users/NLF
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -573,15 +573,13 @@
 			}
 		},
 		{siteName:'晋江原创',
-			url:/http:\/\/www\.jjwxc\.net\/onebook\.php\?novelid=/i,
+			url:/^http:\/\/www\.jjwxc\.net\/onebook\.php\?novelid=/i,
 			siteExample:'http://www.jjwxc.net/onebook.php?novelid=862877&chapterid=6',
 			nextLink: {
 			        startAfter:'&chapterid=',
-			        mFails:[/http:\/\/www\.jjwxc\.net\/onebook\.php\?novelid=/i,'?p=1'],
 			        inc:1,			
 			},
 			autopager:{
-				remain: 0.33,
 				pageElement:'//div[@class="noveltext"]',
 			}
 		},
@@ -941,7 +939,7 @@
 			}
 		},
 		{siteName:'爱漫画',
-			url:/http:\/\/www\.imanhua\.com\/comic\/.+/i,
+			url:/^http:\/\/www\.imanhua\.com\/comic\/.+/i,
 			siteExample:'http://www.imanhua.com/comic/55/list_39448.html',
 			useiframe:true,
 			preLink:{
@@ -951,7 +949,7 @@
 			},
 			nextLink:{
 				startAfter:'?p=',
-				mFails:[/http:\/\/www\.imanhua\.com\/comic\/.+\.html/i,'?p=1'],
+				mFails:[/^http:\/\/www\.imanhua\.com\/comic\/.+\.html/i,'?p=1'],
 				inc:1,
 				isLast:function(doc,win,lhref){
 					var s2=doc.getElementById('s2');
@@ -964,8 +962,22 @@
 				},
 			},
 			autopager:{
+				useiframe:true,
 				remain:1/2,
-				pageElement:'//img[@id="imanhua"]',
+				pageElement:'//img[@id="mangaFile"]',
+			}
+		},
+		{siteName:'99漫画',
+			url:/^http:\/\/(cococomic|99manga|99770|99comic)\.(com|cc)\/.+\.htm/i,
+			siteExample:'http://99manga.com/page/168/6481.htm?v=3*s=9',
+			nextLink: {
+			        startAfter:'?v=',
+			        inc:1,			
+			},
+			autopager:{
+				useiframe:true,
+				maxpage:20,
+				pageElement:'//img[@id="ComicPic"]',
 			}
 		},
 		{siteName:'动漫Fans',

@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.x986
+Version: 5.x987
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 9:23 2012/10/13
+Lastchage: 21:46 2012/10/15
 Description: MayBe a better User CSS Help U.
 */
 
@@ -231,4 +231,4 @@ div[id^="smExtObj"],div[id^="ifengAe"],div[class$="_adpic"],div[class="block_ad"
 div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"]{display:none !important}
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
-div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"]{display:none !important}
+div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],div[class^="imh-"][id^="imh-"]{display:none !important}

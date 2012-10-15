@@ -1,5 +1,5 @@
 
-;version=19:35 2012/10/15
+;version=21:00 2012/10/15
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -523,6 +523,7 @@ fe80::1%lo0	localhost
 0.0.0.0 c.baidu.com
 0.0.0.0 cb.baidu.com
 0.0.0.0 cbjs.baidu.com
+0.0.0.0 cdn.client.baidu.com
 0.0.0.0 cjhq.baidu.com
 0.0.0.0 cpro.baidu.com
 0.0.0.0 cpro.baidustatic.com
@@ -8289,8 +8290,9 @@ fe80::1%lo0	localhost
 0.0.0.0 r.9cpm.com
 #A5
 0.0.0.0 code.admin6.com
-0.0.0.0 www.admin6.com
+0.0.0.0 js.admin6.com
 0.0.0.0 jump.admin6.com
+0.0.0.0 www.admin6.com
 #Acs86
 0.0.0.0 amob.acs86.com
 0.0.0.0 acs86.com
