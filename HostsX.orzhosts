@@ -2689,11 +2689,12 @@ fe80::1%lo0	localhost
 0.0.0.0 labs.duba.net
 0.0.0.0 u.www.duba.net
 0.0.0.0 c.union.ijinshan.com
-0.0.0.0 dl.liebao.cn
+0.0.0.0 d.union.ijinshan.com
 0.0.0.0 j.union.ijinshan.com
 0.0.0.0 ssc.union.ijinshan.com
 0.0.0.0 stat.ijinshan.com
 0.0.0.0 union.ijinshan.com
+0.0.0.0 dl.liebao.cn
 0.0.0.0 api.pc120.com
 0.0.0.0 stat.sd.keniu.com
 0.0.0.0 tq.sd.keniu.com
