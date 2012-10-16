@@ -1,5 +1,5 @@
 
-;version=21:00 2012/10/15
+;version=20:26 2012/10/16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -2076,6 +2076,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.114la.com
 0.0.0.0 un.i.116.com
 0.0.0.0 un.v.116.com
+0.0.0.0 www.999.com
 #2345
 0.0.0.0 2345.com
 0.0.0.0 download.2345.com
