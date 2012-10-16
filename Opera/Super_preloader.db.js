@@ -3,9 +3,9 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 21:56 2012/10/15
-// @version 1.0.0.6
-// @namespace  http://userscripts.org/users/NLF
+// @lastmodified 19:30 2012/10/16
+// @version 1.0.0.6.1
+// @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
 // @include http*
@@ -15,7 +15,7 @@
 	/////////////////////设置(请注意开关的缩进关系..子开关一般在父开关为true的时候才会生效.)//////////////////////
 	var prefs={
 		floatWindow:true																	,//显示悬浮窗
-				FW_position:2																	,//1:出现在左上角;2:出现在右上角;3：出现在右下角;4：出现在左下角;
+				FW_position:3																	,//1:出现在左上角;2:出现在右上角;3：出现在右下角;4：出现在左下角;
 				FW_offset:[20,20]															,//偏离版边的垂直和水平方向的数值..(单位:像素)
 				FW_RAS:true																		,//点击悬浮窗上的保存按钮..立即刷新页面;
 		pauseA:true																				,//快速停止自动翻页(当前模式为翻页模式的时候生效.);
@@ -621,7 +621,6 @@
 			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
 			autopager:{
 				pageElement:'//div[@id="content"]',
-                                filter:'css; #container',
 			}
 		},
 		{siteName:'OperaChina列表',
