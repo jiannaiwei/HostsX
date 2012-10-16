@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 19:30 2012/10/16
-// @version 1.0.0.6.1
+// @lastmodified 20:03 2012/10/16
+// @version 1.0.0.6.2
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
@@ -15,7 +15,7 @@
 	/////////////////////设置(请注意开关的缩进关系..子开关一般在父开关为true的时候才会生效.)//////////////////////
 	var prefs={
 		floatWindow:true																	,//显示悬浮窗
-				FW_position:3																	,//1:出现在左上角;2:出现在右上角;3：出现在右下角;4：出现在左下角;
+				FW_position:2																	,//1:出现在左上角;2:出现在右上角;3：出现在右下角;4：出现在左下角;
 				FW_offset:[20,20]															,//偏离版边的垂直和水平方向的数值..(单位:像素)
 				FW_RAS:true																		,//点击悬浮窗上的保存按钮..立即刷新页面;
 		pauseA:true																				,//快速停止自动翻页(当前模式为翻页模式的时候生效.);
@@ -623,32 +623,11 @@
 				pageElement:'//div[@id="content"]',
 			}
 		},
-		{siteName:'OperaChina列表',
-			url:/^http:\/\/bbs\.operachina\.com\/viewforum/i,
-			siteExample:'http://bbs.operachina.com/viewforum.php?f=41',
-			nextLink:'//div[starts-with(@class,"pagination")]/descendant::a[text()="下一页"]',
+		{siteName:'OperaChina',
+			url:/http:\/\/bbs\.operachina\.com/i,
+			nextLink:'auto;',
 			autopager:{
-				pageElement:'//div[@id="body"]/div[@class="topic block clear"]/table',
-				replaceE:'//div[starts-with(@class,"pagination")]',
-			}
-		},
-		{siteName:'OperaChina帖子',
-			url:/^http:\/\/bbs\.operachina\.com\/viewtopic/i,
-			siteExample:'http://bbs.operachina.com/viewtopic',
-			nextLink:'//div[starts-with(@class,"pagination")]/descendant::a[text()="下一页"]',
-			autopager:{
-				//pageElement:'//div[@id="page-body"]',
-				pageElement:'//div[@id="body"]/div[starts-with(@class,"post")]',
-				replaceE:'//div[starts-with(@class,"pagination")]'
-			}
-		},
-		{siteName:'OperaChina查看新帖列表',
-			url:/^http:\/\/bbs\.operachina\.com\/search/i,
-			siteExample:'http://bbs.operachina.com/search.php?search_id=newposts',
-			nextLink:'//li[contains(@class,"pagination")]/descendant::a[text()="下一页"]',
-			autopager:{
-				pageElement:'//div[@class="search block clear"]/table',
-				replaceE:'//li[contains(@class,"pagination")]'
+				pageElement:'//body/table | //article[@class="post blue"]',
 			}
 		},
 		{siteName:'机锋论坛',
