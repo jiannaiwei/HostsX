@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:03 2012/10/16
-// @version 1.0.0.6.2
+// @lastmodified 22:50 2012/10/16
+// @version 1.0.0.6.3
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
@@ -620,7 +620,8 @@
 			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
 			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
 			autopager:{
-				pageElement:'//div[@id="content"]',
+				pageElement:'//div[@id="readbox"]',
+				HT_insert:['//div[@id="weekhot"]',1],
 			}
 		},
 		{siteName:'OperaChina',
