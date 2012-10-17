@@ -1,7 +1,7 @@
 @echo off
 pushd %~dp0
 del *.user.jsx
-del CleanPlayer.user.js Super_preloader.db.js DBankLinker.jsx doubanfilm.user.js doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrwt.js
+del 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js Super_preloader.db.js DBankLinker.jsx doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrwt.js
 wget http://userscripts.org/scripts/source/30096.user.js
 ren 30096.user.js Anti-Disabler.user.jsx
 wget http://userscripts.org/scripts/source/105184.user.js
@@ -23,11 +23,9 @@ ren 105153.user.js greasemonkey-emulation.user.jsx
 wget http://userscripts.org/scripts/source/45836.user.js
 ren 45836.user.js xiaonei_reformer.min.user.jsx
 wget http://userscripts.org/scripts/source/103552.user.js
-ren 103552.user.js doubanimdb.user.jsx
+ren 103552.user.js doubanimdb.user.js
 wget http://userscripts.org/scripts/source/129215.user.js
 ren 129215.user.js OnlinedownNoAds.user.jsx
-wget http://userscripts.org/scripts/source/129534.user.js
-ren 129534.user.js doubanfilm.user.jsx
 wget http://userscripts.org/scripts/source/123244.user.js
 ren 123244.user.js doubaniask.user.js
 wget http://userscripts.org/scripts/source/133534.user.js
@@ -36,4 +34,6 @@ wget http://userscripts.org/scripts/source/121956.user.js
 ren 121956.user.js LotusScent.user.jsx
 wget http://userscripts.org/scripts/source/142198.user.js
 ren 142198.user.js Super_preloader.db.js
+wget http://ss-o.net/userjs/0AutoPagerize.SITEINFO.js
+ren 0AutoPagerize.SITEINFO.js 0AutoPagerize.SITEINFO.jsx
 msg %username% /time:3 "【UserJs数据已更新！】"
