@@ -1,5 +1,5 @@
 @echo off
-set ver=1.11
+set ver=1.0.1.0
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -61,7 +61,8 @@ mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
 cls
-title U+ Hosts(%ver%)- 最新版本(%verNew%)
+title U+ Hosts(%ver%)
+rem - 最新版本(%verNew%)
 echo.
 echo  【更多 设备支持】      ‘     【Flush DNS 刷新】   
 echo  HostsData：  【更新/Update Hosts】
@@ -601,28 +602,24 @@ msg %username% /time:2 "【请先关闭QQ、TM!】"&pause
 %k% TXOPShow.exe
 cd "%AppData%\Tencent\QQ\Misc"
 for /d %%i in (com.tencent.advertisement*) do rd "%%i" /s /q
-cd "%AppData%\Tencent\Users\"
-del misc.db /s /q
-echo 屏蔽QQ自动生成的不必要文件.
-if exist "%APPDATA%\Tencent\IM\" (rd /q /s "%APPDATA%\Tencent\IM") else (del /f /s /q "%APPDATA%\Tencent\IM")
-@cd.>"%APPDATA%\Tencent\IM"
+del "%AppData%\Tencent\Users\misc.db" /s /q
+echo 屏蔽QQ自动生成的不必要文件
+rd "%APPDATA%\Tencent\IM" /s/q
+c:> "%APPDATA%\Tencent\IM"
 echo 屏蔽QQ自动升级文件
-for /r "%APPDATA%\Tencent\QQ\AuTemp" %%i in (AUStat.ini) do (set a=%%i)
-if exist "%a%" (del /f /s /q "%a%")
-echo [STAT] >> "%a%"
-echo Flag5=0 >> "%a%"
-echo Flag3=0 >> "%a%"
-echo y|cacls "%a%" /p everyone:r
-echo 屏蔽QQ群相册快照临时文件
-if exist "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot\" (rd /q /s "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot")
-@cd.>"%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot"
-echo 屏蔽QQ群直播图标
-if exist "%APPDATA%\Tencent\QQ\Misc\GTB_Icons\" (rd /q /s  "%APPDATA%\Tencent\QQ\Misc\GTB_Icons") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GTB_Icons")
-@cd.>"%APPDATA%\Tencent\QQ\Misc\GTB_Icons"
+rd "%APPDATA%\Tencent\QQ\AuTemp" /s/q
+c:> "%APPDATA%\Tencent\QQ\AuTemp"
 echo 屏蔽QQ群页面
-if exist "%APPDATA%\Tencent\QQ\Temp\gm\" (rd /q /s  "%APPDATA%\Tencent\QQ\Temp\gm") else (del /f /s /q "%APPDATA%\Tencent\QQ\Temp\gm")
-if exist "%APPDATA%\Tencent\QQ\Misc\GMF\" (rd /q /s  "%APPDATA%\Tencent\QQ\Misc\GMF") else (del /f /s /q "%APPDATA%\Tencent\QQ\Misc\GMF")
-@cd.>"%APPDATA%\Tencent\QQ\Misc\GMF"
+rd "%APPDATA%\Tencent\QQ\Temp\gm" /s/q
+c:> "%APPDATA%\Tencent\QQ\Temp\gm"
+rd "%APPDATA%\Tencent\QQ\Misc\GMF" /s/q
+c:> "%APPDATA%\Tencent\QQ\Misc\GMF"
+echo 屏蔽QQ群直播图标
+rd "%APPDATA%\Tencent\QQ\Misc\GTB_Icons" /s/q
+c:> "%APPDATA%\Tencent\QQ\Misc\GTB_Icons"
+echo 屏蔽QQ群相册快照临时文件
+rd "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot" /s/q
+c:> "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot"
 goto:eof
 
 :delit
