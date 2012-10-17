@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:50 2012/10/16
-// @version 1.0.0.6.3
+// @lastmodified 21:51 2012/10/17
+// @version 1.0.0.63
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
