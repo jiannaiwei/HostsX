@@ -1,5 +1,5 @@
 
-;version=20:26 2012/10/16
+;version=21:15 2012/10/17
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -10844,9 +10844,9 @@ fe80::1%lo0	localhost
 0.0.0.0 show.altitudedigitalpartners.com
 0.0.0.0 download.wagabb.com
 0.0.0.0 www.mr66.com
-0.0.0.0 www3.zjbdt.com
-0.0.0.0 www2.zjbdt.com
 0.0.0.0 www1.zjbdt.com
+0.0.0.0 www2.zjbdt.com
+0.0.0.0 www3.zjbdt.com
 0.0.0.0 qq.ting90.com
 0.0.0.0 www.sese860.info
 0.0.0.0 www.kk21.info
@@ -11086,6 +11086,8 @@ fe80::1%lo0	localhost
 0.0.0.0 cpm.234y.com
 0.0.0.0 counter.hitslink.com
 0.0.0.0 7208853.hitslink.com
+0.0.0.0 f1.tbjfw.com
+0.0.0.0 f2.tbjfw.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -11235,7 +11237,6 @@ fe80::1%lo0	localhost
 0.0.0.0 event1.ferrygame.com
 0.0.0.0 events.syyx.com
 0.0.0.0 f.mtmmt.com
-0.0.0.0 f1.tbjfw.com
 0.0.0.0 fashion.701sou.com
 0.0.0.0 feijibei.bq8.cn
 0.0.0.0 ff.wanlicity.com
@@ -11692,3 +11693,4 @@ fe80::1%lo0	localhost
 0.0.0.0 code.178gg.com
 0.0.0.0 u.xcy8.com
 0.0.0.0 188.webgame86.net
+0.0.0.0 614a.mnwan.com
