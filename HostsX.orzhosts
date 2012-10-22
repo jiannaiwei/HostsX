@@ -1,5 +1,5 @@
 
-;version=21:15 2012/10/17
+;version=11:01 2012/10/22
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -721,6 +721,7 @@ fe80::1%lo0	localhost
 0.0.0.0 adstextview.qq.com
 0.0.0.0 adsview.qq.com
 0.0.0.0 adsview2.qq.com
+0.0.0.0 adv.app.qq.com
 0.0.0.0 adver.pengyou.com
 0.0.0.0 caclick.qq.com
 0.0.0.0 c.l.qq.com
@@ -8268,6 +8269,7 @@ fe80::1%lo0	localhost
 0.0.0.0 a1491.oadz.com
 0.0.0.0 a814.oadz.com
 0.0.0.0 a873.oadz.com
+0.0.0.0 a751.oadz.com
 0.0.0.0 dns1.oadz.com
 0.0.0.0 dns2.oadz.com
 0.0.0.0 www.99click.com
@@ -9686,6 +9688,7 @@ fe80::1%lo0	localhost
 0.0.0.0 assets.zestadz.com
 0.0.0.0 www.zestadz.com
 #WapSite
+0.0.0.0 d.zqlx.com
 0.0.0.0 chinaron.8866.org
 0.0.0.0 ad.zhekouku.cn
 0.0.0.0 jmplead.com

@@ -125,6 +125,116 @@ if %y% equ 27 if %x% gtr  12 if %x% lss 26 goto feedback
 if %y% equ 27 if %x% gtr  31 if %x% lss 50 call :thanks&goto gui
 goto mouse
 
+:menu
+for /f "usebackq tokens=1,2,*" %%1 in (`"reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" 2>nul"^|findstr /i ProductName`) do (set version=%%3)
+reg query HKLM\SYSTEM\CurrentControlSet\Control\Nls\Language >%temp%\Language.log
+find "Default" %temp%\Language.log |find "0804" >NUL
+IF NOT ERRORLEVEL 1 (
+ set Language=Chinese
+) else (
+ set Language=English
+)
+if %Language%==Chinese ( goto menucn ) else ( goto menuen )
+
+:menucn
+mode con cols=58 lines=25
+cls
+title U+ Hosts 优佳猴子 %ver%W  %version%
+echo ---------------------------------------------------------
+echo ☆Main Data Chioce:
+echo.  G.Hosts更新        V.MVPSData       E.编辑Hosts
+echo.
+echo.  i.IPV6数据         N.办公屏蔽       A.AnDroid系统
+echo.   
+echo ☆User Custom:       O.Hosts 目录
+echo.
+echo.  S.屏蔽/加速访问    B.备份Hosts文件  H.添加IE不信任网址
+echo.  R.删除屏蔽网站     D.删除Hosts备份  J.删除IE不信任网址
+echo.  P.设置Hosts权限    F.Hosts修复      X.IE优化与修复
+echo ---------------------------------------------------------
+echo ◎Other Tools:                       %dvercn%
+echo   K.快捷方式修复     T.感谢帮助反馈
+echo ---------------------------------------------------------
+echo 当前工作目录(0)：%~dp0
+set all=
+set /p all=请选择相应的操作，按[回车]刷新DNS和缓存：
+if /i "%all%"=="0" goto opdp
+if /i "%all%"=="4" goto run
+if /i "%all%"=="a" goto AnDroid
+if /i "%all%"=="b" goto hostbak
+if /i "%all%"=="c" goto dns
+if /i "%all%"=="d" goto delbak
+if /i "%all%"=="e" goto run
+if /i "%all%"=="f" goto fixhost
+if /i "%all%"=="g" goto dft
+if /i "%all%"=="h" goto adietrust
+if /i "%all%"=="i" goto ipv6
+if /i "%all%"=="j" goto dietrust
+if /i "%all%"=="k" goto desklnk
+if /i "%all%"=="l" goto delit
+if /i "%all%"=="n" goto appit
+if /i "%all%"=="o" goto ophostdp
+if /i "%all%"=="p" goto permscn
+if /i "%all%"=="q" goto exit
+if /i "%all%"=="r" goto clradd
+if /i "%all%"=="s" goto addsite
+if /i "%all%"=="t" goto thanks
+if /i "%all%"=="u" goto Updates
+if /i "%all%"=="v" goto mvpshost
+if /i "%all%"=="w" goto hostpath
+if /i "%all%"=="x" goto fixie
+
+:menuen
+mode con cols=62 lines=28
+cls
+title U+ Hosts %ver%W  %version%
+echo -------------------------------------------------------------
+echo ☆Main Data Chioce:
+echo.   G.HostsUpdate      V.MVPSData       E.Edit Hosts File   
+echo.
+echo.   i.IPV6Data(Cn)     N.No.Media       A.For AnDroid Mobile
+echo.   
+echo ☆User Custom:                  O.Open Hosts directory
+echo.
+echo.   S.Shield /Accelerate Site    B.Backup Hosts File  
+echo.   R.Remove Shield Site         D.Delete Hosts File Backup  
+echo.   P.Hosts File Permissions     F.Hosts File Fix and Restore
+echo -------------------------------------------------------------
+echo ◎Other Tools:        %dver%
+echo.
+echo   H.Add IE donot Turst Site     K.Creating a desktop shortcut
+echo   J.Del IE donot Turst Site
+echo   X.IE Optimization and Fix     T.Thanks Feedback and Help
+echo -------------------------------------------------------------
+echo Current directory(0)：%~dp0
+set all=
+set /p all=Please select,Press [Enter] to refresh DNS and caching：
+if /i "%all%"=="0" goto opdp
+if /i "%all%"=="4" goto run
+if /i "%all%"=="a" goto AnDroid
+if /i "%all%"=="b" goto hostbak
+if /i "%all%"=="c" goto dns
+if /i "%all%"=="d" goto delbak
+if /i "%all%"=="e" goto run
+if /i "%all%"=="f" goto fixhost
+if /i "%all%"=="g" goto dft
+if /i "%all%"=="h" goto adietrust
+if /i "%all%"=="i" goto ipv6
+if /i "%all%"=="j" goto dietrust
+if /i "%all%"=="k" goto desklnk
+if /i "%all%"=="l" goto delit
+if /i "%all%"=="n" goto appit
+if /i "%all%"=="o" goto ophostdp
+if /i "%all%"=="p" goto permsen
+if /i "%all%"=="q" goto exit
+if /i "%all%"=="r" goto clradd
+if /i "%all%"=="s" goto addsite
+if /i "%all%"=="t" goto thanks
+if /i "%all%"=="u" goto Updates
+if /i "%all%"=="v" goto mvpshost
+if /i "%all%"=="w" goto hostpath
+if /i "%all%"=="x" goto fixie
+
 :dns
 echo FlushDns...
 %k% iexplore.exe >nul 2>nul
