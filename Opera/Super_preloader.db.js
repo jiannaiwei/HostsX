@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 21:51 2012/10/17
-// @version 1.0.0.63
+// @lastmodified 19:35 2012-10-22
+// @version 1.0.0.66
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
@@ -16,7 +16,7 @@
 	var prefs={
 		floatWindow:true																	,//显示悬浮窗
 				FW_position:2																	,//1:出现在左上角;2:出现在右上角;3：出现在右下角;4：出现在左下角;
-				FW_offset:[20,20]															,//偏离版边的垂直和水平方向的数值..(单位:像素)
+				FW_offset:[20,38]															,//偏离版边的垂直和水平方向的数值..(单位:像素)
 				FW_RAS:true																		,//点击悬浮窗上的保存按钮..立即刷新页面;
 		pauseA:true																				,//快速停止自动翻页(当前模式为翻页模式的时候生效.);
 				Pbutton:[2,0,0]																,//需要按住的键.....0: 不按住任何键;1: shift鍵;2: ctrl鍵; 3: alt鍵;(同时按3个键.就填 1 2 3)(一个都不按.就填 0 0 0)
@@ -760,6 +760,31 @@
 				pageElement:'//div[@id="article_list"]'
 			}
 		},
+		{siteName:'CSDN论坛',
+			url:/^http:\/\/topic\.csdn\.net\/u\//i,
+			siteExample:'http://topic.csdn.net/u/20121015/14/6C55089A-23BD-409E-9647-020AC6C2C683.html',
+			nextLink:'//a[@onclick="LogClickCount(this,110);" and ./preceding::*[position()=1 and @class="on"]] | //a[text()="下一页"]',//尼玛真心难定位
+			autopager:{
+				pageElement:'//table[@csdnid]',
+				replaceE:'//ul[@class="plist"]',
+			}
+		},
+		{siteName:'55188论坛列表',
+			url:/http:\/\/www\.55188\.com\/forum/i,
+			siteExample:'http://www.55188.com/forum-8-1.html',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@class="mainbox threadlist"]'
+			}
+		},
+		{siteName:'55188论坛帖子',
+			url:/http:\/\/www\.55188\.com\/thread/i,
+			siteExample:'http://www.55188.com/thread-4177895-1-1.html',
+			nextLink:'//div[@class="pages_btns"]/descendant::a[text()="下一主题 >>"]',
+			autopager:{
+				pageElement:'//div[@class="mainbox viewthread"]'
+			}
+		},
 		{siteName:'中关村在线新闻页面',
 			url:/http:\/\/(?:[^\.]+\.)?zol.com.cn\/\d+\/\d+/i,
 			siteExample:'http://lcd.zol.com.cn/187/1875145.html',
@@ -769,13 +794,14 @@
 				pageElement:'//div[@id="cotent_idd"]'
 			}
 		},
-		{siteName:'PCHOME 社区帖子',
-			url:/http:\/\/club\.pchome\.net\/thread_/i,
-			siteExample:'http://club.pchome.net/thread_1_15_6009928__.html',
+
+		{siteName:'PCHOME 社区',
+			url:/http:\/\/club\.pchome\.net/i,
+			siteExample:'http://club.pchome.net/forum_1_15.html#',
 			nextLink:'auto;',
 			autopager:{
-				pageElement:'css;div.item',
-			},
+				 pageElement:'//form[@id="mytopics"] | //div[@id="weibo_app"]',
+			}
 		},
 		{siteName:'PConline太平洋电脑网',
 			url:/pconline\.com\.cn\/.*\/\d+\.html/i,
