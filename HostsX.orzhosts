@@ -1,5 +1,5 @@
 
-;version=11:01 2012/10/22
+;version=18:45 2012-10-22
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -9191,11 +9191,13 @@ fe80::1%lo0	localhost
 0.0.0.0 wap10.16kxs.com
 #91
 0.0.0.0 agency.91.com
+0.0.0.0 d.91.com
 0.0.0.0 djoy-dev.91.com
 0.0.0.0 djoy.91test.com
 0.0.0.0 g2.v3.91.com
 0.0.0.0 image.agency.91.com
 0.0.0.0 mjoy.91.com
+0.0.0.0 mpush-phone.91.com
 0.0.0.0 v2.g2.91.com
 #Adchina
 0.0.0.0 mobile.adchina.com
