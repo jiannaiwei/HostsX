@@ -75,7 +75,7 @@ display: none !important;
 
 /* Position AD */
 div[class*="topad"],div[class^="topAD"],div[class^="topAd"],div[class$="topa_d"],div[class^="top_ad"],
-div[id*="TopAD"],div[id^="TopAd"],div[id^="topAD"],div[id^="topad"],div[id*="top_ad"]{
+div[id*="TopAD"],div[id^="TopAd"],div[id^="topAD"],div[id^="topad"],div[id*="top_ad"],div[id*="-top-ad"]{
 display: none !important;
 	}
 div[class^="nav-ad"],div[class^="ndadv"],div[class*="-top-ads"],div[class*="AdTop-"],
