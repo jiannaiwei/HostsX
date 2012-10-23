@@ -3,12 +3,22 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.2
+Version: 5.0.1.3
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 Lastchage: 21:39 2012/10/17
 Description: MayBe a better User CSS Help U.
 */
+
+/*div [style]  (将网页中的所有的DIV彻底屏蔽)
+ {display: none !important;}*/
+
+/* 以下是收藏的各种常用的显示方式
+ {display: none !important;}
+ {display:block !important;}
+ {width:100% !important;}
+ {width:auto !important;}
+ */
 
 /* ADvertisment */
 div[class^="ad1"],div[class^="ad2"],div[class^="ad3"],div[class^="ad4"],div[class^="ad5"],
