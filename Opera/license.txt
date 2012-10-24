@@ -87,6 +87,14 @@ SongTaste的歌曲为什么不能正常播放？
 请下载安装微软的silverlight插件，重启Opera后即可正常播放。
 https://www.microsoft.com/getsilverlight/get-started/install/default.aspx?reason=unsupportedbrowser
 
+如何升级Opera？
+1.官方版本的Opera可以使用自动更新，用以更新Opera的版本。
+2.对于定制版的Opera，升级或回滚到旧版可直接覆盖安装。
+  对于版本构架变动较大的情况（如Opera10--Opera10.5），不建议沿用旧的配置，最好重新配置用户配置。
+因为新版Opera的安装包是7z格式，所以升级还可以用直接解压缩安装包的方法。
+用压缩工具打开Opera安装文件，除operaprefs_default.ini和files_list外直接解压覆盖。 
+这种方式升级可以自行选择覆盖更新哪些内容。
+
 Urlfilter出现uuid了怎么办？
 UUID:是Opera官方加入的，如果不喜欢。
 可以采用支持正则的文本编辑器进行替换：正则匹配=UUID:\w+$ 替换为空格就行了。
