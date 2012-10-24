@@ -1,5 +1,5 @@
 
-;version=18:45 2012-10-22
+;version=18:43 2012-10-24
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -8128,6 +8128,7 @@ fe80::1%lo0	localhost
 127.0.0.1 p2.1lo0.net
 127.0.0.1 p3.1lo0.net
 127.0.0.1 p4.1lo0.net
+127.0.0.1 p83.1lo0.net
 #114lm
 127.0.0.1 www.114lm.com
 #160ads
@@ -8856,6 +8857,8 @@ fe80::1%lo0	localhost
 127.0.0.1 c1.keydot.net
 #LangTaoJin
 127.0.0.1 www.langtaojin.com
+127.0.0.1 image.uctrac.com
+127.0.0.1 click.uctrac.com
 127.0.0.1 www.uctrac.com
 #Leshu
 127.0.0.1 cluclick.leshu.com
@@ -11093,6 +11096,8 @@ fe80::1%lo0	localhost
 127.0.0.1 7208853.hitslink.com
 127.0.0.1 f1.tbjfw.com
 127.0.0.1 f2.tbjfw.com
+127.0.0.1 tg.01lm.com
+127.0.0.1 tuidl.01lm.com
 #∂Ò“‚µØ¥∞
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -11469,7 +11474,6 @@ fe80::1%lo0	localhost
 127.0.0.1 tc.100tjs.com
 127.0.0.1 tc.lianmeng2010.com
 127.0.0.1 tdyx.baomihua.com
-127.0.0.1 tg.01lm.com
 127.0.0.1 tg.33hy.com
 127.0.0.1 tg.56uu.com
 127.0.0.1 tg.61758.cn
@@ -11699,3 +11703,8 @@ fe80::1%lo0	localhost
 127.0.0.1 u.xcy8.com
 127.0.0.1 188.webgame86.net
 127.0.0.1 614a.mnwan.com
+127.0.0.1 p2.aidaicn.com
+127.0.0.1 c1.niurenw.com
+127.0.0.1 js.11l11.net
+
+

@@ -1,6 +1,6 @@
 ﻿SimpleU 定制版参数详解：
 By KwokTree
-21:39 2012/10/17
+18:39 2012-10-24
 
 无关的儿歌：
 逛逛蜻，来过河，
@@ -546,6 +546,9 @@ http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻�
 http://c.pingba.qidian.com/BookComment.aspx?* 起点书评区
 
 删减备份：
+http://js.*.com/i.js
+*/cpm_static/*
+*/stat.php?id=*
 http://*/js/ads/*
 http://*/Public/ads/*.js
 http://*.com/gg/*
