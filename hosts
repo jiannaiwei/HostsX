@@ -1,5 +1,5 @@
 
-;version=18:43 2012-10-24
+;version=18:58 2012-10-24
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=1 and More,Thanks For Every One.
@@ -10170,6 +10170,7 @@ fe80::1%lo0	localhost
 127.0.0.1 tongji.haodianpu.com
 127.0.0.1 www.haodianpu.com
 #HeroClick
+127.0.0.1 union.heroclick.cn
 127.0.0.1 p.heroclick.cn
 127.0.0.1 st.heroclick.cn
 127.0.0.1 www.heroclick.cn
@@ -11706,5 +11707,6 @@ fe80::1%lo0	localhost
 127.0.0.1 p2.aidaicn.com
 127.0.0.1 c1.niurenw.com
 127.0.0.1 js.11l11.net
-
-
+127.0.0.1 js.ta80.com
+127.0.0.1 jscode.v5ad.com
+127.0.0.1 js.6dad.com
