@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 19:52 2012/10/25
-// @version 1.0.0.68
+// @lastmodified 7:46 2012/10/26
+// @version 1.0.0.69
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
@@ -65,7 +65,6 @@
 		['Gmail',true,/mail\.google\.com/i],
 		['Google reader',true,/google\.com\/reader\//i],
 		['优酷视频播放页面',true,/http:\/\/v\.youku\.com\//i],
-		['百度空间',true,/hi\.baidu\.com/i],
 	];
 
 	//在以下网站上允许在非顶层窗口上加载JS..比如猫扑之类的框架集网页.
@@ -225,6 +224,15 @@
 				HT_insert:['//div[@id="search"]',1],
 			}
 		},
+                {siteName:'百度空间',
+                        url:/^http:\/\/hi\.baidu\.com\/new/i,
+                        siteExample:'http://hi.baidu.com/new/752946479',
+                        nextLink:'auto;',
+                        autopager:{
+                            useiframe:true, //是否使用iframe翻页(可选)
+                                pageElement:'//article[@class="mod-blogitem mod-item-text"]',
+                        }
+                },
 		{siteName:'百度mp3',
 			url:/^http:\/\/mp3\.baidu\.com\/.+/i,
 			siteExample:'http://mp3.baidu.com/m?tn=baidump3&ct=134217728&lm=0&f=1&word=%CB%C0%C9%F1',
