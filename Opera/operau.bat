@@ -1,17 +1,20 @@
 @echo off
-set ver=1.06
+set ver=1.0.0.8
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU+")(window.close)&Pause
 echo 正在下载数据，请稍候... ...
-del operaprefs_default.ini locale\en\license.txt locale\zh-cn\bookmarks.adr locale\zh-cn\standard_speeddial.ini
+del operaprefs_default.ini defaults\feedreaders.ini ui\fastforward.ini locale\en\license.txt locale\zh-cn\bookmarks.adr locale\zh-cn\standard_speeddial.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
 wget http://hostsx.googlecode.com/svn/trunk/Opera/bookmarks.adr
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_speeddial.ini
-move license.txt locale\en
+move fastforward.ini ui\
+move feedreaders.ini defaults\
 move bookmarks.adr locale\zh-cn
 move standard_speeddial.ini locale\zh-cn
 echo 默认配置已更新！
@@ -20,7 +23,7 @@ del Super_preloader.db.js
 wget http://Hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 echo UserJs数据已更新！
 cd ..
-del /f /q autoupdate_response.xml download.dat global_history.dat opthumb.dat search_field_history.dat tasks.xml vlink4.dat opuntrust.dat optrust.dat optrb.dat typed_history.xml upgrade.log
+del /f /q autoupdate_response.xml download.dat global_history.dat search_field_history.dat tasks.xml vlink4.dat opuntrust.dat optrust.dat optrb.dat typed_history.xml upgrade.log
 rd /s /q application_cache cache dictionaries icons opcache pstorage temporary_downloads vps webserver
 echo 使用痕迹清理完毕!
 del override.ini search.ini urlfilter.ini

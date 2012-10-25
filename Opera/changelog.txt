@@ -1120,7 +1120,6 @@ stylelish部分站点的更新完善
 many change thank severyone
 2010-09-21（基于Opera10.63正式版定制的版本出炉）
 ----------------------------------------- 删减备份 -----------------------------------------
------------------------------------------------------------------------
 
 Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
 http://stat.* youku不能记录播放历史
@@ -1157,6 +1156,9 @@ http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻页 http://tu.p
 http://c.pingba.qidian.com/BookComment.aspx?* 起点书评区
 
 删减备份：
+http://js.*.com/i.js
+*/cpm_static/*
+*/stat.php?id=*
 http://*/js/ads/*
 http://*/Public/ads/*.js
 http://*.com/gg/*
