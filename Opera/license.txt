@@ -1,6 +1,6 @@
 ﻿Opera SimpleU Mod 定制和参数详解：
 ; http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-20:50 2012/10/25
+21:40 2012/10/26
 
 无关的儿歌：
 逛逛蜻，来过河，
@@ -237,7 +237,7 @@ Opera:config首选项中添加了中文注释
 
 使用Tips:
 如果在网页上保存笔记后，双点笔记后还能打开保存笔记页面的链接
-
+按住Shift可以将任意按钮拖动到任意位置。可以将 Bookmarklets 拖动到任意位置变成按钮方便使用。
 
 快捷键修改详见：standard_keyboard.ini
 
