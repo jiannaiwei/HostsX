@@ -1,4 +1,36 @@
 ----------------------------------------- 更新历史 -----------------------------------------
+2012-10-27
+插件调整
+js和css大规模调整匹配优化选择
+    添加了：ush修改版：关键词搜索高亮JS，支持划词高亮
+            http://bbs.operachina.com/viewtopic.php?f=41&t=109188
+            【CSS】OperaChina 的山猫 Finder 样式
+            http://bbs.operachina.com/viewtopic.php?f=19&t=109220
+    修复了4619的右键无法选择文字的问题
+            
+安装脚本改动
+升级模块大幅改动升级，完善流程等
+升级完善常规广告过滤
+大幅完善站点首选项，调整部分识别
+应该解决了QQ空间萌三国等游戏崩溃问题
+全面改变的右键菜单
+全新改动的鼠标手势
+全新改动的快捷键功能
+仿照猎豹浏览器重新排列一些图标组合和位置
+仿照360浏览器超速版，猎豹浏览器和Maxthon浏览器，
+将一些常用配置（多在config里面的）进行具体分类分项，作出排列优化组合的配置
+代理菜单的调整
+默认删除私人数据的选择的优化
+书签的精简和优化
+替换使用了菜鸟论坛 aimfiend 的 Flash10zh ie+firefox插件破解2合一
+ http://www.2y2r.org/forum.php?mod=viewthread&tid=597237
+ 针对原flash插件进行如下修改：
+ 1 firefox kmeleon seamonkey opera　缓存锁定破解
+ 2 全屏显示ESC移除
+ 3 opera浏览器mimetype类型支持修改application/x-shockwe-flash 和 audio/x-pn-realaudio-plugin
+ 具体请看： http://bbs.kafan.cn/thread-1104758-1-1.html
+ 4 双屏置顶锁定破解
+
 2012-10-06
 因此版调整比较大，建议删除旧版重新安装新版！
 广告过滤更新

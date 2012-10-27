@@ -1,6 +1,6 @@
 ﻿Opera SimpleU Mod 定制和参数详解：
 ; http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-21:40 2012/10/26
+22:01 2012/10/27
 
 无关的儿歌：
 逛逛蜻，来过河，
@@ -14,7 +14,7 @@
 
 SimpleU定制版下载：http://www.everbox.com/f/xdPFcKSMhnWYliSCdchbxb6m5R
 
-         更新日志：http://bbs.operachina.com/viewtopic.php?f=15&t=88316&p=545868#p545876
+         更新日志：http://hostsx.googlecode.com/svn/trunk/Opera/changelog.txt
 
  Opera 官方版下载：ftp://ftp.opera.com/pub/opera/win/
 -----------------------------------------------------------------------
