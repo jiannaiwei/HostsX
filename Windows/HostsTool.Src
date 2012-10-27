@@ -12,10 +12,6 @@ rem 权限检测模块
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions" >nul 2>nul
-rem Opera参数调用设置
-if '%1'=='opis' goto:opinst
-if '%1'=='opup' goto:opupdate
-if '%1'=='opcl' goto:opclean
 rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
@@ -1957,11 +1953,6 @@ echo %ytb% v22.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v23.lscache8.c.youtube.com >>%hosts%
 echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
 goto:eof
-
-:opinst
-mshta vbscript:msgbox("请务必在安装使用前详细阅读服务条款中的内容和问题解答！！！",64,"SimpleU+ Opera")(window.close)
-opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
-exit
 
 :iGoogle
 REM Felix Hsu and Patched by logicmd
