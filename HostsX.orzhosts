@@ -1,5 +1,5 @@
 
-;version=20:51 2012/10/27
+;version=22:47 2012/10/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -853,6 +853,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ub.dphub.sandai.net
 0.0.0.0 vodsts.sandai.net
 0.0.0.0 advstat.xunlei.com
+0.0.0.0 analytics-union.xunlei.com
 0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
 0.0.0.0 client.stat.xunlei.com
@@ -2113,6 +2114,10 @@ fe80::1%lo0	localhost
 0.0.0.0 img.rayfile.com
 0.0.0.0 raya.rayfile.com
 0.0.0.0 w105.rayfile.com
+#千军万马
+0.0.0.0 ad.qjwm.com
+0.0.0.0 tj.qjwm.com
+0.0.0.0 u.qjwm.com
 #华为
 0.0.0.0 acd.adkongjian.com
 0.0.0.0 cs.adkongjian.com
@@ -11562,7 +11567,6 @@ fe80::1%lo0	localhost
 0.0.0.0 u.haom.us
 0.0.0.0 u.molidao.com
 0.0.0.0 u.otwan.com
-0.0.0.0 u.qjwm.com
 0.0.0.0 u.tdwan.com
 0.0.0.0 u.zhyizh.com
 0.0.0.0 u11.gzfiat.com
