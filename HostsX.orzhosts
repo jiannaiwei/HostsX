@@ -1,5 +1,5 @@
 
-;version=0:00 2012/10/27
+;version=20:26 2012/10/27
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -44,6 +44,8 @@ fe80::1%lo0	localhost
 203.69.113.128 a8.mzstatic.com
 184.25.218.46 www.icloud.com
 184.30.117.47 www.me.com
+#Google
+74.125.235.133 appengine.google.com
 #Facebook
 0.0.0.0 ads.ak.facebook.com
 0.0.0.0 creative.ak.facebook.com
@@ -2516,6 +2518,7 @@ fe80::1%lo0	localhost
 0.0.0.0 list1.ppstream.com
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
+0.0.0.0 ugcfile.ppstream.com
 0.0.0.0 br.pps.tv
 0.0.0.0 dp.ppstv.com
 0.0.0.0 g.pps.tv
@@ -2526,6 +2529,7 @@ fe80::1%lo0	localhost
 0.0.0.0 pl.pps.tv
 0.0.0.0 spider.pps.tv
 0.0.0.0 stat.y.pps.tv
+0.0.0.0 ugcad.pps.tv
 0.0.0.0 update.111222.cn
 0.0.0.0 update.base-service.net
 #PPTV
