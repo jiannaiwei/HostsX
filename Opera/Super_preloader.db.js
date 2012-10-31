@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 19:30 2012/10/31
-// @version 1.0.0.71
+// @lastmodified 21:12 2012/10/31
+// @version 1.0.0.73
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
@@ -537,6 +537,38 @@
 			nextLink:'//div[@id="footlink"]/a[text()="下一页"][@href]',
 			autopager:{
 				pageElement:'//div[@id="content"]',
+			}
+		},
+		{siteName:'啃书中文网',
+			url:/^http:\/\/www\.kenshu\.cc\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.kenshu.cc/files/article/html/0/1/4048953.html',
+			nextLink:'//div[@class="novel_bottom"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="wp"]'
+			}
+		},
+		{siteName:'E品中文网',
+			url:/^http:\/\/epzw\.com\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://epzw.com/files/article/html/50/50244/3271485.html',
+			nextLink:'//div[@id="link"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'大家读书院',
+			url:/^http:\/\/www\.dajiadu\.net\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.dajiadu.net/files/article/html/11/11798/2325434.html',
+			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="center"]'
+			}
+		},
+		{siteName:'顶点小说网',
+			url:/^http:\/\/www\.dingdian8\.com\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.dingdian8.com/files/article/html/0/193/103694.html',
+			nextLink:'//dd[@id="footlink"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="a_main"]'
 			}
 		},
 		{siteName:'北京爱书',
