@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 /*
 Name: 微软雅黑
-Version:2.0
+Version:2.1
 Description: Opera Font Style.
 */
 
@@ -10,3 +10,12 @@ Description: Opera Font Style.
 pre, code, kbd, samp, var {
 font-family: "Courier New", "微软雅黑", "Microsoft Yahei",  monospace !important;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:"汉仪细行楷简","Verdana";
+    }
+
+body,div,tr,td,p,a,ul,span,input,textarea */ 
+body {
+    font-family:"Oxygen","YaHei Consolas Hybrid" ;
+    }

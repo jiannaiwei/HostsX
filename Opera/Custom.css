@@ -158,7 +158,8 @@ font[color="#FFFFFF"]fieldset[style*=”:1px dashed“],p[class="Wtz196"],font[c
 font[color*="FAE"],font[style="font-size:10px;color:#b4b4b4"]{
 display: none !important;
 	}
-IMG[src*="/a-d-s/"],iframe[src*="/ad/"],iframe[src="adb.php"],iframe[src="adt.php"],iframe[src*="/interface/cpmblank.php?"],
+iframe[src*="/ad/"] {display:none;}
+IMG[src*="/a-d-s/"],iframe[src="adb.php"],iframe[src="adt.php"],iframe[src*="/interface/cpmblank.php?"],
 iframe[class="ad_iframe"]iframe[id^="ads_"],iframe[id$="_tuiguang"],iframe[id^="dale_m"],iframe[name="ads_frame"],iframe[src="http://g.163.com/"]{
 display: none !important;
 	}
@@ -237,6 +238,7 @@ div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],di
  {display: none !important;}*/
 
 /* 以下是收藏的各种常用的显示方式
+ {display:none;}
  {display: none !important;}
  {display:block !important;}
  {width:100% !important;}
