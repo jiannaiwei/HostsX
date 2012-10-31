@@ -1533,3 +1533,32 @@ Label, S_ZOOM_SLIDER_CAPTION
 ;Button, "缩小"="Zoom out, 10, , , "Zoomx""
 Button, "全局缩放"="Set preference, "User Prefs|Scale=100",,"全局缩放(100%)", > Set preference, "User Prefs|Scale=130",,"全局缩放(130%)","Widget No Filesystem Access" > Set preference, "User Prefs|Scale=150",,"全局缩放(150%)","Widget No Filesystem Access 24""
 ZoomSlider, 1
+;W
+;A
+;Y
+;H
+;U
+;J
+;K
+;O
+;P
+;Item, "自动检测 > 中文..."="Go to Page,"javascript:(function(){var s=encodeURIComponent('%u');if(s.length>0){s='http://translate.google.com/translate?u='+s+'&langpair=auto'+encodeURIComponent('|')+'zh-CN&hl=zh-CN&ie=UTF8';void open(s,'');}})()",,,"translation""
+;Item, ">> 英语"="Go to Page,"javascript:(function(){var s=encodeURIComponent('%u');if(s.length>0){s='http://translate.google.com/translate?u='+s+'&langpair=auto'+encodeURIComponent('|')+'en&hl=en&ie=UTF8';void open(s,'');}})()",,,"translation""
+
+;Item, M_OPEN_BACKGROUND_WINDOW		        = Open link in background window, -2, "urlinfo"
+;Item, M_BOOKM_ITEM_POPUP_MENU_OPEN		= Open link, -2, "urlinfo"
+;Item, MI_IDM_MENU_PAGEBAR_LINK_IN_NEW_PAGE	= Open link in new page, -2, "urlinfo"
+;Item, 在隐身窗口中打开=new private browser window,,,,"Window Private Icon" & go to page, "%l"
+;Submenu, M_INTERNAL_SPELLCHECK_LANGUAGE, Spellcheck Language
+;Submenu, M_INTERNAL_SPELLCHECK_LANGUAGE, Spellcheck Language
+;Submenu, M_INTERNAL_SPELLCHECK_LANGUAGE, Spellcheck Language
+;Item, M_INTERNAL_SPELLCHECK_ENABLE=Spell check | Spell check
+;Item, "查看当前IP"="Go to page, "http://www.ip138.com/" & New page & Go to page, "http://get.youripfast.com/",,"Contact0""
+;Item, "编辑本地HOST"=External action, , , "编辑HOST", "Mail Compose HTML" | Go to page, "C:/WINDOWS/system32/drivers/etc/hosts" & Delay, 1 & View document source & Switch to previous page & Close page, 1
+
+;Item, M_ENABLE_OPERA_TURBO = Enable Web Turbo | Disable Web Turbo
+;Submenu, D_CUSTOMIZE_TOOLBAR_DIALOG_HEADER, Pagebar Customize Menu
+;Platform Win2000-Unix-Mac, Feature Voice, Item, M_HOTCLICK_MENU_ITEM_SPEAK = Speak selection
+;Item, "带格式复制"="Go to Page, "javascript:(function(){var encodeBase64=function(a){var b='';var c=0;var i=0;var d='';var e=a.length;var f=[];var g='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';while(c=a.charCodeAt(i++)){if(c<0x80){f[f.length]=c}else if(c<0x800){f[f.length]=0xc0|(c>>6);f[f.length]=0x80|(c&0x3f)}else if(c<0x10000){f[f.length]=0xe0|(c>>12);f[f.length]=0x80|((c>>6)&0x3f);f[f.length]=0x80|(c&0x3f)}else{f[f.length]=0xf0|(c>>18);f[f.length]=0x80|((c>>12)&0x3f);f[f.length]=0x80|((c>>6)&0x3f);f[f.length]=0x80|(c&0x3f)}if(i==e){while(f.length%%3){f[f.length]=0;d+='='}}if(f.length>2){b+=g[f[0]>>2];b+=g[((f.shift()&3)<<4)|(f[0]>>4)];b+=g[((f.shift()&0xf)<<2)|(f[0]>>6)];b+=g[f.shift()&0x3f]}}return(b+d)};var selWin=function(w){if(w.getSelection()!='')return w;for(var i=0,f,r;f=w.frames[i];i++){try{if(r=arguments.callee(f))return r}catch(e){}}};var win=selWin(window);if(win){var doc=win.document;var link=win.location.href;if(win.location.protocol=='file:')link=link.replace('localhost','');var sel=doc.createDocumentFragment();var range=win.getSelection().getRangeAt(0);sel.appendChild(doc.createComment('StartFragment'));sel.appendChild(range.cloneContents());sel.appendChild(doc.createComment('EndFragment'));var ele=range.commonAncestorContainer;while(ele){if(ele.nodeType==1){var clone=ele.cloneNode(false);clone.appendChild(sel);sel=clone};ele=ele.parentNode};var h=sel.insertBefore(doc.createElement('head'),sel.firstChild);var title=doc.getElementsByTagName('title')[0];if(title)h.appendChild(title.cloneNode(true));var meta=doc.createElement('meta');meta.httpEquiv='content-type';meta.content='text/html; charset=utf-8';h.appendChild(meta);var base=doc.getElementsByTagName('base')[0];var b=base?base.cloneNode(false):doc.createElement('base');if(!b.href)b.href=link;h.appendChild(b);var styles=doc.styleSheets;for(var i=0,si;si=styles[i];i++){var style=doc.createElement('style');style.type='text/css';if(si.media.mediaText)style.media=si.media.mediaText;try{for(var j=0,rule;rule=si.cssRules[j];j++){style.appendChild(doc.createTextNode(rule.cssText+'\n'))}}catch(e){if(si.ownerNode)style=si.ownerNode.cloneNode(false)};h.appendChild(style)};var all=sel.getElementsByTagName('*');for(var i=all.length;i--;){var el=all[i];switch(el.nodeName.toLowerCase()){case'frame':case'iframe':case'embed':case'img':el.src=el.src;break;case'link':case'area':case'a':el.href=el.href;break;case'script':el.parentNode.removeChild(el);break}};var doctype='';var dt=doc.doctype;if(dt&&dt.name){doctype+='<!DOCTYPE '+dt.name;if(dt.publicId)doctype+=' PUBLIC \x22'+dt.publicId+'\x22';if(dt.systemId)doctype+=' \x22'+dt.systemId+'\x22';doctype+='>\n'};var f=doc.createElement('iframe');f.width=0;f.height=0;f.frameBorder='no';f.scrolling='no';f.src='data:text/cwf;charset=UTF-8;base64,'+encodeBase64('SourceURL:'+link+'\r\n\r\n'+doctype+sel.outerHTML);doc.documentElement.appendChild(f);f.parentNode.removeChild(f)}})();",,,"Copy" "
+;Item,"高亮关键字"=go to page,"javascript:var N_hi_s;if(!N_hi_s){N_hi_s=document.createElement('style');N_hi_s.setAttribute('type','text/css');N_hi_s.innerHTML='span.N_hw{background-color:yellow;}span.N_hw2{background-color:cyan;}';document.getElementsByTagName('head')[0].appendChild(N_hi_s);};N_selection=document.getSelection();N_HW(document.body,N_selection);function N_HW(node,word){if(node.hasChildNodes){var hi_cn;for(hi_cn=0;hi_cn<node.childNodes.length;hi_cn++){N_HW(node.childNodes[hi_cn],word);}};if (node.nodeType == 3){var tempNodeVal = node.nodeValue.toLowerCase();var tempWordVal = word.toLowerCase();if(tempNodeVal.indexOf(tempWordVal) != -1) {var pn = node.parentNode;if(pn.className != 'N_hw') {var nv = node.nodeValue;var ni = tempNodeVal.indexOf(tempWordVal); var before = document.createTextNode(nv.substring(0,ni)); var docWordVal = nv.substring(ni,word.length+ni); var after = document.createTextNode(nv.substring(ni+word.length)); var hiwordtext = document.createTextNode(docWordVal); var hiword = document.createElement('span'); hiword.className = 'N_hw';hiword.appendChild(hiwordtext); pn.insertBefore(before,node); pn.insertBefore(hiword,node); pn.insertBefore(after,node); pn.removeChild(node);}}}}",,,"Menu Info"
+

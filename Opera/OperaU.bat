@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.3
+set ver=1.0.1.6
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -7,7 +7,6 @@ rem Opera参数调用设置
 if '%1'=='opis' goto:opinst
 if '%1'=='opup' goto:opupdate
 if '%1'=='opcl' goto:opclean
-if '%1'=='opgdi' goto:opgdi
 
 :opupdate
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
@@ -72,6 +71,9 @@ reg add "HKCR\operajr\shell\open\command" /v "Browser" /d "C:\Program Files\Inte
 reg add "HKCU\Software\Classes\operajr" /v "FriendlyTypeName" /d "opera" /f >nul 2>nul
 reg add "HKCU\Software\Classes\operajr" /v "URL Protocol" /d "" /f >nul 2>nul
 reg add "HKCU\Software\Classes\operajr\shell\open\command" /ve /d "\"C:\Windows\System32\OperaJR.exe\" \"%%1\"" /f >nul 2>nul
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\text/vnd.wap.wml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\application/xhtml+xml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\application/vnd.wap.xhtml+xml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
 for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
 set str=%%i
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q
@@ -80,11 +82,4 @@ rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
-goto:EOF
-exit
-
-:opgdi
-mshta vbscript:msgbox("在以GDI方式启动Opera前，请先手动关闭当前浏览器窗口！",64,"OperaU")(window.close)
-mshta vbscript:msgbox("已经在桌面上创建 以GDI方式启动Opera的快捷方式！",64,"OperaU")(window.close)
-mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\Opera Gdi+.lnk""):b.TargetPath=""%~dp0Gdi.vbs"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\opera.exe"":b.Description=""以GDI+方式启动Opera"":b.Save:close")&goto menu
-exit
+goto exit
