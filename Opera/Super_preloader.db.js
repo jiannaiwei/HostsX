@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 7:46 2012/10/26
-// @version 1.0.0.69
+// @lastmodified 19:30 2012/10/31
+// @version 1.0.0.71
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
@@ -591,6 +591,14 @@
 				pageElement:'//div[@class="noveltext"]',
 			}
 		},
+		{siteName:'奇书屋',
+			url:/^http:\/\/www\.qishuwu\.com\/.+/i,
+			siteExample:'http://www.qishuwu.com/a_zhijian/314815/',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@id="bgdiv"]',
+			}
+		},
 		{siteName:'！五月中文网',
 			url:/^http:\/\/www\.5ycn\.com\/\w+\/\d+\.html/i,
 			siteExample:'http://www.5ycn.com/weiwoduzun/2655380.html',
@@ -624,7 +632,7 @@
 			}
 		},
 		{siteName:'百晓生中文网',
-			url:/^http:\/\/www\.bxs\.cc\/book\/.+\.html/i,
+			url:/^http:\/\/www\.bxs\.cc\/.+\.html/i,
 			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
 			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
 			autopager:{
