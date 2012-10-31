@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.2
+set ver=1.0.1.3
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -19,6 +19,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
 wget http://hostsx.googlecode.com/svn/trunk/Opera/bookmarks.adr
+wget http://hostsx.googlecode.com/svn/trunk/Opera/Bookmarklets.adr
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_speeddial.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/search.ini
@@ -33,6 +34,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
 move /y license.txt locale\en
 move /y bookmarks.adr locale\zh-cn
+move /y Bookmarklets.adr locale\zh-cn
 move /y standard_speeddial.ini locale\zh-cn
 move /y Super_preloader.db.js profile\script
 move /y override.ini profile
