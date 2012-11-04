@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 21:12 2012/10/31
-// @version 1.0.0.73
+// @lastmodified 10:20 2012/11/4
+// @version 1.0.0.74
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @download  http://userscripts.org/scripts/show/142198
@@ -764,6 +764,14 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@class="t5 t2"]',
+			}
+		},
+		{siteName:'人大经济论坛',
+			url:/http:\/\/bbs\.pinggu\.org\/thread/i,
+			siteExample:'http://bbs.pinggu.org/thread-1562552-3-1.html',
+			nextLink:'//div[@id="pgt"]/descendant::a[@class="nxt"]',
+			autopager:{
+				pageElement:'//div[@id="postlist"]',
 			}
 		},
 		{siteName:'九尾网',
