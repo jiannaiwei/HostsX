@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name Super_preloader数据库
+// @name Super_preloader.database
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
