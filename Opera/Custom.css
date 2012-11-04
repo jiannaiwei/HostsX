@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.3
+Version: 5.0.1.4
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 9:10 2012/10/25
+Lastchage: 11:37 2012/11/4
 Description: MayBe a better User CSS Help U.
 */
 
@@ -134,7 +134,7 @@ display: none !important;
 	}
 
 /* 论坛广告和外链 */
-div[class$="a_cb"],div[class^="a_f"],div[class^="wp a_"],div[id="wrap"]>div[class="focus"][id="focus"],div[class^="wrap"]>div[class="focus"][id="sitefocus"]{display: none !important;}
+div[class$="a_cb"],div[class^="a_f"],div[class^="wp a_"],div[id="wrap"]>div[class="focus"][id="focus"],div[class="focus"][id="sitefocus"]{display: none !important;}
 div[class="a_b"],div[class="a_mu"],div[class="a_pb"],div[class="a_pr"],div[class="a_pt"],
 div[class="bm a_c"],div[class="tac mb5"],td[class="f_one black tac"]{
 display: none !important;
@@ -233,18 +233,3 @@ div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"]{display
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
 div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],div[class^="imh-"][id^="imh-"]{display:none !important}
-
-/*div [style]  (将网页中的所有的DIV彻底屏蔽)
- {display: none !important;}*/
-
-/* 以下是收藏的各种常用的显示方式
- {display:none;}
- {display: none !important;}
- {display:block !important;}
- {width:100% !important;}
- {width:auto !important;}
- */
-
-/* 去除网页背景
- html>body{background: none !important;}
- */

@@ -1,6 +1,6 @@
 ﻿Opera SimpleU Mod 定制和参数详解：
 ; http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-12:29 2012/10/31
+11:46 2012/11/4
 
 无关的儿歌：
 逛逛蜻，来过河，
@@ -58,6 +58,10 @@ Ps.另，Nod32都不报毒，金山.360什么的就误报，国内的厂商和�
 
 下载方法：鼠标移动到.exe上面，后方会出现下载，点击下载就好了。
 如果下载需要登录说明100次用完了，我会尽快续期，如果您有注册everbox，可以转存到您的文件夹。
+
+为什么浏览一些网站的时候会遇到Flash基本上都会卡50%的cpu的情况？
+opera 10.1 opera11.5正式版 firefox都无这个问题，opera next有问题。
+解决方法:opera:config#Performance|SwitchAnimationThrottlingInterval这个选项,不能设置为0,否则出现上面的情况.
 
 为什么我在安装Opera插件的时候会提示不完整？
 这是国内网络访问Opera服务器的原因，您可以使用右键--目标另存为来保存插件，然后从本地安装就可以解决此问题。
