@@ -1,5 +1,5 @@
 
-;version=8:59 2012/10/31
+;version=15:36 2012/11/5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -724,11 +724,12 @@ fe80::1%lo0	localhost
 0.0.0.0 track2.ra.icast.cn
 #网易163
 0.0.0.0 analytics.ws.126.net
-0.0.0.0 letv.ws.126.net
-0.0.0.0 stat.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
+0.0.0.0 letv.ws.126.net
 0.0.0.0 listen.ph.126.net
+0.0.0.0 m.analytics.126.net
+0.0.0.0 stat.ws.126.net
 0.0.0.0 flv.bn.netease.com
 0.0.0.0 union.netease.com
 0.0.0.0 adc.163.com
@@ -748,8 +749,8 @@ fe80::1%lo0	localhost
 0.0.0.0 union.163.com
 #有道搜索
 0.0.0.0 a.youdao.com
-0.0.0.0 clkservice.union.youdao.com
 0.0.0.0 clkservice.mail.youdao.com
+0.0.0.0 clkservice.union.youdao.com
 0.0.0.0 clkservice.youdao.com
 0.0.0.0 clkservice2.dict.youdao.com
 0.0.0.0 dsp.youdao.com
@@ -758,6 +759,7 @@ fe80::1%lo0	localhost
 0.0.0.0 impservice.union.youdao.com
 0.0.0.0 impservice.youdao.com
 0.0.0.0 impservice2.youdao.com
+0.0.0.0 tb104x.corp.youdao.com
 0.0.0.0 union.youdao.com
 0.0.0.0 adpublish.ydstatic.com
 0.0.0.0 oimageb2.ydstatic.com
@@ -1796,11 +1798,6 @@ fe80::1%lo0	localhost
 0.0.0.0 qidian.adsame.com
 0.0.0.0 o.if.qidian.com
 0.0.0.0 uedas.qidian.com
-0.0.0.0 hot.snyu.com
-0.0.0.0 js.ap.snyu.com
-0.0.0.0 rr.ap.snyu.com
-0.0.0.0 de.ap.snyu.com
-0.0.0.0 pic.snyu.com
 #一起看小说
 0.0.0.0 ad.17k.com
 0.0.0.0 log.17k.com
@@ -9254,11 +9251,15 @@ fe80::1%lo0	localhost
 #16kxs
 0.0.0.0 ad.16kxs.com
 0.0.0.0 wap10.16kxs.com
+#54whr
+0.0.0.0 a.54whr.com
+0.0.0.0 f.54whr.com
 #91
 0.0.0.0 agency.91.com
 0.0.0.0 d.91.com
 0.0.0.0 djoy-dev.91.com
 0.0.0.0 djoy.91test.com
+0.0.0.0 dl.sj.91.com
 0.0.0.0 g2.v3.91.com
 0.0.0.0 image.agency.91.com
 0.0.0.0 mjoy.91.com
@@ -9267,8 +9268,6 @@ fe80::1%lo0	localhost
 #Adchina
 0.0.0.0 mobile.adchina.com
 0.0.0.0 www.adchina.com
-#Adcome
-0.0.0.0 api.adcome.cn
 #AdMob
 0.0.0.0 api.admob.com
 0.0.0.0 e.admob.com
@@ -9279,6 +9278,8 @@ fe80::1%lo0	localhost
 0.0.0.0 schemas.android.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 pagead2.googlesyndication.com
+#Adcome
+0.0.0.0 api.adcome.cn
 #Adigou
 0.0.0.0 adigou.com
 0.0.0.0 x.adigou.com
@@ -9335,9 +9336,17 @@ fe80::1%lo0	localhost
 0.0.0.0 hermes.airad.com
 0.0.0.0 www.airad.com
 #Airpush
+0.0.0.0 apistaging.airpush.com
+0.0.0.0 m.airpush.com
 0.0.0.0 api.airpush.com
 0.0.0.0 beta.airpush.com
 0.0.0.0 ad.leadboltapps.net
+0.0.0.0 ad.leadbolt.net
+#Appdriver
+0.0.0.0 appdriver.com.cn
+0.0.0.0 appdriver.tw
+0.0.0.0 sandbox.appdriver.cn
+0.0.0.0 sandbox.appdriver.tw
 #Appstores
 0.0.0.0 austin2011.appstores.com
 0.0.0.0 infochimps.appstores.com
@@ -9382,6 +9391,10 @@ fe80::1%lo0	localhost
 0.0.0.0 e.domob.cn
 0.0.0.0 r.domob.cn
 0.0.0.0 s.domob.cn
+#Doodlemobile
+0.0.0.0 data.doodlemobile.com
+0.0.0.0 f.doodlemobile.com
+0.0.0.0 m.doodlemobile.com
 #Doumob
 0.0.0.0 api.doumob.com
 #Datouniao
@@ -9402,6 +9415,12 @@ fe80::1%lo0	localhost
 0.0.0.0 data.flurry.com
 0.0.0.0 flurry.com
 0.0.0.0 www.flurry.com
+#Gogle
+0.0.0.0 gg.googlesyndcation.com
+0.0.0.0 gogle.cn
+0.0.0.0 img1.gogle.cn
+0.0.0.0 img1.googlesyndcation.com
+0.0.0.0 wt1.skycn.gogle.cn
 #Guohead
 0.0.0.0 ads.guohead.com
 0.0.0.0 met.guohead.com
@@ -9418,6 +9437,10 @@ fe80::1%lo0	localhost
 0.0.0.0 req.himogo.com
 #immob
 0.0.0.0 adserving.immob.cn
+#infolife
+0.0.0.0 adconfig.infolife.mobi
+0.0.0.0 app.infolife.mobi
+0.0.0.0 cus.infolife.mobi
 #inmobi
 0.0.0.0 i.w.inmobi.com
 0.0.0.0 ma.inmobi.com
@@ -9512,12 +9535,16 @@ fe80::1%lo0	localhost
 0.0.0.0 img.ads3.mocean.mobi
 0.0.0.0 img.ads4.mocean.mobi
 #Mobclix
+0.0.0.0 au.umeng.co
+0.0.0.0 au.umeng.com
+0.0.0.0 alog.umeng.co
 0.0.0.0 alog.umeng.com
 0.0.0.0 oc.umeng.co
 0.0.0.0 oc.umeng.com
 0.0.0.0 www.umeng.co
 0.0.0.0 www.umeng.com
-0.0.0.0 ex.umengcloud.com
+0.0.0.0 ex.umengcloud.com
+0.0.0.0 a.mobclix.com
 0.0.0.0 ads.mobclix.com
 0.0.0.0 data.mobclix.com
 0.0.0.0 s.mobclix.com
@@ -9600,12 +9627,12 @@ fe80::1%lo0	localhost
 0.0.0.0 www.punchbox.org
 0.0.0.0 pic.punchbox.org
 #QQ
+0.0.0.0 3gsoftfile.tc.qq.com
+0.0.0.0 3gsoftfile.tcdn.qq.com
+0.0.0.0 adpm.app.qq.com
+0.0.0.0 mw.app.qq.com
 0.0.0.0 softfile.3g.qq.com
 0.0.0.0 sqsh.3g.qq.com
-0.0.0.0 3gsoftfile.tcdn.qq.com
-0.0.0.0 3gsoftfile.tc.qq.com
-0.0.0.0 mw.app.qq.com
-0.0.0.0 adpm.app.qq.com
 #Rovio
 0.0.0.0 cloud.rovio.com
 0.0.0.0 news-assets.rovio.com
@@ -9756,36 +9783,18 @@ fe80::1%lo0	localhost
 0.0.0.0 assets.zestadz.com
 0.0.0.0 www.zestadz.com
 #WapSite
-0.0.0.0 d.zqlx.com
-0.0.0.0 chinaron.8866.org
-0.0.0.0 ad.zhekouku.cn
-0.0.0.0 jmplead.com
-0.0.0.0 ad.leadbolt.net
-0.0.0.0 www.zhesm.com
-0.0.0.0 bos.ads0.nexage.com
-0.0.0.0 apps.outfit7.com
-0.0.0.0 c53.smaato.net
-0.0.0.0 as.adfonic.net
-0.0.0.0 www.anadmob.net
-0.0.0.0 noticemob.com
-0.0.0.0 ad.moji001.com
-0.0.0.0 cdn.puata.info
-0.0.0.0 v1-feed.idreamsky.com
-0.0.0.0 adc.medibaad.com
-0.0.0.0 appsrv1.mdn2.net
-0.0.0.0 gg.googlesyndcation.com
-0.0.0.0 img1.googlesyndcation.com
-0.0.0.0 img1.gogle.cn
-0.0.0.0 gogle.cn
 0.0.0.0 1.ad-locus.com
-0.0.0.0 ad-locus.com
-0.0.0.0 promev3-web.hyxencloud.com
-0.0.0.0 ad.camera360.us
 0.0.0.0 24sp.cc
+0.0.0.0 ad-locus.com
 0.0.0.0 ad.3g.cn
+0.0.0.0 ad.camera360.us
 0.0.0.0 ad.jiemai-tech.com
+0.0.0.0 ad.moji001.com
 0.0.0.0 ad.where.com
+0.0.0.0 ad.zhekouku.cn
 0.0.0.0 ad.zhidian3g.cn
+0.0.0.0 adc.medibaad.com
+0.0.0.0 adimg3.search.naver.net
 0.0.0.0 ads.admarvel.com
 0.0.0.0 ads.mopub.com
 0.0.0.0 ads.n-ws.org
@@ -9795,17 +9804,29 @@ fe80::1%lo0	localhost
 0.0.0.0 ads2.greystripe.com
 0.0.0.0 adserver.ubiyoo.com
 0.0.0.0 adultmoda.com
+0.0.0.0 analytics.doplive.com.cn
 0.0.0.0 api.suizong.com
 0.0.0.0 api.yp.com
+0.0.0.0 apps.outfit7.com
+0.0.0.0 appsrv1.mdn2.net
+0.0.0.0 as.adfonic.net
 0.0.0.0 assets.cntdy.mobi
+0.0.0.0 b.zhangshanghui.com
+0.0.0.0 bos.ads0.nexage.com
+0.0.0.0 c53.smaato.net
 0.0.0.0 c753738.r38.cf2.rackcdn.com
 0.0.0.0 cast.ra.imocha.com
 0.0.0.0 cdn.celtra.com
 0.0.0.0 cdn.ons.ms
+0.0.0.0 cdn.puata.info
 0.0.0.0 cdn.vdopia.com
 0.0.0.0 client.azrj.cn
+0.0.0.0 com2ushub.com2us.net
 0.0.0.0 content.mobango.com
+0.0.0.0 coolcode.org
+0.0.0.0 crowdin.net
 0.0.0.0 d.gfan.com
+0.0.0.0 d.zqlx.com
 0.0.0.0 dev.adtouchnetwork.net
 0.0.0.0 dev.say-on.net
 0.0.0.0 display-img.g.atti.com
@@ -9821,31 +9842,44 @@ fe80::1%lo0	localhost
 0.0.0.0 images.millennialmedia.com
 0.0.0.0 images.mpression.net
 0.0.0.0 img.ads.taptapnetworks.com
+0.0.0.0 index.sosohaha.com
+0.0.0.0 jmplead.com
+0.0.0.0 m.1518.com
 0.0.0.0 m.adsymptotic.com
 0.0.0.0 m.askalok.com
 0.0.0.0 m.millennialmedia.com
 0.0.0.0 media.motrixi.com
 0.0.0.0 medrx.sensis.com.au
 0.0.0.0 millennialmedia.com
+0.0.0.0 mmedia.com
 0.0.0.0 moreapps.droidhen.com
 0.0.0.0 mpro.e.shifen.com
 0.0.0.0 myapk.cn
+0.0.0.0 noticemob.com
+0.0.0.0 ostermiller.org
+0.0.0.0 pixel-hk.pixelinteractivemedia.com
+0.0.0.0 promev3-web.hyxencloud.com
 0.0.0.0 proxy.youdraw.cn
+0.0.0.0 qingp.com
 0.0.0.0 rs-staticart.ybcdn.net
 0.0.0.0 s.wap.io
 0.0.0.0 sandbox.suizong.com
 0.0.0.0 static.189works.com
 0.0.0.0 test.adpooh.com
+0.0.0.0 v1-feed.idreamsky.com
 0.0.0.0 w.sandbox.mkhoj.com
 0.0.0.0 wap.cellufun.com
+0.0.0.0 wifi01.51y5.com
 0.0.0.0 www.admarket.mobi
 0.0.0.0 www.adtouchnetwork.com
+0.0.0.0 www.anadmob.net
 0.0.0.0 www.guohead.com
+0.0.0.0 www.moceanmobile.com
 0.0.0.0 www.speedtong.net
 0.0.0.0 www.spjoy.com
 0.0.0.0 www.stickylogic.com
 0.0.0.0 www.wqmobile.com
-0.0.0.0 pixel-hk.pixelinteractivemedia.com
+0.0.0.0 www.zhesm.com
 @HostsX 统计跟踪屏蔽
 #51La
 0.0.0.0 img.users.51.la
@@ -10275,8 +10309,16 @@ fe80::1%lo0	localhost
 0.0.0.0 ibw.sdo.com
 0.0.0.0 sda.ibw.sdo.com
 0.0.0.0 stat.aa.sdo.com
+0.0.0.0 stat.sdo.com
 0.0.0.0 static.ex.ibw.sdo.com
 0.0.0.0 zytt.0fb00c0e57.sdo.com
+0.0.0.0 de.ap.snyu.com
+0.0.0.0 hot.snyu.com
+0.0.0.0 js.ap.snyu.com
+0.0.0.0 pic.snyu.com
+0.0.0.0 r.snyu.com
+0.0.0.0 res.m.snyu.com
+0.0.0.0 rr.ap.snyu.com
 0.0.0.0 doubleclick.igalive.com
 0.0.0.0 ipagent.igalive.com
 0.0.0.0 js.igalive.com
@@ -10869,7 +10911,6 @@ fe80::1%lo0	localhost
 0.0.0.0 taojin.18ii.info
 0.0.0.0 tdyx.gamebean.com
 0.0.0.0 Towerofdefense.com
-0.0.0.0 wt1.skycn.gogle.cn
 0.0.0.0 www.001cndc.cn
 0.0.0.0 www.05kiss.cn
 0.0.0.0 www.125c.com
@@ -11174,6 +11215,7 @@ fe80::1%lo0	localhost
 0.0.0.0 131377.com
 0.0.0.0 168.mashangwan.com
 0.0.0.0 180.xdwan.com
+0.0.0.0 188.webgame86.net
 0.0.0.0 189.zhanguotj.com
 0.0.0.0 1st.ecoma.glb0.lxdns.com
 0.0.0.0 21456.18bm.com
@@ -11184,6 +11226,7 @@ fe80::1%lo0	localhost
 0.0.0.0 5.nihao600.com
 0.0.0.0 58.gyyx.cn
 0.0.0.0 614.hlwan.net
+0.0.0.0 614a.mnwan.com
 0.0.0.0 616.hlwan.net
 0.0.0.0 66.4wad.com
 0.0.0.0 66.fmx.cn
@@ -11244,6 +11287,7 @@ fe80::1%lo0	localhost
 0.0.0.0 c.sfilm.com
 0.0.0.0 c01.i05.cachecn.com
 0.0.0.0 c1.is686.com
+0.0.0.0 c1.niurenw.com
 0.0.0.0 c1.qmeishi.com
 0.0.0.0 cc00009.h.cncssr.chinache.net
 0.0.0.0 ccc.delete8527.cn
@@ -11256,6 +11300,7 @@ fe80::1%lo0	localhost
 0.0.0.0 click.315ts.net
 0.0.0.0 cloud.cashtrafic.info
 0.0.0.0 cn.88db.com
+0.0.0.0 code.178gg.com
 0.0.0.0 code.345ads.com
 0.0.0.0 code.3975lm.com
 0.0.0.0 code.51sotu.com
@@ -11391,15 +11436,19 @@ fe80::1%lo0	localhost
 0.0.0.0 info.uubig.com
 0.0.0.0 j.zqgame.com
 0.0.0.0 jksc.xywy.com
+0.0.0.0 js.11l11.net
 0.0.0.0 js.4738.com
 0.0.0.0 js.50bang.org
+0.0.0.0 js.6dad.com
 0.0.0.0 js.a3p4.com
 0.0.0.0 js.hl58.com
 0.0.0.0 js.laishu.com
 0.0.0.0 js.ssrj.net
+0.0.0.0 js.ta80.com
 0.0.0.0 js.union001.com
 0.0.0.0 js.zfjiu.com
 0.0.0.0 js1.union001.cn
+0.0.0.0 jscode.v5ad.com
 0.0.0.0 jscode.xp3366.com
 0.0.0.0 jump.100yl.net
 0.0.0.0 jump.top123.com.lt258.com
@@ -11454,6 +11503,7 @@ fe80::1%lo0	localhost
 0.0.0.0 p.srwchina.com
 0.0.0.0 p.xp9365.com
 0.0.0.0 p.yocc.net
+0.0.0.0 p2.aidaicn.com
 0.0.0.0 p4p.cnaz.com
 0.0.0.0 page.5iplay.cn
 0.0.0.0 passport.fs5d.com
@@ -11569,6 +11619,7 @@ fe80::1%lo0	localhost
 0.0.0.0 u.molidao.com
 0.0.0.0 u.otwan.com
 0.0.0.0 u.tdwan.com
+0.0.0.0 u.xcy8.com
 0.0.0.0 u.zhyizh.com
 0.0.0.0 u11.gzfiat.com
 0.0.0.0 u22.85soho.com
@@ -11762,13 +11813,4 @@ fe80::1%lo0	localhost
 0.0.0.0 yingguoweiku.wfx100.com
 0.0.0.0 yls.1919e.com
 0.0.0.0 yourchinalove.com
-0.0.0.0 code.178gg.com
-0.0.0.0 u.xcy8.com
-0.0.0.0 188.webgame86.net
-0.0.0.0 614a.mnwan.com
-0.0.0.0 p2.aidaicn.com
-0.0.0.0 c1.niurenw.com
-0.0.0.0 js.11l11.net
-0.0.0.0 js.ta80.com
-0.0.0.0 jscode.v5ad.com
-0.0.0.0 js.6dad.com
+
