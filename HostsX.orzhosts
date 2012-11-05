@@ -1,5 +1,5 @@
 
-;version=15:36 2012/11/5
+;version=20:12 2012/11/5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9821,6 +9821,7 @@ fe80::1%lo0	localhost
 0.0.0.0 cdn.puata.info
 0.0.0.0 cdn.vdopia.com
 0.0.0.0 client.azrj.cn
+0.0.0.0 chinaron.8866.org
 0.0.0.0 com2ushub.com2us.net
 0.0.0.0 content.mobango.com
 0.0.0.0 coolcode.org
