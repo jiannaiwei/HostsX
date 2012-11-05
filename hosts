@@ -1,5 +1,5 @@
 
-;version=20:12 2012/11/5
+;version=20:37 2012/11/5
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -8847,6 +8847,9 @@ fe80::1%lo0	localhost
 127.0.0.1 do.jieku.com
 127.0.0.1 files.jieku.com
 127.0.0.1 www.jieku.com
+#Junnew
+127.0.0.1 xt.junnew.com
+127.0.0.1 img.junnew.com
 #Junyilm
 127.0.0.1 www.junyilm.com
 127.0.0.1 tp.junyilm.com
@@ -10439,7 +10442,12 @@ fe80::1%lo0	localhost
 127.0.0.1 sddnserror7.wo.com.cn
 127.0.0.1 sddnserror8.wo.com.cn
 127.0.0.1 nfdnserror8.wo.com.cn
+127.0.0.1 nfdnserror1.wo.com.cn
 127.0.0.1 nfdnserror3.wo.com.cn.zpsn.com
+127.0.0.1 www6.1616.net
+127.0.0.1 st.1616.net
+127.0.0.1 www.wo116.com
+127.0.0.1 r.61658.com
 127.0.0.1 pop.17lele.net
 #各地运营商广告
 127.0.0.1 lc.havod.com
@@ -11801,7 +11809,6 @@ fe80::1%lo0	localhost
 127.0.0.1 x.rt97.org
 127.0.0.1 x.wawa123456.com
 127.0.0.1 xc.ewtang.com
-127.0.0.1 xt.junnew.com
 127.0.0.1 xy.8zgame.com
 127.0.0.1 xy.henhaoji.com
 127.0.0.1 xy.hxage.com
@@ -11814,4 +11821,3 @@ fe80::1%lo0	localhost
 127.0.0.1 yingguoweiku.wfx100.com
 127.0.0.1 yls.1919e.com
 127.0.0.1 yourchinalove.com
-
