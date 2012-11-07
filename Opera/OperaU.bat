@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.7
+set ver=1.0.1.9
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -7,6 +7,9 @@ rem Opera参数调用设置
 if '%1'=='opis' goto:opinst
 if '%1'=='opup' goto:opupdate
 if '%1'=='opcl' goto:opclean
+if '%1'=='tv' goto:tv
+if '%1'=='help' goto:help
+if '%1'=='md5' goto:md5
 
 :opupdate
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
@@ -98,3 +101,20 @@ c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 goto exit
+
+:tv
+start opera.exe "file://localhost/%~dp0/optools/html/tv.html" & exit
+
+:help
+start opera.exe "file://localhost/%~dp0/readme.html" & exit
+
+:md5
+del /q /a "%temp%\downifo" >nul 2>nul
+start "" /wait "%~dp0optools\nircmd.exe" clipboard writefile "%temp%\downifo"
+(for /f "usebackq tokens=1*" %%a in ("%temp%\downifo") do (
+ if exist "%%b" set "p=%%b" & goto md5continue
+)) >nul 2>nul
+echo._____&echo.文件不存在,可能已经被删除!&ping 00 -n 2 -w 888 >nul  & exit
+
+:md5continue
+start "" "%~dp0optools\hash.exe" "%p%"
