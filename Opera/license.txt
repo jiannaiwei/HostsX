@@ -1,6 +1,6 @@
 ﻿Opera SimpleU Mod 定制和参数详解：
 ; http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-11:46 2012/11/4
+13:51 2012-11-7
 
 无关的儿歌：
 逛逛蜻，来过河，
@@ -334,7 +334,7 @@ Alt+Q  切换自动填表
 Alt+R  Readability
 Alt+S  站点信息
 Alt+T  Opera关于
-Alt+U  更新Userjs
+Alt+U  HostsTool
 Alt+V  网页历史存档
 Alt+X  快速引用；空白页面访问剪切板网址或进行google搜索
 Alt+Z  只看楼主
