@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.6
+set ver=1.0.1.7
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -31,6 +31,21 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_keyboard.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
+wget http://userscripts.org/scripts/source/103552.user.js
+wget http://userscripts.org/scripts/source/123244.user.js
+wget http://userscripts.org/scripts/source/133534.user.js
+wget http://userscripts.org/scripts/source/117942.user.js
+wget http://userscripts.org/scripts/source/105741.user.js
+ren 105741.user.js picViewer.js
+ren 103552.user.js doubanimdb.user.js
+ren 123244.user.js doubaniask.user.js
+ren 133534.user.js TianyaRead.user.js
+ren 117942.user.js goglrd.js
+move /y picViewer.js profile\script
+move /y goglrd.js profile\script
+move /y TianyaRead.user.js profile\script
+move /y doubaniask.user.js profile\script
+move /y doubanimdb.user.js profile\script
 move /y license.txt locale\en
 move /y bookmarks.adr locale\zh-cn
 move /y Bookmarklets.adr locale\zh-cn

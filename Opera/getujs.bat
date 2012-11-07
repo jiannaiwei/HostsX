@@ -1,7 +1,7 @@
 @echo off
 pushd %~dp0
 del *.user.jsx
-del 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js Super_preloader.db.js DBankLinker.jsx doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrd.js
+del 0AutoPagerize.SITEINFO.jsx YoukuSS.js picViewer.js CleanPlayer.user.js Super_preloader.db.js DBankLinker.jsx doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrd.js
 wget http://userscripts.org/scripts/source/30096.user.js
 ren 30096.user.js Anti-Disabler.user.jsx
 wget http://userscripts.org/scripts/source/105184.user.js
@@ -38,4 +38,8 @@ wget http://userscripts.org/scripts/source/142198.user.js
 ren 117942.user.js Super_preloader.db.js
 wget http://ss-o.net/userjs/0AutoPagerize.SITEINFO.js
 ren 0AutoPagerize.SITEINFO.js 0AutoPagerize.SITEINFO.jsx
+wget http://userscripts.org/scripts/source/84972.user.js
+ren 84972.user.js YoukuSS.js
+wget http://userscripts.org/scripts/source/105741.user.js
+ren 105741.user.js picViewer.js
 msg %username% /time:3 "【UserJs数据已更新！】"
