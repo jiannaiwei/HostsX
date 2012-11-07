@@ -1,5 +1,5 @@
 
-;version=13:41 2012-11-7
+;version=14:26 2012-11-7
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1701,6 +1701,7 @@ fe80::1%lo0	localhost
 0.0.0.0 adview.tianya.cn
 0.0.0.0 squidclick.bbs.tianya.cn
 0.0.0.0 stat.tianya.cn
+0.0.0.0 static.tianya.cn
 0.0.0.0 urchin.tianya.cn
 0.0.0.0 801.tianyaui.com
 0.0.0.0 click.tianyaui.com
@@ -2104,6 +2105,7 @@ fe80::1%lo0	localhost
 #蓝色理想
 0.0.0.0 gg.blueidea.com
 #CSDN
+0.0.0.0 ad.csdn.net
 0.0.0.0 counter.csdn.net
 0.0.0.0 z.csdn.net
 0.0.0.0 zi.csdn.net
@@ -3493,6 +3495,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.bidvertiser.com
 #Betrad
 0.0.0.0 l.betrad.com
+0.0.0.0 c.betrad.com
 #Blogads
 0.0.0.0 b.blogads.com
 0.0.0.0 banners.blogads.com
@@ -11212,6 +11215,8 @@ fe80::1%lo0	localhost
 0.0.0.0 f2.tbjfw.com
 0.0.0.0 tg.01lm.com
 0.0.0.0 tuidl.01lm.com
+0.0.0.0 img.xcy8.com
+0.0.0.0 u.xcy8.com
 #恶意弹窗
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -11628,7 +11633,6 @@ fe80::1%lo0	localhost
 0.0.0.0 u.molidao.com
 0.0.0.0 u.otwan.com
 0.0.0.0 u.tdwan.com
-0.0.0.0 u.xcy8.com
 0.0.0.0 u.zhyizh.com
 0.0.0.0 u11.gzfiat.com
 0.0.0.0 u22.85soho.com
@@ -11822,4 +11826,7 @@ fe80::1%lo0	localhost
 0.0.0.0 yls.1919e.com
 0.0.0.0 yourchinalove.com
 0.0.0.0 jl100.net
-
+0.0.0.0 act.2144.cn
+0.0.0.0 av.lulu946.com
+0.0.0.0 www.vkehui.com
+0.0.0.0 cdn.statics.live.spongecell.com
