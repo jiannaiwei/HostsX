@@ -35,7 +35,7 @@ ren 121956.user.js LotusScent.user.jsx
 wget http://userscripts.org/scripts/source/117942.user.js
 ren 117942.user.js goglrd.js
 wget http://userscripts.org/scripts/source/142198.user.js
-ren 117942.user.js Super_preloader.db.js
+ren 142198.user.js Super_preloader.db.js
 wget http://ss-o.net/userjs/0AutoPagerize.SITEINFO.js
 ren 0AutoPagerize.SITEINFO.js 0AutoPagerize.SITEINFO.jsx
 wget http://userscripts.org/scripts/source/84972.user.js
