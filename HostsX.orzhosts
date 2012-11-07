@@ -1,5 +1,5 @@
 
-;version=14:31 2012-11-7
+;version=15:49 2012-11-7
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -10866,6 +10866,9 @@ fe80::1%lo0	localhost
 0.0.0.0 xiujue.net
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
+0.0.0.0 t.2456.cn
+0.0.0.0 www.2456.cn
+0.0.0.0 www.66game.cn
 #≤°∂æœ¬‘ÿ
 0.0.0.0 dl.soucool123.com
 0.0.0.0 www.tt669.com
@@ -11217,6 +11220,8 @@ fe80::1%lo0	localhost
 0.0.0.0 tuidl.01lm.com
 0.0.0.0 img.xcy8.com
 0.0.0.0 u.xcy8.com
+0.0.0.0 sd.gogo.com
+0.0.0.0 img.gogo.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -11830,5 +11835,4 @@ fe80::1%lo0	localhost
 0.0.0.0 av.lulu946.com
 0.0.0.0 www.vkehui.com
 0.0.0.0 cdn.statics.live.spongecell.com
-0.0.0.0 sd.gogo.com
-0.0.0.0 img.gogo.com
+0.0.0.0 code.9buo.com
