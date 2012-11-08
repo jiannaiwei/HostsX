@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.9
+set ver=1.0.1.10
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -15,7 +15,7 @@ if '%1'=='md5' goto:md5
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU+")(window.close)&Pause
 echo 正在下载数据，请稍候... ...
-del operaprefs_default.ini
+del operaprefs_default.ini client-zh-cn.zip
 wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini
@@ -39,6 +39,7 @@ wget http://userscripts.org/scripts/source/123244.user.js
 wget http://userscripts.org/scripts/source/133534.user.js
 wget http://userscripts.org/scripts/source/117942.user.js
 wget http://userscripts.org/scripts/source/105741.user.js
+wget http://dragonfly.opera.com/app/stp-1/zips/latest/client-zh-cn.zip
 ren 105741.user.js picViewer.js
 ren 103552.user.js doubanimdb.user.js
 ren 123244.user.js doubaniask.user.js
@@ -66,6 +67,10 @@ move /y standard_toolbar.ini profile\toolbar
 move /y BBS.css profile\styles\user
 move /y Custom.css profile\styles\user
 move /y OperaU.css profile\styles\user
+copy /y "%cd%\optools\7z.dll" 7z.dll
+copy /y "%cd%\optools\7z.exe" 7z.exe
+7z.exe x client-zh-cn.zip -y -aos -o"%cd%\profile\dragonfly"
+del 7z.exe 7z.dll
 cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & goto exit
 
 :opclean
