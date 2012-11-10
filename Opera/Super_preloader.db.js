@@ -3,7 +3,7 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 16:55 2012/11/10
+// @lastmodified 17:00 2012/11/10
 // @version 1.0.0.77
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
@@ -175,15 +175,6 @@
 			nextLink:'//div[@class="c-pages"]/a[text()="下一页"]',
 			autopager:{
 				pageElement:'//ol[@id="results"]',
-			}
-		},
-		{siteName:'淘宝搜索',
-			url:/http:\/\/s\.taobao\.com\/search\?/i,
-			siteExample:'http://s.taobao.com/search?spm=1.1',
-			enable:true,
-			nextLink:'//div[@class="pagination"]/a[text()="下一页"]',
-			autopager:{
-				pageElement:'//div[@id="list-content"]',
 			}
 		},
 		{siteName:'狗狗搜索',
