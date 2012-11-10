@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.10
+set ver=1.0.1.11
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -60,7 +60,7 @@ ren 133534.user.js TianyaRead.user.jsx
 ren 117942.user.js goglrd.js
 move /y picViewer.js profile\script
 move /y goglrd.js profile\script
-move /y TianyaRead.user.js profile\script
+move /y TianyaRead.user.jsx profile\script
 move /y doubaniask.user.js profile\script
 move /y doubanimdb.user.js profile\script
 move /y license.txt locale\en
@@ -84,7 +84,7 @@ copy /y "%cd%\optools\7z.dll" 7z.dll
 copy /y "%cd%\optools\7z.exe" 7z.exe
 7z.exe x client-zh-cn.zip -y -aos -o"%cd%\profile\dragonfly"
 del 7z.exe 7z.dll
-cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & goto exit
+cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & exit
 
 :opclean
 del /f /q autoupdate_response.xml download.dat global_history.dat search_field_history.dat tasks.xml vlink4.dat opuntrust.dat optrust.dat optrb.dat typed_history.xml upgrade.log
