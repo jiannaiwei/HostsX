@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.11
+set ver=1.0.1.12
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -80,10 +80,7 @@ move /y standard_toolbar.ini profile\toolbar
 move /y BBS.css profile\styles\user
 move /y Custom.css profile\styles\user
 move /y OperaU.css profile\styles\user
-copy /y "%cd%\optools\7z.dll" 7z.dll
-copy /y "%cd%\optools\7z.exe" 7z.exe
-7z.exe x client-zh-cn.zip -y -aos -o"%cd%\profile\dragonfly"
-del 7z.exe 7z.dll
+ren client-zh-cn.zip dragonfly.zip
 cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & exit
 
 :opclean
