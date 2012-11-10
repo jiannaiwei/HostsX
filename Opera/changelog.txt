@@ -1598,3 +1598,15 @@ Item,"使用迅雷下载"=Execute Program, "D:\DManager\Thunder\Components\ExplorerHel
 Item,"使用迅雷下载"=Copy image address & Execute Program, "D:\DManager\Thunder\Components\ExplorerHelper\XLNonIESvr.exe", "@%c %u"
 [Document Popup Menu]
 Item,"使用迅雷下载全部链接"=Execute Program, "D:\DManager\Thunder\Components\ExplorerHelper\XLNonIESvr.exe", "#%s %u"
+
+
+		{siteName:'天涯论坛帖子',
+			url:/http:\/\/www\.tianya\.cn\/.+\/content\/.+/i,
+			siteExample:'http://www.tianya.cn/publicforum/content/2010expo/4eddfdeea800b3957fd4781ff6004bc3/1/0/1.shtml',
+			nextLink:'//*[@id="pageDivTop" or @class="pages"]/descendant::a[text()="下一页"][@href]',
+			autopager:{
+				pageElement:'//div[@id="pContentDiv"]'
+			}
+		},
+		
+		

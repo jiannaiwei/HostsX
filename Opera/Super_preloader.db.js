@@ -1,13 +1,12 @@
 // ==UserScript==
-// @name Super_preloader.database
+// @name Super_preloader.db
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:22 2012/11/4
-// @version 1.0.0.75
+// @lastmodified 16:55 2012/11/10
+// @version 1.0.0.77
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
-// @updateURL   https://userscripts.org/scripts/source/142198.meta.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
 // @run-at    document-start
 // @include http*
@@ -180,12 +179,11 @@
 		},
 		{siteName:'淘宝搜索',
 			url:/http:\/\/s\.taobao\.com\/search\?/i,
-			siteExample:'http://www.youdao.com/search?',
-			enable:true,																																			//启用.(总开关)(可选)
-			useiframe:false,	
+			siteExample:'http://s.taobao.com/search?spm=1.1',
+			enable:true,
 			nextLink:'//div[@class="pagination"]/a[text()="下一页"]',
 			autopager:{
-				pageElement:'//ol[@id="list-content"]',
+				pageElement:'//div[@id="list-content"]',
 			}
 		},
 		{siteName:'狗狗搜索',
@@ -198,7 +196,7 @@
 		},
 		{siteName:'360搜索',
 			url:/^https?:\/\/so\.360\.cn\/s/i,
-			siteExample:'http://http://so.360.cn',
+			siteExample:'http://so.360.cn',
 			enable:true,
 			nextLink:'//div[@id="page"]/a[text()="下一页>"]',
 			autopager:{
@@ -226,15 +224,15 @@
 				HT_insert:['//div[@id="search"]',1],
 			}
 		},
-                {siteName:'百度空间',
-                        url:/^http:\/\/hi\.baidu\.com\/new/i,
-                        siteExample:'http://hi.baidu.com/new/752946479',
-                        nextLink:'auto;',
-                        autopager:{
-                            useiframe:true, //是否使用iframe翻页(可选)
-                                pageElement:'//article[@class="mod-blogitem mod-item-text"]',
-                        }
-                },
+		{siteName:'百度空间',
+			url:/^https?:\/\/hi\.baidu\.com\/new/i,
+			siteExample:'http://hi.baidu.com/new/vokins',
+			nextLink:'auto;',
+			autopager:{
+				useiframe:true,
+				pageElement:'//article[@class="mod-blogitem mod-item-text"]',
+			}
+		},
 		{siteName:'百度mp3',
 			url:/^http:\/\/mp3\.baidu\.com\/.+/i,
 			siteExample:'http://mp3.baidu.com/m?tn=baidump3&ct=134217728&lm=0&f=1&word=%CB%C0%C9%F1',
@@ -674,22 +672,22 @@
 				HT_insert:['//div[@id="weekhot"]',1],
 			}
 		},
-                {siteName:'人人影视',
-                        url:/^http:\/\/www\.yyets\.com\/php\/resourcelist/i,
-                        siteExample:'http://www.yyets.com/php/resourcelist',
-                        nextLink:'auto;',
-                        autopager:{
-                                pageElement:'//div[@class="box_4 res_listview"]',
-                        }
-                },
-                {siteName:'虎扑视频页',
-                        url:/^http:\/\/v\.hupu\.com/i,
-                        siteExample:'http://v.hupu.com/nba/new/ent',
-                        nextLink:'auto;',
-                        autopager:{
-                                pageElement:'//div[@class="text_box2"]',
-                        }
-                },
+		{siteName:'人人影视',
+			url:/^http:\/\/www\.yyets\.com\/php\/resourcelist/i,
+			siteExample:'http://www.yyets.com/php/resourcelist',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@class="box_4 res_listview"]',
+			}
+		},
+		{siteName:'虎扑视频页',
+			url:/^http:\/\/v\.hupu\.com/i,
+			siteExample:'http://v.hupu.com/nba/new/ent',
+			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
+			autopager:{
+				pageElement:'//div[@class="text_box2"]',
+			}
+		},
 		{siteName:'OperaChina',
 			url:/http:\/\/bbs\.operachina\.com/i,
 			nextLink:'auto;',
@@ -868,7 +866,6 @@
 				pageElement:'//div[@id="cotent_idd"]'
 			}
 		},
-
 		{siteName:'PCHOME 社区',
 			url:/http:\/\/club\.pchome\.net/i,
 			siteExample:'http://club.pchome.net/forum_1_15.html#',
@@ -888,11 +885,11 @@
 			},
 		},
 		{siteName:'天涯论坛帖子',
-			url:/http:\/\/www\.tianya\.cn\/.+\/content\/.+/i,
-			siteExample:'http://www.tianya.cn/publicforum/content/2010expo/4eddfdeea800b3957fd4781ff6004bc3/1/0/1.shtml',
-			nextLink:'//*[@id="pageDivTop" or @class="pages"]/descendant::a[text()="下一页"][@href]',
+			url:/http:\/\/bbs\.tianya\.cn\/.+\.shtml/i,
+			siteExample:'http://bbs.tianya.cn/post-feeling-2792523-1.shtml',
+			nextLink:'//div[@class="atl-pages"]/descendant::a[text()="下页"][@href]',
 			autopager:{
-				pageElement:'//div[@id="pContentDiv"]'
+				pageElement:'//div[@class="atl-main"]'
 			}
 		},
 		{siteName:'猫扑大杂烩帖子',
