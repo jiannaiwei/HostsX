@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.12
+set ver=1.0.1.13
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -58,6 +58,7 @@ ren 103552.user.js doubanimdb.user.js
 ren 123244.user.js doubaniask.user.js
 ren 133534.user.js TianyaRead.user.jsx
 ren 117942.user.js goglrd.js
+ren client-zh-cn.zip dragonfly.zip
 move /y picViewer.js profile\script
 move /y goglrd.js profile\script
 move /y TianyaRead.user.jsx profile\script
@@ -80,7 +81,7 @@ move /y standard_toolbar.ini profile\toolbar
 move /y BBS.css profile\styles\user
 move /y Custom.css profile\styles\user
 move /y OperaU.css profile\styles\user
-ren client-zh-cn.zip dragonfly.zip
+move /y dragonfly.zip profile
 cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & exit
 
 :opclean
