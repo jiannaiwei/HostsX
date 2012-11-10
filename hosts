@@ -1,5 +1,5 @@
 
-;version=17:19 2012/11/10
+;version=17:28 2012/11/10
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9470,6 +9470,7 @@ fe80::1%lo0	localhost
 #Lmmob
 127.0.0.1 ads.lmmob.com
 127.0.0.1 api.lmmob.com
+127.0.0.1 resource.lmmob.com
 #Lyy
 127.0.0.1 www.lyy.mobi
 127.0.0.1 uni.lyy.mobi
