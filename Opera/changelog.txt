@@ -1609,4 +1609,7 @@ Item,"使用迅雷下载全部链接"=Execute Program, "D:\DManager\Thunder\Components\Exp
 			}
 		},
 		
-		
+Item, "皮肤图标查看"="Execute program, "皮肤图标查看.bat""
+Item, Whoiz"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://whois.domaintools.com/'+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')))", , , "domaintools""
+Item, "Traceroute"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://dns-tools.domaintools.com/ip-tools/?query='+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')+'&method=traceroute'))", , , "domaintools""
+Item, "Website analysis"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://'+(window.navigator.language=='ru'?'pr-cy.ru/analysis/':'examineurl.com/Create-website-analysis.aspx?')+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')))",,, "ExchServer"
