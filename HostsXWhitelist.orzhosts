@@ -1,4 +1,4 @@
-;version=12:36 2012/10/14
+;version=14:36 2012-11-14
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致微软下载无法正常跳转。
@@ -140,6 +140,10 @@ vodguide.pps.tv
 $DELETE
 
 #导致PPS视频无法完整加载的问题。
+list1.ppstream.com
+dp.ppstream.com
+ugcfile.ppstream.com
+dp.ppstv.com
 dp.ugc.pps.tv
 dy.ugc.pps.tv
 dyn.ugc.pps.tv

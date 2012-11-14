@@ -1,5 +1,5 @@
 
-;version=17:28 2012/11/10
+;version=14:36 2012-11-14
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2519,13 +2519,9 @@ fe80::1%lo0	localhost
 0.0.0.0 shop.funshion.com
 #PPStream
 0.0.0.0 areainfo.ppstream.com
-0.0.0.0 dp.ppstream.com
-0.0.0.0 list1.ppstream.com
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
-0.0.0.0 ugcfile.ppstream.com
 0.0.0.0 br.pps.tv
-0.0.0.0 dp.ppstv.com
 0.0.0.0 g.pps.tv
 0.0.0.0 game.pps.tv
 0.0.0.0 in.pps.tv
