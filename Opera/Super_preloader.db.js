@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 17:00 2012/11/10
-// @version 1.0.0.77
+// @lastmodified 22:32 2012/11/16
+// @version 1.0.0.78
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -671,14 +671,6 @@
 				pageElement:'//div[@class="box_4 res_listview"]',
 			}
 		},
-		{siteName:'虎扑视频页',
-			url:/^http:\/\/v\.hupu\.com/i,
-			siteExample:'http://v.hupu.com/nba/new/ent',
-			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
-			autopager:{
-				pageElement:'//div[@class="text_box2"]',
-			}
-		},
 		{siteName:'OperaChina',
 			url:/http:\/\/bbs\.operachina\.com/i,
 			nextLink:'auto;',
@@ -686,15 +678,15 @@
 				pageElement:'//body/table | //article[@class="post blue"]',
 			}
 		},
-		{siteName:'机锋论坛',
-			url:/http:\/\/bbs\.gfan\.com/i,
+		{siteName:'机锋论坛/mozest社区',
+			url:/^http?:\/\/(bbs.gfan|g.mozest)\.com/i,
 			nextLink:'//div[@class="pages"]/a[@class="next"]',
 			autopager:{
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'远景论坛',
-			url:/http:\/\/bbs\.pcbeta\.com/i,
+		{siteName:'远景/PT80/百事高音乐 论坛',
+			url:/^http:\/\/(bbs.pcbeta|bbs.besgold|www.pt80)\.com/i,
 			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
 			autopager:{
 				useiframe:false,
@@ -709,35 +701,12 @@
 				pageElement:'//form[@name="delpost"] | //form[@method="post"]',
 			}
 		},
-		{siteName:'百事高音乐论坛',
-			url:/http:\/\/bbs\.besgold\.com/i,
-			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
-			autopager:{
-				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
-			}
-		},
-		{siteName:'mozest社区',
-			url:/^https?:\/\/g\.mozest\.com/i,
-			nextLink:'//div[@class="pages"]/a[@class="next"]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
-			}
-		},
-		{siteName:'塞班智能手机论坛列表',
-			url:/http:\/\/bbs\.dospy\.com\/forum/i,
-			siteExample:'http://bbs.dospy.com/forum-354-1.html',
-			nextLink:'//div[@class="p_bar"]/a[@class="p_curpage"]/following-sibling::a[@class="p_num"]',
-			autopager:{
-				pageElement:'//form[@name="moderate"]'
-			}
-		},
-		{siteName:'塞班智能手机论坛帖子',
-			url:/http:\/\/bbs\.dospy\.com\/thread/i,
+		{siteName:'塞班智能手机论坛',
+			url:/http:\/\/bbs\.dospy\.com/i,
 			siteExample:'http://bbs.dospy.com/thread-672836-1-52-1.html',
 			nextLink:'//div[@class="p_bar"]/a[@class="p_curpage"]/following-sibling::a[@class="p_num"]',
 			autopager:{
-				pageElement:'//form[@name="delpost"]'
+				pageElement:'//form[@name="delpost"] | //form[@name="moderate"]',
 			}
 		},
 		{siteName:'思源论坛帖子',
@@ -1035,7 +1004,7 @@
 			}
 		},
 		{siteName:'99漫画',
-			url:/^http:\/\/(cococomic|99manga|99770|99comic)\.(com|cc)\/.+\.htm/i,
+			url:/^http:\/\/(cococomic|99manga|99770|99comic|www.99comic)\.(com|cc)\/.+\.htm/i,
 			siteExample:'http://99manga.com/page/168/6481.htm?v=3*s=9',
 			nextLink: {
 			        startAfter:'?v=',

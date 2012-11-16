@@ -1,5 +1,5 @@
 
-;version=14:36 2012-11-14
+;version=20:43 2012/11/16
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -10460,6 +10460,7 @@ fe80::1%lo0	localhost
 127.0.0.1 pv.bbapp.net
 @HostsX ø…“…≤°∂æ¿πΩÿ
 #µˆ”„’©∆≠
+127.0.0.1 www.watbw.com
 127.0.0.1 www.vanbv.com
 127.0.0.1 98712.com
 127.0.0.1 t.98712.com
