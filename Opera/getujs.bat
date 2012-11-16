@@ -1,7 +1,7 @@
 @echo off
 pushd %~dp0
 del *.user.jsx
-del FlashBlock.js 0AutoPagerize.SITEINFO.jsx YoukuSS.js picViewer.js CleanPlayer.user.js Super_preloader.db.js DBankLinker.jsx doubaniask.user.js doubanimdb.user.js TianyaRead.user.js goglrd.js
+del 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js DBankLinker.jsx FlashBlock.jsx Super_preloader.db.js YoukuSS.jsx picViewer.jsx doubaniask.user.js doubanimdb.user.js goglrd.js
 wget http://userscripts.org/scripts/source/30096.user.js
 ren 30096.user.js Anti-Disabler.user.jsx
 wget http://userscripts.org/scripts/source/105184.user.js
@@ -29,7 +29,7 @@ ren 129215.user.js OnlinedownNoAds.user.jsx
 wget http://userscripts.org/scripts/source/123244.user.js
 ren 123244.user.js doubaniask.user.js
 wget http://userscripts.org/scripts/source/133534.user.js
-ren 133534.user.js TianyaRead.user.js
+ren 133534.user.js TianyaRead.user.jsx
 wget http://userscripts.org/scripts/source/121956.user.js
 ren 121956.user.js LotusScent.user.jsx
 wget http://userscripts.org/scripts/source/117942.user.js
@@ -39,9 +39,9 @@ ren 142198.user.js Super_preloader.db.js
 wget http://ss-o.net/userjs/0AutoPagerize.SITEINFO.js
 ren 0AutoPagerize.SITEINFO.js 0AutoPagerize.SITEINFO.jsx
 wget http://userscripts.org/scripts/source/84972.user.js
-ren 84972.user.js YoukuSS.js
+ren 84972.user.js YoukuSS.jsx
 wget http://userscripts.org/scripts/source/105741.user.js
-ren 105741.user.js picViewer.js
+ren 105741.user.js picViewer.jsx
 wget http://userscripts.org/scripts/source/126489.user.js
-ren 126489.user.js FlashBlock.js
+ren 126489.user.js FlashBlock.jsx
 msg %username% /time:3 "【UserJs数据已更新！】"
