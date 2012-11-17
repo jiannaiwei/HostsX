@@ -1,5 +1,5 @@
 
-;version=10:51 2012/11/17
+;version=21:07 2012/11/17
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -8782,6 +8782,11 @@ fe80::1%lo0	localhost
 127.0.0.1 csbew.com
 127.0.0.1 customer.csbew.com
 127.0.0.1 static.csbew.com
+#Diangao
+127.0.0.1 a.diangao.com
+127.0.0.1 pic.diangao.com
+127.0.0.1 u.diangao.com
+127.0.0.1 www.diangao.com
 #Donglink
 127.0.0.1 aimei.donglink.cn
 127.0.0.1 lt.donglink.cn
