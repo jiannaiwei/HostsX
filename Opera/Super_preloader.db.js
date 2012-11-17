@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:32 2012/11/16
-// @version 1.0.0.78
+// @lastmodified 13:37 2012/11/17
+// @version 1.0.0.80
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -822,7 +822,7 @@
 			siteExample:'http://lcd.zol.com.cn/187/1875145.html',
 			nextLink:'//a[text()="下一页"][@href]',
 			autopager:{
-				remain:3,
+				remain:10,
 				pageElement:'//div[@id="cotent_idd"]'
 			}
 		},
@@ -907,7 +907,8 @@
 			siteExample:'http://www.xcar.com.cn/bbs/viewthread.php?tid=12474760',
 			nextLink:'//a[text()="下一页＞"][@href]',
 			autopager:{
-				pageElement:'//form[@id="delpost"]',
+				pageElement:'//form[@id="delpost"] | //div[@class="maintable"][@id="_img"]',
+				HT_insert:['//div[@class="maintable"][@id="_img"]/div[@class="FpageNum tzy_list"]',1],
 			}
 		},
 		{siteName:'VeryCD搜索页面',
