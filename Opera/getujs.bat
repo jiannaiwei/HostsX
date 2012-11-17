@@ -32,8 +32,9 @@ wget http://userscripts.org/scripts/source/133534.user.js
 ren 133534.user.js TianyaRead.user.jsx
 wget http://userscripts.org/scripts/source/121956.user.js
 ren 121956.user.js LotusScent.user.jsx
-wget http://userscripts.org/scripts/source/117942.user.js
-ren 117942.user.js goglrd.js
+rem http://userscripts.org/scripts/source/117942.user.js
+wget http://userscripts.org/scripts/source/125473.user.js
+ren 125473.user.js goglrd.js
 wget http://userscripts.org/scripts/source/142198.user.js
 ren 142198.user.js Super_preloader.db.js
 wget http://ss-o.net/userjs/0AutoPagerize.SITEINFO.js

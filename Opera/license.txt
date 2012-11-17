@@ -403,6 +403,7 @@ http://userstyles.org/styles/78308/bbs-new-style-phpwind-discuz-tieba-phpbb
 JS选择：
 http://bbs.kafan.cn/thread-1393405-1-3.html
 http://opera.im/dl/bocnet.7z
+https://bitbucket.org/zbinlin/blockpopupwindow/get/tip.zip
 
 defaults/feedreaders.ini 修改:
 [豆瓣]

@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 13:37 2012/11/17
-// @version 1.0.0.80
+// @lastmodified 18:59 2012/11/17
+// @version 1.0.0.81
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -235,7 +235,7 @@
 			}
 		},
 		{siteName:'百度贴吧列表',
-			url:/^http:\/\/tieba\.baidu\.com\/f\?.*kw=/i,
+			url:/^http:\/\/tieba\.baidu\.com\/f/i,
 			siteExample:'http://tieba.baidu.com/f?kw=opera&fr=tb0_search&ie=utf-8',
 			nextLink:'//div[@class="pager clearfix"]/descendant::a[@class="next"]',
 			autopager:{
@@ -245,9 +245,10 @@
 		{siteName:'百度贴吧帖子',
 			url:/^http:\/\/tieba\.baidu\.com\/p/i,
 			siteExample:'http://tieba.baidu.com/p/918674650',
-			nextLink:'//li[@class="l_pager pager_theme_2"]/a[text()="下一页"]',
+			nextLink:'auto;',
 			autopager:{
-				pageElement:'//div[@class="p_postlist"]',
+				useiframe:true,
+				pageElement:'css;.l_post',
 			}
 		},
 		{siteName:'百度贴吧俱乐部帖子',
@@ -849,6 +850,7 @@
 			siteExample:'http://bbs.tianya.cn/post-feeling-2792523-1.shtml',
 			nextLink:'//div[@class="atl-pages"]/descendant::a[text()="下页"][@href]',
 			autopager:{
+				useiframe:true,
 				pageElement:'//div[@class="atl-main"]'
 			}
 		},
