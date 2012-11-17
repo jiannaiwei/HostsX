@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:11 2012/11/17
-// @version 1.0.0.83
+// @lastmodified 21:39 2012/11/17
+// @version 1.0.0.85
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -96,7 +96,7 @@
 	//高优先级规则,第一个是教程.
 	var SITEINFO=[
 		{siteName:'Google搜索',																																//站点名字...(可选)
-			url:/^https?:\/\/\w{3,10}\.google(?:\.\w{1,4}){1,2}\/search/i,											//站点正则...(~~必须~~)
+			url:/^https?:\/\/\w{2,10}\.google(?:\.\D{1,3}){1,2}\/[^?]+\?(?:.(?!&tbm=))+$/i,											//站点正则...(~~必须~~)
 			//url:'wildc;http://www.google.com.hk/search*',
 			siteExample:'http://www.google.com',																								//站点实例...(可选)
 			enable:true,																																			//启用.(总开关)(可选)
