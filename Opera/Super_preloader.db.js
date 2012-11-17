@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 18:59 2012/11/17
-// @version 1.0.0.81
+// @lastmodified 20:11 2012/11/17
+// @version 1.0.0.83
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -694,31 +694,6 @@
 				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
 			}
 		},
-		{siteName:'无忧论坛',
-			url:/http:\/\/bbs\.wuyou\.com/i,
-			useiframe:true,
-			nextLink:'auto;',
-			autopager:{
-				pageElement:'//form[@name="delpost"] | //form[@method="post"]',
-			}
-		},
-		{siteName:'塞班智能手机论坛',
-			url:/http:\/\/bbs\.dospy\.com/i,
-			siteExample:'http://bbs.dospy.com/thread-672836-1-52-1.html',
-			nextLink:'//div[@class="p_bar"]/a[@class="p_curpage"]/following-sibling::a[@class="p_num"]',
-			autopager:{
-				pageElement:'//form[@name="delpost"] | //form[@name="moderate"]',
-			}
-		},
-		{siteName:'思源论坛帖子',
-			url:/http:\/\/www\.missyuan\.com\/(?:view)?thread/i,
-			siteExample:'http://www.missyuan.com/thread-431242-1-1.html',
-			nextLink:'//div[@class="pages"]/descendant::a[@class="next"]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//form[@method="post"]',
-			}
-		},
 		{siteName:'霏凡论坛帖子',
 			url:/http:\/\/bbs\.crsky\.com\/read\.php/i,
 			nextLink:'auto;',
@@ -757,14 +732,6 @@
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//div[@class="z threadCommon"] | //div[@class="mb10 bodd"]',
-			}
-		},
-		{siteName:'EZ游戏社区帖子',
-			url:/http:\/\/bbs\.emu-zone\.org\/thread/i,
-			siteExample:'http://bbs.emu-zone.org/thread',
-			nextLink:'//div[@class="p_bar"]/descendant::a[text()="››"]',
-			autopager:{
-				pageElement:'//form[@method="post"]'
 			}
 		},
 		{siteName:'煎蛋首页',
@@ -868,14 +835,6 @@
 				useiframe:true,
 				pageElement:'//div[@id="body"]',
 				
-			}
-		},
-		{siteName:'茶片坊帖子',
-			url:/http:\/\/www\.soupis\.com\/(?:view)?thread/i,
-			siteExample:'http://www.soupis.com/thread-8004-1-1.html',
-			nextLink:'//div[@class="pages"]/descendant::a[@class="next"]',
-			autopager:{
-				pageElement:'//form[@method="post"][@name]',
 			}
 		},
 		{siteName:'色影无忌帖子',
@@ -1119,9 +1078,9 @@
 	//统配规则..用来灭掉一些DZ.或者phpwind论坛系统..此组规则..优先级自动降为最低..
 	var SITEINFO_TP=[
 		{siteName:'Discuz论坛列表',
-			url:/^https?:\/\/(?:www\.[^\/]+\/|[^\/]+\/(?:bbs\/)?)(?:(?:forum)|(?:showforum)|(?:viewforum))+/i,
+			url:/^https?:\/\/(?:www\.[^\/]+\/|[^\/]+\/(?:bbs\/)?)(?:(?:forum)|(?:showforum)|(?:viewforum)|(?:forumdisplay))+/i,
 			preLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="prev"][@href]',
-			nextLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="next" or @class="nxt"][@href]',
+			nextLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="next" or @class="nxt"][@href] | //div[@class="p_bar"]/a[@class="p_curpage"]/following-sibling::a[@class="p_num"]',
 			autopager:{
 				useiframe:true,
 					iloaded:false,
@@ -1131,11 +1090,11 @@
 		{siteName:'Discuz论坛帖子',
 			url:/https?:\/\/(?:www\.[^\/]+\/|[^\/]+\/(?:bbs\/)?)(?:(?:thread)|(?:viewthread)|(?:showtopic)|(?:viewtopic))+/i,
 			preLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="prev"][@href]',
-			nextLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="next" or @class="nxt"][@href]',
+			nextLink:'//div[@class="pages" or @class="pg"]/descendant::a[@class="next" or @class="nxt"][@href] | //div[@class="p_bar"]/descendant::a[text()="››"]',
 			autopager:{
 				useiframe:true,
 					iloaded:false,
-				pageElement:'//div[@id="postlist"]',
+				pageElement:'//div[@id="postlist"] | //form[@method="post"][@name]',
 			}
 		},
 		{siteName:'phpWind论坛列表',
