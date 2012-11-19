@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 21:39 2012/11/17
-// @version 1.0.0.85
+// @lastmodified 18:12 2012-11-19
+// @version 1.0.0.88
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -213,6 +213,14 @@
 				remain:1/3,
                                 filter:'css; #page',
 				HT_insert:['//div[@id="search"]',1],
+			}
+		},
+		{siteName:'百度知道',
+			url:/^https?:\/\/zhidao\.baidu\.com\/search\?/i,
+			siteExample:'http://zhidao.baidu.com/search?pn=0&&rn=10&word=%BD%AD%C4%CFstyle',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'css;div.results',
 			}
 		},
 		{siteName:'百度空间',
@@ -906,6 +914,32 @@
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'css;#output div.browse2:first-child',
+			}
+		},
+		{siteName:'pixiv 作品',
+			url:/http:\/\/www\.pixiv\.net\/member_illust\.php/i,
+			siteExample:'http://www.pixiv.net/member_illust.php',
+			nextLink:'//ul[@class="link-page"]/li[@class="link-older link-2ways"]/a[@href]',
+			autopager:{
+				pageElement:'//div[@class="front-centered"]',
+				remain: 0.33,
+				relatedObj:['css;div.works_illusticonsBlock','bottom'],
+			}
+		},
+		{siteName:'pixiv 日排行榜',
+			url:/http:\/\/www\.pixiv\.net\/(?:ranking|novel\/ranking)\.php/i,
+			siteExample:'http://www.pixiv.net/ranking.php or http://www.pixiv.net/novel/ranking.php',
+			nextLink:'//nav[@class="pager"]/ul/li[@class="next"]/a[@rel="next"][@href]',
+			autopager:{
+				pageElement:'//section[@class="articles novel_listview"] | //section[@class="articles autopagerize_page_element"]',
+			}
+		},
+		{siteName:'pixiv tags',
+			url:/http:\/\/www\.pixiv\.net\/(?:tags|novel\/tags)\.php/i,
+			siteExample:'http://www.pixiv.net/novel/tags.php',
+			nextLink:'//nav[@class="pager"]/ul/li[@class="next"]/a[@href][@rel="next"][@class="ui-button-light"]',
+			autopager:{
+				pageElement:'//section[@id="search-result"]',
 			}
 		},
 		{siteName:'照片处理网',
