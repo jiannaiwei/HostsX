@@ -412,6 +412,8 @@ net start 6to4 >nul 2>nul
 echo 正在设置ipv6相关信息
 netsh interface ipv6 isatap set router isatap.sjtu.edu.cn >nul 2>nul
 netsh interface ipv6 isatap set state enabled >nul 2>nul
+netsh interface ipv6 6to4 set state enabled >nul 2>nul
+netsh int ipv6 6to4 set relay 6to4.ipv6.microsoft.com >nul 2>nul
 goto:eof
 
 :entdata

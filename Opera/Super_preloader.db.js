@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 18:12 2012-11-19
-// @version 1.0.0.88
+// @lastmodified 20:07 2012/11/20
+// @version 1.0.0.90
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -688,10 +688,18 @@
 			}
 		},
 		{siteName:'机锋论坛/mozest社区',
-			url:/^http?:\/\/(bbs.gfan|g.mozest)\.com/i,
+			url:/^http?:\/\/(bbs.gfan|g.mozest|bbs.xda)\.com/i,
 			nextLink:'//div[@class="pages"]/a[@class="next"]',
 			autopager:{
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
+			}
+		},
+		{siteName:'XDA智能手机安卓论坛',
+			url:/http:\/\/bbs\.xda\.cn\/(forum|thread).*\.html/i,
+			nextLink:'auto;',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="threadlist"][@class="tl bm bmw"] | //div[@id="postlist"][@class="pl bm"]',
 			}
 		},
 		{siteName:'远景/PT80/百事高音乐 论坛',
@@ -934,8 +942,8 @@
 				pageElement:'//section[@class="articles novel_listview"] | //section[@class="articles autopagerize_page_element"]',
 			}
 		},
-		{siteName:'pixiv tags',
-			url:/http:\/\/www\.pixiv\.net\/(?:tags|novel\/tags)\.php/i,
+		{siteName:'pixiv tags & search',
+			url:/http:\/\/www\.pixiv\.net\/(?:tags|search|novel\/(?:tags|search))\.php/i,
 			siteExample:'http://www.pixiv.net/novel/tags.php',
 			nextLink:'//nav[@class="pager"]/ul/li[@class="next"]/a[@href][@rel="next"][@class="ui-button-light"]',
 			autopager:{
