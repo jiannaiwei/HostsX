@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:07 2012/11/20
-// @version 1.0.0.90
+// @lastmodified 18:31 2012/11/21
+// @version 1.0.0.92
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -663,6 +663,24 @@
 				pageElement:'//div[@id="chcontent"]'
 			}
 		},
+		{siteName:'幻侠小说网',
+			url:/http:\/\/www\.huanxia\.com\/book\w+\.html/i,
+			siteExample:'http://www.huanxia.com/book',
+			nextLink:'//a[@href][@id="htmlxiazhang"]',
+			autopager:{
+				pageElement:'//div[@class="h1title"] | //div[@id="htmlContent"][@class="contentbox"]',
+				HT_insert:['//div[@id="htmlContent"]',2],
+			}
+		},
+		{siteName:'潇湘书院',
+			url:/^http:\/\/www\.xxsy\.net\/books\/.*\.html/i,
+			siteExample:'http://www.xxsy.net/books/',
+			nextLink:'//div[@id="detailsubsbox"]/span/a[@href][@title="阅读下一章节"]',
+			autopager:{
+				pageElement:'//div[@id="detail_title"] | //div[@id="zjcontentdiv"]',
+				HT_insert:['//div[@id="zjcontentdiv"]',2],
+			}
+		},
 		{siteName:'百晓生中文网',
 			url:/^http:\/\/www\.bxs\.cc\/.+\.html/i,
 			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
@@ -687,19 +705,11 @@
 				pageElement:'//body/table | //article[@class="post blue"]',
 			}
 		},
-		{siteName:'机锋论坛/mozest社区',
-			url:/^http?:\/\/(bbs.gfan|g.mozest|bbs.xda)\.com/i,
-			nextLink:'//div[@class="pages"]/a[@class="next"]',
-			autopager:{
-				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
-			}
-		},
-		{siteName:'XDA智能手机安卓论坛',
-			url:/http:\/\/bbs\.xda\.cn\/(forum|thread).*\.html/i,
+		{siteName:'机锋论坛/mozest社区/XDA安卓论坛',
+			url:/^http?:\/\/(bbs.gfan|g.mozest|bbs.xda)\.(com|cn)\/.+\.htm/i,
 			nextLink:'auto;',
 			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="threadlist"][@class="tl bm bmw"] | //div[@id="postlist"][@class="pl bm"]',
+				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
 		{siteName:'远景/PT80/百事高音乐 论坛',
