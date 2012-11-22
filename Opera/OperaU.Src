@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.15
+set ver=1.0.1.17
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -7,7 +7,6 @@ rem Opera参数调用设置
 if '%1'=='opis' goto:opinst
 if '%1'=='opup' goto:opupdate
 if '%1'=='opcl' goto:opclean
-if '%1'=='tv' goto:tv
 if '%1'=='help' goto:help
 if '%1'=='md5' goto:md5
 
@@ -50,7 +49,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
 wget http://userscripts.org/scripts/source/103552.user.js
 wget http://userscripts.org/scripts/source/123244.user.js
 wget http://userscripts.org/scripts/source/117942.user.js
-wget http://dragonfly.opera.com/app/stp-1/zips/latest/client-zh-cn.zip
+wget --no-check-certificate -N "https://dragonfly.opera.com/app/stp-1/zips/latest/client-zh-cn.zip"
 ren 103552.user.js doubanimdb.user.js
 ren 123244.user.js doubaniask.user.js
 ren 117942.user.js goglrd.js
@@ -112,11 +111,8 @@ rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 goto exit
 
-:tv
-start opera.exe "file://localhost/%~dp0/optools/html/tv.html" & exit
-
 :help
-start opera.exe "file://localhost/%~dp0/readme.html" & exit
+start locale\en\license.txt & start opera.exe "file://localhost/%~dp0/readme.html" & exit
 
 :md5
 del /q /a "%temp%\downifo" >nul 2>nul

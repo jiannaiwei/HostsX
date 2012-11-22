@@ -1,6 +1,6 @@
 ﻿Opera SimpleU Mod 定制和参数详解：
 ; http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-23:34 2012/11/16
+18:46 2012/11/22
 
 无关的儿歌：
 逛逛蜻，来过河，

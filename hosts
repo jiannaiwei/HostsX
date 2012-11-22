@@ -1,5 +1,5 @@
 
-;version=17:05 2012/11/18
+;version=19:07 2012/11/22
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9795,7 +9795,9 @@ fe80::1%lo0	localhost
 127.0.0.1 24sp.cc
 127.0.0.1 ad-locus.com
 127.0.0.1 ad.3g.cn
+127.0.0.1 ad.belugaboost.com
 127.0.0.1 ad.camera360.us
+127.0.0.1 ads.feelingtouch.com
 127.0.0.1 ad.jiemai-tech.com
 127.0.0.1 ad.moji001.com
 127.0.0.1 ad.where.com
@@ -9871,6 +9873,7 @@ fe80::1%lo0	localhost
 127.0.0.1 proxy.youdraw.cn
 127.0.0.1 qingp.com
 127.0.0.1 rs-staticart.ybcdn.net
+127.0.0.1 s.com2us.net
 127.0.0.1 s.wap.io
 127.0.0.1 sandbox.suizong.com
 127.0.0.1 static.189works.com

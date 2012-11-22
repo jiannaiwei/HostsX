@@ -1195,6 +1195,7 @@ http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻页 http://tu.p
 http://c.pingba.qidian.com/BookComment.aspx?* 起点书评区
 
 删减备份：
+*/adclick?sid=*
 http://js.*.com/i.js
 */cpm_static/*
 */stat.php?id=*
@@ -1614,3 +1615,14 @@ Item, "皮肤图标查看"="Execute program, "皮肤图标查看.bat""
 Item, Whoiz"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://whois.domaintools.com/'+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')))", , , "domaintools""
 Item, "Traceroute"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://dns-tools.domaintools.com/ip-tools/?query='+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')+'&method=traceroute'))", , , "domaintools""
 Item, "Website analysis"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://'+(window.navigator.language=='ru'?'pr-cy.ru/analysis/':'examineurl.com/Create-website-analysis.aspx?')+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')))",,, "ExchServer"
+Button, "百度文库"="Execute program,"optools\wenku.bat", "%u" ,, "baidu""
+Item, "华为Dbank"="Go to page, "javascript:globallinkdata.data['profile.productid']=30;adsShow=0;alert('已解除下载限制!');", , , "dbank""
+Item, "华军软件"="Go to page, "javascript:showDownlist(type,'checkok');",,,"huajun""
+Item, "华军软件园"="Go to page, "javascript:CustomDefinedAjaxOnkeyup(1);", , , "huajun""
+Item, "威盘下载"="Go to page, "javascript:(function(){$('#loadingbox').hide();yanzheng_ok();})();",,,"vdisk""
+Item, "千军万马网盘"="Go to page, "javascript:(function(){document.getElementById('downtc').innerHTML= downurl;})();",,,"vdisk""
+Item, "YunFile"="Go to page, "javascript:var downpage_link = document.getElementById('downpage_link');window.location=downpage_link.href;void(0)", , , "yunfile""
+Item, "VerCD破解"="Go to page, "javascript: location.href=location.href.replace("www.verycd.com","verycdfetch.duapp.com");",,,"verycd""
+Item, "VeryCD2"= "Go to page, "javascript: location.href=location.href.replace('www.verycd.com','www.verycd.gdajie.com');",,,"verycd""
+Item, "云点播本连接"=Go to page, "javascript:void(window.open('http://61.147.76.6/iplay.html?from=vlist&url=%l'))",,,"Resume transfer""
+Item,"在线电视" = Execute program,"OperaU.bat","tv","", "Window Browser Icon"
