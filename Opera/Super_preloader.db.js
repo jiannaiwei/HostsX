@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 18:53 2012/11/22
-// @version 1.0.0.93
+// @lastmodified 22:35 2012/11/23
+// @version 1.0.0.95
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -787,12 +787,21 @@
 			}
 		},
 		{siteName:'CSDN论坛',
-			url:/^http:\/\/topic\.csdn\.net\/u\//i,
-			siteExample:'http://topic.csdn.net/u/20121015/14/6C55089A-23BD-409E-9647-020AC6C2C683.html',
-			nextLink:'//a[@onclick="LogClickCount(this,110);" and ./preceding::*[position()=1 and @class="on"]] | //a[text()="下一页"]',//尼玛真心难定位
+			url:/^http:\/\/bbs\.csdn\.net\/forums\//i,
+			siteExample:'http://bbs.csdn.net/forums/Qt',
+			nextLink:'//div[@class="page_nav"]/descendant::a[text()="下一页"]',
 			autopager:{
-				pageElement:'//table[@csdnid]',
-				replaceE:'//ul[@class="plist"]',
+				pageElement:'//body/div/div[@class="content"]/table',
+				replaceE:'////div[@class="page_nav"]',
+			}
+		},
+		{siteName:'CSDN话题',
+			url:/^http:\/\/bbs\.csdn\.net\/topics\//i,
+			siteExample:'http://bbs.csdn.net/topics/390244325',
+			nextLink:'//div[@class="control_area"]/descendant::a[@class="next"]',
+			autopager:{
+				pageElement:'//div[@class="detailed"]',
+				replaceE:'//div[@class="control_area"]',
 			}
 		},
 		{siteName:'55188论坛列表',
@@ -1009,12 +1018,12 @@
 				mFails:[/^http:\/\/www\.imanhua\.com\/comic\/.+\.html/i,'?p=1'],
 				inc:1,
 				isLast:function(doc,win,lhref){
-					var s2=doc.getElementById('s2');
-					if(s2){
-						var s2os=s2.options
+					var pageSelect=doc.getElementById('pageSelect');
+					if(pageSelect){
+						var s2os=pageSelect.options
 						var s2osl=s2os.length;
 						//alert(s2.selectedIndex);
-						if(s2.selectedIndex==s2osl-1)return true;
+						if(pageSelect.selectedIndex==s2osl-1)return true;
 					};
 				},
 			},
