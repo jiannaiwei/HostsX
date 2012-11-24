@@ -1,5 +1,5 @@
 
-;version=15:02 2012/11/24
+;version=22:27 2012/11/24
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9316,6 +9316,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ox-i.ad-maker.info
 0.0.0.0 ox-d.ad-maker.info
 #Adview
+0.0.0.0 config.adview.cn
 0.0.0.0 report.adview.cn
 0.0.0.0 www.adview.cn
 #Aandroid
