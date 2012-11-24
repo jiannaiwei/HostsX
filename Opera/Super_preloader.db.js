@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 9:25 2012/11/24
-// @version 1.0.0.95
+// @lastmodified 10:00 2012/11/24
+// @version 1.0.0.96
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -705,8 +705,29 @@
 				pageElement:'//body/table | //article[@class="post blue"]',
 			}
 		},
-		{siteName:'机锋论坛/mozest社区/XDA安卓论坛',
-			url:/^http?:\/\/(bbs.gfan|g.mozest|bbs.xda)\.(com|cn)\/.+\.htm/i,
+		{siteName:'addons.mozilla.org',
+			url: /^https:\/\/addons\.mozilla\.org\/.*\/search\//i,
+			siteExample: 'https://addons.mozilla.org/zh-CN/firefox/search/?q=flash&appver=11.0&platform=windows',
+			nextLink: {
+			        startAfter: '&page=',
+			        mFails: [/^https:\/\/addons\.mozilla\.org\/.*\/search\/.*/i, '&page=1'],
+			        inc:1,			
+			},
+			autopager:{
+				remain: 1 / 4,
+				pageElement: '//div[@class="items"]',
+			}
+		},
+		{siteName:'mozest社区',
+			url:/^https?:\/\/g\.mozest\.com/i,
+			nextLink:'//div[@class="pages"]/a[@class="next"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
+			}
+		},
+		{siteName:'机锋论坛/XDA安卓论坛',
+			url:/^http?:\/\/(bbs.gfan|bbs.xda)\.(com|cn)/i,
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
