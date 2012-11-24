@@ -1,5 +1,5 @@
 
-;version=19:07 2012/11/22
+;version=15:02 2012/11/24
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3087,6 +3087,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ad.top1.adbn.ru
 0.0.0.0 ad.rich1.adbn.ru
 #Adcash
+0.0.0.0 ads.depositfiles.com
 0.0.0.0 adcash.com
 0.0.0.0 www.adcash.com
 #Pcads
@@ -6376,6 +6377,9 @@ fe80::1%lo0	localhost
 0.0.0.0 banners.celebtaboo.com
 0.0.0.0 banners.dollarmachine.com
 0.0.0.0 banners.totalaccessporn.com
+#Relax
+0.0.0.0 content.relax.ru
+0.0.0.0 engine.mediamir.medialand.ru
 #Rambler
 0.0.0.0 ad.rambler.ru
 0.0.0.0 ad2.rambler.ru
