@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name Super_preloader.db
-// @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,kwoktree
+// @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:35 2012/11/23
+// @lastmodified 9:25 2012/11/24
 // @version 1.0.0.95
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
