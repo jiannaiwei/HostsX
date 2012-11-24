@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 10:00 2012/11/24
-// @version 1.0.0.96
+// @lastmodified 22:08 2012/11/24
+// @version 1.0.0.98
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -679,6 +679,22 @@
 			autopager:{
 				pageElement:'//div[@id="detail_title"] | //div[@id="zjcontentdiv"]',
 				HT_insert:['//div[@id="zjcontentdiv"]',2],
+			}
+		},
+		{siteName:'书海',
+			url:/^http:\/\/www\.shuhai\.com\/read\/.*\.html/i,
+			siteExample:'http://www.shuhai.com/read/4014/371553.html',
+			nextLink:'//div[@class="page_operate font_blue"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="txt"]'
+			}
+		},
+		{siteName:'天下书盟',
+			url:/^http:\/\/www\.fbook\.net\/book\/.*\.htm/i,
+			siteExample:'http://www.fbook.net/book/35793/2656834.htm',
+			nextLink:'//div[@id="pages"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="bookbody"]'
 			}
 		},
 		{siteName:'百晓生中文网',
