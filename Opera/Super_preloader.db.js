@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 14:48 2012/11/25
-// @version 1.0.0.101
+// @lastmodified 15:33 2012/11/25
+// @version 1.0.0.102
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -757,6 +757,13 @@
 				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
 			}
 		},
+		{siteName:'vBulletin论坛 加加/看雪/XDA',
+			url:/http:\/\/(bbs|forum)\.(jjol|pediy|xda-developers)\.(cn|com)\/(forumdisplay|showthread)/i,
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@id="posts"]/div[@align="center"] | //table[@class="tborder"][@id="threadslist"]',
+			}
+		},
 		{siteName:'天坛',
 			url:/http:\/\/bbs\.waptw\.com/i,
 			nextLink:'auto;',
@@ -952,7 +959,7 @@
 			}
 		},
 		{siteName:'User Scripts/Styles',
-			url:/^http:\/\/user(scripts|styles)\.org\/(scripts|tags|styles\/browse)/i,
+			url:/^http:\/\/user(scripts|styles)\.org\/(scripts|tags|styles\/browse|home\/favorites)/i,
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//table[@class="wide forums"] | //article[starts-with(@class,"style-brief")]',
