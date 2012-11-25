@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:08 2012/11/24
-// @version 1.0.0.98
+// @lastmodified 14:48 2012/11/25
+// @version 1.0.0.101
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -742,14 +742,14 @@
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'机锋论坛/XDA安卓论坛',
-			url:/^http?:\/\/(bbs.gfan|bbs.xda)\.(com|cn)/i,
+		{siteName:'Discuz X2.5修复',
+			url:/^http?:\/\/(bbs.gfan|bbs.xda|bbs.xiaomi|www.diypda)\.(com|cn)/i,
 			nextLink:'auto;',
 			autopager:{
 				pageElement:'//div[@id="threadlist"] | //div[@id="postlist"]',
 			}
 		},
-		{siteName:'远景/PT80/百事高音乐 论坛',
+		{siteName:'Discuz 页面跳转修复',
 			url:/^http:\/\/(bbs.pcbeta|bbs.besgold|www.pt80)\.com/i,
 			nextLink:'//div[@class="pg"]/descendant::a[@class="nxt"]',
 			autopager:{
@@ -757,7 +757,14 @@
 				pageElement:'//div[@id="postlist"] | //form[@id="moderate"]',
 			}
 		},
-		{siteName:'霏凡论坛帖子',
+		{siteName:'天坛',
+			url:/http:\/\/bbs\.waptw\.com/i,
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@id="content"]',
+			}
+		},
+		{siteName:'霏凡论坛',
 			url:/http:\/\/bbs\.crsky\.com\/read\.php/i,
 			nextLink:'auto;',
 			autopager:{
@@ -944,11 +951,11 @@
 				HT_insert:['//div[@class="maintable"][@id="_img"]/div[@class="FpageNum tzy_list"]',1],
 			}
 		},
-		{siteName:'UserScripts.org',
-			url:/^http:\/\/userscripts\.org\/(scripts|tags)/i,
+		{siteName:'User Scripts/Styles',
+			url:/^http:\/\/user(scripts|styles)\.org\/(scripts|tags|styles\/browse)/i,
 			nextLink:'auto;',
 			autopager:{
-				pageElement:'//table[@class="wide forums"]',
+				pageElement:'//table[@class="wide forums"] | //article[starts-with(@class,"style-brief")]',
 			}
 		},
 		{siteName:'VeryCD搜索页面',
@@ -1020,6 +1027,14 @@
 			autopager:{
 				pageElement:'//body/table[last()-2]',
 				useiframe:true,
+			}
+		},
+		{siteName:'扑家汉化平台',
+			url:/^http:\/\/www\.pujiahh\.com\/library/i,
+			siteExample:'http://www.pujiahh.com/library/',
+			nextLink:'//div[@class="pagination"]/descendant::a[text()="下一页 ››"]',
+			autopager:{
+				pageElement:'//div[@class="span8"]/div[@class="modal"]/div[@class="modal-body"]',
 			}
 		},
 		{siteName:'天极动漫频道新闻',
@@ -1116,6 +1131,14 @@
 			autopager:{
 				pageElement:'//div[@class="mg_auto"]',
 				useiframe:true,
+			}
+		},
+		{siteName:'暴走漫画',
+			url:/http:\/\/xiaoliaobaike\.(com|com\/latest\/page\/\d+)/i,
+			siteExample:'http://xiaoliaobaike.com/',
+			nextLink:'//div[@class="pagebar"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@class="block untagged article drop-shadow publish"]',
 			}
 		},
 		{siteName:'火影忍者中文网',
