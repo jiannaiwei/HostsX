@@ -1,6 +1,6 @@
 ﻿Opera SimpleU Mod 定制和参数详解：
 ; http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-18:46 2012/11/22
+16:17 2012/11/25
 
 无关的儿歌：
 逛逛蜻，来过河，
@@ -371,6 +371,7 @@ Alt+Z  只看楼主
 ViewinIE插件：http://bbs.operachina.com/viewtopic.php?f=54&t=7730
 silverlight插件：http://www.microsoft.com/getsilverlight/get-started/install/default.aspx?reason=unsupportedbrowser
 Flash插件下载：http://www.adobe.com/cn/products/flashplayer/distribution3.html
+               http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager09.html
  用于IE浏览器：
  10.3旧版下载： http://download.macromedia.com/pub/flashplayer/current/licensing/win/install_flash_player_10_active_x.exe
  11版下载：     http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_11_active_x.exe
