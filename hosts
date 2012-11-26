@@ -1,5 +1,5 @@
 
-;version=22:27 2012/11/24
+;version=20:44 2012/11/26
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -659,6 +659,7 @@ fe80::1%lo0	localhost
 127.0.0.1 s8.taobao.com
 127.0.0.1 search8.taobao.com
 127.0.0.1 stat.simba.taobao.com
+127.0.0.1 textlink.simba.taobao.com
 127.0.0.1 taourl.com
 127.0.0.1 hz.mmstat.com
 127.0.0.1 p3p.mmstat.com
@@ -671,6 +672,7 @@ fe80::1%lo0	localhost
 127.0.0.1 taobaoafp.allyes.com
 127.0.0.1 img.uu1001.cn
 #新浪网
+127.0.0.1 adimg.mobile.sina.cn
 127.0.0.1 c.biz.weibo.com
 127.0.0.1 all.vic.sina.com.cn
 127.0.0.1 iyh365.cn
@@ -763,6 +765,7 @@ fe80::1%lo0	localhost
 127.0.0.1 adpublish.ydstatic.com
 127.0.0.1 oimageb2.ydstatic.com
 #腾讯QQ
+127.0.0.1 upload_data.qq.com
 127.0.0.1 ad.qq.com
 127.0.0.1 adping.qq.com
 127.0.0.1 adsclick.qq.com
@@ -831,6 +834,19 @@ fe80::1%lo0	localhost
 127.0.0.1 un.so.gougou.com
 127.0.0.1 www.155.com
 #迅雷看看
+127.0.0.1 imghub5pr.sandai.net
+127.0.0.1 hub5btmain.sandai.net
+127.0.0.1 hub5c.sandai.net
+127.0.0.1 hub5emu.sandai.net
+127.0.0.1 hub5pn.sandai.net
+127.0.0.1 hub5pnc.sandai.net
+127.0.0.1 hub5pr.sandai.net
+127.0.0.1 hub5u.sandai.net
+127.0.0.1 dlresctrl.phub.sandai.net
+127.0.0.1 ub.dphub.sandai.net
+127.0.0.1 master.dphub.sandai.net
+127.0.0.1 ipbase.phub.sandai.net
+127.0.0.1 pmap.sandai.net
 127.0.0.1 cop.my.sandai.net
 127.0.0.1 adcount.sandai.net
 127.0.0.1 analytics-union.sandai.net
@@ -851,7 +867,6 @@ fe80::1%lo0	localhost
 127.0.0.1 mpv.sandai.net
 127.0.0.1 pubstat.sandai.net
 127.0.0.1 server1.adpolestar.net
-127.0.0.1 ub.dphub.sandai.net
 127.0.0.1 vodsts.sandai.net
 127.0.0.1 advstat.xunlei.com
 127.0.0.1 analytics-union.xunlei.com
@@ -1018,6 +1033,7 @@ fe80::1%lo0	localhost
 127.0.0.1 api.atdmt.com
 127.0.0.1 atdmt.com
 127.0.0.1 atlasdmt.com
+127.0.0.1 aidps.atdmt.com
 127.0.0.1 c.atdmt.com
 127.0.0.1 click.atdmt.com
 127.0.0.1 ec.atdmt.com
@@ -2452,9 +2468,11 @@ fe80::1%lo0	localhost
 127.0.0.1 seapp.stat.360safe.com
 127.0.0.1 softm.update.360safe.com
 127.0.0.1 stat.360safe.com
+127.0.0.1 yhds.stat.360safe.com
 127.0.0.1 update.360safe.com
 127.0.0.1 upload.360safe.com
 127.0.0.1 x.360safe.com
+127.0.0.1 agd.p.360.cn
 127.0.0.1 bp.conf.f.360.cn
 127.0.0.1 cdn.apc.360.cn
 127.0.0.1 click.stat.hao.360.cn
@@ -9449,6 +9467,10 @@ fe80::1%lo0	localhost
 127.0.0.1 req.himogo.com
 #immob
 127.0.0.1 adserving.immob.cn
+#immomo
+127.0.0.1 ap.immomo.com
+127.0.0.1 api.immomo.com
+127.0.0.1 img.immomo.com
 #infolife
 127.0.0.1 adconfig.infolife.mobi
 127.0.0.1 app.infolife.mobi
@@ -9548,6 +9570,7 @@ fe80::1%lo0	localhost
 127.0.0.1 img.ads3.mocean.mobi
 127.0.0.1 img.ads4.mocean.mobi
 #Mobclix
+127.0.0.1 alive.pen.io
 127.0.0.1 au.umeng.co
 127.0.0.1 au.umeng.com
 127.0.0.1 alog.umeng.co
@@ -9795,6 +9818,10 @@ fe80::1%lo0	localhost
 127.0.0.1 a.zestadz.com
 127.0.0.1 assets.zestadz.com
 127.0.0.1 www.zestadz.com
+#Zdworks
+127.0.0.1 clock.stat.zdworks.com
+127.0.0.1 clock.update.zdworks.com
+127.0.0.1 zpns.zdworks.com
 #WapSite
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
@@ -10462,6 +10489,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.wo116.com
 127.0.0.1 r.61658.com
 127.0.0.1 pop.17lele.net
+127.0.0.1 search.yousee.com
 #各地运营商广告
 127.0.0.1 lc.havod.com
 127.0.0.1 havod.com
