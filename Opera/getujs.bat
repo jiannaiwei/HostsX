@@ -1,7 +1,7 @@
 @echo off
 pushd %~dp0
 del *.user.jsx
-del ush.js 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js DBankLinker.jsx FlashBlock.jsx Super_preloader.db.js YoukuSS.jsx picViewer.jsx doubaniask.user.js doubanimdb.user.js goglrd.js
+del ush.js 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js DBankLinker.jsx FlashBlock.jsx Super_preloader.db.js YoukuSS.jsx picViewer.js doubaniask.user.js doubanimdb.user.js goglrd.js
 wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 wget http://userscripts.org/scripts/source/30096.user.js
 ren 30096.user.js Anti-Disabler.user.jsx
@@ -43,7 +43,7 @@ ren 0AutoPagerize.SITEINFO.js 0AutoPagerize.SITEINFO.jsx
 wget http://userscripts.org/scripts/source/84972.user.js
 ren 84972.user.js YoukuSS.jsx
 wget http://userscripts.org/scripts/source/105741.user.js
-ren 105741.user.js picViewer.jsx
+ren 105741.user.js picViewer.js
 wget http://userscripts.org/scripts/source/126489.user.js
 ren 126489.user.js FlashBlock.jsx
 msg %username% /time:3 "【UserJs数据已更新！】"
