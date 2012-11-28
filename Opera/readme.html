@@ -144,17 +144,21 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
       <li><a href="#keyboard">快捷键</a></li>
       <li><a href="#mouse">鼠标手势</a></li>
       <li><a href="#qa">常见问题解答</a></li>
-      <li><a href="#history">历史更新记录</a></li>
+      <li><a href="http://hostsx.googlecode.com/svn/trunk/Opera/license.txt">历史更新记录</a><a href="#history"></a></li>
     </ul>
-    <p> 以上链接说明了一种基本导航结构，该结构使用以 CSS 设置样式的无序列表。请以此作为起点修改属性，以生成您自己的独特外观。如果需要弹出菜单，请使用 Spry 菜单、Adobe Exchange 中的菜单构件 或其它各种 javascript 或 CSS 解决方案创建您自己的菜单。</p>
-    <p>如果您想要在顶部进行导航，只需将 ul.nav 移到页面顶部并重新创建样式即可。</p>
-  <!-- end .sidebar1 --></div>
+    <p><!-- end .sidebar1 --></p>
+  </div>
   <div class="content">
     <h1>Opera SimpleU Mod<a id="mod"></a></h1>
     <p id="waring">请注意，用之前务必先阅读一下本介绍！<br />
       不建议跨版本安装，情先备份个人数据！<br />
     删除旧版后，安装新版，恢复个人数据！</p>
-    <h2>1 and More，至简智用</h2>
+    <p>SimpleU定制版调用了Opera自带的安装界面。<br />
+    当然，对于想使用绿色版的朋友可以用7-zip等压缩软件右键直接解压即可。<br />
+    如果您设置了Opera为默认浏览器，请自行修改配置文件内相应的相对路径为绝对路径！<br />
+    或到op目录下运行一下Greenpath工具！<br />
+    </p>
+<h2>1 and More，至简智用</h2>
     <p><code>配置调整<br />
     搜索引擎（括号内为搜索关键字）：</code></p>
 <option></option>
@@ -441,80 +445,130 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
         <td>用世界之窗浏览器打开当前页面</td>
       </tr>
       <tr>
-        <th scope="row">g,f (goto find)</th>
+        <th scope="row">g,a</th>
+        <td>添加到Google书签</td>
+      </tr>
+      <tr>
+        <th scope="row">g,c</th>
+        <td>Google快照</td>
+      </tr>
+      <tr>
+        <th scope="row">g,g</th>
+        <td>用Google搜索选中的文本内容</td>
+      </tr>
+      <tr>
+        <th scope="row">g,m</th>
+        <td>Goo.gl短链生成</td>
+      </tr>
+      <tr>
+        <th scope="row">g,f</th>
         <td>在本页之中高亮搜索当前选择的文本</td>
       </tr>
       <tr>
-        <th scope="row">g,g (goto google)</th>
-        <td>用google搜索选中的文本内容</td>
-      </tr>
-      <tr>
-        <th scope="row">g,r (googleReader)</th>
+        <th scope="row">g,r</th>
         <td>将当前网址订阅到GoogleReader</td>
       </tr>
       <tr>
-        <th scope="row">g,s (goto search)</th>
+        <th scope="row">g,s</th>
         <td>将选中文本转到搜索框之中</td>
       </tr>
       <tr>
-        <th scope="row">g,z (google 站内)</th>
-        <td>选中文本提交到google进行站内搜索</td>
+        <th scope="row">g,z</th>
+        <td>选中文本提交到Google进行站内搜索</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
+        <th scope="row">Alt+A</th>
+        <td>收藏夹菜单</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
+        <th scope="row">Alt+B</th>
+        <td>BugMeNot</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
+        <th scope="row">Alt+C</th>
+        <td>Simpleu快捷分享菜单</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+E</th>
+        <td>编辑模式</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+F</th>
+        <td>视频解析</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+I</th>
+        <td>显示盗链图片</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+J</th>
+        <td>启用/禁用JS</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+K</th>
+        <td>复制标签</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+L</th>
+        <td>复制页面标题和链接</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+N</th>
+        <td>新建隐私标签</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+O</th>
+        <td>打开Opera文件夹</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+P</th>
+        <td>代理开关</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+Q</th>
+        <td>切换为 自动/手动 填表</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+R</th>
+        <td>Readability</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+S</th>
+        <td>站点信息</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+T</th>
+        <td>Opera关于</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+U</th>
+        <td>HostsTool</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+V</th>
+        <td>网页历史存档</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+X</th>
+        <td>快速引用；空白页面访问剪切板网址或进行google搜索</td>
+      </tr>
+      <tr>
+        <th scope="row">Alt+Z</th>
+        <td>只看楼主</td>
       </tr>
     </table>
     <p><br />
-      <br />
-      <br />
-      <br />
-      极为重要的功能，好几个功能由此演化而来，里面常点的按钮，打开和下载<br />
-    </p>
-    <p>Alt+A  收藏夹菜单<br />
-      Alt+B  BugMeNot<br />
-      Alt+C  Simpleu快捷分享<br />
-      Alt+E  编辑模式<br />
-      Alt+F  视频解析<br />
-      Alt+G  Google快照<br />
-      Alt+H  隐藏到系统托盘<br />
-      Alt+I  显示盗链图片<br />
-      Alt+J  启用/禁用JS<br />
-      Alt+K  复制标签<br />
-      Alt+L  复制页面标题和链接<br />
-      Alt+M  Goo.gl短链生成<br />
-      Alt+N  新建隐私标签<br />
-      Alt+O  打开Opera文件夹<br />
-      Alt+P  代理开关<br />
-      Alt+Q  切换自动填表<br />
-      Alt+R  Readability<br />
-      Alt+S  站点信息<br />
-      Alt+T  Opera关于<br />
-      Alt+U  HostsTool<br />
-      Alt+V  网页历史存档<br />
-      Alt+X  快速引用；空白页面访问剪切板网址或进行google搜索<br />
-      Alt+Z  只看楼主</p>
-    <p>&nbsp;</p>
-    <p>鼠标手势修改详见：standard_mouse.ini<a id="mouse"></a></p>
+    <strong>鼠标手势修改详见：standard_mouse.ini<a id="mouse"></a></strong></p>
     <p>;↑   上      =  转到页面顶部  |  如果当前页面在刷新则停止载入<br />
       ;↑↓ 上-下   =  刷新<br />
       ;↑← 上-左   =  转到本标签左边的标签<br />
-      ;↑→ 上-右   =  转到本标签右边的标签</p>
+    ;↑→ 上-右   =  转到本标签右边的标签</p>
     <p>;↓   下      =  转到页面底部  |  如果在页面的链接上使用本手势，则在后台打开该链接<br />
       ;↓↑ 下-上   =  新建隐身标签<br />
       ;↓← 下-左   =  关闭当前标签<br />
       ;↓→ 下-右   =  恢复刚才关闭的标签</p>
     <p>;←   左      =  后退,超级后退  |  自动翻页上一页<br />
-      ;←→ 左-右</p>
-    <p> =  克隆标签<br />
+      ;←→ 左-右   =  克隆标签<br />
       ;←↑ 左-上   =  转到上级目录<br />
       ;←↓ 左-下   =  快退</p>
     <p>;→   右      =  登录 Wand填表  |  前进,超级快进  |  自动翻页下一页<br />
