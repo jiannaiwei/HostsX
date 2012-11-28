@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.17
+set ver=1.0.1.18
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -42,6 +42,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/BBS.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
 wget http://Hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
+wget http://Hostsx.googlecode.com/svn/trunk/Opera/getujs.bat
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_keyboard.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
@@ -55,6 +56,7 @@ ren 123244.user.js doubaniask.user.js
 ren 117942.user.js goglrd.js
 ren client-zh-cn.zip dragonfly.zip
 move /y goglrd.js profile\script
+move /y getujs.bat profile\script
 move /y doubaniask.user.js profile\script
 move /y doubanimdb.user.js profile\script
 move /y license.txt locale\en
