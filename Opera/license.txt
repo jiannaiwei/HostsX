@@ -10,7 +10,7 @@
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
-删除旧版后，安装新版，恢复个人数据。谢谢！
+删除旧版后，安装新版，恢复个人数据！
 
 SimpleU定制版下载：http://www.everbox.com/f/xdPFcKSMhnWYliSCdchbxb6m5R
 
@@ -202,7 +202,7 @@ Opera12补充优化：
 -----------------------------------------------------------------------
 
 配置调整
-搜索引擎（括号()内为搜索关键字）：
+搜索引擎（括号内为搜索关键字）：
 Google(g) 百度(b) 有道（yd）维基百科（w）百Google度(bg) 必应(by)
 FTP 搜索(ftp) ed2k共享（ed）SimpleCD(sc) BT迷(bm) Kat.Ph(kp) Mininova(m) TorrentDownloads(td) 
 找音乐(3) 搜视频(s) 下软件(x) 求字体(zt) 找字幕(zm) 新华字典(z)  爱词霸(i) 成语歇后语(cy)
