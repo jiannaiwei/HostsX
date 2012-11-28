@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.18
+set ver=1.0.1.19
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -27,7 +27,8 @@ goto:eof
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU+")(window.close)&Pause
 echo 正在下载数据，请稍候... ...
-del operaprefs_default.ini client-zh-cn.zip
+del operaprefs_default.ini client-zh-cn.zip readme.html
+wget http://hostsx.googlecode.com/svn/trunk/Opera/readme.html
 wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini

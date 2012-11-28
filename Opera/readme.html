@@ -1,0 +1,530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #4E5869;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ 元素/标签选择器 ~~ */
+ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* 删除上边距可以解决边距会超出其包含的 div 的问题。剩余的下边距可以使 div 与后面的任何元素保持一定距离。 */
+	padding-right: 15px;
+	padding-left: 15px; /* 向 div 内的元素侧边（而不是 div 自身）添加填充可避免使用任何方框模型数学。此外，也可将具有侧边填充的嵌套 div 用作替代方法。 */
+}
+a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+	border: none;
+}
+
+/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* 除非将链接设置成极为独特的外观样式，否则最好提供下划线，以便可从视觉上快速识别 */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+	text-decoration: none;
+}
+
+/* ~~ 此容器包含所有其它 div，并依百分比设定其宽度 ~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;/* 可能需要最大宽度，以防止此布局在大型显示器上过宽。这将使行长度更便于阅读。IE6 不遵循此声明。 */
+	min-width: 780px;/* 可能需要最小宽度，以防止此布局过窄。这将使侧面列中的行长度更便于阅读。IE6 不遵循此声明。 */
+	background: #FFF;
+	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐。如果将 .container 宽度设置为 100%，则不需要此设置。 */
+	overflow: hidden; /* 此声明将使 .container 清除其包含的所有浮动列。 */
+}
+
+/* ~~ 以下是此布局的列。 ~~ 
+
+1) 填充只会放置于 div 的顶部和/或底部。此 div 中的元素侧边会有填充。这样，您可以避免使用任何“方框模型数学”。请注意，如果向 div 自身添加任何侧边填充或边框，这些侧边填充或边框将与您定义的宽度相加，得出 *总计* 宽度。您也可以选择删除 div 中的元素的填充，并在该元素中另外放置一个没有任何宽度但具有设计所需填充的 div。
+
+2) 由于这些列均为浮动列，因此未对其指定边距。如果必须添加边距，请避免在浮动方向一侧放置边距（例如：div 中的右边距设置为向右浮动）。在很多情况下，都可以改用填充。对于必须打破此规则的 div，应向该 div 的规则中添加“display:inline”声明，以控制某些版本的 Internet Explorer 会使边距翻倍的错误。
+
+3) 由于可以在一个文档中多次使用类（并且一个元素可以应用多个类），因此已向这些列分配类名，而不是 ID。例如，必要时可堆叠两个侧栏 div。您可以根据个人偏好将这些名称轻松地改为 ID，前提是仅对每个文档使用一次。
+
+4) 如果您更喜欢在右侧（而不是左侧）进行导航，只需使这些列向相反方向浮动（全部向右，而非全部向左），它们将按相反顺序显示。您无需在 HTML 源文件中移动 div。
+
+*/
+.sidebar1 {
+	float: left;
+	width: 20%;
+	background: #93A5C4;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 0;
+	width: 80%;
+	float: left;
+}
+
+/* ~~ 此分组的选择器为 .content 区域中的列表提供了空间 ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* 此填充反映上述标题和段落规则中的右填充。填充放置于下方可用于间隔列表中其它元素，置于左侧可用于创建缩进。您可以根据需要进行调整。 */
+}
+
+/* ~~ 导航列表样式（如果选择使用预先创建的 Spry 等弹出菜单，则可以删除此样式） ~~ */
+ul.nav {
+	list-style: none; /* 这将删除列表标记 */
+	border-top: 1px solid #666; /* 这将为链接创建上边框 – 使用下边框将所有其它项放置在 LI 中 */
+	margin-bottom: 15px; /* 这将在下面内容的导航之间创建间距 */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* 这将创建按钮间隔 */
+}
+ul.nav a, ul.nav a:visited { /* 对这些选择器进行分组可确保链接即使在访问之后也能保持其按钮外观 */
+	padding: 5px 5px 5px 15px;
+	display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+	text-decoration: none;
+	background: #8090AB;
+	color: #000;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* 这将更改鼠标和键盘导航的背景和文本颜色 */
+	background: #6F7D94;
+	color: #FFF;
+}
+
+/* ~~ 其它浮动/清除类 ~~ */
+.fltrt {  /* 此类可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 如果从 .container 中删除了 overflow:hidden，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#waring {
+	color: #F00;
+}
+#key {
+	color: #008000;
+}
+#key {
+	color: #008000;
+}
+.container .content table tr th {
+	color: #0080FF;
+}
+-->
+</style><!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* 此 1px 负边距可以放置在此布局中的任何列中，且具有相同的校正效果。 */
+ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触发器，用于校正链接之间的额外空白 */
+</style>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="#mod">定制和参数详解</a></li>
+      <li><a href="#keyboard">快捷键</a></li>
+      <li><a href="#mouse">鼠标手势</a></li>
+      <li><a href="#qa">常见问题解答</a></li>
+      <li><a href="#history">历史更新记录</a></li>
+    </ul>
+    <p> 以上链接说明了一种基本导航结构，该结构使用以 CSS 设置样式的无序列表。请以此作为起点修改属性，以生成您自己的独特外观。如果需要弹出菜单，请使用 Spry 菜单、Adobe Exchange 中的菜单构件 或其它各种 javascript 或 CSS 解决方案创建您自己的菜单。</p>
+    <p>如果您想要在顶部进行导航，只需将 ul.nav 移到页面顶部并重新创建样式即可。</p>
+  <!-- end .sidebar1 --></div>
+  <div class="content">
+    <h1>Opera SimpleU Mod<a id="mod"></a></h1>
+    <p id="waring">请注意，用之前务必先阅读一下本介绍！<br />
+      不建议跨版本安装，情先备份个人数据！<br />
+    删除旧版后，安装新版，恢复个人数据！</p>
+    <h2>1 and More，至简智用</h2>
+    <p><code>配置调整<br />
+    搜索引擎（括号内为搜索关键字）：</code></p>
+<option></option>
+<p><code>      Google(g) 百度(b) 有道（yd）维基百科（w）百Google度(bg) 必应(by)
+      FTP 搜索(ftp) ed2k共享（ed）SimpleCD(sc) BT迷(bm) Kat.Ph(kp) Mininova(m) TorrentDown(td) 
+      找音乐(3) 搜视频(s) 下软件(x) 求字体(zt) 找字幕(zm) 新华字典(z)  爱词霸(i) 成语歇后语(cy)
+    淘宝(t) 卓越亚马逊(z) 惠惠比价（hh）好乐买(x) QQ聊天(q)</code></p>
+    <p><code>启用双击关闭标签<br />
+      启用在新窗口中打开链接<br />
+      启用超级拖拽(拖曳并在后台打开链接)<br />
+      启用在当前标签旁打开新标签<br />
+      启用下载管理器(自动检测已安装的下载软件)<br />
+      启用了单键快捷键<br />
+    启用了用户Javascript 默认设置路径为profile\script</code></p>
+    <p><code>不允许Javascript脚本检测右键单击<br />
+      不启用服务发现通知<br />
+      不启用使用统计<br />
+      不显示网速变化通知<br />
+      不启用拼写检查<br />
+      不开启在邮件中阻止外部元素<br />
+      不在标签上嵌入缩略图<br />
+      不开启双击文本弹出右键菜单<br />
+      不检查自动更新<br />
+      不开启内置的BitTorrent|Enable功能<br />
+      关闭了地理位置信息共享<br />
+      关闭了语音控制浏览功能<br />
+      关闭了程序声音通知功能</code></p>
+    <p><code>设置首页为：https://www.google.com/ncr<br />
+      设置版本UA信息为:SimpleU<br />
+      设置User JS Storage Quota=102400以方便JS文件的使用<br />
+      设置了更大的磁盘缓存<br />
+      设置了额外默认显示的皮肤<br />
+      Opera:config首选项中添加了中文注释<br />
+      移植了Opera中国版的fastforward.ini(超级快进配置)文件<br />
+      调整了了载入和渲染页面参数<br />
+      完善了默认的订阅列表更适合中国用户<br />
+      包含了部分常用的插件<br />
+      修改了部分快捷键更好用<br />
+      修改了鼠标手势更顺手</code></p>
+    <h3>使用Tips:</h3>
+    <p>1.如果在网页上保存笔记后，双点笔记后还能打开保存笔记页面的链接<br />
+    2.按住Shift可以将任意按钮拖动到任意位置。可以将 Bookmarklets 拖动到任意位置变成按钮方便使用。</p>
+    <h4>常见问题解答</h4>
+    <p>这些液态布局包含 Internet Explorer 条件注释 (IECC)，用于更正两个问题。 </p>
+    <ol>
+      <li>在基于百分比的布局中，浏览器在舍入 div 大小方面不一致。如果浏览器必须呈现诸如 144.5px 或 564.5px 之类的数字，则必须将这些数字舍入到最接近的整数。Safari 和 Opera 向下舍入，Internet Explorer 向上舍入，而 Firefox 向上舍入一列，然后再向下舍入一列，以便完全填充容器。这些舍入问题可能导致某些布局出现不一致。此 IECC 提供了用于修复 IE 的 1px 负边距。您可以将其移至任何列（以及左侧或右侧），以满足您的布局需求。</li>
+      <li>由于在某些情况下 IE6 和 IE7 中会呈现额外的空白，因此已向导航列表中的锚记添加缩放属性。缩放将为 IE 提供其专用的 hasLayout 属性来修复此问题。</li>
+    </ol>
+    <h4>快捷键修改详见：standard_keyboard.ini<a id="keyboard"></a></h4>
+    <table width="440" border="1">
+      <tr>
+        <th colspan="2" scope="row">以下快捷键与主流浏览器通用：</th>
+      </tr>
+    <tr>
+        <th scope="row">F1</th>
+        <td><strong>帮助</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">F11</th>
+        <td><strong>全屏显示</strong></td>
+      </tr>
+      <tr>
+        <th width="212" scope="row">Esc</th>
+        <td width="212"><strong>停止</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Alt + Home</th>
+        <td><strong>新建主页标签</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + R / F5</th>
+        <td><strong>刷新（重新载入）</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + F5</th>
+        <td><strong>刷新所有标签页</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Alt + F5</th>
+        <td><strong>刷新框架 </strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Shift + N</th>
+        <td><strong>新建隐私窗口</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + N</th>
+        <td><strong>打开新窗口</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + T</th>
+        <td><strong>新建标签</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Tab</th>
+        <td><strong>切换标签</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + F4 / Ctrl + W</th>
+        <td><strong>关闭当前标签</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Shift + T / Alt + Z</th>
+        <td><strong>撤销关闭标签（页面）</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Shift + W</th>
+        <td><strong>关闭全部标签</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + B</th>
+        <td><strong>显示/隐藏收藏栏 </strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + D</th>
+        <td><strong>添加收藏</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + F</th>
+        <td><strong>页面内查找</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + H</th>
+        <td><strong>查看历史记录</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + J</th>
+        <td><strong>打开下载管理器</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + O</th>
+        <td><strong>打开文件</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + P</th>
+        <td><strong>打印…</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Q</th>
+        <td><strong>老板键（退出）</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + S</th>
+        <td><strong>保存网页</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Num+</th>
+        <td><strong>页面放大</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Num0</th>
+        <td><strong>恢复页面到100%</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Num-</th>
+        <td><strong>页面缩小</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Alt + D / Ctrl + L</th>
+        <td><strong>选中地址栏</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Shift + I</th>
+        <td><strong>开发人员工具</strong></td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Shift + Delete</th>
+        <td><strong>清除上网痕迹</strong></td>
+      </tr>
+  </table>
+    <p>&nbsp;</p>
+    <table width="557" border="1">
+      <caption>
+      以下为Opera或SimpleU定制版独有快捷键功能
+      </caption>
+      <tr>
+        <th width="271" scope="row">Ctrl+1/2…9</th>
+        <td width="270">能按SpeedDial顺序打开相应网址</td>
+      </tr>
+      <tr>
+        <th height="32" scope="row">输入&quot;.&quot;         (dot)</th>
+        <td><p>打开页面搜索栏，支持高亮</p></td>
+      </tr>
+      <tr>
+        <th scope="row">输入&quot;,&quot;        (逗号)</th>
+        <td>只搜索带有超链接的文字</td>
+      </tr>
+      <tr>
+        <th scope="row">F4</th>
+        <td>显示/隐藏侧边栏</td>
+      </tr>
+      <tr>
+        <th scope="row">F8</th>
+        <td>快速聚焦到&quot;地址栏&quot;</td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + E</th>
+        <td>快速聚焦到&quot;搜索栏&quot;</td>
+      </tr>
+      <tr>
+        <th scope="row">按住 Ctrl 键的同时单击图片</th>
+        <td>可以快速保存图片</td>
+      </tr>
+      <tr>
+        <th scope="row">Shift + F5</th>
+        <td>刷新页面（每隔3分钟） </td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Shift + M</th>
+        <td>浏览器静音</td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + M</th>
+        <td>链接对话框;</td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + F9</th>
+        <td>Opera:Config</td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Alt + R</th>
+        <td>刷新样式表</td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Alt + Up</th>
+        <td>自动滚屏(可加速)</td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Alt + Down</th>
+        <td>自动滚屏停止</td>
+      </tr>
+      <tr>
+        <th scope="row">Ctrl + Shift + F</th>
+        <td>最大化当前帧</td>
+      </tr>
+      <tr>
+        <th colspan="2" scope="row">定义单键快捷键：</th>
+      </tr>
+      <tr>
+        <th scope="row">B</th>
+        <td>用百度搜索选中的文本内容</td>
+      </tr>
+      <tr>
+        <th scope="row">I</th>
+        <td> 刷新所有图像</td>
+      </tr>
+      <tr>
+        <th scope="row">O </th>
+        <td>快速缩放按键</td>
+      </tr>
+      <tr>
+        <th scope="row">T</th>
+        <td> 显示隐藏状态栏</td>
+      </tr>
+      <tr>
+        <th scope="row">X</th>
+        <td> 快进</td>
+      </tr>
+      <tr>
+        <th scope="row">Z</th>
+        <td> 后退（关闭标签）</td>
+      </tr>
+      <tr>
+        <th scope="row">F10</th>
+        <td> WebCacheView工具</td>
+      </tr>
+      <tr>
+        <th colspan="2" scope="row">定义组合快捷键：</th>
+      </tr>
+      <tr>
+        <th scope="row">g,1</th>
+        <td> 伪装为Firefox</td>
+      </tr>
+      <tr>
+        <th scope="row">g,2</th>
+        <td> 伪装为IE浏览器</td>
+      </tr>
+      <tr>
+        <th scope="row">g,i</th>
+        <td> 用IE打开当前页面</td>
+      </tr>
+      <tr>
+        <th scope="row">g,t</th>
+        <td>用世界之窗浏览器打开当前页面</td>
+      </tr>
+      <tr>
+        <th scope="row">g,f (goto find)</th>
+        <td>在本页之中高亮搜索当前选择的文本</td>
+      </tr>
+      <tr>
+        <th scope="row">g,g (goto google)</th>
+        <td>用google搜索选中的文本内容</td>
+      </tr>
+      <tr>
+        <th scope="row">g,r (googleReader)</th>
+        <td>将当前网址订阅到GoogleReader</td>
+      </tr>
+      <tr>
+        <th scope="row">g,s (goto search)</th>
+        <td>将选中文本转到搜索框之中</td>
+      </tr>
+      <tr>
+        <th scope="row">g,z (google 站内)</th>
+        <td>选中文本提交到google进行站内搜索</td>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <p><br />
+      <br />
+      <br />
+      <br />
+      极为重要的功能，好几个功能由此演化而来，里面常点的按钮，打开和下载<br />
+    </p>
+    <p>Alt+A  收藏夹菜单<br />
+      Alt+B  BugMeNot<br />
+      Alt+C  Simpleu快捷分享<br />
+      Alt+E  编辑模式<br />
+      Alt+F  视频解析<br />
+      Alt+G  Google快照<br />
+      Alt+H  隐藏到系统托盘<br />
+      Alt+I  显示盗链图片<br />
+      Alt+J  启用/禁用JS<br />
+      Alt+K  复制标签<br />
+      Alt+L  复制页面标题和链接<br />
+      Alt+M  Goo.gl短链生成<br />
+      Alt+N  新建隐私标签<br />
+      Alt+O  打开Opera文件夹<br />
+      Alt+P  代理开关<br />
+      Alt+Q  切换自动填表<br />
+      Alt+R  Readability<br />
+      Alt+S  站点信息<br />
+      Alt+T  Opera关于<br />
+      Alt+U  HostsTool<br />
+      Alt+V  网页历史存档<br />
+      Alt+X  快速引用；空白页面访问剪切板网址或进行google搜索<br />
+      Alt+Z  只看楼主</p>
+    <p>&nbsp;</p>
+    <p>鼠标手势修改详见：standard_mouse.ini<a id="mouse"></a></p>
+    <p>;↑   上      =  转到页面顶部  |  如果当前页面在刷新则停止载入<br />
+      ;↑↓ 上-下   =  刷新<br />
+      ;↑← 上-左   =  转到本标签左边的标签<br />
+      ;↑→ 上-右   =  转到本标签右边的标签</p>
+    <p>;↓   下      =  转到页面底部  |  如果在页面的链接上使用本手势，则在后台打开该链接<br />
+      ;↓↑ 下-上   =  新建隐身标签<br />
+      ;↓← 下-左   =  关闭当前标签<br />
+      ;↓→ 下-右   =  恢复刚才关闭的标签</p>
+    <p>;←   左      =  后退,超级后退  |  自动翻页上一页<br />
+      ;←→ 左-右</p>
+    <p> =  克隆标签<br />
+      ;←↑ 左-上   =  转到上级目录<br />
+      ;←↓ 左-下   =  快退</p>
+    <p>;→   右      =  登录 Wand填表  |  前进,超级快进  |  自动翻页下一页<br />
+      ;→← 右-左   =  锁定标签  |  解锁标签<br />
+      ;→↑ 右-上   =  访问该网址  |  搜索该内容<br />
+      ;→↓ 右-下   =  下载</p>
+    <p>;↑↓↑上下上 = 退出，关闭所有窗口，这些窗口在下次启动时会被恢复<br />
+      ;按住右键点左键 = 快退<br />
+      ;点住左键按右键 = 转到下个标签页  |  复制选中文本</p>
+  <!-- end .content --></div>
+  <!-- end .container --></div>
+</body>
+</html>
