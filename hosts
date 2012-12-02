@@ -1,5 +1,5 @@
 
-;version=21:42 2012/11/29
+;version=9:25 2012/12/2
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -662,6 +662,7 @@ fe80::1%lo0	localhost
 127.0.0.1 stat.simba.taobao.com
 127.0.0.1 textlink.simba.taobao.com
 127.0.0.1 taourl.com
+127.0.0.1 cnzz.mmstat.com
 127.0.0.1 hz.mmstat.com
 127.0.0.1 p3p.mmstat.com
 127.0.0.1 log.mmstat.com
@@ -2606,8 +2607,9 @@ fe80::1%lo0	localhost
 127.0.0.1 tj.qvod.com
 127.0.0.1 hao.kuaibo.com
 127.0.0.1 pause-ad.kuaibo.com
-127.0.0.1 searchstat.kuaibo.com
 127.0.0.1 text-ad.kuaibo.com
+127.0.0.1 buffer-ad.kuaibo.com
+127.0.0.1 op2.web.kuaiwan.com
 127.0.0.1 web.kuaiwan.com
 127.0.0.1 game.ad1111.com
 127.0.0.1 qvodlink.hco.cc
@@ -9995,6 +9997,8 @@ fe80::1%lo0	localhost
 127.0.0.1 count9.51yes.com
 127.0.0.1 countt.51yes.com
 #CNZZ
+127.0.0.1 hqs1.cnzz.com
+127.0.0.1 hqs4.cnzz.com
 127.0.0.1 hqs9.cnzz.com
 127.0.0.1 hzs12.cnzz.com
 127.0.0.1 zs16.cnzz.com
