@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
+<title>Opera SimpleU Edition</title>
 <style type="text/css">
 <!--
 body {
@@ -13,54 +13,38 @@ body {
 	color: #000;
 }
 
-/* ~~ 元素/标签选择器 ~~ */
-ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
+ul, ol, dl { 
 	padding: 0;
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	 /* 删除上边距可以解决边距会超出其包含的 div 的问题。剩余的下边距可以使 div 与后面的任何元素保持一定距离。 */
+	margin-top: 0;
 	padding-right: 15px;
-	padding-left: 15px; /* 向 div 内的元素侧边（而不是 div 自身）添加填充可避免使用任何方框模型数学。此外，也可将具有侧边填充的嵌套 div 用作替代方法。 */
+	padding-left: 15px; 
 }
-a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+a img {
 	border: none;
 }
-
-/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
 a:link {
 	color:#414958;
-	text-decoration: underline; /* 除非将链接设置成极为独特的外观样式，否则最好提供下划线，以便可从视觉上快速识别 */
+	text-decoration: underline; 
 }
 a:visited {
 	color: #4E5869;
 	text-decoration: underline;
 }
-a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+a:hover, a:active, a:focus { 
 	text-decoration: none;
 }
 
-/* ~~ 此容器包含所有其它 div，并依百分比设定其宽度 ~~ */
 .container {
 	width: 80%;
 	max-width: 1260px;/* 可能需要最大宽度，以防止此布局在大型显示器上过宽。这将使行长度更便于阅读。IE6 不遵循此声明。 */
 	min-width: 780px;/* 可能需要最小宽度，以防止此布局过窄。这将使侧面列中的行长度更便于阅读。IE6 不遵循此声明。 */
 	background: #FFF;
-	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐。如果将 .container 宽度设置为 100%，则不需要此设置。 */
-	overflow: hidden; /* 此声明将使 .container 清除其包含的所有浮动列。 */
+	margin: 0 auto; 
+	overflow: hidden; 
 }
-
-/* ~~ 以下是此布局的列。 ~~ 
-
-1) 填充只会放置于 div 的顶部和/或底部。此 div 中的元素侧边会有填充。这样，您可以避免使用任何“方框模型数学”。请注意，如果向 div 自身添加任何侧边填充或边框，这些侧边填充或边框将与您定义的宽度相加，得出 *总计* 宽度。您也可以选择删除 div 中的元素的填充，并在该元素中另外放置一个没有任何宽度但具有设计所需填充的 div。
-
-2) 由于这些列均为浮动列，因此未对其指定边距。如果必须添加边距，请避免在浮动方向一侧放置边距（例如：div 中的右边距设置为向右浮动）。在很多情况下，都可以改用填充。对于必须打破此规则的 div，应向该 div 的规则中添加“display:inline”声明，以控制某些版本的 Internet Explorer 会使边距翻倍的错误。
-
-3) 由于可以在一个文档中多次使用类（并且一个元素可以应用多个类），因此已向这些列分配类名，而不是 ID。例如，必要时可堆叠两个侧栏 div。您可以根据个人偏好将这些名称轻松地改为 ID，前提是仅对每个文档使用一次。
-
-4) 如果您更喜欢在右侧（而不是左侧）进行导航，只需使这些列向相反方向浮动（全部向右，而非全部向左），它们将按相反顺序显示。您无需在 HTML 源文件中移动 div。
-
-*/
 .sidebar1 {
 	float: left;
 	width: 20%;
@@ -72,10 +56,8 @@ a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠
 	width: 80%;
 	float: left;
 }
-
-/* ~~ 此分组的选择器为 .content 区域中的列表提供了空间 ~~ */
 .content ul, .content ol { 
-	padding: 0 15px 15px 40px; /* 此填充反映上述标题和段落规则中的右填充。填充放置于下方可用于间隔列表中其它元素，置于左侧可用于创建缩进。您可以根据需要进行调整。 */
+	padding: 0 15px 15px 40px; 
 }
 
 /* ~~ 导航列表样式（如果选择使用预先创建的 Spry 等弹出菜单，则可以删除此样式） ~~ */
@@ -87,28 +69,27 @@ ul.nav {
 ul.nav li {
 	border-bottom: 1px solid #666; /* 这将创建按钮间隔 */
 }
-ul.nav a, ul.nav a:visited { /* 对这些选择器进行分组可确保链接即使在访问之后也能保持其按钮外观 */
+ul.nav a, ul.nav a:visited {
 	padding: 5px 5px 5px 15px;
-	display: block; /* 这将为链接赋予块属性，使其填满包含它的整个 LI。这样，整个区域都可以响应鼠标单击操作。 */
+	display: block; 
 	text-decoration: none;
 	background: #8090AB;
 	color: #000;
 }
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* 这将更改鼠标和键盘导航的背景和文本颜色 */
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 	background: #6F7D94;
 	color: #FFF;
 }
 
-/* ~~ 其它浮动/清除类 ~~ */
-.fltrt {  /* 此类可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+.fltrt { 
 	float: right;
 	margin-left: 8px;
 }
-.fltlft { /* 此类可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+.fltlft { 
 	float: left;
 	margin-right: 8px;
 }
-.clearfloat { /* 如果从 .container 中删除了 overflow:hidden，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
+.clearfloat { 
 	clear:both;
 	height:0;
 	font-size: 1px;
@@ -144,12 +125,17 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
       <li><a href="#keyboard">快捷键</a></li>
       <li><a href="#mouse">鼠标手势</a></li>
       <li><a href="#qa">常见问题解答</a></li>
-      <li><a href="http://hostsx.googlecode.com/svn/trunk/Opera/license.txt">历史更新记录</a><a href="#history"></a></li>
+      <li><a href="#plugins">插件的选择</a></li>
+      <li><a href="#rss">RSS订阅的完善</a></li>
+      <li><a href="#fastforward">超级快进的设置</a></li>
+      <li><a href="#skin">皮肤的修改</a></li>
+      <li><a href="http://hostsx.googlecode.com/svn/trunk/Opera/changeog.txt">历史更新记录</a></li>
+      <li><a href="ftp://ftp.opera.com/pub/opera/win/">Opera下载</a><a href="#history"></a></li>
     </ul>
     <p><!-- end .sidebar1 --></p>
   </div>
   <div class="content">
-    <h1>Opera SimpleU Mod<a id="mod"></a></h1>
+    <h1>Opera SimpleU Edition<a id="top"></a></h1>
     <p id="waring">请注意，用之前务必先阅读一下本介绍！<br />
       不建议跨版本安装，情先备份个人数据！<br />
     删除旧版后，安装新版，恢复个人数据！</p>
@@ -158,7 +144,7 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
     如果您设置了Opera为默认浏览器，请自行修改配置文件内相应的相对路径为绝对路径！<br />
     或到op目录下运行一下Greenpath工具！<br />
     </p>
-<h2>1 and More，至简智用</h2>
+<h2>1 and More，至简智用<a id="mod"></a></h2>
     <p><code>配置调整<br />
     搜索引擎（括号内为搜索关键字）：</code></p>
 <option></option>
@@ -198,21 +184,14 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
       包含了部分常用的插件<br />
       修改了部分快捷键更好用<br />
       修改了鼠标手势更顺手</code></p>
-    <h3>使用Tips:</h3>
-    <p>1.如果在网页上保存笔记后，双点笔记后还能打开保存笔记页面的链接<br />
-    2.按住Shift可以将任意按钮拖动到任意位置。可以将 Bookmarklets 拖动到任意位置变成按钮方便使用。</p>
-    <h4>常见问题解答</h4>
-    <p>这些液态布局包含 Internet Explorer 条件注释 (IECC)，用于更正两个问题。 </p>
-    <ol>
-      <li>在基于百分比的布局中，浏览器在舍入 div 大小方面不一致。如果浏览器必须呈现诸如 144.5px 或 564.5px 之类的数字，则必须将这些数字舍入到最接近的整数。Safari 和 Opera 向下舍入，Internet Explorer 向上舍入，而 Firefox 向上舍入一列，然后再向下舍入一列，以便完全填充容器。这些舍入问题可能导致某些布局出现不一致。此 IECC 提供了用于修复 IE 的 1px 负边距。您可以将其移至任何列（以及左侧或右侧），以满足您的布局需求。</li>
-      <li>由于在某些情况下 IE6 和 IE7 中会呈现额外的空白，因此已向导航列表中的锚记添加缩放属性。缩放将为 IE 提供其专用的 hasLayout 属性来修复此问题。</li>
-    </ol>
-    <h4>快捷键修改详见：standard_keyboard.ini<a id="keyboard"></a></h4>
-    <table width="440" border="1">
+    <h3>快捷键修改详见：standard_keyboard.ini<a id="keyboard"></a></h3>
+    <p align="right"><a href="#top">&#710;Top</a></p>
+    <table width="557" border="1">
+      <caption></caption>
       <tr>
         <th colspan="2" scope="row">以下快捷键与主流浏览器通用：</th>
       </tr>
-    <tr>
+      <tr>
         <th scope="row">F1</th>
         <td><strong>帮助</strong></td>
       </tr>
@@ -221,8 +200,8 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
         <td><strong>全屏显示</strong></td>
       </tr>
       <tr>
-        <th width="212" scope="row">Esc</th>
-        <td width="212"><strong>停止</strong></td>
+        <th scope="row">Esc</th>
+        <td><strong>停止</strong></td>
       </tr>
       <tr>
         <th scope="row">Alt + Home</th>
@@ -328,12 +307,9 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
         <th scope="row">Ctrl + Shift + Delete</th>
         <td><strong>清除上网痕迹</strong></td>
       </tr>
-  </table>
-    <p>&nbsp;</p>
-    <table width="557" border="1">
-      <caption>
-      以下为Opera或SimpleU定制版独有快捷键功能
-      </caption>
+      <tr>
+        <th colspan="2" scope="row">以下为Opera或SimpleU定制版独有快捷键功能</th>
+      </tr>
       <tr>
         <th width="271" scope="row">Ctrl+1/2…9</th>
         <td width="270">能按SpeedDial顺序打开相应网址</td>
@@ -556,29 +532,465 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
         <th scope="row">Alt+Z</th>
         <td>只看楼主</td>
       </tr>
-    </table>
-    <p><br />
+      <tr>
+        <th colspan="2" scope="row"><a href="#top">&#710;Top</a></th>
+      </tr>
+    </table><p><br />
     <strong>鼠标手势修改详见：standard_mouse.ini<a id="mouse"></a></strong></p>
-    <p>;↑   上      =  转到页面顶部  |  如果当前页面在刷新则停止载入<br />
-      ;↑↓ 上-下   =  刷新<br />
-      ;↑← 上-左   =  转到本标签左边的标签<br />
-    ;↑→ 上-右   =  转到本标签右边的标签</p>
-    <p>;↓   下      =  转到页面底部  |  如果在页面的链接上使用本手势，则在后台打开该链接<br />
-      ;↓↑ 下-上   =  新建隐身标签<br />
-      ;↓← 下-左   =  关闭当前标签<br />
-      ;↓→ 下-右   =  恢复刚才关闭的标签</p>
-    <p>;←   左      =  后退,超级后退  |  自动翻页上一页<br />
-      ;←→ 左-右   =  克隆标签<br />
-      ;←↑ 左-上   =  转到上级目录<br />
-      ;←↓ 左-下   =  快退</p>
-    <p>;→   右      =  登录 Wand填表  |  前进,超级快进  |  自动翻页下一页<br />
-      ;→← 右-左   =  锁定标签  |  解锁标签<br />
-      ;→↑ 右-上   =  访问该网址  |  搜索该内容<br />
-      ;→↓ 右-下   =  下载</p>
-    <p>;↑↓↑上下上 = 退出，关闭所有窗口，这些窗口在下次启动时会被恢复<br />
-      ;按住右键点左键 = 快退<br />
-      ;点住左键按右键 = 转到下个标签页  |  复制选中文本</p>
-  <!-- end .content --></div>
+    <table width="92%" border="1">
+      <tr>
+        <td width="19%">↑   上</td>
+        <td width="81%">转到页面顶部  |  如果当前页面在刷新则停止载入</td>
+      </tr>
+      <tr>
+        <td>↑↓上-下</td>
+        <td>刷新</td>
+      </tr>
+      <tr>
+        <td>↑← 上-左</td>
+        <td>转到本标签左边的标签</td>
+      </tr>
+      <tr>
+        <td>↑→ 上-右</td>
+        <td>转到本标签右边的标签</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>↓   下 <br /></td>
+        <td>转到页面底部  |  如果在页面的链接上使用本手势，则在后台打开该链接</td>
+      </tr>
+      <tr>
+        <td>↓↑ 下-上</td>
+        <td>新建隐身标签</td>
+      </tr>
+      <tr>
+        <td>↓← 下-左</td>
+        <td>关闭当前标签</td>
+      </tr>
+      <tr>
+        <td>↓→ 下-右</td>
+        <td>恢复刚才关闭的标签</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>←   左</td>
+        <td>后退,超级后退  |  自动翻页上一页</td>
+      </tr>
+      <tr>
+        <td>←→ 左-右</td>
+        <td>克隆标签</td>
+      </tr>
+      <tr>
+        <td>←↑ 左-上</td>
+        <td>转到上级目录</td>
+      </tr>
+      <tr>
+        <td>←↓ 左-下</td>
+        <td>快退</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>→   右</td>
+        <td>登录 Wand填表  |  前进,超级快进  |  自动翻页下一页</td>
+      </tr>
+      <tr>
+        <td>→← 右-左</td>
+        <td>锁定标签  |  解锁标签</td>
+      </tr>
+      <tr>
+        <td>→↑ 右-上</td>
+        <td>访问该网址  |  搜索该内容</td>
+      </tr>
+      <tr>
+        <td>→↓ 右-下</td>
+        <td>下载</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>↑↓↑上下上</td>
+        <td>退出，关闭所有窗口，这些窗口在下次启动时会被恢复</td>
+      </tr>
+      <tr>
+        <td>按住右键点左键</td>
+        <td>  快退</td>
+      </tr>
+      <tr>
+        <td>点住左键按右键</td>
+        <td>转到下个标签页  |  复制选中文本</td>
+      </tr>
+      <tr>
+        <td colspan="2"><div align="center"><a href="#top">&#710;Top</a></div></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p><strong>常见问题解答：QA<a id="qa"></a></strong>
+    </p>
+    </p>
+    <ol>
+      <li>Opera 官方中文社区上不去怎么解决？<br />
+        无法正常访问Opera相关网站的同学请注意，请将下列条目加入 hosts 文件<br />
+        Windows 下位置为 C:\Windows\System32\drivers\etc/hosts<br />
+        Linux/Mac 下为 /etc/hosts<br />
+        59.151.106.253   operachina.com<br />
+        59.151.106.253   bbs.operachina.com<br />
+        59.151.106.253   mini.operachina.com<br />
+        59.151.106.253   portal.operachina.com<br />
+        59.151.106.253   press.operachina.com<br />
+        59.151.106.253   redir.operachina.com<br />
+        59.151.106.253   static.operachina.com<br />
+        59.151.106.253   wiki.operachina.com<br />
+        59.151.106.253   www.operachina.com<br />
+        您也可以使用SimpleU自带的HostsTool来更新Hosts文件。</li>
+      <li>当您反馈问题时必要的提交出现问题的网址，和相应的重现步骤。否则我解决不了。<br />
+        当您反馈说为什么不好用啊，有些网站兼容性不好啊诸如此类的问题我都不会解决的。因为没有网址和重现步骤。</li>
+      <li>安装SimpleU定制版的时候提示无效的安装包。错误代码：45。这是怎么回事啊？<br />
+        出现这个原因可能是您之前安装过Opera极速版，如果你想继续使用SimpleU定制版可以用7z等软件，右键解压运行。<br />
+      </li>
+      <li> 下载Opera SimpleU定制版后，金山毒霸和360杀毒，报毒怎么办？<br />
+        请本着疑者不用，用者不疑的态度处理此问题。也可以提交到http://www.virscan.org/ 此网站此行检测。optools下有很多第三方脚本和程序，会被误报。<br />
+        Ps.Nod32不报毒，金山.360什么的就误报，国内的厂商和国外厂商果然是有很大差距啊。</li>
+      <li>为什么我使用SimpleU后，反馈网站的广告过滤不完全，其他SimpleU用户却无法重现？<br />
+        SimpleU定制版需要配合HostsX的数据使用的，才可以获得更好的广告过滤效果。将部分去广告数据交由系统处理，既加快了Opera的启动速度，也获得了更好的平台兼容性。</li>
+      <li>为什么浏览一些网站的时候会遇到Flash基本上都会卡50%的cpu的情况？<br />
+        opera 10.1 opera11.5正式版 firefox都无这个问题，opera next有问题。<br />
+        解决方法:opera:config#Performance|SwitchAnimationThrottlingInterval这个选项,不能设置为0,否则出现上面的情况.<br />
+      </li>
+      <li> 为什么我在安装Opera插件的时候会提示不完整？<br />
+      这是国内网络访问Opera服务器的原因，您可以使用右键--目标另存为来保存插件，然后从本地安装就可以解决此问题。</li>
+      <li>我保存了笔记，可是忘记了当时的页面地址，怎么找到？<br />
+      如果在网页上保存笔记后，双点笔记后还能打开保存笔记页面的链接。</li>
+      <li>页面上有一个Bookmarklets工具，我如何快速保存并应用？<br />
+        1.您可以右键添加到收藏夹。<br />
+        2.按住Shift可以将任意按钮拖动到任意位置。可以将 Bookmarklets 拖动到任意位置变成按钮方便使用。<br />
+      </li>
+      <li> 为什么用代理进入youtube总是弹出什么证书问题，几乎每打开一个视频都会有此问题？<br />
+        这是由于您使用了代理软件（比如GAE）导致的，打开Opera的证书管理，在&quot;证书颁发机构&quot;里面导入您的代理软件的证书即可。</li>
+      <li>为什么我的 Google Reader（谷歌阅读器)不能使用J、K这两个按键上下切换新闻条目了？<br />
+        这是由于Simpleu版本为了是google图片的功能正常使用，默认将&quot;www.google.com&quot;的站点首选项识别为Firefox了，<br />
+        请在站点首选项-网络- 中 将&quot;浏览器识别&quot;改为&quot;识别为Opera&quot;即可正常在Reader中使用J、K等快捷键。<br />
+      </li>
+      <li> 为什么论坛和贴吧的签名看不到了？<br />
+        实在想不出签名有什么看头，所以在Custom.css默认就给过滤掉了大部分的签名，如果只是暂时性的查看，可以手动关闭广告过滤。<br />
+        如果不想让Custom.css过滤签名可以收动手修改Custom.css文件里的&quot;各种签名过滤&quot;部分。<br />
+      </li>
+      <li> 有些视频播放不正常，网页展开不正常怎么办？<br />
+        部分视频网站不正常可能是由部分js影响导致的网页问题。比如：CleanPlayer.user.js和DBankLinker.js，删除即可解决。<br />
+      </li>
+      <li> 部分discuz论坛下载附件扩展名为html该怎么办？<br />
+        (会导致下载站下载以下扩展名文件时不能弹出下载对话框)<br />
+        [File Types]<br />
+        text/html=2,,,,rar,zip,7z,apk,sis,sisx,htm,html,shtml,|</li>
+      <li>SongTaste的歌曲为什么不能正常播放？<br />
+        用IE打开SongTaste任一播放链接一次，再用opera，打开就能播放了。</li>
+      <li>5sing的部分歌曲为什么无法正常播放？<br />
+        请下载安装微软的<a href="https://www.microsoft.com/getsilverlight/get-started/install/default.aspx?reason=unsupportedbrowser">silverlight插件</a>，重启Opera后即可正常播放。</li>
+      <li>如何升级Opera？<br />
+        1.官方版本的Opera可以使用自动更新，用以更新Opera的版本。<br />
+        2.对于定制版的Opera，升级或回滚到旧版可直接覆盖安装。<br />
+        对于版本构架变动较大的情况（如Opera10--Opera10.5），不建议沿用旧的配置，最好重新配置用户配置。<br />
+        因为新版Opera的安装包是7z格式，所以升级还可以用直接解压缩安装包的方法。<br />
+        用压缩工具打开Opera安装文件，除operaprefs_default.ini和files_list外直接选择解压覆盖。 <br />
+        这种方式升级可以自行选择覆盖更新哪些内容。</li>
+      <li>Urlfilter出现uuid了怎么办？<br />
+        UUID:是Opera官方加入的，如果不喜欢。<br />
+        可以采用支持正则的文本编辑器进行替换：正则匹配=UUID:\w+$ 替换为空格就行了。</li>
+      <li>为什么没有64位的Opera SimpleU定制版？<br />
+        很抱歉，因为我这里没有64位的环境，不会发布64为版本的安装版，您可以下载7z压缩包配置文件，<br />
+        下载Opera官方64位安装包解压。然后用&quot;Opera SimpleU配置文件.7z&quot;解压后，<br />
+        覆盖官方的解压版本，即可得到一个64位的Opera SimpleU定制版。</li>
+      <li>按钮里面涉及到CSS数字勾选的，其中的数字是如何确定的？<br />
+        Select user CSS file,6 表示使用User CSS文件夹里第6（不过是从0开始数起）个css文件（按文件名升序排序）。<br />
+        所以这个数字6可能要修改。</li>
+      <li>为什么我觉得SimpleU定制版占用内存很大？<br />
+        你把快速拨号全部删除掉，内存占用一下子就掉下来了。</li>
+      <li>双击Opera图标后，出现Startup error的白底黑字的对话框怎么办？<br />
+        可能是您的目录权限有问题，重新使用管理员权限进行安装，或者解压/剪切到其他有权限的目录运行试试。<br />
+      </li>
+      <li> 我不想使用自动翻页该如何解决？<br />
+        在页面载入时，按住ctrl键，然后按住鼠标左键，在页面空白处往下拉动鼠标，可以使自动翻页状态暂停！<br />
+        如果您不想使用此功能可以删除Super_preloader.js Super_preloader.db.js两个js文件解决。<br />
+      </li>
+      <li>有些页面图片显示不正常，CSS加载不正产或者出现其他诡异的问题怎么办？<br />
+        清除持久储存，或者清除所有历史内容试试，或许就能解决了。</li>
+      <li>为什么我的Opera SimpleU 定制版acid3测试只得了98分？<br />
+        部分JS可能影响得分情况，请删除OnlinedownNoAds.user.js此文件，即可得满分。</li>
+      <li>如何取消对cnnic证书的信任？<br />
+        打开Opera的证书管理，需要手动配置添加此证书的信任排除。<br />
+        证书文件位于 profile\opcacrt6.dat;profile\opicacrt6.dat，希望您能及时备份。</li>
+      <li>SimpleU定制版为什么没有绿色版？<br />
+        SimpleU定制版调用了Opera自带的安装界面。
+        当然，对于想使用绿色版的朋友可以用7-zip等压缩软件右键直接解压到一个干净的目录即可使用。</li>
+      <li>设置Opera为默认浏览器后，为什么有些SimpleU定制版的功能无法使用了？<br />
+        如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！</li>
+      <li>为什么访问有些网站会出现页面显示错乱？<br />
+        请尝试关闭CSS里面的微软雅黑的显示，看能否可解决此问题。<br />
+        或者把最小字体由12改为默认的10试试看。<br />
+      </li>
+      <li>为什么我的Opera滚动时会出现文字出现模糊重影的问题？<br />
+        请检查是否开启了IDM下载软件监视Opera的选项。关闭即可解决。若未安装IDM，请尝试将此问题提交给官方予以重视。<br />
+      </li>
+      <li>为什么我复制动态图像粘贴到QQ聊天窗口上就是静态的？<br />
+        解决方法如下：<br />
+        1. 操作错误。应该打开文件发送动态图像，不是复制粘贴。<br />
+        2. 除IE内核的浏览器外。其他内核的浏览器均不能复制动态图。即便是复制，也只能复制一帧而已。</li>
+      <li>为什么会有ieopera和ieonly两个调用IE的JS文件？<br />
+        运行program\OperaJR.exe ，得到reg文件，双击导入。在浏览很多银行的时候便会自动调用IE打开了。（安装版自动包含并省略了此手动步骤。）</li>
+      <li>设置 Opera Dragonfly 为离线版或实验版的方法？<br />
+        如果在安装时将Opera安装目录更改为&quot;?:\Program Files\Opera&quot;，则可以默认使用本地化DragonFly。<br />
+        1.在 https://dragonfly.opera.com/app/stp-1/zips/latest/ （最新稳定版）<br />
+        或者 https://dragonfly.opera.com/app/stp-1/experimental/zips/latest/ （最新实验版）<br />
+        下载一个 .zip 压缩包（有各个地区语言版本，随你喜欢选一个）。<br />
+        最新稳定版 Dragonfly 是针对最新正式版 Opera 使用的，在旧版本 Opera 上使用不保证没有额外的问题。<br />
+        2.在硬盘里任意位置解压这个压缩包，把里面的 client-*.xml 拖进浏览器 （文件名因各个地区语言版本而异，总之后缀名是xml那个就错不了） ，然后复制这时地址栏的地址，是以 file://localhost 开头的文件路径。<br />
+        3.在 Opera 中打开 opera:config#DeveloperTools，设置值填入刚才得到的文件路径，保存设置。搞定。如果你已经开着 Dragonfly，关掉并重新打开即可。</li>
+      <li>实验版 Dragonfly 的设置方法？<br />
+        在 Opera 中打开 opera:config#DeveloperTools，设置值为 https://dragonfly.opera.com/app/experimental/ ，保存设置。搞定。</li>
+      <li>为什么我设置的 UserJS 黑白名单无效？<br />
+        // ==UserScript==<br />
+        // @include http://xxx.xxx.xxx/*<br />
+        // @exclude http://zzz.zzz.zzz/*<br />
+        // ==/UserScript==<br />
+        其中以 include 标注的即白名单，exclude的为黑名单，可以设置多条。<br />
+        若黑白名单失效，请保存脚本为 UTF-8 without BOM 格式。</li>
+      <li>为什么有时候菜单的参数无效呢？<br />
+        Opera有自己的定义函数：<br />
+        %u = 当前显示文档的url，常用于下载工具传递本页所有链接<br />
+        %t = 选定文本。比如常用的&quot;转到URL&quot;的命令为Go to page, &quot;%t&quot;<br />
+        %s = 来源于当前显示文档的字符串<br />
+        %c = 剪贴版内容<br />
+        %i = 显示的搜索结果个数 (search.ini) <br />
+        %l = 当前选择的链接，常用于下载工具传递链接</li>
+      <li>我用的Opera12版本，怎么感觉浏览器变慢了？<br />
+        Opera12补充优化：<br />
+        1、开启硬加速：0禁用、1自动、2强制开启<br />
+        在开启两种渲染器的情况下，如需更换不同的渲染器请把opera:config#Preferred renderer设置：0为OpenGL 、1为DirectX<br />
+        Enable Hardware Acceleration：opera:config#UserPrefs|EnableHardwareAcceleration<br />
+        Enable WebGL：opera:config#UserPrefs|EnableWebGL<br />
+        2、网络缓存Network Buffer Size设置1，有些网页可能会出问题，可以逐步调大点参数。设置为1对网页加快载入效果较为明显。<br />
+        注意，如果存在两个版本的FLASH,把32或64版本其中之一关掉。<br />
+        opera:config#Performance|NetworkBufferSize设置为1，设置12可能是个比较合适的参数。<br />
+        3、动画性能优化opera:config#Performance|Animation，把他们设置为0，这个设置有些时候会导致加载Animation更慢，大家酌情处理，但设置为0时，加载缓存会降低延迟。<br />
+        opera:config#Performance|LagThresholdForAnimationThrottling<br />
+        opera:config#Performance|SwitchAnimationThrottlingInterval</li>
+      <li>部分版本备注：<br />
+        Opera 从 11.60版开始，对CSS的选择器区分大小写。<br />
+        11.00以下,display:none元素不下载,9.64表现尤其好...<br />
+        Opera 11.10以后新增几个延迟选项，微调以下选项可以提升页面响应速度（要最快就设置全为0）<br />
+        1. opera:config#Styled First Update Timeout<br />
+        2. opera:config#First Update Delay<br />
+        3. opera:config#Update Delay<br />
+        4. opera:config#Wait For Style<br />
+        5. opera:config#Reflow Delay Load<br />
+      6. opera:config#Reflow Delay Script</li>
+    </ol>
+<p><strong>插件的选择：program\plugins<a id="plugins"></a></strong></p>
+<p align="right"><a href="#top">&#710;Top</a></p>
+    <ol>
+      <li><a href="http://bbs.operachina.com/viewtopic.php?f=54&amp;t=7730">ViewinIE插件</a> <a href="http://www.microsoft.com/getsilverlight/get-started/install/default.aspx?reason=unsupportedbrowser"></a>  <a href="http://t.live.cntv.cn/ieocx/CCTV_FF_Plug-in.xpi">CNTV播放插件</a> <a href="http://115.com/static/plug/install_help/install_step2.html">115上传控件下载</a></li>
+      <li><a href="https://mybank1.icbc.com.cn/icbc/newperbank/ICBCFFExtensions.xpi">ICBC工商银行插件</a>  <a href="https://online.unionpay.com/portal/upe/UPEditorFF.exe">在线银联插件</a> <a href="https://download.alipay.com/aliedit/npaliedit/1302/npaliedit.exe">支付宝支付插件</a></li>
+      <li><a href="http://www.adobe.com/cn/products/flashplayer/distribution3.html">Flash插件下载</a>（<a href="http://fpdownload.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_10_plugin.exe">10.3版</a> <a href="http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_11_plugin.exe">11版</a>） <a href="http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager09.html">Flash p2p上传控制</a></li>
+      <li><a href="https://download.alipay.com/sec/edit/aliedit.exe">支付宝安全控件</a> <a href="https://download.alipay.com/ukey/cf/alicert.exe">支付宝数字证书控件</a>  <a href="http://dl_dir.qq.com/music/clntupate/QzoneMusicInstall.exe">QQ空间音乐播放插件</a> <a href="http://www.microsoft.com/getsilverlight/get-started/install/default.aspx?reason=unsupportedbrowser">SilverLight插件</a></li>
+    </ol>
+    <p>（*Flash默认集成了10.3版。4.包含的插件默认没有集成，可以自己下载安装。）
+</p>
+    <p><strong>RSS订阅的完善：defaults/feedreaders.ini<a id="rss"></a></strong></p>
+    <p align="right"><a href="#top">&#710;Top</a></p>
+    <p>[豆瓣]<br />
+      ID=10<br />
+    URL=http://9.douban.com/reader/subscribe?url=%s</p>
+    <p>[抓虾]<br />
+      ID=11<br />
+    URL=http://www.zhuaxia.com/add_channel.php?url=%s</p>
+    <p>[鲜果]<br />
+      ID=12<br />
+      URL=http://www.xianguo.com/subscribe.php?url=%s</p>
+    <p>[有道]<br />
+      ID=13<br />
+      URL=http://reader.yodao.com/#url=%s</p>
+    <p>[哪吒]<br />
+      ID=14<br />
+      URL=http://iNeZha.com/add?url=%s</p>
+    <p>[QQ 邮箱]<br />
+      ID=15<br />
+      URL=http://mail.qq.com/cgi-bin/feed?u=%s<br />
+    </p>
+<p><strong>超级快进的设置：ui/fastforward.ini<a id="fastforward"></a></strong></p>
+<p align="right"><a href="#top">&#710;Top</a></p>
+<p>;Chinese (traditional and simplified)<br />
+  前进<br />
+  继续<br />
+  翻页<br />
+  下页<br />
+  下頁<br />
+  下篇<br />
+  后页<br />
+  后页&gt;<br />
+  往后&gt;&gt;<br />
+  下一頁<br />
+  下一页=101<br />
+  下一页&gt;<br />
+  下一页&gt;&gt;<br />
+  下一个<br />
+  下一张<br />
+  下一张 &gt;<br />
+  下一幅<br />
+  下一幅 &gt;<br />
+  下一章<br />
+  下一节<br />
+  下一節<br />
+  下一篇<br />
+  后一页=90<br />
+  下一步<br />
+  翻下页<br />
+  翻下頁<br />
+  看下一页<br />
+  下一页（快捷键→）<br />
+  &quot;[下頁]&quot;<br />
+  &quot;[下页]&quot;<br />
+  &quot;[继续]&quot;<br />
+  &quot;[下一頁]&quot;<br />
+  &quot;[下一页]&quot;<br />
+  &quot;[翻下頁]&quot;<br />
+  &quot;[翻下页]&quot;<br />
+  ---------------<br />
+  ;douban.com<br />
+  更多小组讨论 = 102<br />
+  ;Wordpress<br />
+  &quot;« 上一页&quot; = 110<br />
+  &quot;[繼續]&quot;<br />
+  &quot;« 上一頁&quot; = 200<br />
+  下一個<br />
+  下一张 = 102<br />
+  下一張<br />
+  下一頁&gt;<br />
+  下一頁&gt;&gt;<br />
+  下一頁（快捷鍵→）<br />
+  下一页<br />
+  前進<br />
+  后页&gt; = 102<br />
+  往後&gt;&gt;<br />
+  後一頁 = 90<br />
+  後頁<br />
+  後頁&gt;<br />
+  更多 = 102<br />
+  看下一頁<br />
+  繼續<br />
+  翻頁</p>
+<p> <!-- end .content --><a href="#top">&#710;Top</a></p>
+<p><strong>皮肤的修改：skin\standard_skin.zip\skin.ini<a id="skin"></a></strong></p>
+<p align="right"><a href="#top">&#710;Top</a></p>
+<p>皮肤元素修改：http://jude.im/opera/skin.html</p>
+<p>[Speed Dial Search Widget Skin]<br />
+  Padding Top         = 38</p>
+<p>[Statusbar Button Skin]<br />
+  Padding Left        = 4<br />
+  Padding Right       = 4<br />
+  Margin Left         = 2<br />
+  Margin Right        = 2</p>
+<p>;Mod By SimpleU 22:03 2012/10/16<br />
+  #Favicon<br />
+  alexa            =simpleu/favicon/alexa.png<br />
+  baidu            =simpleu/favicon/baidu.png<br />
+  bing             =simpleu/favicon/bing.png<br />
+  blogger          =simpleu/favicon/blogger.png<br />
+  bugmenot         =simpleu/favicon/bugmenot.png<br />
+  compete          =simpleu/favicon/compete.png<br />
+  dbank            =simpleu/favicon/dbank.png<br />
+  delicious        =simpleu/favicon/delicious.png<br />
+  diandian         =simpleu/favicon/diandian.png<br />
+  dict             =simpleu/favicon/Dict.png<br />
+  digg             =simpleu/favicon/digg.png<br />
+  douban           =simpleu/favicon/douban.png<br />
+  evernote         =simpleu/favicon/evernote.png<br />
+  facebook         =simpleu/favicon/facebook.png<br />
+  fanfou           =simpleu/favicon/fanfou.png<br />
+  faxianla         =simpleu/favicon/faxianla.png<br />
+  google           =simpleu/favicon/google.png<br />
+  hexun            =simpleu/favicon/hexun.png<br />
+  huaban           =simpleu/favicon/huaban.png<br />
+  huajun           =simpleu/favicon/huajun.png<br />
+  hujiang          =simpleu/favicon/hujiang.png<br />
+  imouto           =simpleu/favicon/imouto.png<br />
+  kaixin001        =simpleu/favicon/kaixin001.png<br />
+  printwhatyoulike =simpleu/favicon/printwhatyoulike.png<br />
+  qq               =simpleu/favicon/qq.png<br />
+  qqdict           =simpleu/favicon/qqdict.png<br />
+  qqweibo          =simpleu/favicon/qqweibo.png<br />
+  qzone            =simpleu/favicon/qzone.png<br />
+  renren           =simpleu/favicon/renren.png<br />
+  sdonote          =simpleu/favicon/sdonote.png<br />
+  seo              =simpleu/favicon/seo.png<br />
+  sinavivi         =simpleu/favicon/sinavivi.png<br />
+  sinaweibo        =simpleu/favicon/sinaweibo.png<br />
+  skydrive         =simpleu/favicon/skydrive.png<br />
+  sogou            =simpleu/favicon/sogou.png<br />
+  someyi           =simpleu/favicon/someyi.png<br />
+  tianya           =simpleu/favicon/tianya.png<br />
+  tieba            =simpleu/favicon/tieba.png<br />
+  tineye           =simpleu/favicon/tineye.png<br />
+  tinyurl          =simpleu/favicon/tinyurl.png<br />
+  translation      =simpleu/favicon/translation.png<br />
+  twitter          =simpleu/favicon/twitter.png<br />
+  vdisk            =simpleu/favicon/vdisk.png<br />
+  whois            =simpleu/favicon/whois.png<br />
+  wiki             =simpleu/favicon/wiki.png<br />
+  xlpan            =simpleu/favicon/xlpan.png<br />
+  yahoo            =simpleu/favicon/yahoo.png<br />
+  ydnote           =simpleu/favicon/ydnote.png<br />
+  youdao           =simpleu/favicon/youdao.png<br />
+  zdic             =simpleu/favicon/zdic.png</p>
+<p>#FSCapture<br />
+  FS_ActiveWindow  =simpleu/fscapture/ActiveWindow.png<br />
+  FS_eyedropper    =simpleu/fscapture/eyedropper.png<br />
+  FS_Freehand      =simpleu/fscapture/Freehand.png<br />
+  FS_full          =simpleu/fscapture/full.png<br />
+  FS_magnifier     =simpleu/fscapture/magnifier.png<br />
+  FS_Object        =simpleu/fscapture/Object.png<br />
+  FS_Rectangular   =simpleu/fscapture/Rectangular.png<br />
+  FS_rule          =simpleu/fscapture/rule.png<br />
+  FS_Scroll        =simpleu/fscapture/Scroll.png<br />
+  FSCapture        =simpleu/fscapture/FSCapture.png</p>
+<p>#Program<br />
+  calc             =simpleu/program/calc.png<br />
+  cmd              =simpleu/program/cmd.png<br />
+  hash             =simpleu/program/hash.png<br />
+  osk              =simpleu/program/osk.png<br />
+  paint            =simpleu/program/paint.png<br />
+  screener         =simpleu/program/screener.png<br />
+  snap             =simpleu/program/snap.png<br />
+  firefox          =simpleu/program/firefox.png<br />
+  ie               =simpleu/program/ie.png<br />
+  iemode           =simpleu/program/iemode.png<br />
+  closedtabs       =simpleu/program/closedtabs.png</p>
+<p>#Proxy<br />
+  advor            =simpleu/proxy/advor.png<br />
+  fg               =simpleu/proxy/fg.png<br />
+  fu               =simpleu/proxy/fu.png<br />
+  gapp             =simpleu/proxy/gapp.png<br />
+  goagent          =simpleu/proxy/goagent.png<br />
+  gtu              =simpleu/proxy/gtu.png<br />
+  hyk              =simpleu/proxy/hyk.png<br />
+  p                =simpleu/proxy/p.png<br />
+  proxo            =simpleu/proxy/proxo.png<br />
+  puff             =simpleu/proxy/puff.png<br />
+  tor              =simpleu/proxy/tor.png<br />
+  wapp             =simpleu/proxy/wapp.png<br />
+  wito             =simpleu/proxy/wito.png<br />
+  wj               =simpleu/proxy/wj.png</p>
+<p align="right">&nbsp;</p>
+  </div>
   <!-- end .container --></div>
 </body>
 </html>
