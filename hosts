@@ -1,5 +1,5 @@
 
-;version=13:12 2012/12/6
+;version=14:51 2012/12/6
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -942,6 +942,7 @@ fe80::1%lo0	localhost
 127.0.0.1 cpc.brand.sogou.com
 127.0.0.1 cpc.sogou.com
 127.0.0.1 dl.bizhi.sogou.com
+127.0.0.1 download.ie.sogou.com
 127.0.0.1 eff.inte.sogou.com
 127.0.0.1 rlt.inte.sogou.com
 127.0.0.1 p.inte.sogou.com
@@ -9744,6 +9745,7 @@ fe80::1%lo0	localhost
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
 127.0.0.1 down2.uc.cn
+127.0.0.1 down1.app.uc.cn
 127.0.0.1 adsclick.uc.cn
 127.0.0.1 ads1.ucweb.com
 127.0.0.1 down2.ucweb.com
