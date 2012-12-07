@@ -1,9 +1,11 @@
 @echo off
 pushd %~dp0
 del *.user.jsx
-del CrackUrlDN.js ush.js ush.jsx 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js DBankLinker.jsx FlashBlock.jsx Super_preloader.db.js YoukuSS.jsx picViewer.js doubaniask.user.js doubanimdb.user.js goglrd.js
+del CrackUrlDN.js ush.js ush.jsx nolazyload.js 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js DBankLinker.jsx FlashBlock.jsx Super_preloader.db.js YoukuSS.jsx picViewer.js doubaniask.user.js doubanimdb.user.js goglrd.js
 wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 ren ush.js ush.jsx
+http://userscripts.org/scripts/source/151249.user.js
+ren 151249.user.js nolazyload.js
 wget http://userscripts.org/scripts/source/153190.user.js
 ren 153190.user.js CrackUrlDN.js
 wget http://userscripts.org/scripts/source/30096.user.js
