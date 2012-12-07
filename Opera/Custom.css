@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.9
+Version: 5.0.1.10
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 13:33 2012/11/17
+Lastchage: 20:28 2012/12/7
 Description: MayBe a better User CSS Help U.
 */
 
@@ -212,7 +212,7 @@ display: none !important;
 
 /* QQ */
 div[class*="l_qq_com"],[id*="l_qq_com"],div[class*="qiye-Article-QQ"],div[class*="business-Article-QQ"],div[class*="AdBox-Article-QQ"],div[class*="LoveLife-Article-QQ"],div[id="followall_mod"]{display:none !important}
-div[class^="area960 "],div[style^="width:960px;height:60px;margin:0px "],div[style^="width:960px; height:60px; margin:0px"],div[style^="width:960px;margin:0px "],div[style^="width:960px;height:90px;margin:0px "],div[style*=";background-color:#E6E6E6;"]{display:none !important}
+div[class^="area960 "],div[style^="width:960px;height:60px;margin:0px "],div[style^="width:960px; height:60px; margin:0px"],div[style^="width:960px;height:90px;margin:0px "],div[style*=";background-color:#E6E6E6;"]{display:none !important}
 
 /* 浮动过滤 提示隐藏 */
 div[id^="adfloat"],div[id^="floatAD_"],div[id^="Float"]>div,div[id^="floatdiv"],div[id$="_Float_Div"],
