@@ -1,5 +1,5 @@
 
-;version=14:51 2012/12/6
+;version=11:27 2012/12/8
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1766,6 +1766,7 @@ fe80::1%lo0	localhost
 127.0.0.1 cupid.jebe.renren.com
 127.0.0.1 dian.cupid.jebe.renren.com
 127.0.0.1 ebp.renren.com
+127.0.0.1 ebpe.renren.com
 127.0.0.1 edm.renren.com
 127.0.0.1 gamego.renren.com
 127.0.0.1 gamestat.renren.com
