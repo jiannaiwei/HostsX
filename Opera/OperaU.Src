@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.19
+set ver=1.0.1.20
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -115,7 +115,8 @@ c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 goto exit
 
 :help
-start locale\en\license.txt & start opera.exe "file://localhost/%~dp0/readme.html" & exit
+start opera.exe "http://hostsx.googlecode.com/svn/trunk/Opera/readme.html" & exit
+rem start locale\en\license.txt & start opera.exe "file://localhost/%~dp0/readme.html" & exit
 
 :md5
 del /q /a "%temp%\downifo" >nul 2>nul
