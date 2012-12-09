@@ -2261,6 +2261,8 @@ fe80::1%lo0	localhost
 #AcFun
 0.0.0.0 img.linekong.com
 0.0.0.0 www.linekong.com
+#PPweb
+0.0.0.0 info.ppweb.com.cn
 #”≈ø·Õ¯
 0.0.0.0 e.stat.ykimg.com
 0.0.0.0 ad.atm.youku.com
@@ -2612,6 +2614,7 @@ fe80::1%lo0	localhost
 0.0.0.0 buffer-ad.kuaibo.com
 0.0.0.0 op.web.kuaiwan.com
 0.0.0.0 op2.web.kuaiwan.com
+0.0.0.0 prom.web.kuaiwan.com
 0.0.0.0 web.kuaiwan.com
 0.0.0.0 game.ad1111.com
 0.0.0.0 qvodlink.hco.cc
