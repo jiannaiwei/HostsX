@@ -1,5 +1,5 @@
 
-;version=19:12 2012/12/10
+;version=18:52 2012/12/11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -676,8 +676,8 @@ fe80::1%lo0	localhost
 #新浪网
 127.0.0.1 adimg.mobile.sina.cn
 127.0.0.1 c.biz.weibo.com
+127.0.0.1 widget.weibo.com
 127.0.0.1 all.vic.sina.com.cn
-127.0.0.1 iyh365.cn
 127.0.0.1 8.show.sina.com.cn
 127.0.0.1 ad3.sina.com.cn
 127.0.0.1 ad4.sina.com.cn
@@ -707,6 +707,7 @@ fe80::1%lo0	localhost
 127.0.0.1 uic.sso.sina.com.cn
 127.0.0.1 pfpip.sina.com
 127.0.0.1 rs.sinajs.cn
+127.0.0.1 iyh365.cn
 127.0.0.1 adsina.allyes.com
 127.0.0.1 sina.allyes.com
 127.0.0.1 sinas.allyes.com
@@ -836,20 +837,6 @@ fe80::1%lo0	localhost
 127.0.0.1 un.so.gougou.com
 127.0.0.1 www.155.com
 #迅雷看看
-127.0.0.1 imghub5pr.sandai.net
-127.0.0.1 hub5btmain.sandai.net
-127.0.0.1 hub5c.sandai.net
-127.0.0.1 hub5emu.sandai.net
-127.0.0.1 hub5pn.sandai.net
-127.0.0.1 hub5pnc.sandai.net
-127.0.0.1 hub5pr.sandai.net
-127.0.0.1 hub5u.sandai.net
-127.0.0.1 dlresctrl.phub.sandai.net
-127.0.0.1 ub.dphub.sandai.net
-127.0.0.1 master.dphub.sandai.net
-127.0.0.1 ipbase.phub.sandai.net
-127.0.0.1 pmap.sandai.net
-127.0.0.1 cop.my.sandai.net
 127.0.0.1 adcount.sandai.net
 127.0.0.1 analytics-union.sandai.net
 127.0.0.1 biz4.sandai.net
@@ -858,18 +845,34 @@ fe80::1%lo0	localhost
 127.0.0.1 cknum.sandai.net
 127.0.0.1 click.cm.sandai.net
 127.0.0.1 com.down.sandai.net
+127.0.0.1 cop.my.sandai.net
+127.0.0.1 count.cpm.cm.sandai.net
+127.0.0.1 dlresctrl.phub.sandai.net
 127.0.0.1 down.sandai.net
 127.0.0.1 float.sandai.net
 127.0.0.1 gvod.union.sandai.net
+127.0.0.1 hub5btmain.sandai.net
+127.0.0.1 hub5c.sandai.net
+127.0.0.1 hub5emu.sandai.net
+127.0.0.1 hub5pn.sandai.net
+127.0.0.1 hub5pnc.sandai.net
+127.0.0.1 hub5pr.sandai.net
+127.0.0.1 hub5u.sandai.net
 127.0.0.1 hubciddata.sandai.net
 127.0.0.1 hubstat.sandai.net
+127.0.0.1 imghub5pr.sandai.net
+127.0.0.1 ipbase.phub.sandai.net
 127.0.0.1 logic.cpm.cm.sandai.net
 127.0.0.1 logictest.cpm.cm.sandai.net
+127.0.0.1 master.dphub.sandai.net
 127.0.0.1 mcfg.sandai.net
 127.0.0.1 mpv.sandai.net
+127.0.0.1 pmap.sandai.net
 127.0.0.1 pubstat.sandai.net
-127.0.0.1 server1.adpolestar.net
+127.0.0.1 pv.cm.sandai.net
+127.0.0.1 ub.dphub.sandai.net
 127.0.0.1 vodsts.sandai.net
+127.0.0.1 server1.adpolestar.net
 127.0.0.1 advstat.xunlei.com
 127.0.0.1 analytics-union.xunlei.com
 127.0.0.1 areainfo.xunlei.com
@@ -878,10 +881,8 @@ fe80::1%lo0	localhost
 127.0.0.1 cop.my.xunlei.com
 127.0.0.1 gouwu.vip.xunlei.com
 127.0.0.1 hezuo.down.xunlei.com
-127.0.0.1 jump.niu.xunlei.com
-127.0.0.1 record.kuai.xunlei.com
-127.0.0.1 images.client.xunlei.com
 127.0.0.1 jsunion.kankan.xunlei.com
+127.0.0.1 jump.niu.xunlei.com
 127.0.0.1 kkpgv.xunlei.com
 127.0.0.1 kkpgv2.xunlei.com
 127.0.0.1 leiyanstatic.xunlei.com
@@ -890,10 +891,9 @@ fe80::1%lo0	localhost
 127.0.0.1 p4pstatic.xunlei.com
 127.0.0.1 plugin.xl7.xunlei.com
 127.0.0.1 pv.kankan.stat.xunlei.com
-127.0.0.1 res.stat.xunlei.com
 127.0.0.1 recommend.xunlei.com
-127.0.0.1 search.daquan.xunlei.com
-127.0.0.1 skin.client.xunlei.com
+127.0.0.1 record.kuai.xunlei.com
+127.0.0.1 res.stat.xunlei.com
 127.0.0.1 stat.xunlei.com
 127.0.0.1 static.soft.xunlei.com
 127.0.0.1 statis.kankan.xunlei.com
@@ -907,6 +907,9 @@ fe80::1%lo0	localhost
 127.0.0.1 wy.xunlei.com
 127.0.0.1 xmlconf.client.xunlei.com
 #搜狐
+127.0.0.1 atyt.tv.sohu.com
+127.0.0.1 access.tv.sohu.com
+127.0.0.1 p.aty.sohu.com
 127.0.0.1 ad.mail.sohu.com
 127.0.0.1 adclick.bai.sohu.com
 127.0.0.1 adnet.sohu.com
@@ -1316,6 +1319,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.aliyk.com
 127.0.0.1 click.tanx.com
 127.0.0.1 p.tanx.com
+127.0.0.1 cdn.tanx.com
 127.0.0.1 aliunion.cn.yahoo.com
 127.0.0.1 api.ads.vip.cnh.yahoo.com
 127.0.0.1 cm.p4p.cn.yahoo.com
@@ -1853,6 +1857,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ads.people.com.cn
 127.0.0.1 pro.people.com.cn
 #凤凰网
+127.0.0.1 survey.news.ifeng.com
 127.0.0.1 bc.ifeng.com
 127.0.0.1 sta.ifeng.com
 127.0.0.1 sta.play.ifeng.com
@@ -2247,6 +2252,9 @@ fe80::1%lo0	localhost
 127.0.0.1 union.6.cn
 127.0.0.1 shrek.6.cn
 #i奇艺
+127.0.0.1 api.cupid.qiyi.com
+127.0.0.1 msg.video.qiyi.com
+127.0.0.1 jsmsg.video.qiyi.com
 127.0.0.1 minisite.qiyi.com
 127.0.0.1 policy.cupid.qiyi.com
 127.0.0.1 show.cupid.qiyi.com
@@ -2334,11 +2342,19 @@ fe80::1%lo0	localhost
 #第一放映室
 127.0.0.1 admin.onefy.com
 127.0.0.1 bo.tv365.cc
+#电影网M1905
+127.0.0.1 afp.m1905.com
+127.0.0.1 vodlog.m1905.com
+127.0.0.1 trace.m1905.cn
+127.0.0.1 counter.m1905.com
+127.0.0.1 nuc.m1905.com
+127.0.0.1 playerlog.lxdns.com
 #Wo318
 127.0.0.1 wo318.k621.com
 #爆米花
 127.0.0.1 union.pomoho.com
 #乐视网
+127.0.0.1 dc.letv.com
 127.0.0.1 pro.letv.com
 127.0.0.1 stat.letv.com
 127.0.0.1 i.mediapower.mobi
@@ -2564,6 +2580,7 @@ fe80::1%lo0	localhost
 127.0.0.1 update.111222.cn
 127.0.0.1 update.base-service.net
 #PPTV
+127.0.0.1 jp.as.pptv.com
 127.0.0.1 afp.pplive.com
 127.0.0.1 afv.pplive.com
 127.0.0.1 caipiao.pplive.com
@@ -8817,6 +8834,7 @@ fe80::1%lo0	localhost
 127.0.0.1 afp.csbew.com
 127.0.0.1 csbew.com
 127.0.0.1 customer.csbew.com
+127.0.0.1 s.csbew.com
 127.0.0.1 static.csbew.com
 #Diangao
 127.0.0.1 a.diangao.com
@@ -8862,6 +8880,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www3.gamediad.com
 #Game3737
 127.0.0.1 flash.game3737.com
+127.0.0.1 jcnm.game3737.com
 127.0.0.1 pop.game3737.com
 127.0.0.1 poufo.game3737.com
 #Heima8
@@ -8995,6 +9014,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.mediav.com
 #Millwardbrownacsr
 127.0.0.1 360buy.a.miaozhen.com
+127.0.0.1 a.cn.miaozhen.com
 127.0.0.1 a.miaozhen.com
 127.0.0.1 d.miaozhen.com
 127.0.0.1 e.cn.miaozhen.com
@@ -9293,6 +9313,16 @@ fe80::1%lo0	localhost
 127.0.0.1 serv.yucmedia.com
 127.0.0.1 www.yucmedia.com
 @Mobile 手机广告平台
+#AdMob
+127.0.0.1 api.admob.com
+127.0.0.1 e.admob.com
+127.0.0.1 media.admob.com
+127.0.0.1 mm.admob.com
+127.0.0.1 mmv.admob.com
+127.0.0.1 r.admob.com
+127.0.0.1 schemas.android.com
+127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 pagead2.googlesyndication.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -9313,16 +9343,6 @@ fe80::1%lo0	localhost
 #Adchina
 127.0.0.1 mobile.adchina.com
 127.0.0.1 www.adchina.com
-#AdMob
-127.0.0.1 api.admob.com
-127.0.0.1 e.admob.com
-127.0.0.1 media.admob.com
-127.0.0.1 mm.admob.com
-127.0.0.1 mmv.admob.com
-127.0.0.1 r.admob.com
-127.0.0.1 schemas.android.com
-127.0.0.1 googleads.g.doubleclick.net
-127.0.0.1 pagead2.googlesyndication.com
 #Adcome
 127.0.0.1 api.adcome.cn
 #Adigou
@@ -9483,10 +9503,6 @@ fe80::1%lo0	localhost
 127.0.0.1 req.himogo.com
 #immob
 127.0.0.1 adserving.immob.cn
-#immomo
-127.0.0.1 ap.immomo.com
-127.0.0.1 api.immomo.com
-127.0.0.1 img.immomo.com
 #infolife
 127.0.0.1 adconfig.infolife.mobi
 127.0.0.1 app.infolife.mobi
@@ -11280,6 +11296,8 @@ fe80::1%lo0	localhost
 127.0.0.1 u.xcy8.com
 127.0.0.1 sd.gogo.com
 127.0.0.1 img.gogo.com
+127.0.0.1 media.17leyi.com
+127.0.0.1 images.17leyi.com
 #恶意弹窗
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -11500,7 +11518,6 @@ fe80::1%lo0	localhost
 127.0.0.1 image.qndown.com
 127.0.0.1 image.tazhao.com
 127.0.0.1 image10.autobild.cn
-127.0.0.1 images.17leyi.com
 127.0.0.1 images.9zwar.com
 127.0.0.1 images.dou00.com
 127.0.0.1 images.zhenming.net
@@ -11550,7 +11567,6 @@ fe80::1%lo0	localhost
 127.0.0.1 max.gunggo.com
 127.0.0.1 mcsd.qq437.cn
 127.0.0.1 me.youheme.com
-127.0.0.1 media.17leyi.com
 127.0.0.1 media.adunioncode.com
 127.0.0.1 media.wushen.com
 127.0.0.1 mgscl123.com
@@ -11895,4 +11911,4 @@ fe80::1%lo0	localhost
 127.0.0.1 cdn.statics.live.spongecell.com
 127.0.0.1 code.9buo.com
 127.0.0.1 stat.doc88.com
-
+127.0.0.1 www.77u.com

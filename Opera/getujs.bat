@@ -1,10 +1,12 @@
 @echo off
 pushd %~dp0
 del *.user.jsx
-del InputCtrl.js CrackUrlDN.js ush.js ush.jsx nolazyload.js 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js DBankLinker.jsx FlashBlock.jsx Super_preloader.db.js YoukuSS.jsx picViewer.js doubaniask.user.js doubanimdb.user.js goglrd.js
+del a-lib-stacktrace.js a-lib-xmlhttp-cd.js InputCtrl.js CrackUrlDN.js ush.js ush.jsx nolazyload.js 0AutoPagerize.SITEINFO.jsx CleanPlayer.user.js DBankLinker.jsx FlashBlock.jsx Super_preloader.db.js YoukuSS.jsx picViewer.js doubaniask.user.js doubanimdb.user.js goglrd.js
 wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/InputCtrl.js"
 ren ush.js ush.jsx
+wget http://my.opera.com/xErath/homes/files/a-lib-stacktrace.js
+wget http://my.opera.com/xErath/homes/files/a-lib-xmlhttp-cd.js
 wget http://userscripts.org/scripts/source/151249.user.js
 ren 151249.user.js nolazyload.js
 wget http://userscripts.org/scripts/source/153190.user.js

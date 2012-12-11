@@ -1198,7 +1198,8 @@ http://temp.163.com/special/* 页面显示不完整 http://news.163.com/special/dydzd20
 *tracker.*  http://www.diandian.com/login http://s.libdd.com/js/lib/tracker/inc/trackerbase.js
 http://st3.dbank.com/*                  http://www.dbank.com/ 显示有问题
 http://img0*.taobaocdn.com/imgextra/*   Some Tmall的图片无法正常显示
-*_ad3*           百度贴吧背景样式内容无法显示
+
+*ad_pic* *_ad3* *ad_*static*          百度贴吧背景样式内容无法显示
 */i.js           http://mh.99770.cc/manhua/168/108625.htm?v=2*s=9 无法显示内容图片
 */ads/*          yahoo 新闻页面显示
 http://*/adm/*   新浪爱问资料网盘
