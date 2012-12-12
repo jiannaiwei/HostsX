@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.21
+set ver=1.0.1.22
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -113,13 +113,13 @@ c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 rem ÆÁ±ÎFlash P2PÉÏ´«
-@echo RTMFPP2PDisable=1 >> %windir%\system32\Macromed\Flash\mms.cfg
-@echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg
-@echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg
+echo RTMFPP2PDisable=1 >> %windir%\system32\Macromed\Flash\mms.cfg
+echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg
+echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg
 goto exit
 
 :help
-start opera.exe "http://hostsx.googlecode.com/svn/trunk/Opera/readme.html" & exit
+start opera.exe "file://localhost/%~dp0/readme.html" & exit
 rem start locale\en\license.txt & start opera.exe "file://localhost/%~dp0/readme.html" & exit
 
 :md5

@@ -1,5 +1,5 @@
 
-;version=18:52 2012/12/11
+;version=0:14 2012/12/13
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -705,8 +705,10 @@ fe80::1%lo0	localhost
 0.0.0.0 sms.sina.com.cn
 0.0.0.0 ta.sass.sina.com.cn
 0.0.0.0 uic.sso.sina.com.cn
+0.0.0.0 pfpip.sina.com.cn
 0.0.0.0 pfpip.sina.com
 0.0.0.0 rs.sinajs.cn
+0.0.0.0 appsupdate.sinaapp.com
 0.0.0.0 iyh365.cn
 0.0.0.0 adsina.allyes.com
 0.0.0.0 sina.allyes.com
@@ -11912,3 +11914,7 @@ fe80::1%lo0	localhost
 0.0.0.0 code.9buo.com
 0.0.0.0 stat.doc88.com
 0.0.0.0 www.77u.com
+0.0.0.0 ad.netshelter.net
+0.0.0.0 adsame.liba.com
+
+
