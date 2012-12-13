@@ -120,6 +120,19 @@
 0.0.0.0 ad.pop1.adbn.ru
 0.0.0.0 ad.top1.adbn.ru
 0.0.0.0 ad.rich1.adbn.ru
+#Adcash
+0.0.0.0 ads.depositfiles.com
+0.0.0.0 adcash.com
+0.0.0.0 www.adcash.com
+#Pcads
+0.0.0.0 n.pcads.ru
+0.0.0.0 pc-n9.pcads.ru
+0.0.0.0 st.pcads.ru
+0.0.0.0 pc.adonweb.ru
+0.0.0.0 st.pc.adonweb.ru
+0.0.0.0 trafinfo.info
+0.0.0.0 uno.TRAFF-GO.INFO
+0.0.0.0 uno.traff-go.info
 #ADbrite
 0.0.0.0 1.adbrite.com
 0.0.0.0 2.adbrite.com
@@ -513,6 +526,7 @@
 0.0.0.0 www.bidvertiser.com
 #Betrad
 0.0.0.0 l.betrad.com
+0.0.0.0 c.betrad.com
 #Blogads
 0.0.0.0 b.blogads.com
 0.0.0.0 banners.blogads.com
@@ -625,7 +639,6 @@
 0.0.0.0 web.burstmedia.com
 0.0.0.0 websurvey.burstmedia.com
 0.0.0.0 ads.burstnet.com
-0.0.0.0 ads.burstnet.com 
 0.0.0.0 bet.burstnet.com
 0.0.0.0 bmuk.burstnet.com
 0.0.0.0 gifs.burstnet.com
@@ -3398,6 +3411,9 @@
 0.0.0.0 banners.celebtaboo.com
 0.0.0.0 banners.dollarmachine.com
 0.0.0.0 banners.totalaccessporn.com
+#Relax
+0.0.0.0 content.relax.ru
+0.0.0.0 engine.mediamir.medialand.ru
 #Rambler
 0.0.0.0 ad.rambler.ru
 0.0.0.0 ad2.rambler.ru
@@ -3461,12 +3477,12 @@
 #Serving-sys
 0.0.0.0 activity.serving-sys.com
 0.0.0.0 bs.serving-sys.com
+0.0.0.0 bsch.serving-sys.com
 0.0.0.0 datacapture.serving-sys.com
 0.0.0.0 ds-ll.serving-sys.com
 0.0.0.0 ds.serving-sys.com
 0.0.0.0 serving-sys.com
 0.0.0.0 us.bs.serving-sys.com
-0.0.0.0 bsch.serving-sys.com
 #Sexybabesx0.0.0.0 adrianalima.sexybabesx.com
 0.0.0.0 aliciakeys.sexybabesx.com
 0.0.0.0 amandabynes.sexybabesx.com
@@ -3712,7 +3728,6 @@
 0.0.0.0 c28.statcounter.com
 0.0.0.0 c29.statcounter.com
 0.0.0.0 c3.statcounter.com
-0.0.0.0 c3.statcounter.com 
 0.0.0.0 c30.statcounter.com
 0.0.0.0 c31.statcounter.com
 0.0.0.0 c32.statcounter.com
@@ -3920,6 +3935,7 @@
 0.0.0.0 tracker.tradedoubler.com
 0.0.0.0 tradedoubler.com
 0.0.0.0 www.tradedoubler.com
+
 #Trafficmp
 0.0.0.0 ad.trafficmp.com
 0.0.0.0 am.trafficmp.com

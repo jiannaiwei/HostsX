@@ -1,7 +1,10 @@
-﻿@HostsX 防止网络劫持
+﻿
+@HostsX 防止网络劫持
 #域名劫持
 0.0.0.0 ss.cnnic.cn
 #运营商劫持
+0.0.0.0 114so.cn
+0.0.0.0 taobao.114so.cn
 0.0.0.0 sh.114so.cn
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn
@@ -21,6 +24,7 @@
 0.0.0.0 img.dianxin.cn
 0.0.0.0 union.dianxin.cn
 0.0.0.0 www.dianxin.cn
+0.0.0.0 linezing.com
 0.0.0.0 sddnserror1.wo.com.cn
 0.0.0.0 sddnserror2.wo.com.cn
 0.0.0.0 sddnserror3.wo.com.cn
@@ -28,8 +32,16 @@
 0.0.0.0 sddnserror5.wo.com.cn
 0.0.0.0 sddnserror6.wo.com.cn
 0.0.0.0 sddnserror7.wo.com.cn
+0.0.0.0 sddnserror8.wo.com.cn
 0.0.0.0 nfdnserror8.wo.com.cn
+0.0.0.0 nfdnserror1.wo.com.cn
+0.0.0.0 nfdnserror3.wo.com.cn.zpsn.com
+0.0.0.0 www6.1616.net
+0.0.0.0 st.1616.net
+0.0.0.0 www.wo116.com
 0.0.0.0 pop.17lele.net
+0.0.0.0 search.yousee.com
+0.0.0.0 sg.yousee.com
 #各地运营商广告
 0.0.0.0 lc.havod.com
 0.0.0.0 havod.com
@@ -41,6 +53,7 @@
 0.0.0.0 pv.bbapp.net
 @HostsX 可疑病毒拦截
 #钓鱼诈骗
+0.0.0.0 www.watbw.com
 0.0.0.0 www.vanbv.com
 0.0.0.0 98712.com
 0.0.0.0 t.98712.com
@@ -296,6 +309,7 @@
 0.0.0.0 3g.wjdb007.com
 0.0.0.0 www.fengxiong.hk
 0.0.0.0 www.qq.com.2012r.in
+0.0.0.0 go2buynow.info
 #浏览器劫持
 0.0.0.0 054.cc
 0.0.0.0 1188.com
@@ -438,13 +452,18 @@
 0.0.0.0 www.w234.com
 0.0.0.0 www.wanyx.com
 0.0.0.0 www.wz123.com
-0.0.0.0 www.2345.com
 0.0.0.0 www.zhidao001.com
 0.0.0.0 www.zongfo.cn
 0.0.0.0 xiujue.net
 0.0.0.0 yaoxp.com
 0.0.0.0 yxbao.com
+0.0.0.0 t.2456.cn
+0.0.0.0 www.2456.cn
+0.0.0.0 www.66game.cn
 #病毒下载
+0.0.0.0 dl.soucool123.com
+0.0.0.0 www.tt669.com
+0.0.0.0 tt669.com
 0.0.0.0 union.qyule.com
 0.0.0.0 unionch.qyule.com
 0.0.0.0 kb.ttdk2.com
@@ -498,7 +517,6 @@
 0.0.0.0 taojin.18ii.info
 0.0.0.0 tdyx.gamebean.com
 0.0.0.0 Towerofdefense.com
-0.0.0.0 wt1.skycn.gogle.cn
 0.0.0.0 www.001cndc.cn
 0.0.0.0 www.05kiss.cn
 0.0.0.0 www.125c.com
@@ -545,9 +563,9 @@
 0.0.0.0 show.altitudedigitalpartners.com
 0.0.0.0 download.wagabb.com
 0.0.0.0 www.mr66.com
-0.0.0.0 www3.zjbdt.com
-0.0.0.0 www2.zjbdt.com
 0.0.0.0 www1.zjbdt.com
+0.0.0.0 www2.zjbdt.com
+0.0.0.0 www3.zjbdt.com
 0.0.0.0 qq.ting90.com
 0.0.0.0 www.sese860.info
 0.0.0.0 www.kk21.info

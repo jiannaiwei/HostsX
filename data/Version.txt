@@ -1,4 +1,4 @@
-﻿;version=13:05 2012-5-3
+﻿;version=12:25 2012/12/13
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
-;description=1 and More,Thanks For Every One.
+;description=Clean Safe and Useful Hosts file.Thanks EveryOne.

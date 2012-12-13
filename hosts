@@ -1,5 +1,5 @@
 
-;version=0:14 2012/12/13
+;version=12:25 2012/12/13
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -10509,6 +10509,7 @@ fe80::1%lo0	localhost
 127.0.0.1 img.dianxin.cn
 127.0.0.1 union.dianxin.cn
 127.0.0.1 www.dianxin.cn
+127.0.0.1 linezing.com
 127.0.0.1 sddnserror1.wo.com.cn
 127.0.0.1 sddnserror2.wo.com.cn
 127.0.0.1 sddnserror3.wo.com.cn

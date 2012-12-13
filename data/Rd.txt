@@ -1,4 +1,5 @@
-﻿@HostsX 智能转向
+﻿
+@HostsX 智能转向
 #Localhost
 127.0.0.1   localhost
 ::1         localhost
@@ -39,6 +40,45 @@ fe80::1%lo0	localhost
 203.69.113.128 a8.mzstatic.com
 184.25.218.46 www.icloud.com
 184.30.117.47 www.me.com
+#Google
+74.125.235.133 appengine.google.com
+#Facebook
+0.0.0.0 ads.ak.facebook.com
+0.0.0.0 creative.ak.facebook.com
+0.0.0.0 creative.ak.fbcdn.net
+69.171.225.13 api.facebook.com
+61.213.189.98 b.static.ak.facebook.com
+61.213.189.120 b.static.ak.fbcdn.net
+66.220.145.63 bigzipfiles.facebook.com
+61.213.189.113 creative.ak.fbcdn.net
+184.31.111.139 connect.facebook.net
+69.171.227.19 creativeupload.facebook.com
+69.171.240.99 d.facebook.com
+69.171.234.23 developers.facebook.com
+66.220.152.16 facebook.com
+61.213.189.113 fbcdn.net
+64.213.102.26 fbcdn-profile-a.akamaihd.net
+173.223.232.67 fbcdn-sphotos-a.akamaihd.net
+69.171.237.18 graph.facebook.com
+69.171.240.10 hphotos-ash4.fbcdn.net
+66.220.151.22 hphotos-snc6.fbcdn.net
+69.171.227.24 hphotos-snc7.fbcdn.net
+66.220.144.43 ldap.thefacebook.com
+118.214.190.105 profile.ak.facebook.com
+61.213.189.114 profile.ak.fbcdn.net
+69.171.247.22 s-static.facebook.com
+61.213.189.113 s-hprofile-sf2p.fbcdn.net
+184.26.194.110 s-static.ak.facebook.com
+23.5.157.177 s-static.ak.fbcdn.net
+69.63.189.76 star.facebook.com
+61.213.189.98 static.ak.facebook.com
+69.171.229.17 upload.facebook.com
+66.220.144.41 vpn.tfbnw.net
+120.29.145.50 vthumb.ak.fbcdn.net
+66.220.151.31 vupload.facebook.com
+69.171.225.31 www.connect.facebook.com
+69.171.234.21 www.facebook.com
+69.171.242.72 zh-CN.facebook.com
 #NEW MAC Services
 203.69.113.128 oscdn.apple.com
 203.69.113.128 v.phobos.apple.com
@@ -57,9 +97,8 @@ fe80::1%lo0	localhost
 59.151.106.253 wiki.operachina.com
 59.151.106.253 www.operachina.com
 #Soutong
-2001:470:a:17c::2 ipv6.5isotoi5.org
-2001:470:a:17c::2 soutong.iloveyou
-63.223.106.181 soutong.com
+2001:470:7b:99::2 ipv6.5isotoi5.org
+2001:470:7b:99::2 soutong.iloveyou
 #DropBox
 50.17.206.117 dl-web.dropbox.com
 199.47.217.179 dropbox.com
@@ -70,29 +109,45 @@ fe80::1%lo0	localhost
 205.196.120.12 mediafire.com
 205.196.120.12 www.mediafire.com
 #Flickr
-68.142.214.43 farm1.staticflickr.com
-68.142.214.43 mud.farm1.staticflickr.com
-66.196.118.49 re2.farm1.staticflickr.com
-69.147.90.159 sp1.farm2.staticflickr.com
-69.147.123.63 re2.farm2.staticflickr.com
-69.147.90.159 farm2.staticflickr.com
-76.13.18.78 farm3.staticflickr.com
-76.13.18.78 bf1.farm3.staticflickr.com
-76.13.18.78 gq1.farm3.staticflickr.com
-76.13.18.78 sp1.farm3.staticflickr.com
-67.195.19.66 gq1.farm4.staticflickr.com
-76.13.18.77 ac4.farm4.staticflickr.com
-67.195.19.66 farm4.staticflickr.com
-76.13.18.79 farm5.staticflickr.com
-76.13.18.79 bf1.farm5.staticflickr.com
-76.13.18.79 gq1.farm5.staticflickr.com
-98.139.197.254 farm6.staticflickr.com
-98.139.197.254 bf1.farm6.staticflickr.com
-98.139.197.254 gq1.farm6.staticflickr.com
-98.139.102.46 farm7.staticflickr.com
-98.139.102.46 bf1.farm7.staticflickr.com
-98.139.102.46 ne1.farm7.staticflickr.com
-98.139.102.46 gq1.farm7.staticflickr.com
+66.94.233.186 flickr.com
+66.94.233.186 www.flickr.com
+68.142.214.43 static.flickr.com
+69.147.90.159 farm2.static.flickr.com
+76.13.18.78 farm3.static.flickr.com
+67.195.19.66 farm4.static.flickr.com
+76.13.18.79 farm5.static.flickr.com
+98.139.197.254 farm6.static.flickr.com
+98.139.102.46 farm7.static.flickr.com
+98.136.43.76 geo.yahoo.com
+68.142.250.161 l.yimg.com
+96.6.93.227 s.yimg.com
+98.137.88.88 d.yimg.com
+68.142.196.57 c5.ah.yahoo.com
+124.108.120.124 sa.edit.yahoo.com
+66.163.168.247 open.login.yahoo.com
+209.191.92.114 login.yahoo.com
+209.191.92.115 edit.yahoo.com
+209.191.121.31 up.flickr.com
+209.191.105.102 adjax.flickr.yahoo.com
+204.0.5.35 content.yieldmanager.edgesuite.net
+204.0.5.34 us.js2.yimg.com
+66.196.118.49 re2.farm1.static.flickr.com
+67.195.19.66 gq1.farm4.static.flickr.com
+68.142.214.43 farm1.static.flickr.com
+68.142.214.43 mud.farm1.static.flickr.com
+69.147.123.63 re2.farm2.static.flickr.com
+69.147.90.159 sp1.farm2.static.flickr.com
+76.13.18.77 ac4.farm4.static.flickr.com
+76.13.18.78 bf1.farm3.static.flickr.com
+76.13.18.78 gq1.farm3.static.flickr.com
+76.13.18.78 sp1.farm3.static.flickr.com
+76.13.18.79 bf1.farm5.static.flickr.com
+76.13.18.79 gq1.farm5.static.flickr.com
+98.139.102.46 bf1.farm7.static.flickr.com
+98.139.102.46 gq1.farm7.static.flickr.com
+98.139.102.46 ne1.farm7.static.flickr.com
+98.139.197.254 bf1.farm6.static.flickr.com
+98.139.197.254 gq1.farm6.static.flickr.com
 #Photobucket
 209.17.69.31 i37.photobucket.com
 209.17.69.33 i37.photobucket.com

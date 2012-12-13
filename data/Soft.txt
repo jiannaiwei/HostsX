@@ -1,27 +1,47 @@
-﻿@Windows 软件广告过滤
+﻿
+@Windows 软件广告过滤
+#Avira
+0.0.0.0 notifier.avira.com
 #360Safe
+0.0.0.0 hjql.stat.360safe.com
+0.0.0.0 ini.update.360safe.com
 0.0.0.0 inst.360safe.com
 0.0.0.0 pdown.stat.360safe.com
 0.0.0.0 plugin.stat.360safe.com
 0.0.0.0 seapp.stat.360safe.com
+0.0.0.0 softm.update.360safe.com
 0.0.0.0 stat.360safe.com
+0.0.0.0 yhds.stat.360safe.com
+0.0.0.0 update.360safe.com
 0.0.0.0 upload.360safe.com
 0.0.0.0 x.360safe.com
+0.0.0.0 agd.p.360.cn
+0.0.0.0 bp.conf.f.360.cn
 0.0.0.0 cdn.apc.360.cn
 0.0.0.0 click.stat.hao.360.cn
+0.0.0.0 conf.f.360.cn
+0.0.0.0 cz.360.cn
+0.0.0.0 e.360.cn
 0.0.0.0 es.f.360.cn
+0.0.0.0 h.conf.f.360.cn
 0.0.0.0 pinst.360.cn
 0.0.0.0 q.leak.360.cn
 0.0.0.0 q.soft.360.cn
 0.0.0.0 qd.code.360.cn
 0.0.0.0 qup.f.360.cn
+0.0.0.0 qurl.f.360.cn
 0.0.0.0 rd.360.cn
+0.0.0.0 s.360.cn
 0.0.0.0 s.se.360.cn
+0.0.0.0 sampleup.sd.360.cn
 0.0.0.0 st.se.360.cn
 0.0.0.0 stat.apc.360.cn
 0.0.0.0 stat.sd.360.cn
+0.0.0.0 static.360.cn
 0.0.0.0 static.apc.360.cn
+0.0.0.0 union.360.cn
 0.0.0.0 up.f.360.cn
+0.0.0.0 zt.360.cn
 #ESTsoft
 0.0.0.0 advert.estsoft.com
 #Potplayer
@@ -60,12 +80,9 @@
 0.0.0.0 shop.funshion.com
 #PPStream
 0.0.0.0 areainfo.ppstream.com
-0.0.0.0 dp.ppstream.com
-0.0.0.0 list1.ppstream.com
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
 0.0.0.0 br.pps.tv
-0.0.0.0 dp.ppstv.com
 0.0.0.0 g.pps.tv
 0.0.0.0 game.pps.tv
 0.0.0.0 in.pps.tv
@@ -74,9 +91,11 @@
 0.0.0.0 pl.pps.tv
 0.0.0.0 spider.pps.tv
 0.0.0.0 stat.y.pps.tv
+0.0.0.0 ugcad.pps.tv
 0.0.0.0 update.111222.cn
 0.0.0.0 update.base-service.net
 #PPTV
+0.0.0.0 jp.as.pptv.com
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
 0.0.0.0 caipiao.pplive.com
@@ -123,8 +142,11 @@
 0.0.0.0 tj.qvod.com
 0.0.0.0 hao.kuaibo.com
 0.0.0.0 pause-ad.kuaibo.com
-0.0.0.0 searchstat.kuaibo.com
 0.0.0.0 text-ad.kuaibo.com
+0.0.0.0 buffer-ad.kuaibo.com
+0.0.0.0 op.web.kuaiwan.com
+0.0.0.0 op2.web.kuaiwan.com
+0.0.0.0 prom.web.kuaiwan.com
 0.0.0.0 web.kuaiwan.com
 0.0.0.0 game.ad1111.com
 0.0.0.0 qvodlink.hco.cc
@@ -146,6 +168,8 @@
 0.0.0.0 ad.ttkvod.com
 0.0.0.0 hao.kaikai001.com
 #UUSee
+0.0.0.0 download.uusee.com
+0.0.0.0 pop.uusee.com
 0.0.0.0 g.uusee.com
 0.0.0.0 sa.uusee.com
 0.0.0.0 traffic.uusee.com
@@ -290,8 +314,12 @@
 0.0.0.0 info.duba.net
 0.0.0.0 labs.duba.net
 0.0.0.0 u.www.duba.net
-0.0.0.0 stat.ijinshan.com
+0.0.0.0 c.union.ijinshan.com
+0.0.0.0 d.union.ijinshan.com
 0.0.0.0 j.union.ijinshan.com
+0.0.0.0 ssc.union.ijinshan.com
+0.0.0.0 stat.ijinshan.com
+0.0.0.0 union.ijinshan.com
 0.0.0.0 api.pc120.com
 0.0.0.0 stat.sd.keniu.com
 0.0.0.0 tq.sd.keniu.com

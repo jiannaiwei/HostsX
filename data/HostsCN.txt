@@ -118,6 +118,7 @@
 0.0.0.0 js.adsonar.com
 0.0.0.0 newsletter.adsonar.com
 0.0.0.0 redir.adsonar.com
+0.0.0.0 ads.patch.com
 0.0.0.0 ar.atwola.com
 0.0.0.0 ar1.atwola.com
 0.0.0.0 ar7.atwola.com

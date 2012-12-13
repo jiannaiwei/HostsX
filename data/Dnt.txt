@@ -1,4 +1,5 @@
-﻿@HostsX 统计跟踪屏蔽
+﻿
+@HostsX 统计跟踪屏蔽
 #51La
 0.0.0.0 img.users.51.la
 0.0.0.0 js.users.51.la
@@ -60,6 +61,9 @@
 0.0.0.0 count9.51yes.com
 0.0.0.0 countt.51yes.com
 #CNZZ
+0.0.0.0 hqs1.cnzz.com
+0.0.0.0 hqs4.cnzz.com
+0.0.0.0 hqs9.cnzz.com
 0.0.0.0 hzs12.cnzz.com
 0.0.0.0 zs16.cnzz.com
 0.0.0.0 hzs8.cnzz.com
@@ -384,6 +388,7 @@
 0.0.0.0 tongji.haodianpu.com
 0.0.0.0 www.haodianpu.com
 #HeroClick
+0.0.0.0 union.heroclick.cn
 0.0.0.0 p.heroclick.cn
 0.0.0.0 st.heroclick.cn
 0.0.0.0 www.heroclick.cn
@@ -413,15 +418,28 @@
 0.0.0.0 www.soua.com
 0.0.0.0 union.soua.com
 #盛大统计
-0.0.0.0 feo.staticsdo.com
 0.0.0.0 adrs.sdo.com
+0.0.0.0 bf.snyu.sdo.com
+0.0.0.0 bh.snyu.sdo.com
+0.0.0.0 c.0fb00c0e57.sdo.com
 0.0.0.0 c.aa.sdo.com
-0.0.0.0 g.aa.sdo.com
 0.0.0.0 dwtracking.sdo.com
+0.0.0.0 feo.staticsdo.com
+0.0.0.0 g.0fb00c0e57.sdo.com
+0.0.0.0 g.aa.sdo.com
 0.0.0.0 ibw.sdo.com
 0.0.0.0 sda.ibw.sdo.com
 0.0.0.0 stat.aa.sdo.com
+0.0.0.0 stat.sdo.com
 0.0.0.0 static.ex.ibw.sdo.com
+0.0.0.0 zytt.0fb00c0e57.sdo.com
+0.0.0.0 de.ap.snyu.com
+0.0.0.0 hot.snyu.com
+0.0.0.0 js.ap.snyu.com
+0.0.0.0 pic.snyu.com
+0.0.0.0 r.snyu.com
+0.0.0.0 res.m.snyu.com
+0.0.0.0 rr.ap.snyu.com
 0.0.0.0 doubleclick.igalive.com
 0.0.0.0 ipagent.igalive.com
 0.0.0.0 js.igalive.com
@@ -495,7 +513,6 @@
 0.0.0.0 s2.zhanzhang.net
 0.0.0.0 s3.zhanzhang.net
 #Statistics
-0.0.0.0 cdn.sstatic.net
 0.0.0.0 icon.ajiang.net
 0.0.0.0 popstat.pppop.cn
 0.0.0.0 static.getclicky.com

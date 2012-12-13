@@ -30,6 +30,7 @@
 0.0.0.0 mangler10.generals.ea.com
 0.0.0.0 servserv.generals.ea.com
 #ACDSee
+0.0.0.0 acdid.acdsystems.com
 0.0.0.0 acdupdater.acdsystems.com
 0.0.0.0 soapintouch.acdnet.com
 #Acronis

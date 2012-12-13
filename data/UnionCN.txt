@@ -1,4 +1,5 @@
-﻿@HostsX 国内广告联盟
+﻿
+@HostsX 国内广告联盟
 #0252
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
@@ -39,18 +40,20 @@
 0.0.0.0 z.1133.cc
 #1lo0
 0.0.0.0 c1.1lo0.net
+0.0.0.0 c2.1lo0.net
+0.0.0.0 c3.1lo0.net
+0.0.0.0 d1.1lo0.net
 0.0.0.0 f1.1lo0.net
 0.0.0.0 f2.1lo0.net
 0.0.0.0 f3.1lo0.net
 0.0.0.0 f4.1lo0.net
 0.0.0.0 f5.1lo0.net
 0.0.0.0 f6.1lo0.net
-0.0.0.0 c2.1lo0.net
-0.0.0.0 c3.1lo0.net
 0.0.0.0 p1.1lo0.net
 0.0.0.0 p2.1lo0.net
 0.0.0.0 p3.1lo0.net
 0.0.0.0 p4.1lo0.net
+0.0.0.0 p83.1lo0.net
 #114lm
 0.0.0.0 www.114lm.com
 #160ads
@@ -161,6 +164,7 @@
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
+0.0.0.0 ufile.7pk.com
 #82816
 0.0.0.0 code.82816.com
 0.0.0.0 js.82816.com
@@ -191,6 +195,7 @@
 0.0.0.0 a1491.oadz.com
 0.0.0.0 a814.oadz.com
 0.0.0.0 a873.oadz.com
+0.0.0.0 a751.oadz.com
 0.0.0.0 dns1.oadz.com
 0.0.0.0 dns2.oadz.com
 0.0.0.0 www.99click.com
@@ -214,8 +219,9 @@
 0.0.0.0 r.9cpm.com
 #A5
 0.0.0.0 code.admin6.com
-0.0.0.0 www.admin6.com
+0.0.0.0 js.admin6.com
 0.0.0.0 jump.admin6.com
+0.0.0.0 www.admin6.com
 #Acs86
 0.0.0.0 amob.acs86.com
 0.0.0.0 acs86.com
@@ -496,6 +502,8 @@
 0.0.0.0 v.taolai.cn
 0.0.0.0 y.taolai.cn
 #Allyes
+0.0.0.0 www.allyes.com
+0.0.0.0 a3.allyes.com
 0.0.0.0 114.allyes.com
 0.0.0.0 idigger.allyes.com
 0.0.0.0 adzjvnet.allyes.com
@@ -639,7 +647,13 @@
 0.0.0.0 afp.csbew.com
 0.0.0.0 csbew.com
 0.0.0.0 customer.csbew.com
+0.0.0.0 s.csbew.com
 0.0.0.0 static.csbew.com
+#Diangao
+0.0.0.0 a.diangao.com
+0.0.0.0 pic.diangao.com
+0.0.0.0 u.diangao.com
+0.0.0.0 www.diangao.com
 #Donglink
 0.0.0.0 aimei.donglink.cn
 0.0.0.0 lt.donglink.cn
@@ -679,6 +693,7 @@
 0.0.0.0 www3.gamediad.com
 #Game3737
 0.0.0.0 flash.game3737.com
+0.0.0.0 jcnm.game3737.com
 0.0.0.0 pop.game3737.com
 0.0.0.0 poufo.game3737.com
 #Heima8
@@ -705,6 +720,9 @@
 0.0.0.0 do.jieku.com
 0.0.0.0 files.jieku.com
 0.0.0.0 www.jieku.com
+#Junnew
+0.0.0.0 xt.junnew.com
+0.0.0.0 img.junnew.com
 #Junyilm
 0.0.0.0 www.junyilm.com
 0.0.0.0 tp.junyilm.com
@@ -774,6 +792,8 @@
 0.0.0.0 c1.keydot.net
 #LangTaoJin
 0.0.0.0 www.langtaojin.com
+0.0.0.0 image.uctrac.com
+0.0.0.0 click.uctrac.com
 0.0.0.0 www.uctrac.com
 #Leshu
 0.0.0.0 cluclick.leshu.com
@@ -807,6 +827,7 @@
 0.0.0.0 www.mediav.com
 #Millwardbrownacsr
 0.0.0.0 360buy.a.miaozhen.com
+0.0.0.0 a.cn.miaozhen.com
 0.0.0.0 a.miaozhen.com
 0.0.0.0 d.miaozhen.com
 0.0.0.0 e.cn.miaozhen.com
@@ -841,6 +862,7 @@
 0.0.0.0 www.qiyou.com
 0.0.0.0 img.qiyou.com
 0.0.0.0 r.qiyou.com
+0.0.0.0 rc.qiyou.com
 0.0.0.0 s.qiyou.com
 0.0.0.0 p.qiyou.com
 0.0.0.0 rs.qiyou.com
@@ -876,6 +898,7 @@
 0.0.0.0 tg26.subo.me
 0.0.0.0 tg5.subo.me
 #Shendu
+0.0.0.0 union.shendu.com
 0.0.0.0 js.shenduchuanmei.com
 0.0.0.0 jump.codings.unions.shendu.cc
 0.0.0.0 jump.js.union.shendu.cc
@@ -1096,7 +1119,10 @@
 0.0.0.0 list.zhubajie.com
 0.0.0.0 un.zhubajie.com
 #Yucmedia
+0.0.0.0 api.yucmedia.com
+0.0.0.0 demo.yucmedia.com
 0.0.0.0 img.yucmedia.com
 0.0.0.0 script.yucmedia.com
-0.0.0.0 api.yucmedia.com
+0.0.0.0 serv.yucmedia.com
 0.0.0.0 www.yucmedia.com
+\
