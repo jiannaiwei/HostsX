@@ -5,6 +5,7 @@ del a-lib-stacktrace.js a-lib-xmlhttp-cd.js InputCtrl.js CrackUrlDN.js ush.js us
 wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/InputCtrl.js"
 ren ush.js ush.jsx
+ren InputCtrl.js InputCtrl.jsx
 wget http://my.opera.com/xErath/homes/files/a-lib-stacktrace.js
 wget http://my.opera.com/xErath/homes/files/a-lib-xmlhttp-cd.js
 wget http://userscripts.org/scripts/source/151249.user.js
