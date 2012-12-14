@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.22
+set ver=1.0.1.23
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -7,7 +7,9 @@ rem Opera参数调用设置
 if '%1'=='opis' goto:opinst
 if '%1'=='opup' goto:opupdate
 if '%1'=='opcl' goto:opclean
+if '%1'=='tv' goto:tv
 if '%1'=='help' goto:help
+if '%1'=='dft' goto:makedefault
 if '%1'=='md5' goto:md5
 
 :updateu
@@ -118,9 +120,16 @@ echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg
 echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg
 goto exit
 
+:tv
+start opera.exe "file://localhost/%~dp0/optools/tv.html" & exit
+
 :help
+rem start locale\en\license.txt &
 start opera.exe "file://localhost/%~dp0/readme.html" & exit
-rem start locale\en\license.txt & start opera.exe "file://localhost/%~dp0/readme.html" & exit
+
+:makedefault
+mshta vbscript:msgbox("请勾选使用绝对路径，以解决通过调用打开链接时的相对路径问题！！！",64,"SimpleU")(window.close)&Pause
+Start GreenPath.exe & exit
 
 :md5
 del /q /a "%temp%\downifo" >nul 2>nul
