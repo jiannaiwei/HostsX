@@ -1,0 +1,613 @@
+@HostsX 国内站点广告
+@HostsX 国内站点广告/社区类网站
+#天涯社区
+0.0.0.0 801.tianya.cn
+0.0.0.0 803.tianya.cn
+0.0.0.0 806.tianya.cn
+0.0.0.0 807.tianya.cn
+0.0.0.0 advertisement.tianya.cn
+0.0.0.0 adview.tianya.cn
+0.0.0.0 squidclick.bbs.tianya.cn
+0.0.0.0 stat.tianya.cn
+0.0.0.0 static.tianya.cn
+0.0.0.0 urchin.tianya.cn
+0.0.0.0 801.tianyaui.com
+0.0.0.0 click.tianyaui.com
+#凯迪网
+0.0.0.0 panda.kdnet.net
+0.0.0.0 tracking.kdnet.net
+0.0.0.0 super.kdnet.net
+#开心网
+0.0.0.0 m222034.kaixin001.com
+#奇虎社区
+0.0.0.0 aimg.qihoo.com
+0.0.0.0 clkstat.qihoo.com
+0.0.0.0 code.qihoo.com
+0.0.0.0 haostat.qihoo.com
+0.0.0.0 himg.qihoo.com
+0.0.0.0 pvstat.qihoo.com
+0.0.0.0 qd.code.qihoo.com
+0.0.0.0 rd.qihoo.com
+0.0.0.0 union.qihoo.com
+#猫扑网
+0.0.0.0 g.mop.com
+0.0.0.0 gg.mop.com
+0.0.0.0 imgpub.mop.com
+0.0.0.0 in.dg.mop.com
+0.0.0.0 in.h.mop.com
+0.0.0.0 in.l.mop.com
+0.0.0.0 in.pet.mop.com
+0.0.0.0 in.sg.mop.com
+0.0.0.0 in.sh.mop.com
+0.0.0.0 in.t.mop.com
+0.0.0.0 ovsmbt.mop.com
+0.0.0.0 p4pad.mop.com
+0.0.0.0 stat.ent.mop.com
+0.0.0.0 tj.itv.mop.com
+0.0.0.0 tj.mop.com
+0.0.0.0 tj.pet.mop.com
+0.0.0.0 union.mop.com
+0.0.0.0 yx.mop.com
+0.0.0.0 union.uume.com
+0.0.0.0 jh.uume.com
+#人人网
+0.0.0.0 c.renren.com
+0.0.0.0 click.jebe.renren.com
+0.0.0.0 cupid.jebe.renren.com
+0.0.0.0 dian.cupid.jebe.renren.com
+0.0.0.0 ebp.renren.com
+0.0.0.0 ebpe.renren.com
+0.0.0.0 edm.renren.com
+0.0.0.0 gamego.renren.com
+0.0.0.0 gamestat.renren.com
+0.0.0.0 imoptj.renren.com
+0.0.0.0 jebe.renren.com
+0.0.0.0 shaft.jebe.renren.com
+0.0.0.0 track.yx.renren.com
+0.0.0.0 jebe.xnimg.cn
+#铁血网
+0.0.0.0 ads.tiexue.net
+0.0.0.0 x.itiexue.net
+#VeryCD
+0.0.0.0 sp.vcimg.com
+0.0.0.0 sponsor.verycd.com
+#西陆网
+0.0.0.0 a.xilu.com
+0.0.0.0 stat.xilu.com
+0.0.0.0 test.xilu.com
+#大旗网
+0.0.0.0 adcount.yoka.com
+0.0.0.0 gg.daqi.com
+0.0.0.0 log.daqi.com
+0.0.0.0 union.daqi.com
+#西祠胡同
+0.0.0.0 ad.xici.net
+0.0.0.0 data.xici.net
+#5d6d
+0.0.0.0 d.5d6d.com
+0.0.0.0 un.5d6d.com
+#PhpWind
+0.0.0.0 s.phpwind.com
+0.0.0.0 cs10.phpwind.com
+0.0.0.0 cs12.phpwind.com
+0.0.0.0 init.phpwind.net
+0.0.0.0 init.phpwind.com
+0.0.0.0 nt.phpwind.com
+0.0.0.0 union.phpwind.com
+#Discuz
+0.0.0.0 stat.discuz.com
+#BlogBus
+0.0.0.0 pro.blogbus.com
+#51.com
+0.0.0.0 union.51.com
+0.0.0.0 v3.apic.51.com
+@HostsX 国内站点广告/小说类网站
+#起点中文网
+0.0.0.0 s1.cmfu.com
+0.0.0.0 avd.qidian.com
+0.0.0.0 qidian.adsame.com
+0.0.0.0 o.if.qidian.com
+0.0.0.0 uedas.qidian.com
+#一起看小说
+0.0.0.0 ad.17k.com
+0.0.0.0 log.17k.com
+0.0.0.0 stat.17k.com
+#逐浪网
+0.0.0.0 adgame.zhulang.com
+0.0.0.0 images2.zhulang.com
+0.0.0.0 pv.zhulang.com
+0.0.0.0 tl.zhulang.com
+0.0.0.0 sjqk.zhulang.com
+#飞卢网
+0.0.0.0 s.faloo.com
+#书香电子书
+0.0.0.0 dm.sxcnw.net
+#纵横中文网
+0.0.0.0 ad.zongheng.com
+0.0.0.0 log.zongheng.com
+#潇湘书院
+0.0.0.0 images.xxsy.net
+0.0.0.0 xxsy.bohelady.com
+#红袖添香
+0.0.0.0 m.union.hongxiu.com
+#小说阅读网
+0.0.0.0 stat.readnovel.com
+#虚拟天空
+0.0.0.0 b.xntk.com
+@HostsX 国内站点广告/新闻类网站
+#新华网
+0.0.0.0 adcenter.xinhuanet.com
+0.0.0.0 embed.xinhuanet.com
+0.0.0.0 entity.xinhuanet.com
+#人民网
+0.0.0.0 ads.people.com.cn
+0.0.0.0 pro.people.com.cn
+#凤凰网
+0.0.0.0 survey.news.ifeng.com
+0.0.0.0 bc.ifeng.com
+0.0.0.0 sta.ifeng.com
+0.0.0.0 sta.play.ifeng.com
+0.0.0.0 stadig.ifeng.com
+#联合早报
+0.0.0.0 ads.zaobao.com
+#新民网
+0.0.0.0 iads.xinmin.cn
+#慧聪网
+0.0.0.0 hcafp.allyes.com
+#中新网
+0.0.0.0 www.pagechoice.net
+0.0.0.0 report.chinanews.com
+#中华网
+0.0.0.0 c.china.com
+0.0.0.0 dvs.china.com
+0.0.0.0 dvsend.china.com
+0.0.0.0 richmedia.china.com
+0.0.0.0 track.china.com
+#东方热线
+0.0.0.0 adi.cnool.net
+0.0.0.0 adp1.cnool.net
+0.0.0.0 countimages.cnool.net
+#星岛环球网
+0.0.0.0 stnn.adsame.com
+#大众网
+0.0.0.0 ad.dzwww.com
+#千龙网
+0.0.0.0 ad.cqnews.net
+0.0.0.0 adimg.cqnews.net
+#齐鲁在线
+0.0.0.0 c.iqilu.com
+0.0.0.0 g.iqilu.com
+0.0.0.0 gimg.iqilu.com
+#商都网
+0.0.0.0 125.46.61.28
+0.0.0.0 adv.shangdu.com
+0.0.0.0 sdbbsservice.shangdu.com
+#华商网
+0.0.0.0 g.hsw.cn
+0.0.0.0 stat.hsw.cn
+#南海网
+0.0.0.0 emarketing.hinews.cn
+0.0.0.0 pl.hinews.cn
+#南都网
+0.0.0.0 oeeee.adsame.com
+0.0.0.0 images.oeeee.com
+#三联素材
+0.0.0.0 ad.3lian.com
+#重庆晚报
+0.0.0.0 ad.cqwb.com.cn
+#大洋网
+0.0.0.0 adimg.dayoo.com
+0.0.0.0 rnd.dayoo.com
+0.0.0.0 sta.dayoo.com
+#北方网
+0.0.0.0 eap.enorth.com.cn
+0.0.0.0 jsp5.enorth.com.cn
+0.0.0.0 swf.enorth.com.cn
+#环球网
+0.0.0.0 cl2.webterren.com
+0.0.0.0 bjafp.allyes.com
+0.0.0.0 huanqiu.allyes.com
+0.0.0.0 huanqiu.datamaster.com.cn
+#珠海视窗
+0.0.0.0 poo.zhuhai.gd.cn
+@HostsX 国内站点广告/游戏类网站
+#电玩巴士
+0.0.0.0 bill.tgbus.com
+0.0.0.0 g.tgbus.com
+0.0.0.0 g.tgbusdata.cn
+0.0.0.0 gg.tgbus.com
+0.0.0.0 vista.tgbus.com
+0.0.0.0 vista.tgbusdata.com
+0.0.0.0 tools.tiancity.com
+#178
+0.0.0.0 adcount.178.com
+0.0.0.0 market.178.com
+#游侠网
+0.0.0.0 bmp.ali213.net
+#最游戏
+0.0.0.0 ad.zuiyouxi.com
+#爱拍游戏
+0.0.0.0 apas.aipai.com
+#776
+0.0.0.0 dynamic.766.com
+0.0.0.0 get.766.com
+0.0.0.0 img.ue.766.com
+0.0.0.0 res.get.766.com
+#52pk
+0.0.0.0 ads.52pk.com
+0.0.0.0 market.52pk.com
+0.0.0.0 5y9nfpes.52pk.com
+#CDCGames
+0.0.0.0 gg.cdcgames.net
+#CNGBA
+0.0.0.0 js.adm.cngba.com
+#DM5
+0.0.0.0 by.cnc.dm5.cn
+0.0.0.0 by.dm5.com
+#游久网
+0.0.0.0 stat.uuu9.com
+#游民星空
+0.0.0.0 imgf.gamersky.com
+0.0.0.0 www1.gamersky.com
+#4399小游戏
+0.0.0.0 asqx.qq937.com
+0.0.0.0 frxz.qq937.com
+0.0.0.0 frxz01.qq937.com
+0.0.0.0 mcsd.qq937.com
+0.0.0.0 mhxx.qq937.com
+0.0.0.0 qq937.com
+0.0.0.0 yjjh.qq937.com
+0.0.0.0 www.qq937.com
+0.0.0.0 gamefiles.qq937.com
+0.0.0.0 aszt1.my4399.com
+0.0.0.0 pic.my4399.com
+0.0.0.0 u.my4399.com
+0.0.0.0 uimg.my4399.com
+0.0.0.0 stat.api.4399.com
+0.0.0.0 web.4399.com
+@HostsX 国内站点广告/财经类网站
+#和讯财经
+0.0.0.0 ads.hexun.com
+0.0.0.0 analytics.tool.hexun.com
+0.0.0.0 count.tool.hexun.com
+0.0.0.0 hx.hexun.com
+0.0.0.0 hxjs.tool.hexun.com
+0.0.0.0 itv.hexun.com
+0.0.0.0 log.tool.hexun.com
+0.0.0.0 union.hexun.com
+0.0.0.0 utrack.hexun.com
+0.0.0.0 wizard.stock.hexun.com
+#东方财富网
+0.0.0.0 ay.eastmoney.com
+0.0.0.0 cp.eastmoney.com
+0.0.0.0 js1.eastmoney.com
+0.0.0.0 same.eastmoney.com
+0.0.0.0 eastmoney.allyes.com
+0.0.0.0 wonderadafa7.allyes.com
+#金融界
+0.0.0.0 allyes.jrj.com
+0.0.0.0 aps4.jrjimg.cn
+#证券之星
+0.0.0.0 allyes.stockstar.com
+#中金在线
+0.0.0.0 click.cnfol.com
+0.0.0.0 pagead.cnfol.com
+0.0.0.0 he.js.cnfol.com
+0.0.0.0 csad.adsame.com
+#MACD金融网
+0.0.0.0 xc.macd.cn
+#中国资本证券网
+0.0.0.0 ads.ccstock.cn
+@HostsX 国内站点广告/摄影类网站
+#蜂鸟网
+0.0.0.0 pic.fengniao.com
+0.0.0.0 stat.fengniao.com
+0.0.0.0 js.fengniao.com
+#色影无忌
+0.0.0.0 www8.xitek.com
+#POCO
+0.0.0.0 a-m-s.poco.cn
+#新摄影
+0.0.0.0 util.nphoto.net
+@HostsX 国内站点广告/购物类网站
+#Amazon
+0.0.0.0 rcm-images.amazon.com
+0.0.0.0 rcm.amazon.com
+0.0.0.0 rcm-cn.amazon.cn
+#京东商城
+0.0.0.0 c.fa.360buy.com
+0.0.0.0 click.union.360buy.com
+0.0.0.0 show.union.360buy.com
+0.0.0.0 union.360buy.com
+#当当网
+0.0.0.0 a.dangdang.com
+0.0.0.0 central.dangdang.com
+0.0.0.0 union.dangdang.com
+#苏宁
+0.0.0.0 union.suning.com
+#银泰
+0.0.0.0 cps.yintai.com
+#凡客诚品
+0.0.0.0 union.vancl.com
+#梦芭莎
+0.0.0.0 click.moonbasa.com
+0.0.0.0 static.moonbasa.com
+#家电联盟
+0.0.0.0 pic.jdunion.com
+#淘积分
+0.0.0.0 ad.taojifen.net
+@HostsX 国内站点广告/IT类网站
+#电脑之家
+0.0.0.0 ad.adver.com.tw
+0.0.0.0 ad.pchome.net
+0.0.0.0 btm.pchome.net
+0.0.0.0 btn.pchome.net
+0.0.0.0 click.pchome.net
+0.0.0.0 count.club.pchome.net
+0.0.0.0 js-1.pchome.net
+0.0.0.0 market.pchome.net
+0.0.0.0 stat.pchome.net
+#中关村在线
+0.0.0.0 adm.zol.com.cn
+0.0.0.0 bd.zol.com.cn
+0.0.0.0 bwp.zol.com.cn
+0.0.0.0 js.zol.com.cn
+0.0.0.0 jspchome.zol.com.cn
+0.0.0.0 pv.zol.com.cn
+0.0.0.0 pvpchome.zol.com.cn
+0.0.0.0 pvmsite.zol.com.cn
+0.0.0.0 pvsite.zol.com.cn
+0.0.0.0 stat.zol.com.cn
+#Pc泡泡
+0.0.0.0 33.pcpop.com
+0.0.0.0 app.pcpop.com
+0.0.0.0 ashow.pcpop.com
+#Pconline
+0.0.0.0 adv.pconline.com.cn
+0.0.0.0 count5.pconline.com.cn
+0.0.0.0 imgad0.3conline.com
+0.0.0.0 imgad1.3conline.com
+0.0.0.0 imgad2.3conline.com
+0.0.0.0 ivy.pconline.com.cn
+#It168
+0.0.0.0 168.it168.com
+0.0.0.0 adshow.it168.com
+0.0.0.0 stat.it168.com
+#Lenovo
+0.0.0.0 lelinks.lenovo.com
+#It华军
+0.0.0.0 count.newhua.com
+#驱动之家
+0.0.0.0 images.mydrivers.com
+#西域IT
+0.0.0.0 apic.xiyuit.com
+#睿商在线
+0.0.0.0 count.spn.com.cn
+0.0.0.0 www2.spn.com.cn
+#万维家电网
+0.0.0.0 js.ea3w.com
+0.0.0.0 pic.ea3w.com
+0.0.0.0 stat.ea3w.com
+#天极网
+0.0.0.0 counter.tianjimedia.com
+0.0.0.0 image.tianjimedia.com
+0.0.0.0 js.tianjimedia.com
+0.0.0.0 more.tianjimedia.com
+0.0.0.0 pv.tianjimedia.com
+0.0.0.0 www.tianjimedia.com
+0.0.0.0 counter.yesky.com
+0.0.0.0 media.yesky.com
+0.0.0.0 ucpn.yesky.com
+0.0.0.0 union.yesky.com
+0.0.0.0 yeskyafp.allyes.com
+#硅谷动力
+0.0.0.0 trace.enet.com.cn
+0.0.0.0 enet4.enet.com.cn
+#比特网
+0.0.0.0 adsame.tianjimedia.com
+#赛迪网
+0.0.0.0 stat.ccidnet.com
+0.0.0.0 www2.ccidnet.com
+#豆豆网
+0.0.0.0 ad.ddvip.com
+#Donews
+0.0.0.0 gg.donews.com
+#小熊在线
+0.0.0.0 gg.whbear.com
+0.0.0.0 yahoo1.beareyes.com.cn
+#蓝色理想
+0.0.0.0 gg.blueidea.com
+#CSDN
+0.0.0.0 ad.csdn.net
+0.0.0.0 counter.csdn.net
+0.0.0.0 z.csdn.net
+0.0.0.0 zi.csdn.net
+#RayFile
+0.0.0.0 rayfilead.roxcdn.com
+0.0.0.0 img.rayfile.com
+0.0.0.0 raya.rayfile.com
+0.0.0.0 w105.rayfile.com
+#千军万马
+0.0.0.0 ad.qjwm.com
+0.0.0.0 tj.qjwm.com
+0.0.0.0 u.qjwm.com
+#华为
+0.0.0.0 acd.adkongjian.com
+0.0.0.0 cs.adkongjian.com
+0.0.0.0 iacd.adkongjian.com
+0.0.0.0 www.juads.com
+0.0.0.0 cs.twcczhu.com
+0.0.0.0 www.adcccc.com
+#Rising
+0.0.0.0 alert.rising.com.cn
+#115
+0.0.0.0 pc.115.com
+0.0.0.0 ie.115.com
+0.0.0.0 tongji.115.com
+0.0.0.0 soft.tjj.com
+0.0.0.0 v2.tjj.com
+0.0.0.0 xiazai.xiazaiba.com
+0.0.0.0 www.114la.com
+0.0.0.0 un.i.116.com
+0.0.0.0 un.v.116.com
+0.0.0.0 www.999.com
+#2345
+0.0.0.0 2345.com
+0.0.0.0 download.2345.com
+0.0.0.0 ie.2345.com
+0.0.0.0 jifen.2345.com
+0.0.0.0 union.2345.com
+0.0.0.0 union2.2345.com
+0.0.0.0 www.2345.com
+0.0.0.0 my.suda123.com
+0.0.0.0 union.suda123.com
+#idown
+0.0.0.0 idown.stsword.cn
+#木蚂蚁
+0.0.0.0 js.mumayi.net
+#Xdowns
+0.0.0.0 ccc.xdowns.com
+#Crsky
+0.0.0.0 images.crsky.com
+@HostsX 国内站点广告/汽车类网站
+#车市网
+0.0.0.0 analyze.cheshi.com
+0.0.0.0 click.cheshi.com
+0.0.0.0 media.cheshi-img.com
+0.0.0.0 pv.cheshi.com
+0.0.0.0 fallyesbjafa.allyes.com
+#爱卡汽车
+0.0.0.0 count.xcar.com.cn
+0.0.0.0 d0.xcar.com.cn
+0.0.0.0 d1.xcar.com.cn
+0.0.0.0 dw.xcar.com.cn
+#易车网
+0.0.0.0 autosense.bitauto.com
+0.0.0.0 g.bitauto.com
+0.0.0.0 gimg.bitauto.com
+0.0.0.0 ip.bitauto.com
+0.0.0.0 log.bitauto.com
+0.0.0.0 mcc.chinauma.net
+#汽车之家
+0.0.0.0 33.autohome.com.cn
+0.0.0.0 adshow.che168.com
+0.0.0.0 pv.che168.com
+#太平洋汽车网
+0.0.0.0 count.pcauto.com.cn
+#中国汽车网
+0.0.0.0 chinacarsafp.allyes.com
+@HostsX 国内站点广告/信息服务类网站
+#搜房
+0.0.0.0 clickn.soufun.com
+0.0.0.0 count.soufun.com
+0.0.0.0 flas.soufun.com
+0.0.0.0 imgd.soufun.com
+0.0.0.0 imgdn.soufun.com
+0.0.0.0 show.soufun.com
+0.0.0.0 shows.soufun.com
+0.0.0.0 shows1.soufun.com
+#阿邦网
+0.0.0.0 abangafp.abang.com
+0.0.0.0 clk.abang.com
+0.0.0.0 y.abang.com
+#中国天气
+0.0.0.0 poster1.weather.com.cn
+0.0.0.0 poster.weather.com.cn
+#39健康网
+0.0.0.0 app-g.39.net
+0.0.0.0 dpvc.39.net
+0.0.0.0 39net.datamaster.com.cn
+#寻医问药网
+0.0.0.0 gg.xywy.com
+#途牛网
+0.0.0.0 union.tuniu.com
+#糗事百科
+0.0.0.0 ad.qiushibaike.com
+0.0.0.0 resource.duopao.com
+0.0.0.0 g.duopao.com
+#互动百科
+0.0.0.0 stat.hudong.com
+#携程网
+0.0.0.0 allyes.ctrip.com
+#21CN
+0.0.0.0 analytics.21cn.com
+0.0.0.0 click.21cn.com
+0.0.0.0 market.21cn.com
+0.0.0.0 shows.21cn.com
+0.0.0.0 ranking.21cn.com
+#Tom.com
+0.0.0.0 ad.tom.com
+0.0.0.0 hao.tom.com
+0.0.0.0 p4p.tom.com
+0.0.0.0 pre1.pub.tom.com
+0.0.0.0 pv.tom.com
+0.0.0.0 sc.tom.com
+0.0.0.0 ulinkdir.tom.com
+0.0.0.0 ulinkjs.tom.com
+0.0.0.0 tom.allyes.com
+0.0.0.0 adserve2.tomoimg.cn
+0.0.0.0 xtrack.tomonline-inc.com
+#TomSkype
+0.0.0.0 a2.skype.tom.com
+0.0.0.0 a3.skype.tom.com
+0.0.0.0 a4.skype.tom.com
+0.0.0.0 a5.skype.tom.com
+0.0.0.0 a6.skype.tom.com
+0.0.0.0 a7.skype.tom.com
+0.0.0.0 client.skype.tom.com
+0.0.0.0 download.skype.tom.com
+0.0.0.0 u1.skype.tom.com
+0.0.0.0 track.skype.com
+0.0.0.0 skypetools1.tom.com
+0.0.0.0 skypetools3.tom.com
+0.0.0.0 skypetools5.tom.com
+0.0.0.0 store.ule.tom.com
+0.0.0.0 ule.tom.com
+#北青网
+0.0.0.0 a.emedia.cn
+0.0.0.0 v.emedia.cn
+0.0.0.0 z3.emedia.cn
+0.0.0.0 ad.ynet.com
+0.0.0.0 fun.ynet.com
+0.0.0.0 ranking.ynet.com
+#德州之窗
+0.0.0.0 gg.dzwindows.com
+#河池365
+0.0.0.0 bbs.corp.gxhc365.com
+#北海365
+0.0.0.0 ad.beihai365.com
+#Hiao好网
+0.0.0.0 1.up.hiao.com
+0.0.0.0 2.up.hiao.com
+0.0.0.0 3.up.hiao.com
+0.0.0.0 4.up.hiao.com
+0.0.0.0 5.up.hiao.com
+0.0.0.0 932.up.hiao.com
+0.0.0.0 933.up.hiao.com
+0.0.0.0 9628.up.hiao.com
+0.0.0.0 stat.hiao.com
+0.0.0.0 up.hiao.com
+#华声论坛
+0.0.0.0 click.hnol.net
+0.0.0.0 clickip.hnol.net
+0.0.0.0 ts.instreet.cn
+#亿房
+0.0.0.0 shows.fdc.com.cn
+#51Job
+0.0.0.0 logs.51job.com
+0.0.0.0 kwdsrv.51job.com
+#智联招聘
+0.0.0.0 cnt.zhaopin.com
+#Yidaba
+0.0.0.0 adc.yidaba.com
+0.0.0.0 adfv.yidaba.com
+0.0.0.0 adj.yidaba.com
+0.0.0.0 adv.yidaba.com
+0.0.0.0 bd.yidaba.com
+0.0.0.0 bm.yidaba.com
+0.0.0.0 industry.yidaba.com
+0.0.0.0 sdc.yidaba.com
+0.0.0.0 info.yidaba.com
+0.0.0.0 images.yidaba.com
+0.0.0.0 images.cms.yidaba.com
+0.0.0.0 static.yidaba.com
