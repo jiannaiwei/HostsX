@@ -1,4 +1,4 @@
-锘緻HostsX 鍥藉骞垮憡骞冲彴
+@HostsX 国外广告平台
 #247realmedia
 0.0.0.0 accuweathercollect.247realmedia.com
 0.0.0.0 adv.247realmedia.com

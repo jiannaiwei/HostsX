@@ -1,5 +1,4 @@
-ï»¿
-@HostsX å›½å†…ç«™ç‚¹å¹¿å‘Š/è§†é¢‘ç±»ç½‘ç«™
+@HostsX ÊÓÆµÀàÕ¾µã¹ã¸æ
 #CNTV
 0.0.0.0 a.cctv.com
 0.0.0.0 a.cntv.cn
@@ -20,7 +19,7 @@
 #JSTV
 0.0.0.0 jstvimedia.allyes.com
 0.0.0.0 jstv.allyes.com
-#æˆ‘ä¹ç½‘
+#ÎÒÀÖÍø
 0.0.0.0 acs.agent.v-56.com
 0.0.0.0 bill.agent.v-56.com
 0.0.0.0 stat3.corp.v-56.com
@@ -35,12 +34,12 @@
 0.0.0.0 union.56.com
 0.0.0.0 uvimage.56.com
 0.0.0.0 v16.56.com
-#6é—´æˆ¿
+#6¼ä·¿
 0.0.0.0 pole.6rooms.com
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 0.0.0.0 shrek.6.cn
-#iå¥‡è‰º
+#iÆæÒÕ
 0.0.0.0 api.cupid.qiyi.com
 0.0.0.0 msg.video.qiyi.com
 0.0.0.0 jsmsg.video.qiyi.com
@@ -60,7 +59,7 @@
 0.0.0.0 www.linekong.com
 #PPweb
 0.0.0.0 info.ppweb.com.cn
-#ä¼˜é…·ç½‘
+#ÓÅ¿áÍø
 0.0.0.0 e.stat.ykimg.com
 0.0.0.0 ad.atm.youku.com
 0.0.0.0 atm.youku.com
@@ -91,7 +90,7 @@
 0.0.0.0 a.htwisdom.com
 0.0.0.0 h.irs01.com
 0.0.0.0 irs01.com
-#åœŸè±†ç½‘
+#ÍÁ¶¹Íø
 0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
@@ -106,32 +105,32 @@
 0.0.0.0 tudouflv.dnion.com
 0.0.0.0 tvp.tudou.com
 0.0.0.0 wwwtest.tudou.com
-#é…·6ç½‘
+#¿á6Íø
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 ku6.allyes.com
 0.0.0.0 analytics.ku6.com
 0.0.0.0 pq.stat.ku6.com
 0.0.0.0 st.vq.ku6.cn
-#æ¿€åŠ¨ç½‘
+#¼¤¶¯Íø
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86mms.megajoy.com
 0.0.0.0 86get.joy.cn
 0.0.0.0 86log.joy.cn
-#å¤©çº¿è§†é¢‘
+#ÌìÏßÊÓÆµ
 0.0.0.0 casting.openv.com
 0.0.0.0 m.openv.tv
 0.0.0.0 uniclick.openv.com
 #UstreamTV
 0.0.0.0 media.scanscout.com
 0.0.0.0 log.adap.tv
-#çš®çš®å½±è§†
+#Æ¤Æ¤Ó°ÊÓ
 0.0.0.0 afm.pipi.cn
 0.0.0.0 game.pipi.cn
 0.0.0.0 qian.pipi.cn
-#ç¬¬ä¸€æ”¾æ˜ å®¤
+#µÚÒ»·ÅÓ³ÊÒ
 0.0.0.0 admin.onefy.com
 0.0.0.0 bo.tv365.cc
-#ç”µå½±ç½‘M1905
+#µçÓ°ÍøM1905
 0.0.0.0 afp.m1905.com
 0.0.0.0 vodlog.m1905.com
 0.0.0.0 trace.m1905.cn
@@ -140,15 +139,15 @@
 0.0.0.0 playerlog.lxdns.com
 #Wo318
 0.0.0.0 wo318.k621.com
-#çˆ†ç±³èŠ±
+#±¬Ã×»¨
 0.0.0.0 union.pomoho.com
-#ä¹è§†ç½‘
+#ÀÖÊÓÍø
 0.0.0.0 dc.letv.com
 0.0.0.0 pro.letv.com
 0.0.0.0 stat.letv.com
 0.0.0.0 i.mediapower.mobi
 0.0.0.0 letv.allyes.com
-#å·¨é²¸ç½‘
+#¾Ş¾¨Íø
 0.0.0.0 t.top100.cn
 #310v
 0.0.0.0 gg.310v.net

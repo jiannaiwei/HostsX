@@ -1,5 +1,4 @@
-Ôªø
-@HostsX Êô∫ËÉΩËΩ¨Âêë
+@HostsX ÷«ƒ‹◊™œÚ
 #Localhost
 127.0.0.1   localhost
 ::1         localhost
@@ -20,26 +19,6 @@ ff02::3 ip6-allhosts
 fe80::1%lo0	localhost
 255.255.255.255	broadcasthost
 0.0.0.0 advertising.apple.com
-#Apple Services
-203.69.113.128 adcdownload.apple.com
-203.69.113.128 deimos3.apple.com
-203.69.113.128 appldnld.apple.com
-203.69.113.128 swcdn.apple.com
-203.69.113.128 developer.apple.com
-203.69.113.128 movies.apple.com
-203.69.113.128 trailers.apple.com
-203.69.113.128 discussions.apple.com
-203.69.113.128 km.support.apple.com
-203.69.113.128 a1.mzstatic.com
-203.69.113.128 a2.mzstatic.com
-203.69.113.128 a3.mzstatic.com
-203.69.113.128 a4.mzstatic.com
-203.69.113.128 a5.mzstatic.com
-203.69.113.128 a6.mzstatic.com
-203.69.113.128 a7.mzstatic.com
-203.69.113.128 a8.mzstatic.com
-184.25.218.46 www.icloud.com
-184.30.117.47 www.me.com
 #Google
 74.125.235.133 appengine.google.com
 #Facebook

@@ -1,4 +1,4 @@
-ï»¿@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™
+@ÃÅ»§ºÍ³£ÓÃÍøÕ¾
 #GoogleAdWord
 0.0.0.0 adwords.google.com
 0.0.0.0 adwords.google.sk
@@ -261,7 +261,7 @@
 0.0.0.0 mobileads.google.com
 0.0.0.0 mobwin.android.com
 0.0.0.0 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
-#ç™¾åº¦å¹¿å‘Šè”ç›Ÿ
+#°Ù¶È¹ã¸æÁªÃË
 0.0.0.0 a.baidu.com
 0.0.0.0 adm.baidu.com
 0.0.0.0 baidutv.baidu.com
@@ -313,7 +313,7 @@
 0.0.0.0 utk.baidu.com
 0.0.0.0 wangmeng.baidu.com
 0.0.0.0 wm.baidu.com
-#é˜¿é‡Œå¹¿å‘Šè”ç›Ÿ
+#°¢Àï¹ã¸æÁªÃË
 0.0.0.0 a.alimama.cn
 0.0.0.0 bm.alimama.cn
 0.0.0.0 bmvip.alimama.cn
@@ -366,7 +366,7 @@
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
 0.0.0.0 img.uu1001.cn
-#æ–°æµªç½‘
+#ĞÂÀËÍø
 0.0.0.0 adimg.mobile.sina.cn
 0.0.0.0 c.biz.weibo.com
 0.0.0.0 widget.weibo.com
@@ -421,7 +421,7 @@
 0.0.0.0 rm.ra.icast.cn
 0.0.0.0 track.ra.icast.cn
 0.0.0.0 track2.ra.icast.cn
-#ç½‘æ˜“163
+#ÍøÒ×163
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
@@ -446,7 +446,7 @@
 0.0.0.0 proimg.163.com
 0.0.0.0 ud.blog.163.com
 0.0.0.0 union.163.com
-#æœ‰é“æœç´¢
+#ÓĞµÀËÑË÷
 0.0.0.0 a.youdao.com
 0.0.0.0 clkservice.mail.youdao.com
 0.0.0.0 clkservice.union.youdao.com
@@ -462,7 +462,7 @@
 0.0.0.0 union.youdao.com
 0.0.0.0 adpublish.ydstatic.com
 0.0.0.0 oimageb2.ydstatic.com
-#è…¾è®¯QQ
+#ÌÚÑ¶QQ
 0.0.0.0 upload_data.qq.com
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
@@ -521,17 +521,17 @@
 0.0.0.0 p3.l.qq.com
 0.0.0.0 dp3.qq.com
 0.0.0.0 ls.l.qq.com
-#æœæœ
+#ËÑËÑ
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
 0.0.0.0 pingfore.soso.com
 0.0.0.0 v3.toolbar.soso.com
 0.0.0.0 toolbar.soso.com
-#ç‹—ç‹—æœç´¢
+#¹·¹·ËÑË÷
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
 0.0.0.0 www.155.com
-#è¿…é›·çœ‹çœ‹
+#Ñ¸À×¿´¿´
 0.0.0.0 adcount.sandai.net
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
@@ -601,7 +601,7 @@
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
-#æœç‹
+#ËÑºü
 0.0.0.0 atyt.tv.sohu.com
 0.0.0.0 access.tv.sohu.com
 0.0.0.0 p.aty.sohu.com
@@ -632,7 +632,7 @@
 0.0.0.0 sohu.ad-plus.cn
 0.0.0.0 u.ad-plus.cn
 0.0.0.0 sohu.datamaster.com.cn
-#æœç‹—
+#ËÑ¹·
 0.0.0.0 a1click.cpc.sogou.com
 0.0.0.0 adsence.sogou.com
 0.0.0.0 alpha.brand.sogou.com
@@ -659,7 +659,7 @@
 0.0.0.0 sy.brand.sogou.com
 0.0.0.0 union.sogou.com
 0.0.0.0 wb.brand.sogou.com
-#é‡‘å±±åœ¨çº¿
+#½ğÉ½ÔÚÏß
 0.0.0.0 kinfo.wps.cn
 0.0.0.0 db.union.download.kingsoft.com
 0.0.0.0 push.db.kingsoft.com
@@ -667,7 +667,7 @@
 0.0.0.0 union.jx2.kingsoft.com
 0.0.0.0 union.kingsoft.com
 0.0.0.0 union.wps.kingsoft.com
-@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™/Microsoft AD
+@ÃÅ»§ºÍ³£ÓÃÍøÕ¾/Microsoft AD
 #Adbureau
 0.0.0.0 ad101com-images.adbureau.net
 0.0.0.0 ad101com.adbureau.net
@@ -824,7 +824,7 @@
 0.0.0.0 spd.netconversions.com
 0.0.0.0 madserver.net
 0.0.0.0 ads.msn.com.nsatc.net
-@é—¨æˆ·å’Œå¸¸ç”¨ç½‘ç«™/Yahoo!
+@ÃÅ»§ºÍ³£ÓÃÍøÕ¾/Yahoo!
 #Adinterax
 0.0.0.0 adinterax.com
 0.0.0.0 mi.adinterax.com

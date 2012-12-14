@@ -1,5 +1,4 @@
-ï»¿
-@HostsX ç»Ÿè®¡è·Ÿè¸ªå±è”½
+@HostsX Í³¼Æ¸ú×ÙÆÁ±Î
 #51La
 0.0.0.0 img.users.51.la
 0.0.0.0 js.users.51.la
@@ -417,7 +416,7 @@
 0.0.0.0 code3.soua.com
 0.0.0.0 www.soua.com
 0.0.0.0 union.soua.com
-#ç››å¤§ç»Ÿè®¡
+#Ê¢´óÍ³¼Æ
 0.0.0.0 adrs.sdo.com
 0.0.0.0 bf.snyu.sdo.com
 0.0.0.0 bh.snyu.sdo.com

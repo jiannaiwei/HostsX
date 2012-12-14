@@ -1,4 +1,4 @@
-锘緻Mobile 鎵嬫満骞垮憡骞冲彴
+@Mobile 手机广告平台
 #AdMob
 127.0.0.1 api.admob.com
 127.0.0.1 e.admob.com
