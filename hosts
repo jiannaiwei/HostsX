@@ -1,5 +1,5 @@
 
-;version=20:06:24.40 2012/12/15 ÷‹¡˘
+;version=20:12:15.17 2012/12/15 ÷‹¡˘
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2446,7 +2446,6 @@ fe80::1%lo0	localhost
 127.0.0.1 vodlog.m1905.com
 127.0.0.1 trace.m1905.cn
 127.0.0.1 counter.m1905.com
-127.0.0.1 nuc.m1905.com
 127.0.0.1 playerlog.lxdns.com
 127.0.0.1 psstatus.lxdns.com
 #Wo318

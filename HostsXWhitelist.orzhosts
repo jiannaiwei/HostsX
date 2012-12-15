@@ -1,7 +1,11 @@
-;version=8:52 2012/12/9
+;version=20:13 2012/12/15
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
-#导安卓CNTV无法正常播放。
+#导致电影网用户头像无法正常显示。
+nuc.m1905.com
+$DELETE
+
+#导致安卓CNTV无法正常播放。
 analytics.doplive.com.cn
 $DELETE
 

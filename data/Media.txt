@@ -135,7 +135,6 @@
 0.0.0.0 vodlog.m1905.com
 0.0.0.0 trace.m1905.cn
 0.0.0.0 counter.m1905.com
-0.0.0.0 nuc.m1905.com
 0.0.0.0 playerlog.lxdns.com
 0.0.0.0 psstatus.lxdns.com
 #Wo318
