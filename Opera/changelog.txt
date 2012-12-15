@@ -1350,6 +1350,7 @@ div[class^="ad"][style="z-index: 0"]
 
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+div[class$="_ad"],http://sports.cntv.cn/20101031/100637.shtml,视频播放被过滤
 div[id$="Ad"], 花旗银行登录页面
 <div class="sign">  http://www.qiushibaike.com/login 登录框
 td[class="plc plm"], 某些论坛（小米论坛、比思）帖子下方的收藏按钮都给屏蔽了
