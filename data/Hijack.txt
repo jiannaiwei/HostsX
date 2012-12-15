@@ -23,7 +23,6 @@
 0.0.0.0 img.dianxin.cn
 0.0.0.0 union.dianxin.cn
 0.0.0.0 www.dianxin.cn
-0.0.0.0 linezing.com
 0.0.0.0 sddnserror1.wo.com.cn
 0.0.0.0 sddnserror2.wo.com.cn
 0.0.0.0 sddnserror3.wo.com.cn
