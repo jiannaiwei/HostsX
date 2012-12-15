@@ -1,5 +1,5 @@
 
-;version= 9:26:06.43 2012/12/15 周六
+;version=20:06:24.40 2012/12/15 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -566,6 +566,7 @@ fe80::1%lo0	localhost
 0.0.0.0 duiwai.baidu.com
 0.0.0.0 dzl.baidu.com
 0.0.0.0 e.baidu.com
+0.0.0.0 eclick.baidu.com
 0.0.0.0 eiv.baidu.com
 0.0.0.0 gimg.baidu.com
 0.0.0.0 guanjia.baidu.com
@@ -2447,6 +2448,7 @@ fe80::1%lo0	localhost
 0.0.0.0 counter.m1905.com
 0.0.0.0 nuc.m1905.com
 0.0.0.0 playerlog.lxdns.com
+0.0.0.0 psstatus.lxdns.com
 #Wo318
 0.0.0.0 wo318.k621.com
 #爆米花
@@ -9465,6 +9467,7 @@ fe80::1%lo0	localhost
 0.0.0.0 customer.csbew.com
 0.0.0.0 s.csbew.com
 0.0.0.0 static.csbew.com
+0.0.0.0 tga.csbew.com
 #Diangao
 0.0.0.0 a.diangao.com
 0.0.0.0 pic.diangao.com
@@ -9812,6 +9815,7 @@ fe80::1%lo0	localhost
 0.0.0.0 www.unionbig.com
 0.0.0.0 www.ubcpm.com
 0.0.0.0 uimg.youxjia.com
+0.0.0.0 txt.youxjia.com
 0.0.0.0 uimg.yxcpm.com
 #Unionsky
 0.0.0.0 pics.unionsky.cn

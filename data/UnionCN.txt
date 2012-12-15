@@ -648,6 +648,7 @@
 0.0.0.0 customer.csbew.com
 0.0.0.0 s.csbew.com
 0.0.0.0 static.csbew.com
+0.0.0.0 tga.csbew.com
 #Diangao
 0.0.0.0 a.diangao.com
 0.0.0.0 pic.diangao.com
@@ -995,6 +996,7 @@
 0.0.0.0 www.unionbig.com
 0.0.0.0 www.ubcpm.com
 0.0.0.0 uimg.youxjia.com
+0.0.0.0 txt.youxjia.com
 0.0.0.0 uimg.yxcpm.com
 #Unionsky
 0.0.0.0 pics.unionsky.cn
