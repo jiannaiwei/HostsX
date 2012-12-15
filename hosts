@@ -1,5 +1,5 @@
 
-;version=23:02:19.77 2012/12/14 周五
+;version= 9:26:06.43 2012/12/15 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3641,6 +3641,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.stickylogic.com
 127.0.0.1 www.wqmobile.com
 127.0.0.1 www.zhesm.com
+127.0.0.1 ad.leadboltads.net
 @HostsX 国外广告平台
 #247realmedia
 127.0.0.1 accuweathercollect.247realmedia.com

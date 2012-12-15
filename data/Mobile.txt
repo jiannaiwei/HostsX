@@ -642,3 +642,4 @@
 127.0.0.1 www.stickylogic.com
 127.0.0.1 www.wqmobile.com
 127.0.0.1 www.zhesm.com
+127.0.0.1 ad.leadboltads.net
