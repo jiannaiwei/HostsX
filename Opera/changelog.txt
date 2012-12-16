@@ -1688,3 +1688,115 @@ Item, "解除WebKit前缀"="Go to page, "javascript:(function(){var s=document.creat
 Item, "编辑模式"="Go to page, "javascript: (function(){document.designMode=(document.designMode=='on')?'off':'on';window.addEventListener('keypress', function(ev){if(ev.keyCode == '27'){ document.designMode = 'off'; window.removeEventListener('keypress', arguments.callee, false);} }, false);})();",,Design Mode,"Mail Compose HTML""
 Button, "Archive&Cache"="Go to page, "http://wayback.archive.org/web/*/%u",,,"Mail Compose Increase Size" + Go to page,"https://webcache.googleusercontent.com/search?client=opera&rls=zh-cn&sourceid=opera&q=cache:%u",,,"google""
 Button, "优酷土豆"="External action, , , "优酷土豆", "search" | Go to page, "javascript:void(inivar='%c')" & Go to page, "javascript:void(inivar2='%t')" & Go to page, "javascript:(function(){var d=window.inivar;if(!d){d=''};var getText=function(w){var u=w.document,v=u.getSelection(),t=u.querySelectorAll('textarea,input');if(!v)for(var i=0,e;e=t[i];i++){if(v=e.value.substring(e.selectionStart,e.selectionEnd))break}return v};var getSel=function(w){var rez=w?getText(w):'';if(rez==''){for(var i=0,f;f=w.frames[i];i++){try{if(rez=arguments.callee(f))break}catch(e){}}};return rez};var w=window;var q=getSel(w)||window.inivar2;if(!q){q=prompt('y:youku & t:tudou',' ')};if(q){if(location.hostname!=''){}else{window.close()};if(q.match(/\s(y|t)$/i)){x=q.substring(0,(q.length-2));}else if(q.match(/^(y|t|\s+)$/i)){x=d}else{x=q};if(x.match(/^(\s+)?$/i)){x=d};x=x.replace(/^\s+|\s+$/g,'');if(!x){return};var yk='http://www.soku.com/search_video/q_'+x.replace(/ /g,'+');var td='http://so.tudou.com/isearch/'+encodeURIComponent(x).replace(/ /g,'+');if(q.match(/(\s|^)y$/i)){window.open(yk);}else if(q.match(/(\s|^)t$/i)){window.open(td)}else{setTimeout(function(){window.open(td).blur();}, 10);setTimeout(function(){window.open(yk);}, 10);}}})()", , , "none" + Go to page, "javascript:void(window.open('opera:cache?domain='+(function(d){if(/^(?:\d{1,3}\.){3}\d{1,3}$/.test(d))return d;var a=d.split('.');var l=a.length;return(l<3)?d:(a[l-2]+'.'+a[l-1])})(location.hostname)+'&list=preview'));",,,"find""
+--------------------------------------------------------------------------------
+新收藏夹网站广告整理：17:33 2012/12/16
+<div class="advert">
+<div class="adtxt">
+<div id="header_ads" class="clearfix">
+<div class="ad" style="height:600px;width:160px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" id="flashad2" width="120" height="270">
+images/ad/hedinben3.gif
+<div class="navad">
+<script type="text/javascript" src="http://sg-cdn.effectivemeasure.net/em.js"/>
+<script src="http://b.scorecardresearch.com/beacon.js"/>
+<script type="text/javascript" src="http://adtag.asiaone.com/tag/zaobao/js/zbcn_home_banner_01.js"/>
+<script type="text/javascript" src="http://lhzpimedia.allyes.com/main/s?user=zaobao|zaobao_Homepage|zaobao_Homepage_01&db=lhzpimedia&border=0&local=yes&js=ie" charset="gbk"/>
+<a href="http://lhzpimedia.allyes.com/main/adfclick?d=lhzpimedia&i=z157,11974,272,585&k=&p=0&v=1355636776.331&wl=&rf=http%3A%2F%2Fwww%2Ezaobao%2Ecom%2F&u=http://www.spba.com.sg/winners.html" target="_blank">
+<img src="http://creative.allyes.com.cn/zaobao/20121211/10_32_53_9C9D2E4A.gif" width="650" height="90" border="0" alt=""/>
+<script type="text/javascript" src="//secure-sg.imrworldwide.com/v53.js"/>
+<script type="text/javascript" src="http://adtag.asiaone.com/tag/zaobao/js/zbcn_home_banner_02a.js"/>
+<script type="text/javascript" src="http://lhzpimedia.allyes.com/main/s?user=zaobao|zaobao_Homepage|zaobao_Homepage_02a&db=lhzpimedia&border=0&local=yes&js=ie" charset="gbk"/>
+<a href="http://lhzpimedia.allyes.com/main/adfclick?d=lhzpimedia&i=z160,8660,238,521&k=&p=0&v=1355636785.351&wl=&rf=http%3A%2F%2Fwww%2Ezaobao%2Ecom%2F&u=http://www.zaobao.com/wencui/2012/08/zaobao120825ma.shtml" target="_blank">
+<img src="http://creative.allyes.com.cn/zaobao/20120827/11_50_54_6C1C6C5F.gif" width="30
+<div id="right300x250normal"><div id="right300x250">
+<div class="rightad">
+<div id="topad" style="position:absolute;top:-110px;left:15px;width:969px;margin:0;">
+<script language="javascript" src="http://33.pcpop.com/pv/pv.js"/>
+<script type="text/javascript" src="http://168.it168.com/js/65.js?uid=234345666ss"/>
+<div class="ads1"><div class="ads2">
+<script src="/data/ads/ads_i2.js"/>
+<script src="/data/ads/ads_i3.js"/>
+<div class="gg">
+<div class="advdiv">
+<a href="/police/index.html">
+<div class="l_ads">
+<div class="r_ads">
+<div id="random-ads" class="xy" style="display: block">
+<script src="/js/click.js"/>
+<script src="/skin/js/fmtyx.js"/>
+<div class="adll">
+<div class="adrr">
+<script language="javascript" src="http://u034024.778669.com/mediaController.php?pid=32091"/>
+document.writeln("<script language=\"javascript\" src=\"http:\/\/u034024.778669.com\/mediaController.php?pid=32091\"><\/script>");
+document.write('<script src="http://u.3393.com/r/?pid=94508&show_t=2" type="text/Javascript"><'+'/script>');
+document.writeln("<script language=\"JavaScript\" src=\"http:\/\/code.yy32.com\/r\/?RID=478_0_0\"><\/script>");
+<div id="link">
+<div id="baidu">
+http://www.hltm.cc/gg/1al1.js
+http://s15.cnzz.com/stat.php?id=2311674&web_id=2311674
+http://www.hltm.cc/gg/tan2.js
+http://u.3393.com/f/?pid=148159&show_t=2
+http://rc.qiyou.com/view.php?uid=12076
+http://js.kk7kk.com/i.php?z=2325
+http://js.kk7kk.com/cpm_static/3_200.js
+http://www.hltm.cc/gg/adjs.js
+http://img.feitian001.com/html/click/2173_56.html
+rc="http://res.feiku.com/Skin/FeiKu2010/Js/Ads/Index_1.js"/>
+http://www.37cs.com/html/click/496_29.html
+<img width="960" height="90" src="http://static.acfun.tv/ads/*" alt="广告"/>
+<div id="ad-top" class="ad">
+<script src="http://biz5.sandai.net/portal/uuu9/top.js"/>
+<script src="http://biz5.sandai.net/portal/013/A/cm1338.js"/>
+<script src="http://biz5.sandai.net/portal/013/A/cm1339.js"/>
+<div class="ad_792">
+<div class="adbox" style="height:755px;">
+<div class="ad_text" id="ad_text">
+<table summary="Text Ad" cellpadding="0" cellspacing="1">
+http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201207&TargetID=sohu&Values=34acd340,2635dfd7,c027e342,416846c1&AdID=6854561
+<div class="topadbod">
+http://gg.5173.com/adpolestar/wayl/;ad=0B3C1538_16BC_8
+http://urchin.5173.com/urchin.js
+http://js.17173.com/ping.js
+http://js.sohu.com/mail/pv/pv.js
+http://pv.sohu.com/pv.gif?t?=1355640342454419_1366_768?r?=
+http://go.wonderad.com/WaDeliver/8576.click?/4494/1132/u
+http://adforward.yeyou.com/n/1647.html
+<div id="adLeaderboard" class="module">
+<div class="top_ad fl_left">
+<div class="ads300">
+<div id="ad_790x100">
+<div id="ADV_19255" style="margin:0 auto;display:none;width:980px"/>
+<div class="banner_wrap" id="ipadpic">
+<div id="AD2894" style="width:760px;height:90px;text-align:center;float:none" class="adSpace">
+http://himg2.huanqiu.com/statics/js/adCode.js
+http://himg2.huanqiu.com/uploadfile/swf/indexDuilianRight.swf
+http://himg2.huanqiu.com/uploadfile/swf/indexDuilianLeft.swf
+<div id="HQleftDiv">
+<div id="HQrightDiv">
+<div class="ad640x90 mt10 h60" id="adBa_2">
+<div id="adPt" class="h250">
+<div class="adDingT" id="adDt">
+<div class="ad960x90" id="adUn_1">
+<div class="ad960x185 marBot10" id="adUn_2">
+<div class="ad640x60 marBot10" id="adUn_3">
+<div class="conAd">
+<div class="qu_ad96090">
+<div class="top_story_ad">
+<div id="1" class="ad1960">
+<div id="lacdiv" class="ad_140_l cl" style="left: 0px; display: block; top: 0px">
+<div id="racdiv" class="ad_140_r" style="display: block; top: 0px; left: 1012px">
+<div class="ad-2-2">
+<div class="ad-2-1">
+<div id="adDt_con" class="adNo"/>
+<div id="adBa_1_con" class="adNo"/>
+<div id="adBa_2_con" class="adNo"/>
+<div id="adBtn_1_con" class="adNo"/>
+<div id="adBtn_2_con" class="adNo"/>
+<div id="adBtn_3_con" class="adNo"/>
+<div id="adTe_con" class="adNo"/>
+<div id="adPt_con" class="adNo"/>
+<div id="adFm_1_con" class="adNo">
+<ul class="adwindow">
+
+
+

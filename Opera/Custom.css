@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.14
+Version: 5.0.1.16
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 15:50 2012/12/15
+Lastchage: 19:30 2012/12/16
 Description: MayBe a better User CSS Help U.
 */
 
@@ -23,12 +23,12 @@ div[class="ad"],div[class^="ad_"],div[class$="_ads"],div[class$="_ad"][id$="_ad"
 div[class*="-ad-"],div[class*="-ad ad"],div[class*="_ad_img"],div[class$="-ad"]{
 display: none !important;
 	}
-div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="adFrame"],
+div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="adFrame"],div[class^="adSpace"],
 div[class^="adList"],div[class^="adlist"],div[class^="adindex"],div[class^="ades"]{
 display: none !important;
 	}
-div[class^="ada"],div[class^="adc"],div[class^="ad-txt"],div[class^="adbox"],div[class="ad-img"],
-div[class^="adarea"],div[class*="cvAd"],div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
+div[class^="ada"],div[class^="adc"],div[class^="ad-txt"],div[class^="adbox"],div[class="ad-img"],div[class$="_adpic"],
+div[class^="adarea"],div[class*="cvAd"],div[class$="Ad"],div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
 display: none !important;
 	}
 
@@ -36,11 +36,11 @@ div[id^="ad0"],div[id^="ad1"],div[id^="ad2"],div[id^="ad3"],div[id^="ad4"],
 div[id^="ad5"],div[id^="ad6"],div[id^="ad7"],div[id^="ad8"]{
 display: none !important;
 	}
-div[id^="adv"],div[id^="Adv"],div[id^="ADV_"],div[id$="Adv"],
+div[id^="adv"],div[id^="Adv"],div[id^="ADV_"],div[id$="Adv"],div[id$="adpic"],
 div[id^="ads_"],div[id^="ads-"],div[id*="-ads-"],div[id$="_ads"]{
 display: none !important;
 	}
-div[id="ad"],div[id^="ad_"],div[id$="-ad"],div[id$="-ads"],
+div[id="ad"],div[id^="ad_"],div[id$="-ad"],div[id$="-ads"],div[id^="ad-"][class="ad"],
 div[id*="-ad-"],div[id*="0_AD_"],div[id^="Ads_"],div[id^="afp_"]{
 display: none !important;
 	}
@@ -69,7 +69,7 @@ div[id*="TopAD"],div[id^="TopAd"],div[id^="topAD"],div[id^="topad"],div[id*="top
 display: none !important;
 	}
 div[class^="nav-ad"],div[class^="ndadv"],div[class*="-top-ads"],div[class*="AdTop-"],div[id^="couplet"],div[id="CoupletDiv"],
-div[id="navads"],div[id="topmad"],div[id="toplink"],div[id="adTop"],div[id$="head_ad"]{
+div[class^="navad"],div[id^="navad"],div[id="topmad"],div[id="toplink"],div[id="adTop"],div[id$="head_ad"]{
 display: none !important;
 	}
 div[class="adll"],div[class^="adLeft"],div[id^="LeftAd"],div[id$="eftDiv"],div[id^="LeftBottom"],div[id="leftdiv"],
@@ -88,8 +88,8 @@ div[id$="_BOXAD"],div[id*="ContentAd"],div[id^="HeaderAd"],div[id*="_column_ad"]
 div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"],div[id^="duilain"]{
 display: none !important;
 	}
-div[id^="BANNER_"],div[id="clickbg"],div[id="prombar"],div[id="splink"],div[id^="insidead"],
-div[id^="pic_ad"],div[id^="dale_online_"],div[id^="extradiv"],div[id="sp"]{
+div[id^="BANNER_"],div[id="clickbg"],div[id="prombar"],div[id="splink"],div[id="link"],div[id^="insidead"],
+div[id="baidu"],div[id^="pic_ad"],div[id^="dale_online_"],div[id^="extradiv"],div[id="sp"]{
 display: none !important;
 	}
 
@@ -98,7 +98,7 @@ tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[id="ad_corner_close"],p[class^="
 display: none !important;
 	}
 table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],table[class="advtable"],table[class="ad-in-entry"],
-img[id^="ad"],img[class="ad"],img[class$="adimg"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt*="广告"]{
+table[summary="Text Ad"],img[id^="ad"],img[class="ad"],img[class$="adimg"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt*="广告"]{
 display: none !important;
 	}
 span[class^="gg"],span[class="adlink"],span[class="bdad"],span[class^="ads_"],
@@ -228,7 +228,7 @@ div[class^="upgrade_ie6"],div[id="update_popwin"],div[id="browsertip"],div[class
 /* 部分站点广告 */
 sohuadcode {display:none !important}
 div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
-div[id^="smExtObj"],div[id^="ifengAe"],div[class$="_adpic"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
+div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
 div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"]{display:none !important}
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}

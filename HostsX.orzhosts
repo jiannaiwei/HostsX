@@ -1,5 +1,5 @@
 
-;version= 9:52:04.83 2012/12/16 周日
+;version=19:32:54.74 2012/12/16 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -657,7 +657,6 @@ fe80::1%lo0	localhost
 #新浪网
 0.0.0.0 adimg.mobile.sina.cn
 0.0.0.0 c.biz.weibo.com
-0.0.0.0 widget.weibo.com
 0.0.0.0 all.vic.sina.com.cn
 0.0.0.0 8.show.sina.com.cn
 0.0.0.0 ad3.sina.com.cn
@@ -1848,6 +1847,9 @@ fe80::1%lo0	localhost
 0.0.0.0 stadig.ifeng.com
 #联合早报
 0.0.0.0 ads.zaobao.com
+0.0.0.0 adtag.asiaone.com
+0.0.0.0 lhzpimedia.allyes.com
+0.0.0.0 creative.allyes.com.cn
 #新民网
 0.0.0.0 iads.xinmin.cn
 #慧聪网
@@ -1920,6 +1922,9 @@ fe80::1%lo0	localhost
 #178
 0.0.0.0 adcount.178.com
 0.0.0.0 market.178.com
+#5173
+0.0.0.0 gg.5173.com
+0.0.0.0 urchin.5173.com
 #游侠网
 0.0.0.0 bmp.ali213.net
 #最游戏
@@ -11918,3 +11923,4 @@ fe80::1%lo0	localhost
 0.0.0.0 a.66x.in
 0.0.0.0 vdad.uuzu.com
 0.0.0.0 p.t88u.com
+0.0.0.0 code.yy32.com

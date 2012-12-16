@@ -856,3 +856,4 @@
 0.0.0.0 a.66x.in
 0.0.0.0 vdad.uuzu.com
 0.0.0.0 p.t88u.com
+0.0.0.0 code.yy32.com

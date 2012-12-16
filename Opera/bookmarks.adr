@@ -12,7 +12,7 @@ Options: encoding = utf8, version=3
 	NAME=百度HI
 	URL=http://web.im.baidu.com/
 	CREATED=1306377011
-	VISITED=1355212637
+	VISITED=1355628688
 	UNIQUEID=D3A96368966B38459B74F4CB729CFFE2
 
 #URL
@@ -20,7 +20,7 @@ Options: encoding = utf8, version=3
 	NAME=阿里旺旺
 	URL=http://webwwtb.im.alisoft.com/wangwang/webww1.htm?from=homepage
 	CREATED=1306376995
-	VISITED=1355212627
+	VISITED=1355628689
 	UNIQUEID=74EA84B4D6E63146B04C145A1BC8D7C8
 
 #URL
@@ -28,108 +28,103 @@ Options: encoding = utf8, version=3
 	NAME=Live Messager
 	URL=http://webmessenger.live.cn/wlml/index.htm
 	CREATED=1306376978
-	VISITED=1355212628
+	VISITED=1355628696
 	UNIQUEID=18614624F4BE5E4B939A03D037DC62E0
 
 #URL
 	ID=27
-	NAME=Yahoo Messager
-	URL=http://cn.webmessenger.yahoo.com/
-	CREATED=1306377030
-	VISITED=1355129596
-	UNIQUEID=F102C9D83498A949B18B6B055A254D98
-
-#URL
-	ID=28
 	NAME=腾讯微博
 	URL=http://radio.t.qq.com/open/t.php?sid=1278&pref=internal.qqbrowser
 	CREATED=1318659608
-	VISITED=1355129595
+	VISITED=1355628700
 	IN PANEL=YES
 	PANEL_POS=1
 	UNIQUEID=BE0F05D18F5E664F91A0E825A2F072B4
 
 #URL
-	ID=29
+	ID=28
 	NAME=豆瓣FM Side
 	URL=http://douban.fm/partner/sidebar
 	CREATED=1318659696
-	VISITED=1355129592
+	VISITED=1355628716
 	IN PANEL=YES
 	PANEL_POS=0
 	UNIQUEID=25319813733CCA4FB7F254A2136CF9BB
 
 #URL
-	ID=30
+	ID=29
 	NAME=亦歌
 	URL=http://www.1g1g.com/
 	CREATED=1306391892
-	VISITED=1355212701
+	VISITED=1355628712
 	UNIQUEID=908713A8F6006A46A41920CA3E142170
 
 #URL
-	ID=31
+	ID=30
 	NAME=网页版飞信
 	URL=https://webim.feixin.10086.cn/
 	CREATED=1326553576
-	VISITED=1355129582
+	VISITED=1355628714
 	SHORT NAME=feixin
 	UNIQUEID=6E929F32EC0FC14DAF447FD2F774344D
 
 #URL
-	ID=32
+	ID=31
 	NAME=UC聊天
 	URL=http://im.sina.com.cn/web_chat/index_v2.html
 	CREATED=1306392032
+	VISITED=1355628709
 	UNIQUEID=20DF0D9636ACA5428422F74E1448B31F
 
 #URL
-	ID=33
+	ID=32
 	NAME=WebQQ
 	URL=http://web.qq.com/
 	CREATED=1306392076
+	VISITED=1355628725
 	SHORT NAME=qq
 	UNIQUEID=A89D124F0123DD43ABD9B819304DBC6D
 
 #URL
-	ID=34
+	ID=33
 	NAME=QQ空间
 	URL=http://qz.qq.com/?origintype=4
 	CREATED=1318659550
+	VISITED=1355628702
 	UNIQUEID=E03CB728EFCA7246BE9959206BA46701
 
 #URL
-	ID=35
+	ID=34
 	NAME=手机腾讯网
 	URL=http://pt.3g.qq.com/
 	CREATED=1346684271
-	VISITED=1355212632
+	VISITED=1355628702
 	UNIQUEID=29A14A29B6D4E44E9B7167635972A599
 
 #URL
-	ID=36
+	ID=35
 	NAME=股市迷你面板
 	URL=http://stockapp.finance.qq.com/panel/index.php?check=4&key=toolbar&uin=
 	CREATED=1318659587
-	VISITED=1354891354
+	VISITED=1355628705
 	IN PANEL=YES
 	PANEL_POS=2
 	UNIQUEID=662D3CE4108B234DB275BECA1F97877D
 
 #URL
-	ID=37
+	ID=36
 	NAME=Google任务
 	URL=https://mail.google.com/tasks/ig
 	CREATED=1351092206
-	VISITED=1355376049
+	VISITED=1355628775
 	UNIQUEID=5882B45AD8E34346BDCF52956B03C5B7
 
 #URL
-	ID=38
+	ID=37
 	NAME=Google 翻译
 	URL=http://translate.google.com/m/translate
 	CREATED=1354198236
-	VISITED=1355551456
+	VISITED=1355628705
 	IN PANEL=YES
 	PANEL_POS=3
 	UNIQUEID=76F17B2C6F423743AD95F17070D755C1
@@ -137,13 +132,13 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=39
+	ID=38
 	NAME=工具按钮
 	CREATED=1305043225
 	UNIQUEID=5671EB7A4D49F047A06389BECD7BD04A
 
 #URL
-	ID=40
+	ID=39
 	NAME=QR码
 	URL=http://qr.zeemind.com/
 	CREATED=1328369321
@@ -151,7 +146,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=535F2B744E68E84FAA333DFB83571722
 
 #URL
-	ID=41
+	ID=40
 	NAME=表情符号
 	URL=http://mail.qq.com/zh_CN/htmledition/features/about_symbolization.html
 	CREATED=1318665473
@@ -159,21 +154,21 @@ Options: encoding = utf8, version=3
 	UNIQUEID=D784930A3286E44587AB1BB1524B3720
 
 #URL
-	ID=42
+	ID=41
 	NAME=Privnote
 	URL=https://privnote.com/
 	CREATED=1315482176
 	UNIQUEID=27C895D2D581AD4EA6BED67AF1CA34FE
 
 #URL
-	ID=43
+	ID=42
 	NAME=火眼
 	URL=https://fireeye.ijinshan.com/
 	CREATED=1344562461
 	UNIQUEID=FCD91BBC991051429F72AFD85BA0E8B1
 
 #URL
-	ID=44
+	ID=43
 	NAME=云记事薄
 	URL=http://notepad.im/
 	CREATED=1329400076
@@ -181,7 +176,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=81FB434B930B244CA254302020104279
 
 #URL
-	ID=45
+	ID=44
 	NAME=云便笺
 	URL=http://notepad.cc/
 	CREATED=1329400026
@@ -189,7 +184,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=49B36FC27BCEE24D8BFE698FBFFAA5D5
 
 #URL
-	ID=46
+	ID=45
 	NAME=Virscan
 	URL=http://virscan.org/
 	CREATED=1315482267
@@ -197,7 +192,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=B4049FBF20B675459459083DC4F8D2A7
 
 #URL
-	ID=47
+	ID=46
 	NAME=VirusTotal
 	URL=http://www.virustotal.com/
 	CREATED=1315481838
@@ -205,14 +200,14 @@ Options: encoding = utf8, version=3
 	UNIQUEID=6237130A7D98E6419104CDD512B2BF4D
 
 #URL
-	ID=48
+	ID=47
 	NAME=Jotti's malware scan
 	URL=http://virusscan.jotti.org/en
 	CREATED=1318665627
 	UNIQUEID=369A306B9B56D04EA1591214D90F9F1F
 
 #URL
-	ID=49
+	ID=48
 	NAME=进程信息库
 	URL=http://www.processlib.net/index.html
 	CREATED=1318665608
@@ -220,21 +215,21 @@ Options: encoding = utf8, version=3
 	UNIQUEID=381F635534347E488F269A114FA5012B
 
 #URL
-	ID=50
+	ID=49
 	NAME=工具啦
 	URL=http://www.tool.la/
 	CREATED=1221645916
 	UNIQUEID=9F510B89EFD83D43A51C32AC00C1D379
 
 #URL
-	ID=51
+	ID=50
 	NAME=Base64 解码
 	URL=http://maclife.net/tools/base64/
 	CREATED=1315532440
 	UNIQUEID=498EF26F2CD95048A436FD31D4864A3B
 
 #URL
-	ID=52
+	ID=51
 	NAME=Nod32服务器
 	URL=http://www.google.com/search?client=opera&rls=zh-cn&q=intitle:%22index+of%22+nup&sourceid=opera&ie=utf-8&oe=utf-8&channel=suggest
 	CREATED=1315960097
@@ -242,7 +237,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=FDBDE43880625941B219F97A892A2EB9
 
 #URL
-	ID=53
+	ID=52
 	NAME=路由设置
 	URL=http://192.168.1.1/
 	CREATED=1315481718
@@ -251,99 +246,99 @@ Options: encoding = utf8, version=3
 	UNIQUEID=177DC4C65382F648B34D264D56D8DCC9
 
 #SEPERATOR
-	ID=54
+	ID=53
 	UNIQUEID=C073DF2B36ED404F964084880AA1FC7F
 
 #URL
-	ID=55
+	ID=54
 	NAME=分享到...
 	URL=javascript:(function(){var w=window,d=document,s;if(!w.jiathis){w.jiathis=1;s=d.createElement('script');s.src='http://www.jiathis.com/code/j.js';d.getElementsByTagName('head')[0].appendChild(s);s=null}else{$CKE.center()}})()
 	CREATED=1345282385
 	UNIQUEID=82764244F2C1974AAD0B93777AD2866A
 
 #URL
-	ID=56
+	ID=55
 	NAME=Google翻译页面至简体中文
 	URL=javascript:(function(){var%20t=((window.getSelection&&window.getSelection())||(document.getSelection&&document.getSelection())||(document.selection&&document.selection.createRange&&document.selection.createRange().text));var%20e=(document.charset||document.characterSet);if(t!=''){window.open('http://translate.google.cn/translate_t?hl=zh-CN#auto|zh-CN|'+t);}else{window.open('http://translate.google.cn/translate?u='+escape(location.href)+'&hl=zh-CN&ie='+e+'&sl=auto&tl=zh-CN');};})();
 	CREATED=1333363312
 	UNIQUEID=2DDFCEDD2F98D84ABCED18A2BA257ACB
 
 #URL
-	ID=57
+	ID=56
 	NAME=解除网页限制
 	URL=javascript:(function(){eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return%20r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new%20RegExp('\\b'+e(c)+'\\b','g'),k[c]);return%20p}('5%202=8;5%203=2.K;3.7=3.k=3.e=3.9=3.6=3.y=3.7=3.z=2.7=2.k=2.e=2.9=2.6=4;2.7=2.6=2.c=2.9=p(){r%20t};g(8.n||8){d=4;c=4;6=4}5%20a=8.15(\'*\');o(5%20i=a.q-1;i>=0;i--){5%20b=a[i];g(b.n||b){d=4;c=4}}s(h(\'%u%v%w%x%j%17%A%B%C%j%D\')+\'\\E\');3.m.13=\'14!f\';3.m.16=\'12!f\';',62,70,'||doc|bd|null|var|oncontextmenu|onselectstart|document|onkeydown|arAllElements|elmOne|onmousedown|onmouseup|onpaste|important|with|unescape||u5236|oncopy||style|wrappedJSObject|for|function|length|return|alert|true|u5DF2|u89E3|u9664|u590D|onmousemove|ondragstart|u53F3|u952E|u9650|uFF01|u000d||||||body||||||||||||||||||text|webkitUserSelect|auto|getElementsByTagName|MozUserSelect|u4E0E'.split('|'),0,{}))})()
 	CREATED=1344598311
 	UNIQUEID=2259E4C0D1108F4DAA9F7A72B6288819
 
 #URL
-	ID=58
+	ID=57
 	NAME=显示密码
 	URL=javascript:(function()%7Bvar%20IN,F;IN=document.getElementsByTagName('input');for(var%20i=0;i<IN.length;i++)%7BF=IN%5Bi%5D;if(F.type.toLowerCase()=='password')%7Btry%7BF.type='text'%7Dcatch(r)%7Bvar%20n,Fa;n=document.createElement('input');Fa=F.attributes;for(var%20ii=0;ii<Fa.length;ii++)%7Bvar%20k,knn,knv;k=Fa%5Bii%5D;knn=k.nodeName;knv=k.nodeValue;if(knn.toLowerCase()!='type')%7Bif(knn!='height'&&knn!='width'&!!knv)n%5Bknn%5D=knv%7D%7D;F.parentNode.replaceChild(n,F)%7D%7D%7D%7D)()
 	CREATED=1347802762
 	UNIQUEID=817B3E656839EA45AA4A18C99AD61636
 
 #URL
-	ID=59
+	ID=58
 	NAME=显示/生成密码
 	URL=javascript:(function(){var getRandomPass=function(d){var chars='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';var rez='';var len=d>=3?d:3;while(rez.length<len){rez+=chars.charAt(Math.floor(Math.random()*chars.length))}return/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).+$/.test(rez)?rez:arguments.callee(len)};var findPassEle=function(p){var c,s='',r=false,f=document.getElementsByTagName('form');for(var i=0;i<f.length;i++){c=f[i].elements;for(var j=0,e;e=c[j];j++){if(e.type=='password'){r=true;if(p){e.value=p;e.focus()}else if(e.value)s+='\n\n'+e.value}}};return r?s:null};var s=findPassEle();if(s){alert('在这个页面已经有密码:'+s)}else{findPassEle(prompt('密码生成'+(s==null?':':'. 插入?'),getRandomPass(12)))}})()
 	CREATED=1348321327
 	UNIQUEID=68BC4B791BD1094A8D971C4160702299
 
 #URL
-	ID=60
+	ID=59
 	NAME=Draggable screen ruler
 	URL=javascript:void('http://centricle.com/tools/favelets/');marqueeColor=prompt('Marquee%20Color:','red');initMarquee=document.createElement('div');marquee=document.body.appendChild(initMarquee);marquee.style.position='absolute';marquee.style.border='dashed%201px%20red';initControls=document.createElement('div');controls=document.body.appendChild(initControls);controls.style.position='absolute';controls.style.top='-300px';controls.style.left='-300px';controls.style.width='85px';controls.style.background='%23eee';controls.style.padding='5px';controls.style.border='solid%201px%20%23ccc';controls.style.font='10px%20verdana,sans-serif';controls.style.width='85px';controls.style.zIndex='99';controls.innerHTML='%3Cb%3ECurrent:%3C/b%3E%3Cbr%3E%20x:%3Cspan%20id=%22currentX%22%3E0%3C/span%3E%20y:%3Cspan%20id=%22currentY%22%3E0%3C/span%3E%3Cbr%3E%3Cb%3EBegin:%3C/b%3E%3Cbr%3E%20x:%3Cspan%20id=%22beginX%22%3E0%3C/span%3E%20y:%3Cspan%20id=%22beginY%22%3E0%3C/span%3E%3Cbr%3E%3Cb%3EEnd:%3C/b%3E%3Cbr%3E%20x:%3Cspan%20id=%22endX%22%3E0%3C/span%3E%20y:%3Cspan%20id%20=%22endY%22%3E0%3C/span%3E%3Cbr%3E%3Cb%3EDimensions:%3C/b%3E%3Cbr%3E%20w:%3Cspan%20id=%22dimX%22%3E0%3C/span%3E%20h:%3Cspan%20id=%22dimY%22%3E0%3C/span%3E';document.onmousemove=follow;document.onmousedown=beginDrag;document.onmouseup=endDrag;currentX=document.getElementById('currentX');currentY=document.getElementById('currentY');beginX=document.getElementById('beginX');beginY=document.getElementById('beginY');endX=document.getElementById('endX');endY=document.getElementById('endY');dimX=document.getElementById('dimX');dimY=document.getElementById('dimY');var%20marqueeLeft=0;var%20marqueeTop=0;dragging=false;void(document.body.style.cursor='crosshair');function%20follow(e){x=e.pageX;y=e.pageY;controls.style.left=x+15+'px';controls.style.top=y+15+'px';currentX.innerHTML=x;currentY.innerHTML=y;if(dragging){marquee.style.width=x-dragstartX+'px';dimX.innerHTML=Math.abs(x-dragstartX);marquee.style.height=y-dragstartY+'px';dimY.innerHTML=Math.abs(y-dragstartY);}return%20true;};function%20beginDrag(e){marquee.style.width=0;marquee.style.height=0;marquee.style.borderColor=marqueeColor;dragging=true;x=e.pageX;y=e.pageY;marquee.style.visibility='visible';marquee.style.left=x+'px';marquee.style.top=y+'px';dragstartX=x;dragstartY=y;beginX.innerHTML=x;beginY.innerHTML=y;return%20true;}function%20endDrag(e){dragging=false;x=e.pageX;y=e.pageY;endX.innerHTML=x;endY.innerHTML=y;return%20true;}
 	CREATED=1333362986
 	UNIQUEID=906BBD180656F3499B29CB79B353964A
 
 #URL
-	ID=61
+	ID=60
 	NAME=滚动屏幕
 	URL=javascript:function AutoScroll() {window.scrollBy(0,1); NextScroll = setTimeout('AutoScroll()', 120);window.onkeydown = StopScroll;};function StopScroll(e) {if(e.keyCode == 27){clearTimeout(NextScroll);};};AutoScroll();
 	CREATED=1333363282
 	UNIQUEID=40FB0CD4A9391D45BEC186B0D8B5AD0A
 
 #URL
-	ID=62
+	ID=61
 	NAME=Show Images + Pixel Size
 	URL=javascript:n='';for(i=0;i%3Cdocument.images.length;i++)%7Bn+='%3Cimg%20src='+document.images%5Bi%5D.src+'%3E%20'+document.images%5Bi%5D.width+'x'+document.images%5Bi%5D.height+'%3Cbr%3E%3Cbr%3E'%7D;if(n!='')%7Bdocument.write('%3Cp%20style=font-size:11px;font-family:verdana,sans;%3E'+n+'%3C/p%3E');void(document.close())%7Delse%7Balert('i%20see%20no%20images')%7D
 	CREATED=1333363388
 	UNIQUEID=4A27BD0F7542E44F8023448B8DE15EF7
 
 #URL
-	ID=63
+	ID=62
 	NAME=skylive外链
 	URL=javascript:void(function(z,a){(a=z('.sd_link_display'))&&(a=(a.value.match(/resid=.*?&/)||'0')[0].slice(6,-1))?prompt('SkyDrive外链获取成功, 请手动复制:','http://storage.live.com/items/'+a+'?filename='+encodeURI((z('.sd_header').innerHTML.match(/".*"/)||'0')[0].slice(1,-1))):alert('SkyDrive外链获取失败.')}(function(z){return document.querySelector(z)}))
 	CREATED=1340390747
 	UNIQUEID=AEFFB28E2CC0D54DA46D39EC60E17CD9
 
 #SEPERATOR
-	ID=64
+	ID=63
 	UNIQUEID=D3339D844A280E4BAA18E2EB047E1ECA
 
 #URL
-	ID=65
+	ID=64
 	NAME=汉典
 	URL=javascript:(function (){_dictShow = function(){return false};scriptObj = document.createElement('script');scriptObj.setAttribute('type','text/javascript');scriptObj.setAttribute('src','http://www.zdic.net/js/services.js');document.body.appendChild(scriptObj);})()
 	CREATED=1345282632
 	UNIQUEID=96A62CB03221804A878AEF8712FD0B45
 
 #URL
-	ID=66
+	ID=65
 	NAME=QQ云词典
 	URL=javascript:void((function(d){if(!!d){d.toggle();return;};var src='http://dict.qq.com/cloudgetjs';var e=document.createElement('script');e.setAttribute('src',src);document.getElementsByTagName('head')[0].appendChild(e);})(window.QQCloudDict))
 	CREATED=1317997400
 	UNIQUEID=B87F01116472AF46832BE5FEF7BB4F87
 
 #URL
-	ID=67
+	ID=66
 	NAME=沪江小D在线划词翻译
 	URL=javascript:void((function(){hjelm=document.createElement('script');hjelm.setAttribute('src','http://dict.hujiang.com/app/js/dict_ajax.js');document.body.appendChild(hjelm);})())
 	CREATED=1346686044
 	UNIQUEID=7054208E8D83954EB9BD4DC3A9D8B4B1
 
 #URL
-	ID=68
+	ID=67
 	NAME=Bing翻译
 	URL=javascript:(function(){var s = document.createElement('script'); s.type = 'text/javascript'; s.src = 'http://labs.microsofttranslator.com/bookmarklet/default.aspx?f=js&to=zh-chs'; document.body.insertBefore(s, document.body.firstChild);})()
 	CREATED=1347802762
@@ -351,7 +346,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=154D280C8D7B004184017A05F2C5DF35
 
 #URL
-	ID=69
+	ID=68
 	NAME=全文翻译
 	URL=http://dict.hujiang.com/app/trans/
 	CREATED=1346686187
@@ -359,11 +354,11 @@ Options: encoding = utf8, version=3
 	UNIQUEID=2C7968B8C9F26C4280938DE9DB8EA3C3
 
 #SEPERATOR
-	ID=70
+	ID=69
 	UNIQUEID=110C499A17E8174C8FCB604D316954A6
 
 #URL
-	ID=71
+	ID=70
 	NAME=和谐百度
 	URL=http://baidu.askwei.com/
 	CREATED=1347802761
@@ -372,21 +367,21 @@ Options: encoding = utf8, version=3
 	UNIQUEID=819953CEB0D49C41B23E47EFA2C63AB5
 
 #URL
-	ID=72
+	ID=71
 	NAME=Google短网址
 	URL=javascript:function iprl5(){var d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);if (!l) {alert('请输入网址！');return;}d.title='(Shortening...) '+d.title;z.setAttribute('src','http://www.ruanyifeng.com/webapp/url_shortener_plugin.php?longUrl='+escape(l));b.appendChild(z);}catch(e){alert('请等待网页加载完毕！');}}iprl5();void(0)
 	CREATED=1347802762
 	UNIQUEID=FF64A6CFDDD17449853F4B8D7A23BAA8
 
 #URL
-	ID=73
+	ID=72
 	NAME=短网址还原
 	URL=javascript:function unshortMeCallback(o){document.title=document.title.substring(7);var m;if(o === undefined || o===null ) {m='连接过程出错';}else if(o.resolvedURL && o.resolvedURL!='') {m=decodeURIComponent(o.resolvedURL);}else{m='返回值出错';}var i=document.createElement('div');i.setAttribute('id','unshortMeWindow');var c = 'left:10px;top:10px;width:350px;';i.style.cssText= 'z-index: 2147483647;position:fixed;'+c+'width:350px;height:135px;border:3px solid #aaa;color:#555;background-color:#fff;text-align:center;margin:0px;font-family:Georgia,Times,serif;font-size:26px;overflow:auto;';document.body.appendChild(i);var u='';if(m.substring(0,4)!='http'){u=m;}else if(m.length>90){u='<a href="'+m+'">'+m.substring(0,40)+'...'+m.substring(m.length-40)+'</a>';}else{u='<a href="'+m+'">'+m+'</a>';}document.getElementById('unshortMeWindow').innerHTML='<div style="text-align: center;width:80%;padding-bottom:1px;margin:15px auto 15px auto;font-size:13px;border-bottom:1px solid #ccc;color:#333;">原网址</div>'+'<p style="font-size:13px;margin:auto 15px;">'+u+'</p>'+'<p style="font-size:13px;margin-top:15px;"><a onclick="unshortMeClose();">[ 关闭 ]</a></p>';return;}function unshortMeClose(){var f = document.getElementById('unshortMeWindow');f.style.display='none';f.parentNode.removeChild(f);void(0);}function unshortMe(){var d=document,z=d.createElement('scr'+'ipt'),b=d.body;function getSelectedText(){if (window.getSelection){return window.getSelection().toString();}else if(document.getSelection){return document.getSelection();}else if (document.selection){return document.selection.createRange().text;}}try{if(!b)throw(0);var t=getSelectedText().replace(/^\s+|\s+$/g,'');if(!t){alert('请选择短网址！');return;}if(t.length>30||t.indexOf('.')==-1||t.indexOf(' ')>=0){alert('请正确选择短网址！');return;}if(t.substring(0,7)!='http:\/\/'){t='http:\/\/'+t;}d.title='(复原...) '+d.title;z.setAttribute('src','http://api.unshort.me/?r='+encodeURIComponent(t)+'&t=jsonp&callback=unshortMeCallback');b.appendChild(z);}catch(e){alert('请等待网页加载完毕！');}}unshortMe();void(0)
 	CREATED=1347802762
 	UNIQUEID=DA4D3161EEF9B34384F75BD773D919A7
 
 #URL
-	ID=74
+	ID=73
 	NAME=IP地址和天气查询
 	URL=javascript:(function(){var url=window.inivar;if(!url){url=''};if(url.search(/(^(https?:\/\/)?[^\/]+\/[^\.\?&\/]+$)/i)==-1){url=''};var x=location.host;var y=location.hostname.replace(/^(www|bbs)\./i,'');document.body.innerHTML += '<div style=\x22box-shadow: 0 0 6px #666;background-color:#5398ee;background-color:#5398ee\;color:white\;opacity:0.9\;border-radius:4px\;border:3px solid #5398ee\;width:504px\;position:fixed\;Z-index:999\;top:20px\;right:20px\;\x22 onClick=\x22this.style.display=\'none\'\;\x22><center>\u60A8\u7684<a href=\x22http:\/\/www.whoer.net\/ext\x22 target=\x22_blank\x22><font color=#fffffe>\u0049\u0050<\/font><\/a>\u5730\u5740\u662f\u3000\u002d\u3000\u5355\u51fb\u6b64\u5904\u5173\u95ed\u6b64\u7a97\u53e3<\/center><iframe width=\x22500\x22 height=\x2240\x22 style=\x22background-color:white\;border-radius:2px\;border:1px solid #b6bac0\;\x22src=\x22http:\/\/www.ip.cn\/getip2.php?action=getip\x22><\/iframe><center>'+x+'\u3000\u002d\u3000<a href=\x22http:\/\/whois.domaintools.com\/'+y+'\x22 target=\x22_blank\x22><font color=#fffffe>Whois<\/font><\/a>\u3000\u002d\u3000<a href=\x22http:\/\/cn.alexa.com\/siteinfo\/'+y+'\x22 target=\x22_blank\x22><font color=#fffffe>Alexa<\/font><\/a>\u3000\u002d\u3000<a href=\x22http:\/\/uptime.netcraft.com\/up\/graph?site='+x+'\x22 target=\x22_blank\x22><font color=#fffffe>netcraft<\/font><\/a><\/center><iframe width=\x22500\x22 height=\x2240\x22 style=\x22background-color:white\;border-radius:2px\;border:1px solid #b6bac0\;\x22src=\x22http:\/\/www.ip.cn\/getip2.php?action=queryip&ip_url='+x+'\x22><\/iframe><center>\u672C\u9875<a href=\x22http:\/\/leeiio.me\/realurl\/?url='+url+'\x22 target=\x22_blank\x22><font color=#fffffe>\u77ED<\/font><\/a>\u7F51\u5740<\/center><iframe width=\x22500\x22 height=\x2240\x22 style=\x22background-color:white\;border-radius:2px\;border:1px solid #b6bac0\;\x22src=\x22http:\/\/is.gd\/api.php?longurl='+encodeURIComponent(location.href)+'\x22><\/iframe><center><a href=\x22http:\/\/service.weather.com.cn\/plugin\/index.shtml\x22 target=\x22_blank\x22><font color=#fffffe>\u5929\u6C14<\/font><\/a>\u9884\u62A5<\/center><iframe width=\x22500\x22 height=\x2260\x22 style=\x22background-color:white\;border-radius:2px\;border:1px solid #b6bac0\;\x22src=\x22http:\/\/m.weather.com.cn\/m\/pn11\/weather.htm\x22><\/iframe><\/div>'; void(0);})()
 	CREATED=1347802762
@@ -394,14 +389,14 @@ Options: encoding = utf8, version=3
 	UNIQUEID=312760CF42496541A1475C0B6F70E6F1
 
 #URL
-	ID=75
+	ID=74
 	NAME=背景图片链接
 	URL=javascript:var backup=document.body.onclick;void(document.body.onclick=function(event){var bodyStyle=window.getComputedStyle(document.body,null).getPropertyValue('background-image');var bgStyle=window.getComputedStyle(event.target,null).getPropertyValue('background-image');if(bgStyle!='none')window.open(bgStyle.replace(/url\("?/,'').replace(/"?\)$/,''));else if(bodyStyle!='none')window.open(bodyStyle.replace(/url\("?/,'').replace(/"?\)$/,''));document.body.onclick=backup;backup=undefined;});
 	CREATED=1347802762
 	UNIQUEID=EB1132B89767984A82BD27C8469025DC
 
 #URL
-	ID=76
+	ID=75
 	NAME=开/关搜狗云输入法
 	URL=javascript:void((function(){var e=document.createElement('script');e.setAttribute('src','http://web.pinyin.sogou.com/web_ime/init.js');document.body.appendChild(e);})())
 	CREATED=1345283809
@@ -410,140 +405,140 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=77
+	ID=76
 	NAME=Bookmarklets
 	CREATED=1355116658
 	UNIQUEID=B055850FF4D0BC4883EEE5875814C6D3
 
 #URL
-	ID=78
+	ID=77
 	NAME=显示所选部分源代码
 	URL=javascript:function%20getSelSource()%20{%20x%20=%20document.createElement("div");%20x.appendChild(window.getSelection().getRangeAt(0).cloneContents());%20return%20x.innerHTML;%20}%20function%20makeHR()%20{%20return%20nd.createElement("hr");%20}%20function%20makeParagraph(text)%20{%20p%20=%20nd.createElement("p");%20p.appendChild(nd.createTextNode(text));%20return%20p;%20}%20function%20makePre(text)%20{%20p%20=%20nd.createElement("pre");%20p.appendChild(nd.createTextNode(text));%20return%20p;%20}%20nd%20=%20window.open().document;%20ndb%20=%20nd.body;%20if%20(!window.getSelection%20||%20!window.getSelection().rangeCount%20||%20window.getSelection().getRangeAt(0).collapsed)%20{%20nd.title="Generated%20Source%20of:%20"%20+%20location.href;%20ndb.appendChild(makeParagraph("No%20selection,%20showing%20generated%20source%20of%20entire%20document."));%20ndb.appendChild(makeHR());%20ndb.appendChild(makePre("<html>\n"%20+%20document.documentElement.innerHTML%20+%20"\n</html>"));%20}%20else%20{%20nd.title="Partial%20Source%20of:%20"%20+%20location.href;%20ndb.appendChild(makePre(getSelSource()));%20};%20void%200
 	CREATED=1355116348
 	UNIQUEID=516F04776C311149A417A2AAA2D8D39E
 
 #URL
-	ID=79
+	ID=78
 	NAME=显示源代码
 	URL=javascript:(function(){%20function%20htmlEscape(s){s=s.replace(/&/g,'&amp;');s=s.replace(/>/g,'&gt;');s=s.replace(/</g,'&lt;');return%20s;}%20x=window.open();%20x.document.write('<pre>'%20+%20htmlEscape('<html>\n'%20+%20document.documentElement.innerHTML%20+%20'\n</html>'));%20x.document.close();%20})();
 	CREATED=1355116343
 	UNIQUEID=439548164B15914A9BA4F6BD9DE2FEDA
 
 #URL
-	ID=80
+	ID=79
 	NAME=显示脚本
 	URL=javascript:s=document.getElementsByTagName('SCRIPT');%20d=window.open().document;%20/*140681*/d.open();d.close();%20b=d.body;%20function%20trim(s){return%20s.replace(/^\s*\n/,%20'').replace(/\s*$/,%20'');%20};%20function%20add(h){b.appendChild(h);}%20function%20makeTag(t){return%20d.createElement(t);}%20function%20makeText(tag,text){t=makeTag(tag);t.appendChild(d.createTextNode(text));%20return%20t;}%20add(makeText('style',%20'iframe{width:100Qeight:18em;border:1px%20solid;'));%20add(makeText('h3',%20d.title='Scripts%20in%20'%20+%20location.href));%20for(i=0;%20i<s.length;%20++i)%20{%20if%20(s%5Bi%5D.src)%20{%20add(makeText('h4','script%20src="'%20+%20s%5Bi%5D.src%20+%20'"'));%20iframe=makeTag('iframe');%20iframe.src=s%5Bi%5D.src;%20add(iframe);%20}%20else%20{%20add(makeText('h4','Inline%20script'));%20add(makeText('pre',%20trim(s%5Bi%5D.innerHTML)));%20}%20}%20void%200
 	CREATED=1355116333
 	UNIQUEID=EE3BD85E3C4F4B4B9BEF10452345B349
 
 #URL
-	ID=81
+	ID=80
 	NAME=显示样式表
 	URL=javascript:s=document.getElementsByTagName('STYLE');%20ex=document.getElementsByTagName('LINK');%20d=window.open().document;%20/*set%20base%20href*/d.open();d.close();%20b=d.body;%20function%20trim(s){return%20s.replace(/^\s*\n/,%20'').replace(/\s*$/,%20'');%20};%20function%20iff(a,b,c){return%20b?a+b+c:'';}function%20add(h){b.appendChild(h);}%20function%20makeTag(t){return%20d.createElement(t);}%20function%20makeText(tag,text){t=makeTag(tag);t.appendChild(d.createTextNode(text));%20return%20t;}%20add(makeText('style',%20'iframe{width:100%;height:18em;border:1px%20solid;'));%20add(makeText('h3',%20d.title='Style%20sheets%20in%20'%20+%20location.href));%20for(i=0;%20i<s.length;%20++i)%20{%20add(makeText('h4','Inline%20style%20sheet'%20%20+%20iff('%20title="',s%5Bi%5D.title,'"')));%20add(makeText('pre',%20trim(s%5Bi%5D.innerHTML)));%20}%20for%20(i=0;%20i<ex.length;%20++i)%20{%20rs=ex%5Bi%5D.rel.split('%20');%20for(j=0;j<rs.length;++j)%20if%20(rs%5Bj%5D.toLowerCase()=='stylesheet')%20{%20add(makeText('h4','link%20rel="'%20+%20ex%5Bi%5D.rel%20+%20'"%20href="'%20+%20ex%5Bi%5D.href%20+%20'"'%20+%20iff('%20title="',ex%5Bi%5D.title,'"')));%20iframe=makeTag('iframe');%20iframe.src=ex%5Bi%5D.href;%20add(iframe);%20break;%20}%20}%20void%200
 	CREATED=1355116327
 	UNIQUEID=00800AAFCE95164AA2A44E73D72052F9
 
 #URL
-	ID=82
+	ID=81
 	NAME=显示 class
 	URL=javascript:(function(){var%20a={},b=%5B%5D,i,e,c,k,d,s="<table%20border=1><thead><tr><th>#</th><th>Tag</th><th>className</th></tr></thead>";for(i=0;e=document.getElementsByTagName("*")%5Bi%5D;++i)if(c=e.className){k=e.tagName+"."+c;a%5Bk%5D=a%5Bk%5D?a%5Bk%5D+1:1;}for(k%20in%20a)b.push(%5Bk,a%5Bk%5D%5D);b.sort();for(i%20in%20b)%20s+="<tr><td>"+b%5Bi%5D%5B1%5D+"</td><td>"+b%5Bi%5D%5B0%5D.split(".").join("</td><td>")+"</td></tr>";s+="</table>";d=open().document;d.write(s);d.close();})()
 	CREATED=1355116340
 	UNIQUEID=C672615F4C79A548B78F5F6A4C6FAE54
 
 #URL
-	ID=83
+	ID=82
 	NAME=显示变量和函数
 	URL=javascript:(function(){var%20x,d,i,v,st;%20x=open();%20d=x.document;%20d.open();%20function%20hE(s){s=s.replace(/&/g,"&amp;");s=s.replace(/>/g,"&gt;");s=s.replace(/</g,"&lt;");return%20s;}%20d.write("<style>td{vertical-align:top;%20white-space:pre;%20}%20table,td,th%20{%20border:%201px%20solid%20#ccc;%20}%20div.er%20{%20color:red%20}</style><table%20border=1><thead><tr><th>Variable</th><th>Type</th><th>Value%20as%20string</th></tr></thead>");%20for%20(i%20in%20window)%20{%20if%20(!(i%20in%20x)%20)%20{%20v=window%5Bi%5D;%20d.write("<tr><td>"%20+%20hE(i)%20+%20"</td><td>"%20+%20hE(typeof(window%5Bi%5D))%20+%20"</td><td>");%20if%20(v===null)%20d.write("null");%20else%20if%20(v===undefined)%20d.write("undefined");%20else%20try{st=v.toString();%20if%20(st.length)d.write(hE(v.toString()));%20else%20d.write(" ")}catch(er){d.write("<div%20class=er>"+hE(er.toString())+"</div>")};%20d.write("</pre></td></tr>");%20}%20}%20d.write("</table>");%20d.close();%20})();
 	CREATED=1355116337
 	UNIQUEID=831D05FD1AC13B4C9B7392308738FCD4
 
 #SEPERATOR
-	ID=84
+	ID=83
 	UNIQUEID=CAF7546C10620741B0040613C1714CB2
 
 #URL
-	ID=85
+	ID=84
 	NAME=显示锚点
 	URL=javascript:(function(){var%20atags,i,name,a;%20anchs%20=%20document.anchors;%20for(i=0;%20i<anchs.length;%20++i)%20{%20a%20=%20anchs%5Bi%5D;%20name%20=%20a.name;%20a.appendChild(document.createTextNode("#"%20+%20name));%20a.style.border%20=%20"1px%20solid";%20a.href%20=%20"#"%20+%20name;%20}%20})();
 	CREATED=1355116414
 	UNIQUEID=DF1FC72A6041CD4CB2BED33AA696997A
 
 #URL
-	ID=86
+	ID=85
 	NAME=显示元素边框
 	URL=javascript:(function(){var css='table { border: 1px solid blue ! important; } \n table td { border: 1px solid lightblue ! important; } \n table table { border: 1px solid green ! important; } \n table table td { border: 1px solid lightgreen ! important; } \n table table table { border: 1px solid red ! important; } \n table table table td { border: 1px solid orange ! important; } \n div { border: 1px solid ! important; } \n p { border: 1px dotted ! important; } \n body { background: white ! important; color: black ! important; } \n * { padding: 2px; }\n dl, ol, ul {outline: 1px solid #3366CC !important;} \n dt, dd, li {outline: 1px dashed #7295DC !important;} \n address {outline: 1px dashed #010101 !important;} \n span {outline: 1px dotted #CC0000 !important;} \n thead, tfoot, tbody {outline: 1px dashed #99CC00 !important;} \n tr, th, td {outline: 1px dotted #99CC00 !important;} \n img, object, area {outline: 1px dashed #9966FF !important;} \n form {outline: 1px dotted green !important;}';var heads = document.getElementsByTagName('head');	if (heads.length > 0) {var node = document.createElement('style');node.type = 'text/css';	node.appendChild(document.createTextNode(css));heads[0].appendChild(node); }})();
 	CREATED=1348317415
 	UNIQUEID=8C74A0101D519040BA68A4723C7DCC95
 
 #URL
-	ID=87
+	ID=86
 	NAME=页面链接
 	URL=javascript:function%20htmlEscape(s){s=s.replace(/&/g,'&amp;');s=s.replace(/>/g,'&gt;');s=s.replace(/</g,'&lt;');return%20s;}%20function%20linkEscape(s){s=s.replace(/&/g,'&amp;');s=s.replace(/"/,'&quot;');return%20s}%20h%20=%20'<a%20href="'%20+%20linkEscape(location.href)%20+%20'">'%20+%20htmlEscape(document.title)%20+%20'</a>';%20with(window.open().document){write(h+'<form%20name=f><textarea%20%20name=a%20rows=5%20cols=80%20wrap=hard>'+htmlEscape(h)+'</textarea></form>');%20close();%20f.a.select();%20}%20void%200
 	CREATED=1355116410
 	UNIQUEID=F0FB7C9F9E823C459FF16D2C2BDEB5F6
 
 #URL
-	ID=88
+	ID=87
 	NAME=样式表元素列表
 	URL=javascript:(function(){function%20A(n,g){var%20p=n.parentNode,t=n.tagName;if(!p)return%20"";if(!t)return%20A(p,g);var%20T=t.toUpperCase(),b=(T!="TABLE"&&T!="TBODY"&&T!="THEAD"&&T!="TR"),c=n.className,i=n.id;return%20A(p,'%20>%20')+(b?T:T.toLowerCase())+(c?"."+c:"")+(i?"#"+i:"")+(b?g:'%20');}document.onmouseover=function(e){e=e?e:event;var%20s,g=e.target;g=g?g:e.srcElement;try{s=A(g,'')+"%20(click%20for%20computed%20styles)";}catch(err){s=err.message;}window.status=s;return%20true;};window.status=A(document.documentElement,'');var%20newSS,styles='*%20{%20cursor:%20crosshair;%20}';newSS=document.createElement('link');newSS.rel='stylesheet';newSS.type='text/css';newSS.href='data:text/css,'+escape(styles);document.getElementsByTagName("head")%5B0%5D.appendChild(newSS);document.onclick=function(e){e=e?e:event;var%20s,g=e.target;g=g?g:e.srcElement;var%20x=window.open('','computedStyles');x.document.open();x.document.close();var%20d=x.document;x.onunload=function(){document.onclick=null;document.onmouseover=null;window.status=null;newSS.href='data:text/css,';};function%20sp(n,t,col){var%20r=d.createElement(n);r.appendChild(d.createTextNode(t));if(col)r.style.color=col;return%20r;}var%20typeIndex={'top':1,'bottom':1,'height':1,'width':1,'left':1,'right':1,'position':0,'display':0,'-moz-appearance':0,'-moz-box-sizing':0};var%20colors=%5B"red","green","black"%5D;function%20undirect(v){return%20v.replace(/\-(left|top|bottom|right)/,"-*");}function%20diff(n,p){pcs=p.ownerDocument.defaultView.getComputedStyle(p,"");ncs=n.ownerDocument.defaultView.getComputedStyle(n,"");var%20A=%5B%5D;var%20B={};var%20C={};for(var%20i=0;i<ncs.length;++i){var%20e=ncs.item(i),v=ncs.getPropertyValue(e),pv=pcs.getPropertyValue(e);if(v!=pv){var%20u=undirect(e);if(u.indexOf("-*")!=-1){if(!B%5Bu%5D)B%5Bu%5D=%5B0,v%5D;if(B%5Bu%5D%5B1%5D==v)++(B%5Bu%5D%5B0%5D);}A.push(%5BtypeIndex%5Be%5D!=null?typeIndex%5Be%5D:2,e,v%5D);}}A=A.sort();for(var%20u%20in%20B)if(B%5Bu%5D%5B0%5D==4)C%5Bu%5D=true;for(var%20i%20in%20A){var%20t=A%5Bi%5D,e=t%5B1%5D,v=t%5B2%5D,u=undirect(e);if(C%5Bu%5D){if(t%5B1%5D.indexOf("-left")!=-1)d.body.appendChild(sp("div",u+":%20"+v,colors%5Bt%5B0%5D%5D));}else%20d.body.appendChild(sp("div",e+":%20"+v,colors%5Bt%5B0%5D%5D));}}function%20info(n){if(!n)return;if(n.tagName){d.body.appendChild(sp("h4",A(n,'')));diff(n,n.parentNode.nodeType!='9'?n.parentNode:d.documentElement);}info(n.parentNode);}d.body.appendChild(sp("p","This%20shows%20how%20the%20computed%20style%20of%20each%20node%20differs%20from%20the%20computed%20style%20of%20its%20parent.%20The%20root%20element,%20which%20has%20no%20parent,%20is%20instead%20compared%20against%20the%20root%20of%20a%20blank%20HTML%20document."));info(g);x.focus();e.preventDefault();}})()
 	CREATED=1355116290
 	UNIQUEID=D7A41288C81C1E47BFF9BA4FC94EDDF3
 
 #URL
-	ID=89
+	ID=88
 	NAME=移除描述性HTML标记
 	URL=javascript:(function(){var%20H=%5B"bgcolor","bgColor","background","color","align","text","alink","vlink"%5D,Y={FONT:1,CENTER:1},d=%5B%5D,p;%20function%20R(N){var%20a,x,i,t;%20if(t=N.tagName){%20t=t.toUpperCase();%20for%20(i=0;a=H%5Bi%5D;++i)if(N.getAttribute(a))N.removeAttribute(a);%20for(i=0;x=N.childNodes%5Bi%5D;++i)R(x);%20if%20(Y%5Bt%5D)d.push(N);%20}%20}%20R(document.documentElement);%20for%20(i=0;N=d%5Bi%5D;++i)%20{%20p=N.parentNode;%20while(N.firstChild)p.insertBefore(N.firstChild,N);%20p.removeChild(N);%20}%20})()
 	CREATED=1355116314
 	UNIQUEID=69B73A71EBC7FB408334AF43EC4F395A
 
 #URL
-	ID=90
+	ID=89
 	NAME=移除对象
 	URL=javascript:(function(){function R(w){try{var d=w.document,j,i,t,T,N,b,r=1,C;for(j=0;t=["object","embed","applet","iframe"][j];++j){T=d.getElementsByTagName(t);for(i=T.length-1;(i+1)&&(N=T[i]);--i)if(j!=3||!R((C=N.contentWindow)?C:N.contentDocument.defaultView)){b=d.createElement("div");b.style.width=N.width; b.style.height=N.height;b.innerHTML="<del>"+(j==3?"third-party "+t:t)+"</del>";N.parentNode.replaceChild(b,N);}}}catch(E){r=0}return r}R(self);var i,x;for(i=0;x=frames[i];++i)R(x)})()
 	CREATED=1347802762
 	UNIQUEID=70428ABEA70FB349B59B97C8922C38A1
 
 #URL
-	ID=91
+	ID=90
 	NAME=禁用CSS
 	URL=javascript:(function(){var%20i,x;for(i=0;x=document.styleSheets%5Bi%5D;++i)x.disabled=true;})();
 	CREATED=1355116298
 	UNIQUEID=5DCE09E76BA33148BC2BD9C495DF7F20
 
 #SEPERATOR
-	ID=92
+	ID=91
 	UNIQUEID=559ED03D38C14A429977729DBD4FA500
 
 #URL
-	ID=93
+	ID=92
 	NAME=强制HTML显示
 	URL=javascript:document.write(document.body.innerText)
 	CREATED=1347802762
 	UNIQUEID=CE755F95387AAF49B2B4221E4E6AF47A
 
 #URL
-	ID=94
+	ID=93
 	NAME=微软雅黑
 	URL=javascript:var style=document.createElementNS('http://www.w3.org/1999/xhtml','style');style.id='myfont';style.type='text/css';var root=document.getElementsByTagName('head')[0]||document.body;root.appendChild(style);style.appendChild(document.createTextNode('*{font-family:"微软雅黑"!important;}'+'\n'));void 0
 	CREATED=1347802762
 	UNIQUEID=61D6240865801045A8F57CE4E9A6FF03
 
 #URL
-	ID=95
+	ID=94
 	NAME=白底黑字
 	URL=javascript:(function(){var b=document.getElementsByTagName('*');for(var    i=0;i<b.length;i++){b[i].style.backgroundImage='none';b   [i].style.backgroundColor='#FFFFFF';b[i].style.color='#000000'}})()
 	CREATED=1347802762
 	UNIQUEID=6E711DE8FC29A54BA5DFA48868345F31
 
 #URL
-	ID=96
+	ID=95
 	NAME=高对比度显示
 	URL=javascript:(function(){var%20s="body",c="",I="%20!%20important;",i,b,f,x,h;%20for(i=0;i<17;++i)%20{%20x%20=%20i.toString(16);%20b%20=%20i>15?"FCC":x+x+x;%20f%20=%20i>9?"000":"FFF";%20c%20+=%20s%20+%20"%20{background:%20#"%20+%20b%20+%20I%20+%20"border-color:%20#"%20+%20b%20+%20I%20+%20"color:%20#"%20+%20f%20+%20I%20+%20"}\n";%20s%20+=%20"%20*";%20}%20if(document.createStyleSheet)%20{%20document.createStyleSheet("javascript:'"+c+"'");%20}%20else%20{%20h=document.createElement('link');%20h.rel='stylesheet';%20h.href='data:text/css,'+escape(c);%20document.getElementsByTagName("head")%5B0%5D.appendChild(h);}})()
 	CREATED=1355116395
 	UNIQUEID=24B664BA38BAA24C88AF157D7FF8C652
 
 #URL
-	ID=97
+	ID=96
 	NAME=高对比度显示2
 	URL=javascript:(function(){var%20s="body",c="",I="%20!%20important;",i,b,f,x,h;%20for(i=0;i<17;++i)%20{%20x%20=%20i.toString(16);%20b%20=%20i>15?"FCC":x+x+x;%20f%20=%20i>9?"000":"FFF";%20c%20+=%20s%20+%20"%20{background:%20#"%20+%20b%20+%20I%20+%20"border:%201px%20outset%20#"%20+%20b%20+%20I%20+%20"color:%20#"%20+%20f%20+%20I%20+%20"}\n";%20s%20+=%20"%20*";%20}%20if(document.createStyleSheet)%20{%20document.createStyleSheet("javascript:'"+c+"'");%20}%20else%20{%20h=document.createElement('link');%20h.rel='stylesheet';%20h.href='data:text/css,'+escape(c);%20document.getElementsByTagName("head")%5B0%5D.appendChild(h);}})()
 	CREATED=1355116400
@@ -552,29 +547,13 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=98
+	ID=97
 	NAME=Proxy
 	CREATED=1318087031
 	UNIQUEID=222626922F88194882CCF2F05E990B97
 
 #URL
-	ID=99
-	NAME=Google
-	URL=http://www.google.jp
-	CREATED=1299134889
-	SHORT NAME=gj
-	UNIQUEID=AC5568890EF284499E62D29A8F607379
-
-#URL
-	ID=100
-	NAME=Google-Canada
-	URL=http://www.google.ca/
-	CREATED=1299134889
-	SHORT NAME=gc
-	UNIQUEID=A248E49ECAE52647A780AAE86D6C3E14
-
-#URL
-	ID=101
+	ID=98
 	NAME=GoAgent
 	URL=https://code.google.com/p/goagent/
 	CREATED=1318087093
@@ -583,21 +562,21 @@ Options: encoding = utf8, version=3
 	UNIQUEID=FE7B89DCD4FE3740A1CE2BEB931B5469
 
 #URL
-	ID=102
+	ID=99
 	NAME=Psiphon 3
 	URL=https://s3.amazonaws.com/2bmh-cisb-58r3/zh.html
 	CREATED=1348445476
 	UNIQUEID=2AE5987859C10A47B787F7EA46118B54
 
 #URL
-	ID=103
+	ID=100
 	NAME=代理
 	URL=http://www.freeskya.tk/setup
 	CREATED=1354895306
 	UNIQUEID=B25C043B907EE849B4283F3ECD0BA4F6
 
 #URL
-	ID=104
+	ID=101
 	NAME=AdvOR
 	URL=http://sourceforge.net/projects/advtor/
 	CREATED=1344577133
@@ -605,77 +584,77 @@ Options: encoding = utf8, version=3
 	UNIQUEID=D9C0F4B06B046044A76F1724EAE7729B
 
 #URL
-	ID=105
+	ID=102
 	NAME=IPv6之家
 	URL=http://www.ipv6home.cn/html/bbs.html
 	CREATED=1318089374
 	UNIQUEID=5817A2F4EA529F43A61B8FB503590DBA
 
 #URL
-	ID=106
+	ID=103
 	NAME=Tenacy 開心直通車
 	URL=http://tenacy.sino.tw/
 	CREATED=1318087043
 	UNIQUEID=11F763CEA122104590510E3A269FD519
 
 #URL
-	ID=107
+	ID=104
 	NAME=proXPN
 	URL=http://proxpn.com/
 	CREATED=1318087295
 	UNIQUEID=79EFF7324BA6204DA1627CBB92105105
 
 #URL
-	ID=108
+	ID=105
 	NAME=V2EX DNS
 	URL=http://dns.v2ex.com/
 	CREATED=1320285582
 	UNIQUEID=99C32901995B3B42A26073A5ACEADC96
 
 #URL
-	ID=109
+	ID=106
 	NAME=纯真IP
 	URL=http://www.cz88.net/proxy/
 	CREATED=1318664035
 	UNIQUEID=90FEA6AA0C7931448ED5420FB7D227EA
 
 #URL
-	ID=110
+	ID=107
 	NAME=中国代理服务器网
 	URL=http://www.cnproxy.com/
 	CREATED=1318664042
 	UNIQUEID=4F1CF89DA3867849AD3C2676A3E6FE4B
 
 #URL
-	ID=111
+	ID=108
 	NAME=just ping
 	URL=http://just-ping.com/
 	CREATED=1319897155
 	UNIQUEID=9D0BE0F4CC98534D833381A686506A46
 
 #URL
-	ID=112
+	ID=109
 	NAME=nslookup工具的使用方法
 	URL=http://www.5dmail.net/html/2003-11-14/20031114101959.htm
 	CREATED=1319871937
 	UNIQUEID=5A497EB8FDAC754489AF8A0EC0EDF5C6
 
 #URL
-	ID=113
+	ID=110
 	NAME=Hizy!免费在线代理
 	URL=http://hizy.net/
 	CREATED=1327410798
 	UNIQUEID=F926687153834A47A34C4D01A4244DB6
 
 #URL
-	ID=114
+	ID=111
 	NAME=IPv6+GAE
 	URL=http://wangyueblog.com/2010/11/10/ipv6-gae/
 	CREATED=1318602351
 	UNIQUEID=2EA9329115717443965232FE54C54F89
 
 #URL
-	ID=115
+	ID=112
 	NAME=工信部电信用户申诉平台首页
 	URL=http://www.chinatcc.gov.cn:8080/cmsadmin/shouli/shensu.jsp
 	CREATED=1347109218
@@ -685,13 +664,13 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=116
+	ID=113
 	NAME=Adult
 	CREATED=1317894894
 	UNIQUEID=EF8669EFE2646040B64311FE82E59E36
 
 #URL
-	ID=117
+	ID=114
 	NAME=Hot Goo
 	URL=http://www.hotgoo.com/
 	CREATED=1318084783
@@ -699,195 +678,196 @@ Options: encoding = utf8, version=3
 	UNIQUEID=FC7A26989C296340BFA59DC006CE69A8
 
 #URL
-	ID=118
+	ID=115
 	NAME=YouPorn
 	URL=http://www.youporn.com/
 	CREATED=1318088645
 	UNIQUEID=DBFE31BF06673E45A751861E6356EA4C
 
 #URL
-	ID=119
+	ID=116
 	NAME=Pornhub
 	URL=http://www.pornhub.com/
 	CREATED=1318755111
 	UNIQUEID=97E7A61EC5E62F4BB3434531BC908393
 
 #URL
-	ID=120
+	ID=117
 	NAME=Xtube
 	URL=http://www.xtube.com/
 	CREATED=1319379008
 	UNIQUEID=9BA523E67DFBEE4BAABFCB3C163F26B7
 
 #URL
-	ID=121
+	ID=118
 	NAME=bbmmm
 	URL=http://www.bbmmm.com/
 	CREATED=1319466471
 	UNIQUEID=CF1D39EEDC421D4CB04337B7A09EEA22
 
 #URL
-	ID=122
+	ID=119
 	NAME=AV电影下载迅雷
 	URL=http://97.rt85.com/
 	CREATED=1316415941
 	UNIQUEID=5556DFCCB300BE41872E9E254D93F8E6
 
 #URL
-	ID=123
+	ID=120
 	NAME=CL- Bt/P2P 新作聚合
 	URL=http://t66y.com/read.rss/
 	CREATED=1323265786
 	UNIQUEID=48CF2B3DBBB23C43BFB812A27BB99FAD
 
 #URL
-	ID=124
+	ID=121
 	NAME=Torrent Kitty
 	URL=http://www.torrentkitty.com/search/
 	CREATED=1344395826
 	UNIQUEID=A64C42493EDBE84B8818DD8216D0A08B
 
 #URL
-	ID=125
+	ID=122
 	NAME=多多色色社区
 	URL=http://www.kokoto.info/
 	CREATED=1317895213
 	UNIQUEID=7270488103E49C44A020CC3FEEDC6BF3
 
 #URL
-	ID=126
+	ID=123
 	NAME=成人超市
 	URL=http://chengrenchaoshi.info/
 	CREATED=1327411154
 	UNIQUEID=EC8B18F757D3744E8B62BC689BC664E0
 
 #URL
-	ID=127
+	ID=124
 	NAME=美影社區
 	URL=http://hotdown.soulfully-spoken.com/
 	CREATED=1327411171
 	UNIQUEID=D9F150CC0C3BA64BBFEB73526E2C4D83
 
 #SEPERATOR
-	ID=128
+	ID=125
 	UNIQUEID=11778E137498EF43BBF9B4A78719647C
 
 #URL
-	ID=129
+	ID=126
 	NAME=MimiP2P
 	URL=http://www.mimip2p.net/bbs/index.php
 	CREATED=1323266152
 	UNIQUEID=8129028F4BA5B64EB361D89AF763F309
 
 #URL
-	ID=130
+	ID=127
 	NAME=18P2P
 	URL=http://forum.int.18p2p.com/forum/
 	CREATED=1324046030
 	UNIQUEID=68F0DE9CDA8A854A8780C35FE6D8FD51
 
 #URL
-	ID=131
+	ID=128
 	NAME=城市風情
 	URL=http://64.78.167.62/bbs/?fromuid=11134272
 	CREATED=1317895455
 	UNIQUEID=558A5B0FDC408A499D065F818B4ED327
 
 #URL
-	ID=132
+	ID=129
 	NAME=草榴社區
 	URL=http://t66y.crsky.in/index.php
 	CREATED=1323265769
 	UNIQUEID=9F3D322F42E8B64080AC7A15C182072E
 
 #URL
-	ID=133
+	ID=130
 	NAME=SexInSex! Board
 	URL=http://67.220.92.14/forum/index.php
 	CREATED=1317895858
 	UNIQUEID=C1ADB7C5EC2C36498269BC96D75D2B8B
 
 #URL
-	ID=134
+	ID=131
 	NAME=【娜魯灣論壇】
 	URL=http://www.naluone-jp.com/forums/index.php
 	CREATED=1317895606
 	UNIQUEID=1F2AA73DB0DE864E865FFD8A70E95D42
 
 #SEPERATOR
-	ID=135
+	ID=132
 	UNIQUEID=2EE4003ACB869140BE9ED9037ABDA84F
 
 #URL
-	ID=136
+	ID=133
 	NAME=最新地址发布页
 	URL=http://alive.pen.io/
 	CREATED=1346688121
+	VISITED=1355562743
 	UNIQUEID=D19BAB402203804682A197DEDC485403
 
 #URL
-	ID=137
+	ID=134
 	NAME=０００ＫＫＫ
 	URL=http://77tete.com/
 	CREATED=1344949509
 	UNIQUEID=AA62FE14F6D143489CBE2484BE3EE501
 
 #URL
-	ID=138
+	ID=135
 	NAME=一个色导航
 	URL=http://www.ygs44.com//
 	CREATED=1344949571
 	UNIQUEID=0828537CE74B9749834CD037113BDCCC
 
 #URL
-	ID=139
+	ID=136
 	NAME=农夫导航
 	URL=http://16nf.com/
 	CREATED=1344949580
 	UNIQUEID=7C88C1ACF998CB4CB021FB1456D1ED58
 
 #URL
-	ID=140
+	ID=137
 	NAME=恋足
 	URL=http://sm.sm12345.com/
 	CREATED=1344949563
 	UNIQUEID=25112AD05F94844C87E9A8DA387F02D0
 
 #URL
-	ID=141
+	ID=138
 	NAME=落伍者导航
 	URL=http://www.55dh.net/
 	CREATED=1344949600
 	UNIQUEID=DFE444565F1F4244A297BE50569F8E56
 
 #SEPERATOR
-	ID=142
+	ID=139
 	UNIQUEID=9B7CACE0CD900B4AAFFB4B5C36F3AE77
 
 #URL
-	ID=143
+	ID=140
 	NAME=G片下載
 	URL=http://jp.gay8.org/
 	CREATED=1329917467
 	UNIQUEID=88DC499CF001B545950653AC23371E13
 
 #URL
-	ID=144
+	ID=141
 	NAME=【掠影】
 	URL=http://lueying.blog132.fc2blog.net/
 	CREATED=1329917476
 	UNIQUEID=0A4BFEFB47662346B21EBF0439178294
 
 #URL
-	ID=145
-	NAME=搜 同 - https://bbs.5isotoi5.org
+	ID=142
+	NAME=搜 同
 	URL=https://76.164.232.70/index.php
 	CREATED=1354976774
 	VISITED=1354976790
 	UNIQUEID=1A75FAD9BFEE3F47BBA9D8754D4D7274
 
 #URL
-	ID=146
+	ID=143
 	NAME=中同社区
 	URL=http://bbs.cn1069.net/forum.php
 	CREATED=1346678373
@@ -895,7 +875,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=A1F050FFFB4FFE478E319F49AEFF79B5
 
 #URL
-	ID=147
+	ID=144
 	NAME=独尊帝国
 	URL=http://www.iu45.net/index.php
 	CREATED=1344561166
@@ -903,7 +883,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=426F2215A3BAFC408F39D956324FA4B5
 
 #URL
-	ID=148
+	ID=145
 	NAME=TT1069
 	URL=http://www.tt1069.com/bbs/
 	CREATED=1344562268
@@ -912,28 +892,28 @@ Options: encoding = utf8, version=3
 	UNIQUEID=75D7CC97EFD80D4FA7D4F90E3EF013D5
 
 #URL
-	ID=149
+	ID=146
 	NAME=BadMasterBoys
 	URL=http://bmb.yebbahost.de/cms/product_info.php/info/p577_13100-65-In-The-Army-Now.html
 	CREATED=1319079243
 	UNIQUEID=1ED0AEDDA3046A4291E9C661332A76C6
 
 #URL
-	ID=150
+	ID=147
 	NAME=EAM
 	URL=http://gay-japan.infopop.cc/bookmarks.html
 	CREATED=1347878054
 	UNIQUEID=175E8A2888131B4E9847D281E320C7B0
 
 #URL
-	ID=151
+	ID=148
 	NAME=Erotic Mind-Control Story
 	URL=http://mcstories.com/
 	CREATED=1330355988
 	UNIQUEID=66EB8DEEE009A545B9FCC33E49B88FDA
 
 #URL
-	ID=152
+	ID=149
 	NAME=世界健身浴室偷窺記
 	URL=http://tw.myblog.yahoo.com/love27310/article?mid=36784
 	CREATED=1340810675
@@ -942,315 +922,352 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=153
+	ID=150
 	NAME=新闻评论
 	CREATED=1328279423
 	UNIQUEID=6A6F66E21A38E54F93E57AFAF8D334FC
 
 #URL
-	ID=154
+	ID=151
 	NAME=BBC
 	URL=http://www.bbc.com/
 	CREATED=1328281181
+	VISITED=1355636716
 	UNIQUEID=2D7D670572CA0C469B47D77220E81E8A
 
 #URL
-	ID=155
+	ID=152
 	NAME=New York Times
 	URL=http://www.nytimes.com/
 	CREATED=1328280960
+	VISITED=1355636815
 	UNIQUEID=2C3297C517BDDD40887AB3076BD51909
 
 #URL
-	ID=156
+	ID=153
 	NAME=NGM
 	URL=http://ngm.nationalgeographic.com/
 	CREATED=1328281006
+	VISITED=1355636857
 	UNIQUEID=41EFDC6DBF983344B77B9D96CAFB4ED7
 
 #URL
-	ID=157
+	ID=154
 	NAME=VOA
 	URL=http://www.voanews.com/chinese/news/
 	CREATED=1318666168
+	VISITED=1355636774
 	UNIQUEID=9CD45B7B06F883409E6332FAC5438902
 
 #URL
-	ID=158
+	ID=155
 	NAME=今日新聞網
 	URL=http://www.nownews.com/
 	CREATED=1318665494
+	VISITED=1355637456
 	UNIQUEID=B5D2A09333F49C46ACD7CEA0F7B66D08
 
 #URL
-	ID=159
+	ID=156
 	NAME=中时电子报
 	URL=http://gb.chinatimes.com/gate/gb/www.chinatimes.com/
 	CREATED=1319466221
+	VISITED=1355636805
 	UNIQUEID=0D14CF188E68684E964419F0E40BE403
 
 #URL
-	ID=160
+	ID=157
 	NAME=聯合新聞網
 	URL=http://udn.com/
 	CREATED=1319465929
+	VISITED=1355636778
 	UNIQUEID=7B81337B6AE8234F8331EC8AA711D15E
 
 #URL
-	ID=161
+	ID=158
 	NAME=博讯新闻主页
 	URL=http://www.boxun.com/
 	CREATED=1318666156
+	VISITED=1355636821
 	UNIQUEID=E921246D63F6DF4B96B0F39C9EFA4413
 
 #URL
-	ID=162
+	ID=159
 	NAME=BBC中文网
 	URL=http://www.bbc.co.uk/zhongwen/simp/
 	CREATED=1318666319
 	UNIQUEID=AC0E8B69003CF849AA417F2D7C72F608
 
 #URL
-	ID=163
+	ID=160
 	NAME=多维新闻网
 	URL=http://www.dwnews.com/
 	CREATED=1318666184
+	VISITED=1355636823
 	UNIQUEID=8C3416A4AA2F6B4F9C11057E07FB8ACD
 
 #URL
-	ID=164
+	ID=161
 	NAME=FT中文网
 	URL=http://www.ftchinese.com/
 	CREATED=1328281063
+	VISITED=1355636802
 	UNIQUEID=A3B2902628F4D2479AE1F7D72BF523B9
 
 #URL
-	ID=165
+	ID=162
 	NAME=环球时报
 	URL=http://www.huanqiu.com/
 	CREATED=1329313347
+	VISITED=1355637089
 	UNIQUEID=0F9C89C7D7B6CF4D8D1D2EE5C3058E34
 
 #URL
-	ID=166
+	ID=163
 	NAME=联合早报网
 	URL=http://www.zaobao.com/
 	CREATED=1328279982
+	VISITED=1355636800
 	UNIQUEID=E23588A00A5E3447B8630DCDE639CC63
 
 #URL
-	ID=167
+	ID=164
 	NAME=文匯網
 	URL=http://www.wenweipo.com/
 	CREATED=1328280051
+	VISITED=1355636796
 	UNIQUEID=A31903A5E33A7040B69D11ADA4285E25
 
 #SEPERATOR
-	ID=168
+	ID=165
 	UNIQUEID=25786C3A2B2EA34DBC44299AFA7FD517
 
 #URL
-	ID=169
+	ID=166
 	NAME=龙腾网
 	URL=http://www.ltaaa.com/
 	CREATED=1318684509
+	VISITED=1355637259
 	UNIQUEID=05293A1820288340AE9BD69502EA93B3
 
 #URL
-	ID=170
+	ID=167
 	NAME=爱思想
 	URL=http://www.aisixiang.com/
 	CREATED=1329315005
+	VISITED=1355636796
 	UNIQUEID=E31A25216508B647A3CC16E737BC1BC7
 
 #URL
-	ID=171
+	ID=168
 	NAME=译言网
 	URL=http://www.yeeyan.org/
 	CREATED=1328281187
+	VISITED=1355636793
 	UNIQUEID=E66A5F6455B04C4DBFC862571016A930
 
 #URL
-	ID=172
+	ID=169
 	NAME=一五一十部落
 	URL=http://my1510.cn/
 	CREATED=1325219193
+	VISITED=1355636799
 	UNIQUEID=18164D9E23E3B84ABA25859E9BB38531
 
 #URL
-	ID=173
+	ID=170
 	NAME=无国界记者
 	URL=http://www.rsf-chinese.org/
 	CREATED=1318666341
+	VISITED=1355636828
 	SHORT NAME=wgj
 	UNIQUEID=C605C66C6AC7AF49A27B6B7CA11AC1FB
 
 #URL
-	ID=174
+	ID=171
 	NAME=南方周末
 	URL=http://www.infzm.com/
 	CREATED=1328279664
 	UNIQUEID=8D4A27C808F1B649B40AA51BA5ED1514
 
 #URL
-	ID=175
+	ID=172
 	NAME=凯迪网络
 	URL=http://www.kdnet.net/
 	CREATED=1321154595
 	UNIQUEID=172C889FB2C6F342BE82C214A74CF0CA
 
 #URL
-	ID=176
+	ID=173
 	NAME=中国广播网
 	URL=http://www.cnr.cn/
 	CREATED=1328280009
+	VISITED=1355636796
 	UNIQUEID=984C963FE2D7BA4281EF33F341D9779D
 
 -
 
 #FOLDER
-	ID=177
+	ID=174
 	NAME=奇客资讯
 	CREATED=1328281131
 	UNIQUEID=62C6AF9CE0148C47A6C7E6AABAA733C1
 
 #URL
-	ID=178
+	ID=175
 	NAME=Solidot
 	URL=http://www.solidot.org/
 	CREATED=1328408029
+	VISITED=1355637487
 	UNIQUEID=A8C6A0F8EC3CD34A958F69B1996CB9B0
 
 #URL
-	ID=179
+	ID=176
 	NAME=Engadget
 	URL=http://cn.engadget.com/
 	CREATED=1318661336
+	VISITED=1355637487
 	UNIQUEID=04EB03562216D24CB19ED9C7A8B0749E
 
 #URL
-	ID=180
+	ID=177
 	NAME=TEDtoChina
 	URL=http://www.tedtochina.com/
 	CREATED=1328281103
+	VISITED=1355639458
 	UNIQUEID=D63C5E71FFD42344BD4310441F2A112D
 
 #URL
-	ID=181
+	ID=178
 	NAME=爱活网
 	URL=http://www.evolife.cn/
 	CREATED=1318684770
+	VISITED=1355637469
 	UNIQUEID=C62716DA99C6AB4996B8C9C1F01D2621
 
 #URL
-	ID=182
+	ID=179
 	NAME=ePrice 比價王
 	URL=http://www.eprice.com.tw/
 	CREATED=1318664550
+	VISITED=1355637949
 	UNIQUEID=2056A313F0FB104DA08A513363863759
 
 #URL
-	ID=183
+	ID=180
 	NAME=36氪
 	URL=http://www.36kr.com/
 	CREATED=1328370969
+	VISITED=1355639384
 	UNIQUEID=AF47D5B7572D7B40B9E5869F5C20149F
 
 #URL
-	ID=184
+	ID=181
 	NAME=动点科技
 	URL=http://cn.technode.com/
 	CREATED=1328370717
+	VISITED=1355637473
 	UNIQUEID=AB790F574392CA4D9BA01265C9271338
 
 #URL
-	ID=185
+	ID=182
 	NAME=科学松鼠会
 	URL=http://songshuhui.net/
 	CREATED=1328370607
+	VISITED=1355639380
 	UNIQUEID=2A0FA34AB2D47744AA9D3E0E6D0C896B
 
 #URL
-	ID=186
+	ID=183
 	NAME=谷奥
 	URL=http://www.guao.hk/
 	CREATED=1327212365
+	VISITED=1355637498
 	UNIQUEID=4DB4BADB1CD1DC48B70D2D7654A932F5
 
 #URL
-	ID=187
+	ID=184
 	NAME=爱范儿
 	URL=http://www.ifanr.com/
 	CREATED=1318684721
+	VISITED=1355639372
 	UNIQUEID=9D07E35ECE564E45A6372E672135619E
 
 #URL
-	ID=188
+	ID=185
 	NAME=煎蛋
 	URL=http://jandan.net/
 	CREATED=1320333352
+	VISITED=1355637486
 	SHORT NAME=jd
 	UNIQUEID=A906431259BA214AB30AA0C8B302F499
 
 #URL
-	ID=189
+	ID=186
 	NAME=iPc.me
 	URL=http://www.ipc.me/
 	CREATED=1329312921
+	VISITED=1355637483
 	UNIQUEID=BA5FE0FEFFFE15489CF320C9C7D55A65
 
 #URL
-	ID=190
+	ID=187
 	NAME=CNET科技资讯网
 	URL=http://www.cnetnews.com.cn/
 	CREATED=1318664293
+	VISITED=1355637485
 	UNIQUEID=52EE7ADEC7D41942922E4BA73844F30D
 
 #URL
-	ID=191
+	ID=188
 	NAME=DoNews
 	URL=http://www.donews.com/
 	CREATED=1318664306
+	VISITED=1355639148
 	UNIQUEID=CEF0501C5E8C9941AA13BE85E4EF1585
 
 #URL
-	ID=192
+	ID=189
 	NAME=IT168.com
 	URL=http://www.it168.com/
 	CREATED=1318664518
+	VISITED=1355637475
 	UNIQUEID=2DFF5CCD56F32F4992985D41577143AD
 
 #URL
-	ID=193
+	ID=190
 	NAME=中关村在线
 	URL=http://www.zol.com.cn/
 	CREATED=1318664562
+	VISITED=1355639041
 	UNIQUEID=8C25C32B90B57744B5027F3E4CD20B05
 
 #URL
-	ID=194
+	ID=191
 	NAME=太平洋电脑网
 	URL=http://www.pconline.com.cn/
 	CREATED=1318664638
+	VISITED=1355638891
 	UNIQUEID=BCA6509B23F4D844B4EFDEE064994089
 
 -
 
 #FOLDER
-	ID=195
+	ID=192
 	NAME=动漫小说
 	CREATED=1315611046
 	UNIQUEID=8BB3A5B72DDA2445B70EA3A5F02FFCB0
 
 #URL
-	ID=196
+	ID=193
 	NAME=AcFun.tv
 	URL=http://www.acfun.tv/
 	CREATED=1328441547
+	VISITED=1355639981
 	UNIQUEID=5A490BED406ACD40AA32AB4BCA96ADC8
 
 #URL
-	ID=197
+	ID=194
 	NAME=嗶哩嗶哩
 	URL=http://bilibili.kankanews.com/
 	CREATED=1348356198
@@ -1258,315 +1275,353 @@ Options: encoding = utf8, version=3
 	UNIQUEID=84C5EF24FC3DB744B14B6740C108D562
 
 #URL
-	ID=198
+	ID=195
 	NAME=有妖气
 	URL=http://www.u17.com/
 	CREATED=1317898924
+	VISITED=1355639897
 	SHORT NAME=u17
 	UNIQUEID=CA05F03173A18748B345D8F110FCF865
 
 #URL
-	ID=199
+	ID=196
 	NAME=动漫迷
 	URL=http://dmm.hk/
 	CREATED=1317898902
-	VISITED=1355129401
+	VISITED=1355639837
 	UNIQUEID=60C76806815666468B9349669C11185A
 
 #URL
-	ID=200
+	ID=197
 	NAME=异域动漫论坛
 	URL=http://www.yydm.com/
 	CREATED=1315481718
-	VISITED=1355129402
+	VISITED=1355639515
 	UNIQUEID=5CAA058E8B5F1E4DA91D318EDFA1BD6B
 
 #URL
-	ID=201
+	ID=198
 	NAME=红旅动漫
 	URL=http://www.hltm.cc/
 	CREATED=1315611049
+	VISITED=1355639538
 	UNIQUEID=701B1CDC7773AD48BDA768DD7ED7BB4A
 
 #URL
-	ID=202
+	ID=199
 	NAME=极影动漫
 	URL=http://vod.ktxp.com/
 	CREATED=1347322230
-	VISITED=1355129404
+	VISITED=1355639516
 	SHORT NAME=dm
 	UNIQUEID=7939B89593BE674E9D557B9E5681F49B
 
 #URL
-	ID=203
+	ID=200
 	NAME=17happy动漫圣殿
 	URL=http://www.17happy.cn/
 	CREATED=1318664825
+	VISITED=1355639513
 	UNIQUEID=ED3AF4DD47E448499FB5C82E640B9D7B
 
 #URL
-	ID=204
+	ID=201
 	NAME=『澄空学园』
 	URL=http://bbs.sumisora.org/
 	CREATED=1330922713
-	VISITED=1355129403
+	VISITED=1355639622
 	UNIQUEID=A13F01A845657648BAACE674445BD8CE
 
 #SEPERATOR
-	ID=205
+	ID=202
 	UNIQUEID=46154640373ABE40B4625B5A2E251BCF
 
 #URL
-	ID=206
+	ID=203
 	NAME=天下电子书
 	URL=http://www.txdzs.com/
 	CREATED=1329056712
+	VISITED=1355639631
 	UNIQUEID=1620F627B9EBE344994D5ECE16AF00D1
 
 #URL
-	ID=207
+	ID=204
 	NAME=派派小说论坛
 	URL=http://www.paipaitxt.com/
 	CREATED=1347114686
+	VISITED=1355639516
 	UNIQUEID=301A2DC381D4BF44B95E1F49EEE764B4
 
 #URL
-	ID=208
+	ID=205
 	NAME=天涯易读
 	URL=http://www.tianyayidu.com/
 	CREATED=1348969794
+	VISITED=1355639514
 	UNIQUEID=694BF39938EC0B4AB15697145FC6E774
 
 #URL
-	ID=209
+	ID=206
 	NAME=楼主网
 	URL=http://www.onlylz.com/
 	CREATED=1315453183
+	VISITED=1355639517
 	UNIQUEID=20B773C6A1DB964898219377E3A6F2D3
 
 #URL
-	ID=210
+	ID=207
 	NAME=万书楼
 	URL=http://www.wanshulou.com/
 	CREATED=1319867008
+	VISITED=1355639530
 	UNIQUEID=33F0BCDA5D239540B3A29B94F3ED5A5B
 
 #URL
-	ID=211
+	ID=208
 	NAME=在线书吧
 	URL=http://www.bookba.net/
 	CREATED=1319869828
+	VISITED=1355639543
 	UNIQUEID=EC5DF3F449A96642B76D468D2ED004B0
 
 #URL
-	ID=212
+	ID=209
 	NAME=薇薇时尚杂志网
 	URL=http://www.vvshu.com/
 	CREATED=1319957495
+	VISITED=1355639525
 	UNIQUEID=C8104F3CC643DF48B5D701B0B622A3F0
 
 #URL
-	ID=213
+	ID=210
 	NAME=电子书/飞库网
 	URL=http://www.feiku.com/
 	CREATED=1320501207
+	VISITED=1355639775
 	UNIQUEID=5AB48DB27130AB499D8FDFA71DB0BD3D
 
 #URL
-	ID=214
+	ID=211
 	NAME=快眼看书
 	URL=http://www.booksky.org/
 	CREATED=1320501337
+	VISITED=1355639517
 	UNIQUEID=ACFF8FF57E0CD341A2C9E0E2381416B3
 
 #URL
-	ID=215
+	ID=212
 	NAME=找小说网
 	URL=http://www.zhaoxiaoshuo.com/
 	CREATED=1329316654
+	VISITED=1355639517
 	UNIQUEID=AA663ECF2104684A92F3EAD85FA966E9
 
 #URL
-	ID=216
-	NAME=ikindle万卷书
-	URL=http://ikindle.mobi/book/
+	ID=213
+	NAME=ikindle
+	URL=http://ikandou.com/
 	CREATED=1331899827
+	VISITED=1355639517
 	UNIQUEID=DC179437F7194B46B6124701EAFADAC6
 
 -
 
 #FOLDER
-	ID=217
+	ID=214
 	NAME=游戏东西
 	CREATED=1328281212
 	UNIQUEID=6BA60F4392C4134BA9BB522B5566A0BB
 
 #URL
-	ID=218
+	ID=215
 	NAME=4399小游戏
 	URL=http://www.4399.com/
 	CREATED=1328356111
-	VISITED=1355142095
+	VISITED=1355640302
 	SHORT NAME=4399
 	UNIQUEID=11D8EF8365EED5418CDF9D4CDB3CE5F6
 
 #URL
-	ID=219
+	ID=216
 	NAME=7k7k小游戏
 	URL=http://www.7k7k.com/
 	CREATED=1355127372
-	VISITED=1355129346
+	VISITED=1355640019
 	SHORT NAME=7k7k
 	UNIQUEID=ECC5D7BC5C7A514F937D2BA8C8F1D7E3
 
 #URL
-	ID=220
+	ID=217
 	NAME=赛尔号
 	URL=http://www.51seer.com/
 	CREATED=1355127420
+	VISITED=1355639991
 	SHORT NAME=赛尔号
 	UNIQUEID=879649F15BF69B499FA66175CBDFB919
 
 #URL
-	ID=221
+	ID=218
 	NAME=5173网游交易
 	URL=http://www.5173.com/
 	CREATED=1355127319
+	VISITED=1355640014
 	SHORT NAME=5173
 	UNIQUEID=62D0847071863F448D2BBC395CD165D5
 
 #URL
-	ID=222
+	ID=219
 	NAME=DOTA
 	URL=http://dota.sgamer.com/
 	CREATED=1329315621
+	VISITED=1355640225
 	UNIQUEID=712DBA57DABE854081BA2ABBAD238F02
 
 #URL
-	ID=223
+	ID=220
 	NAME=游侠网
 	URL=http://www.ali213.net/
 	CREATED=1328356247
+	VISITED=1355640018
 	UNIQUEID=B2FC280775F97448AF2BE5F82CAC20A3
 
 #URL
-	ID=224
+	ID=221
 	NAME=游民星空
 	URL=http://www.gamersky.com/
 	CREATED=1328356241
+	VISITED=1355640004
 	UNIQUEID=C37C6702DAEA474F8DD2C124AF0FA25E
 
 #URL
-	ID=225
+	ID=222
 	NAME=战网
 	URL=http://www.battlenet.com.cn/zh/
 	CREATED=1328356749
+	VISITED=1355640018
 	UNIQUEID=835072B8D2F3F142933179AEF91EEC80
 
 #URL
-	ID=226
+	ID=223
 	NAME=多玩游戏网
 	URL=http://www.duowan.com/
 	CREATED=1328356236
+	VISITED=1355640176
 	UNIQUEID=A5802A01BD47234193AFF2A2B84D3627
 
 #URL
-	ID=227
+	ID=224
 	NAME=178游戏网
 	URL=http://www.178.com/
 	CREATED=1328356231
+	VISITED=1355640165
 	UNIQUEID=F3180E0DC5EC824789FF448351759B5E
 
 #URL
-	ID=228
+	ID=225
 	NAME=游久网
 	URL=http://www.uuu9.com/
 	CREATED=1328356147
+	VISITED=1355640079
 	UNIQUEID=5740AD37A2F00C4597DD6F1E9FCB6E34
 
 #URL
-	ID=229
+	ID=226
 	NAME=浩方电竞平台
 	URL=http://www.cga.com.cn/
 	CREATED=1328356127
+	VISITED=1355640015
 	UNIQUEID=4410BA382DE2DC4497A3EF4736BA0ECB
 
 #URL
-	ID=230
+	ID=227
 	NAME=玩家网
 	URL=http://www.cngba.com/
 	CREATED=1325220535
-	VISITED=1354772940
+	VISITED=1355640032
 	UNIQUEID=8C24BA5B366D824390E3245FE67EAF58
 
 #URL
-	ID=231
+	ID=228
 	NAME=萌动世界
 	URL=http://www.iacger.com/forum.php
 	CREATED=1346719208
+	VISITED=1355640067
 	UNIQUEID=26AF2ADA5D8EF64893691484C96A3BB0
 
 #URL
-	ID=232
+	ID=229
 	NAME=STAGE1
 	URL=http://bbs.saraba1st.com/2b/
 	CREATED=1344382457
+	VISITED=1355640047
 	UNIQUEID=2439B32BADFB1B40BBD92544787E6824
 
 #URL
-	ID=233
+	ID=230
 	NAME=17173
 	URL=http://www.17173.com/
 	CREATED=1327411420
-	VISITED=1355127330
+	VISITED=1355641636
 	SHORT NAME=17173
 	UNIQUEID=99B730F13FF7A2488C7CD3109277E5BE
 
 #URL
-	ID=234
+	ID=231
 	NAME=艾泽拉斯国家地理论坛
 	URL=http://bbs.ngacn.cc/
 	CREATED=1329314947
+	VISITED=1355640028
 	UNIQUEID=7F2F397D371DDA4D878EC8352C823B22
 
 #URL
-	ID=235
+	ID=232
 	NAME=『特摄联盟』
 	URL=http://bbs.wangooo.com/index.php
 	CREATED=1329314890
+	VISITED=1355640054
 	UNIQUEID=635108F2C8F77A4EB1E944342A7148F0
 
 #URL
-	ID=236
+	ID=233
 	NAME=CSP 中文网
 	URL=http://www.cspromod.cn/
 	CREATED=1322380445
+	VISITED=1355640022
 	UNIQUEID=B59B18AAAF7991438683ADD3B7B95E6D
 
 #URL
-	ID=237
+	ID=234
 	NAME=Cut the Rope
 	URL=http://www.cuttherope.ie/
 	CREATED=1352268581
+	VISITED=1355640000
 	UNIQUEID=40351DAC71DDD142BB44083612A1E505
 
 -
 
 #FOLDER
-	ID=238
+	ID=235
 	NAME=体育运动
 	CREATED=1355551219
 	UNIQUEID=1E0C4C2A1938F3429D30891342675027
 
 #URL
-	ID=239
+	ID=236
+	NAME=英超精华
+	URL=http://www.ssports.com/html/video/Video.html
+	CREATED=1355635750
+	ACTIVE=YES
+	UNIQUEID=EFE7F78D794E91418C7C4497B95AD00D
+
+#URL
+	ID=237
 	NAME=世界斯诺克中文官网
 	URL=http://www.worldsnooker.tom.com/
 	CREATED=1355552486
 	UNIQUEID=06B5C58A986C2E4E9FF6BD617EA7637F
 
 #URL
-	ID=240
+	ID=238
 	NAME=TOM体育
 	URL=http://sports.tom.com/
 	CREATED=1355552539
@@ -1574,7 +1629,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=3853FCA2547EEE47A03674EFB1794D47
 
 #URL
-	ID=241
+	ID=239
 	NAME=新浪体育赛事直播
 	URL=http://match.sports.sina.com.cn/livecast/
 	CREATED=1355552568
@@ -1582,7 +1637,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=91DC063CDC96AF4FBE23FDC8BD1B2F79
 
 #URL
-	ID=242
+	ID=240
 	NAME=NBA直播
 	URL=http://sports.sina.com.cn/nba/
 	CREATED=1355551327
@@ -1590,14 +1645,14 @@ Options: encoding = utf8, version=3
 	UNIQUEID=2AD59766A9AE62478AD583919DCC89DB
 
 #URL
-	ID=243
+	ID=241
 	NAME=江城足球网
 	URL=http://www.jczqw.com/
 	CREATED=1350125752
 	UNIQUEID=F38E7C5D4553A640A2E867373A24EBA7
 
 #URL
-	ID=244
+	ID=242
 	NAME=足球巴巴
 	URL=http://www.bo88.com/
 	CREATED=1355550349
@@ -1607,13 +1662,20 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=245
+	ID=243
 	NAME=影视资源
 	CREATED=1328357174
 	UNIQUEID=50F6C32EC31E1F4F9268828889EC8EF4
 
 #URL
-	ID=246
+	ID=244
+	NAME=高清影院-电影网
+	URL=http://www.m1905.com/vod/
+	CREATED=1355573733
+	UNIQUEID=D8F06EBD0440774D8D6A63364478652F
+
+#URL
+	ID=245
 	NAME=步步高影院
 	URL=http://www.bbgyy.com/
 	CREATED=1318512453
@@ -1621,7 +1683,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=34858646BE81F94D91887011DB50246E
 
 #URL
-	ID=247
+	ID=246
 	NAME=快播影院
 	URL=http://www.77yy.in/
 	CREATED=1328415059
@@ -1629,7 +1691,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=86524963CBB5E6429DB138C97C52C3BF
 
 #URL
-	ID=248
+	ID=247
 	NAME=放放电影
 	URL=http://www.ffdy.cc/
 	CREATED=1346673081
@@ -1637,7 +1699,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=14119EEB9529964490B4DFF3712FAEEC
 
 #URL
-	ID=249
+	ID=248
 	NAME=第一放映室
 	URL=http://www.2kk.cc/
 	CREATED=1314687821
@@ -1645,7 +1707,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=5A07573EFD1043418934B12711D20CDA
 
 #URL
-	ID=250
+	ID=249
 	NAME=TOM365
 	URL=http://www.tom365.com/
 	CREATED=1306392197
@@ -1653,15 +1715,15 @@ Options: encoding = utf8, version=3
 	UNIQUEID=98DB966FA27AD046B19868DF931D1268
 
 #URL
-	ID=251
+	ID=250
 	NAME=康熙来了
 	URL=http://www.iqiyi.com/zongyi/kxll.html
 	CREATED=1355549710
-	VISITED=1355549712
+	VISITED=1355577299
 	UNIQUEID=9D59E54B4DFD1942B749C3977AC82AA4
 
 #URL
-	ID=252
+	ID=251
 	NAME=百度影音影院
 	URL=http://www.baidu.com/s?wd=%B0%D9%B6%C8%D3%B0%D2%F4%D3%B0%D4%BA
 	CREATED=1318988451
@@ -1669,11 +1731,11 @@ Options: encoding = utf8, version=3
 	UNIQUEID=CA05050EDB8CDC429C3A2333F5CE59B4
 
 #SEPERATOR
-	ID=253
+	ID=252
 	UNIQUEID=2A8679C00CF5444B8CF0CFFD43513474
 
 #URL
-	ID=254
+	ID=253
 	NAME=PPTV网络直播中心
 	URL=http://topic.pptv.com/partner/baiduapp/live/main/
 	CREATED=1348984167
@@ -1682,7 +1744,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=2EBAF0E8F786364380BD997FEDDD40B5
 
 #URL
-	ID=255
+	ID=254
 	NAME=UUSee 网络电视
 	URL=http://player.uusee.com/apps/baidu/index.html
 	CREATED=1348984209
@@ -1691,7 +1753,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=772E752D526E6D41BAB91AE0F0B48C9B
 
 #URL
-	ID=256
+	ID=255
 	NAME=小二电视
 	URL=http://x2dsj.com/teleplay/
 	CREATED=1319866478
@@ -1699,7 +1761,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=8FDAAEEC930C8249B81BF6A2992816C9
 
 #URL
-	ID=257
+	ID=256
 	NAME=TV007
 	URL=http://www.tv007.cc/
 	CREATED=1306392318
@@ -1707,7 +1769,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=FA9B8AB9DE0E7746B810F5317B23CBAA
 
 #URL
-	ID=258
+	ID=257
 	NAME=风云直播
 	URL=http://www.fengyunzhibo.com/#cctv5
 	CREATED=1344382219
@@ -1716,7 +1778,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=910FFC3F98DCB14CB95598FFAB635B9B
 
 #URL
-	ID=259
+	ID=258
 	NAME=中国网络电视台
 	URL=http://tv.cntv.cn/
 	CREATED=1348149491
@@ -1725,7 +1787,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=B170952D99ACE348A220001F481D0591
 
 #URL
-	ID=260
+	ID=259
 	NAME=网络电视直播
 	URL=http://www.41478.com/
 	CREATED=1315307264
@@ -1733,7 +1795,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=90A56B14D7357D4491E31AB743E324A6
 
 #URL
-	ID=261
+	ID=260
 	NAME=网络电视
 	URL=http://tv.zqredstar.com/
 	CREATED=1313308779
@@ -1741,7 +1803,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=CEB083EA68835443BF826CCE70E3E485
 
 #URL
-	ID=262
+	ID=261
 	NAME=IISTV
 	URL=http://www.iistv.com/
 	CREATED=1306392360
@@ -1749,7 +1811,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=F3C26C1986B63A42A671D3FF93EC5DDC
 
 #URL
-	ID=263
+	ID=262
 	NAME=电视节目预告
 	URL=http://www.tvmao.com/
 	CREATED=1328357458
@@ -1757,7 +1819,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=D2B39642C8B0584391C2C7C3CBA513A6
 
 #URL
-	ID=264
+	ID=263
 	NAME=卫星参数表
 	URL=http://www.88408.com/
 	CREATED=1315482205
@@ -1765,7 +1827,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=1718E4BE76DF3848BA0E127754BF140A
 
 #URL
-	ID=265
+	ID=264
 	NAME=中文寻星
 	URL=http://www.cnsat.net/
 	CREATED=1318665023
@@ -1773,34 +1835,34 @@ Options: encoding = utf8, version=3
 	UNIQUEID=F4E164F0B459BF43830DE6E1490CFF61
 
 #SEPERATOR
-	ID=266
+	ID=265
 	UNIQUEID=63D56ECCC708ED42B45EAB487D4AD909
 
 #URL
-	ID=267
+	ID=266
 	NAME=Mtime时光网
 	URL=http://www.mtime.com/
 	CREATED=1327410078
 	UNIQUEID=E2C7B181582FC44BA48F75E6451F4872
 
 #URL
-	ID=268
+	ID=267
 	NAME=飞鸟娱乐
 	URL=http://bbs.hdbird.com/
 	CREATED=1316351565
 	UNIQUEID=C211AB76F8EC6440BBDA6704C1483463
 
 #URL
-	ID=269
+	ID=268
 	NAME=纪录片之家
 	URL=http://www.jlpzj.com/
 	CREATED=1318665940
-	VISITED=1355550679
+	VISITED=1355562335
 	SHORT NAME=jlp
 	UNIQUEID=6C8F7ECCB2498749B70906CAB9304524
 
 #URL
-	ID=270
+	ID=269
 	NAME=人人影视
 	URL=http://yyets.com/
 	CREATED=1328357221
@@ -1808,39 +1870,50 @@ Options: encoding = utf8, version=3
 	UNIQUEID=A6EDA7E33BA686428B6BB47A90779B10
 
 #URL
-	ID=271
+	ID=270
 	NAME=NORM TEAM
 	URL=http://www.normteam.com/forum.php
 	CREATED=1314596064
+	VISITED=1355562327
 	UNIQUEID=6FD30E42C422AA44824C1480048AADF3
 
 #URL
-	ID=272
+	ID=271
 	NAME=The Last Fantasy
 	URL=http://bbs.eastgame.org/
 	CREATED=1316351598
+	VISITED=1355562328
 	UNIQUEID=9F13D9AFC6666045B48FD95232BAEA96
 
 #URL
-	ID=273
+	ID=272
 	NAME=ＣＨＤ联盟
 	URL=http://www.chdtv.net/forum.php
 	CREATED=1316351605
 	UNIQUEID=528F6127B9FE134ABAB43F081DF5985D
 
 #URL
-	ID=274
+	ID=273
 	NAME=悠悠鸟影视论坛
 	URL=http://bbs.uuniao.com/
 	CREATED=1316351678
+	VISITED=1355562760
 	UNIQUEID=91523DF3A9CA0745A6B993356E35620B
 
 #URL
-	ID=275
+	ID=274
 	NAME=TVBT菊花台
 	URL=http://www.mytvbt.net/index.php
 	CREATED=1355376446
+	VISITED=1355563378
 	UNIQUEID=8974B4F7B55BAF47A67FC342BE2CEE82
+
+#URL
+	ID=275
+	NAME=道兰字幕组
+	URL=http://www.daolan.net/
+	CREATED=1355562620
+	UNIQUEID=F0AEDA9B08492B45A80854FFAE55AB0E
 
 #URL
 	ID=276
@@ -2063,7 +2136,7 @@ Options: encoding = utf8, version=3
 	NAME=优酷网
 	URL=http://www.youku.com/
 	CREATED=1290872612
-	VISITED=1355548704
+	VISITED=1355628360
 	UNIQUEID=9E6C3CBE8547A945BB93E73FA8D65F56
 
 #URL
@@ -2339,6 +2412,7 @@ Options: encoding = utf8, version=3
 	NAME=六间房快捷贴图
 	URL=http://tu.6.cn/
 	CREATED=1318662848
+	VISITED=1355562726
 	SHORT NAME=6
 	UNIQUEID=74A4B8FC03D7F1449A7720091E7BE642
 
@@ -2588,6 +2662,7 @@ Options: encoding = utf8, version=3
 	NAME=快盘
 	URL=http://www.kuaipan.cn/
 	CREATED=1323282670
+	VISITED=1355558042
 	UNIQUEID=D976E210CEA6B943994D8044A1AB7501
 
 #URL
@@ -2727,7 +2802,7 @@ Options: encoding = utf8, version=3
 	NAME=机锋论坛
 	URL=http://bbs.gfan.com/
 	CREATED=1320403069
-	VISITED=1354977192
+	VISITED=1355575349
 	SHORT NAME=gfan
 	UNIQUEID=4D1D5CC4AF4300478DECB0EE208314B5
 
@@ -2794,7 +2869,7 @@ Options: encoding = utf8, version=3
 	NAME=赢政天下论坛
 	URL=http://yingzheng.com/
 	CREATED=1327625380
-	VISITED=1355557082
+	VISITED=1355641654
 	UNIQUEID=40547A8FCB34DD41BEB9FB04B0CF91BD
 
 #URL
@@ -2802,7 +2877,7 @@ Options: encoding = utf8, version=3
 	NAME=霏凡论坛
 	URL=http://bbs.crsky.com/
 	CREATED=1327625380
-	VISITED=1355557094
+	VISITED=1355641662
 	UNIQUEID=846AA2DB68BA6F4EB8A446DE863CC4E1
 
 #URL
@@ -2810,7 +2885,7 @@ Options: encoding = utf8, version=3
 	NAME=卡饭论坛
 	URL=http://bbs.kafan.cn/
 	CREATED=1290495012
-	VISITED=1355557121
+	VISITED=1355641655
 	UNIQUEID=8432653ADE498641BBB6D13F3D784AB7
 
 #URL
@@ -2832,6 +2907,7 @@ Options: encoding = utf8, version=3
 	NAME=精睿网络安全
 	URL=http://bbs.vc52.cn/bbs.php
 	CREATED=1315481718
+	VISITED=1355618496
 	SHORT NAME=vc52
 	UNIQUEID=E99B778A7679EB468E9DFFC482C72CE9
 
@@ -2927,6 +3003,7 @@ Options: encoding = utf8, version=3
 	NAME=绿软家园(绿色下载站)
 	URL=http://www.downg.com/default.html
 	CREATED=1327625380
+	VISITED=1355626469
 	SHORT NAME=gd
 	UNIQUEID=DC7905E93ADAE0498B2FE906C31F4908
 
@@ -2935,7 +3012,7 @@ Options: encoding = utf8, version=3
 	NAME=绿色软件联盟
 	URL=http://www.xdowns.com/
 	CREATED=1221646726
-	VISITED=1355213034
+	VISITED=1355626468
 	UNIQUEID=BB4725258F942A498CEBBB0D6DA7B12A
 
 #URL
@@ -2943,7 +3020,7 @@ Options: encoding = utf8, version=3
 	NAME=汉化新世纪
 	URL=http://www.hanzify.org/
 	CREATED=1318664693
-	VISITED=1355553420
+	VISITED=1355626466
 	UNIQUEID=ED9C2DD149377E488C1D0401C8DF957F
 
 #URL
@@ -2951,7 +3028,7 @@ Options: encoding = utf8, version=3
 	NAME=精品绿色便携软件
 	URL=http://www.portablesoft.org/
 	CREATED=1327625380
-	VISITED=1355213111
+	VISITED=1355626497
 	UNIQUEID=37424516CDCF7B438FBCEB1A8944A701
 
 #URL
@@ -3023,7 +3100,7 @@ Options: encoding = utf8, version=3
 	NAME=防毒策略 - 网维大师论坛
 	URL=http://bbs.icafe8.com/thread-241167-1-1.html
 	CREATED=1327625380
-	VISITED=1355212873
+	VISITED=1355625131
 	UNIQUEID=B402B09F6AEAD9499AC6F1102A05C55E
 
 #URL
@@ -3048,7 +3125,7 @@ Options: encoding = utf8, version=3
 	NAME=hostsx
 	URL=http://code.google.com/p/hostsx/
 	CREATED=1329148833
-	VISITED=1355553602
+	VISITED=1355561576
 	UNIQUEID=727FD66C4C9AEE4C8032330C04FF2D88
 
 #URL
@@ -3064,7 +3141,7 @@ Options: encoding = utf8, version=3
 	NAME=无约而来
 	URL=http://zxkh19501.blog.163.com/
 	CREATED=1319034726
-	VISITED=1355553325
+	VISITED=1355626299
 	SHORT NAME=win7
 	UNIQUEID=8DC955BCD94C6843B63C589432706544
 
@@ -3153,7 +3230,7 @@ Options: encoding = utf8, version=3
 	NAME=CyanogenMod
 	URL=http://download.cyanogenmod.com/?device=maguro&type=stable
 	CREATED=1346995633
-	VISITED=1355552324
+	VISITED=1355583633
 	SHORT NAME=cm
 	UNIQUEID=154EEDEE00425743A9F356897A597015
 
@@ -3485,7 +3562,7 @@ Options: encoding = utf8, version=3
 	NAME=淘宝网
 	URL=http://www.taobao.com/
 	CREATED=1290872545
-	VISITED=1355548983
+	VISITED=1355642024
 	UNIQUEID=80F275C38D5E8846B70DAF3939ADDB39
 
 #URL
@@ -3587,6 +3664,23 @@ Options: encoding = utf8, version=3
 
 #URL
 	ID=508
+	NAME=Google
+	URL=http://www.google.jp
+	CREATED=1299134889
+	SHORT NAME=gj
+	UNIQUEID=7978EE3675F4B3418E9FD116B1CB81F7
+
+#URL
+	ID=509
+	NAME=Google-Canada
+	URL=http://www.google.ca/
+	CREATED=1299134889
+	VISITED=1355628828
+	SHORT NAME=gc
+	UNIQUEID=33F660EE0D7DBD49BA73B7FB5B9566FC
+
+#URL
+	ID=510
 	NAME=翻译
 	URL=http://translate.google.cn/translate_t?hl=zh-CN
 	CREATED=1230663500
@@ -3594,7 +3688,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=48CAE20D919F594584804B98F986F89B
 
 #URL
-	ID=509
+	ID=511
 	NAME=日历
 	URL=http://calendar.google.com/?home=zh-CN
 	CREATED=1230663526
@@ -3602,7 +3696,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=D2BBC996797A1A4E85EC2B5232B195C4
 
 #URL
-	ID=510
+	ID=512
 	NAME=地图
 	URL=http://ditu.google.cn/
 	CREATED=1230663548
@@ -3610,7 +3704,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=0FCB553439195841A740076780D75C4E
 
 #URL
-	ID=511
+	ID=513
 	NAME=图片搜索
 	URL=http://www.google.com.hk/imghp?hl=zh-CN&tab=ii
 	CREATED=1230663565
@@ -3618,7 +3712,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=06323886E1E4124C96B0384D90E32E8F
 
 #URL
-	ID=512
+	ID=514
 	NAME=文件
 	URL=https://www.google.com/accounts/ServiceLogin?service=writely&passive=true&continue=http%3A%2F%2Fdocs.google.com%2F%3Fhl%3Dzh_CN&hl=zh_CN&ltmpl=homepage&nui=1&utm-source=zh_CN-more&utm-medium=more&utm-campaign=zh_CN
 	CREATED=1230663729
@@ -3626,7 +3720,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=AFA7034A17F9D34A997EEF496CE14BB4
 
 #URL
-	ID=513
+	ID=515
 	NAME=Gmail
 	URL=https://mail.google.com
 	CREATED=1290872041
@@ -3634,14 +3728,14 @@ Options: encoding = utf8, version=3
 	UNIQUEID=355B4BA74262DF42B2A491B16F2CEA85
 
 #URL
-	ID=514
+	ID=516
 	NAME=GoogleReader
 	URL=http://www.google.com/reader
 	CREATED=1230663853
 	UNIQUEID=DDE13E727F439A4E96607DE570C884B8
 
 #URL
-	ID=515
+	ID=517
 	NAME=图书搜索
 	URL=http://books.google.com.hk/?hl=zh-CN&sourceid=cnhp
 	CREATED=1230663905
@@ -3649,7 +3743,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=DEB49EE9FCCF8E42A1CC08D477BACF03
 
 #URL
-	ID=516
+	ID=518
 	NAME=网站导航
 	URL=http://www.265.com/
 	CREATED=1230663921
@@ -3657,7 +3751,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=72BFBE49E5F15C4183C7D8BA2DE06ED4
 
 #URL
-	ID=517
+	ID=519
 	NAME=资讯
 	URL=http://news.google.com/nwshp?hl=zh-CN&vanilla=0
 	CREATED=1230663944
@@ -3665,7 +3759,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=63102820301F1E4CBDA05AA085EBD709
 
 #URL
-	ID=518
+	ID=520
 	NAME=Picasa照片
 	URL=http://picasa.google.com/intl/zh-CN
 	CREATED=1230663997
@@ -3675,14 +3769,14 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=519
+	ID=521
 	NAME=Opera
 	CREATED=1305642230
 	PARTNERID=opera-operafolder
 	UNIQUEID=D912D31E4E1B4A8B9FB60869393338CD
 
 #URL
-	ID=520
+	ID=522
 	NAME=Opera 官方FTP
 	URL=http://ftp.opera.com/pub/opera/win/
 	CREATED=1209014799
@@ -3690,7 +3784,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=DB0D30A82999434DA416B86E59D1BC10
 
 #URL
-	ID=521
+	ID=523
 	NAME=Opera Wiki
 	URL=http://operawiki.org/
 	CREATED=1354774553
@@ -3698,7 +3792,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=6DD13DF1B9BBB8468D79A03F30C02152
 
 #URL
-	ID=522
+	ID=524
 	NAME=Opera 官方中文社区
 	URL=http://bbs.operachina.com/
 	CREATED=1354937482
@@ -3706,7 +3800,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=F97646F30ADAFD4FA8FD386EC9154BD4
 
 #URL
-	ID=523
+	ID=525
 	NAME=Opera中文社区
 	URL=http://oc.ls.tl/
 	CREATED=1346672934
@@ -3716,7 +3810,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=EB379588BC188F49B1F3021BFF873B37
 
 #URL
-	ID=524
+	ID=526
 	NAME=DesktopTeam
 	URL=http://my.opera.com/desktopteam/blog/
 	CREATED=1209014744
@@ -3724,14 +3818,14 @@ Options: encoding = utf8, version=3
 	UNIQUEID=194D4D4E3426B448A03641F409400055
 
 #URL
-	ID=525
+	ID=527
 	NAME=Opera IM | I Meet Opera!
 	URL=http://opera.im/
 	CREATED=1337926526
 	UNIQUEID=B3245C0869B537419737EC41D56912C8
 
 #URL
-	ID=526
+	ID=528
 	NAME=Opera Portal
 	URL=http://portal.opera.com/
 	CREATED=1305642230
@@ -3739,33 +3833,33 @@ Options: encoding = utf8, version=3
 	UNIQUEID=93D5337B1657409084924E007F49387C
 
 #SEPERATOR
-	ID=527
+	ID=529
 	UNIQUEID=8BC6600A2FF444469825377C787FF670
 
 #URL
-	ID=528
+	ID=530
 	NAME=Opera AC
 	URL=http://opera-ac.net/
 	CREATED=1318661386
 	UNIQUEID=3C986BB94873264B87E3F84485F05638
 
 #URL
-	ID=529
+	ID=531
 	NAME=Opera浏览器白菜版
 	URL=http://www.ezopera.com/
 	CREATED=1346684696
 	UNIQUEID=026F2BF4535D284AA3D52A4CE01F2136
 
 #URL
-	ID=530
+	ID=532
 	NAME=Operatool-紫电
 	URL=http://code.google.com/p/operatool/
 	CREATED=1346685102
-	VISITED=1355136912
+	VISITED=1355562418
 	UNIQUEID=58451084C21AF140A6F9D1A3D847ED1D
 
 #URL
-	ID=531
+	ID=533
 	NAME=Opera-CC
 	URL=https://github.com/atmouse-/Opera-CC
 	CREATED=1346423663
@@ -3773,41 +3867,43 @@ Options: encoding = utf8, version=3
 	UNIQUEID=C5E04655F061B54C9E2557866CCD5A34
 
 #URL
-	ID=532
+	ID=534
 	NAME=Opera SMS
 	URL=https://jude.im/operasms/
 	CREATED=1316323507
+	VISITED=1355562451
 	UNIQUEID=AB9FF5C2FB4FAB488B5BE99259C83912
 
 #URL
-	ID=533
+	ID=535
 	NAME=Lexi Home
 	URL=http://lexi.ucoz.ru/
 	CREATED=1236407940
+	VISITED=1355562399
 	UNIQUEID=DFABD15DFD9316428C991EA8641606D7
 
 #URL
-	ID=534
+	ID=536
 	NAME=Tamil
 	URL=http://my.opera.com/Tamil/blog/
 	CREATED=1344476245
-	VISITED=1355135741
+	VISITED=1355562397
 	UNIQUEID=C332ACFDBA91814E9010FFAF2FADAFA5
 
 #URL
-	ID=535
+	ID=537
 	NAME=XenoAntares
 	URL=http://my.opera.com/XAntares/blog/
 	CREATED=1346939161
-	VISITED=1355135737
+	VISITED=1355562406
 	UNIQUEID=A4B3A7F4A3ACA043BB01369D1E6550E0
 
 #SEPERATOR
-	ID=536
+	ID=538
 	UNIQUEID=E244093919CFFC45A847891F52DF8D3E
 
 #URL
-	ID=537
+	ID=539
 	NAME=Stylebot Social
 	URL=http://stylebot.me/
 	CREATED=1329561315
@@ -3815,7 +3911,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=E149138A61DC574082453C09913EF1C4
 
 #URL
-	ID=538
+	ID=540
 	NAME=Buttons
 	URL=http://www.aimwell.org/Help/Buttons/buttons.html#Quick
 	CREATED=1317122893
@@ -3823,7 +3919,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=E6974FA3F21E6B4880FCC7BA73BCE351
 
 #URL
-	ID=539
+	ID=541
 	NAME=Buttons Creator
 	URL=http://nontroppo.org/tools/buttonmaker/
 	CREATED=1315120270
@@ -3831,7 +3927,7 @@ Options: encoding = utf8, version=3
 	UNIQUEID=84C7A84F88B4BE49B256838562A39146
 
 #URL
-	ID=540
+	ID=542
 	NAME=Jesse's Bookmarklets Site
 	URL=https://www.squarefree.com/bookmarklets/
 	CREATED=1319118468
@@ -3839,39 +3935,39 @@ Options: encoding = utf8, version=3
 	UNIQUEID=91A72D0A344050429DD1C42E58DA1AF4
 
 #URL
-	ID=541
+	ID=543
 	NAME=ExtendOpera
 	URL=http://extendopera.org/
 	CREATED=1315611344
 	UNIQUEID=D328A7F868C5724EA95D69546FB5E7A5
 
 #URL
-	ID=542
+	ID=544
 	NAME=Opera™ | Dialboard
 	URL=http://opera-ac.net/Opera_Dialboard.htm
 	CREATED=1321002473
 	UNIQUEID=10819BC7242F3F4EA31DD726AA2516B0
 
 #URL
-	ID=543
+	ID=545
 	NAME=bookmarklet 转按钮工具
 	URL=http://mylib.duxiu.com/userfile/12222653/2011-01-22/1295699454690.html
 	CREATED=1344417163
 	UNIQUEID=829AC637DCF08840ABC214E867059A19
 
 #SEPERATOR
-	ID=544
+	ID=546
 	UNIQUEID=094B91D18D52D94FB4DE0E7041FFB13C
 
 #URL
-	ID=545
+	ID=547
 	NAME=SunSpider JS Benchmark
 	URL=http://www.webkit.org/perf/sunspider/sunspider.html
 	CREATED=1321072683
 	UNIQUEID=9D63AD9BE2F51048BF2DAE131012278A
 
 #URL
-	ID=546
+	ID=548
 	NAME=V8 Benchmark Suite
 	URL=http://v8.googlecode.com/svn/data/benchmarks/current/run.html
 	CREATED=1326548203
@@ -3879,35 +3975,35 @@ Options: encoding = utf8, version=3
 	UNIQUEID=05000708F1BAC549BC09850372061A54
 
 #URL
-	ID=547
+	ID=549
 	NAME=The Acid3 Test
 	URL=http://acid3.acidtests.org/
 	CREATED=1321072246
 	UNIQUEID=C4280142E47C674F9427EAC631A5588C
 
 #URL
-	ID=548
+	ID=550
 	NAME=The CSS3 Test
 	URL=http://css3test.com/
 	CREATED=1346833054
 	UNIQUEID=A7BFA686B624DE41AE213DED3E43D3F3
 
 #URL
-	ID=549
+	ID=551
 	NAME=The HTML5 Test
 	URL=http://html5test.com/
 	CREATED=1321072276
 	UNIQUEID=A855464011501F47B3EE035EF65991AD
 
 #URL
-	ID=550
+	ID=552
 	NAME=Standard Page Load Test
 	URL=http://nontroppo.org/timer/
 	CREATED=1353078408
 	UNIQUEID=6A9904714288E446976C4D0ED1FF4DC0
 
 #URL
-	ID=551
+	ID=553
 	NAME=Do Not Track
 	URL=http://donottrack.us/
 	CREATED=1354198591
@@ -3915,14 +4011,14 @@ Options: encoding = utf8, version=3
 	UNIQUEID=B5200CDE8926CB4B96C76B5F15BEBD5D
 
 #URL
-	ID=552
+	ID=554
 	NAME=IE Test
 	URL=http://ie.microsoft.com/testdrive/
 	CREATED=1330350679
 	UNIQUEID=30B7E0027987844F9DF53D86150DB42F
 
 #URL
-	ID=553
+	ID=555
 	NAME=UA
 	URL=http://ls.tl/echo/
 	CREATED=1354896196
@@ -3930,21 +4026,21 @@ Options: encoding = utf8, version=3
 	UNIQUEID=DCAE6B031FA90D4792210AB547E8DF42
 
 #URL
-	ID=554
+	ID=556
 	NAME=测试图片载入
 	URL=http://tieba.baidu.com/p/1339241164
 	CREATED=1336620091
 	UNIQUEID=67F039AECEBFF040BE1CDA7D6CD85FF8
 
 #URL
-	ID=555
+	ID=557
 	NAME=IE9 Tracking Protection Lists
 	URL=http://dayngo.com/static/filter.html
 	CREATED=1318755600
 	UNIQUEID=053636CEBACE9B44B78B4486DC6DF8F5
 
 #URL
-	ID=556
+	ID=558
 	NAME=IE9CompatViewList
 	URL=http://ie9cvlist.ie.microsoft.com/IE9CompatViewList.xml
 	CREATED=1314545441
@@ -3953,10 +4049,9 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=557
+	ID=559
 	NAME=回收站
 	CREATED=1302708469
-	ACTIVE=YES
 	TRASH FOLDER=YES
 	DELETABLE=NO
 	UNIQUEID=14C645A5B8A3470FB3B52CC32C97E2B8

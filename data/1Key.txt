@@ -370,7 +370,6 @@
 #ĞÂÀËÍø
 0.0.0.0 adimg.mobile.sina.cn
 0.0.0.0 c.biz.weibo.com
-0.0.0.0 widget.weibo.com
 0.0.0.0 all.vic.sina.com.cn
 0.0.0.0 8.show.sina.com.cn
 0.0.0.0 ad3.sina.com.cn
