@@ -1,5 +1,5 @@
 
-;version=20:57:49.57 2012/12/15 周六
+;version= 9:52:04.83 2012/12/16 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -10473,7 +10473,8 @@ fe80::1%lo0	localhost
 @HostsX 防止网络劫持
 #域名劫持
 127.0.0.1 ss.cnnic.cn
-#运营商劫持
+127.0.0.1 searchportal.winindomain.com
+#电信劫持
 127.0.0.1 114so.cn
 127.0.0.1 taobao.114so.cn
 127.0.0.1 sh.114so.cn
@@ -10495,6 +10496,7 @@ fe80::1%lo0	localhost
 127.0.0.1 img.dianxin.cn
 127.0.0.1 union.dianxin.cn
 127.0.0.1 www.dianxin.cn
+#联通劫持
 127.0.0.1 sddnserror1.wo.com.cn
 127.0.0.1 sddnserror2.wo.com.cn
 127.0.0.1 sddnserror3.wo.com.cn
@@ -10512,6 +10514,8 @@ fe80::1%lo0	localhost
 127.0.0.1 pop.17lele.net
 127.0.0.1 search.yousee.com
 127.0.0.1 sg.yousee.com
+#长城宽带劫持
+127.0.0.1 focus.inhe.net
 #各地运营商广告
 127.0.0.1 lc.havod.com
 127.0.0.1 havod.com
