@@ -130,7 +130,12 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
       <li><a href="#fastforward">超级快进的完善</a></li>
       <li><a href="#skin">皮肤的修改</a></li>
       <li><a href="http://hostsx.googlecode.com/svn/trunk/Opera/changeog.txt">历史更新记录</a></li>
-      <li><a href="ftp://ftp.opera.com/pub/opera/win/">Opera下载</a><a href="#history"></a></li>
+      <li><a href="http://get-tsw-1.opera.com/ftp/pub/opera/win/">Opera下载</a><a href="ftp://ftp.opera.com/pub/opera/win/">官方FTP下载</a></li>
+      <li>无关的儿歌：<br />
+        逛逛蜻，来过河，<br />
+        你一个，我一个，<br />
+        扫帚底下还一个，<br />
+      唉，又逮一个。<a href="#history"></a></li>
     </ul>
     <p><!-- end .sidebar1 --></p>
   </div>
@@ -647,8 +652,24 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
       </tr>
     </table>
     <p>&nbsp;</p>
-    <p><strong>常见问题解答：QA<a id="qa"></a></strong>
-    </p>
+    <p>Override.ini（站点首选项）相关<a id="keyboard2"></a>:</p>
+    <ol>
+      <li>路由器设置不过滤</li>
+      <li>编码修正：天极网，玄幻小说网，易摄网</li>
+      <li><a href="http://bbs.operachina.com/viewtopic.php?f=30&amp;t=104229">图片反盗链</a>：包含众多常用图像和视频服务器的反盗链设置</li>
+      <li>站点信息识别修正：一些政府和高校等网站的UA伪装，以解决部分兼容性问题，<a href="http://bbs.operachina.com/viewtopic.php?f=30&amp;t=104229"></a>提高部分站点插件的兼容性</li>
+      <li>站点过滤白名单设置：常用购物网站等的全站豁免，防止广告误杀。</li>
+      <li>国内常用站点默认不使用代理：此设置在“白鸽子”的列表基础上加入一些视频网站</li>
+      <li>CSS页面：页面的美化和功能的超越，如：<a href="https://addons.opera.com/addons/extensions/details/hide-gmail-ads/">Gmail界面的广告隐藏</a> <a href="http://bbs.operachina.com/viewtopic.php?f=41&amp;t=103429#p648699">绕过U17漫画的强制登录</a> 天涯网，热点书库，新浪财经，淘宝宝贝页面的换行和编码修正 新浪微博的清新界面，pcbeta论坛的广告过滤，鼎盛论坛的页面实用性改善，亚马逊的页面跳动问题的修复等</li>
+    </ol>
+    <p>CSS选择：<br />
+    http://userstyles.org/styles/78308/bbs-new-style-phpwind-discuz-tieba-phpbb</p>
+    <p>JS选择：<br />
+      http://opera.im/dl/bocnet.7z<br />
+      https://bitbucket.org/zbinlin/blockpopupwindow/get/tip.zip</p>
+    <p></p>
+<p><strong>常见问题解答：QA<a id="qa"></a></strong>
+</p>
     </p>
     <ol>
       <li>Opera 官方中文社区上不去怎么解决？<br />
@@ -677,8 +698,13 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
         SimpleU定制版需要配合HostsX的数据使用的，才可以获得更好的广告过滤效果。将部分去广告数据交由系统处理，既加快了Opera的启动速度，也获得了更好的平台兼容性。</li>
       <li>为什么浏览一些网站的时候会遇到Flash基本上都会卡50%的cpu的情况？<br />
         opera 10.1 opera11.5正式版 firefox都无这个问题，opera next有问题。<br />
-        解决方法:opera:config#Performance|SwitchAnimationThrottlingInterval这个选项,不能设置为0,否则出现上面的情况.<br />
-      </li>
+      解决方法:opera:config#Performance|SwitchAnimationThrottlingInterval这个选项，不能设置为0,否则出现上面的情况。</li>
+      <li>为什么我上某一些网站的时候会很卡，而其他的却很快？<br />
+        首先请确定较慢的网站的网址，查看是否具有规律性；<br />
+        然后将此网站用IE打开测试是否很卡，比如一些政府网站；<br />
+        再次确认网络环境，是否是和网络有关的问题，比如一些墙外网站或当前代理速度不理想；<br />
+        或者排查一下是否为系统防护软件或者广告过滤工具的问题，比如XX卫士的XX规则，一些代理调度软件Proxomitron，privoxy等；<br />
+      最后，进行过滤排查测试。如果上述仍不能解决问题，请去论坛反馈。 </li>
       <li> 为什么我在安装Opera插件的时候会提示不完整？<br />
       这是国内网络访问Opera服务器的原因，您可以使用右键--目标另存为来保存插件，然后从本地安装就可以解决此问题。</li>
       <li>我保存了笔记，可是忘记了当时的页面地址，怎么找到？<br />

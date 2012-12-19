@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.23
+set ver=1.0.1.26
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -29,12 +29,11 @@ goto:eof
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
 echo 正在下载数据，请稍候... ...
-del operaprefs_default.ini client-zh-cn.zip readme.html
+del files.sig files_old.sig operaprefs_default.ini client-zh-cn.zip readme.html defaults\bookmarks.adr defaults\license.txt defaults\search.ini defaults\standard_speeddial.ini 
 wget http://hostsx.googlecode.com/svn/trunk/Opera/readme.html
 wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
 wget http://hostsx.googlecode.com/svn/trunk/Opera/bookmarks.adr
 wget http://hostsx.googlecode.com/svn/trunk/Opera/Bookmarklets.adr
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_speeddial.ini
@@ -51,18 +50,34 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
 wget http://userscripts.org/scripts/source/103552.user.js
+wget http://userscripts.org/scripts/source/105741.user.js
 wget http://userscripts.org/scripts/source/123244.user.js
-wget http://userscripts.org/scripts/source/117942.user.js
+wget http://userscripts.org/scripts/source/125473.user.js
+wget http://userscripts.org/scripts/source/151249.user.js
+wget http://userscripts.org/scripts/source/152399.user.js
+wget http://userscripts.org/scripts/source/153190.user.js
+wget http://userscripts.org/scripts/source/154473.user.js
+wget http://userscripts.org/scripts/source/154476.user.js
 wget --no-check-certificate -N "https://dragonfly.opera.com/app/stp-1/zips/latest/client-zh-cn.zip"
 ren 103552.user.js doubanimdb.user.js
+ren 105741.user.js picViewer.js
 ren 123244.user.js doubaniask.user.js
-ren 117942.user.js goglrd.js
+ren 125473.user.js goglrd.js
+ren 154476.user.js http2https.js
+ren 151249.user.js nolazyload.js
+ren 152399.user.js Search_engineJump.js
+ren 153190.user.js CrackUrlDN.js
+ren 154473.user.js Linkify.js
 ren client-zh-cn.zip dragonfly.zip
-move /y goglrd.js profile\script
-move /y getujs.bat profile\script
+move /y CrackUrlDN.js profile\script
+move /y Search_engineJump.js profile\script
 move /y doubaniask.user.js profile\script
 move /y doubanimdb.user.js profile\script
-move /y license.txt locale\en
+move /y getujs.bat profile\userjs
+move /y goglrd.js profile\script
+move /y http2https.js profile\script
+move /y nolazyload.js profile\script
+move /y picViewer.js profile\script
 move /y bookmarks.adr locale\zh-cn
 move /y Bookmarklets.adr locale\zh-cn
 move /y standard_speeddial.ini locale\zh-cn
@@ -106,18 +121,20 @@ reg add "HKCU\Software\Classes\operajr\shell\open\command" /ve /d "\"C:\Windows\
 reg add "HKCU\Software\Classes\MIME\Database\Content Type\text/vnd.wap.wml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
 reg add "HKCU\Software\Classes\MIME\Database\Content Type\application/xhtml+xml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
 reg add "HKCU\Software\Classes\MIME\Database\Content Type\application/vnd.wap.xhtml+xml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
+echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg >nul 2>nul
 for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
 set str=%%i
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com"
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com\YOUKU_FSO_PROXY.sol"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com\qiyi_statistics.sol"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
-rem 屏蔽Flash P2P上传
-echo RTMFPP2PDisable=1 >> %windir%\system32\Macromed\Flash\mms.cfg
-echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg
-echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg
+msg %username% /time:2 "视频播放广告已免疫！"
 goto exit
 
 :tv
