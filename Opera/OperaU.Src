@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.26
+set ver=1.0.1.27
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -75,6 +75,7 @@ move /y doubaniask.user.js profile\script
 move /y doubanimdb.user.js profile\script
 move /y getujs.bat profile\userjs
 move /y goglrd.js profile\script
+move /y Linkify.js profile\script
 move /y http2https.js profile\script
 move /y nolazyload.js profile\script
 move /y picViewer.js profile\script
