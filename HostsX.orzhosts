@@ -1,5 +1,5 @@
 
-;version=19:32:54.74 2012/12/16 周日
+;version=11:16:48.78 2012/12/20 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2103,6 +2103,7 @@ fe80::1%lo0	localhost
 0.0.0.0 ucpn.yesky.com
 0.0.0.0 union.yesky.com
 0.0.0.0 yeskyafp.allyes.com
+0.0.0.0 coc.pagebelt.com
 #硅谷动力
 0.0.0.0 trace.enet.com.cn
 0.0.0.0 enet4.enet.com.cn

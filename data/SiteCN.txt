@@ -406,6 +406,7 @@
 0.0.0.0 ucpn.yesky.com
 0.0.0.0 union.yesky.com
 0.0.0.0 yeskyafp.allyes.com
+0.0.0.0 coc.pagebelt.com
 #¹è¹È¶¯Á¦
 0.0.0.0 trace.enet.com.cn
 0.0.0.0 enet4.enet.com.cn
