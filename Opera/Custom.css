@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.16
+Version: 5.0.1.17
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 19:30 2012/12/16
+Lastchage: 14:37 2012/12/21
 Description: MayBe a better User CSS Help U.
 */
 
@@ -116,7 +116,7 @@ display: none !important;
 	}
 
 /* Banner & Flash & Word AD*/
-div[id*="adflash"],div[id*="ad-flash"],div[id*="_flash_"],div[id="flashbanner"],div[id="player_ad"],div[class="DaKuang"],
+div[id*="adflash"],div[id*="ad-flash"],div[id="flashbanner"],div[id="player_ad"],div[class="DaKuang"],
 div[class="flashNews"],object[id*="flashad"],object[class*="ad_falsh"],embed[id^="ad_flash"],embed[name="flash_focus"]{
 display: none !important;
 	}

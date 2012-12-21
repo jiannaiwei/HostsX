@@ -1350,6 +1350,7 @@ div[class^="ad"][style="z-index: 0"]
 
 
 CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+div[id*="_flash_"], 视频页面播放 http://www.ssports.com/html/video/Video.html
 div[class$="_ad"],http://sports.cntv.cn/20101031/100637.shtml,视频播放被过滤
 div[id$="Ad"], 花旗银行登录页面
 <div class="sign">  http://www.qiushibaike.com/login 登录框
