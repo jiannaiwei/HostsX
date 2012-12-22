@@ -1,8 +1,6 @@
 @echo off
 pushd %~dp0
-if not exist userjs\ md userjs\ >nul
-cd userjs
-del *.user.js
+del *.js
 wget http://userscripts.org/scripts/source/116879.user.js
 ren 116879.user.js DBankLinker.js
 wget http://userscripts.org/scripts/source/126489.user.js
