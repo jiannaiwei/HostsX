@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 18:18 2012/12/10
-// @version 1.0.0.103
+// @lastmodified 22:40 2012/12/22
+// @version 1.0.0.105
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -702,8 +702,8 @@
 			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
 			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
 			autopager:{
-				pageElement:'//div[@id="main"]/h1 | //div[@id="readbox"]/div[@id="content"]',
-				HT_insert:['//div[@id="weekhot"]',1],
+				pageElement:'//div[@id="main"]/h1 | //div[@id="readbox"]/div[@id="content"] | //div[@id="readbox"]/div[@id="papgbutton"]',
+                                HT_insert:['//div[@id="weekhot"]',1],
 			}
 		},
 		{siteName:'人人影视',
