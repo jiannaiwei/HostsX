@@ -408,6 +408,7 @@
 0.0.0.0 t.2456.cn
 0.0.0.0 www.2456.cn
 0.0.0.0 www.66game.cn
+0.0.0.0 www.114wangzhan.com
 #²¡¶¾ÏÂÔØ
 0.0.0.0 dl.soucool123.com
 0.0.0.0 www.tt669.com

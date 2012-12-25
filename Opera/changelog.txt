@@ -1174,11 +1174,12 @@ many change thank severyone
 ----------------------------------------- 删减备份 -----------------------------------------
 
 Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+*/js/qq*.js http://shop.qq.com/search/index.html?PTAG=20094.2.2&q=U%E7%9B%98&st=0 qq商城搜索结果无法正常显示
+*/popup.js To-Read sites这个扩展无法正常使用
 */hao123/* http://*/cpro/* 百度贴吧兼容性问题修复（比如回复的时候跳转到页面顶部的问题）
 */ads*  *&ads/ 风云直播 http://www.fengyunzhibo.com/ 在59%卡住
 *pop_*.j*  12306无法弹出提交火车票的订单的窗口
 http://stat.* youku不能记录播放历史
-*/gg/* *gg/*.*f http://www.52zy.com/down/61709.html  下载地址被过滤掉
 */tg/*  http://s2.lashouimg.com/tg/zhuhai/201205/14/th025.jpg   http://www.lashou.com/travel/deal/7266429.html
 */game_right_side_*.js http://games.ifeng.com/picture/gaoqing/detail_2012_09/29/18003509_0.shtml#p=16 点击图片无反应
 */tg.*         http://tg.3cgogo.com/
@@ -1198,9 +1199,12 @@ http://temp.163.com/special/* 页面显示不完整 http://news.163.com/special/dydzd20
 *tracker.*  http://www.diandian.com/login http://s.libdd.com/js/lib/tracker/inc/trackerbase.js
 http://st3.dbank.com/*                  http://www.dbank.com/ 显示有问题
 http://img0*.taobaocdn.com/imgextra/*   Some Tmall的图片无法正常显示
-
 *ad_pic* *_ad3* *ad_*static*          百度贴吧背景样式内容无法显示
 */i.js           http://mh.99770.cc/manhua/168/108625.htm?v=2*s=9 无法显示内容图片
+
+
+del：
+ */gg/* *gg/*.*f http://www.52zy.com/down/61709.html  下载地址被过滤掉
 */ads/*          yahoo 新闻页面显示
 http://*/adm/*   新浪爱问资料网盘
 */js/ad*.js 可能为admin.js,而非广告 所以直接改为了 */js/ad.js

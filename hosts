@@ -1,5 +1,5 @@
 
-;version=11:16:48.78 2012/12/20 周四
+;version=10:41:26.38 2012/12/25 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -10949,6 +10949,7 @@ fe80::1%lo0	localhost
 127.0.0.1 t.2456.cn
 127.0.0.1 www.2456.cn
 127.0.0.1 www.66game.cn
+127.0.0.1 www.114wangzhan.com
 #病毒下载
 127.0.0.1 dl.soucool123.com
 127.0.0.1 www.tt669.com
@@ -11273,6 +11274,7 @@ fe80::1%lo0	localhost
 127.0.0.1 u.cnzol.com
 127.0.0.1 code.ze5.com
 127.0.0.1 count.ze5.com
+127.0.0.1 media.ze5.com
 127.0.0.1 img.feitian001.com
 127.0.0.1 www.feitian001.com
 127.0.0.1 googleadsense.xuanhaowang.net
@@ -11925,3 +11927,26 @@ fe80::1%lo0	localhost
 127.0.0.1 vdad.uuzu.com
 127.0.0.1 p.t88u.com
 127.0.0.1 code.yy32.com
+127.0.0.1 p.131cc.com
+127.0.0.1 www.58task.com
+127.0.0.1 www.5iads.cn
+127.0.0.1 www.88tom.com
+127.0.0.1 www.adrenwu.com
+127.0.0.1 www.R39.cn
+127.0.0.1 www.alivv.cn
+127.0.0.1 www.dudulm.com
+127.0.0.1 www.d1rw.com
+127.0.0.1 www.dianwo98.com
+127.0.0.1 www.baobaotao8.com
+127.0.0.1 www.alizhizhu.com
+127.0.0.1 www.zk528.com
+127.0.0.1 www.taskunion.com
+127.0.0.1 www.woyao998.com
+127.0.0.1 www.tbgdz.com
+127.0.0.1 www.web7b.cn
+127.0.0.1 www.pfcnc.com
+127.0.0.1 www.iclick.cn
+127.0.0.1 www.ggad88.com
+127.0.0.1 www.googlermb.com
+127.0.0.1 googlermb.com
+127.0.0.1 www.fgads.com
