@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:40 2012/12/22
-// @version 1.0.0.105
+// @lastmodified 10:48 2012/12/25
+// @version 1.0.0.106
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -706,6 +706,15 @@
                                 HT_insert:['//div[@id="weekhot"]',1],
 			}
 		},
+		{siteName:'塔读文学',
+                        url:/http:\/\/www\.tadu\.com\/book\/\d+\/\d+/i,
+                        siteExample:'http://www.tadu.com/book',
+                        nextLink:'//div[@id="bookContent"]/div[@class="chapter_btn ac mb_10"]/a[img[contains(@src,"http://media.tadu.com/web_static/images/v1/categories/next_chapter.gif")]]',
+                        autopager:{
+                            useiframe:true,
+                                pageElement:'//div[@id="bookContent"]/div[@class=" ac"] | //div[@id="bookContent"]/div[@class="book_text ft16"]',
+                        }
+                },
 		{siteName:'人人影视',
 			url:/^http:\/\/www\.yyets\.com\/php\/resourcelist/i,
 			siteExample:'http://www.yyets.com/php/resourcelist',
