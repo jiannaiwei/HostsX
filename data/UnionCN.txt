@@ -699,6 +699,7 @@
 #Heima8
 0.0.0.0 c.heima8.com
 0.0.0.0 dh.heima8.com
+0.0.0.0 img.heima8.com
 0.0.0.0 member.heima8.com
 0.0.0.0 owner.heima8.com
 0.0.0.0 pc.heima8.com
@@ -810,6 +811,7 @@
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
 0.0.0.0 track.linktech.cn
+0.0.0.0 smart.linktech.cn
 0.0.0.0 www.gw8888.com
 #Maxreturn
 0.0.0.0 go.maxreturn.cn

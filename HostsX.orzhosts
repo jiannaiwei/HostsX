@@ -1,5 +1,5 @@
 
-;version=10:41:26.38 2012/12/25 周二
+;version=21:05:35.47 2012/12/25 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -8822,6 +8822,9 @@ fe80::1%lo0	localhost
 0.0.0.0 www.linkworth.com
 0.0.0.0 www.sq2trk2.com
 0.0.0.0 www.srvbytrking.com
+0.0.0.0 ox-d.majorgeeks.com
+0.0.0.0 ox-i.majorgeeks.com
+
 @HostsX 国内广告联盟
 #0252
 0.0.0.0 js.0252.com
@@ -9523,6 +9526,7 @@ fe80::1%lo0	localhost
 #Heima8
 0.0.0.0 c.heima8.com
 0.0.0.0 dh.heima8.com
+0.0.0.0 img.heima8.com
 0.0.0.0 member.heima8.com
 0.0.0.0 owner.heima8.com
 0.0.0.0 pc.heima8.com
@@ -9634,6 +9638,7 @@ fe80::1%lo0	localhost
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
 0.0.0.0 track.linktech.cn
+0.0.0.0 smart.linktech.cn
 0.0.0.0 www.gw8888.com
 #Maxreturn
 0.0.0.0 go.maxreturn.cn

@@ -1174,6 +1174,7 @@ many change thank severyone
 ----------------------------------------- 删减备份 -----------------------------------------
 
 Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+*/statics/js/* http://photo.huanqiu.com/globalview/2012-12/2677638_4.html 不能一下张图片
 */js/qq*.js http://shop.qq.com/search/index.html?PTAG=20094.2.2&q=U%E7%9B%98&st=0 qq商城搜索结果无法正常显示
 */popup.js To-Read sites这个扩展无法正常使用
 */hao123/* http://*/cpro/* 百度贴吧兼容性问题修复（比如回复的时候跳转到页面顶部的问题）

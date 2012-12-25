@@ -5171,3 +5171,6 @@
 0.0.0.0 www.linkworth.com
 0.0.0.0 www.sq2trk2.com
 0.0.0.0 www.srvbytrking.com
+0.0.0.0 ox-d.majorgeeks.com
+0.0.0.0 ox-i.majorgeeks.com
+
