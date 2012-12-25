@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.17
+Version: 5.0.1.18
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 14:37 2012/12/21
+Lastchage: 21:48 2012/12/25
 Description: MayBe a better User CSS Help U.
 */
 
@@ -24,7 +24,7 @@ div[class*="-ad-"],div[class*="-ad ad"],div[class*="_ad_img"],div[class$="-ad"]{
 display: none !important;
 	}
 div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="adFrame"],div[class^="adSpace"],
-div[class^="adList"],div[class^="adlist"],div[class^="adindex"],div[class^="ades"]{
+div[class^="adList"],div[class^="adlist"],div[class^="adindex"],div[class^="ades"],div[class*="-ads "]{
 display: none !important;
 	}
 div[class^="ada"],div[class^="adc"],div[class^="ad-txt"],div[class^="adbox"],div[class="ad-img"],div[class$="_adpic"],
@@ -97,11 +97,15 @@ td[id^="adp_"],td[id^="jjwxc_onebook"],td[class="adslot"],td[class="ad"],td[clas
 tr[class="ad"],tr[class^="ad_"],p[class="ad"],p[id="ad_corner_close"],p[class^="ad_details"]{
 display: none !important;
 	}
-table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],table[class="advtable"],table[class="ad-in-entry"],
-table[summary="Text Ad"],img[id^="ad"],img[class="ad"],img[class$="adimg"],img[class$="_ad"],img[src$="_ad.jpg"],img[alt*="广告"]{
+table[class="adbottom"],table[class^="adNone"],table[id="ShowAD"],table[class="sp_block"],
+table[class="advtable"],table[class="ad-in-entry"],table[summary="Text Ad"]{
 display: none !important;
 	}
-span[class^="gg"],span[class="adlink"],span[class="bdad"],span[class^="ads_"],
+img[id^="ad"],img[class="ad"],img[class$="adimg"],img[class$="_ad"],
+img[src$="_ad.jpg"],img[alt*="广告"],img[alt="click"]{
+display: none !important;
+	}
+span[class^="gg"],span[class="adlink"],span[class="bdad"],span[class^="ads_"],span[class^="blank"],
 span[id*="_ad_"],span[id^="ad_"],span[id^="ptcmsad"],span[class*="AdWrapper"],
 span[id="FullScreenWrap"],span[id="StreamMediaWrap"],span[id="idc"],span[id="zjtop"]{
 display: none !important;
@@ -110,8 +114,8 @@ ul[class="ad"],ul[class^="ad_"],ul[class*="_ad"],ul[class^="gg"],ul[class="AD-tx
 ul[class="adwindow"],ul[class="res-list"],ul[id*="listAD"],ul[id="ad_container"]{
 display: none !important;
 	}
-aside[class="advertisement"],aside[class^="p_sider hgt"],aside[class="adArea"],a[id*="_adbox"],dd[id^="AdTop"],
-embed[id^="_AD"],[name^="ad_page"],LI[id="sp"],li[class="leftad"],li[class="rightad"]{
+aside[class="advertisement"],aside[class^="p_sider hgt"],aside[class="adArea"],a[id*="_adbox"],a[class^="ad-img-"],
+dd[id^="AdTop"],embed[id^="_AD"],[name^="ad_page"],LI[id="sp"],li[class="leftad"],li[class="rightad"]{
 display: none !important;
 	}
 
@@ -164,7 +168,7 @@ iframe[class="ad_iframe"]iframe[id^="ads_"],iframe[id$="_tuiguang"],iframe[id^="
 display: none !important;
 	}
 a[href*="/adfclick?"],a[href*="/guanggao"],a[href*="/interface/cpm.php?"],[href*="clickpromotion.php?"],a[href^="http://adcl.pchome.com.tw/"],
-a[href*="adredir.php?"],a[href*="/showavd.aspx?adid="],a[href*="http://.allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{
+a[href*="adredir.php?"],a[href*="/showavd.aspx?adid="],a[href*="allyes.com/"],a[href*="http://cnrdn.com/"][target="_blank"]{
 display: none !important;
 	}
 div[class^="cl970"],div[class^="cl760"],div[class$=" clDiv"]{display:none !important}
@@ -232,4 +236,4 @@ div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBran
 div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"]{display:none !important}
 div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
 div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
-div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],div[class^="imh-"][id^="imh-"]{display:none !important}
+div[id="nphLayoutGG"],div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],div[class^="imh-"][id^="imh-"]{display:none !important}

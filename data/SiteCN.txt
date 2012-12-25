@@ -534,6 +534,7 @@
 0.0.0.0 g.duopao.com
 #互动百科
 0.0.0.0 stat.hudong.com
+0.0.0.0 ad1.baike.com
 #携程网
 0.0.0.0 allyes.ctrip.com
 #21CN
