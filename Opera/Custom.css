@@ -162,9 +162,9 @@ font[color="#FFFFFF"]fieldset[style*=”:1px dashed“],p[class="Wtz196"],font[c
 font[color*="FAE"],font[style="font-size:10px;color:#b4b4b4"]{
 display: none !important;
 	}
-iframe[src*="/ad/"] {display:none;}
+iframe[src*="/ad/"]{display:none;}
 IMG[src*="/a-d-s/"],iframe[src="adb.php"],iframe[src="adt.php"],iframe[src*="/interface/cpmblank.php?"],
-iframe[class="ad_iframe"]iframe[id^="ads_"],iframe[id$="_tuiguang"],iframe[id^="dale_m"],iframe[name="ads_frame"],iframe[src="http://g.163.com/"]{
+iframe[class="ad_iframe"]iframe[id^="ads_"],iframe[id$="_tuiguang"],iframe[id^="dale_m"],iframe[name="ads_frame"],iframe[src*="http://g.163.com/"]{
 display: none !important;
 	}
 a[href*="/adfclick?"],a[href*="/guanggao"],a[href*="/interface/cpm.php?"],[href*="clickpromotion.php?"],a[href^="http://adcl.pchome.com.tw/"],
