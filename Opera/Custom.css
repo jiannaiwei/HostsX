@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.19
+Version: 5.0.1.21
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 22:10 2012/12/25
+Lastchage: 9:31 2012/12/26
 Description: MayBe a better User CSS Help U.
 */
 
@@ -27,8 +27,12 @@ div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="
 div[class^="adList"],div[class^="adlist"],div[class^="adindex"],div[class^="ades"],div[class*="-ads "]{
 display: none !important;
 	}
-div[class^="ada"],div[class^="adc"],div[class^="ad-txt"],div[class^="adbox"],div[class="ad-img"],div[class$="_adpic"],
-div[class^="adarea"],div[class*="cvAd"],div[class$="Ad"],div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
+div[class^="ad-txt"],div[class^="ad-img"],div[class^="ad-b"],div[class^="ad-2"],
+div[class="ad-widget"],div[class^="ad-text"]{
+display: none !important;
+	}
+div[class^="ada"],div[class^="adc"],div[class^="adbox"],div[class$="_adpic"],div[class^="adarea"],
+div[class*="cvAd"],div[class$="Ad"],div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
 display: none !important;
 	}
 
@@ -76,8 +80,8 @@ div[class="adll"],div[class^="adLeft"],div[id^="LeftAd"],div[id$="eftDiv"],div[i
 div[class="adrr"],div[class^="adRight"],div[id^="RightAd"],div[id$="ightDiv"],div[id^="RightBottom"],div[id="rightdiv"]{
 display: none !important;
 	}
-div[id="leftsp"],div[id^="rightAd"],div[id$="rightad"],div[id^="AdRight"],div[id$="tCoupletId"],div[id^="followDiv"],
-div[id="rightsp"],div[id^="ad_right"],div[class^="RightAD"],div[class^="rightad"],div[class*="_right_side"],div[class*=" video-couplet-"]{
+div[id="leftsp"],div[id^="ad-right"],div[id^="rightAd"],div[id$="rightad"],div[id^="AdRight"],div[id$="tCoupletId"],div[id^="followDiv"],
+div[id="rightsp"],div[id^="ad-left"],div[id^="ad_right"],div[class^="RightAD"],div[class^="rightad"],div[class*="_right_side"],div[class*=" video-couplet-"]{
 display: none !important;
 	}
 div[class^="Indexad"],div[class*="inner_ad"],div[class^="double_ad"],div[class^="footad"],
