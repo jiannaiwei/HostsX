@@ -1,14 +1,19 @@
 @echo off
 setlocal enabledelayedexpansion
+echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg >nul 2>nul
 for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
 set str=%%i
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com"
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com\YOUKU_FSO_PROXY.sol"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com\qiyi_statistics.sol"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
-msg %username% /time:2 "优酷广告已免疫！"
+msg %username% /time:2 "视频播放广告已免疫！"
 rd "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement" /s/q
 c:> "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement"
 rd "%APPDATA%\Tencent\QQ\SafeBase" /s/q
@@ -51,4 +56,4 @@ attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\cid_store.da
 attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\emule_upload_list.dat"
 attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat"
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
-pause
+exit
