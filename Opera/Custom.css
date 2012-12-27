@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.21
+Version: 5.0.1.23
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 9:31 2012/12/26
+Lastchage: 11:00 2012/12/27
 Description: MayBe a better User CSS Help U.
 */
 
@@ -62,7 +62,7 @@ div[class="gg"],div[class="ggs"],div[class^="gg_"],div[class*="gg-"],div[class^=
 div[class="gg01"],div[class^="gg2"],div[class^="gg3"],div[class^="ggAD"],div[class="ggSideBox"]{
 display: none !important;
 	}
-div[class^="ggarea"],[class$="header_gg"],div[id="hdggs"],div[id="top_gg"],div[class*="top-gg-"],
+div[class^="ggarea"],[class$="header_gg"],div[id="hdggs"],div[id="top_gg"],div[class*="top-gg-"],div[class^="ggblock"],
 div[class$="guanggao"],div[id^="guanggao_"],div[id^="gg"][style$="px"],div[class^="aa_"][id^="gg"]{
 display: none !important;
 	}
@@ -178,7 +178,7 @@ display: none !important;
 div[class^="cl970"],div[class^="cl760"],div[class$=" clDiv"]{display:none !important}
 
 /* Adult WebSite AD*/
-div[id$="_adImg"],div[id*="_ads_div"],div[id^="cnzz_"],
+div[id$="_adImg"],div[id*="_ads_div"],div[id^="cnzz_"],div[class*="yahooAd"],
 div[id^="lovexin"],span[id*="myads"],td>div[class="tj"],div[id*="allyesAdv"]{
 display: none !important;
 	}
