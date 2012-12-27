@@ -1,5 +1,5 @@
 
-;version= 9:58:18.62 2012/12/27 周四
+;version=10:04:36.82 2012/12/27 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2458,7 +2458,6 @@ fe80::1%lo0	localhost
 #爆米花
 0.0.0.0 union.pomoho.com
 #乐视网
-0.0.0.0 dc.letv.com
 0.0.0.0 pro.letv.com
 0.0.0.0 stat.letv.com
 0.0.0.0 i.mediapower.mobi

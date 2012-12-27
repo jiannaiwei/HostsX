@@ -142,7 +142,6 @@
 #±¬Ã×»¨
 0.0.0.0 union.pomoho.com
 #ÀÖÊÓÍø
-0.0.0.0 dc.letv.com
 0.0.0.0 pro.letv.com
 0.0.0.0 stat.letv.com
 0.0.0.0 i.mediapower.mobi
