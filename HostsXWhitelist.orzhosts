@@ -74,10 +74,6 @@ $DELETE
 static.766.com
 $DELETE
 
-#导致Mop主页部分图片无法正常显示！
-pub.mop.com
-$DELETE
-
 #导致导致http://ces.zol.com.cn/页面无法正常显示。
 active.zol.com.cn
 $DELETE
@@ -186,11 +182,6 @@ $DELETE
 #!阻止115优蛋自动更新，不建议用户删除。
 pc.115.com
 $DELETE
- 
-#导致Flickr页面无法正常显示。
-l.yimg.com
-s0.2mdn.net
-$DELETE
 
 #导致QQ客户端群搜索页面无法正常显示。
 mini.group.qq.com
@@ -224,10 +215,6 @@ $DELETE
 
 #导致网易 NBA 频道无法正常显示网页。
 temp.163.com
-$DELETE
-
-#导致网易视频无法正常播放。
-g.163.com
 $DELETE
 
 #导致网易应用中心软件无法正常下载。
@@ -265,7 +252,6 @@ $RemoveFromIEBlockedSites
 #导致微软部分产品的下载链接无法跳转和打开。
 view.atdmt.com
 switch.atdmt.com
-clk.abang.com
 $DELETE
 
 #导致 Windows Live Alerts 不能正常工作。

@@ -643,3 +643,4 @@
 127.0.0.1 www.wqmobile.com
 127.0.0.1 www.zhesm.com
 127.0.0.1 ad.leadboltads.net
+127.0.0.1 adfonic.net

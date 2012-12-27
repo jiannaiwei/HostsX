@@ -584,11 +584,9 @@
 0.0.0.0 media.info.client.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 p4pstatic.xunlei.com
-0.0.0.0 plugin.xl7.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
 0.0.0.0 recommend.xunlei.com
 0.0.0.0 record.kuai.xunlei.com
-0.0.0.0 res.stat.xunlei.com
 0.0.0.0 stat.xunlei.com
 0.0.0.0 static.soft.xunlei.com
 0.0.0.0 statis.kankan.xunlei.com
