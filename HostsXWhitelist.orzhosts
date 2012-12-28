@@ -1,4 +1,4 @@
-;version=10:03 2012/12/27
+;version=13:41 2012/12/28
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致电影网用户头像无法正常显示。
@@ -323,7 +323,10 @@ searchstat.kuaibo.com
 $DELETE
 
 #!导致搜狗拼音无法下载词库。此域名包含了搜狗拼音的桌面推送广告和弹出提示，不建议用户删除。请访问 http://9bu.org/36 查看更好的解决方案。
-pinyin.sogou.com
+download.ie.sogou.com
+$DELETE
+
+#!导致搜狗浏览器无法下载扩展。此域名包含了搜狗浏览器的桌面推送广告和弹出提示，不建议用户删除。请访问 http://9bu.org/36 查看更好的解决方案。
 download.ie.sogou.com
 $DELETE
 
