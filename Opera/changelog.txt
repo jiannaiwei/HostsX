@@ -1809,3 +1809,4 @@ http://himg2.huanqiu.com/uploadfile/swf/indexDuilianLeft.swf
 
 
 Item, "域名信息" = External action,,,,"Alexa" | Copy document address,-2 & delay,1 & Go to page, "http://webscan.360.cn/index/checkwebsite?url=%c",,, & Switch to previous page & delay,1 & Go to page, "http://whois.domaintools.com/%c",,, & Switch to previous page & delay,1 & Go to page, "http://alexa.chinaz.com/?domain=%c",,, & Switch to previous page
+Item, "Google此图片"=External action,,,,"google" | Copy image address & Go to page, "http://www.google.com/searchbyimage?image_url=%c&hl=zh-CN&sourceid=opera&client=opera"
