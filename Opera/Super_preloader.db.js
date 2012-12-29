@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 10:48 2012/12/25
-// @version 1.0.0.106
+// @lastmodified 16:35 2012/12/29
+// @version 1.0.0.108
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -736,10 +736,10 @@
 			nextLink: {
 			        startAfter: '&page=',
 			        mFails: [/^https:\/\/addons\.mozilla\.org\/.*\/search\/.*/i, '&page=1'],
-			        inc:1,			
+			        inc: 1,			
 			},
 			autopager:{
-				remain: 1 / 4,
+				remain: 1/4,
 				pageElement: '//div[@class="items"]',
 			}
 		},
