@@ -1,5 +1,5 @@
 
-;version=10:04:36.82 2012/12/27 周四
+;version=19:37:49.77 2012/12/30 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -750,7 +750,6 @@ fe80::1%lo0	localhost
 127.0.0.1 adpublish.ydstatic.com
 127.0.0.1 oimageb2.ydstatic.com
 #腾讯QQ
-127.0.0.1 upload_data.qq.com
 127.0.0.1 ad.qq.com
 127.0.0.1 adping.qq.com
 127.0.0.1 adsclick.qq.com
@@ -767,24 +766,34 @@ fe80::1%lo0	localhost
 127.0.0.1 adsview2.qq.com
 127.0.0.1 adv.app.qq.com
 127.0.0.1 adver.pengyou.com
-127.0.0.1 caclick.qq.com
+127.0.0.1 analy.qq.com
 127.0.0.1 c.l.qq.com
 127.0.0.1 c2.l.qq.com
+127.0.0.1 caclick.qq.com
+127.0.0.1 dp3.qq.com
 127.0.0.1 f.qstatic.com
 127.0.0.1 fodder.qq.com
 127.0.0.1 fodder.tc.qq.com
 127.0.0.1 fw.qq.com
 127.0.0.1 hm.l.qq.com
 127.0.0.1 httpring.qq.com
+127.0.0.1 i.gdt.qq.com
 127.0.0.1 imc.l.qq.com
+127.0.0.1 j.wit.qq.com
 127.0.0.1 jingjia.qq.com
 127.0.0.1 l.qq.com
 127.0.0.1 l2.l.qq.com
+127.0.0.1 lb.l.qq.com
+127.0.0.1 ls.l.qq.com
+127.0.0.1 m.l.qq.com
 127.0.0.1 oimsgad.qq.com
 127.0.0.1 p.l.qq.com
 127.0.0.1 p2.l.qq.com
+127.0.0.1 p3.l.qq.com
 127.0.0.1 pagespeed.report.qq.com
 127.0.0.1 pingfore.qq.com
+127.0.0.1 pingtas.qq.com
+127.0.0.1 pingtcss.qq.com
 127.0.0.1 qqlogo.qq.com
 127.0.0.1 qring-tms.qq.com
 127.0.0.1 qss-client.qq.com
@@ -794,20 +803,13 @@ fe80::1%lo0	localhost
 127.0.0.1 rs2.qq.com
 127.0.0.1 scdown.qq.com
 127.0.0.1 show-msgch.qq.com
-127.0.0.1 tcss.qq.com
-127.0.0.1 trace.qq.com
-127.0.0.1 w.l.qq.com
 127.0.0.1 ta.qq.com
 127.0.0.1 tajs.qq.com
-127.0.0.1 pingtas.qq.com
-127.0.0.1 pingtcss.qq.com
-127.0.0.1 j.wit.qq.com
-127.0.0.1 m.l.qq.com
+127.0.0.1 tcss.qq.com
+127.0.0.1 trace.qq.com
 127.0.0.1 union.discuz.qq.com
-127.0.0.1 lb.l.qq.com
-127.0.0.1 p3.l.qq.com
-127.0.0.1 dp3.qq.com
-127.0.0.1 ls.l.qq.com
+127.0.0.1 upload_data.qq.com
+127.0.0.1 w.l.qq.com
 #搜搜
 127.0.0.1 dr.soso.com
 127.0.0.1 jzclick.soso.com
