@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 16:35 2012/12/29
-// @version 1.0.0.108
+// @lastmodified 20:14 2012/12/30
+// @version 1.0.0.109
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -412,6 +412,14 @@
 			url:/^http:\/\/baishuku\.com\/html\/.+\.html/i,
 			siteExample:'http://baishuku.com/html/40/40514/8778339.html',
 			nextLink:'//div[@id="footlink"]/a[text()="下一页(快捷键:→)"]',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'读看看小说网/丫丫书屋',
+			url:/^http:\/\/www\.(dukankan|yytxt)\.com\/html\/.+\.html/i,
+			siteExample:'http://www.yytxt.com/html/0/562/227694.html',
+			nextLink:'//div[@id="readerFooterPage"]/a[text()="下一页"]',
 			autopager:{
 				pageElement:'//div[@id="content"]'
 			}
