@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.29
+set ver=1.0.1.30
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 pushd %~dp0
@@ -139,7 +139,7 @@ msg %username% /time:2 "视频播放广告已免疫！"
 goto exit
 
 :tv
-start opera.exe "file://localhost/%~dp0/optools/tv.html" & exit
+start opera.exe "file://localhost/%~dp0/optools/HtmlTool/TV.html" & start opera.exe "file://localhost/%~dp0/optools/HtmlTool/FYTV.html" exit
 
 :help
 rem start locale\en\license.txt &
