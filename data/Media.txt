@@ -143,6 +143,7 @@
 0.0.0.0 union.pomoho.com
 #¿÷ ”Õ¯
 0.0.0.0 pro.letv.com
+0.0.0.0 pro.hoye.letv.com
 0.0.0.0 stat.letv.com
 0.0.0.0 i.mediapower.mobi
 0.0.0.0 letv.allyes.com

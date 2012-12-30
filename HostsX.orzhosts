@@ -1,5 +1,5 @@
 
-;version=19:37:49.77 2012/12/30 周日
+;version= 0:22:55.98 2012/12/31 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2461,6 +2461,7 @@ fe80::1%lo0	localhost
 0.0.0.0 union.pomoho.com
 #乐视网
 0.0.0.0 pro.letv.com
+0.0.0.0 pro.hoye.letv.com
 0.0.0.0 stat.letv.com
 0.0.0.0 i.mediapower.mobi
 0.0.0.0 letv.allyes.com
@@ -9652,6 +9653,7 @@ fe80::1%lo0	localhost
 0.0.0.0 pui.mediav.com
 0.0.0.0 secure.mediav.com
 0.0.0.0 show.mediav.com
+0.0.0.0 show.g.mediav.com
 0.0.0.0 sina.mediav.com
 0.0.0.0 static.mediav.com
 0.0.0.0 www.mediav.com
