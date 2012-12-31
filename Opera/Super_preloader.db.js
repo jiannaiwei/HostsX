@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 20:14 2012/12/30
-// @version 1.0.0.109
+// @lastmodified 22:58 2012/12/31
+// @version 1.0.0.110
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -721,6 +721,15 @@
                         autopager:{
                             useiframe:true,
                                 pageElement:'//div[@id="bookContent"]/div[@class=" ac"] | //div[@id="bookContent"]/div[@class="book_text ft16"]',
+                        }
+                },
+                {siteName:'泡书吧',
+                        url:/http:\/\/www\.paoshu8\.com\/Html\/Book\/\d+\/\d+\/\d+\.shtm/i,
+                        siteExample:'http://www.paoshu8.com/Html/Book/14/14024/4547362.shtm',
+                        nextLink:'auto;',
+                        autopager:{
+                            useiframe:true,
+                                pageElement:'//div[@id="Content"]/div[@id="TextTitle"]/h1 | //div[@id="Adsgg1"]/div[@id="BookText"]',
                         }
                 },
 		{siteName:'人人影视',
