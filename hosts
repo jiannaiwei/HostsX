@@ -1,5 +1,5 @@
 
-;version= 0:22:55.98 2012/12/31 周一
+;version=10:33:52.11 2012/12/31 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11963,3 +11963,5 @@ fe80::1%lo0	localhost
 127.0.0.1 www.googlermb.com
 127.0.0.1 googlermb.com
 127.0.0.1 www.fgads.com
+127.0.0.1 p.37cu.com
+
