@@ -1,5 +1,5 @@
 
-;version=10:33:52.11 2012/12/31 周一
+;version=22:51:30.67 2012/12/31 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2518,21 +2518,21 @@ fe80::1%lo0	localhost
 127.0.0.1 practivate.adobe.com
 127.0.0.1 lmlicenses.wip4.adobe.com
 127.0.0.1 lm.licenses.adobe.com
-127.0.0.1	3dns-2.adobe.com
-127.0.0.1	3dns-3.adobe.com
-127.0.0.1	activate-sea.adobe.com
-127.0.0.1	activate-sjc0.adobe.com
-127.0.0.1	activate.adobe.com
-127.0.0.1	activate.wip3.adobe.com
-127.0.0.1	adobe-dns-2.adobe.com
-127.0.0.1	adobe-dns-3.adobe.com
-127.0.0.1	adobe-dns.adobe.com
-127.0.0.1	ereg.adobe.com
-127.0.0.1	ereg.wip3.adobe.com
-127.0.0.1	hl2rcv.adobe.com
-127.0.0.1	practivate.adobe.com
-127.0.0.1	wip3.adobe.com
-127.0.0.1	wwis-dubc1-vip60.adobe.com
+127.0.0.1 3dns-2.adobe.com
+127.0.0.1 3dns-3.adobe.com
+127.0.0.1 activate-sea.adobe.com
+127.0.0.1 activate-sjc0.adobe.com
+127.0.0.1 activate.adobe.com
+127.0.0.1 activate.wip3.adobe.com
+127.0.0.1 adobe-dns-2.adobe.com
+127.0.0.1 adobe-dns-3.adobe.com
+127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+127.0.0.1 practivate.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
 127.0.0.1 3dns-2.adobe.com
 127.0.0.1 3dns-3.adobe.com
 127.0.0.1 activate-sea.adobe.com
@@ -2819,6 +2819,7 @@ fe80::1%lo0	localhost
 0.0.0.0 uuseeafp.allyes.com
 #Bitcomet
 0.0.0.0 inside.bitcomet.com
+#FlashGet
 0.0.0.0 ack.flashget.com
 0.0.0.0 dll.flashget.com
 0.0.0.0 down1.flashget.com
@@ -2922,7 +2923,6 @@ fe80::1%lo0	localhost
 0.0.0.0 stat-w.maxthon.com
 0.0.0.0 stat.maxthon.com
 0.0.0.0 statcn-c.maxthon.com
-0.0.0.0 smarturlcn-up.maxthon.com
 0.0.0.0 kernel-c.maxthon.com
 #Micronichefinder
 0.0.0.0 www.micronichefinder.com
@@ -3295,7 +3295,6 @@ fe80::1%lo0	localhost
 127.0.0.1 img.ads3.mocean.mobi
 127.0.0.1 img.ads4.mocean.mobi
 #Mobclix
-127.0.0.1 alive.pen.io
 127.0.0.1 au.umeng.co
 127.0.0.1 au.umeng.com
 127.0.0.1 alog.umeng.co

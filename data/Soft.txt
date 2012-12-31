@@ -176,6 +176,7 @@
 0.0.0.0 uuseeafp.allyes.com
 #Bitcomet
 0.0.0.0 inside.bitcomet.com
+#FlashGet
 0.0.0.0 ack.flashget.com
 0.0.0.0 dll.flashget.com
 0.0.0.0 down1.flashget.com
@@ -279,7 +280,6 @@
 0.0.0.0 stat-w.maxthon.com
 0.0.0.0 stat.maxthon.com
 0.0.0.0 statcn-c.maxthon.com
-0.0.0.0 smarturlcn-up.maxthon.com
 0.0.0.0 kernel-c.maxthon.com
 #Micronichefinder
 0.0.0.0 www.micronichefinder.com

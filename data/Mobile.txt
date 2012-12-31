@@ -288,7 +288,6 @@
 127.0.0.1 img.ads3.mocean.mobi
 127.0.0.1 img.ads4.mocean.mobi
 #Mobclix
-127.0.0.1 alive.pen.io
 127.0.0.1 au.umeng.co
 127.0.0.1 au.umeng.com
 127.0.0.1 alog.umeng.co
