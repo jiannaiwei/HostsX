@@ -139,7 +139,8 @@ msg %username% /time:2 "视频播放广告已免疫！"
 goto exit
 
 :tv
-start opera.exe "file://localhost/%~dp0/optools/HtmlTool/TV.html" & start opera.exe "file://localhost/%~dp0/optools/HtmlTool/FYTV.html" exit
+rem start opera.exe "file://localhost/%~dp0/optools/HtmlTool/FYTV.html" 
+start opera.exe "file://localhost/%~dp0/optools/HtmlTool/TV.html" & exit
 
 :help
 rem start locale\en\license.txt &
