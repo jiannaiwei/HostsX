@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:58 2012/12/31
-// @version 1.0.0.110
+// @lastmodified 17:26 2013/1/1
+// @version 1.0.0.111
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -303,11 +303,19 @@
 			}
 		},
 		{siteName:'17k',
-			url:/^http:\/\/www\.17k\.com\/chapter\/.+\.html/i,
+			url:/^http:\/\/(mm.17k|www.17k)\.com\/chapter\/.+\.html/i,
 			siteExample:'http://www.17k.com/chapter/143095/3714822.html',
 			nextLink:'//div[@class="read_bottom"]/descendant::a[text()="下一章"]',
 			autopager:{
 				pageElement:'//div[@class="readAreaBox"]'
+			}
+		},
+		{siteName:'连城阅读',
+			url:/^http:\/\/www\.lcread\.com\/bookPage\/.+\.html/i,
+			siteExample:'http://www.lcread.com/bookPage/238129/4801855rc.html',
+			nextLink:'//a[text()="javascript:document.location=npage"][@href]',
+			autopager:{
+				pageElement:'//div[@class="bcc"]'
 			}
 		},
 		{siteName:'纵横书库',
@@ -938,15 +946,6 @@
 			nextLink:'//a[contains(text(),"下一页")][@href]',
 			autopager:{
 				pageElement:'//div[@class="huitie"]',
-			}
-		},
-		{siteName:'水木社区',
-			url:/http:\/\/www\.newsmth\.net\/nforum/i,
-			nextLink:'//a[text()=">>"][@href]',
-			autopager:{
-				useiframe:true,
-				pageElement:'//div[@id="body"]',
-				
 			}
 		},
 		{siteName:'色影无忌帖子',
