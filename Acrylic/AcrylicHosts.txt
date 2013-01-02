@@ -45,11 +45,11 @@
 0.0.0.0	clkstat.*
 0.0.0.0 *.allyes.*
 0.0.0.0 *.analytics.*
-0.0.0.0 *click.* click.simba.taobao.com
+0.0.0.0 *click.* -click.simba.taobao.com
 0.0.0.0 *inst.*
 0.0.0.0 acs.*
 0.0.0.0 active.*
-0.0.0.0 ad.* admin.zol.com
+0.0.0.0 ad.*
 0.0.0.0 ad?.*
 0.0.0.0 adclick.*
 0.0.0.0 adimg?.*
@@ -72,8 +72,8 @@
 0.0.0.0 cpro.*
 0.0.0.0 cpm.*
 0.0.0.0 cpv.*
-0.0.0.0 g.* g.top100.cn
-0.0.0.0 gg.* gg.a.5d6d.com
+0.0.0.0 g.* -g.top100.cn -g.downg.com
+0.0.0.0 gg.* -gg.a.5d6d.com
 0.0.0.0 gimg.*
 0.0.0.0 goto.*
 0.0.0.0 gstat.*
@@ -100,7 +100,7 @@
 0.0.0.0 stat.*
 0.0.0.0 stats.*
 0.0.0.0 tongji.*
-0.0.0.0 toolbar.* toolbar.google.com
+0.0.0.0 toolbar.* -toolbar.google.com
 0.0.0.0 track.*
 0.0.0.0 uniclick.*
 0.0.0.0 union.*
@@ -287,7 +287,6 @@ fe80::1%lo0	localhost
 208.80.152.201 *.mediawiki.org
 208.80.152.201 *.wikisource.org
 208.80.152.211 upload.wikimedia.org
-
 @HostsX OneKey
 #常用站点过滤
 0.0.0.0 168.it168.com

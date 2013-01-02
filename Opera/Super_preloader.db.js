@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 14:20 2013/1/2
-// @version 1.0.0.112
+// @lastmodified 22:50 2013/1/2
+// @version 1.0.0.113
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -756,16 +756,12 @@
 			}
 		},
 		{siteName:'addons.mozilla.org',
-			url: /^https:\/\/addons\.mozilla\.org\/.*\/search\//i,
-			siteExample: 'https://addons.mozilla.org/zh-CN/firefox/search/?q=flash&appver=11.0&platform=windows',
-			nextLink: {
-			        startAfter: '&page=',
-			        mFails: [/^https:\/\/addons\.mozilla\.org\/.*\/search\/.*/i, '&page=1'],
-			        inc: 1,			
-			},
-			autopager:{
+			url:/^https?:\/\/addons\.mozilla\.org\/[^\/]+\/firefox/i,
+			siteExample: 'https://addons.mozilla.org/zh-CN/firefox/',
+			nextLink:'//nav[@class="paginator c pjax-trigger"]/p[@class="rel"]/a[@class="button next"][@href] | //ol[@class="pagination"]/li/a[@rel="next"][@href]',
+                        autopager:{
 				remain: 1/4,
-				pageElement: '//div[@class="items"]',
+				pageElement:'//div[@class="items"] | //ul[@class="personas-grid"]',
 			}
 		},
 		{siteName:'mozest社区',
