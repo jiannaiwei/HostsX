@@ -9,6 +9,7 @@
 127.0.0.1 schemas.android.com
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
+127.0.0.1 www.gstatic.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -240,6 +241,7 @@
 127.0.0.1 my.mobfox.com
 127.0.0.1 www.mobfox.com
 #Madserving
+127.0.0.1 update.adsmogo.net
 127.0.0.1 blk.adsmogo.com
 127.0.0.1 blk.adsmogo.mobi
 127.0.0.1 blk.adsmogo.net
@@ -294,7 +296,7 @@
 127.0.0.1 alog.umeng.com
 127.0.0.1 oc.umeng.co
 127.0.0.1 oc.umeng.com
-127.0.0.1 www.umeng.co
+127.0.0.1 www.umeng.co
 127.0.0.1 www.umeng.com
 127.0.0.1 ex.umengcloud.com
 127.0.0.1 a.mobclix.com
@@ -502,6 +504,7 @@
 127.0.0.1 down.winads.cn
 #Wiyun
 127.0.0.1 d.wiyun.com
+127.0.0.1 r.wiyun.com
 127.0.0.1 wiyun.com
 127.0.0.1 www.wiyun.com
 127.0.0.1 scpworld.com.cn
@@ -547,15 +550,17 @@
 127.0.0.1 ad.3g.cn
 127.0.0.1 ad.belugaboost.com
 127.0.0.1 ad.camera360.us
-127.0.0.1 ads.feelingtouch.com
 127.0.0.1 ad.jiemai-tech.com
+127.0.0.1 ad.leadboltads.net
 127.0.0.1 ad.moji001.com
 127.0.0.1 ad.where.com
 127.0.0.1 ad.zhekouku.cn
 127.0.0.1 ad.zhidian3g.cn
 127.0.0.1 adc.medibaad.com
+127.0.0.1 adfonic.net
 127.0.0.1 adimg3.search.naver.net
 127.0.0.1 ads.admarvel.com
+127.0.0.1 ads.feelingtouch.com
 127.0.0.1 ads.mopub.com
 127.0.0.1 ads.n-ws.org
 127.0.0.1 ads.namiflow.com
@@ -563,9 +568,11 @@
 127.0.0.1 ads.xlxtra.com
 127.0.0.1 ads2.greystripe.com
 127.0.0.1 adserver.ubiyoo.com
+127.0.0.1 adsx.greystripe.com
 127.0.0.1 adultmoda.com
 127.0.0.1 api.suizong.com
 127.0.0.1 api.yp.com
+127.0.0.1 api.zhaimob.com
 127.0.0.1 apps.outfit7.com
 127.0.0.1 appsrv1.mdn2.net
 127.0.0.1 as.adfonic.net
@@ -579,8 +586,8 @@
 127.0.0.1 cdn.ons.ms
 127.0.0.1 cdn.puata.info
 127.0.0.1 cdn.vdopia.com
-127.0.0.1 client.azrj.cn
 127.0.0.1 chinaron.8866.org
+127.0.0.1 client.azrj.cn
 127.0.0.1 com2ushub.com2us.net
 127.0.0.1 content.mobango.com
 127.0.0.1 coolcode.org
@@ -595,6 +602,7 @@
 127.0.0.1 em.kongzhong.com
 127.0.0.1 ex.mobmore.com
 127.0.0.1 ex.puata.info
+127.0.0.1 gyswad.com
 127.0.0.1 hi.fywap.com
 127.0.0.1 hot.icittys.com
 127.0.0.1 i.tapit.com
@@ -616,7 +624,10 @@
 127.0.0.1 mpro.e.shifen.com
 127.0.0.1 myapk.cn
 127.0.0.1 noticemob.com
+127.0.0.1 oa.hierstar.net
+127.0.0.1 oatest.gotoip55.com
 127.0.0.1 ostermiller.org
+127.0.0.1 p1.189works.com
 127.0.0.1 pixel-hk.pixelinteractivemedia.com
 127.0.0.1 promev3-web.hyxencloud.com
 127.0.0.1 proxy.youdraw.cn
@@ -635,11 +646,14 @@
 127.0.0.1 www.adtouchnetwork.com
 127.0.0.1 www.anadmob.net
 127.0.0.1 www.guohead.com
+127.0.0.1 www.innohk.org
 127.0.0.1 www.moceanmobile.com
+127.0.0.1 www.pick-tech.com
+127.0.0.1 www.pocketmj.com
+127.0.0.1 www.sigatchan.com
 127.0.0.1 www.speedtong.net
 127.0.0.1 www.spjoy.com
 127.0.0.1 www.stickylogic.com
 127.0.0.1 www.wqmobile.com
+127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
-127.0.0.1 ad.leadboltads.net
-127.0.0.1 adfonic.net
