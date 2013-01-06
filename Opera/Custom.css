@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.27
+Version: 5.0.1.29
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 9:51 2013/1/1
+Lastchage: 12:45 2013/1/6
 Description: MayBe a better User CSS Help U.
 */
 
@@ -224,7 +224,7 @@ div[class^="area960 "],div[style^="width:960px;height:60px;margin:0px "],div[sty
 
 /* 浮动过滤 提示隐藏 */
 div[id^="adfloat"],div[id^="floatAD_"],div[id^="Float"]>div,div[id^="floatdiv"],div[id$="_Float_Div"],div[id="float1"],div[id="float2"],
-div[id="piaofu"],div[class^="adFloat"],div[class^="float-ad-"],embed[name^="couplet"]{
+div[id="piaofu"],div[class^="adFloat"],div[class^="float-ad-"],embed[name^="couplet"],div[id="QQ_Full"]{
 display: none !important;
 	}
 div[id$="FollowPopUp"],div[id="ty_msg_mod"],div[id$="closeBig"],div[class="blogpop"],#bbs_jxtj,#bshareF,#fixedLayertop,.QQbox,
