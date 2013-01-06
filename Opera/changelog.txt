@@ -1,3 +1,11 @@
+Version History
+> major changes 
++
+ added 
+^ updated 
+~ improved 
+! bug fixed/removed 
+
 ----------------------------------------- 更新历史 -----------------------------------------
 2012-12-30
 论坛一些反馈问题的修复，

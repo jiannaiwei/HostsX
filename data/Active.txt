@@ -134,6 +134,8 @@
 127.0.0.1 www.tonec.com
 #Martau
 127.0.0.1 www.martau.com
+#MacDrive
+127.0.0.1 act2.mediafour.com
 #SmartRecorder
 127.0.0.1 www.voiceemotion.com
 #SRS Audio Sandbox
