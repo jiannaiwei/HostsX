@@ -735,6 +735,9 @@
 0.0.0.0 images.keduo.cc
 0.0.0.0 qy.keduo.cc
 0.0.0.0 www.keduo.cc
+#Keytui
+0.0.0.0 c1.keytui.com
+0.0.0.0 www.keytui.com
 #Kuwan8
 0.0.0.0 up.kuwan8.com
 0.0.0.0 up1.kuwan8.com

@@ -856,9 +856,11 @@
 0.0.0.0 adsame.liba.com
 0.0.0.0 a.66x.in
 0.0.0.0 vdad.uuzu.com
+0.0.0.0 vdax.uuzu.com
 0.0.0.0 p.t88u.com
 0.0.0.0 code.yy32.com
 0.0.0.0 p.131cc.com
+0.0.0.0 p.hbyajia.com
 0.0.0.0 www.58task.com
 0.0.0.0 www.5iads.cn
 0.0.0.0 www.88tom.com
