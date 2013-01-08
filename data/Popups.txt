@@ -884,4 +884,6 @@
 0.0.0.0 googlermb.com
 0.0.0.0 www.fgads.com
 0.0.0.0 p.37cu.com
+0.0.0.0 doubleclick.tv002.com
+0.0.0.0 clientclick.tv002.com
 

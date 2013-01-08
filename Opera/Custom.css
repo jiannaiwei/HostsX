@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.29
+Version: 5.0.1.30
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 12:45 2013/1/6
+Lastchage: 20:19 2013/1/7
 Description: MayBe a better User CSS Help U.
 */
 
@@ -20,7 +20,7 @@ div[class^="ads"],div[class^="adS"],div[class^="adv"],div[class^="adx"],div[clas
 display: none !important;
 	}
 div[class="ad"],div[class^="ad_"],div[class$="_ads"],div[class$="_ad"][id$="_ad"],
-div[class*="-ad-"],div[class*="-ad ad"],div[class*="_ad_img"],div[class$="-ad"]{
+div[class*="-ad-"],div[class^="ad ad-"],div[class*="-ad ad"],div[class*="_ad_img"],div[class$="-ad"]{
 display: none !important;
 	}
 div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="adFrame"],div[class^="adSpace"],
@@ -72,7 +72,7 @@ div[class*="topad"],div[class^="topAD"],div[class^="topAd"],div[class$="topa_d"]
 div[id*="TopAD"],div[id^="TopAd"],div[id^="topAD"],div[id^="topad"],div[id*="top_ad"],div[id*="-top-ad"]{
 display: none !important;
 	}
-div[class^="nav-ad"],div[class^="ndadv"],div[class*="-top-ads"],div[class*="AdTop-"],div[id^="couplet"],div[id="CoupletDiv"],
+div[class^="nav-ad"],div[class^="ndadv"],div[class*="-top-ads"],div[class^="adtop"],div[class*="AdTop-"],div[id^="couplet"],div[id="CoupletDiv"],
 div[class^="navad"],div[id^="navad"],div[id="topmad"],div[id="toplink"],div[id="adTop"],div[id$="head_ad"]{
 display: none !important;
 	}

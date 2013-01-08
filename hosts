@@ -1,5 +1,5 @@
 
-;version=23:07:22.04 2013/01/06 周日
+;version=18:46:53.16 2013/01/08 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11985,4 +11985,6 @@ fe80::1%lo0	localhost
 127.0.0.1 googlermb.com
 127.0.0.1 www.fgads.com
 127.0.0.1 p.37cu.com
+127.0.0.1 doubleclick.tv002.com
+127.0.0.1 clientclick.tv002.com
 
