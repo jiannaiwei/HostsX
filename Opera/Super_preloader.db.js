@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:50 2013/1/2
-// @version 1.0.0.113
+// @lastmodified 15:18 2013/1/9
+// @version 1.0.0.115
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -705,6 +705,15 @@
 				pageElement:'//div[@id="txt"]'
 			}
 		},
+		{siteName:'yi-see',
+			url:/^http:\/\/www\.yi-see\.com/i,
+			siteExample:'http://www.yi-see.com/read_266768_15501.html',
+			nextLink:'//div[@class="B2"]/descendant::a[text()="下一节"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//table[@width="90%"][@align="CENTER"]',
+			}
+		},
 		{siteName:'天下书盟',
 			url:/^http:\/\/www\.fbook\.net\/book\/.*\.htm/i,
 			siteExample:'http://www.fbook.net/book/35793/2656834.htm',
@@ -723,23 +732,23 @@
 			}
 		},
 		{siteName:'塔读文学',
-                        url:/http:\/\/www\.tadu\.com\/book\/\d+\/\d+/i,
-                        siteExample:'http://www.tadu.com/book',
-                        nextLink:'//div[@id="bookContent"]/div[@class="chapter_btn ac mb_10"]/a[img[contains(@src,"http://media.tadu.com/web_static/images/v1/categories/next_chapter.gif")]]',
-                        autopager:{
-                            useiframe:true,
-                                pageElement:'//div[@id="bookContent"]/div[@class=" ac"] | //div[@id="bookContent"]/div[@class="book_text ft16"]',
-                        }
-                },
-                {siteName:'泡书吧',
-                        url:/http:\/\/www\.paoshu8\.com\/Html\/Book\/\d+\/\d+\/\d+\.shtm/i,
-                        siteExample:'http://www.paoshu8.com/Html/Book/14/14024/4547362.shtm',
-                        nextLink:'auto;',
-                        autopager:{
-                            useiframe:true,
-                                pageElement:'//div[@id="Content"]/div[@id="TextTitle"]/h1 | //div[@id="Adsgg1"]/div[@id="BookText"]',
-                        }
-                },
+			url:/^http:\/\/www\.tadu\.com\/book\/\d+\/\d+/i,
+			siteExample:'http://www.tadu.com/book',
+			nextLink:'//div[@id="bookContent"]/div[@class="chapter_btn ac mb_10"]/a[img[contains(@src,"http://media.tadu.com/web_static/images/v1/categories/next_chapter.gif")]]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="bookContent"]/div[@class=" ac"] | //div[@id="bookContent"]/div[@class="book_text ft16"]',
+			}
+		},
+		{siteName:'泡书吧',
+			url:/^http:\/\/www\.paoshu8\.com\/Html\/Book\/\d+\/\d+\/\d+\.shtm/i,
+			siteExample:'http://www.paoshu8.com/Html/Book/14/14024/4547362.shtm',
+			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="翻下页"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="Content"]/div[@id="TextTitle"]/h1 | //div[@id="Adsgg1"]/div[@id="BookText"]',
+			}
+		},
 		{siteName:'人人影视',
 			url:/^http:\/\/www\.yyets\.com\/php\/resourcelist/i,
 			siteExample:'http://www.yyets.com/php/resourcelist',
