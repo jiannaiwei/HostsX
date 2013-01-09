@@ -343,6 +343,7 @@
 0.0.0.0 p4psearch.china.alibaba.com
 0.0.0.0 survey.china.alibaba.com
 0.0.0.0 www.tao123.com
+0.0.0.0 ad.taojifen.net
 0.0.0.0 click.mz.simba.taobao.com
 0.0.0.0 click.tz.simba.taobao.com
 0.0.0.0 count.taobao.com

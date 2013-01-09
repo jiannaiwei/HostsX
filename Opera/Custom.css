@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.30
+Version: 5.0.1.31
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 20:19 2013/1/7
+Lastchage: 8:48 2013/1/9
 Description: MayBe a better User CSS Help U.
 */
 
@@ -45,7 +45,7 @@ div[id^="ads_"],div[id^="ads-"],div[id*="-ads-"],div[id$="_ads"]{
 display: none !important;
 	}
 div[id="ad"],div[id^="ad_"],div[id$="-ad"],div[id$="-ads"],div[id^="ad-"][class="ad"],
-div[id*="-ad-"],div[id*="0_AD_"],div[id^="Ads_"],div[id^="afp_"]{
+div[id^="AD"],div[id*="-ad-"],div[id*="0_AD_"],div[id^="Ads_"],div[id^="afp_"]{
 display: none !important;
 	}
 div[id^="adList"],div[id^="adlist"],div[id^="adSp"],div[id^="adcontent"],div[id^="adhere"],
@@ -125,7 +125,7 @@ display: none !important;
 
 /* Banner & Flash & Word AD*/
 div[id*="adflash"],div[id*="ad-flash"],div[id="flashbanner"],div[id="player_ad"],div[class="DaKuang"],
-div[class="flashNews"],object[id*="flashad"],object[class*="ad_falsh"],embed[id^="ad_flash"],embed[name="flash_focus"]{
+div[class="flashNews"],object[id^="_AD"],object[id*="flashad"],object[class*="ad_falsh"],embed[id^="ad_flash"],embed[name="flash_focus"]{
 display: none !important;
 	}
 div[class*="ad-banner"],div[class*="topBanner"],div[class="banner"]>dl,div[class^="bigbanner"][id^="bigbanner"],
@@ -182,7 +182,7 @@ div[id$="_adImg"],div[id*="_ads_div"],div[id^="cnzz_"],div[class*="yahooAd"],
 div[id^="lovexin"],span[id*="myads"],td>div[class="tj"],div[id*="allyesAdv"]{
 display: none !important;
 	}
-div[id*="tuiguang"],div[class$="Tuijian"],div[class="tuijian"]{display:none !important}
+div[id*="tuiguang"],div[class$="Tuijian"],div[class^="hot_tj"],div[class="tuijian"]{display:none !important}
 
 /* Google */
 div[id="prm"],div[class="c"][id="tads"],[class="c"][id="tadsb"],div[id="rhs_block"],ol[onmouseover="return true"],
