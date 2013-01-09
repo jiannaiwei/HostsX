@@ -1,5 +1,5 @@
 
-;version= 9:42:09.39 2013/01/09 周三
+;version= 0:06:43.95 2013/01/10 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11990,4 +11990,4 @@ fe80::1%lo0	localhost
 127.0.0.1 p.37cu.com
 127.0.0.1 doubleclick.tv002.com
 127.0.0.1 clientclick.tv002.com
-
+127.0.0.1 c.i3z.cn
