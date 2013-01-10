@@ -1,5 +1,9 @@
-;version=13:41 2012/12/28
+;version=15:53 2013/1/10
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致Skype(Tom)用户无法充值的问题。
+client.skype.tom.com
+$DELETE
 
 #导致电影网用户头像无法正常显示。
 nuc.m1905.com
