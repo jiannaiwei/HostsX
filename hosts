@@ -1,5 +1,5 @@
 
-;version=21:24:16.98 2013/01/10 周四
+;version=21:53:38.22 2013/01/10 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3206,6 +3206,7 @@ fe80::1%lo0	localhost
 127.0.0.1 app.infolife.mobi
 127.0.0.1 cus.infolife.mobi
 #inmobi
+127.0.0.1 i.w.sandbox.inmobi.com
 127.0.0.1 i.w.inmobi.com
 127.0.0.1 ma.inmobi.com
 127.0.0.1 r.w.inmobi.com
@@ -3296,6 +3297,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ads.mdotm.com
 127.0.0.1 cdn.mdotm.com
 #Mocean
+127.0.0.1 ads.mocean.mobi
 127.0.0.1 img.ads1.mocean.mobi
 127.0.0.1 img.ads2.mocean.mobi
 127.0.0.1 img.ads3.mocean.mobi
@@ -3330,6 +3332,7 @@ fe80::1%lo0	localhost
 127.0.0.1 wap.moad.cn
 127.0.0.1 wap.6262.com.cn
 #Mojiva
+127.0.0.1 ads.mojiva.com
 127.0.0.1 admarvel.mojiva.com
 127.0.0.1 img.ads1.mojiva.com
 127.0.0.1 img.ads2.mojiva.com
@@ -3459,6 +3462,9 @@ fe80::1%lo0	localhost
 127.0.0.1 f09.smaato.net
 127.0.0.1 f10.smaato.net
 127.0.0.1 soma.smaato.net
+#Tapad
+127.0.0.1 analytics.tapad.com
+127.0.0.1 swappit.tapad.com
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
@@ -3581,6 +3587,7 @@ fe80::1%lo0	localhost
 127.0.0.1 adserver.ubiyoo.com
 127.0.0.1 adsx.greystripe.com
 127.0.0.1 adultmoda.com
+127.0.0.1 analytics.localytics.com
 127.0.0.1 api.suizong.com
 127.0.0.1 api.yp.com
 127.0.0.1 api.zhaimob.com
@@ -3606,6 +3613,7 @@ fe80::1%lo0	localhost
 127.0.0.1 d.gfan.com
 127.0.0.1 d.zqlx.com
 127.0.0.1 dev.adtouchnetwork.net
+127.0.0.1 dev.mediafriendsinc.com
 127.0.0.1 dev.say-on.net
 127.0.0.1 display-img.g.atti.com
 127.0.0.1 dl.91rb.com
@@ -3617,7 +3625,6 @@ fe80::1%lo0	localhost
 127.0.0.1 hi.fywap.com
 127.0.0.1 hot.icittys.com
 127.0.0.1 i.tapit.com
-127.0.0.1 i.w.sandbox.inmobi.com
 127.0.0.1 images.millennialmedia.com
 127.0.0.1 images.mpression.net
 127.0.0.1 img.ads.taptapnetworks.com
