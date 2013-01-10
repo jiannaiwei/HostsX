@@ -1,5 +1,5 @@
 
-;version=15:53:36.64 2013/01/10 周四
+;version=21:24:16.98 2013/01/10 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3169,6 +3169,8 @@ fe80::1%lo0	localhost
 127.0.0.1 dp2.devopenserv.com
 #Duomeng
 127.0.0.1 duomeng.cn
+#DianXin
+127.0.0.1 mobileads.dx.cn
 #EasyMobi
 127.0.0.1 adver.easymobi.cn
 127.0.0.1 app.easymobi.cn

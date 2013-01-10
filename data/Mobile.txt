@@ -160,6 +160,8 @@
 127.0.0.1 dp2.devopenserv.com
 #Duomeng
 127.0.0.1 duomeng.cn
+#DianXin
+127.0.0.1 mobileads.dx.cn
 #EasyMobi
 127.0.0.1 adver.easymobi.cn
 127.0.0.1 app.easymobi.cn
