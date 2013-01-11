@@ -1,5 +1,9 @@
+title HostsX 数据更新工具 
+more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts 
+notepad %windir%\system32\drivers\etc\hosts 
+goto :eof 
 
-;version=21:53:38.22 2013/01/10 周四
+;version=20:30:51.22 2013-01-11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
