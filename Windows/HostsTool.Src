@@ -32,7 +32,7 @@ rem Hosts文件备份模块，以运行时的小时为单位
 if not exist %etc%\Bakup\ md %etc%\Bakup\ >nul
 call :unlock
 copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
-forfiles /p %etc%\Bakup /s /m *.txt /d -%DaysAgo% /c "cmd /c echo del /f /q /a @file"
+forfiles /p %etc%\Bakup /s /m *.txt /d -%DaysAgo% /c "cmd /c echo del /f /q /a @file" >nul 2>nul
 if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..."&call :fixhosts
 rem 自动检测升级模块
 echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
