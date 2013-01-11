@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.15
+set ver=1.0.1.16
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -52,7 +52,7 @@ del /f /q %tmp%\*.bat %tmp%\*.vbs>nul 2>nul
 del /f /q $ echo new.txt smarthosts.txt hbhosts.txt HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
 rem 参数调用设置
 if '%1'=='/f' goto:fixhosts
-if '%1'=='/q' goto:quiteup
+if '%1'=='/q' goto:quietup
 if '%1'=='/d' goto:dftvbs
 if '%1'=='/g' goto:Google
 if '%1'=='/6' goto:ipv6
@@ -116,7 +116,7 @@ if %y% equ 17 if %x% gtr  26 if %x% lss 50 call :clean &goto gui
 if %y% equ 19 if %x% gtr  1 if %x% lss 26 call :fixie &goto gui
 if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (%d% http://hostsx.googlecode.com/svn/trunk/Windows/g.ico &echo Download a Icon,Please Wait!&call :shortcutfix) else (call :shortcutfix)&goto gui
 if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto iecss
-if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quitevbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
+if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quietvbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
 if %y% equ 23 if %x% gtr  12 if %x% lss 26 goto delit
 if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 &goto gui
@@ -163,7 +163,8 @@ c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 msg %username% /time:2 "视频播放广告已免疫！"
 goto :eof
 
-:quitevbs
+:quietvbs
+%k% wscript.exe
 >"%qt%" echo do
 >>"%qt%" echo set ws=createobject("wscript.shell")
 >>"%qt%" echo ws.run".\HostsTool.bat /q",vbhide
@@ -222,13 +223,11 @@ del %etc%\HostsX.orzhosts & copy %cd%\HostsX.orzhosts %etc%\HostsX.orzhosts >nul
 call :temp
 goto gui
 
-:quiteup
-%k% wscript.exe
+:quietup
 call :unlock
 call :ipv6load
 call :dftvbs
-attrib +r +a +s %hosts%
-call :dns&Exit
+attrib +r +a +s %hosts% & Exit
 
 :unlock
 echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
@@ -310,7 +309,7 @@ net stop "Dnscache" >nul 2>nul
 sc stop "DNSCache" >nul 2>nul
 sc config Dnscache start= disabled >nul 2>nul
 echo 正在启动Https相关服务，请卸载国产的XX卫士等安全产品
-pause
+ping -n 3 127.0.0.1
 sc config iphlpsvc start= AUTO > nul 2>nul
 sc config HTTPFilter start= AUTO >nul 2>nul
 sc config 6to4 start= auto >nul 2>nul
