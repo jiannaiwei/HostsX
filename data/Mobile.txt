@@ -621,6 +621,7 @@
 127.0.0.1 img.ads.taptapnetworks.com
 127.0.0.1 index.sosohaha.com
 127.0.0.1 jmplead.com
+127.0.0.1 log.umsns.com
 127.0.0.1 m.1518.com
 127.0.0.1 m.adsymptotic.com
 127.0.0.1 m.askalok.com

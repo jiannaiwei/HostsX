@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20:30:51.22 2013-01-11
+;version=22:56:30.56 2013-01-11
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3634,6 +3634,7 @@ fe80::1%lo0	localhost
 127.0.0.1 img.ads.taptapnetworks.com
 127.0.0.1 index.sosohaha.com
 127.0.0.1 jmplead.com
+127.0.0.1 log.umsns.com
 127.0.0.1 m.1518.com
 127.0.0.1 m.adsymptotic.com
 127.0.0.1 m.askalok.com
