@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.13
+set ver=1.0.1.14
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -282,7 +282,6 @@ goto :eof
 goto :eof
 
 :dftvbs
-ping /n 2 hostsx.googlecode.com >nul||goto dftlocal
 call :upcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
 copy %temp%\HostsX.orzhosts %hosts%
@@ -329,8 +328,8 @@ if not exist %a%\wget.exe (echo 需要命令提示符下载工具wget.exe支持&echo 下载地址
 set size=200000
 for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
-if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"HostsTool")(window.close)
-del %etc%\HostsX.orzhosts & copy %cd%\HostsX.orzhosts %etc%\HostsX.orzhosts
+if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"HostsTool")(window.close) & ping /n 2 hostsx.googlecode.com >nul||goto dftlocal
+del %etc%\HostsX.orzhosts & copy %cd%\HostsX.orzhosts %etc%\HostsX.orzhosts >nul 2>nul
 call :temp
 goto gui
 
@@ -340,7 +339,9 @@ call :unlock
 call :ipv6load
 call :dftvbs
 attrib +r +a +s %hosts%
-call :dns&Exit
+call :dns
+msg %username% /time:2 "Hosts数据已更新！"
+&Exit
 
 :unlock
 echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
