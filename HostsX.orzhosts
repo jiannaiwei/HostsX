@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=22:56:30.56 2013-01-11
+;version=12:47:16.69 2013-01-13
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2617,6 +2617,13 @@ fe80::1%lo0	localhost
 127.0.0.1 www.martau.com
 #MacDrive
 127.0.0.1 act2.mediafour.com
+#Parallels Desktop
+127.0.0.1 pd6.blist.parallels.com
+127.0.0.1 pd7.blist.parallels.com
+127.0.0.1 pdfm7.blist.parallels.com
+127.0.0.1 registration.parallels.com
+127.0.0.1 parallels.com
+127.0.0.1 update.parallels.com
 #SmartRecorder
 127.0.0.1 www.voiceemotion.com
 #SRS Audio Sandbox
