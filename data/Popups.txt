@@ -238,6 +238,9 @@
 0.0.0.0 img.gogo.com
 0.0.0.0 media.17leyi.com
 0.0.0.0 images.17leyi.com
+0.0.0.0 180.xdwan.com
+0.0.0.0 img4.xdwan.com
+0.0.0.0 active.xdwan.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -249,7 +252,6 @@
 0.0.0.0 126dy.co.cc
 0.0.0.0 131377.com
 0.0.0.0 168.mashangwan.com
-0.0.0.0 180.xdwan.com
 0.0.0.0 188.webgame86.net
 0.0.0.0 189.zhanguotj.com
 0.0.0.0 1st.ecoma.glb0.lxdns.com
@@ -465,7 +467,6 @@
 0.0.0.0 img.cmsem.com
 0.0.0.0 img.voolee.cn
 0.0.0.0 img.xp9365.com
-0.0.0.0 img4.xdwan.com
 0.0.0.0 in.kunlun.com
 0.0.0.0 info.uubig.com
 0.0.0.0 j.zqgame.com

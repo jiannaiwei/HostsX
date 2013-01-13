@@ -3619,6 +3619,7 @@
 0.0.0.0 upgrades.shopperreports.com
 0.0.0.0 www.shopperreports.com
 #SponsorAds
+0.0.0.0 imgserv.sponsorads.de
 0.0.0.0 sponsorads.de
 0.0.0.0 www.sponsorads.de
 #Shiny S.r.l

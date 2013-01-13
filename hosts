@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=19:55:09.59 2013/01/13 周日
+;version=21:59:49.86 2013/01/13 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7309,6 +7309,7 @@ fe80::1%lo0	localhost
 127.0.0.1 upgrades.shopperreports.com
 127.0.0.1 www.shopperreports.com
 #SponsorAds
+127.0.0.1 imgserv.sponsorads.de
 127.0.0.1 sponsorads.de
 127.0.0.1 www.sponsorads.de
 #Shiny S.r.l
@@ -11363,6 +11364,9 @@ fe80::1%lo0	localhost
 127.0.0.1 img.gogo.com
 127.0.0.1 media.17leyi.com
 127.0.0.1 images.17leyi.com
+127.0.0.1 180.xdwan.com
+127.0.0.1 img4.xdwan.com
+127.0.0.1 active.xdwan.com
 #恶意弹窗
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -11374,7 +11378,6 @@ fe80::1%lo0	localhost
 127.0.0.1 126dy.co.cc
 127.0.0.1 131377.com
 127.0.0.1 168.mashangwan.com
-127.0.0.1 180.xdwan.com
 127.0.0.1 188.webgame86.net
 127.0.0.1 189.zhanguotj.com
 127.0.0.1 1st.ecoma.glb0.lxdns.com
@@ -11590,7 +11593,6 @@ fe80::1%lo0	localhost
 127.0.0.1 img.cmsem.com
 127.0.0.1 img.voolee.cn
 127.0.0.1 img.xp9365.com
-127.0.0.1 img4.xdwan.com
 127.0.0.1 in.kunlun.com
 127.0.0.1 info.uubig.com
 127.0.0.1 j.zqgame.com
