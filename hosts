@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=12:47:16.69 2013-01-13
+;version=19:55:09.59 2013/01/13 ÷‹»’
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -647,6 +647,7 @@ fe80::1%lo0	localhost
 127.0.0.1 search8.taobao.com
 127.0.0.1 stat.simba.taobao.com
 127.0.0.1 textlink.simba.taobao.com
+127.0.0.1 count.tbcdn.cn
 127.0.0.1 taourl.com
 127.0.0.1 cnzz.mmstat.com
 127.0.0.1 hz.mmstat.com

@@ -356,6 +356,7 @@
 0.0.0.0 search8.taobao.com
 0.0.0.0 stat.simba.taobao.com
 0.0.0.0 textlink.simba.taobao.com
+0.0.0.0 count.tbcdn.cn
 0.0.0.0 taourl.com
 0.0.0.0 cnzz.mmstat.com
 0.0.0.0 hz.mmstat.com
