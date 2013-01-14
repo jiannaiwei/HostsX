@@ -139,14 +139,22 @@
 0.0.0.0 pause-ad.qvod.com
 0.0.0.0 text-ad.qvod.com
 0.0.0.0 tj.qvod.com
-0.0.0.0 hao.kuaibo.com
-0.0.0.0 pause-ad.kuaibo.com
-0.0.0.0 text-ad.kuaibo.com
+0.0.0.0 110.kuaibo.com
 0.0.0.0 buffer-ad.kuaibo.com
+0.0.0.0 dl.kuaibo.com
+0.0.0.0 hao.kuaibo.com
+0.0.0.0 m.kuaibo.com
+0.0.0.0 mobile.behavior.kuaibo.com
+0.0.0.0 pause-ad.kuaibo.com
+0.0.0.0 s.kuaibo.com
+0.0.0.0 text-ad.kuaibo.com
+0.0.0.0 searchstat.kuaibo.com
 0.0.0.0 op.web.kuaiwan.com
 0.0.0.0 op2.web.kuaiwan.com
 0.0.0.0 prom.web.kuaiwan.com
 0.0.0.0 web.kuaiwan.com
+0.0.0.0 dl.duoping.com
+0.0.0.0 s.726.com
 0.0.0.0 game.ad1111.com
 0.0.0.0 qvodlink.hco.cc
 #RealPlayer

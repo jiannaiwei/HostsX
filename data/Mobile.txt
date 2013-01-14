@@ -7,12 +7,17 @@
 127.0.0.1 mmv.admob.com
 127.0.0.1 r.admob.com
 127.0.0.1 schemas.android.com
+127.0.0.1 mobwin.android.com
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 www.gstatic.com
+127.0.0.1 www.gstatic.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
+#3gmimo
+127.0.0.1 product.3gmimo.com
+127.0.0.1 stage.3gmimo.com
 #54whr
 127.0.0.1 a.54whr.com
 127.0.0.1 f.54whr.com
@@ -125,11 +130,12 @@
 127.0.0.1 d2bgg7rjywcwsy.cloudfront.net
 127.0.0.1 d3oltyb66oj2v8.cloudfront.net
 #Cooguo
+127.0.0.1 banner.cooguo.com
 127.0.0.1 cdn.cooguo.com
 127.0.0.1 download.cooguo.com
+127.0.0.1 kuzai.cooguo.com
 127.0.0.1 video.cooguo.com
 127.0.0.1 www.cooguo.com
-127.0.0.1 kuzai.cooguo.com
 127.0.0.1 g2.iphonedown.com
 #Crispadvertising
 127.0.0.1 cdn1.crispadvertising.com
@@ -667,3 +673,6 @@
 127.0.0.1 www.wqmobile.com
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
+127.0.0.1 app.feeliu.com
+127.0.0.1 www.asiapacificdaily.com.hk
+127.0.0.1 www.handpet.com
