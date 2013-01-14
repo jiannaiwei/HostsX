@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=11:03:22.13 2013/01/14 周一
+;version=20:54:07.95 2013/01/14 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -634,7 +634,6 @@ fe80::1%lo0	localhost
 127.0.0.1 p4psearch.china.alibaba.com
 127.0.0.1 survey.china.alibaba.com
 127.0.0.1 www.tao123.com
-127.0.0.1 ad.taojifen.net
 127.0.0.1 click.mz.simba.taobao.com
 127.0.0.1 click.tz.simba.taobao.com
 127.0.0.1 count.taobao.com
@@ -3040,7 +3039,6 @@ fe80::1%lo0	localhost
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 www.gstatic.com
-127.0.0.1 www.gstatic.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com

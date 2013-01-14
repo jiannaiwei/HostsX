@@ -11,7 +11,6 @@
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 www.gstatic.com
-127.0.0.1 www.gstatic.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
