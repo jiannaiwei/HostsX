@@ -1,8 +1,8 @@
 @echo off
 pushd %~dp0
 del *.js
-wget http://userscripts.org/scripts/source/92899.user.js
-ren 92899.user.js MajorGeneralDownload.user.js
+wget http://userscripts.org/scripts/source/156472.user.js
+ren 156472.user.js chromexd.user.js
 wget http://userscripts.org/scripts/source/116879.user.js
 ren 116879.user.js DBankLinker.js
 wget http://userscripts.org/scripts/source/126489.user.js
