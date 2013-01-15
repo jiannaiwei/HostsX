@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20:54:07.95 2013/01/14 周一
+;version=12:40:59.18 2013/01/15 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3203,6 +3203,8 @@ fe80::1%lo0	localhost
 127.0.0.1 data.flurry.com
 127.0.0.1 flurry.com
 127.0.0.1 www.flurry.com
+#Gfan
+127.0.0.1 d.gfan.com
 #Gogle
 127.0.0.1 gg.googlesyndcation.com
 127.0.0.1 gogle.cn
@@ -3550,6 +3552,8 @@ fe80::1%lo0	localhost
 127.0.0.1 www.wiyun.com
 127.0.0.1 scpworld.com.cn
 127.0.0.1 www.ypzs88.com
+#Weiphone
+127.0.0.1 aoodooimg.weiphone.com
 #Wooboo
 127.0.0.1 ade.wooboo.com.cn
 127.0.0.1 admin.wooboo.com.cn
@@ -3634,7 +3638,6 @@ fe80::1%lo0	localhost
 127.0.0.1 content.mobango.com
 127.0.0.1 coolcode.org
 127.0.0.1 crowdin.net
-127.0.0.1 d.gfan.com
 127.0.0.1 d.zqlx.com
 127.0.0.1 dev.adtouchnetwork.net
 127.0.0.1 dev.mediafriendsinc.com
@@ -4403,6 +4406,8 @@ fe80::1%lo0	localhost
 #CJ
 127.0.0.1 cj.com
 127.0.0.1 www.cj.com
+#Clkads
+127.0.0.1 cdn1.clkads.com
 #Clickability
 127.0.0.1 btn.clickability.com
 127.0.0.1 button.clickability.com
@@ -5167,6 +5172,11 @@ fe80::1%lo0	localhost
 127.0.0.1 websidestory.com
 127.0.0.1 support.websidestory.com
 127.0.0.1 www.websidestory.com
+#Histats
+127.0.0.1 s10.histats.com
+127.0.0.1 s4.histats.com
+127.0.0.1 c0.histats.12mlbe.com
+127.0.0.1 d0.histats.12mlbe.com
 #Hittail
 127.0.0.1 314.hittail.com
 127.0.0.1 815.hittail.com
@@ -5628,6 +5638,10 @@ fe80::1%lo0	localhost
 127.0.0.1 jizzads.com
 127.0.0.1 www.jizzads.com
 127.0.0.1 img.jizzads.com
+#Juicyads
+127.0.0.1 adserver.juicyads.com
+127.0.0.1 xapi.juicyads.com
+127.0.0.1 ck.juicyads.com
 #Kontera
 127.0.0.1 dc.kontera.com
 127.0.0.1 kona.kontera.com
@@ -8832,34 +8846,35 @@ fe80::1%lo0	localhost
 127.0.0.1 feeds.videosz.com
 127.0.0.1 ts.videosz.com
 #Other Foreign ads
-127.0.0.1 clickserv.sitescout.com
-127.0.0.1 track.wamcpc.com
-127.0.0.1 tracking.theultimateonlinejob.com
-127.0.0.1 creative2.myrdns.org
-127.0.0.1 www.quibids.com
-127.0.0.1 redirect.ad-feeds.net
-127.0.0.1 adhitz.com
-127.0.0.1 p1.adhitzads.com
-127.0.0.1 banner.kiev.ua
 127.0.0.1 a.panxh.com
-127.0.0.1 engine.adsupply.com
-127.0.0.1 d.recomendedsite.com
 127.0.0.1 ad.clickotmedia.com
+127.0.0.1 adhitz.com
 127.0.0.1 ads.asp.net
 127.0.0.1 ads.trafficjunky.net
 127.0.0.1 auto-insurance-hub.com
 127.0.0.1 banner.hosteurope.de
+127.0.0.1 banner.kiev.ua
 127.0.0.1 banner.onshow.us
 127.0.0.1 banners.wunderground.com
+127.0.0.1 castee.com
+127.0.0.1 clickserv.sitescout.com
 127.0.0.1 content.pulse360.com
+127.0.0.1 creative2.myrdns.org
 127.0.0.1 d.cyberdefender.com
+127.0.0.1 d.recomendedsite.com
 127.0.0.1 dg.specificclick.net
+127.0.0.1 engine.adsupply.com
 127.0.0.1 feed-ads.com
 127.0.0.1 javascript.nwbox.com
+127.0.0.1 lp.ilivid.com
 127.0.0.1 marketing.xineurope.com
 127.0.0.1 ox-d.majorgeeks.com
+127.0.0.1 ox-d.majorgeeks.com
 127.0.0.1 ox-i.majorgeeks.com
+127.0.0.1 ox-i.majorgeeks.com
+127.0.0.1 p1.adhitzads.com
 127.0.0.1 pub.softonic.cn
+127.0.0.1 redirect.ad-feeds.net
 127.0.0.1 sdc.mcafee.com
 127.0.0.1 secure.webhostingpad.com
 127.0.0.1 sharefoco.com
@@ -8869,16 +8884,17 @@ fe80::1%lo0	localhost
 127.0.0.1 surveybonus.net
 127.0.0.1 track.effiliation.asia
 127.0.0.1 track.sitetag.us
+127.0.0.1 track.wamcpc.com
+127.0.0.1 tracking.theultimateonlinejob.com
 127.0.0.1 videoads.tetrisfriends.com
 127.0.0.1 www.adlinkmedia.net
 127.0.0.1 www.arcadebanners.com
 127.0.0.1 www.da-ads.com
 127.0.0.1 www.linkshare.com
 127.0.0.1 www.linkworth.com
+127.0.0.1 www.quibids.com
 127.0.0.1 www.sq2trk2.com
 127.0.0.1 www.srvbytrking.com
-127.0.0.1 ox-d.majorgeeks.com
-127.0.0.1 ox-i.majorgeeks.com
 
 @HostsX 国内广告联盟
 #0252
@@ -9732,6 +9748,8 @@ fe80::1%lo0	localhost
 127.0.0.1 go.myad.cn
 127.0.0.1 img.myad.cn
 127.0.0.1 img2.myad.cn
+127.0.0.1 img3.myad.cn
+127.0.0.1 img4.myad.cn
 127.0.0.1 new.myad.cn
 127.0.0.1 ver4.myad.cn
 127.0.0.1 vip.myad.cn
@@ -10606,6 +10624,8 @@ fe80::1%lo0	localhost
 
 @HostsX 可疑病毒拦截
 #钓鱼诈骗
+76.162.33.234 visitorrewards.chattycatty.com
+76.162.33.234 static.visitorrewards.chattycatty.com
 76.162.33.234 huihui2.xudiao.com
 76.162.33.234 image.yi114.com
 76.162.33.234 www.le-fan-tian.com

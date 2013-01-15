@@ -850,6 +850,8 @@
 0.0.0.0 go.myad.cn
 0.0.0.0 img.myad.cn
 0.0.0.0 img2.myad.cn
+0.0.0.0 img3.myad.cn
+0.0.0.0 img4.myad.cn
 0.0.0.0 new.myad.cn
 0.0.0.0 ver4.myad.cn
 0.0.0.0 vip.myad.cn

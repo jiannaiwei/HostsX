@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20:54:07.95 2013/01/14 周一
+;version=12:40:59.18 2013/01/15 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3203,6 +3203,8 @@ fe80::1%lo0	localhost
 127.0.0.1 data.flurry.com
 127.0.0.1 flurry.com
 127.0.0.1 www.flurry.com
+#Gfan
+127.0.0.1 d.gfan.com
 #Gogle
 127.0.0.1 gg.googlesyndcation.com
 127.0.0.1 gogle.cn
@@ -3550,6 +3552,8 @@ fe80::1%lo0	localhost
 127.0.0.1 www.wiyun.com
 127.0.0.1 scpworld.com.cn
 127.0.0.1 www.ypzs88.com
+#Weiphone
+127.0.0.1 aoodooimg.weiphone.com
 #Wooboo
 127.0.0.1 ade.wooboo.com.cn
 127.0.0.1 admin.wooboo.com.cn
@@ -3634,7 +3638,6 @@ fe80::1%lo0	localhost
 127.0.0.1 content.mobango.com
 127.0.0.1 coolcode.org
 127.0.0.1 crowdin.net
-127.0.0.1 d.gfan.com
 127.0.0.1 d.zqlx.com
 127.0.0.1 dev.adtouchnetwork.net
 127.0.0.1 dev.mediafriendsinc.com
@@ -4403,6 +4406,8 @@ fe80::1%lo0	localhost
 #CJ
 0.0.0.0 cj.com
 0.0.0.0 www.cj.com
+#Clkads
+0.0.0.0 cdn1.clkads.com
 #Clickability
 0.0.0.0 btn.clickability.com
 0.0.0.0 button.clickability.com
@@ -5167,6 +5172,11 @@ fe80::1%lo0	localhost
 0.0.0.0 websidestory.com
 0.0.0.0 support.websidestory.com
 0.0.0.0 www.websidestory.com
+#Histats
+0.0.0.0 s10.histats.com
+0.0.0.0 s4.histats.com
+0.0.0.0 c0.histats.12mlbe.com
+0.0.0.0 d0.histats.12mlbe.com
 #Hittail
 0.0.0.0 314.hittail.com
 0.0.0.0 815.hittail.com
@@ -5628,6 +5638,10 @@ fe80::1%lo0	localhost
 0.0.0.0 jizzads.com
 0.0.0.0 www.jizzads.com
 0.0.0.0 img.jizzads.com
+#Juicyads
+0.0.0.0 adserver.juicyads.com
+0.0.0.0 xapi.juicyads.com
+0.0.0.0 ck.juicyads.com
 #Kontera
 0.0.0.0 dc.kontera.com
 0.0.0.0 kona.kontera.com
@@ -8832,34 +8846,35 @@ fe80::1%lo0	localhost
 0.0.0.0 feeds.videosz.com
 0.0.0.0 ts.videosz.com
 #Other Foreign ads
-0.0.0.0 clickserv.sitescout.com
-0.0.0.0 track.wamcpc.com
-0.0.0.0 tracking.theultimateonlinejob.com
-0.0.0.0 creative2.myrdns.org
-0.0.0.0 www.quibids.com
-0.0.0.0 redirect.ad-feeds.net
-0.0.0.0 adhitz.com
-0.0.0.0 p1.adhitzads.com
-0.0.0.0 banner.kiev.ua
 0.0.0.0 a.panxh.com
-0.0.0.0 engine.adsupply.com
-0.0.0.0 d.recomendedsite.com
 0.0.0.0 ad.clickotmedia.com
+0.0.0.0 adhitz.com
 0.0.0.0 ads.asp.net
 0.0.0.0 ads.trafficjunky.net
 0.0.0.0 auto-insurance-hub.com
 0.0.0.0 banner.hosteurope.de
+0.0.0.0 banner.kiev.ua
 0.0.0.0 banner.onshow.us
 0.0.0.0 banners.wunderground.com
+0.0.0.0 castee.com
+0.0.0.0 clickserv.sitescout.com
 0.0.0.0 content.pulse360.com
+0.0.0.0 creative2.myrdns.org
 0.0.0.0 d.cyberdefender.com
+0.0.0.0 d.recomendedsite.com
 0.0.0.0 dg.specificclick.net
+0.0.0.0 engine.adsupply.com
 0.0.0.0 feed-ads.com
 0.0.0.0 javascript.nwbox.com
+0.0.0.0 lp.ilivid.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 ox-d.majorgeeks.com
+0.0.0.0 ox-d.majorgeeks.com
 0.0.0.0 ox-i.majorgeeks.com
+0.0.0.0 ox-i.majorgeeks.com
+0.0.0.0 p1.adhitzads.com
 0.0.0.0 pub.softonic.cn
+0.0.0.0 redirect.ad-feeds.net
 0.0.0.0 sdc.mcafee.com
 0.0.0.0 secure.webhostingpad.com
 0.0.0.0 sharefoco.com
@@ -8869,16 +8884,17 @@ fe80::1%lo0	localhost
 0.0.0.0 surveybonus.net
 0.0.0.0 track.effiliation.asia
 0.0.0.0 track.sitetag.us
+0.0.0.0 track.wamcpc.com
+0.0.0.0 tracking.theultimateonlinejob.com
 0.0.0.0 videoads.tetrisfriends.com
 0.0.0.0 www.adlinkmedia.net
 0.0.0.0 www.arcadebanners.com
 0.0.0.0 www.da-ads.com
 0.0.0.0 www.linkshare.com
 0.0.0.0 www.linkworth.com
+0.0.0.0 www.quibids.com
 0.0.0.0 www.sq2trk2.com
 0.0.0.0 www.srvbytrking.com
-0.0.0.0 ox-d.majorgeeks.com
-0.0.0.0 ox-i.majorgeeks.com
 
 @HostsX 国内广告联盟
 #0252
@@ -9732,6 +9748,8 @@ fe80::1%lo0	localhost
 0.0.0.0 go.myad.cn
 0.0.0.0 img.myad.cn
 0.0.0.0 img2.myad.cn
+0.0.0.0 img3.myad.cn
+0.0.0.0 img4.myad.cn
 0.0.0.0 new.myad.cn
 0.0.0.0 ver4.myad.cn
 0.0.0.0 vip.myad.cn
@@ -10606,6 +10624,8 @@ fe80::1%lo0	localhost
 
 @HostsX 可疑病毒拦截
 #钓鱼诈骗
+76.162.33.234 visitorrewards.chattycatty.com
+76.162.33.234 static.visitorrewards.chattycatty.com
 76.162.33.234 huihui2.xudiao.com
 76.162.33.234 image.yi114.com
 76.162.33.234 www.le-fan-tian.com

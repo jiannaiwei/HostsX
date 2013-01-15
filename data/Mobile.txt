@@ -175,6 +175,8 @@
 127.0.0.1 data.flurry.com
 127.0.0.1 flurry.com
 127.0.0.1 www.flurry.com
+#Gfan
+127.0.0.1 d.gfan.com
 #Gogle
 127.0.0.1 gg.googlesyndcation.com
 127.0.0.1 gogle.cn
@@ -522,6 +524,8 @@
 127.0.0.1 www.wiyun.com
 127.0.0.1 scpworld.com.cn
 127.0.0.1 www.ypzs88.com
+#Weiphone
+127.0.0.1 aoodooimg.weiphone.com
 #Wooboo
 127.0.0.1 ade.wooboo.com.cn
 127.0.0.1 admin.wooboo.com.cn
@@ -606,7 +610,6 @@
 127.0.0.1 content.mobango.com
 127.0.0.1 coolcode.org
 127.0.0.1 crowdin.net
-127.0.0.1 d.gfan.com
 127.0.0.1 d.zqlx.com
 127.0.0.1 dev.adtouchnetwork.net
 127.0.0.1 dev.mediafriendsinc.com
