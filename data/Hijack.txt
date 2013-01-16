@@ -25,6 +25,7 @@
 0.0.0.0 union.dianxin.cn
 0.0.0.0 www.dianxin.cn
 #ÁªÍ¨½Ù³Ö
+0.0.0.0 lndnserror1.wo.com.cn
 0.0.0.0 sddnserror1.wo.com.cn
 0.0.0.0 sddnserror2.wo.com.cn
 0.0.0.0 sddnserror3.wo.com.cn

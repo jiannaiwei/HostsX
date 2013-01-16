@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=10:18:17.74 2013/01/16 周三
+;version=15:23:38.20 2013/01/16 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -10591,6 +10591,7 @@ fe80::1%lo0	localhost
 127.0.0.1 union.dianxin.cn
 127.0.0.1 www.dianxin.cn
 #联通劫持
+127.0.0.1 lndnserror1.wo.com.cn
 127.0.0.1 sddnserror1.wo.com.cn
 127.0.0.1 sddnserror2.wo.com.cn
 127.0.0.1 sddnserror3.wo.com.cn
