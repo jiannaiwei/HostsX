@@ -267,6 +267,8 @@
 0.0.0.0 js.adserverpub.com
 0.0.0.0 www.adserverpub.com
 0.0.0.0 www2.adserverpub.com
+#Adsfactor
+0.0.0.0 servedby.adsfactor.net
 #ADTech
 0.0.0.0 adforce.adtech.de
 0.0.0.0 adforce.adtech.fr
@@ -500,6 +502,9 @@
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 at.amgdgt.com
 0.0.0.0 cdn.amgdgt.com
+#Amung
+0.0.0.0 whos.amung.us
+0.0.0.0 widgets.amung.us
 #Adnxs
 0.0.0.0 ib.adnxs.com
 0.0.0.0 cdn.adnxs.com
@@ -527,22 +532,6 @@
 #Betrad
 0.0.0.0 l.betrad.com
 0.0.0.0 c.betrad.com
-#Blogads
-0.0.0.0 b.blogads.com
-0.0.0.0 banners.blogads.com
-0.0.0.0 blogads.com
-0.0.0.0 c.blogads.com
-0.0.0.0 cache.blogads.com
-0.0.0.0 d.blogads.com
-0.0.0.0 f.blogads.com
-0.0.0.0 g.blogads.com
-0.0.0.0 img.blogads.com
-0.0.0.0 st.blogads.com
-0.0.0.0 stat.blogads.com
-0.0.0.0 weblog.blogads.com
-0.0.0.0 www.blogads.com
-0.0.0.0 z.blogads.com
-0.0.0.0 www.blogad.com.tw
 #Bluekai
 0.0.0.0 bluekai.com
 0.0.0.0 tags.bluekai.com
@@ -763,6 +752,8 @@
 0.0.0.0 www2.contextweb.com
 0.0.0.0 www3.contextweb.com
 0.0.0.0 www7.contextweb.com
+#Countomat
+0.0.0.0 log1.countomat.com
 #CPALead
 0.0.0.0 cpalead.com
 0.0.0.0 data.cpalead.com
@@ -881,6 +872,8 @@
 0.0.0.0 trafficneeds.directtrack.com
 0.0.0.0 varsityads.directtrack.com
 0.0.0.0 www.directtrack.com
+#Effectivemeasure
+0.0.0.0 hk-cdn.effectivemeasure.net
 #Epic
 0.0.0.0 c.azjmp.com
 0.0.0.0 i.azjmp.com
@@ -893,6 +886,8 @@
 #Experclick
 0.0.0.0 nyton.experclick.com
 0.0.0.0 www.experclick.com
+#Exoclick
+0.0.0.0 syndication.exoclick.com
 #Eyewonder
 0.0.0.0 cdn.eyewonder.com
 0.0.0.0 cdn1.eyewonder.com
@@ -1130,6 +1125,9 @@
 0.0.0.0 stat008.mylivepage.com
 0.0.0.0 stat009.mylivepage.com
 0.0.0.0 stat010.mylivepage.com
+#Gosta
+0.0.0.0 gostats.com
+0.0.0.0 ssl.gostats.com
 #Hitbox
 0.0.0.0 ai.hitbox.com
 0.0.0.0 aibg.hitbox.com
@@ -3703,6 +3701,8 @@
 0.0.0.0 sm8.sitemeter.com
 0.0.0.0 sm9.sitemeter.com
 0.0.0.0 www.sitemeter.com
+#Sitebro
+0.0.0.0 track.sitebro.com.tw
 #StartNow
 0.0.0.0 adserver.startnow.com
 0.0.0.0 go.startnow.com
@@ -3975,6 +3975,9 @@
 0.0.0.0 s.tribalfusion.com
 0.0.0.0 tribalfusion.com
 0.0.0.0 www.tribalfusion.com
+#Unrulymedia
+0.0.0.0 video.unrulymedia.com
+0.0.0.0 www.unrulymedia.com
 #Valueclick
 0.0.0.0 ads.aco.valueclick.net
 0.0.0.0 ads.csi.valueclick.net

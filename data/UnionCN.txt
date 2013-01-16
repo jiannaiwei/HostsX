@@ -553,12 +553,30 @@
 0.0.0.0 img.at98.com
 0.0.0.0 pplive.at98.com
 0.0.0.0 www.at98.com
+#Advooe
+0.0.0.0 www.advooe.com
 #Barmms
 0.0.0.0 barmms.com
 0.0.0.0 i.barmms.com
 #Bigdebussy
 0.0.0.0 bigdebussy.com
 0.0.0.0 t.bigdebussy.com
+#Blogads
+0.0.0.0 b.blogads.com
+0.0.0.0 banners.blogads.com
+0.0.0.0 blogads.com
+0.0.0.0 c.blogads.com
+0.0.0.0 cache.blogads.com
+0.0.0.0 d.blogads.com
+0.0.0.0 f.blogads.com
+0.0.0.0 g.blogads.com
+0.0.0.0 img.blogads.com
+0.0.0.0 st.blogads.com
+0.0.0.0 stat.blogads.com
+0.0.0.0 weblog.blogads.com
+0.0.0.0 www.blogads.com
+0.0.0.0 z.blogads.com
+0.0.0.0 www.blogad.com.tw
 #Bloggerads
 0.0.0.0 ad2.bloggerads.net
 0.0.0.0 css.bloggerads.net
@@ -627,6 +645,8 @@
 0.0.0.0 rpoint.clickeye.com.cn
 0.0.0.0 rpoint.clieye.com
 0.0.0.0 web.clickeye.cn
+#Clicking
+0.0.0.0 adsense.clicking.com.tw
 #Cnxad
 0.0.0.0 c.cnxad.com
 0.0.0.0 cnxad.com
@@ -886,6 +906,9 @@
 #Redu
 0.0.0.0 cpro.redu.com
 0.0.0.0 www.redu-click.com
+#Ref
+0.0.0.0 ref.so
+0.0.0.0 www.ref.so
 #Rj518
 0.0.0.0 img.rj518.com
 0.0.0.0 www.rj518.com

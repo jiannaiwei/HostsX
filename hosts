@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=15:23:38.20 2013/01/16 周三
+;version=23:42:06.84 2013/01/16 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1029,6 +1029,7 @@ fe80::1%lo0	localhost
 127.0.0.1 aidps.atdmt.com
 127.0.0.1 c.atdmt.com
 127.0.0.1 click.atdmt.com
+127.0.0.1 clk.atdmt.com
 127.0.0.1 ec.atdmt.com
 127.0.0.1 h.atdmt.com
 127.0.0.1 image.atdmt.com
@@ -1041,6 +1042,7 @@ fe80::1%lo0	localhost
 127.0.0.1 srch.atdmt.com
 127.0.0.1 t.atdmt.com
 127.0.0.1 vid.atdmt.com
+127.0.0.1 view.atdmt.com
 127.0.0.1 www.atdmt.com
 #Live
 127.0.0.1 analytics.live.com
@@ -3975,6 +3977,8 @@ fe80::1%lo0	localhost
 127.0.0.1 js.adserverpub.com
 127.0.0.1 www.adserverpub.com
 127.0.0.1 www2.adserverpub.com
+#Adsfactor
+127.0.0.1 servedby.adsfactor.net
 #ADTech
 127.0.0.1 adforce.adtech.de
 127.0.0.1 adforce.adtech.fr
@@ -4208,6 +4212,9 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.amgdgt.com
 127.0.0.1 at.amgdgt.com
 127.0.0.1 cdn.amgdgt.com
+#Amung
+127.0.0.1 whos.amung.us
+127.0.0.1 widgets.amung.us
 #Adnxs
 127.0.0.1 ib.adnxs.com
 127.0.0.1 cdn.adnxs.com
@@ -4235,22 +4242,6 @@ fe80::1%lo0	localhost
 #Betrad
 127.0.0.1 l.betrad.com
 127.0.0.1 c.betrad.com
-#Blogads
-127.0.0.1 b.blogads.com
-127.0.0.1 banners.blogads.com
-127.0.0.1 blogads.com
-127.0.0.1 c.blogads.com
-127.0.0.1 cache.blogads.com
-127.0.0.1 d.blogads.com
-127.0.0.1 f.blogads.com
-127.0.0.1 g.blogads.com
-127.0.0.1 img.blogads.com
-127.0.0.1 st.blogads.com
-127.0.0.1 stat.blogads.com
-127.0.0.1 weblog.blogads.com
-127.0.0.1 www.blogads.com
-127.0.0.1 z.blogads.com
-127.0.0.1 www.blogad.com.tw
 #Bluekai
 127.0.0.1 bluekai.com
 127.0.0.1 tags.bluekai.com
@@ -4471,6 +4462,8 @@ fe80::1%lo0	localhost
 127.0.0.1 www2.contextweb.com
 127.0.0.1 www3.contextweb.com
 127.0.0.1 www7.contextweb.com
+#Countomat
+127.0.0.1 log1.countomat.com
 #CPALead
 127.0.0.1 cpalead.com
 127.0.0.1 data.cpalead.com
@@ -4589,6 +4582,8 @@ fe80::1%lo0	localhost
 127.0.0.1 trafficneeds.directtrack.com
 127.0.0.1 varsityads.directtrack.com
 127.0.0.1 www.directtrack.com
+#Effectivemeasure
+127.0.0.1 hk-cdn.effectivemeasure.net
 #Epic
 127.0.0.1 c.azjmp.com
 127.0.0.1 i.azjmp.com
@@ -4601,6 +4596,8 @@ fe80::1%lo0	localhost
 #Experclick
 127.0.0.1 nyton.experclick.com
 127.0.0.1 www.experclick.com
+#Exoclick
+127.0.0.1 syndication.exoclick.com
 #Eyewonder
 127.0.0.1 cdn.eyewonder.com
 127.0.0.1 cdn1.eyewonder.com
@@ -4838,6 +4835,9 @@ fe80::1%lo0	localhost
 127.0.0.1 stat008.mylivepage.com
 127.0.0.1 stat009.mylivepage.com
 127.0.0.1 stat010.mylivepage.com
+#Gosta
+127.0.0.1 gostats.com
+127.0.0.1 ssl.gostats.com
 #Hitbox
 127.0.0.1 ai.hitbox.com
 127.0.0.1 aibg.hitbox.com
@@ -7411,6 +7411,8 @@ fe80::1%lo0	localhost
 127.0.0.1 sm8.sitemeter.com
 127.0.0.1 sm9.sitemeter.com
 127.0.0.1 www.sitemeter.com
+#Sitebro
+127.0.0.1 track.sitebro.com.tw
 #StartNow
 127.0.0.1 adserver.startnow.com
 127.0.0.1 go.startnow.com
@@ -7683,6 +7685,9 @@ fe80::1%lo0	localhost
 127.0.0.1 s.tribalfusion.com
 127.0.0.1 tribalfusion.com
 127.0.0.1 www.tribalfusion.com
+#Unrulymedia
+127.0.0.1 video.unrulymedia.com
+127.0.0.1 www.unrulymedia.com
 #Valueclick
 127.0.0.1 ads.aco.valueclick.net
 127.0.0.1 ads.csi.valueclick.net
@@ -9451,12 +9456,30 @@ fe80::1%lo0	localhost
 127.0.0.1 img.at98.com
 127.0.0.1 pplive.at98.com
 127.0.0.1 www.at98.com
+#Advooe
+127.0.0.1 www.advooe.com
 #Barmms
 127.0.0.1 barmms.com
 127.0.0.1 i.barmms.com
 #Bigdebussy
 127.0.0.1 bigdebussy.com
 127.0.0.1 t.bigdebussy.com
+#Blogads
+127.0.0.1 b.blogads.com
+127.0.0.1 banners.blogads.com
+127.0.0.1 blogads.com
+127.0.0.1 c.blogads.com
+127.0.0.1 cache.blogads.com
+127.0.0.1 d.blogads.com
+127.0.0.1 f.blogads.com
+127.0.0.1 g.blogads.com
+127.0.0.1 img.blogads.com
+127.0.0.1 st.blogads.com
+127.0.0.1 stat.blogads.com
+127.0.0.1 weblog.blogads.com
+127.0.0.1 www.blogads.com
+127.0.0.1 z.blogads.com
+127.0.0.1 www.blogad.com.tw
 #Bloggerads
 127.0.0.1 ad2.bloggerads.net
 127.0.0.1 css.bloggerads.net
@@ -9525,6 +9548,8 @@ fe80::1%lo0	localhost
 127.0.0.1 rpoint.clickeye.com.cn
 127.0.0.1 rpoint.clieye.com
 127.0.0.1 web.clickeye.cn
+#Clicking
+127.0.0.1 adsense.clicking.com.tw
 #Cnxad
 127.0.0.1 c.cnxad.com
 127.0.0.1 cnxad.com
@@ -9784,6 +9809,9 @@ fe80::1%lo0	localhost
 #Redu
 127.0.0.1 cpro.redu.com
 127.0.0.1 www.redu-click.com
+#Ref
+127.0.0.1 ref.so
+127.0.0.1 www.ref.so
 #Rj518
 127.0.0.1 img.rj518.com
 127.0.0.1 www.rj518.com
@@ -10630,6 +10658,7 @@ fe80::1%lo0	localhost
 
 @HostsX 可疑病毒拦截
 #钓鱼诈骗
+76.162.33.234 www.zsectv.com
 76.162.33.234 yrsw.dzxxmh.com
 76.162.33.234 www.7wek.com
 76.162.33.234 visitorrewards.chattycatty.com
@@ -12061,3 +12090,34 @@ fe80::1%lo0	localhost
 127.0.0.1 163.qqtan.com
 127.0.0.1 lg2.pic9382.com
 127.0.0.1 lg3457.5432168.com
+#其他
+127.0.0.1 adv.s8bbs.com
+127.0.0.1 adtest.wbcao.com
+127.0.0.1 www.cuons.com
+127.0.0.1 www.bozlm.com
+127.0.0.1 www.xuany.cn
+127.0.0.1 1js.shkk365.com
+127.0.0.1 baidu.adsxin.com
+127.0.0.1 pic.qq66qq.com
+127.0.0.1 www.zhenren888.com
+127.0.0.1 wzw.la
+127.0.0.1 tag.tlvmedia.com
+127.0.0.1 nats.interdollars.com
+127.0.0.1 images.adultcammodels.com
+127.0.0.1 www.bravospots.com
+127.0.0.1 pu.trafficshop.com
+127.0.0.1 pcash.imlive.com
+127.0.0.1 cdn.tynt.com
+127.0.0.1 imagefreak001.com
+127.0.0.1 incezt.net
+127.0.0.1 www.999betwin.com
+127.0.0.1 www.88btt.com
+127.0.0.1 hav.tv
+127.0.0.1 4086.qqi.com.tw
+127.0.0.1 refer.ccbill.com
+127.0.0.1 gjsq.me
+127.0.0.1 ad.avsexnight.com
+127.0.0.1 www.relink.us
+127.0.0.1 widget.clips4sale.com
+127.0.0.1 click.kink.com
+127.0.0.1 c.actiondesk.com

@@ -738,6 +738,7 @@
 0.0.0.0 aidps.atdmt.com
 0.0.0.0 c.atdmt.com
 0.0.0.0 click.atdmt.com
+0.0.0.0 clk.atdmt.com
 0.0.0.0 ec.atdmt.com
 0.0.0.0 h.atdmt.com
 0.0.0.0 image.atdmt.com
@@ -750,6 +751,7 @@
 0.0.0.0 srch.atdmt.com
 0.0.0.0 t.atdmt.com
 0.0.0.0 vid.atdmt.com
+0.0.0.0 view.atdmt.com
 0.0.0.0 www.atdmt.com
 #Live
 0.0.0.0 analytics.live.com
