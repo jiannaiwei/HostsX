@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.19
+set ver=1.0.1.2
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -127,6 +127,7 @@ goto mouse
 
 :dns
 echo FlushDns...
+call :youku
 %k% iexplore.exe >nul 2>nul
 ipconfig -flushdns >nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
@@ -141,13 +142,15 @@ del /f /s /q "%userprofile%\recent">nul 2>nul
 ipconfig -flushdns >nul 2>nul
 ipconfig -registerdns >nul 2>nul
 ipconfig -renew >nul 2>nul
-call :youku
 goto :eof
 
 :youku
+start /min iexplore http://www.youku.com
+del /f /q %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg >nul 2>nul
+ping 127.0.0.1 -n 3 >nul
 for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
 set str=%%i
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q
