@@ -1111,6 +1111,11 @@
 0.0.0.0 d.yoyi.tv
 0.0.0.0 js.yoyi.tv
 0.0.0.0 www.yoyi.com.cn
+#Yongv
+0.0.0.0 adp.yongv.com
+0.0.0.0 js.yongv.com
+0.0.0.0 jss.yongv.com
+0.0.0.0 apf.whoclick.cn
 #Yqit
 0.0.0.0 js.yqit.net
 #Yyclick

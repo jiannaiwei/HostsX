@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=12:40:59.18 2013/01/15 ÷‹∂˛
+;version=10:18:17.74 2013/01/16 ÷‹»˝
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -10009,6 +10009,11 @@ fe80::1%lo0	localhost
 0.0.0.0 d.yoyi.tv
 0.0.0.0 js.yoyi.tv
 0.0.0.0 www.yoyi.com.cn
+#Yongv
+0.0.0.0 adp.yongv.com
+0.0.0.0 js.yongv.com
+0.0.0.0 jss.yongv.com
+0.0.0.0 apf.whoclick.cn
 #Yqit
 0.0.0.0 js.yqit.net
 #Yyclick
@@ -10624,6 +10629,8 @@ fe80::1%lo0	localhost
 
 @HostsX ø…“…≤°∂æ¿πΩÿ
 #µˆ”„’©∆≠
+76.162.33.234 yrsw.dzxxmh.com
+76.162.33.234 www.7wek.com
 76.162.33.234 visitorrewards.chattycatty.com
 76.162.33.234 static.visitorrewards.chattycatty.com
 76.162.33.234 huihui2.xudiao.com
@@ -11402,6 +11409,8 @@ fe80::1%lo0	localhost
 0.0.0.0 180.xdwan.com
 0.0.0.0 img4.xdwan.com
 0.0.0.0 active.xdwan.com
+0.0.0.0 doubleclick.tv002.com
+0.0.0.0 clientclick.tv002.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -12046,6 +12055,8 @@ fe80::1%lo0	localhost
 0.0.0.0 googlermb.com
 0.0.0.0 www.fgads.com
 0.0.0.0 p.37cu.com
-0.0.0.0 doubleclick.tv002.com
-0.0.0.0 clientclick.tv002.com
 0.0.0.0 c.i3z.cn
+0.0.0.0 www.yingfa168.com
+0.0.0.0 163.qqtan.com
+0.0.0.0 lg2.pic9382.com
+0.0.0.0 lg3457.5432168.com
