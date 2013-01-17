@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version= 8:37:45.48 2013/01/17 周四
+;version=17:29:37.75 2013/01/17 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1847,6 +1847,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ads.people.com.cn
 127.0.0.1 pro.people.com.cn
 #凤凰网
+127.0.0.1 mfp.deliver.ifeng.com
 127.0.0.1 survey.news.ifeng.com
 127.0.0.1 bc.ifeng.com
 127.0.0.1 sta.ifeng.com
