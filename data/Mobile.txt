@@ -515,6 +515,9 @@
 127.0.0.1 api.winsmedia.net
 127.0.0.1 www.winsmedia.net
 #Winads
+127.0.0.1 jf.winads.cn
+127.0.0.1 ts.winads.cn
+127.0.0.1 winads.cn
 127.0.0.1 www.winads.cn
 127.0.0.1 down.winads.cn
 #Wiyun
