@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=15:34:13.84 2013/01/18 周五
+;version=17:08:01.56 2013/01/18 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -894,6 +894,10 @@ fe80::1%lo0	localhost
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
+$FUNCTION:THUNDERAD
+$提示：您好，您正在使用的 HostsX 尚不支持生成此特殊 Hosts 项，
+$　　　请至囧科技官方网站 http://orztech.com/softwares/hostsx ，
+$      下载最新版本的 HostsX。
 #搜狐
 0.0.0.0 atyt.tv.sohu.com
 0.0.0.0 access.tv.sohu.com
