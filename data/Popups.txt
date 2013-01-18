@@ -899,6 +899,7 @@
 0.0.0.0 pop.syhccs.com
 0.0.0.0 t.womenwan.com
 0.0.0.0 wt1.wuming.com
+0.0.0.0 www.zwads.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

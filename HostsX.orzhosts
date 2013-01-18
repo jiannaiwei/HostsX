@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=22:03:37.77 2013/01/18 周五
+;version=22:46:00.10 2013/01/18 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -8950,6 +8950,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.1133.cc
 0.0.0.0 www.1133.cc
 0.0.0.0 z.1133.cc
+#1688988
+0.0.0.0 tz.1688988.com
+0.0.0.0 js.1688988.com
 #1lo0
 0.0.0.0 c1.1lo0.net
 0.0.0.0 c2.1lo0.net
@@ -12109,6 +12112,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pop.syhccs.com
 0.0.0.0 t.womenwan.com
 0.0.0.0 wt1.wuming.com
+0.0.0.0 www.zwads.com
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com
