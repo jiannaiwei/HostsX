@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.21
+set ver=1.0.1.22
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -344,6 +344,7 @@ goto :eof
 :Xunlei
 set /a str+=1
 echo 0.0.0.0 %str%.biz5.sandai.net >>%hosts%
+echo 0.0.0.0 %str%.logic.cpm.cm.sandai.net >>%hosts%
 if not %str%==%date:~0,4%%date:~5,2%31 (goto Xunlei)
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%
 goto :eof

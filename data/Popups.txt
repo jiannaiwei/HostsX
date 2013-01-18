@@ -892,6 +892,8 @@
 0.0.0.0 163.qqtan.com
 0.0.0.0 lg2.pic9382.com
 0.0.0.0 lg3457.5432168.com
+0.0.0.0 adforward.yeyou.com
+0.0.0.0 go.wonderad.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

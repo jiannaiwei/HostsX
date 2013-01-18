@@ -370,6 +370,7 @@
 0.0.0.0 img.uu1001.cn
 #新浪网
 0.0.0.0 adimg.mobile.sina.cn
+0.0.0.0 swf.games.sina.com.cn
 0.0.0.0 c.biz.weibo.com
 0.0.0.0 all.vic.sina.com.cn
 0.0.0.0 8.show.sina.com.cn
@@ -668,6 +669,47 @@
 0.0.0.0 union.jx2.kingsoft.com
 0.0.0.0 union.kingsoft.com
 0.0.0.0 union.wps.kingsoft.com
+#360
+0.0.0.0 hjql.stat.360safe.com
+0.0.0.0 ini.update.360safe.com
+0.0.0.0 inst.360safe.com
+0.0.0.0 pdown.stat.360safe.com
+0.0.0.0 plugin.stat.360safe.com
+0.0.0.0 seapp.stat.360safe.com
+0.0.0.0 softm.update.360safe.com
+0.0.0.0 stat.360safe.com
+0.0.0.0 yhds.stat.360safe.com
+0.0.0.0 update.360safe.com
+0.0.0.0 upload.360safe.com
+0.0.0.0 x.360safe.com
+0.0.0.0 tf.360.cn
+0.0.0.0 agd.p.360.cn
+0.0.0.0 bp.conf.f.360.cn
+0.0.0.0 cdn.apc.360.cn
+0.0.0.0 click.stat.hao.360.cn
+0.0.0.0 conf.f.360.cn
+0.0.0.0 cz.360.cn
+0.0.0.0 e.360.cn
+0.0.0.0 es.f.360.cn
+0.0.0.0 h.conf.f.360.cn
+0.0.0.0 pinst.360.cn
+0.0.0.0 q.leak.360.cn
+0.0.0.0 q.soft.360.cn
+0.0.0.0 qd.code.360.cn
+0.0.0.0 qup.f.360.cn
+0.0.0.0 qurl.f.360.cn
+0.0.0.0 rd.360.cn
+0.0.0.0 s.360.cn
+0.0.0.0 s.se.360.cn
+0.0.0.0 sampleup.sd.360.cn
+0.0.0.0 st.se.360.cn
+0.0.0.0 stat.apc.360.cn
+0.0.0.0 stat.sd.360.cn
+0.0.0.0 static.360.cn
+0.0.0.0 static.apc.360.cn
+0.0.0.0 union.360.cn
+0.0.0.0 up.f.360.cn
+0.0.0.0 zt.360.cn
 @门户和常用网站/Microsoft AD
 #Adbureau
 0.0.0.0 ad101com-images.adbureau.net
