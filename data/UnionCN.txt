@@ -160,6 +160,7 @@
 0.0.0.0 u948016.778669.com
 0.0.0.0 u349036.778669.com
 0.0.0.0 www.778669.com
+0.0.0.0 pic183025.images9999.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -648,6 +649,7 @@
 #Clicking
 0.0.0.0 adsense.clicking.com.tw
 #Cnxad
+0.0.0.0 c2.cnxad.com
 0.0.0.0 c.cnxad.com
 0.0.0.0 cnxad.com
 0.0.0.0 code.cnxad.com

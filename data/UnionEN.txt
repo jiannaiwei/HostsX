@@ -3716,6 +3716,7 @@
 0.0.0.0 243bc93d-bdf9-47fa-9459-3acfa4582de3.statcamp.net
 0.0.0.0 eas.statcamp.net
 #StatCounter
+0.0.0.0 gs.statcounter.com
 0.0.0.0 c.statcounter.com
 0.0.0.0 c1.statcounter.com
 0.0.0.0 c10.statcounter.com

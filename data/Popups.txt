@@ -894,6 +894,11 @@
 0.0.0.0 lg3457.5432168.com
 0.0.0.0 adforward.yeyou.com
 0.0.0.0 go.wonderad.com
+0.0.0.0 p.2866yx.com
+0.0.0.0 p.000dn.com
+0.0.0.0 pop.syhccs.com
+0.0.0.0 t.womenwan.com
+0.0.0.0 wt1.wuming.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

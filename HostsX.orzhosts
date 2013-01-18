@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=17:08:01.56 2013/01/18 周五
+;version=21:48:51.16 2013/01/18 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7436,6 +7436,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 243bc93d-bdf9-47fa-9459-3acfa4582de3.statcamp.net
 0.0.0.0 eas.statcamp.net
 #StatCounter
+0.0.0.0 gs.statcounter.com
 0.0.0.0 c.statcounter.com
 0.0.0.0 c1.statcounter.com
 0.0.0.0 c10.statcounter.com
@@ -9073,6 +9074,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u948016.778669.com
 0.0.0.0 u349036.778669.com
 0.0.0.0 www.778669.com
+0.0.0.0 pic183025.images9999.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -9561,6 +9563,7 @@ $      下载最新版本的 HostsX。
 #Clicking
 0.0.0.0 adsense.clicking.com.tw
 #Cnxad
+0.0.0.0 c2.cnxad.com
 0.0.0.0 c.cnxad.com
 0.0.0.0 cnxad.com
 0.0.0.0 code.cnxad.com
@@ -12102,6 +12105,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 lg3457.5432168.com
 0.0.0.0 adforward.yeyou.com
 0.0.0.0 go.wonderad.com
+0.0.0.0 p.2866yx.com
+0.0.0.0 p.000dn.com
+0.0.0.0 pop.syhccs.com
+0.0.0.0 t.womenwan.com
+0.0.0.0 wt1.wuming.com
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=17:08:01.56 2013/01/18 周五
+;version=21:48:51.16 2013/01/18 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7436,6 +7436,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 243bc93d-bdf9-47fa-9459-3acfa4582de3.statcamp.net
 127.0.0.1 eas.statcamp.net
 #StatCounter
+127.0.0.1 gs.statcounter.com
 127.0.0.1 c.statcounter.com
 127.0.0.1 c1.statcounter.com
 127.0.0.1 c10.statcounter.com
@@ -9073,6 +9074,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 u948016.778669.com
 127.0.0.1 u349036.778669.com
 127.0.0.1 www.778669.com
+127.0.0.1 pic183025.images9999.com
 #7pk
 127.0.0.1 al.7pk.com
 127.0.0.1 client.7pk.com
@@ -9561,6 +9563,7 @@ $      下载最新版本的 HostsX。
 #Clicking
 127.0.0.1 adsense.clicking.com.tw
 #Cnxad
+127.0.0.1 c2.cnxad.com
 127.0.0.1 c.cnxad.com
 127.0.0.1 cnxad.com
 127.0.0.1 code.cnxad.com
@@ -12102,6 +12105,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 lg3457.5432168.com
 127.0.0.1 adforward.yeyou.com
 127.0.0.1 go.wonderad.com
+127.0.0.1 p.2866yx.com
+127.0.0.1 p.000dn.com
+127.0.0.1 pop.syhccs.com
+127.0.0.1 t.womenwan.com
+127.0.0.1 wt1.wuming.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com
