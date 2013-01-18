@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=21:48:51.16 2013/01/18 周五
+;version=22:03:37.77 2013/01/18 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -872,7 +872,6 @@ fe80::1%lo0	localhost
 127.0.0.1 gouwu.vip.xunlei.com
 127.0.0.1 hezuo.down.xunlei.com
 127.0.0.1 jsunion.kankan.xunlei.com
-127.0.0.1 jump.niu.xunlei.com
 127.0.0.1 kkpgv.xunlei.com
 127.0.0.1 kkpgv2.xunlei.com
 127.0.0.1 leiyanstatic.xunlei.com

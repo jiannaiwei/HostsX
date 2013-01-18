@@ -581,7 +581,6 @@
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
 0.0.0.0 jsunion.kankan.xunlei.com
-0.0.0.0 jump.niu.xunlei.com
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 leiyanstatic.xunlei.com
