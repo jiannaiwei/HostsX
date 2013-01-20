@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.5
+Version: 5.0.1.6
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 21:40 2013/1/13
+Lastchage: 20:16 2013/1/20
 Description: MayBe a better User CSS Help U.
 */
 
@@ -19,7 +19,7 @@ div[class^="adA"],div[class^="adB"],div[class^="adb"],div[class^="adj"],div[clas
 div[class^="ads"],div[class^="adS"],div[class^="adv"],div[class^="adx"],div[class^="adimg"]{
 display: none !important;
 	}
-div[class="ad"],div[class^="ad_"],div[class$="_ads"],div[class$="_ad"][id$="_ad"],
+div[class="ad"],div[class^="ad_"],div[class$="_ads"],div[class$="_ad"][id$="_ad"],div[class$="-ad "],
 div[class*="-ad-"],div[class^="ad ad-"],div[class*="-ad ad"],div[class*="_ad_img"],div[class$="-ad"]{
 display: none !important;
 	}
@@ -162,7 +162,7 @@ font[style*="font-size:0p"],font[style*="font-size: 0p"],font[class="jammer"],
 span[style="font-size: 0pt"],span[style="display:none"],SPAN[class="transparent"],span[class="nddailyhfiled"]{
 display: none !important;
 	}
-font[color="#FFFFFF"]fieldset[style*=”:1px dashed“],p[class="Wtz196"],font[color="#EFF0EB"][style^="color:"],
+font[color="#FFFFFF"],fieldset[style*=":1px dashed"],p[class="Wtz196"],font[color="#EFF0EB"][style^="color:"],
 font[color*="FAE"],font[style="font-size:10px;color:#b4b4b4"]{
 display: none !important;
 	}
@@ -233,11 +233,9 @@ display: none !important;
 	}
 div[class^="upgrade_ie6"],div[id="update_popwin"],div[id="browsertip"],div[class^="bot_tips"],div[class="tips_player"],div[class="tips_container"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}
 
-/* 部分站点广告 */
+/* 国内部分站点广告 */
 sohuadcode {display:none !important}
-div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
-div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
 div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"]{display:none !important}
-div[class="sleekadbubble section squareBrowsead ch"],div[class="ego_column"]{display:none !important}
-div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
-div[id="nphLayoutGG"],div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],div[class^="imh-"][id^="imh-"]{display:none !important}
+
+/* 海外部分站点广告 */
+div[gmi-name="ad_zone"],div[class^="promo-"]{display:none !important}

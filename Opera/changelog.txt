@@ -1852,3 +1852,9 @@ Item, 伪装为 IE浏览器=Edit site preferences,,,,"ie" & delay,1 & Cycle to previou
 
 [12 Menu UA]
 ;1160版本之后
+
+div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
+div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
+div[class="ego_column"]{display:none !important}
+div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
+div[id="nphLayoutGG"],div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],div[class^="imh-"][id^="imh-"]{display:none !important}
