@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=22:46:00.10 2013/01/18 周五
+;version= 8:54:37.91 2013/01/20 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2574,7 +2574,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 3dns-3.adobe.com
 127.0.0.1 activate-sea.adobe.com
 127.0.0.1 activate-sjc0.adobe.com
-127.0.0.1 activate.adobe.com
 127.0.0.1 activate.wip3.adobe.com
 127.0.0.1 adobe-dns-2.adobe.com
 127.0.0.1 adobe-dns-3.adobe.com
@@ -2582,25 +2581,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ereg.adobe.com
 127.0.0.1 ereg.wip3.adobe.com
 127.0.0.1 hl2rcv.adobe.com
-127.0.0.1 practivate.adobe.com
 127.0.0.1 wip3.adobe.com
 127.0.0.1 wwis-dubc1-vip60.adobe.com
-127.0.0.1 3dns-2.adobe.com
-127.0.0.1 3dns-3.adobe.com
-127.0.0.1 activate-sea.adobe.com
-127.0.0.1 activate-sjc0.adobe.com
-127.0.0.1 activate.wip3.adobe.com
-127.0.0.1 adobe-dns-2.adobe.com
-127.0.0.1 adobe-dns-3.adobe.com
-127.0.0.1 adobe-dns.adobe.com
 127.0.0.1 adobe.activate.com
 127.0.0.1 adobeereg.com
-127.0.0.1 ereg.adobe.com
-127.0.0.1 ereg.wip3.adobe.com
-127.0.0.1 hl2rcv.adobe.com
 127.0.0.1 wip.adobe.com
-127.0.0.1 wip3.adobe.com
-127.0.0.1 wwis-dubc1-vip60.adobe.com
 #Aignes
 127.0.0.1 aignes.com
 127.0.0.1 aignes.net
