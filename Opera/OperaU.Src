@@ -1,7 +1,8 @@
 @echo off
-set ver=1.0.1.31
+set ver=1.0.1.32
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
+set k=taskkill /f /t /im
 pushd %~dp0
 rem Opera参数调用设置
 if '%1'=='opis' goto:opinst
