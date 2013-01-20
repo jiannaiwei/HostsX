@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.32
+set ver=1.0.1.33
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -141,6 +141,8 @@ rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com\qiyi_statistics.sol"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
+%k% iexplore.exe >nul 2>nul
+ipconfig -flushdns >nul 2>nul
 msg %username% /time:2 "视频播放广告已免疫！"
 goto exit
 
