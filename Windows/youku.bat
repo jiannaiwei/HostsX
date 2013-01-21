@@ -9,13 +9,13 @@ ping 127.0.0.1 -n 5 >nul
 for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
 set str=%%i
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com\YOUKU_FSO_PROXY.sol"
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com\qiyi_statistics.sol"
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 msg %username% /time:2 "视频播放广告已免疫！"
