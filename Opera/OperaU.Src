@@ -102,6 +102,7 @@ cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & exit
 :opclean
 del /f /q autoupdate_response.xml download.dat global_history.dat search_field_history.dat tasks.xml vlink4.dat opuntrust.dat optrust.dat optrb.dat typed_history.xml upgrade.log
 rd /s /q application_cache cache dictionaries icons opcache pstorage temporary_downloads vps webserver
+rd /s /q "%AppData%\Opera"
 echo 使用痕迹清理完毕!
 goto:eof
 
