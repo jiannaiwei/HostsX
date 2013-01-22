@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.37
+set ver=1.0.1.38
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -118,6 +118,7 @@ Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /
 Rd "%a%\test_permissions" >nul 2>nul
 rem mshta vbscript:msgbox("请务必在安装使用前详细阅读服务条款中的内容和问题解答！！！",64,"SimpleU Opera")(window.close)
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
+%k% autocopy.exe >nul 2>nul
 if not exist %a%\OperaJR.exe copy program\OperaJR.exe %a% >nul 2>nul
 if not exist %a%\autocopy.exe copy program\autocopy.exe %a% >nul 2>nul
 start %a%\autocopy.exe >nul 2>nul
