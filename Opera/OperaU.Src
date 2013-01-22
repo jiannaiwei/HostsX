@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.35
+set ver=1.0.1.36
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -159,7 +159,7 @@ start opera.exe "file://localhost/%~dp0/readme.html" & exit
 
 :makedefault
 mshta vbscript:msgbox("请勾选使用绝对路径，以解决通过调用打开链接时的相对路径问题！！！",64,"SimpleU")(window.close)&Pause
-Start GreenPath.exe & exit
+Start GreenPath.exe &echo 设置当前目录的Opera为默认浏览器&pause& set mypwd=%CD:\=\% & for %%L IN (HTTP https htmlfile) DO REG ADD HKLM\SOFTWARE\Classes\%%L\shell\Opera\command /v "" /t REG_SZ /d "\"%mypwd%\opera.exe\" \"%%1\"" /f > nul & for %%L IN (HTTP https htmlfile) DO REG ADD HKLM\SOFTWARE\Classes\%%L\shell /v "" /t REG_SZ /d "Opera" /f > nul & echo 已经完成Opera目录设置 &exit
 
 :md5
 del /q /a "%temp%\downifo" >nul 2>nul
