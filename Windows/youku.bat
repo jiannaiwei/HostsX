@@ -22,7 +22,7 @@ c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 %k% iexplore.exe >nul 2>nul
 ipconfig -flushdns >nul 2>nul
 msg %username% /time:2 "视频播放广告已免疫！"
-pause
+exit
 rd "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement" /s/q
 c:> "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement"
 rd "%APPDATA%\Tencent\QQ\SafeBase" /s/q
