@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 15:18 2013/1/9
-// @version 1.0.0.115
+// @lastmodified 14:58 2013/1/22
+// @version 1.0.0.116
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -747,6 +747,14 @@
 			autopager:{
 				useiframe:true,
 				pageElement:'//div[@id="Content"]/div[@id="TextTitle"]/h1 | //div[@id="Adsgg1"]/div[@id="BookText"]',
+			}
+		},
+		{siteName:'无错小说网',
+			url:/^http:\/\/www\.wcxiaoshuo\.com\/wcxs\-\d+\-\d+/i,
+			siteExample:'http://www.wcxiaoshuo.com/wcxs-*-*/',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@class="wrapper_main"][@id="jsreadbox"]/h1 | //div[@class="wrapper_main"][@id="jsreadbox"]/div[@id="htmlContent"][@class="contentbox"]',
 			}
 		},
 		{siteName:'人人影视',
