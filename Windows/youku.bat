@@ -1,5 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
+set k=taskkill /f /t /im
 start /min iexplore http://i.youku.com/u/UMzI4MTU2ODQ
 del /f /q %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
@@ -18,7 +19,10 @@ rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
+%k% iexplore.exe >nul 2>nul
+ipconfig -flushdns >nul 2>nul
 msg %username% /time:2 "视频播放广告已免疫！"
+pause
 rd "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement" /s/q
 c:> "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement"
 rd "%APPDATA%\Tencent\QQ\SafeBase" /s/q
