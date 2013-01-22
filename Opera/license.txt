@@ -1,6 +1,6 @@
 ﻿Opera SimpleU Mod 定制和参数详解：
 ; http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-21:07 2012/11/26
+15:53 2013/1/22
 
 
 
@@ -123,6 +123,7 @@ proxo            =simpleu/proxy/proxo.png
 puff             =simpleu/proxy/puff.png
 tor              =simpleu/proxy/tor.png
 wapp             =simpleu/proxy/wapp.png
+wcproxy          =simpleu/proxy/wcproxy.png
 wito             =simpleu/proxy/wito.png
 wj               =simpleu/proxy/wj.png
 
