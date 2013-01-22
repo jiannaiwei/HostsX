@@ -12,7 +12,6 @@ Options: encoding = utf8, version=3
 	NAME=Apple - Movie Trailers
 	URL=http://www.apple.com/trailers/
 	CREATED=1340117038
-	VISITED=1358514864
 	UNIQUEID=ED9CC02047499F488BC76EAEFF26DF90
 
 #URL
@@ -20,7 +19,6 @@ Options: encoding = utf8, version=3
 	NAME=Kexts
 	URL=http://olarila.com/kexts/
 	CREATED=1340117038
-	VISITED=1358217072
 	UNIQUEID=676B9100CC78234ABD2A678F1D0DECF3
 
 #URL
@@ -49,7 +47,6 @@ Options: encoding = utf8, version=3
 	NAME=威锋网
 	URL=http://www.weiphone.com/
 	CREATED=1322380304
-	VISITED=1358514811
 	UNIQUEID=A981D0F8AB9C96418ADB073D7FA7A4F3
 
 #URL
@@ -76,13 +73,6 @@ Options: encoding = utf8, version=3
 
 #URL
 	ID=26
-	NAME=开启/关闭网页编辑
-	URL=javascript:(function(){document.body.contentEditable=document.body.contentEditable!='true'?'true':'false';})()
-	CREATED=1345281625
-	UNIQUEID=CFA826A03F6A424DAF739D34665B6B54
-
-#URL
-	ID=27
 	NAME=查看UA
 	URL=javascript:var x=navigator.userAgent; var y='%'; for (var i=0;i<x.length;i++)%7B y+=x.charCodeAt(i).toString(16)+'%'; %7D y=unescape(decodeURI(y.replace(/\%$/,''))); alert(x+'\n\n'+y); void(0);
 	CREATED=1347802762
@@ -90,201 +80,194 @@ Options: encoding = utf8, version=3
 	UNIQUEID=8473D2B79CE6AB42866317A88A7F7173
 
 #URL
-	ID=28
+	ID=27
 	NAME=解除网页限制
 	URL=javascript:(function(){eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return%20r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new%20RegExp('\\b'+e(c)+'\\b','g'),k[c]);return%20p}('5%202=8;5%203=2.K;3.7=3.k=3.e=3.9=3.6=3.y=3.7=3.z=2.7=2.k=2.e=2.9=2.6=4;2.7=2.6=2.c=2.9=p(){r%20t};g(8.n||8){d=4;c=4;6=4}5%20a=8.15(\'*\');o(5%20i=a.q-1;i>=0;i--){5%20b=a[i];g(b.n||b){d=4;c=4}}s(h(\'%u%v%w%x%j%17%A%B%C%j%D\')+\'\\E\');3.m.13=\'14!f\';3.m.16=\'12!f\';',62,70,'||doc|bd|null|var|oncontextmenu|onselectstart|document|onkeydown|arAllElements|elmOne|onmousedown|onmouseup|onpaste|important|with|unescape||u5236|oncopy||style|wrappedJSObject|for|function|length|return|alert|true|u5DF2|u89E3|u9664|u590D|onmousemove|ondragstart|u53F3|u952E|u9650|uFF01|u000d||||||body||||||||||||||||||text|webkitUserSelect|auto|getElementsByTagName|MozUserSelect|u4E0E'.split('|'),0,{}))})()
 	CREATED=1344598311
 	UNIQUEID=62FD7832EA5C23468A2DC368AD510A11
 
 #URL
-	ID=29
+	ID=28
 	NAME=清除Fixed定位
 	URL=javascript:(function(){var oAll=document.all,oElement,i=0,oCurrentStyle,oStyle;while(oElement=oAll[i++]){oCurrentStyle=oElement.currentStyle;oStyle=oElement.style;if(oCurrentStyle.position==='fixed'){oStyle.position='static'};if(oCurrentStyle.backgroundAttachment==='fixed'){oStyle.backgroundAttachment='scroll'}}})();
 	CREATED=1345282364
 	UNIQUEID=7E54952FE42DEA4590F29246DE9A6EF8
 
 #URL
-	ID=30
+	ID=29
 	NAME=Draggable screen ruler
 	URL=javascript:void('http://centricle.com/tools/favelets/');marqueeColor=prompt('Marquee%20Color:','red');initMarquee=document.createElement('div');marquee=document.body.appendChild(initMarquee);marquee.style.position='absolute';marquee.style.border='dashed%201px%20red';initControls=document.createElement('div');controls=document.body.appendChild(initControls);controls.style.position='absolute';controls.style.top='-300px';controls.style.left='-300px';controls.style.width='85px';controls.style.background='%23eee';controls.style.padding='5px';controls.style.border='solid%201px%20%23ccc';controls.style.font='10px%20verdana,sans-serif';controls.style.width='85px';controls.style.zIndex='99';controls.innerHTML='%3Cb%3ECurrent:%3C/b%3E%3Cbr%3E%20x:%3Cspan%20id=%22currentX%22%3E0%3C/span%3E%20y:%3Cspan%20id=%22currentY%22%3E0%3C/span%3E%3Cbr%3E%3Cb%3EBegin:%3C/b%3E%3Cbr%3E%20x:%3Cspan%20id=%22beginX%22%3E0%3C/span%3E%20y:%3Cspan%20id=%22beginY%22%3E0%3C/span%3E%3Cbr%3E%3Cb%3EEnd:%3C/b%3E%3Cbr%3E%20x:%3Cspan%20id=%22endX%22%3E0%3C/span%3E%20y:%3Cspan%20id%20=%22endY%22%3E0%3C/span%3E%3Cbr%3E%3Cb%3EDimensions:%3C/b%3E%3Cbr%3E%20w:%3Cspan%20id=%22dimX%22%3E0%3C/span%3E%20h:%3Cspan%20id=%22dimY%22%3E0%3C/span%3E';document.onmousemove=follow;document.onmousedown=beginDrag;document.onmouseup=endDrag;currentX=document.getElementById('currentX');currentY=document.getElementById('currentY');beginX=document.getElementById('beginX');beginY=document.getElementById('beginY');endX=document.getElementById('endX');endY=document.getElementById('endY');dimX=document.getElementById('dimX');dimY=document.getElementById('dimY');var%20marqueeLeft=0;var%20marqueeTop=0;dragging=false;void(document.body.style.cursor='crosshair');function%20follow(e){x=e.pageX;y=e.pageY;controls.style.left=x+15+'px';controls.style.top=y+15+'px';currentX.innerHTML=x;currentY.innerHTML=y;if(dragging){marquee.style.width=x-dragstartX+'px';dimX.innerHTML=Math.abs(x-dragstartX);marquee.style.height=y-dragstartY+'px';dimY.innerHTML=Math.abs(y-dragstartY);}return%20true;};function%20beginDrag(e){marquee.style.width=0;marquee.style.height=0;marquee.style.borderColor=marqueeColor;dragging=true;x=e.pageX;y=e.pageY;marquee.style.visibility='visible';marquee.style.left=x+'px';marquee.style.top=y+'px';dragstartX=x;dragstartY=y;beginX.innerHTML=x;beginY.innerHTML=y;return%20true;}function%20endDrag(e){dragging=false;x=e.pageX;y=e.pageY;endX.innerHTML=x;endY.innerHTML=y;return%20true;}
 	CREATED=1333362986
 	UNIQUEID=31DA46009B1E1947BCF0049EE0FF5EF3
 
 #URL
-	ID=31
+	ID=30
 	NAME=沪江小D在线划词翻译
 	URL=javascript:void((function(){hjelm=document.createElement('script');hjelm.setAttribute('src','http://dict.hujiang.com/app/js/dict_ajax.js');document.body.appendChild(hjelm);})())
 	CREATED=1346686044
 	UNIQUEID=7D7515C8D93D2144864751BDCEDDFD72
 
 #SEPERATOR
-	ID=32
+	ID=31
 	UNIQUEID=A5D2199881CA64439787361EEE3F5573
 
 #URL
-	ID=33
+	ID=32
 	NAME=显示密码
 	URL=javascript:(function()%7Bvar%20IN,F;IN=document.getElementsByTagName('input');for(var%20i=0;i<IN.length;i++)%7BF=IN%5Bi%5D;if(F.type.toLowerCase()=='password')%7Btry%7BF.type='text'%7Dcatch(r)%7Bvar%20n,Fa;n=document.createElement('input');Fa=F.attributes;for(var%20ii=0;ii<Fa.length;ii++)%7Bvar%20k,knn,knv;k=Fa%5Bii%5D;knn=k.nodeName;knv=k.nodeValue;if(knn.toLowerCase()!='type')%7Bif(knn!='height'&&knn!='width'&!!knv)n%5Bknn%5D=knv%7D%7D;F.parentNode.replaceChild(n,F)%7D%7D%7D%7D)()
 	CREATED=1347802762
 	UNIQUEID=21546213DAB25B40A7572C8117B85EEF
 
 #URL
-	ID=34
+	ID=33
 	NAME=显示/生成密码
 	URL=javascript:(function(){var getRandomPass=function(d){var chars='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';var rez='';var len=d>=3?d:3;while(rez.length<len){rez+=chars.charAt(Math.floor(Math.random()*chars.length))}return/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).+$/.test(rez)?rez:arguments.callee(len)};var findPassEle=function(p){var c,s='',r=false,f=document.getElementsByTagName('form');for(var i=0;i<f.length;i++){c=f[i].elements;for(var j=0,e;e=c[j];j++){if(e.type=='password'){r=true;if(p){e.value=p;e.focus()}else if(e.value)s+='\n\n'+e.value}}};return r?s:null};var s=findPassEle();if(s){alert('在这个页面已经有密码:'+s)}else{findPassEle(prompt('密码生成'+(s==null?':':'. 插入?'),getRandomPass(12)))}})()
 	CREATED=1348321327
 	UNIQUEID=E0BC7D91B85B6148B8DA49FAE8FF334D
 
 #URL
-	ID=35
+	ID=34
 	NAME=显示所选部分源代码
 	URL=javascript:function%20getSelSource()%20{%20x%20=%20document.createElement("div");%20x.appendChild(window.getSelection().getRangeAt(0).cloneContents());%20return%20x.innerHTML;%20}%20function%20makeHR()%20{%20return%20nd.createElement("hr");%20}%20function%20makeParagraph(text)%20{%20p%20=%20nd.createElement("p");%20p.appendChild(nd.createTextNode(text));%20return%20p;%20}%20function%20makePre(text)%20{%20p%20=%20nd.createElement("pre");%20p.appendChild(nd.createTextNode(text));%20return%20p;%20}%20nd%20=%20window.open().document;%20ndb%20=%20nd.body;%20if%20(!window.getSelection%20||%20!window.getSelection().rangeCount%20||%20window.getSelection().getRangeAt(0).collapsed)%20{%20nd.title="Generated%20Source%20of:%20"%20+%20location.href;%20ndb.appendChild(makeParagraph("No%20selection,%20showing%20generated%20source%20of%20entire%20document."));%20ndb.appendChild(makeHR());%20ndb.appendChild(makePre("<html>\n"%20+%20document.documentElement.innerHTML%20+%20"\n</html>"));%20}%20else%20{%20nd.title="Partial%20Source%20of:%20"%20+%20location.href;%20ndb.appendChild(makePre(getSelSource()));%20};%20void%200
 	CREATED=1355116348
 	UNIQUEID=516F04776C311149A417A2AAA2D8D39E
 
 #URL
-	ID=36
+	ID=35
 	NAME=显示源代码
 	URL=javascript:(function(){%20function%20htmlEscape(s){s=s.replace(/&/g,'&amp;');s=s.replace(/>/g,'&gt;');s=s.replace(/</g,'&lt;');return%20s;}%20x=window.open();%20x.document.write('<pre>'%20+%20htmlEscape('<html>\n'%20+%20document.documentElement.innerHTML%20+%20'\n</html>'));%20x.document.close();%20})();
 	CREATED=1355116343
 	UNIQUEID=439548164B15914A9BA4F6BD9DE2FEDA
 
 #URL
-	ID=37
+	ID=36
 	NAME=显示图片和大小
 	URL=javascript:n='';for(i=0;i%3Cdocument.images.length;i++)%7Bn+='%3Cimg%20src='+document.images%5Bi%5D.src+'%3E%20'+document.images%5Bi%5D.width+'x'+document.images%5Bi%5D.height+'%3Cbr%3E%3Cbr%3E'%7D;if(n!='')%7Bdocument.write('%3Cp%20style=font-size:11px;font-family:verdana,sans;%3E'+n+'%3C/p%3E');void(document.close())%7Delse%7Balert('i%20see%20no%20images')%7D
 	CREATED=1333363388
 	UNIQUEID=C35BB2CE0626F044ACA0DD80D6BCCAB9
 
 #URL
-	ID=38
+	ID=37
 	NAME=显示脚本
 	URL=javascript:s=document.getElementsByTagName('SCRIPT');%20d=window.open().document;%20/*140681*/d.open();d.close();%20b=d.body;%20function%20trim(s){return%20s.replace(/^\s*\n/,%20'').replace(/\s*$/,%20'');%20};%20function%20add(h){b.appendChild(h);}%20function%20makeTag(t){return%20d.createElement(t);}%20function%20makeText(tag,text){t=makeTag(tag);t.appendChild(d.createTextNode(text));%20return%20t;}%20add(makeText('style',%20'iframe{width:100Qeight:18em;border:1px%20solid;'));%20add(makeText('h3',%20d.title='Scripts%20in%20'%20+%20location.href));%20for(i=0;%20i<s.length;%20++i)%20{%20if%20(s%5Bi%5D.src)%20{%20add(makeText('h4','script%20src="'%20+%20s%5Bi%5D.src%20+%20'"'));%20iframe=makeTag('iframe');%20iframe.src=s%5Bi%5D.src;%20add(iframe);%20}%20else%20{%20add(makeText('h4','Inline%20script'));%20add(makeText('pre',%20trim(s%5Bi%5D.innerHTML)));%20}%20}%20void%200
 	CREATED=1355116333
 	UNIQUEID=EE3BD85E3C4F4B4B9BEF10452345B349
 
 #URL
-	ID=39
+	ID=38
 	NAME=显示样式表
 	URL=javascript:s=document.getElementsByTagName('STYLE');%20ex=document.getElementsByTagName('LINK');%20d=window.open().document;%20/*set%20base%20href*/d.open();d.close();%20b=d.body;%20function%20trim(s){return%20s.replace(/^\s*\n/,%20'').replace(/\s*$/,%20'');%20};%20function%20iff(a,b,c){return%20b?a+b+c:'';}function%20add(h){b.appendChild(h);}%20function%20makeTag(t){return%20d.createElement(t);}%20function%20makeText(tag,text){t=makeTag(tag);t.appendChild(d.createTextNode(text));%20return%20t;}%20add(makeText('style',%20'iframe{width:100%;height:18em;border:1px%20solid;'));%20add(makeText('h3',%20d.title='Style%20sheets%20in%20'%20+%20location.href));%20for(i=0;%20i<s.length;%20++i)%20{%20add(makeText('h4','Inline%20style%20sheet'%20%20+%20iff('%20title="',s%5Bi%5D.title,'"')));%20add(makeText('pre',%20trim(s%5Bi%5D.innerHTML)));%20}%20for%20(i=0;%20i<ex.length;%20++i)%20{%20rs=ex%5Bi%5D.rel.split('%20');%20for(j=0;j<rs.length;++j)%20if%20(rs%5Bj%5D.toLowerCase()=='stylesheet')%20{%20add(makeText('h4','link%20rel="'%20+%20ex%5Bi%5D.rel%20+%20'"%20href="'%20+%20ex%5Bi%5D.href%20+%20'"'%20+%20iff('%20title="',ex%5Bi%5D.title,'"')));%20iframe=makeTag('iframe');%20iframe.src=ex%5Bi%5D.href;%20add(iframe);%20break;%20}%20}%20void%200
 	CREATED=1355116327
 	UNIQUEID=00800AAFCE95164AA2A44E73D72052F9
 
 #URL
-	ID=40
+	ID=39
 	NAME=显示 class
 	URL=javascript:(function(){var%20a={},b=%5B%5D,i,e,c,k,d,s="<table%20border=1><thead><tr><th>#</th><th>Tag</th><th>className</th></tr></thead>";for(i=0;e=document.getElementsByTagName("*")%5Bi%5D;++i)if(c=e.className){k=e.tagName+"."+c;a%5Bk%5D=a%5Bk%5D?a%5Bk%5D+1:1;}for(k%20in%20a)b.push(%5Bk,a%5Bk%5D%5D);b.sort();for(i%20in%20b)%20s+="<tr><td>"+b%5Bi%5D%5B1%5D+"</td><td>"+b%5Bi%5D%5B0%5D.split(".").join("</td><td>")+"</td></tr>";s+="</table>";d=open().document;d.write(s);d.close();})()
 	CREATED=1355116340
 	UNIQUEID=C672615F4C79A548B78F5F6A4C6FAE54
 
 #URL
-	ID=41
+	ID=40
 	NAME=显示变量和函数
 	URL=javascript:(function(){var%20x,d,i,v,st;%20x=open();%20d=x.document;%20d.open();%20function%20hE(s){s=s.replace(/&/g,"&amp;");s=s.replace(/>/g,"&gt;");s=s.replace(/</g,"&lt;");return%20s;}%20d.write("<style>td{vertical-align:top;%20white-space:pre;%20}%20table,td,th%20{%20border:%201px%20solid%20#ccc;%20}%20div.er%20{%20color:red%20}</style><table%20border=1><thead><tr><th>Variable</th><th>Type</th><th>Value%20as%20string</th></tr></thead>");%20for%20(i%20in%20window)%20{%20if%20(!(i%20in%20x)%20)%20{%20v=window%5Bi%5D;%20d.write("<tr><td>"%20+%20hE(i)%20+%20"</td><td>"%20+%20hE(typeof(window%5Bi%5D))%20+%20"</td><td>");%20if%20(v===null)%20d.write("null");%20else%20if%20(v===undefined)%20d.write("undefined");%20else%20try{st=v.toString();%20if%20(st.length)d.write(hE(v.toString()));%20else%20d.write(" ")}catch(er){d.write("<div%20class=er>"+hE(er.toString())+"</div>")};%20d.write("</pre></td></tr>");%20}%20}%20d.write("</table>");%20d.close();%20})();
 	CREATED=1355116337
 	UNIQUEID=831D05FD1AC13B4C9B7392308738FCD4
 
 #SEPERATOR
-	ID=42
+	ID=41
 	UNIQUEID=CAF7546C10620741B0040613C1714CB2
 
 #URL
-	ID=43
+	ID=42
 	NAME=自动翻页
 	URL=javascript:(function(){if(window['pgzp']){_pgzpToggleBookmarklet();}else{window._page_zipper_is_bookmarklet=true;window._page_zipper=document.createElement('script');window._page_zipper.type='text/javascript';window._page_zipper.src='http://www.printwhatyoulike.com/static/pagezipper/pagezipper_10.js';document.getElementsByTagName('head')[0].appendChild(window._page_zipper);}})();
 	CREATED=1318231749
 	UNIQUEID=64F528FBF89AEB49857B9CD5DB3821AD
 
 #URL
-	ID=44
+	ID=43
 	NAME=显示锚点
 	URL=javascript:(function(){var%20atags,i,name,a;%20anchs%20=%20document.anchors;%20for(i=0;%20i<anchs.length;%20++i)%20{%20a%20=%20anchs%5Bi%5D;%20name%20=%20a.name;%20a.appendChild(document.createTextNode("#"%20+%20name));%20a.style.border%20=%20"1px%20solid";%20a.href%20=%20"#"%20+%20name;%20}%20})();
 	CREATED=1355116414
 	UNIQUEID=DF1FC72A6041CD4CB2BED33AA696997A
 
 #URL
-	ID=45
+	ID=44
 	NAME=显示元素边框
 	URL=javascript:(function(){var css='table { border: 1px solid blue ! important; } \n table td { border: 1px solid lightblue ! important; } \n table table { border: 1px solid green ! important; } \n table table td { border: 1px solid lightgreen ! important; } \n table table table { border: 1px solid red ! important; } \n table table table td { border: 1px solid orange ! important; } \n div { border: 1px solid ! important; } \n p { border: 1px dotted ! important; } \n body { background: white ! important; color: black ! important; } \n * { padding: 2px; }\n dl, ol, ul {outline: 1px solid #3366CC !important;} \n dt, dd, li {outline: 1px dashed #7295DC !important;} \n address {outline: 1px dashed #010101 !important;} \n span {outline: 1px dotted #CC0000 !important;} \n thead, tfoot, tbody {outline: 1px dashed #99CC00 !important;} \n tr, th, td {outline: 1px dotted #99CC00 !important;} \n img, object, area {outline: 1px dashed #9966FF !important;} \n form {outline: 1px dotted green !important;}';var heads = document.getElementsByTagName('head');	if (heads.length > 0) {var node = document.createElement('style');node.type = 'text/css';	node.appendChild(document.createTextNode(css));heads[0].appendChild(node); }})();
 	CREATED=1348317415
 	UNIQUEID=8C74A0101D519040BA68A4723C7DCC95
 
 #URL
-	ID=46
+	ID=45
 	NAME=页面链接
 	URL=javascript:function%20htmlEscape(s){s=s.replace(/&/g,'&amp;');s=s.replace(/>/g,'&gt;');s=s.replace(/</g,'&lt;');return%20s;}%20function%20linkEscape(s){s=s.replace(/&/g,'&amp;');s=s.replace(/"/,'&quot;');return%20s}%20h%20=%20'<a%20href="'%20+%20linkEscape(location.href)%20+%20'">'%20+%20htmlEscape(document.title)%20+%20'</a>';%20with(window.open().document){write(h+'<form%20name=f><textarea%20%20name=a%20rows=5%20cols=80%20wrap=hard>'+htmlEscape(h)+'</textarea></form>');%20close();%20f.a.select();%20}%20void%200
 	CREATED=1355116410
 	UNIQUEID=F0FB7C9F9E823C459FF16D2C2BDEB5F6
 
 #URL
-	ID=47
+	ID=46
 	NAME=样式表元素列表
 	URL=javascript:(function(){function%20A(n,g){var%20p=n.parentNode,t=n.tagName;if(!p)return%20"";if(!t)return%20A(p,g);var%20T=t.toUpperCase(),b=(T!="TABLE"&&T!="TBODY"&&T!="THEAD"&&T!="TR"),c=n.className,i=n.id;return%20A(p,'%20>%20')+(b?T:T.toLowerCase())+(c?"."+c:"")+(i?"#"+i:"")+(b?g:'%20');}document.onmouseover=function(e){e=e?e:event;var%20s,g=e.target;g=g?g:e.srcElement;try{s=A(g,'')+"%20(click%20for%20computed%20styles)";}catch(err){s=err.message;}window.status=s;return%20true;};window.status=A(document.documentElement,'');var%20newSS,styles='*%20{%20cursor:%20crosshair;%20}';newSS=document.createElement('link');newSS.rel='stylesheet';newSS.type='text/css';newSS.href='data:text/css,'+escape(styles);document.getElementsByTagName("head")%5B0%5D.appendChild(newSS);document.onclick=function(e){e=e?e:event;var%20s,g=e.target;g=g?g:e.srcElement;var%20x=window.open('','computedStyles');x.document.open();x.document.close();var%20d=x.document;x.onunload=function(){document.onclick=null;document.onmouseover=null;window.status=null;newSS.href='data:text/css,';};function%20sp(n,t,col){var%20r=d.createElement(n);r.appendChild(d.createTextNode(t));if(col)r.style.color=col;return%20r;}var%20typeIndex={'top':1,'bottom':1,'height':1,'width':1,'left':1,'right':1,'position':0,'display':0,'-moz-appearance':0,'-moz-box-sizing':0};var%20colors=%5B"red","green","black"%5D;function%20undirect(v){return%20v.replace(/\-(left|top|bottom|right)/,"-*");}function%20diff(n,p){pcs=p.ownerDocument.defaultView.getComputedStyle(p,"");ncs=n.ownerDocument.defaultView.getComputedStyle(n,"");var%20A=%5B%5D;var%20B={};var%20C={};for(var%20i=0;i<ncs.length;++i){var%20e=ncs.item(i),v=ncs.getPropertyValue(e),pv=pcs.getPropertyValue(e);if(v!=pv){var%20u=undirect(e);if(u.indexOf("-*")!=-1){if(!B%5Bu%5D)B%5Bu%5D=%5B0,v%5D;if(B%5Bu%5D%5B1%5D==v)++(B%5Bu%5D%5B0%5D);}A.push(%5BtypeIndex%5Be%5D!=null?typeIndex%5Be%5D:2,e,v%5D);}}A=A.sort();for(var%20u%20in%20B)if(B%5Bu%5D%5B0%5D==4)C%5Bu%5D=true;for(var%20i%20in%20A){var%20t=A%5Bi%5D,e=t%5B1%5D,v=t%5B2%5D,u=undirect(e);if(C%5Bu%5D){if(t%5B1%5D.indexOf("-left")!=-1)d.body.appendChild(sp("div",u+":%20"+v,colors%5Bt%5B0%5D%5D));}else%20d.body.appendChild(sp("div",e+":%20"+v,colors%5Bt%5B0%5D%5D));}}function%20info(n){if(!n)return;if(n.tagName){d.body.appendChild(sp("h4",A(n,'')));diff(n,n.parentNode.nodeType!='9'?n.parentNode:d.documentElement);}info(n.parentNode);}d.body.appendChild(sp("p","This%20shows%20how%20the%20computed%20style%20of%20each%20node%20differs%20from%20the%20computed%20style%20of%20its%20parent.%20The%20root%20element,%20which%20has%20no%20parent,%20is%20instead%20compared%20against%20the%20root%20of%20a%20blank%20HTML%20document."));info(g);x.focus();e.preventDefault();}})()
 	CREATED=1355116290
 	UNIQUEID=D7A41288C81C1E47BFF9BA4FC94EDDF3
 
 #URL
-	ID=48
+	ID=47
 	NAME=移除描述性HTML标记
 	URL=javascript:(function(){var%20H=%5B"bgcolor","bgColor","background","color","align","text","alink","vlink"%5D,Y={FONT:1,CENTER:1},d=%5B%5D,p;%20function%20R(N){var%20a,x,i,t;%20if(t=N.tagName){%20t=t.toUpperCase();%20for%20(i=0;a=H%5Bi%5D;++i)if(N.getAttribute(a))N.removeAttribute(a);%20for(i=0;x=N.childNodes%5Bi%5D;++i)R(x);%20if%20(Y%5Bt%5D)d.push(N);%20}%20}%20R(document.documentElement);%20for%20(i=0;N=d%5Bi%5D;++i)%20{%20p=N.parentNode;%20while(N.firstChild)p.insertBefore(N.firstChild,N);%20p.removeChild(N);%20}%20})()
 	CREATED=1355116314
 	UNIQUEID=69B73A71EBC7FB408334AF43EC4F395A
 
 #URL
-	ID=49
+	ID=48
 	NAME=移除对象
 	URL=javascript:(function(){function R(w){try{var d=w.document,j,i,t,T,N,b,r=1,C;for(j=0;t=["object","embed","applet","iframe"][j];++j){T=d.getElementsByTagName(t);for(i=T.length-1;(i+1)&&(N=T[i]);--i)if(j!=3||!R((C=N.contentWindow)?C:N.contentDocument.defaultView)){b=d.createElement("div");b.style.width=N.width; b.style.height=N.height;b.innerHTML="<del>"+(j==3?"third-party "+t:t)+"</del>";N.parentNode.replaceChild(b,N);}}}catch(E){r=0}return r}R(self);var i,x;for(i=0;x=frames[i];++i)R(x)})()
 	CREATED=1347802762
 	UNIQUEID=70428ABEA70FB349B59B97C8922C38A1
 
 #URL
-	ID=50
+	ID=49
 	NAME=禁用CSS
 	URL=javascript:(function(){var%20i,x;for(i=0;x=document.styleSheets%5Bi%5D;++i)x.disabled=true;})();
 	CREATED=1355116298
 	UNIQUEID=5DCE09E76BA33148BC2BD9C495DF7F20
 
 #SEPERATOR
-	ID=51
+	ID=50
 	UNIQUEID=559ED03D38C14A429977729DBD4FA500
 
 #URL
-	ID=52
+	ID=51
 	NAME=强制HTML显示
 	URL=javascript:document.write(document.body.innerText)
 	CREATED=1347802762
 	UNIQUEID=CE755F95387AAF49B2B4221E4E6AF47A
 
 #URL
-	ID=53
-	NAME=滚动屏幕
-	URL=javascript:function AutoScroll() {window.scrollBy(0,1); NextScroll = setTimeout('AutoScroll()', 120);window.onkeydown = StopScroll;};function StopScroll(e) {if(e.keyCode == 27){clearTimeout(NextScroll);};};AutoScroll();
-	CREATED=1333363282
-	UNIQUEID=40FB0CD4A9391D45BEC186B0D8B5AD0A
-
-#URL
-	ID=54
+	ID=52
 	NAME=微软雅黑
 	URL=javascript:var style=document.createElementNS('http://www.w3.org/1999/xhtml','style');style.id='myfont';style.type='text/css';var root=document.getElementsByTagName('head')[0]||document.body;root.appendChild(style);style.appendChild(document.createTextNode('*{font-family:"微软雅黑"!important;}'+'\n'));void 0
 	CREATED=1347802762
 	UNIQUEID=61D6240865801045A8F57CE4E9A6FF03
 
 #URL
-	ID=55
+	ID=53
 	NAME=白底黑字
 	URL=javascript:(function(){var b=document.getElementsByTagName('*');for(var    i=0;i<b.length;i++){b[i].style.backgroundImage='none';b   [i].style.backgroundColor='#FFFFFF';b[i].style.color='#000000'}})()
 	CREATED=1347802762
 	UNIQUEID=6E711DE8FC29A54BA5DFA48868345F31
 
 #URL
-	ID=56
+	ID=54
 	NAME=高对比度显示
 	URL=javascript:(function(){var%20s="body",c="",I="%20!%20important;",i,b,f,x,h;%20for(i=0;i<17;++i)%20{%20x%20=%20i.toString(16);%20b%20=%20i>15?"FCC":x+x+x;%20f%20=%20i>9?"000":"FFF";%20c%20+=%20s%20+%20"%20{background:%20#"%20+%20b%20+%20I%20+%20"border-color:%20#"%20+%20b%20+%20I%20+%20"color:%20#"%20+%20f%20+%20I%20+%20"}\n";%20s%20+=%20"%20*";%20}%20if(document.createStyleSheet)%20{%20document.createStyleSheet("javascript:'"+c+"'");%20}%20else%20{%20h=document.createElement('link');%20h.rel='stylesheet';%20h.href='data:text/css,'+escape(c);%20document.getElementsByTagName("head")%5B0%5D.appendChild(h);}})()
 	CREATED=1355116395
 	UNIQUEID=24B664BA38BAA24C88AF157D7FF8C652
 
 #URL
-	ID=57
+	ID=55
 	NAME=高对比度显示2
 	URL=javascript:(function(){var%20s="body",c="",I="%20!%20important;",i,b,f,x,h;%20for(i=0;i<17;++i)%20{%20x%20=%20i.toString(16);%20b%20=%20i>15?"FCC":x+x+x;%20f%20=%20i>9?"000":"FFF";%20c%20+=%20s%20+%20"%20{background:%20#"%20+%20b%20+%20I%20+%20"border:%201px%20outset%20#"%20+%20b%20+%20I%20+%20"color:%20#"%20+%20f%20+%20I%20+%20"}\n";%20s%20+=%20"%20*";%20}%20if(document.createStyleSheet)%20{%20document.createStyleSheet("javascript:'"+c+"'");%20}%20else%20{%20h=document.createElement('link');%20h.rel='stylesheet';%20h.href='data:text/css,'+escape(c);%20document.getElementsByTagName("head")%5B0%5D.appendChild(h);}})()
 	CREATED=1355116400
@@ -293,117 +276,107 @@ Options: encoding = utf8, version=3
 -
 
 #FOLDER
-	ID=58
+	ID=56
 	NAME=Proxy
 	CREATED=1318087031
 	UNIQUEID=222626922F88194882CCF2F05E990B97
 
 #URL
-	ID=59
+	ID=57
 	NAME=GoAgent
 	URL=https://code.google.com/p/goagent/
 	CREATED=1318087093
-	VISITED=1358472436
 	SHORT NAME=gae
 	UNIQUEID=FE7B89DCD4FE3740A1CE2BEB931B5469
 
 #URL
-	ID=60
+	ID=58
 	NAME=wallproxy-plus
 	URL=https://code.google.com/p/wallproxy-plus/
 	CREATED=1352515977
-	VISITED=1358177256
 	UNIQUEID=3E11DD3B053E084AB8BF83C5368260C3
 
 #URL
-	ID=61
+	ID=59
 	NAME=AdvOR
 	URL=http://sourceforge.net/projects/advtor/
 	CREATED=1344577133
-	VISITED=1358491122
 	UNIQUEID=D9C0F4B06B046044A76F1724EAE7729B
 
 #URL
-	ID=62
+	ID=60
 	NAME=Psiphon 3
 	URL=https://s3.amazonaws.com/2bmh-cisb-58r3/zh.html
 	CREATED=1348445476
 	UNIQUEID=2AE5987859C10A47B787F7EA46118B54
 
 #URL
-	ID=63
+	ID=61
 	NAME=ssh110.com
 	URL=http://www.ssh110.com/
 	CREATED=1356706793
-	VISITED=1358491152
 	UNIQUEID=8744A60AE4AC26489DFB6148B5669FA9
 
 #URL
-	ID=64
+	ID=62
 	NAME=Tenacy 開心直通車
 	URL=http://tenacy.sino.tw/
 	CREATED=1318087043
-	VISITED=1358491161
 	UNIQUEID=11F763CEA122104590510E3A269FD519
 
 #URL
-	ID=65
+	ID=63
 	NAME=V2EX DNS
 	URL=http://dns.v2ex.com/
 	CREATED=1320285582
-	VISITED=1358491162
 	UNIQUEID=99C32901995B3B42A26073A5ACEADC96
 
 #URL
-	ID=66
+	ID=64
 	NAME=纯真IP
 	URL=http://www.cz88.net/proxy/
 	CREATED=1318664035
 	UNIQUEID=90FEA6AA0C7931448ED5420FB7D227EA
 
 #URL
-	ID=67
+	ID=65
 	NAME=中国代理服务器网
 	URL=http://www.cnproxy.com/
 	CREATED=1318664042
-	VISITED=1358491170
 	UNIQUEID=4F1CF89DA3867849AD3C2676A3E6FE4B
 
 #URL
-	ID=68
+	ID=66
 	NAME=just ping
 	URL=http://just-ping.com/
 	CREATED=1319897155
-	VISITED=1358491214
 	UNIQUEID=9D0BE0F4CC98534D833381A686506A46
 
 #URL
-	ID=69
+	ID=67
 	NAME=IE代理(Proxyie.cn)
 	URL=http://proxyie.cn/
 	CREATED=1327410763
-	VISITED=1358491176
 	UNIQUEID=2DBDB91C6B7A3243B9EB92497FE7C3A0
 
 #URL
-	ID=70
+	ID=68
 	NAME=Anonymouse.org
 	URL=http://anonymouse.org/anonwww.html
 	CREATED=1356833575
 	UNIQUEID=113F15447B1008428BC69C65DC03D2B8
 
 #URL
-	ID=71
+	ID=69
 	NAME=IPv6+GAE
 	URL=http://wangyueblog.com/2010/11/10/ipv6-gae/
 	CREATED=1318602351
-	VISITED=1358493595
 	UNIQUEID=2EA9329115717443965232FE54C54F89
 
 -
 
 #FOLDER
-	ID=72
+	ID=70
 	NAME=Google
 	CREATED=1355532670
 	ON PERSONALBAR=YES
@@ -411,80 +384,72 @@ Options: encoding = utf8, version=3
 	UNIQUEID=D09D5B87DE2104458C4C733F6A3CDC74
 
 #URL
-	ID=73
+	ID=71
 	NAME=Google en
 	URL=http://www.google.com/webhp?hl=en
 	CREATED=1340117038
-	VISITED=1358514511
 	UNIQUEID=FEF7D3A7E3B61448A0E32B5424F471F9
 
 #URL
-	ID=74
-	NAME=Google-jp
+	ID=72
+	NAME=Google
 	URL=http://www.google.jp
 	CREATED=1299134889
 	SHORT NAME=gj
 	UNIQUEID=7978EE3675F4B3418E9FD116B1CB81F7
 
 #URL
-	ID=75
+	ID=73
 	NAME=Google-ie
 	URL=http://www.google.ie/
 	CREATED=1340117038
-	VISITED=1358490957
 	UNIQUEID=2F45A3BACE5CD541887E92B4763046C2
 
 #URL
-	ID=76
-	NAME=Google-Ca
+	ID=74
+	NAME=Google-Canada
 	URL=http://www.google.ca/
 	CREATED=1299134889
-	VISITED=1358490956
 	SHORT NAME=gc
 	UNIQUEID=33F660EE0D7DBD49BA73B7FB5B9566FC
 
 #URL
-	ID=77
+	ID=75
 	NAME=翻译
 	URL=http://translate.google.cn/translate_t?hl=zh-CN
 	CREATED=1230663500
-	VISITED=1358491036
 	UNIQUEID=48CAE20D919F594584804B98F986F89B
 
 #URL
-	ID=78
+	ID=76
 	NAME=日历
-	URL=https://www.google.com/calendar
+	URL=http://calendar.google.com/?home=zh-CN
 	CREATED=1230663526
-	VISITED=1358491033
 	UNIQUEID=D2BBC996797A1A4E85EC2B5232B195C4
 
 #URL
-	ID=79
+	ID=77
 	NAME=地图
 	URL=http://ditu.google.cn/
 	CREATED=1230663548
-	VISITED=1358491017
 	UNIQUEID=0FCB553439195841A740076780D75C4E
 
 #URL
-	ID=80
+	ID=78
 	NAME=图片搜索
 	URL=http://www.google.com.hk/imghp?hl=zh-CN&tab=ii
 	CREATED=1230663565
-	VISITED=1358491015
 	UNIQUEID=06323886E1E4124C96B0384D90E32E8F
 
 #URL
-	ID=81
+	ID=79
 	NAME=文件
-	URL=https://docs.google.com/
+	URL=https://www.google.com/accounts/ServiceLogin?service=writely&passive=true&continue=http%3A%2F%2Fdocs.google.com%2F%3Fhl%3Dzh_CN&hl=zh_CN&ltmpl=homepage&nui=1&utm-source=zh_CN-more&utm-medium=more&utm-campaign=zh_CN
 	CREATED=1230663729
-	VISITED=1358491003
 	UNIQUEID=AFA7034A17F9D34A997EEF496CE14BB4
 
 #URL
-	ID=82
+	ID=80
 	NAME=Gmail
 	URL=https://mail.google.com
 	CREATED=1290872041
@@ -492,79 +457,71 @@ Options: encoding = utf8, version=3
 	UNIQUEID=355B4BA74262DF42B2A491B16F2CEA85
 
 #URL
-	ID=83
-	NAME=GReader
-	URL=https://www.google.com/reader
+	ID=81
+	NAME=GoogleReader
+	URL=http://www.google.com/reader
 	CREATED=1230663853
-	VISITED=1358490994
 	UNIQUEID=DDE13E727F439A4E96607DE570C884B8
 
 #URL
-	ID=84
+	ID=82
 	NAME=图书搜索
 	URL=http://books.google.com.hk/?hl=zh-CN&sourceid=cnhp
 	CREATED=1230663905
-	VISITED=1358490986
 	UNIQUEID=DEB49EE9FCCF8E42A1CC08D477BACF03
 
 #URL
-	ID=85
+	ID=83
 	NAME=网站导航
 	URL=http://www.265.com/
 	CREATED=1230663921
-	VISITED=1358490980
 	UNIQUEID=72BFBE49E5F15C4183C7D8BA2DE06ED4
 
 #URL
-	ID=86
+	ID=84
 	NAME=资讯
 	URL=http://news.google.com/nwshp?hl=zh-CN&vanilla=0
 	CREATED=1230663944
-	VISITED=1358490973
 	UNIQUEID=63102820301F1E4CBDA05AA085EBD709
 
 #URL
-	ID=87
+	ID=85
 	NAME=Picasa照片
 	URL=http://picasa.google.com/intl/zh-CN
 	CREATED=1230663997
-	VISITED=1358490966
 	UNIQUEID=443E9CFAE1A9334488A6BBDA1A327251
 
 -
 
 #FOLDER
-	ID=88
+	ID=86
 	NAME=侧边栏
 	CREATED=1322495120
 	UNIQUEID=6392B671ABC1564E8529F81A46C0D69E
 
 #URL
-	ID=89
+	ID=87
 	NAME=百度HI
 	URL=http://web.im.baidu.com/
 	CREATED=1306377011
-	VISITED=1358490096
 	UNIQUEID=D3A96368966B38459B74F4CB729CFFE2
 
 #URL
-	ID=90
+	ID=88
 	NAME=阿里旺旺
 	URL=http://webwwtb.im.alisoft.com/wangwang/webww1.htm?from=homepage
 	CREATED=1306376995
-	VISITED=1358490097
 	UNIQUEID=74EA84B4D6E63146B04C145A1BC8D7C8
 
 #URL
-	ID=91
+	ID=89
 	NAME=Live Messager
 	URL=http://webmessenger.live.cn/wlml/index.htm
 	CREATED=1306376978
-	VISITED=1358490099
 	UNIQUEID=18614624F4BE5E4B939A03D037DC62E0
 
 #URL
-	ID=92
+	ID=90
 	NAME=网页版飞信
 	URL=https://webim.feixin.10086.cn/
 	CREATED=1326553576
@@ -572,293 +529,277 @@ Options: encoding = utf8, version=3
 	UNIQUEID=6E929F32EC0FC14DAF447FD2F774344D
 
 #URL
-	ID=93
+	ID=91
 	NAME=UC聊天
 	URL=http://im.sina.com.cn/web_chat/index_v2.html
 	CREATED=1306392032
 	UNIQUEID=20DF0D9636ACA5428422F74E1448B31F
 
 #URL
-	ID=94
-	NAME=Web-ICQ
+	ID=92
+	NAME=Launch Web-ICQ
 	URL=http://c.icq.com/webicq/banias/gb/icq/410/WidgetMain.html
 	CREATED=1356833485
-	VISITED=1358490015
 	UNIQUEID=3F542579A48F8E469C6E9581D3608863
 
 #URL
-	ID=95
+	ID=93
 	NAME=WebQQ
 	URL=http://web.qq.com/
 	CREATED=1306392076
-	VISITED=1358490125
 	SHORT NAME=qq
 	UNIQUEID=A89D124F0123DD43ABD9B819304DBC6D
 
 #URL
-	ID=96
+	ID=94
 	NAME=QQ空间
 	URL=http://qz.qq.com/?origintype=4
 	CREATED=1318659550
-	VISITED=1358490241
 	UNIQUEID=E03CB728EFCA7246BE9959206BA46701
 
 #URL
-	ID=97
+	ID=95
 	NAME=手机腾讯网
 	URL=http://pt.3g.qq.com/
 	CREATED=1346684271
-	VISITED=1358490220
 	UNIQUEID=29A14A29B6D4E44E9B7167635972A599
 
 #URL
-	ID=98
+	ID=96
 	NAME=股市迷你面板
 	URL=http://stockapp.finance.qq.com/panel/index.php?check=4&key=toolbar&uin=
 	CREATED=1318659587
-	VISITED=1358343882
 	IN PANEL=YES
-	PANEL_POS=2
+	PANEL_POS=3
 	UNIQUEID=662D3CE4108B234DB275BECA1F97877D
 
 #URL
-	ID=99
+	ID=97
 	NAME=Google任务
 	URL=https://mail.google.com/tasks/ig
 	CREATED=1351092206
 	UNIQUEID=5882B45AD8E34346BDCF52956B03C5B7
 
 #URL
-	ID=100
+	ID=98
 	NAME=Google 翻译
 	URL=http://translate.google.com/m/translate
 	CREATED=1354198236
-	VISITED=1358521572
 	IN PANEL=YES
-	PANEL_POS=3
+	PANEL_POS=4
 	UNIQUEID=76F17B2C6F423743AD95F17070D755C1
 
 #URL
-	ID=101
+	ID=99
 	NAME=腾讯微博
 	URL=http://radio.t.qq.com/open/t.php?sid=1278&pref=internal.qqbrowser
 	CREATED=1318659608
-	VISITED=1358490132
 	IN PANEL=YES
 	PANEL_POS=1
 	UNIQUEID=BE0F05D18F5E664F91A0E825A2F072B4
 
 #URL
-	ID=102
+	ID=100
 	NAME=新浪微博
 	URL=http://service0.mail.sina.com.cn/apps/xweibo/index.php?m=index
 	CREATED=1346374565
-	VISITED=1358490069
 	UNIQUEID=BA0D9950CC386140A9055FC971F6396D
 
 #URL
-	ID=103
+	ID=101
 	NAME=豆瓣FM Side
 	URL=http://douban.fm/partner/sidebar
 	CREATED=1318659696
-	VISITED=1358491101
 	IN PANEL=YES
 	PANEL_POS=0
 	UNIQUEID=25319813733CCA4FB7F254A2136CF9BB
 
 #URL
-	ID=104
+	ID=102
 	NAME=亦歌
 	URL=http://www.1g1g.com/
 	CREATED=1306391892
-	VISITED=1358490142
 	UNIQUEID=908713A8F6006A46A41920CA3E142170
 
 -
 
 #FOLDER
-	ID=105
+	ID=103
 	NAME=工具按钮
 	CREATED=1305043225
 	UNIQUEID=5671EB7A4D49F047A06389BECD7BD04A
 
 #URL
-	ID=106
+	ID=104
 	NAME=二维码生成器
 	URL=http://cli.im/
 	CREATED=1340117038
-	VISITED=1358490260
 	UNIQUEID=01E6E4AB931ACE4C9BFF5C8412D9D3A9
 
 #URL
-	ID=107
+	ID=105
 	NAME=论坛转帖工具
 	URL=http://bbs.crsky.com/ztgj.htm
 	CREATED=1340117038
-	VISITED=1358490051
 	UNIQUEID=0CDFFDBEC62623418F2369BED3726215
 
 #URL
-	ID=108
+	ID=106
 	NAME=文字转换器
 	URL=http://undine.duapp.com/huoxing/
 	CREATED=1357312525
-	VISITED=1358490609
 	SHORT NAME=hx
 	UNIQUEID=08F4953F43A46E4B95EE470AE2853426
 
 #URL
-	ID=109
+	ID=107
 	NAME=美图秀秀网页版
 	URL=http://xiuxiu.web.meitu.com/
 	CREATED=1357797134
-	VISITED=1358490619
 	UNIQUEID=026E3C3BF7FA7A4FA4628B2B2A5AB7D3
 
 #URL
-	ID=110
+	ID=108
 	NAME=表情符号
 	URL=http://mail.qq.com/zh_CN/htmledition/features/about_symbolization.html
 	CREATED=1318665473
-	VISITED=1358490300
 	SHORT NAME=bq
 	UNIQUEID=D784930A3286E44587AB1BB1524B3720
 
 #URL
-	ID=111
+	ID=109
 	NAME=IP.CN
 	URL=http://www.ip.cn/
 	CREATED=1358175267
-	VISITED=1358490303
 	UNIQUEID=7819B6DC6747824CBCB21BF8FBB73CCD
 
 #URL
-	ID=112
+	ID=110
 	NAME=Privnote
 	URL=https://privnote.com/
 	CREATED=1315482176
-	VISITED=1358490771
 	UNIQUEID=27C895D2D581AD4EA6BED67AF1CA34FE
 
 #URL
-	ID=113
-	NAME=notepad.cc
+	ID=111
+	NAME=notepad.cc / simpleu
 	URL=http://notepad.cc/simpleu
 	CREATED=1357045581
-	VISITED=1358515091
 	UNIQUEID=FF0432AC9DE5D44FAB2D58E5C1677F1A
 
 #URL
-	ID=114
-	NAME=notepad.im
+	ID=112
+	NAME=云记事薄
 	URL=http://notepad.im/
 	CREATED=1329400076
-	VISITED=1358490712
 	UNIQUEID=81FB434B930B244CA254302020104279
 
 #URL
-	ID=115
+	ID=113
 	NAME=PDF to Word Converter
 	URL=http://www.pdftoword.com/
 	CREATED=1358211067
-	VISITED=1358490365
 	UNIQUEID=9D53B4890C5EAF4B82D77B9BBBA4D4AF
 
 #URL
-	ID=116
+	ID=114
 	NAME=WPS DotView
 	URL=http://view.wps.cn/service/dotview/html/script/common/swfupload/swfupload.html
 	CREATED=1357108663
-	VISITED=1358490363
 	UNIQUEID=D414C6EC5FEF3048805109BF9039D544
 
 #URL
-	ID=117
+	ID=115
 	NAME=工具啦
 	URL=http://www.tool.la/
 	CREATED=1221645916
-	VISITED=1358490711
 	UNIQUEID=9F510B89EFD83D43A51C32AC00C1D379
 
 #URL
-	ID=118
+	ID=116
 	NAME=Base64 解码
 	URL=http://maclife.net/tools/base64/
 	CREATED=1315532440
-	VISITED=1358490577
 	UNIQUEID=498EF26F2CD95048A436FD31D4864A3B
 
 #URL
-	ID=119
+	ID=117
 	NAME=Nod32服务器
 	URL=http://www.google.com/search?client=opera&rls=zh-cn&q=intitle:%22index+of%22+nup&sourceid=opera&ie=utf-8&oe=utf-8&channel=suggest
 	CREATED=1315960097
-	VISITED=1358490659
 	UNIQUEID=FDBDE43880625941B219F97A892A2EB9
 
 #URL
-	ID=120
+	ID=118
 	NAME=Csdn免积分下载
 	URL=http://wwww.beianx.com/csdn/
 	CREATED=1347642741
-	VISITED=1358224115
 	UNIQUEID=802908D36892454B8D8121D1394ABCC3
 
 #URL
-	ID=121
+	ID=119
 	NAME=路由设置
 	URL=http://192.168.1.1/
 	CREATED=1315481718
-	VISITED=1358490686
 	SHORT NAME=lyq
 	UNIQUEID=177DC4C65382F648B34D264D56D8DCC9
 
 #URL
-	ID=122
+	ID=120
 	NAME=我取便捷工具
 	URL=http://woqv.cn/
 	CREATED=1328369341
-	VISITED=1358490841
 	UNIQUEID=05414AA3B7B17446A4B0388AE337B6A2
 
 #URL
-	ID=123
+	ID=121
 	NAME=Virscan
 	URL=http://virscan.org/
 	CREATED=1315482267
-	VISITED=1358504380
+	VISITED=1358821447
 	UNIQUEID=577A1188608F1D48B3493B4A002310C6
 
 #URL
-	ID=124
+	ID=122
 	NAME=VirusTotal
 	URL=https://www.virustotal.com/
 	CREATED=1358490396
 	UNIQUEID=9D0C6960F929D446AE99DC0B8D588DB8
 
 #URL
-	ID=125
+	ID=123
 	NAME=火眼
 	URL=https://fireeye.ijinshan.com/
 	CREATED=1344562461
-	VISITED=1358490449
 	UNIQUEID=744A5F6AF04AFA408B0546432056033F
 
 #URL
-	ID=126
+	ID=124
 	NAME=Jotti's malware scan
 	URL=http://virusscan.jotti.org/en
 	CREATED=1318665627
-	VISITED=1358490444
 	UNIQUEID=A42722D97397EC40AFDFEF4F69CA5313
 
 #URL
-	ID=127
+	ID=125
 	NAME=进程信息库
 	URL=http://www.processlib.net/index.html
 	CREATED=1318665608
-	VISITED=1358490453
 	UNIQUEID=A0A74037721EFE45A80ED7D6054F4D72
+
+#URL
+	ID=126
+	NAME=滚动屏幕
+	URL=javascript:function AutoScroll() {window.scrollBy(0,1); NextScroll = setTimeout('AutoScroll()', 120);window.onkeydown = StopScroll;};function StopScroll(e) {if(e.keyCode == 27){clearTimeout(NextScroll);};};AutoScroll();
+	CREATED=1333363282
+	UNIQUEID=40FB0CD4A9391D45BEC186B0D8B5AD0A
+
+#URL
+	ID=127
+	NAME=开启/关闭网页编辑
+	URL=javascript:(function(){document.body.contentEditable=document.body.contentEditable!='true'?'true':'false';})()
+	CREATED=1345281625
+	UNIQUEID=CFA826A03F6A424DAF739D34665B6B54
 
 -
 
@@ -873,7 +814,6 @@ Options: encoding = utf8, version=3
 	NAME=Xtube
 	URL=http://www.xtube.com/
 	CREATED=1319379008
-	VISITED=1358562619
 	UNIQUEID=9BA523E67DFBEE4BAABFCB3C163F26B7
 
 #URL
@@ -881,7 +821,6 @@ Options: encoding = utf8, version=3
 	NAME=Pornhub
 	URL=http://www.pornhub.com/
 	CREATED=1318755111
-	VISITED=1358562622
 	UNIQUEID=97E7A61EC5E62F4BB3434531BC908393
 
 #URL
@@ -889,7 +828,6 @@ Options: encoding = utf8, version=3
 	NAME=Hot Goo
 	URL=http://www.hotgoo.com/
 	CREATED=1318084783
-	VISITED=1358562623
 	UNIQUEID=FC7A26989C296340BFA59DC006CE69A8
 
 #URL
@@ -897,7 +835,6 @@ Options: encoding = utf8, version=3
 	NAME=YouPorn
 	URL=http://www.youporn.com/
 	CREATED=1318088645
-	VISITED=1358562623
 	UNIQUEID=DBFE31BF06673E45A751861E6356EA4C
 
 #URL
@@ -905,15 +842,13 @@ Options: encoding = utf8, version=3
 	NAME=X-Art
 	URL=http://x-art.com/
 	CREATED=1345115889
-	VISITED=1358562672
 	UNIQUEID=FD4E1F69FE04724490B73CAD58C77007
 
 #URL
 	ID=134
-	NAME=色色社区
+	NAME=多多色色社区
 	URL=http://www.kokoto.info/
 	CREATED=1317895213
-	VISITED=1358583213
 	UNIQUEID=7270488103E49C44A020CC3FEEDC6BF3
 
 #URL
@@ -921,7 +856,6 @@ Options: encoding = utf8, version=3
 	NAME=Torrent Kitty
 	URL=http://www.torrentkitty.com/search/
 	CREATED=1344395826
-	VISITED=1358582844
 	UNIQUEID=A64C42493EDBE84B8818DD8216D0A08B
 
 #URL
@@ -929,7 +863,6 @@ Options: encoding = utf8, version=3
 	NAME=AV电影下载迅雷
 	URL=http://97.rt85.com/
 	CREATED=1316415941
-	VISITED=1358582864
 	UNIQUEID=5556DFCCB300BE41872E9E254D93F8E6
 
 #URL
@@ -937,7 +870,6 @@ Options: encoding = utf8, version=3
 	NAME=HOTAVXXX
 	URL=http://www.hotavxxx.com/
 	CREATED=1348502998
-	VISITED=1358582865
 	UNIQUEID=9D9A98D3D63E8047B3C6B523C4249F89
 
 #URL
@@ -945,7 +877,6 @@ Options: encoding = utf8, version=3
 	NAME=草榴- Bt/P2P 新作聚合
 	URL=http://t66y.com/read.rss/
 	CREATED=1323265786
-	VISITED=1358582937
 	UNIQUEID=48CF2B3DBBB23C43BFB812A27BB99FAD
 
 #URL
@@ -953,7 +884,6 @@ Options: encoding = utf8, version=3
 	NAME=木石前盟的共享
 	URL=http://zhonghua.ctdisk.com/
 	CREATED=1340117038
-	VISITED=1358344377
 	UNIQUEID=E30C55D84566384781D252CA900924BE
 
 #URL
@@ -961,7 +891,6 @@ Options: encoding = utf8, version=3
 	NAME=U-15 天堂
 	URL=http://www.u15.tv/
 	CREATED=1340117038
-	VISITED=1358582998
 	UNIQUEID=A3689A7FDF6F894D91D82DE2E6E4956F
 
 #URL
@@ -969,7 +898,6 @@ Options: encoding = utf8, version=3
 	NAME=18OnlyGirls
 	URL=http://www.18onlygirls.info/
 	CREATED=1352569550
-	VISITED=1358582819
 	UNIQUEID=D594BE64117DDA40925C1A4A1B19D350
 
 #URL
@@ -977,7 +905,6 @@ Options: encoding = utf8, version=3
 	NAME=八國聯軍
 	URL=http://www.geelin.com/
 	CREATED=1340117038
-	VISITED=1358583006
 	UNIQUEID=51FCDAE7C1794A44A3078D7A71053681
 
 #URL
@@ -985,7 +912,6 @@ Options: encoding = utf8, version=3
 	NAME=最新地址发布页
 	URL=http://alive.pen.io/
 	CREATED=1346688121
-	VISITED=1358583347
 	UNIQUEID=D19BAB402203804682A197DEDC485403
 
 #URL
@@ -993,7 +919,6 @@ Options: encoding = utf8, version=3
 	NAME=龍BT發布
 	URL=http://www.55bt.eu/index.html
 	CREATED=1358348819
-	VISITED=1358584243
 	UNIQUEID=883C5BF2C6D80A489CCBE1D9C7BC432A
 
 #URL
@@ -1001,7 +926,6 @@ Options: encoding = utf8, version=3
 	NAME=270pp
 	URL=http://270pp.com/
 	CREATED=1337080162
-	VISITED=1358583508
 	UNIQUEID=BBFBCD76E9DB9142ABAB3772572BF062
 
 #URL
@@ -1009,7 +933,6 @@ Options: encoding = utf8, version=3
 	NAME=bbmmm
 	URL=http://www.03zzz.com/
 	CREATED=1358345599
-	VISITED=1358583523
 	UNIQUEID=1DF3F0611557DE4B862D79EB13B935A5
 
 #URL
@@ -1017,7 +940,6 @@ Options: encoding = utf8, version=3
 	NAME=０００ＫＫＫ
 	URL=http://77tete.com/
 	CREATED=1344949509
-	VISITED=1358583532
 	UNIQUEID=EF8B87F2C348D04D9ABCE8DF03E2F36B
 
 #URL
@@ -1025,7 +947,6 @@ Options: encoding = utf8, version=3
 	NAME=２２５５Ｋ
 	URL=http://2255k.com/
 	CREATED=1356923220
-	VISITED=1358583540
 	UNIQUEID=49E934F443C667499CB78265AABF64F0
 
 #URL
@@ -1033,7 +954,6 @@ Options: encoding = utf8, version=3
 	NAME=一个色导航
 	URL=http://www.ygs44.com/
 	CREATED=1344949571
-	VISITED=1358583548
 	UNIQUEID=26D329469EF29B4392E51E7F9B6332A1
 
 #URL
@@ -1041,7 +961,6 @@ Options: encoding = utf8, version=3
 	NAME=农夫导航
 	URL=http://16nf.com/
 	CREATED=1344949580
-	VISITED=1358583560
 	UNIQUEID=BA8B709333FC794FB35337AC632DCD1C
 
 #URL
@@ -1049,7 +968,6 @@ Options: encoding = utf8, version=3
 	NAME=落伍者导航
 	URL=http://www.55dh.net/
 	CREATED=1344949600
-	VISITED=1358583561
 	UNIQUEID=0DF4FEC39900F840B4C39BBC9C113291
 
 #URL
@@ -1057,7 +975,6 @@ Options: encoding = utf8, version=3
 	NAME=BDSM THUMBS
 	URL=http://www.bdsm-thumbs.net/
 	CREATED=1340117038
-	VISITED=1358583578
 	UNIQUEID=48C6192E6A47954F852FD309BBCCE154
 
 #URL
@@ -1065,7 +982,6 @@ Options: encoding = utf8, version=3
 	NAME=恋足
 	URL=http://sm.sm12345.com/
 	CREATED=1344949563
-	VISITED=1358584239
 	UNIQUEID=EFB0FAD99A1987489E814636B537CE18
 
 #SEPERATOR
@@ -1077,7 +993,6 @@ Options: encoding = utf8, version=3
 	NAME=18P2P
 	URL=http://forum.int.18p2p.com/forum/
 	CREATED=1324046030
-	VISITED=1358583106
 	UNIQUEID=68F0DE9CDA8A854A8780C35FE6D8FD51
 
 #URL
@@ -1085,7 +1000,6 @@ Options: encoding = utf8, version=3
 	NAME=城市風情
 	URL=http://64.78.167.62/bbs/?fromuid=11134272
 	CREATED=1317895455
-	VISITED=1358583177
 	UNIQUEID=558A5B0FDC408A499D065F818B4ED327
 
 #URL
@@ -1093,7 +1007,6 @@ Options: encoding = utf8, version=3
 	NAME=【娜魯灣論壇】
 	URL=http://www.naluone-jp.com/forums/index.php
 	CREATED=1317895606
-	VISITED=1358583179
 	UNIQUEID=1F2AA73DB0DE864E865FFD8A70E95D42
 
 #URL
@@ -1101,7 +1014,6 @@ Options: encoding = utf8, version=3
 	NAME=紫色特別室論壇
 	URL=http://purpleroom.biz/discuz/
 	CREATED=1340117038
-	VISITED=1358583187
 	UNIQUEID=86925D431F480B4E880EF248B0CD92FA
 
 #URL
@@ -1109,7 +1021,6 @@ Options: encoding = utf8, version=3
 	NAME=貓貓論壇
 	URL=http://catcatbox.com/
 	CREATED=1340117038
-	VISITED=1358583217
 	UNIQUEID=1890BADC5237724B8E30F31DD3AF45F4
 
 #URL
@@ -1117,7 +1028,6 @@ Options: encoding = utf8, version=3
 	NAME=7大叔论坛
 	URL=http://www.7dashu.com/
 	CREATED=1340117038
-	VISITED=1358584209
 	UNIQUEID=1D41D94194A99745A2426F2D34518438
 
 #URL
@@ -1125,7 +1035,6 @@ Options: encoding = utf8, version=3
 	NAME=欢乐夫妻
 	URL=http://www.huanlefuqi.com/club/
 	CREATED=1340117038
-	VISITED=1358584230
 	UNIQUEID=CFCA30846E4F4B49832AC8712543061F
 
 #SEPERATOR
@@ -1137,7 +1046,6 @@ Options: encoding = utf8, version=3
 	NAME=【掠影】
 	URL=http://lueying.blog132.fc2blog.net/
 	CREATED=1329917476
-	VISITED=1358584172
 	UNIQUEID=0A4BFEFB47662346B21EBF0439178294
 
 #URL
@@ -1145,7 +1053,6 @@ Options: encoding = utf8, version=3
 	NAME=EAM
 	URL=http://gay-japan.infopop.cc/bookmarks.html
 	CREATED=1347878054
-	VISITED=1358584200
 	UNIQUEID=175E8A2888131B4E9847D281E320C7B0
 
 #URL
@@ -1153,7 +1060,6 @@ Options: encoding = utf8, version=3
 	NAME=G片下載
 	URL=http://jp.gay8.org/
 	CREATED=1329917467
-	VISITED=1358584184
 	UNIQUEID=70E40C52912FC44891435AEFE591A1E0
 
 #URL
@@ -1161,7 +1067,6 @@ Options: encoding = utf8, version=3
 	NAME=BTG日本同志电影社区
 	URL=http://www.btgay.com/forum.php
 	CREATED=1352732369
-	VISITED=1358584179
 	UNIQUEID=098DA90855B60D4CBCD7AF703FF147FD
 
 #URL
@@ -1176,7 +1081,6 @@ Options: encoding = utf8, version=3
 	NAME=独尊帝国
 	URL=http://www.iu45.net/index.php
 	CREATED=1344561166
-	VISITED=1358584183
 	UNIQUEID=426F2215A3BAFC408F39D956324FA4B5
 
 #URL
@@ -1192,7 +1096,6 @@ Options: encoding = utf8, version=3
 	NAME=搜 同
 	URL=https://76.164.232.70/index.php
 	CREATED=1344562136
-	VISITED=1358584184
 	SHORT NAME=st
 	UNIQUEID=B67EA1558934BE4EB1E07330303BD423
 
@@ -1201,7 +1104,6 @@ Options: encoding = utf8, version=3
 	NAME=Mind-Control Story
 	URL=http://mcstories.com/
 	CREATED=1330355988
-	VISITED=1358345723
 	UNIQUEID=66EB8DEEE009A545B9FCC33E49B88FDA
 
 -
@@ -1217,7 +1119,6 @@ Options: encoding = utf8, version=3
 	NAME=BBC
 	URL=http://www.bbc.com/
 	CREATED=1328281181
-	VISITED=1358505054
 	UNIQUEID=2D7D670572CA0C469B47D77220E81E8A
 
 #URL
@@ -1225,7 +1126,6 @@ Options: encoding = utf8, version=3
 	NAME=CNN Online News
 	URL=http://edition.cnn.com/
 	CREATED=1340117038
-	VISITED=1358505340
 	UNIQUEID=BC6774DF5B844249926B4B8DF055E64E
 
 #URL
@@ -1233,7 +1133,6 @@ Options: encoding = utf8, version=3
 	NAME=New York Times
 	URL=http://www.nytimes.com/
 	CREATED=1328280960
-	VISITED=1358505064
 	UNIQUEID=2C3297C517BDDD40887AB3076BD51909
 
 #URL
@@ -1241,7 +1140,6 @@ Options: encoding = utf8, version=3
 	NAME=NGM
 	URL=http://ngm.nationalgeographic.com/
 	CREATED=1328281006
-	VISITED=1358505059
 	UNIQUEID=41EFDC6DBF983344B77B9D96CAFB4ED7
 
 #URL
@@ -1249,7 +1147,6 @@ Options: encoding = utf8, version=3
 	NAME=VOA
 	URL=http://www.voanews.com/chinese/news/
 	CREATED=1318666168
-	VISITED=1358505342
 	UNIQUEID=9CD45B7B06F883409E6332FAC5438902
 
 #URL
@@ -1257,7 +1154,6 @@ Options: encoding = utf8, version=3
 	NAME=今日新聞網
 	URL=http://www.nownews.com/
 	CREATED=1318665494
-	VISITED=1358504991
 	UNIQUEID=B5D2A09333F49C46ACD7CEA0F7B66D08
 
 #URL
@@ -1265,7 +1161,6 @@ Options: encoding = utf8, version=3
 	NAME=博讯新闻主页
 	URL=http://www.boxun.com/
 	CREATED=1318666156
-	VISITED=1358505309
 	UNIQUEID=E921246D63F6DF4B96B0F39C9EFA4413
 
 #URL
@@ -1273,7 +1168,6 @@ Options: encoding = utf8, version=3
 	NAME=BBC中文网
 	URL=http://www.bbc.co.uk/zhongwen/simp/
 	CREATED=1318666319
-	VISITED=1358504991
 	UNIQUEID=AC0E8B69003CF849AA417F2D7C72F608
 
 #URL
@@ -1281,7 +1175,6 @@ Options: encoding = utf8, version=3
 	NAME=朝日新聞中文网
 	URL=http://asahichinese.com/
 	CREATED=1351420231
-	VISITED=1358504963
 	UNIQUEID=08693EE5BD93604FA8DFB686A937C512
 
 #URL
@@ -1289,7 +1182,6 @@ Options: encoding = utf8, version=3
 	NAME=蘋果日報
 	URL=http://www.appledaily.com.tw/
 	CREATED=1352170143
-	VISITED=1358505055
 	UNIQUEID=BC7138D664E7D14CAD96AF291911917A
 
 #URL
@@ -1297,7 +1189,6 @@ Options: encoding = utf8, version=3
 	NAME=文匯網
 	URL=http://www.wenweipo.com/
 	CREATED=1328280051
-	VISITED=1358504884
 	UNIQUEID=A31903A5E33A7040B69D11ADA4285E25
 
 #URL
@@ -1305,7 +1196,6 @@ Options: encoding = utf8, version=3
 	NAME=多维新闻网
 	URL=http://www.dwnews.com/
 	CREATED=1318666184
-	VISITED=1358505045
 	UNIQUEID=8C3416A4AA2F6B4F9C11057E07FB8ACD
 
 #URL
@@ -1313,7 +1203,6 @@ Options: encoding = utf8, version=3
 	NAME=FT中文网
 	URL=http://www.ftchinese.com/
 	CREATED=1328281063
-	VISITED=1358504912
 	UNIQUEID=A3B2902628F4D2479AE1F7D72BF523B9
 
 #SEPERATOR
@@ -1325,7 +1214,6 @@ Options: encoding = utf8, version=3
 	NAME=龙腾网
 	URL=http://www.ltaaa.com/
 	CREATED=1318684509
-	VISITED=1358505380
 	UNIQUEID=05293A1820288340AE9BD69502EA93B3
 
 #URL
@@ -1333,7 +1221,6 @@ Options: encoding = utf8, version=3
 	NAME=爱思想
 	URL=http://www.aisixiang.com/
 	CREATED=1329315005
-	VISITED=1358505414
 	UNIQUEID=E31A25216508B647A3CC16E737BC1BC7
 
 #URL
@@ -1341,7 +1228,6 @@ Options: encoding = utf8, version=3
 	NAME=译言网
 	URL=http://www.yeeyan.org/
 	CREATED=1328281187
-	VISITED=1358505371
 	UNIQUEID=E66A5F6455B04C4DBFC862571016A930
 
 #URL
@@ -1349,7 +1235,6 @@ Options: encoding = utf8, version=3
 	NAME=一五一十部落
 	URL=http://my1510.cn/
 	CREATED=1325219193
-	VISITED=1358505370
 	UNIQUEID=18164D9E23E3B84ABA25859E9BB38531
 
 #URL
@@ -1357,7 +1242,6 @@ Options: encoding = utf8, version=3
 	NAME=无国界记者
 	URL=http://www.rsf-chinese.org/
 	CREATED=1318666341
-	VISITED=1358505367
 	SHORT NAME=wgj
 	UNIQUEID=C605C66C6AC7AF49A27B6B7CA11AC1FB
 
@@ -1366,7 +1250,6 @@ Options: encoding = utf8, version=3
 	NAME=南方周末
 	URL=http://www.infzm.com/
 	CREATED=1328279664
-	VISITED=1358505423
 	UNIQUEID=8D4A27C808F1B649B40AA51BA5ED1514
 
 #URL
@@ -1374,7 +1257,6 @@ Options: encoding = utf8, version=3
 	NAME=凯迪网络
 	URL=http://www.kdnet.net/
 	CREATED=1321154595
-	VISITED=1358505417
 	SHORT NAME=kd
 	UNIQUEID=0C476E606E5D5E4689E284BC5442B1C7
 
@@ -1382,7 +1264,7 @@ Options: encoding = utf8, version=3
 
 #FOLDER
 	ID=194
-	NAME=GeeK资讯
+	NAME=奇客资讯
 	CREATED=1328281131
 	UNIQUEID=62C6AF9CE0148C47A6C7E6AABAA733C1
 
@@ -1391,7 +1273,6 @@ Options: encoding = utf8, version=3
 	NAME=36氪
 	URL=http://www.36kr.com/
 	CREATED=1328370969
-	VISITED=1358491467
 	UNIQUEID=AF47D5B7572D7B40B9E5869F5C20149F
 
 #URL
@@ -1399,7 +1280,6 @@ Options: encoding = utf8, version=3
 	NAME=谷奥
 	URL=http://www.guao.hk/
 	CREATED=1327212365
-	VISITED=1358491268
 	UNIQUEID=4DB4BADB1CD1DC48B70D2D7654A932F5
 
 #URL
@@ -1407,7 +1287,7 @@ Options: encoding = utf8, version=3
 	NAME=cnBeta.COM
 	URL=http://cnbeta.com/
 	CREATED=1325219091
-	VISITED=1358692841
+	VISITED=1358843237
 	UNIQUEID=FEE34A4727D2624A99BC001B5B0AB9D2
 
 #URL
@@ -1415,7 +1295,6 @@ Options: encoding = utf8, version=3
 	NAME=CNET科技资讯网
 	URL=http://www.cnetnews.com.cn/
 	CREATED=1318664293
-	VISITED=1358491268
 	UNIQUEID=52EE7ADEC7D41942922E4BA73844F30D
 
 #URL
@@ -1423,7 +1302,6 @@ Options: encoding = utf8, version=3
 	NAME=动点科技
 	URL=http://cn.technode.com/
 	CREATED=1328370717
-	VISITED=1358491270
 	UNIQUEID=AB790F574392CA4D9BA01265C9271338
 
 #URL
@@ -1431,7 +1309,6 @@ Options: encoding = utf8, version=3
 	NAME=Engadget
 	URL=http://cn.engadget.com/
 	CREATED=1318661336
-	VISITED=1358491226
 	UNIQUEID=04EB03562216D24CB19ED9C7A8B0749E
 
 #URL
@@ -1439,7 +1316,6 @@ Options: encoding = utf8, version=3
 	NAME=Solidot
 	URL=http://www.solidot.org/
 	CREATED=1328408029
-	VISITED=1358491437
 	UNIQUEID=A8C6A0F8EC3CD34A958F69B1996CB9B0
 
 #URL
@@ -1447,7 +1323,6 @@ Options: encoding = utf8, version=3
 	NAME=TEDtoChina
 	URL=http://www.tedtochina.com/
 	CREATED=1328281103
-	VISITED=1358491228
 	UNIQUEID=D63C5E71FFD42344BD4310441F2A112D
 
 #URL
@@ -1455,7 +1330,6 @@ Options: encoding = utf8, version=3
 	NAME=爱活网
 	URL=http://www.evolife.cn/
 	CREATED=1318684770
-	VISITED=1358491238
 	UNIQUEID=C62716DA99C6AB4996B8C9C1F01D2621
 
 #URL
@@ -1463,7 +1337,6 @@ Options: encoding = utf8, version=3
 	NAME=爱范儿
 	URL=http://www.ifanr.com/
 	CREATED=1318684721
-	VISITED=1358491272
 	UNIQUEID=9D07E35ECE564E45A6372E672135619E
 
 #URL
@@ -1471,7 +1344,6 @@ Options: encoding = utf8, version=3
 	NAME=科学松鼠会
 	URL=http://songshuhui.net/
 	CREATED=1328370607
-	VISITED=1358491263
 	UNIQUEID=2A0FA34AB2D47744AA9D3E0E6D0C896B
 
 #URL
@@ -1479,7 +1351,6 @@ Options: encoding = utf8, version=3
 	NAME=煎蛋
 	URL=http://jandan.net/
 	CREATED=1320333352
-	VISITED=1358491272
 	SHORT NAME=jd
 	UNIQUEID=A906431259BA214AB30AA0C8B302F499
 
@@ -1488,7 +1359,6 @@ Options: encoding = utf8, version=3
 	NAME=iPc.me
 	URL=http://www.ipc.me/
 	CREATED=1329312921
-	VISITED=1358491268
 	UNIQUEID=BA5FE0FEFFFE15489CF320C9C7D55A65
 
 #URL
@@ -1496,7 +1366,6 @@ Options: encoding = utf8, version=3
 	NAME=IT168.com
 	URL=http://www.it168.com/
 	CREATED=1318664518
-	VISITED=1358491400
 	UNIQUEID=2DFF5CCD56F32F4992985D41577143AD
 
 #URL
@@ -1504,7 +1373,6 @@ Options: encoding = utf8, version=3
 	NAME=中关村在线
 	URL=http://www.zol.com.cn/
 	CREATED=1318664562
-	VISITED=1358491401
 	UNIQUEID=8C25C32B90B57744B5027F3E4CD20B05
 
 #URL
@@ -1512,7 +1380,6 @@ Options: encoding = utf8, version=3
 	NAME=太平洋电脑网
 	URL=http://www.pconline.com.cn/
 	CREATED=1318664638
-	VISITED=1358491401
 	UNIQUEID=BCA6509B23F4D844B4EFDEE064994089
 
 #URL
@@ -1520,7 +1387,6 @@ Options: encoding = utf8, version=3
 	NAME=赛迪网
 	URL=http://www.ccidnet.com/
 	CREATED=1318664537
-	VISITED=1358491393
 	UNIQUEID=5CB61A3EDE315A4B9CC09989BCEF648D
 
 #URL
@@ -1528,7 +1394,6 @@ Options: encoding = utf8, version=3
 	NAME=DoNews
 	URL=http://www.donews.com/
 	CREATED=1318664306
-	VISITED=1358491261
 	UNIQUEID=CEF0501C5E8C9941AA13BE85E4EF1585
 
 #URL
@@ -1536,7 +1401,6 @@ Options: encoding = utf8, version=3
 	NAME=ePrice 比價王
 	URL=http://www.eprice.com.tw/
 	CREATED=1318664550
-	VISITED=1358491251
 	UNIQUEID=2056A313F0FB104DA08A513363863759
 
 -
@@ -1552,7 +1416,6 @@ Options: encoding = utf8, version=3
 	NAME=TOM体育
 	URL=http://sports.tom.com/
 	CREATED=1355552539
-	VISITED=1358491556
 	UNIQUEID=121E2F3228CEFD4C871BA4AD0CE1BEC8
 
 #URL
@@ -1567,7 +1430,6 @@ Options: encoding = utf8, version=3
 	NAME=新浪体育赛事直播
 	URL=http://match.sports.sina.com.cn/livecast/
 	CREATED=1355552568
-	VISITED=1358491590
 	UNIQUEID=12B5F50D2DD6E84E8E261FCD1A6122F4
 
 #URL
@@ -1582,7 +1444,6 @@ Options: encoding = utf8, version=3
 	NAME=江城足球网
 	URL=http://www.jczqw.com/
 	CREATED=1350125752
-	VISITED=1358491600
 	UNIQUEID=0C0E5136BCF39A44AB4C6CD5C89C45E0
 
 #URL
@@ -1590,7 +1451,6 @@ Options: encoding = utf8, version=3
 	NAME=足球巴巴
 	URL=http://www.bo88.com/
 	CREATED=1355550349
-	VISITED=1358491581
 	UNIQUEID=0AFDBF4CBF27BE4A863042691F483B7B
 
 #URL
@@ -1598,7 +1458,6 @@ Options: encoding = utf8, version=3
 	NAME=英超精华
 	URL=http://www.ssports.com/html/video/Video.html
 	CREATED=1355635750
-	VISITED=1358491911
 	UNIQUEID=2A275F38AD13F143819887D443605228
 
 #URL
@@ -1635,7 +1494,6 @@ Options: encoding = utf8, version=3
 	NAME=4399小游戏
 	URL=http://www.4399.com/
 	CREATED=1328356111
-	VISITED=1358491826
 	SHORT NAME=4399
 	UNIQUEID=11D8EF8365EED5418CDF9D4CDB3CE5F6
 
@@ -1644,7 +1502,6 @@ Options: encoding = utf8, version=3
 	NAME=7k7k小游戏
 	URL=http://www.7k7k.com/
 	CREATED=1355127372
-	VISITED=1358491827
 	SHORT NAME=7k7k
 	UNIQUEID=ECC5D7BC5C7A514F937D2BA8C8F1D7E3
 
@@ -1660,7 +1517,6 @@ Options: encoding = utf8, version=3
 	NAME=赛尔号
 	URL=http://www.51seer.com/
 	CREATED=1355127420
-	VISITED=1358491827
 	SHORT NAME=赛尔号
 	UNIQUEID=879649F15BF69B499FA66175CBDFB919
 
@@ -1669,7 +1525,6 @@ Options: encoding = utf8, version=3
 	NAME=17173
 	URL=http://www.17173.com/
 	CREATED=1327411420
-	VISITED=1358492200
 	SHORT NAME=17173
 	UNIQUEID=99B730F13FF7A2488C7CD3109277E5BE
 
@@ -1678,7 +1533,6 @@ Options: encoding = utf8, version=3
 	NAME=178游戏网
 	URL=http://www.178.com/
 	CREATED=1328356231
-	VISITED=1358492179
 	SHORT NAME=178
 	UNIQUEID=F3180E0DC5EC824789FF448351759B5E
 
@@ -1687,7 +1541,6 @@ Options: encoding = utf8, version=3
 	NAME=3DMGAME
 	URL=http://www.3dmgame.com/
 	CREATED=1328356137
-	VISITED=1358492364
 	UNIQUEID=8C6C14D7D6211141A9162A7E597A39D5
 
 #URL
@@ -1695,7 +1548,6 @@ Options: encoding = utf8, version=3
 	NAME=5173网游交易
 	URL=http://www.5173.com/
 	CREATED=1355127319
-	VISITED=1358492202
 	SHORT NAME=5173
 	UNIQUEID=62D0847071863F448D2BBC395CD165D5
 
@@ -1704,7 +1556,6 @@ Options: encoding = utf8, version=3
 	NAME=52pk游戏网
 	URL=http://www.52pk.com/
 	CREATED=1328356143
-	VISITED=1358492320
 	UNIQUEID=BA6A165CBBE74746AF920A6BCEF4EE42
 
 #URL
@@ -1712,7 +1563,6 @@ Options: encoding = utf8, version=3
 	NAME=DOTA
 	URL=http://dota.sgamer.com/
 	CREATED=1329315621
-	VISITED=1358492133
 	UNIQUEID=712DBA57DABE854081BA2ABBAD238F02
 
 #URL
@@ -1720,7 +1570,6 @@ Options: encoding = utf8, version=3
 	NAME=游侠网
 	URL=http://www.ali213.net/
 	CREATED=1328356247
-	VISITED=1358492129
 	UNIQUEID=B2FC280775F97448AF2BE5F82CAC20A3
 
 #URL
@@ -1728,7 +1577,6 @@ Options: encoding = utf8, version=3
 	NAME=游民星空
 	URL=http://www.gamersky.com/
 	CREATED=1328356241
-	VISITED=1358492122
 	UNIQUEID=C37C6702DAEA474F8DD2C124AF0FA25E
 
 #URL
@@ -1736,7 +1584,6 @@ Options: encoding = utf8, version=3
 	NAME=游久网
 	URL=http://www.uuu9.com/
 	CREATED=1328356147
-	VISITED=1358492189
 	UNIQUEID=5740AD37A2F00C4597DD6F1E9FCB6E34
 
 #URL
@@ -1744,7 +1591,6 @@ Options: encoding = utf8, version=3
 	NAME=战网
 	URL=http://www.battlenet.com.cn/zh/
 	CREATED=1328356749
-	VISITED=1358492142
 	UNIQUEID=1DA8D11E3A7BB2469F1A470488D8C683
 
 #URL
@@ -1752,7 +1598,6 @@ Options: encoding = utf8, version=3
 	NAME=浩方电竞平台
 	URL=http://www.cga.com.cn/
 	CREATED=1328356127
-	VISITED=1358492060
 	UNIQUEID=4410BA382DE2DC4497A3EF4736BA0ECB
 
 #URL
@@ -1760,7 +1605,6 @@ Options: encoding = utf8, version=3
 	NAME=CSP 中文网
 	URL=http://www.cspromod.cn/
 	CREATED=1322380445
-	VISITED=1358492402
 	UNIQUEID=B59B18AAAF7991438683ADD3B7B95E6D
 
 #URL
@@ -1768,7 +1612,6 @@ Options: encoding = utf8, version=3
 	NAME=反恐大联盟
 	URL=http://www.okgogogo.com/
 	CREATED=1316837424
-	VISITED=1358492384
 	UNIQUEID=F2B614658C03624A93955F8E59C28527
 
 #URL
@@ -1776,7 +1619,6 @@ Options: encoding = utf8, version=3
 	NAME=单机游戏下载大全
 	URL=http://www.fxxz.com/
 	CREATED=1340117038
-	VISITED=1358492334
 	UNIQUEID=4D54CEE9C6A7484988D8CE9F72C40DCB
 
 #URL
@@ -1784,7 +1626,6 @@ Options: encoding = utf8, version=3
 	NAME=玩家网
 	URL=http://www.cngba.com/
 	CREATED=1325220535
-	VISITED=1358492185
 	UNIQUEID=8C24BA5B366D824390E3245FE67EAF58
 
 #URL
@@ -1799,7 +1640,6 @@ Options: encoding = utf8, version=3
 	NAME=STAGE1
 	URL=http://bbs.saraba1st.com/2b/
 	CREATED=1344382457
-	VISITED=1358492233
 	UNIQUEID=2439B32BADFB1B40BBD92544787E6824
 
 #URL
@@ -1807,7 +1647,6 @@ Options: encoding = utf8, version=3
 	NAME=艾泽拉斯国家地理论坛
 	URL=http://bbs.ngacn.cc/
 	CREATED=1329314947
-	VISITED=1358492285
 	UNIQUEID=7F2F397D371DDA4D878EC8352C823B22
 
 #URL
@@ -1815,7 +1654,6 @@ Options: encoding = utf8, version=3
 	NAME=萌动世界
 	URL=http://www.iacger.com/forum.php
 	CREATED=1346719208
-	VISITED=1358492193
 	UNIQUEID=26AF2ADA5D8EF64893691484C96A3BB0
 
 #URL
@@ -1823,7 +1661,6 @@ Options: encoding = utf8, version=3
 	NAME=紅心討論區
 	URL=http://www.isheart.com/
 	CREATED=1358346274
-	VISITED=1358492301
 	UNIQUEID=925E281E7E13D6479889E3C967293040
 
 #URL
@@ -1831,7 +1668,6 @@ Options: encoding = utf8, version=3
 	NAME=『特摄联盟』
 	URL=http://bbs.wangooo.com/index.php
 	CREATED=1329314890
-	VISITED=1358492312
 	UNIQUEID=635108F2C8F77A4EB1E944342A7148F0
 
 -
@@ -1847,7 +1683,6 @@ Options: encoding = utf8, version=3
 	NAME=AcFun.tv
 	URL=http://www.acfun.tv/
 	CREATED=1328441547
-	VISITED=1358582639
 	UNIQUEID=1FC3E883CAC2354DAADF50825AA0B852
 
 #URL
@@ -1855,7 +1690,6 @@ Options: encoding = utf8, version=3
 	NAME=嗶哩嗶哩
 	URL=http://www.bilibili.tv/
 	CREATED=1356873270
-	VISITED=1358492993
 	SHORT NAME=bl
 	UNIQUEID=E4F7E3B49FC5524B93492A3003D986D6
 
@@ -1864,7 +1698,6 @@ Options: encoding = utf8, version=3
 	NAME=动漫迷
 	URL=http://dmm.hk/
 	CREATED=1317898902
-	VISITED=1358492762
 	UNIQUEID=7A286E4F0EF154498C13E9FF5C74B33E
 
 #URL
@@ -1872,15 +1705,13 @@ Options: encoding = utf8, version=3
 	NAME=红旅动漫
 	URL=http://www.hltm.cc/
 	CREATED=1315611049
-	VISITED=1358492795
 	UNIQUEID=701B1CDC7773AD48BDA768DD7ED7BB4A
 
 #URL
 	ID=256
-	NAME=极影动画
+	NAME=极影动漫
 	URL=http://vod.ktxp.com/
 	CREATED=1347322230
-	VISITED=1358516603
 	SHORT NAME=dm
 	UNIQUEID=7939B89593BE674E9D557B9E5681F49B
 
@@ -1889,7 +1720,6 @@ Options: encoding = utf8, version=3
 	NAME=动漫无限
 	URL=http://www.comicer.com/
 	CREATED=1356162866
-	VISITED=1358492866
 	UNIQUEID=F0582EAD8EEA8844B2B3074607F73912
 
 #URL
@@ -1897,7 +1727,6 @@ Options: encoding = utf8, version=3
 	NAME=17happy动漫圣殿
 	URL=http://www.17happy.cn/
 	CREATED=1318664825
-	VISITED=1358492870
 	UNIQUEID=ED3AF4DD47E448499FB5C82E640B9D7B
 
 #URL
@@ -1905,7 +1734,6 @@ Options: encoding = utf8, version=3
 	NAME=有妖气
 	URL=http://www.u17.com/
 	CREATED=1317898924
-	VISITED=1358492759
 	SHORT NAME=u17
 	UNIQUEID=CA05F03173A18748B345D8F110FCF865
 
@@ -1914,7 +1742,6 @@ Options: encoding = utf8, version=3
 	NAME=异域动漫论坛
 	URL=http://www.yydm.com/
 	CREATED=1315481718
-	VISITED=1358492771
 	UNIQUEID=5CAA058E8B5F1E4DA91D318EDFA1BD6B
 
 #URL
@@ -1922,7 +1749,6 @@ Options: encoding = utf8, version=3
 	NAME=『澄空学园』
 	URL=http://bbs.sumisora.org/
 	CREATED=1330922713
-	VISITED=1358492928
 	UNIQUEID=A13F01A845657648BAACE674445BD8CE
 
 #SEPERATOR
@@ -1934,7 +1760,6 @@ Options: encoding = utf8, version=3
 	NAME=爱书吧
 	URL=http://www.ibook8.com/
 	CREATED=1340117038
-	VISITED=1358493080
 	UNIQUEID=3E2F1CFD9966DB45BE5A8E684C16F367
 
 #URL
@@ -1942,7 +1767,6 @@ Options: encoding = utf8, version=3
 	NAME=快眼看书
 	URL=http://www.booksky.org/
 	CREATED=1320501337
-	VISITED=1358493079
 	UNIQUEID=ACFF8FF57E0CD341A2C9E0E2381416B3
 
 #URL
@@ -1950,7 +1774,6 @@ Options: encoding = utf8, version=3
 	NAME=找小说网
 	URL=http://www.zhaoxiaoshuo.com/
 	CREATED=1329316654
-	VISITED=1358493083
 	UNIQUEID=AA663ECF2104684A92F3EAD85FA966E9
 
 #URL
@@ -1958,7 +1781,6 @@ Options: encoding = utf8, version=3
 	NAME=北极星书库
 	URL=http://www.help99.com/
 	CREATED=1340117038
-	VISITED=1358493105
 	UNIQUEID=937221C70E7CFF4B8876B3EA8F0B4C18
 
 #URL
@@ -1966,7 +1788,6 @@ Options: encoding = utf8, version=3
 	NAME=文学城
 	URL=http://bbs.wenxuecity.com/
 	CREATED=1357715165
-	VISITED=1358493095
 	UNIQUEID=5B57AFAE8365DA4389C97F7E984DAAFD
 
 #URL
@@ -1974,7 +1795,6 @@ Options: encoding = utf8, version=3
 	NAME=E书地带
 	URL=http://www.eshuzone.cn/bbs/index.php
 	CREATED=1357786730
-	VISITED=1358493102
 	UNIQUEID=25ACF72399636C41A0C18438CE467809
 
 #URL
@@ -1982,7 +1802,6 @@ Options: encoding = utf8, version=3
 	NAME=网上读书园地论坛
 	URL=http://www.readfree.net/
 	CREATED=1340117038
-	VISITED=1358493113
 	UNIQUEID=D357F2440376E94696DB93FE5C2B6FDA
 
 #URL
@@ -1990,7 +1809,6 @@ Options: encoding = utf8, version=3
 	NAME=派派小说论坛
 	URL=http://www.paipaitxt.com/
 	CREATED=1347114686
-	VISITED=1358492950
 	UNIQUEID=301A2DC381D4BF44B95E1F49EEE764B4
 
 #URL
@@ -1998,7 +1816,6 @@ Options: encoding = utf8, version=3
 	NAME=天涯易读
 	URL=http://www.tianyayidu.com/
 	CREATED=1348969794
-	VISITED=1358492953
 	UNIQUEID=694BF39938EC0B4AB15697145FC6E774
 
 #URL
@@ -2006,7 +1823,6 @@ Options: encoding = utf8, version=3
 	NAME=楼主网
 	URL=http://www.onlylz.com/
 	CREATED=1315453183
-	VISITED=1358085487
 	UNIQUEID=20B773C6A1DB964898219377E3A6F2D3
 
 #URL
@@ -2014,7 +1830,6 @@ Options: encoding = utf8, version=3
 	NAME=天涯只看楼主
 	URL=http://www.tianyatool.com/
 	CREATED=1358085234
-	VISITED=1358085511
 	UNIQUEID=24316BAB4C051E4AA28738B1F0B702D9
 
 #URL
@@ -2022,7 +1837,6 @@ Options: encoding = utf8, version=3
 	NAME=薇薇时尚杂志网
 	URL=http://www.vvshu.com/
 	CREATED=1319957495
-	VISITED=1358493042
 	UNIQUEID=C8104F3CC643DF48B5D701B0B622A3F0
 
 #URL
@@ -2030,7 +1844,6 @@ Options: encoding = utf8, version=3
 	NAME=天下电子书
 	URL=http://www.txdzs.com/
 	CREATED=1329056712
-	VISITED=1358493113
 	UNIQUEID=1620F627B9EBE344994D5ECE16AF00D1
 
 #URL
@@ -2038,7 +1851,6 @@ Options: encoding = utf8, version=3
 	NAME=万书楼
 	URL=http://www.wanshulou.com/
 	CREATED=1319867008
-	VISITED=1358493144
 	UNIQUEID=33F0BCDA5D239540B3A29B94F3ED5A5B
 
 #URL
@@ -2046,7 +1858,6 @@ Options: encoding = utf8, version=3
 	NAME=在线书吧
 	URL=http://www.bookba.net/
 	CREATED=1319869828
-	VISITED=1358493133
 	UNIQUEID=EC5DF3F449A96642B76D468D2ED004B0
 
 #URL
@@ -2054,7 +1865,6 @@ Options: encoding = utf8, version=3
 	NAME=ikindle
 	URL=http://ikandou.com/
 	CREATED=1331899827
-	VISITED=1358493081
 	UNIQUEID=DC179437F7194B46B6124701EAFADAC6
 
 -
@@ -2070,7 +1880,6 @@ Options: encoding = utf8, version=3
 	NAME=Mtime时光网
 	URL=http://www.mtime.com/
 	CREATED=1327410078
-	VISITED=1358515010
 	UNIQUEID=E2C7B181582FC44BA48F75E6451F4872
 
 #URL
@@ -2078,7 +1887,6 @@ Options: encoding = utf8, version=3
 	NAME=YYeTs人人影视
 	URL=http://www.yyets.com/
 	CREATED=1358215918
-	VISITED=1358515979
 	SHORT NAME=yy
 	UNIQUEID=257C3746A704714990131C7AADD8CB4D
 
@@ -2087,7 +1895,6 @@ Options: encoding = utf8, version=3
 	NAME=圣城家园
 	URL=http://www.btscg.com/
 	CREATED=1316351574
-	VISITED=1358517117
 	UNIQUEID=83A604219148FB4782EE94BD2CD2FAF7
 
 #URL
@@ -2109,7 +1916,6 @@ Options: encoding = utf8, version=3
 	NAME=黑亮综艺
 	URL=http://bt.hliang.com/
 	CREATED=1314498956
-	VISITED=1358517110
 	UNIQUEID=AE0B5D715E82A546A963E2E9103E6EEE
 
 #URL
@@ -2117,7 +1923,6 @@ Options: encoding = utf8, version=3
 	NAME=老调网
 	URL=http://www.bestxl.com/
 	CREATED=1355212455
-	VISITED=1358517117
 	UNIQUEID=A4441DC78C44AC45ACA0F8B75ABCD281
 
 #URL
@@ -2125,7 +1930,6 @@ Options: encoding = utf8, version=3
 	NAME=蓝光电影
 	URL=http://blu-raydisc.tv/
 	CREATED=1349624150
-	VISITED=1358519058
 	UNIQUEID=56E647F363F99047A9CF9940B39A916E
 
 #URL
@@ -2133,7 +1937,6 @@ Options: encoding = utf8, version=3
 	NAME=BT中国联盟
 	URL=http://henbt.com/
 	CREATED=1323282675
-	VISITED=1358517124
 	UNIQUEID=3D55404773787346AAD688B306CB9618
 
 #URL
@@ -2141,7 +1944,6 @@ Options: encoding = utf8, version=3
 	NAME=高清影视下载网
 	URL=http://www.gaoqing.tv/
 	CREATED=1340117038
-	VISITED=1358519589
 	UNIQUEID=9F6E6A0391A4AC498530A665B9B72D55
 
 #URL
@@ -2149,7 +1951,6 @@ Options: encoding = utf8, version=3
 	NAME=Rayfile中文资源网
 	URL=http://www.rayfile.org/
 	CREATED=1323282675
-	VISITED=1358517099
 	UNIQUEID=0C05465A44FCF24AA67C9B23F40057FF
 
 #URL
@@ -2157,7 +1958,6 @@ Options: encoding = utf8, version=3
 	NAME=电影发行网
 	URL=http://moviereleased.net/
 	CREATED=1340117038
-	VISITED=1358517240
 	UNIQUEID=80086725C44AF746AA9A9EBD712F8A96
 
 #URL
@@ -2173,7 +1973,6 @@ Options: encoding = utf8, version=3
 	NAME=TLF iNT Team 作品
 	URL=https://tofu.im/ed2k/tlf/
 	CREATED=1354894466
-	VISITED=1358517093
 	UNIQUEID=D9D644E7278AE343A45E5DE7D1533ED1
 
 #URL
@@ -2181,7 +1980,6 @@ Options: encoding = utf8, version=3
 	NAME=Releaselog
 	URL=http://www.rlslog.net/
 	CREATED=1358217799
-	VISITED=1358518235
 	UNIQUEID=130A02E84468414BAD515F9F203FEB82
 
 #URL
@@ -2189,7 +1987,6 @@ Options: encoding = utf8, version=3
 	NAME=Go下载
 	URL=http://goxiazai.cc/
 	CREATED=1327410549
-	VISITED=1358517216
 	UNIQUEID=CD9E6E0C8AB5B646B0CC468A8886D0A0
 
 #URL
@@ -2197,7 +1994,6 @@ Options: encoding = utf8, version=3
 	NAME=电影天堂
 	URL=http://www.dy2018.com/
 	CREATED=1350178983
-	VISITED=1358517196
 	UNIQUEID=2D8AEE64E9DF7A458BA1E3FBD8A3F9D5
 
 #URL
@@ -2219,7 +2015,6 @@ Options: encoding = utf8, version=3
 	NAME=6v电影下载网
 	URL=http://www.6vdy.com/
 	CREATED=1328415196
-	VISITED=1358518228
 	UNIQUEID=05392ED9AFDF564CA69E272CDC5AE593
 
 #URL
@@ -2227,7 +2022,6 @@ Options: encoding = utf8, version=3
 	NAME=SimpleCD
 	URL=http://www.simplecd.me/
 	CREATED=1328415120
-	VISITED=1358517157
 	UNIQUEID=2957EAD68D2A83468F54053C5A421D3F
 
 #URL
@@ -2235,7 +2029,6 @@ Options: encoding = utf8, version=3
 	NAME=VeryCD电驴大全
 	URL=http://www.verycd.com/
 	CREATED=1356876404
-	VISITED=1358517166
 	UNIQUEID=3AD9912AAAA1AC47966BB6CEED6DDA92
 
 #URL
@@ -2243,7 +2036,6 @@ Options: encoding = utf8, version=3
 	NAME=ED2000资源分享
 	URL=http://www.ed2000.com/
 	CREATED=1328415032
-	VISITED=1358517151
 	UNIQUEID=92CB7A3E62A519448B38A3F8AFE043D7
 
 #SEPERATOR
@@ -2267,9 +2059,8 @@ Options: encoding = utf8, version=3
 #URL
 	ID=306
 	NAME=Torrent Downloads
-	URL=http://www.torrentdownloads.me/
+	URL=http://www.torrentdownloads.net/
 	CREATED=1314942136
-	VISITED=1358518671
 	UNIQUEID=1C4B33AB01BEBB429B92060802DC487B
 
 #URL
@@ -2277,7 +2068,6 @@ Options: encoding = utf8, version=3
 	NAME=YourBittorrent
 	URL=http://yourbittorrent.com/
 	CREATED=1358217195
-	VISITED=1358518836
 	UNIQUEID=7A007BEFACA1B140B3F4EA312B18E715
 
 #URL
@@ -2285,7 +2075,6 @@ Options: encoding = utf8, version=3
 	NAME=Seedpeer.me
 	URL=http://www.seedpeer.me/
 	CREATED=1358217366
-	VISITED=1358518938
 	UNIQUEID=990797B92AE79D408C4E3BD171D3855D
 
 #URL
@@ -2293,7 +2082,6 @@ Options: encoding = utf8, version=3
 	NAME=YIFY Torrents
 	URL=http://yify-torrents.com/
 	CREATED=1357045745
-	VISITED=1358214885
 	UNIQUEID=1E0B78E9E06DC1438ABDD237B4AFFB44
 
 #URL
@@ -2301,7 +2089,6 @@ Options: encoding = utf8, version=3
 	NAME=BTScene
 	URL=http://bts.ph/
 	CREATED=1358225486
-	VISITED=1358518789
 	UNIQUEID=773F399A262A1B4C96D3F74581481BD3
 
 #URL
@@ -2309,7 +2096,6 @@ Options: encoding = utf8, version=3
 	NAME=EZTV - TV Torrents Online
 	URL=http://eztv.it/
 	CREATED=1340117038
-	VISITED=1358518677
 	UNIQUEID=09D0B505606049468CBA3D49C0AADF26
 
 #URL
@@ -2317,7 +2103,6 @@ Options: encoding = utf8, version=3
 	NAME=TorrentDownloadz
 	URL=http://www.torrentdownloadz.com/
 	CREATED=1340117038
-	VISITED=1358518958
 	UNIQUEID=5EFF125625E91542BB7E9543C7E936E2
 
 #URL
@@ -2325,7 +2110,6 @@ Options: encoding = utf8, version=3
 	NAME=realtorrentz
 	URL=http://www.realtorrentz.eu/Y2FwcmljZSBrYXR/caprice-katherine-x-art-once-we-kiss.html
 	CREATED=1345116628
-	VISITED=1358518939
 	UNIQUEID=EC2651088BC78740B74B10C2E4CE502E
 
 #URL
@@ -2333,7 +2117,6 @@ Options: encoding = utf8, version=3
 	NAME=Bittorrent.AM
 	URL=http://www.bittorrent.am/
 	CREATED=1358176524
-	VISITED=1358518939
 	UNIQUEID=7BDC244938CEB9458CB45489F8F5DF75
 
 #URL
@@ -2341,7 +2124,6 @@ Options: encoding = utf8, version=3
 	NAME=Rarbg.com
 	URL=http://rarbg.com/torrents.php
 	CREATED=1358217187
-	VISITED=1358518933
 	UNIQUEID=DCD8CF47EC1FBC4893F367E96090DAD3
 
 #URL
@@ -2349,7 +2131,6 @@ Options: encoding = utf8, version=3
 	NAME=TorrentR.eu
 	URL=http://www.torrentr.eu/
 	CREATED=1358175237
-	VISITED=1358583257
 	UNIQUEID=93E763074F1C8445880D2EE1DE712D8F
 
 #URL
@@ -2357,7 +2138,6 @@ Options: encoding = utf8, version=3
 	NAME=torrents
 	URL=http://www.torrents.to/
 	CREATED=1358217199
-	VISITED=1358518941
 	UNIQUEID=11D4852868FE7F4C87195412345960D2
 
 #URL
@@ -2365,7 +2145,6 @@ Options: encoding = utf8, version=3
 	NAME=Torrent Reactor
 	URL=http://www.torrentreactor.net/
 	CREATED=1358217709
-	VISITED=1358518929
 	UNIQUEID=6A425D74B7643D45BCC9333E0CB64BDD
 
 #URL
@@ -2373,7 +2152,6 @@ Options: encoding = utf8, version=3
 	NAME=tehPARADOX.COM
 	URL=http://tehparadox.com/
 	CREATED=1358217940
-	VISITED=1358518924
 	UNIQUEID=B98489281577CE4DAF4A86578E50A4CE
 
 #SEPERATOR
@@ -2385,7 +2163,6 @@ Options: encoding = utf8, version=3
 	NAME=纪录片之家
 	URL=http://www.jlpzj.net/
 	CREATED=1318665940
-	VISITED=1358520484
 	SHORT NAME=jlp
 	UNIQUEID=980028399D5B5B4BAC28E8381BFDF359
 
@@ -2394,7 +2171,6 @@ Options: encoding = utf8, version=3
 	NAME=::电驴下载基地::
 	URL=https://cmule.net/index.php
 	CREATED=1352732507
-	VISITED=1358237166
 	UNIQUEID=2151AFB5132737448D45829CC327EAB5
 
 #URL
@@ -2402,7 +2178,6 @@ Options: encoding = utf8, version=3
 	NAME=TLF 首页
 	URL=http://portal.eastgame.org/
 	CREATED=1340117038
-	VISITED=1358516492
 	UNIQUEID=70C037F2A164ED469161C182B4E70FC0
 
 #URL
@@ -2410,7 +2185,6 @@ Options: encoding = utf8, version=3
 	NAME=CMCT-触摸春天
 	URL=http://cmct.cc/
 	CREATED=1317475715
-	VISITED=1358519542
 	UNIQUEID=4BA81E3C15A10343B45C32B6B84B53FC
 
 #URL
@@ -2418,7 +2192,6 @@ Options: encoding = utf8, version=3
 	NAME=MySiLU
 	URL=http://www.mysilu.com/index.php
 	CREATED=1340117038
-	VISITED=1358519956
 	UNIQUEID=521BEFF835B05C41A9CE74EC67573192
 
 #URL
@@ -2426,7 +2199,6 @@ Options: encoding = utf8, version=3
 	NAME=猪猪乐园
 	URL=http://www.suppig.net/
 	CREATED=1340117038
-	VISITED=1358519385
 	UNIQUEID=30A5B7759CEDD44389827CC61E3FA8FE
 
 #URL
@@ -2434,7 +2206,6 @@ Options: encoding = utf8, version=3
 	NAME=飞鸟娱乐
 	URL=http://bbs.hdbird.com/
 	CREATED=1316351565
-	VISITED=1358520020
 	UNIQUEID=33AEF6C570B0BB49A6D5D786B76B1FB0
 
 #URL
@@ -2442,7 +2213,6 @@ Options: encoding = utf8, version=3
 	NAME=下载库论坛
 	URL=http://www.xzk.cc/
 	CREATED=1340117038
-	VISITED=1358519514
 	UNIQUEID=D08A7EA8FE3B79469CB304C0F526881A
 
 #URL
@@ -2450,7 +2220,6 @@ Options: encoding = utf8, version=3
 	NAME=梦幻天堂·龙网
 	URL=http://www.killman.net/index.php
 	CREATED=1340117038
-	VISITED=1358519531
 	UNIQUEID=576ED45007AFE84B942E14CC49621D3E
 
 #URL
@@ -2458,7 +2227,6 @@ Options: encoding = utf8, version=3
 	NAME=3D一族论坛
 	URL=http://www.3dezu.com/
 	CREATED=1340117038
-	VISITED=1358519897
 	UNIQUEID=A71A7900596A0249976D48AE8DA96FBE
 
 #URL
@@ -2473,7 +2241,6 @@ Options: encoding = utf8, version=3
 	NAME=布鲁蓝光网
 	URL=http://www.blufans.com/
 	CREATED=1340117038
-	VISITED=1358519947
 	UNIQUEID=FAF865296EA31D42B60ADD17E8392B1A
 
 #URL
@@ -2481,7 +2248,6 @@ Options: encoding = utf8, version=3
 	NAME=汉风论坛
 	URL=http://hs.hanstyle.info/index.php
 	CREATED=1358516482
-	VISITED=1358520514
 	UNIQUEID=D290B6CDD7EE2545B8981DB5594E80A7
 
 #URL
@@ -2489,7 +2255,6 @@ Options: encoding = utf8, version=3
 	NAME=TVB发烧友
 	URL=http://www.tvbfsy.com/forum.php
 	CREATED=1358214805
-	VISITED=1358520051
 	UNIQUEID=0FAC7E38B4AE36429B0F8BC02D5CABA2
 
 #URL
@@ -2497,7 +2262,6 @@ Options: encoding = utf8, version=3
 	NAME=伊甸园(美剧)
 	URL=http://bbs.sfile2012.com/index.php
 	CREATED=1358213173
-	VISITED=1358519885
 	UNIQUEID=CC96EF76C4A7A64EA37EC8FCE89AD664
 
 #URL
@@ -2505,7 +2269,6 @@ Options: encoding = utf8, version=3
 	NAME=道兰字幕组
 	URL=http://www.daolan.net/
 	CREATED=1355562620
-	VISITED=1358520454
 	UNIQUEID=E1BEFA20D2E1F6438940F2123E486FFF
 
 #URL
@@ -2513,7 +2276,6 @@ Options: encoding = utf8, version=3
 	NAME=TVBT菊花台(日剧)
 	URL=http://www.mytvbt.net/index.php
 	CREATED=1355376446
-	VISITED=1358519616
 	UNIQUEID=3B0F55AAB8843C4C87A9B5A4EA92C223
 
 #URL
@@ -2528,7 +2290,6 @@ Options: encoding = utf8, version=3
 	NAME=飞翔网◎科幻论坛
 	URL=http://bbs.flyine.net/forum.php
 	CREATED=1340117038
-	VISITED=1358520460
 	UNIQUEID=24D47D9098C6084A97A0E53F5F674D19
 
 #URL
@@ -2536,7 +2297,6 @@ Options: encoding = utf8, version=3
 	NAME=世界3D模特网
 	URL=http://www.world3dmodel.com/
 	CREATED=1350390026
-	VISITED=1358561078
 	UNIQUEID=AA8914A5E7A85B4C9834E07CE2B45E2A
 
 -
@@ -2552,7 +2312,6 @@ Options: encoding = utf8, version=3
 	NAME=酷狗电台
 	URL=http://topic.kugou.com/radio/
 	CREATED=1325598763
-	VISITED=1358502935
 	UNIQUEID=1B0714691FF6BC439F441E883BBBE45E
 
 #URL
@@ -2568,7 +2327,6 @@ Options: encoding = utf8, version=3
 	NAME=新浪乐库
 	URL=http://ting.sina.com.cn/radio/
 	CREATED=1319865848
-	VISITED=1358502877
 	SHORT NAME=sinam
 	UNIQUEID=0A02B390AE6BB14A9C3D80D607284E51
 
@@ -2577,7 +2335,6 @@ Options: encoding = utf8, version=3
 	NAME=百度随心听
 	URL=http://fm.baidu.com/
 	CREATED=1347516518
-	VISITED=1358502891
 	UNIQUEID=7D15414B39F0A949B01CD3B337A3AD26
 
 #URL
@@ -2593,7 +2350,6 @@ Options: encoding = utf8, version=3
 	NAME=5Sing
 	URL=http://www.5sing.com/index.shtml
 	CREATED=1357950150
-	VISITED=1358502905
 	UNIQUEID=39A4C89C8882714BB329B31B066A68D5
 
 #URL
@@ -2601,7 +2357,6 @@ Options: encoding = utf8, version=3
 	NAME=巨鲸音乐网
 	URL=http://www.top100.cn/
 	CREATED=1218852521
-	VISITED=1358502905
 	UNIQUEID=152B60AA65739B478276FCB1DD7B7A64
 
 #URL
@@ -2609,7 +2364,6 @@ Options: encoding = utf8, version=3
 	NAME=九天音乐
 	URL=http://www.9sky.com/
 	CREATED=1305044006
-	VISITED=1358502907
 	UNIQUEID=CEECFE3798C042498F2C36B85BB4B291
 
 #URL
@@ -2617,7 +2371,6 @@ Options: encoding = utf8, version=3
 	NAME=SongTaste
 	URL=http://www.songtaste.com/
 	CREATED=1306392692
-	VISITED=1358502909
 	UNIQUEID=3ED42F7FF8DB0149856A28F0A3B7BA91
 
 #URL
@@ -2625,7 +2378,6 @@ Options: encoding = utf8, version=3
 	NAME=酷我音乐
 	URL=http://www.kuwo.cn/
 	CREATED=1317897864
-	VISITED=1358502912
 	UNIQUEID=6B18410DE6893E4EACFBC2BD0D4EAAAA
 
 #URL
@@ -2633,7 +2385,6 @@ Options: encoding = utf8, version=3
 	NAME=虾米音乐网
 	URL=http://www.xiami.com/
 	CREATED=1306392584
-	VISITED=1358502921
 	UNIQUEID=7EB3AB61C92F3E4CB27BF2A90DAD9D7B
 
 #URL
@@ -2641,7 +2392,6 @@ Options: encoding = utf8, version=3
 	NAME=DJ嗨嗨网
 	URL=http://www.djkk.com/
 	CREATED=1347877758
-	VISITED=1358502969
 	UNIQUEID=710DED97BA975F40866E2C4A4755F567
 
 #URL
@@ -2649,7 +2399,6 @@ Options: encoding = utf8, version=3
 	NAME=音悦台
 	URL=http://www.yinyuetai.com/
 	CREATED=1306392717
-	VISITED=1358502845
 	UNIQUEID=CDDE3FD659D0854FB294C786DA7DFC67
 
 #SEPERATOR
@@ -2661,7 +2410,6 @@ Options: encoding = utf8, version=3
 	NAME=New Album Releases
 	URL=http://newalbumreleases.net/
 	CREATED=1358217681
-	VISITED=1358502990
 	UNIQUEID=CE5C0E607B7ADE439D6A553A67B2FE0F
 
 #URL
@@ -2676,7 +2424,6 @@ Options: encoding = utf8, version=3
 	NAME=「终极R&B」
 	URL=http://maxrnb.cn/
 	CREATED=1358177109
-	VISITED=1358177165
 	UNIQUEID=9479DE79B8FA964986919892827B5056
 
 #URL
@@ -2684,7 +2431,6 @@ Options: encoding = utf8, version=3
 	NAME=hdmv吧
 	URL=http://tieba.baidu.com/f?kw=hdmv
 	CREATED=1342023017
-	VISITED=1358502909
 	UNIQUEID=30ABEF0ADFD5914BA2176197C9F0F621
 
 #URL
@@ -2692,7 +2438,6 @@ Options: encoding = utf8, version=3
 	NAME=音扑网
 	URL=http://www.yinpoo.com/
 	CREATED=1350087385
-	VISITED=1358502852
 	UNIQUEID=2B0E52674FEBC74EBD0FE64D68C5D56A
 
 #URL
@@ -2700,7 +2445,6 @@ Options: encoding = utf8, version=3
 	NAME=杂碎音乐论坛
 	URL=http://www.zasv.com/
 	CREATED=1306392834
-	VISITED=1358502960
 	UNIQUEID=7C049FAC93D06E4189C1C6F3882DE333
 
 #URL
@@ -2708,7 +2452,6 @@ Options: encoding = utf8, version=3
 	NAME=百事高音乐论坛
 	URL=http://bbs.besgold.com/
 	CREATED=1306392780
-	VISITED=1358502976
 	UNIQUEID=08F18F421B25E946ADDFA1FC6086FF76
 
 #URL
@@ -2716,7 +2459,6 @@ Options: encoding = utf8, version=3
 	NAME=CD包音乐网
 	URL=http://www.cdbao.net/portal.php
 	CREATED=1358176605
-	VISITED=1358502973
 	UNIQUEID=3D8BF8847EB5E3458D3E45FFB62E5792
 
 #URL
@@ -2724,7 +2466,6 @@ Options: encoding = utf8, version=3
 	NAME=欧美流行风论坛
 	URL=http://www.crazyemusic.com/bbs/index.asp
 	CREATED=1340117038
-	VISITED=1358502972
 	UNIQUEID=CBD9CC6E83292A47A150D4161EA03EBD
 
 #URL
@@ -2732,7 +2473,6 @@ Options: encoding = utf8, version=3
 	NAME=乌托邦论坛
 	URL=http://club.bbszzz.com/
 	CREATED=1340117038
-	VISITED=1358502973
 	UNIQUEID=1F3E55929918D74B917251686E0573C3
 
 #URL
@@ -2740,7 +2480,6 @@ Options: encoding = utf8, version=3
 	NAME=搓碟音乐论坛
 	URL=http://www.cuodie.com/forum.php
 	CREATED=1306392812
-	VISITED=1358502972
 	UNIQUEID=2AC9C7ABF13FA94F9D9608195EB9F96E
 
 #URL
@@ -2748,7 +2487,6 @@ Options: encoding = utf8, version=3
 	NAME=捌零音乐论坛
 	URL=http://www.pt80.com/
 	CREATED=1306392826
-	VISITED=1358502964
 	UNIQUEID=924BA354B0A8F64A8349A80757F14486
 
 #URL
@@ -2756,7 +2494,6 @@ Options: encoding = utf8, version=3
 	NAME=炫音音乐论坛
 	URL=http://bbs.musicool.cn/
 	CREATED=1306392865
-	VISITED=1358502968
 	UNIQUEID=74835BC18B98784084B34C0D4EA89C4A
 
 #SEPERATOR
@@ -2775,7 +2512,6 @@ Options: encoding = utf8, version=3
 	NAME=广播电台在线收听
 	URL=http://www.fifm.cn/
 	CREATED=1331816486
-	VISITED=1358214755
 	UNIQUEID=41966E057806F543979766DDFDC7C503
 
 #URL
@@ -2805,7 +2541,6 @@ Options: encoding = utf8, version=3
 	NAME=UUSee 网络电视
 	URL=http://player.uusee.com/apps/baidu/index.html
 	CREATED=1348984209
-	VISITED=1358493178
 	SHORT NAME=uusee
 	UNIQUEID=DAB47999D85231449E75270B3F40CF76
 
@@ -2814,7 +2549,6 @@ Options: encoding = utf8, version=3
 	NAME=风云直播
 	URL=http://www.fengyunzhibo.com/fengyunmini-example.html
 	CREATED=1356876163
-	VISITED=1358493190
 	SHORT NAME=tv
 	UNIQUEID=B9B02E954988CD4F83E03C33141CD6F6
 
@@ -2831,7 +2565,6 @@ Options: encoding = utf8, version=3
 	NAME=金山电视直播
 	URL=http://v.duba.net/dianshitai/
 	CREATED=1356583552
-	VISITED=1358493196
 	UNIQUEID=9038FA7AC1DA36418666917F78548F35
 
 #URL
@@ -2839,7 +2572,6 @@ Options: encoding = utf8, version=3
 	NAME=看点
 	URL=http://kandian.com/
 	CREATED=1356875431
-	VISITED=1358493200
 	UNIQUEID=5170825E45BA0240ABF30EBD3947A1A7
 
 #URL
@@ -2847,7 +2579,6 @@ Options: encoding = utf8, version=3
 	NAME=小二电视
 	URL=http://x2dsj.com/teleplay/
 	CREATED=1319866478
-	VISITED=1358493204
 	UNIQUEID=8226C68EE95C0E449D49C5D190CC69CF
 
 #URL
@@ -2855,7 +2586,6 @@ Options: encoding = utf8, version=3
 	NAME=网络电视直播
 	URL=http://www.41478.com/
 	CREATED=1315307264
-	VISITED=1358493218
 	UNIQUEID=BC9FC7C6CDDDCA439BFAA203B3C1E7EA
 
 #URL
@@ -2863,7 +2593,6 @@ Options: encoding = utf8, version=3
 	NAME=网络电视
 	URL=http://tv.zqredstar.com/
 	CREATED=1313308779
-	VISITED=1358493238
 	UNIQUEID=CBD38278EC8FB34790B1683F5538E352
 
 #URL
@@ -2871,7 +2600,6 @@ Options: encoding = utf8, version=3
 	NAME=电视节目预告
 	URL=http://www.tvmao.com/
 	CREATED=1328357458
-	VISITED=1358493312
 	UNIQUEID=153818989A4FB2478954CBE4DAD99DD9
 
 #URL
@@ -2879,7 +2607,6 @@ Options: encoding = utf8, version=3
 	NAME=卫星参数表
 	URL=http://www.88408.com/
 	CREATED=1315482205
-	VISITED=1358493386
 	UNIQUEID=A4EF1708563A034DB015E99FAB12810F
 
 #URL
@@ -2887,7 +2614,6 @@ Options: encoding = utf8, version=3
 	NAME=中文寻星
 	URL=http://www.cnsat.net/
 	CREATED=1318665023
-	VISITED=1358493387
 	UNIQUEID=E9C1BAEAAD5DF64EB06B66E7700A6487
 
 #URL
@@ -2895,7 +2621,6 @@ Options: encoding = utf8, version=3
 	NAME=亚洲卫视烧友论坛
 	URL=http://bbs.asiatvro.com/
 	CREATED=1340117038
-	VISITED=1358493657
 	UNIQUEID=DCBF78F995453E4687516FA51AE80F71
 
 #SEPERATOR
@@ -2915,7 +2640,6 @@ Options: encoding = utf8, version=3
 	NAME=网易公开课
 	URL=http://v.163.com/open/
 	CREATED=1340117038
-	VISITED=1358493675
 	UNIQUEID=9FD9622AD739E24295A39F3655BBD8B6
 
 #URL
@@ -2923,7 +2647,7 @@ Options: encoding = utf8, version=3
 	NAME=优酷网
 	URL=http://www.youku.com/
 	CREATED=1290872612
-	VISITED=1358683679
+	VISITED=1358843237
 	UNIQUEID=9E6C3CBE8547A945BB93E73FA8D65F56
 
 #URL
@@ -2931,7 +2655,6 @@ Options: encoding = utf8, version=3
 	NAME=迅雷看看
 	URL=http://www.kankan.com/
 	CREATED=1356444975
-	VISITED=1358493682
 	UNIQUEID=0F83396DBE456E4AB67B33A65DB36F09
 
 #URL
@@ -2946,6 +2669,7 @@ Options: encoding = utf8, version=3
 	NAME=乐视网
 	URL=http://www.letv.com/
 	CREATED=1357871752
+	VISITED=1358821367
 	UNIQUEID=4DF5AFC2ED6A2B4088042CEC06A49249
 
 #URL
@@ -2953,15 +2677,13 @@ Options: encoding = utf8, version=3
 	NAME=六间房
 	URL=http://6.cn/
 	CREATED=1290873057
-	VISITED=1358493712
 	UNIQUEID=B3909CC235A88B43BD2822ABD99EC86D
 
 #URL
 	ID=395
 	NAME=腾讯视频
-	URL=http://v.qq.com/
+	URL=http://bb.news.qq.com/
 	CREATED=1290873140
-	VISITED=1358493717
 	UNIQUEID=056D999DCE6C9446B33F913694567951
 
 #URL
@@ -2969,7 +2691,6 @@ Options: encoding = utf8, version=3
 	NAME=新浪视频
 	URL=http://video.sina.com.cn/
 	CREATED=1290873219
-	VISITED=1358493735
 	UNIQUEID=310A23A4894D7142B7007DBD5D4AC8E5
 
 #URL
@@ -2977,7 +2698,7 @@ Options: encoding = utf8, version=3
 	NAME=酷6网
 	URL=http://www.ku6.com/
 	CREATED=1290873234
-	VISITED=1358493736
+	VISITED=1358826185
 	UNIQUEID=63D5FBF2466E254DB1AA3618E747408D
 
 #URL
@@ -2985,7 +2706,6 @@ Options: encoding = utf8, version=3
 	NAME=搜狐视频
 	URL=http://tv.sohu.com/
 	CREATED=1290873328
-	VISITED=1358493752
 	UNIQUEID=0174965E64D5234CB75B833E7B0A8F54
 
 #URL
@@ -2993,7 +2713,6 @@ Options: encoding = utf8, version=3
 	NAME=PPS网络电视
 	URL=http://www.pps.tv/
 	CREATED=1317897971
-	VISITED=1358493762
 	UNIQUEID=35A070CF083DB042BAC1D17D969A3C19
 
 #URL
@@ -3001,7 +2720,6 @@ Options: encoding = utf8, version=3
 	NAME=PPTV网络电视
 	URL=http://www.pptv.com/
 	CREATED=1317897978
-	VISITED=1358493235
 	UNIQUEID=AA6B45F46C250F439B770EB3F98BBC2B
 
 #URL
@@ -3009,7 +2727,6 @@ Options: encoding = utf8, version=3
 	NAME=YouTube
 	URL=http://www.youtube.com/
 	CREATED=1290873456
-	VISITED=1358493749
 	UNIQUEID=61E7A22BA8F25E4DB97CB4D2A61F2053
 
 #SEPERATOR
@@ -3028,7 +2745,6 @@ Options: encoding = utf8, version=3
 	NAME=步步高影院
 	URL=http://www.bbgyy.net/
 	CREATED=1318512453
-	VISITED=1358569432
 	UNIQUEID=2344E9FD49B64E4982E598A7046CF49F
 
 #URL
@@ -3036,7 +2752,6 @@ Options: encoding = utf8, version=3
 	NAME=电影FM
 	URL=http://dianying.fm/
 	CREATED=1357468017
-	VISITED=1358478682
 	UNIQUEID=555BAEA09E25B84181001CBB3283C176
 
 #URL
@@ -3051,7 +2766,6 @@ Options: encoding = utf8, version=3
 	NAME=放放电影
 	URL=http://www.ffdy.cc/
 	CREATED=1346673081
-	VISITED=1358215468
 	UNIQUEID=3EC0C420BC9FA2419EC1435D712B453A
 
 #URL
@@ -3059,7 +2773,6 @@ Options: encoding = utf8, version=3
 	NAME=第一放映室
 	URL=http://www.2kk.cc/
 	CREATED=1314687821
-	VISITED=1358216023
 	UNIQUEID=0CCA2A40016FAA4DAC8BB1421847AF68
 
 #URL
@@ -3067,7 +2780,6 @@ Options: encoding = utf8, version=3
 	NAME=TOM365
 	URL=http://www.tom365.com/
 	CREATED=1306392197
-	VISITED=1358214683
 	UNIQUEID=ADA8A8F96BF7EA408ECC483A46E12961
 
 #URL
@@ -3111,7 +2823,6 @@ Options: encoding = utf8, version=3
 	NAME=图标搜索引擎
 	URL=http://findicons.com/
 	CREATED=1351315858
-	VISITED=1358503443
 	UNIQUEID=1C3C0874E59CB94098FE697886FB6339
 
 #SEPERATOR
@@ -3123,7 +2834,6 @@ Options: encoding = utf8, version=3
 	NAME=美图秀秀个性头像
 	URL=http://diy.meitu.com/1/
 	CREATED=1327331756
-	VISITED=1358490590
 	UNIQUEID=532E2BCC4FD568419095C88E7CCAFBFD
 
 #URL
@@ -3131,7 +2841,6 @@ Options: encoding = utf8, version=3
 	NAME=似顏繪插圖製作器
 	URL=http://illustmaker.abi-station.com/index_cn.shtml
 	CREATED=1336620867
-	VISITED=1358503525
 	UNIQUEID=526B7F9F0A9190429908C50644E95B43
 
 #URL
@@ -3139,7 +2848,6 @@ Options: encoding = utf8, version=3
 	NAME=Sketch Swap
 	URL=http://www.sketchswap.com/
 	CREATED=1328268292
-	VISITED=1358503490
 	UNIQUEID=EAB12948363F5F43BADDCFF140611301
 
 #URL
@@ -3147,7 +2855,6 @@ Options: encoding = utf8, version=3
 	NAME=好照片 在线编辑
 	URL=http://www.haozhaopian.com/flash/
 	CREATED=1347877784
-	VISITED=1358503490
 	UNIQUEID=DD53D54C4188B041A30520943022AE46
 
 #URL
@@ -3155,7 +2862,6 @@ Options: encoding = utf8, version=3
 	NAME=Pixlr.com
 	URL=http://pixlr.com/editor/
 	CREATED=1318262169
-	VISITED=1358503492
 	UNIQUEID=FA9A95B718D3D1489436EE0BB73812ED
 
 #URL
@@ -3163,7 +2869,6 @@ Options: encoding = utf8, version=3
 	NAME=Foo2Bar
 	URL=http://foo2bar.com/image
 	CREATED=1318663108
-	VISITED=1358503492
 	UNIQUEID=D03BF64E0EFA9B47A586F6A577CA22C0
 
 #SEPERATOR
@@ -3175,7 +2880,6 @@ Options: encoding = utf8, version=3
 	NAME=DeviantART
 	URL=http://www.deviantart.com/
 	CREATED=1343909108
-	VISITED=1358682214
 	SHORT NAME=da
 	UNIQUEID=CBA814C78939CE49BBEFB4FB71243831
 
@@ -3191,7 +2895,6 @@ Options: encoding = utf8, version=3
 	NAME=Flickr
 	URL=http://www.flickr.com/
 	CREATED=1356833498
-	VISITED=1358503409
 	UNIQUEID=E26B6784E7649743AF9B96AF7BDB1A70
 
 #URL
@@ -3200,6 +2903,14 @@ Options: encoding = utf8, version=3
 	URL=http://www.flickriver.com/
 	CREATED=1326210421
 	UNIQUEID=0EED59F0C03E3844A5B836681F62ED25
+
+#URL
+	ID=740
+	NAME=Fotolia
+	URL=http://cn.fotolia.com/
+	CREATED=1358844888
+	VISITED=1358844941
+	UNIQUEID=274A51A925109B4F80886351D612DFE8
 
 #URL
 	ID=428
@@ -3213,7 +2924,6 @@ Options: encoding = utf8, version=3
 	NAME=Photobucket
 	URL=http://photobucket.com/
 	CREATED=1318662781
-	VISITED=1358210766
 	UNIQUEID=76AC4A5B46E5CA46B7B54093D2F123DF
 
 #URL
@@ -3228,7 +2938,6 @@ Options: encoding = utf8, version=3
 	NAME=FreeImageHosting.net
 	URL=http://www.freeimagehosting.net/
 	CREATED=1340117038
-	VISITED=1358210806
 	UNIQUEID=76EC6F821B2E1D4DBAB8AEC7210ED026
 
 #URL
@@ -3236,7 +2945,6 @@ Options: encoding = utf8, version=3
 	NAME=Imagecross
 	URL=http://www.imagecross.com/
 	CREATED=1340117038
-	VISITED=1358210666
 	UNIQUEID=F0708C90B4427048871EF5AE478525B2
 
 #URL
@@ -3244,7 +2952,6 @@ Options: encoding = utf8, version=3
 	NAME=PicOodle
 	URL=http://www.picoodle.com/
 	CREATED=1340117038
-	VISITED=1358210368
 	UNIQUEID=819EBB57B225914084F21EB2C1FD33FA
 
 #URL
@@ -3252,7 +2959,6 @@ Options: encoding = utf8, version=3
 	NAME=filexoom
 	URL=http://filexoom.com/
 	CREATED=1340117038
-	VISITED=1358211635
 	UNIQUEID=1EB75D46EBDE5341AFB20B39B3597F5E
 
 #SEPERATOR
@@ -3264,7 +2970,6 @@ Options: encoding = utf8, version=3
 	NAME=色影无忌
 	URL=http://ww.xitek.com/
 	CREATED=1325858881
-	VISITED=1358503796
 	SHORT NAME=sy
 	UNIQUEID=24918F05E7BF314BA63405C13B842DEC
 
@@ -3273,7 +2978,6 @@ Options: encoding = utf8, version=3
 	NAME=蜂鸟网
 	URL=http://www.fengniao.com/
 	CREATED=1348880944
-	VISITED=1358683688
 	SHORT NAME=fn
 	UNIQUEID=F98AF7CC00E0004184BCC61EC0B8566C
 
@@ -3282,7 +2986,6 @@ Options: encoding = utf8, version=3
 	NAME=易攝網
 	URL=http://www.ecpz.net/index.php
 	CREATED=1320388966
-	VISITED=1358503234
 	UNIQUEID=D3664C242E4EBC4A8AB4498A5B5B6A07
 
 #URL
@@ -3297,7 +3000,6 @@ Options: encoding = utf8, version=3
 	NAME=教程网论坛
 	URL=http://bbs.jcwcn.com/
 	CREATED=1358177435
-	VISITED=1358177438
 	UNIQUEID=38FEF453CEC8224999237AB7CB82D8AE
 
 #URL
@@ -3313,7 +3015,6 @@ Options: encoding = utf8, version=3
 	NAME=Joseph Lu.'s
 	URL=http://www.fluidr.com/photos/junhon/sets/72157625538004469/
 	CREATED=1305709964
-	VISITED=1358503365
 	UNIQUEID=594FD1462DA65F46A29C30791BE75869
 
 #URL
@@ -3321,7 +3022,6 @@ Options: encoding = utf8, version=3
 	NAME=摄影之友
 	URL=http://fotomen.cn/
 	CREATED=1325858828
-	VISITED=1358503470
 	UNIQUEID=2DC6CDEBB658624B8527F68C32099B1F
 
 #SEPERATOR
@@ -3347,15 +3047,20 @@ Options: encoding = utf8, version=3
 	NAME=ICONFANS
 	URL=http://www.iconfans.com/
 	CREATED=1358343659
-	VISITED=1358503220
 	UNIQUEID=59792D262CA08B4EAFBC444BFE935616
+
+#URL
+	ID=739
+	NAME=CFP汉华易美
+	URL=http://cfp.cn/
+	CREATED=1358844879
+	UNIQUEID=0837A850AEAA8745BD10AA1B9B0DB1B4
 
 #URL
 	ID=448
 	NAME=PCPChina 先锋网
 	URL=http://bbs.pcpchina.com/
 	CREATED=1340117038
-	VISITED=1358213646
 	UNIQUEID=62608E2A9E901C4999F4EAE20665EDF4
 
 #URL
@@ -3363,7 +3068,6 @@ Options: encoding = utf8, version=3
 	NAME=High-Resolution Wallpaper
 	URL=http://interfacelift.com/wallpaper/index.php?sort=date
 	CREATED=1340117038
-	VISITED=1358503720
 	UNIQUEID=8C306FB0AE9B324597720E78E0E69DDA
 
 #URL
@@ -3371,7 +3075,6 @@ Options: encoding = utf8, version=3
 	NAME=中国Photoshop联盟论坛
 	URL=http://www.photoshopcn.com/bbs/index.php?sid=fLUIKC
 	CREATED=1340117038
-	VISITED=1358177416
 	UNIQUEID=CA16B056AADAF74E99C1D96C8475D6DF
 
 #URL
@@ -3379,7 +3082,6 @@ Options: encoding = utf8, version=3
 	NAME=中华图网
 	URL=http://www.cntuw.com/
 	CREATED=1336258518
-	VISITED=1358503231
 	UNIQUEID=5D4691A5AB1A9D44A0ED8800B7E33EA3
 
 #URL
@@ -3394,7 +3096,6 @@ Options: encoding = utf8, version=3
 	NAME=Ps123素材网
 	URL=http://www.ps123.net/
 	CREATED=1358177474
-	VISITED=1358503294
 	UNIQUEID=2DB82354FDB04A479EB25190A6F92C10
 
 #URL
@@ -3402,7 +3103,6 @@ Options: encoding = utf8, version=3
 	NAME=祁连山PS视频教程
 	URL=http://pcedu.pconline.com.cn/videoedu/photoshop/1208/2886994.html
 	CREATED=1346299998
-	VISITED=1358503328
 	UNIQUEID=E31D8CCBB9EADE42AB0C1228F26CEB81
 
 #SEPERATOR
@@ -3414,7 +3114,6 @@ Options: encoding = utf8, version=3
 	NAME=经典影视合成论坛
 	URL=http://time99.org/forum.php
 	CREATED=1357039916
-	VISITED=1358174117
 	UNIQUEID=D0FB69C0FA4F4C4C94981BA8D3FB5F6E
 
 #URL
@@ -3422,7 +3121,6 @@ Options: encoding = utf8, version=3
 	NAME=完全 DivX 手冊
 	URL=http://www.divx.com.hk/
 	CREATED=1340117038
-	VISITED=1358503176
 	UNIQUEID=ED7ED1FD09D8D341B8205AFED56D6ADB
 
 #URL
@@ -3437,7 +3135,6 @@ Options: encoding = utf8, version=3
 	NAME=x264 revision
 	URL=http://x264.nl/
 	CREATED=1340117038
-	VISITED=1358503592
 	UNIQUEID=A226C057C9F6434EA8BBB31BDC266CDA
 
 -
@@ -3457,10 +3154,9 @@ Options: encoding = utf8, version=3
 
 #URL
 	ID=462
-	NAME=绿软家园
+	NAME=绿软家园(绿色下载站)
 	URL=http://www.downg.com/default.html
 	CREATED=1327625380
-	VISITED=1358509695
 	SHORT NAME=gd
 	UNIQUEID=89092C8575077343BAB9CEEF21A42C93
 
@@ -3469,6 +3165,7 @@ Options: encoding = utf8, version=3
 	NAME=绿色软件联盟
 	URL=http://www.xdowns.com/
 	CREATED=1221646726
+	VISITED=1358825936
 	UNIQUEID=0EDD2BD6DA0D5F449C256A6B7D8FEB34
 
 #URL
@@ -3490,7 +3187,6 @@ Options: encoding = utf8, version=3
 	NAME=精品绿色便携软件
 	URL=http://www.portablesoft.org/
 	CREATED=1327625380
-	VISITED=1358504153
 	UNIQUEID=BBDB38B49BB4254DA93BA8D428C5CEEB
 
 #URL
@@ -3498,7 +3194,6 @@ Options: encoding = utf8, version=3
 	NAME=善用佳软
 	URL=http://xbeta.info/
 	CREATED=1327625380
-	VISITED=1358504164
 	UNIQUEID=9DB05D0B05F4714EA5631B2C8EBA85A4
 
 #URL
@@ -3506,7 +3201,6 @@ Options: encoding = utf8, version=3
 	NAME=小众软件
 	URL=http://www.appinn.com/
 	CREATED=1327625380
-	VISITED=1358504159
 	UNIQUEID=75D56204C7F4E748A341A16F0F6DBB3E
 
 #URL
@@ -3514,7 +3208,6 @@ Options: encoding = utf8, version=3
 	NAME=异次元软件世界
 	URL=http://www.iplaysoft.com/
 	CREATED=1358504777
-	VISITED=1358504808
 	UNIQUEID=C1AD3B27BA7EE14D8D543A6443A17640
 
 #URL
@@ -3529,7 +3222,6 @@ Options: encoding = utf8, version=3
 	NAME=Silence 的工具箱
 	URL=http://www.mympc.org/
 	CREATED=1327625380
-	VISITED=1358504210
 	UNIQUEID=C0E2FA75FCC79943B027A1D61DF93212
 
 #URL
@@ -3537,7 +3229,6 @@ Options: encoding = utf8, version=3
 	NAME=无约而来
 	URL=http://zxkh19501.blog.163.com/
 	CREATED=1319034726
-	VISITED=1358582503
 	SHORT NAME=win7
 	UNIQUEID=1466ACEA12D3234FA00A2939EF5FF38B
 
@@ -3546,7 +3237,6 @@ Options: encoding = utf8, version=3
 	NAME=蜻蜓特派员
 	URL=http://hi.baidu.com/dragonflylee
 	CREATED=1327625380
-	VISITED=1358504215
 	UNIQUEID=32BC67C6B9E8214E9860F56B5AA82878
 
 #URL
@@ -3554,7 +3244,6 @@ Options: encoding = utf8, version=3
 	NAME=鱼の后花园
 	URL=http://www.fishlee.net/
 	CREATED=1357796625
-	VISITED=1358504225
 	UNIQUEID=499BB6BA0CA6DC42A8526B5A7693C3AD
 
 #URL
@@ -3562,7 +3251,6 @@ Options: encoding = utf8, version=3
 	NAME=耍下
 	URL=http://www.shuax.com/
 	CREATED=1321171123
-	VISITED=1358058072
 	UNIQUEID=0295FC210A1ADD41AB37BFE71E789D27
 
 #URL
@@ -3570,7 +3258,6 @@ Options: encoding = utf8, version=3
 	NAME=JayXon
 	URL=http://www.jayxon.com/
 	CREATED=1321171116
-	VISITED=1358504244
 	UNIQUEID=3248745F84959A43A540C3F446271FF6
 
 #URL
@@ -3578,7 +3265,6 @@ Options: encoding = utf8, version=3
 	NAME=PowerTool
 	URL=http://hi.baidu.com/ithurricane
 	CREATED=1327625380
-	VISITED=1358504222
 	UNIQUEID=A90C1E8F99F86D43AFE935FCB573D5BE
 
 #SEPERATOR
@@ -3590,7 +3276,6 @@ Options: encoding = utf8, version=3
 	NAME=hostsx
 	URL=http://code.google.com/p/hostsx/
 	CREATED=1329148833
-	VISITED=1358499706
 	UNIQUEID=96AE1481FA7A9542A46560B77FD70B4D
 
 #URL
@@ -3605,7 +3290,6 @@ Options: encoding = utf8, version=3
 	NAME=Ad Muncher CJX 规则
 	URL=http://cjx82630.ys168.com/
 	CREATED=1357815026
-	VISITED=1358504178
 	UNIQUEID=9C64594E2B606D4CB2B805747B8977C2
 
 #URL
@@ -3613,7 +3297,6 @@ Options: encoding = utf8, version=3
 	NAME=verysky.org
 	URL=http://verysky.org/
 	CREATED=1357815037
-	VISITED=1358504185
 	UNIQUEID=20B073CF22B9284E9A8EBD310D266461
 
 #URL
@@ -3642,7 +3325,6 @@ Options: encoding = utf8, version=3
 	NAME=U盘量产大全
 	URL=http://1393430.qupan.cc/folder-1925893
 	CREATED=1340117038
-	VISITED=1358504260
 	UNIQUEID=191E2EF9BBADF24FA077FED48ACAE24C
 
 #URL
@@ -3650,7 +3332,6 @@ Options: encoding = utf8, version=3
 	NAME=id8的公开
 	URL=http://pan.baidu.com/netdisk/extractpublic?username=id8
 	CREATED=1356675862
-	VISITED=1358504263
 	UNIQUEID=84DC66A4EF66164992B8AA9BE9C29139
 
 #URL
@@ -3658,7 +3339,6 @@ Options: encoding = utf8, version=3
 	NAME=Dreamcast
 	URL=http://dreamcast2.ys168.com/
 	CREATED=1321171235
-	VISITED=1358504265
 	UNIQUEID=53299CD299440641B5C1835F877AD6C1
 
 #URL
@@ -3666,7 +3346,6 @@ Options: encoding = utf8, version=3
 	NAME=zd423
 	URL=http://zd423.ys168.com/
 	CREATED=1353078401
-	VISITED=1358504266
 	UNIQUEID=72BAAC48F5F6A84EAE8D459FF029AB7B
 
 #SEPERATOR
@@ -3678,7 +3357,6 @@ Options: encoding = utf8, version=3
 	NAME=Appifan.com
 	URL=http://www.appifan.com/
 	CREATED=1320226387
-	VISITED=1358504276
 	UNIQUEID=6ABCAC40410F2148BD01D6AE8AFD1292
 
 #URL
@@ -3686,7 +3364,6 @@ Options: encoding = utf8, version=3
 	NAME=豌豆荚
 	URL=http://www.wandoujia.com/
 	CREATED=1357873614
-	VISITED=1358504005
 	UNIQUEID=269CFA7BA0AB7C428AECFA54A6833ECA
 
 #URL
@@ -3701,7 +3378,6 @@ Options: encoding = utf8, version=3
 	NAME=CyanogenMod
 	URL=http://download.cyanogenmod.com/?device=maguro&type=stable
 	CREATED=1346995633
-	VISITED=1358255358
 	SHORT NAME=cm
 	UNIQUEID=0CE2109097C88545804013B60D52D04D
 
@@ -3709,7 +3385,7 @@ Options: encoding = utf8, version=3
 
 #FOLDER
 	ID=495
-	NAME=网盘搜索
+	NAME=网络硬盘
 	CREATED=1236408981
 	UNIQUEID=ABC527D09D33034C9FADE86315F28C17
 
@@ -3718,7 +3394,6 @@ Options: encoding = utf8, version=3
 	NAME=海盗湾
 	URL=http://labaia.ws/
 	CREATED=1343543446
-	VISITED=1358515169
 	UNIQUEID=9EAFE149B079124881F7350A306F1EC4
 
 #URL
@@ -3726,7 +3401,6 @@ Options: encoding = utf8, version=3
 	NAME=FileCatch
 	URL=http://www.filecatch.com/
 	CREATED=1314583656
-	VISITED=1358350700
 	UNIQUEID=FF1BCB2E8AC13648993224C0967E619F
 
 #URL
@@ -3734,7 +3408,6 @@ Options: encoding = utf8, version=3
 	NAME=FileCrop
 	URL=http://www.filecrop.com/
 	CREATED=1358176467
-	VISITED=1358350714
 	UNIQUEID=E86934AE9134E34AAC95EFC003D37198
 
 #URL
@@ -3742,7 +3415,6 @@ Options: encoding = utf8, version=3
 	NAME=FilesTube
 	URL=http://www.filestube.com/
 	CREATED=1314583651
-	VISITED=1358217230
 	UNIQUEID=3E867F2B23013D4088B70CEA416EFBF8
 
 #URL
@@ -3750,7 +3422,6 @@ Options: encoding = utf8, version=3
 	NAME=Fenopy.SE
 	URL=http://fenopy.se/
 	CREATED=1358176485
-	VISITED=1358350721
 	UNIQUEID=1A24EC94D606CC45BDAC02822DC38594
 
 #URL
@@ -3758,7 +3429,6 @@ Options: encoding = utf8, version=3
 	NAME=Search.xxx
 	URL=http://search.xxx/
 	CREATED=1348919351
-	VISITED=1358350266
 	UNIQUEID=40347DA469CFFE4EB5EAA82035766E0C
 
 #URL
@@ -3766,7 +3436,6 @@ Options: encoding = utf8, version=3
 	NAME=Torrent Search Engine
 	URL=http://torrentz.eu/
 	CREATED=1358217190
-	VISITED=1358518818
 	UNIQUEID=5BA62046A4DF1847941ECE9FB8F01C10
 
 #URL
@@ -3774,7 +3443,6 @@ Options: encoding = utf8, version=3
 	NAME=GooBye FTP
 	URL=http://www.goobye.net/
 	CREATED=1317029249
-	VISITED=1358174021
 	UNIQUEID=E499E52EF671534784745795CCA5485E
 
 #URL
@@ -3782,7 +3450,6 @@ Options: encoding = utf8, version=3
 	NAME=迅雷网盘搜索
 	URL=http://hao123.xunlei.com/so/
 	CREATED=1355550300
-	VISITED=1358514497
 	UNIQUEID=C332FCD0956B5A44A4AB955F65A4EF05
 
 #URL
@@ -3797,7 +3464,6 @@ Options: encoding = utf8, version=3
 	NAME=盘搜
 	URL=http://www.pansou.com/
 	CREATED=1340117038
-	VISITED=1358175730
 	UNIQUEID=AD38DF63E0944F4F8D7138397CA7D9BB
 
 #URL
@@ -3805,7 +3471,6 @@ Options: encoding = utf8, version=3
 	NAME=搜网盘
 	URL=http://www.souwangpan.com/
 	CREATED=1340117038
-	VISITED=1358217333
 	UNIQUEID=25D7C96089C3184A8413B8BAF4227664
 
 #URL
@@ -3820,7 +3485,6 @@ Options: encoding = utf8, version=3
 	NAME=网盘搜索
 	URL=http://www.wangpan8.com/
 	CREATED=1340117038
-	VISITED=1358514506
 	UNIQUEID=DE7490215C29564796D87579A6F20018
 
 #URL
@@ -3828,7 +3492,6 @@ Options: encoding = utf8, version=3
 	NAME=网盘资源下载
 	URL=http://dl.vmall.com/all/1
 	CREATED=1357894168
-	VISITED=1358176012
 	UNIQUEID=F81EAB2E7B47054191F6DBEBE4F0AD30
 
 #URL
@@ -3836,7 +3499,6 @@ Options: encoding = utf8, version=3
 	NAME=Raybt
 	URL=http://www.raybt.com/
 	CREATED=1320502859
-	VISITED=1358504480
 	UNIQUEID=E5E3E5673FE4FC40A76BD7E071EC67F8
 
 #URL
@@ -3844,7 +3506,6 @@ Options: encoding = utf8, version=3
 	NAME=自由网盘
 	URL=http://www.freebt.eu/2012/
 	CREATED=1357786706
-	VISITED=1358504474
 	UNIQUEID=EA8DCA2F152B0C4A831C4FFA5E4E0CD0
 
 #SEPERATOR
@@ -3856,7 +3517,6 @@ Options: encoding = utf8, version=3
 	NAME=Pdf Searcher
 	URL=http://www.pdf-searcher.com/
 	CREATED=1340117038
-	VISITED=1358175543
 	UNIQUEID=A9CEB8EF4410454AB46A90410AF294B2
 
 #URL
@@ -3864,7 +3524,6 @@ Options: encoding = utf8, version=3
 	NAME=PDFQueen
 	URL=http://www.pdfqueen.com/
 	CREATED=1340117038
-	VISITED=1358175863
 	UNIQUEID=2F780EDBC691474AB571654FCC730187
 
 #URL
@@ -3872,7 +3531,6 @@ Options: encoding = utf8, version=3
 	NAME=PDF Search Engine
 	URL=http://www.pdfsearchengine.org/
 	CREATED=1340117038
-	VISITED=1358175859
 	UNIQUEID=6F8CDCF1AD14F5448D42ACB3B14EE2D7
 
 #URL
@@ -3880,7 +3538,6 @@ Options: encoding = utf8, version=3
 	NAME=Free PDF Search Engine
 	URL=http://www.pdfgeni.com/index.php
 	CREATED=1358175477
-	VISITED=1358176142
 	UNIQUEID=2E8D5CB305F1844CA75898D5B8F66E57
 
 #SEPERATOR
@@ -3892,7 +3549,6 @@ Options: encoding = utf8, version=3
 	NAME=Windows Live
 	URL=https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1290873311&rver=6.1.6206.0&wp=MBI&wreply=http:%2F%2Fskydrive.live.com%2Fhome.aspx&lc=2052&id=250206&cbcxt=sky
 	CREATED=1290873517
-	VISITED=1358494580
 	UNIQUEID=8DFC1423B97DBB418C9A75F46919C3E3
 
 #URL
@@ -3900,7 +3556,6 @@ Options: encoding = utf8, version=3
 	NAME=迅雷快传
 	URL=http://kuai.xunlei.com/
 	CREATED=1323282670
-	VISITED=1358494555
 	UNIQUEID=C2C4F61626B9EF4DA637D9A7B7F1BE0E
 
 #URL
@@ -3908,7 +3563,6 @@ Options: encoding = utf8, version=3
 	NAME=快盘
 	URL=http://www.kuaipan.cn/
 	CREATED=1323282670
-	VISITED=1358494556
 	UNIQUEID=D976E210CEA6B943994D8044A1AB7501
 
 #URL
@@ -3916,7 +3570,6 @@ Options: encoding = utf8, version=3
 	NAME=百度网盘
 	URL=http://pan.baidu.com/
 	CREATED=1290873586
-	VISITED=1358494557
 	UNIQUEID=845B73AE8FF19D4985804C6B8BCACBCE
 
 #URL
@@ -3924,7 +3577,6 @@ Options: encoding = utf8, version=3
 	NAME=EverBox
 	URL=http://www.everbox.com/
 	CREATED=1323282670
-	VISITED=1358494560
 	UNIQUEID=FE79A6BF9CE2B648944BB07D63C48CA5
 
 #URL
@@ -3932,7 +3584,6 @@ Options: encoding = utf8, version=3
 	NAME=华为DBank
 	URL=http://dbank.vmall.com/
 	CREATED=1323282670
-	VISITED=1358494563
 	UNIQUEID=9AAAC0BE6440724BA1B6862267B061DF
 
 #URL
@@ -3940,7 +3591,6 @@ Options: encoding = utf8, version=3
 	NAME=115网络U盘
 	URL=http://115.com/
 	CREATED=1290873659
-	VISITED=1358494571
 	UNIQUEID=22DA10C19A3C6241A8C77F520DC4151C
 
 #URL
@@ -3948,7 +3598,6 @@ Options: encoding = utf8, version=3
 	NAME=威盘网上传接口
 	URL=http://www.vdisk.cn/api/webupload
 	CREATED=1348790353
-	VISITED=1358494567
 	UNIQUEID=EC085FBF13B335489FA568600F089FE9
 
 #URL
@@ -3956,7 +3605,6 @@ Options: encoding = utf8, version=3
 	NAME=RayFile
 	URL=http://www.rayfile.com/zh-cn/
 	CREATED=1323282670
-	VISITED=1358494565
 	UNIQUEID=33CFB4D9013A36479F56CE5EF1413FA2
 
 #URL
@@ -3964,7 +3612,6 @@ Options: encoding = utf8, version=3
 	NAME=3721up
 	URL=http://3721up.com/
 	CREATED=1323282670
-	VISITED=1358494566
 	UNIQUEID=5045303594ECA94DB65B09C017BF4D24
 
 #URL
@@ -3972,7 +3619,6 @@ Options: encoding = utf8, version=3
 	NAME=QQ网络硬盘
 	URL=http://disk.qq.com/
 	CREATED=1323282670
-	VISITED=1358494573
 	UNIQUEID=1B6DA984E952014F91B5EA712B6FE3A8
 
 #URL
@@ -3980,7 +3626,6 @@ Options: encoding = utf8, version=3
 	NAME=即得
 	URL=http://good.gd/
 	CREATED=1323282670
-	VISITED=1358494574
 	UNIQUEID=5FAE3F5E9E6427499407401D628CC04F
 
 #URL
@@ -3988,7 +3633,6 @@ Options: encoding = utf8, version=3
 	NAME=城通网盘
 	URL=http://www.400gb.com/
 	CREATED=1355375608
-	VISITED=1358494577
 	UNIQUEID=1203763063D43F42B18830C12595F1B8
 
 #URL
@@ -3996,7 +3640,6 @@ Options: encoding = utf8, version=3
 	NAME=Hotfile
 	URL=http://hotfile.com/
 	CREATED=1323282670
-	VISITED=1358494587
 	UNIQUEID=C3EE138E264FD1489607CB0F1E0E2A63
 
 #URL
@@ -4004,14 +3647,13 @@ Options: encoding = utf8, version=3
 	NAME=迅载网盘
 	URL=http://u.xunzai.com/
 	CREATED=1290873942
-	VISITED=1358494605
 	UNIQUEID=A3385FA02B0A8C4790C7E3631356DD6D
 
 -
 
 #FOLDER
 	ID=534
-	NAME=专业论坛
+	NAME=专业专注
 	CREATED=1318661305
 	UNIQUEID=5BFFFF8875D9D84A84A31FF604F135E4
 
@@ -4027,7 +3669,6 @@ Options: encoding = utf8, version=3
 	NAME=机锋论坛
 	URL=http://bbs.gfan.com/
 	CREATED=1320403069
-	VISITED=1358684379
 	SHORT NAME=gfan
 	UNIQUEID=4D1D5CC4AF4300478DECB0EE208314B5
 
@@ -4036,7 +3677,6 @@ Options: encoding = utf8, version=3
 	NAME=安卓网
 	URL=http://bbs.hiapk.com/
 	CREATED=1330515175
-	VISITED=1358514748
 	UNIQUEID=A94CC29D279608448BD4FB88A6AB57B2
 
 #URL
@@ -4044,7 +3684,6 @@ Options: encoding = utf8, version=3
 	NAME=威智网WPer
 	URL=http://bbs.wper.com/
 	CREATED=1339319231
-	VISITED=1358514765
 	SHORT NAME=wp
 	UNIQUEID=5CFFECB19258A84B9C67D95DB2DFC75C
 
@@ -4092,7 +3731,6 @@ Options: encoding = utf8, version=3
 	NAME=黑白网络
 	URL=http://www.heibai.net/
 	CREATED=1340117038
-	VISITED=1358174191
 	UNIQUEID=842B832D4FF7424B92453307A179BCA6
 
 #URL
@@ -4100,7 +3738,6 @@ Options: encoding = utf8, version=3
 	NAME=黑客基地论坛
 	URL=http://bbs.hackbase.com/
 	CREATED=1340117038
-	VISITED=1358174171
 	UNIQUEID=415E537CF3B7B042AF94261C1CC3646C
 
 #URL
@@ -4108,7 +3745,6 @@ Options: encoding = utf8, version=3
 	NAME=红色黑客论坛
 	URL=http://bbs.2cto.com/
 	CREATED=1340117038
-	VISITED=1358174174
 	UNIQUEID=6A8E84248522E94A87838AF8E167F068
 
 #URL
@@ -4116,7 +3752,6 @@ Options: encoding = utf8, version=3
 	NAME=黑吧安全网论坛
 	URL=http://bbs.myhack58.com/index.php
 	CREATED=1340117038
-	VISITED=1358212424
 	UNIQUEID=26D03BBF17E67A4BACCD5B8FF0C450BC
 
 #SEPERATOR
@@ -4128,7 +3763,7 @@ Options: encoding = utf8, version=3
 	NAME=赢政天下论坛
 	URL=http://yingzheng.com/
 	CREATED=1327625380
-	VISITED=1358683077
+	VISITED=1358843230
 	UNIQUEID=40547A8FCB34DD41BEB9FB04B0CF91BD
 
 #URL
@@ -4136,7 +3771,6 @@ Options: encoding = utf8, version=3
 	NAME=精品技术论坛CCF
 	URL=http://bbs.et8.net/bbs/
 	CREATED=1340117038
-	VISITED=1358212339
 	UNIQUEID=023303AA8CD1AC46981ED684014208F0
 
 #URL
@@ -4144,7 +3778,6 @@ Options: encoding = utf8, version=3
 	NAME=龙卷风极品论坛LJF
 	URL=http://bbs2.long-jf.com/index.php?
 	CREATED=1340117038
-	VISITED=1358212456
 	UNIQUEID=83B0D13CD7B37F4B92CD8BC15AF08209
 
 #URL
@@ -4152,7 +3785,7 @@ Options: encoding = utf8, version=3
 	NAME=霏凡论坛
 	URL=http://bbs.crsky.com/
 	CREATED=1327625380
-	VISITED=1358683085
+	VISITED=1358826459
 	UNIQUEID=846AA2DB68BA6F4EB8A446DE863CC4E1
 
 #URL
@@ -4160,7 +3793,6 @@ Options: encoding = utf8, version=3
 	NAME=IPv6之家
 	URL=http://www.ipv6home.cn/html/bbs.html
 	CREATED=1318089374
-	VISITED=1358491131
 	UNIQUEID=CB41D61F5C379F40845AD5886877C233
 
 #URL
@@ -4168,7 +3800,7 @@ Options: encoding = utf8, version=3
 	NAME=卡饭论坛
 	URL=http://bbs.kafan.cn/
 	CREATED=1290495012
-	VISITED=1358692815
+	VISITED=1358843229
 	UNIQUEID=8432653ADE498641BBB6D13F3D784AB7
 
 #URL
@@ -4176,7 +3808,6 @@ Options: encoding = utf8, version=3
 	NAME=远景论坛
 	URL=http://bbs.pcbeta.com/
 	CREATED=1315481718
-	VISITED=1358514905
 	UNIQUEID=9B9C57510B2415408642AA66A7741240
 
 #URL
@@ -4235,7 +3866,6 @@ Options: encoding = utf8, version=3
 	NAME=自由天空技术论坛
 	URL=http://sky123.org/
 	CREATED=1315481718
-	VISITED=1358212587
 	UNIQUEID=1935932DDFA0E742A4E8F49FFC9957BA
 
 #URL
@@ -4250,7 +3880,6 @@ Options: encoding = utf8, version=3
 	NAME=999宝藏网
 	URL=http://www.rin9.com/index.php
 	CREATED=1340117038
-	VISITED=1358211866
 	UNIQUEID=827A836D312C5E419914152D00AD4030
 
 #URL
@@ -4276,7 +3905,6 @@ Options: encoding = utf8, version=3
 	NAME=BIOS之家论坛
 	URL=http://bbs.bios.net.cn/
 	CREATED=1355208782
-	VISITED=1358211423
 	UNIQUEID=9A993B94B02F364D8B5F80BF1FDEE770
 
 #URL
@@ -4305,7 +3933,6 @@ Options: encoding = utf8, version=3
 	NAME=ITPUB论坛
 	URL=http://www.itpub.net/
 	CREATED=1340117038
-	VISITED=1358211936
 	UNIQUEID=B8AE716930F9964D91B0B4C9EA383745
 
 #URL
@@ -4338,7 +3965,6 @@ Options: encoding = utf8, version=3
 	NAME=HIFIDIY论坛
 	URL=http://bbs.hifidiy.net/index.php
 	CREATED=1358174518
-	VISITED=1358176988
 	UNIQUEID=BD39C78A4C6544449017FFB8C59B281E
 
 #URL
@@ -4346,7 +3972,6 @@ Options: encoding = utf8, version=3
 	NAME=数码之家
 	URL=http://bbs.mydigit.cn/
 	CREATED=1358213748
-	VISITED=1358213748
 	UNIQUEID=6B64E75593E138488B45F06147D5B8C2
 
 #URL
@@ -4354,7 +3979,6 @@ Options: encoding = utf8, version=3
 	NAME=iMP3随身影音
 	URL=http://bbs.imp3.net/
 	CREATED=1358174476
-	VISITED=1358213770
 	UNIQUEID=F17719CD9AF4D141B1CE8F85E195841F
 
 #SEPERATOR
@@ -4366,7 +3990,6 @@ Options: encoding = utf8, version=3
 	NAME=我爱GPS论坛
 	URL=http://www.oigps.com/
 	CREATED=1317561540
-	VISITED=1358252936
 	UNIQUEID=7BB8CF6C870C9A4F8F753222A706ACC8
 
 #URL
@@ -4399,7 +4022,6 @@ Options: encoding = utf8, version=3
 	NAME=中国模具论坛
 	URL=http://dx.mouldbbs.com/index.php
 	CREATED=1340117038
-	VISITED=1358174252
 	UNIQUEID=C163B2F5F4BB954A92CD2F0B889BCDDB
 
 #URL
@@ -4407,7 +4029,6 @@ Options: encoding = utf8, version=3
 	NAME=中国机械社区
 	URL=http://www.cmiw.cn/
 	CREATED=1340117038
-	VISITED=1358174244
 	UNIQUEID=1DA4273EF06F5E498577B48887289DE0
 
 #URL
@@ -4415,7 +4036,6 @@ Options: encoding = utf8, version=3
 	NAME=中国机械CAD论坛
 	URL=http://jxcad.com.cn/
 	CREATED=1340117038
-	VISITED=1358174239
 	UNIQUEID=E9E7E21068DA6A42995F99744C8FED0D
 
 #URL
@@ -4430,7 +4050,6 @@ Options: encoding = utf8, version=3
 	NAME=三维网技术论坛
 	URL=http://www.3dportal.cn/discuz/index.php
 	CREATED=1340117038
-	VISITED=1358174263
 	UNIQUEID=1DE42B5B28005B419FA9800F8FA594E2
 
 -
@@ -4527,7 +4146,6 @@ Options: encoding = utf8, version=3
 	NAME=华夏银行
 	URL=http://www.hxb.com.cn/
 	CREATED=1356578014
-	VISITED=1358174623
 	UNIQUEID=96F2E7523B64C64A8E13928D674C9D16
 
 #URL
@@ -4634,7 +4252,7 @@ Options: encoding = utf8, version=3
 	NAME=淘宝网
 	URL=http://www.taobao.com/
 	CREATED=1290872545
-	VISITED=1358658159
+	VISITED=1358826470
 	UNIQUEID=80F275C38D5E8846B70DAF3939ADDB39
 
 #URL
@@ -4642,7 +4260,6 @@ Options: encoding = utf8, version=3
 	NAME=趣玩网
 	URL=http://www.quwan.com/
 	CREATED=1316952818
-	VISITED=1358494678
 	UNIQUEID=277AF80B656EE7479B460D512B448DBD
 
 #URL
@@ -4650,15 +4267,13 @@ Options: encoding = utf8, version=3
 	NAME=一淘集分宝
 	URL=http://jf.etao.com/
 	CREATED=1353555520
-	VISITED=1358350644
 	UNIQUEID=3BF0018F4A57CF4DBEC614FA2CABF650
 
 #URL
 	ID=624
-	NAME=京东商城
+	NAME=京东网上商城
 	URL=http://www.360buy.com/
 	CREATED=1316952752
-	VISITED=1358319306
 	UNIQUEID=1204B78B2259C540A95194CD58E53F98
 
 #URL
@@ -4666,7 +4281,6 @@ Options: encoding = utf8, version=3
 	NAME=国美电器
 	URL=http://www.gome.com.cn/
 	CREATED=1340117038
-	VISITED=1358494666
 	UNIQUEID=08BD3B25E4F2F44ABBE0046DA2AB7B78
 
 #URL
@@ -4688,7 +4302,6 @@ Options: encoding = utf8, version=3
 	NAME=苏宁易购
 	URL=http://www.suning.com/
 	CREATED=1346686999
-	VISITED=1358173708
 	UNIQUEID=3FFDA6F272E8DC4A9B30401E43368499
 
 #URL
@@ -4717,7 +4330,6 @@ Options: encoding = utf8, version=3
 	NAME=乐淘网上鞋城
 	URL=http://www.letao.com/
 	CREATED=1316952728
-	VISITED=1358490504
 	UNIQUEID=262C734BA10F6C40922FDFCA52C82922
 
 #URL
@@ -4725,7 +4337,6 @@ Options: encoding = utf8, version=3
 	NAME=初刻Crucco
 	URL=http://www.crucco.com/
 	CREATED=1328361847
-	VISITED=1358490522
 	UNIQUEID=AD1C934375FF6D4BAA134C1E2D98E38F
 
 -
@@ -4741,7 +4352,6 @@ Options: encoding = utf8, version=3
 	NAME=Opera Portal
 	URL=http://portal.opera.com/
 	CREATED=1305642230
-	VISITED=1358515926
 	UNIQUEID=6D8A33660EB87C45BF40C4D38D8D8844
 
 #URL
@@ -4756,7 +4366,6 @@ Options: encoding = utf8, version=3
 	NAME=hao123
 	URL=http://www.hao123.com/
 	CREATED=1355127237
-	VISITED=1358405685
 	SHORT NAME=123
 	UNIQUEID=0FAADC8046143E4B8085A5170445B58B
 
@@ -4765,7 +4374,6 @@ Options: encoding = utf8, version=3
 	NAME=百度网址大全
 	URL=http://site.baidu.com/
 	CREATED=1320471970
-	VISITED=1358170970
 	SHORT NAME=dh
 	UNIQUEID=B4B8557A23125940B2EA6850461C8FF5
 
@@ -4774,7 +4382,6 @@ Options: encoding = utf8, version=3
 	NAME=世界各国网址大全
 	URL=http://www.world68.com/
 	CREATED=1340117038
-	VISITED=1358211382
 	UNIQUEID=765DDB1DC70B0349A8786977F611B8E4
 
 #SEPERATOR
@@ -4786,7 +4393,6 @@ Options: encoding = utf8, version=3
 	NAME=铁路客户服务中心
 	URL=http://www.12306.cn/
 	CREATED=1358170740
-	VISITED=1358170747
 	SHORT NAME=12306
 	UNIQUEID=34CA2ADF707EDE458F99214C0B634652
 
@@ -4803,7 +4409,6 @@ Options: encoding = utf8, version=3
 	NAME=强制性产品认证证书公众查询
 	URL=http://www.cnca.gov.cn/cnca/cxzq/rzcx/114453.shtml
 	CREATED=1340117038
-	VISITED=1358212042
 	UNIQUEID=3F570E09F68A6549A37FA98CE17217E9
 
 #SEPERATOR
@@ -4815,7 +4420,6 @@ Options: encoding = utf8, version=3
 	NAME=前程无忧
 	URL=http://www.51job.com/
 	CREATED=1340117038
-	VISITED=1358515927
 	UNIQUEID=38B6FF45AB31974EB0A4AEEE436D54A0
 
 #URL
@@ -4823,7 +4427,6 @@ Options: encoding = utf8, version=3
 	NAME=智联招聘网
 	URL=http://www.zhaopin.com/
 	CREATED=1340117038
-	VISITED=1358515922
 	UNIQUEID=F3170D4A0A5CBB469EB59B0AE97232DD
 
 #URL
@@ -4831,7 +4434,6 @@ Options: encoding = utf8, version=3
 	NAME=美团网
 	URL=http://www.meituan.com/
 	CREATED=1357045936
-	VISITED=1358661277
 	UNIQUEID=5E44D80FC9507744AF78595C57DA00F8
 
 #URL
@@ -4846,7 +4448,6 @@ Options: encoding = utf8, version=3
 	NAME=去哪儿网
 	URL=http://www.qunar.com/
 	CREATED=1355552678
-	VISITED=1358508483
 	UNIQUEID=39AFCD3AC0054F459552D50CF82780C9
 
 #URL
@@ -4854,7 +4455,6 @@ Options: encoding = utf8, version=3
 	NAME=大众点评网
 	URL=http://www.dianping.com/
 	CREATED=1357871848
-	VISITED=1358508549
 	UNIQUEID=FD754595E88C314C984D49EDF334FBF9
 
 #URL
@@ -4862,7 +4462,6 @@ Options: encoding = utf8, version=3
 	NAME=39健康网
 	URL=http://www.39.net/
 	CREATED=1357871859
-	VISITED=1358508508
 	UNIQUEID=60ADBCED3A1A704BAEFAD5951C8FD330
 
 #URL
@@ -4870,7 +4469,6 @@ Options: encoding = utf8, version=3
 	NAME=模拟攒机
 	URL=http://zj.zol.com.cn/
 	CREATED=1340117038
-	VISITED=1358490054
 	UNIQUEID=872FF21129C2F048B1A2C85F0CE11174
 
 #URL
@@ -4878,7 +4476,6 @@ Options: encoding = utf8, version=3
 	NAME=万年历
 	URL=http://wannianli.duapp.com/v4/
 	CREATED=1357312515
-	VISITED=1358515234
 	SHORT NAME=wnl
 	UNIQUEID=C1EAB6E8CC44004A81D0D10FC57543D7
 
@@ -4887,7 +4484,6 @@ Options: encoding = utf8, version=3
 	NAME=星座生肖综合应用
 	URL=http://astros.duapp.com/
 	CREATED=1357797615
-	VISITED=1358490637
 	UNIQUEID=899D651A199EA542BC8AC1016B71A835
 
 #URL
@@ -4909,7 +4505,6 @@ Options: encoding = utf8, version=3
 	NAME=Autodesk美家达人
 	URL=http://www.meijiadaren.com/home
 	CREATED=1340117038
-	VISITED=1358213724
 	UNIQUEID=4944B5DC0FC9D14AA6CFA7963627F548
 
 #URL
@@ -4931,7 +4526,6 @@ Options: encoding = utf8, version=3
 	NAME=友商快递100
 	URL=http://www.kuaidi100.com/
 	CREATED=1318601483
-	VISITED=1358170982
 	UNIQUEID=51C9641B14B43443B3B770A58E09DB48
 
 -
@@ -4947,15 +4541,13 @@ Options: encoding = utf8, version=3
 	NAME=dict.cc
 	URL=http://www.dict.cc/
 	CREATED=1343909155
-	VISITED=1358508764
 	UNIQUEID=CA80741FA8D1D148927915DB0A119FAE
 
 #URL
 	ID=663
 	NAME=Babylon Search
-	URL=http://isearch.babylon.com/
+	URL=http://isearch.babylon.com/?babsrc=home
 	CREATED=1304209461
-	VISITED=1358508764
 	UNIQUEID=C44AF18393D7A5469303CACB64C95C31
 
 #URL
@@ -4963,7 +4555,6 @@ Options: encoding = utf8, version=3
 	NAME=Babbel Languages
 	URL=http://www.babbel.com/
 	CREATED=1318665734
-	VISITED=1358508862
 	UNIQUEID=B004F5477A399045ABFE69423DB617D9
 
 #URL
@@ -4971,7 +4562,6 @@ Options: encoding = utf8, version=3
 	NAME=lernu! - 在网络上学世界语.
 	URL=http://zh-cn.lernu.net/
 	CREATED=1318665718
-	VISITED=1358509303
 	UNIQUEID=72CB6F1CE966E0439EB3625C0AA36E59
 
 #URL
@@ -4979,7 +4569,6 @@ Options: encoding = utf8, version=3
 	NAME=维基百科
 	URL=https://zh.wikipedia.org/
 	CREATED=1356833676
-	VISITED=1358508811
 	UNIQUEID=59C00EA822DD5B4F9A0B08AD23FE37EB
 
 #URL
@@ -4987,7 +4576,6 @@ Options: encoding = utf8, version=3
 	NAME=汉典 zdic.net
 	URL=http://www.zdic.net/
 	CREATED=1315481908
-	VISITED=1358508744
 	SHORT NAME=zd
 	UNIQUEID=C44F174320B43643A222E294C383FEFC
 
@@ -4996,7 +4584,6 @@ Options: encoding = utf8, version=3
 	NAME=沪江小D词典
 	URL=http://dict.hjenglish.com/
 	CREATED=1318665592
-	VISITED=1358508786
 	UNIQUEID=981945E46F9D9643A464BD4F68CFDC66
 
 #URL
@@ -5011,7 +4598,6 @@ Options: encoding = utf8, version=3
 	NAME=在线新华字典
 	URL=http://xh.5156edu.com/
 	CREATED=1316826522
-	VISITED=1358508790
 	UNIQUEID=12FA708C4261B74FA3216972117F3CDE
 
 #URL
@@ -5019,7 +4605,6 @@ Options: encoding = utf8, version=3
 	NAME=n词酷在线词典
 	URL=http://www.nciku.cn/
 	CREATED=1318665653
-	VISITED=1358508784
 	UNIQUEID=FBDBF2109182B9449DDDA2626556FA0A
 
 #SEPERATOR
@@ -5038,7 +4623,6 @@ Options: encoding = utf8, version=3
 	NAME=国学数典论坛
 	URL=http://bbs.gxsd.com.cn
 	CREATED=1358344344
-	VISITED=1358509104
 	UNIQUEID=2CB0D62EDC5CB942A74D4837B04CF494
 
 #URL
@@ -5046,7 +4630,6 @@ Options: encoding = utf8, version=3
 	NAME=第欧根尼俱乐部
 	URL=http://www.dogn.net/
 	CREATED=1340117038
-	VISITED=1358520537
 	UNIQUEID=4BF2A6A1EE7D144396C7210824182536
 
 #URL
@@ -5054,7 +4637,6 @@ Options: encoding = utf8, version=3
 	NAME=零点花园(学术文献)
 	URL=http://www.soudoc.com/bbs/index.php
 	CREATED=1340117038
-	VISITED=1358509014
 	UNIQUEID=FEBBA3FFA2E81243A3ED79144D9E0559
 
 #URL
@@ -5062,7 +4644,6 @@ Options: encoding = utf8, version=3
 	NAME=太傻超级论坛
 	URL=http://bbs.taisha.org/index.php
 	CREATED=1340117038
-	VISITED=1358509273
 	UNIQUEID=529D05B19752974192CEA1839E1C310F
 
 #SEPERATOR
@@ -5074,15 +4655,13 @@ Options: encoding = utf8, version=3
 	NAME=清风教育资源网
 	URL=http://www.qfsky.com/index.html
 	CREATED=1318665779
-	VISITED=1358508980
 	UNIQUEID=14E383D737C9124283379D1F2FF919A5
 
 #URL
 	ID=680
-	NAME=流星之家
+	NAME=流星之家首页
 	URL=http://www.lesun.org/
 	CREATED=1318665753
-	VISITED=1358508990
 	UNIQUEID=447826FB1AA4D54C84BCF898DC262436
 
 #URL
@@ -5090,7 +4669,6 @@ Options: encoding = utf8, version=3
 	NAME=诺亚教育网
 	URL=http://noah.noahedu.com/product/NE350/qnsx.html
 	CREATED=1316354987
-	VISITED=1358509145
 	UNIQUEID=B4DE5E54B8AC254F8270EF9827143106
 
 #URL
@@ -5098,7 +4676,6 @@ Options: encoding = utf8, version=3
 	NAME=小学童学习网
 	URL=http://www.xiaoxuetong.com/Download/
 	CREATED=1316354978
-	VISITED=1358508956
 	UNIQUEID=150A44D9ED4F614E8E89A83C99D163A7
 
 #SEPERATOR
@@ -5110,7 +4687,6 @@ Options: encoding = utf8, version=3
 	NAME=西东网
 	URL=http://xidong.net/sitemap.html
 	CREATED=1340117038
-	VISITED=1358509023
 	UNIQUEID=E3CD74388A380243940EA02327D0A877
 
 #URL
@@ -5125,7 +4701,6 @@ Options: encoding = utf8, version=3
 	NAME=我要自学网
 	URL=http://www.51zxw.net/
 	CREATED=1346833627
-	VISITED=1358509271
 	UNIQUEID=4D404D10757AB6459E3537991C852A21
 
 -
@@ -5171,7 +4746,6 @@ Options: encoding = utf8, version=3
 	NAME=雅虎邮箱
 	URL=http://mail.cn.yahoo.com/
 	CREATED=1290872222
-	VISITED=1358494697
 	UNIQUEID=A5CA7BD7FBA6C7409ACB9F6CBF320016
 
 #URL
@@ -5193,7 +4767,6 @@ Options: encoding = utf8, version=3
 	NAME=139邮箱
 	URL=http://mail.10086.cn/
 	CREATED=1290874490
-	VISITED=1358494696
 	UNIQUEID=AC4BAAE5C5718C419C5C685736ADBFD0
 
 -
@@ -5209,7 +4782,6 @@ Options: encoding = utf8, version=3
 	NAME=DesktopTeam
 	URL=http://my.opera.com/desktopteam/blog/
 	CREATED=1209014744
-	VISITED=1358584739
 	UNIQUEID=6CD25D02530EDF4080653A1A7F148A4D
 
 #URL
@@ -5217,7 +4789,6 @@ Options: encoding = utf8, version=3
 	NAME=Opera 官方FTP
 	URL=http://ftp.opera.com/pub/opera/win/
 	CREATED=1209014799
-	VISITED=1358384855
 	UNIQUEID=7B072EECEDCB08479B76162B1CBBF1B0
 
 #URL
@@ -5225,115 +4796,108 @@ Options: encoding = utf8, version=3
 	NAME=Opera IM | I Meet Opera!
 	URL=http://opera.im/
 	CREATED=1337926526
-	VISITED=1358566902
 	UNIQUEID=AC06250B65A2CE4DB6A06ADD7C9C72D0
 
 #URL
-	ID=713
+	ID=700
 	NAME=Opera 官方中文社区
 	URL=http://bbs.operachina.com/
 	CREATED=1358684394
-	VISITED=1358692824
+	VISITED=1358824784
 	SHORT NAME=op
 	UNIQUEID=6B4C6552BF0CA54E8DC0C52E898C9593
 
 #URL
-	ID=700
+	ID=701
 	NAME=Opera中文社区
 	URL=http://oc.ls.tl/
 	CREATED=1346672934
-	VISITED=1358680010
 	SHORT NAME=oc
 	UNIQUEID=5E21046491E0C24BB2CFE6B3A2838BFD
 
 #URL
-	ID=701
+	ID=702
 	NAME=Opera Wiki
 	URL=http://operawiki.org/
 	CREATED=1354774553
 	UNIQUEID=8739BD810AC3354EB7256504772F29E1
 
 #SEPERATOR
-	ID=702
+	ID=703
 	UNIQUEID=BC4D46E7870044478113E600155ED8AF
 
 #URL
-	ID=703
+	ID=704
 	NAME=Opera SMS
 	URL=https://jude.im/operasms/
 	CREATED=1316323507
-	VISITED=1358509881
 	UNIQUEID=4617087E529EE5439BD2EC8C5BE78406
 
 #URL
-	ID=704
+	ID=705
 	NAME=Lexi Home
 	URL=http://lexi.ucoz.ru/
 	CREATED=1236407940
 	UNIQUEID=A213BFD7C4362E49842EAB1BDCE23C03
 
 #URL
-	ID=705
+	ID=706
 	NAME=Tamil
 	URL=http://my.opera.com/Tamil/blog/
 	CREATED=1344476245
 	UNIQUEID=DABB86454CD6E442A7C16991D41F81E8
 
 #URL
-	ID=706
+	ID=707
 	NAME=XenoAntares
 	URL=http://my.opera.com/XAntares/blog/
 	CREATED=1346939161
 	UNIQUEID=5551F7CFFE15C14DAB1B5D3303F12B98
 
 #SEPERATOR
-	ID=707
+	ID=708
 	UNIQUEID=0953E726479A474D9A11627F7AAC0DA3
 
 #URL
-	ID=708
+	ID=709
 	NAME=Buttons
 	URL=http://www.aimwell.org/Help/Buttons/buttons.html
 	CREATED=1356758903
 	UNIQUEID=0365A47DE3EFE849BB06BA051336ABEF
 
 #URL
-	ID=709
+	ID=710
 	NAME=Buttons Creator
 	URL=http://nontroppo.org/tools/buttonmaker/
 	CREATED=1315120270
-	VISITED=1358514493
 	UNIQUEID=9020D4121C40C342A03C9FC66B655C2F
 
 #URL
-	ID=710
+	ID=711
 	NAME=Custom Buttons
 	URL=http://operawiki.info/CustomButtons
 	CREATED=1356758876
-	VISITED=1358514292
 	UNIQUEID=9A24E8CAF62F3142956FEC27489CB40D
 
 #URL
-	ID=711
+	ID=712
 	NAME=ExtendOpera
 	URL=http://extendopera.org/
 	CREATED=1315611344
-	VISITED=1358514516
 	UNIQUEID=8721478CA4134B4985958E4AA404DD3C
 
 #URL
-	ID=712
+	ID=713
 	NAME=bookmarklet 转按钮工具
 	URL=http://mylib.duxiu.com/userfile/12222653/2011-01-22/1295699454690.html
 	CREATED=1344417163
-	VISITED=1358514483
 	UNIQUEID=A7D6366291F5A843BA8EFC79B563C790
 
 -
 
 #FOLDER
 	ID=714
-	NAME=浏览器资源
+	NAME=浏览器测试
 	CREATED=1356934029
 	UNIQUEID=4B653507069B884E9E8A0E8C6542553D
 
@@ -5342,7 +4906,7 @@ Options: encoding = utf8, version=3
 	NAME=Userscripts.org
 	URL=http://userscripts.org/
 	CREATED=1357107560
-	VISITED=1358387039
+	VISITED=1358842294
 	UNIQUEID=57872892D222304BBAAD922246F53BAA
 
 #URL
@@ -5350,7 +4914,6 @@ Options: encoding = utf8, version=3
 	NAME=UerStyles.org
 	URL=http://userstyles.org/
 	CREATED=1357107563
-	VISITED=1358402337
 	UNIQUEID=5FB523F2F40F704FB4CC094FE0D0B029
 
 #URL
@@ -5358,7 +4921,6 @@ Options: encoding = utf8, version=3
 	NAME=BetterInternet
 	URL=http://betterinternet.co/
 	CREATED=1358225029
-	VISITED=1358387795
 	UNIQUEID=A36EBFAC4AD4A2439BB6671D5D232947
 
 #URL
@@ -5366,7 +4928,6 @@ Options: encoding = utf8, version=3
 	NAME=Stylebot Social
 	URL=http://stylebot.me/
 	CREATED=1329561315
-	VISITED=1358387848
 	UNIQUEID=60E28EF5E6AECA4DB7614ACC42EE239F
 
 #URL
@@ -5389,7 +4950,6 @@ Options: encoding = utf8, version=3
 	NAME=The Acid3 Test
 	URL=http://acid3.acidtests.org/
 	CREATED=1321072246
-	VISITED=1358520684
 	UNIQUEID=3736224C76AF5A4C945E68C54F43B05D
 
 #URL
@@ -5397,7 +4957,6 @@ Options: encoding = utf8, version=3
 	NAME=The CSS3 Test
 	URL=http://css3test.com/
 	CREATED=1346833054
-	VISITED=1358520690
 	UNIQUEID=EAD29572DACE9D4AB1372E91D05ECEF3
 
 #URL
@@ -5426,7 +4985,6 @@ Options: encoding = utf8, version=3
 	NAME=UserAgentString
 	URL=http://www.useragentstring.com/
 	CREATED=1356445628
-	VISITED=1358428117
 	SHORT NAME=ua
 	UNIQUEID=6957E6E493C44147AF88D0F1B7F8AB97
 
@@ -5471,7 +5029,6 @@ Options: encoding = utf8, version=3
 	NAME=微博急简
 	URL=http://www.diff.im/weibo_wc/
 	CREATED=1358402282
-	VISITED=1358515039
 	UNIQUEID=D3B95C976C067C4EB6982CF48D3D988F
 
 #URL
@@ -5479,7 +5036,6 @@ Options: encoding = utf8, version=3
 	NAME=Testing your adblocker
 	URL=http://simple-adblock.com/plugin/testing-your-adblocker/
 	CREATED=1356938973
-	VISITED=1358515096
 	UNIQUEID=955DF56A9BF7E74CB9CCFF1122B60FE4
 
 #URL
