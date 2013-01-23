@@ -61,8 +61,6 @@ wget http://userscripts.org/scripts/source/153190.user.js
 wget http://userscripts.org/scripts/source/154473.user.js
 wget http://userscripts.org/scripts/source/154476.user.js
 wget http://userscripts.org/scripts/source/153687.user.js
-wget http://userscripts.org/scripts/source/153275.user.js
-rem https://raw.github.com/izml/ujs/master/InputCtrl.js
 ren 103552.user.js doubanimdb.user.js
 ren 105741.user.js picViewer.js
 ren 123244.user.js doubaniask.user.js
@@ -71,7 +69,6 @@ ren 154476.user.js http2https.js
 ren 151249.user.js nolazyload.js
 ren 152399.user.js Search_engineJump.js
 ren 153190.user.js CrackUrlDN.js
-ren 153275.user.js InputCtrl.js
 ren 154473.user.js Linkify.js
 ren 153687.user.js TiebaFix.js
 move /y CrackUrlDN.js profile\script
