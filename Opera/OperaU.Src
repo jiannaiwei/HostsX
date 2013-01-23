@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.38
+set ver=1.0.1.39
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -178,6 +178,19 @@ echo._____&echo.文件不存在,可能已经被删除!&ping 00 -n 2 -w 888 >nul  & exit
 
 :md5continue
 start "" "%~dp0optools\hash.exe" "%p%" & exit
+
+:deldown
+title 删除文件
+mode con cols=20 lines=2
+del /q /a "%temp%\downifo" >nul 2>nul
+start "" /wait "%~dp0nircmd.exe" clipboard writefile "%temp%\downifo"
+(for /f "usebackq tokens=1*" %%a in ("%temp%\downifo") do (
+ if exist "%%b" set "p=%%b" & goto deldown2
+)) >nul 2>nul
+exit
+
+:deldown2
+del /a /f "%p%" & exit
 
 :Updateit
 msg %username% /time:2 "【新版本升级中,请稍后！】"

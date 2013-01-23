@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 /*
 Name: /BBS看帖整理
-Version: 1.0.0.3
+Version: 1.0.0.5
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/BBS.css
 Description: MayBe a Better Forum CSS.
 */
@@ -28,3 +28,7 @@ min-height:0px !important;
 
 #footer,#header,div[class="quote"],div[class^="related"],td[class="floot_left"],div[class^="floot_left"],div[class="postact s_clear"],td[class="postcontent postbottom"]{display: none !important;}
 .modaction,.useraction,dl[class="newrate"],td[class="plc plm"],td[class="postauthor"]{display: none !important;}
+
+/*过滤网页上的隐藏文字*/
+SPAN[class="transparent"],[style*="font-size:0p"],[style*="font-size: 0p"]
+{ display: none !important }

@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 /*
 Name: /浏览辅助
-Version: 1.0.1.5
+Version: 1.0.1.6
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
 Description: Opera Default & Plus Style.
 */
@@ -19,6 +19,9 @@ a[href="###"]{-o-link:attr(qhref) !important; -o-link-source:current !important;
 
 /*输入框类chrome高亮*/
 input:not([type='submit']):not([type='reset']):not([type='button']):not([type='checkbox']):not([type='radio']):focus, textarea:focus, select:focus{ border:1px solid #0099FF;  box-shadow: 1px 1px 0 #0099FF, 1px -1px 0 #0099FF, -1px 1px 0 #0099FF, -1px -1px 0 #0099FF, 0px 0px 5px 1px #0099FF !important;  border-radius:3px!important; }
+
+/*----------页面背景颜色调整----------
+body,div,textarea,input{background-color: #e5ede0;}*/
 
 /*调整选中文本及其背景的颜色*/
 ::selection {background-color:#FFC299;color:#02020F;text-shadow:none!important}  
