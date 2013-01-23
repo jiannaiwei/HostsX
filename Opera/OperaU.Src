@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.52
+set ver=1.0.1.53
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -63,7 +63,6 @@ wget http://userscripts.org/scripts/source/154476.user.js
 wget http://userscripts.org/scripts/source/153687.user.js
 wget http://userscripts.org/scripts/source/153275.user.js
 rem https://raw.github.com/izml/ujs/master/InputCtrl.js
-wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 ren 103552.user.js doubanimdb.user.js
 ren 105741.user.js picViewer.js
 ren 123244.user.js doubaniask.user.js
@@ -86,7 +85,6 @@ move /y http2https.js profile\script
 move /y nolazyload.js profile\script
 move /y picViewer.js profile\script
 move /y InputCtrl.js profile\script
-move /y ush.js profile\script
 move /y TiebaFix.js profile\script
 move /y license.txt locale\en
 move /y bookmarks.adr locale\zh-cn

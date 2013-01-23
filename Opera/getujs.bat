@@ -13,7 +13,7 @@ wget http://userscripts.org/scripts/source/154476.user.js
 wget http://userscripts.org/scripts/source/153687.user.js
 wget http://userscripts.org/scripts/source/153275.user.js
 rem https://raw.github.com/izml/ujs/master/InputCtrl.js
-wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
+rem wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 ren 103552.user.js doubanimdb.user.js
 ren 105741.user.js picViewer.js
 ren 123244.user.js doubaniask.user.js
