@@ -148,6 +148,8 @@
 0.0.0.0 tg2.duolegame.com
 0.0.0.0 sc.subo.me
 0.0.0.0 tg3.subo.me
+0.0.0.0 cdn.ledu.com
+0.0.0.0 pop.ledu.com
 0.0.0.0 xunion.ledu.com
 0.0.0.0 union.ledu.com
 0.0.0.0 p.gocsgo.com
@@ -903,6 +905,7 @@
 0.0.0.0 wt1.wuming.com
 0.0.0.0 www.zwads.com
 0.0.0.0 164c.mnwan.com
+0.0.0.0 pop.joypush.cn
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

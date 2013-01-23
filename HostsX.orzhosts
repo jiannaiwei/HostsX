@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20:44:59.81 2013/01/23 周三
+;version=21:03:00.19 2013/01/23 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11694,6 +11694,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tg2.duolegame.com
 0.0.0.0 sc.subo.me
 0.0.0.0 tg3.subo.me
+0.0.0.0 cdn.ledu.com
+0.0.0.0 pop.ledu.com
 0.0.0.0 xunion.ledu.com
 0.0.0.0 union.ledu.com
 0.0.0.0 p.gocsgo.com
@@ -12449,6 +12451,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 wt1.wuming.com
 0.0.0.0 www.zwads.com
 0.0.0.0 164c.mnwan.com
+0.0.0.0 pop.joypush.cn
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

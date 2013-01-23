@@ -1,5 +1,5 @@
 
-;version=20:44:59.81 2013/01/23 周三
+;version=21:03:00.19 2013/01/23 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11690,6 +11690,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 tg2.duolegame.com
 127.0.0.1 sc.subo.me
 127.0.0.1 tg3.subo.me
+127.0.0.1 cdn.ledu.com
+127.0.0.1 pop.ledu.com
 127.0.0.1 xunion.ledu.com
 127.0.0.1 union.ledu.com
 127.0.0.1 p.gocsgo.com
@@ -12445,6 +12447,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 wt1.wuming.com
 127.0.0.1 www.zwads.com
 127.0.0.1 164c.mnwan.com
+127.0.0.1 pop.joypush.cn
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com
