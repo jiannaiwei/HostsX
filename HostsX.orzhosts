@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20:27:03.19 2013/01/23 周三
+;version=20:44:59.81 2013/01/23 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11707,6 +11707,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.52xiyou.com
 0.0.0.0 tg.000wan.com
 0.0.0.0 www.000wan.com
+0.0.0.0 lg3452.565882.com
 0.0.0.0 lg1236.565882.com
 0.0.0.0 lg7894.565882.com
 0.0.0.0 lg3457.565882.com
