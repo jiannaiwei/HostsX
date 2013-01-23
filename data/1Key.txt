@@ -645,7 +645,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cpc.brand.sogou.com
 0.0.0.0 cpc.sogou.com
 0.0.0.0 dl.bizhi.sogou.com
-0.0.0.0 download.ie.sogou.com
 0.0.0.0 eff.inte.sogou.com
 0.0.0.0 rlt.inte.sogou.com
 0.0.0.0 p.inte.sogou.com

@@ -1,5 +1,5 @@
 
-;version=20:05:33.44 2013/01/23 周三
+;version=20:27:03.19 2013/01/23 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1282,7 +1282,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cpc.brand.sogou.com
 127.0.0.1 cpc.sogou.com
 127.0.0.1 dl.bizhi.sogou.com
-127.0.0.1 download.ie.sogou.com
 127.0.0.1 eff.inte.sogou.com
 127.0.0.1 rlt.inte.sogou.com
 127.0.0.1 p.inte.sogou.com
@@ -3353,8 +3352,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ping.pinyin.sogou.com
 127.0.0.1 st.pinyin.sogou.com
 #搜狗浏览器
-127.0.0.1 conf.ie.sogou.com
 127.0.0.1 config.ie.sogou.com
+127.0.0.1 download.ie.sogou.com
 127.0.0.1 ping.ie.sogou.com
 127.0.0.1 pingback.ie.sogou.com
 #Vagaa

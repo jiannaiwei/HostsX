@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20:05:33.44 2013/01/23 周三
+;version=20:27:03.19 2013/01/23 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1286,7 +1286,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cpc.brand.sogou.com
 0.0.0.0 cpc.sogou.com
 0.0.0.0 dl.bizhi.sogou.com
-0.0.0.0 download.ie.sogou.com
 0.0.0.0 eff.inte.sogou.com
 0.0.0.0 rlt.inte.sogou.com
 0.0.0.0 p.inte.sogou.com
@@ -3357,8 +3356,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 ping.pinyin.sogou.com
 0.0.0.0 st.pinyin.sogou.com
 #搜狗浏览器
-0.0.0.0 conf.ie.sogou.com
 0.0.0.0 config.ie.sogou.com
+0.0.0.0 download.ie.sogou.com
 0.0.0.0 ping.ie.sogou.com
 0.0.0.0 pingback.ie.sogou.com
 #Vagaa
