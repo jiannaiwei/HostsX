@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.51
+set ver=1.0.1.52
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -79,7 +79,7 @@ move /y CrackUrlDN.js profile\script
 move /y Search_engineJump.js profile\script
 move /y doubaniask.user.js profile\script
 move /y doubanimdb.user.js profile\script
-move /y getujs.bat profile\userjs
+move /y getujs.bat profile\script
 move /y goglrd.js profile\script
 move /y Linkify.js profile\script
 move /y http2https.js profile\script
