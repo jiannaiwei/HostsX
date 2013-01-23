@@ -40,7 +40,7 @@ Padding Right       = 4
 Margin Left         = 2
 Margin Right        = 2
 
-;Mod By SimpleU 16:52 2013/1/22
+;Mod By SimpleU 17:11 2013/1/23
 #Favicon
 alexa            =simpleu/favicon/alexa.png
 baidu            =simpleu/favicon/baidu.png
@@ -106,18 +106,29 @@ FS_Scroll        =simpleu/fscapture/Scroll.png
 FSCapture        =simpleu/fscapture/FSCapture.png
 
 #Program
+BkClean          =simpleu/program/BkClean.png
+Capture          =simpleu/program/Capture.png
+Everything       =simpleu/program/Everything.png
+FlowerPassword   =simpleu/program/FlowerPassword.png
+HttpFileMonitor  =simpleu/program/HttpFileMonitor.png
+OPIOME           =simpleu/program/OPIOME.png
+ServiceM         =simpleu/program/ServiceM.png
+TheWorld         =simpleu/program/TheWorld.png
+VideoCacheView   =simpleu/program/VideoCacheView.png
 calc             =simpleu/program/calc.png
+closedtabs       =simpleu/program/closedtabs.png
 cmd              =simpleu/program/cmd.png
+firefox          =simpleu/program/firefox.png
+flux             =simpleu/program/flux.png
 hash             =simpleu/program/hash.png
+ie               =simpleu/program/ie.png
+iemode           =simpleu/program/iemode.png
+mute             =simpleu/program/mute.png
 osk              =simpleu/program/osk.png
 paint            =simpleu/program/paint.png
 screener         =simpleu/program/screener.png
 snap             =simpleu/program/snap.png
-firefox          =simpleu/program/firefox.png
-ie               =simpleu/program/ie.png
-iemode           =simpleu/program/iemode.png
-mute             =simpleu/program/mute.png
-closedtabs       =simpleu/program/closedtabs.png
+
 
 #Proxy
 advor            =simpleu/proxy/advor.png
@@ -135,6 +146,7 @@ wapp             =simpleu/proxy/wapp.png
 wcproxy          =simpleu/proxy/wcproxy.png
 wito             =simpleu/proxy/wito.png
 wj               =simpleu/proxy/wj.png
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~偶是华丽滴分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 OPERA SOFTWARE END-USER LICENSE AGREEMENT FOR OPERA DESKTOP BROWSER
