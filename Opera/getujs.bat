@@ -1,6 +1,6 @@
 @echo off
 pushd %~dp0
-del *.user.jsx doubaniask.user.js picViewer.js doubanimdb.user.js ush.js InputCtrl.js CrackUrlDN.js Search_engineJump.js http2https.js goglrd.js nolazyload.js Linkify.js TiebaFix.js 0AutoPagerize.SITEINFO.jsx DBankLinker.jsx FlashBlock.jsx SmoothScrollTopBottom.jsx YoukuSS.jsx
+del *.user.jsx doubaniask.user.js picViewer.js doubanimdb.user.js ush.js InputCtrl.jsx CrackUrlDN.js Search_engineJump.js http2https.js goglrd.js nolazyload.js Linkify.js TiebaFix.js 0AutoPagerize.SITEINFO.jsx DBankLinker.jsx FlashBlock.jsx SmoothScrollTopBottom.jsx YoukuSS.jsx
 wget http://userscripts.org/scripts/source/103552.user.js
 wget http://userscripts.org/scripts/source/105741.user.js
 wget http://userscripts.org/scripts/source/123244.user.js
@@ -22,7 +22,7 @@ ren 154476.user.js http2https.js
 ren 151249.user.js nolazyload.js
 ren 152399.user.js Search_engineJump.js
 ren 153190.user.js CrackUrlDN.js
-ren 153275.user.js InputCtrl.js
+ren 153275.user.js InputCtrl.jsx
 ren 154473.user.js Linkify.js
 ren 153687.user.js TiebaFix.js
 wget http://userscripts.org/scripts/source/156472.user.js
