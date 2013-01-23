@@ -24,7 +24,6 @@ m.facebook.com
 touch.facebook.com
 fbcdn.net
 facebook.com
-apps.facebook.com
 external.ak.fbcdn.net
 b.static.ak.fbcdn.net
 static.ak.fbcdn.net
