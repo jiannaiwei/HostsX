@@ -1859,13 +1859,14 @@ div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBran
 div[class="ego_column"]{display:none !important}
 div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
 div[id="nphLayoutGG"],div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],div[class^="imh-"][id^="imh-"]{display:none !important}
-Item,"捕捉活动窗口"=Execute program, "optools\FSCapture\FSCLoader.exe","Alt+PrtSc",,"FS_ActiveWindow""
-Item,"捕捉窗口/对象"=Execute program, "optools\FSCapture\FSCLoader.exe","Shift+PrtSc",,"FS_Object""
-Item,"捕捉矩形区域"=Execute program, "optools\FSCapture\FSCLoader.exe","Ctrl+PrtSc",,"FS_Rectangular""
-Item,"捕捉手绘区域"=Execute program, "optools\FSCapture\FSCLoader.exe","Ctrl+Shift+PrtSc",,"FS_Freehand""
-Item,"捕捉整个全屏"=Execute program, "optools\FSCapture\FSCLoader.exe","PrtSc",,"FS_full""
-Item,"捕捉滚动窗口"=Execute program, "optools\FSCapture\FSCLoader.exe","Ctrl+Alt+PrtSc",,"FS_Scroll""
+
+Item, "截取活动窗口"="Execute program,"optools\Csendkey.bat","ActiveWindow",,"FS_ActiveWindow""
+Item, "截取对象"="Execute program,"optools\Csendkey.bat","Object",,"FS_Object""
+Item, "截取矩形区域"="Execute program,"optools\Csendkey.bat","Rectangular",,"FS_Rectangular""
+Item, "截取手绘区域"="Execute program,"optools\Csendkey.bat","FreeHand",,"FS_Freehand""
+Item, "截取全屏"="Execute program,"optools\Csendkey.bat","Full",,"FS_full""
+Item, "滚屏截取"="Execute program,"optools\Csendkey.bat","ScrollingWindow",,"FS_Scroll""
 --------------------1
-Item, "屏幕放大镜"="Execute program,"optools\FSCapture\FSCLoader.exe","Ctrl+Alt+F",,"FS_magnifier""
-Item, "屏幕取色器"="Execute program,"optools\FSCapture\FSCLoader.exe","Ctrl+Alt+P",,"FS_eyedropper""
-Item, "屏幕标尺"="Execute program,"optools\FSCapture\FSCLoader.exe","Ctrl+Alt+R",,"FS_Rectangular""
+Item, "屏幕放大镜"="Execute program,"Csendkey.bat","magnifier",,"FS_magnifier""
+Item, "屏幕取色器"="Execute program,"Csendkey.bat","eyedropper",,"FS_eyedropper""
+Item, "屏幕标尺"="Execute program,"Csendkey.bat","rule",,"FS_rule""
