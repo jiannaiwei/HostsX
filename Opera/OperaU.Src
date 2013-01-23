@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.5
+set ver=1.0.1.51
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -85,6 +85,8 @@ move /y Linkify.js profile\script
 move /y http2https.js profile\script
 move /y nolazyload.js profile\script
 move /y picViewer.js profile\script
+move /y InputCtrl.js profile\script
+move /y ush.js profile\script
 move /y TiebaFix.js profile\script
 move /y license.txt locale\en
 move /y bookmarks.adr locale\zh-cn
