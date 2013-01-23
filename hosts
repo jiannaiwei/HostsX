@@ -1,5 +1,5 @@
 
-;version=15:14:50.16 2013/01/23 周三
+;version=20:05:33.44 2013/01/23 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -12444,6 +12444,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 t.womenwan.com
 127.0.0.1 wt1.wuming.com
 127.0.0.1 www.zwads.com
+127.0.0.1 164c.mnwan.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

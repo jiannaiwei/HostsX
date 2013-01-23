@@ -1,6 +1,6 @@
 ﻿Opera SimpleU Mod 定制和参数详解：
 ; http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-15:53 2013/1/22
+19:58 2013/1/23
 
 用之前请务必先阅读一下本介绍，谢谢！
 不建议跨版本安装，情先备份个人数据！
@@ -40,7 +40,7 @@ Padding Right       = 4
 Margin Left         = 2
 Margin Right        = 2
 
-;Mod By SimpleU 17:11 2013/1/23
+;Mod By SimpleU 19:57 2013/1/23
 #Favicon
 alexa            =simpleu/favicon/alexa.png
 baidu            =simpleu/favicon/baidu.png
@@ -112,23 +112,37 @@ Everything       =simpleu/program/Everything.png
 FlowerPassword   =simpleu/program/FlowerPassword.png
 HttpFileMonitor  =simpleu/program/HttpFileMonitor.png
 OPIOME           =simpleu/program/OPIOME.png
+SRSniffer        =simpleu/program/SRSniffer.png
 ServiceM         =simpleu/program/ServiceM.png
 TheWorld         =simpleu/program/TheWorld.png
+TinyTask         =simpleu/program/TinyTask.png
+UserJS           =simpleu/program/UserJS.png
 VideoCacheView   =simpleu/program/VideoCacheView.png
+all_colors       =simpleu/program/all_colors.png
 calc             =simpleu/program/calc.png
+clear            =simpleu/program/clear.png
 closedtabs       =simpleu/program/closedtabs.png
 cmd              =simpleu/program/cmd.png
+edown            =simpleu/program/edown.png
 firefox          =simpleu/program/firefox.png
 flux             =simpleu/program/flux.png
 hash             =simpleu/program/hash.png
+highlight        =simpleu/program/highlight.png
 ie               =simpleu/program/ie.png
 iemode           =simpleu/program/iemode.png
+lsp              =simpleu/program/lsp.png
+malware          =simpleu/program/malware.png
 mute             =simpleu/program/mute.png
+netconnect       =simpleu/program/netconnect.png
+notepad          =simpleu/program/notepad.png
 osk              =simpleu/program/osk.png
 paint            =simpleu/program/paint.png
+paste            =simpleu/program/paste.png
 screener         =simpleu/program/screener.png
 snap             =simpleu/program/snap.png
-
+uTorrent         =simpleu/program/uTorrent.png
+vbs              =simpleu/program/dir-vbs.png
+wndmask          =simpleu/program/wndmask.png
 
 #Proxy
 advor            =simpleu/proxy/advor.png
