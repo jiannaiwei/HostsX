@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.39
+set ver=1.0.1.5
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -61,7 +61,9 @@ wget http://userscripts.org/scripts/source/153190.user.js
 wget http://userscripts.org/scripts/source/154473.user.js
 wget http://userscripts.org/scripts/source/154476.user.js
 wget http://userscripts.org/scripts/source/153687.user.js
-wget --no-check-certificate -N "https://dragonfly.opera.com/app/stp-1/zips/latest/client-zh-cn.zip"
+wget http://userscripts.org/scripts/source/153275.user.js
+rem https://raw.github.com/izml/ujs/master/InputCtrl.js
+wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 ren 103552.user.js doubanimdb.user.js
 ren 105741.user.js picViewer.js
 ren 123244.user.js doubaniask.user.js
@@ -70,9 +72,9 @@ ren 154476.user.js http2https.js
 ren 151249.user.js nolazyload.js
 ren 152399.user.js Search_engineJump.js
 ren 153190.user.js CrackUrlDN.js
+ren 153275.user.js InputCtrl.js
 ren 154473.user.js Linkify.js
 ren 153687.user.js TiebaFix.js
-ren client-zh-cn.zip dragonfly.zip
 move /y CrackUrlDN.js profile\script
 move /y Search_engineJump.js profile\script
 move /y doubaniask.user.js profile\script
@@ -101,6 +103,8 @@ move /y standard_toolbar.ini profile\toolbar
 move /y BBS.css profile\styles\user
 move /y Custom.css profile\styles\user
 move /y OperaU.css profile\styles\user
+wget --no-check-certificate -N "https://dragonfly.opera.com/app/stp-1/zips/latest/client-zh-cn.zip"
+ren client-zh-cn.zip dragonfly.zip
 move /y dragonfly.zip profile
 cls & echo ÅäÖÃÎÄ¼þÒÑÊÇ×îÐÂ×´Ì¬£¡& choice /t 2 /d y /n >nul & exit
 
@@ -120,9 +124,9 @@ rem mshta vbscript:msgbox("ÇëÎñ±ØÔÚ°²×°Ê¹ÓÃÇ°ÏêÏ¸ÔÄ¶Á·þÎñÌõ¿îÖÐµÄÄÚÈÝºÍÎÊÌâ½â´ð£
 opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
 %k% autocopy.exe >nul 2>nul
 if not exist %a%\OperaJR.exe copy program\OperaJR.exe %a% >nul 2>nul
-if not exist %a%\autocopy.exe copy program\autocopy.exe %a% >nul 2>nul
-start %a%\autocopy.exe >nul 2>nul
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /f /v "arpbd" /t REG_SZ /d "%a%\autocopy.exe"
+rem if not exist %a%\autocopy.exe copy program\autocopy.exe %a% >nul 2>nul
+rem start %a%\autocopy.exe >nul 2>nul
+rem reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /f /v "arpbd" /t REG_SZ /d "%a%\autocopy.exe"
 reg add "HKCR\operajr" /v "FriendlyTypeName" /d "opera" /f >nul 2>nul
 reg add "HKCR\operajr" /v "URL Protocol" /d "" /f >nul 2>nul
 reg add "HKCR\operajr\shell\open\command" /ve /d "\"C:\Windows\System32\OperaJR.exe\" \"%%1\"" /f >nul 2>nul

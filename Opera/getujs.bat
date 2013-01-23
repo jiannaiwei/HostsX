@@ -31,8 +31,4 @@ wget http://userscripts.org/scripts/source/45836.user.js
 ren 45836.user.js xiaonei_reformer.min.user.js
 wget http://userscripts.org/scripts/source/121956.user.js
 ren 121956.user.js LotusScent.user.js
-wget --no-check-certificate -N "https://userscripts.org/scripts/source/153275.user.js"
-ren 153275.user.js InputCtrl.js
-rem https://raw.github.com/izml/ujs/master/InputCtrl.js
-wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 msg %username% /time:3 "【UserJs数据已更新！】"&exit
