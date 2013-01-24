@@ -1,5 +1,5 @@
 
-;version=13:58:19.59 2013/01/24 周四
+;version=17:15:51.77 2013/01/24 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3931,6 +3931,17 @@ $      下载最新版本的 HostsX。
 127.0.0.1 clock.stat.zdworks.com
 127.0.0.1 clock.update.zdworks.com
 127.0.0.1 zpns.zdworks.com
+#Gametower
+127.0.0.1 203.69.83.218
+127.0.0.1 ex.gametower.com.tw
+127.0.0.1 ex.gt.web
+127.0.0.1 ex.twtest.towergame.com
+127.0.0.1 ma.gametower.com.tw
+127.0.0.1 ma.gt.web
+127.0.0.1 www.gametower.com.tw
+127.0.0.1 www.gt.web
+127.0.0.1 www.twtest.towergame.com
+127.0.0.1 www1.gametower.com.tw
 #WapSite
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
