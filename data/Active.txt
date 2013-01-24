@@ -1,34 +1,4 @@
 @Windows »Ìº˛—È÷§∆¡±Œ
-#Game Assassin's Creed
-127.0.0.1 onlineconfigservice.ubi.com
-127.0.0.1 orbitservice.ubi.com
-127.0.0.1 static3.cdn.ubi.com
-127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
-127.0.0.1 ubisoft-orbit.s3.amazonaws.com
-#Game Command&Conquer
-127.0.0.1 blazeserver.blazeemu.org
-127.0.0.1 demangler.ea.com
-127.0.0.1 gosgvaprod-qos01.ea.com
-127.0.0.1 gosiadprod-qos01.ea.com
-127.0.0.1 gosredirector.ea.com
-127.0.0.1 gossjcprod-qos01.ea.com
-127.0.0.1 vmp.tools.gos.ea.com
-#Game QUAZAL
-127.0.0.1 cohlive-1.quazal.net
-127.0.0.1 cohlive.quazal.net
-127.0.0.1 reliclive-1.quazal.net
-127.0.0.1 reliclive.quazal.net
-127.0.0.1 mangler1.generals.ea.com
-127.0.0.1 mangler2.generals.ea.com
-127.0.0.1 mangler3.generals.ea.com
-127.0.0.1 mangler4.generals.ea.com
-127.0.0.1 mangler5.generals.ea.com
-127.0.0.1 mangler6.generals.ea.com
-127.0.0.1 mangler7.generals.ea.com
-127.0.0.1 mangler8.generals.ea.com
-127.0.0.1 mangler9.generals.ea.com
-127.0.0.1 mangler10.generals.ea.com
-127.0.0.1 servserv.generals.ea.com
 #ACDSee
 127.0.0.1 acdid.acdsystems.com
 127.0.0.1 acdupdater.acdsystems.com

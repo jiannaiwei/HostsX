@@ -1,5 +1,5 @@
 
-;version=21:03:00.19 2013/01/23 周三
+;version=13:58:19.59 2013/01/24 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -635,7 +635,7 @@ fe80::1%lo0	localhost
 69.171.225.31	www.connect.facebook.com
 173.252.100.18	www.facebook.com
 69.171.242.72	zh-CN.facebook.com
-#GoogleGAE74.125.235.133 appengine.google.com203.208.46.222 smarthosts.googlecode.com203.208.46.222 autoddvpn.googlecode.com203.208.46.222 hostsx.googlecode.com@门户和常用网站
+@门户和常用网站
 #GoogleAdWord
 127.0.0.1 adwords.google.com
 127.0.0.1 adwords.google.sk
@@ -2524,6 +2524,15 @@ $      下载最新版本的 HostsX。
 127.0.0.1 counter.csdn.net
 127.0.0.1 z.csdn.net
 127.0.0.1 zi.csdn.net
+@HostsX 国内站点广告/下载类网站
+#idown
+127.0.0.1 idown.stsword.cn
+#木蚂蚁
+127.0.0.1 js.mumayi.net
+#Xdowns
+127.0.0.1 ccc.xdowns.com
+#Crsky
+127.0.0.1 images.crsky.com
 #RayFile
 127.0.0.1 rayfilead.roxcdn.com
 127.0.0.1 img.rayfile.com
@@ -2563,14 +2572,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.2345.com
 127.0.0.1 my.suda123.com
 127.0.0.1 union.suda123.com
-#idown
-127.0.0.1 idown.stsword.cn
-#木蚂蚁
-127.0.0.1 js.mumayi.net
-#Xdowns
-127.0.0.1 ccc.xdowns.com
-#Crsky
-127.0.0.1 images.crsky.com
 @HostsX 国内站点广告/汽车类网站
 #车市网
 127.0.0.1 analyze.cheshi.com
@@ -2873,36 +2874,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 sy.0575dp.com
 127.0.0.1 www.0575dp.com
 @Windows 软件验证屏蔽
-#Game Assassin's Creed
-127.0.0.1 onlineconfigservice.ubi.com
-127.0.0.1 orbitservice.ubi.com
-127.0.0.1 static3.cdn.ubi.com
-127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
-127.0.0.1 ubisoft-orbit.s3.amazonaws.com
-#Game Command&Conquer
-127.0.0.1 blazeserver.blazeemu.org
-127.0.0.1 demangler.ea.com
-127.0.0.1 gosgvaprod-qos01.ea.com
-127.0.0.1 gosiadprod-qos01.ea.com
-127.0.0.1 gosredirector.ea.com
-127.0.0.1 gossjcprod-qos01.ea.com
-127.0.0.1 vmp.tools.gos.ea.com
-#Game QUAZAL
-127.0.0.1 cohlive-1.quazal.net
-127.0.0.1 cohlive.quazal.net
-127.0.0.1 reliclive-1.quazal.net
-127.0.0.1 reliclive.quazal.net
-127.0.0.1 mangler1.generals.ea.com
-127.0.0.1 mangler2.generals.ea.com
-127.0.0.1 mangler3.generals.ea.com
-127.0.0.1 mangler4.generals.ea.com
-127.0.0.1 mangler5.generals.ea.com
-127.0.0.1 mangler6.generals.ea.com
-127.0.0.1 mangler7.generals.ea.com
-127.0.0.1 mangler8.generals.ea.com
-127.0.0.1 mangler9.generals.ea.com
-127.0.0.1 mangler10.generals.ea.com
-127.0.0.1 servserv.generals.ea.com
 #ACDSee
 127.0.0.1 acdid.acdsystems.com
 127.0.0.1 acdupdater.acdsystems.com
@@ -3032,6 +3003,37 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ps2.zonelabs.com
 127.0.0.1 register.zonelabs.com
 127.0.0.1 update.zonelabs.com
+@Windows 游戏验证屏蔽
+#Game Assassin's Creed
+127.0.0.1 onlineconfigservice.ubi.com
+127.0.0.1 orbitservice.ubi.com
+127.0.0.1 static3.cdn.ubi.com
+127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
+127.0.0.1 ubisoft-orbit.s3.amazonaws.com
+#Game Command&Conquer
+127.0.0.1 blazeserver.blazeemu.org
+127.0.0.1 demangler.ea.com
+127.0.0.1 gosgvaprod-qos01.ea.com
+127.0.0.1 gosiadprod-qos01.ea.com
+127.0.0.1 gosredirector.ea.com
+127.0.0.1 gossjcprod-qos01.ea.com
+127.0.0.1 vmp.tools.gos.ea.com
+#Game QUAZAL
+127.0.0.1 cohlive-1.quazal.net
+127.0.0.1 cohlive.quazal.net
+127.0.0.1 reliclive-1.quazal.net
+127.0.0.1 reliclive.quazal.net
+127.0.0.1 mangler1.generals.ea.com
+127.0.0.1 mangler2.generals.ea.com
+127.0.0.1 mangler3.generals.ea.com
+127.0.0.1 mangler4.generals.ea.com
+127.0.0.1 mangler5.generals.ea.com
+127.0.0.1 mangler6.generals.ea.com
+127.0.0.1 mangler7.generals.ea.com
+127.0.0.1 mangler8.generals.ea.com
+127.0.0.1 mangler9.generals.ea.com
+127.0.0.1 mangler10.generals.ea.com
+127.0.0.1 servserv.generals.ea.com
 @Windows 软件广告过滤
 #Avira
 127.0.0.1 notifier.avira.com
