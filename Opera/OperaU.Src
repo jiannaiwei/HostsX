@@ -81,7 +81,6 @@ move /y Linkify.js profile\script
 move /y http2https.js profile\script
 move /y nolazyload.js profile\script
 move /y picViewer.jsx profile\script
-move /y InputCtrl.js profile\script
 move /y TiebaFix.js profile\script
 move /y license.txt locale\en
 move /y bookmarks.adr locale\zh-cn
