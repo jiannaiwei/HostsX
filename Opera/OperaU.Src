@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.55
+set ver=1.0.1.56
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -37,7 +37,6 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
 wget http://hostsx.googlecode.com/svn/trunk/Opera/bookmarks.adr
-wget http://hostsx.googlecode.com/svn/trunk/Opera/Bookmarklets.adr
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_speeddial.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/search.ini
@@ -52,7 +51,6 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
 wget http://userscripts.org/scripts/source/103552.user.js
-wget http://userscripts.org/scripts/source/105741.user.js
 wget http://userscripts.org/scripts/source/123244.user.js
 wget http://userscripts.org/scripts/source/154702.user.js
 wget http://userscripts.org/scripts/source/151249.user.js
@@ -62,7 +60,6 @@ wget http://userscripts.org/scripts/source/154473.user.js
 wget http://userscripts.org/scripts/source/154476.user.js
 wget http://userscripts.org/scripts/source/153687.user.js
 ren 103552.user.js doubanimdb.user.js
-ren 105741.user.js picViewer.jsx
 ren 123244.user.js doubaniask.user.js
 ren 154702.user.js goglrd.js
 ren 154476.user.js http2https.js
@@ -80,11 +77,9 @@ move /y goglrd.js profile\script
 move /y Linkify.js profile\script
 move /y http2https.js profile\script
 move /y nolazyload.js profile\script
-move /y picViewer.jsx profile\script
 move /y TiebaFix.js profile\script
 move /y license.txt locale\en
 move /y bookmarks.adr locale\zh-cn
-move /y Bookmarklets.adr locale\zh-cn
 move /y standard_speeddial.ini locale\zh-cn
 move /y Super_preloader.db.js profile\script
 move /y override.ini profile
