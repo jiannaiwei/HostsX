@@ -1,5 +1,5 @@
 
-;version=17:15:51.77 2013/01/24 周四
+;version=18:54:50.96 2013/01/24 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2408,6 +2408,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www8.xitek.com
 #POCO
 127.0.0.1 a-m-s.poco.cn
+#Yupoo
+127.0.0.1 adc.yupoo.com
 #新摄影
 127.0.0.1 util.nphoto.net
 @HostsX 国内站点广告/购物类网站
@@ -2806,6 +2808,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 a.htwisdom.com
 127.0.0.1 h.irs01.com
 127.0.0.1 irs01.com
+127.0.0.1 irs01.net
 #土豆网
 127.0.0.1 adcontrol.tudou.com
 127.0.0.1 adextensioncontrol.tudou.com
@@ -3136,21 +3139,29 @@ $      下载最新版本的 HostsX。
 127.0.0.1 text-ad.qvod.com
 127.0.0.1 tj.qvod.com
 127.0.0.1 110.kuaibo.com
+127.0.0.1 acctrack.kuaibo.com
+127.0.0.1 agent.kuaibo.com
 127.0.0.1 buffer-ad.kuaibo.com
 127.0.0.1 dl.kuaibo.com
 127.0.0.1 hao.kuaibo.com
 127.0.0.1 m.kuaibo.com
 127.0.0.1 mobile.behavior.kuaibo.com
+127.0.0.1 mobile.statis.kuaibo.com
 127.0.0.1 pause-ad.kuaibo.com
 127.0.0.1 s.kuaibo.com
-127.0.0.1 text-ad.kuaibo.com
 127.0.0.1 searchstat.kuaibo.com
+127.0.0.1 statis.kuaibo.com
+127.0.0.1 text-ad.kuaibo.com
+127.0.0.1 tj.kuaibo.com
+127.0.0.1 ulog.kuaibo.com
+127.0.0.1 update.kuaibo.com
 127.0.0.1 op.web.kuaiwan.com
 127.0.0.1 op2.web.kuaiwan.com
 127.0.0.1 prom.web.kuaiwan.com
 127.0.0.1 web.kuaiwan.com
 127.0.0.1 dl.duoping.com
 127.0.0.1 s.726.com
+127.0.0.1 agent.ad1111.com
 127.0.0.1 game.ad1111.com
 127.0.0.1 qvodlink.hco.cc
 #RealPlayer
@@ -3281,6 +3292,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.007.mx
 127.0.0.1 mk.maxthon.cn
 127.0.0.1 datacn-dl.maxthon.com
+127.0.0.1 stats-a.maxthon.cn
 127.0.0.1 stat-w.maxthon.com
 127.0.0.1 stat.maxthon.com
 127.0.0.1 statcn-c.maxthon.com
@@ -3521,6 +3533,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 data.doodlemobile.com
 127.0.0.1 f.doodlemobile.com
 127.0.0.1 m.doodlemobile.com
+#Dolphin
+127.0.0.1 a.dolphin-browser.com
+127.0.0.1 activation.dolphin-browser.com
 #Doumob
 127.0.0.1 api.doumob.com
 #Datouniao
@@ -3831,6 +3846,10 @@ $      下载最新版本的 HostsX。
 #Tapad
 127.0.0.1 analytics.tapad.com
 127.0.0.1 swappit.tapad.com
+#Tapjoy
+127.0.0.1 tapjoy.com
+127.0.0.1 tapjoyads.com
+127.0.0.1 ws.tapjoyads.com
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
@@ -3932,16 +3951,16 @@ $      下载最新版本的 HostsX。
 127.0.0.1 clock.update.zdworks.com
 127.0.0.1 zpns.zdworks.com
 #Gametower
-127.0.0.1 203.69.83.218
-127.0.0.1 ex.gametower.com.tw
-127.0.0.1 ex.gt.web
+127.0.0.1 ad.gametower.com.tw
+127.0.0.1 dl.gametower.com.tw
 127.0.0.1 ex.twtest.towergame.com
 127.0.0.1 ma.gametower.com.tw
-127.0.0.1 ma.gt.web
 127.0.0.1 www.gametower.com.tw
-127.0.0.1 www.gt.web
 127.0.0.1 www.twtest.towergame.com
 127.0.0.1 www1.gametower.com.tw
+127.0.0.1 ex.gt.web
+127.0.0.1 ma.gt.web
+127.0.0.1 www.gt.web
 #WapSite
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
@@ -4061,6 +4080,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.asiapacificdaily.com.hk
 127.0.0.1 www.handpet.com
 127.0.0.1 www.runnergameshk.com
+127.0.0.1 wap.life.nokia.com.cn
 @HostsX 国外广告平台
 #247realmedia
 127.0.0.1 accuweathercollect.247realmedia.com
@@ -7931,10 +7951,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 wsw6.surf-town.net
 127.0.0.1 wswb1.surf-town.net
 127.0.0.1 wswb3.surf-town.net
-#Tapjoy
-127.0.0.1 tapjoy.com
-127.0.0.1 tapjoyads.com
-127.0.0.1 ws.tapjoyads.com
 #Textlinkads
 127.0.0.1 www.text-link-ads.com
 127.0.0.1 www.textlinkads.com
@@ -9905,6 +9921,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 web.clickeye.cn
 #Clicking
 127.0.0.1 adsense.clicking.com.tw
+#Clickvalue
+127.0.0.1 clickvalue.com.cn
 #Cnxad
 127.0.0.1 c2.cnxad.com
 127.0.0.1 c.cnxad.com

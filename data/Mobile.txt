@@ -153,6 +153,9 @@
 127.0.0.1 data.doodlemobile.com
 127.0.0.1 f.doodlemobile.com
 127.0.0.1 m.doodlemobile.com
+#Dolphin
+127.0.0.1 a.dolphin-browser.com
+127.0.0.1 activation.dolphin-browser.com
 #Doumob
 127.0.0.1 api.doumob.com
 #Datouniao
@@ -463,6 +466,10 @@
 #Tapad
 127.0.0.1 analytics.tapad.com
 127.0.0.1 swappit.tapad.com
+#Tapjoy
+127.0.0.1 tapjoy.com
+127.0.0.1 tapjoyads.com
+127.0.0.1 ws.tapjoyads.com
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
@@ -564,16 +571,16 @@
 127.0.0.1 clock.update.zdworks.com
 127.0.0.1 zpns.zdworks.com
 #Gametower
-127.0.0.1 203.69.83.218
-127.0.0.1 ex.gametower.com.tw
-127.0.0.1 ex.gt.web
+127.0.0.1 ad.gametower.com.tw
+127.0.0.1 dl.gametower.com.tw
 127.0.0.1 ex.twtest.towergame.com
 127.0.0.1 ma.gametower.com.tw
-127.0.0.1 ma.gt.web
 127.0.0.1 www.gametower.com.tw
-127.0.0.1 www.gt.web
 127.0.0.1 www.twtest.towergame.com
 127.0.0.1 www1.gametower.com.tw
+127.0.0.1 ex.gt.web
+127.0.0.1 ma.gt.web
+127.0.0.1 www.gt.web
 #WapSite
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
@@ -693,3 +700,4 @@
 127.0.0.1 www.asiapacificdaily.com.hk
 127.0.0.1 www.handpet.com
 127.0.0.1 www.runnergameshk.com
+127.0.0.1 wap.life.nokia.com.cn

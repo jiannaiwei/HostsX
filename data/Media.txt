@@ -90,6 +90,7 @@
 0.0.0.0 a.htwisdom.com
 0.0.0.0 h.irs01.com
 0.0.0.0 irs01.com
+0.0.0.0 irs01.net
 #ÍÁ¶¹Íø
 0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com

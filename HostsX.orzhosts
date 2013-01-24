@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=17:15:51.77 2013/01/24 周四
+;version=18:54:50.96 2013/01/24 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2412,6 +2412,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www8.xitek.com
 #POCO
 0.0.0.0 a-m-s.poco.cn
+#Yupoo
+0.0.0.0 adc.yupoo.com
 #新摄影
 0.0.0.0 util.nphoto.net
 @HostsX 国内站点广告/购物类网站
@@ -2810,6 +2812,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 a.htwisdom.com
 0.0.0.0 h.irs01.com
 0.0.0.0 irs01.com
+0.0.0.0 irs01.net
 #土豆网
 0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com
@@ -3140,21 +3143,29 @@ $      下载最新版本的 HostsX。
 0.0.0.0 text-ad.qvod.com
 0.0.0.0 tj.qvod.com
 0.0.0.0 110.kuaibo.com
+0.0.0.0 acctrack.kuaibo.com
+0.0.0.0 agent.kuaibo.com
 0.0.0.0 buffer-ad.kuaibo.com
 0.0.0.0 dl.kuaibo.com
 0.0.0.0 hao.kuaibo.com
 0.0.0.0 m.kuaibo.com
 0.0.0.0 mobile.behavior.kuaibo.com
+0.0.0.0 mobile.statis.kuaibo.com
 0.0.0.0 pause-ad.kuaibo.com
 0.0.0.0 s.kuaibo.com
-0.0.0.0 text-ad.kuaibo.com
 0.0.0.0 searchstat.kuaibo.com
+0.0.0.0 statis.kuaibo.com
+0.0.0.0 text-ad.kuaibo.com
+0.0.0.0 tj.kuaibo.com
+0.0.0.0 ulog.kuaibo.com
+0.0.0.0 update.kuaibo.com
 0.0.0.0 op.web.kuaiwan.com
 0.0.0.0 op2.web.kuaiwan.com
 0.0.0.0 prom.web.kuaiwan.com
 0.0.0.0 web.kuaiwan.com
 0.0.0.0 dl.duoping.com
 0.0.0.0 s.726.com
+0.0.0.0 agent.ad1111.com
 0.0.0.0 game.ad1111.com
 0.0.0.0 qvodlink.hco.cc
 #RealPlayer
@@ -3285,6 +3296,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.007.mx
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 datacn-dl.maxthon.com
+0.0.0.0 stats-a.maxthon.cn
 0.0.0.0 stat-w.maxthon.com
 0.0.0.0 stat.maxthon.com
 0.0.0.0 statcn-c.maxthon.com
@@ -3525,6 +3537,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 data.doodlemobile.com
 127.0.0.1 f.doodlemobile.com
 127.0.0.1 m.doodlemobile.com
+#Dolphin
+127.0.0.1 a.dolphin-browser.com
+127.0.0.1 activation.dolphin-browser.com
 #Doumob
 127.0.0.1 api.doumob.com
 #Datouniao
@@ -3835,6 +3850,10 @@ $      下载最新版本的 HostsX。
 #Tapad
 127.0.0.1 analytics.tapad.com
 127.0.0.1 swappit.tapad.com
+#Tapjoy
+127.0.0.1 tapjoy.com
+127.0.0.1 tapjoyads.com
+127.0.0.1 ws.tapjoyads.com
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
@@ -3936,16 +3955,16 @@ $      下载最新版本的 HostsX。
 127.0.0.1 clock.update.zdworks.com
 127.0.0.1 zpns.zdworks.com
 #Gametower
-127.0.0.1 203.69.83.218
-127.0.0.1 ex.gametower.com.tw
-127.0.0.1 ex.gt.web
+127.0.0.1 ad.gametower.com.tw
+127.0.0.1 dl.gametower.com.tw
 127.0.0.1 ex.twtest.towergame.com
 127.0.0.1 ma.gametower.com.tw
-127.0.0.1 ma.gt.web
 127.0.0.1 www.gametower.com.tw
-127.0.0.1 www.gt.web
 127.0.0.1 www.twtest.towergame.com
 127.0.0.1 www1.gametower.com.tw
+127.0.0.1 ex.gt.web
+127.0.0.1 ma.gt.web
+127.0.0.1 www.gt.web
 #WapSite
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
@@ -4065,6 +4084,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.asiapacificdaily.com.hk
 127.0.0.1 www.handpet.com
 127.0.0.1 www.runnergameshk.com
+127.0.0.1 wap.life.nokia.com.cn
 @HostsX 国外广告平台
 #247realmedia
 0.0.0.0 accuweathercollect.247realmedia.com
@@ -7935,10 +7955,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 wsw6.surf-town.net
 0.0.0.0 wswb1.surf-town.net
 0.0.0.0 wswb3.surf-town.net
-#Tapjoy
-0.0.0.0 tapjoy.com
-0.0.0.0 tapjoyads.com
-0.0.0.0 ws.tapjoyads.com
 #Textlinkads
 0.0.0.0 www.text-link-ads.com
 0.0.0.0 www.textlinkads.com
@@ -9909,6 +9925,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 web.clickeye.cn
 #Clicking
 0.0.0.0 adsense.clicking.com.tw
+#Clickvalue
+0.0.0.0 clickvalue.com.cn
 #Cnxad
 0.0.0.0 c2.cnxad.com
 0.0.0.0 c.cnxad.com

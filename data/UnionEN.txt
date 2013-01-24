@@ -3868,10 +3868,6 @@
 0.0.0.0 wsw6.surf-town.net
 0.0.0.0 wswb1.surf-town.net
 0.0.0.0 wswb3.surf-town.net
-#Tapjoy
-0.0.0.0 tapjoy.com
-0.0.0.0 tapjoyads.com
-0.0.0.0 ws.tapjoyads.com
 #Textlinkads
 0.0.0.0 www.text-link-ads.com
 0.0.0.0 www.textlinkads.com

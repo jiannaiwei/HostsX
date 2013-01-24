@@ -651,6 +651,8 @@
 0.0.0.0 web.clickeye.cn
 #Clicking
 0.0.0.0 adsense.clicking.com.tw
+#Clickvalue
+0.0.0.0 clickvalue.com.cn
 #Cnxad
 0.0.0.0 c2.cnxad.com
 0.0.0.0 c.cnxad.com

@@ -314,6 +314,8 @@
 0.0.0.0 www8.xitek.com
 #POCO
 0.0.0.0 a-m-s.poco.cn
+#Yupoo
+0.0.0.0 adc.yupoo.com
 #新摄影
 0.0.0.0 util.nphoto.net
 @HostsX 国内站点广告/购物类网站
