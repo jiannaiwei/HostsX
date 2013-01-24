@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.56
+set ver=1.0.1.57
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -35,6 +35,7 @@ wget http://hostsx.googlecode.com/svn/trunk/Opera/readme.html
 wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/webmailproviders.ini
 wget http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
 wget http://hostsx.googlecode.com/svn/trunk/Opera/bookmarks.adr
 wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_speeddial.ini
@@ -86,6 +87,7 @@ move /y override.ini profile
 move /y search.ini profile
 move /y fastforward.ini ui
 move /y feedreaders.ini defaults
+move /y webmailproviders.ini defaults
 move /y urlfilter.ini profile
 move /y standard_keyboard.ini profile\keyboard
 move /y standard_menu.ini profile\menu
