@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.53
+set ver=1.0.1.55
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -62,7 +62,7 @@ wget http://userscripts.org/scripts/source/154473.user.js
 wget http://userscripts.org/scripts/source/154476.user.js
 wget http://userscripts.org/scripts/source/153687.user.js
 ren 103552.user.js doubanimdb.user.js
-ren 105741.user.js picViewer.js
+ren 105741.user.js picViewer.jsx
 ren 123244.user.js doubaniask.user.js
 ren 154702.user.js goglrd.js
 ren 154476.user.js http2https.js
@@ -80,7 +80,7 @@ move /y goglrd.js profile\script
 move /y Linkify.js profile\script
 move /y http2https.js profile\script
 move /y nolazyload.js profile\script
-move /y picViewer.js profile\script
+move /y picViewer.jsx profile\script
 move /y InputCtrl.js profile\script
 move /y TiebaFix.js profile\script
 move /y license.txt locale\en
