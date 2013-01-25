@@ -1,5 +1,5 @@
 
-;version=11:22:29.94 2013/01/25 周五
+;version=11:39:03.95 2013/01/25 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3556,9 +3556,12 @@ $      下载最新版本的 HostsX。
 127.0.0.1 app.easymobi.cn
 #Flurry
 127.0.0.1 ad.flurry.com
+127.0.0.1 adlog.flurry.com
+127.0.0.1 ads.flurry.com
 127.0.0.1 data.flurry.com
 127.0.0.1 flurry.com
 127.0.0.1 www.flurry.com
+127.0.0.1 flurry.cachefly.net
 #Gfan
 127.0.0.1 d.gfan.com
 #Gogle
