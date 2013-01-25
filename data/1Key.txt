@@ -285,6 +285,7 @@
 0.0.0.0 guanjia.baidu.com
 0.0.0.0 hc.baidu.com
 0.0.0.0 hm.baidu.com
+0.0.0.0 hmma.baidu.com
 0.0.0.0 iebar.baidu.com
 0.0.0.0 ikcode.baidu.com
 0.0.0.0 m1.baidu.com
