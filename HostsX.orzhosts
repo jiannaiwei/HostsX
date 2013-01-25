@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=11:39:03.95 2013/01/25 周五
+;version=14:35:09.34 2013/01/25 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3414,6 +3414,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 image.agency.91.com
 127.0.0.1 mjoy.91.com
 127.0.0.1 mpush-phone.91.com
+127.0.0.1 urlservice.sj.91.com
 127.0.0.1 v2.g2.91.com
 #Adchina
 127.0.0.1 mobile.adchina.com
@@ -3864,6 +3865,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 down2.uc.cn
 127.0.0.1 down1.app.uc.cn
 127.0.0.1 adsclick.uc.cn
+127.0.0.1 sdk.g.uc.cn
+127.0.0.1 sdk.test4.g.uc.cn
 127.0.0.1 ads1.ucweb.com
 127.0.0.1 down2.ucweb.com
 127.0.0.1 wap.ycwb.com
@@ -3969,6 +3972,14 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ex.gt.web
 127.0.0.1 ma.gt.web
 127.0.0.1 www.gt.web
+#GmaeStatM
+127.0.0.1 charge.51mrp.com
+127.0.0.1 gamepie.g188.net
+127.0.0.1 ipay.appchina.com
+127.0.0.1 mobile.yeepay.com
+127.0.0.1 notify.java.jpxx.org
+127.0.0.1 pay.yunyoyo.cn
+127.0.0.1 pk.51mrp.com
 #WapSite
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
