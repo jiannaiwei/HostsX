@@ -26,3 +26,4 @@ copy /b bat.txt+hbhosts.txt HostsX.orzhosts
 move /y HostsX.orzhosts "%~dp0..\"
 move /y hosts "%~dp0..\"
 del /f Version.txt bat.txt hbhosts.txt 1.txt
+%~dp0..\Android\HostsX_updates.zip

@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.57
+set ver=1.0.1.58
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -160,6 +160,9 @@ start opera.exe "file://localhost/%~dp0/optools/HtmlTool/TV.html" & exit
 :help
 rem start locale\en\license.txt &
 start opera.exe "file://localhost/%~dp0/readme.html" & exit
+
+:qq
+start opera.exe "tencent://message/?uin=1718084&Menu=yes" & exit
 
 :makedefault
 mshta vbscript:msgbox("请勾选使用绝对路径，以解决通过调用打开链接时的相对路径问题！！！",64,"SimpleU")(window.close)&Pause

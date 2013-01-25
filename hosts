@@ -1,5 +1,5 @@
 
-;version=18:54:50.96 2013/01/24 周四
+;version=11:22:29.94 2013/01/25 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3431,6 +3431,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 mob.adwhirl.com
 127.0.0.1 www.adwhirl.com
 #Adwo
+127.0.0.1 a-ad.adwo.com
 127.0.0.1 ad-count.adwo.com
 127.0.0.1 adtest.adwo.com
 127.0.0.1 apiconfig.adwo.com
@@ -11004,6 +11005,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 sddnserror8.wo.com.cn
 127.0.0.1 nfdnserror8.wo.com.cn
 127.0.0.1 nfdnserror1.wo.com.cn
+127.0.0.1 nfdnserror14.wo.com.cn
 127.0.0.1 nfdnserror3.wo.com.cn.zpsn.com
 127.0.0.1 www6.1616.net
 127.0.0.1 st.1616.net

@@ -51,6 +51,7 @@
 127.0.0.1 mob.adwhirl.com
 127.0.0.1 www.adwhirl.com
 #Adwo
+127.0.0.1 a-ad.adwo.com
 127.0.0.1 ad-count.adwo.com
 127.0.0.1 adtest.adwo.com
 127.0.0.1 apiconfig.adwo.com
