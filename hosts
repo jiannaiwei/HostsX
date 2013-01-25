@@ -1,5 +1,5 @@
 
-;version=14:35:09.34 2013/01/25 周五
+;version=14:44:31.63 2013/01/25 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3968,14 +3968,20 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ex.gt.web
 127.0.0.1 ma.gt.web
 127.0.0.1 www.gt.web
+#Yunyoyo
+127.0.0.1 mxmbd.yunyoyo.cn
+127.0.0.1 pay.yunyoyo.cn
+127.0.0.1 push.yunyoyo.cn
+127.0.0.1 service.yunyoyo.cn
+127.0.0.1 statistics.yunyoyo.cn
 #GmaeStatM
 127.0.0.1 charge.51mrp.com
 127.0.0.1 gamepie.g188.net
 127.0.0.1 ipay.appchina.com
 127.0.0.1 mobile.yeepay.com
 127.0.0.1 notify.java.jpxx.org
-127.0.0.1 pay.yunyoyo.cn
 127.0.0.1 pk.51mrp.com
+127.0.0.1 xbox.ooqqxx.com
 #WapSite
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
