@@ -161,7 +161,6 @@ wcproxy          =simpleu/proxy/wcproxy.png
 wito             =simpleu/proxy/wito.png
 wj               =simpleu/proxy/wj.png
 
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~偶是华丽滴分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 OPERA SOFTWARE END-USER LICENSE AGREEMENT FOR OPERA DESKTOP BROWSER
 
