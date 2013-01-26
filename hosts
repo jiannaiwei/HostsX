@@ -1,5 +1,5 @@
 
-;version=14:46:06.77 2013/01/25 周五
+;version=11:53:52.46 2013/01/26 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3391,7 +3391,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 mobwin.android.com
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
+127.0.0.1 static.googleadsserving.cn
+127.0.0.1 csi.gstatic.com
 127.0.0.1 www.gstatic.com
+127.0.0.1 ssl.google-analytics.com
+127.0.0.1 www.google-analytics.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -3532,6 +3536,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 e.domob.cn
 127.0.0.1 r.domob.cn
 127.0.0.1 s.domob.cn
+127.0.0.1 sdl.domob.cn
 #Doodlemobile
 127.0.0.1 data.doodlemobile.com
 127.0.0.1 f.doodlemobile.com
@@ -3556,6 +3561,9 @@ $      下载最新版本的 HostsX。
 #EasyMobi
 127.0.0.1 adver.easymobi.cn
 127.0.0.1 app.easymobi.cn
+#eTouch
+127.0.0.1 marketing.etouch.cn
+127.0.0.1 static.etouch.cn
 #Flurry
 127.0.0.1 ad.flurry.com
 127.0.0.1 adlog.flurry.com
@@ -3599,7 +3607,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 r.w.inmobi.com
 127.0.0.1 w.inmobi.com
 127.0.0.1 www.inmobi.com
-127.0.0.1 www.noreply.inmobi.com
+127.0.0.1 r.edge.inmobicdn.net
 127.0.0.1 hosting.sproutbuilder.com
 #Jumptap
 127.0.0.1 a.jumptap.com
@@ -3770,6 +3778,10 @@ $      下载最新版本的 HostsX。
 #Mmarket
 127.0.0.1 ota.mmarket.com
 127.0.0.1 oop.mmarket.com
+#Oolaya
+127.0.0.1 cdn-api.oolaya.com
+127.0.0.1 l.oolaya.com
+127.0.0.1 www.oolaya.com
 #Phluantmobile
 127.0.0.1 mdn1.phluantmobile.net
 127.0.0.1 mdn2.phluantmobile.net
@@ -3963,7 +3975,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 dl.gametower.com.tw
 127.0.0.1 ex.twtest.towergame.com
 127.0.0.1 ma.gametower.com.tw
-127.0.0.1 www.gametower.com.tw
 127.0.0.1 www.twtest.towergame.com
 127.0.0.1 www1.gametower.com.tw
 127.0.0.1 ex.gt.web
@@ -4014,6 +4025,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 api.suizong.com
 127.0.0.1 api.yp.com
 127.0.0.1 api.zhaimob.com
+127.0.0.1 app.feeliu.com
 127.0.0.1 apps.outfit7.com
 127.0.0.1 appsrv1.mdn2.net
 127.0.0.1 as.adfonic.net
@@ -4073,24 +4085,30 @@ $      下载最新版本的 HostsX。
 127.0.0.1 promev3-web.hyxencloud.com
 127.0.0.1 proxy.youdraw.cn
 127.0.0.1 qingp.com
+127.0.0.1 res5.d.cn
 127.0.0.1 rs-staticart.ybcdn.net
 127.0.0.1 s.com2us.net
 127.0.0.1 s.wap.io
 127.0.0.1 sandbox.suizong.com
+127.0.0.1 server.pickwifi.com
 127.0.0.1 static.189works.com
 127.0.0.1 test.adpooh.com
 127.0.0.1 v1-feed.idreamsky.com
 127.0.0.1 w.sandbox.mkhoj.com
 127.0.0.1 wap.cellufun.com
+127.0.0.1 wap.life.nokia.com.cn
 127.0.0.1 wifi01.51y5.com
 127.0.0.1 www.admarket.mobi
 127.0.0.1 www.adtouchnetwork.com
 127.0.0.1 www.anadmob.net
+127.0.0.1 www.asiapacificdaily.com.hk
 127.0.0.1 www.guohead.com
+127.0.0.1 www.handpet.com
 127.0.0.1 www.innohk.org
 127.0.0.1 www.moceanmobile.com
 127.0.0.1 www.pick-tech.com
 127.0.0.1 www.pocketmj.com
+127.0.0.1 www.runnergameshk.com
 127.0.0.1 www.sigatchan.com
 127.0.0.1 www.speedtong.net
 127.0.0.1 www.spjoy.com
@@ -4098,11 +4116,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.wqmobile.com
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
-127.0.0.1 app.feeliu.com
-127.0.0.1 www.asiapacificdaily.com.hk
-127.0.0.1 www.handpet.com
-127.0.0.1 www.runnergameshk.com
-127.0.0.1 wap.life.nokia.com.cn
 @HostsX 国外广告平台
 #247realmedia
 127.0.0.1 accuweathercollect.247realmedia.com
