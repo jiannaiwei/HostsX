@@ -1,5 +1,5 @@
 
-;version=14:04:21.81 2013/01/26 周六
+;version=14:13:22.00 2013/01/26 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3976,13 +3976,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 zpns.zdworks.com
 #Gametower
 127.0.0.1 ad.gametower.com.tw
-127.0.0.1 www.twtest.towergame.com
-127.0.0.1 www.gt.web
-127.0.0.1 ex.twtest.towergame.com
-127.0.0.1 ma.gametower.com.tw
-127.0.0.1 www1.gametower.com.tw
-127.0.0.1 ex.gt.web
-127.0.0.1 ma.gt.web
 #Yunyoyo
 127.0.0.1 mxmbd.yunyoyo.cn
 127.0.0.1 pay.yunyoyo.cn

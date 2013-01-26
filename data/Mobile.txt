@@ -595,13 +595,6 @@
 127.0.0.1 zpns.zdworks.com
 #Gametower
 127.0.0.1 ad.gametower.com.tw
-127.0.0.1 www.twtest.towergame.com
-127.0.0.1 www.gt.web
-127.0.0.1 ex.twtest.towergame.com
-127.0.0.1 ma.gametower.com.tw
-127.0.0.1 www1.gametower.com.tw
-127.0.0.1 ex.gt.web
-127.0.0.1 ma.gt.web
 #Yunyoyo
 127.0.0.1 mxmbd.yunyoyo.cn
 127.0.0.1 pay.yunyoyo.cn
