@@ -152,7 +152,7 @@
 127.0.0.1 www.dianru.com
 #Domob
 127.0.0.1 api.domob.cn
-127.0.0.1 e.domob.cn
+127.0.0.1 e.domob.cn
 127.0.0.1 r.domob.cn
 127.0.0.1 s.domob.cn
 127.0.0.1 sdl.domob.cn
@@ -228,6 +228,10 @@
 127.0.0.1 www.inmobi.com
 127.0.0.1 r.edge.inmobicdn.net
 127.0.0.1 hosting.sproutbuilder.com
+#imocha
+127.0.0.1 cast.ra.imocha.com
+127.0.0.1 sdk.imocha.com
+127.0.0.1 api.imocha.com
 #Jumptap
 127.0.0.1 a.jumptap.com
 127.0.0.1 i.jumptap.com
@@ -591,14 +595,13 @@
 127.0.0.1 zpns.zdworks.com
 #Gametower
 127.0.0.1 ad.gametower.com.tw
-127.0.0.1 dl.gametower.com.tw
+127.0.0.1 www.twtest.towergame.com
+127.0.0.1 www.gt.web
 127.0.0.1 ex.twtest.towergame.com
 127.0.0.1 ma.gametower.com.tw
-127.0.0.1 www.twtest.towergame.com
 127.0.0.1 www1.gametower.com.tw
 127.0.0.1 ex.gt.web
 127.0.0.1 ma.gt.web
-127.0.0.1 www.gt.web
 #Yunyoyo
 127.0.0.1 mxmbd.yunyoyo.cn
 127.0.0.1 pay.yunyoyo.cn
@@ -614,6 +617,7 @@
 127.0.0.1 pk.51mrp.com
 127.0.0.1 xbox.ooqqxx.com
 #WapSite
+127.0.0.1 api.adcome.cn
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
 127.0.0.1 ad-locus.com
@@ -653,7 +657,6 @@
 127.0.0.1 bos.ads0.nexage.com
 127.0.0.1 c53.smaato.net
 127.0.0.1 c753738.r38.cf2.rackcdn.com
-127.0.0.1 cast.ra.imocha.com
 127.0.0.1 cdn.celtra.com
 127.0.0.1 cdn.ons.ms
 127.0.0.1 cdn.puata.info
