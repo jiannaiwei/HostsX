@@ -501,6 +501,7 @@
 127.0.0.1 sdk.test4.g.uc.cn
 127.0.0.1 ads1.ucweb.com
 127.0.0.1 down2.ucweb.com
+127.0.0.1 wap.tj.ucweb.com
 127.0.0.1 wap.ycwb.com
 #Uyunad
 127.0.0.1 i.uyunad.com
@@ -591,7 +592,8 @@
 127.0.0.1 www.zestadz.com
 #Zdworks
 127.0.0.1 clock.stat.zdworks.com
-127.0.0.1 clock.update.zdworks.com
+127.0.0.1 cal.stat.zdworks.com
+127.0.0.1 cal.stat2.zdworks.com
 127.0.0.1 zpns.zdworks.com
 #Gametower
 127.0.0.1 ad.gametower.com.tw
@@ -699,6 +701,7 @@
 127.0.0.1 pixel-hk.pixelinteractivemedia.com
 127.0.0.1 promev3-web.hyxencloud.com
 127.0.0.1 proxy.youdraw.cn
+127.0.0.1 partners.handango.com
 127.0.0.1 qingp.com
 127.0.0.1 res5.d.cn
 127.0.0.1 rs-staticart.ybcdn.net

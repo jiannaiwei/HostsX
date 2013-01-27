@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=14:13:22.00 2013/01/26 周六
+;version=22:48:55.64 2013/01/27 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -922,6 +922,7 @@ fe80::1%lo0	localhost
 0.0.0.0 e.baidu.com
 0.0.0.0 eclick.baidu.com
 0.0.0.0 eiv.baidu.com
+0.0.0.0 fclick.baidu.com
 0.0.0.0 gimg.baidu.com
 0.0.0.0 guanjia.baidu.com
 0.0.0.0 hc.baidu.com
@@ -3886,6 +3887,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 sdk.test4.g.uc.cn
 127.0.0.1 ads1.ucweb.com
 127.0.0.1 down2.ucweb.com
+127.0.0.1 wap.tj.ucweb.com
 127.0.0.1 wap.ycwb.com
 #Uyunad
 127.0.0.1 i.uyunad.com
@@ -3976,7 +3978,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.zestadz.com
 #Zdworks
 127.0.0.1 clock.stat.zdworks.com
-127.0.0.1 clock.update.zdworks.com
+127.0.0.1 cal.stat.zdworks.com
+127.0.0.1 cal.stat2.zdworks.com
 127.0.0.1 zpns.zdworks.com
 #Gametower
 127.0.0.1 ad.gametower.com.tw
@@ -4084,6 +4087,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 pixel-hk.pixelinteractivemedia.com
 127.0.0.1 promev3-web.hyxencloud.com
 127.0.0.1 proxy.youdraw.cn
+127.0.0.1 partners.handango.com
 127.0.0.1 qingp.com
 127.0.0.1 res5.d.cn
 127.0.0.1 rs-staticart.ybcdn.net

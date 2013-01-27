@@ -281,6 +281,7 @@
 0.0.0.0 e.baidu.com
 0.0.0.0 eclick.baidu.com
 0.0.0.0 eiv.baidu.com
+0.0.0.0 fclick.baidu.com
 0.0.0.0 gimg.baidu.com
 0.0.0.0 guanjia.baidu.com
 0.0.0.0 hc.baidu.com
