@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.3
+set ver=1.0.1.5
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -188,7 +188,7 @@ call :temp&call :dns&msg %username% /time:1 "U+ Hosts data has been Updated！"&E
 
 :temp
 rem call :BeijingIP
-call :SmartHosts
+rem call :SmartHosts
 call :Xunlei
 call :UsrFile
 goto :eof
@@ -681,6 +681,7 @@ goto :eof
 
 :BeijingIP
 echo.
+rem  By FGQI
 echo 正在使用Google北京服务器地址更新hosts，请稍等
 setlocal enabledelayedexpansion
 set min=20
@@ -701,8 +702,11 @@ call :GoogleIP
 goto :eof
 
 :GoogleIP
-echo #Google By FGQI >>%hosts%
+echo #Google>>%hosts%
+echo %gg% chatenabled.mail.google.com >>%hosts%
+echo %gg% static.googleusercontent.com >>%hosts%
 echo %gg% hostsx.googlecode.com >>%hosts%
+echo %gg% smarthosts.googlecode.com >>%hosts%
 echo %gg% ntrqq.googlecode.com >>%hosts%
 echo %gg% drive.google.com >>%hosts%
 echo %gg% doc-1-ac-docs.googleusercontent.com >>%hosts%
