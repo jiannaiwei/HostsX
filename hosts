@@ -1,5 +1,5 @@
 
-;version=22:48:55.64 2013/01/27 周日
+;version=21:09:04.03 2013/01/28 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -72,6 +72,8 @@ fe80::1%lo0	localhost
 204.232.175.78 training.github.com
 207.97.227.243 www.github.com
 #Smarthosts-Google
+203.208.46.200	chatenabled.mail.google.com
+203.208.46.200	static.googleusercontent.com
 203.208.46.200	0.docs.google.com
 203.208.46.200	0.drive.google.com
 203.208.46.200	1.docs.google.com
