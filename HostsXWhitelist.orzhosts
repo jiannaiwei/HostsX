@@ -1,4 +1,4 @@
-;version=0:05 2013-01-12
+;version=21:31 2013/1/28
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -11,10 +11,6 @@ $DELETE
 
 #导致安卓CNTV无法正常播放。
 analytics.doplive.com.cn
-$DELETE
-
-#导致微软下载无法正常跳转。
-clk.atdmt.com
 $DELETE
 
 #导致PcOnline无法正常下载。
@@ -175,6 +171,10 @@ swf.games.sina.com.cn
 v.iask.com
 $DELETE
 
+#导致新浪IP工具无法正常使用。
+int.dpool.sina.com.cn
+$DELETE
+
 #导致 360 浏览器无法正常更新。
 seupdate.360safe.com
 $DELETE
@@ -250,6 +250,7 @@ $DELETE
 $RemoveFromIEBlockedSites
 
 #导致微软部分产品的下载链接无法跳转和打开。
+clk.atdmt.com
 view.atdmt.com
 switch.atdmt.com
 $DELETE

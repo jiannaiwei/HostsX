@@ -1,5 +1,5 @@
 
-;version=21:09:04.03 2013/01/28 周一
+;version=21:31:57.26 2013/01/28 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1030,7 +1030,6 @@ fe80::1%lo0	localhost
 127.0.0.1 d4.sina.com.cn
 127.0.0.1 d5.sina.com.cn
 127.0.0.1 dcads.sina.com.cn
-127.0.0.1 int.dpool.sina.com.cn
 127.0.0.1 ja.cnt.v.sina.com.cn
 127.0.0.1 mybizsite.sina.com.cn
 127.0.0.1 online.sso.sina.com.cn
@@ -1423,7 +1422,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 aidps.atdmt.com
 127.0.0.1 c.atdmt.com
 127.0.0.1 click.atdmt.com
-127.0.0.1 clk.atdmt.com
 127.0.0.1 ec.atdmt.com
 127.0.0.1 h.atdmt.com
 127.0.0.1 image.atdmt.com
@@ -1436,7 +1434,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 srch.atdmt.com
 127.0.0.1 t.atdmt.com
 127.0.0.1 vid.atdmt.com
-127.0.0.1 view.atdmt.com
 127.0.0.1 www.atdmt.com
 #Live
 127.0.0.1 analytics.live.com

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=21:09:04.03 2013/01/28 周一
+;version=21:31:57.26 2013/01/28 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1034,7 +1034,6 @@ fe80::1%lo0	localhost
 0.0.0.0 d4.sina.com.cn
 0.0.0.0 d5.sina.com.cn
 0.0.0.0 dcads.sina.com.cn
-0.0.0.0 int.dpool.sina.com.cn
 0.0.0.0 ja.cnt.v.sina.com.cn
 0.0.0.0 mybizsite.sina.com.cn
 0.0.0.0 online.sso.sina.com.cn
@@ -1427,7 +1426,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 aidps.atdmt.com
 0.0.0.0 c.atdmt.com
 0.0.0.0 click.atdmt.com
-0.0.0.0 clk.atdmt.com
 0.0.0.0 ec.atdmt.com
 0.0.0.0 h.atdmt.com
 0.0.0.0 image.atdmt.com
@@ -1440,7 +1438,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 srch.atdmt.com
 0.0.0.0 t.atdmt.com
 0.0.0.0 vid.atdmt.com
-0.0.0.0 view.atdmt.com
 0.0.0.0 www.atdmt.com
 #Live
 0.0.0.0 analytics.live.com
