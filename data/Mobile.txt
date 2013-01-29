@@ -612,7 +612,6 @@
 127.0.0.1 pk.51mrp.com
 127.0.0.1 xbox.ooqqxx.com
 #WapSite
-127.0.0.1 api.adcome.cn
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
 127.0.0.1 ad-locus.com
