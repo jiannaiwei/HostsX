@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.59
+set ver=1.0.1.60
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im

@@ -908,6 +908,9 @@
 0.0.0.0 164c.mnwan.com
 0.0.0.0 pop.joypush.cn
 0.0.0.0 images.dsd333.cn
+0.0.0.0 union.fojafrog.com
+0.0.0.0 pop.ierge.cn
+0.0.0.0 flash.336.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

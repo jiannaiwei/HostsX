@@ -1,5 +1,5 @@
 set fso=createobject("scripting.filesystemobject")
-set file=fso.opentextfile("hbhosts.txt")
+set file=fso.opentextfile("Android.txt")
 s=file.readall
 file.close
 s=replace(s,"0.0.0.0","127.0.0.1")

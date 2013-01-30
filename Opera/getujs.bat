@@ -36,8 +36,8 @@ wget http://userscripts.org/scripts/source/154323.user.js
 ren 154323.user.js SmoothScrollTopBottom.jsx
 wget http://userscripts.org/scripts/source/84972.user.js
 ren 84972.user.js YoukuSS.jsx
-wget http://ss-o.net/userjs/0AutoPagerize.SITEINFO.js
-ren 0AutoPagerize.SITEINFO.js 0AutoPagerize.SITEINFO.jsx
+rem wget http://ss-o.net/userjs/0AutoPagerize.SITEINFO.js
+rem ren 0AutoPagerize.SITEINFO.js 0AutoPagerize.SITEINFO.jsx
 wget http://userscripts.org/scripts/source/30096.user.js
 ren 30096.user.js Anti-Disabler.user.jsx
 wget http://userscripts.org/scripts/source/105184.user.js

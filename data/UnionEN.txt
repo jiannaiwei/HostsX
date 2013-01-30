@@ -1989,6 +1989,10 @@
 0.0.0.0 content.media-servers.net
 0.0.0.0 media-servers.net
 0.0.0.0 my.media-servers.net
+#Mingrunad
+0.0.0.0 click.mingrunad.com
+0.0.0.0 media.mingrunad.com
+0.0.0.0 union.mingrunad.com
 #Nedstat
 0.0.0.0 nl.nedstatpro.net
 0.0.0.0 m1.nedstatpro.net
