@@ -143,12 +143,12 @@
 0.0.0.0 ads.people.com.cn
 0.0.0.0 pro.people.com.cn
 #·ï»ËÍø
+0.0.0.0 ips.ifeng.com
 0.0.0.0 mfp.deliver.ifeng.com
-0.0.0.0 survey.news.ifeng.com
-0.0.0.0 bc.ifeng.com
 0.0.0.0 sta.ifeng.com
 0.0.0.0 sta.play.ifeng.com
 0.0.0.0 stadig.ifeng.com
+0.0.0.0 survey.news.ifeng.com
 #ÁªºÏÔç±¨
 0.0.0.0 ads.zaobao.com
 0.0.0.0 adtag.asiaone.com

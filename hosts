@@ -1,5 +1,5 @@
 
-;version=11:19:26.39 2013/01/30 周三
+;version=13:41:29.13 2013/01/30 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2244,12 +2244,12 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ads.people.com.cn
 127.0.0.1 pro.people.com.cn
 #凤凰网
+127.0.0.1 ips.ifeng.com
 127.0.0.1 mfp.deliver.ifeng.com
-127.0.0.1 survey.news.ifeng.com
-127.0.0.1 bc.ifeng.com
 127.0.0.1 sta.ifeng.com
 127.0.0.1 sta.play.ifeng.com
 127.0.0.1 stadig.ifeng.com
+127.0.0.1 survey.news.ifeng.com
 #联合早报
 127.0.0.1 ads.zaobao.com
 127.0.0.1 adtag.asiaone.com
@@ -10541,13 +10541,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 count9.51yes.com
 127.0.0.1 countt.51yes.com
 #CNZZ
-127.0.0.1 hqs1.cnzz.com
-127.0.0.1 hqs4.cnzz.com
-127.0.0.1 hqs9.cnzz.com
-127.0.0.1 hzs12.cnzz.com
-127.0.0.1 zs16.cnzz.com
-127.0.0.1 hzs8.cnzz.com
-127.0.0.1 qs7.cnzz.com
 127.0.0.1 10 mail.cnzz.com
 127.0.0.1 17k.cnzz.com
 127.0.0.1 1ting.cnzz.com
@@ -10621,9 +10614,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 bd.cnzz.com
 127.0.0.1 blog.cnzz.com
 127.0.0.1 c.cnzz.com
+127.0.0.1 cache.adm.cnzz.net
 127.0.0.1 cache.cnzz.com
 127.0.0.1 cas.cnzz.com
 127.0.0.1 ccm.cnzz.com
+127.0.0.1 click.am1.adm.cnzz.net
 127.0.0.1 click.cnzz.com
 127.0.0.1 clickjs.cnzz.com
 127.0.0.1 cnzztest.cnzz.com
@@ -10636,9 +10631,19 @@ $      下载最新版本的 HostsX。
 127.0.0.1 doc.cnzz.com
 127.0.0.1 down.cnzz.com
 127.0.0.1 down11.cnzz.com
+127.0.0.1 g16.cnzz.com
 127.0.0.1 go.cnzz.com
 127.0.0.1 googleffffffffd4748891.cnzz.com
 127.0.0.1 help.cnzz.com
+127.0.0.1 hqs1.cnzz.com
+127.0.0.1 hqs4.cnzz.com
+127.0.0.1 hqs9.cnzz.com
+127.0.0.1 hzs10.cnzz.com
+127.0.0.1 hzs12.cnzz.com
+127.0.0.1 hzs13.cnzz.com
+127.0.0.1 hzs14.cnzz.com
+127.0.0.1 hzs8.cnzz.com
+127.0.0.1 hzs9.cnzz.com
 127.0.0.1 icon.cnzz.com
 127.0.0.1 igroup1.cnzz.com
 127.0.0.1 iliuyan.cnzz.com
@@ -10649,6 +10654,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 intf.cnzz.com
 127.0.0.1 iuc.cnzz.com
 127.0.0.1 jiaoliu.cnzz.com
+127.0.0.1 js.adm.cnzz.net
 127.0.0.1 ku6.cnzz.com
 127.0.0.1 liuyan.cnzz.com
 127.0.0.1 mail.cnzz.com
@@ -10666,6 +10672,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 qs2.cnzz.com
 127.0.0.1 qs3.cnzz.com
 127.0.0.1 qs4.cnzz.com
+127.0.0.1 qs7.cnzz.com
 127.0.0.1 quanjing.cnzz.com
 127.0.0.1 rd.cnzz.com
 127.0.0.1 rd1.cnzz.com
@@ -10823,9 +10830,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 unionadmin.cnzz.com
 127.0.0.1 updateimcnzz.cnzz.com
 127.0.0.1 v1.cnzz.com
-127.0.0.1 js.adm.cnzz.net
-127.0.0.1 cache.adm.cnzz.net
-127.0.0.1 click.am1.adm.cnzz.net
 127.0.0.1 v10.cnzz.com
 127.0.0.1 v11.cnzz.com
 127.0.0.1 v12.cnzz.com
@@ -10849,7 +10853,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 zs13.cnzz.com
 127.0.0.1 zs14.cnzz.com
 127.0.0.1 zs15.cnzz.com
+127.0.0.1 zs16.cnzz.com
 127.0.0.1 zs2.cnzz.com
+127.0.0.1 zs25.cnzz.com
 127.0.0.1 zs3.cnzz.com
 127.0.0.1 zs4.cnzz.com
 127.0.0.1 zs5.cnzz.com
@@ -13800,6 +13806,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 bean.r.arpg2.com
 127.0.0.1 chess.r.arpg2.com
 127.0.0.1 cybor.r.arpg2.com
+127.0.0.1 tetwo.r.arpg2.com
 127.0.0.1 tsrjtl.r.arpg2.com
 127.0.0.1 dam.r.arpg2.com
 127.0.0.1 dots.r.arpg2.com
@@ -14606,6 +14613,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.zwads.com
 127.0.0.1 164c.mnwan.com
 127.0.0.1 pop.joypush.cn
+127.0.0.1 images.dsd333.cn
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

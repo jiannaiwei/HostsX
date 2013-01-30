@@ -100,6 +100,7 @@
 0.0.0.0 bean.r.arpg2.com
 0.0.0.0 chess.r.arpg2.com
 0.0.0.0 cybor.r.arpg2.com
+0.0.0.0 tetwo.r.arpg2.com
 0.0.0.0 tsrjtl.r.arpg2.com
 0.0.0.0 dam.r.arpg2.com
 0.0.0.0 dots.r.arpg2.com
@@ -906,6 +907,7 @@
 0.0.0.0 www.zwads.com
 0.0.0.0 164c.mnwan.com
 0.0.0.0 pop.joypush.cn
+0.0.0.0 images.dsd333.cn
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

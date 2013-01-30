@@ -60,13 +60,6 @@
 0.0.0.0 count9.51yes.com
 0.0.0.0 countt.51yes.com
 #CNZZ
-0.0.0.0 hqs1.cnzz.com
-0.0.0.0 hqs4.cnzz.com
-0.0.0.0 hqs9.cnzz.com
-0.0.0.0 hzs12.cnzz.com
-0.0.0.0 zs16.cnzz.com
-0.0.0.0 hzs8.cnzz.com
-0.0.0.0 qs7.cnzz.com
 0.0.0.0 10 mail.cnzz.com
 0.0.0.0 17k.cnzz.com
 0.0.0.0 1ting.cnzz.com
@@ -140,9 +133,11 @@
 0.0.0.0 bd.cnzz.com
 0.0.0.0 blog.cnzz.com
 0.0.0.0 c.cnzz.com
+0.0.0.0 cache.adm.cnzz.net
 0.0.0.0 cache.cnzz.com
 0.0.0.0 cas.cnzz.com
 0.0.0.0 ccm.cnzz.com
+0.0.0.0 click.am1.adm.cnzz.net
 0.0.0.0 click.cnzz.com
 0.0.0.0 clickjs.cnzz.com
 0.0.0.0 cnzztest.cnzz.com
@@ -155,9 +150,19 @@
 0.0.0.0 doc.cnzz.com
 0.0.0.0 down.cnzz.com
 0.0.0.0 down11.cnzz.com
+0.0.0.0 g16.cnzz.com
 0.0.0.0 go.cnzz.com
 0.0.0.0 googleffffffffd4748891.cnzz.com
 0.0.0.0 help.cnzz.com
+0.0.0.0 hqs1.cnzz.com
+0.0.0.0 hqs4.cnzz.com
+0.0.0.0 hqs9.cnzz.com
+0.0.0.0 hzs10.cnzz.com
+0.0.0.0 hzs12.cnzz.com
+0.0.0.0 hzs13.cnzz.com
+0.0.0.0 hzs14.cnzz.com
+0.0.0.0 hzs8.cnzz.com
+0.0.0.0 hzs9.cnzz.com
 0.0.0.0 icon.cnzz.com
 0.0.0.0 igroup1.cnzz.com
 0.0.0.0 iliuyan.cnzz.com
@@ -168,6 +173,7 @@
 0.0.0.0 intf.cnzz.com
 0.0.0.0 iuc.cnzz.com
 0.0.0.0 jiaoliu.cnzz.com
+0.0.0.0 js.adm.cnzz.net
 0.0.0.0 ku6.cnzz.com
 0.0.0.0 liuyan.cnzz.com
 0.0.0.0 mail.cnzz.com
@@ -185,6 +191,7 @@
 0.0.0.0 qs2.cnzz.com
 0.0.0.0 qs3.cnzz.com
 0.0.0.0 qs4.cnzz.com
+0.0.0.0 qs7.cnzz.com
 0.0.0.0 quanjing.cnzz.com
 0.0.0.0 rd.cnzz.com
 0.0.0.0 rd1.cnzz.com
@@ -342,9 +349,6 @@
 0.0.0.0 unionadmin.cnzz.com
 0.0.0.0 updateimcnzz.cnzz.com
 0.0.0.0 v1.cnzz.com
-0.0.0.0 js.adm.cnzz.net
-0.0.0.0 cache.adm.cnzz.net
-0.0.0.0 click.am1.adm.cnzz.net
 0.0.0.0 v10.cnzz.com
 0.0.0.0 v11.cnzz.com
 0.0.0.0 v12.cnzz.com
@@ -368,7 +372,9 @@
 0.0.0.0 zs13.cnzz.com
 0.0.0.0 zs14.cnzz.com
 0.0.0.0 zs15.cnzz.com
+0.0.0.0 zs16.cnzz.com
 0.0.0.0 zs2.cnzz.com
+0.0.0.0 zs25.cnzz.com
 0.0.0.0 zs3.cnzz.com
 0.0.0.0 zs4.cnzz.com
 0.0.0.0 zs5.cnzz.com
