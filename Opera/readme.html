@@ -707,10 +707,24 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
       </li>
       <li> 为什么论坛和贴吧的签名看不到了？<br />
         实在想不出签名有什么看头，所以在Custom.css默认就给过滤掉了大部分的签名，如果只是暂时性的查看，可以手动关闭广告过滤。<br />
-        如果不想让Custom.css过滤签名可以收动手修改Custom.css文件里的&quot;各种签名过滤&quot;部分。<br />
+        如果不想让Custom.css过滤签名可以收动手修改Custom.css文件里的&quot;签名过滤&quot;部分。<br />
       </li>
       <li> 有些视频播放不正常，网页展开不正常怎么办？<br />
-        部分视频网站不正常可能是由部分js影响导致的网页问题。比如：CleanPlayer.user.js和DBankLinker.js，删除即可解决。<br />
+      部分视频网站不正常可能是由部分js影响导致的网页问题。比如：CleanPlayer.user.js和DBankLinker.js，删除即可解决。</li>
+      <li>移动联通无法同步OperaLink该如何解决？<br />
+        可以在hosts添加如下内容:<br />
+        #OperaLink<br />
+        91.203.99.46 auth.opera.com<br />
+        72.21.91.29 crl3.digicert.com<br />
+      91.203.96.252 link-server.opera.com</li>
+      <li>每次加载都被问:想要允许本地javascript控制安全页面吗？...改怎样解决？<br />
+      试试取消打勾opera:config#User JavaScript on HTTPS，或者使用第三方插件修改此项提示。</li>
+      <li>如何便携化用户配置目录？<br />
+        关闭opera，在opera程序目录下，找到operaprefs_default.ini，将Multi User改成0，<br />
+        然后再将原来的profile文件夹里的东西复制到程序目录下的profile里即可。<br />
+      原来的profile目录的位置可以在opera:about里面查看得到。</li>
+      <li>如何实现鼠标拖拽一个链接后该链接在后台打开？<br />
+        勾选这个opera:config#Open Dragged Link In Background<br />
       </li>
       <li> 部分discuz论坛下载附件扩展名为html该怎么办？<br />
         (会导致下载站下载以下扩展名文件时不能弹出下载对话框)<br />
@@ -760,7 +774,11 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
         如果您要设置Opera为默认浏览器，请运行Opera目录下的 GreenPath.exe 文件，勾选使用绝对路径，以解决相对路径问题！！！</li>
       <li>为什么访问有些网站会出现页面显示错乱？<br />
         请尝试关闭CSS里面的微软雅黑的显示，看能否可解决此问题。<br />
-        或者把最小字体由12改为默认的10试试看。<br />
+      或者把最小字体由12改为默认的10试试看。</li>
+      <li>有些皮肤有标题栏应该如何去除？<br />
+        打开standard_skin里的skin.ini文件<br />
+        无标题栏 [Options] 下添加 Transparency = 1 (非 0 既可)<br />
+        有标题栏 [Options] 下面的 Transparency 值为 0 即可 Transparency = 0<br />
       </li>
       <li>为什么我的Opera滚动时会出现文字出现模糊重影的问题？<br />
         请检查是否开启了IDM下载软件监视Opera的选项。关闭即可解决。若未安装IDM，请尝试将此问题提交给官方予以重视。<br />
@@ -790,12 +808,12 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
         若黑白名单失效，请保存脚本为 UTF-8 without BOM 格式。</li>
       <li>为什么有时候菜单的参数无效呢？<br />
         Opera有自己的定义函数：<br />
-        %u = 当前显示文档的url，常用于下载工具传递本页所有链接<br />
-        %t = 选定文本。比如常用的&quot;转到URL&quot;的命令为Go to page, &quot;%t&quot;<br />
-        %s = 来源于当前显示文档的字符串<br />
-        %c = 剪贴版内容<br />
+        %u = is active document url | 当前显示文档的url，常用于下载工具传递本页所有链接<br />
+        %t = is currently selected text | 选定文本。比如常用的&quot;转到URL&quot;的命令为Go to page, &quot;%t&quot;<br />
+        %s = is the filename of local source cache | 本地缓存文件名 来源于当前显示文档的字符串<br />
+        %c = is the clipboard content | 剪贴版内容<br />
         %i = 显示的搜索结果个数 (search.ini) <br />
-        %l = 当前选择的链接，常用于下载工具传递链接</li>
+        %l = is the address of a link you right-click | 右键点击的链接 当前选择的链接，常用于下载工具传递链接</li>
       <li>我用的Opera12版本，怎么感觉浏览器变慢了？<br />
         Opera12补充优化：<br />
         1、开启硬加速：0禁用、1自动、2强制开启<br />
@@ -917,8 +935,2202 @@ ul.nav a { zoom: 1; }  /* 缩放属性将为 IE 提供其需要的 hasLayout 触
 <p align="right"><a href="#top">&#710;Top</a></p>
 <p><a href="http://www.avast.com/zh-cn/free-antivirus-download">Avast</a> <a href="http://personalfirewall.comodo.com/free-download.html">Comodo</a> <a href="http://windows.microsoft.com/zh-CN/windows/security-essentials-download">Mse</a> <a href="http://www.huorong.cn">火绒</a> <a href="http://pinyin.engkoo.com/">英库拼音</a> <a href="http://www.unispim.com/">华宇拼音</a> <a href="http://www.google.com/intl/zh-CN/ime/pinyin/">谷歌拼音</a> <a href="https://www.virtualbox.org/wiki/Downloads">virtualbox</a> <a href="https://www.torproject.org/download/download.html">Tor</a> <a href="http://www.disktool.cn/download.html">傲梅分区助手</a> <a href="http://rufus.akeo.ie/">Rufus</a> <a href="http://idown.org/">idown</a> <a href="http://www.codecguide.com/download_k-lite_codec_pack_mega.htm">k-lite_codec_pack_mega</a> <a href="http://www.skype.com/intl/zh-Hans/business/download/downloading/">Skype</a> <a href="http://www.freedownloadmanager.org/download.htm">FDM</a> <a href="http://www.shuax.com/go/CWUB3_Portable/">cwub3</a> <a href="http://launcher.nirsoft.net/download.html">nirsoft</a> <a href="http://emulefans.com/">emule</a>
 </p>
+<h2>Opera 11 文件目录详解 <a href="http://bbs.operachina.com/memberlist.php?mode=viewprofile&amp;u=24251">Sigillo</a></h2>
+<dl id="profile556619">
+  <dd>&nbsp;</dd>
+</dl>
+<div>
+  <div>
+    <div>
+      <ul>
+        <li>本文在亡灵法师、Magickey 的 <a href="http://bbs.operachina.com/viewtopic.php?f=54&amp;t=1701" target="_blank">Opera 的安装、目录和文件详解</a> 基础上进一步完善，适用 Opera 11 final。</li>
+        <li>本文仅供大家需要了解 Opera 各种文件位置及用途的时候备查，因篇幅较长并不作为新手必读。</li>
+        <li>本文可能会有不少错漏之处，欢迎留言指正。</li>
+      </ul>
+    </div>
+    <br />
+    <br />
+    <div>Opera 安装目录（默认为 X:\Program Files\Opera ）
+      <hr />
+      <br />
+      <ul>
+        <li>根目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td><div>文件</div></td>
+            <td><div>作用</div></td>
+          </tr>
+          <tr>
+            <td>c3nform.vxml</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>encoding.bin</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>html40_entities.dtd</td>
+            <td>用于修复 MathML 无效的问题</td>
+          </tr>
+          <tr>
+            <td>license.rtf</td>
+            <td>Opera 软件协议文件</td>
+          </tr>
+          <tr>
+            <td>lngcode.txt</td>
+            <td>默认的语言文件简写与全称之间的对应</td>
+          </tr>
+          <tr>
+            <td>mathml.dtd</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>operaprefs_default.ini</td>
+            <td>定义语言文件路径及用户模式</td>
+          </tr>
+          <tr>
+            <td>opera.exe</td>
+            <td>Opera 主程序</td>
+          </tr>
+          <tr>
+            <td>opera.dll</td>
+            <td>Opera 主运行库</td>
+          </tr>
+          <tr>
+            <td>opera_install_log.xml</td>
+            <td>安装日志</td>
+          </tr>
+          <tr>
+            <td>OUniAnsi.dll</td>
+            <td>用于 unicode 和 ansi 编码转换</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>custom 目录此为中国版特有，en 版及国际版等无，内含 defaults 和 ui 两个目录，11后仅有 defaults 目录
+          <ul>
+            <li>custom\defaults 目录<br />
+              <br />
+              <table>
+                <tbody>
+                  <tr>
+                    <td><div>文件</div></td>
+                    <td><div>作用</div></td>
+                  </tr>
+                  <tr>
+                    <td>bookmarks.adr</td>
+                    <td>中国版所默认的书签文件</td>
+                  </tr>
+                  <tr>
+                    <td>search.ini</td>
+                    <td>中国版所默认的搜索栏配置文件</td>
+                  </tr>
+                  <tr>
+                    <td>standard_speeddiall.ini</td>
+                    <td>中国版所默认的快速拨号配置文件</td>
+                  </tr>
+                  <tr>
+                    <td>operaprefs.ini</td>
+                    <td>中国版所默认的首选项配置文件</td>
+                  </tr>
+                  <tr>
+                    <td>fastforward.ini</td>
+                    <td>中国版所默认的超级快进关键词定义配置文件</td>
+                  </tr>
+                  <tr>
+                    <td>feedreaders.ini</td>
+                    <td>中国版所默认的在线订阅的站点配置文件</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+            <li>custom\ui 目录（Opera 11 已无此目录）<br />
+              <br />
+              <table>
+                <tbody>
+                  <tr>
+                    <td><div>文件</div></td>
+                    <td><div>作用</div></td>
+                  </tr>
+                  <tr>
+                    <td>dialog.ini</td>
+                    <td>中国版特有，不建议删除，否则可能导致崩溃，Opera 11已无此目录</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>defaults 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td><div>文件</div></td>
+            <td><div>作用</div></td>
+          </tr>
+          <tr>
+            <td>bookmarks.adr</td>
+            <td>国际版所默认的书签文件</td>
+          </tr>
+          <tr>
+            <td>public_domains.dat</td>
+            <td>未知</td>
+          </tr>
+          <tr>
+            <td>feedreaders.ini</td>
+            <td>国际版所默认的在线订阅的站点配置文件</td>
+          </tr>
+          <tr>
+            <td>license.txt</td>
+            <td>Opera 软件协议（txt 版）</td>
+          </tr>
+          <tr>
+            <td>plugin-ignore.ini</td>
+            <td>插件忽略列表文件，如果某插件在此列表中，Opera 将忽略该插件</td>
+          </tr>
+          <tr>
+            <td>search.ini</td>
+            <td>国际版所默认的搜索栏配置文件</td>
+          </tr>
+          <tr>
+            <td>standard_speeddiall.ini</td>
+            <td>国际版所默认的快速拨号配置文件</td>
+          </tr>
+          <tr>
+            <td>xmlentities.ini</td>
+            <td>xml 标准文档类型列表</td>
+          </tr>
+          <tr>
+            <td>webmailproviders.ini</td>
+            <td>网络邮件服务配置文件</td>
+          </tr>
+          <tr>
+            <td>mailproviders.xml</td>
+            <td>常见邮箱模板，包含 domain ，pop / smtp 和（或）imap 服务器地址及端口。在添加电子邮件帐户时帮助自动完成帐户邮件服务器的默认设置。</td>
+          </tr>
+          <tr>
+            <td>standard_trusted_repositories.ini</td>
+            <td>可信任的应用仓库列表</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>extra 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td>存放开 Turbo 后代替 Flash 的图片文件</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>gstreamer 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td>10.50 后增加，gstreamer 是 Linux 下的开源的多媒体组件，Opera 运用此组件对 HTML5 的多媒体标签提供支持，如果删除该目录，Opera 将无法播放 HTML5 视频&amp;音频</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>locale 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td>Opera 默认存放语言文件包的地方。中国版仅有英文语言包en和中文语言包 zh-cn。每个语言包目录下都存在一个以 lng 为后缀的语言文件。 每个语言包目录下还存在该语言的默认书签文件 bookmarks.adr，该语言的默认的搜索栏配置文件 search.ini 和该语言的默认的快速拨号配置文件 standard_speeddiall.ini。中文简体语言包zh-cn 目录下除了上述文件外，还存在 Turbo 服务器（中国服务器）配置文件 turbosettings.xml 和 browser.js。中文繁体语言包 zh-tw 目录下除了上述文件外，还存在 Turbo 服务器（中国服务器）配置文件 turbosettings.xml 和 browser.js</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>program 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td><div>文件</div></td>
+            <td><div>作用</div></td>
+          </tr>
+          <tr>
+            <td>plugins 目录</td>
+            <td>存放Opera的各种插件（plugins），部分插件必须放在此目录下才能被Opera所使用，比如支付宝安全插件</td>
+          </tr>
+          <tr>
+            <td>netscape.exe</td>
+            <td>用于保证各个插件正常工作，不建议删除。</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>skin 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td><br />
+              存放 Opera自带 的标准皮肤和 Windows 自身皮肤，用户通过&ldquo;外观&rdquo;-&ldquo;查找更多的皮肤&rdquo;而下载到的皮肤不会放在这里<br /></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>styles 目录<br />
+          <table>
+            <tbody>
+              <tr>
+                <td><div>文件</div></td>
+                <td><div>作用</div></td>
+              </tr>
+              <tr>
+                <td>images目录</td>
+                <td>存放保存的style里css引用的图片</td>
+              </tr>
+              <tr>
+                <td>about.css</td>
+                <td>定义 <a href="opera:about">opera:about</a> 页面的样式表</td>
+              </tr>
+              <tr>
+                <td>cache.css</td>
+                <td><a href="opera:cache">opera:cache</a> 页面的样式表</td>
+              </tr>
+              <tr>
+                <td>certinfo.css</td>
+                <td>证书信息的样式表</td>
+              </tr>
+              <tr>
+                <td>config.css</td>
+                <td><a href="opera:config">opera:config</a> 页面的样式表</td>
+              </tr>
+              <tr>
+                <td>contentblock.css</td>
+                <td>内容过滤样式表路径</td>
+              </tr>
+              <tr>
+                <td>debug.css</td>
+                <td>Debug 页面样式表</td>
+              </tr>
+              <tr>
+                <td>dir.css</td>
+                <td>本地文件夹及 FTP 样式表</td>
+              </tr>
+              <tr>
+                <td>drives.css</td>
+                <td>驱动器列表样式表（应该就是<a href="opera:drives">opera:drives</a>页面的样式表）</td>
+              </tr>
+              <tr>
+                <td>error.css</td>
+                <td>错误页面的样式表</td>
+              </tr>
+              <tr>
+                <td>history.css</td>
+                <td><a href="opera:history">opera:history</a>页面的样式表</td>
+              </tr>
+              <tr>
+                <td>im.css</td>
+                <td>irc聊天室页面的样式表</td>
+              </tr>
+              <tr>
+                <td>image.css</td>
+                <td>实时生成的图片页面样式表</td>
+              </tr>
+              <tr>
+                <td>info.css</td>
+                <td>信息面板样式表</td>
+              </tr>
+              <tr>
+                <td>m2_welcome_message.mbs</td>
+                <td>新建了邮件帐户以后的欢迎信</td>
+              </tr>
+              <tr>
+                <td>mail.css</td>
+                <td>邮件面板样式表</td>
+              </tr>
+              <tr>
+                <td>mathml.css</td>
+                <td>用于显示数学公式的样式表，opera 在 presto 2.1.1 的时候开始支持 MathML</td>
+              </tr>
+              <tr>
+                <td>message.css</td>
+                <td>消息页面样式表</td>
+              </tr>
+              <tr>
+                <td>mime.css</td>
+                <td>邮件、新闻组、新闻推送的样式表</td>
+              </tr>
+              <tr>
+                <td>opera.css</td>
+                <td>用于定义内部页面的样式表，其中的内容是多个内部页面公用的，所以单独作为一个文件列出</td>
+              </tr>
+              <tr>
+                <td>plugins.css</td>
+                <td><a href="opera:plugins">opera:plugins</a> 页面的样式表</td>
+              </tr>
+              <tr>
+                <td>search.css</td>
+                <td>搜索已访问页面的样式表</td>
+              </tr>
+              <tr>
+                <td>unstyledxml.css</td>
+                <td>一些 xml 页面没有样式表，对于这些页面，opera 用这个样式表来渲染</td>
+              </tr>
+              <tr>
+                <td>warning.css</td>
+                <td>欺诈保护错误信息样式表</td>
+              </tr>
+              <tr>
+                <td>wml.css</td>
+                <td>WML 页面样式表</td>
+              </tr>
+              <tr>
+                <td>webfeeds.html</td>
+                <td>Feeds 预览页面模板</td>
+              </tr>
+              <tr>
+                <td>user目录</td>
+                <td>全局用户样式表目录，默认有如下样式表</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <ul>
+            <li>user 目录<br />
+              <table>
+                <tbody>
+                  <tr>
+                    <td><div>文件</div></td>
+                    <td><div>作用</div></td>
+                  </tr>
+                  <tr>
+                    <td>accessibility.css</td>
+                    <td>辅助功能</td>
+                  </tr>
+                  <tr>
+                    <td>altdebugger.css</td>
+                    <td>alt 调试器</td>
+                  </tr>
+                  <tr>
+                    <td>classid.css</td>
+                    <td>class 和 id</td>
+                  </tr>
+                  <tr>
+                    <td>contrastbw.css</td>
+                    <td>高对比度(黑/白)</td>
+                  </tr>
+                  <tr>
+                    <td>contrastwb.css</td>
+                    <td>高对比度(白/黑)</td>
+                  </tr>
+                  <tr>
+                    <td>disablebreaks.css</td>
+                    <td>禁止折行</td>
+                  </tr>
+                  <tr>
+                    <td>disablefloats.css</td>
+                    <td>禁止 float</td>
+                  </tr>
+                  <tr>
+                    <td>disableforms.css</td>
+                    <td>禁止 form</td>
+                  </tr>
+                  <tr>
+                    <td>disablepositioning.css</td>
+                    <td><a href="position:static">position:static</a></td>
+                  </tr>
+                  <tr>
+                    <td>disabletables.css</td>
+                    <td>禁止 table</td>
+                  </tr>
+                  <tr>
+                    <td>outline.css</td>
+                    <td>显示轮廓</td>
+                  </tr>
+                  <tr>
+                    <td>structureblock.css</td>
+                    <td>block 结构</td>
+                  </tr>
+                  <tr>
+                    <td>structureinline.css</td>
+                    <td>inline 结构</td>
+                  </tr>
+                  <tr>
+                    <td>structuretables.css</td>
+                    <td>table 结构</td>
+                  </tr>
+                  <tr>
+                    <td>tablelayout.css</td>
+                    <td><a href="table-layout:fixed">table-layout:fixed</a></td>
+                  </tr>
+                  <tr>
+                    <td>toc.css</td>
+                    <td>显示目录</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>ui 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td><div>文件</div></td>
+            <td><div>作用</div></td>
+          </tr>
+          <tr>
+            <td>dialog.ini</td>
+            <td>对话框样式定义文件</td>
+          </tr>
+          <tr>
+            <td>embedded_keyboard.ini</td>
+            <td>当 opera.dll 被嵌入到其他程序中时使用的键盘配置文件，一般用不到，win only</td>
+          </tr>
+          <tr>
+            <td>embedded_menu.ini</td>
+            <td>当 opera.dll 被嵌入到其他程序中时使用的菜单配置文件，一般用不到，win only</td>
+          </tr>
+          <tr>
+            <td>embedded_mouse.ini</td>
+            <td>当 opera.dll 被嵌入到其他程序中时使用的鼠标配置文件，一般用不到，win only</td>
+          </tr>
+          <tr>
+            <td>fastforward.ini</td>
+            <td>定义超级快进关键词的原始配置文件</td>
+          </tr>
+          <tr>
+            <td>standard_keyboard.ini</td>
+            <td>首选项-高级-快捷键-键盘设置中 OperaStandard 对应的键盘快捷键设置文件</td>
+          </tr>
+          <tr>
+            <td>standard_keyboard_compat.ini</td>
+            <td>首选项-高级-快捷键-键盘设置中 Opera 9.2Compatible 对应的键盘快捷键设置文件</td>
+          </tr>
+          <tr>
+            <td>standard_menu.ini</td>
+            <td>首选项-高级-工具栏-菜单设置中 OperaStandard 对应的菜单配置文件</td>
+          </tr>
+          <tr>
+            <td>standard_mouse.ini</td>
+            <td>首选项-高级-快捷键-鼠标中 OperaStandard 对应的鼠标手势配置文件</td>
+          </tr>
+          <tr>
+            <td>standard_toolbar.ini</td>
+            <td>首选项-高级-工具栏-工具栏设置中 OperaStandard 对应的工具栏配置文件</td>
+          </tr>
+          <tr>
+            <td>standard_trusted_repositories.ini</td>
+            <td>默认的可信任的应用仓库列表</td>
+          </tr>
+          <tr>
+            <td>standard_voice.ini</td>
+            <td>语音配置文件</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>unite 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td><br />
+              10.10起新增，存放自带的7个 Unite 应用，用户下载的 Unite 应用不在此处<br /></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li>uninst 目录</li>
+      </ul>
+      <table>
+        <tbody>
+          <tr>
+            <td><br />
+              仅见于 Classic 版下，Classic版的卸载程序 unwise.exe 存放于此处。它下面有个backup目录，用于存放被覆盖安装的老版本 Opera.exe和 Opera.dll 等文件，可以删除，没有影响。11 起取消 Classic 版安装程序，无此目录。<br /></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <ul>
+        <li> profile 目录</li>
+      </ul>
+      这就是&ldquo;帮助&rdquo;-&ldquo;关于&rdquo;中的 Opera 目录，存放各种自定义设置文件，下面将详细解说它里面的内容。<br />
+      <hr />
+      <br />
+      注意：使用单用户模式安装才有 profile 目录，Opera 默认安装为多用户模式，此目录在多用户模式下变为 C:\Users\你的系统帐户名\AppData\Roaming\Opera\Opera（Vista和Win7下）或者 C:\Documents and Settings\你的用户名Application Data\Opera\Opera（XP 下）。可以在地址栏访问 <a href="opera:config#UserPrefs|OperaLocalDirectory">opera:config#UserPrefs|OperaLocalDirectory</a> 查看该目录路径，也可以在<a href="opera:about">opera:about</a>中查看，对应Opera 目录。<br />
+      <table>
+        <tbody>
+          <tr>
+            <td><div>文件</div></td>
+            <td><div>作用</div></td>
+          </tr>
+          <tr>
+            <td>application_cache 目录</td>
+            <td>作用暂未知</td>
+          </tr>
+          <tr>
+            <td>cache 目录</td>
+            <td>缓存，不用清除，Opera在启动时会自动创建这个文件夹。</td>
+          </tr>
+          <tr>
+            <td>custom 目录</td>
+            <td>存放的文件及各自作用与上文中Opera安装目录下的custom目录相同</td>
+          </tr>
+          <tr>
+            <td>dictionaries 目录</td>
+            <td>存放字典目录（dictionaries.xml）与字典文件。</td>
+          </tr>
+          <tr>
+            <td>icons 目录</td>
+            <td>存放网站站点图标</td>
+          </tr>
+          <tr>
+            <td>keyboard 目录</td>
+            <td>用户键盘快捷键配置文件存放的目录。可以把 X:\Program Files\Opera\defaults\standard_keyboard.ini 复制到这里。之后我们就可以进入首选项 -&gt;高级 -&gt;快捷键 -&gt;键盘设置，看到多了一个键盘配置文件。在Opera可以直接编辑它或者重命名。它的名字不取决于文件本身的名字，而取决于改文件开头&ldquo;[INFO]下面的NAME=&rdquo;后的字符串。下面的 menu、mouse、toobar 的命名都是如此。首选项-高级-快捷键-键盘设置-建立的副本键盘设置文件在此目录下，编辑标准设置生成的 Opera Standard (已修改)对应的键盘设置文件也会在这里</td>
+          </tr>
+          <tr>
+            <td>mail 目录</td>
+            <td>邮件根目录，用于保存邮件及设置.</td>
+          </tr>
+          <tr>
+            <td>menu 目录</td>
+            <td>存放用户菜单配置目录。可以把 X:\Program Files\Opera\defaults\standard_menu.ini 复制过去直接编辑，然后进入首选项 -&gt;高级 -&gt;工具栏 -&gt;菜单设置启用它。首选项-高级-工具栏-菜单设置-建立的副本菜单文件在此目录下，编辑标准设置生成的 Opera Standard (已修改)对应的菜单文件也会在这里</td>
+          </tr>
+          <tr>
+            <td>mouse 目录</td>
+            <td>存放用户鼠标手势配置文件的目录。可以把 X:\Program Files\Opera\defaults\standard_mouse.ini 复制过去然后进行编辑，或者直接进入首选项 -&gt;高级 -&gt;快捷键 -&gt;鼠标设置，在 Opera 可以直接编辑它。首选项-高级-快捷键-鼠标设置-建立的副本键盘设置文件在此目录下，编辑标准设置生成的 OperaStandard (已修改)对应的鼠标手势设置文件也会在这里</td>
+          </tr>
+          <tr>
+            <td>opcache 目录</td>
+            <td>存放永久保存帮助文档</td>
+          </tr>
+          <tr>
+            <td>pstorage 目录</td>
+            <td>用于保存 webstorage 数据</td>
+          </tr>
+          <tr>
+            <td>sessions 目录</td>
+            <td>这个是会话保存目录，在文件菜单的会话中，我们可以看到它们。作用相当于其他浏览器的快捷组。除了我们自己保存的会话以外，Opera 会在关闭的时候自动保存当前页面的信息，将其保存在 autosave.win 这个文件中。</td>
+          </tr>
+          <tr>
+            <td>skin 目录</td>
+            <td>外观-皮肤-查找更多皮肤下载的自定义皮肤保存在这里</td>
+          </tr>
+          <tr>
+            <td>styles 目录</td>
+            <td>在此目录下的 user 目录中存放用户样式表，也就是我们在&ldquo; O 菜单&rdquo;-&ldquo;网页&rdquo;-&ldquo;样式&rdquo;中选择的那些，如果将自定义 CSS 放在此目录下，则可通过以上步骤来实现全局调用。其中文件及作用与此前介绍的opera\styles\user目录中的相同。</td>
+          </tr>
+          <tr>
+            <td>temporary_downloads 目录</td>
+            <td>临时下载文件夹</td>
+          </tr>
+          <tr>
+            <td>thumbnails</td>
+            <td>存放快速拨号网站缩略图</td>
+          </tr>
+          <tr>
+            <td>toolbar 目录</td>
+            <td>存放用户工具栏配置文件的目录。可以把 X:\Program Files\Opera\defaults\standard_toolbar.ini 复制过去进行编辑，然后在首选项 -&gt;高级 -&gt;工具栏 -&gt;工具栏设置那里启用。</td>
+          </tr>
+          <tr>
+            <td>websever 目录</td>
+            <td>作用不详</td>
+          </tr>
+          <tr>
+            <td>widgets 目录</td>
+            <td>存放已安装的 widgets 和扩展</td>
+          </tr>
+          <tr>
+            <td>voice 目录</td>
+            <td>用户语音配置文件存放目录。</td>
+          </tr>
+          <tr>
+            <td>voicelib 目录</td>
+            <td>如果你启用了语音浏览功能，那么下载的语音库文件就会保存在该目录中。</td>
+          </tr>
+          <tr>
+            <td>vps 目录</td>
+            <td>已访问页面的内容，首选项－高级－历史－取消&ldquo;记住访问页面的内容&rdquo; 会自动删除这个目录</td>
+          </tr>
+          <tr>
+            <td>bookmarks.adr</td>
+            <td>这是我们的书签，也就是收藏夹，也就是 9.x系列中的 opera6.adr</td>
+          </tr>
+          <tr>
+            <td>browser.js</td>
+            <td>修复站点用的，可以自动升级，帮助菜单的检查更新，作用和 UserJS 类似。下载并使用 browser.js 。设置为 1 时启用, Opera 将会下载该文件并将值置为 2.0 = 从不下载也不使用 browser.js2 = 使用 browser.js 并每周更新1 = 强制当前 browser.js 无效，在下次检查更新时重新下载并将值置为 2。建议使用值2</td>
+          </tr>
+          <tr>
+            <td>contacts.adr</td>
+            <td>联系人列表，在工具菜单的联系人中查看。</td>
+          </tr>
+          <tr>
+            <td>cookies4.dat</td>
+            <td>Opera 的 cookies 文件，就这一个。</td>
+          </tr>
+          <tr>
+            <td>download.dat</td>
+            <td>下载文件信息和它的历史记录。工具菜单的下载中查看。</td>
+          </tr>
+          <tr>
+            <td>global_history.dat</td>
+            <td>历史，在工具菜单的历史中查看。</td>
+          </tr>
+          <tr>
+            <td>notes.adr</td>
+            <td>笔记中的所有内容都在这里。</td>
+          </tr>
+          <tr>
+            <td>operaprefs.ini</td>
+            <td>保存首选项设置的文件，相当重要，在9.x系列中为 opera6.ini</td>
+          </tr>
+          <tr>
+            <td>override.ini</td>
+            <td>站点属性设置，可以在首选项 -&gt;高级 -&gt;内容 -&gt;管理站点参数那里查看。</td>
+          </tr>
+          <tr>
+            <td>override_downloaded.ini</td>
+            <td>Opera 默认的一些站点属性设置。</td>
+          </tr>
+          <tr>
+            <td>opcacrt6.dat</td>
+            <td>安全证书颁发机构，对应位置是首选项 -&gt;安全 -&gt;管理证书 -&gt;证书颁发机构。如果你导入了 HTTPS 安全协议的维基证书，别删除它，否则还得安装一次。</td>
+          </tr>
+          <tr>
+            <td>opcert6.dat</td>
+            <td>个人安全证书，对应位置是首选项 -&gt;安全 -&gt;管理证书 -&gt;个人。</td>
+          </tr>
+          <tr>
+            <td>opssl6.dat</td>
+            <td>首选项中的安全协议设置。</td>
+          </tr>
+          <tr>
+            <td>opera.dir</td>
+            <td>在地址栏输入的网址列表。</td>
+          </tr>
+          <tr>
+            <td>oprand.dat</td>
+            <td>是用于生成Key用的，比如安全链接的时候。</td>
+          </tr>
+          <tr>
+            <td>opthumb.dat-</td>
+            <td>保存快速拨号相关数据，比如对应的快速拨号缩略图、快速拨号标题等</td>
+          </tr>
+          <tr>
+            <td>optrb.dat</td>
+            <td>暂不知</td>
+          </tr>
+          <tr>
+            <td>optrust.dat</td>
+            <td>Opera接受信任的证书</td>
+          </tr>
+          <tr>
+            <td>opuntrust.dat</td>
+            <td>Opera拒绝信任的证书</td>
+          </tr>
+          <tr>
+            <td>speeddial.ini</td>
+            <td>9.2版本开始加入的Speed Dial功能中的站点保存文件。</td>
+          </tr>
+          <tr>
+            <td>typed_history.xml</td>
+            <td>输入历史</td>
+          </tr>
+          <tr>
+            <td>tasks.xml</td>
+            <td>用于证书更新，记录最后更新时间</td>
+          </tr>
+          <tr>
+            <td>urlfilter.ini</td>
+            <td>页面过滤名单。首选项 -&gt;高级 -&gt;内容 -&gt;过滤内容中可以对其进行管理。</td>
+          </tr>
+          <tr>
+            <td>vlink4.dat</td>
+            <td>已经访问过的链接。</td>
+          </tr>
+          <tr>
+            <td>wand.dat</td>
+            <td>Wand 填表功能保存的密码文件。</td>
+          </tr>
+          <tr>
+            <td>widgets.adr</td>
+            <td>Widgets 的书签，也就是我们在Widgets菜单下面看到的列表。</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<h2>&nbsp;</h2>
+<h2>Opera常用命令中文版（含菜单、鼠标手势、快捷键修改入门）</h2>
+<div>
+  <div> 原作者:亡灵法师<br />
+    <br />
+    <blockquote>
+      <div>闲话在前：<br />
+        <br />
+        本文不是用来看的，是用来查的。大半篇幅用于罗列常用命令的中文翻译，后面稍带讲了示例了一下菜单、鼠标手势和快捷键的修改。我没有按照英文字母为命令排序，而是按照操作类别进行划分，这样找起来更容易一些。一直有朋友建议翻译Opera命令大全，其实我也在悄悄的进行，不过很多命令在设置的时候不可能用到，而且有的已经随着版本的升级而取消或者变化，所以命令大全中的命令没有全部收入进来，浪费时间又浪费眼球，完全没有必要。<br />
+        <br />
+        另外感谢Csineneo，在我写这篇文章的时候，他出苦力颇多。</div>
+    </blockquote>
+    <br />
+    <br />
+    一、常用命令简介<br />
+    <br />
+    <blockquote>
+      <div>1、页面操作类<br />
+        <br />
+        Forward 前进<br />
+        Back 后退<br />
+        Fast forward 快速前进（前进到最前一页）<br />
+        Rewind 快速后退（后退到最后一页）<br />
+        Reload 刷新<br />
+        Stop 停止<br />
+        Reload all pages 刷新所有页面<br />
+        Wand 填写已经保存的站点用户名和密码，默认快捷键是Ctrl+Enter<br />
+        Enable automatic reload | Disable automatic reload 开启/停止自动刷新（注：&ldquo;|&rdquo;符号表示两种状态的切换，这是一个组合命令，当前标签没有锁定则锁定，当前标签被锁定则解锁。下面不再重复。）</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>2、标签窗口类：<br />
+        <br />
+        Lock page | Unlock page 锁定标签/解除锁定标签<br />
+        Switch to previous page 转到上个标签<br />
+        Switch to next page 转到下个标签<br />
+        Page up 向上翻页<br />
+        Page down 向下翻页<br />
+        Go to start 转到页面顶部<br />
+        Go to end 转到页面底部<br />
+        Scroll 滚屏（向下滚动，慢速）<br />
+        Scroll up 向上滚屏<br />
+        Scroll down 向下滚屏<br />
+        New page 新建浏览器标签<br />
+        New browser window 新建浏览器窗口<br />
+        Reopen page 撤销已关闭页面（Undo命令在页面使用，和Reopen page作用相同。）<br />
+        Detach page 分离当前页面到新窗口<br />
+        Duplicate page 创建页面副本<br />
+        Close page 关闭当前页面<br />
+        Close window 关闭当前窗口<br />
+        Close all 关闭全部窗口<br />
+        Close other 关闭其它窗口</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>3、链接类<br />
+        <br />
+        Copy link 复制链接<br />
+        Open link 打开链接<br />
+        Open link in background page 在后台标签打开链接<br />
+        Open link in background window 在后台窗口打开链接<br />
+        Open link in new page 在新标签打开链接<br />
+        Open link in new window 在新窗口打开链接<br />
+        Download URL 目标另存为<br />
+        Save link 目标另存为（和Download URL一样的）<br />
+        Download URL as 保存到下载文件夹<br />
+        Copy image 复制图像到内存<br />
+        Copy image address 复制图像地址<br />
+        Use image as desktop background 使用该图像作为桌面壁纸<br />
+        Load all images 重新装入所有图像<br />
+        Load image 重新装入图像<br />
+        Save image 保存图像<br />
+        Save background image 保存背景图像<br />
+        Copy document address 复制本页面地址<br />
+        Add to bookmarks 添加到当前网址到书签<br />
+        Go to page 转到页面。<br />
+        <br />
+        单独使用该命令，弹出地址栏输入框，输入确定后，弹出新的窗口。如果在快捷键中定义Go to page,&quot;bbs.deepin.org&quot;，就是访问深度论坛首页。可以连续组合，比如New page &amp; Go to page,&quot;网址1&quot; &amp; New page &amp; Go to page,&quot;网址2&quot; &amp; New page &amp; Go to page,&quot;网址3&quot;，以此类推，注意网址要加引号。New page表示新建一个页面，&ldquo;&amp;&rdquo;符号表示命令并列，按照整段命令的前后顺序执行。<br />
+        <br />
+        Go to homepage 转到主页<br />
+        Paste and go 粘贴并转到。此命令主要是在地址栏粘贴已复制的文本（网址）然后转到该链接。<br />
+        Go to parent directory 转到站点上级目录。比如我在当前页面<a href="http://bbs.deepin.org/thread.php?fid=165" target="_blank" rel="nofollow" onclick="this.target='_blank';">http://bbs.deepin.org/thread.php?fid=165</a>使用了本命令，就会转到<a href="http://bbs.deepin.org/" target="_blank" rel="nofollow" onclick="this.target='_blank';">http://bbs.deepin.org/</a>。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>4、文件操作类<br />
+        <br />
+        Open document 打开文件<br />
+        Save document 保存文档<br />
+        Save document As 保存文档为<br />
+        Print document 打印文档<br />
+        Print preview | Leave print preview 开启/结束打印预览<br />
+        Save window setup 保存会话（快捷组）<br />
+        Insert session 在当前窗口打开已经保存的会话<br />
+        Open session 在新窗口打开已经保存的会话<br />
+        Select session, -1  管理会话<br />
+        New bookmark 新建书签<br />
+        Save bookmarks as 保存书签为<br />
+        Export bookmarks 导出书签<br />
+        Export bookmarks to HTML 导出书签为HTML<br />
+        Import bookmarks 导入书签<br />
+        Import explorer favorites 导入IE收藏夹<br />
+        Hide opera 隐藏Opera（老板键，默认快捷键为Ctrl+H）<br />
+        Exit 退出Opera</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>5、编辑类<br />
+        <br />
+        Copy 复制文本<br />
+        Cut 剪切文本<br />
+        Delete 删除文本<br />
+        Clear 清除文本<br />
+        Insert 插入文本<br />
+        Paste 粘贴文本<br />
+        Select all 全选文本<br />
+        Redo 重做文本修改<br />
+        Undo 撤销修改<br />
+        <br />
+        （注：Undo是个跨域命令，在页面使用Undo，可以回复刚才关闭的页面，此时作用同Reopen page。如果在输入框使用Undo，那么恢复刚才删除的文字。）<br />
+        <br />
+        New note 新建笔记<br />
+        Copy to note 复制到笔记<br />
+        Find 查找<br />
+        Find next 查找下一个<br />
+        Find previous 查找上一个<br />
+        Enable inline find | Disable inline find 启动/停止在页面中查找（这个模式启动之后，关键词可以在搜索框那里输入）<br />
+        Find inline 进行在页面中查找</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>6、查看类<br />
+        <br />
+        View document source 查看网页源代码<br />
+        Enter fullscreen | Leave fullscreen 启用/结束全屏模式<br />
+        Enable handheld mode | Disable handheld mode 开启/停止小屏幕模式<br />
+        Enable mediumscreen mode | Disable mediumscreen mode 启用/禁止适合宽度模式<br />
+        Select author mode 启用网页作者式样模式，即使用站点设置。<br />
+        Select user mode 启用用户式样模式，即用户模式。<br />
+        Zoom out 缩小。比如Zoom out, 100即缩小100%。具体数值可以自行设定。<br />
+        Zoom in 放大。比如Zoom in, 100即放大100%<br />
+        Zoom to 缩放到。比如Zoom to, 200即缩放到200%<br />
+        Set alignment, &quot;hotlist&quot;, 6 | Set alignment, &quot;hotlist&quot;, 0 显示/隐藏面板<br />
+        Set alignment, &quot;browser toolbar&quot;, 6 | Set alignment, &quot;browser toolbar&quot;, 0 显示/隐藏工具栏<br />
+        Set alignment, &quot;personalbar&quot;, 6 | Set alignment, &quot;personalbar&quot;, 0 显示/隐藏个人栏<br />
+        Set alignment, &quot;pagebar&quot;, 6 | Set alignment, &quot;pagebar&quot;, 0 显示/隐藏标签栏<br />
+        Set alignment, &quot;status toolbar&quot;, 6 | Set alignment, &quot;status toolbar&quot;, 0 显示/隐藏状态栏<br />
+        Set alignment, &quot;document toolbar&quot;, 6 | Set alignment, &quot;document toolbar&quot;, 0 显示/隐藏地址栏<br />
+        Set alignment, &quot;site navigation toolbar&quot;, 6 | Set alignment, &quot;site navigation toolbar&quot;, 0 显示/隐藏导航栏<br />
+        Enable menu bar | Disable menu bar 显示/隐藏菜单条<br />
+        Enable scroll bars | Disable scroll bars 开启/禁止滚动条<br />
+        Customize toolbars, -3 自定义工具栏，&ldquo;-3&rdquo;这个参数需要带上，不带上表示进入自定义的第一个页面，即皮肤选择。<br />
+        Content block mode on | Content block mode off 打开/关闭页面阻止内容模式（Opera 9.0 新加入命令）</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>7、页面内容类<br />
+        <br />
+        Enable display images | Disable display images 允许/禁止显示图像<br />
+        Enable embedded audio | Disable embedded audio 允许/禁止网页中的声音<br />
+        Enable GIF animation | Disable GIF animation 允许/禁止播放GIF图片动画<br />
+        Enable javascript | Disable javascript 允许/禁止JavaScript<br />
+        Enable plugins | Disable plugins 允许/禁止插件<br />
+        Enable cookies | Disable cookies 允许禁止cookies<br />
+        Enable proxy servers | Disable proxy servers 启用/禁止代理服务器</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>8、管理类<br />
+        <br />
+        Delete private data 删除私人数据<br />
+        Empty page trash 清空访问页面回收站<br />
+        Empty trash 清空回收站<br />
+        Manage accounts 管理帐号<br />
+        Manage bookmarks 管理书签<br />
+        Manage contacts 管理联系人<br />
+        Manage links 管理链接<br />
+        Manage, &quot;links&quot; 管理链接（标签窗口模式）<br />
+        Manage wand 管理Wand<br />
+        Manage cookies 管理cookies<br />
+        Manage, &quot;notes&quot; 管理笔记<br />
+        Manage, &quot;transfers&quot; 管理下载<br />
+        Manage, &quot;history&quot; 管理历史<br />
+        Show preferences 工具菜单中的首选项</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>9、其它<br />
+        <br />
+        Execute program 执行程序。这是个相当重要和有用的命令，我们可以通过此命令调用系统中的各种程序。它的格式为：<br />
+        <br />
+        Execute program, &quot;程序路径以及程序名&quot;, &quot;参数&quot;<br />
+        <br />
+        例如调用IE：Execute program, &quot;iexplore.exe&quot;, &quot;%l&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div><br />
+        附：<br />
+        <br />
+        关于变量的定义<br />
+        <br />
+        %u = 当前显示网页的地址。常用于打开当前网址，或向下载工具传递本页所有链接。<br />
+        %l = 当前选择的链接，常用于向下载工具传递当前链接。<br />
+        %t = 当前选择的文本。比如常用的&ldquo;转到URL&rdquo;的命令为&ldquo;Go to page, &quot;%t&quot;&rdquo;。<br />
+        %s = 来源于当前显示文档的字符串。用于查看当前文档源代码。<br />
+        %c = 剪贴版内容。<br />
+        %i = 显示的搜索结果个数（用于search.ini中)。 <br />
+      </div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>Hotclick search 搜索，比如Hotclick search,200表示用google搜索当前圈选文本，200为search.ini中某个搜索引擎下&ldquo;Search Type=&rdquo;后面指定的数值。<br />
+        <br />
+        Show popup menu 调用菜单的重要命令。比如：<br />
+        <br />
+        Item, &quot;菜单&quot;=Show popup menu, &quot;Browser Menu Bar&quot;, , &quot;菜单&quot;, &quot;Panel Windows&quot;<br />
+        <br />
+        这个是调用[Browser Menu Bar]菜单，名字取名为&ldquo;菜单&rdquo;（可以去掉，但是逗号不能省略），使用的图标是Panel Windows。<br />
+        <br />
+        Focus address field 聚焦到地址栏<br />
+        Focus chat input 聚焦到聊天输入<br />
+        Focus quick reply 聚焦到快速回复<br />
+        Focus search field 聚焦到搜索框<br />
+        Get mail 接收邮件<br />
+        Read mail 阅读邮件<br />
+        Compose mail 写邮件<br />
+        Read newsfeed 阅读新闻推送</div>
+    </blockquote>
+    <br />
+    <br />
+    <br />
+    二、菜单修改<br />
+    <br />
+    <blockquote>
+      <div>菜单配置文件默认位置Opera&quot;&quot;defaults&quot;&quot;standard_menu.ini，如果你创建或启用了自己的菜单，那么它会创建到C:&quot;&quot;Documents and Settings你的用户名Application Data&quot;&quot;Opera&quot;&quot;Opera&quot;&quot;profile或者C:&quot;&quot;Program Files&quot;&quot;Opera&quot;&quot;profile，视你的安装方式决定。不推荐修改默认菜单，建议创建一个菜单副本，避免升级的时候菜单被新版Opera替换。创建方法是工具菜单-&gt;首选项-&gt;高级-&gt;工具栏-&gt;菜单设置那里选择一个Opera默认菜单，名字是Opera Standard，然后点击旁边的副本按钮。如图：<br />
+        <dl>
+          <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=306&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=306" alt="1.png" /></a></dt>
+          <dd>&nbsp;</dd>
+        </dl>
+      </div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>在standard_menu.ini中常用的右键弹出菜单名如下，在standard_menu.ini中搜索即可找到：<br />
+        <br />
+        右键点击页面空白处的弹出菜单：[Document Popup Menu]<br />
+        右键点击图片的弹出菜单：[Image Popup Menu]<br />
+        右键点击链接的弹出菜单：[Link Popup Menu]<br />
+        右键点击已拖选文本的弹出菜单：[Hotclick Popup Menu]<br />
+        右键点击回复框以及记事本空白处的弹出菜单：[Edit Widget Popup Menu]<br />
+        右键点击托盘图标的弹出菜单：[Tray Popup Menu]<br />
+        右键点击标签栏空白处的弹出菜单：[Pagebar Popup Menu]<br />
+        右键点击当前激活标签栏的弹出菜单：[Pagebar Item Popup Menu]<br />
+        右键点击其他未激活标签栏的弹出菜单：[Pagebar Inactive Item Popup Menu]</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>Opera最上方的菜单项目名称如下：<br />
+        <br />
+        文件菜单：[Browser File Menu]<br />
+        编辑菜单：[Browser Edit Menu]<br />
+        查看菜单：[Browser View Menu]<br />
+        书签菜单：[Browser Bookmarks Menu]<br />
+        饰件菜单：[Browser Widgets Menu]<br />
+        新闻推送菜单：[Browser Feeds Menu]<br />
+        邮件菜单：[Browser Mail Menu]<br />
+        聊天菜单：[Browser Chat Menu]<br />
+        工具菜单：[Browser Tools Menu]<br />
+        窗口菜单：[Browser Window Menu]——默认没有开启，在工具菜单-首选项-高级-浏览中勾选&ldquo;显示工具菜单&rdquo;即可显示。<br />
+        帮助菜单：[Browser Help Menu]</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>
+        <dl>
+          <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=307&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=307" alt="2.png" /></a></dt>
+          <dd>&nbsp;</dd>
+        </dl>
+        <br />
+        如上图。说明：<br />
+        <br />
+        1、绝大多数都是Item、Submenu、Include开头，每一行对应着右键菜单的一个项目。--------------------1这样的表示菜单中的分隔符。不喜欢的命令项目删除就行了，或者在该行最前面加上分号&ldquo;;&rdquo;。<br />
+        <br />
+        2、加上分号&ldquo;;&rdquo;，表示该项目不在使用的菜单中显示，被当作注释处理。比如工具栏菜单[Browser Tools Menu]下面的：<br />
+        <br />
+        Item, 69887 = Manage cookies<br />
+        <br />
+        它实际上位于Opera菜单-&gt;工具-&gt;高级的上面，作用是管理Cookies，不过我们看不见它。<br />
+        <br />
+        3、69887这个数字，表示该项目的名称，它对应的是Opera目录下.lng文件中的条目。现在Opera语言文件中的数值经过换算，所以你在语言文件中找不到69887这个项目。不过我们可以自己指定名字，比如：Item, &quot;管理cookies&quot; = Manage cookies，不加引号也是可以的。<br />
+        <br />
+        实例：<br />
+        <br />
+        来看一下[Document Popup Menu]即右键点击页面空白处的弹出菜单，图中绿线圈住的项目前面加有&ldquo;;&rdquo;分号，所以在实际菜单中不会看到。紫色项目，调用的是[Frame Menu]和[Document Background Menu]两个子菜单，需要在框架和背景图片上点击右键才能看到，平时是看不见的。<br />
+        <br />
+        如图：<br />
+        <dl>
+          <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=308&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=308" alt="3.png" /></a></dt>
+          <dd>&nbsp;</dd>
+        </dl>
+      </div>
+    </blockquote>
+    <br />
+    <br />
+    <br />
+    三、鼠标手势修改<br />
+    <br />
+    <blockquote>
+      <div>方向在左边设置。就4个，上、下、左、右，可以自己组合，中间加入英文逗号就行了。<br />
+        GestureUP = 上<br />
+        GestureDown = 下<br />
+        GestureLeft = 左<br />
+        GestureRight = 右 <br />
+        命令在右边，就是本文前面那些，自己选用。<br />
+        如图：<br />
+        <dl>
+          <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=309&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=309" alt="4.png" /></a></dt>
+          <dd>&nbsp;</dd>
+        </dl>
+        <br />
+        <dl>
+          <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=310&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=310" alt="5.png" /></a></dt>
+          <dd>&nbsp;</dd>
+        </dl>
+      </div>
+    </blockquote>
+    <br />
+    <br />
+    四、快捷键修改<br />
+    <br />
+    <blockquote>
+      <div>这个更简单了，不详说。首先进入快捷键设置，查找快捷键，一般都是Application下的。比如查找F1，然后修改后面的命令即可。默认的F1是转到Opera的帮助页面。<br />
+        如图：<br />
+        <dl>
+          <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=311&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=311" alt="6.png" /></a></dt>
+          <dd>&nbsp;</dd>
+        </dl>
+        <br />
+        <dl>
+          <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=312&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=312" alt="7.png" /></a></dt>
+          <dd>&nbsp;</dd>
+        </dl>
+      </div>
+    </blockquote>
+  </div>
+</div>
 <p>&nbsp;</p>
+<h2>【教程】Opera按钮/语法指南</h2>
+原作者亡灵法师首发于深度，此文为新手必看帖之一<br />
+    <br />
+    <br />
+    <div>
+      <div>
+        <blockquote>
+          <div><br />
+        闲话在前：<br />
+        <br />
+        因为想尽可能把这个话题介绍清楚一点，常用命令一文中的一些内容也收入到了本文中，免得查阅麻烦。写了两天半，再一看，吓，好长。<br />
+        <br />
+        觉得太长就看图吧，文字都是详细解释，看不懂图再看文字。<br />
+        <br />
+        创建按钮经常会用到Opera本身提供的命令，如果你不清楚，去看看《Opera常用命令中文版》一文<br />
+      </div>
+  </blockquote>
+    <br />
+    <br />
+    一、命令语法基础<br />
+    <br />
+    <br />
+    <br />
+    1、按钮语句的一般格式：<br />
+    <br />
+    <blockquote>
+      <div>命令, 参数1, 参数2, &quot;按钮名称&quot;, &quot;按钮图标&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    有的命令本身不需要参数，如果我们也不指定名称和图标，可以简写为：<br />
+    <br />
+    <blockquote>
+      <div>命令</div>
+    </blockquote>
+    <br />
+    <br />
+    比如把<br />
+    <br />
+    <blockquote>
+      <div>Disable menu bar,,,&quot;隐藏菜单栏&quot;,&quot;Enter Fullscreen&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    （注：&ldquo;Disable menu bar&rdquo;为命令，后面没有参数，除了&ldquo;Disable menu bar&rdquo;本身的逗号以外，还有两个两个逗号，&ldquo;隐藏菜单栏&rdquo;是按钮标题，&ldquo;Enter Fullscreen&rdquo;是图标名。）<br />
+    <br />
+    可以简写为<br />
+    <br />
+    <blockquote>
+      <div>Disable menu bar</div>
+    </blockquote>
+    <br />
+    <br />
+    有的命令，Opera可以自动给出它的图标，可以不用指定图标，比如&ldquo;Find&rdquo;。这样的命令，如果用户指定了图标，以用户指定的为准。<br />
+    <br />
+    2、组合语句<br />
+    <br />
+    组合语句需要使用连接命令的符号，一共有4个，&ldquo;&amp;&rdquo;、&ldquo;|&rdquo;、&ldquo;&gt;&rdquo;和&ldquo;+&rdquo;。优先级最高的是&ldquo;&amp;&rdquo;、其次是&ldquo;|&rdquo;和&ldquo;&gt;&rdquo;，最后是&ldquo;+&rdquo;。在多个符号连接的语句中，优先级高的首先执行，切记不要使用多余的引号或者括号来改变优先级，那是无效的，而且将导致语句错误。<br />
+    <br />
+    （1）&ldquo;&amp;&rdquo;表示命令连续执行。<br />
+    <br />
+    一般是：<br />
+    <br />
+    <blockquote>
+      <div>语句1 &amp; 语句2</div>
+    </blockquote>
+    <br />
+    <br />
+    比如：<br />
+    <br />
+    <blockquote>
+      <div>Close page &amp; Switch to previous page</div>
+    </blockquote>
+    <br />
+    <br />
+    在关闭当前标签执行完毕之后转到上一个标签。<br />
+    <br />
+    （2）&ldquo;|&rdquo;表示两种（一般情况下是两种）状态的切换，或者选择执行。<br />
+    <br />
+    一般是：<br />
+    <br />
+    <blockquote>
+      <div>语句1 | 语句2</div>
+    </blockquote>
+    <br />
+    <br />
+    比如：<br />
+    <br />
+    <blockquote>
+      <div>Enable menu bar | Disable menu bar</div>
+    </blockquote>
+    <br />
+    <br />
+    这是显示/隐藏菜单栏的语句。如果菜单栏现在是显示的，那么它执行Disable menu bar，如果菜单栏现在是隐藏的，那么它执行Enable menu bar。<br />
+    <br />
+    使用&ldquo;|&rdquo;连接的语句，按钮名称和按钮图标都以&ldquo;|&rdquo;前的语句1为准。如果语句1指定了按钮名称，&ldquo;|&rdquo;后的语句2再次指定按钮名称，没有效果。如果语句1未指定按钮名称，那么语句2所指定的按钮名称才会显示出来。但是，语句2无法指定按钮图标，即使&ldquo;|&rdquo;前的语句1没有指定。<br />
+    <br />
+    比如：<br />
+    <br />
+    <blockquote>
+      <div>Enable menu bar,,,&quot;显示/隐藏菜单栏&quot;,&quot;Enter Fullscreen&quot; | Disable menu bar</div>
+    </blockquote>
+    <br />
+    <br />
+    第一条语句指定按钮名称和图标，第二条语句不用指定。<br />
+    <br />
+    （3）&ldquo;&gt;&rdquo;表示多种状态的切换。<br />
+    <br />
+    一般是：<br />
+    <br />
+    <blockquote>
+      <div>语句1 &gt; 语句2 &gt; 语句3&gt; 语句4......</div>
+    </blockquote>
+    <br />
+    <br />
+    比如：<br />
+    <br />
+    <blockquote>
+      <div>Set skin coloring, #803C00 &gt; Set skin coloring, #BD9431 &gt; Set skin coloring, #2FB35E &gt; Set skin coloring, #2F83B3 &gt; Set skin coloring, #001E80 &gt; Set skin coloring, #900000</div>
+    </blockquote>
+    <br />
+    <br />
+    &ldquo;&gt;&rdquo;与&ldquo;|&rdquo;不同的地方：<br />
+    <br />
+    ?1 ?多个状态的切换，比如上面的皮肤色调切换。<br />
+    <br />
+    ?2 &ldquo;&gt;&rdquo;可以为每个语句设置独立的按钮名称和按钮图标。也就是说，你没点击一次，按钮名称和图标都会变化。<br />
+    <br />
+    比如：<br />
+    <br />
+    <blockquote>
+      <div>Enable plugins,,,&quot;允许插件&quot;,Checkbox Skin.selected &gt; Disable plugins,,,&quot;禁止插件&quot;,Checkbox Skin</div>
+    </blockquote>
+    <br />
+    <br />
+    （4）&ldquo;+&rdquo;后面通常连接一个菜单，我们一般用&ldquo;+&rdquo;实现两个按钮合并为一个按钮的功能。使用&ldquo;+&rdquo;之后，按钮右边会出现一个三角形的标记。<br />
+    <br />
+    一般是：<br />
+    <br />
+    <blockquote>
+      <div>语句1 + 语句2</div>
+    </blockquote>
+    <br />
+    <br />
+    点击按钮，执行语句1，点击三角形标记，执行语句2功能。<br />
+    <br />
+    比如下面这个显示/隐藏菜单栏+菜单项目的组合语句：<br />
+    <br />
+    <blockquote>
+      <div>Enable menu bar, , , &quot;菜单&quot;, &quot;Panel Windows&quot; | Disable menu bar + Show popup menu, &quot;Browser Menu Bar&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    如果我们将其做成按钮，点击该按钮，则显示/隐藏菜单栏，如果点击按钮上的三角形，则弹出菜单栏菜单项目。<br />
+    <br />
+    二、参看按钮图标的网址<br />
+    <br />
+    <a href="http://home.wanadoo.nl/sipke.reina/opera/images.html" target="_blank" rel="nofollow" onclick="this.target='_blank';">http://home.wanadoo.nl/sipke.reina/opera/images.html</a><br />
+    <br />
+    在这个页面，我们可以看到当前皮肤下的每个图标以及图标名称。<br />
+    <br />
+    如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=405&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=405" alt="1.png" /></a></dt>
+      <dd>&nbsp;</dd>
+    </dl>
+    <br />
+    <br />
+    三、在线按钮创建工具<br />
+    <br />
+    <a href="http://nontroppo.org/tools/buttonmaker/" target="_blank" rel="nofollow" onclick="this.target='_blank';">http://nontroppo.org/tools/buttonmaker/</a><br />
+    <br />
+    利用这个在线按钮创建工具，我们可以直接在网页中生成按钮，然后直接拖拽到Opera中使用。<br />
+    <br />
+    一般创建的按钮分为两种<br />
+    <br />
+    （1）普通命令按钮和<br />
+    <br />
+    （2）启动外部程序的按钮。<br />
+    <br />
+    说明如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=406&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=406" alt="2.png" /></a></dt>
+      <dd><br />
+    1、普通命令按钮制作实例<br />
+    <br />
+    （1）删除私人数据按钮<br />
+    <br />
+    这是一个简单命令按钮，本身存在于Opera的工具菜单下。可以在standard_menu.ini文件的[Browser Tools Menu]下找到它的命令&ldquo;Delete private data&rdquo;。一般我们需要使用一个已知用途的命令，都可以在standard_menu.ini相关字段下查看对应的命令。<br />
+    <br />
+    </dd>
+    </dl>
+    <blockquote>
+      <div>备忘：<br />
+        <br />
+        在standard_menu.ini中常用的右键弹出菜单名如下，在standard_menu.ini中搜索即可找到：<br />
+        <br />
+        右键点击页面空白处的弹出菜单：[Document Popup Menu]<br />
+        右键点击图片的弹出菜单：[Image Popup Menu]<br />
+        右键点击链接的弹出菜单：[Link Popup Menu]<br />
+        右键点击已拖选文本的弹出菜单：[Hotclick Popup Menu]<br />
+        右键点击回复框以及记事本空白处的弹出菜单：[Edit Widget Popup Menu]<br />
+        右键点击托盘图标的弹出菜单：[Tray Popup Menu]<br />
+        右键点击标签栏空白处的弹出菜单：[Pagebar Popup Menu]<br />
+        右键点击当前激活标签栏的弹出菜单：[Pagebar Item Popup Menu]<br />
+        右键点击其他未激活标签栏的弹出菜单：[Pagebar Inactive Item Popup Menu]</div>
+  </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>Opera最上方的菜单项目名称如下：<br />
+        <br />
+        文件菜单：[Browser File Menu]<br />
+        编辑菜单：[Browser Edit Menu]<br />
+        查看菜单：[Browser View Menu]<br />
+        书签菜单：[Browser Bookmarks Menu]<br />
+        饰件菜单：[Browser Widgets Menu]<br />
+        新闻推送菜单：[Browser Feeds Menu]<br />
+        邮件菜单：[Browser Mail Menu]<br />
+        聊天菜单：[Browser Chat Menu]<br />
+        工具菜单：[Browser Tools Menu]<br />
+        窗口菜单：[Browser Window Menu]——默认没有开启，在工具菜单-首选项-高级-浏览中勾选&ldquo;显示工具菜单&rdquo;即可显示。<br />
+        帮助菜单：[Browser Help Menu]</div>
+    </blockquote>
+    <br />
+    <br />
+    <br />
+    删除私人数据按钮语句为：<br />
+    <br />
+    <blockquote>
+      <div>Delete private data,,,&quot;删除私人数据&quot;,&quot;Stop&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=407&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=407" alt="3.png" /></a></dt>
+      <dd>&nbsp;</dd>
+    </dl>
+    <br />
+    <br />
+    （2）新闻推送列表按钮<br />
+    <br />
+    这是一个菜单按钮，可以在standard_menu.ini文件的[Browser Feeds Menu]下找到Internal RSS List命令。<br />
+    <br />
+    新闻推送按钮语句为：<br />
+    <br />
+    <blockquote>
+      <div>Show popup menu, &quot;Internal RSS List&quot;, , &quot;新闻推送&quot;, &quot;Read mail&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=408&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=408" alt="4.png" /></a></dt>
+      <dd><br />
+    <br />
+    <br />
+    （3）书签和会话按钮（即收藏夹+快捷组双功能按钮）<br />
+    <br />
+    这个按钮由两个菜单用&ldquo;+&rdquo;组合而成。standard_menu.ini文件中的Browser Bookmarks Menu即是工具栏下的书签菜单。[Browser File Menu]下的Browser Session Menu即会话菜单。<br />
+    <br />
+    书签和会话按钮语句为：<br />
+    <br />
+    </dd>
+    </dl>
+    <blockquote>
+      <div>Show popup menu, &quot;Browser Bookmarks Menu&quot;, , &quot;书签和会话&quot;, &quot;Panel Bookmarks&quot; + Show popup menu, &quot;Browser Session Menu&quot;</div>
+  </blockquote>
+    <br />
+    <br />
+    <br />
+    如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=409&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=409" alt="5.png" /></a></dt>
+      <dd><br />
+    <br />
+    <br />
+    （4）显示/隐藏菜单栏按钮<br />
+    <br />
+    这个按钮由&ldquo;|&rdquo;连接&ldquo;Enable menu bar&rdquo;命令和&ldquo;Disable menu bar&rdquo;命令组合而成。<br />
+    语句为：<br />
+    <br />
+    </dd>
+    </dl>
+    <blockquote>
+      <div>Enable menu bar,,,&quot;显示隐藏菜单栏&quot;,&quot;Panel Windows&quot; | Disable menu bar</div>
+  </blockquote>
+    <br />
+    <br />
+    如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=410&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=410" alt="6.png" /></a></dt>
+      <dd><br />
+    <br />
+    （5）显示/隐藏面板+面板项目列表按钮<br />
+    <br />
+    这个按钮实现2个功能，显示/隐藏面板和弹出面板项目列表。所以它由3个语句组合而成，即&ldquo;显示面板 | 隐藏面板 + 面板项目列表&rdquo;。<br />
+    <br />
+    显示面板 = Set alignment, &quot;hotlist&quot;, 6, &quot;显示隐藏面板+面板项目列表&quot;, &quot;View hotlist&quot;<br />
+    <br />
+    隐藏面板 = Set alignment, &quot;hotlist&quot;, 0<br />
+    <br />
+    面板项目列表 = Show popup menu, &quot;Internal panels&quot;<br />
+    <br />
+    用&ldquo;|&rdquo;连接显示面板和隐藏面板，然后在用&ldquo;+&rdquo;在后面加上面板项目列表菜单。<br />
+    语句为：<br />
+    <br />
+    </dd>
+    </dl>
+    <blockquote>
+      <div>Set alignment, &quot;hotlist&quot;, 6, &quot;显示隐藏面板+面板项目列表&quot;, &quot;View hotlist&quot; | Set alignment, &quot;hotlist&quot;, 0 + Show popup menu, &quot;Internal panels&quot;</div>
+  </blockquote>
+    <br />
+    <br />
+    如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=411&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=411" alt="7.png" /></a></dt>
+      <dd><br />
+    <br />
+    <br />
+    （6）显示/隐藏菜单和个人栏+菜单项目按钮<br />
+    <br />
+    这个按钮也是双功能，但是它由5个语句组合而成。<br />
+    <br />
+    显示菜单 = Enable menu bar,,,&quot;显示/隐藏菜单和个人栏+菜单项目&quot;,&quot;Panel Windows&quot;<br />
+    <br />
+    显示个人栏 = View personal bar,2<br />
+    <br />
+    隐藏菜单 = Disable menu bar<br />
+    <br />
+    隐藏个人栏 = View personal bar,0<br />
+    <br />
+    菜单项目列表 = Show popup menu, &quot;Browser Menu Bar&quot;<br />
+    <br />
+    用&ldquo;&amp;&rdquo;、&ldquo;|&rdquo;和&ldquo;+&rdquo;连接它们（&ldquo;&amp;&rdquo;的优先级是最高的，其次是&ldquo;|&rdquo;，最后才是&ldquo;+&rdquo;。），即：<br />
+    <br />
+    显示菜单 &amp; 显示个人栏 | 隐藏菜单 &amp; 隐藏个人栏 + 菜单项目<br />
+    <br />
+    </dd>
+    </dl>
+    <blockquote>
+      <div>Enable menu bar,,,&quot;显示/隐藏菜单和个人栏+菜单项目&quot;,&quot;Panel Windows&quot; &amp; View personal bar,2 | Disable menu bar &amp; View personal bar,0 + Show popup menu,&quot;Browser Menu Bar&quot;</div>
+  </blockquote>
+    <br />
+    <br />
+    如图（图中我是直接输入的语句，因为命令太多，无法使用选择动作的方式连接）：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=412&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=412" alt="8.png" /></a></dt>
+      <dd>&nbsp;</dd>
+    </dl>
+    <br />
+    2、启动外部程序的按钮制作实例<br />
+    <br />
+    这个相当简单，看图就行。需要说明的是，程序路径那里的选择按钮不要使用，那里有bug，使用了也是无效的。程序路径需要自己输入，路径记得带上英文引号。<br />
+    <br />
+    （1）启动记事本的按钮<br />
+    <br />
+    启动记事本是不用带参数的，相当简单。<br />
+    <br />
+    如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=413&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=413" alt="9.png" /></a></dt>
+      <dd><br />
+    （2）启动IE的按钮<br />
+    <br />
+    启动IE可以不带参数，也可以带参数。<br />
+    <br />
+    不带参数，直接启动IE：<br />
+    <br />
+    </dd>
+    </dl>
+    <blockquote>
+      <div>Execute program,&quot;IEXPLORE.EXE&quot;,,&quot;IE&quot;,&quot;View&quot;<br />
+      </div>
+  </blockquote>
+    <br />
+    <br />
+    带参数（参数%u为当前页面的网址），启动后打开当前Opera打开的网址：<br />
+    <br />
+    <blockquote>
+      <div>Execute program,&quot;IEXPLORE.EXE&quot;,&quot;%u&quot;,&quot;IE&quot;,&quot;View&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div><br />
+        关于变量的定义：<br />
+        <br />
+        %u = 当前显示网页的地址。常用于打开当前网址，或向下载工具传递本页所有链接。<br />
+        %l = 当前选择的链接，常用于向下载工具传递当前链接。<br />
+        %t = 当前选择的文本。比如常用的&ldquo;转到URL&rdquo;的命令为&ldquo;Go to page, &quot;%t&quot;&rdquo;。<br />
+        %s = 来源于当前显示文档的字符串。用于查看当前文档源代码。<br />
+        %c = 剪贴版内容。<br />
+        %i = 显示的搜索结果个数（用于search.ini中)。<br />
+        <br />
+      </div>
+    </blockquote>
+    <br />
+    <br />
+    如图：<br />
+    <br />
+    <dl>
+      <dt><a rel="ocbox" href="http://bbs.operachina.com/download/file.php?id=414&amp;mode=view"><img src="http://bbs.operachina.com/download/file.php?id=414" alt="10.png" /></a></dt>
+      <dd>&nbsp;</dd>
+    </dl>
+    <br />
+    <br />
+    <br />
+    四、工具栏文件的编辑<br />
+    <br />
+    <blockquote>
+      <div>Opera默认的工具栏配置文件standard_toolbar.ini位于Operadefaults下。一般修改了工具栏之类，Opera会自动创建工具栏配置文件到profiletoolbar下。<br />
+        <br />
+        或者自己在Opera的工具菜单-&gt;首选项-&gt;高级-&gt;工具栏-&gt;工具栏设置那里点击&ldquo;副本&rdquo;创建一个工具栏配置文件的副本，然后去profiletoolbar下打开它进行修改。<br />
+        <br />
+        不要修改Operadefaults下的standard_toolbar.ini默认配置，否则一旦升级就会被自动替换。<br />
+        <br />
+        另，修改工具栏配置文件的时候，需要确定该工具栏配置文件目前没有被Opera使用。不清楚的话，最好关闭Opera再修改。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>按钮的一般格式是：<br />
+        <br />
+        ButtonX,按钮名称 = 按钮语句<br />
+        <br />
+        说明：<br />
+        <br />
+        X为按钮番号。在某个字段下，第一个按钮即Button0，第二个Button1，番号依次加1。<br />
+        <br />
+        如果按钮语句中没有指定该按钮名称，那么等号前面的按钮名称才会起作用。<br />
+        <br />
+        另外，如果按钮语句中指定的按钮名称长度，短于等号前的按钮名称，以等号前的按钮名称长度为准。比如语句中指定按钮名称为&ldquo;菜单&rdquo;，即长度为4字节，等号前的按钮名称为&ldquo;显示隐藏菜单&rdquo;，即长度为12字节，那么我们最终看到的按钮名称是&ldquo;菜单 ? ? ?&rdquo;。<br />
+        <br />
+        打开工具栏配置文件中，搜索[Document Toolbar.content]，可以看到工具栏上的各个项目。<br />
+        <br />
+        比如我的是：<br />
+      </div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>[Document Toolbar.content]<br />
+        Address0<br />
+        Multisearch1<br />
+        Button2, 菜单=Enable menu bar, , , &quot;菜单&quot;, &quot;Panel Windows&quot; | Disable menu bar + Show popup menu, &quot;Browser Menu Bar&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>Address0这个表示网页地址栏，Multisearch1这个是带有下拉菜单的搜索框，Button2这个是按钮。<br />
+        <br />
+        如果我们打算在Button2下面再添加一个删除私人数据的按钮，那么在Button2的下面一行添加：</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>Button3, 删除私人数据=Delete private data, , , &quot;删除私人数据&quot;, &quot;Blocked&quot;</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>添加按钮最好的地方，是工具栏菜单-&gt;外观-&gt;按钮-&gt;我的按钮那里，添加后，我们可以拖动按钮到工具栏、标签栏等地方。<br />
+        <br />
+        它在工具栏配置文件中的位置是[Customize Toolbar Custom.content]，如果暂时没有（因为目前你可能还没有添加自己的按钮），自己创建这个段落，然后在[Customize Toolbar Custom.content]下面从Button0开始创建按钮即可。</div>
+    </blockquote>
+  </div>
+</div>
 <p align="right">&nbsp;</p>
+<h2>【教程】Opera手动修改Search.ini全攻略 原作者：Truth</h2>
+<div>
+  <div><br />
+    <blockquote>
+      <div>Opera整合搜索引擎的确是相当人性化的设计，我们不必一遍又一遍花时间登陆那些引擎的首页，也不必像IE那样装上许多我们不知道会起什么作用的工具栏，就可以方便地使用搜索引擎。<br />
+        <br />
+        如果你对Opera&ldquo;原装&rdquo;的搜索引擎感到不满（这种情况在我们非西方用户使用英文版时非常普遍），那么您完全可以自己定义Opera搜索引擎列表。<br />
+        <br />
+        Opera整合引擎的列表及参数基本都在 search.ini 文件。这个文件一般在opera安装目录下，是文本格式，可以用文本编辑器打开（包括UltraEdit，UEStudio05，Vim，记事本……）。就是说，我们如果要对搜索引擎列表进行修改，手段就是修改这个search.ini文件。<br />
+        <br />
+        事实上已经有一个Opera search.ini Editor的软件可以通过图形界面编辑 search.ini 文件。但是作为对修改添加引擎的详细说明，手动编辑的具体介绍是十分必要的。<br />
+        <br />
+        记住编辑前，先备份你的search.ini文件。</div>
+    </blockquote>
+    <br />
+    <br />
+    首先我们来分析文件结构。打开一个 search.ini 文件，我们看到如下文件结构：<br />
+    <br />
+    INIOpera Preferences version 2.0<br />
+    ; Do not edit this file while Opera is running<br />
+    ; This file is stored in UTF-8 encoding<br />
+    [Version]<br />
+    File Version=6<br />
+    [Search Engine 1]<br />
+    Name=&amp;Google<br />
+    URL=&quot;&quot;<a href="http://www.google.com/searchq=%s&amp;sourceid=opera&amp;num=%i&amp;ie=utf-8&amp;oe=utf-8">http://www.google.com/searchq=%s&amp;sourceid=opera&amp;num=%i&amp;ie=utf-8&amp;oe=utf-8</a>&quot;&quot;<br />
+    Query=<br />
+    Key=g<br />
+    Is post=0<br />
+    Has endseparator=0<br />
+    Encoding=utf-8<br />
+    Search Type=0<br />
+    Verbtext=17063<br />
+    Position=-1<br />
+    Nameid=0<br />
+    [Search Engine 2]<br />
+    ……………………<br />
+    [Search Engine 3]<br />
+    ……………………<br />
+    ……………………………………………… <br />
+    <br />
+    分析文件结构，我们把：<br />
+    <br />
+    Opera Preferences version 2.0<br />
+    ; Do not edit this file while Opera is running<br />
+    ; This file is stored in UTF-8 encoding<br />
+    <br />
+    部分叫做文件头，它说明的信息很简单，文件是opera属性文件2.0版，用UTF-8编码存储，在Opera运行时不要编辑该文件。<br />
+    <br />
+    文件头对搜索引擎列表没有影响，只是对整个文件一个简单的介绍。任何操作都尽量不要修改。<br />
+    <br />
+    文件头下面的结构是：<br />
+    <br />
+    [Version]<br />
+    File Version=6<br />
+    [Search Engine 1]<br />
+    ……………………<br />
+    [Search Engine 2]<br />
+    ……………………<br />
+    [Search Engine 3]<br />
+    ……………………<br />
+    <br />
+    那么，显然[Version]标题下面是说列表格式的版本，一般不要更改。<br />
+    <br />
+    在Opera 8中，File Version=6。<br />
+    在Opera 9中，File Version=7。<br />
+    <br />
+    而剩下的每个[Search Engine 数字]标题都对应一个搜索引擎。我们将通过修改此类标题下面的各项参数来定义一个搜索引擎。<br />
+    <br />
+    以默认的第一个搜索引擎google为例，分别讲述每个参数的作用：（为了方便讲述，我在前面加了行号，在文件里面是不应该有的）<br />
+    <br />
+    <blockquote>
+      <div>1 [Search Engine 1]<br />
+        2 Name=&amp;Google<br />
+        3 URL=&quot;&quot;<a href="http://www.google.com/searchq=%s&amp;num=%i">http://www.google.com/searchq=%s&amp;num=%i</a>&quot;&quot;<br />
+        4 Query=<br />
+        5 Key=g<br />
+        6 Is post=0<br />
+        7 Has endseparator=0<br />
+        8 Encoding=utf-8<br />
+        9 Search Type=0<br />
+        10 Verbtext=17063<br />
+        11 Position=-1<br />
+        12 Nameid=0格式很明了，前部分是属性名称，等号后面是设定的参数。</div>
+    </blockquote>
+    <br />
+    <br />
+    分行解释：<br />
+    <br />
+    <blockquote>
+      <div>1.[Search Engine 1]<br />
+        <br />
+        方括号里面最后的数字决定了引擎的在opera程序界面中的显示顺序，比如说你在&ldquo;首选项&rdquo;里看到的，还有右键单击个人栏点&ldquo;显示搜索&rdquo;也能看到。<br />
+        <br />
+        需要注意的是，在英文版中的&quot;Super Search&quot;功能（官方翻译为&ldquo;搜索各引擎&rdquo;）中，使用的是[Search Engine 1]和[Search Engine 2]所定义的引擎。而且作为[Search Engine 1]然后[Search Engine 2]然后[Search Engine 3]…………<br />
+        从小到大的顺序不能打乱，[]里面不能加空格，否则从打乱或错误处往后的引擎不会显示在程序界面中。<br />
+        最多定义到50个搜索引擎（包括翻译引擎之类），就是[Search Engine 1]到[Search Engine 50]，多了的程序不予识别。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div> 2.Name=&amp;Google<br />
+        <br />
+        这里等号后面是程序界面中会显示的搜索引擎的名称，比方说搜索框。你当然可以随心所欲填写干扰别人正常使用，但最好你记得每个名称真正对应什么引擎。<br />
+        <br />
+        这里的&quot;&amp;&quot;符号代表符号后面紧接的一个字母是这个引擎的快捷键，但符号&quot;&amp;&quot;不会在程序界面中显示出来。<br />
+        <br />
+        拿&amp;google当例子，&quot;&amp;&quot;后面的&quot;g&quot;键就成了某些对话框中Google引擎的快捷键。而且在某些对话框中，Google的G字母下面会出现下划线。如果你不想（尤其在定义一些中文名称时），完全可以不要这个符号，只是少了快捷键，并不影响搜索效果。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div> 3.URL=&quot;&quot;<a href="http://www.google.com/searchq=%s&amp;sourceid=opera&amp;num=%i&amp;ie=utf-8&amp;oe=utf-8">http://www.google.com/searchq=%s&amp;sourceid=opera&amp;num=%i&amp;ie=utf-8&amp;oe=utf-8</a>&quot;&quot;<br />
+        <br />
+        这一行是定义搜索的核心部分，等号后面是搜索引擎的接受搜索请求的格式。<br />
+        <br />
+        这里牵扯到一个问题，就是什么样的引擎可以被整合到Opera，这个问题在附录有说明。<br />
+        <br />
+        这里存在两个变量（后面解释），就是%s和%i。%s代表你要搜索的字词，%i代表你需要的每页返回的搜索结果数。<br />
+        <br />
+        这样再解释等号后面的网址就是：<br />
+        <br />
+        <a href="http://www.google.com/searchq=" target="_blank" rel="nofollow" onclick="this.target='_blank';">http://www.google.com/searchq=</a>要搜索的字符&amp;sourceid=opera&amp;num=每页返回结果数&amp;ie=utf-8&amp;oe=utf-8<br />
+        <br />
+        比如你在搜索框输入Truth然后回车，在得到搜索结果以后，会发现地址栏变成：<br />
+        <br />
+        <a href="http://www.google.com/searchq=Truth&amp;sourceid=opera&amp;num=0&amp;ie=utf-8&amp;oe=utf-8" target="_blank" rel="nofollow" onclick="this.target='_blank';">http://www.google.com/searchq=Truth&amp;sourceid=opera&amp;num=0&amp;ie=utf-8&amp;oe=utf-8</a><br />
+        <br />
+        和URL相比%s变成了Truth，%i变成了0。<br />
+        <br />
+        这是因为，搜索引擎大同小异，要搜索，我们只需要定义两个值，一个是搜什么关键词，一个是每页显示多少结果。这两个值不可能每次搜索都一样（每天搜索自己名字自恋的人除外），所以我们把它定义成未知数x和y。开始提到的所谓变量，可以理解为未知数。未知数x就是%s，y就是%i。%s是个字符串，%i是个数字。格式规定，只能用%s，%i表示（符合C程序习惯），而不能用x、y，但基本一个意思。<br />
+        <br />
+        我们在搜索的时候，在搜索框或个人栏上搜索框输入的字符就是%s的值；在右键搜索中，涂黑选定的字符是%s的值；而%i的值可以在首选项设定，如果没有设定过，它的值默认是0，也就是按网站默认的每页结果数显示。<br />
+        <br />
+        所以在例子中地址栏出现了%s变成了Truth，%i 变成了0的变化。<br />
+        <br />
+        至于&amp;ie=utf-8&amp;oe=utf-8和&amp;sourceid=opera，说的是编码格式和用户识别，不用专门设定，也不是每个引擎都一样，你甚至可以把这些都删掉，不影响使用。<br />
+        <br />
+        其实问号后面&amp;符号之间的字符串位置可以颠倒，比方说：<br />
+        <br />
+        [url=<a href="http://www.google.com/searchq=%s&amp;sourceid=opera&amp;num=%i&amp;ie=utf-8&amp;oe=utf-8">http://www.google.com/searchq=%s&amp;sourceid=opera&amp;num=%i&amp;ie=utf-8&amp;oe=utf-8</a>]<a href="http://www.google.com/searchq=%s&amp;sourceid=opera&amp;num=%i&amp;ie=utf-8&amp;oe=utf-8">http://www.google.com/searchq=%s&amp;sourceid=opera&amp;num=%i&amp;ie=utf-8&amp;oe=utf-8</a>[/url]<br />
+        <br />
+        [url=<a href="http://www.google.com/searchq=%s&amp;ie=utf-8&amp;oe=utf-8&amp;sourceid=opera&amp;num=%i">http://www.google.com/searchq=%s&amp;ie=utf-8&amp;oe=utf-8&amp;sourceid=opera&amp;num=%i</a>]<a href="http://www.google.com/searchq=%s&amp;ie=utf-8&amp;oe=utf-8&amp;sourceid=opera&amp;num=%i">http://www.google.com/searchq=%s&amp;ie=utf-8&amp;oe=utf-8&amp;sourceid=opera&amp;num=%i</a>[/url]<br />
+        <br />
+        效果是一样的。<br />
+        <br />
+        注意：在Opera6.x中，%s必须放在%i的前面，不然用这个引擎搜索会导致程序崩溃。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>4.Query=<br />
+        <br />
+        只有当行6是Is post=1的时候，这一行等号后面才需要填东西。<br />
+        <br />
+        Google和大部分引擎的行6是Is post=0，所以后面留空，此时留空不留空都一样，程序不读这一行。<br />
+        <br />
+        如果行6是Is post=1，那么这里按格式填URL后面需要提交的那部分。<br />
+        <br />
+        拿Amazon.de来说<br />
+        <br />
+        行3和行4就应该是：<br />
+        <br />
+        URL=<a href="http://www.amazon.de/exec/obidos/search-handle-form/">http://www.amazon.de/exec/obidos/search-handle-form/</a> Query=url=index%3Dbooks-de&amp;field-keywords=%s&amp;size=%i<br />
+        <br />
+        当你搜索的时候，Query中的内容将不会显示在地址栏，搜索完了地址栏还是<a href="http://www.amazon.de/exec/obidos/search-handle-form/" target="_blank" rel="nofollow" onclick="this.target='_blank';">http://www.amazon.de/exec/obidos/search-handle-form/</a></div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>5.Key=g<br />
+        <br />
+        这是设定关键字的地方，比如这里设定了g做google的关键字，那么在地址栏输入&ldquo;g Truth&rdquo;就是在搜索&quot;Truth&quot;。<br />
+        <br />
+        只有在Linux里面，大小写字母不一样，Key=g和Key=G是不一样的。在Windows里面，大小写字母一样，可以用单词作关键字，比方说把搜狐引擎添加以后设定Key=sohu，你可以在地址栏输入&ldquo;sohu fishest&rdquo;来搜索&ldquo;Fishest&rdquo;这个词。<br />
+        <br />
+        如果这些引擎关键字有一样的，那么关键字就等于没有，谁用都无效。<br />
+        <br />
+        如果关键字留空了，只有&quot;Key=&quot;那么这个引擎以及排在后面所有的引擎都不能直接显示在程序界面例如个人栏上。这个特性实现了隐藏后面众多翻译引擎的功能，但也可能是一个Bug。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div> 6.Is post=0 <br />
+        <br />
+        当引擎用HTTP GET取得关键词的时候，Is post=0；当引擎不允许GET查询需要post关键词，Is post=1，这种情况比较少见。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div> 7.Has endseparator=0<br />
+        <br />
+        这个参数有两个值，表示显示引擎列表的时候，这个引擎后面有没有分隔符，0是没有，-1是有。<br />
+        <br />
+        这个可以从搜索框拉出的下拉菜单看到。也可以右键单击个人栏-显示搜索。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div> 8.Encoding=utf-8<br />
+        <br />
+        搜索引擎用的编码格式。这里Google用的是UTF-8。在后文和附录里有详细说明。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div> 9.Search Type=0<br />
+        <br />
+        一些固定的搜索类型代表含义<br />
+        <br />
+        Search Type 2: 搜索各引擎 <br />
+        Search Type 12: 页内搜索 （搜索页面中的文字） <br />
+        Search Type 50: 字典 <br />
+        Search Type 51: 百科全书 <br />
+        Search Type 52: 货币转换 <br />
+        Search Type 100: 英语翻法语 <br />
+        Search Type 100 到 116: 翻译XX语为XX语 <br />
+        Search Type 117: 西班牙语翻法语 <br />
+        <br />
+        下面是按照官方文件分析出的结果，并没有被严格规定，但在编辑时推荐使用：<br />
+        <br />
+        Search Type 3：电子商务/产品搜索 <br />
+        Search Type 5：软件下载<br />
+        Search Type 7：图像搜索 <br />
+        Search Type 8：视频搜索 <br />
+        Search Type 9：音乐搜索 <br />
+        Search Type 10：讨论组 <br />
+        Search Type 13：新闻搜索 <br />
+        <br />
+        下面是非官方定义的搜索类型，推荐使用：<br />
+        <br />
+        Search Type 11：Flash搜索 <br />
+        Search Type 14：歌词搜索 <br />
+        <br />
+        Search Type可以重复，一般你加入的搜索引擎可以设Search Type=0。<br />
+        <br />
+        当然你也可以用这个设定定义个人栏上每个搜索框后面的小图标，Search Type=X用buttons.ini文件SearchX条目下的图标。这样你能用最多16个图标。[Search00]到[Search15]。一个图标可以重复使用。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div> 10.Verbtext=17063<br />
+        <br />
+        搜索引擎在程序界面显示的标题<br />
+        <br />
+        例如各处搜索框没有被激活的时候。17063对应语言文件中的字符串，17063在中文语言包就是：&quot;搜索 %s&quot;。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>11.Position=-1<br />
+        <br />
+        当搜索引擎不在个人栏显示的时候，Position=-1；当此搜索引擎在个人栏显示，Position=它的位置。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>12.Nameid=0<br />
+        <br />
+        它用来取代Name的值，后面对应一个语言包里的字符串，比如说&amp;Google就是Nameid=17171，这里是0，程序界面上就显示Name的引擎名称。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>关于search.ini文件本身：<br />
+        <br />
+        1.如果你没有search.ini文件，或者这个文件是空的，Opera将只显示Google，Alltheweb和页内搜索三项。（可能是个Bug）<br />
+        <br />
+        2.如果你的search.ini文件里加了超过三个搜索引擎，Opera就不会自动增加其他内置引擎（比如页内搜索）。<br />
+        <br />
+        3.每次修改完个人栏关闭Opera的时候，Opera会修改Search.ini文件。不要在Name和Nameid上作修改，会出现显示不正常的BUG。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>那么我们怎么添加搜索引擎呢？<br />
+        <br />
+        下面以添加百度为例讲解。<br />
+        <br />
+        1.判断百度能不能被添加。<br />
+        <br />
+        到百度首页搜索一个词，用&ldquo;孤波&rdquo;作例子。地址栏得到：<br />
+        <br />
+        <a href="http://www1.baidu.com/baiduword=%B9%C2%B2%A8" target="_blank" rel="nofollow" onclick="this.target='_blank';">http://www1.baidu.com/baiduword=%B9%C2%B2%A8</a><br />
+        <br />
+        很显然，我们看到简单的xx=xx的结构，而且很明显word是指关键词，等号后面的%B9%C2%B2%A8（汉字编码后一般显示成几个百分号跟16进制数间隔排列的形式）是汉字&ldquo;孤波&rdquo;的编码后的值，就是说这个位置显然就是%s。<br />
+        <br />
+        我们还可以判断出百度是使用GET来获取关键词的，可以被Opera整合，而且Is post=0。<br />
+        <br />
+        如果地址栏是<a href="http://………….ger1或http://…………/……/之类其他没有xx=xx结构的，一般是Post得到关键词，可以通过分析网页源码得到url和query信息。">http://………….ger1或http://…………/……/之类其他没有xx=xx结构的，一般是Post得到关键词，可以通过分析网页源码得到url和query信息。</a><br />
+        <br />
+        2.得到URL=<a href="http://www1.baidu.com/baiduword=%s">http://www1.baidu.com/baiduword=%s</a><br />
+        <br />
+        3.辨别百度汉字编码格式（附录有字符集的说明）。<br />
+        <br />
+        如果你搜索英语的话，字符即不那么重要，几乎所有字符即都和英语字符集兼容。而目前汉语字符集流行的是UTF-8和GB-2312，Opera支持gbk字符集，gbk兼容GB-2312，所以中文引擎选字符集就是选gbk和UTF-8。<br />
+        <br />
+        一个简单的判断方法是，在gbk中一个汉字编码对应%XX%XX--两个百分号两个16进制数，而UTF-8里面则是每个汉字对应%XX%XX%XX--三个百分号三个十六进制数。<br />
+        <br />
+        我们用两个字得到%B9%C2%B2%A8，可判断出应该用gbk编码。</div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>综合以上信息，关闭Opera，修改search.ini的[Search Engine 2]条目为：<br />
+        <br />
+        Name=百度<br />
+        URL=&quot;&quot;<a href="http://www1.baidu.com/baiduword=%s">http://www1.baidu.com/baiduword=%s</a>&quot;&quot;<br />
+        Query=<br />
+        Key=b<br />
+        Is post=0<br />
+        Has endseparator=0<br />
+        Encoding=gbk<br />
+        Search Type=1<br />
+        Verbtext=17063<br />
+        Position=-1<br />
+        Nameid=0（这里改了原来Search Engine 2，你可以在原来基础上添加，但是编码&ldquo;2&rdquo;也要相应改变）<br />
+        启动Opera，可以使用了。</div>
+    </blockquote>
+    <br />
+    <br />
+    <br />
+    <blockquote>
+      <div>附录：<br />
+        <br />
+        1.什么样的搜索引擎可以被Opera整合？<br />
+        <br />
+        只有用 HTTP GET 和post关键词方式搜索的引擎才能被整合，简单理解是：只有能接受浏览器地址栏某种格式的搜索请求的引擎才能被整合。<br />
+        <br />
+        2.有关变量的知识<br />
+        <br />
+        前面有一个百分号的字母，表示这是一个变量，常见的Opera能识别变量有：<br />
+        <br />
+        %u = 当前显示文档的url<br />
+        %t = 选定文本<br />
+        %s = 来源于当前显示文档的字符串<br />
+        %c = 剪贴版内容<br />
+        %i = 显示的搜索结果个数 (在search.ini里) <br />
+        %l = 链接，具体指代不详<br />
+        <br />
+        3.汉字编码问题。<br />
+        <br />
+        我们输入的字符存起来都是一个一个的编码，而字符集就是每个字所对应编码的标准。<br />
+        <br />
+        开始的时候只有Ascii编码就是ANSI的ASCII字符集，ANSI一般就是标准的意思。它是用8个bit表示一个字符，一共128个，就是ascii码表上所有的，因为一个字节有8个bit组成，所以第一位规定成0。<br />
+        <br />
+        后来扩展了，第一位可以用1，这时候用8bit就是一个字节代表了，比原来多了制表符之类的特殊符号，一共256个。<br />
+        <br />
+        世界上不光是英语。所以，每个语种都在ASCII基础上进行了自己的扩展，加入自己字符集。这些ANSI标准派生出来的，字符集被统称为ANSI字符集，正式名称应该是MBCS具体什么缩写我忘了。但是他们都兼容ASCII那127个字符，用大于128的编码作为一个头字节就是Leading Byte，然后跟在头字节后面的第2或3个字符与头字节一起作为辨认字符集的标志。<br />
+        <br />
+        GB-2312/3就是中国8几年定的一个比较广泛的ansi汉字字符集。<br />
+        <br />
+        由于每种语言都制定了自己的字符集，导致最后存在的各种字符集实在太多，在国际交流中要经常转换字符集非常不便。<br />
+        <br />
+        因此，提出了Unicode字符集，它固定使用16 bits(两个字节、一个字)来表示一个字符，共可以表示65536个字符。<br />
+        <br />
+        将世界上几乎所有语言的常用字符收录其中，方便了信息交流。标准的Unicode称为UTF-16。后来为了双字节的Unicode能够在现存的处理单字节的系统上正确传输，出现了UTF-8，使用类似MBCS的方式对Unicode进行编码。<br />
+        <br />
+        注意UTF-8是编码，它属于Unicode字符集。Unicode字符集有多种编码形式，而ASCII只有一种，大多数MBCS(包括GB-2312)也只有一种。<br />
+        <br />
+        目前流行的汉字编码是gb-2312和utf-8，gbk是兼容gb-2312的一种编码标准。<br />
+      </div>
+    </blockquote>
+    <br />
+    <br />
+    <blockquote>
+      <div>Opera &quot;search.ini&quot;的标准格式<br />
+        <br />
+        [Search Engine #]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;－－－－－搜索引擎序号<br />
+        Name=&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;－－－－－显示在Opera的Search Bar中的搜索引擎的名称<br />
+        URL=&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; －－－－－搜索引擎的网址<br />
+        Query=<br />
+        Key=&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; －－－－－搜索引擎的快捷键，用于在Opera的地址栏进行快捷搜索<br />
+        Is post=&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; －－－－－数值一般是&ldquo;0&rdquo;<br />
+        Has endseparator=<br />
+        Encoding=&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;－－－－－搜索引擎使用的字符集<br />
+        Search Type=<br />
+        Verbtext=&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;－－－－－数值一般是&ldquo;17063&rdquo;<br />
+        Position=&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;－－－－－数值一般是&ldquo;-1&rdquo;<br />
+        Nameid=&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; －－－－－数值一般是&ldquo;0&rdquo;</div>
+    </blockquote>
+  </div>
+</div>
+<hr />
+<ul>
+  <li><a name="b1" id="b1" href="">operaprefs_default.ini</a> 配置详解<br />
+    <br />
+    <table>
+      <tbody>
+        <tr>
+          <th><div>项目</div></th>
+          <th><div>说明</div></th>
+        </tr>
+        <tr>
+          <td>[User Prefs]</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Language File={Resources}locale\zh-cn\zh-cn.lng</td>
+          <td>使用中文语言</td>
+        </tr>
+        <tr>
+          <td>Language Files Directory={Resources}locale\zh-cn</td>
+          <td>使用中文语言文件夹中的配置，如书签、快拨、搜索引擎，但是在有custom文件夹的情况下，优先使用custom中的配置</td>
+        </tr>
+        <tr>
+          <td>Enable Drag=255</td>
+          <td>启用拖曳，但是只能上下拖曳链接，左右只能划选文字</td>
+        </tr>
+        <tr>
+          <td>Suppress External Embeds=0</td>
+          <td>允许在邮件中显示外部元素，如图片</td>
+        </tr>
+        <tr>
+          <td>Doubleclick to Close Tab=1</td>
+          <td>允许双击关闭标签</td>
+        </tr>
+        <tr>
+          <td>New Window=1</td>
+          <td>不重用当前标签</td>
+        </tr>
+        <tr>
+          <td>open page next to current=1</td>
+          <td>新开标签紧挨当前标签</td>
+        </tr>
+        <tr>
+          <td>Toolbar Configuration={SmallPreferences}toolbar\toolbar.ini<br />
+            Menu Configuration={SmallPreferences}menu\menu.ini<br />
+            Keyboard Configuration={SmallPreferences}keyboard\keyboard.ini<br />
+            Mouse Configuration={SmallPreferences}mouse\mouse.ini</td>
+          <td>启用用户配置</td>
+        </tr>
+        <tr>
+          <td>Showed Gesture Info=1</td>
+          <td>不显示首次使用鼠标手势提示</td>
+        </tr>
+        <tr>
+          <td>Enable Gesture=1</td>
+          <td>启用鼠标手势</td>
+        </tr>
+        <tr>
+          <td>Enable Extended Keyboard Shortcuts=1</td>
+          <td>启用单键快捷键</td>
+        </tr>
+        <tr>
+          <td>Show Default Browser Dialog=0</td>
+          <td>不显示首次使用opera的提示</td>
+        </tr>
+        <tr>
+          <td>Show Close All But Active Dialog=0</td>
+          <td>不显示关闭其他标签的提示</td>
+        </tr>
+        <tr>
+          <td>Show Close All Dialog=0</td>
+          <td>不显示关闭所有标签的提示</td>
+        </tr>
+        <tr>
+          <td>Show Opera Turbo Info=0</td>
+          <td>不显示opera turbo信息</td>
+        </tr>
+        <tr>
+          <td>Show Network Speed Notification=0</td>
+          <td>不显示opera turbo速度提示</td>
+        </tr>
+        <tr>
+          <td>Enable Service Discovery Notifications=0</td>
+          <td>禁用opera unite探索本地用户</td>
+        </tr>
+        <tr>
+          <td>Show Private Mode Introduction Page=0</td>
+          <td>不显示隐私窗口提醒</td>
+        </tr>
+        <tr>
+          <td>Show Validation Dialog=0</td>
+          <td>不显示校验页面对话框</td>
+        </tr>
+        <tr>
+          <td>Level Of Update Automation=0</td>
+          <td>禁止自动更新</td>
+        </tr>
+        <tr>
+          <td>Browser JavaScript=0</td>
+          <td>禁用Browser JavaScript，有需要你可以开启，把0改成2就行了</td>
+        </tr>
+        <tr>
+          <td>User JavaScript=1</td>
+          <td>允许使用ujs</td>
+        </tr>
+        <tr>
+          <td>Always Load User JavaScript=1</td>
+          <td>总是加载ujs</td>
+        </tr>
+        <tr>
+          <td>User JavaScript File=profile\script</td>
+          <td>ujs保存的文件夹位置</td>
+        </tr>
+        <tr>
+          <td>Allow script to raise window=1</td>
+          <td>允许ujs把窗口推到最前</td>
+        </tr>
+        <tr>
+          <td>Allow script to lower window=1</td>
+          <td>允许ujs把窗口推到最后</td>
+        </tr>
+        <tr>
+          <td>Visited Pages=0</td>
+          <td>禁用&ldquo;记住访问页面内容&rdquo;</td>
+        </tr>
+        <tr>
+          <td>Automatic Select Menu=0</td>
+          <td>禁用双击页面划选文字时弹出菜单</td>
+        </tr>
+        <tr>
+          <td>Spellcheck enabled by default=0</td>
+          <td>禁用拼写检查</td>
+        </tr>
+        <tr>
+          <td>PageBar Open URL On MiddleClick=1</td>
+          <td>开启用中键单击标签栏直接访问剪切板内容的功能</td>
+        </tr>
+        <tr>
+          <td>Mark As Read Automatically=1000</td>
+          <td>阅读邮件时一秒后自动将邮件标记为&ldquo;已阅读&rdquo;</td>
+        </tr>
+        <tr>
+          <td>Confirm Open Bookmark Limit=-5</td>
+          <td>不显示打开全组标签的提示</td>
+        </tr>
+        <tr>
+          <td>Plugin Path=profile\plugins</td>
+          <td>存放插件的位置</td>
+        </tr>
+        <tr>
+          <td>Show Gesture UI=0</td>
+          <td>禁用鼠标手势可视化。不解释。</td>
+        </tr>
+        <tr>
+          <td>[TransferWindow]</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Activate On New Transfer=0</td>
+          <td>下载文件时不打开标签</td>
+        </tr>
+        <tr>
+          <td>Keep Entries Days=30</td>
+          <td>下载记录保存期限</td>
+        </tr>
+        <tr>
+          <td>[Local CSS Files]</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Adblock+.css=1<br />
+            MyStyles.css=1<br />
+            blocker.css=1</td>
+          <td>默认开启这三项ucss</td>
+        </tr>
+        <tr>
+          <td>[BitTorrent]</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Enable=0</td>
+          <td>禁用opera自带的bt功能</td>
+        </tr>
+        <tr>
+          <td>[File Types]</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>...=0,,,,,|</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>application/x-bittorrent=4,,,,torrent,|</td>
+          <td>调用默认程序下载bt</td>
+        </tr>
+        <tr>
+          <td>text/edown=3,profile\optools\edown.exe,,,,|</td>
+          <td>关联edown</td>
+        </tr>
+        <tr>
+          <td>text/adblock=7,profile\optools\Adblock.exe,,,,|</td>
+          <td>关联adblock</td>
+        </tr>
+        <tr>
+          <td>[HotListWindow]</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>SortBy=-1</td>
+          <td>书签按照自己定义的顺序排序</td>
+        </tr>
+        <tr>
+          <td>[Persistent Storage]</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>User JS Storage Quota=102400</td>
+          <td>储存User JS Storage Quota的空间，有些js和扩展需要</td>
+        </tr>
+        <tr>
+          <td>[System]</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Multi User=0</td>
+          <td>使用便携版配置</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
   </div>
   <!-- end .container --></div>
 </body>

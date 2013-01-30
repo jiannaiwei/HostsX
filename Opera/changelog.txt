@@ -1870,3 +1870,145 @@ Item, "滚屏截取"="Execute program,"optools\Csendkey.bat","ScrollingWindow",,"FS_
 Item, "屏幕放大镜"="Execute program,"Csendkey.bat","magnifier",,"FS_magnifier""
 Item, "屏幕取色器"="Execute program,"Csendkey.bat","eyedropper",,"FS_eyedropper""
 Item, "屏幕标尺"="Execute program,"Csendkey.bat","rule",,"FS_rule""
+
+当前网页右键 [Document Popup Menu]
+网页链接右键 [Link Popup Menu]
+文字被选中后的右键 [Hotclick Popup Menu]
+链接被选定后的右键 [Link Selection Popup Menu]
+图像右键 [Image Popup Menu]
+图像右键,对于网页logo[Image Link Popup Menu]
+网页回复框中的右键[Edit Widget Popup Menu]
+网页地址栏和搜索框中的右键 [Edit Go Widget Popup Menu]
+标签栏空白处 [Pagebar Popup Menu]
+当前标签的右键 [Pagebar Item Popup Menu]
+非当前标签的右键 [Pagebar Inactive Item Popup Menu]
+无页面启动时右键 [Browser Window Menu]
+快速拨号右键 [Speed Dial Thumbnail Popup Menu]
+工具栏按钮的右键 [Toolbar Item Popup Menu]
+右键点击托盘图标的弹出菜单 [Tray Popup Menu]
+菜单栏：
+菜单栏 [Browser Menu Bar]
+菜单栏_文件 [Browser File Menu]
+菜单栏_编辑 [Browser Edit Menu]
+菜单栏_查看 [Browser View Menu]
+菜单栏_书签 [Browser Bookmarks Menu]
+菜单栏_Widgets [Browser Widgets Menu]
+菜单栏_工具 [Browser Tools Menu]
+菜单栏_工具_高级 [Advanced Tools Menu]
+菜单栏_窗口 [Browser Window Menu]——默认没有开启，在工具菜单-首选项-高级-浏览中勾选“显示工具菜单”即可显示。
+菜单栏_帮助 [Browser Help Menu]
+新闻推送菜单 [Browser Feeds Menu]
+邮件菜单 [Browser Mail Menu]
+聊天菜单：[Browser Chat Menu]
+侧面板：
+书签面板右键 [Bookmark Item Popup Menu]
+笔记面板右键 [Note Item Popup Menu]
+历史面板右键 [History Item Popup Menu]
+下载管理器面板右键 [Transfers Item Popup Menu]
+面板中Widget的右键 [Widget Item Popup Menu]
+
+[Link Selection Popup Menu]
+拖选含链接文字的右键菜单
+[Image Link Popup Menu]
+带链接的图片右键菜单
+[Readonly Edit Widget Popup Menu]
+图片属性框右键菜单
+[Edit Go Widget Popup Menu]
+地址栏和搜索栏右键菜单
+[Speed Dial Thumbnail Popup Menu]
+快速拨号页面右键菜单
+[Quick Preferences Menu]
+按F12的菜单
+[Closed Pages Menu]
+点击回收站弹出的菜单
+[Bookmark Folder Menu]
+书签按钮子菜单
+Web面板 ：
+[View Hotlist Menu]
+web面板空白处右键
+下载面板（同下载管理窗口）
+[Transfers Item Popup Menu]
+下载主窗口右键菜单
+[Transfers Notify Popup Menu]
+单击“下载完成提示”菜单
+状态栏右键菜单
+[Transfers View Popup Menu]
+查看按钮菜单
+链接
+[Links Panel Download Menu]
+链接窗口上方保存按钮菜单
+[Links Panel Item Menu]
+链接窗口右键菜单
+书签（同书签管理窗口）
+[Bookmark Item Popup Menu]
+书签管理窗口右键菜单
+[New bookmark menu]
+上方添加按钮
+[Bookmarks Panel Open Menu]
+打开按钮
+[Bookmarks Panel View Menu]
+查看按钮
+[Bookmark Trash Popup Menu]
+回收站右键
+笔记
+[Note Item Popup Menu]
+目录窗口右键
+[New note menu]
+添加按钮
+[Note Trash Popup Menu]
+[Edit Widget Popup Menu]
+编辑窗口
+历史
+[History Item Popup Menu]
+历史主窗口右键
+[History Panel View Menu]
+饰件
+[Widget Item Popup Menu]
+饰件主窗口右键
+[New Widget Menu]
+饰件添加按钮
+[Widget Trash Popup Menu]
+[Widget Folder Popup Menu]
+文件夹链接右键
+窗口
+[Windows Item Popup Menu]
+窗口主界面右键
+邮件
+[Index Item Popup Menu]
+左侧窗口菜单
+[Mail Item Popup Menu]
+右侧窗口菜单
+联系人
+[Contact Item Popup Menu]
+联系人右键菜单
+[New contact menu]
+添加按钮菜单
+聊天
+[Chat Item Popup Menu]
+聊天面板右键
+[Chat Popup Menu]
+房间聊天窗口菜单
+[Chat User Menu]
+房间右侧菜单
+常用菜单：
+右键点击页面空白处的弹出菜单： [Document Popup Menu]
+右键点击图片的弹出菜单： [Image Popup Menu]
+右键点击链接的弹出菜单： [Link Popup Menu]
+右键点击已拖选文本的弹出菜单： [Hotclick Popup Menu]
+右键点击回复框以及记事本空白处的弹出菜单： [Edit Widget Popup Menu]
+右键点击托盘图标的弹出菜单： [Tray Popup Menu]
+右键点击标签栏空白处的弹出菜单： [Pagebar Popup Menu]
+右键点击当前激活标签栏的弹出菜单： [Pagebar Item Popup Menu]
+右键点击其他未激活标签栏的弹出菜单： [Pagebar Inactive Item Popup Menu]
+上方主菜单：
+文件菜单： [Browser File Menu]
+编辑菜单： [Browser Edit Menu]
+查看菜单： [Browser View Menu]
+书签菜单： [Browser Bookmarks Menu]
+饰件菜单： [Browser Widgets Menu]
+新闻推送菜单： [Browser Feeds Menu]
+邮件菜单： [Browser Mail Menu]
+聊天菜单： [Browser Chat Menu]
+工具菜单： [Browser Tools Menu]
+窗口菜单： [Browser Window Menu]默认没有开启，在工具菜单-首选项-高级-浏览中勾选  “显示工具菜单”即可显示。
+帮助菜单： [Browser Help Menu]

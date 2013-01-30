@@ -40,6 +40,7 @@ fe80::1%lo0	localhost
 0.0.0.0 creative.ak.facebook.com
 0.0.0.0 creative.ak.fbcdn.net
 #Flickr
+66.94.233.186 flickr.com
 76.13.18.78 farm3.staticflickr.com
 76.13.18.78 bf1.farm3.staticflickr.com
 76.13.18.78 gq1.farm3.staticflickr.com
@@ -66,3 +67,8 @@ fe80::1%lo0	localhost
 107.22.3.110 status.github.com
 204.232.175.78 training.github.com
 207.97.227.243 www.github.com
+#OperaLink
+91.203.99.46 auth.opera.com
+72.21.91.29 crl3.digicert.com
+91.203.96.252 link-server.opera.com
+

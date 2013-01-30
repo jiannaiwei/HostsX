@@ -214,7 +214,6 @@
 0.0.0.0 bo79.info
 0.0.0.0 bobo.20niu.com
 0.0.0.0 bobo.sao42.com
-0.0.0.0 body{background:#fff;}
 0.0.0.0 bohewu.com
 0.0.0.0 byqe.info
 0.0.0.0 c.t9club.com
@@ -528,9 +527,6 @@
 0.0.0.0 usa.xxsem.com
 0.0.0.0 uuu46.com
 0.0.0.0 van-vincent.us
-0.0.0.0 var _gaq = _gaq || [];
-0.0.0.0 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-0.0.0.0 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 0.0.0.0 vip.wg999.org
 0.0.0.0 vipdx.06tu.com
 0.0.0.0 vk.ed808.com.95vk.cn
