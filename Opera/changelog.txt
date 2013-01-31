@@ -2012,3 +2012,31 @@ web面板空白处右键
 工具菜单： [Browser Tools Menu]
 窗口菜单： [Browser Window Menu]默认没有开启，在工具菜单-首选项-高级-浏览中勾选  “显示工具菜单”即可显示。
 帮助菜单： [Browser Help Menu]
+
+Item, "Profile"="Execute program, "Profile",,,"Parent folder""
+Item, "Optools"="Execute program, "optools",,,"Target Folder""
+Item, "Plugin"="Execute program, "program\plugins",,,"Target Folder""
+Item, "UserStyles"="Execute program, "profile\styles\user",,,"Target Folder""
+Item, "UserScript"="Execute program, "profile\script",,,"Target Folder""
+
+;--------------------菜单跨版本兼容性修复补充
+
+[Any Menu PRX]
+;Any版本通用
+Item, "Port>[1234]" = Disable proxy servers,,,,wito & Set preference, "Proxy|HTTP server=127.0.0.1:1234" & Set preference, "Proxy|HTTPS server=127.0.0.1:1234" & Set preference, "Proxy|FTP server=127.0.0.1:1234" &Enable proxy servers
+Item, "Port>[1984]" = Disable proxy servers,,,,puff & Set preference, "Proxy|HTTP server=127.0.0.1:1984" & Set preference, "Proxy|HTTPS server=127.0.0.1:1984" & Set preference, "Proxy|FTP server=127.0.0.1:1984" &Enable proxy servers
+Item, "Port>[1998]" = Disable proxy servers,,,,wcproxy & Set preference, "Proxy|HTTP server=127.0.0.1:1998" & Set preference, "Proxy|HTTPS server=127.0.0.1:1998" & Set preference, "Proxy|FTP server=127.0.0.1:1998" &Enable proxy servers
+Item, "Port>[48100]" = Disable proxy servers,,,,hyk & Set preference, "Proxy|HTTP server=127.0.0.1:48100" & Set preference, "Proxy|HTTPS server=127.0.0.1:48100" & Set preference, "Proxy|FTP server=127.0.0.1:48100" &Enable proxy servers
+Item, "Port>[5865]" = Disable proxy servers,,,,wapp & Set preference, "Proxy|HTTP server=127.0.0.1:5865" & Set preference, "Proxy|HTTPS server=127.0.0.1:5865" & Set preference, "Proxy|FTP server=127.0.0.1:5865" &Enable proxy servers
+Item, "Port>[8000]" = Disable proxy servers,,,,gapp & Set preference, "Proxy|HTTP server=127.0.0.1:8000" & Set preference, "Proxy|HTTPS server=127.0.0.1:8000" & Set preference, "Proxy|FTP server=127.0.0.1:8000" &Enable proxy servers
+Item, "Port>[8080]" = Disable proxy servers,,,,proxo & Set preference, "Proxy|HTTP server=127.0.0.1:8080" & Set preference, "Proxy|HTTPS server=127.0.0.1:8080" & Set preference, "Proxy|FTP server=127.0.0.1:8080" &Enable proxy servers
+Item, "Port>[8081]" = Disable proxy servers,,,,gtu & Set preference, "Proxy|HTTP server=127.0.0.1:8081" & Set preference, "Proxy|HTTPS server=127.0.0.1:8081" & Set preference, "Proxy|FTP server=127.0.0.1:8081" &Enable proxy servers
+Item, "Port>[8082]" = Disable proxy servers,,,,gtu & Set preference, "Proxy|HTTP server=127.0.0.1:8082" & Set preference, "Proxy|HTTPS server=127.0.0.1:8082" & Set preference, "Proxy|FTP server=127.0.0.1:8082" &Enable proxy servers
+Item, "Port>[8086]" = Disable proxy servers,,,,wapp & Set preference, "Proxy|HTTP server=127.0.0.1:8086" & Set preference, "Proxy|HTTPS server=127.0.0.1:8086" & Set preference, "Proxy|FTP server=127.0.0.1:8086" &Enable proxy servers
+Item, "Port>[8118]" = Disable proxy servers,,,,p & Set preference, "Proxy|HTTP server=127.0.0.1:8118" & Set preference, "Proxy|HTTPS server=127.0.0.1:8118" & Set preference, "Proxy|FTP server=127.0.0.1:8118" &Enable proxy servers
+Item, "Port>[8580]" = Disable proxy servers,,,,fg & Set preference, "Proxy|HTTP server=127.0.0.1:8580" & Set preference, "Proxy|HTTPS server=127.0.0.1:8580" & Set preference, "Proxy|FTP server=127.0.0.1:8580" &Enable proxy servers
+Item, "Port>[9050]" = Disable proxy servers,,,,advor & Set preference, "Proxy|HTTP server=127.0.0.1:9050" & Set preference, "Proxy|HTTPS server=127.0.0.1:9050" & Set preference, "Proxy|FTP server=127.0.0.1:9050" &Enable proxy servers
+Item, "Port>[9051]" = Disable proxy servers,,,,tor & Set preference, "Proxy|HTTP server=127.0.0.1:9051" & Set preference, "Proxy|HTTPS server=127.0.0.1:9051" & Set preference, "Proxy|FTP server=127.0.0.1:9051" &Enable proxy servers
+Item, "Port>[9666]" = Disable proxy servers,,,,wj & Set preference, "Proxy|HTTP server=127.0.0.1:9666" & Set preference, "Proxy|HTTPS server=127.0.0.1:9666" & Set preference, "Proxy|FTP server=127.0.0.1:9666" &Enable proxy servers
+Item, "Port>[8087]" = Disable proxy servers,,,,goagent & Set preference, "Proxy|HTTP server=127.0.0.1:8087" & Set preference, "Proxy|HTTPS server=127.0.0.1:8087" & Set preference, "Proxy|FTP server=127.0.0.1:8087" &Enable proxy servers
+

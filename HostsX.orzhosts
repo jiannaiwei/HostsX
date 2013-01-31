@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=18:16:07.48 2013/01/30 周三
+;version=10:58:35.62 2013/01/31 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3467,6 +3467,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 a.cntv.cn
 0.0.0.0 ad.cctv.com
 0.0.0.0 d.cntv.cn
+0.0.0.0 log.vdn.apps.cntv.cn
+0.0.0.0 sh5.yk.ss3w.com
+0.0.0.0 sh4.yk.ss3w.com
 0.0.0.0 adguanggao.eee114.com
 0.0.0.0 cctv.adsunion.com
 0.0.0.0 js.bmgad.com
@@ -11978,7 +11981,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 jjj15.com
 0.0.0.0 jjj444.com
 0.0.0.0 jkntynnrhq.pppdiy.com
-0.0.0.0 js.ylunion.com
 0.0.0.0 jypt999.com
 0.0.0.0 kansepian.com
 0.0.0.0 ke555.com
