@@ -2047,3 +2047,5 @@ Item, "保存更改并重载"=Go to page, "javascript:location.href='data:text/adblock;
 
 Item, "---ISP-UA↑&&Custom-UA↓(*)---"=Show popup menu
 Include, Identify As Menu
+
+div[class*="topBanner"],<div class="topBanner"> http://c6.yunpan.360.cn/my
