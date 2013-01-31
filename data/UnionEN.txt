@@ -5137,6 +5137,9 @@
 0.0.0.0 cachep.fling.com
 0.0.0.0 promos.fling.com
 0.0.0.0 www.fling.com
+#ilivid
+0.0.0.0 lp.ilivid.com
+0.0.0.0 download.ilivid.com
 #Videosz
 0.0.0.0 cdn.feeds.videosz.com
 0.0.0.0 feeds.videosz.com
@@ -5162,7 +5165,6 @@
 0.0.0.0 engine.adsupply.com
 0.0.0.0 feed-ads.com
 0.0.0.0 javascript.nwbox.com
-0.0.0.0 lp.ilivid.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 ox-d.majorgeeks.com
 0.0.0.0 ox-i.majorgeeks.com

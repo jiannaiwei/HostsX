@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.1.7
+Version: 5.0.1.9
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 10:23 2013/1/23
+Lastchage: 15:34 2013/1/31
 Description: MayBe a better User CSS Help U.
 */
 
@@ -124,7 +124,7 @@ display: none !important;
 	}
 
 /* Banner & Flash & Word AD*/
-div[id*="adflash"],div[id*="ad-flash"],div[id="flashbanner"],div[id="player_ad"],div[class="DaKuang"],
+div[id*="adflash"],div[id*="ad-flash"],div[id*="flash_click_"],div[id="flashbanner"],div[id="player_ad"],div[class="DaKuang"],
 div[class="flashNews"],object[id^="_AD"],object[id*="flashad"],object[class*="ad_falsh"],embed[id^="ad_flash"],embed[name="flash_focus"]{
 display: none !important;
 	}
@@ -167,8 +167,8 @@ font[color*="FAE"],font[style="font-size:10px;color:#b4b4b4"]{
 display: none !important;
 	}
 iframe[src*="/ad/"]{display:none;}
-IMG[src*="/a-d-s/"],iframe[src="adb.php"],iframe[src="adt.php"],iframe[src*="/interface/cpmblank.php?"],
-iframe[class="ad_iframe"]iframe[id^="ads_"],iframe[id$="_tuiguang"],iframe[id^="dale_m"],iframe[name="ads_frame"],iframe[src*="http://g.163.com/"]{
+IMG[src*="/a-d-s/"],iframe[src="adb.php"],iframe[src="adt.php"],iframe[src*="/interface/cpmblank.php?"],div[class="tg"],div[class*=" top-tg"],
+iframe[class="ad_iframe"],iframe[id^="ads_"],iframe[id$="_tuiguang"],iframe[id^="dale_m"],iframe[name="ads_frame"],iframe[src*="http://g.163.com/"]{
 display: none !important;
 	}
 a[href*="/adfclick?"],a[href*="/guanggao"],a[href*="/interface/cpm.php?"],[href*="clickpromotion.php?"],a[href^="http://adcl.pchome.com.tw/"],

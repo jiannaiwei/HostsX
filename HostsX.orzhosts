@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=10:58:35.62 2013/01/31 周四
+;version=15:31:05.20 2013/01/31 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9265,6 +9265,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cachep.fling.com
 0.0.0.0 promos.fling.com
 0.0.0.0 www.fling.com
+#ilivid
+0.0.0.0 lp.ilivid.com
+0.0.0.0 download.ilivid.com
 #Videosz
 0.0.0.0 cdn.feeds.videosz.com
 0.0.0.0 feeds.videosz.com
@@ -9290,7 +9293,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 engine.adsupply.com
 0.0.0.0 feed-ads.com
 0.0.0.0 javascript.nwbox.com
-0.0.0.0 lp.ilivid.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 ox-d.majorgeeks.com
 0.0.0.0 ox-i.majorgeeks.com
