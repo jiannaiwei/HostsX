@@ -8,7 +8,7 @@ import os
 from shutil import copyfile
 
 
-HOSTS_URL='http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts'
+HOSTS_URL='http://hostsx.googlecode.com/svn/trunk/hosts'
 
 LOCAL_HOSTS='/etc/hosts'
 

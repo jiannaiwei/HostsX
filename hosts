@@ -1,5 +1,5 @@
 
-;version=15:31:05.20 2013/01/31 周四
+;version=10:03:12.97 2013/02/01 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11081,7 +11081,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ds.serving-sys.com
 127.0.0.1 serving-sys.com
 127.0.0.1 us.bs.serving-sys.com
-#Sexybabesx127.0.0.1 adrianalima.sexybabesx.com
+#Sexybabesx
+127.0.0.1 adrianalima.sexybabesx.com
 127.0.0.1 aliciakeys.sexybabesx.com
 127.0.0.1 amandabynes.sexybabesx.com
 127.0.0.1 angelina.sexybabesx.com

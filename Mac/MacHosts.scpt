@@ -5,7 +5,7 @@
 property myPWD : ""
 
 -- 一个可以获取最新hosts的URL（下载的hosts第一行最好是更新时间）
-property hostsURL : "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts"
+property hostsURL : "http://hostsx.googlecode.com/svn/trunk/hosts"
 
 -- 用于暂时保存更新的hosts文件的文件路径
 property hostsTempPath : "~/hosts"
