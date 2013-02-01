@@ -676,6 +676,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 hjql.stat.360safe.com
 0.0.0.0 ini.update.360safe.com
 0.0.0.0 inst.360safe.com
+0.0.0.0 down.360safe.com
 0.0.0.0 pdown.stat.360safe.com
 0.0.0.0 plugin.stat.360safe.com
 0.0.0.0 seapp.stat.360safe.com

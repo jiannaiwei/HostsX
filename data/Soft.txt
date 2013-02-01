@@ -6,6 +6,34 @@
 #Potplayer
 0.0.0.0 m.adtc.daum.net
 #±©∑Á”∞“Ù
+0.0.0.0 action.logger.baofeng.com
+0.0.0.0 addl.logger.baofeng.com
+0.0.0.0 baofeng.union.tudou.com
+0.0.0.0 dl.baofeng.com
+0.0.0.0 errorcode.logger.baofeng.com
+0.0.0.0 feedback.baofeng.com
+0.0.0.0 g.baofeng.com
+0.0.0.0 lkucun.houyi.baofeng.com
+0.0.0.0 logger.treexml.baofeng.com
+0.0.0.0 p2pmid.baofeng.com
+0.0.0.0 tree.logger.baofeng.com
+0.0.0.0 tuijian.bd.baofeng.com
+0.0.0.0 yactive.logger.baofeng.com
+0.0.0.0 yclick.logger.baofeng.com
+0.0.0.0 ylclick.logger.baofeng.com
+0.0.0.0 ypv.logger.baofeng.com
+0.0.0.0 ck.houyi.baofeng.net
+0.0.0.0 config.baofeng.net
+0.0.0.0 d3f.houyi.baofeng.net
+0.0.0.0 hintslist.baofeng.net
+0.0.0.0 loading.baofeng5.baofeng.net
+0.0.0.0 log.houyi.baofeng.net
+0.0.0.0 pop.baofeng.net
+0.0.0.0 nclog.mars.baofeng.net
+0.0.0.0 onlinetips.baofeng5.baofeng.net
+0.0.0.0 wl.houyi.baofeng.net
+0.0.0.0 xs.houyi.baofeng.net
+0.0.0.0 mlt01.com
 0.0.0.0 boxlist.baofeng.net
 0.0.0.0 clicklog.moviebox.baofeng.net
 0.0.0.0 diag.baofeng.net
@@ -227,6 +255,7 @@
 0.0.0.0 ads.qianqian.com
 0.0.0.0 ttads.ttplayer.com
 0.0.0.0 ttmsg.qianqian.com
+0.0.0.0 ttpack.qianqian.com
 #ø·Œ““Ù¿÷
 0.0.0.0 g.kuwo.cn
 0.0.0.0 wa.kuwo.cn
