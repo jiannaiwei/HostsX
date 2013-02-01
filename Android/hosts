@@ -1,5 +1,5 @@
 
-;version=14:09:59.76 2013/02/01 周五
+;version=18:03:35.02 2013/02/01 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3227,51 +3227,39 @@ $      下载最新版本的 HostsX。
 127.0.0.1 action.logger.baofeng.com
 127.0.0.1 addl.logger.baofeng.com
 127.0.0.1 baofeng.union.tudou.com
+127.0.0.1 clicklog.moviebox.baofeng.com
 127.0.0.1 dl.baofeng.com
 127.0.0.1 errorcode.logger.baofeng.com
 127.0.0.1 feedback.baofeng.com
 127.0.0.1 g.baofeng.com
 127.0.0.1 lkucun.houyi.baofeng.com
 127.0.0.1 logger.treexml.baofeng.com
+127.0.0.1 midinfo.baofeng.com
 127.0.0.1 p2pmid.baofeng.com
+127.0.0.1 softassistant.baofeng.com
 127.0.0.1 tree.logger.baofeng.com
 127.0.0.1 tuijian.bd.baofeng.com
+127.0.0.1 videodown.baofeng.com
+127.0.0.1 videoinfo.baofeng.com
+127.0.0.1 vvlog.moviebox.baofeng.com
 127.0.0.1 yactive.logger.baofeng.com
 127.0.0.1 yclick.logger.baofeng.com
 127.0.0.1 ylclick.logger.baofeng.com
 127.0.0.1 ypv.logger.baofeng.com
+127.0.0.1 boxlist.baofeng.net
 127.0.0.1 ck.houyi.baofeng.net
 127.0.0.1 config.baofeng.net
 127.0.0.1 d3f.houyi.baofeng.net
 127.0.0.1 hintslist.baofeng.net
 127.0.0.1 loading.baofeng5.baofeng.net
 127.0.0.1 log.houyi.baofeng.net
-127.0.0.1 pop.baofeng.net
 127.0.0.1 nclog.mars.baofeng.net
 127.0.0.1 onlinetips.baofeng5.baofeng.net
+127.0.0.1 pop.baofeng.net
+127.0.0.1 pvlog.moviebox.baofeng.net
 127.0.0.1 wl.houyi.baofeng.net
 127.0.0.1 xs.houyi.baofeng.net
 127.0.0.1 mlt01.com
-127.0.0.1 boxlist.baofeng.net
-127.0.0.1 clicklog.moviebox.baofeng.net
-127.0.0.1 diag.baofeng.net
-127.0.0.1 downlist.baofeng.net
-127.0.0.1 nclog.p2p.baofeng.net
-127.0.0.1 listlog.baofeng.net
-127.0.0.1 p2plist.baofeng.net
-127.0.0.1 pvlog.moviebox.baofeng.net
-127.0.0.1 userlog.baofeng.net
-127.0.0.1 baofeng.adsame.com
-127.0.0.1 clicklog.moviebox.baofeng.com
-127.0.0.1 config5.update.baofeng.com
-127.0.0.1 diag.baofeng.com
-127.0.0.1 doppler.logger.baofeng.com
-127.0.0.1 realplugin.baofeng.com
-127.0.0.1 softassistant.baofeng.com
-127.0.0.1 update5.logger.baofeng.com
-127.0.0.1 videodown.baofeng.com
-127.0.0.1 vvlog.moviebox.baofeng.com
-127.0.0.1 wzinfo.baofeng.com
 #Funshion
 127.0.0.1 vas.funshion.com
 127.0.0.1 game.funshion.com

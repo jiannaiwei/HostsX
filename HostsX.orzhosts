@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=14:09:59.76 2013/02/01 周五
+;version=18:03:35.02 2013/02/01 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3797,51 +3797,39 @@ $      下载最新版本的 HostsX。
 0.0.0.0 action.logger.baofeng.com
 0.0.0.0 addl.logger.baofeng.com
 0.0.0.0 baofeng.union.tudou.com
+0.0.0.0 clicklog.moviebox.baofeng.com
 0.0.0.0 dl.baofeng.com
 0.0.0.0 errorcode.logger.baofeng.com
 0.0.0.0 feedback.baofeng.com
 0.0.0.0 g.baofeng.com
 0.0.0.0 lkucun.houyi.baofeng.com
 0.0.0.0 logger.treexml.baofeng.com
+0.0.0.0 midinfo.baofeng.com
 0.0.0.0 p2pmid.baofeng.com
+0.0.0.0 softassistant.baofeng.com
 0.0.0.0 tree.logger.baofeng.com
 0.0.0.0 tuijian.bd.baofeng.com
+0.0.0.0 videodown.baofeng.com
+0.0.0.0 videoinfo.baofeng.com
+0.0.0.0 vvlog.moviebox.baofeng.com
 0.0.0.0 yactive.logger.baofeng.com
 0.0.0.0 yclick.logger.baofeng.com
 0.0.0.0 ylclick.logger.baofeng.com
 0.0.0.0 ypv.logger.baofeng.com
+0.0.0.0 boxlist.baofeng.net
 0.0.0.0 ck.houyi.baofeng.net
 0.0.0.0 config.baofeng.net
 0.0.0.0 d3f.houyi.baofeng.net
 0.0.0.0 hintslist.baofeng.net
 0.0.0.0 loading.baofeng5.baofeng.net
 0.0.0.0 log.houyi.baofeng.net
-0.0.0.0 pop.baofeng.net
 0.0.0.0 nclog.mars.baofeng.net
 0.0.0.0 onlinetips.baofeng5.baofeng.net
+0.0.0.0 pop.baofeng.net
+0.0.0.0 pvlog.moviebox.baofeng.net
 0.0.0.0 wl.houyi.baofeng.net
 0.0.0.0 xs.houyi.baofeng.net
 0.0.0.0 mlt01.com
-0.0.0.0 boxlist.baofeng.net
-0.0.0.0 clicklog.moviebox.baofeng.net
-0.0.0.0 diag.baofeng.net
-0.0.0.0 downlist.baofeng.net
-0.0.0.0 nclog.p2p.baofeng.net
-0.0.0.0 listlog.baofeng.net
-0.0.0.0 p2plist.baofeng.net
-0.0.0.0 pvlog.moviebox.baofeng.net
-0.0.0.0 userlog.baofeng.net
-0.0.0.0 baofeng.adsame.com
-0.0.0.0 clicklog.moviebox.baofeng.com
-0.0.0.0 config5.update.baofeng.com
-0.0.0.0 diag.baofeng.com
-0.0.0.0 doppler.logger.baofeng.com
-0.0.0.0 realplugin.baofeng.com
-0.0.0.0 softassistant.baofeng.com
-0.0.0.0 update5.logger.baofeng.com
-0.0.0.0 videodown.baofeng.com
-0.0.0.0 vvlog.moviebox.baofeng.com
-0.0.0.0 wzinfo.baofeng.com
 #Funshion
 0.0.0.0 vas.funshion.com
 0.0.0.0 game.funshion.com

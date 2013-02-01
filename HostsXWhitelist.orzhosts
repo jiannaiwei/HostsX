@@ -1,4 +1,4 @@
-;version=21:31 2013/1/28
+;version=18:02 2013/2/1
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -11,6 +11,11 @@ $DELETE
 
 #导致安卓CNTV无法正常播放。
 analytics.doplive.com.cn
+$DELETE
+
+#!导致暴风影音右下角推荐内容无法显示，暴风后台会通过此域名推送广告，不建议用户删除。
+boxlist.baofeng.net
+hintslist.baofeng.net
 $DELETE
 
 #导致PcOnline无法正常下载。
