@@ -324,15 +324,13 @@
 0.0.0.0 u.sl.iciba.com
 #QQ¹Ü¼Ò
 0.0.0.0 s.pcmgr.qq.com
-#QQCEO
+#QQÍµ·Ë
 0.0.0.0 ad.qqceo.net
 0.0.0.0 toufei.qqceo.net
 0.0.0.0 toufei2.qqceo.net
 0.0.0.0 nl.tg.laolinow.com
-#QQBM
-0.0.0.0 qqbm.zhuiying.net
-0.0.0.0 qqbmad.mycode8.com
-0.0.0.0 update2.zhuiying.net
+#QQ³¬ÊÐ
+0.0.0.0 update.imqzone.com
 #QQvoice
 0.0.0.0 union.qqvoice.com
 0.0.0.0 union.uucall.hk

@@ -246,8 +246,11 @@
 0.0.0.0 180.xdwan.com
 0.0.0.0 img4.xdwan.com
 0.0.0.0 active.xdwan.com
+0.0.0.0 t.xdwan.com
 0.0.0.0 doubleclick.tv002.com
 0.0.0.0 clientclick.tv002.com
+0.0.0.0 js.ta80.com
+0.0.0.0 show.ta80.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -486,7 +489,6 @@
 0.0.0.0 js.hl58.com
 0.0.0.0 js.laishu.com
 0.0.0.0 js.ssrj.net
-0.0.0.0 js.ta80.com
 0.0.0.0 js.union001.com
 0.0.0.0 js.zfjiu.com
 0.0.0.0 js1.union001.cn
@@ -911,6 +913,8 @@
 0.0.0.0 union.fojafrog.com
 0.0.0.0 pop.ierge.cn
 0.0.0.0 flash.336.com
+0.0.0.0 www.259356.com
+0.0.0.0 www.a135.net
 #∆‰À˚
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

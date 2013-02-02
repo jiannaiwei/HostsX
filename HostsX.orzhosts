@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=18:03:35.02 2013/02/01 周五
+;version=11:02:08.31 2013/02/02 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -4112,15 +4112,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u.sl.iciba.com
 #QQ管家
 0.0.0.0 s.pcmgr.qq.com
-#QQCEO
+#QQ偷匪
 0.0.0.0 ad.qqceo.net
 0.0.0.0 toufei.qqceo.net
 0.0.0.0 toufei2.qqceo.net
 0.0.0.0 nl.tg.laolinow.com
-#QQBM
-0.0.0.0 qqbm.zhuiying.net
-0.0.0.0 qqbmad.mycode8.com
-0.0.0.0 update2.zhuiying.net
+#QQ超市
+0.0.0.0 update.imqzone.com
 #QQvoice
 0.0.0.0 union.qqvoice.com
 0.0.0.0 union.uucall.hk
@@ -9496,6 +9494,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u5.778669.com
 0.0.0.0 u6.778669.com
 0.0.0.0 u034024.778669.com
+0.0.0.0 u193035.778669.com
 0.0.0.0 u291014.778669.com
 0.0.0.0 u493025.778669.com
 0.0.0.0 u592022.778669.com
@@ -13983,8 +13982,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 180.xdwan.com
 0.0.0.0 img4.xdwan.com
 0.0.0.0 active.xdwan.com
+0.0.0.0 t.xdwan.com
 0.0.0.0 doubleclick.tv002.com
 0.0.0.0 clientclick.tv002.com
+0.0.0.0 js.ta80.com
+0.0.0.0 show.ta80.com
 #恶意弹窗
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -14223,7 +14225,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.hl58.com
 0.0.0.0 js.laishu.com
 0.0.0.0 js.ssrj.net
-0.0.0.0 js.ta80.com
 0.0.0.0 js.union001.com
 0.0.0.0 js.zfjiu.com
 0.0.0.0 js1.union001.cn
@@ -14648,6 +14649,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.fojafrog.com
 0.0.0.0 pop.ierge.cn
 0.0.0.0 flash.336.com
+0.0.0.0 www.259356.com
+0.0.0.0 www.a135.net
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

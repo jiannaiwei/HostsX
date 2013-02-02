@@ -1,5 +1,5 @@
 
-;version=18:03:35.02 2013/02/01 周五
+;version=11:02:08.31 2013/02/02 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7569,15 +7569,13 @@ $      下载最新版本的 HostsX。
 127.0.0.1 u.sl.iciba.com
 #QQ管家
 127.0.0.1 s.pcmgr.qq.com
-#QQCEO
+#QQ偷匪
 127.0.0.1 ad.qqceo.net
 127.0.0.1 toufei.qqceo.net
 127.0.0.1 toufei2.qqceo.net
 127.0.0.1 nl.tg.laolinow.com
-#QQBM
-127.0.0.1 qqbm.zhuiying.net
-127.0.0.1 qqbmad.mycode8.com
-127.0.0.1 update2.zhuiying.net
+#QQ超市
+127.0.0.1 update.imqzone.com
 #QQvoice
 127.0.0.1 union.qqvoice.com
 127.0.0.1 union.uucall.hk
@@ -12953,6 +12951,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 u5.778669.com
 127.0.0.1 u6.778669.com
 127.0.0.1 u034024.778669.com
+127.0.0.1 u193035.778669.com
 127.0.0.1 u291014.778669.com
 127.0.0.1 u493025.778669.com
 127.0.0.1 u592022.778669.com
@@ -15354,8 +15353,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 180.xdwan.com
 127.0.0.1 img4.xdwan.com
 127.0.0.1 active.xdwan.com
+127.0.0.1 t.xdwan.com
 127.0.0.1 doubleclick.tv002.com
 127.0.0.1 clientclick.tv002.com
+127.0.0.1 js.ta80.com
+127.0.0.1 show.ta80.com
 #恶意弹窗
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -15594,7 +15596,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 js.hl58.com
 127.0.0.1 js.laishu.com
 127.0.0.1 js.ssrj.net
-127.0.0.1 js.ta80.com
 127.0.0.1 js.union001.com
 127.0.0.1 js.zfjiu.com
 127.0.0.1 js1.union001.cn
@@ -16019,6 +16020,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 union.fojafrog.com
 127.0.0.1 pop.ierge.cn
 127.0.0.1 flash.336.com
+127.0.0.1 www.259356.com
+127.0.0.1 www.a135.net
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com
