@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.1.7
+set ver=1.0.1.9
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -29,7 +29,7 @@ set qt=QuietUpdate.vbs
 set d=wget -c
 set DaysAgo=7
 rem Hosts文件备份模块，以运行时的小时为单位
-if not exist %etc%\Bakup\ md %etc%\Bakup\ >nul
+if not exist %etc%\Bakup md %etc%\Bakup >nul
 call :unlock
 copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
 rem 删除7天前的备份
@@ -186,7 +186,7 @@ goto :eof
 call :upcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
 copy /y %temp%\HostsX.orzhosts %hosts% >nul 2>nul
-del %etc%\HostsX.orzhosts & copy %temp%\HostsX.orzhosts %etc%\HostsX.orzhosts >nul 2>nul
+del %etc%\HostsX.orzhosts & copy "%temp%\HostsX.orzhosts" %etc% >nul 2>nul
 call :temp&call :dns & msg %username% /time:1 "U+ Hosts data has been Updated！" & Exit
 
 :temp
@@ -230,8 +230,7 @@ set size=200000
 for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
 if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
 if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"HostsTool")(window.close) & ping /n 2 hostsx.googlecode.com >nul||goto dftlocal
-copy /y %temp%\HostsX.orzhosts %hosts% >nul 2>nul
-del %etc%\HostsX.orzhosts & copy %cd%\HostsX.orzhosts %etc%\HostsX.orzhosts >nul 2>nul
+del %etc%\HostsX.orzhosts & copy "%cd%\HostsX.orzhosts" %etc% >nul 2>nul
 call :temp
 goto gui
 
@@ -351,10 +350,9 @@ goto :eof
 
 :Xunlei
 set /a str+=1
-echo 0.0.0.0 %str%.biz5.sandai.net >>%hosts%
 echo 0.0.0.0 %str%.logic.cpm.cm.sandai.net >>%hosts%
 if not %str%==%date:~0,4%%date:~5,2%31 (goto Xunlei)
-echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%
+echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.logic.cpm.cm.sandai.net >>%hosts%
 goto :eof
 
 :AnDroid
