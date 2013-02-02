@@ -13,7 +13,7 @@ If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions" >nul 2>nul
 rem 判断操作系统版本，支持从Win98-Win8
-if exist %ComSpec% (set etc=%windir%\system32\drivers\etc & set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir%\ & set hosts=%windir%\hosts)
+if exist %ComSpec% (set etc=%windir%\system32\drivers\etc &set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir% &set hosts=%windir%\hosts)
 rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
@@ -29,7 +29,7 @@ set qt=QuietUpdate.vbs
 set d=wget -c
 set DaysAgo=7
 rem Hosts文件备份模块，以运行时的小时为单位
-if not exist %etc%\Bakup md %etc%\Bakup >nul
+if not exist "%etc%\Bakup" md "%etc%\Bakup" >nul
 call :unlock
 copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
 rem 删除7天前的备份
