@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=11:02:08.31 2013/02/02 周六
+;version=13:56:49.10 2013/02/02 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9341,6 +9341,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
 #1133
+0.0.0.0 u.xcy8.com
+0.0.0.0 img.xcy8.com
 0.0.0.0 img9.3393.com
 0.0.0.0 u.3393.com
 0.0.0.0 cpa.ads8.com
@@ -13973,8 +13975,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 f2.tbjfw.com
 0.0.0.0 tg.01lm.com
 0.0.0.0 tuidl.01lm.com
-0.0.0.0 img.xcy8.com
-0.0.0.0 u.xcy8.com
 0.0.0.0 sd.gogo.com
 0.0.0.0 img.gogo.com
 0.0.0.0 media.17leyi.com

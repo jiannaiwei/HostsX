@@ -1,5 +1,5 @@
 
-;version=11:02:08.31 2013/02/02 周六
+;version=13:56:49.10 2013/02/02 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -12798,6 +12798,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 js.0252.com
 127.0.0.1 jump.0252.com
 #1133
+127.0.0.1 u.xcy8.com
+127.0.0.1 img.xcy8.com
 127.0.0.1 img9.3393.com
 127.0.0.1 u.3393.com
 127.0.0.1 cpa.ads8.com
@@ -15344,8 +15346,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 f2.tbjfw.com
 127.0.0.1 tg.01lm.com
 127.0.0.1 tuidl.01lm.com
-127.0.0.1 img.xcy8.com
-127.0.0.1 u.xcy8.com
 127.0.0.1 sd.gogo.com
 127.0.0.1 img.gogo.com
 127.0.0.1 media.17leyi.com

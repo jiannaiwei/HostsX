@@ -3,6 +3,8 @@
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
 #1133
+0.0.0.0 u.xcy8.com
+0.0.0.0 img.xcy8.com
 0.0.0.0 img9.3393.com
 0.0.0.0 u.3393.com
 0.0.0.0 cpa.ads8.com

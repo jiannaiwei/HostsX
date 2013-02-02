@@ -237,8 +237,6 @@
 0.0.0.0 f2.tbjfw.com
 0.0.0.0 tg.01lm.com
 0.0.0.0 tuidl.01lm.com
-0.0.0.0 img.xcy8.com
-0.0.0.0 u.xcy8.com
 0.0.0.0 sd.gogo.com
 0.0.0.0 img.gogo.com
 0.0.0.0 media.17leyi.com
