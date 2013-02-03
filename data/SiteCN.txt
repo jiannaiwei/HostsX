@@ -182,6 +182,8 @@
 0.0.0.0 c.iqilu.com
 0.0.0.0 g.iqilu.com
 0.0.0.0 gimg.iqilu.com
+#湖南在线
+0.0.0.0 click.voc.com.cn
 #商都网
 0.0.0.0 125.46.61.28
 0.0.0.0 adv.shangdu.com

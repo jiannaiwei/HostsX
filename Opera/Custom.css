@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.2.1
+Version: 5.0.2.3
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 20:13 2013/2/2
+Lastchage: 22:50 2013/2/3
 Description: MayBe a better User CSS Help U.
 */
 
@@ -27,7 +27,7 @@ div[class$="ad_block"],div[class*=" adspace"],div[class*="adclass"],div[class^="
 div[class^="adList"],div[class^="adlist"],div[class^="adindex"],div[class^="ades"],div[class*="-ads "]{
 display: none !important;
 	}
-div[class^="ad-txt"],div[class^="ad-img"],div[class^="ad-b"],div[class^="ad-2"],
+div[class^="ad-txt"],div[class^="ad-img"],div[class^="ad-b"],div[class^="ad-2"],div[class="hottxt"],
 div[class="ad-widget"],div[class^="ad-text"],div[class^="adtext"]{
 display: none !important;
 	}
@@ -58,8 +58,8 @@ display: none !important;
 	}
 
 /* GG */
-div[class="gg"],div[class="ggs"],div[class^="gg_"],div[class*="gg-"],div[class^="topgg"],div[class="ggBanner"],
-div[class="gg01"],div[class^="gg2"],div[class^="gg3"],div[class^="ggAD"],div[class="ggSideBox"]{
+div[class="gg"],div[class="ggs"],div[class^="gg_"],div[class*="gg-"],div[class^="topgg"],div[class="ggBanner"],div[class="gghot"],
+div[class="gg01"],div[class^="gg2"],div[class^="gg3"],div[class^="ggAD"],div[class="ggSideBox"],div[class="sidegg"]{
 display: none !important;
 	}
 div[class^="ggarea"],[class$="header_gg"],div[id="hdggs"],div[id="top_gg"],div[class*="top-gg-"],div[class^="ggblock"],
