@@ -16,3 +16,5 @@ address=/.allyes.cn/0.0.0.0
 address=/.allyes.com/0.0.0.0
 address=/.cpm.cm.sandai.net/0.0.0.0
 address=/.atm.youku.com/0.0.0.0
+address=/.irs01.com/0.0.0.0
+address=/.irs01.net/0.0.0.0
