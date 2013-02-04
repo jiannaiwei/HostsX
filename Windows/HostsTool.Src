@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.2.2
+set ver=1.0.2.3
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -148,6 +148,8 @@ ipconfig -renew >nul 2>nul
 goto :eof
 
 :youku
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 start /min iexplore http://i.youku.com/u/UMzI4MTU2ODQ
 del /f /q %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
@@ -389,9 +391,10 @@ notepad GFeedBack.txt & start iexplore http://code.google.com/p/hostsx/issues/li
 rem 使用Hosts屏蔽有副作用的广告杀无赦！！！
 reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.imrworldwide.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.mediav.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.miaozhen.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\11.mydrivers.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\g.crsky.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\gimg.iqilu.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
