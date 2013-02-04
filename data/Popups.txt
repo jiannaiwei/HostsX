@@ -914,6 +914,10 @@
 0.0.0.0 yingguoweiku.wfx100.com
 0.0.0.0 yls.1919e.com
 0.0.0.0 yourchinalove.com
+0.0.0.0 www.qqhuhu.com
+0.0.0.0 tongji.qq3030.com
+0.0.0.0 lys2009.dxhz26.topnic.net
+0.0.0.0 js.jieyanri.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

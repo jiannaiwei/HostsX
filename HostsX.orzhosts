@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=22:42:10.85 2013/02/03 周日
+;version=13:52:49.02 2013/02/04 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -14654,6 +14654,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 yingguoweiku.wfx100.com
 0.0.0.0 yls.1919e.com
 0.0.0.0 yourchinalove.com
+0.0.0.0 www.qqhuhu.com
+0.0.0.0 tongji.qq3030.com
+0.0.0.0 lys2009.dxhz26.topnic.net
+0.0.0.0 js.jieyanri.com
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

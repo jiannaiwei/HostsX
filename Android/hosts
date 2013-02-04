@@ -1,5 +1,5 @@
 
-;version=22:42:10.85 2013/02/03 周日
+;version=13:52:49.02 2013/02/04 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11998,6 +11998,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 yingguoweiku.wfx100.com
 127.0.0.1 yls.1919e.com
 127.0.0.1 yourchinalove.com
+127.0.0.1 www.qqhuhu.com
+127.0.0.1 tongji.qq3030.com
+127.0.0.1 lys2009.dxhz26.topnic.net
+127.0.0.1 js.jieyanri.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com
