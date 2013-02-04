@@ -386,6 +386,17 @@ echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack
 notepad GFeedBack.txt & start iexplore http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
 
 :iecss
+rem 使用Hosts屏蔽有副作用的广告杀无赦！！！
+reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.imrworldwide.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.mediav.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.miaozhen.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\11.mydrivers.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\g.crsky.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\gimg.iqilu.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\images.sohu.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\pro.letv.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 %d% http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 move /y Custom.css %windir%
 REG ADD "HKCU\Software\Microsoft\Internet Explorer\Styles" /v "Use My Stylesheet" /t reg_dword /d 1 /f >nul 2>nul
