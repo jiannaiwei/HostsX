@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=13:52:49.02 2013/02/04 周一
+;version=22:26:19.95 2013/02/05 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9470,6 +9470,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 f2.6dad.com
 0.0.0.0 f3.6dad.com
 0.0.0.0 f4.6dad.com
+0.0.0.0 e4.6dad.com
 0.0.0.0 6dad.com
 0.0.0.0 web.6dad.com
 #70e
@@ -10352,6 +10353,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 i.tuite8.com
 0.0.0.0 js.tuite8.com
 0.0.0.0 www.tuite8.com
+#Ujian
+0.0.0.0 v1.ujian.cc
+0.0.0.0 api.ujian.cc
+0.0.0.0 t.ujian.cc
+0.0.0.0 img.ujian.cc
 #Union001
 0.0.0.0 union001.com
 0.0.0.0 p.union001.com
@@ -13848,6 +13854,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 dxzjto.r.arpg2.com
 0.0.0.0 eett.r.arpg2.com
 0.0.0.0 fatch.r.arpg2.com
+0.0.0.0 hodlt.r.arpg2.com
 0.0.0.0 keyside.r.arpg2.com
 0.0.0.0 rom.r.arpg2.com
 0.0.0.0 sixc.r.arpg2.com
@@ -14658,6 +14665,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tongji.qq3030.com
 0.0.0.0 lys2009.dxhz26.topnic.net
 0.0.0.0 js.jieyanri.com
+0.0.0.0 images.niux88.com
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

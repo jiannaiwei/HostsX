@@ -108,6 +108,7 @@
 0.0.0.0 dxzjto.r.arpg2.com
 0.0.0.0 eett.r.arpg2.com
 0.0.0.0 fatch.r.arpg2.com
+0.0.0.0 hodlt.r.arpg2.com
 0.0.0.0 keyside.r.arpg2.com
 0.0.0.0 rom.r.arpg2.com
 0.0.0.0 sixc.r.arpg2.com
@@ -918,6 +919,7 @@
 0.0.0.0 tongji.qq3030.com
 0.0.0.0 lys2009.dxhz26.topnic.net
 0.0.0.0 js.jieyanri.com
+0.0.0.0 images.niux88.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

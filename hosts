@@ -1,5 +1,5 @@
 
-;version=13:52:49.02 2013/02/04 周一
+;version=22:26:19.95 2013/02/05 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -12927,6 +12927,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 f2.6dad.com
 127.0.0.1 f3.6dad.com
 127.0.0.1 f4.6dad.com
+127.0.0.1 e4.6dad.com
 127.0.0.1 6dad.com
 127.0.0.1 web.6dad.com
 #70e
@@ -13809,6 +13810,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 i.tuite8.com
 127.0.0.1 js.tuite8.com
 127.0.0.1 www.tuite8.com
+#Ujian
+127.0.0.1 v1.ujian.cc
+127.0.0.1 api.ujian.cc
+127.0.0.1 t.ujian.cc
+127.0.0.1 img.ujian.cc
 #Union001
 127.0.0.1 union001.com
 127.0.0.1 p.union001.com
@@ -15219,6 +15225,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 dxzjto.r.arpg2.com
 127.0.0.1 eett.r.arpg2.com
 127.0.0.1 fatch.r.arpg2.com
+127.0.0.1 hodlt.r.arpg2.com
 127.0.0.1 keyside.r.arpg2.com
 127.0.0.1 rom.r.arpg2.com
 127.0.0.1 sixc.r.arpg2.com
@@ -16029,6 +16036,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 tongji.qq3030.com
 127.0.0.1 lys2009.dxhz26.topnic.net
 127.0.0.1 js.jieyanri.com
+127.0.0.1 images.niux88.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

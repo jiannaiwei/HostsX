@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 10:40 2013/1/30
-// @version 1.0.0.116
+// @lastmodified 22:26 2013/2/5
+// @version 1.0.1.7
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -20,7 +20,7 @@
 				FW_offset:[20,38]															,//偏离版边的垂直和水平方向的数值..(单位:像素)
 				FW_RAS:true																		,//点击悬浮窗上的保存按钮..立即刷新页面;
 		pauseA:true																				,//快速停止自动翻页(当前模式为翻页模式的时候生效.);
-				Pbutton:[1,0,0]																,//需要按住的键.....0: 不按住任何键;1: shift鍵;2: ctrl鍵; 3: alt鍵;(同时按3个键.就填 1 2 3)(一个都不按.就填 0 0 0)
+				Pbutton:[2,0,0]																,//需要按住的键.....0: 不按住任何键;1: shift鍵;2: ctrl鍵; 3: alt鍵;(同时按3个键.就填 1 2 3)(一个都不按.就填 0 0 0)
 				mouseA:true																		,//按住鼠标左键..否则.双击;
 						Atimeout:200															,//按住左键时..延时.多少生效..(单位:毫秒);
 				stop_ipage:true																,//如果在连续翻页过程中暂停.重新启用后.不在继续..连续翻页..
@@ -430,6 +430,14 @@
 			nextLink:'//div[@id="readerFooterPage"]/a[text()="下一页"]',
 			autopager:{
 				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'落秋',
+			url:/^http:\/\/www\.luoqiu\.com\/html\/.+\.html/i,
+			siteExample:'http://www.luoqiu.com/html/18/18505/1385765.html',
+			nextLink:'//div[@id="bgdiv"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//table[@class="border_l_r"]'
 			}
 		},
 		{siteName:'百书楼',
