@@ -906,8 +906,9 @@
 0.0.0.0 media.fastclick.net
 0.0.0.0 secure.fastclick.net
 0.0.0.0 sp.fastclick.net
-0.0.0.0 www.fastclick.com
+0.0.0.0 sync.fastclick.net
 0.0.0.0 www.fastclick.net
+0.0.0.0 www.fastclick.com
 #FoxAudienceNetwork
 0.0.0.0 cache.opt.fimserve.com
 0.0.0.0 debr.opt.fimserve.com
@@ -3487,6 +3488,10 @@
 0.0.0.0 bannerbank.ru
 0.0.0.0 crd1.bannerbank.ru
 0.0.0.0 static.bannerbank.ru
+#Rubiconproject
+0.0.0.0 ads.rubiconproject.com
+0.0.0.0 tap-cdn.rubiconproject.com
+0.0.0.0 optimized-by.rubiconproject.com
 #Serving-sys
 0.0.0.0 activity.serving-sys.com
 0.0.0.0 bs.serving-sys.com
@@ -5192,3 +5197,4 @@
 0.0.0.0 www.quibids.com
 0.0.0.0 www.sq2trk2.com
 0.0.0.0 www.srvbytrking.com
+0.0.0.0 choices.truste.com

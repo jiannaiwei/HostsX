@@ -1,5 +1,5 @@
 
-;version=22:26:19.95 2013/02/05 周二
+;version=22:56:50.27 2013/02/06 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -4482,8 +4482,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 media.fastclick.net
 127.0.0.1 secure.fastclick.net
 127.0.0.1 sp.fastclick.net
-127.0.0.1 www.fastclick.com
+127.0.0.1 sync.fastclick.net
 127.0.0.1 www.fastclick.net
+127.0.0.1 www.fastclick.com
 #FoxAudienceNetwork
 127.0.0.1 cache.opt.fimserve.com
 127.0.0.1 debr.opt.fimserve.com
@@ -7063,6 +7064,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 bannerbank.ru
 127.0.0.1 crd1.bannerbank.ru
 127.0.0.1 static.bannerbank.ru
+#Rubiconproject
+127.0.0.1 ads.rubiconproject.com
+127.0.0.1 tap-cdn.rubiconproject.com
+127.0.0.1 optimized-by.rubiconproject.com
 #Serving-sys
 127.0.0.1 activity.serving-sys.com
 127.0.0.1 bs.serving-sys.com
@@ -8768,6 +8773,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.quibids.com
 127.0.0.1 www.sq2trk2.com
 127.0.0.1 www.srvbytrking.com
+127.0.0.1 choices.truste.com
 @HostsX 国内广告联盟
 #0252
 127.0.0.1 js.0252.com
