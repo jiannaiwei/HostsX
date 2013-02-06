@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 22:26 2013/2/5
-// @version 1.0.1.7
+// @lastmodified 10:02 2013/2/6
+// @version 1.0.1.8
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -1038,14 +1038,6 @@
 				replaceE:'//div[@class="Paginator"]',
 			}
 		},
-		{siteName:'deviantart',
-			url:/^http:\/\/browse\.deviantart\.com\//i,
-			siteExample:'http://browse.deviantart.com/?order=24&offset=0',
-			nextLink:'auto;',
-			autopager:{
-				pageElement:'css;#output div.browse2:first-child',
-			}
-		},
 		{siteName:'pixiv 作品',
 			url:/http:\/\/www\.pixiv\.net\/member_illust\.php/i,
 			siteExample:'http://www.pixiv.net/member_illust.php',
@@ -1137,8 +1129,8 @@
 				pageElement:'//img[@id="mangaFile"]',
 			}
 		},
-		{siteName:'99漫画',
-			url:/^http:\/\/(cococomic|99manga|99770|99comic|www.99comic)\.(com|cc)\/.+\.htm/i,
+		{siteName:'99漫画old',
+			url:/^http:\/\/(cococomic|dm.99manga|99manga|99comic|www.99comic|www.hhcomic)\.(com|cc)\/.+\.htm/i,
 			siteExample:'http://99manga.com/page/168/6481.htm?v=3*s=9',
 			nextLink: {
 			        startAfter:'?v=',
@@ -1148,6 +1140,19 @@
 				useiframe:true,
 				maxpage:20,
 				pageElement:'//img[@id="ComicPic"]',
+			}
+		},
+		{siteName:'99漫画new',
+			url:/^http:\/\/(1mh|99mh|mh.99770|www.jmydm)\.(com|cc)\/.+/i,
+			siteExample:'http://99mh.com/comic/8436/117728/?p=1&s=0',
+			nextLink: {
+			        startAfter:'?p=',
+			        inc:1,			
+			},
+			autopager:{
+				useiframe:true,
+				maxpage:20,
+				pageElement:'//div[@id="iBody"]',
 			}
 		},
 		{siteName:'动漫Fans',
