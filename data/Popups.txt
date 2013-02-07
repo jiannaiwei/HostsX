@@ -102,6 +102,7 @@
 0.0.0.0 cybor.r.arpg2.com
 0.0.0.0 tetwo.r.arpg2.com
 0.0.0.0 tsrjtl.r.arpg2.com
+0.0.0.0 tiqiqi2.r.arpg2.com
 0.0.0.0 dam.r.arpg2.com
 0.0.0.0 dots.r.arpg2.com
 0.0.0.0 dx.arpg2.com
@@ -920,6 +921,7 @@
 0.0.0.0 lys2009.dxhz26.topnic.net
 0.0.0.0 js.jieyanri.com
 0.0.0.0 images.niux88.com
+0.0.0.0 js.kk7kk.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

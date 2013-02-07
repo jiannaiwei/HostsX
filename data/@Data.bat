@@ -34,7 +34,13 @@ set files=Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt
 for %%a in (%files%) do (type "%%a">>Android.txt)
 start hosts.vbs
 ping -n 2 127.0.0.1
-move /y hosts "%~dp0..\Android"
 del /f Android.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt
-start explorer "%~dp0..\Android"
-%~dp0..\Android\HostsX_updates.zip
+md "%~dp0..\Android\system\etc"
+copy hosts "%~dp0..\Android\system\etc"
+move /y hosts "%~dp0..\Android"
+echo 7z u HostsX_updates.zip system\etc\hosts >"%~dp0..\Android\7z.bat"
+echo rd /s/q system >>"%~dp0..\Android\7z.bat"
+echo del %%0 >>"%~dp0..\Android\7z.bat"
+cd %~dp0..\Android
+7z.bat
+exit

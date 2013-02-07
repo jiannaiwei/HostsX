@@ -327,7 +327,6 @@
 0.0.0.0 rcm-cn.amazon.cn
 #京东商城
 0.0.0.0 c.fa.360buy.com
-0.0.0.0 click.union.360buy.com
 0.0.0.0 show.union.360buy.com
 0.0.0.0 union.360buy.com
 #当当网

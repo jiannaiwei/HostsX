@@ -353,7 +353,6 @@
 0.0.0.0 re.taobao.com
 0.0.0.0 redirect.simba.taobao.com
 0.0.0.0 s.click.taobao.com
-0.0.0.0 s8.taobao.com
 0.0.0.0 search8.taobao.com
 0.0.0.0 stat.simba.taobao.com
 0.0.0.0 textlink.simba.taobao.com
@@ -686,7 +685,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 update.360safe.com
 0.0.0.0 upload.360safe.com
 0.0.0.0 x.360safe.com
-0.0.0.0 tf.360.cn
 0.0.0.0 agd.p.360.cn
 0.0.0.0 bp.conf.f.360.cn
 0.0.0.0 cdn.apc.360.cn
@@ -706,11 +704,13 @@ $      下载最新版本的 HostsX。
 0.0.0.0 s.360.cn
 0.0.0.0 s.se.360.cn
 0.0.0.0 sampleup.sd.360.cn
+0.0.0.0 shouji.360.cn
 0.0.0.0 st.se.360.cn
 0.0.0.0 stat.apc.360.cn
 0.0.0.0 stat.sd.360.cn
 0.0.0.0 static.360.cn
 0.0.0.0 static.apc.360.cn
+0.0.0.0 tf.360.cn
 0.0.0.0 union.360.cn
 0.0.0.0 up.f.360.cn
 0.0.0.0 zt.360.cn

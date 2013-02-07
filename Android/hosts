@@ -1,5 +1,5 @@
 
-;version=22:56:50.27 2013/02/06 周三
+;version=22:17:17.98 2013/02/07 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -431,7 +431,6 @@ fe80::1%lo0	localhost
 127.0.0.1 re.taobao.com
 127.0.0.1 redirect.simba.taobao.com
 127.0.0.1 s.click.taobao.com
-127.0.0.1 s8.taobao.com
 127.0.0.1 search8.taobao.com
 127.0.0.1 stat.simba.taobao.com
 127.0.0.1 textlink.simba.taobao.com
@@ -764,7 +763,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 update.360safe.com
 127.0.0.1 upload.360safe.com
 127.0.0.1 x.360safe.com
-127.0.0.1 tf.360.cn
 127.0.0.1 agd.p.360.cn
 127.0.0.1 bp.conf.f.360.cn
 127.0.0.1 cdn.apc.360.cn
@@ -784,11 +782,13 @@ $      下载最新版本的 HostsX。
 127.0.0.1 s.360.cn
 127.0.0.1 s.se.360.cn
 127.0.0.1 sampleup.sd.360.cn
+127.0.0.1 shouji.360.cn
 127.0.0.1 st.se.360.cn
 127.0.0.1 stat.apc.360.cn
 127.0.0.1 stat.sd.360.cn
 127.0.0.1 static.360.cn
 127.0.0.1 static.apc.360.cn
+127.0.0.1 tf.360.cn
 127.0.0.1 union.360.cn
 127.0.0.1 up.f.360.cn
 127.0.0.1 zt.360.cn
@@ -1479,6 +1479,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ads.guohead.com
 127.0.0.1 met.guohead.com
 127.0.0.1 mob.guohead.com
+#Hiapk
+127.0.0.1 sc.hiapk.com
+127.0.0.1 cdn.market.hiapk.com
 #Hotmob
 127.0.0.1 ad.hot-mob.com
 127.0.0.1 www.hot-mob.com
@@ -1815,6 +1818,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
 127.0.0.1 push.wapx.cn
+#Webscache
+127.0.0.1 download.webscache.com
+127.0.0.1 image1.webscache.com
 #Whalecloud
 127.0.0.1 feedback.whalecloud.com
 127.0.0.1 sns.whalecloud.com
@@ -1868,6 +1874,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.zestadz.com
 #Zdworks
 127.0.0.1 clock.stat.zdworks.com
+127.0.0.1 clock.stat2.zdworks.com
 127.0.0.1 cal.stat.zdworks.com
 127.0.0.1 cal.stat2.zdworks.com
 127.0.0.1 zpns.zdworks.com
@@ -2009,6 +2016,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.wqmobile.com
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
+127.0.0.1 file.aiplay.com.cn
+127.0.0.1 apitest.baoruan.com
 @HostsX 海外站点广告
 #BNet
 127.0.0.1 bwp.bnet.com
@@ -2597,7 +2606,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 rcm-cn.amazon.cn
 #京东商城
 127.0.0.1 c.fa.360buy.com
-127.0.0.1 click.union.360buy.com
 127.0.0.1 show.union.360buy.com
 127.0.0.1 union.360buy.com
 #当当网
@@ -3275,11 +3283,14 @@ $      下载最新版本的 HostsX。
 127.0.0.1 shop.funshion.com
 #PPStream
 127.0.0.1 areainfo.ppstream.com
+127.0.0.1 listso.m.areainfo.ppstream.com
 127.0.0.1 notice.ppstream.com
 127.0.0.1 stat.ppstream.com
 127.0.0.1 br.pps.tv
 127.0.0.1 g.pps.tv
 127.0.0.1 game.pps.tv
+127.0.0.1 stat.game.pps.tv
+127.0.0.1 ipdstat.pps.tv
 127.0.0.1 in.pps.tv
 127.0.0.1 mini.pps.tv
 127.0.0.1 msg.y.pps.tv
@@ -3474,6 +3485,7 @@ $      下载最新版本的 HostsX。
 #酷狗音乐
 127.0.0.1 dl.ddong.com
 127.0.0.1 game.kugou.com
+127.0.0.1 downmobile.kugou.com
 127.0.0.1 games.kugou.com
 127.0.0.1 install.kugou.com
 127.0.0.1 links.kugoo.com
@@ -11198,6 +11210,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cybor.r.arpg2.com
 127.0.0.1 tetwo.r.arpg2.com
 127.0.0.1 tsrjtl.r.arpg2.com
+127.0.0.1 tiqiqi2.r.arpg2.com
 127.0.0.1 dam.r.arpg2.com
 127.0.0.1 dots.r.arpg2.com
 127.0.0.1 dx.arpg2.com
@@ -12016,6 +12029,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 lys2009.dxhz26.topnic.net
 127.0.0.1 js.jieyanri.com
 127.0.0.1 images.niux88.com
+127.0.0.1 js.kk7kk.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

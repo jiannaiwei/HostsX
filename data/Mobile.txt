@@ -203,6 +203,9 @@
 127.0.0.1 ads.guohead.com
 127.0.0.1 met.guohead.com
 127.0.0.1 mob.guohead.com
+#Hiapk
+127.0.0.1 sc.hiapk.com
+127.0.0.1 cdn.market.hiapk.com
 #Hotmob
 127.0.0.1 ad.hot-mob.com
 127.0.0.1 www.hot-mob.com
@@ -539,6 +542,9 @@
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
 127.0.0.1 push.wapx.cn
+#Webscache
+127.0.0.1 download.webscache.com
+127.0.0.1 image1.webscache.com
 #Whalecloud
 127.0.0.1 feedback.whalecloud.com
 127.0.0.1 sns.whalecloud.com
@@ -592,6 +598,7 @@
 127.0.0.1 www.zestadz.com
 #Zdworks
 127.0.0.1 clock.stat.zdworks.com
+127.0.0.1 clock.stat2.zdworks.com
 127.0.0.1 cal.stat.zdworks.com
 127.0.0.1 cal.stat2.zdworks.com
 127.0.0.1 zpns.zdworks.com
@@ -733,3 +740,5 @@
 127.0.0.1 www.wqmobile.com
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
+127.0.0.1 file.aiplay.com.cn
+127.0.0.1 apitest.baoruan.com
