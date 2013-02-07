@@ -184,6 +184,9 @@
 0.0.0.0 cpm.woniu666.com
 0.0.0.0 dy.woniu666.com
 0.0.0.0 pic.woniu666.com
+0.0.0.0 dd.woniu.com
+0.0.0.0 tg.dg.woniu.com
+0.0.0.0 tg.x.woniu.com
 0.0.0.0 irs09.com
 0.0.0.0 static.irs09.com
 0.0.0.0 360.sharele.cn
@@ -253,6 +256,8 @@
 0.0.0.0 show.ta80.com
 0.0.0.0 code.336.com
 0.0.0.0 flash.336.com
+0.0.0.0 cpm.feike5.com
+0.0.0.0 ui.feike5.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -389,7 +394,6 @@
 0.0.0.0 cpm.7555.net
 0.0.0.0 cpm.dayi55.com
 0.0.0.0 cpm.e7wan.com
-0.0.0.0 cpm.feike5.com
 0.0.0.0 cpm.fk5.com
 0.0.0.0 cpm.jiuwan.com
 0.0.0.0 cpm.uoyoo.cn
@@ -668,7 +672,6 @@
 0.0.0.0 tg.886web.com
 0.0.0.0 tg.898wan.com
 0.0.0.0 tg.bigzhu.com
-0.0.0.0 tg.dg.woniu.com
 0.0.0.0 tg.ffuqpfe.com
 0.0.0.0 tg.g.lava.cn
 0.0.0.0 tg.game5.com
@@ -798,7 +801,6 @@
 0.0.0.0 www.adrenwu.com
 0.0.0.0 www.ads.gmodules.com
 0.0.0.0 www.adsue.com
-0.0.0.0 www.adtools.cn
 0.0.0.0 www.aiaigame.com
 0.0.0.0 www.alivv.cn
 0.0.0.0 www.alizhizhu.com
@@ -922,6 +924,7 @@
 0.0.0.0 js.jieyanri.com
 0.0.0.0 images.niux88.com
 0.0.0.0 js.kk7kk.com
+0.0.0.0 www.yungame520.com
 #∆‰À˚
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

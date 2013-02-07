@@ -440,6 +440,22 @@
 				pageElement:'//table[@class="border_l_r"]'
 			}
 		},
+		{siteName:'君子网',
+			url:/^http:\/\/www\.junziwang\.com\/.+\.html/i,
+			siteExample:'http://www.junziwang.com/0/155/25137.html',
+			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'哈罗小说网',
+			url:/^http:\/\/www\.hellodba\.net\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.hellodba.net/files/article/html/7/7133/537129.html',
+			nextLink:'//p[@class="content_pages"]/descendant::a[text()="下一页→ "]',
+			autopager:{
+				pageElement:'//div[@id="novel_style_body"]'
+			}
+		},
 		{siteName:'百书楼',
 			url:/^http:\/\/baishulou\.com\/read\/.+\.html/i,
 			siteExample:'http://baishulou.com/read/10/10647/2536085.html',
@@ -706,7 +722,7 @@
 			}
 		},
 		{siteName:'书海',
-			url:/^http:\/\/www\.shuhai\.com\/read\/.*\.html/i,
+			url:/^http:\/\/www\.shuhai\.com\/read\/.+\.html/i,
 			siteExample:'http://www.shuhai.com/read/4014/371553.html',
 			nextLink:'//div[@class="page_operate font_blue"]/descendant::a[text()="下一章"]',
 			autopager:{
@@ -723,18 +739,27 @@
 			}
 		},
 		{siteName:'天下书盟',
-			url:/^http:\/\/www\.fbook\.net\/book\/.*\.htm/i,
+			url:/^http:\/\/www\.fbook\.net\/book\/.+\.htm/i,
 			siteExample:'http://www.fbook.net/book/35793/2656834.htm',
 			nextLink:'//div[@id="pages"]/descendant::a[text()="下一章"]',
 			autopager:{
 				pageElement:'//div[@id="bookbody"]'
 			}
 		},
-		{siteName:'百晓生中文网',
-			url:/^http:\/\/www\.bxs\.cc\/.+\.html/i,
-			siteExample:'http://www.bxs.cc/book/14/14151/3711953.html',
+		{siteName:'幻剑书盟',
+			url:/^http:\/\/book\.hjsm\.tom\.com\/.+\.html/i,
+			siteExample:'http://book.hjsm.tom.com/115624/c967823.html',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//div[@class="d_contarin"]'
+			}
+		},
+		{siteName:'百晓生/谷粒',
+			url:/^http:\/\/www\.(bxs|guli)\.cc/i,
+			siteExample:'http://www.bxs.cc/26758/7708992.html',
 			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
 			autopager:{
+				enable:true,
 				pageElement:'//div[@id="main"]/h1 | //div[@id="readbox"]/div[@id="content"] | //div[@id="readbox"]/div[@id="papgbutton"]',
                                 HT_insert:['//div[@id="weekhot"]',1],
 			}
@@ -1129,6 +1154,29 @@
 				pageElement:'//img[@id="mangaFile"]',
 			}
 		},
+                {siteName:'看漫画',
+                        url:/^http:\/\/www\.kkkmh\.com\/manhua\/\d+\/\d+\/\d+\.html/i,
+                        siteExample:'http://www.kkkmh.com/manhua/0710/1011/34412.html?p=2',
+                        nextLink: {
+                                startAfter:'?p=',
+                                mFails:[/^http:\/\/www\.kkkmh\.com\/manhua\/\d+\/\d+\/\d+\.html/i,'?p=1'],
+                                inc:1,
+                                isLast:function(doc,win,lhref){
+                                        var select_menu=doc.getElementById('select_menu');
+                                        if(select_menu){
+                                                var s2os=select_menu.options
+                                                var s2osl=s2os.length;
+                                                if(select_menu.selectedIndex==s2osl-1)return true;
+                                        };
+                                },        
+                        },
+                        autopager:{
+                                pageElement:'css;img#pic-show-area',
+                                useiframe:true,
+                                remain:1/3,
+                                //maxpage:66,
+                        }
+                },
 		{siteName:'99漫画old',
 			url:/^http:\/\/(cococomic|dm.99manga|99manga|99comic|www.99comic|www.hhcomic)\.(com|cc)\/.+\.htm/i,
 			siteExample:'http://99manga.com/page/168/6481.htm?v=3*s=9',

@@ -1,5 +1,5 @@
 
-;version=22:17:17.98 2013/02/07 周四
+;version=23:13:40.10 2013/02/07 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -8790,6 +8790,10 @@ $      下载最新版本的 HostsX。
 #0252
 127.0.0.1 js.0252.com
 127.0.0.1 jump.0252.com
+#033
+127.0.0.1 collect.033.com
+127.0.0.1 djs.033.com
+127.0.0.1 ui.033.com
 #1133
 127.0.0.1 u.xcy8.com
 127.0.0.1 img.xcy8.com
@@ -9282,6 +9286,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 tracker.91adv.com
 127.0.0.1 www.91adv.com
 127.0.0.1 www.adsit.cn
+#Adtools
+127.0.0.1 new.adtools.cn
+127.0.0.1 www.adtools.cn
 #AdYun
 127.0.0.1 t.adyun.com
 127.0.0.1 res1.adyun.com
@@ -10355,6 +10362,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 zvs1.cnzz.com
 127.0.0.1 zvs2.cnzz.com
 127.0.0.1 zzdh.cnzz.com
+127.0.0.1 tui.cnzz.net
 #Goingup
 127.0.0.1 counter.goingup.com
 127.0.0.1 www.goingup.com
@@ -11292,6 +11300,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cpm.woniu666.com
 127.0.0.1 dy.woniu666.com
 127.0.0.1 pic.woniu666.com
+127.0.0.1 dd.woniu.com
+127.0.0.1 tg.dg.woniu.com
+127.0.0.1 tg.x.woniu.com
 127.0.0.1 irs09.com
 127.0.0.1 static.irs09.com
 127.0.0.1 360.sharele.cn
@@ -11361,6 +11372,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 show.ta80.com
 127.0.0.1 code.336.com
 127.0.0.1 flash.336.com
+127.0.0.1 cpm.feike5.com
+127.0.0.1 ui.feike5.com
 #恶意弹窗
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -11497,7 +11510,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cpm.7555.net
 127.0.0.1 cpm.dayi55.com
 127.0.0.1 cpm.e7wan.com
-127.0.0.1 cpm.feike5.com
 127.0.0.1 cpm.fk5.com
 127.0.0.1 cpm.jiuwan.com
 127.0.0.1 cpm.uoyoo.cn
@@ -11776,7 +11788,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 tg.886web.com
 127.0.0.1 tg.898wan.com
 127.0.0.1 tg.bigzhu.com
-127.0.0.1 tg.dg.woniu.com
 127.0.0.1 tg.ffuqpfe.com
 127.0.0.1 tg.g.lava.cn
 127.0.0.1 tg.game5.com
@@ -11906,7 +11917,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.adrenwu.com
 127.0.0.1 www.ads.gmodules.com
 127.0.0.1 www.adsue.com
-127.0.0.1 www.adtools.cn
 127.0.0.1 www.aiaigame.com
 127.0.0.1 www.alivv.cn
 127.0.0.1 www.alizhizhu.com
@@ -12030,6 +12040,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 js.jieyanri.com
 127.0.0.1 images.niux88.com
 127.0.0.1 js.kk7kk.com
+127.0.0.1 www.yungame520.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com
