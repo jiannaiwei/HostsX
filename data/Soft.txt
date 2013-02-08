@@ -54,18 +54,22 @@
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
 #PPStream
+0.0.0.0 download.webscache.com
 0.0.0.0 areainfo.ppstream.com
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
+0.0.0.0 listso.m.areainfo.ppstream.com
 0.0.0.0 br.pps.tv
 0.0.0.0 g.pps.tv
 0.0.0.0 game.pps.tv
-0.0.0.0 stat.game.pps.tv
 0.0.0.0 in.pps.tv
+0.0.0.0 ipdstat.pps.tv
 0.0.0.0 mini.pps.tv
 0.0.0.0 msg.y.pps.tv
 0.0.0.0 pl.pps.tv
 0.0.0.0 spider.pps.tv
+0.0.0.0 stat.game.pps.tv
+0.0.0.0 stat.game.pps.tv
 0.0.0.0 stat.y.pps.tv
 0.0.0.0 ugcad.pps.tv
 0.0.0.0 update.111222.cn

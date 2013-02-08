@@ -1,5 +1,5 @@
 
-;version= 9:59:00.89 2013/02/08 周五
+;version=14:03:06.26 2013/02/08 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1818,9 +1818,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
 127.0.0.1 push.wapx.cn
-#Webscache
-127.0.0.1 download.webscache.com
-127.0.0.1 image1.webscache.com
 #Whalecloud
 127.0.0.1 feedback.whalecloud.com
 127.0.0.1 sns.whalecloud.com
@@ -3282,18 +3279,22 @@ $      下载最新版本的 HostsX。
 127.0.0.1 partner.funshion.com
 127.0.0.1 shop.funshion.com
 #PPStream
+127.0.0.1 download.webscache.com
 127.0.0.1 areainfo.ppstream.com
 127.0.0.1 notice.ppstream.com
 127.0.0.1 stat.ppstream.com
+127.0.0.1 listso.m.areainfo.ppstream.com
 127.0.0.1 br.pps.tv
 127.0.0.1 g.pps.tv
 127.0.0.1 game.pps.tv
-127.0.0.1 stat.game.pps.tv
 127.0.0.1 in.pps.tv
+127.0.0.1 ipdstat.pps.tv
 127.0.0.1 mini.pps.tv
 127.0.0.1 msg.y.pps.tv
 127.0.0.1 pl.pps.tv
 127.0.0.1 spider.pps.tv
+127.0.0.1 stat.game.pps.tv
+127.0.0.1 stat.game.pps.tv
 127.0.0.1 stat.y.pps.tv
 127.0.0.1 ugcad.pps.tv
 127.0.0.1 update.111222.cn

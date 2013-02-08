@@ -542,9 +542,6 @@
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
 127.0.0.1 push.wapx.cn
-#Webscache
-127.0.0.1 download.webscache.com
-127.0.0.1 image1.webscache.com
 #Whalecloud
 127.0.0.1 feedback.whalecloud.com
 127.0.0.1 sns.whalecloud.com
