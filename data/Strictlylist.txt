@@ -1,0 +1,4 @@
+@HostsX 严格名单
+0.0.0.0 s.click.taobao.com
+0.0.0.0 s8.taobao.com
+0.0.0.0 click.union.360buy.com
