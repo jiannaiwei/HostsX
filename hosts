@@ -1,5 +1,5 @@
 
-;version= 9:54:42.88 2013/02/08 周五
+;version= 9:59:00.89 2013/02/08 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7316,7 +7316,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 g.pps.tv
 127.0.0.1 game.pps.tv
 127.0.0.1 stat.game.pps.tv
-127.0.0.1 ipdstat.pps.tv
 127.0.0.1 in.pps.tv
 127.0.0.1 mini.pps.tv
 127.0.0.1 msg.y.pps.tv

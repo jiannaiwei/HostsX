@@ -61,7 +61,6 @@
 0.0.0.0 g.pps.tv
 0.0.0.0 game.pps.tv
 0.0.0.0 stat.game.pps.tv
-0.0.0.0 ipdstat.pps.tv
 0.0.0.0 in.pps.tv
 0.0.0.0 mini.pps.tv
 0.0.0.0 msg.y.pps.tv

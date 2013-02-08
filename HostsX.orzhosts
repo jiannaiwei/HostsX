@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version= 9:54:42.88 2013/02/08 周五
+;version= 9:59:00.89 2013/02/08 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3859,7 +3859,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 g.pps.tv
 0.0.0.0 game.pps.tv
 0.0.0.0 stat.game.pps.tv
-0.0.0.0 ipdstat.pps.tv
 0.0.0.0 in.pps.tv
 0.0.0.0 mini.pps.tv
 0.0.0.0 msg.y.pps.tv
