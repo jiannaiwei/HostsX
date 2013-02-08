@@ -1,5 +1,5 @@
 
-;version=15:51:58.90 2013/02/08 周五
+;version=22:16:22.94 2013/02/08 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3124,6 +3124,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 liveupdate.inicom.net
 #Nikon Imaging
 127.0.0.1 sams.nikonimaging.com
+#TuneupUtilities
+127.0.0.1 secure.tune-up.com
 #RealNetworks
 127.0.0.1 static.realone.com
 #CuteFTP
