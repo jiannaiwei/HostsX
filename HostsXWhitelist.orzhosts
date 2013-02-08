@@ -1,4 +1,4 @@
-;version=18:02 2013/2/1
+;version=14:06 2013/2/8
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -146,6 +146,7 @@ $DELETE
 
 #导致PPS客户端页面无法完整显示的问题。
 vodguide.pps.tv
+image1.webscache.com
 $DELETE
 
 #导致PPS视频无法完整加载的问题。
