@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=23:13:40.10 2013/02/07 周四
+;version= 9:54:42.88 2013/02/08 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3853,7 +3853,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 shop.funshion.com
 #PPStream
 0.0.0.0 areainfo.ppstream.com
-0.0.0.0 listso.m.areainfo.ppstream.com
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
 0.0.0.0 br.pps.tv

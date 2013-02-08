@@ -1,5 +1,5 @@
 
-;version=23:13:40.10 2013/02/07 周四
+;version= 9:54:42.88 2013/02/08 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7310,7 +7310,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 shop.funshion.com
 #PPStream
 127.0.0.1 areainfo.ppstream.com
-127.0.0.1 listso.m.areainfo.ppstream.com
 127.0.0.1 notice.ppstream.com
 127.0.0.1 stat.ppstream.com
 127.0.0.1 br.pps.tv

@@ -55,7 +55,6 @@
 0.0.0.0 shop.funshion.com
 #PPStream
 0.0.0.0 areainfo.ppstream.com
-0.0.0.0 listso.m.areainfo.ppstream.com
 0.0.0.0 notice.ppstream.com
 0.0.0.0 stat.ppstream.com
 0.0.0.0 br.pps.tv
