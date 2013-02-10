@@ -140,7 +140,6 @@ DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 rem del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
-del /f /s /q "%userprofile%\cookies">nul 2>nul
 del /f /s /q "%userprofile%\recent">nul 2>nul
 ipconfig -flushdns >nul 2>nul
 ipconfig -registerdns >nul 2>nul
@@ -508,6 +507,7 @@ call :cleanwps
 call :cleansogou
 call :cleanie
 call :cleanqq
+call :youku
 goto :eof
 
 :cleansys
@@ -525,7 +525,7 @@ del /f /s /q %windir%\*.bak
 del /f /s /q "%systemdrive%\recycled"
 del /f /s /q "%Temp%"
 del /f /q /s /a "%systemroot%\minidump"
-del /f /q /s /a "%userprofile%\Cookies"
+rem del /f /q /s /a "%userprofile%\Cookies"
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
 del /f /s /q "%userprofile%\recent"
 del /f /s /q "%windir%\prefetch"
@@ -554,23 +554,23 @@ goto :eof
 
 :cleanpps
 reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /t REG_EXPAND_SZ /v "PPS Accelerator"  /f
-if exist "%AppData%\PPStream\adsys\" (rd /q /s "%AppData%\PPStream\adsys") else (del /f /s /q "%AppData%\PPStream\adsys")
-@cd.>"%AppData%\PPStream\adsys"
-if exist "%AppData%\PPStream\banner\" (rd /q /s "%AppData%\PPStream\banner") else (del /f /s /q "%AppData%\PPStream\banner")
-@cd.>"%AppData%\PPStream\banner"
-if exist "%AppData%\PPStream\Gmad\" (rd /q /s "%AppData%\PPStream\Gmad") else (del /f /s /q "%AppData%\PPStream\Gmad")
-@cd.>"%AppData%\PPStream\Gmad"
-if exist "%AppData%\PPStream\notice\" (rd /q /s "%AppData%\PPStream\notice") else (del /f /s /q "%AppData%\PPStream\notice")
-@cd.>"%AppData%\PPStream\notice"
-if exist "%AppData%\PPStream\TipXmls\" (rd /q /s "%AppData%\PPStream\TipXmls") else (del /f /s /q "%AppData%\PPStream\TipXmls")
-@cd.>"%AppData%\PPStream\TipXmls"
+rd "%AppData%\PPStream\adsys" /s/q >nul 2>nul
+c:> "%AppData%\PPStream\adsys"
+rd "%AppData%\PPStream\banner" /s/q >nul 2>nul
+c:> "%AppData%\PPStream\banner"
+rd "%AppData%\PPStream\Gmad" /s/q >nul 2>nul
+c:> "%AppData%\PPStream\Gmad"
+rd "%AppData%\PPStream\notice" /s/q >nul 2>nul
+c:> "%AppData%\PPStream\notice"
+rd "%AppData%\PPStream\TipXmls" /s/q >nul 2>nul
+c:> "%AppData%\PPStream\TipXmls"
 goto :eof
 
 :cleanpptv
-if exist "%Application Data%\PPLive\PPTV\Cache\pluginad\" (rd /q /s "%Application Data%\PPLive\PPTV\Cache\pluginad") else (del /f /s /q "%Application Data%\PPLive\PPTV\Cache\pluginad")
-@cd.>"%Application Data%\PPLive\PPTV\Cache\pluginad"
-if exist "%ProgramData%\PPLive\PPTV\Cache\pluginad\" (rd /q /s "%ProgramData%\PPLive\PPTV\Cache\pluginad") else (del /f /s /q "%ProgramData%\PPLive\PPTV\Cache\pluginad")
-@cd.>"%ProgramData%\PPLive\PPTV\Cache\pluginad"
+rd "%AppData%\PPLive\PPTV\Cache\pluginad" /s/q >nul 2>nul
+c:> "%AppData%\PPLive\PPTV\Cache\pluginad"
+rd "%ProgramData%\PPLive\PPTV\Cache\pluginad" /s/q >nul 2>nul
+c:> "%ProgramData%\PPLive\PPTV\Cache\pluginad"
 goto :eof
 
 :cleanvagaa
@@ -581,6 +581,8 @@ goto :eof
 :cleanmschk
 %k% WgaTray.exe
 %k% wgalogon.dll
+rd "%AllUsersProfile%\Application Data\Windows Genuine Advantage" /s/q
+c:> "%AllUsersProfile%\Application Data\Windows Genuine Advantage"
 DEL /F /Q /A -R -H -S -A %SystemRoot%\system32\LegitCheckControl.dll
 DEL /F /Q /A -R -H -S -A %SystemRoot%\System32\WgaLogon.dll
 DEL /F /Q /A -R -H -S -A %SystemRoot%\System32\WgaTray.exe
@@ -597,14 +599,16 @@ net stop "XLDoctor Service"
 sc stop XLServicePlatform
 sc delete "XLDoctor Service"
 sc delete XLServicePlatform
-DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat" >nul
-DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat" >nul
+DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat"
+DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat"
 Md "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat"
 Md "%AllUsersProfile%\Application Data\Thunder Network\emule_upload_list.dat"
 Md "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat"
-attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat" >nul
-attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\emule_upload_list.dat" >nul
-attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat" >nul
+attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat"
+attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\emule_upload_list.dat"
+attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat"
+DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat"
+DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat"
 goto :eof
 
 :cleanuus
@@ -624,7 +628,7 @@ goto :eof
 
 :cleansogou
 echo 清除SOGOU搜狗的IE加载项so.dll
-regsvr32 /u /s so.dll >nul 2>nul
+regsvr32 /u /s %windir%\system32\so.dll >nul 2>nul
 del /f %windir%\system32\so.dll >nul 2>nul
 reg delete HKCR\NetCafeHlp.AddrHelper /f >nul 2>nul
 reg delete HKCR\NetCafeHlp.AddrHelper.1 /f >nul 2>nul
@@ -646,13 +650,19 @@ msg %username% /time:2 "请先关闭QQ、TM!" & pause
 %k% qq.exe
 %k% tm.exe
 %k% TXOPShow.exe
-cd "%AppData%\Tencent\QQ\Misc"
-for /d %%i in (com.tencent.advertisement*) do rd "%%i" /s /q
+rd "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement" /s/q
+c:> "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement"
 del "%AppData%\Tencent\Users\misc.db" /s /q
 echo 屏蔽QQ自动生成的不必要文件
 rd "%APPDATA%\Tencent\IM" /s/q
 c:> "%APPDATA%\Tencent\IM"
 echo 屏蔽QQ自动升级文件
+rd "%APPDATA%\Tencent\QQ\SafeBase" /s/q
+c:> "%APPDATA%\Tencent\QQ\SafeBase"
+rd "%APPDATA%\Tencent\QQDoctor" /s/q
+c:> "%APPDATA%\Tencent\QQDoctor"
+rd "%AllUsersProfile%\Application Data\Tencent\QQPCMgr" /s/q
+c:> "%AllUsersProfile%\Application Data\Tencent\QQPCMgr"
 rd "%APPDATA%\Tencent\QQ\AuTemp" /s/q
 c:> "%APPDATA%\Tencent\QQ\AuTemp"
 echo 屏蔽QQ群页面
