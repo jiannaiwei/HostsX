@@ -21,6 +21,8 @@ rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn" /s/q 
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q >nul 2>nul
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.letvcdn.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.letvcdn.com"
 rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q >nul 2>nul
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
 rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com" /s/q >nul 2>nul
