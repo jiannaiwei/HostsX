@@ -33,6 +33,7 @@
 0.0.0.0 g.mop.com
 0.0.0.0 gg.mop.com
 0.0.0.0 imgpub.mop.com
+0.0.0.0 pub.mop.com
 0.0.0.0 in.dg.mop.com
 0.0.0.0 in.h.mop.com
 0.0.0.0 in.l.mop.com

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=11:25:29.29 2013/02/10 周日
+;version=11:53:54.96 2013/02/10 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2879,6 +2879,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 g.mop.com
 0.0.0.0 gg.mop.com
 0.0.0.0 imgpub.mop.com
+0.0.0.0 pub.mop.com
 0.0.0.0 in.dg.mop.com
 0.0.0.0 in.h.mop.com
 0.0.0.0 in.l.mop.com
