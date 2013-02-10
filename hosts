@@ -1,5 +1,5 @@
 
-;version=22:16:22.94 2013/02/08 周五
+;version=11:25:29.29 2013/02/10 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -5626,15 +5626,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 img.ads3.mocean.mobi
 127.0.0.1 img.ads4.mocean.mobi
 #Mobclix
-127.0.0.1 au.umeng.co
-127.0.0.1 au.umeng.com
-127.0.0.1 alog.umeng.co
-127.0.0.1 alog.umeng.com
-127.0.0.1 oc.umeng.co
-127.0.0.1 oc.umeng.com
-127.0.0.1 www.umeng.co
-127.0.0.1 www.umeng.com
-127.0.0.1 ex.umengcloud.com
 127.0.0.1 a.mobclix.com
 127.0.0.1 ads.mobclix.com
 127.0.0.1 data.mobclix.com
@@ -5808,6 +5799,16 @@ $      下载最新版本的 HostsX。
 127.0.0.1 down2.ucweb.com
 127.0.0.1 wap.tj.ucweb.com
 127.0.0.1 wap.ycwb.com
+#Umeng
+127.0.0.1 au.umeng.co
+127.0.0.1 au.umeng.com
+127.0.0.1 alog.umeng.co
+127.0.0.1 alog.umeng.com
+127.0.0.1 oc.umeng.co
+127.0.0.1 oc.umeng.com
+127.0.0.1 www.umeng.co
+127.0.0.1 www.umeng.com
+127.0.0.1 ex.umengcloud.com
 #Uyunad
 127.0.0.1 i.uyunad.com
 127.0.0.1 www.uyunad.com
