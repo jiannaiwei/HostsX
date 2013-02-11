@@ -1,8 +1,9 @@
 #HostsX
+addn-hosts=/tmp/HostsX.orzhosts
 address=/.phobos.apple.com/202.175.5.114
 address=/.operachina.com/59.151.106.253
 address=/.farm3.staticflickr.com/76.13.18.78
-address=/google.com/appspot.com/youtube.com/8.8.8.8
+address=/google.com/blogspot.com/appspot.com/youtube.com/8.8.8.8
 server=/mtalk.google.com/talk.google.com/reader.googleusercontent.com/8.8.4.4
 server=/android.clients.google.com/114.114.114.114
 server=/facebook.com/fbcdn.net/8.8.8.8
@@ -11,8 +12,9 @@ server=/twitter.com/ytimg.com/8.8.8.8
 server=/imageshack.us/nownews.com/8.8.8.8
 address=/googleadservices.com/googlesyndication.com/googleadservices.com/127.0.0.1
 address=/admob.com/doubleclick.net/127.0.0.1
-address=/cpro.baidu.com/hm.baidu.com/127.0.0.1
+address=/cpro.baidu.com/hm.baidu.com/cpro.baidustatic.com/127.0.0.1
 address=/alimama.cn/alimama.com/127.0.0.1
 address=/allyes.cn/allyes.com/127.0.0.1
 address=/cpm.cm.sandai.net/atm.youku.com/127.0.0.1
-address=/irs01.com/irs01.net/127.0.0.1
+address=/irs01.com/irs01.net/bloggerads.net/127.0.0.1
+address=/bc.ifeng.com/sc.ifeng.com/sta.ifeng.com/stadig.ifeng.com/127.0.0.1

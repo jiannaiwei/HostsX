@@ -925,6 +925,8 @@
 0.0.0.0 images.niux88.com
 0.0.0.0 js.kk7kk.com
 0.0.0.0 www.yungame520.com
+0.0.0.0 p.144gg.com
+0.0.0.0 p.ggmm777.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com
