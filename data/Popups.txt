@@ -258,6 +258,10 @@
 0.0.0.0 flash.336.com
 0.0.0.0 cpm.feike5.com
 0.0.0.0 ui.feike5.com
+0.0.0.0 cpm.ggyad.com
+0.0.0.0 cpp.ggyad.com
+0.0.0.0 c.jmsyzj.com
+0.0.0.0 x4.jmsyzj.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -399,7 +403,6 @@
 0.0.0.0 cpm.uoyoo.cn
 0.0.0.0 cpm.uutu.com.cn
 0.0.0.0 cpm.zzsf.com
-0.0.0.0 cpp.ggyad.com
 0.0.0.0 cps.freedom-game.com
 0.0.0.0 cps.wsqsgo.com
 0.0.0.0 cpv.ugooo.cc
@@ -927,6 +930,11 @@
 0.0.0.0 www.yungame520.com
 0.0.0.0 p.144gg.com
 0.0.0.0 p.ggmm777.com
+0.0.0.0 code.2800v.net
+0.0.0.0 code.ukad.com
+0.0.0.0 img.09dy.com
+0.0.0.0 static.duoshuo.com
+0.0.0.0 url7.me
 #∆‰À˚
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

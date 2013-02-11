@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=17:41:17.25 2013/02/11 周一
+;version=19:08:00.91 2013/02/11 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -910,6 +910,9 @@ fe80::1%lo0	localhost
 0.0.0.0 mobwin.android.com
 0.0.0.0 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
+0.0.0.0 api.share.baidu.com
+0.0.0.0 bdimg.share.baidu.com
+0.0.0.0 like.baidu.com
 0.0.0.0 a.baidu.com
 0.0.0.0 adm.baidu.com
 0.0.0.0 baidutv.baidu.com
@@ -11147,6 +11150,7 @@ $      下载最新版本的 HostsX。
 
 @HostsX 可疑病毒拦截
 #钓鱼诈骗
+76.162.33.234 www.baidu.com.kvoc.in
 76.162.33.234 www.zsectv.com
 76.162.33.234 yrsw.dzxxmh.com
 76.162.33.234 www.7wek.com
@@ -11569,6 +11573,8 @@ $      下载最新版本的 HostsX。
 76.162.33.234 www.66game.cn
 76.162.33.234 www.114wangzhan.com
 #病毒下载
+0.0.0.0 xiazai.vstartdown.com
+0.0.0.0 vip.rrada.org
 0.0.0.0 dl.soucool123.com
 0.0.0.0 www.tt669.com
 0.0.0.0 tt669.com
@@ -14032,6 +14038,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 flash.336.com
 0.0.0.0 cpm.feike5.com
 0.0.0.0 ui.feike5.com
+0.0.0.0 cpm.ggyad.com
+0.0.0.0 cpp.ggyad.com
+0.0.0.0 c.jmsyzj.com
+0.0.0.0 x4.jmsyzj.com
 #恶意弹窗
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -14173,7 +14183,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cpm.uoyoo.cn
 0.0.0.0 cpm.uutu.com.cn
 0.0.0.0 cpm.zzsf.com
-0.0.0.0 cpp.ggyad.com
 0.0.0.0 cps.freedom-game.com
 0.0.0.0 cps.wsqsgo.com
 0.0.0.0 cpv.ugooo.cc
@@ -14701,6 +14710,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.yungame520.com
 0.0.0.0 p.144gg.com
 0.0.0.0 p.ggmm777.com
+0.0.0.0 code.2800v.net
+0.0.0.0 code.ukad.com
+0.0.0.0 img.09dy.com
+0.0.0.0 static.duoshuo.com
+0.0.0.0 url7.me
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

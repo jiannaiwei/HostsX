@@ -1,5 +1,6 @@
 @HostsX ø…“…≤°∂æ¿πΩÿ
 #µˆ”„’©∆≠
+76.162.33.234 www.baidu.com.kvoc.in
 76.162.33.234 www.zsectv.com
 76.162.33.234 yrsw.dzxxmh.com
 76.162.33.234 www.7wek.com
@@ -422,6 +423,8 @@
 76.162.33.234 www.66game.cn
 76.162.33.234 www.114wangzhan.com
 #≤°∂æœ¬‘ÿ
+0.0.0.0 xiazai.vstartdown.com
+0.0.0.0 vip.rrada.org
 0.0.0.0 dl.soucool123.com
 0.0.0.0 www.tt669.com
 0.0.0.0 tt669.com
