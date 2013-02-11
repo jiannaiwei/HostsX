@@ -274,5 +274,5 @@
 
 --------------------------------------------------------------------------------
 Skype国际版下载地址：
-http://download.skype.com/SkypeSetup.msi
+http://download.skype.com/SkypeSetupFull.exe
 nslookup -vc www.facebook.com 8.8.8.8
