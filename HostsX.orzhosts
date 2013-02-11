@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=19:08:00.91 2013/02/11 周一
+;version= 0:25:35.71 2013/02/12 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3023,6 +3023,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 countimages.cnool.net
 #星岛环球网
 0.0.0.0 stnn.adsame.com
+0.0.0.0 stnn.datamaster.com.cn
 #大众网
 0.0.0.0 ad.dzwww.com
 #千龙网
@@ -14715,6 +14716,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 img.09dy.com
 0.0.0.0 static.duoshuo.com
 0.0.0.0 url7.me
+0.0.0.0 avn.innity.com
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

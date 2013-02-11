@@ -174,6 +174,7 @@
 0.0.0.0 countimages.cnool.net
 #ĞÇµº»·ÇòÍø
 0.0.0.0 stnn.adsame.com
+0.0.0.0 stnn.datamaster.com.cn
 #´óÖÚÍø
 0.0.0.0 ad.dzwww.com
 #Ç§ÁúÍø

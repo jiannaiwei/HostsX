@@ -1,5 +1,5 @@
 
-;version=19:08:00.91 2013/02/11 周一
+;version= 0:25:35.71 2013/02/12 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2453,6 +2453,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 countimages.cnool.net
 #星岛环球网
 127.0.0.1 stnn.adsame.com
+127.0.0.1 stnn.datamaster.com.cn
 #大众网
 127.0.0.1 ad.dzwww.com
 #千龙网
@@ -12059,6 +12060,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 img.09dy.com
 127.0.0.1 static.duoshuo.com
 127.0.0.1 url7.me
+127.0.0.1 avn.innity.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

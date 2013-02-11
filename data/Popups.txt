@@ -935,6 +935,7 @@
 0.0.0.0 img.09dy.com
 0.0.0.0 static.duoshuo.com
 0.0.0.0 url7.me
+0.0.0.0 avn.innity.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com
