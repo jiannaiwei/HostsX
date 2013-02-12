@@ -1,4 +1,4 @@
-DNS 转发器 V2.2.4
+DNS 转发器 V2.3
 
 此版本大部分的配置通过配置文件进行 (详见配置文件)，但保留了少数命令行参数。
 
@@ -15,17 +15,12 @@ dnsforwarder.exe [参数]
 
 配置文件不是 XML 格式，用普通的文本编辑器即可。
 
+
 http://micasmica.blogspot.com/2011/08/dns.html
 http://micasmica.blogspot.tw/2011/08/dns.html
 
-使用方法：
- 直接打开 dnsforwarder.exe，如果没有自动退出，最小化就可以了。然后将系统的 DNS 设置为 127.0.0.1。
- 可能还需要重新连一下网。
-
- 在命令提示符中执行 “nslookup www.google.com 127.0.0.1”可以看到效果。
+在命令提示符中执行 “nslookup www.google.com 127.0.0.1”可以看到效果。
  
-ExcludedDomain 追加:
-ExcludedDomain .cn,baidu.com,qq.com,duotegame.com,tencent.com,youku.com,tudou.com,sohu.com,163.com,hao123.com,gtimg.com,qianqian.com,skycn.com,baifubao.com,3366.com,qzone.com,tudouui.com,126.com,tdimg.com,youku.tv,126.net,soso.com,pplive.com,yinyuetai.com,baofeng.com,baofeng.net,fetionpic.com,sogou.com,letv.com,ku6.com,letvimg.com,verycd.com,easymule.com,vcimg.com,xunlei.com,gougou.com,kugou.com,weibo.com,alipay.com,qstatic.com,360buy.com,apple.com,sina.com,iask.com,songtaste.com,verycd.com,vcimg.com,ccb.com,themex.net,pengyou.com,renren.com,sandai.net,gfan.com,anzhi.com,baidupcs.com,yyets.com,idqqimg.com,178.com,115.com,soku.com,mzstatic.com,img-dpreview.com,saurik.com
 #  cn域名
 ExcludedDomain .cn,*cdn*
 #  百度
@@ -49,7 +44,7 @@ ExcludedDomain pplive.com,yinyuetai.com,letv.com,letvimg.com,ku6.com
 #  京东商城
 ExcludedDomain 360buy.com,360buyimg.com,360top.com
 #  人人
-ExcludedDomain renren.com,renren-inc.com
+ExcludedDomain renren.com,renren-inc.com,xnimg.cn
 #  暴风
 ExcludedDomain baofeng.com,baofeng.net
 #  VeryCD
@@ -65,20 +60,22 @@ ExcludedDomain duotegame.com,hexun.com,xinhuanet.com,chinaunix.net,csdn.net,mop.
 #  Domain pointer
 ExcludedDomain in-addr.arpa,ip6.arpa
 
+禁止所有带有ad的域名的查询:
+DisabledDomain *ad*
+DisabledDomain *material*,*tongji*,*allyes*,*analytics*,*ggao*,*counter*,*cpm*
+
 从网络载入Hosts并显示文件内容:
 Hosts http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
 HostsDownloadPath C:\Windows\System32\drivers\etc\hosts
 HostsScript type C:\Windows\System32\drivers\etc # `type' 为 Windows 控制台命令
 
-禁止所有带有ad的域名的查询:
-DisabledDomain *ad*
+AppendHosts 59.151.106.253 *.operachina.com
+AppendHosts 203.69.113.128 *.phobos.apple.com
 
 禁止所有com域名的查询:
 DisabledDomain .com
 
 除谷歌外全部使用UDP查询:
 UDPServer 114.114.114.114 # 您可以指定其他的 UDP 服务器
-
 PrimaryServer UDP
-
 ExcludedDomain *.google.*,googleusercontent.com,googleadservices.com
