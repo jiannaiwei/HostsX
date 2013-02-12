@@ -6,6 +6,7 @@
 #****************************************************************************#
 # Project-Home:                                                              #
 # http://code.google.com/p/hostsx/                                           #
+# https://github.com/vokins/HostsX                                           #
 #                                                                            #
 # License:                                                                   #
 # Creative Commons Attribution-NonCommercial-ShareAlike License.             #
@@ -16,7 +17,7 @@
 #                                                                            # 
 # Contributors:                                                              #
 # Thanks for all the feedback from users and friends.                        #
-# http://bbs.Winzheng.com                                                    #
+# http://www.yingzheng.com/forum.php                                         #
 # http://www.clxp.net.cn                                                     #
 # http://bbs.crsky.com                                                       #
 # http://bbs.wmzhe.com                                                       #
@@ -57,7 +58,7 @@
 
  - 如果您有任何疑问或者资助意向, 可以使用以下方式与我们联系
  - E-mail: support.hostsx#orztech.com (把#换成at)
- - @我，直接反馈问题 http://fanfou.com/iV.c
+ - @我，直接反馈问题 http://weibo.com/vokins
 
  - 发送错误报告, 请尽量记录以下信息:
    网址信息, 软件版本, 操作系统, 故障描述, 以及故障重现方法等
