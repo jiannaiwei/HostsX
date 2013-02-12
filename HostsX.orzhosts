@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version= 0:25:35.71 2013/02/12 周二
+;version=20:50:37.21 2013/02/12 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -564,7 +564,6 @@ fe80::1%lo0	localhost
 203.208.46.200	dev.chromium.org
 203.208.46.200	developer.android.com
 203.208.46.200	developer.chrome.com
-203.208.46.200	domains.googlesyndication.com
 203.208.46.200	earthengine.googlelabs.com
 203.208.46.200	feeds.feedburner.com
 203.208.46.200	g.co
@@ -577,13 +576,10 @@ fe80::1%lo0	localhost
 203.208.46.163	ngrams.googlelabs.com
 173.194.37.99	panoramio.com
 203.208.46.222	smarthosts.googlecode.com
-203.208.46.222	ssl.google-analytics.com
 173.194.76.128	static.panoramio.com
 203.208.46.200	www.blogger.com
 203.208.46.200	www.chromium.org
 203.208.46.200	www.gmail.com
-203.208.46.200	www.googleadservices.com
-203.208.46.222	www.google-analytics.com
 203.208.46.200	www.googlelabs.com
 203.208.46.222	www.googlesource.com
 173.194.37.99	www.panoramio.com
@@ -2978,6 +2974,8 @@ $      下载最新版本的 HostsX。
 #潇湘书院
 0.0.0.0 images.xxsy.net
 0.0.0.0 xxsy.bohelady.com
+#书路文学网
+0.0.0.0 ad.shulu.net
 #红袖添香
 0.0.0.0 m.union.hongxiu.com
 #小说阅读网
@@ -11574,6 +11572,7 @@ $      下载最新版本的 HostsX。
 76.162.33.234 www.66game.cn
 76.162.33.234 www.114wangzhan.com
 #病毒下载
+0.0.0.0 down.skybk.com
 0.0.0.0 xiazai.vstartdown.com
 0.0.0.0 vip.rrada.org
 0.0.0.0 dl.soucool123.com
@@ -14019,8 +14018,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cpm.234y.com
 0.0.0.0 counter.hitslink.com
 0.0.0.0 7208853.hitslink.com
-0.0.0.0 f1.tbjfw.com
-0.0.0.0 f2.tbjfw.com
 0.0.0.0 tg.01lm.com
 0.0.0.0 tuidl.01lm.com
 0.0.0.0 sd.gogo.com
@@ -14043,6 +14040,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cpp.ggyad.com
 0.0.0.0 c.jmsyzj.com
 0.0.0.0 x4.jmsyzj.com
+0.0.0.0 ab.shiwt.com
+0.0.0.0 f1.tbjfw.com
+0.0.0.0 f2.tbjfw.com
 #恶意弹窗
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -14717,6 +14717,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 static.duoshuo.com
 0.0.0.0 url7.me
 0.0.0.0 avn.innity.com
+0.0.0.0 track.weiyi.com
+0.0.0.0 so.boke81.com
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

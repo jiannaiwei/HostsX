@@ -238,8 +238,6 @@
 0.0.0.0 cpm.234y.com
 0.0.0.0 counter.hitslink.com
 0.0.0.0 7208853.hitslink.com
-0.0.0.0 f1.tbjfw.com
-0.0.0.0 f2.tbjfw.com
 0.0.0.0 tg.01lm.com
 0.0.0.0 tuidl.01lm.com
 0.0.0.0 sd.gogo.com
@@ -262,6 +260,9 @@
 0.0.0.0 cpp.ggyad.com
 0.0.0.0 c.jmsyzj.com
 0.0.0.0 x4.jmsyzj.com
+0.0.0.0 ab.shiwt.com
+0.0.0.0 f1.tbjfw.com
+0.0.0.0 f2.tbjfw.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -936,6 +937,8 @@
 0.0.0.0 static.duoshuo.com
 0.0.0.0 url7.me
 0.0.0.0 avn.innity.com
+0.0.0.0 track.weiyi.com
+0.0.0.0 so.boke81.com
 #∆‰À˚
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

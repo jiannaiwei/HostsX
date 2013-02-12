@@ -1,5 +1,5 @@
 
-;version= 0:25:35.71 2013/02/12 周二
+;version=20:50:37.21 2013/02/12 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2408,6 +2408,8 @@ $      下载最新版本的 HostsX。
 #潇湘书院
 127.0.0.1 images.xxsy.net
 127.0.0.1 xxsy.bohelady.com
+#书路文学网
+127.0.0.1 ad.shulu.net
 #红袖添香
 127.0.0.1 m.union.hongxiu.com
 #小说阅读网
@@ -11004,6 +11006,7 @@ $      下载最新版本的 HostsX。
 76.162.33.234 www.66game.cn
 76.162.33.234 www.114wangzhan.com
 #病毒下载
+127.0.0.1 down.skybk.com
 127.0.0.1 xiazai.vstartdown.com
 127.0.0.1 vip.rrada.org
 127.0.0.1 dl.soucool123.com
@@ -11363,8 +11366,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cpm.234y.com
 127.0.0.1 counter.hitslink.com
 127.0.0.1 7208853.hitslink.com
-127.0.0.1 f1.tbjfw.com
-127.0.0.1 f2.tbjfw.com
 127.0.0.1 tg.01lm.com
 127.0.0.1 tuidl.01lm.com
 127.0.0.1 sd.gogo.com
@@ -11387,6 +11388,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cpp.ggyad.com
 127.0.0.1 c.jmsyzj.com
 127.0.0.1 x4.jmsyzj.com
+127.0.0.1 ab.shiwt.com
+127.0.0.1 f1.tbjfw.com
+127.0.0.1 f2.tbjfw.com
 #恶意弹窗
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -12061,6 +12065,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 static.duoshuo.com
 127.0.0.1 url7.me
 127.0.0.1 avn.innity.com
+127.0.0.1 track.weiyi.com
+127.0.0.1 so.boke81.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

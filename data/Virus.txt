@@ -423,6 +423,7 @@
 76.162.33.234 www.66game.cn
 76.162.33.234 www.114wangzhan.com
 #²¡¶¾ÏÂÔØ
+0.0.0.0 down.skybk.com
 0.0.0.0 xiazai.vstartdown.com
 0.0.0.0 vip.rrada.org
 0.0.0.0 dl.soucool123.com

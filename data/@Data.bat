@@ -16,6 +16,9 @@ sed -i "1,7d" 1.txt
 sed -i "/Facebook End/,$d" 1.txt
 sed -i "/^$/d" 1.txt
 sed -i "/^#/d" 1.txt
+sed -i "/googlesyndication.com/d" 1.txt
+sed -i "/google-analytics.com/d" 1.txt
+sed -i "/googleadservices.com/d" 1.txt
 ping -n 3 127.0.0.1
 sed -i "1i\#Smarthosts-Google" 1.txt
 echo.>Version.txt

@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 0:04 2013/2/8
-// @version 1.0.1.9
+// @lastmodified 12:22 2013/2/12
+// @version 1.0.2.0
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -430,6 +430,38 @@
 			nextLink:'//div[@id="readerFooterPage"]/a[text()="下一页"]',
 			autopager:{
 				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'华夏书库',
+			url:/^http:\/\/www\.hxsk\.net\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.hxsk.net/files/article/html/67/67509/12704488.html',
+			nextLink:'//td[@class="link_14"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//table[@class="border_l_r"]'
+			}
+		},
+		{siteName:'猫扑小说网',
+			url:/^http:\/\/www\.mpxiaoshuo\.com\/html\/.+\.html/i,
+			siteExample:'http://www.mpxiaoshuo.com/html/0/361/86087.html',
+			nextLink:'//dd[@id="footlink"]/a[text()="下一页"]',
+			autopager:{
+				pageElement:'//dd[@id="contents"]'
+			}
+		},
+		{siteName:'书路文学网',
+			url:/^http:\/\/www\.shuluxs\.com\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://www.shuluxs.com/files/article/html/22/22306/8727879.html',
+			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'世纪文学',
+			url:/^http:\/\/read\.2100book\.com\/files\/article\/html\/.+\.html/i,
+			siteExample:'http://read.2100book.com/files/article/html/2252/2252807/10622720.html',
+			nextLink:'//div[@class="cz_bar"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="txt"]'
 			}
 		},
 		{siteName:'落秋',

@@ -28,7 +28,7 @@ div[class^="adList"],div[class^="adlist"],div[class^="adindex"],div[class^="ades
 display: none !important;
 	}
 div[class^="ad-txt"],div[class^="ad-img"],div[class^="ad-b"],div[class^="ad-2"],div[class="hottxt"],
-div[class="ad-widget"],div[class^="ad-text"],div[class^="adtext"],div[class="adera"]{
+div[class="ad-widget"],div[class^="ad-text"],div[class^="adtext"],div[class="adera"],div[class="adhtml"]{
 display: none !important;
 	}
 div[class^="ada"],div[class^="adc"],div[class^="adbox"],div[class$="_adpic"],div[class^="adarea"],
@@ -73,7 +73,7 @@ div[id*="TopAD"],div[id^="TopAd"],div[id^="topAD"],div[id^="topad"],div[id*="top
 display: none !important;
 	}
 div[class^="nav-ad"],div[class^="ndadv"],div[class*="-top-ads"],div[class^="adtop"],div[class*="AdTop-"],div[id^="couplet"],div[id="CoupletDiv"],
-div[class^="navad"],div[id^="navad"],div[id="topmad"],div[id="toplink"],div[id="adTop"],div[id$="head_ad"]{
+div[class^="navad"],div[id^="navad"],div[id="topmad"],div[id="toplink"],div[id="adTop"],div[id^="adtop"],div[id$="head_ad"]{
 display: none !important;
 	}
 div[class="adll"],div[class^="adLeft"],div[id^="LeftAd"],div[id$="eftDiv"],div[id^="LeftBottom"],div[id="leftdiv"],
@@ -225,7 +225,7 @@ div[class^="area960 "],div[style^="width:960px;height:60px;margin:0px "],div[sty
 
 /* 浮动过滤 提示隐藏 */
 div[id^="adfloat"],div[id^="floatAD_"],div[id^="Float"]>div,div[id^="floatdiv"],div[id$="_Float_Div"],div[id="float1"],div[id="float2"],
-div[id="piaofu"],div[class^="adFloat"],div[class^="float-ad-"],embed[name^="couplet"],div[id="QQ_Full"]{
+div[id="piaofu"],div[class^="adFloat"],div[class^="float-ad-"],div[class^="floatdiv"],embed[name^="couplet"],div[id="QQ_Full"]{
 display: none !important;
 	}
 div[id$="FollowPopUp"],div[id="ty_msg_mod"],div[id$="closeBig"],div[class="blogpop"],#bbs_jxtj,#bshareF,#fixedLayertop,.QQbox,

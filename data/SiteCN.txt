@@ -129,6 +129,8 @@
 #潇湘书院
 0.0.0.0 images.xxsy.net
 0.0.0.0 xxsy.bohelady.com
+#书路文学网
+0.0.0.0 ad.shulu.net
 #红袖添香
 0.0.0.0 m.union.hongxiu.com
 #小说阅读网
