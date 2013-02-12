@@ -1,0 +1,2000 @@
+@echo off
+set ver=1.0.2.3
+SetLocal EnableExtensions
+SetLocal EnableDelayedExpansion
+rem 随机变色模块
+set/a xc=%random%%%5+1
+set te=
+for %%i in (c d e f a) do (
+set /a te=!!te!+1!
+if "!xc!"=="!te!" set xc=%%i)
+rem 权限检测模块
+If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
+Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
+Rd "%a%\test_permissions" >nul 2>nul
+rem 判断操作系统版本，支持从Win98-Win8
+if exist %ComSpec% (set etc=%windir%\system32\drivers\etc &set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir% &set hosts=%windir%\hosts)
+rem 确定文件名
+ren %0 HostsTool.bat
+rem 复制运行库
+if not exist %a%\consext.exe copy consext.exe %a% >nul 2>nul
+if not exist %a%\wget.exe copy wget.exe %a% >nul 2>nul
+rem if not exist %a%\curl.exe copy curl.exe %a% >nul 2>nul
+rem 快捷参数设置
+set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
+set str=%date:~0,4%%date:~5,2%00
+set force=0
+set k=taskkill /f /t /im
+set qt=QuietUpdate.vbs
+set d=wget -c
+set DaysAgo=7
+rem Hosts文件备份模块，以运行时的小时为单位
+if not exist "%etc%\Bakup\" md "%etc%\Bakup\" >nul 2>nul
+call :unlock
+copy /y %hosts% %etc%\Bakup\"Hosts_%bak%.txt" >nul 2>nul
+rem 删除7天前的备份
+forfiles /p %etc%\Bakup /s /m *.txt /d -%DaysAgo% /c "cmd /c echo del /f /q /a @file" >nul 2>nul
+rem 启用拖放操作
+copy "%~1" %hosts%  >nul 2>nul & ipconfig -flushdns >nul 2>nul
+if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..." & call :fixhosts
+rem 自动检测升级模块
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
+echo WScript.sleep 50 >>%temp%/chkver.vbs
+echo loop >>%temp%/chkver.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
+cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
+for /f %%i in (%temp%\ver.txt) do set verNew=%%i
+if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
+cls
+
+:gui
+rem 运行前准备工作
+ipconfig -flushdns >nul 2>nul
+del /f /q %tmp%\*.bat %tmp%\*.vbs>nul 2>nul
+del /f /q $ echo new.txt smarthosts.txt hbhosts.txt HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
+rem 参数调用设置
+if '%1'=='/f' goto:fixhosts
+if '%1'=='/q' goto:quietup
+if '%1'=='/d' goto:dftvbs
+if '%1'=='/g' goto:Google
+if '%1'=='/6' goto:ipv6
+if not exist %a%\consext.exe (msg %username% /time:2 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!" & goto dftvbs)
+mode con cols=50 lines=30
+ConsExt /crv 0
+color 0%xc%
+cls
+title U+ Hosts(%ver%)
+rem - 最新版本(%verNew%)
+echo.
+echo  【更多 设备支持】      ‘     【Flush DNS 刷新】   
+echo  HostsData：  【更新/Update Hosts】
+echo.
+echo  【编辑Hosts文件】             【修复 Hosts文件】          
+echo     (Google  RD)                  (IPV6 Data) 
+if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
+echo    【MVPS  Data】                 (Ent  Block)
+echo.
+echo  【系统服务 配置】             【更新 HostsTool】
+echo  Permissions：==================================
+echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
+echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
+echo   ==============================================
+echo  【IE 信任站点 清理】        【垃圾缓存文件清理】   
+echo  【IE  浏览器  修复】        【图标快捷方式修复】
+echo   ==============================================
+echo  【IE CSS样式表设定】        【VBS*后台静默更新】             
+echo  【顽固文件/夹 删除】        【替换为 127.0.0.1】              
+echo  当前目录：%~dp0
+echo.
+echo  【FeedBack问题反馈】        【【￥捐助 U+ ￥】】
+
+:mouse
+ConsExt /event
+set /a xy=%errorlevel%
+if %xy% lss 1001 goto mouse
+set /a X=%xy:~0,-3%
+set /a Y=%xy%-1000*%X%
+if %y% equ 1 if %x% gtr  1 if %x% lss 26 start iexplore http://code.google.com/p/hostsx/ & goto gui
+if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & goto gui
+if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %a%\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
+if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :unlock & notepad %hosts% & goto gui)
+if %y% equ 5 if %x% gtr  26 if %x% lss 50 call :fixhosts & goto gui
+if %y% equ 7 if %x% gtr  1 if %x% lss 26 call :Google & goto gui
+if %y% equ 7 if %x% gtr  26 if %x% lss 50 call :ipv6 & goto gui
+if %y% equ 8 if %x% gtr  1 if %x% lss 50 (
+if /i !force! neq 0 (set force=0) else (set force=1)
+goto gui
+)
+if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :mvps & goto gui
+if %y% equ 9 if %x% gtr  26 if %x% lss 50 call :entdata & goto gui
+if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :ipv6load & goto gui
+if %y% equ 11 if %x% gtr  26 if %x% lss 50 goto updates
+if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts% & msg %username% /time:2 "已设置Hosts文件权限为：只读！"& exit
+if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "Hosts文件已成功解锁！" & goto gui
+if %y% equ 15 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r -h +s %hosts% & echo y| cacls %hosts% /c /t /p everyone:r & msg %username% /time:2 "已设置Hosts文件权限为：NTFS 读取权限！" & goto gui
+if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock & attrib %hosts% +r -h +s & echo y| cacls %hosts% /D everyone & msg %username% /time:2 "已设置Hosts文件权限为：NTFS 拒绝权限！" & goto gui
+if %y% equ 17 if %x% gtr  1 if %x% lss 26 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f & cls & goto gui
+if %y% equ 17 if %x% gtr  26 if %x% lss 50 call :clean & goto gui
+if %y% equ 19 if %x% gtr  1 if %x% lss 26 call :fixie & goto gui
+if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (%d% http://hostsx.googlecode.com/svn/trunk/Windows/g.ico & echo Download a Icon,Please Wait! & call :shortcutfix) else (call :shortcutfix) & goto gui
+if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto iecss
+if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quietvbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
+if %y% equ 23 if %x% gtr  12 if %x% lss 26 goto delit
+if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
+if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 & goto gui
+if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% & goto gui
+if %y% equ 27 if %x% gtr  12 if %x% lss 26 goto feedback
+if %y% equ 27 if %x% gtr  31 if %x% lss 50 call :thanks & goto gui
+goto mouse
+
+:dns
+echo FlushDns...
+call :youku
+%k% iexplore.exe >nul 2>nul
+ipconfig -flushdns >nul 2>nul
+del %SystemRoot%\system32\df.ini >nul 2>nul
+del %SystemRoot%\system32\error.dd >nul 2>nul
+del %SystemRoot%\system32\Macromed\Flash\mms.cfg >nul 2>nul
+DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
+rem del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
+del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
+del /f /s /q "%userprofile%\cookies">nul 2>nul
+del /f /s /q "%userprofile%\recent">nul 2>nul
+ipconfig -flushdns >nul 2>nul
+ipconfig -registerdns >nul 2>nul
+ipconfig -renew >nul 2>nul
+goto :eof
+
+:youku
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+start /min iexplore http://i.youku.com/u/UMzI4MTU2ODQ
+del /f /q %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg >nul 2>nul
+ping 127.0.0.1 -n 3 >nul
+%k% iexplore.exe >nul 2>nul
+ping 127.0.0.1 -n 2 >nul
+for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
+set str=%%i
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
+rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com"
+rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net"
+ipconfig -flushdns >nul 2>nul
+msg %username% /time:2 "视频播放广告已免疫！"
+goto :eof
+
+:quietvbs
+%k% wscript.exe
+>"%qt%" echo do
+>>"%qt%" echo set ws=createobject("wscript.shell")
+>>"%qt%" echo ws.run".\HostsTool.bat /q",vbhide
+>>"%qt%" echo wscript.sleep 7200000
+>>"%qt%" echo loop
+goto :eof
+
+:dftvbs
+call :upcore
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
+copy %temp%\HostsX.orzhosts %hosts% >nul 2>nul
+move /y %temp%\HostsX.orzhosts %etc% >nul 2>nul
+call :temp&call :dns & msg %username% /time:1 "U+ Hosts data has been Updated！" & Exit
+
+:temp
+rem call :BeijingIP
+rem call :SmartHosts
+call :Xunlei
+call :UsrFile
+goto :eof
+
+:SmartHosts
+%d% http://smarthosts.googlecode.com/svn/trunk/hosts -O smarthosts.txt
+copy /a HostsX.orzhosts + smarthosts.txt hbhosts.txt
+copy hbhosts.txt %hosts%
+goto :eof
+
+:UsrFile
+if not exist whitelists.txt echo 0.0.0.0 www.forexample.com >whitelists.txt
+findstr /v /x /g:whitelists.txt %hosts% >new.txt
+copy /b new.txt+myentblock.txt+myhosts.txt hbhosts.txt
+copy hbhosts.txt %hosts%
+goto :eof
+
+:dftlocal
+echo 无法连接服务器！& choice /t 2 /d y /n >nul
+echo 或将使用本地缓存Hosts数据！& choice /t 2 /d y /n >nul
+if not exist %etc%\HostsX.orzhosts (echo 未找到本地缓存Hosts数据! & choice /t 2 /d y /n >nul & exit) else (copy %etc%\HostsX.orzhosts %hosts% & echo 已更换至本地缓存Hosts数据！)
+goto gui
+
+:upcore
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Updates.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Updates.vbs
+echo WScript.sleep 200 >>%temp%/Updates.vbs
+echo loop >>%temp%/Updates.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
+goto :eof
+
+:dftd
+if not exist %a%\wget.exe (echo 需要命令提示符下载工具wget.exe支持 & echo 下载地址：http://users.ugent.be/~bpuype/wget/wget.exe & pause>nul)
+%d% http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+set size=200000
+for %%1 in (HostsX.orzhosts)do set gsize=%%~z1
+if %gsize% gtr %size% (copy HostsX.orzhosts %hosts%)
+if %gsize% lss %size% mshta vbscript:msgbox("Connection Refused by Server!",64,"HostsTool")(window.close) & ping /n 2 hostsx.googlecode.com >nul||goto dftlocal
+move /y HostsX.orzhosts %etc% >nul 2>nul
+call :temp
+goto gui
+
+:quietup
+call :unlock
+call :ipv6load
+call :dftvbs
+attrib +r +a +s %hosts% & Exit
+
+:unlock
+echo y| cacls %hosts% /c /t /p everyone:f >nul 2>nul
+attrib %hosts% -r -h -s >nul 2>nul
+goto :eof
+
+:ipv6
+call :ipv6load
+wget --no-check-certificate --restrict-file-name=windows https://ipv6-hosts.googlecode.com/hg/hosts -O temp.txt
+findstr /v "#" temp.txt >b.txt & del temp.txt
+for /f "tokens=1,2,*" %%i in (b.txt) do (if not defined a%%j set "a%%j=a" &echo %%i %%j %%k>>temp.txt)
+type temp.txt>>%hosts%
+call :dns
+goto :eof
+
+:mvps
+%d% http://www.mvps.org/winhelp2002/hosts.txt
+copy hosts.txt %hosts%
+goto :eof
+
+:mwsl
+%d% http://hostsx.googlecode.com/svn/trunk/3rdParty/mwsl.txt
+copy mwsl.txt %hosts%
+goto :eof
+
+:fixhosts
+call :unlock
+pushd %~dp0
+if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts% & echo ::1             localhost>> %hosts% & echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
+mshta vbscript:msgbox("Hosts文件已恢复至系统初始状态！",64,"U+ Hosts")(window.close)
+notepad %hosts%
+goto :eof
+
+:Updateit
+msg %username% /time:2 "【新版本升级中,请稍后！】"
+echo @echo off>%temp%\up.bat
+echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
+echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
+echo Exit>>%temp%\up.bat
+start %temp%\up.bat
+exit
+
+:Updates
+cls
+md Bakup\ >nul 2>nul
+copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
+echo Backup of the old version(%ver%)
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
+echo WScript.sleep 200 >>%temp%/Upnew.vbs
+echo loop >>%temp%/Upnew.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
+set size=100000
+for %%1 in (HostsTool.bat)do set gsize=%%~z1
+cls
+if %gsize% gtr %size% (echo 网络获取失败，正在努力获取 & %d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src -o %temp% & ren HostsTool.Src HostsTool.bat & goto Updateit) else (goto Updateit)
+goto :eof
+
+:rp127
+call :unlock
+copy %hosts% temp.txt
+for %%a in (temp.txt) do (
+(for /f "usebackq delims=" %%b in ("%%a") do  (
+set "str=%%b"
+for %%b in (0.0.0.0-127.0.0.1) do (
+for /f "tokens=1,2 delims=-" %%c in ("%%b") do set "str=!str:%%c=%%d!"
+)
+echo !str!
+))>$
+copy $ %hosts% & del temp.txt $ & ipconfig /flushdns & echo 已将0.0.0.0 全部替换为127.0.0.1! & choice /t 2 /d y /n >nul & goto gui
+)
+
+:ipv6load
+echo 正在安装ipv6服务...
+ipv6 install >nul 2>nul
+echo 正在优化Hosts相关服务，以加快解析速度
+net stop "Dnscache" >nul 2>nul
+sc stop "DNSCache" >nul 2>nul
+sc config Dnscache start= disabled >nul 2>nul
+echo 正在启动Https相关服务，请卸载国产的XX卫士等安全产品
+ping -n 3 127.0.0.1
+sc config iphlpsvc start= AUTO > nul 2>nul
+sc config HTTPFilter start= AUTO >nul 2>nul
+sc config 6to4 start= auto >nul 2>nul
+net start 6to4 >nul 2>nul
+echo 正在设置ipv6相关信息
+netsh interface ipv6 isatap set router isatap.sjtu.edu.cn >nul 2>nul
+netsh interface ipv6 isatap set state enabled >nul 2>nul
+netsh interface ipv6 6to4 set state enabled >nul 2>nul
+netsh int ipv6 6to4 set relay 6to4.ipv6.microsoft.com >nul 2>nul
+goto :eof
+
+:entdata
+call :unlock
+set pb=115.47.219.95
+echo %pb% www.kaixin001.com >>%hosts%
+echo %pb% apps.renren.com >>%hosts%
+echo %pb% happyfarm.qzone.qq.com >>%hosts%
+echo %pb% user.qzone.qq.com >>%hosts%
+echo %pb% wan.360.cn >>%hosts%
+echo %pb% www.2144.cn >>%hosts%
+echo %pb% www.2366.com >>%hosts%
+echo %pb% www.4399.com >>%hosts%
+echo %pb% www.7k7k.com >>%hosts%
+echo %pb% 4.gvt0.cn >>%hosts%
+echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.& echo You Can Use Hosts File Fix and Restore to Cancle. & choice /t 2 /d y /n >nul
+goto :eof
+
+:Xunlei
+set /a str+=1
+echo 0.0.0.0 %str%.logic.cpm.cm.sandai.net >>%hosts%
+if not %str%==%date:~0,4%%date:~5,2%31 (goto Xunlei)
+echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.logic.cpm.cm.sandai.net >>%hosts%
+goto :eof
+
+:AnDroid
+cls & echo AnDroid Hosts 文件更新调用了服务器端的VBS脚本! 因VBS使用了在线下载技术，可能会被部分杀毒软件误杀!
+choice /t 7 /d y /n >nul
+if not exist AndriodHosts.vbs (%d% http://hostsx.googlecode.com/svn/trunk/Android/AndriodHosts.vbs) else (goto err)
+AndriodHosts.vbs & cls & goto gui
+
+:shortcutfix
+mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\g.ico"":b.Description=""优佳猴子"":b.Save:close")
+echo 桌面快捷方式已创建！& pause
+goto :eof
+
+:feedback
+echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt
+echo 用户名：%username% >>GFeedBack.txt
+echo 计算机名：%userdomain% >>GFeedBack.txt
+SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt
+echo IE版本：%iever% >>GFeedBack.txt
+echo HostsTool版本：%ver% >>GFeedBack.txt
+echo 今天是：%date% >>GFeedBack.txt
+echo 遇到问题的网页地址：>>GFeedBack.txt
+echo. >>GFeedBack.txt
+echo. >>GFeedBack.txt
+echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
+notepad GFeedBack.txt & start iexplore http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
+
+:iecss
+rem 使用Hosts屏蔽有副作用的广告杀无赦！！！
+reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.imrworldwide.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.mediav.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.miaozhen.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\11.mydrivers.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\g.crsky.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\gimg.iqilu.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\images.sohu.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\pro.letv.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+%d% http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
+move /y Custom.css %windir%
+REG ADD "HKCU\Software\Microsoft\Internet Explorer\Styles" /v "Use My Stylesheet" /t reg_dword /d 1 /f >nul 2>nul
+REG ADD "HKCU\Software\Microsoft\Internet Explorer\Styles" /v "User Stylesheet" /t reg_sz /d "%windir%\Custom.css" /f >nul 2>nul
+start http://dayngo.com/static/filter.html
+echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul & goto gui
+
+:fixie
+title IE浏览器修复和优化
+echo  请先关闭 Internet Explorer !
+pause
+taskkill /F /IM iexplore.exe /T>nul 2>nul
+regsvr32 /s actxprxy.dll
+regsvr32 /s shdocvw.dll
+regsvr32 /s oleaut32.dll
+Regsvr32 /s URLMON.DLL
+Regsvr32 /s mshtml.dll
+Regsvr32 /s msjava.dll
+Regsvr32 /s browseui.dll
+Regsvr32 /s softpub.dll
+Regsvr32 /s wintrust.dll
+echo 50 percent (Please wait)
+Regsvr32 /s initpki.dll
+Regsvr32 /s dssenh.dll
+Regsvr32 /s rsaenh.dll
+Regsvr32 /s gpkcsp.dll
+Regsvr32 /s sccbase.dll
+Regsvr32 /s slbcsp.dll
+Regsvr32 /s cryptdlg.dll
+echo 100 percent
+echo IE 优化完毕。
+title IE Repaired
+echo 开始修复 IE 及相关的系统设置项目……
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /f /v DisableRegistryTools /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKLM\Software\CLASSES\.reg" /f /ve /d regfile>nul 2>nul
+echo 恢复EXE文件打开方式
+reg add "HKCR\exefile\shell\open\command" /f /ve /t REG_SZ /d ""%1" %*">nul 2>nul
+rem Del All IE donot Turst Site
+reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f>nul 2>nul
+echo 删除地址栏下拉菜单内的网址
+reg delete "HKCU\Software\Microsoft\Internet Explorer\TypedURLs" /f >nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\TypedURLs">nul 2>nul
+echo 恢复被隐藏的桌面图标
+reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoDesktop>nul 2>nul
+echo 恢复internet选项安全页面自定义按钮
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecChangeSettings /t REG_DWORD /d 00000000>nul 2>nul
+echo 恢复IE浏览器缺省主页的设置锁定状态
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Settings /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v Links /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecAddSites /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKU\.DEFAULT\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
+echo 删除分级审查密码
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings" /f>nul 2>nul
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings">nul 2>nul
+echo 恢复internet选项
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\restrictions" /f /v NoBrowserOptions /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /f /v NoFolderOptions /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v GeneralTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v SecurityTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ContentTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ConnectionsTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v ProgramsTab /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v AdvancedTab /t REG_DWORD /d 00000000>nul 2>nul
+echo 修复IE察看源文件按钮
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
+reg add "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoViewSource /t REG_DWORD /d 00000000>nul 2>nul
+echo 修复网页中右键菜单的广告
+reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt" /f>nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\MenuExt2" /f>nul 2>nul
+echo 恢复网页右键菜单
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /f /v NoBrowserContextMenu /t REG_DWORD /d 00000000>nul 2>nul
+echo 恢复OE标题栏广告
+reg add "HKCU\Software\Microsoft\Outlook Express" /f /v WindowTitle /t REG_DWORD /d 00000000>nul 2>nul
+echo 恢复IE标题栏
+reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Window Title" /d "Microsoft Internet Explorer">nul 2>nul
+echo 恢复主页修改
+reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /f /v homepage /t REG_DWORD /d 00000000>nul 2>nul
+echo 修复IE的默认页面和起始为空白页
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Default_Page_URL" /d "about:blank">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "Start Page" /d "about:blank">nul 2>nul
+echo 恢复IE搜索引擎
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /f /v "SearchUrl" /d "https://www.google.com/keyword/%s">nul 2>nul
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Bar" /d "http://www.google.com/ie" /f >nul 2>nul
+reg add "HKLM\Software\Microsoft\Internet Explorer\Main" /f /v "Search Page" /d "http://www.google.com/intl/zh-CN/" >nul 2>nul
+reg add "HKLM\SOFTWARE\Microsoft\Internet Explorer\Search" /v "SearchAssistant" /d "https://www.google.com/ie" /f >nul 2>nul
+goto :eof
+
+:clean
+Tasklist|Find /i "iexplore.exe">nul &&(Echo 请先关闭IExplore.exe! & Pause)
+call :cleansys
+call :cleanwmp
+call :cleanpps
+call :cleanpptv
+call :cleanvagaa
+call :cleanmschk
+call :cleanxunlei
+call :cleanuus
+call :cleanwps
+call :cleansogou
+call :cleanie
+call :cleanqq
+goto :eof
+
+:cleansys
+echo 正在清除系统垃圾文件，请稍等......
+del /f /s /q %systemdrive%\*.tmp
+del /f /s /q %systemdrive%\*._mp
+del /f /s /q %systemdrive%\*.gid
+del /f /s /q %systemdrive%\*.chk
+del /f /s /q %systemdrive%\*.ftg
+del /f /s /q %systemdrive%\*.fts
+del /f /s /q %systemdrive%\*.syd
+del /f /s /q %systemdrive%\*.diz
+del /f /s /q %windir%\KB*.log
+del /f /s /q %windir%\*.bak
+del /f /s /q "%systemdrive%\recycled"
+del /f /s /q "%Temp%"
+del /f /q /s /a "%systemroot%\minidump"
+del /f /q /s /a "%userprofile%\Cookies"
+del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
+del /f /s /q "%userprofile%\recent"
+del /f /s /q "%windir%\prefetch"
+del /f /s /q "%windir%\SoftwareDistribution\Download"
+del /f /s /q "%windir%\temp"
+echo 正在清理系统升级补丁留下来的反安装目录……
+RD %windir%\$hf_mig$ /Q /S
+dir %windir%\$NtUninstall* /a:d /b >%windir%\del.txt
+for /f %%i in (%windir%\del.txt) do rd %windir%\%%i /s /q
+del %windir%\del.txt /f /q
+for /f "tokens=1" %%i in ('dir %SystemRoot%\$*$ /s /b /ad') do rd /s /q %%i
+defrag %systemdrive% -b
+echo 清除浏览器地址记录...
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" /f 2>nul
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls"
+echo 清除运行记录...
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f
+goto :eof
+
+:cleanwmp
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Services\FaroLatino_CN" /f >nul 2>nul
+reg delete "hkcu\Software\Microsoft\MediaPlayer\Subscriptions" /f >nul 2>nul
+reg delete "hklm\SOFTWARE\Microsoft\MediaPlayer\services\FaroLatino_CN" /f> nul 2>nul
+goto :eof
+
+:cleanpps
+reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /t REG_EXPAND_SZ /v "PPS Accelerator"  /f
+if exist "%AppData%\PPStream\adsys\" (rd /q /s "%AppData%\PPStream\adsys") else (del /f /s /q "%AppData%\PPStream\adsys")
+@cd.>"%AppData%\PPStream\adsys"
+if exist "%AppData%\PPStream\banner\" (rd /q /s "%AppData%\PPStream\banner") else (del /f /s /q "%AppData%\PPStream\banner")
+@cd.>"%AppData%\PPStream\banner"
+if exist "%AppData%\PPStream\Gmad\" (rd /q /s "%AppData%\PPStream\Gmad") else (del /f /s /q "%AppData%\PPStream\Gmad")
+@cd.>"%AppData%\PPStream\Gmad"
+if exist "%AppData%\PPStream\notice\" (rd /q /s "%AppData%\PPStream\notice") else (del /f /s /q "%AppData%\PPStream\notice")
+@cd.>"%AppData%\PPStream\notice"
+if exist "%AppData%\PPStream\TipXmls\" (rd /q /s "%AppData%\PPStream\TipXmls") else (del /f /s /q "%AppData%\PPStream\TipXmls")
+@cd.>"%AppData%\PPStream\TipXmls"
+goto :eof
+
+:cleanpptv
+if exist "%Application Data%\PPLive\PPTV\Cache\pluginad\" (rd /q /s "%Application Data%\PPLive\PPTV\Cache\pluginad") else (del /f /s /q "%Application Data%\PPLive\PPTV\Cache\pluginad")
+@cd.>"%Application Data%\PPLive\PPTV\Cache\pluginad"
+if exist "%ProgramData%\PPLive\PPTV\Cache\pluginad\" (rd /q /s "%ProgramData%\PPLive\PPTV\Cache\pluginad") else (del /f /s /q "%ProgramData%\PPLive\PPTV\Cache\pluginad")
+@cd.>"%ProgramData%\PPLive\PPTV\Cache\pluginad"
+goto :eof
+
+:cleanvagaa
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt\&V使用Vagaa哇嘎下载"  /v   使用Vagaa哇嘎下载  /f
+reg delete "HKEY_CLASSES_ROOT\Directory\shell\添加到Vagaa共享"  /v  添加到Vagaa共享  /f
+goto :eof
+
+:cleanmschk
+%k% WgaTray.exe
+%k% wgalogon.dll
+DEL /F /Q /A -R -H -S -A %SystemRoot%\system32\LegitCheckControl.dll
+DEL /F /Q /A -R -H -S -A %SystemRoot%\System32\WgaLogon.dll
+DEL /F /Q /A -R -H -S -A %SystemRoot%\System32\WgaTray.exe
+DEL /F /Q /A -R -H -S -A %SystemRoot%\system32\dllcache\WgaLogon.dll
+DEL /F /Q /A -R -H -S -A %SystemRoot%\system32\dllcache\WgaTray.exe
+rem REG ADD "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG__SZ /d "%%SystemRoot%%\\Web\\Wallpaper\\Bliss.bmp"
+reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\Wgalogon" /f
+goto :eof
+
+:cleanxunlei
+del "C:\Program Files\Thunder\Program\MiniXmpInstall.exe"
+rd  "C:\Program Files\Thunder\BBInside" /s /q
+net stop "XLDoctor Service"
+sc stop XLServicePlatform
+sc delete "XLDoctor Service"
+sc delete XLServicePlatform
+DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat" >nul
+DEL /F /Q /A -R -H -S -A "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat" >nul
+Md "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat"
+Md "%AllUsersProfile%\Application Data\Thunder Network\emule_upload_list.dat"
+Md "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat"
+attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\cid_store.dat" >nul
+attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\emule_upload_list.dat" >nul
+attrib +r +s +h "%AllUsersProfile%\Application Data\Thunder Network\DownloadLib\pub_store.dat" >nul
+goto :eof
+
+:cleanuus
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{998A88A0-A355-809B-831C-B83A80000991}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{998A88A0-A355-809B-831C-B83A80000991}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{998A88A0-A355-809B-831C-B83A80000991}" /f
+goto :eof
+
+:cleanwps
+%k% updatesvr.exe
+%k% updntfr.exe
+%k% wpsupdate.exe
+net stop "Kingsoft_WPS_UpdateService"
+sc stop "Kingsoft_WPS_UpdateService"
+sc delete "Kingsoft_WPS_UpdateService"
+goto :eof
+
+:cleansogou
+echo 清除SOGOU搜狗的IE加载项so.dll
+regsvr32 /u /s so.dll >nul 2>nul
+del /f %windir%\system32\so.dll >nul 2>nul
+reg delete HKCR\NetCafeHlp.AddrHelper /f >nul 2>nul
+reg delete HKCR\NetCafeHlp.AddrHelper.1 /f >nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\URLSearchHooks" /v {02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f >nul 2>nul
+reg delete HKCU\Software\Microsoft\Windows\CurrentVersion\Ext\Stats\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f >nul 2>nul
+reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{02AC20DD-5548-4CA7-ACCF-18AFE5A4A072}" /f >nul 2>nul
+goto :eof
+
+:cleanie
+rem  修复IE工具栏广告
+reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
+rem  修复开始菜单广告
+reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
+goto :eof
+
+:cleanqq
+msg %username% /time:2 "请先关闭QQ、TM!" & pause
+%k% qq.exe
+%k% tm.exe
+%k% TXOPShow.exe
+cd "%AppData%\Tencent\QQ\Misc"
+for /d %%i in (com.tencent.advertisement*) do rd "%%i" /s /q
+del "%AppData%\Tencent\Users\misc.db" /s /q
+echo 屏蔽QQ自动生成的不必要文件
+rd "%APPDATA%\Tencent\IM" /s/q
+c:> "%APPDATA%\Tencent\IM"
+echo 屏蔽QQ自动升级文件
+rd "%APPDATA%\Tencent\QQ\AuTemp" /s/q
+c:> "%APPDATA%\Tencent\QQ\AuTemp"
+echo 屏蔽QQ群页面
+rd "%APPDATA%\Tencent\QQ\Temp\gm" /s/q
+c:> "%APPDATA%\Tencent\QQ\Temp\gm"
+rd "%APPDATA%\Tencent\QQ\Misc\GMF" /s/q
+c:> "%APPDATA%\Tencent\QQ\Misc\GMF"
+echo 屏蔽QQ群直播图标
+rd "%APPDATA%\Tencent\QQ\Misc\GTB_Icons" /s/q
+c:> "%APPDATA%\Tencent\QQ\Misc\GTB_Icons"
+echo 屏蔽QQ群相册快照临时文件
+rd "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot" /s/q
+c:> "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot"
+goto :eof
+
+:delit
+mode con cols=60 lines=20
+echo.
+echo 		  【 Super Deleter 】
+echo 	        -----------------------
+echo.
+echo  专门快速删除那种不能打开、不能进入、不能删除的顽固目录。
+echo. Remove the kind of expertise can not be opened quickly,
+echo.  can not enter, can not remove the stubborn directory
+echo 	注意：删除目录将同时删除其子目录中所有数据！
+echo Warning：Delete the directory will also delete all the data subdirectory!
+echo.
+set Choice=
+echo 	请将要删除的顽固目录直接拖入本窗口，然后回车:
+echo  Please stubborn to delete the directory directly
+echo     dragged into the window,then press Enter:
+echo.
+set /p Choice=
+if ""%Choice%"" == "" goto menu
+echo y|Cacls ""%Choice%"" /c /t /p Everyone:f
+DEL /F /A /Q \\?\""%Choice%""
+RD /S /Q \\?\""%Choice%""
+echo.
+echo  删除完成! Delete done!
+pause & goto gui
+
+:Google
+call :unlock
+type %hosts%|find "FGQI" /i /v|find "Google" /i /v|find "ggpht" /i /v|find "gmail" /i /v|find "gstatic" /i /v|find "appspot" /i /v|findstr "." >>%hosts%fgqi
+ren %hosts%fgqi hosts
+if /i !force! neq 0 (call :GoogleCN ) else (call :BeijingIP )
+call :Youtube
+goto :eof
+
+:BeijingIP
+echo.
+rem  By FGQI
+echo 正在使用Google北京服务器地址更新hosts，请稍等
+setlocal enabledelayedexpansion
+set min=20
+set max=30
+set /a mod=!max!-!min!+1
+set /a r=!random!%%!mod!+!min!
+set gg=203.208.47.%r%
+call :GoogleIP
+goto :eof
+
+:GoogleCN
+echo.
+echo 请稍等,正在获取Google服务器的IP
+for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set gg=%%i
+for /f "delims=." %%i in ("%gg%") do if %%i==203 (echo 你获取的是北京服务器的地址，正在更新hosts，请稍等) else echo 你获取的是%gg%，不是Google北京服务器地址，正在更新hosts，请稍等
+for /f "delims=." %%i in ("%gg%") do if not %%i==203 echo 因为地址不是北京服务器，可能导致服务不能用，推荐使用:北京服务器IP
+call :GoogleIP
+goto :eof
+
+:GoogleIP
+echo #Google>>%hosts%
+echo %gg% chatenabled.mail.google.com >>%hosts%
+echo %gg% static.googleusercontent.com >>%hosts%
+echo %gg% hostsx.googlecode.com >>%hosts%
+echo %gg% smarthosts.googlecode.com >>%hosts%
+echo %gg% ntrqq.googlecode.com >>%hosts%
+echo %gg% drive.google.com >>%hosts%
+echo %gg% doc-1-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-10-3o-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-11-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-12-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-13-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-14-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-2-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-3-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-4-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-5-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-6-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-7-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-8-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-8-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% doc-9-ac-docs.googleusercontent.com >>%hosts%
+echo %gg% play.google.com >>%hosts%
+echo %gg% 0-focus-opensocial.googleusercontent.com >>%hosts%
+echo %gg% 3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com >>%hosts%
+echo %gg% accounts.google.com >>%hosts%
+echo %gg% ajax.googleapis.com >>%hosts%
+echo %gg% android.l.google.com >>%hosts%
+echo %gg% a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% apis.google.com >>%hosts%
+echo %gg% appengine.google.com >>%hosts%
+echo %gg% bks0.books.google.com >>%hosts%
+echo %gg% bks1.books.google.com >>%hosts%
+echo %gg% bks2.books.google.com >>%hosts%
+echo %gg% bks3.books.google.com >>%hosts%
+echo %gg% bks4.books.google.com >>%hosts%
+echo %gg% bks5.books.google.com >>%hosts%
+echo %gg% bks6.books.google.com >>%hosts%
+echo %gg% bks7.books.google.com >>%hosts%
+echo %gg% bks8.books.google.com >>%hosts%
+echo %gg% bks9.books.google.com >>%hosts%
+echo %gg% blogsearch.google.cn >>%hosts%
+echo %gg% blogsearch.google.com.hk >>%hosts%
+echo %gg% books.google.com >>%hosts%
+echo %gg% browserchannel-docs.l.google.com >>%hosts%
+echo %gg% browserchannel-spreadsheets.l.google.com >>%hosts%
+echo %gg% browsersync.google.com >>%hosts%
+echo %gg% cache.pack.google.com >>%hosts%
+echo %gg% calendar.google.com >>%hosts%
+echo %gg% chatenabled.mail.google.com >>%hosts%
+echo %gg% checkout.google.com >>%hosts%
+echo %gg% chrome.google.com >>%hosts%
+echo %gg% clients1.google.com >>%hosts%
+echo %gg% clients1.googleusercontent.com >>%hosts%
+echo %gg% clients2.google.com >>%hosts%
+echo %gg% clients2.googleusercontent.com >>%hosts%
+echo %gg% clients3.google.com >>%hosts%
+echo %gg% clients3.googleusercontent.com >>%hosts%
+echo %gg% clients4.google.com >>%hosts%
+echo %gg% clients4.googleusercontent.com >>%hosts%
+echo %gg% clients5.google.com >>%hosts%
+echo %gg% clients5.googleusercontent.com >>%hosts%
+echo %gg% clients6.google.com >>%hosts%
+echo %gg% clients6.googleusercontent.com >>%hosts%
+echo %gg% clients7.google.com >>%hosts%
+echo %gg% clients7.googleusercontent.com >>%hosts%
+echo %gg% code.google.com >>%hosts%
+echo %gg% csi.gstatic.com >>%hosts%
+echo %gg% desktop.google.com >>%hosts%
+echo %gg% desktop2.google.com >>%hosts%
+echo %gg% ditu.google.cn >>%hosts%
+echo %gg% ditu.google.com >>%hosts%
+echo %gg% dl.google.com >>%hosts%
+echo %gg% docs.google.com >>%hosts%
+echo %gg% earth.google.com >>%hosts%
+echo %gg% encrypted.google.com >>%hosts%
+echo %gg% encrypted.google.com.hk >>%hosts%
+echo %gg% encrypted-tbn0.google.com >>%hosts%
+echo %gg% encrypted-tbn1.google.com >>%hosts%
+echo %gg% encrypted-tbn2.google.com >>%hosts%
+echo %gg% encrypted-tbn3.google.com >>%hosts%
+echo %gg% feedback.googleusercontent.com >>%hosts%
+echo %gg% finance.google.com >>%hosts%
+echo %gg% fonts.googleapis.com >>%hosts%
+echo %gg% g0.gstatic.com >>%hosts%
+echo %gg% gg.google.com >>%hosts%
+echo %gg% ghs.google.com >>%hosts%
+echo %gg% ghs.l.google.com >>%hosts%
+echo %gg% google.com >>%hosts%
+echo %gg% google.com.hk >>%hosts%
+echo %gg% googlecl.googlecode.com >>%hosts%
+echo %gg% googlehosted.l.googleusercontent.com >>%hosts%
+echo %gg% groups.google.com >>%hosts%
+echo %gg% id.google.cn >>%hosts%
+echo %gg% id.google.com >>%hosts%
+echo %gg% id.google.com.hk >>%hosts%
+echo %gg% images.google.com >>%hosts%
+echo %gg% images.google.com.hk >>%hosts%
+echo %gg% images0-focus-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images1-focus-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images2-focus-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images3-focus-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images4-focus-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images5-focus-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images6-focus-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images-lso-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% images-pos-opensocial.googleusercontent.com >>%hosts%
+echo %gg% investor.google.com >>%hosts%
+echo %gg% khms0.google.com >>%hosts%
+echo %gg% khms1.google.com >>%hosts%
+echo %gg% labs.google.com >>%hosts%
+echo %gg% large-uploads.l.google.com >>%hosts%
+echo %gg% lh1.ggpht.com >>%hosts%
+echo %gg% lh1.googleusercontent.com >>%hosts%
+echo %gg% lh2.ggpht.com >>%hosts%
+echo %gg% lh2.googleusercontent.com >>%hosts%
+echo %gg% lh3.ggpht.com >>%hosts%
+echo %gg% lh3.googleusercontent.com >>%hosts%
+echo %gg% lh4.ggpht.com >>%hosts%
+echo %gg% lh4.googleusercontent.com >>%hosts%
+echo %gg% lh5.ggpht.com >>%hosts%
+echo %gg% lh5.googleusercontent.com >>%hosts%
+echo %gg% lh6.ggpht.com >>%hosts%
+echo %gg% lh6.googleusercontent.com >>%hosts%
+echo %gg% m.google.com >>%hosts%
+echo %gg% mail.google.com >>%hosts%
+echo %gg% mail-attachment.googleusercontent.com >>%hosts%
+echo %gg% maps.google.cn >>%hosts%
+echo %gg% maps.google.com >>%hosts%
+echo %gg% maps.gstatic.cn >>%hosts%
+echo %gg% maps.gstatic.com >>%hosts%
+echo %gg% maps-api-ssl.google.com >>%hosts%
+echo %gg% mt0.google.cn >>%hosts%
+echo %gg% mt0.google.com >>%hosts%
+echo %gg% mt1.google.cn >>%hosts%
+echo %gg% mt1.google.com >>%hosts%
+echo %gg% mt2.google.cn >>%hosts%
+echo %gg% mt2.google.com >>%hosts%
+echo %gg% mt3.google.cn >>%hosts%
+echo %gg% mt3.google.com >>%hosts%
+echo %gg% mts0.google.com >>%hosts%
+echo %gg% mts1.google.com >>%hosts%
+echo %gg% music.google.com >>%hosts%
+echo %gg% music.googleusercontent.com >>%hosts%
+echo %gg% music-streaming.l.google.com >>%hosts%
+echo %gg% mw2.google.com >>%hosts%
+echo %gg% news.google.cn >>%hosts%
+echo %gg% news.google.com >>%hosts%
+echo %gg% news.google.com.hk >>%hosts%
+echo %gg% newsfeed-dot-latest-dot-rovio-ad-engine.appspot.com >>%hosts%
+echo %gg% nt0.ggpht.com >>%hosts%
+echo %gg% nt1.ggpht.com >>%hosts%
+echo %gg% nt2.ggpht.com >>%hosts%
+echo %gg% nt3.ggpht.com >>%hosts%
+echo %gg% oauth.googleusercontent.com >>%hosts%
+echo %gg% ode25pfjgmvpquh3b1oqo31ti5ibg5fr-a-calendar-opensocial.googleusercontent.com >>%hosts%
+echo %gg% pack.google.cn >>%hosts%
+echo %gg% pack.google.com >>%hosts%
+echo %gg% picasa.google.com >>%hosts%
+echo %gg% picasaweb.google.com >>%hosts%
+echo %gg% picasaweb.google.com.hk >>%hosts%
+echo %gg% places.google.com >>%hosts%
+echo %gg% plus.google.com >>%hosts%
+echo %gg% plus.google.com.hk >>%hosts%
+echo %gg% plusone.google.com >>%hosts%
+echo %gg% pop.gmail.com >>%hosts%
+echo %gg% profiles.google.com >>%hosts%
+echo %gg% project-slingshot-gp.appspot.com >>%hosts%
+echo %gg% s1.googleusercontent.com >>%hosts%
+echo %gg% s2.googleusercontent.com >>%hosts%
+echo %gg% s3.googleusercontent.com >>%hosts%
+echo %gg% s4.googleusercontent.com >>%hosts%
+echo %gg% s5.googleusercontent.com >>%hosts%
+echo %gg% s6.googleusercontent.com >>%hosts%
+echo %gg% safebrowsing.clients.google.com >>%hosts%
+echo %gg% safebrowsing-cache.google.com >>%hosts%
+echo %gg% sandbox.google.com >>%hosts%
+echo %gg% scholar.google.cn >>%hosts%
+echo %gg% scholar.google.com >>%hosts%
+echo %gg% scholar.google.com.hk >>%hosts%
+echo %gg% scholar.l.google.com >>%hosts%
+echo %gg% services.google.com >>%hosts%
+echo %gg% sites.google.com >>%hosts%
+echo %gg% sketchup.google.com >>%hosts%
+echo %gg% spreadsheets.google.com >>%hosts%
+echo %gg% ssl.google-analytics.com >>%hosts%
+echo %gg% ssl.gstatic.com >>%hosts%
+echo %gg% suggestqueries.google.com >>%hosts%
+echo %gg% t.doc-0-0-sj.sj.googleusercontent.com >>%hosts%
+echo %gg% t0.gstatic.com >>%hosts%
+echo %gg% t1.gstatic.com >>%hosts%
+echo %gg% t2.gstatic.com >>%hosts%
+echo %gg% t3.gstatic.com >>%hosts%
+echo %gg% talkgadget.google.com >>%hosts%
+echo %gg% talkx.l.google.com >>%hosts%
+echo %gg% themes.googleusercontent.com >>%hosts%
+echo %gg% toolbar.google.com >>%hosts%
+echo %gg% toolbar.google.com.hk >>%hosts%
+echo %gg% toolbarqueries.clients.google.com >>%hosts%
+echo %gg% toolbarqueries.google.com.hk >>%hosts%
+echo %gg% tools.google.com >>%hosts%
+echo %gg% translate.google.cn >>%hosts%
+echo %gg% translate.google.com >>%hosts%
+echo %gg% translate.google.com.hk >>%hosts%
+echo %gg% translate.googleapis.com >>%hosts%
+echo %gg% uploadsj.clients.google.com >>%hosts%
+echo %gg% v8mq9slfbk1dglresapkg0i5f8pm64lc-a-calendar-opensocial.googleusercontent.com >>%hosts%
+echo %gg% video.google.cn >>%hosts%
+echo %gg% video.google.com >>%hosts%
+echo %gg% video.google.com.hk >>%hosts%
+echo %gg% voice.google.com >>%hosts%
+echo %gg% wave.google.com >>%hosts%
+echo %gg% webcache.googleusercontent.com >>%hosts%
+echo %gg% wenda.google.com.hk >>%hosts%
+echo %gg% www.gmail.com >>%hosts%
+echo %gg% www.google.com >>%hosts%
+echo %gg% www.google.com.hk >>%hosts%
+echo %gg% www.googleadservices.com >>%hosts%
+echo %gg% www.google-analytics.com >>%hosts%
+echo %gg% www.googleapis.com >>%hosts%
+echo %gg% www.googlelabs.com >>%hosts%
+echo %gg% www.gstatic.com >>%hosts%
+echo %gg% www-calendar-opensocial.googleusercontent.com >>%hosts%
+echo %gg% www-opensocial.googleusercontent.com >>%hosts%
+echo %gg% www-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% r3270-dot-latest-dot-project-slingshot-gp.appspot.com >>%hosts%
+echo %gg% bt26mravu2qpe56n8gnmjnpv2inl84bf-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% rbjhe237k979f79d87gmenp3gejfonu9-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% k6v18tjr24doa89b55o3na41kn4v73eb-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% 8kubpeu8314p2efdd7jlv09an9i2ljdo-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% adstvca8k2ooaknjjmv89j22n9t676ve-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% ob7f2qc0i50kbjnc81vkhgmb5hsv7a8l-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% 53rd6p0catml6vat6qra84rs0del836d-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% u807isd5egseeabjccgcns005p2miucq-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% r70rmsn4s0rhk6cehcbbcbfbs31pu0va-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% 59cbv4l9s05pbaks9v77vc3mengeqors-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% i8brh95qor6r54nkl52hidj2ggcs4jgm-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% upt14k1i2veesusrda9nfotcrbp9d7p5-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% debh8vg7vd93bco3prdajidmm7dhql3f-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% 4fjvqid3r3oq66t548clrdj52df15coc-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% hsco54a20sh11q9jkmb51ad2n3hmkmrg-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% qhie5b8u979rnch1q0hqbrmbkn9estf7-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% e6ha3snmi09c57cs4h4dnoa006cgfjfu-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% 66fl6oqbdsqf5fjl032t5iulimtqjhpa-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% vvpk2b7flnbhcm2p10u4hcnatnp40i3i-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% 0rgn8o7pqk7dq7rm8q0639erjd8gnf7g-a-oz-opensocial.googleusercontent.com >>%hosts%
+echo %gg% cfmmurgvo3fqrmfu0tjfcpgdt7mh6ccv-a-oz-opensocial.googleusercontent.com >>%hosts%
+start http://www.google.com/ncr
+goto :eof
+
+:Youtube
+echo 正在运行Youtube脚本（现在只能进Youtube的网页，但不能播放视频）
+echo 请稍等,正在获取Youtube服务器的IP
+for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set ytb=%%i
+for /f "delims=." %%i in ("%ytb%") do if not %%i==203 set ytb=203.208.46.181
+if %ytb%==203.208.46.181 (echo 你获取的不是北京服务器的地址，已手动帮你设置为203.208.46.181北京服务器地址) else echo 你获取的是Youtube北京服务器地址，正在更新hosts，请稍等
+type %hosts%|find "Youtube" /i /v|find "ytimg" /i /v|find "gvt0" /i /v|findstr "." >>%hosts%fgqi
+ren %hosts%fgqi hosts
+echo #Youtube By FGQI >>%hosts%
+echo %ytb% youtube.com >>%hosts%
+echo %ytb% www.youtube.com >>%hosts%
+echo %ytb% gdata.youtube.com >>%hosts%
+echo %ytb% m.youtube.com >>%hosts%
+echo %ytb% help.youtube.com >>%hosts%
+echo %ytb% upload.youtube.com >>%hosts%
+echo %ytb% accounts.youtube.com >>%hosts%
+echo %ytb% insight.youtube.com >>%hosts%
+echo %ytb% apiblog.youtube.com >>%hosts%
+echo %ytb% clients1.youtube.com >>%hosts%
+echo %ytb% s.youtube.com >>%hosts%
+echo %ytb% s2.youtube.com >>%hosts%
+echo %ytb% i.ytimg.com >>%hosts%
+echo %ytb% s.ytimg.com >>%hosts%
+echo %ytb% i1.ytimg.com >>%hosts%
+echo %ytb% i2.ytimg.com >>%hosts%
+echo %ytb% i3.ytimg.com >>%hosts%
+echo %ytb% i4.ytimg.com >>%hosts%
+echo %ytb% 0.gvt0.cn >>%hosts%
+echo %ytb% 1.gvt0.cn >>%hosts%
+echo %ytb% 2.gvt0.cn >>%hosts%
+echo %ytb% 3.gvt0.cn >>%hosts%
+echo %ytb% 4.gvt0.cn >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v1.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v2.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v3.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v4.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v5.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v6.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v7.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v8.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v9.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v10.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v11.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v12.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v13.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v14.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v15.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v16.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v17.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v18.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v19.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v20.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v21.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v22.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v23.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v24.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v1.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v2.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v3.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v4.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v5.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v6.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v7.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v8.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v9.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v10.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v11.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v12.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v13.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v14.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v15.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v16.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v17.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v18.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v19.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v20.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v21.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v22.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v23.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v24.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v1.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v2.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v3.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v4.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v5.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v6.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v7.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v8.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v9.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v10.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v11.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v12.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v13.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v14.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v15.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v16.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v17.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v18.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v19.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v20.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v21.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v22.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v23.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v24.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v1.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v2.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v3.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v4.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v5.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v6.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v7.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v8.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v9.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v10.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v11.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v12.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v13.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v14.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v15.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v16.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v17.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v18.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v19.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v20.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v21.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v22.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v23.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v24.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v1.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v2.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v3.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v4.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v5.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v6.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v7.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v8.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v9.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v10.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v11.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v12.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v13.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v14.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v15.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v16.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v17.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v18.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v19.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v20.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v21.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v22.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v23.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v24.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v1.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v2.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v3.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v4.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v5.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v6.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v7.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v8.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v9.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v10.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v11.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v12.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v13.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v14.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v15.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v16.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v17.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v18.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v19.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v20.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v21.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v22.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v23.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v24.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v1.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v2.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v3.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v4.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v5.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v6.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v7.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v8.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v9.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v10.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v11.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v12.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v13.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v14.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v15.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v16.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v17.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v18.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v19.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v20.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v21.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v22.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v23.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v24.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v1.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v2.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v3.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v4.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v5.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v6.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v7.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v8.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v9.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v10.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v11.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v12.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v13.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v14.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v15.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v16.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v17.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v18.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v19.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v20.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v21.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v22.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v23.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s11.v24.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v1.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v2.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v3.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v4.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v5.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v6.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v7.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v8.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v9.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v10.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v11.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v12.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v13.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v14.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v15.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v16.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v17.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v18.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v19.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v20.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v21.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v22.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v23.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v24.lscache1.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v1.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v2.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v3.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v4.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v5.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v6.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v7.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v8.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v9.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v10.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v11.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v12.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v13.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v14.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v15.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v16.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v17.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v18.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v19.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v20.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v21.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v22.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v23.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v24.lscache2.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v1.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v2.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v3.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v4.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v5.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v6.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v7.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v8.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v9.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v10.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v11.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v12.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v13.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v14.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v15.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v16.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v17.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v18.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v19.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v20.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v21.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v22.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v23.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v24.lscache3.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v1.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v2.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v3.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v4.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v5.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v6.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v7.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v8.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v9.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v10.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v11.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v12.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v13.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v14.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v15.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v16.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v17.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v18.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v19.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v20.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v21.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v22.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v23.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v24.lscache4.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v1.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v2.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v3.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v4.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v5.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v6.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v7.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v8.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v9.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v10.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v11.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v12.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v13.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v14.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v15.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v16.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v17.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v18.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v19.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v20.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v21.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v22.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v23.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v24.lscache5.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v1.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v2.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v3.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v4.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v5.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v6.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v7.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v8.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v9.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v10.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v11.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v12.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v13.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v14.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v15.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v16.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v17.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v18.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v19.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v20.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v21.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v22.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v23.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v24.lscache6.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v1.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v2.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v3.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v4.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v5.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v6.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v7.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v8.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v9.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v10.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v11.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v12.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v13.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v14.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v15.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v16.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v17.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v18.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v19.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v20.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v21.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v22.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v23.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v24.lscache7.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v1.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v2.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v3.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v4.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v5.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v6.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v7.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v8.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v9.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v10.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v11.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v12.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v13.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v14.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v15.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v16.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v17.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v18.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v19.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v20.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v21.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v22.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v23.lscache8.c.youtube.com >>%hosts%
+echo %ytb% o-o.preferred.sjc07s15.v24.lscache8.c.youtube.com >>%hosts%
+echo %ytb% r1.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r2.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r3.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r4.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r5.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r6.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r7.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r8.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r9.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r10.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r11.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r12.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r13.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r14.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r15.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r16.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r17.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r18.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r19.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r20.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r21.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r22.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r23.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r24.pek01s01.c.youtube.com >>%hosts%
+echo %ytb% r1.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r2.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r3.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r4.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r5.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r6.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r7.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r8.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r9.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r10.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r11.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r12.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r13.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r14.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r15.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r16.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r17.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r18.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r19.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r20.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r21.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r22.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r23.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r24.pek01s02.c.youtube.com >>%hosts%
+echo %ytb% r1.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r2.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r3.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r4.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r5.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r6.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r7.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r8.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r9.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r10.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r11.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r12.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r13.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r14.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r15.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r16.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r17.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r18.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r19.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r20.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r21.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r22.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r23.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r24.pek01s03.c.youtube.com >>%hosts%
+echo %ytb% r1.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r2.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r3.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r4.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r5.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r6.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r7.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r8.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r9.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r10.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r11.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r12.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r13.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r14.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r15.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r16.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r17.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r18.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r19.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r20.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r21.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r22.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r23.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r24.pek01s04.c.youtube.com >>%hosts%
+echo %ytb% r1.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r2.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r3.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r4.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r5.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r6.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r7.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r8.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r9.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r10.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r11.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r12.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r13.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r14.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r15.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r16.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r17.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r18.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r19.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r20.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r21.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r22.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r23.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% r24.pek01s05.c.youtube.com >>%hosts%
+echo %ytb% tc.v1.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v2.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v3.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v4.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v5.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v6.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v7.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v8.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v9.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v10.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v11.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v12.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v13.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v14.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v15.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v16.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v17.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v18.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v19.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v20.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v21.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v22.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v23.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v24.cache1.c.youtube.com >>%hosts%
+echo %ytb% tc.v1.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v2.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v3.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v4.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v5.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v6.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v7.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v8.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v9.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v10.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v11.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v12.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v13.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v14.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v15.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v16.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v17.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v18.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v19.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v20.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v21.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v22.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v23.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v24.cache2.c.youtube.com >>%hosts%
+echo %ytb% tc.v1.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v2.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v3.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v4.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v5.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v6.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v7.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v8.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v9.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v10.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v11.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v12.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v13.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v14.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v15.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v16.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v17.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v18.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v19.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v20.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v21.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v22.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v23.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v24.cache3.c.youtube.com >>%hosts%
+echo %ytb% tc.v1.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v2.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v3.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v4.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v5.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v6.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v7.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v8.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v9.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v10.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v11.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v12.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v13.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v14.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v15.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v16.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v17.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v18.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v19.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v20.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v21.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v22.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v23.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v24.cache4.c.youtube.com >>%hosts%
+echo %ytb% tc.v1.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v2.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v3.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v4.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v5.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v6.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v7.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v8.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v9.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v10.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v11.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v12.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v13.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v14.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v15.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v16.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v17.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v18.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v19.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v20.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v21.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v22.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v23.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v24.cache5.c.youtube.com >>%hosts%
+echo %ytb% tc.v1.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v2.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v3.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v4.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v5.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v6.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v7.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v8.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v9.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v10.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v11.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v12.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v13.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v14.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v15.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v16.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v17.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v18.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v19.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v20.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v21.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v22.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v23.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v24.cache6.c.youtube.com >>%hosts%
+echo %ytb% tc.v1.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v2.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v3.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v4.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v5.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v6.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v7.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v8.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v9.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v10.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v11.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v12.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v13.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v14.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v15.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v16.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v17.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v18.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v19.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v20.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v21.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v22.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v23.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v24.cache7.c.youtube.com >>%hosts%
+echo %ytb% tc.v1.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v2.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v3.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v4.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v5.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v6.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v7.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v8.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v9.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v10.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v11.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v12.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v13.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v14.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v15.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v16.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v17.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v18.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v19.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v20.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v21.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v22.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v23.cache8.c.youtube.com >>%hosts%
+echo %ytb% tc.v24.cache8.c.youtube.com >>%hosts%
+echo %ytb% v1.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v2.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v3.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v4.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v5.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v6.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v7.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v8.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v9.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v10.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v11.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v12.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v13.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v14.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v15.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v16.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v17.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v18.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v19.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v20.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v21.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v22.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v23.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v24.lscache1.c.youtube.com >>%hosts%
+echo %ytb% v1.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v2.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v3.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v4.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v5.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v6.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v7.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v8.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v9.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v10.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v11.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v12.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v13.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v14.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v15.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v16.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v17.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v18.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v19.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v20.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v21.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v22.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v23.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v24.lscache2.c.youtube.com >>%hosts%
+echo %ytb% v1.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v2.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v3.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v4.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v5.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v6.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v7.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v8.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v9.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v10.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v11.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v12.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v13.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v14.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v15.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v16.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v17.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v18.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v19.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v20.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v21.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v22.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v23.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v24.lscache3.c.youtube.com >>%hosts%
+echo %ytb% v1.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v2.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v3.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v4.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v5.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v6.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v7.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v8.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v9.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v10.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v11.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v12.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v13.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v14.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v15.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v16.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v17.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v18.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v19.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v20.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v21.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v22.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v23.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v24.lscache4.c.youtube.com >>%hosts%
+echo %ytb% v1.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v2.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v3.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v4.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v5.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v6.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v7.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v8.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v9.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v10.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v11.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v12.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v13.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v14.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v15.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v16.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v17.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v18.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v19.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v20.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v21.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v22.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v23.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v24.lscache5.c.youtube.com >>%hosts%
+echo %ytb% v1.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v2.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v3.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v4.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v5.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v6.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v7.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v8.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v9.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v10.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v11.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v12.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v13.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v14.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v15.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v16.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v17.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v18.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v19.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v20.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v21.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v22.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v23.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v24.lscache6.c.youtube.com >>%hosts%
+echo %ytb% v1.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v2.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v3.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v4.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v5.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v6.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v7.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v8.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v9.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v10.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v11.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v12.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v13.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v14.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v15.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v16.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v17.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v18.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v19.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v20.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v21.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v22.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v23.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v24.lscache7.c.youtube.com >>%hosts%
+echo %ytb% v1.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v2.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v3.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v4.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v5.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v6.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v7.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v8.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v9.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v10.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v11.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v12.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v13.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v14.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v15.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v16.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v17.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v18.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v19.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v20.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v21.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v22.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v23.lscache8.c.youtube.com >>%hosts%
+echo %ytb% v24.lscache8.c.youtube.com >>%hosts%
+goto :eof
+
+:iGoogle
+REM Felix Hsu and Patched by logicmd
+ipconfig /flushdns
+cls
+echo 请稍等,正在获取Google+ 可用IP
+REM 然后ping www.google.cn和www.google.com以获取最新的IP,赋值%CNIP%和%COMIP%
+REM ping ditu.google.cn获取最新的IP,赋值%MAPIP%
+for /f "tokens=2 delims=[]" %%i in ('ping www.g.cn') do set CNIP=%%i
+for /f "tokens=2 delims=[]" %%i in ('ping www.l.google.com') do set COMIP=%%i
+for /f "tokens=2 delims=[]" %%i in ('ping ditu.google.cn') do set MAPIP=%%i
+REM 为了美观和避免直接在文件末尾添加的惨剧,咱空一行
+echo.  >>%hosts%
+echo #Google Plus >>%hosts%
+echo %CNIP% plus.google.com >>%hosts%
+echo %CNIP% talkgadget.google.com >>%hosts%
+echo %COMIP% picasaweb.google.com >>%hosts%
+echo %COMIP% lh1.ggpht.com >>%hosts%
+echo %COMIP% lh2.ggpht.com >>%hosts%
+echo %COMIP% lh3.ggpht.com >>%hosts%
+echo %COMIP% lh4.ggpht.com >>%hosts%
+echo %COMIP% lh5.ggpht.com >>%hosts%
+echo %COMIP% lh6.ggpht.com >>%hosts%
+echo %CNIP% lh6.googleusercontent.com >>%hosts%
+echo %CNIP% lh5.googleusercontent.com >>%hosts%
+echo %CNIP% lh4.googleusercontent.com >>%hosts%
+echo %CNIP% lh3.googleusercontent.com >>%hosts%
+echo %CNIP% lh2.googleusercontent.com >>%hosts%
+echo %CNIP% lh1.googleusercontent.com >>%hosts%
+echo %CNIP% plus.google.com.hk >>%hosts%
+echo %CNIP% s2.googleusercontent.com >>%hosts%
+echo %CNIP% s1.googleusercontent.com >>%hosts%
+echo %CNIP% images1-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images2-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images3-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images4-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images5-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images6-focus-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% images-pos-opensocial.googleusercontent.com >>%hosts%
+echo %CNIP% maps-api-ssl.google.com >>%hosts%
+echo %CNIP% www.google.com.hk >>%hosts%
+echo %CNIP% www.google.com >>%hosts%
+echo %CNIP% webcache.googleusercontent.com >>%hosts%
+echo %CNIP% mail.google.com >>%hosts%
+echo %CNIP% www.googlelabs.com >>%hosts%
+echo %CNIP% docs.google.com >>%hosts%
+echo %CNIP% plus.google.com >>%hosts%
+echo %CNIP% profiles.google.com >>%hosts%
+echo %CNIP% services.google.com >>%hosts%
+echo %CNIP% clients4.google.com >>%hosts%
+echo %CNIP% clients2.google.com >>%hosts%
+echo %CNIP% chrome.google.com >>%hosts%
+echo %CNIP% tools.google.com >>%hosts%
+REM 把获取到的%MAPIP%
+echo %MAPIP% maps.google.com >>%hosts%
+echo %MAPIP% ditu.google.com >>%hosts%
+CLS
+goto :eof
+
+:smartrd
+%d% http://hostsx.googlecode.com/svn/trunk/data/SmartRD.txt
+(for /f "delims=" %%i in (SmartRD.txt) do (
+call :nslookup %%i
+))>hosts.txt
+for /f "delims=" %%i in (hosts.txt) do @echo %%i >>%hosts%
+goto :eof
+
+:nslookup
+for /f "skip=4 tokens=1* delims=:" %%j in ('nslookup %1') do (
+echo,%%k   %%i & goto :eof
+)
+goto :eof
+
+:addietrust
+mshta vbscript:msgbox("请如下所示： 一行一个网站域名！",64,"Hosts")(window.close)
+echo 以下数据，供您参考：
+echo 11.mydrivers.com>ie.txt
+echo adcontrol.tudou.com>>ie.txt
+echo gimg.iqilu.com>>ie.txt
+echo images.sohu.com>>ie.txt
+echo pro.letv.com>>ie.txt
+echo *.atm.youku.com>>ie.txt
+echo *.mediav.com>>ie.txt
+echo *.sandai.net>>ie.txt
+pause
+start %windir%\notepad.exe ie.txt
+echo 请在修改完毕后关闭记事本，并继续下一步。
+echo 请注意备份 自定义.txt 中的的数据！！！
+echo 确定要使用自定义的IE不信任网址数据？
+pause
+echo       正在添加恶意网址到浏览器非安全区域。
+echo       这个过程需要几分钟，请稍候……
+echo Adding non-malicious URL into your browser security zones.
+echo Please wait……
+set DMAIN=HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains
+for /F %%a in (ie.txt) do reg add "%DMAIN%\%%a" /v * /t REG_DWORD /d 0x00000004 /f >nul
+echo       添加完毕……
+echo  New Data Has been added! & pause & goto gui
+
+:thanks
+msg %username% /time:12 "如果您觉得U+系列软件：Opera U+定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！"
+start iexplore https://me.alipay.com/vokins & msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】"
+goto :eof

@@ -1,0 +1,20 @@
+;version=11:44 2013/2/10
+Acrylic DNS Proxy 版 HostsX 广告屏蔽数据`http://hostsx.googlecode.com/svn/trunk/Acrylic/AcrylicHosts.txt
+HostsX 严格广告屏蔽数据`http://hostsx.googlecode.com/svn/trunk/data/Strictlylist.txt
+-
+下载适用于 Andriod 设备的 Hosts 文件*http://9bu.org/3a
+-
+注意：以下为第三方 Hosts 数据，不推荐同时使用多个！*http://orztech.com/softwares/hostsx/help
+-
+SmartHosts转向数据`https://smarthosts.googlecode.com/svn/trunk/hosts
+IPv6 版智能转向数据`http://ipv6-hosts.googlecode.com/hg/hosts
+-
+恶意网站实验室（MWSL）数据`http://hostsx.googlecode.com/svn/trunk/data/3rdmwsl.txt
+MVPS.org 数据`http://www.mvps.org/winhelp2002/hosts.txt
+SomeoneWhoCares.org 数据`http://someonewhocares.org/hosts/hosts
+IT-Mate.co.uk 数据`http://support.it-mate.co.uk/downloads/HOSTS.txt
+Yoyo.org 数据`http://pgl.yoyo.org/as/serverlist.php?showintro=0;hostformat=hosts
+-
+HostsX 0.5.2.1 已发布，请即刻更新！*http://9bu.org/hostsx
+-
+HostsX 新版建议收集，欢迎反馈！*http://goo.gl/SrgGx

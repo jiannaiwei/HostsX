@@ -1,0 +1,57 @@
+@HostsX 防止网络劫持
+#域名劫持
+0.0.0.0 ss.cnnic.cn
+0.0.0.0 searchportal.winindomain.com
+#电信劫持
+0.0.0.0 114so.cn
+0.0.0.0 taobao.114so.cn
+0.0.0.0 sh.114so.cn
+0.0.0.0 118114.cn
+0.0.0.0 so.118114.cn
+0.0.0.0 114search.118114.cn
+0.0.0.0 114.com.cn
+0.0.0.0 partner.114.com.cn
+0.0.0.0 s.114.com.cn
+0.0.0.0 u.114.com.cn
+0.0.0.0 union.114.com.cn
+0.0.0.0 keyword.vnet.cn
+0.0.0.0 game1.zj.vnet.cn
+0.0.0.0 search.114.vnet.cn
+0.0.0.0 search.gd118114.cn
+0.0.0.0 dianxin.cn
+0.0.0.0 dianxin.com
+0.0.0.0 game.dianxin.cn
+0.0.0.0 img.dianxin.cn
+0.0.0.0 union.dianxin.cn
+0.0.0.0 www.dianxin.cn
+#联通劫持
+0.0.0.0 lndnserror1.wo.com.cn
+0.0.0.0 sddnserror1.wo.com.cn
+0.0.0.0 sddnserror2.wo.com.cn
+0.0.0.0 sddnserror3.wo.com.cn
+0.0.0.0 sddnserror4.wo.com.cn
+0.0.0.0 sddnserror5.wo.com.cn
+0.0.0.0 sddnserror6.wo.com.cn
+0.0.0.0 sddnserror7.wo.com.cn
+0.0.0.0 sddnserror8.wo.com.cn
+0.0.0.0 nfdnserror8.wo.com.cn
+0.0.0.0 nfdnserror1.wo.com.cn
+0.0.0.0 nfdnserror14.wo.com.cn
+0.0.0.0 nfdnserror3.wo.com.cn.zpsn.com
+0.0.0.0 www6.1616.net
+0.0.0.0 st.1616.net
+0.0.0.0 www.wo116.com
+0.0.0.0 pop.17lele.net
+0.0.0.0 search.yousee.com
+0.0.0.0 sg.yousee.com
+#长城宽带劫持
+0.0.0.0 focus.inhe.net
+#各地运营商广告
+0.0.0.0 lc.havod.com
+0.0.0.0 havod.com
+0.0.0.0 www.havod.com
+0.0.0.0 ad.online.cq.cn
+0.0.0.0 g.online.cq.cn
+0.0.0.0 ad.xunkoo.com
+0.0.0.0 ads.iisdoor.com
+0.0.0.0 pv.bbapp.net

@@ -1,0 +1,26 @@
+
+forward-socks4a / 127.0.0.1:9050 . #Privoxy和Tor的，都在同一系统上运行,你应该使用此规则
+#listen-address  0.0.0.0:8118 #监听本地专用网络的请求(为本地网络提供代理)
+listen-address  127.0.0.1:8118 #只是监听本机请求
+confdir . #“confdir”。当前，配置的目录结构
+logdir . #该目录发生的所有记录（即在日志文件 和jar文件的位置） 
+
+#操作文件，所有的每个网站和每网址 配置是为广告拦截，cookie管理， 隐私的考虑，等等，没有至少设置一个操作文件。 
+actionsfile standard  # 标准内部的目的，建议
+actionsfile default   # 默认 主要文件
+actionsfile user      # 用户自定义文件
+filterfile default.filter #预定义过滤器文件为default.filter，其中包含一个常见问题的有用的过滤器被列入分布。 
+#filterfile user.filter      # User customizations
+
+#为1调试级别信息，因为它会告诉你每个请求发生。 1，4096和8192我们强烈建议使用。让您将注意到，当事情出错和其他问题。 
+debug   1    # 显示每个的GET / POST /连接请求 
+debug   4096 # 启动调试的标志和警告
+debug   8192 # 错误- *我们强烈建议启用此*
+
+#toggle  1#系统托盘如果此选项存在。 
+enable-remote-toggle 1 #1 基于网络的切换功能被禁用。 
+enable-remote-http-toggle 1 #1 Privoxy的忽略特殊的HTTP标头。
+enable-edit-actions 1 #1 基于网络的行动的文件编辑器被禁用。
+buffer-limit 4096 #内容过滤缓冲区的最大尺寸，使用4MB的（4096单位：kB）的限制。
+forwarded-connect-retries  0 #转发连接像对待和直接的联系，不作尝试重试。 
+
