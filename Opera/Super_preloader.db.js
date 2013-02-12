@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 12:22 2013/2/12
-// @version 1.0.2.0
+// @lastmodified 23:29 2013/2/12
+// @version 1.0.2.1
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -383,6 +383,15 @@
 				pageElement:'//div[@class="chapter_content"]'
 			}
 		},
+		{siteName:'阿巴达小说网',
+			url:/^http:\/\/www\.abada\.cn\/Book\/.+\.html/i,
+			siteExample:'http://www.abada.cn/Book/5689/698012.html',
+			nextLink:'//div[@class="bookopt"]/descendant::a[text()="翻下页"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="bookcontent"]'
+			}
+		},
 		{siteName:'小说阅读网',
 			url:/^http:\/\/www\.readnovel\.com\/novel\/.+/i,
 			siteExample:'http://www.readnovel.com/novel/142947.html',
@@ -448,20 +457,12 @@
 				pageElement:'//dd[@id="contents"]'
 			}
 		},
-		{siteName:'书路文学网',
-			url:/^http:\/\/www\.shuluxs\.com\/files\/article\/html\/.+\.html/i,
+		{siteName:'书路/3K/儒家',
+			url:/^http:\/\/www\.(shuluxs|shu36|kkkxs|rjbook)\.com\/files\/article\/html\/.+\.html/i,
 			siteExample:'http://www.shuluxs.com/files/article/html/22/22306/8727879.html',
-			nextLink:'//div[@id="footlink"]/descendant::a[text()="下一页"]',
+			nextLink:'auto;',
 			autopager:{
 				pageElement:'//div[@id="content"]'
-			}
-		},
-		{siteName:'世纪文学',
-			url:/^http:\/\/read\.2100book\.com\/files\/article\/html\/.+\.html/i,
-			siteExample:'http://read.2100book.com/files/article/html/2252/2252807/10622720.html',
-			nextLink:'//div[@class="cz_bar"]/descendant::a[text()="下一章"]',
-			autopager:{
-				pageElement:'//div[@class="txt"]'
 			}
 		},
 		{siteName:'落秋',
