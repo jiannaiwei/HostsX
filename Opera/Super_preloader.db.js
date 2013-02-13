@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 23:29 2013/2/12
-// @version 1.0.2.1
+// @lastmodified 19:28 2013/2/13
+// @version 1.0.2.2
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -383,6 +383,14 @@
 				pageElement:'//div[@class="chapter_content"]'
 			}
 		},
+		{siteName:'来书小说网',
+			url:/^http:\/\/www\.laishu\.com\/book\/.+\.shtml/i,
+			siteExample:'http://www.laishu.com/book/8/8891/5488036.shtml',
+			nextLink:'auto;',
+			autopager:{
+				pageElement:'//table[@class="tabkuan"]',
+			}
+		},
 		{siteName:'阿巴达小说网',
 			url:/^http:\/\/www\.abada\.cn\/Book\/.+\.html/i,
 			siteExample:'http://www.abada.cn/Book/5689/698012.html',
@@ -431,6 +439,90 @@
 			nextLink:'//div[@id="footlink"]/a[text()="下一页(快捷键:→)"]',
 			autopager:{
 				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'快眼文学网',
+			url:/^http:\/\/www\.kywxw\.com\/.+\.html/i,
+			siteExample:'http://www.kywxw.com/0/12/3792643.html',
+			nextLink:'//div[@id="thumb"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'就爱文学',
+			url:/^http:\/\/www\.92wx\.org\/html\/.+\.html/i,
+			siteExample:'http://www.92wx.org/html/0/807/220709.html',
+			nextLink:'//div[@id="page_bar"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="chapter_content"]'
+			}
+		},
+		{siteName:'亲亲小说网',
+			url:/^http:\/\/www\.77shu\.com\/view\/.+\.html/i,
+			siteExample:'http://www.77shu.com/view/0/20/2062418.html',
+			nextLink:'//div[@id="chapter_pager"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="chapter_content"]'
+			}
+		},
+		{siteName:'七味书屋',
+			url:/^http:\/\/www\.7wsw\.net\/html\/.+\.html/i,
+			siteExample:'http://www.7wsw.net/html/shifangtianshi/719412.html',
+			nextLink:'//div[@id="chapter_pager"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="book_middle_article"]'
+			}
+		},
+		{siteName:'天天中文',
+			url:/^http:\/\/www\.360118\.com\/html\/.+\.html/i,
+			siteExample:'http://www.360118.com/html/21/21951/5416831.html',
+			nextLink:'//div[@id="FootLink"]/descendant::a[text()="下一页（快捷键→）"]',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'言情后花园',
+			url:/^http:\/\/www\.yqhhy\.org\/novel\/.+\.html/i,
+			siteExample:'http://www.yqhhy.org/novel/0/761/38769.html',
+			nextLink:'//div[@id="link"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'平南文学',
+			url:/^http:\/\/www\.pnxs\.com\/book\/.+\.html/i,
+			siteExample:'http://www.pnxs.com/book/zhongshengyantaizidan/2164438.html',
+			nextLink:'//div[@class="book_middle_text_next"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@class="book_middle_text"]'
+			}
+		},
+		{siteName:'一流小说',
+			url:/^http:\/\/www\.1lxs\.com\/novel\/.+\.html/i,
+			siteExample:'http://www.1lxs.com/novel/80341/9055036.html',
+			nextLink:'//div[@id="chapter_nav"]/descendant::a[text()="下一章"]',
+			autopager:{
+				useiframe:true,
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'一一小说',
+			url:/^http:\/\/www\.11xs\.com\/.+\.htm/i,
+			siteExample:'http://www.11xs.com/xs/213/119908.htm',
+			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="下一页"]',
+			autopager:{
+				pageElement:'//div[@id="Content"]'
+			}
+		},
+		{siteName:'六九中文',
+			url:/^http:\/\/www\.69zw\.com\/xiaoshuo\/.+\.html/i,
+			siteExample:'http://www.69zw.com/xiaoshuo/21/21943/4461482.html',
+			nextLink:'//div[@class="chapter_Turnpage"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@class="novel_content"]'
 			}
 		},
 		{siteName:'读看看小说网/丫丫书屋',
