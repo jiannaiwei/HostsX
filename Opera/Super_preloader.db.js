@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 19:28 2013/2/13
-// @version 1.0.2.2
+// @lastmodified 13:37 2013/2/14
+// @version 1.0.2.3
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -869,6 +869,22 @@
 			nextLink:'//div[@id="pages"]/descendant::a[text()="下一章"]',
 			autopager:{
 				pageElement:'//div[@id="bookbody"]'
+			}
+		},
+		{siteName:'涂鸦小说网',
+			url:/^http:\/\/www\.tooya\.net\/.+\.html/i,
+			siteExample:'http://www.tooya.net/tooya/2/2094/820902.html',
+			nextLink:'//div[@class="novel_bottom"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="content"]'
+			}
+		},
+		{siteName:'大风车小说网',
+			url:/^http:\/\/www\.cnnas\.com\/.+\.html/i,
+			siteExample:'http://www.cnnas.com/0/1/7.html',
+			nextLink:'//div[@id="chapter_pager"]/descendant::a[text()="下一章"]',
+			autopager:{
+				pageElement:'//div[@id="left_area"]'
 			}
 		},
 		{siteName:'幻剑书盟',
