@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=12:42:09.33 2013/02/14 周四
+;version=19:12:57.43 2013/02/14 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -5751,6 +5751,14 @@ $      下载最新版本的 HostsX。
 0.0.0.0 engine.influads.com
 0.0.0.0 static.influads.com
 0.0.0.0 static2.influads.com
+#innity
+0.0.0.0 avn.innity.com
+0.0.0.0 cdn.innity.net
+0.0.0.0 cdn.media.innity.net
+0.0.0.0 www.innity.com
+0.0.0.0 id.innityserve.net
+0.0.0.0 pub.innityserve.net
+0.0.0.0 www.advenueplatform.com
 #Ih Networks
 0.0.0.0 ads1.performancingads.com
 0.0.0.0 jserve.performancingads.com

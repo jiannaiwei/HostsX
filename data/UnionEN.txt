@@ -1589,6 +1589,14 @@
 0.0.0.0 engine.influads.com
 0.0.0.0 static.influads.com
 0.0.0.0 static2.influads.com
+#innity
+0.0.0.0 avn.innity.com
+0.0.0.0 cdn.innity.net
+0.0.0.0 cdn.media.innity.net
+0.0.0.0 www.innity.com
+0.0.0.0 id.innityserve.net
+0.0.0.0 pub.innityserve.net
+0.0.0.0 www.advenueplatform.com
 #Ih Networks
 0.0.0.0 ads1.performancingads.com
 0.0.0.0 jserve.performancingads.com

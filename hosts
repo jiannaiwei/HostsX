@@ -1,5 +1,5 @@
 
-;version=12:42:09.33 2013/02/14 周四
+;version=19:12:57.43 2013/02/14 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9212,6 +9212,14 @@ $      下载最新版本的 HostsX。
 127.0.0.1 engine.influads.com
 127.0.0.1 static.influads.com
 127.0.0.1 static2.influads.com
+#innity
+127.0.0.1 avn.innity.com
+127.0.0.1 cdn.innity.net
+127.0.0.1 cdn.media.innity.net
+127.0.0.1 www.innity.com
+127.0.0.1 id.innityserve.net
+127.0.0.1 pub.innityserve.net
+127.0.0.1 www.advenueplatform.com
 #Ih Networks
 127.0.0.1 ads1.performancingads.com
 127.0.0.1 jserve.performancingads.com
