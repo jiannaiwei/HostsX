@@ -1,5 +1,5 @@
 
-;version=20:50:37.21 2013/02/12 周二
+;version=10:31:19.32 2013/02/14 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -5181,6 +5181,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 img1.ientry.net
 127.0.0.1 tracking.ientry.net
 127.0.0.1 text-link-ads.ientry.com
+#influads
+127.0.0.1 engine.influads.com
+127.0.0.1 static.influads.com
+127.0.0.1 static2.influads.com
 #Ih Networks
 127.0.0.1 ads1.performancingads.com
 127.0.0.1 jserve.performancingads.com

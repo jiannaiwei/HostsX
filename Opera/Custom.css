@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.3.1
+Version: 5.0.3.2
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 23:28 2013/2/12
+Lastchage: 10:32 2013/2/14
 Description: MayBe a better User CSS Help U.
 */
 
@@ -80,8 +80,8 @@ div[class="adll"],div[class^="adLeft"],div[id^="LeftAd"],div[id$="eftDiv"],div[i
 div[class="adrr"],div[class^="adRight"],div[id^="RightAd"],div[id$="ightDiv"],div[id^="RightBottom"],div[id="rightdiv"]{
 display: none !important;
 	}
-div[id="leftsp"],div[id^="ad-right"],div[id^="rightAd"],div[id$="rightad"],div[id^="AdRight"],div[id$="tCoupletId"],div[id^="followDiv"],
-div[id="rightsp"],div[id^="ad-left"],div[id^="ad_right"],div[class^="RightAD"],div[class^="rightad"],div[class*="_right_side"],div[class*=" video-couplet-"]{
+div[id="leftsp"],div[id^="ad-right"],div[id^="rightAd"],div[id$="rightad"],div[id^="AdRight"],div[id$="tCoupletId"],div[class*=" video-couplet-"],div[id^="followDiv"],
+div[id="rightsp"],div[id^="ad-left"],div[id^="adLeft"],div[id^="ad_right"],div[class^="RightAD"],div[class^="rightad"],div[class*="_right_side"]{
 display: none !important;
 	}
 div[class^="Indexad"],div[class*="inner_ad"],div[class^="double_ad"],div[class^="footad"],
@@ -179,7 +179,7 @@ display: none !important;
 div[class^="cl970"],div[class^="cl760"],div[class$=" clDiv"]{display:none !important}
 
 /* Adult WebSite AD*/
-div[id$="_adImg"],div[id*="_ads_div"],div[id^="cnzz_"],div[class*="yahooAd"],
+div[id$="_adImg"],div[id*="_ads_div"],div[id*="ads_block"],div[id^="cnzz_"],div[class*="yahooAd"],
 div[id^="lovexin"],span[id*="myads"],td>div[class="tj"],div[id*="allyesAdv"]{
 display: none !important;
 	}
@@ -229,7 +229,7 @@ div[id="piaofu"],div[class^="adFloat"],div[class^="float-ad-"],div[class^="float
 display: none !important;
 	}
 div[id$="FollowPopUp"],div[id="ty_msg_mod"],div[id$="closeBig"],div[class="blogpop"],#bbs_jxtj,#bshareF,#fixedLayertop,.QQbox,
-div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{
+div[id="qqaddiva"],div[id="ShowQQ"],div[id="popupWin"],div[id="popup"][class="t"],div[id^="_CNZZ_SEARCH"],div[class="floatingTabsBox"]{
 display: none !important;
 	}
 div[class^="upgrade_ie6"],div[id="update_popwin"],div[id="browsertip"],div[class^="bot_tips"],div[class="tips_player"],div[class="tips_container"],div[id="browse_popularize"],div[class="upgrade_your_browser"]{display:none !important}

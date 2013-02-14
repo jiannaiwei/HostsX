@@ -1585,6 +1585,10 @@
 0.0.0.0 img1.ientry.net
 0.0.0.0 tracking.ientry.net
 0.0.0.0 text-link-ads.ientry.com
+#influads
+0.0.0.0 engine.influads.com
+0.0.0.0 static.influads.com
+0.0.0.0 static2.influads.com
 #Ih Networks
 0.0.0.0 ads1.performancingads.com
 0.0.0.0 jserve.performancingads.com

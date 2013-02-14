@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20:50:37.21 2013/02/12 周二
+;version=10:31:19.32 2013/02/14 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -5747,6 +5747,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 img1.ientry.net
 0.0.0.0 tracking.ientry.net
 0.0.0.0 text-link-ads.ientry.com
+#influads
+0.0.0.0 engine.influads.com
+0.0.0.0 static.influads.com
+0.0.0.0 static2.influads.com
 #Ih Networks
 0.0.0.0 ads1.performancingads.com
 0.0.0.0 jserve.performancingads.com
