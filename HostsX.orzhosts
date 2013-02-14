@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=10:31:19.32 2013/02/14 周四
+;version=12:42:09.33 2013/02/14 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9959,6 +9959,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 z.blogads.com
 0.0.0.0 www.blogad.com.tw
 #Bloggerads
+0.0.0.0 author.bloggerads.net
+0.0.0.0 ad.bloggerads.net
 0.0.0.0 ad2.bloggerads.net
 0.0.0.0 css.bloggerads.net
 0.0.0.0 lt.bloggerads.net

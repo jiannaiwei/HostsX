@@ -593,6 +593,8 @@
 0.0.0.0 z.blogads.com
 0.0.0.0 www.blogad.com.tw
 #Bloggerads
+0.0.0.0 author.bloggerads.net
+0.0.0.0 ad.bloggerads.net
 0.0.0.0 ad2.bloggerads.net
 0.0.0.0 css.bloggerads.net
 0.0.0.0 lt.bloggerads.net

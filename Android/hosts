@@ -1,5 +1,5 @@
 
-;version=10:31:19.32 2013/02/14 周四
+;version=12:42:09.33 2013/02/14 周四
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -9393,6 +9393,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 z.blogads.com
 127.0.0.1 www.blogad.com.tw
 #Bloggerads
+127.0.0.1 author.bloggerads.net
+127.0.0.1 ad.bloggerads.net
 127.0.0.1 ad2.bloggerads.net
 127.0.0.1 css.bloggerads.net
 127.0.0.1 lt.bloggerads.net
