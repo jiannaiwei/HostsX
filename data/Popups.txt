@@ -934,7 +934,6 @@
 0.0.0.0 code.2800v.net
 0.0.0.0 code.ukad.com
 0.0.0.0 img.09dy.com
-0.0.0.0 static.duoshuo.com
 0.0.0.0 url7.me
 0.0.0.0 avn.innity.com
 0.0.0.0 track.weiyi.com

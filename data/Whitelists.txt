@@ -90,6 +90,7 @@
 0.0.0.0 seupdate.360safe.com
 0.0.0.0 shared.ydstatic.com
 0.0.0.0 static.766.com
+0.0.0.0 static.duoshuo.com
 0.0.0.0 static.www.iciba.com
 0.0.0.0 static.youku.com
 0.0.0.0 static1.pplive.cn
