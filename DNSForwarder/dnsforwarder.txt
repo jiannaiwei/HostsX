@@ -1,4 +1,4 @@
-DNS 转发器 V2.2.3
+DNS 转发器 V2.2.4
 
 此版本大部分的配置通过配置文件进行 (详见配置文件)，但保留了少数命令行参数。
 
@@ -76,8 +76,7 @@ DisabledDomain *ad*
 DisabledDomain .com
 
 除谷歌外全部使用UDP查询:
-UDPServer 114.114.114.114 # 您可以指定其他的 UDP 服务器:
-
+UDPServer 114.114.114.114 # 您可以指定其他的 UDP 服务器
 PrimaryServer UDP
-
 ExcludedDomain *.google.*,googleusercontent.com,googleadservices.com
+
