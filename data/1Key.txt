@@ -548,8 +548,6 @@
 0.0.0.0 com.down.sandai.net
 0.0.0.0 cop.my.sandai.net
 0.0.0.0 count.cpm.cm.sandai.net
-0.0.0.0 dlresctrl.phub.sandai.net
-0.0.0.0 down.sandai.net
 0.0.0.0 float.sandai.net
 0.0.0.0 gvod.union.sandai.net
 0.0.0.0 hub5btmain.sandai.net
@@ -576,9 +574,7 @@
 0.0.0.0 server1.adpolestar.net
 0.0.0.0 advstat.xunlei.com
 0.0.0.0 analytics-union.xunlei.com
-0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
-0.0.0.0 client.stat.xunlei.com
 0.0.0.0 cop.my.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
@@ -586,7 +582,6 @@
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 leiyanstatic.xunlei.com
-0.0.0.0 media.info.client.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 p4pstatic.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com

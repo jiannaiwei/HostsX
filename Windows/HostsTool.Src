@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.2.5
+set ver=1.0.2.6
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -412,7 +412,12 @@ echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul & goto gui
 title IE浏览器修复和优化
 echo  请先关闭 Internet Explorer !
 pause
-taskkill /F /IM iexplore.exe /T>nul 2>nul
+taskkill /F /IM iexplore.exe /T
+echo 用系统劫持方法杜绝一些而已插件工具栏的运行！
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ASBarBroker.exe" /v debugger /t reg_sz /d debugfile.exe /f
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Baidu-TB-ASBar.exe" /v debugger /t reg_sz /d debugfile.exe /f
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\BarBroker.exe" /v debugger /t reg_sz /d debugfile.exe /f
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\esc.exe" /v debugger /t reg_sz /d debugfile.exe /f
 regsvr32 /s actxprxy.dll
 regsvr32 /s shdocvw.dll
 regsvr32 /s oleaut32.dll

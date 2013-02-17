@@ -272,8 +272,6 @@
 0.0.0.0 softstat.kugou.com
 0.0.0.0 yx.kugou.com
 #Maxthon
-0.0.0.0 img.007.mx
-0.0.0.0 www.007.mx
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 datacn-dl.maxthon.com
 0.0.0.0 stats-a.maxthon.cn

@@ -465,24 +465,14 @@
 #Rising
 0.0.0.0 alert.rising.com.cn
 #115
-0.0.0.0 pc.115.com
-0.0.0.0 ie.115.com
 0.0.0.0 tongji.115.com
-0.0.0.0 soft.tjj.com
 0.0.0.0 v2.tjj.com
-0.0.0.0 xiazai.xiazaiba.com
-0.0.0.0 www.114la.com
 0.0.0.0 un.i.116.com
 0.0.0.0 un.v.116.com
-0.0.0.0 www.999.com
 #2345
-0.0.0.0 2345.com
-0.0.0.0 download.2345.com
-0.0.0.0 ie.2345.com
 0.0.0.0 jifen.2345.com
 0.0.0.0 union.2345.com
 0.0.0.0 union2.2345.com
-0.0.0.0 www.2345.com
 0.0.0.0 my.suda123.com
 0.0.0.0 union.suda123.com
 @HostsX 国内站点广告/汽车类网站

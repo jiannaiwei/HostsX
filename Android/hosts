@@ -1,5 +1,5 @@
 
-;version=12:36:08.52 2013/02/15 周五
+;version=12:59:27.17 2013/02/17 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -626,8 +626,6 @@ fe80::1%lo0	localhost
 127.0.0.1 com.down.sandai.net
 127.0.0.1 cop.my.sandai.net
 127.0.0.1 count.cpm.cm.sandai.net
-127.0.0.1 dlresctrl.phub.sandai.net
-127.0.0.1 down.sandai.net
 127.0.0.1 float.sandai.net
 127.0.0.1 gvod.union.sandai.net
 127.0.0.1 hub5btmain.sandai.net
@@ -654,9 +652,7 @@ fe80::1%lo0	localhost
 127.0.0.1 server1.adpolestar.net
 127.0.0.1 advstat.xunlei.com
 127.0.0.1 analytics-union.xunlei.com
-127.0.0.1 areainfo.xunlei.com
 127.0.0.1 cl.kankan.xunlei.com
-127.0.0.1 client.stat.xunlei.com
 127.0.0.1 cop.my.xunlei.com
 127.0.0.1 gouwu.vip.xunlei.com
 127.0.0.1 hezuo.down.xunlei.com
@@ -664,7 +660,6 @@ fe80::1%lo0	localhost
 127.0.0.1 kkpgv.xunlei.com
 127.0.0.1 kkpgv2.xunlei.com
 127.0.0.1 leiyanstatic.xunlei.com
-127.0.0.1 media.info.client.xunlei.com
 127.0.0.1 mediapv.xunlei.com
 127.0.0.1 p4pstatic.xunlei.com
 127.0.0.1 pv.kankan.stat.xunlei.com
@@ -2744,24 +2739,14 @@ $      下载最新版本的 HostsX。
 #Rising
 127.0.0.1 alert.rising.com.cn
 #115
-127.0.0.1 pc.115.com
-127.0.0.1 ie.115.com
 127.0.0.1 tongji.115.com
-127.0.0.1 soft.tjj.com
 127.0.0.1 v2.tjj.com
-127.0.0.1 xiazai.xiazaiba.com
-127.0.0.1 www.114la.com
 127.0.0.1 un.i.116.com
 127.0.0.1 un.v.116.com
-127.0.0.1 www.999.com
 #2345
-127.0.0.1 2345.com
-127.0.0.1 download.2345.com
-127.0.0.1 ie.2345.com
 127.0.0.1 jifen.2345.com
 127.0.0.1 union.2345.com
 127.0.0.1 union2.2345.com
-127.0.0.1 www.2345.com
 127.0.0.1 my.suda123.com
 127.0.0.1 union.suda123.com
 @HostsX 国内站点广告/汽车类网站
@@ -3506,8 +3491,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 softstat.kugou.com
 127.0.0.1 yx.kugou.com
 #Maxthon
-127.0.0.1 img.007.mx
-127.0.0.1 www.007.mx
 127.0.0.1 mk.maxthon.cn
 127.0.0.1 datacn-dl.maxthon.com
 127.0.0.1 stats-a.maxthon.cn
