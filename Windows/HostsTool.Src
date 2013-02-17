@@ -38,11 +38,14 @@ rem 启用拖放操作
 copy "%~1" %hosts%  >nul 2>nul & ipconfig -flushdns >nul 2>nul
 if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..." & call :fixhosts
 rem 自动检测升级模块
-call :vdcore
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
+echo WScript.sleep 50 >>%temp%/chkver.vbs
+echo loop >>%temp%/chkver.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
+cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if "%verNew%"=="未知" goto uperror
-if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & call :vdcore & cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src" >%temp%\HostsTool.bat goto Updates)
+if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
 cls
 
 :gui
@@ -275,7 +278,13 @@ for %%1 in (%temp%\HostsTool.bat)do set guf=%%~z1
 msg %username% /time:2 "【新版本升级中,请稍后！】"
 md Bakup\ >nul 2>nul
 copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
-wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
+echo WScript.sleep 200 >>%temp%/Upnew.vbs
+echo loop >>%temp%/Upnew.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
+%d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src
 echo @echo off>%temp%\gup.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\gup.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\gup.bat
