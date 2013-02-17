@@ -284,12 +284,11 @@ echo WScript.sleep 200 >>%temp%/Upnew.vbs
 echo loop >>%temp%/Upnew.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
 cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
-%d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src
 echo @echo off>%temp%\gup.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\gup.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\gup.bat
 echo Exit>>%temp%\gup.bat
-if %guf% lss %uf% (ren HostsTool.Src HostsToolNew.bat & ren %0 HostsToolold.bat) else (start %temp%\gup.bat)
+if %guf% lss %uf% (pause & %d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src ren HostsTool.Src HostsToolNew.bat & ren %0 HostsToolold.bat) else (start %temp%\gup.bat)
 exit
 
 :rp127
