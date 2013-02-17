@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.3.2
+Version: 5.0.3.5
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 10:32 2013/2/14
+Lastchage: 11:58 2013/2/17
 Description: MayBe a better User CSS Help U.
 */
 
@@ -84,7 +84,7 @@ div[id="leftsp"],div[id^="ad-right"],div[id^="rightAd"],div[id$="rightad"],div[i
 div[id="rightsp"],div[id^="ad-left"],div[id^="adLeft"],div[id^="ad_right"],div[class^="RightAD"],div[class^="rightad"],div[class*="_right_side"]{
 display: none !important;
 	}
-div[class^="Indexad"],div[class*="inner_ad"],div[class^="double_ad"],div[class^="footad"],
+div[class^="Indexad"],div[class*="inner_ad"],div[class^="double_ad"],div[class^="footad"],div[class^="footer_adv"],
 div[class^="ATopTxt"],div[class="imgad"],div[class^="img-ad"],div[class^="other_adv"],div[class="tad"]{
 display: none !important;
 	}
@@ -236,7 +236,7 @@ div[class^="upgrade_ie6"],div[id="update_popwin"],div[id="browsertip"],div[class
 
 /* 国内部分站点广告 */
 sohuadcode {display:none !important}
-div[feedtype="ad"],div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"],div[class^="imh-vv "][id^="imh-"],div[class^="tit_ad"]{display:none !important}
+div[feedtype="ad"],div[class="newslist"]>dl>dd[class="detail"]>em,div[class^="content ad-"],div[class^="imh-vv "][id^="imh-"],div[id^="q_topbanner_"],div[class^="tit_ad"]{display:none !important}
 
 /* 海外部分站点广告 */
 div[gmi-name="ad_zone"],div[class^="promo-"]{display:none !important}
