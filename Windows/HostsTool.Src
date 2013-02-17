@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.2.9
+set ver=1.0.3.0
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -41,7 +41,8 @@ rem 自动检测升级模块
 call :vdcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
-if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src" >%appdata%\HostsTool.bat goto Updates)
+if "%verNew%"=="未知" goto uperror
+if %ver%==%verNew% (goto gui) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & call :vdcore & cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src" >%temp%\HostsTool.bat goto Updates)
 cls
 
 :gui
@@ -269,18 +270,17 @@ notepad %hosts%
 goto :eof
 
 :Updates
-set size=50000
-for %%1 in (%appdata%\HostsTool.bat)do set guf=%%~z1
-if %guf% lss %uf% (wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src & msg %username% /time:5 "努力获取中") else (goto gui)
+set uf=50000
+for %%1 in (%temp%\HostsTool.bat)do set guf=%%~z1
 msg %username% /time:2 "【新版本升级中,请稍后！】"
 md Bakup\ >nul 2>nul
 copy /y %0 Bakup\"HostsTool_%ver%.bat" >nul 2>nul
-echo Backup of the old version(%ver%)
-echo @echo off>%appdata%\up.bat
-echo copy /y "%f%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%appdata%\up.bat
-echo start "" "%~dp0\%~n0.bat">>%appdata%\up.bat
-echo Exit>>%appdata%\up.bat
-start %appdata%\up.bat
+wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src
+echo @echo off>%temp%\gup.bat
+echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\gup.bat
+echo start "" "%~dp0\%~n0.bat">>%temp%\gup.bat
+echo Exit>>%temp%\gup.bat
+if %guf% lss %uf% (ren HostsTool.Src HostsToolNew.bat & ren %0 HostsToolold.bat) else (start %temp%\gup.bat)
 exit
 
 :rp127
@@ -539,6 +539,7 @@ goto :eof
 
 :cleanbaidu
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ASBarBroker.exe" /v debugger /t reg_sz /d debugfile.exe /f
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\bdupdate.exe" /v debugger /t reg_sz /d debugfile.exe /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Baidu-TB-ASBar.exe" /v debugger /t reg_sz /d debugfile.exe /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\BarBroker.exe" /v debugger /t reg_sz /d debugfile.exe /f
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (rd "C:\Program Files (x86)\Baidu\Toolbar" /s/q >nul 2>nul & c:> "C:\Program Files (x86)\Baidu\Toolbar") Else (rd "%Program Files%\Baidu\Toolbar" /s/q >nul 2>nul & c:> "%Program Files%\Baidu\Toolbar")
@@ -599,6 +600,7 @@ reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{
 goto :eof
 
 :cleanwps
+del /f /q /a %SYSTEMROOT%\Tasks\WpsUpdateTask*.job
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\esc.exe" /v debugger /t reg_sz /d debugfile.exe /f
 %k% updatesvr.exe
 %k% updntfr.exe
@@ -612,6 +614,13 @@ goto :eof
 echo 清除SOGOU搜狗的IE加载项so.dll
 regsvr32 /u /s %windir%\system32\so.dll >nul 2>nul
 del /f %windir%\system32\so.dll >nul 2>nul
+taskkill /f /t /im PinyinUp.exe
+taskkill /f /t /im SogouCloud.exe
+taskkill /f /t /im userNetSchedule.exe
+taskkill /f /t /im ImeUtil.exe
+taskkill /f /t /im SeFastInstall.exe
+taskkill /f /t /im SGTool.exe
+del /f /q /a %SYSTEMROOT%\Tasks\Sougou*.job
 reg delete HKCR\NetCafeHlp.AddrHelper /f >nul 2>nul
 reg delete HKCR\NetCafeHlp.AddrHelper.1 /f >nul 2>nul
 reg delete "HKCU\Software\Microsoft\Internet Explorer\URLSearchHooks" /v {02AC20DD-5548-4CA7-ACCF-18AFE5A4A072} /f >nul 2>nul
