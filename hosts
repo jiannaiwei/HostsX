@@ -1,5 +1,5 @@
 
-;version=12:59:27.17 2013/02/17 周日
+;version=14:43:09.22 2013/02/17 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -6406,7 +6406,6 @@ $      下载最新版本的 HostsX。
 @HostsX 国内站点广告/小说类网站
 #起点中文网
 127.0.0.1 s1.cmfu.com
-127.0.0.1 avd.qidian.com
 127.0.0.1 qidian.adsame.com
 127.0.0.1 o.if.qidian.com
 127.0.0.1 uedas.qidian.com
@@ -16117,7 +16116,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 refer.ccbill.com
 127.0.0.1 gjsq.me
 127.0.0.1 ad.avsexnight.com
-127.0.0.1 www.relink.us
 127.0.0.1 widget.clips4sale.com
 127.0.0.1 click.kink.com
 127.0.0.1 c.actiondesk.com

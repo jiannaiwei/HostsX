@@ -105,7 +105,6 @@
 @HostsX 国内站点广告/小说类网站
 #起点中文网
 0.0.0.0 s1.cmfu.com
-0.0.0.0 avd.qidian.com
 0.0.0.0 qidian.adsame.com
 0.0.0.0 o.if.qidian.com
 0.0.0.0 uedas.qidian.com

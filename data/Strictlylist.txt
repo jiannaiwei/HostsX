@@ -19,3 +19,4 @@
 0.0.0.0 soft.tjj.com
 0.0.0.0 img.007.mx
 0.0.0.0 www.007.mx
+0.0.0.0 avd.qidian.com

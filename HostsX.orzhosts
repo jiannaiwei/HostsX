@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=12:59:27.17 2013/02/17 周日
+;version=14:43:09.22 2013/02/17 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2383,7 +2383,6 @@ $      下载最新版本的 HostsX。
 @HostsX 国内站点广告/小说类网站
 #起点中文网
 0.0.0.0 s1.cmfu.com
-0.0.0.0 avd.qidian.com
 0.0.0.0 qidian.adsame.com
 0.0.0.0 o.if.qidian.com
 0.0.0.0 uedas.qidian.com
@@ -14180,7 +14179,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 refer.ccbill.com
 0.0.0.0 gjsq.me
 0.0.0.0 ad.avsexnight.com
-0.0.0.0 www.relink.us
 0.0.0.0 widget.clips4sale.com
 0.0.0.0 click.kink.com
 0.0.0.0 c.actiondesk.com
