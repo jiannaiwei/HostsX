@@ -266,7 +266,7 @@ notepad %hosts%
 goto :eof
 
 :Updates
-set uf=50000
+set uf=5000
 for %%1 in (%temp%\HostsTool.bat)do set guf=%%~z1
 msg %username% /time:2 "【新版本升级中,请稍后！】"
 md Bakup\ >nul 2>nul
