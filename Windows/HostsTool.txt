@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.0.0
+set ver=1.1.0.1
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -143,7 +143,7 @@ goto :eof
 :youku
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
-start /min iexplore http://i.youku.com/u/UMzI4MTU2ODQ
+start /min iexplore.exe http://i.youku.com/u/UMzI4MTU2ODQ
 del /f /q %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg >nul 2>nul
@@ -332,6 +332,7 @@ goto :eof
 
 :Xunlei
 set /a str+=1
+echo.  >>%hosts%
 echo 0.0.0.0 %str%.logic.cpm.cm.sandai.net >>%hosts%
 if not %str%==%date:~0,4%%date:~5,2%31 (goto Xunlei)
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.logic.cpm.cm.sandai.net >>%hosts%

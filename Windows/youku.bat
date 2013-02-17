@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 set k=taskkill /f /t /im
-start /min iexplore http://i.youku.com/u/UMzI4MTU2ODQ
+start /min iexplore.exe http://i.youku.com/u/UMzI4MTU2ODQ
 del /f /q %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
 echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg >nul 2>nul

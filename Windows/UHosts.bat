@@ -1,5 +1,5 @@
 @echo off
-set ver=0.2
+set ver=0.3
 SETLOCAL EnableExtensions
 SetLocal EnableDelayedExpansion
 mode con cols=30 lines=10
@@ -29,7 +29,7 @@ echo Backup completed!
 :dftvbs
 ping /n 2 hostsx.googlecode.com >nul||goto dftlocal
 call :upcore
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts">>%temp%\HostsX.orzhosts
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/hosts">>%temp%\HostsX.orzhosts
 rem copy /b %temp%\HostsX.orzhosts+smarthosts.txt hbhosts.txt
 copy %temp%\HostsX.orzhosts %hosts%
 call :temp&call :dns&msg %username% /time:1 "U+ Hosts data has been Updated！"&Exit
@@ -37,7 +37,7 @@ call :temp&call :dns&msg %username% /time:1 "U+ Hosts data has been Updated！"&E
 :dns
 notepad %hosts%
 echo FlushDns...
-%k% iexplore.exe >nul 2>nul
+call :youku
 ipconfig -flushdns >nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
@@ -46,12 +46,10 @@ DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
-del /f /s /q "%userprofile%\cookies">nul 2>nul
 del /f /s /q "%userprofile%\recent">nul 2>nul
 ipconfig -flushdns >nul 2>nul
 ipconfig -registerdns >nul 2>nul
 ipconfig -renew >nul 2>nul
-call :youku
 goto:eof
 
 :chkupdate
@@ -63,7 +61,7 @@ echo      正在更新
 echo.
 echo    ...请稍候...
 call :upcore
-cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%cd%\HostsTool.bat
+cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.txt">%cd%\HostsTool.bat
 start %cd%\HostsTool.bat& del %0
 exit
 
@@ -76,22 +74,42 @@ echo WScript.echo oDOM.documentElement.outerText >>%temp%/Updates.vbs
 goto:eof
 
 :youku
+start /min iexplore.exe http://i.youku.com/u/UMzI4MTU2ODQ
+ping 127.0.0.1 -n 3 >nul
+%k% iexplore.exe >nul 2>nul
+ping 127.0.0.1 -n 2 >nul
 for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
 set str=%%i
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q >nul 2>nul
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com"
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q >nul 2>nul
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.letvcdn.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.letvcdn.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q >nul 2>nul
 c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
-mshta vbscript:msgbox("优酷广告已免疫！",64,"SimpleU+")(window.close)
+rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com"
+rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net"
+ipconfig -flushdns >nul 2>nul
+mshta vbscript:msgbox("视频播放广告已免疫！",64,"SimpleU+")(window.close)
 goto:EOF
 
 :Xunlei
 set /a str+=1
+echo.  >>%hosts%
 echo 0.0.0.0 %str%.biz5.sandai.net >>%hosts%
+echo 0.0.0.0 %str%.logic.cpm.cm.sandai.net >>%hosts%
 if not %str%==%date:~0,4%%date:~5,2%31 (goto Xunlei)
 echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.biz5.sandai.net >>%hosts%
+echo 0.0.0.0 %date:~0,4%%date:~5,2%%date:~8,2%.logic.cpm.cm.sandai.net >>%hosts%
 goto:eof
 
 :unlock
@@ -100,9 +118,8 @@ attrib %hosts% -r -h -s >nul 2>nul
 goto:eof
 
 :temp
-rem call :BeijingIP
 call :Xunlei
-del %etc%\HostsX.orzhosts & copy %temp%\HostsX.orzhosts %etc%\HostsX.orzhosts
+del %etc%\HostsX.orzhosts & copy %temp%\HostsX.orzhosts %etc%
 goto:eof
 
 :dftlocal
