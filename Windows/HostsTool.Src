@@ -303,7 +303,7 @@ cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/
 set size=100000
 for %%1 in (HostsTool.bat)do set gsize=%%~z1
 cls
-if %gsize% gtr %size% (echo 网络获取失败，正在努力获取 & %d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src -o %temp% & ren HostsTool.Src HostsTool.bat & goto Updateit) else (goto Updateit)
+if %gsize% gtr %size% (%d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src & ren HostsTool.Src HostsToolnew.bat & msg %username% /time:2 "网络连接失败，正在努力获取中" & start explorer %~dp0 & del 0%) else (goto Updateit)
 goto :eof
 
 :rp127
