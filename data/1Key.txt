@@ -262,6 +262,7 @@
 0.0.0.0 mobwin.android.com
 0.0.0.0 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
+0.0.0.0 isafe.baidu.com
 0.0.0.0 api.share.baidu.com
 0.0.0.0 bdimg.share.baidu.com
 0.0.0.0 like.baidu.com

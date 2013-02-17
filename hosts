@@ -1,5 +1,5 @@
 
-;version=14:43:09.22 2013/02/17 周日
+;version=15:25:10.23 2013/02/17 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -4367,6 +4367,7 @@ fe80::1%lo0	localhost
 127.0.0.1 mobwin.android.com
 127.0.0.1 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
+127.0.0.1 isafe.baidu.com
 127.0.0.1 api.share.baidu.com
 127.0.0.1 bdimg.share.baidu.com
 127.0.0.1 like.baidu.com

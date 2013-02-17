@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=14:43:09.22 2013/02/17 周日
+;version=15:25:10.23 2013/02/17 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -344,6 +344,7 @@ fe80::1%lo0	localhost
 0.0.0.0 mobwin.android.com
 0.0.0.0 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #百度广告联盟
+0.0.0.0 isafe.baidu.com
 0.0.0.0 api.share.baidu.com
 0.0.0.0 bdimg.share.baidu.com
 0.0.0.0 like.baidu.com
@@ -11126,6 +11127,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 l.ip-163.com
 0.0.0.0 box.cr173.com
 0.0.0.0 list.k184.com
+
+-5.me
 0.0.0.0 000888.net
 0.0.0.0 002858.com
 0.0.0.0 03-27.com
@@ -11480,6 +11483,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 jjj15.com
 0.0.0.0 jjj444.com
 0.0.0.0 jkntynnrhq.pppdiy.com
+0.0.0.0 js.ylunion.com
 0.0.0.0 jypt999.com
 0.0.0.0 kansepian.com
 0.0.0.0 ke555.com
