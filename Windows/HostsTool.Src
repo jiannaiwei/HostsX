@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.2.6
+set ver=1.0.2.7
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -67,7 +67,7 @@ cls
 title U+ Hosts(%ver%)
 rem - 最新版本(%verNew%)
 echo.
-echo  【更多 设备支持】      ‘     【Flush DNS 刷新】   
+echo  【反馈 帮助支持】      ‘     【Flush DNS 刷新】   
 echo  HostsData：  【更新/Update Hosts】
 echo.
 echo  【编辑Hosts文件】             【修复 Hosts文件】          
@@ -80,14 +80,14 @@ echo  Permissions：==================================
 echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
 echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
 echo   ==============================================
-echo  【IE 信任站点 清理】        【垃圾缓存文件清理】   
-echo  【IE  浏览器  修复】        【图标快捷方式修复】
+echo  【IE CSS样式表设定】        【垃圾缓存文件清理】   
+echo  【IE  浏览器  修复】        【FeedBack问题】
 echo   ==============================================
-echo  【IE CSS样式表设定】        【VBS*后台静默更新】             
+echo  【IE 信任站点 清理】        【VBS*后台静默更新】             
 echo  【顽固文件/夹 删除】        【替换为 127.0.0.1】              
 echo  当前目录：%~dp0
 echo.
-echo  【FeedBack问题反馈】        【【￥捐助 U+ ￥】】
+echo  【图标快捷方式修复】        【【￥捐助 U+ ￥】】
 
 :mouse
 ConsExt /event
@@ -95,7 +95,7 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  1 if %x% lss 26 start iexplore http://code.google.com/p/hostsx/ & goto gui
+if %y% equ 1 if %x% gtr  1 if %x% lss 26 echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & notepad GFeedBack.txt & start http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & start http://code.google.com/p/hostsx/ & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持!" & goto gui
 if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & goto gui
 if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %a%\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
 if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :unlock & notepad %hosts% & goto gui)
@@ -114,17 +114,17 @@ if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts%
 if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "Hosts文件已成功解锁！" & goto gui
 if %y% equ 15 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r -h +s %hosts% & echo y| cacls %hosts% /c /t /p everyone:r & msg %username% /time:2 "已设置Hosts文件权限为：NTFS 读取权限！" & goto gui
 if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock & attrib %hosts% +r -h +s & echo y| cacls %hosts% /D everyone & msg %username% /time:2 "已设置Hosts文件权限为：NTFS 拒绝权限！" & goto gui
-if %y% equ 17 if %x% gtr  1 if %x% lss 26 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f & cls & goto gui
+if %y% equ 17 if %x% gtr  1 if %x% lss 26 call :iecss & goto gui
 if %y% equ 17 if %x% gtr  26 if %x% lss 50 call :clean & goto gui
 if %y% equ 19 if %x% gtr  1 if %x% lss 26 call :fixie & goto gui
-if %y% equ 19 if %x% gtr  26 if %x% lss 50 if not exist g.ico (%d% http://hostsx.googlecode.com/svn/trunk/Windows/g.ico & echo Download a Icon,Please Wait! & call :shortcutfix) else (call :shortcutfix) & goto gui
-if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto iecss
+if %y% equ 19 if %x% gtr  26 if %x% lss 50 
+if %y% equ 21 if %x% gtr  1 if %x% lss 26 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f & cls & goto gui
 if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quietvbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
 if %y% equ 23 if %x% gtr  12 if %x% lss 26 goto delit
 if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 & goto gui
 if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% & goto gui
-if %y% equ 27 if %x% gtr  12 if %x% lss 26 goto feedback
+if %y% equ 27 if %x% gtr  12 if %x% lss 26 if not exist g.ico (%d% http://hostsx.googlecode.com/svn/trunk/Windows/g.ico & echo Download a Icon,Please Wait! & call :shortcutfix) else (call :shortcutfix) & goto gui
 if %y% equ 27 if %x% gtr  31 if %x% lss 50 call :thanks & goto gui
 goto mouse
 
@@ -371,26 +371,11 @@ AndriodHosts.vbs & cls & goto gui
 
 :shortcutfix
 mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0\"":b.IconLocation=""%~dp0\g.ico"":b.Description=""优佳猴子"":b.Save:close")
-echo 桌面快捷方式已创建！& pause
+msg %username% /time:2 "桌面快捷方式已创建!"
 goto :eof
-
-:feedback
-echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt
-echo 用户名：%username% >>GFeedBack.txt
-echo 计算机名：%userdomain% >>GFeedBack.txt
-SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt
-echo IE版本：%iever% >>GFeedBack.txt
-echo HostsTool版本：%ver% >>GFeedBack.txt
-echo 今天是：%date% >>GFeedBack.txt
-echo 遇到问题的网页地址：>>GFeedBack.txt
-echo. >>GFeedBack.txt
-echo. >>GFeedBack.txt
-echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt
-notepad GFeedBack.txt & start iexplore http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
 
 :iecss
 rem 使用Hosts屏蔽有副作用的广告杀无赦！！！
-reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f >nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.imrworldwide.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
@@ -398,7 +383,6 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMa
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.miaozhen.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\11.mydrivers.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\g.crsky.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\gimg.iqilu.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\images.sohu.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\pro.letv.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 %d% http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
@@ -406,7 +390,8 @@ move /y Custom.css %windir%
 REG ADD "HKCU\Software\Microsoft\Internet Explorer\Styles" /v "Use My Stylesheet" /t reg_dword /d 1 /f >nul 2>nul
 REG ADD "HKCU\Software\Microsoft\Internet Explorer\Styles" /v "User Stylesheet" /t reg_sz /d "%windir%\Custom.css" /f >nul 2>nul
 start http://dayngo.com/static/filter.html
-echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul & goto gui
+echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul
+goto :eof
 
 :fixie
 title IE浏览器修复和优化
