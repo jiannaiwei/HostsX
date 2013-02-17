@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.3.2
+set ver=1.0.3.3
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -124,7 +124,7 @@ goto mouse
 
 :dns
 echo FlushDns...
-call :youku
+call :youku & echo 视频播放广告已免疫！
 %k% iexplore.exe >nul 2>nul
 ipconfig -flushdns >nul 2>nul
 del %SystemRoot%\system32\df.ini >nul 2>nul
@@ -172,7 +172,6 @@ c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#s
 rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net" /s/q >nul 2>nul
 c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net"
 ipconfig -flushdns >nul 2>nul
-msg %username% /time:2 "视频播放广告已免疫！"
 goto :eof
 
 :quietvbs
