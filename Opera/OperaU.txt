@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.2.0
+set ver=1.0.2.1
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -217,9 +217,9 @@ echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
 echo WScript.sleep 200 >>%temp%/Upnew.vbs
 echo loop >>%temp%/Upnew.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
-cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.Src">%temp%\OperaU.bat
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.txt">%temp%\OperaU.bat
 set size=7000
 for %%1 in (OperaU.bat)do set gsize=%%~z1
 cls
-if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.Src -o %temp% &ren OperaU.Src OperaU.bat&goto Updateit) else (goto Updateit)
+if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.txt -o %temp% &ren OperaU.Src OperaU.bat&goto Updateit) else (goto Updateit)
 goto:eof

@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.3.0
+set ver=1.0.3.1
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -283,12 +283,12 @@ echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
 echo WScript.sleep 200 >>%temp%/Upnew.vbs
 echo loop >>%temp%/Upnew.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
-cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src">%temp%\HostsTool.bat
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.txt">%temp%\HostsTool.bat
 echo @echo off>%temp%\gup.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\gup.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\gup.bat
 echo Exit>>%temp%\gup.bat
-if %guf% lss %uf% (pause & %d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src ren HostsTool.Src HostsToolNew.bat & ren %0 HostsToolold.bat) else (start %temp%\gup.bat)
+if %guf% lss %uf% (pause & %d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.txt ren HostsTool.txt HostsToolNew.bat & ren %0 HostsToolold.bat) else (start %temp%\gup.bat)
 exit
 
 :rp127
