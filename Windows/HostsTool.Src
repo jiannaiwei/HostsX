@@ -303,7 +303,7 @@ cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/
 set size=50,00
 for %%1 in (%temp%\HostsTool.bat)do set gsize=%%~z1
 cls
-if %gsize% gtr %size% (wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src & msg %username% /time:5 "努力获取中" & ren HostsTool.Src HostsToolnew.bat & start explorer %~dp0 & del %0) else (goto Updateit)
+if %gsize% gtr %size% (wget http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.Src & msg %username% /time:5 "努力获取中" & ren HostsTool.Src HostsToolnew.bat & start explorer %~dp0 & goto gui) else (goto Updateit)
 goto :eof
 
 :rp127
