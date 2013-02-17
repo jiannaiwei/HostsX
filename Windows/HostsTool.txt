@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.3.3
+set ver=1.1.0.0
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -277,7 +277,7 @@ echo @echo off>%temp%\gup.bat
 echo copy /y "%temp%\HostsTool.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\gup.bat
 echo start "" "%~dp0\%~n0.bat">>%temp%\gup.bat
 echo Exit>>%temp%\gup.bat
-if %guf% lss %uf% (pause & %d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.txt ren HostsTool.txt HostsToolNew.bat & ren %0 HostsToolold.bat) else (start %temp%\gup.bat)
+if %guf% GEQ %uf% (start %temp%\gup.bat) else (%d% http://hostsx.googlecode.com/svn/trunk/Windows/HostsTool.txt ren HostsTool.txt HostsToolNew.bat & ren %0 HostsToolold.bat)
 exit
 
 :rp127
