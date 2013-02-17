@@ -719,7 +719,7 @@ set min=20
 set max=30
 set /a mod=!max!-!min!+1
 set /a r=!random!%%!mod!+!min!
-set gg=203.208.47.%r%
+set gg=203.208.46.%r%
 call :GoogleIP
 goto :eof
 
@@ -951,8 +951,6 @@ echo %gg% wenda.google.com.hk >>%hosts%
 echo %gg% www.gmail.com >>%hosts%
 echo %gg% www.google.com >>%hosts%
 echo %gg% www.google.com.hk >>%hosts%
-echo %gg% www.googleadservices.com >>%hosts%
-echo %gg% www.google-analytics.com >>%hosts%
 echo %gg% www.googleapis.com >>%hosts%
 echo %gg% www.googlelabs.com >>%hosts%
 echo %gg% www.gstatic.com >>%hosts%
