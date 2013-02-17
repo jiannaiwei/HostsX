@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=15:25:10.23 2013/02/17 周日
+;version=20:05:12.89 2013/02/17 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2967,6 +2967,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 e.stat.youku.com
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
+0.0.0.0 td.atm.youku.com
 0.0.0.0 hz.lstat.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
@@ -2997,6 +2998,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 adplay.tudou.com
 0.0.0.0 erreport.tudou.com
 0.0.0.0 iwstat.tudou.com
+0.0.0.0 logs.live.tudou.com
 0.0.0.0 nstat.tudou.com
 0.0.0.0 pl.pb.ops.tudou.com
 0.0.0.0 stat.tudou.com

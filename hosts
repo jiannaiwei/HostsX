@@ -1,5 +1,5 @@
 
-;version=15:25:10.23 2013/02/17 周日
+;version=20:05:12.89 2013/02/17 周日
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -6990,6 +6990,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 e.stat.youku.com
 127.0.0.1 fvid.atm.youku.com
 127.0.0.1 html.atm.youku.com
+127.0.0.1 td.atm.youku.com
 127.0.0.1 hz.lstat.youku.com
 127.0.0.1 lstat.youku.com
 127.0.0.1 nc.youku.com
@@ -7020,6 +7021,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 adplay.tudou.com
 127.0.0.1 erreport.tudou.com
 127.0.0.1 iwstat.tudou.com
+127.0.0.1 logs.live.tudou.com
 127.0.0.1 nstat.tudou.com
 127.0.0.1 pl.pb.ops.tudou.com
 127.0.0.1 stat.tudou.com

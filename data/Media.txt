@@ -70,6 +70,7 @@
 0.0.0.0 e.stat.youku.com
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
+0.0.0.0 td.atm.youku.com
 0.0.0.0 hz.lstat.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
@@ -100,6 +101,7 @@
 0.0.0.0 adplay.tudou.com
 0.0.0.0 erreport.tudou.com
 0.0.0.0 iwstat.tudou.com
+0.0.0.0 logs.live.tudou.com
 0.0.0.0 nstat.tudou.com
 0.0.0.0 pl.pb.ops.tudou.com
 0.0.0.0 stat.tudou.com
