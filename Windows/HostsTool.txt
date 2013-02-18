@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.0.1
+set ver=1.1.0.2
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -345,7 +345,7 @@ if not exist AndriodHosts.vbs (%d% http://hostsx.googlecode.com/svn/trunk/Androi
 AndriodHosts.vbs & cls & goto gui
 
 :shortcutfix
-mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\HostsTool.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0"":b.IconLocation=""%~dp0\g.ico"":b.Description=""优佳猴子"":b.Save:close")
+mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\U+ Hosts.lnk""):b.TargetPath=""%~dp0HostsTool.bat"":b.WorkingDirectory=""%~dp0"":b.IconLocation=""%~dp0\g.ico"":b.Description=""优佳猴子 - Clean, Useful, Safe, 智简至用的Hosts文件管理工具"":b.Save:close")
 msg %username% /time:2 "桌面快捷方式已创建!"
 goto :eof
 
