@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=10:38:56.36 2013/02/18 周一
+;version=13:54:54.63 2013/02/18 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2581,6 +2581,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.zhesm.com
 127.0.0.1 file.aiplay.com.cn
 127.0.0.1 apitest.baoruan.com
+127.0.0.1 android.bcfads.com
+127.0.0.1 revmob.com
+127.0.0.1 www.qdpop.net
+127.0.0.1 www.searchmobileonline.com
 @HostsX 海外站点广告
 #BNet
 0.0.0.0 bwp.bnet.com
@@ -11692,6 +11696,8 @@ $      下载最新版本的 HostsX。
 0.0.0.0 l.ip-163.com
 0.0.0.0 box.cr173.com
 0.0.0.0 list.k184.com
+0.0.0.0 www.lianmeng55.com
+0.0.0.0 d.img001.com
 
 -5.me
 0.0.0.0 000888.net
@@ -14721,6 +14727,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 avn.innity.com
 0.0.0.0 track.weiyi.com
 0.0.0.0 so.boke81.com
+0.0.0.0 www.qisulm.com
+0.0.0.0 u.2wad.com
+0.0.0.0 js.yimeiads.com
 #其他
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com

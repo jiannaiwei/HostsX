@@ -1,5 +1,5 @@
 
-;version=10:38:56.36 2013/02/18 周一
+;version=13:54:54.63 2013/02/18 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2015,6 +2015,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.zhesm.com
 127.0.0.1 file.aiplay.com.cn
 127.0.0.1 apitest.baoruan.com
+127.0.0.1 android.bcfads.com
+127.0.0.1 revmob.com
+127.0.0.1 www.qdpop.net
+127.0.0.1 www.searchmobileonline.com
 @HostsX 海外站点广告
 #BNet
 127.0.0.1 bwp.bnet.com
@@ -11126,6 +11130,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 l.ip-163.com
 127.0.0.1 box.cr173.com
 127.0.0.1 list.k184.com
+127.0.0.1 www.lianmeng55.com
+127.0.0.1 d.img001.com
 @HostsX 恶意弹窗屏蔽
 #签名弹窗
 127.0.0.1 code.2010qianming.com
@@ -12066,6 +12072,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 avn.innity.com
 127.0.0.1 track.weiyi.com
 127.0.0.1 so.boke81.com
+127.0.0.1 www.qisulm.com
+127.0.0.1 u.2wad.com
+127.0.0.1 js.yimeiads.com
 #其他
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

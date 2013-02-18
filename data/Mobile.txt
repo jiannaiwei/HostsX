@@ -755,3 +755,7 @@
 127.0.0.1 www.zhesm.com
 127.0.0.1 file.aiplay.com.cn
 127.0.0.1 apitest.baoruan.com
+127.0.0.1 android.bcfads.com
+127.0.0.1 revmob.com
+127.0.0.1 www.qdpop.net
+127.0.0.1 www.searchmobileonline.com
