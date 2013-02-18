@@ -145,11 +145,20 @@
 #Crispadvertising
 127.0.0.1 cdn1.crispadvertising.com
 127.0.0.1 cdn2.crispadvertising.com
+#Daoyoudao
+127.0.0.1 api.push.daoyoudao.com
+127.0.0.1 d.push.daoyoudao.com
+127.0.0.1 www.daoyoudao.com
 #Dianru
 127.0.0.1 api.dianru.com
 127.0.0.1 d.dianru.com
 127.0.0.1 static.dianru.com
 127.0.0.1 www.dianru.com
+#Dnion
+127.0.0.1 a.dianjoy.com
+127.0.0.1 www.dianjoy.com
+127.0.0.1 trjoy.dnion.com
+127.0.0.1 www.dnion.com
 #Domob
 127.0.0.1 api.domob.cn
 127.0.0.1 e.domob.cn
@@ -177,6 +186,9 @@
 127.0.0.1 duomeng.cn
 #DianXin
 127.0.0.1 mobileads.dx.cn
+#Easou
+127.0.0.1 ad.easou.com
+127.0.0.1 ad2.easou.com
 #EasyMobi
 127.0.0.1 adver.easymobi.cn
 127.0.0.1 app.easymobi.cn
@@ -485,6 +497,9 @@
 127.0.0.1 tapjoy.com
 127.0.0.1 tapjoyads.com
 127.0.0.1 ws.tapjoyads.com
+#Tenddata
+127.0.0.1 client.tenddata.com
+127.0.0.1 analytics.talkingdata.net
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn

@@ -1,5 +1,5 @@
 
-;version=20:05:12.89 2013/02/17 周日
+;version=10:38:56.36 2013/02/18 周一
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -62,20 +62,6 @@ fe80::1%lo0	localhost
 93.184.220.20 0.gravatar.com
 93.184.220.20 1.gravatar.com
 93.184.220.20 2.gravatar.com
-#GitHub
-204.232.175.78 documentcloud.github.com
-207.97.227.239 github.com
-204.232.175.94 gist.github.com
-107.21.116.220 help.github.com
-207.97.227.252 nodeload.github.com
-199.27.76.130 raw.github.com
-107.22.3.110 status.github.com
-204.232.175.78 training.github.com
-207.97.227.243 www.github.com
-#OperaLink
-91.203.99.46 auth.opera.com
-72.21.91.29 crl3.digicert.com
-91.203.96.252 link-server.opera.com
 #NEW MAC Services
 203.69.113.128 oscdn.apple.com
 203.69.113.128 v.phobos.apple.com
@@ -5446,11 +5432,20 @@ $      下载最新版本的 HostsX。
 #Crispadvertising
 127.0.0.1 cdn1.crispadvertising.com
 127.0.0.1 cdn2.crispadvertising.com
+#Daoyoudao
+127.0.0.1 api.push.daoyoudao.com
+127.0.0.1 d.push.daoyoudao.com
+127.0.0.1 www.daoyoudao.com
 #Dianru
 127.0.0.1 api.dianru.com
 127.0.0.1 d.dianru.com
 127.0.0.1 static.dianru.com
 127.0.0.1 www.dianru.com
+#Dnion
+127.0.0.1 a.dianjoy.com
+127.0.0.1 www.dianjoy.com
+127.0.0.1 trjoy.dnion.com
+127.0.0.1 www.dnion.com
 #Domob
 127.0.0.1 api.domob.cn
 127.0.0.1 e.domob.cn
@@ -5478,6 +5473,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 duomeng.cn
 #DianXin
 127.0.0.1 mobileads.dx.cn
+#Easou
+127.0.0.1 ad.easou.com
+127.0.0.1 ad2.easou.com
 #EasyMobi
 127.0.0.1 adver.easymobi.cn
 127.0.0.1 app.easymobi.cn
@@ -5786,6 +5784,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 tapjoy.com
 127.0.0.1 tapjoyads.com
 127.0.0.1 ws.tapjoyads.com
+#Tenddata
+127.0.0.1 client.tenddata.com
+127.0.0.1 analytics.talkingdata.net
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
