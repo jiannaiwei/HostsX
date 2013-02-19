@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=13:54:54.63 2013/02/18 周一
+;version=15:17:23.28 2013/02/19 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3527,14 +3527,12 @@ $      下载最新版本的 HostsX。
 #PPweb
 0.0.0.0 info.ppweb.com.cn
 #优酷网
-0.0.0.0 e.stat.ykimg.com
 0.0.0.0 ad.atm.youku.com
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
 0.0.0.0 e.stat.youku.com
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
-0.0.0.0 td.atm.youku.com
 0.0.0.0 hz.lstat.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
@@ -3554,6 +3552,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 vhtml.atm.youku.com
 0.0.0.0 vid.atm.youku.com
 0.0.0.0 walp.atm.youku.com
+0.0.0.0 e.stat.ykimg.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
 0.0.0.0 h.irs01.com
@@ -11698,8 +11697,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 list.k184.com
 0.0.0.0 www.lianmeng55.com
 0.0.0.0 d.img001.com
-
--5.me
 0.0.0.0 000888.net
 0.0.0.0 002858.com
 0.0.0.0 03-27.com
@@ -12054,7 +12051,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 jjj15.com
 0.0.0.0 jjj444.com
 0.0.0.0 jkntynnrhq.pppdiy.com
-0.0.0.0 js.ylunion.com
 0.0.0.0 jypt999.com
 0.0.0.0 kansepian.com
 0.0.0.0 ke555.com

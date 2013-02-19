@@ -63,14 +63,12 @@
 #PPweb
 0.0.0.0 info.ppweb.com.cn
 #ÓÅ¿áÍø
-0.0.0.0 e.stat.ykimg.com
 0.0.0.0 ad.atm.youku.com
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
 0.0.0.0 e.stat.youku.com
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
-0.0.0.0 td.atm.youku.com
 0.0.0.0 hz.lstat.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
@@ -90,6 +88,7 @@
 0.0.0.0 vhtml.atm.youku.com
 0.0.0.0 vid.atm.youku.com
 0.0.0.0 walp.atm.youku.com
+0.0.0.0 e.stat.ykimg.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
 0.0.0.0 h.irs01.com

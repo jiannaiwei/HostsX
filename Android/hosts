@@ -1,5 +1,5 @@
 
-;version=13:54:54.63 2013/02/18 周一
+;version=15:17:23.28 2013/02/19 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2961,14 +2961,12 @@ $      下载最新版本的 HostsX。
 #PPweb
 127.0.0.1 info.ppweb.com.cn
 #优酷网
-127.0.0.1 e.stat.ykimg.com
 127.0.0.1 ad.atm.youku.com
 127.0.0.1 atm.youku.com
 127.0.0.1 count.atm.youku.com
 127.0.0.1 e.stat.youku.com
 127.0.0.1 fvid.atm.youku.com
 127.0.0.1 html.atm.youku.com
-127.0.0.1 td.atm.youku.com
 127.0.0.1 hz.lstat.youku.com
 127.0.0.1 lstat.youku.com
 127.0.0.1 nc.youku.com
@@ -2988,6 +2986,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 vhtml.atm.youku.com
 127.0.0.1 vid.atm.youku.com
 127.0.0.1 walp.atm.youku.com
+127.0.0.1 e.stat.ykimg.com
 127.0.0.1 smarttrade.allyes.com
 127.0.0.1 a.htwisdom.com
 127.0.0.1 h.irs01.com
