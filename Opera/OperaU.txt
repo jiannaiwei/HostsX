@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.2.1
+set ver=1.0.2.2
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -64,7 +64,7 @@ ren 103552.user.js doubanimdb.user.js
 ren 123244.user.js doubaniask.user.js
 ren 154702.user.js goglrd.js
 ren 154476.user.js http2https.js
-ren 151249.user.js nolazyload.jsx
+ren 151249.user.js nolazyload.js
 ren 152399.user.js Search_engineJump.js
 ren 153190.user.js CrackUrlDN.js
 ren 154473.user.js Linkify.js
@@ -77,7 +77,7 @@ move /y getujs.bat profile\script
 move /y goglrd.js profile\script
 move /y Linkify.js profile\script
 move /y http2https.js profile\script
-move /y nolazyload.jsx profile\script
+move /y nolazyload.js profile\script
 move /y TiebaFix.js profile\script
 move /y license.txt locale\en
 move /y bookmarks.adr locale\zh-cn

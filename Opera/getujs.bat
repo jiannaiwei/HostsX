@@ -19,7 +19,7 @@ ren 105741.user.js picViewer.jsx
 ren 123244.user.js doubaniask.user.js
 ren 154702.user.js goglrd.js
 ren 154476.user.js http2https.js
-ren 151249.user.jsx nolazyload.js
+ren 151249.user.js nolazyload.js
 ren 152399.user.js Search_engineJump.js
 ren 153190.user.js CrackUrlDN.js
 ren 153275.user.js InputCtrl.jsx
