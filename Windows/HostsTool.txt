@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.0.3
+set ver=1.1.0.5
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -13,7 +13,7 @@ If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions" >nul 2>nul
 rem 判断操作系统版本，支持从Win98-Win8
-if exist %ComSpec% (set etc=%windir%\system32\drivers\etc &set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir% &set hosts=%windir%\hosts)
+if exist %ComSpec% (set etc=%windir%\system32\drivers\etc & set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir% & set hosts=%windir%\hosts)
 rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
@@ -45,7 +45,8 @@ cls
 :gui
 rem 运行前准备工作
 ipconfig -flushdns >nul 2>nul
-del /f /q %tmp%\*.bat %tmp%\*.vbs>nul 2>nul
+del /f /q %etc%\hosts.* >nul 2>nul
+del /f /q %tmp%\*.bat %tmp%\*.vbs >nul 2>nul
 del /f /q $ echo new.txt smarthosts.txt hbhosts.txt HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
 rem 参数调用设置
 if '%1'=='/f' goto:fixhosts
@@ -69,16 +70,16 @@ echo     (Google  RD)                  (IPV6 Data)
 if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
 echo    【MVPS  Data】                 (Ent  Block)
 echo.
-echo  【系统服务 配置】             【更新 HostsTool】
+echo  【流行广告清理屏蔽】        【替换为 127.0.0.1】
 echo  Permissions：==================================
 echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
 echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
 echo   ==============================================
 echo  【IE CSS样式表设定】        【IE 信任站点 清理】   
-echo  【IE  浏览器  修复】        【垃圾缓存文件清理】
+echo  【IE  浏览器  修复】        【顽固文件/夹 删除】
 echo   ==============================================
-echo  【图标快捷方式修复】        【VBS*后台静默更新】             
-echo  【顽固文件/夹 删除】        【替换为 127.0.0.1】              
+echo  【注册成为系统服务】        【VBS*后台静默更新】             
+echo  【卸载已注册的服务】        【更新U+ HostsTool】              
 echo  当前目录：%~dp0
 echo.
 echo  【图标快捷方式修复】        【【￥捐助 U+ ￥】】
@@ -89,7 +90,7 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  1 if %x% lss 26 echo start iexplore.exe http://code.google.com/p/hostsx/ & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持!" & 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & notepad GFeedBack.txt & start iexplore.exe http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
+if %y% equ 1 if %x% gtr  1 if %x% lss 26 echo start http://code.google.com/p/hostsx/ & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持！" & echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & echo 请在反馈问题时复制以上信息！ >>GFeedBack.txt & notepad GFeedBack.txt & start iexplore.exe http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
 if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & goto gui
 if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %a%\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
 if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :unlock & notepad %hosts% & goto gui)
@@ -102,8 +103,8 @@ goto gui
 )
 if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :mvps & goto gui
 if %y% equ 9 if %x% gtr  26 if %x% lss 50 call :entdata & goto gui
-if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :ipv6load & goto gui
-if %y% equ 11 if %x% gtr  26 if %x% lss 50 goto updates
+if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :clean & goto gui
+if %y% equ 11 if %x% gtr  26 if %x% lss 50 goto rp127
 if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts% & msg %username% /time:2 "已设置Hosts文件权限为：只读！"& exit
 if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "Hosts文件已成功解锁！" & goto gui
 if %y% equ 15 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r -h +s %hosts% & echo y| cacls %hosts% /c /t /p everyone:r & msg %username% /time:2 "已设置Hosts文件权限为：NTFS 读取权限！" & goto gui
@@ -111,11 +112,11 @@ if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock & attrib %hosts% +r -h +
 if %y% equ 17 if %x% gtr  1 if %x% lss 26 call :iecss & goto gui
 if %y% equ 17 if %x% gtr  26 if %x% lss 50 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f & cls & goto gui
 if %y% equ 19 if %x% gtr  1 if %x% lss 26 call :fixie & goto gui
-if %y% equ 19 if %x% gtr  26 if %x% lss 50 call :clean & goto gui
-if %y% equ 21 if %x% gtr  1 if %x% lss 26 call :shortcutfix & goto gui
+if %y% equ 19 if %x% gtr  26 if %x% lss 50 goto delit
+if %y% equ 21 if %x% gtr  1 if %x% lss 26 call :installsrv & goto gui
 if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quietvbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
-if %y% equ 23 if %x% gtr  12 if %x% lss 26 goto delit
-if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto rp127
+if %y% equ 23 if %x% gtr  12 if %x% lss 26 call :uninstallsrv & goto gui
+if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto updates
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 & goto gui
 if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% & goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 26 call :shortcutfix & goto gui
@@ -124,53 +125,9 @@ goto mouse
 
 :dns
 echo FlushDns...
-call :youku & echo 视频播放广告已免疫！
-%k% iexplore.exe >nul 2>nul
-ipconfig -flushdns >nul 2>nul
-del %SystemRoot%\system32\df.ini >nul 2>nul
-del %SystemRoot%\system32\error.dd >nul 2>nul
-del %SystemRoot%\system32\Macromed\Flash\mms.cfg >nul 2>nul
-DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
-rem del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files">nul 2>nul
-del /f /s /q "%userprofile%\Local Settings\Temp">nul 2>nul
-del /f /s /q "%userprofile%\recent">nul 2>nul
 ipconfig -flushdns >nul 2>nul
 ipconfig -registerdns >nul 2>nul
 ipconfig -renew >nul 2>nul
-goto :eof
-
-:youku
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
-start /min iexplore.exe http://i.youku.com/u/UMzI4MTU2ODQ
-del /f /q %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
-echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
-echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg >nul 2>nul
-echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg >nul 2>nul
-ping 127.0.0.1 -n 3 >nul
-%k% iexplore.exe >nul 2>nul
-ping 127.0.0.1 -n 2 >nul
-for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
-set str=%%i
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com"
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn"
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn"
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com"
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.letvcdn.com" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.letvcdn.com"
-rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
-rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com"
-rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net" /s/q >nul 2>nul
-c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net"
 ipconfig -flushdns >nul 2>nul
 goto :eof
 
@@ -183,12 +140,32 @@ goto :eof
 >>"%qt%" echo loop
 goto :eof
 
+:installsrv
+echo.
+echo 请以 *管理员身份* 运行bat文件!
+sc stop uplushosts
+sc delete uplushosts
+sc create uplushosts binPath= "%cd%\srvany.exe" start= auto
+sc description uplushosts "Clean Useful Safe Web"
+reg add HKLM\SYSTEM\CurrentControlSet\Services\dnsforwarder\Parameters /v Application /d "%cd%\HostsTool.bat /d" /f
+reg add HKLM\SYSTEM\CurrentControlSet\Services\dnsforwarder\Parameters /v AppDirectory /d "%cd%" /f
+sc start dnsforwarder
+echo 成功了～！
+echo.
+pause
+goto :eof
+
+:uninstallsrv
+sc stop uplushosts
+sc delete uplushosts
+goto :eof
+
 :dftvbs
 call :vdcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/hosts">>%temp%\HostsX.orzhosts
 copy %temp%\HostsX.orzhosts %hosts% >nul 2>nul
 move /y %temp%\HostsX.orzhosts %etc% >nul 2>nul
-call :temp&call :dns & msg %username% /time:1 "U+ Hosts data has been Updated！" & Exit
+call :temp & call :dns & call :clean & msg %username% /time:1 "U+ Hosts data has been Updated！" & Exit
 
 :temp
 rem call :BeijingIP
@@ -467,7 +444,9 @@ goto :eof
 Tasklist|Find /i "iexplore.exe">nul &&(Echo 请先关闭IExplore.exe! & Pause)
 call :cleanwmp
 call :cleanpps
+call :cleanadobe
 call :cleanbaidu
+call :cleanflash
 call :cleanpptv
 call :cleanvagaa
 call :cleanmschk
@@ -477,8 +456,71 @@ call :cleanwps
 call :cleansogou
 call :cleanie
 call :cleanqq
-call :youku
+call :cleanv
 call :cleansys
+goto :eof
+
+:cleanflash
+del %SystemRoot%\system32\Macromed\Flash\mms.cfg >nul 2>nul
+del /f /q %a%\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %a%\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %a%\mms.cfg >nul 2>nul
+goto :eof
+
+:cleanadobe
+DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
+goto :eof
+
+:cleanv
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+start /min iexplore.exe http://i.youku.com/u/UMzI4MTU2ODQ
+ping 127.0.0.1 -n 3 >nul
+%k% iexplore.exe >nul 2>nul
+%k% *chrome.exe >nul 2>nul
+%k% 360*.exe >nul 2>nul
+%k% liebao.exe >nul 2>nul
+ping 127.0.0.1 -n 2 >nul
+call :cleanwebv
+ipconfig -flushdns >nul 2>nul
+echo 视频播放广告已免疫！
+goto :eof
+
+:cleanwebv
+set sv=%APPDATA%\Macromedia\Flash Player\#SharedObjects
+call :cleanmdv
+set fv=%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys
+call :cleanmdf
+set sv=%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects
+call :cleanmdv
+set fv=%sv%\!str!\macromedia.com\support\flashplayer\sys
+call :cleanmdf
+goto :eof
+
+:cleanmdv
+for /f "delims=" %%i in ('dir /b /ad "%sv%\"') do (
+set str=%%i
+rd "%sv%\!str!\static.youku.com" /s/q >nul 2>nul
+c:> "%sv%\!str!\static.youku.com"
+rd "%sv%\!str!\player.pplive.cn" /s/q >nul 2>nul
+c:> "%sv%\!str!\player.pplive.cn"
+rd "%sv%\!str!\irs01.net" /s/q >nul 2>nul
+c:> "%sv%\!str!\irs01.net"
+rd "%sv%\!str!\d1.sina.com.cn" /s/q >nul 2>nul
+c:> "%sv%\!str!\d1.sina.com.cn"
+rd "%sv%\!str!\www.iqiyi.com" /s/q >nul 2>nul
+c:> "%sv%\!str!\www.iqiyi.com"
+rd "%sv%\!str!\player.letvcdn.com" /s/q >nul 2>nul
+c:> "%sv%\!str!\player.letvcdn.com"
+rd "%sv%\!str!\static.acs86.com" /s/q >nul 2>nul
+c:> "%sv%\!str!\static.acs86.com")
+goto :eof
+
+:cleanmdf
+rd "%fv%\#static.youku.com" /s/q >nul 2>nul
+c:> "%fv%\#static.youku.com"
+rd "%fv%\#irs01.net" /s/q >nul 2>nul
+c:> "%fv%\#irs01.net"
 goto :eof
 
 :cleansys
@@ -629,11 +671,15 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Help
 goto :eof
 
 :cleanie
-rem  修复IE工具栏广告
+echo 修复IE工具栏广告
 reg delete "HKLM\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
 reg delete "HKCU\Software\Microsoft\Internet Explorer\Extensions" /f>nul 2>nul
-rem  修复开始菜单广告
-reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f>nul 2>nul
+echo 修复开始菜单广告
+reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPropertyBag" /f >nul 2>nul
+del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files" >nul 2>nul
+del /f /s /q "%userprofile%\Local Settings\Temp" >nul 2>nul
+del /f /s /q "%userprofile%\recent" >nul 2>nul
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 goto :eof
 
 :cleanqq
@@ -667,6 +713,8 @@ c:> "%APPDATA%\Tencent\QQ\Misc\GTB_Icons"
 echo 屏蔽QQ群相册快照临时文件
 rd "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot" /s/q
 c:> "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot"
+del %SystemRoot%\system32\df.ini >nul 2>nul
+del %SystemRoot%\system32\error.dd >nul 2>nul
 goto :eof
 
 :delit
