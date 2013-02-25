@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.0.6
+set ver=1.1.0.7
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -45,7 +45,6 @@ cls
 :gui
 rem 运行前准备工作
 ipconfig -flushdns >nul 2>nul
-del /f /q %etc%\hosts.* >nul 2>nul
 del /f /q %tmp%\*.bat %tmp%\*.vbs >nul 2>nul
 del /f /q $ echo new.txt smarthosts.txt hbhosts.txt HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
 rem 参数调用设置
@@ -70,19 +69,19 @@ echo     (Google  RD)                  (IPV6 Data)
 if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
 echo    【MVPS  Data】                 (Ent  Block)
 echo.
-echo  【流行广告清理屏蔽】        【替换为 127.0.0.1】
+echo  【视频广告清理屏蔽】        【软件广告清理屏蔽】
 echo  Permissions：==================================
 echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
 echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
 echo   ==============================================
 echo  【IE CSS样式表设定】        【IE 信任站点 清理】   
-echo  【IE  浏览器  修复】        【顽固文件/夹 删除】
+echo  【IE  浏览器  修复】        【替换为 127.0.0.1】
 echo   ==============================================
-echo  【注册成为系统服务】        【VBS*后台静默更新】             
-echo  【卸载已注册的服务】        【更新U+ HostsTool】              
+echo  【顽固文件/夹 删除】        【VBS*后台静默更新】             
+echo  【图标快捷方式修复】        【更新U+ HostsTool】              
 echo  当前目录：%~dp0
 echo.
-echo  【图标快捷方式修复】        【【￥捐助 U+ ￥】】
+echo  【协助完善程序数据】        【【￥捐助 U+ ￥】】
 
 :mouse
 ConsExt /event
@@ -103,8 +102,8 @@ goto gui
 )
 if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :mvps & goto gui
 if %y% equ 9 if %x% gtr  26 if %x% lss 50 call :entdata & goto gui
-if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :clean & goto gui
-if %y% equ 11 if %x% gtr  26 if %x% lss 50 goto rp127
+if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :cleanv & goto gui
+if %y% equ 11 if %x% gtr  26 if %x% lss 50 call :clean & goto gui
 if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts% & msg %username% /time:2 "已设置Hosts文件权限为：只读！"& exit
 if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "Hosts文件已成功解锁！" & goto gui
 if %y% equ 15 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r -h +s %hosts% & echo y| cacls %hosts% /c /t /p everyone:r & msg %username% /time:2 "已设置Hosts文件权限为：NTFS 读取权限！" & goto gui
@@ -112,10 +111,10 @@ if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock & attrib %hosts% +r -h +
 if %y% equ 17 if %x% gtr  1 if %x% lss 26 call :iecss & goto gui
 if %y% equ 17 if %x% gtr  26 if %x% lss 50 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f & cls & goto gui
 if %y% equ 19 if %x% gtr  1 if %x% lss 26 call :fixie & goto gui
-if %y% equ 19 if %x% gtr  26 if %x% lss 50 goto delit
-if %y% equ 21 if %x% gtr  1 if %x% lss 26 call :installsrv & goto gui
+if %y% equ 19 if %x% gtr  26 if %x% lss 50 goto rp127
+if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto delit
 if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quietvbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
-if %y% equ 23 if %x% gtr  12 if %x% lss 26 call :uninstallsrv & goto gui
+if %y% equ 23 if %x% gtr  12 if %x% lss 26 msg %username% /time:12 "感谢您的建议和反馈，请直接留言您的问题或建议。" & start "tencent://message/?uin=1718084&Menu=yes" & goto gui
 if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto updates
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 & goto gui
 if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% & goto gui
@@ -138,26 +137,6 @@ goto :eof
 >>"%qt%" echo ws.run".\HostsTool.bat /q",vbhide
 >>"%qt%" echo wscript.sleep 7200000
 >>"%qt%" echo loop
-goto :eof
-
-:installsrv
-echo.
-echo 请以 *管理员身份* 运行bat文件!
-sc stop uplushosts
-sc delete uplushosts
-sc create uplushosts binPath= "%cd%\srvany.exe" start= auto
-sc description uplushosts "Clean Useful Safe Web"
-reg add HKLM\SYSTEM\CurrentControlSet\Services\dnsforwarder\Parameters /v Application /d "%cd%\HostsTool.bat /d" /f
-reg add HKLM\SYSTEM\CurrentControlSet\Services\dnsforwarder\Parameters /v AppDirectory /d "%cd%" /f
-sc start dnsforwarder
-echo 成功了～！
-echo.
-pause
-goto :eof
-
-:uninstallsrv
-sc stop uplushosts
-sc delete uplushosts
 goto :eof
 
 :dftvbs
