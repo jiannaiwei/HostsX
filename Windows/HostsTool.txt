@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.0.8
+set ver=1.1.0.9
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -67,15 +67,15 @@ echo.
 echo  【编辑Hosts文件】             【修复 Hosts文件】          
 echo     (Google  RD)                  (IPV6 Data) 
 if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
-echo    【MVPS  Data】                 (Ent  Block)
+echo    【MVPS  Data】            【替换为 127.0.0.1】
 echo.
-echo  【视频广告清理屏蔽】        【软件广告清理屏蔽】
+echo  【自定黑白名单设置】        【广告缓存清理屏蔽】
 echo  Permissions：==================================
 echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
 echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
 echo   ==============================================
 echo  【IE CSS样式表设定】        【IE 信任站点 清理】   
-echo  【IE  浏览器  修复】        【替换为 127.0.0.1】
+echo  【IE  浏览器  修复】        【IE 弹窗策略 设置】
 echo   ==============================================
 echo  【顽固文件/夹 删除】        【VBS*后台静默更新】             
 echo  【图标快捷方式修复】        【更新U+ HostsTool】              
@@ -90,7 +90,7 @@ if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
 if %y% equ 1 if %x% gtr  1 if %x% lss 26 echo start http://code.google.com/p/hostsx/ & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持！" & echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & echo 请在反馈问题时复制以上信息！ >>GFeedBack.txt & notepad GFeedBack.txt & start iexplore.exe http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
-if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & goto gui
+if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & call :cleanv & goto gui
 if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %a%\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
 if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :unlock & notepad %hosts% & goto gui)
 if %y% equ 5 if %x% gtr  26 if %x% lss 50 call :fixhosts & goto gui
@@ -101,8 +101,8 @@ if /i !force! neq 0 (set force=0) else (set force=1)
 goto gui
 )
 if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :mvps & goto gui
-if %y% equ 9 if %x% gtr  26 if %x% lss 50 call :entdata & goto gui
-if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :cleanv & goto gui
+if %y% equ 9 if %x% gtr  26 if %x% lss 50 goto rp127
+if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :entdata & goto gui
 if %y% equ 11 if %x% gtr  26 if %x% lss 50 call :clean & goto gui
 if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts% & msg %username% /time:2 "已设置Hosts文件权限为：只读！"& exit
 if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "Hosts文件已成功解锁！" & goto gui
@@ -111,7 +111,7 @@ if %y% equ 15 if %x% gtr  26 if %x% lss 50 call :unlock & attrib %hosts% +r -h +
 if %y% equ 17 if %x% gtr  1 if %x% lss 26 call :iecss & goto gui
 if %y% equ 17 if %x% gtr  26 if %x% lss 50 echo Del All IE donot Turst Site &pause&reg delete "hkcu\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains" /f & cls & goto gui
 if %y% equ 19 if %x% gtr  1 if %x% lss 26 call :fixie & goto gui
-if %y% equ 19 if %x% gtr  26 if %x% lss 50 goto rp127
+if %y% equ 19 if %x% gtr  26 if %x% lss 50 cd/d "%programfiles%\Internet Explorer\" & if exist ie.exe (ren ie.exe iexplore.exe & msg %username% /time:2 "IE调用方式已还原！") else (ren iexplore.exe ie.exe & msg %username% /time:2 "调用IE弹出窗口已禁止！") & goto gui
 if %y% equ 21 if %x% gtr  1 if %x% lss 26 goto delit
 if %y% equ 21 if %x% gtr  26 if %x% lss 50 if not exist %qt% (call :quietvbs &echo 每隔2小时自动使用VBS静默更新数据一次&ping 00 -n 3 -w >nul&goto gui) else (start %qt%)
 if %y% equ 23 if %x% gtr  12 if %x% lss 26 call :shortcutfix & goto gui
@@ -121,6 +121,7 @@ if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% & goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 26 msg %username% /time:12 "感谢您的建议和反馈，请直接留言您的问题或建议。" & start iexplore.exe "tencent://message/?uin=1718084&Menu=yes" & goto gui
 if %y% equ 27 if %x% gtr  31 if %x% lss 50 msg %username% /time:12 "如果您觉得U+系列软件：Opera U+定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！" & start iexplore.exe https://me.alipay.com/vokins & msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】" & goto gui
 goto mouse
+
 
 :dns
 echo FlushDns...
