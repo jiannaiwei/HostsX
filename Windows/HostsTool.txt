@@ -165,7 +165,7 @@ call :vdcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/hosts">>%temp%\HostsX.orzhosts
 copy %temp%\HostsX.orzhosts %hosts% >nul 2>nul
 move /y %temp%\HostsX.orzhosts %etc% >nul 2>nul
-call :temp & call :dns & call :clean & msg %username% /time:1 "U+ Hosts data has been Updated！" & Exit
+call :temp & call :dns & call :cleanv & msg %username% /time:1 "U+ Hosts data has been Updated！" & Exit
 
 :temp
 rem call :BeijingIP
@@ -551,12 +551,6 @@ for /f %%i in (%windir%\del.txt) do rd %windir%\%%i /s /q
 del %windir%\del.txt /f /q
 for /f "tokens=1" %%i in ('dir %SystemRoot%\$*$ /s /b /ad') do rd /s /q %%i
 defrag %systemdrive% -b
-echo 清除浏览器地址记录...
-reg delete "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" /f 2>nul
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls"
-echo 清除运行记录...
-reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f
 goto :eof
 
 :cleanwmp
@@ -679,11 +673,17 @@ reg delete "HKCR\CLSID\{2559a1f6-21d7-11d4-bdaf-00c04f60b9f0}\Instance\InitPrope
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files" >nul 2>nul
 del /f /s /q "%userprofile%\Local Settings\Temp" >nul 2>nul
 del /f /s /q "%userprofile%\recent" >nul 2>nul
+echo 清除浏览器地址记录...
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls" /f 2>nul
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls"
+echo 清除运行记录...
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /f 2>nul
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /v "MRUList" /t reg_sz /d "a" /f
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 goto :eof
 
 :cleanqq
-msg %username% /time:2 "请先关闭QQ、TM!" & pause
+echo "请先关闭QQ、TM!"
 %k% qq.exe
 %k% tm.exe
 %k% TXOPShow.exe
