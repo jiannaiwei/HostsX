@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.0.9
+set ver=1.1.1.0
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -46,7 +46,7 @@ cls
 rem 运行前准备工作
 ipconfig -flushdns >nul 2>nul
 del /f /q %tmp%\*.bat %tmp%\*.vbs >nul 2>nul
-del /f /q $ echo new.txt smarthosts.txt hbhosts.txt HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
+del /f /q $ echo new.txt smarthosts.txt hbhosts.txt Strictlylist.txt HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
 rem 参数调用设置
 if '%1'=='/f' goto:fixhosts
 if '%1'=='/q' goto:quietup
@@ -150,8 +150,15 @@ call :temp & call :dns & call :cleanv & msg %username% /time:1 "U+ Hosts data ha
 :temp
 rem call :BeijingIP
 rem call :SmartHosts
+call :Strictlylist
 call :Xunlei
 call :UsrFile
+goto :eof
+
+:Strictlylist
+%d% http://hostsx.googlecode.com/svn/trunk/data/Strictlylist.txt
+copy /a %hosts% + Strictlylist.txt hbhosts.txt
+copy hbhosts.txt %hosts%
 goto :eof
 
 :SmartHosts
