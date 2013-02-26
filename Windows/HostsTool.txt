@@ -487,6 +487,8 @@ for /f "delims=" %%i in ('dir /b /ad "%sv%\"') do (
 set str=%%i
 rd "%sv%\!str!\static.youku.com" /s/q >nul 2>nul
 c:> "%sv%\!str!\static.youku.com"
+rd "%sv%\!str!\msnmedia.allyes.com.cn" /s/q >nul 2>nul
+c:> "%sv%\!str!\msnmedia.allyes.com.cn"
 rd "%sv%\!str!\player.pplive.cn" /s/q >nul 2>nul
 c:> "%sv%\!str!\player.pplive.cn"
 rd "%sv%\!str!\irs01.net" /s/q >nul 2>nul
