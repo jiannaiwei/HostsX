@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 13:37 2013/2/14
-// @version 1.0.2.3
+// @lastmodified 12:03 2013/3/2
+// @version 1.0.2.5
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -896,13 +896,21 @@
 			}
 		},
 		{siteName:'百晓生/谷粒',
-			url:/^http:\/\/www\.(bxs|guli)\.cc\/.+\.html/i,
+			url:/^http:\/\/www\.(bxs|guli)\.cc\/.+/i,
 			siteExample:'http://www.bxs.cc/26758/7708992.html',
 			enable:true,
-			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章（快捷键 →）"]',
+			nextLink:'//div[@id="papgbutton"]/descendant::a[text()="下一章"]',
 			autopager:{
 				pageElement:'//div[@id="main"]/h1 | //div[@id="readbox"]/div[@id="content"] | //div[@id="readbox"]/div[@id="papgbutton"]',
                                 HT_insert:['//div[@id="weekhot"]',1],
+			}
+		},
+		{siteName:'熬夜看书',
+			url:/^http:\/\/www\.aoye\.cc\/.+\.html/i,
+			siteExample:'http://www.aoye.cc/843/5.html',
+			nextLink:'//div[@id="pagebottom"]/descendant::a[@id="nextpage"]',
+			autopager:{
+				pageElement:'//pre[@id="content"]',
 			}
 		},
 		{siteName:'塔读文学',
