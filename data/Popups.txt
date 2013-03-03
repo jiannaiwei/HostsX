@@ -342,7 +342,6 @@
 0.0.0.0 am.6park.com
 0.0.0.0 aperture.displaymarketplace.com
 0.0.0.0 api.flash45.com
-0.0.0.0 api.viglink.com
 0.0.0.0 av.lulu946.com
 0.0.0.0 b.ax91.com
 0.0.0.0 baidu.bj0518.com

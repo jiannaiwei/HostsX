@@ -18,6 +18,11 @@
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
+#3g
+127.0.0.1 ad.3g.cn
+127.0.0.1 gostore.3g.cn
+127.0.0.1 imupdate.3g.cn
+127.0.0.1 launchermsg.3g.cn
 #3gmimo
 127.0.0.1 product.3gmimo.com
 127.0.0.1 stage.3gmimo.com
@@ -118,6 +123,9 @@
 127.0.0.1 sfmusictech.appstores.com
 127.0.0.1 techcrunch.appstores.com
 127.0.0.1 topix.appstores.com
+#Baidu
+127.0.0.1 agentchannel.api.duapp.com
+127.0.0.1 channel.api.duapp.com
 #ByPush
 127.0.0.1 www.bypush.com
 #Casee
@@ -228,6 +236,15 @@
 127.0.0.1 cus.himogo.com
 127.0.0.1 imp.himogo.com
 127.0.0.1 req.himogo.com
+#ijinshan
+127.0.0.1 cf.duba.net
+127.0.0.1 info-push.duba.net
+127.0.0.1 app.sjk.ijinshan.com
+127.0.0.1 dcys.ijinshan.com
+127.0.0.1 dl.app.ijinshan.com
+127.0.0.1 softdl.ijinshan.com
+127.0.0.1 top.dcys.ijinshan.com
+127.0.0.1 up.app.ijinshan.com
 #immob
 127.0.0.1 adserving.immob.cn
 #infolife
@@ -355,6 +372,9 @@
 127.0.0.1 pic.moad.cn
 127.0.0.1 wap.moad.cn
 127.0.0.1 wap.6262.com.cn
+#Mijifen
+127.0.0.1 a.mijifen.com
+127.0.0.1 www.mijifen.com
 #Mojiva
 127.0.0.1 ads.mojiva.com
 127.0.0.1 admarvel.mojiva.com
@@ -427,6 +447,7 @@
 127.0.0.1 3gsoftfile.tc.qq.com
 127.0.0.1 3gsoftfile.tcdn.qq.com
 127.0.0.1 adpm.app.qq.com
+127.0.0.1 dl.app.qq.com
 127.0.0.1 mw.app.qq.com
 127.0.0.1 softfile.3g.qq.com
 127.0.0.1 sqsh.3g.qq.com
@@ -635,7 +656,6 @@
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
 127.0.0.1 ad-locus.com
-127.0.0.1 ad.3g.cn
 127.0.0.1 ad.belugaboost.com
 127.0.0.1 ad.camera360.us
 127.0.0.1 ad.jiemai-tech.com
@@ -759,3 +779,5 @@
 127.0.0.1 revmob.com
 127.0.0.1 www.qdpop.net
 127.0.0.1 www.searchmobileonline.com
+127.0.0.1 static.moreadexchange.com
+127.0.0.1 www.luluneverdie.com

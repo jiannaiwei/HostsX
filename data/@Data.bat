@@ -1,7 +1,7 @@
 @echo off
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
-del /f Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt
+del /f Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
 rem http://sourceforge.net/projects/dos2unix/
 mac2unix -ascii -n Apple.txt out.txt
 unix2dos -n out.txt Applenew.txt 
@@ -9,18 +9,7 @@ echo title HostsX 数据更新工具 >bat.txt
 echo more +5 %%~fs0^>%%systemroot%%\system32\drivers\etc\hosts >>bat.txt
 echo notepad %%windir%%\system32\drivers\etc\hosts >>bat.txt
 echo goto :eof >>bat.txt
-wget http://smarthosts.googlecode.com/svn/trunk/hosts
-ping -n 5 127.0.0.1
-ren hosts 1.txt
-sed -i "1,7d" 1.txt
-sed -i "/Facebook End/,$d" 1.txt
-sed -i "/^$/d" 1.txt
-sed -i "/^#/d" 1.txt
-sed -i "/googlesyndication.com/d" 1.txt
-sed -i "/google-analytics.com/d" 1.txt
-sed -i "/googleadservices.com/d" 1.txt
-ping -n 3 127.0.0.1
-sed -i "1i\#Smarthosts-Google" 1.txt
+rem :smarhosts
 echo.>Version.txt
 echo ;version=%time% %date%>>Version.txt
 echo ;hostsxversion=0.5.2.1>>Version.txt
@@ -42,12 +31,27 @@ set files=Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt
 for %%a in (%files%) do (type "%%a">>Android.txt)
 start hosts.vbs
 ping -n 2 127.0.0.1
-del /f Android.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
 md "%~dp0..\Android\system\etc"
 copy hosts "%~dp0..\Android\system\etc"
+del /f Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
 echo 7z u HostsX_updates.zip system\etc\hosts >"%~dp0..\Android\7z.bat"
 echo rd /s/q system >>"%~dp0..\Android\7z.bat"
 echo del %%0 >>"%~dp0..\Android\7z.bat"
 cd %~dp0..\Android
 7z.bat
 exit
+
+:smarhosts
+wget http://smarthosts.googlecode.com/svn/trunk/hosts
+ping -n 5 127.0.0.1
+ren hosts 1.txt
+sed -i "1,7d" 1.txt
+sed -i "/Facebook End/,$d" 1.txt
+sed -i "/^$/d" 1.txt
+sed -i "/^#/d" 1.txt
+sed -i "/googlesyndication.com/d" 1.txt
+sed -i "/google-analytics.com/d" 1.txt
+sed -i "/googleadservices.com/d" 1.txt
+ping -n 3 127.0.0.1
+sed -i "1i\#Smarthosts-Google" 1.txt
+goto :eof

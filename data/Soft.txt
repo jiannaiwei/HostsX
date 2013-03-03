@@ -19,6 +19,7 @@
 0.0.0.0 midinfo.baofeng.com
 0.0.0.0 p2pmid.baofeng.com
 0.0.0.0 softassistant.baofeng.com
+0.0.0.0 mvv.logger.baofeng.com
 0.0.0.0 tree.logger.baofeng.com
 0.0.0.0 tuijian.bd.baofeng.com
 0.0.0.0 videodown.baofeng.com
@@ -49,6 +50,7 @@
 0.0.0.0 adk.funshion.com
 0.0.0.0 adm.funshion.com
 0.0.0.0 cms.funshion.com
+0.0.0.0 jobsfe.funshion.com
 0.0.0.0 gstat.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
@@ -133,10 +135,12 @@
 0.0.0.0 s.kuaibo.com
 0.0.0.0 searchstat.kuaibo.com
 0.0.0.0 statis.kuaibo.com
+0.0.0.0 stun.kuaibo.com
 0.0.0.0 text-ad.kuaibo.com
 0.0.0.0 tj.kuaibo.com
 0.0.0.0 ulog.kuaibo.com
 0.0.0.0 update.kuaibo.com
+0.0.0.0 vtrack.kuaibo.com
 0.0.0.0 op.web.kuaiwan.com
 0.0.0.0 op2.web.kuaiwan.com
 0.0.0.0 prom.web.kuaiwan.com

@@ -342,6 +342,8 @@
 0.0.0.0 union.suning.com
 #银泰
 0.0.0.0 cps.yintai.com
+#易讯
+0.0.0.0 stat.51buy.com
 #凡客诚品
 0.0.0.0 union.vancl.com
 #梦芭莎

@@ -1062,6 +1062,9 @@
 0.0.0.0 unionsky.cn
 #Unionwan
 0.0.0.0 www.unionwan.com
+#Viglink
+0.0.0.0 api.viglink.com
+0.0.0.0 cdn.viglink.com
 #Wanliuliang
 0.0.0.0 c2m.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com
