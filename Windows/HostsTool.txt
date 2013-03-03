@@ -981,7 +981,6 @@ echo %gg% www.google.com >>%hosts%
 echo %gg% www.google.com.hk >>%hosts%
 echo %gg% www.googleapis.com >>%hosts%
 echo %gg% www.googlelabs.com >>%hosts%
-echo %gg% www.gstatic.com >>%hosts%
 echo %gg% www-calendar-opensocial.googleusercontent.com >>%hosts%
 echo %gg% www-opensocial.googleusercontent.com >>%hosts%
 echo %gg% www-oz-opensocial.googleusercontent.com >>%hosts%

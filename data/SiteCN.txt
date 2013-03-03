@@ -95,6 +95,8 @@
 0.0.0.0 init.phpwind.com
 0.0.0.0 nt.phpwind.com
 0.0.0.0 union.phpwind.com
+#Maccms
+0.0.0.0 union.maccms.com
 #Discuz
 0.0.0.0 stat.discuz.com
 #BlogBus

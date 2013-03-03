@@ -26,7 +26,7 @@ echo ;version=%time% %date%>>Version.txt
 echo ;hostsxversion=0.5.2.1>>Version.txt
 echo ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR>>Version.txt
 echo ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.>>Version.txt
-set files=bat.txt Version.txt Rd.txt 1.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt 360url.txt Popups.txt
+set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt 360url.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>HostsX.orzhosts)
 copy HostsX.orzhosts Android.txt
 start hosts.vbs
