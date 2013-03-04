@@ -54,7 +54,7 @@ if '%1'=='/q' goto:quietup
 if '%1'=='/d' goto:dftvbs
 if '%1'=='/g' goto:Google
 if '%1'=='/6' goto:ipv6
-if not exist consext.exe (msg %username% /time:2 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!" & goto dftvbs)
+if not exist %windir%\system32\consext.exe (msg %username% /time:2 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!" & goto dftvbs)
 mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
