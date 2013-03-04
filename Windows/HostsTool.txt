@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.01
+set ver=1.1.1.02
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -17,8 +17,8 @@ if exist %ComSpec% (set etc=%windir%\system32\drivers\etc & set hosts=%windir%\s
 rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
-if not exist %SystemRoot%\system32\consext.exe copy consext.exe %SystemRoot%\system32 >nul 2>nul
-if not exist %SystemRoot%\system32\wget.exe copy wget.exe %SystemRoot%\system32 >nul 2>nul
+if not exist %windir%\system32\consext.exe copy consext.exe %windir%\system32 >nul 2>nul
+if not exist %windir%\system322\wget.exe copy wget.exe %windir%\system32 >nul 2>nul
 rem 快捷参数设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set str=%date:~0,4%%date:~5,2%00
@@ -36,6 +36,14 @@ forfiles /p %etc%\Bakup /s /m *.txt /d -%DaysAgo% /c "cmd /c echo del /f /q /a @
 rem 启用拖放操作
 copy "%~1" %hosts%  >nul 2>nul & ipconfig -flushdns >nul 2>nul
 if not exist %hosts% msg %username% /time:2 "检测到系统Hosts文件缺失，正在修复..." & call :fixhosts
+del /f /q %tmp%\*.bat %tmp%\*.vbs >nul 2>nul
+rem 参数调用设置
+if '%1'=='/f' goto:fixhosts
+if '%1'=='/q' goto:quietup
+if '%1'=='/d' goto:dftvbs
+if '%1'=='/g' goto:Google
+if '%1'=='/6' goto:ipv6
+if not exist %windir%\system32\consext.exe (msg %username% /time:2 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!" & goto dftvbs)
 rem 自动检测升级模块
 call :vdcore
 cscript //NoLogo /e:vbscript %temp%/Updates.vbs "http://hostsx.googlecode.com/svn/trunk/Windows/ver.txt">%temp%/ver.txt 2>nul
@@ -46,15 +54,7 @@ cls
 :gui
 rem 运行前准备工作
 ipconfig -flushdns >nul 2>nul
-del /f /q %tmp%\*.bat %tmp%\*.vbs >nul 2>nul
 del /f /q $ echo new.txt smarthosts.txt hbhosts.txt Strictlylist.txt HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
-rem 参数调用设置
-if '%1'=='/f' goto:fixhosts
-if '%1'=='/q' goto:quietup
-if '%1'=='/d' goto:dftvbs
-if '%1'=='/g' goto:Google
-if '%1'=='/6' goto:ipv6
-if not exist %windir%\system32\consext.exe (msg %username% /time:2 "未检测到ConsExt界面组件，将自动使用VBS下载更新数据!" & goto dftvbs)
 mode con cols=50 lines=30
 ConsExt /crv 0
 color 0%xc%
@@ -92,7 +92,7 @@ set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
 if %y% equ 1 if %x% gtr  1 if %x% lss 26 echo start http://code.google.com/p/hostsx/ & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持！" & echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & echo 请在反馈问题时复制以上信息！ >>GFeedBack.txt & notepad GFeedBack.txt & start iexplore.exe http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
 if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & call :cleanv & goto gui
-if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %a%\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
+if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %windir%\system32\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
 if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :unlock & notepad %hosts% & goto gui)
 if %y% equ 5 if %x% gtr  26 if %x% lss 50 call :fixhosts & goto gui
 if %y% equ 7 if %x% gtr  1 if %x% lss 26 call :Google & goto gui
