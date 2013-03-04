@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.0
+set ver=1.1.1.01
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -17,7 +17,8 @@ if exist %ComSpec% (set etc=%windir%\system32\drivers\etc & set hosts=%windir%\s
 rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
-if not exist %a%\wget.exe copy wget.exe %a% >nul 2>nul
+if not exist %SystemRoot%\system32\consext.exe copy consext.exe %SystemRoot%\system32 >nul 2>nul
+if not exist %SystemRoot%\system32\wget.exe copy wget.exe %SystemRoot%\system32 >nul 2>nul
 rem 快捷参数设置
 set bak=%date:~0,4%年%date:~5,2%月%date:~8,2%日%time:~0,2%时备份
 set str=%date:~0,4%%date:~5,2%00
