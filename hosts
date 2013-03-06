@@ -1,5 +1,5 @@
 
-;version=17:52:04.19 2013/03/06 周三
+;version=19:09:23.69 2013/03/06 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -5175,7 +5175,6 @@ fe80::1%lo0	localhost
 127.0.0.1 imc.l.qq.com
 127.0.0.1 j.wit.qq.com
 127.0.0.1 jingjia.qq.com
-127.0.0.1 jqmt.qq.com
 127.0.0.1 l.qq.com
 127.0.0.1 l2.l.qq.com
 127.0.0.1 lb.l.qq.com
@@ -5893,9 +5892,12 @@ $      下载最新版本的 HostsX。
 127.0.0.1 wap10.16kxs.com
 #3g
 127.0.0.1 ad.3g.cn
+127.0.0.1 cache.3g.cn
+127.0.0.1 dmwap.payway.3g.cn
 127.0.0.1 gostore.3g.cn
 127.0.0.1 imupdate.3g.cn
 127.0.0.1 launchermsg.3g.cn
+127.0.0.1 soft.3g.cn
 #3gmimo
 127.0.0.1 product.3gmimo.com
 127.0.0.1 stage.3gmimo.com
@@ -6655,6 +6657,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.searchmobileonline.com
 127.0.0.1 static.moreadexchange.com
 127.0.0.1 www.luluneverdie.com
+127.0.0.1 www.wigglestatic.com
 @HostsX 海外站点广告
 #BNet
 127.0.0.1 bwp.bnet.com
@@ -7915,7 +7918,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 adk.funshion.com
 127.0.0.1 adm.funshion.com
 127.0.0.1 cms.funshion.com
-127.0.0.1 jobsfe.funshion.com
 127.0.0.1 gstat.funshion.com
 127.0.0.1 neirong.funshion.com
 127.0.0.1 partner.funshion.com
@@ -7942,13 +7944,13 @@ $      下载最新版本的 HostsX。
 127.0.0.1 update.111222.cn
 127.0.0.1 update.base-service.net
 #PPTV
-127.0.0.1 jp.as.pptv.com
 127.0.0.1 afp.pplive.com
 127.0.0.1 afv.pplive.com
 127.0.0.1 caipiao.pplive.com
 127.0.0.1 client-play.pptv.com
 127.0.0.1 de.as.pptv.com
 127.0.0.1 dh.pplive.com
+127.0.0.1 dl4.vas.pptv.com
 127.0.0.1 g.pplive.com
 127.0.0.1 g.pptv.com
 127.0.0.1 ga.pptv.com
@@ -7956,12 +7958,15 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ins-stat.pplive.com
 127.0.0.1 ins-version.pplive.com
 127.0.0.1 ins.pplive.com
+127.0.0.1 jp.as.pptv.com
 127.0.0.1 live.v2.pplive.com
 127.0.0.1 pp1.pplive.com
 127.0.0.1 pp2.pptv.com
 127.0.0.1 ppsj.pptv.com
+127.0.0.1 static.g.pptv.com
 127.0.0.1 tj.g.pptv.com
 127.0.0.1 wafp.pptv.com
+127.0.0.1 way.pptv.com
 127.0.0.1 wstat.pptv.com
 127.0.0.1 asimgs.pplive.cn
 127.0.0.1 pp2.as.pplive.cn

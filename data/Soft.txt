@@ -50,7 +50,6 @@
 0.0.0.0 adk.funshion.com
 0.0.0.0 adm.funshion.com
 0.0.0.0 cms.funshion.com
-0.0.0.0 jobsfe.funshion.com
 0.0.0.0 gstat.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
@@ -77,13 +76,13 @@
 0.0.0.0 update.111222.cn
 0.0.0.0 update.base-service.net
 #PPTV
-0.0.0.0 jp.as.pptv.com
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
 0.0.0.0 caipiao.pplive.com
 0.0.0.0 client-play.pptv.com
 0.0.0.0 de.as.pptv.com
 0.0.0.0 dh.pplive.com
+0.0.0.0 dl4.vas.pptv.com
 0.0.0.0 g.pplive.com
 0.0.0.0 g.pptv.com
 0.0.0.0 ga.pptv.com
@@ -91,12 +90,15 @@
 0.0.0.0 ins-stat.pplive.com
 0.0.0.0 ins-version.pplive.com
 0.0.0.0 ins.pplive.com
+0.0.0.0 jp.as.pptv.com
 0.0.0.0 live.v2.pplive.com
 0.0.0.0 pp1.pplive.com
 0.0.0.0 pp2.pptv.com
 0.0.0.0 ppsj.pptv.com
+0.0.0.0 static.g.pptv.com
 0.0.0.0 tj.g.pptv.com
 0.0.0.0 wafp.pptv.com
+0.0.0.0 way.pptv.com
 0.0.0.0 wstat.pptv.com
 0.0.0.0 asimgs.pplive.cn
 0.0.0.0 pp2.as.pplive.cn

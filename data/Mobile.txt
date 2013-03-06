@@ -20,9 +20,12 @@
 127.0.0.1 wap10.16kxs.com
 #3g
 127.0.0.1 ad.3g.cn
+127.0.0.1 cache.3g.cn
+127.0.0.1 dmwap.payway.3g.cn
 127.0.0.1 gostore.3g.cn
 127.0.0.1 imupdate.3g.cn
 127.0.0.1 launchermsg.3g.cn
+127.0.0.1 soft.3g.cn
 #3gmimo
 127.0.0.1 product.3gmimo.com
 127.0.0.1 stage.3gmimo.com
@@ -782,3 +785,4 @@
 127.0.0.1 www.searchmobileonline.com
 127.0.0.1 static.moreadexchange.com
 127.0.0.1 www.luluneverdie.com
+127.0.0.1 www.wigglestatic.com

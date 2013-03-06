@@ -115,3 +115,5 @@
 0.0.0.0 www.gstatic.com
 0.0.0.0 www.in9.cn
 0.0.0.0 www.xp500.com
+0.0.0.0 jobsfe.funshion.com
+0.0.0.0 g.maxcdn.info
