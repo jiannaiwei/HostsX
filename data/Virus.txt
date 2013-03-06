@@ -545,3 +545,5 @@
 0.0.0.0 list.k184.com
 0.0.0.0 www.lianmeng55.com
 0.0.0.0 d.img001.com
+0.0.0.0 www.uibia.com
+0.0.0.0 download.wuji.com

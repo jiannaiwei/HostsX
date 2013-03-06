@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.02
+set ver=1.1.1.03
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -12,7 +12,7 @@ rem 权限检测模块
 If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions" >nul 2>nul
-rem 判断操作系统版本，支持从Win98-Win8
+rem 判断操作系统版本，支持从Win95-Win8(x32&x64)
 if exist %ComSpec% (set etc=%windir%\system32\drivers\etc & set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir% & set hosts=%windir%\hosts)
 rem 确定文件名
 ren %0 HostsTool.bat
@@ -70,13 +70,13 @@ echo     (Google  RD)                  (IPV6 Data)
 if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
 echo    【MVPS  Data】            【替换为 127.0.0.1】
 echo.
-echo  【自定黑白名单设置】        【广告缓存清理屏蔽】
+echo  【自定黑白名单设置】        【系统优化广告清理】
 echo  Permissions：==================================
 echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
 echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
 echo   ==============================================
 echo  【IE CSS样式表设定】        【IE 信任站点 清理】   
-echo  【IE  浏览器  修复】        【IE 弹窗策略 设置】
+echo  【IE  浏览器  修复】        【IE 弹窗策略  Xp 】
 echo   ==============================================
 echo  【顽固文件/夹 删除】        【VBS*后台静默更新】             
 echo  【图标快捷方式修复】        【更新U+ HostsTool】              
@@ -90,7 +90,7 @@ set /a xy=%errorlevel%
 if %xy% lss 1001 goto mouse
 set /a X=%xy:~0,-3%
 set /a Y=%xy%-1000*%X%
-if %y% equ 1 if %x% gtr  1 if %x% lss 26 echo start http://code.google.com/p/hostsx/ & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持！" & echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & echo 请在反馈问题时复制以上信息！ >>GFeedBack.txt & notepad GFeedBack.txt & start iexplore.exe http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
+if %y% equ 1 if %x% gtr  1 if %x% lss 26 start http://code.google.com/p/hostsx & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持！" & echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & echo 请在反馈问题时复制以上信息！ >>GFeedBack.txt & notepad GFeedBack.txt & start iexplore.exe http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
 if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & call :cleanv & goto gui
 if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %windir%\system32\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
 if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :unlock & notepad %hosts% & goto gui)
@@ -103,7 +103,7 @@ goto gui
 )
 if %y% equ 9 if %x% gtr  1 if %x% lss 26 call :mvps & goto gui
 if %y% equ 9 if %x% gtr  26 if %x% lss 50 goto rp127
-if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :entdata & goto gui
+if %y% equ 11 if %x% gtr  1 if %x% lss 26 call :userdata & goto gui
 if %y% equ 11 if %x% gtr  26 if %x% lss 50 call :clean & goto gui
 if %y% equ 13 if %x% gtr  1 if %x% lss 26 call :unlock & attrib +r +a +s %hosts% & msg %username% /time:2 "已设置Hosts文件权限为：只读！"& exit
 if %y% equ 13 if %x% gtr  26 if %x% lss 50 call :unlock & msg %username% /time:2 "Hosts文件已成功解锁！" & goto gui
@@ -120,7 +120,7 @@ if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto updates
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 & goto gui
 if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% & goto gui
 if %y% equ 27 if %x% gtr  12 if %x% lss 26 msg %username% /time:12 "感谢您的建议和反馈，请直接留言您的问题或建议。" & start iexplore.exe "tencent://message/?uin=1718084&Menu=yes" & goto gui
-if %y% equ 27 if %x% gtr  31 if %x% lss 50 msg %username% /time:12 "如果您觉得U+系列软件：Opera U+定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！" & start iexplore.exe https://me.alipay.com/vokins & msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】" & goto gui
+if %y% equ 27 if %x% gtr  31 if %x% lss 50 msg %username% /time:12 "如果您觉得U+系列软件：Opera U+定制版或者HostsTool等工具给您的网络生活带来便利，也可以通过此链接捐助我！" & start https://me.alipay.com/vokins & msg %username% /time:10 "【感谢来自：简桢祥、邹萌、蔡必铨、孟宪昌、牛延强、孙坤、黄向阳、周强、何敏、喻羿、刘玥、的捐赠！】" & goto gui
 goto mouse
 
 
@@ -277,6 +277,15 @@ netsh interface ipv6 6to4 set state enabled >nul 2>nul
 netsh int ipv6 6to4 set relay 6to4.ipv6.microsoft.com >nul 2>nul
 goto :eof
 
+:userdata
+if not exist whitelists.txt echo 0.0.0.0 www.forexample.com >whitelists.txt
+if not exist myhosts.txt echo 59.151.106.253 bbs.operachina.com >myhosts.txt
+mshta vbscript:msgbox("myhosts.txt为自定义名单，会将全部内容添加到Hosts文件中! whitelists.txt为白名单，会将内容从Hosts文件中去除！",64,"HostsTool")(window.close)
+notepad myhosts.txt & notepad whitelists.txt
+pause
+call :UsrFile
+goto :eof
+
 :entdata
 call :unlock
 set pb=0.0.0.0
@@ -325,12 +334,13 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMa
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\g.crsky.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\images.sohu.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\pro.letv.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
+del Custom.css
 %d% http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
 move /y Custom.css %windir%
 REG ADD "HKCU\Software\Microsoft\Internet Explorer\Styles" /v "Use My Stylesheet" /t reg_dword /d 1 /f >nul 2>nul
 REG ADD "HKCU\Software\Microsoft\Internet Explorer\Styles" /v "User Stylesheet" /t reg_sz /d "%windir%\Custom.css" /f >nul 2>nul
 start http://dayngo.com/static/filter.html
-echo IE CSS页面过滤设置完成! & choice /t 2 /d y /n >nul
+msg %username% /time:2 "IE CSS样式表过滤设置完成!"
 goto :eof
 
 :fixie
@@ -444,6 +454,7 @@ call :cleanie
 call :cleanqq
 call :cleanv
 call :cleansys
+call :servopt
 goto :eof
 
 :cleanflash
@@ -703,6 +714,53 @@ rd "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot" /s/q
 c:> "%APPDATA%\Tencent\QQ\Misc\GroupAlbumSnapshot"
 del %SystemRoot%\system32\df.ini >nul 2>nul
 del %SystemRoot%\system32\error.dd >nul 2>nul
+goto :eof
+
+:servopt
+sc stop "AppMgmt" >nul 2>nul
+sc config AppMgmt start= disabled >nul 2>nul
+sc stop "BITS" >nul 2>nul
+sc config BITS start= disabled >nul 2>nul
+sc stop "FontCache" >nul 2>nul
+sc config FontCache start= disabled >nul 2>nul
+sc stop "MpsSvc" >nul 2>nul
+sc config MpsSvc start= disabled >nul 2>nul
+sc stop "wuauserv" >nul 2>nul
+sc config wuauserv start= disabled >nul 2>nul
+sc stop "wscsvc" >nul 2>nul
+sc config wscsvc start= disabled >nul 2>nul
+sc stop "WerSvc" >nul 2>nul
+sc config WerSvc start= disabled >nul 2>nul
+sc stop "WinDefend" >nul 2>nul
+sc config WinDefend start= disabled >nul 2>nul
+sc stop "WSearch" >nul 2>nul
+sc config WSearch start= disabled >nul 2>nul
+sc stop "W32Time" >nul 2>nul
+sc config W32Time start= disabled >nul 2>nul
+sc stop "CscService" >nul 2>nul
+sc config CscService start= disabled >nul 2>nul
+sc stop "IKEEXT" >nul 2>nul
+sc config IKEEXT start= disabled >nul 2>nul
+sc stop "MMCSS" >nul 2>nul
+sc config MMCSS start= disabled >nul 2>nul
+sc stop "SDRSVC" >nul 2>nul
+sc config SDRSVC start= disabled >nul 2>nul
+sc stop "SENS" >nul 2>nul
+sc config SENS start= disabled >nul 2>nul
+sc stop "sppsvc" >nul 2>nul
+sc config sppsvc start= disabled >nul 2>nul
+sc stop "RemoteAccess" >nul 2>nul
+sc config RemoteAccess start= disabled >nul 2>nul
+sc stop "RemoteRegistry" >nul 2>nul
+sc config RemoteRegistry start= disabled >nul 2>nul
+sc start "Schedule" >nul 2>nul
+sc config Schedule start= auto >nul 2>nul
+sc start "PolicyAgent" >nul 2>nul
+sc config PolicyAgent start= auto >nul 2>nul
+sc start "dot3svc" >nul 2>nul
+sc config dot3svc start= auto >nul 2>nul
+sc start "Wlansvc" >nul 2>nul
+sc config Wlansvc start= auto >nul 2>nul
 goto :eof
 
 :delit

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20:50:29.70 2013/03/06 周三
+;version=23:09:57.95 2013/03/06 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11760,6 +11760,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 list.k184.com
 127.0.0.1 www.lianmeng55.com
 127.0.0.1 d.img001.com
+127.0.0.1 www.uibia.com
+127.0.0.1 download.wuji.com
 127.0.0.1 000888.net
 127.0.0.1 002858.com
 127.0.0.1 03-27.com
