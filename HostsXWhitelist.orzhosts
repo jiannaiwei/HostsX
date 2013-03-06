@@ -1,4 +1,4 @@
-;version=12:35 2013/2/15
+;version=20:48 2013/3/6
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -252,6 +252,7 @@ $DELETE
 
 #导致凤凰直播播放器无法正常加载。
 sc.ifeng.com
+ips.ifeng.com
 $DELETE
 
 #导致驱动之家评论条数无法正常显示。

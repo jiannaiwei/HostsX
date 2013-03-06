@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=19:09:23.69 2013/03/06 周三
+;version=20:50:29.70 2013/03/06 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3043,7 +3043,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ads.people.com.cn
 127.0.0.1 pro.people.com.cn
 #凤凰网
-127.0.0.1 ips.ifeng.com
+127.0.0.1 bc.ifeng.com
 127.0.0.1 mfp.deliver.ifeng.com
 127.0.0.1 sta.ifeng.com
 127.0.0.1 sta.play.ifeng.com

@@ -117,3 +117,4 @@
 0.0.0.0 www.xp500.com
 0.0.0.0 jobsfe.funshion.com
 0.0.0.0 g.maxcdn.info
+0.0.0.0 ips.ifeng.com
