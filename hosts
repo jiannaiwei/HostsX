@@ -1,5 +1,5 @@
 
-;version=18:08:52.66 2013/03/03 周日
+;version=17:52:04.19 2013/03/06 周三
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -5940,6 +5940,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 apiconfig.adwo.com
 127.0.0.1 r2.adwo.com
 127.0.0.1 static.adwo.com
+127.0.0.1 track.adwo.com
 127.0.0.1 www.adwo.com
 #Ad-maker
 127.0.0.1 ox-i.ad-maker.info

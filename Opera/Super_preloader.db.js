@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 12:03 2013/3/2
-// @version 1.0.2.5
+// @lastmodified 17:50 2013/3/6
+// @version 1.0.2.6
 // @namespace  http://userscripts.org/users/vokins
 // @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -1117,14 +1117,23 @@
 				 pageElement:'//form[@id="mytopics"] | //div[@id="weibo_app"]',
 			}
 		},
-		{siteName:'PConline太平洋电脑网',
-			url:/pconline\.com\.cn\/.*\/\d+\.html/i,
-			siteExample:'http://diy.pconline.com.cn/headphone/guides/1112/2621282.html',
+		{siteName:'PCHOME 社区',
+			url:/http:\/\/club\.pchome\.net/i,
+			siteExample:'http://club.pchome.net/forum_1_15.html#',
 			nextLink:'auto;',
 			autopager:{
-				pageElement:'css;div.art_con',
-				relatedObj: ['css;.pconline_page', 'bottom'],
-                                remain: 1 / 3,
+				 pageElement:'//form[@id="mytopics"] | //div[@id="weibo_app"]',
+			}
+		},
+		{siteName:'中国新闻网',
+			url:/http:\/\/www\.chinanews\.com\/[a-z]+\/.+\.shtml/i,
+			siteExample:'http://www.chinanews.com/英文/年/日期/编号.shtml',
+			nextLink:'auto;',
+			autopager:{
+				//useiframe:true,
+				pageElement:'//div[@class="left_zw"]',
+				HT_insert:['//div[@id="function_code_page"]',1],
+                                filter:'//div[@id="function_code_page"]',
 			},
 		},
 		{siteName:'天涯论坛帖子',
