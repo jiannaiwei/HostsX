@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.3.6
+Version: 5.0.3.8
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 7:33 2013/2/27
+Lastchage: 14:32 2013/3/7
 Description: MayBe a better User CSS Help U.
 */
 
@@ -45,7 +45,7 @@ div[id^="ads_"],div[id^="ads-"],div[id*="-ads-"],div[id$="_ads"]{
 display: none !important;
 	}
 div[id="ad"],div[id^="ad_"],div[id$="-ad"],div[id$="-ads"],div[id^="ad-"][class="ad"],
-div[id*="-ad-"],div[id*="0_AD_"],div[id^="Ads_"],div[id^="afp_"],div[id*="advert"]{
+div[id*="-ad-"],div[id*="0_AD_"],div[id^="Ads_"],div[id^="afp_"],div[id*="advert"],div[id^="adspace"]{
 display: none !important;
 	}
 div[id^="adList"],div[id^="adlist"],div[id^="adSp"],div[id^="adcontent"],div[id^="adhere"],
@@ -73,7 +73,7 @@ div[id*="TopAD"],div[id^="TopAd"],div[id^="topAD"],div[id^="topad"],div[id*="top
 display: none !important;
 	}
 div[class^="nav-ad"],div[class^="ndadv"],div[class*="-top-ads"],div[class^="adtop"],div[class*="AdTop-"],div[id^="couplet"],div[id="CoupletDiv"],
-div[class^="navad"],div[id^="navad"],div[id="topmad"],div[id="toplink"],div[id="adTop"],div[id^="adtop"],div[id$="head_ad"]{
+div[class^="navad"],div[id^="navad"],div[id="topmad"],div[id="toplink"],div[id="adTop"],div[id^="adtop"],div[id$="head_ad"],div[id="headerads"]{
 display: none !important;
 	}
 div[class="adll"],div[class^="adLeft"],div[id^="LeftAd"],div[id$="eftDiv"],div[id^="LeftBottom"],
@@ -88,8 +88,8 @@ div[class^="Indexad"],div[class*="inner_ad"],div[class^="double_ad"],div[class^=
 div[class^="ATopTxt"],div[class="imgad"],div[class^="img-ad"],div[class^="other_adv"],div[class="tad"]{
 display: none !important;
 	}
-div[id$="_BOXAD"],div[id*="ContentAd"],div[id^="HeaderAd"],div[id*="_column_ad"],div[class="innerad"],
-div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"],div[id^="duilain"]{
+div[id$="_BOXAD"],div[id*="ContentAd"],div[id^="HeaderAd"],div[id*="_column_ad"],div[class="innerad"],div[class="innerAds"],
+div[id$="footer"],div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"],div[id^="duilain"]{
 display: none !important;
 	}
 div[id^="BANNER_"],div[id="clickbg"],div[id="prombar"],div[id="splink"],div[id="link"],div[id^="insidead"],
@@ -187,7 +187,7 @@ div[id*="tuiguang"],div[class$="Tuijian"],div[class^="hot_tj"],div[class="tuijia
 
 /* Google */
 div[id="prm"],div[class="c"][id="tads"],[class="c"][id="tadsb"],div[id="rhs_block"],ol[onmouseover="return true"],
-[id*="adword"],[class*="adword"],[id*="adsense"],[class*="adsense"]{
+[id*="adword"],[class*="adword"],[id*="adsense"],[class*="adsense"],div[class="googleAdBox"]{
 display: none !important;
 	}
 div[class^="page_ad "],[href*="pagead"],[src*="pagead"],div[id*="googleAd"],
