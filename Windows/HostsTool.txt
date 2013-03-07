@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.03
+set ver=1.1.1.05
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -747,8 +747,6 @@ sc stop "SDRSVC" >nul 2>nul
 sc config SDRSVC start= disabled >nul 2>nul
 sc stop "SENS" >nul 2>nul
 sc config SENS start= disabled >nul 2>nul
-sc stop "sppsvc" >nul 2>nul
-sc config sppsvc start= disabled >nul 2>nul
 sc stop "RemoteAccess" >nul 2>nul
 sc config RemoteAccess start= disabled >nul 2>nul
 sc stop "RemoteRegistry" >nul 2>nul
