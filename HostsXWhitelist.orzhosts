@@ -1,4 +1,4 @@
-;version=9:41 2013/3/8
+;version=10:06 2013/3/8
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -340,6 +340,7 @@ $DELETE
 #导致PPTV客户端/部分页面无法完整显示的问题。
 list.client.pplive.cn
 static1.pplive.cn
+epg.api.pptv.com
 pp.pplive.com
 $DELETE
 

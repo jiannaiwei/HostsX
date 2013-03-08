@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version= 9:39:47.19 2013/03/08 周五
+;version=10:07:07.98 2013/03/08 周五
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3798,6 +3798,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 wafp.pptv.com
 127.0.0.1 way.pptv.com
 127.0.0.1 wstat.pptv.com
+127.0.0.1 cptb.mtbu.pptv.com
 127.0.0.1 up.pplive.com
 127.0.0.1 asimgs.pplive.cn
 127.0.0.1 pp2.as.pplive.cn
@@ -3805,6 +3806,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 h.synacast.com
 127.0.0.1 ik.synacast.com
 127.0.0.1 ol.synacast.com
+127.0.0.1 ip.synacast.com
 127.0.0.1 pplive-va.synacast.com
 127.0.0.1 ppvalog.synacast.com
 127.0.0.1 rec.ik.synacast.com
