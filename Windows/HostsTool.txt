@@ -475,7 +475,6 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMa
 %k% *chrome.exe >nul 2>nul
 %k% 360*.exe >nul 2>nul
 %k% liebao.exe >nul 2>nul
-ping 127.0.0.1 -n 2 >nul
 call :cleanwebv
 ipconfig -flushdns >nul 2>nul
 echo 视频播放广告已免疫！
@@ -483,44 +482,41 @@ goto :eof
 
 :cleanwebv
 set sv=%APPDATA%\Macromedia\Flash Player\#SharedObjects
-call :cleanmdv
 set fv=%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys
-call :cleanmdf
-set sv=%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects
 call :cleanmdv
+ping 127.0.0.1 -n 2 >nul
+set sv=%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects
 set fv=%sv%\!str!\macromedia.com\support\flashplayer\sys
-call :cleanmdf
+call :cleanmdv
 goto :eof
 
 :cleanmdv
+md %sv%\JCESQEK5 >nul 2>nul
+rd "%sv%\JCESQEK5\d1.sina.com.cn" /s/q >nul 2>nul
+rd "%sv%\JCESQEK5\irs01.net" /s/q >nul 2>nul
+rd "%sv%\JCESQEK5\msnmedia.allyes.com.cn" /s/q >nul 2>nul
+rd "%sv%\JCESQEK5\player.letvcdn.com" /s/q >nul 2>nul
+rd "%sv%\JCESQEK5\player.pplive.cn" /s/q >nul 2>nul
+rd "%sv%\JCESQEK5\static.acs86.com" /s/q >nul 2>nul
+rd "%sv%\JCESQEK5\static.youku.com" /s/q >nul 2>nul
+rd "%sv%\JCESQEK5\www.iqiyi.com" /s/q >nul 2>nul
+echo .>"%sv%\JCESQEK5\d1.sina.com.cn"
+echo .>"%sv%\JCESQEK5\irs01.net"
+echo .>"%sv%\JCESQEK5\msnmedia.allyes.com.cn"
+echo .>"%sv%\JCESQEK5\player.letvcdn.com"
+echo .>"%sv%\JCESQEK5\player.pplive.cn"
+echo .>"%sv%\JCESQEK5\static.acs86.com"
+echo .>"%sv%\JCESQEK5\static.youku.com"
+echo .>"%sv%\JCESQEK5\www.iqiyi.com"
+rd "%fv%\#static.youku.com" /s/q >nul 2>nul
+c:> "%fv%\#static.youku.com"
+rd "%fv%\#irs01.net" /s/q >nul 2>nul
+c:> "%fv%\#irs01.net"
 for /d %%a in ("%sv%\*") do (
     if "%%~nxa" neq "JCESQEK5" (
         rd /s /q "%%a"
     )
 )
-rd "%sv%\JCESQEK5\static.youku.com" /s/q >nul 2>nul
-c:> "%sv%\JCESQEK5\static.youku.com"
-rd "%sv%\JCESQEK5\msnmedia.allyes.com.cn" /s/q >nul 2>nul
-c:> "%sv%\JCESQEK5\msnmedia.allyes.com.cn"
-rd "%sv%\JCESQEK5\player.pplive.cn" /s/q >nul 2>nul
-c:> "%sv%\JCESQEK5\player.pplive.cn"
-rd "%sv%\JCESQEK5\irs01.net" /s/q >nul 2>nul
-c:> "%sv%\JCESQEK5\irs01.net"
-rd "%sv%\JCESQEK5\d1.sina.com.cn" /s/q >nul 2>nul
-c:> "%sv%\JCESQEK5\d1.sina.com.cn"
-rd "%sv%\JCESQEK5\www.iqiyi.com" /s/q >nul 2>nul
-c:> "%sv%\JCESQEK5\www.iqiyi.com"
-rd "%sv%\JCESQEK5\player.letvcdn.com" /s/q >nul 2>nul
-c:> "%sv%\JCESQEK5\player.letvcdn.com"
-rd "%sv%\JCESQEK5\static.acs86.com" /s/q >nul 2>nul
-c:> "%sv%\JCESQEK5\static.acs86.com"
-goto :eof
-
-:cleanmdf
-rd "%fv%\#static.youku.com" /s/q >nul 2>nul
-c:> "%fv%\#static.youku.com"
-rd "%fv%\#irs01.net" /s/q >nul 2>nul
-c:> "%fv%\#irs01.net"
 goto :eof
 
 :cleansys
@@ -585,6 +581,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Help
 goto :eof
 
 :cleanpptv
+md "%AppData%\PPLive\PPTV\Cache" /s/q >nul 2>nul
 rd "%AppData%\PPLive\PPTV\Cache\pluginad" /s/q >nul 2>nul
 c:> "%AppData%\PPLive\PPTV\Cache\pluginad"
 rd "%ProgramData%\PPLive\PPTV\Cache\pluginad" /s/q >nul 2>nul
@@ -611,6 +608,7 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\Wg
 goto :eof
 
 :cleanxunlei
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MiniXmpInstall.exe" /v debugger /t reg_sz /d debugfile.exe /f
 del "C:\Program Files\Thunder\Program\MiniXmpInstall.exe"
 rd  "C:\Program Files\Thunder\BBInside" /s /q
 net stop "XLDoctor Service"
