@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.06
+set ver=1.1.1.07A
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -484,14 +484,14 @@ goto :eof
 set sv=%APPDATA%\Macromedia\Flash Player\#SharedObjects
 set fv=%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys
 call :cleanmdv
-ping 127.0.0.1 -n 2 >nul
 set sv=%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects
-set fv=%sv%\!str!\macromedia.com\support\flashplayer\sys
+set fv=%sv%\macromedia.com\support\flashplayer\sys
 call :cleanmdv
 goto :eof
 
 :cleanmdv
-md %sv%\JCESQEK5 >nul 2>nul
+md "%APPDATA%\Macromedia\Flash Player\#SharedObjects" >nul 2>nul
+md "%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects\JCESQEK5" >nul 2>nul
 rd "%sv%\JCESQEK5\d1.sina.com.cn" /s/q >nul 2>nul
 rd "%sv%\JCESQEK5\irs01.net" /s/q >nul 2>nul
 rd "%sv%\JCESQEK5\msnmedia.allyes.com.cn" /s/q >nul 2>nul
@@ -546,7 +546,7 @@ dir %windir%\$NtUninstall* /a:d /b >%windir%\del.txt
 for /f %%i in (%windir%\del.txt) do rd %windir%\%%i /s /q
 del %windir%\del.txt /f /q
 for /f "tokens=1" %%i in ('dir %SystemRoot%\$*$ /s /b /ad') do rd /s /q %%i
-defrag %systemdrive% -b
+defrag %systemdrive% -b >nul 2>nul
 goto :eof
 
 :cleanwmp
