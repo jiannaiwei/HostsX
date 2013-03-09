@@ -228,7 +228,7 @@ call :dns
 goto :eof
 
 :fixhosts
-IF not Exist %etc%\lmhosts.sam IF not EXIST %etc%\networks IF not EXIST %etc%\protocol IF not EXIST %etc%\services goto fixall
+IF not Exist %etc%\lmhosts.sam goto fixall
 pushd %~dp0
 if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts% & echo ::1             localhost>> %hosts% & echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
 mshta vbscript:msgbox("Hosts文件已恢复至系统初始状态！",64,"U+ Hosts")(window.close)
