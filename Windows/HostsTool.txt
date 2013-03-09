@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.07A
+set ver=1.1.1.08A
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -13,7 +13,7 @@ If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a
 Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
 Rd "%a%\test_permissions" >nul 2>nul
 rem 判断操作系统版本，支持从Win95-Win8(x32&x64)
-if exist %ComSpec% (set etc=%windir%\system32\drivers\etc & set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir% & set hosts=%windir%\hosts)
+if exist %ComSpec% (set etc=%windir%\system32\drivers\etc&set hosts=%windir%\system32\drivers\etc\hosts) Else (set etc=%windir%&set hosts=%windir%\hosts)
 rem 确定文件名
 ren %0 HostsTool.bat
 rem 复制运行库
@@ -55,7 +55,7 @@ cls
 rem 运行前准备工作
 ipconfig -flushdns >nul 2>nul
 del /f /q $ echo new.txt smarthosts.txt hbhosts.txt Strictlylist.txt HostsX.orzhosts b.txt hosts.txt ent.txt SmartRD.txt temp.txt>nul 2>nul
-mode con cols=50 lines=30
+mode con cols=50 lines=31
 ConsExt /crv 0
 color 0%xc%
 cls
@@ -65,17 +65,17 @@ echo.
 echo  【反馈 帮助支持】      ‘     【Flush DNS 刷新】   
 echo  HostsData：  【更新/Update Hosts】
 echo.
-echo  【编辑Hosts文件】             【修复 Hosts文件】          
+echo  【编辑Hosts文件】           【重置 Hosts. 文件】          
 echo     (Google  RD)                  (IPV6 Data) 
 if /i !force! neq 0 (echo 当前模式：G.cn服务器) else (echo 当前模式：北京服务器)
-echo    【MVPS  Data】            【替换为 127.0.0.1】
+echo  【MVPS Hosts Data.】        【替换为 127.0.0.1】
 echo.
 echo  【自定黑白名单设置】        【系统优化广告清理】
 echo  Permissions：==================================
 echo  【设置为：只读文件】    .   【 Hosts 文件 解锁】      
 echo  【设为NTFS读取权限】        【设为NTFS拒绝权限】
 echo   ==============================================
-echo  【IE CSS样式表设定】        【IE 信任站点 清理】   
+echo  【IE 广告过滤 CSS.】        【IE 信任站点 清理】   
 echo  【IE  浏览器  修复】        【IE 弹窗策略  Xp 】
 echo   ==============================================
 echo  【顽固文件/夹 删除】        【VBS*后台静默更新】             
@@ -93,7 +93,7 @@ set /a Y=%xy%-1000*%X%
 if %y% equ 1 if %x% gtr  1 if %x% lss 26 start http://code.google.com/p/hostsx & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持！" & echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & echo 请在反馈问题时复制以上信息！ >>GFeedBack.txt & notepad GFeedBack.txt & start iexplore.exe http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
 if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & call :cleanv & goto gui
 if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %windir%\system32\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
-if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :edithosts & goto gui)
+if %y% equ 5 if %x% gtr  1 if %x% lss 26 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :edithosts & goto gui)
 if %y% equ 5 if %x% gtr  26 if %x% lss 50 call :fixhosts & goto gui
 if %y% equ 7 if %x% gtr  1 if %x% lss 26 call :Google & goto gui
 if %y% equ 7 if %x% gtr  26 if %x% lss 50 call :ipv6 & goto gui
@@ -228,21 +228,18 @@ call :dns
 goto :eof
 
 :fixhosts
+IF not Exist %etc%\lmhosts.sam IF not EXIST %etc%\networks IF not EXIST %etc%\protocol IF not EXIST %etc%\services goto fixall
 pushd %~dp0
 if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts% & echo ::1             localhost>> %hosts% & echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
 mshta vbscript:msgbox("Hosts文件已恢复至系统初始状态！",64,"U+ Hosts")(window.close)
 call :edithosts
-IF Exist %etc%\lmhosts.sam IF EXIST %etc%\networks IF EXIST %etc%\protocol IF EXIST %etc%\services exit else goto fixall
 goto :eof
 
 :fixall
-:update
 echo 正在下载数据，请稍候... ...
-wget http://hostsx.googlecode.com/svn/trunk/Windows/etc.cab
-EXPAND -F:*.* etc.cab %etc%\
-cls
-echo %etc%目录文件已修复!
-pause
+if not exist etc.cab wget http://hostsx.googlecode.com/svn/trunk/Windows/etc.cab
+EXPAND -F:*.* etc.cab %etc%
+mshta vbscript:msgbox("%etc%目录文件已修复!",64,"U+ Hosts")(window.close)
 goto gui
 
 :Updates
