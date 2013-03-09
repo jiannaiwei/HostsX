@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.10A
+set ver=1.1.1.10B
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -82,7 +82,7 @@ echo  【顽固文件/夹 删除】        【VBS*后台静默更新】
 echo  【图标快捷方式修复】        【更新U+ HostsTool】              
 echo  当前目录：%~dp0
 echo.
-echo  【【屏蔽娱乐站点】】        【【恢复娱乐站点】】
+echo  【屏蔽游戏娱乐站点】        【恢复游戏娱乐站点】
 
 :mouse
 ConsExt /event
@@ -119,8 +119,8 @@ if %y% equ 23 if %x% gtr  12 if %x% lss 26 call :shortcutfix & goto gui
 if %y% equ 23 if %x% gtr  26 if %x% lss 50 goto updates
 if %y% equ 25 if %x% gtr  1 if %x% lss 26 start explorer %~dp0 & goto gui
 if %y% equ 25 if %x% gtr  26 if %x% lss 50 start explorer %etc% & goto gui
-if %y% equ 27 if %x% gtr  12 if %x% lss 26 call :entdatano & goto gui
-if %y% equ 27 if %x% gtr  31 if %x% lss 50 call :entdata & goto gui
+if %y% equ 27 if %x% gtr  12 if %x% lss 26 call :entdata & goto gui
+if %y% equ 27 if %x% gtr  31 if %x% lss 50 call :entdatano & goto gui
 goto mouse
 
 :dns
@@ -307,7 +307,8 @@ echo %pb% www.2144.cn >>myentblock.txt
 echo %pb% www.2366.com >>myentblock.txt
 echo %pb% www.4399.com >>myentblock.txt
 echo %pb% www.7k7k.com >>myentblock.txt
-echo Blocked QZone、QFarm，Kaixin001，Renren，4399Game etc.& choice /t 2 /d y /n >nul
+mshta vbscript:msgbox("myentblock.txt为游戏娱乐站点屏蔽名单，全部内容会被添加到Hosts文件中!此功能可以帮助家长屏蔽一些游戏网站，防止孩子养成沉溺游戏的不良习惯！此名单默认包含了了QZone、QFarm，Kaixin001，Renren，4399Game等一些网站！",64,"HostsTool")(window.close)
+notepad myentblock.txt & pause
 copy /b %hosts%+myentblock.txt hbhosts.txt
 copy hbhosts.txt %hosts%
 msg %username% /time:3 "设置的游戏娱乐网站已屏蔽!"
