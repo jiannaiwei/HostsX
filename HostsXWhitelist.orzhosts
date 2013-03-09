@@ -1,4 +1,4 @@
-;version=8:44 2013/3/9
+;version=14:58 2013/3/9
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -15,6 +15,10 @@ $DELETE
 
 #影响（阻止）网站、博客的多说评论系统。
 static.duoshuo.com
+$DELETE
+
+#导致风行客户端无法正常获取数据。
+jsonfe.funshion.com
 $DELETE
 
 #!导致暴风影音右下角推荐内容无法显示，暴风后台会通过此域名推送广告，不建议用户删除。

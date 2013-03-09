@@ -1,5 +1,5 @@
 
-;version=13:52:40.19 2013/03/09 周六
+;version=14:54:49.68 2013/03/09 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7774,7 +7774,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cms.funshion.com
 127.0.0.1 game.funshion.com
 127.0.0.1 gstat.funshion.com
-127.0.0.1 jsonfe.funshion.com
 127.0.0.1 neirong.funshion.com
 127.0.0.1 partner.funshion.com
 127.0.0.1 shop.funshion.com

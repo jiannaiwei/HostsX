@@ -193,7 +193,6 @@
 0.0.0.0 cms.funshion.com
 0.0.0.0 game.funshion.com
 0.0.0.0 gstat.funshion.com
-0.0.0.0 jsonfe.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=13:52:40.19 2013/03/09 周六
+;version=14:54:49.68 2013/03/09 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3751,7 +3751,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 cms.funshion.com
 0.0.0.0 game.funshion.com
 0.0.0.0 gstat.funshion.com
-0.0.0.0 jsonfe.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
