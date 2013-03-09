@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=10:07:07.98 2013/03/08 周五
+;version= 8:44:40.29 2013/03/09 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3775,8 +3775,15 @@ $      下载最新版本的 HostsX。
 #PPTV
 0.0.0.0 afp.pplive.com
 0.0.0.0 afv.pplive.com
-0.0.0.0 app.aplus.pptv.com
 0.0.0.0 caipiao.pplive.com
+0.0.0.0 ins-stat.pplive.com
+0.0.0.0 ins-version.pplive.com
+0.0.0.0 ins.pplive.com
+0.0.0.0 live.v2.pplive.com
+0.0.0.0 pp1.pplive.com
+0.0.0.0 up.pplive.com
+0.0.0.0 asimgs.pplive.cn
+0.0.0.0 pp2.as.pplive.cn
 0.0.0.0 client-play.pptv.com
 0.0.0.0 de.as.pptv.com
 0.0.0.0 dh.pplive.com
@@ -3785,12 +3792,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 g.pptv.com
 0.0.0.0 ga.pptv.com
 0.0.0.0 iafp.pptv.com
-0.0.0.0 ins-stat.pplive.com
-0.0.0.0 ins-version.pplive.com
-0.0.0.0 ins.pplive.com
 0.0.0.0 jp.as.pptv.com
-0.0.0.0 live.v2.pplive.com
-0.0.0.0 pp1.pplive.com
 0.0.0.0 pp2.pptv.com
 0.0.0.0 ppsj.pptv.com
 0.0.0.0 static.g.pptv.com
@@ -3798,15 +3800,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 wafp.pptv.com
 0.0.0.0 way.pptv.com
 0.0.0.0 wstat.pptv.com
-0.0.0.0 cptb.mtbu.pptv.com
-0.0.0.0 up.pplive.com
-0.0.0.0 asimgs.pplive.cn
-0.0.0.0 pp2.as.pplive.cn
 0.0.0.0 drag.synacast.com
 0.0.0.0 h.synacast.com
 0.0.0.0 ik.synacast.com
-0.0.0.0 ol.synacast.com
 0.0.0.0 ip.synacast.com
+0.0.0.0 ol.synacast.com
 0.0.0.0 pplive-va.synacast.com
 0.0.0.0 ppvalog.synacast.com
 0.0.0.0 rec.ik.synacast.com

@@ -1,4 +1,4 @@
-;version=10:06 2013/3/8
+;version=8:44 2013/3/9
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -342,6 +342,7 @@ list.client.pplive.cn
 static1.pplive.cn
 epg.api.pptv.com
 pp.pplive.com
+app.aplus.pptv.com
 $DELETE
 
 #导致 PPLive 右下角播放提示无法正常显示。
