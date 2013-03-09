@@ -93,7 +93,7 @@ set /a Y=%xy%-1000*%X%
 if %y% equ 1 if %x% gtr  1 if %x% lss 26 start http://code.google.com/p/hostsx & msg %username% /time:5 "访问HostsX项目主页获取更多设备支持！" & echo 遇到问题不要着急，请耐心看完帮助是否有用再反馈 >GFeedBack.txt & echo 用户名：%username% >>GFeedBack.txt & echo 计算机名：%userdomain% >>GFeedBack.txt & SystemInfo|findstr /ibc:"os 名称" /c:"os 版本" /c:"系统制造商" /c:"系统型号" /c:"Windows 目录">>GFeedBack.txt & echo IE版本：%iever% >>GFeedBack.txt & echo HostsTool版本：%ver% >>GFeedBack.txt & echo 今天是：%date% >>GFeedBack.txt & echo 遇到问题的网页地址：>>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo. >>GFeedBack.txt & echo 以上这些反馈信息有利于帮助我们快速解决您提交问题，感谢您的支持！>>GFeedBack.txt & echo 请在反馈问题时复制以上信息！ >>GFeedBack.txt & notepad GFeedBack.txt & start iexplore.exe http://code.google.com/p/hostsx/issues/list & cls & del GFeedBack.txt & goto gui
 if %y% equ 1 if %x% gtr  12 if %x% lss 50 call :dns & call :cleanv & goto gui
 if %y% equ 3 if %x% gtr  1 if %x% lss 50 if not exist %windir%\system32\wget.exe (call :dftvbs & msg %username% /time:2 "未检测到下载组件，自动使用VBS下载更新数据!"& goto gui) else (call :dftd)
-if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :unlock & notepad %hosts% & goto gui)
+if %y% equ 5 if %x% gtr  1 if %x% lss 28 if not exist %hosts% (msg %username% /time:2 "Fix Hosts File?（Restore the OS Default）"& del %hosts% /q & call :fixhosts & goto gui) else (call :edithosts & goto gui)
 if %y% equ 5 if %x% gtr  26 if %x% lss 50 call :fixhosts & goto gui
 if %y% equ 7 if %x% gtr  1 if %x% lss 26 call :Google & goto gui
 if %y% equ 7 if %x% gtr  26 if %x% lss 50 call :ipv6 & goto gui
@@ -221,13 +221,29 @@ goto :eof
 copy mwsl.txt %hosts%
 goto :eof
 
-:fixhosts
+:edithosts
 call :unlock
+start /wait notepad.exe %hosts%
+call :dns
+goto :eof
+
+:fixhosts
 pushd %~dp0
 if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts% & echo ::1             localhost>> %hosts% & echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
 mshta vbscript:msgbox("Hosts文件已恢复至系统初始状态！",64,"U+ Hosts")(window.close)
-notepad %hosts%
+call :edithosts
+IF Exist %etc%\lmhosts.sam IF EXIST %etc%\networks IF EXIST %etc%\protocol IF EXIST %etc%\services exit else goto fixall
 goto :eof
+
+:fixall
+:update
+echo 正在下载数据，请稍候... ...
+wget http://hostsx.googlecode.com/svn/trunk/Windows/etc.cab
+EXPAND -F:*.* etc.cab %etc%\
+cls
+echo %etc%目录文件已修复!
+pause
+goto gui
 
 :Updates
 msg %username% /time:2 "【新版本升级中,请稍后！】"
