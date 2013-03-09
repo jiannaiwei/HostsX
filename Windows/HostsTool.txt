@@ -229,6 +229,9 @@ goto :eof
 
 :fixhosts
 IF not Exist %etc%\lmhosts.sam goto fixall
+IF not EXIST %etc%\networks goto fixall
+IF not EXIST %etc%\protocol goto fixall
+IF not EXIST %etc%\services goto fixall
 pushd %~dp0
 if exist Win.txt (copy Win.txt %hosts%) Else (echo 127.0.0.1       localhost> %hosts% & echo ::1             localhost>> %hosts% & echo 127.0.0.1 localhost.localdomain localhost>> %hosts%)
 mshta vbscript:msgbox("Hosts文件已恢复至系统初始状态！",64,"U+ Hosts")(window.close)
