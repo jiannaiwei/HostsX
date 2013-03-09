@@ -252,6 +252,7 @@
 127.0.0.1 app.sjk.ijinshan.com
 127.0.0.1 dcys.ijinshan.com
 127.0.0.1 dl.app.ijinshan.com
+127.0.0.1 dl.dc.ijinshan.com
 127.0.0.1 softdl.ijinshan.com
 127.0.0.1 top.dcys.ijinshan.com
 127.0.0.1 up.app.ijinshan.com

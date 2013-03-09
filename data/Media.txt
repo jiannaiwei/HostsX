@@ -187,16 +187,18 @@
 0.0.0.0 xs.houyi.baofeng.net
 0.0.0.0 mlt01.com
 #Funshion
-0.0.0.0 vas.funshion.com
-0.0.0.0 game.funshion.com
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
 0.0.0.0 adm.funshion.com
 0.0.0.0 cms.funshion.com
+0.0.0.0 game.funshion.com
 0.0.0.0 gstat.funshion.com
+0.0.0.0 jsonfe.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
+0.0.0.0 vas.funshion.com
+0.0.0.0 stat.funshion.net
 #PPStream
 0.0.0.0 download.webscache.com
 0.0.0.0 areainfo.ppstream.com
@@ -212,7 +214,6 @@
 0.0.0.0 msg.y.pps.tv
 0.0.0.0 pl.pps.tv
 0.0.0.0 spider.pps.tv
-0.0.0.0 stat.game.pps.tv
 0.0.0.0 stat.game.pps.tv
 0.0.0.0 stat.y.pps.tv
 0.0.0.0 ugcad.pps.tv

@@ -966,7 +966,6 @@
 0.0.0.0 www.668805.com
 0.0.0.0 www.66bobo.com
 0.0.0.0 www.66bobo.net
-0.0.0.0 www.66game.cn
 0.0.0.0 www.66jq.com
 0.0.0.0 www.66qing.com
 0.0.0.0 www.676666.com

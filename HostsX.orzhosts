@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version= 8:44:40.29 2013/03/09 周六
+;version=13:52:40.19 2013/03/09 周六
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1341,25 +1341,27 @@ $      下载最新版本的 HostsX。
 0.0.0.0 i2u.www.duba.net
 0.0.0.0 ifr.duba.net
 0.0.0.0 info.duba.net
+0.0.0.0 info-push.duba.net
 0.0.0.0 labs.duba.net
 0.0.0.0 u.www.duba.net
 0.0.0.0 api.pc120.com
 0.0.0.0 stat.sd.keniu.com
 0.0.0.0 tq.sd.keniu.com
 #360
+0.0.0.0 down.360safe.com
 0.0.0.0 hjql.stat.360safe.com
 0.0.0.0 ini.update.360safe.com
 0.0.0.0 inst.360safe.com
-0.0.0.0 down.360safe.com
 0.0.0.0 pdown.stat.360safe.com
 0.0.0.0 plugin.stat.360safe.com
 0.0.0.0 seapp.stat.360safe.com
+0.0.0.0 shouji.360safe.com
 0.0.0.0 softm.update.360safe.com
 0.0.0.0 stat.360safe.com
-0.0.0.0 yhds.stat.360safe.com
 0.0.0.0 update.360safe.com
 0.0.0.0 upload.360safe.com
 0.0.0.0 x.360safe.com
+0.0.0.0 yhds.stat.360safe.com
 0.0.0.0 agd.p.360.cn
 0.0.0.0 bp.conf.f.360.cn
 0.0.0.0 cdn.apc.360.cn
@@ -1369,6 +1371,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 e.360.cn
 0.0.0.0 es.f.360.cn
 0.0.0.0 h.conf.f.360.cn
+0.0.0.0 openbox.mobilem.360.cn
 0.0.0.0 pinst.360.cn
 0.0.0.0 q.leak.360.cn
 0.0.0.0 q.soft.360.cn
@@ -1377,9 +1380,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 qurl.f.360.cn
 0.0.0.0 rd.360.cn
 0.0.0.0 s.360.cn
-0.0.0.0 sdup.360.cn
 0.0.0.0 s.se.360.cn
 0.0.0.0 sampleup.sd.360.cn
+0.0.0.0 sdup.360.cn
 0.0.0.0 shouji.360.cn
 0.0.0.0 st.se.360.cn
 0.0.0.0 stat.apc.360.cn
@@ -2126,6 +2129,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 app.sjk.ijinshan.com
 127.0.0.1 dcys.ijinshan.com
 127.0.0.1 dl.app.ijinshan.com
+127.0.0.1 dl.dc.ijinshan.com
 127.0.0.1 softdl.ijinshan.com
 127.0.0.1 top.dcys.ijinshan.com
 127.0.0.1 up.app.ijinshan.com
@@ -3741,16 +3745,18 @@ $      下载最新版本的 HostsX。
 0.0.0.0 xs.houyi.baofeng.net
 0.0.0.0 mlt01.com
 #Funshion
-0.0.0.0 vas.funshion.com
-0.0.0.0 game.funshion.com
 0.0.0.0 ad.funshion.com
 0.0.0.0 adk.funshion.com
 0.0.0.0 adm.funshion.com
 0.0.0.0 cms.funshion.com
+0.0.0.0 game.funshion.com
 0.0.0.0 gstat.funshion.com
+0.0.0.0 jsonfe.funshion.com
 0.0.0.0 neirong.funshion.com
 0.0.0.0 partner.funshion.com
 0.0.0.0 shop.funshion.com
+0.0.0.0 vas.funshion.com
+0.0.0.0 stat.funshion.net
 #PPStream
 0.0.0.0 download.webscache.com
 0.0.0.0 areainfo.ppstream.com
@@ -3766,7 +3772,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 msg.y.pps.tv
 0.0.0.0 pl.pps.tv
 0.0.0.0 spider.pps.tv
-0.0.0.0 stat.game.pps.tv
 0.0.0.0 stat.game.pps.tv
 0.0.0.0 stat.y.pps.tv
 0.0.0.0 ugcad.pps.tv
@@ -12750,7 +12755,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.668805.com
 0.0.0.0 www.66bobo.com
 0.0.0.0 www.66bobo.net
-0.0.0.0 www.66game.cn
 0.0.0.0 www.66jq.com
 0.0.0.0 www.66qing.com
 0.0.0.0 www.676666.com
