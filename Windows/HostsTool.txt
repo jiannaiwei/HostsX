@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.10B
+set ver=1.1.1.10C
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -518,7 +518,7 @@ call :cleanmdv
 goto :eof
 
 :cleanmdv
-md "%APPDATA%\Macromedia\Flash Player\#SharedObjects" >nul 2>nul
+md "%APPDATA%\Macromedia\Flash Player\#SharedObjects\JCESQEK5" >nul 2>nul
 md "%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects\JCESQEK5" >nul 2>nul
 rd "%sv%\JCESQEK5\d1.sina.com.cn" /s/q >nul 2>nul
 rd "%sv%\JCESQEK5\irs01.net" /s/q >nul 2>nul
