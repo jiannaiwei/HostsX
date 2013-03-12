@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=14:54:49.68 2013/03/09 周六
+;version= 8:11:19.31 2013/03/12 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3833,12 +3833,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 buffer-ad.kuaibo.com
 0.0.0.0 dl.kuaibo.com
 0.0.0.0 hao.kuaibo.com
-0.0.0.0 m.kuaibo.com
 0.0.0.0 mobile.behavior.kuaibo.com
 0.0.0.0 mobile.statis.kuaibo.com
 0.0.0.0 pause-ad.kuaibo.com
-0.0.0.0 s.kuaibo.com
-0.0.0.0 searchstat.kuaibo.com
 0.0.0.0 statis.kuaibo.com
 0.0.0.0 stun.kuaibo.com
 0.0.0.0 text-ad.kuaibo.com
@@ -3851,7 +3848,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 prom.web.kuaiwan.com
 0.0.0.0 web.kuaiwan.com
 0.0.0.0 dl.duoping.com
-0.0.0.0 s.726.com
 0.0.0.0 agent.ad1111.com
 0.0.0.0 game.ad1111.com
 0.0.0.0 qvodlink.hco.cc

@@ -1,5 +1,5 @@
 
-;version=14:54:49.68 2013/03/09 周六
+;version= 8:11:19.31 2013/03/12 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7856,12 +7856,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 buffer-ad.kuaibo.com
 127.0.0.1 dl.kuaibo.com
 127.0.0.1 hao.kuaibo.com
-127.0.0.1 m.kuaibo.com
 127.0.0.1 mobile.behavior.kuaibo.com
 127.0.0.1 mobile.statis.kuaibo.com
 127.0.0.1 pause-ad.kuaibo.com
-127.0.0.1 s.kuaibo.com
-127.0.0.1 searchstat.kuaibo.com
 127.0.0.1 statis.kuaibo.com
 127.0.0.1 stun.kuaibo.com
 127.0.0.1 text-ad.kuaibo.com
@@ -7874,7 +7871,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 prom.web.kuaiwan.com
 127.0.0.1 web.kuaiwan.com
 127.0.0.1 dl.duoping.com
-127.0.0.1 s.726.com
 127.0.0.1 agent.ad1111.com
 127.0.0.1 game.ad1111.com
 127.0.0.1 qvodlink.hco.cc
