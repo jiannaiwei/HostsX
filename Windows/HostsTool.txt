@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.10D
+set ver=1.1.1.10E
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -715,6 +715,7 @@ echo "请先关闭QQ、TM!"
 %k% qq.exe
 %k% tm.exe
 %k% TXOPShow.exe
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\QQPCDownload.exe" /v debugger /t reg_sz /d debugfile.exe /f
 rd "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement" /s/q
 c:> "%APPDATA%\Tencent\QQ\Misc\com.tencent.advertisement"
 del "%AppData%\Tencent\Users\misc.db" /s /q
