@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version= 9:28:45.18 2013/03/12 周二
+;version=10:17:34.49 2013/03/12 周二
 ;hostsxversion=0.5.2.1
 ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2019,6 +2019,10 @@ $      下载最新版本的 HostsX。
 #Baidu
 127.0.0.1 agentchannel.api.duapp.com
 127.0.0.1 channel.api.duapp.com
+#Bushdh
+127.0.0.1 api.busdh.com
+127.0.0.1 soft.busdh.com
+127.0.0.1 game.busdh.com
 #ByPush
 127.0.0.1 www.bypush.com
 #Casee
@@ -2417,6 +2421,12 @@ $      下载最新版本的 HostsX。
 #Tenddata
 127.0.0.1 client.tenddata.com
 127.0.0.1 analytics.talkingdata.net
+#TTpod
+127.0.0.1 advise.ttpod.cn
+127.0.0.1 browser.ard.ttpod.com
+127.0.0.1 collect.log.ttpod.com
+127.0.0.1 tj.ard.ttpod.com
+127.0.0.1 v1.ard.h.itlily.com
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
@@ -2458,6 +2468,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.uu.cc
 127.0.0.1 dl.idreamsky.com
 127.0.0.1 v1-feed.idreamsky.com
+#vov.io
+127.0.0.1 d.vov.io
+127.0.0.1 vov.io
 #Vodone
 127.0.0.1 autou.vodone.cn
 127.0.0.1 busjs.vodone.cn

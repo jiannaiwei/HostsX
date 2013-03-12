@@ -142,6 +142,10 @@
 #Baidu
 127.0.0.1 agentchannel.api.duapp.com
 127.0.0.1 channel.api.duapp.com
+#Bushdh
+127.0.0.1 api.busdh.com
+127.0.0.1 soft.busdh.com
+127.0.0.1 game.busdh.com
 #ByPush
 127.0.0.1 www.bypush.com
 #Casee
@@ -540,6 +544,12 @@
 #Tenddata
 127.0.0.1 client.tenddata.com
 127.0.0.1 analytics.talkingdata.net
+#TTpod
+127.0.0.1 advise.ttpod.cn
+127.0.0.1 browser.ard.ttpod.com
+127.0.0.1 collect.log.ttpod.com
+127.0.0.1 tj.ard.ttpod.com
+127.0.0.1 v1.ard.h.itlily.com
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
@@ -581,6 +591,9 @@
 127.0.0.1 www.uu.cc
 127.0.0.1 dl.idreamsky.com
 127.0.0.1 v1-feed.idreamsky.com
+#vov.io
+127.0.0.1 d.vov.io
+127.0.0.1 vov.io
 #Vodone
 127.0.0.1 autou.vodone.cn
 127.0.0.1 busjs.vodone.cn
