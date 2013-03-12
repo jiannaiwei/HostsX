@@ -1,4 +1,10 @@
 @Mobile 手机广告平台
+#MobileSMS
+127.0.0.1 wapgame.189.cn
+127.0.0.1 g.10086.cn
+127.0.0.1 gmc.g188.net
+127.0.0.1 omsjf.cmgame.com
+127.0.0.1 test.service.ids111.com
 #AdMob
 127.0.0.1 api.admob.com
 127.0.0.1 e.admob.com
@@ -561,6 +567,20 @@
 #Uyunad
 127.0.0.1 i.uyunad.com
 127.0.0.1 www.uyunad.com
+#UU.cc
+127.0.0.1 birzzle.uu.cc
+127.0.0.1 dl.uu.cc
+127.0.0.1 fytx.uu.cc
+127.0.0.1 g.uu.cc
+127.0.0.1 in1.secure.uu.cc
+127.0.0.1 in1.service.uu.cc
+127.0.0.1 ly.uu.cc
+127.0.0.1 sb1.service.uu.cc
+127.0.0.1 test.v1-secure.uu.cc
+127.0.0.1 uu.cc
+127.0.0.1 www.uu.cc
+127.0.0.1 dl.idreamsky.com
+127.0.0.1 v1-feed.idreamsky.com
 #Vodone
 127.0.0.1 autou.vodone.cn
 127.0.0.1 busjs.vodone.cn
