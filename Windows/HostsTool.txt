@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.10F
+set ver=1.1.1.10G
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -170,7 +170,7 @@ goto :eof
 :UsrFile
 if not exist whitelists.txt echo 0.0.0.0 www.forexample.com >whitelists.txt
 findstr /v /x /g:whitelists.txt %hosts% >new.txt
-copy /b new.txt+myentblock.txt+myhosts.txt hbhosts.txt
+copy /b new.txt+myhosts.txt hbhosts.txt
 copy hbhosts.txt %hosts%
 goto :eof
 
