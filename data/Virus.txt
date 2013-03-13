@@ -1,5 +1,5 @@
-@HostsX ø…“…≤°∂æ¿πΩÿ
-#µˆ”„’©∆≠
+@HostsX Virus Blocking
+#Phishing
 0.0.0.0 www.baidu.com.kvoc.in
 0.0.0.0 www.zsectv.com
 0.0.0.0 yrsw.dzxxmh.com
@@ -271,7 +271,7 @@
 0.0.0.0 www.fengxiong.hk
 0.0.0.0 www.qq.com.2012r.in
 0.0.0.0 go2buynow.info
-#‰Ø¿¿∆˜ΩŸ≥÷
+#Browser Hijacking
 0.0.0.0 2345.com
 0.0.0.0 www.2345.com
 0.0.0.0 054.cc
@@ -424,7 +424,7 @@
 0.0.0.0 www.2456.cn
 0.0.0.0 www.66game.cn
 0.0.0.0 www.114wangzhan.com
-#≤°∂æœ¬‘ÿ
+#Virus Download
 0.0.0.0 down.skybk.com
 0.0.0.0 xiazai.vstartdown.com
 0.0.0.0 vip.rrada.org

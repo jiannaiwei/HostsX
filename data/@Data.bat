@@ -11,12 +11,12 @@ echo notepad %%windir%%\system32\drivers\etc\hosts >>bat.txt
 echo goto :eof >>bat.txt
 rem :smarhosts
 echo.>Version.txt
-echo ;version=%date:~0,4%%date:~5,2%%date:~8,2%%TIME:~0,2%%TIME:~3,2%%TIME:~6,2%>>Version.txt
+echo ;version=%date:~0,4%%date:~5,2%%date:~8,2%%TIME:~0,2%%TIME:~3,2%>>Version.txt
 rem echo ;version=%time% %date%>>Version.txt
 echo ;hostsxversion=0.5.2.1>>Version.txt
 echo ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh>>Version.txt
 echo ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.>>Version.txt
-set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt mwsl.txt Popups.txt
+set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt mwsl.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>HostsX.orzhosts)
 copy HostsX.orzhosts Android.txt
 start hosts.vbs
@@ -24,11 +24,11 @@ ping -n 2 127.0.0.1
 move /y hosts "%~dp0..\Android"
 del new.txt Android.txt
 move /y HostsX.orzhosts "%~dp0..\"
-set files=Version.txt Rd.txt Applenew.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt Popups.txt
+set files=Version.txt Rd.txt Applenew.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>hosts.txt)
 sed -e "s/0.0.0.0/127.0.0.1/g" hosts.txt > hosts
 move /y hosts "%~dp0..\"
-set files=Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt Popups.txt
+set files=Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>Android.txt)
 start hosts.vbs
 ping -n 2 127.0.0.1

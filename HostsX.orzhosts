@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20130313142101
+;version=201303131516
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -28,7 +28,7 @@ ff02::3 ip6-allhosts
 fe80::1%lo0	localhost
 255.255.255.255	broadcasthost
 0.0.0.0 advertising.apple.com
-#FlashGet
+#FlashGetAccelerate
 221.123.176.125 s5.flashget.com
 221.123.176.136 cplog.flashget.com
 #QQXF
@@ -1672,6 +1672,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 inventory.overture.com
 0.0.0.0 overture.com
 0.0.0.0 perf.overture.com
+0.0.0.0 rc20.overture.com
 0.0.0.0 rc.asia.srv.overture.com
 0.0.0.0 rc.us-east.srv.overture.com
 0.0.0.0 rc.us-west.srv.overture.com
@@ -1734,8 +1735,9 @@ $      下载最新版本的 HostsX。
 #Yahoo.co.jp
 0.0.0.0 ai.yimg.jp
 0.0.0.0 ard.yahoo.co.jp
-0.0.0.0 yjaxc.yahoo.co.jp
+0.0.0.0 bc.geocities.yahoo.co.jp
 0.0.0.0 rd.ane.yahoo.co.jp
+0.0.0.0 yjaxc.yahoo.co.jp
 #Yahoo.com.cn
 0.0.0.0 www.aliyk.com
 0.0.0.0 click.tanx.com
@@ -1875,7 +1877,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.rightmedia.com
 0.0.0.0 www.yfdmedia.com
 0.0.0.0 ym.bannerconnect.net
-@Mobile 手机广告平台
+@Mobile ADPlatform
 #MobileSMS
 127.0.0.1 wapgame.189.cn
 127.0.0.1 g.10086.cn
@@ -1883,22 +1885,25 @@ $      下载最新版本的 HostsX。
 127.0.0.1 omsjf.cmgame.com
 127.0.0.1 test.service.ids111.com
 #AdMob
+127.0.0.1 analytics.admob.com
 127.0.0.1 api.admob.com
 127.0.0.1 e.admob.com
 127.0.0.1 media.admob.com
 127.0.0.1 mm.admob.com
 127.0.0.1 mmv.admob.com
+127.0.0.1 p.admob.com
 127.0.0.1 r.admob.com
-127.0.0.1 schemas.android.com
-127.0.0.1 mobwin.android.com
+127.0.0.1 mobileads.google.com
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 static.googleadsserving.cn
+127.0.0.1 mobwin.android.com
+127.0.0.1 schemas.android.com
+127.0.0.1 www.googleapis.com
 127.0.0.1 csi.gstatic.com
 127.0.0.1 www.gstatic.com
 127.0.0.1 ssl.google-analytics.com
 127.0.0.1 www.google-analytics.com
-127.0.0.1 www.googleapis.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -1957,8 +1962,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 track.adwo.com
 127.0.0.1 www.adwo.com
 #Ad-maker
-127.0.0.1 ox-i.ad-maker.info
+127.0.0.1 admin.ad-maker.info
+127.0.0.1 images.ad-maker.info
 127.0.0.1 ox-d.ad-maker.info
+127.0.0.1 ox-i.ad-maker.info
 #Adview
 127.0.0.1 config.adview.cn
 127.0.0.1 report.adview.cn
@@ -2016,7 +2023,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 sfmusictech.appstores.com
 127.0.0.1 techcrunch.appstores.com
 127.0.0.1 topix.appstores.com
-#Baidu
+#BaiduDuapp
 127.0.0.1 agentchannel.api.duapp.com
 127.0.0.1 channel.api.duapp.com
 #Bushdh
@@ -2341,7 +2348,7 @@ $      下载最新版本的 HostsX。
 #Punchbox
 127.0.0.1 www.punchbox.org
 127.0.0.1 pic.punchbox.org
-#QQ
+#QQ3g
 127.0.0.1 3gsoftfile.tc.qq.com
 127.0.0.1 3gsoftfile.tcdn.qq.com
 127.0.0.1 adpm.app.qq.com
@@ -2681,7 +2688,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 static.189works.com
 127.0.0.1 static.moreadexchange.com
 127.0.0.1 test.adpooh.com
-127.0.0.1 v1-feed.idreamsky.com
 127.0.0.1 w.sandbox.mkhoj.com
 127.0.0.1 wap.cellufun.com
 127.0.0.1 wap.life.nokia.com.cn
@@ -4260,7 +4266,7 @@ $      下载最新版本的 HostsX。
 #Yunduan
 0.0.0.0 tj.yunduan.cn
 0.0.0.0 update.yunduan.cn
-@HostsX 国外广告平台
+@HostsX AdUnionEN
 #247realmedia
 0.0.0.0 accuweathercollect.247realmedia.com
 0.0.0.0 adv.247realmedia.com
@@ -4378,23 +4384,10 @@ $      下载最新版本的 HostsX。
 0.0.0.0 e.abnad.net
 0.0.0.0 t.abnad.net
 0.0.0.0 z.abnad.net
-#ADbn
-0.0.0.0 ad.pop1.adbn.ru
-0.0.0.0 ad.top1.adbn.ru
-0.0.0.0 ad.rich1.adbn.ru
 #Adcash
 0.0.0.0 ads.depositfiles.com
 0.0.0.0 adcash.com
 0.0.0.0 www.adcash.com
-#Pcads
-0.0.0.0 n.pcads.ru
-0.0.0.0 pc-n9.pcads.ru
-0.0.0.0 st.pcads.ru
-0.0.0.0 pc.adonweb.ru
-0.0.0.0 st.pc.adonweb.ru
-0.0.0.0 trafinfo.info
-0.0.0.0 uno.TRAFF-GO.INFO
-0.0.0.0 uno.traff-go.info
 #ADbrite
 0.0.0.0 1.adbrite.com
 0.0.0.0 2.adbrite.com
@@ -4414,13 +4407,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 1.marketbanker.com
 0.0.0.0 2.marketbanker.com
 0.0.0.0 www.marketbanker.com
-#ADFox
-0.0.0.0 ad.adfox.cz
-0.0.0.0 ads.adfox.ru
-0.0.0.0 banners.adfox.ru
-0.0.0.0 gazeta.adfox.ru
-0.0.0.0 rq.adfox.ru
-0.0.0.0 sup.adfox.ru
 #ADForm
 0.0.0.0 adform.com
 0.0.0.0 adform.net
@@ -5786,60 +5772,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 78843.hittail.com
 0.0.0.0 tracking.hittail.com
 0.0.0.0 tracking2.hittail.com
-#Hotlog
-0.0.0.0 ad.hotlog.ru
-0.0.0.0 click.hotlog.ru
-0.0.0.0 globalstats.hotlog.ru
-0.0.0.0 hit.hotlog.ru
-0.0.0.0 hit1.hotlog.ru
-0.0.0.0 hit10.hotlog.ru
-0.0.0.0 hit11.hotlog.ru
-0.0.0.0 hit12.hotlog.ru
-0.0.0.0 hit13.hotlog.ru
-0.0.0.0 hit14.hotlog.ru
-0.0.0.0 hit15.hotlog.ru
-0.0.0.0 hit16.hotlog.ru
-0.0.0.0 hit17.hotlog.ru
-0.0.0.0 hit18.hotlog.ru
-0.0.0.0 hit19.hotlog.ru
-0.0.0.0 hit2.hotlog.ru
-0.0.0.0 hit20.hotlog.ru
-0.0.0.0 hit21.hotlog.ru
-0.0.0.0 hit22.hotlog.ru
-0.0.0.0 hit23.hotlog.ru
-0.0.0.0 hit24.hotlog.ru
-0.0.0.0 hit25.hotlog.ru
-0.0.0.0 hit26.hotlog.ru
-0.0.0.0 hit27.hotlog.ru
-0.0.0.0 hit28.hotlog.ru
-0.0.0.0 hit29.hotlog.ru
-0.0.0.0 hit3.hotlog.ru
-0.0.0.0 hit30.hotlog.ru
-0.0.0.0 hit35.hotlog.ru
-0.0.0.0 hit4.hotlog.ru
-0.0.0.0 hit5.hotlog.ru
-0.0.0.0 hit6.hotlog.ru
-0.0.0.0 hit7.hotlog.ru
-0.0.0.0 hit8.hotlog.ru
-0.0.0.0 hit9.hotlog.ru
-0.0.0.0 hitsrv10.hotlog.ru
-0.0.0.0 hitsrv228.hotlog.ru
-0.0.0.0 hotlog.ru
-0.0.0.0 img.hotlog.ru
-0.0.0.0 www.hotlog.ru
-0.0.0.0 www1.hotlog.ru
-0.0.0.0 www10.hotlog.ru
-0.0.0.0 www11.hotlog.ru
-0.0.0.0 www12.hotlog.ru
-0.0.0.0 www14.hotlog.ru
-0.0.0.0 www2.hotlog.ru
-0.0.0.0 www3.hotlog.ru
-0.0.0.0 www4.hotlog.ru
-0.0.0.0 www5.hotlog.ru
-0.0.0.0 www6.hotlog.ru
-0.0.0.0 www7.hotlog.ru
-0.0.0.0 www8.hotlog.ru
-0.0.0.0 www9.hotlog.ru
 #ientry
 0.0.0.0 action.ientry.net
 0.0.0.0 aj.ientry.net
@@ -7584,10 +7516,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 webservice-lb-624573684.us-east-1.elb.amazonaws.com
 0.0.0.0 xmlconfig.ltassrv.com.s3.amazonaws.com
 0.0.0.0 yab-adimages.s3.amazonaws.com
-#Pay-click
-0.0.0.0 n.pay-click.ru
-0.0.0.0 n3.pay-click.ru
-0.0.0.0 st.pay-click.ru
 #Peel
 0.0.0.0 ad1.peel.com
 0.0.0.0 ad3.peel.com
@@ -7597,52 +7525,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 freeps3.peel.com
 0.0.0.0 www.peel.com
 0.0.0.0 www.peel.net
-#PeterHost
-0.0.0.0 adskape.ru
-0.0.0.0 p13178.adskape.ru
-0.0.0.0 p1574.adskape.ru
-0.0.0.0 p2408.adskape.ru
-0.0.0.0 p4010.adskape.ru
-0.0.0.0 p543.adskape.ru
-0.0.0.0 p9762.adskape.ru
-0.0.0.0 1gavcom.popunder.ru
-0.0.0.0 anrysys.popunder.ru
-0.0.0.0 balakin.popunder.ru
-0.0.0.0 basterr.popunder.ru
-0.0.0.0 bizbor.popunder.ru
-0.0.0.0 bugera.popunder.ru
-0.0.0.0 clik2008.popunder.ru
-0.0.0.0 darseo.popunder.ru
-0.0.0.0 djeps.popunder.ru
-0.0.0.0 ead-soft.popunder.ru
-0.0.0.0 freegroupvideo.popunder.ru
-0.0.0.0 gajime.popunder.ru
-0.0.0.0 h0rnd0g.popunder.ru
-0.0.0.0 jabu.popunder.ru
-0.0.0.0 kamasutra.popunder.ru
-0.0.0.0 kinofree.popunder.ru
-0.0.0.0 low-hacker.popunder.ru
-0.0.0.0 luksona.popunder.ru
-0.0.0.0 milioner.popunder.ru
-0.0.0.0 palmebi.popunder.ru
-0.0.0.0 popunder.ru
-0.0.0.0 rapsubs.popunder.ru
-0.0.0.0 sayhello.popunder.ru
-0.0.0.0 soski.popunder.ru
-0.0.0.0 spike669.popunder.ru
-0.0.0.0 stepan007.popunder.ru
-0.0.0.0 tengo.popunder.ru
-0.0.0.0 the-kret.popunder.ru
-0.0.0.0 tvzebra.popunder.ru
-0.0.0.0 vaime.net.popunder.ru
-0.0.0.0 viper.popunder.ru
-0.0.0.0 vistas.popunder.ru
-0.0.0.0 wera.popunder.ru
-0.0.0.0 zampolit1990.popunder.ru
-0.0.0.0 zonawm.biz.popunder.ru
-0.0.0.0 popunder.com
-0.0.0.0 media.popunder.com
-0.0.0.0 www.popunder.com
 #PointRoll
 0.0.0.0 ads.pointroll.com
 0.0.0.0 ami.pointroll.com
@@ -7699,22 +7581,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 banners.celebtaboo.com
 0.0.0.0 banners.dollarmachine.com
 0.0.0.0 banners.totalaccessporn.com
-#Relax
-0.0.0.0 content.relax.ru
-0.0.0.0 engine.mediamir.medialand.ru
-#Rambler
-0.0.0.0 ad.rambler.ru
-0.0.0.0 ad2.rambler.ru
-0.0.0.0 ad3.rambler.ru
-0.0.0.0 counter.rambler.ru
-0.0.0.0 id.rambler.ru
-0.0.0.0 images.rambler.ru
-0.0.0.0 info-images.rambler.ru
-0.0.0.0 scnt.rambler.ru
-0.0.0.0 scounter.rambler.ru
-0.0.0.0 SunBelt.Rambler.ru
-0.0.0.0 top100-images.rambler.ru
-0.0.0.0 top100.rambler.ru
 #Realtracker
 0.0.0.0 adserver1.realtracker.com
 0.0.0.0 adserver2.realtracker.com
@@ -7739,29 +7605,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pix02.revsci.net
 0.0.0.0 pix03.revsci.net
 0.0.0.0 pix04.revsci.net
-#RTComm.ru
-0.0.0.0 ad.bannerbank.ru
-0.0.0.0 ad1.bannerbank.ru
-0.0.0.0 ad10.bannerbank.ru
-0.0.0.0 ad11.bannerbank.ru
-0.0.0.0 ad12.bannerbank.ru
-0.0.0.0 ad13.bannerbank.ru
-0.0.0.0 ad14.bannerbank.ru
-0.0.0.0 ad15.bannerbank.ru
-0.0.0.0 ad16.bannerbank.ru
-0.0.0.0 ad17.bannerbank.ru
-0.0.0.0 ad18.bannerbank.ru
-0.0.0.0 ad2.bannerbank.ru
-0.0.0.0 ad3.bannerbank.ru
-0.0.0.0 ad4.bannerbank.ru
-0.0.0.0 ad5.bannerbank.ru
-0.0.0.0 ad6.bannerbank.ru
-0.0.0.0 ad7.bannerbank.ru
-0.0.0.0 ad8.bannerbank.ru
-0.0.0.0 ad9.bannerbank.ru
-0.0.0.0 bannerbank.ru
-0.0.0.0 crd1.bannerbank.ru
-0.0.0.0 static.bannerbank.ru
 #Rubiconproject
 0.0.0.0 ads.rubiconproject.com
 0.0.0.0 tap-cdn.rubiconproject.com
@@ -8259,22 +8102,6 @@ $      下载最新版本的 HostsX。
 #Unrulymedia
 0.0.0.0 video.unrulymedia.com
 0.0.0.0 www.unrulymedia.com
-#Valueclick
-0.0.0.0 ads.aco.valueclick.net
-0.0.0.0 ads.csi.valueclick.net
-0.0.0.0 ads.he.valueclick.net
-0.0.0.0 ads.hnet.valueclick.net
-0.0.0.0 ads.link.valueclick.net
-0.0.0.0 ads.mplx.valueclick.net
-0.0.0.0 ads.mtv.valueclick.net
-0.0.0.0 ads.pr.valueclick.net
-0.0.0.0 ads.vcuk.valueclick.net
-0.0.0.0 cdn.valueclick.net
-0.0.0.0 valueclick.net
-0.0.0.0 images.valueclickmedia.com
-0.0.0.0 valueclickmedia.com
-0.0.0.0 oz.valueclick.ne.jp
-0.0.0.0 st.valueclick.ne.jp
 #Vibrant Media
 0.0.0.0 10best.us.intellitxt.com
 0.0.0.0 1src.us.intellitxt.com
@@ -9472,7 +9299,315 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.sq2trk2.com
 0.0.0.0 www.srvbytrking.com
 0.0.0.0 choices.truste.com
-@HostsX 国内广告联盟
+@HostsX AdUnionRU
+#ADbn
+0.0.0.0 ad.pop1.adbn.ru
+0.0.0.0 ad.top1.adbn.ru
+0.0.0.0 ad.rich1.adbn.ru
+#Pcads
+0.0.0.0 n.pcads.ru
+0.0.0.0 pc-n9.pcads.ru
+0.0.0.0 st.pcads.ru
+0.0.0.0 pc.adonweb.ru
+0.0.0.0 st.pc.adonweb.ru
+0.0.0.0 trafinfo.info
+0.0.0.0 uno.TRAFF-GO.INFO
+0.0.0.0 uno.traff-go.info
+#ADFox
+0.0.0.0 ad.adfox.cz
+0.0.0.0 ads.adfox.ru
+0.0.0.0 banners.adfox.ru
+0.0.0.0 gazeta.adfox.ru
+0.0.0.0 rq.adfox.ru
+0.0.0.0 sup.adfox.ru
+#Hotlog
+0.0.0.0 ad.hotlog.ru
+0.0.0.0 click.hotlog.ru
+0.0.0.0 globalstats.hotlog.ru
+0.0.0.0 hit.hotlog.ru
+0.0.0.0 hit1.hotlog.ru
+0.0.0.0 hit10.hotlog.ru
+0.0.0.0 hit11.hotlog.ru
+0.0.0.0 hit12.hotlog.ru
+0.0.0.0 hit13.hotlog.ru
+0.0.0.0 hit14.hotlog.ru
+0.0.0.0 hit15.hotlog.ru
+0.0.0.0 hit16.hotlog.ru
+0.0.0.0 hit17.hotlog.ru
+0.0.0.0 hit18.hotlog.ru
+0.0.0.0 hit19.hotlog.ru
+0.0.0.0 hit2.hotlog.ru
+0.0.0.0 hit20.hotlog.ru
+0.0.0.0 hit21.hotlog.ru
+0.0.0.0 hit22.hotlog.ru
+0.0.0.0 hit23.hotlog.ru
+0.0.0.0 hit24.hotlog.ru
+0.0.0.0 hit25.hotlog.ru
+0.0.0.0 hit26.hotlog.ru
+0.0.0.0 hit27.hotlog.ru
+0.0.0.0 hit28.hotlog.ru
+0.0.0.0 hit29.hotlog.ru
+0.0.0.0 hit3.hotlog.ru
+0.0.0.0 hit30.hotlog.ru
+0.0.0.0 hit35.hotlog.ru
+0.0.0.0 hit4.hotlog.ru
+0.0.0.0 hit5.hotlog.ru
+0.0.0.0 hit6.hotlog.ru
+0.0.0.0 hit7.hotlog.ru
+0.0.0.0 hit8.hotlog.ru
+0.0.0.0 hit9.hotlog.ru
+0.0.0.0 hitsrv10.hotlog.ru
+0.0.0.0 hitsrv228.hotlog.ru
+0.0.0.0 hotlog.ru
+0.0.0.0 img.hotlog.ru
+0.0.0.0 www.hotlog.ru
+0.0.0.0 www1.hotlog.ru
+0.0.0.0 www10.hotlog.ru
+0.0.0.0 www11.hotlog.ru
+0.0.0.0 www12.hotlog.ru
+0.0.0.0 www14.hotlog.ru
+0.0.0.0 www2.hotlog.ru
+0.0.0.0 www3.hotlog.ru
+0.0.0.0 www4.hotlog.ru
+0.0.0.0 www5.hotlog.ru
+0.0.0.0 www6.hotlog.ru
+0.0.0.0 www7.hotlog.ru
+0.0.0.0 www8.hotlog.ru
+0.0.0.0 www9.hotlog.ru
+#Pay-click
+0.0.0.0 n.pay-click.ru
+0.0.0.0 n3.pay-click.ru
+0.0.0.0 st.pay-click.ru
+#PeterHost
+0.0.0.0 adskape.ru
+0.0.0.0 p13178.adskape.ru
+0.0.0.0 p1574.adskape.ru
+0.0.0.0 p2408.adskape.ru
+0.0.0.0 p4010.adskape.ru
+0.0.0.0 p543.adskape.ru
+0.0.0.0 p9762.adskape.ru
+0.0.0.0 1gavcom.popunder.ru
+0.0.0.0 anrysys.popunder.ru
+0.0.0.0 balakin.popunder.ru
+0.0.0.0 basterr.popunder.ru
+0.0.0.0 bizbor.popunder.ru
+0.0.0.0 bugera.popunder.ru
+0.0.0.0 clik2008.popunder.ru
+0.0.0.0 darseo.popunder.ru
+0.0.0.0 djeps.popunder.ru
+0.0.0.0 ead-soft.popunder.ru
+0.0.0.0 freegroupvideo.popunder.ru
+0.0.0.0 gajime.popunder.ru
+0.0.0.0 h0rnd0g.popunder.ru
+0.0.0.0 jabu.popunder.ru
+0.0.0.0 kamasutra.popunder.ru
+0.0.0.0 kinofree.popunder.ru
+0.0.0.0 low-hacker.popunder.ru
+0.0.0.0 luksona.popunder.ru
+0.0.0.0 milioner.popunder.ru
+0.0.0.0 palmebi.popunder.ru
+0.0.0.0 popunder.ru
+0.0.0.0 rapsubs.popunder.ru
+0.0.0.0 sayhello.popunder.ru
+0.0.0.0 soski.popunder.ru
+0.0.0.0 spike669.popunder.ru
+0.0.0.0 stepan007.popunder.ru
+0.0.0.0 tengo.popunder.ru
+0.0.0.0 the-kret.popunder.ru
+0.0.0.0 tvzebra.popunder.ru
+0.0.0.0 vaime.net.popunder.ru
+0.0.0.0 viper.popunder.ru
+0.0.0.0 vistas.popunder.ru
+0.0.0.0 wera.popunder.ru
+0.0.0.0 zampolit1990.popunder.ru
+0.0.0.0 zonawm.biz.popunder.ru
+0.0.0.0 popunder.com
+0.0.0.0 media.popunder.com
+0.0.0.0 www.popunder.com
+#Relax
+0.0.0.0 content.relax.ru
+0.0.0.0 engine.mediamir.medialand.ru
+#Rambler
+0.0.0.0 ad.rambler.ru
+0.0.0.0 ad2.rambler.ru
+0.0.0.0 ad3.rambler.ru
+0.0.0.0 counter.rambler.ru
+0.0.0.0 id.rambler.ru
+0.0.0.0 images.rambler.ru
+0.0.0.0 info-images.rambler.ru
+0.0.0.0 scnt.rambler.ru
+0.0.0.0 scounter.rambler.ru
+0.0.0.0 SunBelt.Rambler.ru
+0.0.0.0 top100-images.rambler.ru
+0.0.0.0 top100.rambler.ru
+#RTComm
+0.0.0.0 ad.bannerbank.ru
+0.0.0.0 ad1.bannerbank.ru
+0.0.0.0 ad10.bannerbank.ru
+0.0.0.0 ad11.bannerbank.ru
+0.0.0.0 ad12.bannerbank.ru
+0.0.0.0 ad13.bannerbank.ru
+0.0.0.0 ad14.bannerbank.ru
+0.0.0.0 ad15.bannerbank.ru
+0.0.0.0 ad16.bannerbank.ru
+0.0.0.0 ad17.bannerbank.ru
+0.0.0.0 ad18.bannerbank.ru
+0.0.0.0 ad2.bannerbank.ru
+0.0.0.0 ad3.bannerbank.ru
+0.0.0.0 ad4.bannerbank.ru
+0.0.0.0 ad5.bannerbank.ru
+0.0.0.0 ad6.bannerbank.ru
+0.0.0.0 ad7.bannerbank.ru
+0.0.0.0 ad8.bannerbank.ru
+0.0.0.0 ad9.bannerbank.ru
+0.0.0.0 bannerbank.ru
+0.0.0.0 crd1.bannerbank.ru
+0.0.0.0 static.bannerbank.ru
+#A8
+0.0.0.0 ad.a8.net
+0.0.0.0 px.a8.net
+0.0.0.0 rot5.a8.net
+0.0.0.0 rot7.a8.net
+0.0.0.0 www10.a8.net
+0.0.0.0 www11.a8.net
+0.0.0.0 www12.a8.net
+0.0.0.0 www13.a8.net
+0.0.0.0 www14.a8.net
+0.0.0.0 www15.a8.net
+0.0.0.0 www16.a8.net
+0.0.0.0 www17.a8.net
+0.0.0.0 www18.a8.net
+0.0.0.0 www19.a8.net
+0.0.0.0 www20.a8.net
+0.0.0.0 www21.a8.net
+0.0.0.0 www22.a8.net
+0.0.0.0 www23.a8.net
+0.0.0.0 www24.a8.net
+0.0.0.0 www25.a8.net
+0.0.0.0 www26.a8.net
+0.0.0.0 www27.a8.net
+0.0.0.0 www28.a8.net
+0.0.0.0 www29.a8.net
+#Ad-cloud
+0.0.0.0 ameba.d.ad-cloud.jp
+#Ad-stir
+0.0.0.0 adtag.ad-stir.com
+0.0.0.0 rtb.ad-stir.com
+#Adingo
+0.0.0.0 sh.adingo.jp
+0.0.0.0 sp.adingo.jp.eimg.jp
+#Adlantis
+0.0.0.0 ad.adlantis.jp
+0.0.0.0 adlantis.jp
+0.0.0.0 ak.assets.adlantis.jp
+0.0.0.0 sp.ad.adlantis.jp
+0.0.0.0 sp.click.adlantis.jp
+0.0.0.0 sp.conv.adlantis.jp
+0.0.0.0 sp.www.adlantis.jp
+0.0.0.0 static.adlantis.jp
+0.0.0.0 uuid.adlantis.jp
+0.0.0.0 vatan.adlantis.jp
+0.0.0.0 vatanir.adlantis.jp
+0.0.0.0 www.adlantis.jp
+#Amoad
+0.0.0.0 d.amoad.com
+0.0.0.0 i.amoad.com
+0.0.0.0 j.amoad.com
+#Atlnet
+0.0.0.0 adl-wf4.s2.atlnet.jp
+0.0.0.0 adl-wf5v.s3.atlnet.jp
+0.0.0.0 adl-wf6v1.atlnet.jp
+#i-mobile
+0.0.0.0 spad.i-mobile.co.jp
+0.0.0.0 spapi.i-mobile.co.jp
+0.0.0.0 spdeliver.i-mobile.co.jp
+#impact-ad
+0.0.0.0 aa.impact-ad.jp
+0.0.0.0 as.bb.impact-ad.jp
+0.0.0.0 as.dc.impact-ad.jp
+0.0.0.0 as.jc.impact-ad.jp
+0.0.0.0 as.nw.impact-ad.jp
+0.0.0.0 as.se.impact-ad.jp
+0.0.0.0 img.ak.impact-ad.jp
+0.0.0.0 impact-ad.jp
+0.0.0.0 jc.impact-ad.jp
+#Mediba
+0.0.0.0 ad.mediba.jp
+0.0.0.0 api.ad.mediba.jp
+0.0.0.0 adc.medibaad.com
+#Microad
+0.0.0.0 microad.jp
+0.0.0.0 bw.microad.jp
+0.0.0.0 cache.microad.jp
+0.0.0.0 send.microad.jp
+0.0.0.0 ssend.microad.jp
+0.0.0.0 track.send.microad.jp
+#Valueclick
+0.0.0.0 images.valueclickmedia.com
+0.0.0.0 valueclickmedia.com
+0.0.0.0 kansas.valueclick.com
+0.0.0.0 oz.valueclick.com
+0.0.0.0 st.valueclick.com
+0.0.0.0 ads.aco.valueclick.net
+0.0.0.0 ads.csi.valueclick.net
+0.0.0.0 ads.he.valueclick.net
+0.0.0.0 ads.hnet.valueclick.net
+0.0.0.0 ads.link.valueclick.net
+0.0.0.0 ads.mplx.valueclick.net
+0.0.0.0 ads.mtv.valueclick.net
+0.0.0.0 ads.pr.valueclick.net
+0.0.0.0 ads.vcuk.valueclick.net
+0.0.0.0 cdn.valueclick.net
+0.0.0.0 valueclick.net
+0.0.0.0 oz.valueclick.ne.jp
+0.0.0.0 st.valueclick.ne.jp
+0.0.0.0 ads.ict.valueclick.jp
+0.0.0.0 ads.lidr.valueclick.jp
+0.0.0.0 hosts.valueclick.ne.jp
+0.0.0.0 kansas.valueclick.ne.jp
+0.0.0.0 st.lidr.valueclick.jp
+0.0.0.0 www.valueclick.ne.jp
+#JpUsual
+0.0.0.0 a.adimg.net
+0.0.0.0 ac.auone-net.jp
+0.0.0.0 ad.jp.ap.valuecommerce.com
+0.0.0.0 ad.jugem.jp
+0.0.0.0 ad.maist.jp
+0.0.0.0 ad.ntv.co.jp
+0.0.0.0 ad.watch.impress.co.jp
+0.0.0.0 ad.xrea.com
+0.0.0.0 ad1.nend.net
+0.0.0.0 adi.mainichi.co.jp
+0.0.0.0 admaster.heyos.com
+0.0.0.0 altech-ads.com
+0.0.0.0 api.applogsdk.com
+0.0.0.0 app.click.livedoor.com
+0.0.0.0 bullseye.backbeatmedia.com
+0.0.0.0 c.dr.cyberwing.co.jp
+0.0.0.0 cdn.loka.jp
+0.0.0.0 ck.jp.ap.valuecommerce.com
+0.0.0.0 clicks.atdmt.com
+0.0.0.0 clk.atdmt.com
+0.0.0.0 en.mywebzines.com
+0.0.0.0 err.chicappa.jp
+0.0.0.0 err.lolipop.jp
+0.0.0.0 image-ad.jp
+0.0.0.0 img.ads.mixi.jp
+0.0.0.0 img.bypass.jp
+0.0.0.0 js.inmobi-jp.com
+0.0.0.0 js1.nend.net
+0.0.0.0 media-b.jp
+0.0.0.0 mywebzines.com
+0.0.0.0 nicopon.jp
+0.0.0.0 omanchin.com
+0.0.0.0 optmedia.jp
+0.0.0.0 p-advg.com
+0.0.0.0 sp.ads.jlisting.jp
+0.0.0.0 static.adroute.focas.jp
+0.0.0.0 www.ac.auone-net.jp
+0.0.0.0 www.accesstrade.net
+0.0.0.0 www.adjustnetwork.com
+@HostsX AdUnionCN
 #0252
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
@@ -9646,6 +9781,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 u349036.778669.com
 0.0.0.0 www.778669.com
 0.0.0.0 pic183025.images9999.com
+0.0.0.0 pic837013.images9999.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -10666,7 +10802,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 script.yucmedia.com
 0.0.0.0 serv.yucmedia.com
 0.0.0.0 www.yucmedia.com
-@HostsX 统计跟踪屏蔽
+@HostsX DoNotTracking&Statistics
 #51La
 0.0.0.0 img.users.51.la
 0.0.0.0 js.users.51.la
@@ -11264,8 +11400,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 113.240.237.147
 @Unicom HijackIP
 
-@HostsX 可疑病毒拦截
-#钓鱼诈骗
+@HostsX Virus Blocking
+#Phishing
 0.0.0.0 www.baidu.com.kvoc.in
 0.0.0.0 www.zsectv.com
 0.0.0.0 yrsw.dzxxmh.com
@@ -11537,7 +11673,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.fengxiong.hk
 0.0.0.0 www.qq.com.2012r.in
 0.0.0.0 go2buynow.info
-#浏览器劫持
+#Browser Hijacking
 0.0.0.0 2345.com
 0.0.0.0 www.2345.com
 0.0.0.0 054.cc
@@ -11690,7 +11826,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.2456.cn
 0.0.0.0 www.66game.cn
 0.0.0.0 www.114wangzhan.com
-#病毒下载
+#Virus Download
 0.0.0.0 down.skybk.com
 0.0.0.0 xiazai.vstartdown.com
 0.0.0.0 vip.rrada.org
@@ -12034,7 +12170,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 bohewu.com
 0.0.0.0 byqe.info
 0.0.0.0 c.t9club.com
-0.0.0.0 c1.qmeishi.com
 0.0.0.0 c1.tiegan8.com
 0.0.0.0 c172943.eeespa.com
 0.0.0.0 c8.uk3.in
@@ -12998,7 +13133,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.aianshan.com.cn
 0.0.0.0 www.aile360.com
 0.0.0.0 www.ailidacn.com
-0.0.0.0 www.aiqianming.cn
 0.0.0.0 www.aisemei.com
 0.0.0.0 www.aj222.com
 0.0.0.0 www.alidongbu.cn
@@ -14492,8 +14626,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pic.tameili.net
 0.0.0.0 pic.wanlicity.com
 0.0.0.0 pic.xxxxpppp.com
-0.0.0.0 pic183025.images9999.com
-0.0.0.0 pic837013.images9999.com
 0.0.0.0 pk.513top.com
 0.0.0.0 play.tenoad.com
 0.0.0.0 play.unionsky2.cn
@@ -14836,7 +14968,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 code.ukad.com
 0.0.0.0 img.09dy.com
 0.0.0.0 url7.me
-0.0.0.0 avn.innity.com
 0.0.0.0 track.weiyi.com
 0.0.0.0 so.boke81.com
 0.0.0.0 www.qisulm.com

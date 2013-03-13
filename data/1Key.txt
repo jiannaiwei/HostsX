@@ -1021,6 +1021,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 inventory.overture.com
 0.0.0.0 overture.com
 0.0.0.0 perf.overture.com
+0.0.0.0 rc20.overture.com
 0.0.0.0 rc.asia.srv.overture.com
 0.0.0.0 rc.us-east.srv.overture.com
 0.0.0.0 rc.us-west.srv.overture.com
@@ -1083,8 +1084,9 @@ $      下载最新版本的 HostsX。
 #Yahoo.co.jp
 0.0.0.0 ai.yimg.jp
 0.0.0.0 ard.yahoo.co.jp
-0.0.0.0 yjaxc.yahoo.co.jp
+0.0.0.0 bc.geocities.yahoo.co.jp
 0.0.0.0 rd.ane.yahoo.co.jp
+0.0.0.0 yjaxc.yahoo.co.jp
 #Yahoo.com.cn
 0.0.0.0 www.aliyk.com
 0.0.0.0 click.tanx.com

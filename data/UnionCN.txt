@@ -1,4 +1,4 @@
-@HostsX 国内广告联盟
+@HostsX AdUnionCN
 #0252
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
@@ -172,6 +172,7 @@
 0.0.0.0 u349036.778669.com
 0.0.0.0 www.778669.com
 0.0.0.0 pic183025.images9999.com
+0.0.0.0 pic837013.images9999.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com

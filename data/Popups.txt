@@ -590,8 +590,6 @@
 0.0.0.0 pic.tameili.net
 0.0.0.0 pic.wanlicity.com
 0.0.0.0 pic.xxxxpppp.com
-0.0.0.0 pic183025.images9999.com
-0.0.0.0 pic837013.images9999.com
 0.0.0.0 pk.513top.com
 0.0.0.0 play.tenoad.com
 0.0.0.0 play.unionsky2.cn
@@ -934,7 +932,6 @@
 0.0.0.0 code.ukad.com
 0.0.0.0 img.09dy.com
 0.0.0.0 url7.me
-0.0.0.0 avn.innity.com
 0.0.0.0 track.weiyi.com
 0.0.0.0 so.boke81.com
 0.0.0.0 www.qisulm.com

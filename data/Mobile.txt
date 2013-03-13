@@ -1,4 +1,4 @@
-@Mobile 手机广告平台
+@Mobile ADPlatform
 #MobileSMS
 127.0.0.1 wapgame.189.cn
 127.0.0.1 g.10086.cn
@@ -6,22 +6,25 @@
 127.0.0.1 omsjf.cmgame.com
 127.0.0.1 test.service.ids111.com
 #AdMob
+127.0.0.1 analytics.admob.com
 127.0.0.1 api.admob.com
 127.0.0.1 e.admob.com
 127.0.0.1 media.admob.com
 127.0.0.1 mm.admob.com
 127.0.0.1 mmv.admob.com
+127.0.0.1 p.admob.com
 127.0.0.1 r.admob.com
-127.0.0.1 schemas.android.com
-127.0.0.1 mobwin.android.com
+127.0.0.1 mobileads.google.com
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 static.googleadsserving.cn
+127.0.0.1 mobwin.android.com
+127.0.0.1 schemas.android.com
+127.0.0.1 www.googleapis.com
 127.0.0.1 csi.gstatic.com
 127.0.0.1 www.gstatic.com
 127.0.0.1 ssl.google-analytics.com
 127.0.0.1 www.google-analytics.com
-127.0.0.1 www.googleapis.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -80,8 +83,10 @@
 127.0.0.1 track.adwo.com
 127.0.0.1 www.adwo.com
 #Ad-maker
-127.0.0.1 ox-i.ad-maker.info
+127.0.0.1 admin.ad-maker.info
+127.0.0.1 images.ad-maker.info
 127.0.0.1 ox-d.ad-maker.info
+127.0.0.1 ox-i.ad-maker.info
 #Adview
 127.0.0.1 config.adview.cn
 127.0.0.1 report.adview.cn
@@ -139,7 +144,7 @@
 127.0.0.1 sfmusictech.appstores.com
 127.0.0.1 techcrunch.appstores.com
 127.0.0.1 topix.appstores.com
-#Baidu
+#BaiduDuapp
 127.0.0.1 agentchannel.api.duapp.com
 127.0.0.1 channel.api.duapp.com
 #Bushdh
@@ -464,7 +469,7 @@
 #Punchbox
 127.0.0.1 www.punchbox.org
 127.0.0.1 pic.punchbox.org
-#QQ
+#QQ3g
 127.0.0.1 3gsoftfile.tc.qq.com
 127.0.0.1 3gsoftfile.tcdn.qq.com
 127.0.0.1 adpm.app.qq.com
@@ -804,7 +809,6 @@
 127.0.0.1 static.189works.com
 127.0.0.1 static.moreadexchange.com
 127.0.0.1 test.adpooh.com
-127.0.0.1 v1-feed.idreamsky.com
 127.0.0.1 w.sandbox.mkhoj.com
 127.0.0.1 wap.cellufun.com
 127.0.0.1 wap.life.nokia.com.cn
