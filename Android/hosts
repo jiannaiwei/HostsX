@@ -1,13 +1,13 @@
-title HostsX 数据更新工具 
+title HostsX BatchVersion 
 more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts 
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=10:17:34.49 2013/03/12 周二
+;version=20130313142101
 ;hostsxversion=0.5.2.1
-;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR
+;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
-@HostsX 智能转向
+@HostsX SmartDirect
 #Localhost
 127.0.0.1   localhost
 ::1         localhost

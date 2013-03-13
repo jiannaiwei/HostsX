@@ -5,17 +5,18 @@ del /f Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Apple
 rem http://sourceforge.net/projects/dos2unix/
 mac2unix -ascii -n Apple.txt out.txt
 unix2dos -n out.txt Applenew.txt 
-echo title HostsX 数据更新工具 >bat.txt
+echo title HostsX BatchVersion >bat.txt
 echo more +5 %%~fs0^>%%systemroot%%\system32\drivers\etc\hosts >>bat.txt
 echo notepad %%windir%%\system32\drivers\etc\hosts >>bat.txt
 echo goto :eof >>bat.txt
 rem :smarhosts
 echo.>Version.txt
-echo ;version=%time% %date%>>Version.txt
+echo ;version=%date:~0,4%%date:~5,2%%date:~8,2%%TIME:~0,2%%TIME:~3,2%%TIME:~6,2%>>Version.txt
+rem echo ;version=%time% %date%>>Version.txt
 echo ;hostsxversion=0.5.2.1>>Version.txt
-echo ;author=KwokTree.jason_jiang.OrzFly.Felix Hsu.linjimmy.ZephyR>>Version.txt
+echo ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh>>Version.txt
 echo ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.>>Version.txt
-set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt 360url.txt Popups.txt
+set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt mwsl.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>HostsX.orzhosts)
 copy HostsX.orzhosts Android.txt
 start hosts.vbs
