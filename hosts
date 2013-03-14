@@ -1,5 +1,5 @@
 
-;version=201303141242
+;version=201303141458
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7693,6 +7693,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.linekong.com
 #PPweb
 127.0.0.1 info.ppweb.com.cn
+127.0.0.1 realtime.monitor.ppweb.com.cn
 #Letv
 127.0.0.1 pro.letv.com
 127.0.0.1 pro.hoye.letv.com
@@ -7700,6 +7701,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 i.mediapower.mobi
 127.0.0.1 letv.allyes.com
 #Youku
+127.0.0.1 v.l.ykimg.com
+127.0.0.1 yk.pp.navi.youku.com
+127.0.0.1 passport-log.youku.com
 127.0.0.1 ad.atm.youku.com
 127.0.0.1 atm.youku.com
 127.0.0.1 count.atm.youku.com

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303141242
+;version=201303141458
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3670,6 +3670,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.linekong.com
 #PPweb
 0.0.0.0 info.ppweb.com.cn
+0.0.0.0 realtime.monitor.ppweb.com.cn
 #Letv
 0.0.0.0 pro.letv.com
 0.0.0.0 pro.hoye.letv.com
@@ -3677,6 +3678,9 @@ $      下载最新版本的 HostsX。
 0.0.0.0 i.mediapower.mobi
 0.0.0.0 letv.allyes.com
 #Youku
+0.0.0.0 v.l.ykimg.com
+0.0.0.0 yk.pp.navi.youku.com
+0.0.0.0 passport-log.youku.com
 0.0.0.0 ad.atm.youku.com
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
