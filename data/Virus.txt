@@ -1,5 +1,7 @@
 @HostsX Virus Blocking
 #Phishing
+0.0.0.0 834729.loldjfkas90.com
+0.0.0.0 www.sexpartnerx.com
 0.0.0.0 www.baidu.com.kvoc.in
 0.0.0.0 www.zsectv.com
 0.0.0.0 yrsw.dzxxmh.com

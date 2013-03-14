@@ -407,6 +407,8 @@
 0.0.0.0 pfpip.sina.com
 0.0.0.0 rs.sinajs.cn
 0.0.0.0 appsupdate.sinaapp.com
+0.0.0.0 log.v.iask.com
+0.0.0.0 count.kandian.com
 0.0.0.0 iyh365.cn
 0.0.0.0 adsina.allyes.com
 0.0.0.0 sina.allyes.com

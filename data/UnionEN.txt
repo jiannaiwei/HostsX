@@ -852,6 +852,9 @@
 0.0.0.0 trafficneeds.directtrack.com
 0.0.0.0 varsityads.directtrack.com
 0.0.0.0 www.directtrack.com
+#Dt07
+0.0.0.0 jsc.dt07.net
+0.0.0.0 imgn.dt07.net
 #Effectivemeasure
 0.0.0.0 hk-cdn.effectivemeasure.net
 #Epic
@@ -1928,6 +1931,11 @@
 0.0.0.0 content.media-servers.net
 0.0.0.0 media-servers.net
 0.0.0.0 my.media-servers.net
+#Mgid
+0.0.0.0 ac.newsblock.mgid.com
+0.0.0.0 fem.mgid.com
+0.0.0.0 mgid.com
+0.0.0.0 usr.mgid.com
 #Mingrunad
 0.0.0.0 click.mingrunad.com
 0.0.0.0 media.mingrunad.com
