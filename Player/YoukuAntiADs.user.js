@@ -8,9 +8,8 @@
 // @include http://*/*
 // @include https://*/*
 // ==/UserScript==
-
 /* History
- * 2012-6-26 v0.0.8 使用 animationstart 事件代替 DOMNodeInserted. from http://opengg.me/784/high-performance-domnodeinserted-hack/
+ * 2013-2-7 v0.1.5.1 修正css，修正opera兼容性
  */
 
 (function(document) {
