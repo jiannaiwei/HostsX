@@ -21,19 +21,19 @@
         PLAYERS: [
             {
                 find: /^http:\/\/static\.youku\.com\/.*?q?(player|loader)(_[^.]+)?\.swf/,
-                replace: 'http://player.opengg.me/loader.swf'
+                replace: 'http://hostsx.googlecode.com/svn/trunk/Player/loader.swf'
             },
             {
                 find: /^http:\/\/js\.tudouui\.com\/.*?\/TudouYoukuPlayer_Homer[^.]*?\.swf/,
-                replace: 'http://player.opengg.me/TudouYoukuPlayer_Homer_9.swf'
+                replace: 'http://hostsx.googlecode.com/svn/trunk/Player/TudouYoukuPlayer_Homer_9.swf'
             },
             {
                 find: /^http:\/\/js\.tudouui\.com\/.*?\/PortalPlayer[^.]*?\.swf/,
-                replace: 'http://player.opengg.me/PortalPlayer_7.swf'
+                replace: 'http://hostsx.googlecode.com/svn/trunk/Player/PortalPlayer_7.swf'
             },
             {
                 find: /^http:\/\/js\.tudouui\.com\/.*?\/TudouVideoPlayer_Homer_[^.]*?.swf/,
-                replace: 'http://player.opengg.me/TudouVideoPlayer_Homer_238.swf'
+                replace: 'http://hostsx.googlecode.com/svn/trunk/Player/TudouVideoPlayer_Homer_238.swf'
             },
             {
                 find: /^http:\/\/player\.youku\.com\/player\.php\//,
@@ -41,7 +41,7 @@
             },
             {
                 find: /^http:\/\/dp\.tudou\.com\/nplayer[^.]*?\.swf|http:\/\/js\.tudouui\.com\/doupao\/nplayer[^.]*?\.swf/,
-                replace: 'http://player.opengg.me/nplayer.swf'
+                replace: 'http://hostsx.googlecode.com/svn/trunk/Player/nplayer.swf'
             },
             {
                 find: /^http:\/\/www.tudou.com\/(([a-z]|programs)\/.*)/,
