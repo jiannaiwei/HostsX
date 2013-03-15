@@ -1,5 +1,5 @@
 
-;version=201303141458
+;version=201303151541
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -6166,6 +6166,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 imp.himogo.com
 127.0.0.1 req.himogo.com
 #ijinshan
+127.0.0.1 api.client.iciba.com
 127.0.0.1 cf.duba.net
 127.0.0.1 info-push.duba.net
 127.0.0.1 app.sjk.ijinshan.com
