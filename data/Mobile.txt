@@ -113,6 +113,10 @@
 127.0.0.1 config.adsage.com
 127.0.0.1 trc.adsage.com
 127.0.0.1 mobi.adsage.com
+127.0.0.1 config.adsage.cn
+127.0.0.1 config.mobisage.cn
+127.0.0.1 config.minesage.com
+127.0.0.1 config.soqugame.com
 #Adwaken
 127.0.0.1 adwaken.cn
 127.0.0.1 s2s.adwaken.cn
