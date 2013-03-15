@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303152158
+;version=201303152302
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3645,11 +3645,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.56.com
 0.0.0.0 uvimage.56.com
 0.0.0.0 v16.56.com
-0.0.0.0 v2.stat.ku6.com
-0.0.0.0 v3.stat.ku6.com
-0.0.0.0 v4.stat.ku6.com
-0.0.0.0 v5.stat.ku6.com
-0.0.0.0 v6.stat.ku6.com
 #6.cn
 0.0.0.0 pole.6rooms.com
 0.0.0.0 simba.6.cn
@@ -3683,27 +3678,14 @@ $      下载最新版本的 HostsX。
 0.0.0.0 i.mediapower.mobi
 0.0.0.0 letv.allyes.com
 #Youku
-0.0.0.0 v.l.ykimg.com
-0.0.0.0 yk.pp.navi.youku.com
-0.0.0.0 passport-log.youku.com
 0.0.0.0 ad.atm.youku.com
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
 0.0.0.0 cps.youku.com
-0.0.0.0 e.stat.youku.com
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
-0.0.0.0 hz.lstat.youku.com
-0.0.0.0 lstat.youku.com
-0.0.0.0 nc.youku.com
-0.0.0.0 speed.lstat.youku.com
-0.0.0.0 stat.youku.com
 0.0.0.0 static.atm.youku.com
-0.0.0.0 static.lstat.youku.com
-0.0.0.0 t.lstat.youku.com
-0.0.0.0 t.stat.youku.com
 0.0.0.0 td.atm.youku.com
-0.0.0.0 urchin.lstat.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
 0.0.0.0 valf.atm.youku.com
@@ -3712,7 +3694,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 vhtml.atm.youku.com
 0.0.0.0 vid.atm.youku.com
 0.0.0.0 walp.atm.youku.com
-0.0.0.0 e.stat.ykimg.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
 0.0.0.0 h.irs01.com
@@ -3741,6 +3722,11 @@ $      下载最新版本的 HostsX。
 0.0.0.0 pq.stat.ku6.com
 0.0.0.0 st.vq.ku6.cn
 0.0.0.0 ku6afp.allyes.com
+0.0.0.0 v2.stat.ku6.com
+0.0.0.0 v3.stat.ku6.com
+0.0.0.0 v4.stat.ku6.com
+0.0.0.0 v5.stat.ku6.com
+0.0.0.0 v6.stat.ku6.com
 #Joy
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86mms.megajoy.com
