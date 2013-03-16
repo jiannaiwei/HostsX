@@ -238,6 +238,8 @@
 0.0.0.0 urchin.5173.com
 #游侠网
 0.0.0.0 bmp.ali213.net
+#265g
+0.0.0.0 adm.265g.com
 #最游戏
 0.0.0.0 ad.zuiyouxi.com
 #爱拍游戏

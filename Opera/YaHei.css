@@ -1,15 +1,16 @@
 ﻿@charset "utf-8";
 /*
 Name: /微软雅黑
-Version:2.1
+Version:2.2
 Description: Opera Font Style.
 */
 
-* {font-family: "YaHeiConsolas", "Microsoft YaHei", "微软雅黑", "Trebuchet MS", "Tahoma", "SimSun", "宋体"  !important;}
-
+*{font-weight:100!important;}
+*{text-shadow: #666 0px 0px 1px !important;}
 pre, code, kbd, samp, var {
 font-family: "Courier New", "微软雅黑", "Microsoft Yahei",  monospace !important;
 }
-
-*{font-weight:100!important;}
-*{text-shadow: #666 0px 0px 1px !important;}
+body[id="nv_forum"],div[class^="body"],div[class^="main"],div[class="col"],div[class*="content"],
+div[id*="content"],div[class^="wrap"],div[class^="layout"],div[class="note"] {
+font-family: "YaHeiConsolas", "Microsoft YaHei", "微软雅黑", "Trebuchet MS", "Tahoma", "SimSun", "宋体"  !important;
+}
