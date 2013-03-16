@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.0.3.9
+Version: 5.0.3.10
 Author: KwokTree
 Url: http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-Lastchage: 10:28 2013/3/9
+Lastchage: 12:44 2013/3/16
 Description: MayBe a better User CSS Help U.
 */
 
@@ -32,7 +32,7 @@ div[class="ad-widget"],div[class^="ad-text"],div[class^="adtext"],div[class="ade
 display: none !important;
 	}
 div[class^="ada"],div[class^="adc"],div[class^="adbox"],div[class$="_adpic"],div[class^="adarea"],
-div[class*="cvAd"],div[class$="Ad"],div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
+div[class*="cvAd"],div[class="business"],div[class^="myadv_"],div[class^="ecomlit"]{
 display: none !important;
 	}
 
@@ -136,8 +136,8 @@ div[class^="banner-"],div[class^="banner2"],div[class^="banner7"],div[class^="ba
 div[id^="banner0"],div[id^="banner1"],div[id^="BannerAd"],div[id$="AdBanner"],div[id="bannerPanel"]{
 display: none !important;
 	}
-div[class^="txt_ad"],[class*="textad"],div[class="con_ad"],div[class^="adtxt"],div[class*="sponsor"],
-div[id^="adText"],div[id^="text-ad"],div[id^="text_ad"],div[id*="Sponsor"]{
+div[class^="txt_ad"],[class*="textad"],div[class^="adtxt"],div[class*="sponsor"],div[class="conAd"],
+div[id^="adText"],div[id^="text-ad"],div[id^="text_ad"],div[id*="Sponsor"],div[class="con_ad"]{
 display: none !important;
 	}
 
