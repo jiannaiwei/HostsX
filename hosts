@@ -1,5 +1,5 @@
 
-;version=201303161322
+;version=201303161538
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7719,6 +7719,21 @@ $      下载最新版本的 HostsX。
 127.0.0.1 vhtml.atm.youku.com
 127.0.0.1 vid.atm.youku.com
 127.0.0.1 walp.atm.youku.com
+127.0.0.1 hz.youku.com
+127.0.0.1 yk.pp.navi.youku.com
+127.0.0.1 passport-log.youku.com
+127.0.0.1 e.stat.youku.com
+127.0.0.1 hz.lstat.youku.com
+127.0.0.1 lstat.youku.com
+127.0.0.1 nc.youku.com
+127.0.0.1 speed.lstat.youku.com
+127.0.0.1 stat.youku.com
+127.0.0.1 static.lstat.youku.com
+127.0.0.1 t.lstat.youku.com
+127.0.0.1 t.stat.youku.com
+127.0.0.1 urchin.lstat.youku.com
+127.0.0.1 e.stat.ykimg.com
+127.0.0.1 v.l.ykimg.com
 127.0.0.1 smarttrade.allyes.com
 127.0.0.1 a.htwisdom.com
 127.0.0.1 h.irs01.com
