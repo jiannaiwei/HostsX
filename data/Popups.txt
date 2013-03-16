@@ -937,6 +937,8 @@
 0.0.0.0 www.qisulm.com
 0.0.0.0 u.2wad.com
 0.0.0.0 js.yimeiads.com
+0.0.0.0 tk.tj0573.com
+0.0.0.0 t.ilepai.com
 #ÆäËû
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com
