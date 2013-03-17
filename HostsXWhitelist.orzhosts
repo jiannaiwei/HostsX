@@ -1,4 +1,4 @@
-;version=14:58 2013/3/9
+;version=10:12 2013/3/17
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -165,10 +165,6 @@ dp.ppstv.com
 dp.ugc.pps.tv
 dy.ugc.pps.tv
 dyn.ugc.pps.tv
-$DELETE
-
-#!导致土豆网无法正常显示评论，但是可以去除土豆网广告，根据用户自己选择。
-istat.tudou.com
 $DELETE
 
 #导致新浪看视频无法正常播放。

@@ -1,5 +1,5 @@
 
-;version=201303161551
+;version=201303171223
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -7716,7 +7716,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 valf.atm.youku.com
 127.0.0.1 valo.atm.youku.com
 127.0.0.1 valp.atm.youku.com
-127.0.0.1 vhtml.atm.youku.com
 127.0.0.1 vid.atm.youku.com
 127.0.0.1 walp.atm.youku.com
 127.0.0.1 e.stat.youku.com
@@ -7727,6 +7726,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 t.lstat.youku.com
 127.0.0.1 t.stat.youku.com
 127.0.0.1 urchin.lstat.youku.com
+127.0.0.1 stat.youku.com
+127.0.0.1 speed.lstat.youku.com
 127.0.0.1 e.stat.ykimg.com
 127.0.0.1 smarttrade.allyes.com
 127.0.0.1 a.htwisdom.com
@@ -7740,6 +7741,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 erreport.tudou.com
 127.0.0.1 iwstat.tudou.com
 127.0.0.1 logs.live.tudou.com
+127.0.0.1 istat.tudou.com
 127.0.0.1 nstat.tudou.com
 127.0.0.1 pl.pb.ops.tudou.com
 127.0.0.1 stat.tudou.com

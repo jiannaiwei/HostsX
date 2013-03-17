@@ -87,7 +87,6 @@
 0.0.0.0 valf.atm.youku.com
 0.0.0.0 valo.atm.youku.com
 0.0.0.0 valp.atm.youku.com
-0.0.0.0 vhtml.atm.youku.com
 0.0.0.0 vid.atm.youku.com
 0.0.0.0 walp.atm.youku.com
 0.0.0.0 e.stat.youku.com
@@ -98,6 +97,8 @@
 0.0.0.0 t.lstat.youku.com
 0.0.0.0 t.stat.youku.com
 0.0.0.0 urchin.lstat.youku.com
+0.0.0.0 stat.youku.com
+0.0.0.0 speed.lstat.youku.com
 0.0.0.0 e.stat.ykimg.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
@@ -111,6 +112,7 @@
 0.0.0.0 erreport.tudou.com
 0.0.0.0 iwstat.tudou.com
 0.0.0.0 logs.live.tudou.com
+0.0.0.0 istat.tudou.com
 0.0.0.0 nstat.tudou.com
 0.0.0.0 pl.pb.ops.tudou.com
 0.0.0.0 stat.tudou.com
