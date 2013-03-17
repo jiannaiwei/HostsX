@@ -254,7 +254,6 @@
 127.0.0.1 mob.guohead.com
 #Hiapk
 127.0.0.1 sc.hiapk.com
-127.0.0.1 cdn.market.hiapk.com
 #Hotmob
 127.0.0.1 ad.hot-mob.com
 127.0.0.1 www.hot-mob.com

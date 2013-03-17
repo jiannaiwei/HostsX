@@ -110,11 +110,12 @@
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
 0.0.0.0 erreport.tudou.com
+0.0.0.0 istat.tudou.com
 0.0.0.0 iwstat.tudou.com
 0.0.0.0 logs.live.tudou.com
-0.0.0.0 istat.tudou.com
 0.0.0.0 nstat.tudou.com
 0.0.0.0 pl.pb.ops.tudou.com
+0.0.0.0 player.pb.ops.tudou.com
 0.0.0.0 stat.tudou.com
 0.0.0.0 stats.tudou.com
 0.0.0.0 tdap.tudou.com

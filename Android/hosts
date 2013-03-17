@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303171223
+;version=201303171248
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2135,7 +2135,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 mob.guohead.com
 #Hiapk
 127.0.0.1 sc.hiapk.com
-127.0.0.1 cdn.market.hiapk.com
 #Hotmob
 127.0.0.1 ad.hot-mob.com
 127.0.0.1 www.hot-mob.com
@@ -3716,11 +3715,12 @@ $      下载最新版本的 HostsX。
 127.0.0.1 adextensioncontrol.tudou.com
 127.0.0.1 adplay.tudou.com
 127.0.0.1 erreport.tudou.com
+127.0.0.1 istat.tudou.com
 127.0.0.1 iwstat.tudou.com
 127.0.0.1 logs.live.tudou.com
-127.0.0.1 istat.tudou.com
 127.0.0.1 nstat.tudou.com
 127.0.0.1 pl.pb.ops.tudou.com
+127.0.0.1 player.pb.ops.tudou.com
 127.0.0.1 stat.tudou.com
 127.0.0.1 stats.tudou.com
 127.0.0.1 tdap.tudou.com
