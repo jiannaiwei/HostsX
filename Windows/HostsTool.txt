@@ -1,5 +1,5 @@
 @echo off
-set ver=1.1.1.10G
+set ver=1.1.1.11A
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 rem 随机变色模块
@@ -495,7 +495,6 @@ goto :eof
 :cleanadobe
 DEL /F /Q /A "%CommonProgramFiles%\Adobe\Adobe PCD\cache\cache.db">nul 2>nul
 goto :eof
-
 :cleanv
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.sandai.net" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.atm.youku.com" /v "*" /t REG_DWORD /d 4 /f>nul 2>nul
@@ -511,40 +510,34 @@ goto :eof
 :cleanwebv
 set sv=%APPDATA%\Macromedia\Flash Player\#SharedObjects
 set fv=%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys
+for /f "delims=" %%i in ('dir /b /ad "%sv%\"') do (set str=%%i)
+echo %str%|findstr "ECHO " && md "%sv%\WQ49Q26M\" && set str=WQ49Q26M||echo %str%
 call :cleanmdv
 set sv=%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects
 set fv=%sv%\macromedia.com\support\flashplayer\sys
+for /f "delims=" %%i in ('dir /b /ad "%sv%\"') do (set str=%%i)
+echo %str%|findstr "ECHO " && md "%sv%\WQ49Q26M\" && set str=WQ49Q26M||echo %str%
+call :cleanmdv
+set sv=%USERPROFILE%\AppData\Local\360Chrome\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects
+set fv=%sv%\macromedia.com\support\flashplayer\sys
+for /f "delims=" %%i in ('dir /b /ad "%sv%\"') do (set str=%%i)
+echo %str%|findstr "ECHO " && md "%sv%\WQ49Q26M\" && set str=WQ49Q26M||echo %str%
 call :cleanmdv
 goto :eof
 
 :cleanmdv
-md "%APPDATA%\Macromedia\Flash Player\#SharedObjects\JCESQEK5" >nul 2>nul
-md "%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Pepper Data\Shockwave Flash\WritableRoot\#SharedObjects\JCESQEK5" >nul 2>nul
-rd "%sv%\JCESQEK5\d1.sina.com.cn" /s/q >nul 2>nul
-rd "%sv%\JCESQEK5\irs01.net" /s/q >nul 2>nul
-rd "%sv%\JCESQEK5\msnmedia.allyes.com.cn" /s/q >nul 2>nul
-rd "%sv%\JCESQEK5\player.letvcdn.com" /s/q >nul 2>nul
-rd "%sv%\JCESQEK5\player.pplive.cn" /s/q >nul 2>nul
-rd "%sv%\JCESQEK5\static.acs86.com" /s/q >nul 2>nul
-rd "%sv%\JCESQEK5\static.youku.com" /s/q >nul 2>nul
-rd "%sv%\JCESQEK5\www.iqiyi.com" /s/q >nul 2>nul
-echo .>"%sv%\JCESQEK5\d1.sina.com.cn"
-echo .>"%sv%\JCESQEK5\irs01.net"
-echo .>"%sv%\JCESQEK5\msnmedia.allyes.com.cn"
-echo .>"%sv%\JCESQEK5\player.letvcdn.com"
-echo .>"%sv%\JCESQEK5\player.pplive.cn"
-echo .>"%sv%\JCESQEK5\static.acs86.com"
-echo .>"%sv%\JCESQEK5\static.youku.com"
-echo .>"%sv%\JCESQEK5\www.iqiyi.com"
+echo .>"%sv%\!str!\d1.sina.com.cn"
+echo .>"%sv%\!str!\irs01.net"
+echo .>"%sv%\!str!\msnmedia.allyes.com.cn"
+echo .>"%sv%\!str!\player.letvcdn.com"
+echo .>"%sv%\!str!\player.pplive.cn"
+echo .>"%sv%\!str!\static.acs86.com"
+echo .>"%sv%\!str!\static.youku.com"
+echo .>"%sv%\!str!\www.iqiyi.com"
 rd "%fv%\#static.youku.com" /s/q >nul 2>nul
 c:> "%fv%\#static.youku.com"
 rd "%fv%\#irs01.net" /s/q >nul 2>nul
 c:> "%fv%\#irs01.net"
-for /d %%a in ("%sv%\*") do (
-    if "%%~nxa" neq "JCESQEK5" (
-        rd /s /q "%%a"
-    )
-)
 goto :eof
 
 :cleansys
