@@ -1,58 +1,5 @@
 HostsX
 ======
-# This is probably the Best Hosts file you used.                             #
-#                                                                            #
-# Support for:                                                               #
-#  Win/Mac/UNIX/Java/Symbian/iPhone OS/Palm Pre/Android                      #
-#                                                                            #
-#****************************************************************************#
-# Project-Home:                                                              #
-# http://code.google.com/p/hostsx/                                           #
-# https://github.com/vokins/HostsX                                           #
-#                                                                            #
-# License:                                                                   #
-# Creative Commons Attribution-NonCommercial-ShareAlike License.             #
-# http://creativecommons.org/licenses/by-nc-sa/3.0/                          #
-#                                                                            #
-# Authors:                                                                   #
-# OrzFly,jason_jiang,KwokTree                                                #
-#                                                                            # 
-# Contributors:                                                              #
-# Thanks for all the feedback from users and friends.                        #
-# http://www.yingzheng.com/forum.php                                         #
-# http://www.clxp.net.cn                                                     #
-# http://bbs.crsky.com                                                       #
-# http://bbs.wmzhe.com                                                       #
-# http://www.du110.com/thread-11742-1-1.html                                 #
-#                                                                            #
-# Tutorial:                                                                  #
-#   Tomato DualWAN: http://bbs.dualwan.cn/viewthread.php?tid=233861          #
-#                                                                            #
-# 3rd-Party Data&Tool:                                                       #
-# http://code.google.com/p/ipv6-hosts/                                       #
-# http://commondatastorage.googleapis.com/fgqi/hosts/fgqi.bat                # 
-# http://sslcheck.net/nsreport.php                                           #
-# https://gist.github.com/1364545                                            #
-# http://code.google.com/p/smarthosts/                                       #
-# http://www.mwsl.org.cn/hosts/                                              #
-# http://www.mvps.org/winhelp2002/hosts.txt                                  #
-# http://www.ismeh.com/HOSTS                                                 # 
-# http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
-#                                                                            #
-# 3rd-Party-Data have been used:                                             #
-# http://shhx2005.gotoip3.com/2011/01/02/dropbox.html   #DropBox             #
-# http://forum.xda-developers.com/showthread.php?t=696084                    #
-# http://www.anzhuo.cn/thread-136601-1-1.html   #For Mobile                  # 
-# http://forum.xda-developers.com/showthread.php?t=696084   #For Android     #
-# http://adkiller.mobi/data-update   #AdKiller.mobi数据                      #
-# http://lucifr.com/ #WordPress #Gravatar                                    # 
-# http://hi.baidu.com/villagesecu   #IE Hijack                               #
-# http://www.soupis.com/thread-53899-2-1.html   #Flickr                      #
-# http://www.flickr.com/help/test                                            #
-#                                                                            #
-# Copyright (C) 2007-2012 orztech.com All Rights Reserved.                   #
-#****************************************************************************#
-
 --------------------------------------------------------------------------------
 支持Support
 
@@ -119,8 +66,8 @@ HostsX
    其他数据不断补充中
    
  - < 下载/安装/卸载 >
-   直接下载: http://code.google.com/p/hostsx/downloads/list
-   详细更新日志请查看: http://code.google.com/p/hostsx/source/list
+   直接下载: 
+   详细更新日志请查看: 
    如果需要删除, 请在关闭程序后, 再手动删 程序所在目录.
 
  - 本软件可以随意传播, 源码使用请参见许可协议.
@@ -167,13 +114,13 @@ HostsX
  - Tomato DualWAN
    addn-hosts=/tmp/HostsX.orzhosts
    rm /tmp/HostsX.orzhosts
-   wget -P /tmp http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts
+   wget -P /tmp https://github.com/orzTech/HostsX/raw/master/HostsX.orzhosts
    sleep 2
    service dnsmasq restart
    Q&A：
    PS1 :重启后失效请将代码
         rm /tmp/hosts
-        wget -P /tmp http://hostsx.googlecode.com/svn/trunk/HostsX.orzhosts 
+        wget -P /tmp https://github.com/orzTech/HostsX/raw/master/HostsX.orzhosts 
         sleep 2
         service dnsmasq restart
         加到 脚本设置 ——> 当WAN联机 
@@ -279,5 +226,57 @@ HostsX
 Skype国际版下载地址：
 http://download.skype.com/SkypeSetupFull.exe
 nslookup -vc www.facebook.com 8.8.8.8
+
+# This is probably the Best Hosts file you used.                             #
+#                                                                            #
+# Support for:                                                               #
+#  Win/Mac/UNIX/Java/Symbian/iPhone OS/Palm Pre/Android                      #
+#                                                                            #
+#****************************************************************************#
+# Project-Home:                                                              #
+# https://github.com/vokins/HostsX                                           #
+#                                                                            #
+# License:                                                                   #
+# Creative Commons Attribution-NonCommercial-ShareAlike License.             #
+# http://creativecommons.org/licenses/by-nc-sa/3.0/                          #
+#                                                                            #
+# Authors:                                                                   #
+# OrzFly,jason_jiang,KwokTree                                                #
+#                                                                            # 
+# Contributors:                                                              #
+# Thanks for all the feedback from users and friends.                        #
+# http://www.yingzheng.com/forum.php                                         #
+# http://www.clxp.net.cn                                                     #
+# http://bbs.crsky.com                                                       #
+# http://bbs.wmzhe.com                                                       #
+# http://www.du110.com/thread-11742-1-1.html                                 #
+#                                                                            #
+# Tutorial:                                                                  #
+#   Tomato DualWAN: http://bbs.dualwan.cn/viewthread.php?tid=233861          #
+#                                                                            #
+# 3rd-Party Data&Tool:                                                       #
+# http://code.google.com/p/ipv6-hosts/                                       #
+# http://commondatastorage.googleapis.com/fgqi/hosts/fgqi.bat                # 
+# http://sslcheck.net/nsreport.php                                           #
+# https://gist.github.com/1364545                                            #
+# http://code.google.com/p/smarthosts/                                       #
+# http://www.mwsl.org.cn/hosts/                                              #
+# http://www.mvps.org/winhelp2002/hosts.txt                                  #
+# http://www.ismeh.com/HOSTS                                                 # 
+# http://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts  #
+#                                                                            #
+# 3rd-Party-Data have been used:                                             #
+# http://shhx2005.gotoip3.com/2011/01/02/dropbox.html   #DropBox             #
+# http://forum.xda-developers.com/showthread.php?t=696084                    #
+# http://www.anzhuo.cn/thread-136601-1-1.html   #For Mobile                  # 
+# http://forum.xda-developers.com/showthread.php?t=696084   #For Android     #
+# http://adkiller.mobi/data-update   #AdKiller.mobi数据                      #
+# http://lucifr.com/ #WordPress #Gravatar                                    # 
+# http://hi.baidu.com/villagesecu   #IE Hijack                               #
+# http://www.soupis.com/thread-53899-2-1.html   #Flickr                      #
+# http://www.flickr.com/help/test                                            #
+#                                                                            #
+# Copyright (C) 2007-2012 orztech.com All Rights Reserved.                   #
+#****************************************************************************#
 
 HostsX
