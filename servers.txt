@@ -3,7 +3,5 @@ http://hostx.moe9th.org/repo/
 http://hostsx.rp2.jybox.net/
 http://cdn.9bu.org/orztech_hostsxdata/
 http://orz.sitepedia.jp/cdn/hostsx/
-http://lu.c0.cdn.9bu.org/cdn/hostsx/
-http://jiang.c0.cdn.9bu.org/cdn/hostsx/
 http://orzfly.2.je/cdn/hostsx/
 http://thumbinal.p.gp/cdn/hostsx/
