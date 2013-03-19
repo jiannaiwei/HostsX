@@ -274,6 +274,7 @@
 0.0.0.0 www.qq.com.2012r.in
 0.0.0.0 go2buynow.info
 #Browser Hijacking
+0.0.0.0 www.985dh.com
 0.0.0.0 2345.com
 0.0.0.0 www.2345.com
 0.0.0.0 054.cc

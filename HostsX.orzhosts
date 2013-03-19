@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303181844
+;version=201303191010
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -11692,6 +11692,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 www.qq.com.2012r.in
 0.0.0.0 go2buynow.info
 #Browser Hijacking
+0.0.0.0 www.985dh.com
 0.0.0.0 2345.com
 0.0.0.0 www.2345.com
 0.0.0.0 054.cc
