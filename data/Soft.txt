@@ -5,147 +5,6 @@
 0.0.0.0 advert.estsoft.com
 #Potplayer
 0.0.0.0 m.adtc.daum.net
-#±©∑Á”∞“Ù
-0.0.0.0 action.logger.baofeng.com
-0.0.0.0 addl.logger.baofeng.com
-0.0.0.0 baofeng.union.tudou.com
-0.0.0.0 clicklog.moviebox.baofeng.com
-0.0.0.0 dl.baofeng.com
-0.0.0.0 errorcode.logger.baofeng.com
-0.0.0.0 feedback.baofeng.com
-0.0.0.0 g.baofeng.com
-0.0.0.0 lkucun.houyi.baofeng.com
-0.0.0.0 logger.treexml.baofeng.com
-0.0.0.0 midinfo.baofeng.com
-0.0.0.0 p2pmid.baofeng.com
-0.0.0.0 softassistant.baofeng.com
-0.0.0.0 tree.logger.baofeng.com
-0.0.0.0 tuijian.bd.baofeng.com
-0.0.0.0 videodown.baofeng.com
-0.0.0.0 videoinfo.baofeng.com
-0.0.0.0 vvlog.moviebox.baofeng.com
-0.0.0.0 yactive.logger.baofeng.com
-0.0.0.0 yclick.logger.baofeng.com
-0.0.0.0 ylclick.logger.baofeng.com
-0.0.0.0 ypv.logger.baofeng.com
-0.0.0.0 boxlist.baofeng.net
-0.0.0.0 ck.houyi.baofeng.net
-0.0.0.0 config.baofeng.net
-0.0.0.0 d3f.houyi.baofeng.net
-0.0.0.0 hintslist.baofeng.net
-0.0.0.0 loading.baofeng5.baofeng.net
-0.0.0.0 log.houyi.baofeng.net
-0.0.0.0 nclog.mars.baofeng.net
-0.0.0.0 onlinetips.baofeng5.baofeng.net
-0.0.0.0 pop.baofeng.net
-0.0.0.0 pvlog.moviebox.baofeng.net
-0.0.0.0 wl.houyi.baofeng.net
-0.0.0.0 xs.houyi.baofeng.net
-0.0.0.0 mlt01.com
-#Funshion
-0.0.0.0 vas.funshion.com
-0.0.0.0 game.funshion.com
-0.0.0.0 ad.funshion.com
-0.0.0.0 adk.funshion.com
-0.0.0.0 adm.funshion.com
-0.0.0.0 cms.funshion.com
-0.0.0.0 gstat.funshion.com
-0.0.0.0 neirong.funshion.com
-0.0.0.0 partner.funshion.com
-0.0.0.0 shop.funshion.com
-#PPStream
-0.0.0.0 download.webscache.com
-0.0.0.0 areainfo.ppstream.com
-0.0.0.0 notice.ppstream.com
-0.0.0.0 stat.ppstream.com
-0.0.0.0 listso.m.areainfo.ppstream.com
-0.0.0.0 br.pps.tv
-0.0.0.0 g.pps.tv
-0.0.0.0 game.pps.tv
-0.0.0.0 in.pps.tv
-0.0.0.0 ipdstat.pps.tv
-0.0.0.0 mini.pps.tv
-0.0.0.0 msg.y.pps.tv
-0.0.0.0 pl.pps.tv
-0.0.0.0 spider.pps.tv
-0.0.0.0 stat.game.pps.tv
-0.0.0.0 stat.game.pps.tv
-0.0.0.0 stat.y.pps.tv
-0.0.0.0 ugcad.pps.tv
-0.0.0.0 update.111222.cn
-0.0.0.0 update.base-service.net
-#PPTV
-0.0.0.0 jp.as.pptv.com
-0.0.0.0 afp.pplive.com
-0.0.0.0 afv.pplive.com
-0.0.0.0 caipiao.pplive.com
-0.0.0.0 client-play.pptv.com
-0.0.0.0 de.as.pptv.com
-0.0.0.0 dh.pplive.com
-0.0.0.0 g.pplive.com
-0.0.0.0 g.pptv.com
-0.0.0.0 ga.pptv.com
-0.0.0.0 iafp.pptv.com
-0.0.0.0 ins-stat.pplive.com
-0.0.0.0 ins-version.pplive.com
-0.0.0.0 ins.pplive.com
-0.0.0.0 live.v2.pplive.com
-0.0.0.0 pp1.pplive.com
-0.0.0.0 pp2.pptv.com
-0.0.0.0 ppsj.pptv.com
-0.0.0.0 tj.g.pptv.com
-0.0.0.0 wafp.pptv.com
-0.0.0.0 wstat.pptv.com
-0.0.0.0 asimgs.pplive.cn
-0.0.0.0 pp2.as.pplive.cn
-0.0.0.0 drag.synacast.com
-0.0.0.0 h.synacast.com
-0.0.0.0 ik.synacast.com
-0.0.0.0 ol.synacast.com
-0.0.0.0 pplive-va.synacast.com
-0.0.0.0 ppvalog.synacast.com
-0.0.0.0 rec.ik.synacast.com
-0.0.0.0 h.g1d.net
-0.0.0.0 p.g1d.net
-0.0.0.0 ppva.g1d.net
-0.0.0.0 video-va.g1d.net
-0.0.0.0 pplive-ppva.datamaster.com.cn
-0.0.0.0 pplive-probe.datamaster.com.cn
-0.0.0.0 res-pplive.datamaster.com.cn
-#Qvod
-0.0.0.0 110.qvod.com
-0.0.0.0 adi.qvod.com
-0.0.0.0 buffer-ad.qvod.com
-0.0.0.0 insert-ad.qvod.com
-0.0.0.0 pause-ad.qvod.com
-0.0.0.0 text-ad.qvod.com
-0.0.0.0 tj.qvod.com
-0.0.0.0 110.kuaibo.com
-0.0.0.0 acctrack.kuaibo.com
-0.0.0.0 agent.kuaibo.com
-0.0.0.0 buffer-ad.kuaibo.com
-0.0.0.0 dl.kuaibo.com
-0.0.0.0 hao.kuaibo.com
-0.0.0.0 m.kuaibo.com
-0.0.0.0 mobile.behavior.kuaibo.com
-0.0.0.0 mobile.statis.kuaibo.com
-0.0.0.0 pause-ad.kuaibo.com
-0.0.0.0 s.kuaibo.com
-0.0.0.0 searchstat.kuaibo.com
-0.0.0.0 statis.kuaibo.com
-0.0.0.0 text-ad.kuaibo.com
-0.0.0.0 tj.kuaibo.com
-0.0.0.0 ulog.kuaibo.com
-0.0.0.0 update.kuaibo.com
-0.0.0.0 op.web.kuaiwan.com
-0.0.0.0 op2.web.kuaiwan.com
-0.0.0.0 prom.web.kuaiwan.com
-0.0.0.0 web.kuaiwan.com
-0.0.0.0 dl.duoping.com
-0.0.0.0 s.726.com
-0.0.0.0 agent.ad1111.com
-0.0.0.0 game.ad1111.com
-0.0.0.0 qvodlink.hco.cc
 #RealPlayer
 0.0.0.0 client-software.real.com
 0.0.0.0 free-dl.cn.real.com
@@ -201,9 +60,9 @@
 0.0.0.0 al.myrice.com
 0.0.0.0 all.myrice.com
 0.0.0.0 client.myrice.com
-#∂‡√◊“Ù¿÷
+#Duomi
 0.0.0.0 pc.boxshows.com
-#YY”Ô“Ù
+#YY
 0.0.0.0 ad.yy.duowan.com
 0.0.0.0 do.yy.duowan.com
 0.0.0.0 forceupdate.yy.duowan.com
@@ -213,14 +72,14 @@
 0.0.0.0 dw.hiido.cn
 0.0.0.0 im.yy.hiido.cn
 0.0.0.0 njs.dw.hiido.cn
-#∑…–≈øÕªß∂À
+#Fetion
 0.0.0.0 gg.joytod.com
 0.0.0.0 hdss1fta.fetion.com.cn
 0.0.0.0 huodong.feixin.10086.cn
 0.0.0.0 imgl.fetionpic.com
 0.0.0.0 minisite.fetionpic.com
 0.0.0.0 minisite0.fetionpic.com
-#∞¢¿ÔÕ˙Õ˙
+#AliWangWang
 0.0.0.0 jc.wangwang.taobao.com
 0.0.0.0 p3p.alisoft.com
 0.0.0.0 po.im.alisoft.com
@@ -244,19 +103,19 @@
 0.0.0.0 isgame.ipark.cn
 0.0.0.0 ghpage.iuzone.com
 0.0.0.0 page.iuzone.com
-#«ß«ßæ≤Ã˝
+#Qianqian
 0.0.0.0 ads.qianqian.com
 0.0.0.0 ttads.ttplayer.com
 0.0.0.0 ttmsg.qianqian.com
 0.0.0.0 ttpack.qianqian.com
-#ø·Œ““Ù¿÷
+#Kuwo
 0.0.0.0 g.kuwo.cn
 0.0.0.0 wa.kuwo.cn
 0.0.0.0 updatepage.kuwo.cn
 0.0.0.0 g.koowo.com
 0.0.0.0 wa.koowo.com
 0.0.0.0 webstat.kuwo.cn
-#ø·π∑“Ù¿÷
+#Kugou
 0.0.0.0 dl.ddong.com
 0.0.0.0 game.kugou.com
 0.0.0.0 downmobile.kugou.com
@@ -272,8 +131,6 @@
 0.0.0.0 softstat.kugou.com
 0.0.0.0 yx.kugou.com
 #Maxthon
-0.0.0.0 img.007.mx
-0.0.0.0 www.007.mx
 0.0.0.0 mk.maxthon.cn
 0.0.0.0 datacn-dl.maxthon.com
 0.0.0.0 stats-a.maxthon.cn
@@ -284,7 +141,7 @@
 #Micronichefinder
 0.0.0.0 www.micronichefinder.com
 0.0.0.0 micronichefinder.com
-#π‚”∞ƒß ı ÷
+#Neoimaging
 0.0.0.0 ad.neoimaging.cn
 0.0.0.0 clientconfig.neoimaging.cn
 0.0.0.0 jump.neoimaging.cn
@@ -306,30 +163,12 @@
 0.0.0.0 tj.pctutu.net
 0.0.0.0 update.pctutu.com
 0.0.0.0 update.pctutu.net
-#Ω…Ω∂æ∞‘
-0.0.0.0 i2c.duba.net
-0.0.0.0 i2u.www.duba.net
-0.0.0.0 ifr.duba.net
-0.0.0.0 info.duba.net
-0.0.0.0 labs.duba.net
-0.0.0.0 u.www.duba.net
-0.0.0.0 c.union.ijinshan.com
-0.0.0.0 d.union.ijinshan.com
-0.0.0.0 j.union.ijinshan.com
-0.0.0.0 ssc.union.ijinshan.com
-0.0.0.0 stat.ijinshan.com
-0.0.0.0 union.ijinshan.com
-0.0.0.0 api.pc120.com
-0.0.0.0 stat.sd.keniu.com
-0.0.0.0 tq.sd.keniu.com
-#Ω…Ω¥ ∞‘
+#iCiba
 0.0.0.0 34.goto.www.iciba.com
 0.0.0.0 counter.kds.iciba.com
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
 0.0.0.0 u.sl.iciba.com
-#QQπ‹º“
-0.0.0.0 s.pcmgr.qq.com
 #QQÕµ∑À
 0.0.0.0 ad.qqceo.net
 0.0.0.0 toufei.qqceo.net
@@ -340,18 +179,6 @@
 #QQvoice
 0.0.0.0 union.qqvoice.com
 0.0.0.0 union.uucall.hk
-#À—π∑∆¥“Ù
-0.0.0.0 files2.sogou.com
-0.0.0.0 config.pinyin.sogou.com
-0.0.0.0 ime.sogou.com
-0.0.0.0 info.pinyin.sogou.com
-0.0.0.0 ping.pinyin.sogou.com
-0.0.0.0 st.pinyin.sogou.com
-#À—π∑‰Ø¿¿∆˜
-0.0.0.0 config.ie.sogou.com
-0.0.0.0 download.ie.sogou.com
-0.0.0.0 ping.ie.sogou.com
-0.0.0.0 pingback.ie.sogou.com
 #Vagaa
 0.0.0.0 btjoy.com
 0.0.0.0 img.daodao001.cn

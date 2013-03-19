@@ -1,4 +1,4 @@
-@HostsX 视频类站点广告
+@HostsX Video
 #CNTV
 0.0.0.0 a.cctv.com
 0.0.0.0 a.cntv.cn
@@ -22,27 +22,31 @@
 #JSTV
 0.0.0.0 jstvimedia.allyes.com
 0.0.0.0 jstv.allyes.com
-#我乐网
-0.0.0.0 acs.agent.v-56.com
-0.0.0.0 bill.agent.v-56.com
-0.0.0.0 stat3.corp.v-56.com
-0.0.0.0 stat4.corp.v-56.com
-0.0.0.0 t4p.stat.v-56.com
+#56
 0.0.0.0 acs.56.com
 0.0.0.0 acs.agent.56.com
+0.0.0.0 acs.agent.v-56.com
 0.0.0.0 bill.agent.56.com
+0.0.0.0 bill.agent.v-56.com
+0.0.0.0 msg.ua.56.com
 0.0.0.0 stat.56.com
+0.0.0.0 stat1.corp.56.com
 0.0.0.0 stat2.corp.56.com
+0.0.0.0 stat3.corp.56.com
+0.0.0.0 stat3.corp.v-56.com
+0.0.0.0 stat4.corp.56.com
+0.0.0.0 stat4.corp.v-56.com
 0.0.0.0 t4p.stat.56.com
+0.0.0.0 t4p.stat.v-56.com
 0.0.0.0 union.56.com
 0.0.0.0 uvimage.56.com
 0.0.0.0 v16.56.com
-#6间房
+#6.cn
 0.0.0.0 pole.6rooms.com
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 0.0.0.0 shrek.6.cn
-#i奇艺
+#iqiyi
 0.0.0.0 api.cupid.qiyi.com
 0.0.0.0 msg.video.qiyi.com
 0.0.0.0 jsmsg.video.qiyi.com
@@ -62,19 +66,26 @@
 0.0.0.0 www.linekong.com
 #PPweb
 0.0.0.0 info.ppweb.com.cn
-#优酷网
-0.0.0.0 e.stat.ykimg.com
+0.0.0.0 realtime.monitor.ppweb.com.cn
+#Letv
+0.0.0.0 pro.letv.com
+0.0.0.0 pro.hoye.letv.com
+0.0.0.0 stat.letv.com
+0.0.0.0 i.mediapower.mobi
+0.0.0.0 letv.allyes.com
+#Youku
 0.0.0.0 ad.atm.youku.com
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
+0.0.0.0 cps.youku.com
 0.0.0.0 e.stat.youku.com
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
 0.0.0.0 hz.lstat.youku.com
+0.0.0.0 l.youku.com
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
-0.0.0.0 speed.lstat.youku.com
-0.0.0.0 stat.youku.com
+0.0.0.0 notice.youku.com
 0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
 0.0.0.0 t.lstat.youku.com
@@ -83,25 +94,29 @@
 0.0.0.0 urchin.lstat.youku.com
 0.0.0.0 valb.atm.youku.com
 0.0.0.0 valc.atm.youku.com
-0.0.0.0 valf.atm.youku.com
 0.0.0.0 valo.atm.youku.com
 0.0.0.0 valp.atm.youku.com
 0.0.0.0 vhtml.atm.youku.com
+0.0.0.0 vhtml.youku.com
 0.0.0.0 vid.atm.youku.com
 0.0.0.0 walp.atm.youku.com
+0.0.0.0 e.stat.ykimg.com
 0.0.0.0 smarttrade.allyes.com
 0.0.0.0 a.htwisdom.com
 0.0.0.0 h.irs01.com
 0.0.0.0 irs01.com
 0.0.0.0 irs01.net
-#土豆网
+#Tudou
 0.0.0.0 adcontrol.tudou.com
 0.0.0.0 adextensioncontrol.tudou.com
 0.0.0.0 adplay.tudou.com
 0.0.0.0 erreport.tudou.com
+0.0.0.0 istat.tudou.com
 0.0.0.0 iwstat.tudou.com
+0.0.0.0 logs.live.tudou.com
 0.0.0.0 nstat.tudou.com
 0.0.0.0 pl.pb.ops.tudou.com
+0.0.0.0 player.pb.ops.tudou.com
 0.0.0.0 stat.tudou.com
 0.0.0.0 stats.tudou.com
 0.0.0.0 tdap.tudou.com
@@ -109,32 +124,183 @@
 0.0.0.0 tudouflv.dnion.com
 0.0.0.0 tvp.tudou.com
 0.0.0.0 wwwtest.tudou.com
-#酷6网
+#Ku6
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 ku6.allyes.com
 0.0.0.0 analytics.ku6.com
 0.0.0.0 pq.stat.ku6.com
 0.0.0.0 st.vq.ku6.cn
-#激动网
+0.0.0.0 ku6afp.allyes.com
+0.0.0.0 v2.stat.ku6.com
+0.0.0.0 v3.stat.ku6.com
+0.0.0.0 v4.stat.ku6.com
+0.0.0.0 v5.stat.ku6.com
+0.0.0.0 v6.stat.ku6.com
+#Joy
 0.0.0.0 86file.megajoy.com
 0.0.0.0 86mms.megajoy.com
 0.0.0.0 86get.joy.cn
 0.0.0.0 86log.joy.cn
-#天线视频
+#OpenV
 0.0.0.0 casting.openv.com
 0.0.0.0 m.openv.tv
 0.0.0.0 uniclick.openv.com
 #UstreamTV
 0.0.0.0 media.scanscout.com
 0.0.0.0 log.adap.tv
-#皮皮影视
+#Pipi
 0.0.0.0 afm.pipi.cn
 0.0.0.0 game.pipi.cn
 0.0.0.0 qian.pipi.cn
-#第一放映室
+#Baofeng
+0.0.0.0 action.logger.baofeng.com
+0.0.0.0 addl.logger.baofeng.com
+0.0.0.0 baofeng.union.tudou.com
+0.0.0.0 clicklog.moviebox.baofeng.com
+0.0.0.0 dl.baofeng.com
+0.0.0.0 errorcode.logger.baofeng.com
+0.0.0.0 feedback.baofeng.com
+0.0.0.0 g.baofeng.com
+0.0.0.0 lkucun.houyi.baofeng.com
+0.0.0.0 logger.treexml.baofeng.com
+0.0.0.0 midinfo.baofeng.com
+0.0.0.0 p2pmid.baofeng.com
+0.0.0.0 softassistant.baofeng.com
+0.0.0.0 mvv.logger.baofeng.com
+0.0.0.0 tree.logger.baofeng.com
+0.0.0.0 tuijian.bd.baofeng.com
+0.0.0.0 videodown.baofeng.com
+0.0.0.0 videoinfo.baofeng.com
+0.0.0.0 vvlog.moviebox.baofeng.com
+0.0.0.0 yactive.logger.baofeng.com
+0.0.0.0 yclick.logger.baofeng.com
+0.0.0.0 ylclick.logger.baofeng.com
+0.0.0.0 ypv.logger.baofeng.com
+0.0.0.0 boxlist.baofeng.net
+0.0.0.0 ck.houyi.baofeng.net
+0.0.0.0 config.baofeng.net
+0.0.0.0 d3f.houyi.baofeng.net
+0.0.0.0 hintslist.baofeng.net
+0.0.0.0 loading.baofeng5.baofeng.net
+0.0.0.0 log.houyi.baofeng.net
+0.0.0.0 nclog.mars.baofeng.net
+0.0.0.0 onlinetips.baofeng5.baofeng.net
+0.0.0.0 pop.baofeng.net
+0.0.0.0 pvlog.moviebox.baofeng.net
+0.0.0.0 wl.houyi.baofeng.net
+0.0.0.0 xs.houyi.baofeng.net
+0.0.0.0 mlt01.com
+#Funshion
+0.0.0.0 ad.funshion.com
+0.0.0.0 adk.funshion.com
+0.0.0.0 adm.funshion.com
+0.0.0.0 cms.funshion.com
+0.0.0.0 game.funshion.com
+0.0.0.0 gstat.funshion.com
+0.0.0.0 neirong.funshion.com
+0.0.0.0 partner.funshion.com
+0.0.0.0 shop.funshion.com
+0.0.0.0 vas.funshion.com
+0.0.0.0 stat.funshion.net
+#PPStream
+0.0.0.0 download.webscache.com
+0.0.0.0 areainfo.ppstream.com
+0.0.0.0 notice.ppstream.com
+0.0.0.0 stat.ppstream.com
+0.0.0.0 listso.m.areainfo.ppstream.com
+0.0.0.0 br.pps.tv
+0.0.0.0 g.pps.tv
+0.0.0.0 game.pps.tv
+0.0.0.0 in.pps.tv
+0.0.0.0 ipdstat.pps.tv
+0.0.0.0 mini.pps.tv
+0.0.0.0 msg.y.pps.tv
+0.0.0.0 pl.pps.tv
+0.0.0.0 spider.pps.tv
+0.0.0.0 stat.game.pps.tv
+0.0.0.0 stat.y.pps.tv
+0.0.0.0 ugcad.pps.tv
+0.0.0.0 update.111222.cn
+0.0.0.0 update.base-service.net
+#PPTV
+0.0.0.0 afp.pplive.com
+0.0.0.0 afv.pplive.com
+0.0.0.0 caipiao.pplive.com
+0.0.0.0 ins-stat.pplive.com
+0.0.0.0 ins-version.pplive.com
+0.0.0.0 ins.pplive.com
+0.0.0.0 live.v2.pplive.com
+0.0.0.0 pp1.pplive.com
+0.0.0.0 up.pplive.com
+0.0.0.0 asimgs.pplive.cn
+0.0.0.0 pp2.as.pplive.cn
+0.0.0.0 client-play.pptv.com
+0.0.0.0 de.as.pptv.com
+0.0.0.0 dh.pplive.com
+0.0.0.0 dl4.vas.pptv.com
+0.0.0.0 g.pplive.com
+0.0.0.0 g.pptv.com
+0.0.0.0 ga.pptv.com
+0.0.0.0 iafp.pptv.com
+0.0.0.0 jp.as.pptv.com
+0.0.0.0 pp2.pptv.com
+0.0.0.0 ppsj.pptv.com
+0.0.0.0 static.g.pptv.com
+0.0.0.0 tj.g.pptv.com
+0.0.0.0 wafp.pptv.com
+0.0.0.0 way.pptv.com
+0.0.0.0 wstat.pptv.com
+0.0.0.0 drag.synacast.com
+0.0.0.0 h.synacast.com
+0.0.0.0 ik.synacast.com
+0.0.0.0 ip.synacast.com
+0.0.0.0 ol.synacast.com
+0.0.0.0 pplive-va.synacast.com
+0.0.0.0 ppvalog.synacast.com
+0.0.0.0 rec.ik.synacast.com
+0.0.0.0 h.g1d.net
+0.0.0.0 p.g1d.net
+0.0.0.0 ppva.g1d.net
+0.0.0.0 video-va.g1d.net
+0.0.0.0 pplive-ppva.datamaster.com.cn
+0.0.0.0 pplive-probe.datamaster.com.cn
+0.0.0.0 res-pplive.datamaster.com.cn
+#Qvod
+0.0.0.0 110.qvod.com
+0.0.0.0 adi.qvod.com
+0.0.0.0 buffer-ad.qvod.com
+0.0.0.0 insert-ad.qvod.com
+0.0.0.0 pause-ad.qvod.com
+0.0.0.0 text-ad.qvod.com
+0.0.0.0 tj.qvod.com
+0.0.0.0 110.kuaibo.com
+0.0.0.0 acctrack.kuaibo.com
+0.0.0.0 agent.kuaibo.com
+0.0.0.0 buffer-ad.kuaibo.com
+0.0.0.0 dl.kuaibo.com
+0.0.0.0 hao.kuaibo.com
+0.0.0.0 mobile.behavior.kuaibo.com
+0.0.0.0 mobile.statis.kuaibo.com
+0.0.0.0 pause-ad.kuaibo.com
+0.0.0.0 statis.kuaibo.com
+0.0.0.0 stun.kuaibo.com
+0.0.0.0 text-ad.kuaibo.com
+0.0.0.0 tj.kuaibo.com
+0.0.0.0 ulog.kuaibo.com
+0.0.0.0 update.kuaibo.com
+0.0.0.0 vtrack.kuaibo.com
+0.0.0.0 op.web.kuaiwan.com
+0.0.0.0 op2.web.kuaiwan.com
+0.0.0.0 prom.web.kuaiwan.com
+0.0.0.0 web.kuaiwan.com
+0.0.0.0 dl.duoping.com
+0.0.0.0 agent.ad1111.com
+0.0.0.0 game.ad1111.com
+0.0.0.0 qvodlink.hco.cc
+#1FYS
 0.0.0.0 admin.onefy.com
 0.0.0.0 bo.tv365.cc
-#电影网M1905
+#M1905
 0.0.0.0 afp.m1905.com
 0.0.0.0 vodlog.m1905.com
 0.0.0.0 trace.m1905.cn
@@ -143,15 +309,9 @@
 0.0.0.0 psstatus.lxdns.com
 #Wo318
 0.0.0.0 wo318.k621.com
-#爆米花
+#Pomoho
 0.0.0.0 union.pomoho.com
-#乐视网
-0.0.0.0 pro.letv.com
-0.0.0.0 pro.hoye.letv.com
-0.0.0.0 stat.letv.com
-0.0.0.0 i.mediapower.mobi
-0.0.0.0 letv.allyes.com
-#巨鲸网
+#Top100
 0.0.0.0 t.top100.cn
 #310v
 0.0.0.0 gg.310v.net

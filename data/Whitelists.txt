@@ -90,6 +90,7 @@
 0.0.0.0 seupdate.360safe.com
 0.0.0.0 shared.ydstatic.com
 0.0.0.0 static.766.com
+0.0.0.0 static.duoshuo.com
 0.0.0.0 static.www.iciba.com
 0.0.0.0 static.youku.com
 0.0.0.0 static1.pplive.cn
@@ -114,3 +115,6 @@
 0.0.0.0 www.gstatic.com
 0.0.0.0 www.in9.cn
 0.0.0.0 www.xp500.com
+0.0.0.0 jobsfe.funshion.com
+0.0.0.0 g.maxcdn.info
+0.0.0.0 ips.ifeng.com

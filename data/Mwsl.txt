@@ -217,7 +217,6 @@
 0.0.0.0 bohewu.com
 0.0.0.0 byqe.info
 0.0.0.0 c.t9club.com
-0.0.0.0 c1.qmeishi.com
 0.0.0.0 c1.tiegan8.com
 0.0.0.0 c172943.eeespa.com
 0.0.0.0 c8.uk3.in
@@ -966,7 +965,6 @@
 0.0.0.0 www.668805.com
 0.0.0.0 www.66bobo.com
 0.0.0.0 www.66bobo.net
-0.0.0.0 www.66game.cn
 0.0.0.0 www.66jq.com
 0.0.0.0 www.66qing.com
 0.0.0.0 www.676666.com
@@ -1182,7 +1180,6 @@
 0.0.0.0 www.aianshan.com.cn
 0.0.0.0 www.aile360.com
 0.0.0.0 www.ailidacn.com
-0.0.0.0 www.aiqianming.cn
 0.0.0.0 www.aisemei.com
 0.0.0.0 www.aj222.com
 0.0.0.0 www.alidongbu.cn

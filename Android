@@ -1,3 +1,7 @@
+title HostsX BatchVersion 
+more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts 
+notepad %windir%\system32\drivers\etc\hosts 
+goto :eof 
 
 ;version=201303192348
 ;hostsxversion=0.5.2.1

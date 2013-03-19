@@ -1,4 +1,4 @@
-;version=14:06 2013/2/8
+;version=10:12 2013/3/17
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致Skype(Tom)用户无法充值的问题。
@@ -11,6 +11,14 @@ $DELETE
 
 #导致安卓CNTV无法正常播放。
 analytics.doplive.com.cn
+$DELETE
+
+#影响（阻止）网站、博客的多说评论系统。
+static.duoshuo.com
+$DELETE
+
+#导致风行客户端无法正常获取数据。
+jsonfe.funshion.com
 $DELETE
 
 #!导致暴风影音右下角推荐内容无法显示，暴风后台会通过此域名推送广告，不建议用户删除。
@@ -159,19 +167,6 @@ dy.ugc.pps.tv
 dyn.ugc.pps.tv
 $DELETE
 
-#导致PPTV搜索时无法完整显示结果的问题。
-iptable.pplive.com
-$DELETE
-
-#导致PPTV客户端/部分页面无法完整显示的问题。
-list.client.pplive.cn
-static1.pplive.cn
-$DELETE
-
-#!导致土豆网无法正常显示评论，但是可以去除土豆网广告，根据用户自己选择。
-istat.tudou.com
-$DELETE
-
 #导致新浪看视频无法正常播放。
 swf.games.sina.com.cn
 v.iask.com
@@ -248,6 +243,7 @@ $DELETE
 
 #导致凤凰直播播放器无法正常加载。
 sc.ifeng.com
+ips.ifeng.com
 $DELETE
 
 #导致驱动之家评论条数无法正常显示。
@@ -337,9 +333,16 @@ $DELETE
 adsclick.uc123.com
 $DELETE
 
-#导致 PPLive 页面无法正常显示。
+#导致PPTV搜索时无法完整显示结果的问题。
+iptable.pplive.com
+$DELETE
+
+#导致PPTV客户端/部分页面无法完整显示的问题。
+list.client.pplive.cn
 static1.pplive.cn
+epg.api.pptv.com
 pp.pplive.com
+app.aplus.pptv.com
 $DELETE
 
 #导致 PPLive 右下角播放提示无法正常显示。

@@ -1,4 +1,4 @@
-@HostsX 国外广告平台
+@HostsX AdUnionEN
 #247realmedia
 0.0.0.0 accuweathercollect.247realmedia.com
 0.0.0.0 adv.247realmedia.com
@@ -116,23 +116,10 @@
 0.0.0.0 e.abnad.net
 0.0.0.0 t.abnad.net
 0.0.0.0 z.abnad.net
-#ADbn
-0.0.0.0 ad.pop1.adbn.ru
-0.0.0.0 ad.top1.adbn.ru
-0.0.0.0 ad.rich1.adbn.ru
 #Adcash
 0.0.0.0 ads.depositfiles.com
 0.0.0.0 adcash.com
 0.0.0.0 www.adcash.com
-#Pcads
-0.0.0.0 n.pcads.ru
-0.0.0.0 pc-n9.pcads.ru
-0.0.0.0 st.pcads.ru
-0.0.0.0 pc.adonweb.ru
-0.0.0.0 st.pc.adonweb.ru
-0.0.0.0 trafinfo.info
-0.0.0.0 uno.TRAFF-GO.INFO
-0.0.0.0 uno.traff-go.info
 #ADbrite
 0.0.0.0 1.adbrite.com
 0.0.0.0 2.adbrite.com
@@ -152,13 +139,6 @@
 0.0.0.0 1.marketbanker.com
 0.0.0.0 2.marketbanker.com
 0.0.0.0 www.marketbanker.com
-#ADFox
-0.0.0.0 ad.adfox.cz
-0.0.0.0 ads.adfox.ru
-0.0.0.0 banners.adfox.ru
-0.0.0.0 gazeta.adfox.ru
-0.0.0.0 rq.adfox.ru
-0.0.0.0 sup.adfox.ru
 #ADForm
 0.0.0.0 adform.com
 0.0.0.0 adform.net
@@ -872,6 +852,9 @@
 0.0.0.0 trafficneeds.directtrack.com
 0.0.0.0 varsityads.directtrack.com
 0.0.0.0 www.directtrack.com
+#Dt07
+0.0.0.0 jsc.dt07.net
+0.0.0.0 imgn.dt07.net
 #Effectivemeasure
 0.0.0.0 hk-cdn.effectivemeasure.net
 #Epic
@@ -1524,60 +1507,6 @@
 0.0.0.0 78843.hittail.com
 0.0.0.0 tracking.hittail.com
 0.0.0.0 tracking2.hittail.com
-#Hotlog
-0.0.0.0 ad.hotlog.ru
-0.0.0.0 click.hotlog.ru
-0.0.0.0 globalstats.hotlog.ru
-0.0.0.0 hit.hotlog.ru
-0.0.0.0 hit1.hotlog.ru
-0.0.0.0 hit10.hotlog.ru
-0.0.0.0 hit11.hotlog.ru
-0.0.0.0 hit12.hotlog.ru
-0.0.0.0 hit13.hotlog.ru
-0.0.0.0 hit14.hotlog.ru
-0.0.0.0 hit15.hotlog.ru
-0.0.0.0 hit16.hotlog.ru
-0.0.0.0 hit17.hotlog.ru
-0.0.0.0 hit18.hotlog.ru
-0.0.0.0 hit19.hotlog.ru
-0.0.0.0 hit2.hotlog.ru
-0.0.0.0 hit20.hotlog.ru
-0.0.0.0 hit21.hotlog.ru
-0.0.0.0 hit22.hotlog.ru
-0.0.0.0 hit23.hotlog.ru
-0.0.0.0 hit24.hotlog.ru
-0.0.0.0 hit25.hotlog.ru
-0.0.0.0 hit26.hotlog.ru
-0.0.0.0 hit27.hotlog.ru
-0.0.0.0 hit28.hotlog.ru
-0.0.0.0 hit29.hotlog.ru
-0.0.0.0 hit3.hotlog.ru
-0.0.0.0 hit30.hotlog.ru
-0.0.0.0 hit35.hotlog.ru
-0.0.0.0 hit4.hotlog.ru
-0.0.0.0 hit5.hotlog.ru
-0.0.0.0 hit6.hotlog.ru
-0.0.0.0 hit7.hotlog.ru
-0.0.0.0 hit8.hotlog.ru
-0.0.0.0 hit9.hotlog.ru
-0.0.0.0 hitsrv10.hotlog.ru
-0.0.0.0 hitsrv228.hotlog.ru
-0.0.0.0 hotlog.ru
-0.0.0.0 img.hotlog.ru
-0.0.0.0 www.hotlog.ru
-0.0.0.0 www1.hotlog.ru
-0.0.0.0 www10.hotlog.ru
-0.0.0.0 www11.hotlog.ru
-0.0.0.0 www12.hotlog.ru
-0.0.0.0 www14.hotlog.ru
-0.0.0.0 www2.hotlog.ru
-0.0.0.0 www3.hotlog.ru
-0.0.0.0 www4.hotlog.ru
-0.0.0.0 www5.hotlog.ru
-0.0.0.0 www6.hotlog.ru
-0.0.0.0 www7.hotlog.ru
-0.0.0.0 www8.hotlog.ru
-0.0.0.0 www9.hotlog.ru
 #ientry
 0.0.0.0 action.ientry.net
 0.0.0.0 aj.ientry.net
@@ -1585,6 +1514,18 @@
 0.0.0.0 img1.ientry.net
 0.0.0.0 tracking.ientry.net
 0.0.0.0 text-link-ads.ientry.com
+#influads
+0.0.0.0 engine.influads.com
+0.0.0.0 static.influads.com
+0.0.0.0 static2.influads.com
+#innity
+0.0.0.0 avn.innity.com
+0.0.0.0 cdn.innity.net
+0.0.0.0 cdn.media.innity.net
+0.0.0.0 www.innity.com
+0.0.0.0 id.innityserve.net
+0.0.0.0 pub.innityserve.net
+0.0.0.0 www.advenueplatform.com
 #Ih Networks
 0.0.0.0 ads1.performancingads.com
 0.0.0.0 jserve.performancingads.com
@@ -1990,6 +1931,11 @@
 0.0.0.0 content.media-servers.net
 0.0.0.0 media-servers.net
 0.0.0.0 my.media-servers.net
+#Mgid
+0.0.0.0 ac.newsblock.mgid.com
+0.0.0.0 fem.mgid.com
+0.0.0.0 mgid.com
+0.0.0.0 usr.mgid.com
 #Mingrunad
 0.0.0.0 click.mingrunad.com
 0.0.0.0 media.mingrunad.com
@@ -3310,10 +3256,6 @@
 0.0.0.0 webservice-lb-624573684.us-east-1.elb.amazonaws.com
 0.0.0.0 xmlconfig.ltassrv.com.s3.amazonaws.com
 0.0.0.0 yab-adimages.s3.amazonaws.com
-#Pay-click
-0.0.0.0 n.pay-click.ru
-0.0.0.0 n3.pay-click.ru
-0.0.0.0 st.pay-click.ru
 #Peel
 0.0.0.0 ad1.peel.com
 0.0.0.0 ad3.peel.com
@@ -3323,52 +3265,6 @@
 0.0.0.0 freeps3.peel.com
 0.0.0.0 www.peel.com
 0.0.0.0 www.peel.net
-#PeterHost
-0.0.0.0 adskape.ru
-0.0.0.0 p13178.adskape.ru
-0.0.0.0 p1574.adskape.ru
-0.0.0.0 p2408.adskape.ru
-0.0.0.0 p4010.adskape.ru
-0.0.0.0 p543.adskape.ru
-0.0.0.0 p9762.adskape.ru
-0.0.0.0 1gavcom.popunder.ru
-0.0.0.0 anrysys.popunder.ru
-0.0.0.0 balakin.popunder.ru
-0.0.0.0 basterr.popunder.ru
-0.0.0.0 bizbor.popunder.ru
-0.0.0.0 bugera.popunder.ru
-0.0.0.0 clik2008.popunder.ru
-0.0.0.0 darseo.popunder.ru
-0.0.0.0 djeps.popunder.ru
-0.0.0.0 ead-soft.popunder.ru
-0.0.0.0 freegroupvideo.popunder.ru
-0.0.0.0 gajime.popunder.ru
-0.0.0.0 h0rnd0g.popunder.ru
-0.0.0.0 jabu.popunder.ru
-0.0.0.0 kamasutra.popunder.ru
-0.0.0.0 kinofree.popunder.ru
-0.0.0.0 low-hacker.popunder.ru
-0.0.0.0 luksona.popunder.ru
-0.0.0.0 milioner.popunder.ru
-0.0.0.0 palmebi.popunder.ru
-0.0.0.0 popunder.ru
-0.0.0.0 rapsubs.popunder.ru
-0.0.0.0 sayhello.popunder.ru
-0.0.0.0 soski.popunder.ru
-0.0.0.0 spike669.popunder.ru
-0.0.0.0 stepan007.popunder.ru
-0.0.0.0 tengo.popunder.ru
-0.0.0.0 the-kret.popunder.ru
-0.0.0.0 tvzebra.popunder.ru
-0.0.0.0 vaime.net.popunder.ru
-0.0.0.0 viper.popunder.ru
-0.0.0.0 vistas.popunder.ru
-0.0.0.0 wera.popunder.ru
-0.0.0.0 zampolit1990.popunder.ru
-0.0.0.0 zonawm.biz.popunder.ru
-0.0.0.0 popunder.com
-0.0.0.0 media.popunder.com
-0.0.0.0 www.popunder.com
 #PointRoll
 0.0.0.0 ads.pointroll.com
 0.0.0.0 ami.pointroll.com
@@ -3425,22 +3321,6 @@
 0.0.0.0 banners.celebtaboo.com
 0.0.0.0 banners.dollarmachine.com
 0.0.0.0 banners.totalaccessporn.com
-#Relax
-0.0.0.0 content.relax.ru
-0.0.0.0 engine.mediamir.medialand.ru
-#Rambler
-0.0.0.0 ad.rambler.ru
-0.0.0.0 ad2.rambler.ru
-0.0.0.0 ad3.rambler.ru
-0.0.0.0 counter.rambler.ru
-0.0.0.0 id.rambler.ru
-0.0.0.0 images.rambler.ru
-0.0.0.0 info-images.rambler.ru
-0.0.0.0 scnt.rambler.ru
-0.0.0.0 scounter.rambler.ru
-0.0.0.0 SunBelt.Rambler.ru
-0.0.0.0 top100-images.rambler.ru
-0.0.0.0 top100.rambler.ru
 #Realtracker
 0.0.0.0 adserver1.realtracker.com
 0.0.0.0 adserver2.realtracker.com
@@ -3465,29 +3345,6 @@
 0.0.0.0 pix02.revsci.net
 0.0.0.0 pix03.revsci.net
 0.0.0.0 pix04.revsci.net
-#RTComm.ru
-0.0.0.0 ad.bannerbank.ru
-0.0.0.0 ad1.bannerbank.ru
-0.0.0.0 ad10.bannerbank.ru
-0.0.0.0 ad11.bannerbank.ru
-0.0.0.0 ad12.bannerbank.ru
-0.0.0.0 ad13.bannerbank.ru
-0.0.0.0 ad14.bannerbank.ru
-0.0.0.0 ad15.bannerbank.ru
-0.0.0.0 ad16.bannerbank.ru
-0.0.0.0 ad17.bannerbank.ru
-0.0.0.0 ad18.bannerbank.ru
-0.0.0.0 ad2.bannerbank.ru
-0.0.0.0 ad3.bannerbank.ru
-0.0.0.0 ad4.bannerbank.ru
-0.0.0.0 ad5.bannerbank.ru
-0.0.0.0 ad6.bannerbank.ru
-0.0.0.0 ad7.bannerbank.ru
-0.0.0.0 ad8.bannerbank.ru
-0.0.0.0 ad9.bannerbank.ru
-0.0.0.0 bannerbank.ru
-0.0.0.0 crd1.bannerbank.ru
-0.0.0.0 static.bannerbank.ru
 #Rubiconproject
 0.0.0.0 ads.rubiconproject.com
 0.0.0.0 tap-cdn.rubiconproject.com
@@ -3985,22 +3842,6 @@
 #Unrulymedia
 0.0.0.0 video.unrulymedia.com
 0.0.0.0 www.unrulymedia.com
-#Valueclick
-0.0.0.0 ads.aco.valueclick.net
-0.0.0.0 ads.csi.valueclick.net
-0.0.0.0 ads.he.valueclick.net
-0.0.0.0 ads.hnet.valueclick.net
-0.0.0.0 ads.link.valueclick.net
-0.0.0.0 ads.mplx.valueclick.net
-0.0.0.0 ads.mtv.valueclick.net
-0.0.0.0 ads.pr.valueclick.net
-0.0.0.0 ads.vcuk.valueclick.net
-0.0.0.0 cdn.valueclick.net
-0.0.0.0 valueclick.net
-0.0.0.0 images.valueclickmedia.com
-0.0.0.0 valueclickmedia.com
-0.0.0.0 oz.valueclick.ne.jp
-0.0.0.0 st.valueclick.ne.jp
 #Vibrant Media
 0.0.0.0 10best.us.intellitxt.com
 0.0.0.0 1src.us.intellitxt.com

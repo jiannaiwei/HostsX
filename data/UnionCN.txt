@@ -1,4 +1,4 @@
-@HostsX 国内广告联盟
+@HostsX AdUnionCN
 #0252
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
@@ -172,6 +172,7 @@
 0.0.0.0 u349036.778669.com
 0.0.0.0 www.778669.com
 0.0.0.0 pic183025.images9999.com
+0.0.0.0 pic837013.images9999.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -593,6 +594,8 @@
 0.0.0.0 z.blogads.com
 0.0.0.0 www.blogad.com.tw
 #Bloggerads
+0.0.0.0 author.bloggerads.net
+0.0.0.0 ad.bloggerads.net
 0.0.0.0 ad2.bloggerads.net
 0.0.0.0 css.bloggerads.net
 0.0.0.0 lt.bloggerads.net
@@ -1060,6 +1063,9 @@
 0.0.0.0 unionsky.cn
 #Unionwan
 0.0.0.0 www.unionwan.com
+#Viglink
+0.0.0.0 api.viglink.com
+0.0.0.0 cdn.viglink.com
 #Wanliuliang
 0.0.0.0 c2m.wanliuliang.com
 0.0.0.0 cpc.wanliuliang.com

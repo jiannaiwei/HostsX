@@ -238,8 +238,6 @@
 0.0.0.0 cpm.234y.com
 0.0.0.0 counter.hitslink.com
 0.0.0.0 7208853.hitslink.com
-0.0.0.0 f1.tbjfw.com
-0.0.0.0 f2.tbjfw.com
 0.0.0.0 tg.01lm.com
 0.0.0.0 tuidl.01lm.com
 0.0.0.0 sd.gogo.com
@@ -258,6 +256,13 @@
 0.0.0.0 flash.336.com
 0.0.0.0 cpm.feike5.com
 0.0.0.0 ui.feike5.com
+0.0.0.0 cpm.ggyad.com
+0.0.0.0 cpp.ggyad.com
+0.0.0.0 c.jmsyzj.com
+0.0.0.0 x4.jmsyzj.com
+0.0.0.0 ab.shiwt.com
+0.0.0.0 f1.tbjfw.com
+0.0.0.0 f2.tbjfw.com
 #∂Ò“‚µØ¥∞
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
@@ -337,7 +342,6 @@
 0.0.0.0 am.6park.com
 0.0.0.0 aperture.displaymarketplace.com
 0.0.0.0 api.flash45.com
-0.0.0.0 api.viglink.com
 0.0.0.0 av.lulu946.com
 0.0.0.0 b.ax91.com
 0.0.0.0 baidu.bj0518.com
@@ -399,7 +403,6 @@
 0.0.0.0 cpm.uoyoo.cn
 0.0.0.0 cpm.uutu.com.cn
 0.0.0.0 cpm.zzsf.com
-0.0.0.0 cpp.ggyad.com
 0.0.0.0 cps.freedom-game.com
 0.0.0.0 cps.wsqsgo.com
 0.0.0.0 cpv.ugooo.cc
@@ -587,8 +590,6 @@
 0.0.0.0 pic.tameili.net
 0.0.0.0 pic.wanlicity.com
 0.0.0.0 pic.xxxxpppp.com
-0.0.0.0 pic183025.images9999.com
-0.0.0.0 pic837013.images9999.com
 0.0.0.0 pk.513top.com
 0.0.0.0 play.tenoad.com
 0.0.0.0 play.unionsky2.cn
@@ -925,6 +926,19 @@
 0.0.0.0 images.niux88.com
 0.0.0.0 js.kk7kk.com
 0.0.0.0 www.yungame520.com
+0.0.0.0 p.144gg.com
+0.0.0.0 p.ggmm777.com
+0.0.0.0 code.2800v.net
+0.0.0.0 code.ukad.com
+0.0.0.0 img.09dy.com
+0.0.0.0 url7.me
+0.0.0.0 track.weiyi.com
+0.0.0.0 so.boke81.com
+0.0.0.0 www.qisulm.com
+0.0.0.0 u.2wad.com
+0.0.0.0 js.yimeiads.com
+0.0.0.0 tk.tj0573.com
+0.0.0.0 t.ilepai.com
 #∆‰À˚
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com
@@ -952,7 +966,6 @@
 0.0.0.0 refer.ccbill.com
 0.0.0.0 gjsq.me
 0.0.0.0 ad.avsexnight.com
-0.0.0.0 www.relink.us
 0.0.0.0 widget.clips4sale.com
 0.0.0.0 click.kink.com
 0.0.0.0 c.actiondesk.com

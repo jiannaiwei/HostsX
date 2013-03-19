@@ -1,4 +1,4 @@
-@门户和常用网站
+@Useful Popular Sites
 #GoogleAdWord
 0.0.0.0 adwords.google.com
 0.0.0.0 adwords.google.sk
@@ -261,7 +261,11 @@
 0.0.0.0 mobileads.google.com
 0.0.0.0 mobwin.android.com
 0.0.0.0 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
-#百度广告联盟
+#Baidu
+0.0.0.0 isafe.baidu.com
+0.0.0.0 api.share.baidu.com
+0.0.0.0 bdimg.share.baidu.com
+0.0.0.0 like.baidu.com
 0.0.0.0 a.baidu.com
 0.0.0.0 adm.baidu.com
 0.0.0.0 baidutv.baidu.com
@@ -316,7 +320,7 @@
 0.0.0.0 utk.baidu.com
 0.0.0.0 wangmeng.baidu.com
 0.0.0.0 wm.baidu.com
-#阿里广告联盟
+#AlibabaAlimama
 0.0.0.0 a.alimama.cn
 0.0.0.0 bm.alimama.cn
 0.0.0.0 bmvip.alimama.cn
@@ -368,7 +372,7 @@
 0.0.0.0 taobaoafp.allyes.cn
 0.0.0.0 taobaoafp.allyes.com
 0.0.0.0 img.uu1001.cn
-#新浪网
+#Sina
 0.0.0.0 adimg.mobile.sina.cn
 0.0.0.0 swf.games.sina.com.cn
 0.0.0.0 c.biz.weibo.com
@@ -403,6 +407,8 @@
 0.0.0.0 pfpip.sina.com
 0.0.0.0 rs.sinajs.cn
 0.0.0.0 appsupdate.sinaapp.com
+0.0.0.0 log.v.iask.com
+0.0.0.0 count.kandian.com
 0.0.0.0 iyh365.cn
 0.0.0.0 adsina.allyes.com
 0.0.0.0 sina.allyes.com
@@ -422,7 +428,7 @@
 0.0.0.0 rm.ra.icast.cn
 0.0.0.0 track.ra.icast.cn
 0.0.0.0 track2.ra.icast.cn
-#网易163
+#163
 0.0.0.0 analytics.ws.126.net
 0.0.0.0 img1.126.net
 0.0.0.0 img2.126.net
@@ -447,7 +453,7 @@
 0.0.0.0 proimg.163.com
 0.0.0.0 ud.blog.163.com
 0.0.0.0 union.163.com
-#有道搜索
+#Youdao
 0.0.0.0 a.youdao.com
 0.0.0.0 clkservice.mail.youdao.com
 0.0.0.0 clkservice.union.youdao.com
@@ -463,7 +469,7 @@
 0.0.0.0 union.youdao.com
 0.0.0.0 adpublish.ydstatic.com
 0.0.0.0 oimageb2.ydstatic.com
-#腾讯QQ
+#QQ
 0.0.0.0 ad.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adsclick.qq.com
@@ -484,6 +490,7 @@
 0.0.0.0 c.l.qq.com
 0.0.0.0 c2.l.qq.com
 0.0.0.0 caclick.qq.com
+0.0.0.0 dmtrack.buy.qq.com
 0.0.0.0 dp3.qq.com
 0.0.0.0 f.qstatic.com
 0.0.0.0 fodder.qq.com
@@ -515,6 +522,7 @@
 0.0.0.0 rich.qq.com
 0.0.0.0 rs1.qq.com
 0.0.0.0 rs2.qq.com
+0.0.0.0 s.pcmgr.qq.com
 0.0.0.0 scdown.qq.com
 0.0.0.0 show-msgch.qq.com
 0.0.0.0 ta.qq.com
@@ -524,17 +532,13 @@
 0.0.0.0 union.discuz.qq.com
 0.0.0.0 upload_data.qq.com
 0.0.0.0 w.l.qq.com
-#搜搜
+#Soso
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
 0.0.0.0 pingfore.soso.com
 0.0.0.0 v3.toolbar.soso.com
 0.0.0.0 toolbar.soso.com
-#狗狗搜索
-0.0.0.0 s.gougou.com
-0.0.0.0 un.so.gougou.com
-0.0.0.0 www.155.com
-#迅雷看看
+#XunLei
 0.0.0.0 adcount.sandai.net
 0.0.0.0 analytics-union.sandai.net
 0.0.0.0 biz4.sandai.net
@@ -545,8 +549,6 @@
 0.0.0.0 com.down.sandai.net
 0.0.0.0 cop.my.sandai.net
 0.0.0.0 count.cpm.cm.sandai.net
-0.0.0.0 dlresctrl.phub.sandai.net
-0.0.0.0 down.sandai.net
 0.0.0.0 float.sandai.net
 0.0.0.0 gvod.union.sandai.net
 0.0.0.0 hub5btmain.sandai.net
@@ -554,7 +556,6 @@
 0.0.0.0 hub5emu.sandai.net
 0.0.0.0 hub5pn.sandai.net
 0.0.0.0 hub5pnc.sandai.net
-0.0.0.0 hub5pr.sandai.net
 0.0.0.0 hub5u.sandai.net
 0.0.0.0 hubciddata.sandai.net
 0.0.0.0 hubstat.sandai.net
@@ -573,9 +574,7 @@
 0.0.0.0 server1.adpolestar.net
 0.0.0.0 advstat.xunlei.com
 0.0.0.0 analytics-union.xunlei.com
-0.0.0.0 areainfo.xunlei.com
 0.0.0.0 cl.kankan.xunlei.com
-0.0.0.0 client.stat.xunlei.com
 0.0.0.0 cop.my.xunlei.com
 0.0.0.0 gouwu.vip.xunlei.com
 0.0.0.0 hezuo.down.xunlei.com
@@ -583,7 +582,6 @@
 0.0.0.0 kkpgv.xunlei.com
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 leiyanstatic.xunlei.com
-0.0.0.0 media.info.client.xunlei.com
 0.0.0.0 mediapv.xunlei.com
 0.0.0.0 p4pstatic.xunlei.com
 0.0.0.0 pv.kankan.stat.xunlei.com
@@ -601,11 +599,14 @@
 0.0.0.0 websts.xunlei.com
 0.0.0.0 wy.xunlei.com
 0.0.0.0 xmlconf.client.xunlei.com
+0.0.0.0 s.gougou.com
+0.0.0.0 un.so.gougou.com
+0.0.0.0 www.155.com
 $FUNCTION:THUNDERAD
 $提示：您好，您正在使用的 HostsX 尚不支持生成此特殊 Hosts 项，
 $　　　请至囧科技官方网站 http://orztech.com/softwares/hostsx ，
 $      下载最新版本的 HostsX。
-#搜狐
+#Sohu
 0.0.0.0 atyt.tv.sohu.com
 0.0.0.0 access.tv.sohu.com
 0.0.0.0 p.aty.sohu.com
@@ -636,7 +637,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 sohu.ad-plus.cn
 0.0.0.0 u.ad-plus.cn
 0.0.0.0 sohu.datamaster.com.cn
-#搜狗
+#Sogou
 0.0.0.0 a1click.cpc.sogou.com
 0.0.0.0 adsence.sogou.com
 0.0.0.0 alpha.brand.sogou.com
@@ -662,7 +663,17 @@ $      下载最新版本的 HostsX。
 0.0.0.0 sy.brand.sogou.com
 0.0.0.0 union.sogou.com
 0.0.0.0 wb.brand.sogou.com
-#金山在线
+0.0.0.0 ime.sogou.com
+0.0.0.0 files2.sogou.com
+0.0.0.0 config.pinyin.sogou.com
+0.0.0.0 info.pinyin.sogou.com
+0.0.0.0 ping.pinyin.sogou.com
+0.0.0.0 st.pinyin.sogou.com
+0.0.0.0 config.ie.sogou.com
+0.0.0.0 download.ie.sogou.com
+0.0.0.0 ping.ie.sogou.com
+0.0.0.0 pingback.ie.sogou.com
+#KingSoft
 0.0.0.0 kinfo.wps.cn
 0.0.0.0 db.union.download.kingsoft.com
 0.0.0.0 push.db.kingsoft.com
@@ -670,20 +681,37 @@ $      下载最新版本的 HostsX。
 0.0.0.0 union.jx2.kingsoft.com
 0.0.0.0 union.kingsoft.com
 0.0.0.0 union.wps.kingsoft.com
+0.0.0.0 c.union.ijinshan.com
+0.0.0.0 d.union.ijinshan.com
+0.0.0.0 j.union.ijinshan.com
+0.0.0.0 ssc.union.ijinshan.com
+0.0.0.0 stat.ijinshan.com
+0.0.0.0 union.ijinshan.com
+0.0.0.0 i2c.duba.net
+0.0.0.0 i2u.www.duba.net
+0.0.0.0 ifr.duba.net
+0.0.0.0 info.duba.net
+0.0.0.0 info-push.duba.net
+0.0.0.0 labs.duba.net
+0.0.0.0 u.www.duba.net
+0.0.0.0 api.pc120.com
+0.0.0.0 stat.sd.keniu.com
+0.0.0.0 tq.sd.keniu.com
 #360
+0.0.0.0 down.360safe.com
 0.0.0.0 hjql.stat.360safe.com
 0.0.0.0 ini.update.360safe.com
 0.0.0.0 inst.360safe.com
-0.0.0.0 down.360safe.com
 0.0.0.0 pdown.stat.360safe.com
 0.0.0.0 plugin.stat.360safe.com
 0.0.0.0 seapp.stat.360safe.com
+0.0.0.0 shouji.360safe.com
 0.0.0.0 softm.update.360safe.com
 0.0.0.0 stat.360safe.com
-0.0.0.0 yhds.stat.360safe.com
 0.0.0.0 update.360safe.com
 0.0.0.0 upload.360safe.com
 0.0.0.0 x.360safe.com
+0.0.0.0 yhds.stat.360safe.com
 0.0.0.0 agd.p.360.cn
 0.0.0.0 bp.conf.f.360.cn
 0.0.0.0 cdn.apc.360.cn
@@ -693,6 +721,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 e.360.cn
 0.0.0.0 es.f.360.cn
 0.0.0.0 h.conf.f.360.cn
+0.0.0.0 openbox.mobilem.360.cn
 0.0.0.0 pinst.360.cn
 0.0.0.0 q.leak.360.cn
 0.0.0.0 q.soft.360.cn
@@ -703,6 +732,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 s.360.cn
 0.0.0.0 s.se.360.cn
 0.0.0.0 sampleup.sd.360.cn
+0.0.0.0 sdup.360.cn
 0.0.0.0 shouji.360.cn
 0.0.0.0 st.se.360.cn
 0.0.0.0 stat.apc.360.cn
@@ -992,6 +1022,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 inventory.overture.com
 0.0.0.0 overture.com
 0.0.0.0 perf.overture.com
+0.0.0.0 rc20.overture.com
 0.0.0.0 rc.asia.srv.overture.com
 0.0.0.0 rc.us-east.srv.overture.com
 0.0.0.0 rc.us-west.srv.overture.com
@@ -1054,8 +1085,9 @@ $      下载最新版本的 HostsX。
 #Yahoo.co.jp
 0.0.0.0 ai.yimg.jp
 0.0.0.0 ard.yahoo.co.jp
-0.0.0.0 yjaxc.yahoo.co.jp
+0.0.0.0 bc.geocities.yahoo.co.jp
 0.0.0.0 rd.ane.yahoo.co.jp
+0.0.0.0 yjaxc.yahoo.co.jp
 #Yahoo.com.cn
 0.0.0.0 www.aliyk.com
 0.0.0.0 click.tanx.com

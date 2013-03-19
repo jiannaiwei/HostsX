@@ -1,4 +1,4 @@
-@HostsX Í³¼Æ¸ú×ÙÆÁ±Î
+@HostsX DoNotTracking&Statistics
 #51La
 0.0.0.0 img.users.51.la
 0.0.0.0 js.users.51.la

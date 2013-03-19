@@ -95,6 +95,8 @@
 0.0.0.0 init.phpwind.com
 0.0.0.0 nt.phpwind.com
 0.0.0.0 union.phpwind.com
+#Maccms
+0.0.0.0 union.maccms.com
 #Discuz
 0.0.0.0 stat.discuz.com
 #BlogBus
@@ -105,7 +107,6 @@
 @HostsX 国内站点广告/小说类网站
 #起点中文网
 0.0.0.0 s1.cmfu.com
-0.0.0.0 avd.qidian.com
 0.0.0.0 qidian.adsame.com
 0.0.0.0 o.if.qidian.com
 0.0.0.0 uedas.qidian.com
@@ -129,6 +130,8 @@
 #潇湘书院
 0.0.0.0 images.xxsy.net
 0.0.0.0 xxsy.bohelady.com
+#书路文学网
+0.0.0.0 ad.shulu.net
 #红袖添香
 0.0.0.0 m.union.hongxiu.com
 #小说阅读网
@@ -144,7 +147,7 @@
 0.0.0.0 ads.people.com.cn
 0.0.0.0 pro.people.com.cn
 #凤凰网
-0.0.0.0 ips.ifeng.com
+0.0.0.0 bc.ifeng.com
 0.0.0.0 mfp.deliver.ifeng.com
 0.0.0.0 sta.ifeng.com
 0.0.0.0 sta.play.ifeng.com
@@ -174,6 +177,7 @@
 0.0.0.0 countimages.cnool.net
 #星岛环球网
 0.0.0.0 stnn.adsame.com
+0.0.0.0 stnn.datamaster.com.cn
 #大众网
 0.0.0.0 ad.dzwww.com
 #千龙网
@@ -234,6 +238,8 @@
 0.0.0.0 urchin.5173.com
 #游侠网
 0.0.0.0 bmp.ali213.net
+#265g
+0.0.0.0 adm.265g.com
 #最游戏
 0.0.0.0 ad.zuiyouxi.com
 #爱拍游戏
@@ -338,6 +344,8 @@
 0.0.0.0 union.suning.com
 #银泰
 0.0.0.0 cps.yintai.com
+#易讯
+0.0.0.0 stat.51buy.com
 #凡客诚品
 0.0.0.0 union.vancl.com
 #梦芭莎
@@ -462,24 +470,14 @@
 #Rising
 0.0.0.0 alert.rising.com.cn
 #115
-0.0.0.0 pc.115.com
-0.0.0.0 ie.115.com
 0.0.0.0 tongji.115.com
-0.0.0.0 soft.tjj.com
 0.0.0.0 v2.tjj.com
-0.0.0.0 xiazai.xiazaiba.com
-0.0.0.0 www.114la.com
 0.0.0.0 un.i.116.com
 0.0.0.0 un.v.116.com
-0.0.0.0 www.999.com
 #2345
-0.0.0.0 2345.com
-0.0.0.0 download.2345.com
-0.0.0.0 ie.2345.com
 0.0.0.0 jifen.2345.com
 0.0.0.0 union.2345.com
 0.0.0.0 union2.2345.com
-0.0.0.0 www.2345.com
 0.0.0.0 my.suda123.com
 0.0.0.0 union.suda123.com
 @HostsX 国内站点广告/汽车类网站
