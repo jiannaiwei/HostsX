@@ -1,3 +1,4 @@
+http://hostsx.rp2.jybox.net/
 https://github.com/orzTech/HostsX/raw/master/
 http://cdn.9bu.org/orztech_hostsxdata/
 http://orz.sitepedia.jp/cdn/hostsx/
