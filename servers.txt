@@ -1,12 +1,8 @@
-http://hostsx.googlecode.com/svn/trunk/
+https://github.com/orzTech/HostsX/raw/master/
 http://cdn.9bu.org/orztech_hostsxdata/
 http://orz.sitepedia.jp/cdn/hostsx/
-http://okazaki.c1.cdn.9bu.org/cdn/hostsx/
-http://sakagami.c1.cdn.9bu.org/cdn/hostsx/
-http://potter.c2.cdn.9bu.org/cdn/hostsx/
-http://voldemort.c2.cdn.9bu.org/cdn/hostsx/
 http://lu.c0.cdn.9bu.org/cdn/hostsx/
 http://jiang.c0.cdn.9bu.org/cdn/hostsx/
 http://orzfly.2.je/cdn/hostsx/
 http://thumbinal.p.gp/cdn/hostsx/
-http://juan-hostsx.stor.sinaapp.com/http://hostsx.googlecode.com/svn/trunk/
+
