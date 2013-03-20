@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303202021
+;version=201303202228
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1272,7 +1272,6 @@ $　　　请至囧科技官方网站 http://orztech.com/softwares/hostsx ，
 $      下载最新版本的 HostsX。
 #Sohu
 0.0.0.0 atyt.tv.sohu.com
-0.0.0.0 access.tv.sohu.com
 0.0.0.0 p.aty.sohu.com
 0.0.0.0 ad.mail.sohu.com
 0.0.0.0 adclick.bai.sohu.com
@@ -1281,7 +1280,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 count.vrs.sohu.com
 0.0.0.0 cpc.sohu.com
 0.0.0.0 doc.go.sohu.com
-0.0.0.0 hot.vrs.sohu.com
 0.0.0.0 images.sohu.com
 0.0.0.0 imp.go.sohu.com
 0.0.0.0 interface.hd.sohu.com

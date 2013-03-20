@@ -1,5 +1,11 @@
-;version=10:12 2013/3/17
+;version=22:27 2013/3/20
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
+
+#导致 搜狐客户端无法打开视频的集数。
+access.tv.sohu.com
+hot.vrs.sohu.com
+$DELETE
+
 
 #导致Skype(Tom)用户无法充值的问题。
 client.skype.tom.com
