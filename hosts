@@ -1,5 +1,9 @@
+title HostsX BatchVersion 
+more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts 
+notepad %windir%\system32\drivers\etc\hosts 
+goto :eof 
 
-;version=201303192348
+;version=201303202021
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.

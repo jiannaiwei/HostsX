@@ -2,14 +2,11 @@
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 del /f Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
-rem http://sourceforge.net/projects/dos2unix/
-mac2unix -ascii -n Apple.txt out.txt
-unix2dos -n out.txt Applenew.txt 
 echo title HostsX BatchVersion >bat.txt
 echo more +5 %%~fs0^>%%systemroot%%\system32\drivers\etc\hosts >>bat.txt
 echo notepad %%windir%%\system32\drivers\etc\hosts >>bat.txt
 echo goto :eof >>bat.txt
-rem :smarhosts
+rem call :smarhosts
 echo.>Version.txt
 echo ;version=%date:~0,4%%date:~5,2%%date:~8,2%%TIME:~0,2%%TIME:~3,2%>>Version.txt
 rem echo ;version=%time% %date%>>Version.txt
@@ -20,18 +17,12 @@ set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt M
 for %%a in (%files%) do (type "%%a">>HostsX.orzhosts)
 copy HostsX.orzhosts Android.txt
 start hosts.vbs
-ping -n 2 127.0.0.1
-move /y hosts "%~dp0..\Android"
-del new.txt Android.txt
 move /y HostsX.orzhosts "%~dp0..\"
-set files=Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt Mwsl.txt Popups.txt
-for %%a in (%files%) do (type "%%a">>Android.txt)
-start hosts.vbs
-ping -n 2 127.0.0.1
+ping -n 5 127.0.0.1
+copy hosts "%~dp0..\"
 md "%~dp0..\OS\system\etc"
 copy hosts "%~dp0..\OS\system\etc"
-copy hosts "%~dp0..\"
-del /f Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
+del /f new.txt Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
 echo 7z u HostsX_updates.zip system\etc\hosts >"%~dp0..\OS\7z.bat"
 echo rd /s/q system >>"%~dp0..\OS\7z.bat"
 echo del %%0 >>"%~dp0..\OS\7z.bat"
@@ -55,6 +46,9 @@ sed -i "1i\#Smarthosts-Google" 1.txt
 goto :eof
 
 :mac
+rem http://sourceforge.net/projects/dos2unix/
+mac2unix -ascii -n Apple.txt out.txt
+unix2dos -n out.txt Applenew.txt 
 set files=Version.txt Rd.txt Applenew.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>hosts.txt)
 sed -e "s/0.0.0.0/127.0.0.1/g" hosts.txt > hosts
