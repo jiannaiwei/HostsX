@@ -25,6 +25,7 @@ copy hosts "%~dp0..\OS\system\etc"
 del /f new.txt Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
 echo 7z u HostsX_updates.zip system\etc\hosts >"%~dp0..\OS\7z.bat"
 echo rd /s/q system >>"%~dp0..\OS\7z.bat"
+echo del hosts >>"%~dp0..\OS\7z.bat"
 echo del %%0 >>"%~dp0..\OS\7z.bat"
 cd %~dp0..\OS
 7z.bat
