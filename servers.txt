@@ -1,6 +1,6 @@
 https://github.com/orzTech/HostsX/raw/master/
 http://hostsx.rp2.jybox.net/
-http://hostx.moe9th.org/repo/
+http://hostsx.moe9th.org/repo/
 http://cdn.9bu.org/orztech_hostsxdata/
 http://orz.sitepedia.jp/cdn/hostsx/
 http://lu.c0.cdn.9bu.org/cdn/hostsx/
