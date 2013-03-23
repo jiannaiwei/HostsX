@@ -86,6 +86,7 @@
 0.0.0.0 lstat.youku.com
 0.0.0.0 nc.youku.com
 0.0.0.0 notice.youku.com
+0.0.0.0 passport-log.youku.com
 0.0.0.0 static.atm.youku.com
 0.0.0.0 static.lstat.youku.com
 0.0.0.0 t.lstat.youku.com
