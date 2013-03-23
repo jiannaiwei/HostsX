@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303231059
+;version=201303231613
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3703,6 +3703,7 @@ $      下载最新版本的 HostsX。
 0.0.0.0 notice.youku.com
 0.0.0.0 passport-log.youku.com
 0.0.0.0 static.atm.youku.com
+0.0.0.0 yk.pp.navi.youku.com
 0.0.0.0 static.lstat.youku.com
 0.0.0.0 t.lstat.youku.com
 0.0.0.0 t.stat.youku.com
