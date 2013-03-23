@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303231613
+;version=201303231620
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3692,7 +3692,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ad.atm.youku.com
 127.0.0.1 atm.youku.com
 127.0.0.1 count.atm.youku.com
-127.0.0.1 cps.youku.com
 127.0.0.1 e.stat.youku.com
 127.0.0.1 fvid.atm.youku.com
 127.0.0.1 html.atm.youku.com

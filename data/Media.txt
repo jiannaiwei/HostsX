@@ -77,7 +77,6 @@
 0.0.0.0 ad.atm.youku.com
 0.0.0.0 atm.youku.com
 0.0.0.0 count.atm.youku.com
-0.0.0.0 cps.youku.com
 0.0.0.0 e.stat.youku.com
 0.0.0.0 fvid.atm.youku.com
 0.0.0.0 html.atm.youku.com
