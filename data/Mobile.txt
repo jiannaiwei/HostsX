@@ -40,7 +40,7 @@
 127.0.0.1 product.3gmimo.com
 127.0.0.1 stage.3gmimo.com
 #54whr
-127.0.0.1 a.54whr.com
+127.0.0.1 a.54whr.com
 127.0.0.1 f.54whr.com
 #91
 127.0.0.1 agency.91.com
