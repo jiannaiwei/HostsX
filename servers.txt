@@ -1,13 +1,14 @@
 https://github.com/orzTech/HostsX/raw/master/
 https://gitcafe.com/orzTech/HostsX/raw/master/
+https://hostsx.googlecode.com/svn/trunk/
 http://hostsx.rp2.jybox.net/
-http://hostsx.moe9th.org/repo/
 https://bitbucket.org/orztech/hostsx/raw/master/
 http://invisible.ap01.aws.af.cm/hostsx/
 http://invisible.eu01.aws.af.cm/hostsx/
 http://invisible.hp.af.cm/hostsx/
 http://invisible.rs.af.cm/hostsx/
 http://invisible.aws.af.cm/hostsx/
+http://hostsx.moe9th.org/repo/
 http://cdn.9bu.org/orztech_hostsxdata/
 http://orz.sitepedia.jp/cdn/hostsx/
 http://lu.c0.cdn.9bu.org/cdn/hostsx/
