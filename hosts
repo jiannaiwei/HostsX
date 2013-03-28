@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303281011
+;version=201303281239
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -2731,10 +2731,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
 127.0.0.1 upyun.cocimg.com
-<<<<<<< HEAD
-=======
-
->>>>>>> ad0fa6cf2e63891f99036f92fa9870186fb58e2d
 @HostsX 海外站点广告
 #BNet
 127.0.0.1 bwp.bnet.com
