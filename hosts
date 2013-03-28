@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303281253
+;version=201303281302
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -1892,10 +1892,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 mobwin.android.com
 127.0.0.1 schemas.android.com
 127.0.0.1 www.googleapis.com
-127.0.0.1 csi.gstatic.com
-127.0.0.1 www.gstatic.com
-127.0.0.1 ssl.google-analytics.com
-127.0.0.1 www.google-analytics.com
+127.0.0.1 csi.gstatic.com
+127.0.0.1 www.gstatic.com
+127.0.0.1 ssl.google-analytics.com
+127.0.0.1 www.google-analytics.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -2069,7 +2069,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.dnion.com
 #Domob
 127.0.0.1 api.domob.cn
-127.0.0.1 e.domob.cn
+127.0.0.1 e.domob.cn
 127.0.0.1 r.domob.cn
 127.0.0.1 s.domob.cn
 127.0.0.1 sdl.domob.cn
@@ -2087,7 +2087,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ws2.datouniao.com
 #Devopenserv
 127.0.0.1 ck2.devopenserv.com
-127.0.0.1 cloud2.devopenserv.com
+127.0.0.1 cloud2.devopenserv.com
 127.0.0.1 dp2.devopenserv.com
 127.0.0.1 dp3.devopenserv.com
 #Duomeng
@@ -2447,13 +2447,13 @@ $      下载最新版本的 HostsX。
 #Umeng
 127.0.0.1 au.umeng.co
 127.0.0.1 au.umeng.com
-127.0.0.1 alog.umeng.co
+127.0.0.1 alog.umeng.co
 127.0.0.1 alog.umeng.com
 127.0.0.1 oc.umeng.co
 127.0.0.1 oc.umeng.com
-127.0.0.1 www.umeng.co
+127.0.0.1 www.umeng.co
 127.0.0.1 www.umeng.com
-127.0.0.1 ex.umengcloud.com
+127.0.0.1 ex.umengcloud.com
 #Uyunad
 127.0.0.1 i.uyunad.com
 127.0.0.1 www.uyunad.com
@@ -2969,7 +2969,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ads.miniclip.com
 127.0.0.1 ads.ttv.com.tw
 127.0.0.1 drd.hauchi.com.tw
-
 @HostsX 国内站点广告
 @HostsX 国内站点广告/社区类网站
 #天涯社区

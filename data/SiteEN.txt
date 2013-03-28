@@ -256,4 +256,3 @@
 0.0.0.0 ads.miniclip.com
 0.0.0.0 ads.ttv.com.tw
 0.0.0.0 drd.hauchi.com.tw
-

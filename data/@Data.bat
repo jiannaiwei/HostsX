@@ -15,9 +15,8 @@ echo ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehost
 echo ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.>>Version.txt
 set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt Mwsl.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>HostsX.orzhosts)
-copy HostsX.orzhosts Android.txt
+ren HostsX.orzhosts Android.txt
 start hosts.vbs
-move /y HostsX.orzhosts "%~dp0..\"
 ping -n 5 127.0.0.1
 copy hosts "%~dp0..\"
 md "%~dp0..\OS\system\etc"

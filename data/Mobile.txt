@@ -21,10 +21,10 @@
 127.0.0.1 mobwin.android.com
 127.0.0.1 schemas.android.com
 127.0.0.1 www.googleapis.com
-127.0.0.1 csi.gstatic.com
-127.0.0.1 www.gstatic.com
-127.0.0.1 ssl.google-analytics.com
-127.0.0.1 www.google-analytics.com
+127.0.0.1 csi.gstatic.com
+127.0.0.1 www.gstatic.com
+127.0.0.1 ssl.google-analytics.com
+127.0.0.1 www.google-analytics.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -198,7 +198,7 @@
 127.0.0.1 www.dnion.com
 #Domob
 127.0.0.1 api.domob.cn
-127.0.0.1 e.domob.cn
+127.0.0.1 e.domob.cn
 127.0.0.1 r.domob.cn
 127.0.0.1 s.domob.cn
 127.0.0.1 sdl.domob.cn
@@ -216,7 +216,7 @@
 127.0.0.1 ws2.datouniao.com
 #Devopenserv
 127.0.0.1 ck2.devopenserv.com
-127.0.0.1 cloud2.devopenserv.com
+127.0.0.1 cloud2.devopenserv.com
 127.0.0.1 dp2.devopenserv.com
 127.0.0.1 dp3.devopenserv.com
 #Duomeng
@@ -576,13 +576,13 @@
 #Umeng
 127.0.0.1 au.umeng.co
 127.0.0.1 au.umeng.com
-127.0.0.1 alog.umeng.co
+127.0.0.1 alog.umeng.co
 127.0.0.1 alog.umeng.com
 127.0.0.1 oc.umeng.co
 127.0.0.1 oc.umeng.com
-127.0.0.1 www.umeng.co
+127.0.0.1 www.umeng.co
 127.0.0.1 www.umeng.com
-127.0.0.1 ex.umengcloud.com
+127.0.0.1 ex.umengcloud.com
 #Uyunad
 127.0.0.1 i.uyunad.com
 127.0.0.1 www.uyunad.com
