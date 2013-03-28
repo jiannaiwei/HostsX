@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303281302
+;version=201303281313
 ;hostsxversion=0.5.2.1
 ;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -634,14 +634,11 @@ fe80::1%lo0	localhost
 203.208.46.200 www.google.cn
 203.208.46.200 www.google.com
 203.208.46.200 www.google.com.hk
-203.208.46.200 www.googleapis.com
 203.208.46.200 www.googlelabs.com
-203.208.46.200 www.gstatic.cn
 203.208.46.200 www.l.google.com
 203.208.46.200 www2.l.google.com
 203.208.46.200 www3.l.google.com
 203.208.46.200 www4.l.google.com
-203.208.46.200 ytstatic.l.google.com
 @Useful Popular Sites
 #GoogleAdWord
 127.0.0.1 adwords.google.com
