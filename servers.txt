@@ -1,7 +1,7 @@
 https://github.com/orzTech/HostsX/raw/master/
+https://gitcafe.com/orzTech/HostsX/raw/master/
 http://hostsx.rp2.jybox.net/
 http://hostsx.moe9th.org/repo/
-https://gitcafe.com/orzTech/HostsX/raw/master/
 https://bitbucket.org/orztech/hostsx/raw/master/
 http://invisible.ap01.aws.af.cm/hostsx/
 http://invisible.eu01.aws.af.cm/hostsx/
