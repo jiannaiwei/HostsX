@@ -721,7 +721,6 @@
 127.0.0.1 ad.where.com
 127.0.0.1 ad.zhekouku.cn
 127.0.0.1 ad.zhidian3g.cn
-127.0.0.1 adc.medibaad.com
 127.0.0.1 adfonic.net
 127.0.0.1 adimg3.search.naver.net
 127.0.0.1 ads.admarvel.com

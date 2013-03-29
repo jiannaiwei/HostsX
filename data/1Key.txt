@@ -55,11 +55,8 @@
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 partner.googleadservices.com
 0.0.0.0 service.urchin.com
-0.0.0.0 ssl.google-analytics.com
-0.0.0.0 static.googleadsserving.cn
 0.0.0.0 video-stats.video.google.com
 0.0.0.0 www.appliedsemantics.com
-0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googlesyndication.com
 0.0.0.0 buttons.googlesyndication.com
@@ -67,7 +64,6 @@
 0.0.0.0 googlesyndication.com
 0.0.0.0 pagead.googlesyndication.com
 0.0.0.0 pagead1.googlesyndication.com
-0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead3.googlesyndication.com
 0.0.0.0 pagead4.googlesyndication.com
 0.0.0.0 pagead5.googlesyndication.com
@@ -111,14 +107,11 @@
 0.0.0.0 admob.tv
 0.0.0.0 admob.tw
 0.0.0.0 admob.vn
-0.0.0.0 analytics.admob.com
-0.0.0.0 api.admob.com
 0.0.0.0 b.admob.com
 0.0.0.0 c.admob.com
 0.0.0.0 cpm.admob.com
 0.0.0.0 cpm2.admob.com
 0.0.0.0 d.admob.com
-0.0.0.0 e.admob.com
 0.0.0.0 f.admob.com
 0.0.0.0 g.admob.com
 0.0.0.0 ge-0-0-1-edge1.sc9.admob.com
@@ -129,16 +122,11 @@
 0.0.0.0 k.admob.com
 0.0.0.0 l.admob.com
 0.0.0.0 m.admob.com
-0.0.0.0 media.admob.com
-0.0.0.0 mm.admob.com
 0.0.0.0 mm1.vip.sc1.admob.com
-0.0.0.0 mmv.admob.com
 0.0.0.0 n.admob.com
 0.0.0.0 o.admob.com
-0.0.0.0 p.admob.com
 0.0.0.0 paix1.sc1.admob.com
 0.0.0.0 q.admob.com
-0.0.0.0 r.admob.com
 0.0.0.0 s.admob.com
 0.0.0.0 sc1.admob.com
 0.0.0.0 sc9.admob.com
@@ -223,7 +211,6 @@
 0.0.0.0 fls.uk.doubleclick.net
 0.0.0.0 gan.doubleclick.net
 0.0.0.0 gdfp.g.doubleclick.net
-0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleads2.g.doubleclick.net
 0.0.0.0 ir.doubleclick.net
 0.0.0.0 iv.doubleclick.net
@@ -258,8 +245,6 @@
 0.0.0.0 www3.doubleclick.com
 0.0.0.0 www.doubleclick.com
 0.0.0.0 pagead-dclk.l.google.com
-0.0.0.0 mobileads.google.com
-0.0.0.0 mobwin.android.com
 0.0.0.0 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #Baidu
 0.0.0.0 isafe.baidu.com
@@ -689,7 +674,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 i2u.www.duba.net
 0.0.0.0 ifr.duba.net
 0.0.0.0 info.duba.net
-0.0.0.0 info-push.duba.net
 0.0.0.0 labs.duba.net
 0.0.0.0 u.www.duba.net
 0.0.0.0 api.pc120.com

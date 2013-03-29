@@ -1,4 +1,4 @@
-@HostsX Video
+@HostsX Media
 #CNTV
 0.0.0.0 a.cctv.com
 0.0.0.0 a.cntv.cn
@@ -41,12 +41,34 @@
 0.0.0.0 union.56.com
 0.0.0.0 uvimage.56.com
 0.0.0.0 v16.56.com
+#Kuwo
+0.0.0.0 g.kuwo.cn
+0.0.0.0 wa.kuwo.cn
+0.0.0.0 updatepage.kuwo.cn
+0.0.0.0 g.koowo.com
+0.0.0.0 wa.koowo.com
+0.0.0.0 webstat.kuwo.cn
+#Kugou
+0.0.0.0 dl.ddong.com
+0.0.0.0 game.kugou.com
+0.0.0.0 downmobile.kugou.com
+0.0.0.0 games.kugou.com
+0.0.0.0 install.kugou.com
+0.0.0.0 links.kugoo.com
+0.0.0.0 mkg.kugou.com
+0.0.0.0 myonline.kugou.com
+0.0.0.0 opt.kugou.com
+0.0.0.0 sdn.kugoo.com
+0.0.0.0 sdn.kugou.com
+0.0.0.0 softstart.kugou.com
+0.0.0.0 softstat.kugou.com
+0.0.0.0 yx.kugou.com
 #6.cn
 0.0.0.0 pole.6rooms.com
 0.0.0.0 simba.6.cn
 0.0.0.0 union.6.cn
 0.0.0.0 shrek.6.cn
-#iqiyi
+#iQiyi
 0.0.0.0 api.cupid.qiyi.com
 0.0.0.0 msg.video.qiyi.com
 0.0.0.0 jsmsg.video.qiyi.com

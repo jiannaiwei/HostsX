@@ -3,9 +3,10 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303281313
+;version=20130329 840
 ;hostsxversion=0.5.2.1
-;author=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
+;author=Hostsx Contributor
+;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
 @HostsX SmartDirect
 #Localhost
@@ -696,11 +697,8 @@ fe80::1%lo0	localhost
 127.0.0.1 pagead2.googleadservices.com
 127.0.0.1 partner.googleadservices.com
 127.0.0.1 service.urchin.com
-127.0.0.1 ssl.google-analytics.com
-127.0.0.1 static.googleadsserving.cn
 127.0.0.1 video-stats.video.google.com
 127.0.0.1 www.appliedsemantics.com
-127.0.0.1 www.google-analytics.com
 127.0.0.1 www.googleadservices.com
 127.0.0.1 www.googlesyndication.com
 127.0.0.1 buttons.googlesyndication.com
@@ -708,7 +706,6 @@ fe80::1%lo0	localhost
 127.0.0.1 googlesyndication.com
 127.0.0.1 pagead.googlesyndication.com
 127.0.0.1 pagead1.googlesyndication.com
-127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 pagead3.googlesyndication.com
 127.0.0.1 pagead4.googlesyndication.com
 127.0.0.1 pagead5.googlesyndication.com
@@ -752,14 +749,11 @@ fe80::1%lo0	localhost
 127.0.0.1 admob.tv
 127.0.0.1 admob.tw
 127.0.0.1 admob.vn
-127.0.0.1 analytics.admob.com
-127.0.0.1 api.admob.com
 127.0.0.1 b.admob.com
 127.0.0.1 c.admob.com
 127.0.0.1 cpm.admob.com
 127.0.0.1 cpm2.admob.com
 127.0.0.1 d.admob.com
-127.0.0.1 e.admob.com
 127.0.0.1 f.admob.com
 127.0.0.1 g.admob.com
 127.0.0.1 ge-0-0-1-edge1.sc9.admob.com
@@ -770,16 +764,11 @@ fe80::1%lo0	localhost
 127.0.0.1 k.admob.com
 127.0.0.1 l.admob.com
 127.0.0.1 m.admob.com
-127.0.0.1 media.admob.com
-127.0.0.1 mm.admob.com
 127.0.0.1 mm1.vip.sc1.admob.com
-127.0.0.1 mmv.admob.com
 127.0.0.1 n.admob.com
 127.0.0.1 o.admob.com
-127.0.0.1 p.admob.com
 127.0.0.1 paix1.sc1.admob.com
 127.0.0.1 q.admob.com
-127.0.0.1 r.admob.com
 127.0.0.1 s.admob.com
 127.0.0.1 sc1.admob.com
 127.0.0.1 sc9.admob.com
@@ -864,7 +853,6 @@ fe80::1%lo0	localhost
 127.0.0.1 fls.uk.doubleclick.net
 127.0.0.1 gan.doubleclick.net
 127.0.0.1 gdfp.g.doubleclick.net
-127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 googleads2.g.doubleclick.net
 127.0.0.1 ir.doubleclick.net
 127.0.0.1 iv.doubleclick.net
@@ -899,8 +887,6 @@ fe80::1%lo0	localhost
 127.0.0.1 www3.doubleclick.com
 127.0.0.1 www.doubleclick.com
 127.0.0.1 pagead-dclk.l.google.com
-127.0.0.1 mobileads.google.com
-127.0.0.1 mobwin.android.com
 127.0.0.1 p4-fgz4grek4mwv6-bbntrmhnnmf3q4vm-if-v6exp3-v4.metric.gstatic.com
 #Baidu
 127.0.0.1 isafe.baidu.com
@@ -1330,7 +1316,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 i2u.www.duba.net
 127.0.0.1 ifr.duba.net
 127.0.0.1 info.duba.net
-127.0.0.1 info-push.duba.net
 127.0.0.1 labs.duba.net
 127.0.0.1 u.www.duba.net
 127.0.0.1 api.pc120.com
@@ -2589,7 +2574,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ad.where.com
 127.0.0.1 ad.zhekouku.cn
 127.0.0.1 ad.zhidian3g.cn
-127.0.0.1 adc.medibaad.com
 127.0.0.1 adfonic.net
 127.0.0.1 adimg3.search.naver.net
 127.0.0.1 ads.admarvel.com
@@ -2708,7 +2692,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
 127.0.0.1 upyun.cocimg.com
-@HostsX 海外站点广告
+@HostsX Site ADS
 #BNet
 127.0.0.1 bwp.bnet.com
 127.0.0.1 mads.bnet.com
@@ -3594,7 +3578,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 images.yidaba.com
 127.0.0.1 images.cms.yidaba.com
 127.0.0.1 static.yidaba.com
-@HostsX Video
+@HostsX Media
 #CNTV
 127.0.0.1 a.cctv.com
 127.0.0.1 a.cntv.cn
@@ -3637,12 +3621,34 @@ $      下载最新版本的 HostsX。
 127.0.0.1 union.56.com
 127.0.0.1 uvimage.56.com
 127.0.0.1 v16.56.com
+#Kuwo
+127.0.0.1 g.kuwo.cn
+127.0.0.1 wa.kuwo.cn
+127.0.0.1 updatepage.kuwo.cn
+127.0.0.1 g.koowo.com
+127.0.0.1 wa.koowo.com
+127.0.0.1 webstat.kuwo.cn
+#Kugou
+127.0.0.1 dl.ddong.com
+127.0.0.1 game.kugou.com
+127.0.0.1 downmobile.kugou.com
+127.0.0.1 games.kugou.com
+127.0.0.1 install.kugou.com
+127.0.0.1 links.kugoo.com
+127.0.0.1 mkg.kugou.com
+127.0.0.1 myonline.kugou.com
+127.0.0.1 opt.kugou.com
+127.0.0.1 sdn.kugoo.com
+127.0.0.1 sdn.kugou.com
+127.0.0.1 softstart.kugou.com
+127.0.0.1 softstat.kugou.com
+127.0.0.1 yx.kugou.com
 #6.cn
 127.0.0.1 pole.6rooms.com
 127.0.0.1 simba.6.cn
 127.0.0.1 union.6.cn
 127.0.0.1 shrek.6.cn
-#iqiyi
+#iQiyi
 127.0.0.1 api.cupid.qiyi.com
 127.0.0.1 msg.video.qiyi.com
 127.0.0.1 jsmsg.video.qiyi.com
@@ -3918,7 +3924,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ad.dj527.com
 127.0.0.1 sy.0575dp.com
 127.0.0.1 www.0575dp.com
-@Windows Software Verification Shield
+@Shield Software Active
 #ACDSee
 127.0.0.1 acdid.acdsystems.com
 127.0.0.1 acdupdater.acdsystems.com
@@ -4050,14 +4056,14 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ps2.zonelabs.com
 127.0.0.1 register.zonelabs.com
 127.0.0.1 update.zonelabs.com
-@Windows 游戏验证屏蔽
-#Game Assassin's Creed
+@Shield Game Active
+#Assassin's Creed
 127.0.0.1 onlineconfigservice.ubi.com
 127.0.0.1 orbitservice.ubi.com
 127.0.0.1 static3.cdn.ubi.com
 127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
 127.0.0.1 ubisoft-orbit.s3.amazonaws.com
-#Game Command&Conquer
+#Command&Conquer
 127.0.0.1 blazeserver.blazeemu.org
 127.0.0.1 demangler.ea.com
 127.0.0.1 gosgvaprod-qos01.ea.com
@@ -4065,7 +4071,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 gosredirector.ea.com
 127.0.0.1 gossjcprod-qos01.ea.com
 127.0.0.1 vmp.tools.gos.ea.com
-#Game QUAZAL
+#QUAZAL
 127.0.0.1 cohlive-1.quazal.net
 127.0.0.1 cohlive.quazal.net
 127.0.0.1 reliclive-1.quazal.net
@@ -4081,7 +4087,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 mangler9.generals.ea.com
 127.0.0.1 mangler10.generals.ea.com
 127.0.0.1 servserv.generals.ea.com
-@Windows 软件广告过滤
+@Windows SoftAD
 #Avira
 127.0.0.1 notifier.avira.com
 #ESTsoft
@@ -4191,28 +4197,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ttads.ttplayer.com
 127.0.0.1 ttmsg.qianqian.com
 127.0.0.1 ttpack.qianqian.com
-#Kuwo
-127.0.0.1 g.kuwo.cn
-127.0.0.1 wa.kuwo.cn
-127.0.0.1 updatepage.kuwo.cn
-127.0.0.1 g.koowo.com
-127.0.0.1 wa.koowo.com
-127.0.0.1 webstat.kuwo.cn
-#Kugou
-127.0.0.1 dl.ddong.com
-127.0.0.1 game.kugou.com
-127.0.0.1 downmobile.kugou.com
-127.0.0.1 games.kugou.com
-127.0.0.1 install.kugou.com
-127.0.0.1 links.kugoo.com
-127.0.0.1 mkg.kugou.com
-127.0.0.1 myonline.kugou.com
-127.0.0.1 opt.kugou.com
-127.0.0.1 sdn.kugoo.com
-127.0.0.1 sdn.kugou.com
-127.0.0.1 softstart.kugou.com
-127.0.0.1 softstat.kugou.com
-127.0.0.1 yx.kugou.com
 #Maxthon
 127.0.0.1 mk.maxthon.cn
 127.0.0.1 datacn-dl.maxthon.com
@@ -9475,6 +9459,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 bannerbank.ru
 127.0.0.1 crd1.bannerbank.ru
 127.0.0.1 static.bannerbank.ru
+@HostsX AdUnionJP
 #A8
 127.0.0.1 ad.a8.net
 127.0.0.1 px.a8.net
@@ -10814,7 +10799,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 script.yucmedia.com
 127.0.0.1 serv.yucmedia.com
 127.0.0.1 www.yucmedia.com
-@HostsX DoNotTracking&Statistics
+@DoNotTracking Statistics
 #51La
 127.0.0.1 img.users.51.la
 127.0.0.1 js.users.51.la
@@ -11239,7 +11224,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 code3.soua.com
 127.0.0.1 www.soua.com
 127.0.0.1 union.soua.com
-#盛大统计
+#Sdo
 127.0.0.1 adrs.sdo.com
 127.0.0.1 bf.snyu.sdo.com
 127.0.0.1 bh.snyu.sdo.com
@@ -11347,11 +11332,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.referer.cn
 127.0.0.1 www.zzcount.com
 127.0.0.1 zjomo2.app9.hubspot.com
-@HostsX 防止网络劫持
-#域名劫持
+@HostsX Operators Hijack
+#Domain Hijacking
 127.0.0.1 ss.cnnic.cn
 127.0.0.1 searchportal.winindomain.com
-#电信劫持
+#Telcom Hijack
 127.0.0.1 114so.cn
 127.0.0.1 taobao.114so.cn
 127.0.0.1 sh.114so.cn
@@ -11373,7 +11358,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 img.dianxin.cn
 127.0.0.1 union.dianxin.cn
 127.0.0.1 www.dianxin.cn
-#联通劫持
+#Unicom Hijack
 127.0.0.1 lndnserror1.wo.com.cn
 127.0.0.1 sddnserror1.wo.com.cn
 127.0.0.1 sddnserror2.wo.com.cn
@@ -11393,9 +11378,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 pop.17lele.net
 127.0.0.1 search.yousee.com
 127.0.0.1 sg.yousee.com
-#长城宽带劫持
+#GWB Hijacking
 127.0.0.1 focus.inhe.net
-#各地运营商广告
+#Operators ADS
 127.0.0.1 lc.havod.com
 127.0.0.1 havod.com
 127.0.0.1 www.havod.com
@@ -11404,14 +11389,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ad.xunkoo.com
 127.0.0.1 ads.iisdoor.com
 127.0.0.1 pv.bbapp.net
-@Telcom HijackIP
-#湖南
-127.0.0.1 119.42.227.248
-127.0.0.1 118.123.242.119
-127.0.0.1 59.175.130.122
-127.0.0.1 113.240.237.147
-@Unicom HijackIP
-
 @HostsX Virus Blocking
 #Phishing
 127.0.0.1 834729.loldjfkas90.com
@@ -14049,8 +14026,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 zz333.com
 127.0.0.1 zzqqq.com
 127.0.0.1 zzz13.com
-@HostsX 恶意弹窗屏蔽
-#签名弹窗
+@HostsX Pop-ups Ads
+#QianMing Pop ad
 127.0.0.1 code.2010qianming.com
 127.0.0.1 code.52qiangming.com
 127.0.0.1 code.aizhuanlove.cn
@@ -14065,7 +14042,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.aiqianming.cn
 127.0.0.1 www.cangtoushi.cn
 127.0.0.1 www1.99mc.com
-#客服弹窗
+#Service Pop ad
 127.0.0.1 chat.53kf.com
 127.0.0.1 up.53kf.com
 127.0.0.1 adv.53kf.com
@@ -14075,7 +14052,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.918kf.com
 127.0.0.1 www.54kfqq.com
 127.0.0.1 www.live800.com
-#游戏弹窗
+#Game Pop ad
 127.0.0.1 astd.snsfun.cc
 127.0.0.1 astds3.snsfun.cc
 127.0.0.1 plsm.snsfun.cc
@@ -14314,7 +14291,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ab.shiwt.com
 127.0.0.1 f1.tbjfw.com
 127.0.0.1 f2.tbjfw.com
-#恶意弹窗
+#Malware Pop ad
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
 127.0.0.1 10000.mm.oishow.com
@@ -14990,7 +14967,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 js.yimeiads.com
 127.0.0.1 tk.tj0573.com
 127.0.0.1 t.ilepai.com
-#其他
+#Other Pop ad
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com
 127.0.0.1 www.cuons.com

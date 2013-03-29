@@ -1,4 +1,4 @@
-@Windows Software Verification Shield
+@Shield Software Active
 #ACDSee
 127.0.0.1 acdid.acdsystems.com
 127.0.0.1 acdupdater.acdsystems.com

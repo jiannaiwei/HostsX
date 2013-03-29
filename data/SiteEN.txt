@@ -1,4 +1,4 @@
-@HostsX 海外站点广告
+@HostsX Site ADS
 #BNet
 0.0.0.0 bwp.bnet.com
 0.0.0.0 mads.bnet.com

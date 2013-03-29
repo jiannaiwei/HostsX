@@ -1,4 +1,4 @@
-@HostsX DoNotTracking&Statistics
+@DoNotTracking Statistics
 #51La
 0.0.0.0 img.users.51.la
 0.0.0.0 js.users.51.la
@@ -423,7 +423,7 @@
 0.0.0.0 code3.soua.com
 0.0.0.0 www.soua.com
 0.0.0.0 union.soua.com
-#Ê¢´óÍ³¼Æ
+#Sdo
 0.0.0.0 adrs.sdo.com
 0.0.0.0 bf.snyu.sdo.com
 0.0.0.0 bh.snyu.sdo.com
