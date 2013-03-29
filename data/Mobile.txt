@@ -22,7 +22,6 @@
 127.0.0.1 schemas.android.com
 127.0.0.1 www.googleapis.com
 127.0.0.1 csi.gstatic.com
-127.0.0.1 www.gstatic.com
 127.0.0.1 ssl.google-analytics.com
 127.0.0.1 www.google-analytics.com
 #16kxs

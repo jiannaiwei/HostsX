@@ -1,11 +1,10 @@
-;version=22:27 2013/3/20
+;version=8:56 2013/3/29
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致 搜狐客户端无法打开视频的集数。
 access.tv.sohu.com
 hot.vrs.sohu.com
 $DELETE
-
 
 #导致Skype(Tom)用户无法充值的问题。
 client.skype.tom.com
@@ -173,21 +172,12 @@ dy.ugc.pps.tv
 dyn.ugc.pps.tv
 $DELETE
 
-#导致新浪看视频无法正常播放。
-swf.games.sina.com.cn
-v.iask.com
-$DELETE
-
 #导致新浪IP工具无法正常使用。
 int.dpool.sina.com.cn
 $DELETE
 
 #导致 360 浏览器无法正常更新。
 seupdate.360safe.com
-$DELETE
-
-#!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
-pinst.360.cn
 $DELETE
 
 #导致QQ客户端群搜索页面无法正常显示。
@@ -203,7 +193,6 @@ gs.apple.com
 $DELETE
 
 #导致酷6页面无法正常显示。
-ku6afp.allyes.com
 main.gslb.ku6.com
 gug.ku6cdn.com
 $DELETE
@@ -258,7 +247,6 @@ $DELETE
 $RemoveFromIEBlockedSites
 
 #导致微软部分产品的下载链接无法跳转和打开。
-clk.atdmt.com
 view.atdmt.com
 switch.atdmt.com
 $DELETE
@@ -333,10 +321,6 @@ $DELETE
 
 #!导致搜狗拼音无法下载词库，搜狗浏览器无法下载扩展。此域名包含了搜狗拼音的桌面推送广告和弹出提示，不建议用户删除。请访问 http://9bu.org/36 查看更好的解决方案。
 download.ie.sogou.com
-$DELETE
-
-#!导致 部分手机网站 页面无法正常跳转。此域名存放了很多的广告图片和链接跳转，不建议用户删除。请访问 http://9bu.org/38 查看更好的解决方案。
-adsclick.uc123.com
 $DELETE
 
 #导致PPTV搜索时无法完整显示结果的问题。
