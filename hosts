@@ -4,7 +4,7 @@ notepad %windir%\system32\drivers\etc\hosts
 goto :eof 
 
 ;version=201303291013
-;hostsxversion=0.6.1.7
+;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
