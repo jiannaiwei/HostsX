@@ -10,7 +10,7 @@ rem call :smarhosts
 echo.>Version.txt
 echo ;version=%date:~0,4%%date:~5,2%%date:~8,2%%TIME:~0,2%%TIME:~3,2%>>Version.txt
 rem echo ;version=%time% %date%>>Version.txt
-echo ;hostsxversion=0.5.2.1>>Version.txt
+echo ;hostsxversion=0.6.1.7>>Version.txt
 echo ;author=Hostsx Contributor>>Version.txt
 echo ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh>>Version.txt
 echo ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.>>Version.txt
