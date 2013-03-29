@@ -12,7 +12,7 @@ echo ;version=%date:~0,4%%date:~5,2%%date:~8,2%%TIME:~0,2%%TIME:~3,2%>>Version.t
 rem echo ;version=%time% %date%>>Version.txt
 echo ;hostsxversion=0.6.1.7>>Version.txt
 echo ;author=Hostsx Contributor>>Version.txt
-echo ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh>>Version.txt
+echo ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon>>Version.txt
 echo ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.>>Version.txt
 set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt Virus.txt Mwsl.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>HostsX.orzhosts)

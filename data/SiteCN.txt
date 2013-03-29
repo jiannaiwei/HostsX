@@ -52,10 +52,7 @@
 0.0.0.0 union.uume.com
 0.0.0.0 jh.uume.com
 #ÈËÈËÍø
-<<<<<<< HEAD
 0.0.0.0 admobile.renren.com
-=======
->>>>>>> ad0fa6cf2e63891f99036f92fa9870186fb58e2d
 0.0.0.0 c.renren.com
 0.0.0.0 click.jebe.renren.com
 0.0.0.0 cupid.jebe.renren.com
