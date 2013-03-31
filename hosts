@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303291013
+;version=201303311031
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -14963,6 +14963,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 js.yimeiads.com
 127.0.0.1 tk.tj0573.com
 127.0.0.1 t.ilepai.com
+127.0.0.1 p.gm99.com
 #Other Pop ad
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

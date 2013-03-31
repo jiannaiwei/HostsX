@@ -939,6 +939,7 @@
 0.0.0.0 js.yimeiads.com
 0.0.0.0 tk.tj0573.com
 0.0.0.0 t.ilepai.com
+0.0.0.0 p.gm99.com
 #Other Pop ad
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com
