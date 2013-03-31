@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303311031
+;version=201303311810
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -11387,6 +11387,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 pv.bbapp.net
 @HostsX Virus Blocking
 #Phishing
+127.0.0.1 www.ons218.com
+127.0.0.1 www.98e8.com
 127.0.0.1 834729.loldjfkas90.com
 127.0.0.1 www.sexpartnerx.com
 127.0.0.1 www.baidu.com.kvoc.in

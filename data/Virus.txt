@@ -1,5 +1,7 @@
 @HostsX Virus Blocking
 #Phishing
+0.0.0.0 www.ons218.com
+0.0.0.0 www.98e8.com
 0.0.0.0 834729.loldjfkas90.com
 0.0.0.0 www.sexpartnerx.com
 0.0.0.0 www.baidu.com.kvoc.in
