@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304011547
+;version=201304011857
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -1026,6 +1026,7 @@ fe80::1%lo0	localhost
 127.0.0.1 pfp.sina.com.cn
 127.0.0.1 pfpclick.sina.com.cn
 127.0.0.1 rm.sina.com.cn
+127.0.0.1 sax.sina.com.cn
 127.0.0.1 sgup.beacon.sina.com.cn
 127.0.0.1 sms.sina.com.cn
 127.0.0.1 ta.sass.sina.com.cn
@@ -1037,6 +1038,7 @@ fe80::1%lo0	localhost
 127.0.0.1 log.v.iask.com
 127.0.0.1 count.kandian.com
 127.0.0.1 iyh365.cn
+127.0.0.1 1251.adsina.allyes.com
 127.0.0.1 adsina.allyes.com
 127.0.0.1 sina.allyes.com
 127.0.0.1 sinas.allyes.com

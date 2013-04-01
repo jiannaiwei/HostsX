@@ -384,6 +384,7 @@
 0.0.0.0 pfp.sina.com.cn
 0.0.0.0 pfpclick.sina.com.cn
 0.0.0.0 rm.sina.com.cn
+0.0.0.0 sax.sina.com.cn
 0.0.0.0 sgup.beacon.sina.com.cn
 0.0.0.0 sms.sina.com.cn
 0.0.0.0 ta.sass.sina.com.cn
@@ -395,6 +396,7 @@
 0.0.0.0 log.v.iask.com
 0.0.0.0 count.kandian.com
 0.0.0.0 iyh365.cn
+0.0.0.0 1251.adsina.allyes.com
 0.0.0.0 adsina.allyes.com
 0.0.0.0 sina.allyes.com
 0.0.0.0 sinas.allyes.com
