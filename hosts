@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201303311810
+;version=20130401 919
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -3645,12 +3645,12 @@ $      下载最新版本的 HostsX。
 127.0.0.1 union.6.cn
 127.0.0.1 shrek.6.cn
 #iQiyi
-127.0.0.1 api.cupid.qiyi.com
-127.0.0.1 msg.video.qiyi.com
+127.0.0.1 afp.qiyi.com
 127.0.0.1 jsmsg.video.qiyi.com
-127.0.0.1 minisite.qiyi.com
-127.0.0.1 policy.cupid.qiyi.com
-127.0.0.1 show.cupid.qiyi.com
+127.0.0.1 meta.video.qiyi.com
+127.0.0.1 msg.iqiyi.com
+127.0.0.1 msg.video.qiyi.com
+127.0.0.1 nl.rcd.iqiyi.com
 127.0.0.1 track.cupid.qiyi.com
 127.0.0.1 focusbaiduafp.allyes.com
 127.0.0.1 pub.htwisdom.com
@@ -3929,6 +3929,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 activation.acronis.com
 127.0.0.1 liveupdate.acronis.com
 #Adobe
+127.0.0.1 fpdownload.adobe.com
 127.0.0.1 activate.adobe.com
 127.0.0.1 practivate.adobe.com
 127.0.0.1 lmlicenses.wip4.adobe.com

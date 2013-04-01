@@ -7,6 +7,7 @@
 127.0.0.1 activation.acronis.com
 127.0.0.1 liveupdate.acronis.com
 #Adobe
+127.0.0.1 fpdownload.adobe.com
 127.0.0.1 activate.adobe.com
 127.0.0.1 practivate.adobe.com
 127.0.0.1 lmlicenses.wip4.adobe.com

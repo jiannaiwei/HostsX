@@ -1,4 +1,4 @@
-;version=8:56 2013/3/29
+;version=9:19 2013/4/1
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致 搜狐客户端无法打开视频的集数。
@@ -267,6 +267,12 @@ $DELETE
 hiphotos.baidu.com
 cache.video.qiyi.com
 data.video.qiyi.com
+$DELETE
+
+#导致奇异视频无法正常播放。
+api.cupid.qiyi.com
+policy.cupid.qiyi.com
+show.cupid.qiyi.com
 $DELETE
 
 #导致光影魔术手客户端素材无法正常下载。

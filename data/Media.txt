@@ -69,12 +69,12 @@
 0.0.0.0 union.6.cn
 0.0.0.0 shrek.6.cn
 #iQiyi
-0.0.0.0 api.cupid.qiyi.com
-0.0.0.0 msg.video.qiyi.com
+0.0.0.0 afp.qiyi.com
 0.0.0.0 jsmsg.video.qiyi.com
-0.0.0.0 minisite.qiyi.com
-0.0.0.0 policy.cupid.qiyi.com
-0.0.0.0 show.cupid.qiyi.com
+0.0.0.0 meta.video.qiyi.com
+0.0.0.0 msg.iqiyi.com
+0.0.0.0 msg.video.qiyi.com
+0.0.0.0 nl.rcd.iqiyi.com
 0.0.0.0 track.cupid.qiyi.com
 0.0.0.0 focusbaiduafp.allyes.com
 0.0.0.0 pub.htwisdom.com
