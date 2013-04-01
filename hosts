@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20130401 919
+;version=201304011547
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -1323,19 +1323,19 @@ $      下载最新版本的 HostsX。
 127.0.0.1 tq.sd.keniu.com
 #360
 127.0.0.1 down.360safe.com
-127.0.0.1 hjql.stat.360safe.com
-127.0.0.1 ini.update.360safe.com
+127.0.0.1 update.360safe.com
 127.0.0.1 inst.360safe.com
+127.0.0.1 ini.update.360safe.com
+127.0.0.1 hjql.stat.360safe.com
 127.0.0.1 pdown.stat.360safe.com
 127.0.0.1 plugin.stat.360safe.com
 127.0.0.1 seapp.stat.360safe.com
+127.0.0.1 yhds.stat.360safe.com
 127.0.0.1 shouji.360safe.com
 127.0.0.1 softm.update.360safe.com
 127.0.0.1 stat.360safe.com
-127.0.0.1 update.360safe.com
 127.0.0.1 upload.360safe.com
 127.0.0.1 x.360safe.com
-127.0.0.1 yhds.stat.360safe.com
 127.0.0.1 agd.p.360.cn
 127.0.0.1 bp.conf.f.360.cn
 127.0.0.1 cdn.apc.360.cn
@@ -1351,7 +1351,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 q.soft.360.cn
 127.0.0.1 qd.code.360.cn
 127.0.0.1 qup.f.360.cn
-127.0.0.1 qurl.f.360.cn
 127.0.0.1 rd.360.cn
 127.0.0.1 s.360.cn
 127.0.0.1 s.se.360.cn

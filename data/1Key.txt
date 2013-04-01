@@ -681,19 +681,19 @@ $      下载最新版本的 HostsX。
 0.0.0.0 tq.sd.keniu.com
 #360
 0.0.0.0 down.360safe.com
-0.0.0.0 hjql.stat.360safe.com
-0.0.0.0 ini.update.360safe.com
+0.0.0.0 update.360safe.com
 0.0.0.0 inst.360safe.com
+0.0.0.0 ini.update.360safe.com
+0.0.0.0 hjql.stat.360safe.com
 0.0.0.0 pdown.stat.360safe.com
 0.0.0.0 plugin.stat.360safe.com
 0.0.0.0 seapp.stat.360safe.com
+0.0.0.0 yhds.stat.360safe.com
 0.0.0.0 shouji.360safe.com
 0.0.0.0 softm.update.360safe.com
 0.0.0.0 stat.360safe.com
-0.0.0.0 update.360safe.com
 0.0.0.0 upload.360safe.com
 0.0.0.0 x.360safe.com
-0.0.0.0 yhds.stat.360safe.com
 0.0.0.0 agd.p.360.cn
 0.0.0.0 bp.conf.f.360.cn
 0.0.0.0 cdn.apc.360.cn
@@ -709,7 +709,6 @@ $      下载最新版本的 HostsX。
 0.0.0.0 q.soft.360.cn
 0.0.0.0 qd.code.360.cn
 0.0.0.0 qup.f.360.cn
-0.0.0.0 qurl.f.360.cn
 0.0.0.0 rd.360.cn
 0.0.0.0 s.360.cn
 0.0.0.0 s.se.360.cn
