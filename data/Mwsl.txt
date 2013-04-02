@@ -172,6 +172,8 @@
 0.0.0.0 99sao.com
 0.0.0.0 9bobo.com
 0.0.0.0 9cdvd.me
+0.0.0.0 </ul>
+0.0.0.0 <ul>
 0.0.0.0 a.789wyt.com
 0.0.0.0 a.nv44.com
 0.0.0.0 a.xx747.com
@@ -267,7 +269,6 @@
 0.0.0.0 cv899.com
 0.0.0.0 cvan3.com
 0.0.0.0 cxccd.s.3322.net
-0.0.0.0 cxgdad.com
 0.0.0.0 cxgyd.com
 0.0.0.0 cyb37.com
 0.0.0.0 cz10086.10010.xingbaojianpin.net
@@ -2081,3 +2082,4 @@
 0.0.0.0 zz333.com
 0.0.0.0 zzqqq.com
 0.0.0.0 zzz13.com
+0.0.0.0 cxgdad.com

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20130402 909
+;version=201304021833
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -10484,10 +10484,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 material.mediav.com
 127.0.0.1 pui.mediav.com
 127.0.0.1 secure.mediav.com
-127.0.0.1 show.mediav.com
 127.0.0.1 show.g.mediav.com
+127.0.0.1 show.mediav.com
 127.0.0.1 sina.mediav.com
 127.0.0.1 static.mediav.com
+127.0.0.1 view.mediav.com
 127.0.0.1 www.mediav.com
 #Millwardbrownacsr
 127.0.0.1 360buy.a.miaozhen.com
@@ -11265,6 +11266,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 163.wrating.com
 127.0.0.1 ads.wrating.com
 127.0.0.1 ahtv.wrating.com
+127.0.0.1 audit.wrating.com
 127.0.0.1 aweb.wrating.com
 127.0.0.1 baidu.wrating.com
 127.0.0.1 bbs.wrating.com
@@ -12133,6 +12135,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 99sao.com
 127.0.0.1 9bobo.com
 127.0.0.1 9cdvd.me
+127.0.0.1 </ul>
+127.0.0.1 <ul>
 127.0.0.1 a.789wyt.com
 127.0.0.1 a.nv44.com
 127.0.0.1 a.xx747.com
@@ -12228,7 +12232,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cv899.com
 127.0.0.1 cvan3.com
 127.0.0.1 cxccd.s.3322.net
-127.0.0.1 cxgdad.com
 127.0.0.1 cxgyd.com
 127.0.0.1 cyb37.com
 127.0.0.1 cz10086.10010.xingbaojianpin.net
@@ -14042,6 +14045,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 zz333.com
 127.0.0.1 zzqqq.com
 127.0.0.1 zzz13.com
+127.0.0.1 cxgdad.com
 @HostsX Pop-ups Ads
 #QianMing Pop ad
 127.0.0.1 code.2010qianming.com
