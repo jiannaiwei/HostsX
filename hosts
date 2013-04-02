@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304022128
+;version=201304022141
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -1093,14 +1093,15 @@ fe80::1%lo0	localhost
 127.0.0.1 js.ylunion.com
 127.0.0.1 ylunion.com
 127.0.0.1 www.ylunion.com
-127.0.0.1 labs.ra.icast.cn
 127.0.0.1 cast.ra.icast.cn
 127.0.0.1 js.icast.cn
 127.0.0.1 kw.ra.icast.cn
+127.0.0.1 labs.ra.icast.cn
 127.0.0.1 post.ra.icast.cn
 127.0.0.1 pre.ra.icast.cn
 127.0.0.1 pv.ra.icast.cn
 127.0.0.1 rm.ra.icast.cn
+127.0.0.1 rmtx.ra.icast.cn
 127.0.0.1 track.ra.icast.cn
 127.0.0.1 track2.ra.icast.cn
 #163
