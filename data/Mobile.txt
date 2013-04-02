@@ -94,6 +94,10 @@
 127.0.0.1 lw.aandroid.net
 127.0.0.1 wm.aandroid.net
 127.0.0.1 zdt.aandroid.net
+#Applovin
+127.0.0.1 a.applovin.com
+127.0.0.1 d.applovin.com
+127.0.0.1 schemas.applovin.com
 #Appmedia
 127.0.0.1 api.appmedia.cn
 127.0.0.1 www.appmedia.cn
@@ -239,6 +243,8 @@
 127.0.0.1 flurry.com
 127.0.0.1 www.flurry.com
 127.0.0.1 flurry.cachefly.net
+#Finedroidads
+127.0.0.1 api2.finedroidads.com
 #Gfan
 127.0.0.1 d.gfan.com
 #Gogle
@@ -485,6 +491,9 @@
 #Rovio
 127.0.0.1 cloud.rovio.com
 127.0.0.1 news-assets.rovio.com
+#Scoreloop
+127.0.0.1 community.scoreloop.com
+127.0.0.1 p.scoreloop.com
 #Smaato
 127.0.0.1 c01.smaato.net
 127.0.0.1 c02.smaato.net
@@ -838,3 +847,6 @@
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
 127.0.0.1 upyun.cocimg.com
+127.0.0.1 droidresource.s3.amazonaws.com
+127.0.0.1 karmicapps.com
+127.0.0.1 www.startappexchange.com

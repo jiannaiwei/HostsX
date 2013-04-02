@@ -1,8 +1,7 @@
-;version=8:51 2013/3/29
+;version=9:15 2013/4/2
+HostsX 屏蔽数据`https://github.com/orzTech/HostsX/raw/master/hosts
+HostsX 严格屏蔽数据`https://github.com/orzTech/HostsX/raw/master/data/Strictlylist.txt
 Acrylic DNS Proxy 版 HostsX 广告屏蔽数据`https://github.com/orzTech/HostsX/raw/master/AcrylicHosts.txt
-HostsX 严格广告屏蔽数据`https://github.com/orzTech/HostsX/raw/master/data/Strictlylist.txt
--
-注意：以下为第三方 Hosts 数据，不推荐同时使用多个！*http://orztech.com/softwares/hostsx/help
 -
 SmartHosts转向数据`https://smarthosts.googlecode.com/svn/trunk/hosts
 IPv6 版智能转向数据`http://ipv6-hosts.googlecode.com/hg/hosts
@@ -14,5 +13,6 @@ IT-Mate.co.uk 数据`http://support.it-mate.co.uk/downloads/HOSTS.txt
 Yoyo.org 数据`http://pgl.yoyo.org/as/serverlist.php?showintro=0;hostformat=hosts
 MalwareDomainList 数据`http://www.malwaredomainlist.com/hostslist/hosts.txt
 -
+注意：不推荐同时使用多个Hosts 数据！*http://orztech.com/softwares/hostsx/help
 HostsX 0.7.1.18 已发布，请即刻更新！*http://9bu.org/hostsx
 下载适用于 Andriod 设备的 Hosts 文件*http://9bu.org/3a

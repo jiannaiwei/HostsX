@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304011857
+;version=20130402 909
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -1948,6 +1948,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 lw.aandroid.net
 127.0.0.1 wm.aandroid.net
 127.0.0.1 zdt.aandroid.net
+#Applovin
+127.0.0.1 a.applovin.com
+127.0.0.1 d.applovin.com
+127.0.0.1 schemas.applovin.com
 #Appmedia
 127.0.0.1 api.appmedia.cn
 127.0.0.1 www.appmedia.cn
@@ -2093,6 +2097,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 flurry.com
 127.0.0.1 www.flurry.com
 127.0.0.1 flurry.cachefly.net
+#Finedroidads
+127.0.0.1 api2.finedroidads.com
 #Gfan
 127.0.0.1 d.gfan.com
 #Gogle
@@ -2339,6 +2345,9 @@ $      下载最新版本的 HostsX。
 #Rovio
 127.0.0.1 cloud.rovio.com
 127.0.0.1 news-assets.rovio.com
+#Scoreloop
+127.0.0.1 community.scoreloop.com
+127.0.0.1 p.scoreloop.com
 #Smaato
 127.0.0.1 c01.smaato.net
 127.0.0.1 c02.smaato.net
@@ -2692,6 +2701,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
 127.0.0.1 upyun.cocimg.com
+127.0.0.1 droidresource.s3.amazonaws.com
+127.0.0.1 karmicapps.com
+127.0.0.1 www.startappexchange.com
 @HostsX Site ADS
 #BNet
 127.0.0.1 bwp.bnet.com
@@ -11665,9 +11677,13 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.qq.com.2012r.in
 127.0.0.1 go2buynow.info
 #Browser Hijacking
-127.0.0.1 www.985dh.com
+127.0.0.1 www.114la.com
+127.0.0.1 www.999.com
 127.0.0.1 2345.com
+127.0.0.1 ie.2345.com
 127.0.0.1 www.2345.com
+127.0.0.1 download.2345.com
+127.0.0.1 www.985dh.com
 127.0.0.1 054.cc
 127.0.0.1 1188.com
 127.0.0.1 2548.cn

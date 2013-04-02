@@ -7,15 +7,9 @@
 0.0.0.0 dlresctrl.phub.sandai.net
 0.0.0.0 down.sandai.net
 0.0.0.0 client.stat.xunlei.com
-0.0.0.0 2345.com
-0.0.0.0 www.2345.com
-0.0.0.0 download.2345.com
-0.0.0.0 ie.2345.com
 0.0.0.0 pc.115.com
 0.0.0.0 ie.115.com
 0.0.0.0 xiazai.xiazaiba.com
-0.0.0.0 www.114la.com
-0.0.0.0 www.999.com
 0.0.0.0 soft.tjj.com
 0.0.0.0 www.007.mx
 0.0.0.0 widget.weibo.com
