@@ -15,7 +15,7 @@ property hostsTempPath : "~/hosts"
 property hostsCustomPath : ""
 
 -- 一个可以获取最新autoproxy.pac的URL
-property pacURL : "http://hostsx.googlecode.com/svn/trunk/Autoproxy.pac"
+property pacURL : "https://raw.github.com/vokins/SimpleU/master/Autoproxy.pac"
 
 -- autoproxy.pac保存位置
 -- PS:这个文件路径一定要有文件存在，不然脚本不会更新autoproxy.pac
