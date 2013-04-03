@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304031827
+;version=201304032019
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -12184,8 +12184,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 99sao.com
 127.0.0.1 9bobo.com
 127.0.0.1 9cdvd.me
-127.0.0.1 </ul>
-127.0.0.1 <ul>
 127.0.0.1 a.789wyt.com
 127.0.0.1 a.nv44.com
 127.0.0.1 a.xx747.com
