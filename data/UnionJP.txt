@@ -103,6 +103,7 @@
 0.0.0.0 kansas.valueclick.ne.jp
 0.0.0.0 st.lidr.valueclick.jp
 0.0.0.0 www.valueclick.ne.jp
+0.0.0.0 log.opt.ne.jp
 #JpUsual
 0.0.0.0 a.adimg.net
 0.0.0.0 ac.auone-net.jp

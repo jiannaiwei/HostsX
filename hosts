@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304032019
+;version=201304032110
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -9621,6 +9621,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 kansas.valueclick.ne.jp
 127.0.0.1 st.lidr.valueclick.jp
 127.0.0.1 www.valueclick.ne.jp
+127.0.0.1 log.opt.ne.jp
 #JpUsual
 127.0.0.1 a.adimg.net
 127.0.0.1 ac.auone-net.jp
