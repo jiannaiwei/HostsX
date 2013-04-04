@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304032110
+;version=201304041646
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -2664,7 +2664,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cdn.vdopia.com
 127.0.0.1 chinaron.8866.org
 127.0.0.1 client.azrj.cn
-127.0.0.1 com2ushub.com2us.net
 127.0.0.1 content.mobango.com
 127.0.0.1 coolcode.org
 127.0.0.1 crowdin.net

@@ -763,7 +763,6 @@
 127.0.0.1 cdn.vdopia.com
 127.0.0.1 chinaron.8866.org
 127.0.0.1 client.azrj.cn
-127.0.0.1 com2ushub.com2us.net
 127.0.0.1 content.mobango.com
 127.0.0.1 coolcode.org
 127.0.0.1 crowdin.net
