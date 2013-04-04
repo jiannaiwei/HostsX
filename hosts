@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304041646
+;version=201304042259
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -150,6 +150,9 @@ fe80::1%lo0	localhost
 #Imdb
 92.122.217.186 ia.media-imdb.com
 198.78.213.126 i.media-imdb.com
+#Minus
+108.59.10.193 i1.minus.com
+108.59.10.222 i2.minus.com
 #Gravatar
 93.184.220.20 s.gravatar.com
 93.184.220.20 0.gravatar.com
@@ -4790,6 +4793,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 uac.advertising.com
 127.0.0.1 wap.advertising.com
 127.0.0.1 www.advertising.com
+#Adzerk
+127.0.0.1 engine.adzerk.net
+127.0.0.1 static.adzerk.net
+127.0.0.1 adzerk-www.s3.amazonaws.com
 #Amgdgt
 127.0.0.1 ad.amgdgt.com
 127.0.0.1 at.amgdgt.com
@@ -11450,6 +11457,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 pv.bbapp.net
 @HostsX Virus Blocking
 #Phishing
+127.0.0.1 reg.cpspt.com
+127.0.0.1 webgameurl.com
 127.0.0.1 www.kxmao365.com
 127.0.0.1 www.kxhaitao.com
 127.0.0.1 www.ons218.com

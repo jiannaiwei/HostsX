@@ -140,6 +140,9 @@ fe80::1%lo0	localhost
 #Imdb
 92.122.217.186 ia.media-imdb.com
 198.78.213.126 i.media-imdb.com
+#Minus
+108.59.10.193 i1.minus.com
+108.59.10.222 i2.minus.com
 #Gravatar
 93.184.220.20 s.gravatar.com
 93.184.220.20 0.gravatar.com

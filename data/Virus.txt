@@ -1,5 +1,7 @@
 @HostsX Virus Blocking
 #Phishing
+0.0.0.0 reg.cpspt.com
+0.0.0.0 webgameurl.com
 0.0.0.0 www.kxmao365.com
 0.0.0.0 www.kxhaitao.com
 0.0.0.0 www.ons218.com

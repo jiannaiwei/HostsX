@@ -20,6 +20,11 @@ ren HostsX.orzhosts Android.txt
 start hosts.vbs
 ping -n 5 127.0.0.1
 copy hosts "%~dp0..\"
+echo hosts=%date:~0,4%%date:~5,2%%date:~8,2%%TIME:~0,2%%TIME:~3,2%>"%~dp0..\Version.txt"
+echo AcrylicHosts=20130331103038>>"%~dp0..\Version.txt"
+echo fixlist=20130401091927>>"%~dp0..\Version.txt"
+echo servers=20130331103039>>"%~dp0..\Version.txt"
+echo sources=20130402091514>>"%~dp0..\Version.txt"
 md "%~dp0..\OS\system\etc"
 copy hosts "%~dp0..\OS\system\etc"
 del /f new.txt Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
@@ -55,3 +60,12 @@ for %%a in (%files%) do (type "%%a">>hosts.txt)
 sed -e "s/0.0.0.0/127.0.0.1/g" hosts.txt > hosts
 move /y hosts "%~dp0..\"
 goto :eof
+
+@echo off
+(for /f "delims=" %%a in ('dir /s/b/a-d "%cd%"') do (
+        set a=%%a
+        setlocal enabledelayedexpansion
+        set/p=!a! <nul
+        for /f "tokens=2 delims==." %%b in ('wmic datafile where name^="!a:\=\\!" get CreationDate/value') do echo %%b
+        Endlocal
+))>´´½¨.txt

@@ -478,6 +478,10 @@
 0.0.0.0 uac.advertising.com
 0.0.0.0 wap.advertising.com
 0.0.0.0 www.advertising.com
+#Adzerk
+0.0.0.0 engine.adzerk.net
+0.0.0.0 static.adzerk.net
+0.0.0.0 adzerk-www.s3.amazonaws.com
 #Amgdgt
 0.0.0.0 ad.amgdgt.com
 0.0.0.0 at.amgdgt.com
