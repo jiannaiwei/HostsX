@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304042313
+;version=201304051706
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -1925,7 +1925,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 mobwin.android.com
 127.0.0.1 schemas.android.com
 127.0.0.1 www.googleapis.com
-127.0.0.1 csi.gstatic.com
 127.0.0.1 ssl.google-analytics.com
 127.0.0.1 www.google-analytics.com
 #16kxs
