@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=20130406 952
+;version=201304061153
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -5764,6 +5764,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 websidestory.com
 127.0.0.1 support.websidestory.com
 127.0.0.1 www.websidestory.com
+#Hitslink
+127.0.0.1 7208853.hitslink.com
+127.0.0.1 counter.hitslink.com
+127.0.0.1 www.hitslink.com
 #Histats
 127.0.0.1 s10.histats.com
 127.0.0.1 s4.histats.com
@@ -9668,6 +9672,12 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.accesstrade.net
 127.0.0.1 www.adjustnetwork.com
 @HostsX AdUnionCN
+#01lm
+127.0.0.1 ads.01lm.com
+127.0.0.1 jh.01lm.com
+127.0.0.1 tg.01lm.com
+127.0.0.1 tuidl.01lm.com
+127.0.0.1 www.01lm.com
 #0252
 127.0.0.1 js.0252.com
 127.0.0.1 jump.0252.com
@@ -9884,6 +9894,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 f.9vcpm.cn
 127.0.0.1 v.cpp9v.cn
 127.0.0.1 p.cpm9v.cn
+127.0.0.1 f.cpm9v.cn
 127.0.0.1 jk.chapm.com
 127.0.0.1 pv.chapm.com
 127.0.0.1 v.9vcpc.cn
@@ -10022,6 +10033,11 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.ads001.com
 127.0.0.1 res1.ads001.com
 127.0.0.1 t.ads001.com
+#Ads80
+127.0.0.1 fmt.ads80.com
+127.0.0.1 tongji.ads80.com
+127.0.0.1 tp.ads80.com
+127.0.0.1 www.ads80.com
 #AdSame
 127.0.0.1 0127.adsame.com
 127.0.0.1 114study.adsame.com
@@ -10191,6 +10207,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 114.allyes.com
 127.0.0.1 idigger.allyes.com
 127.0.0.1 adzjvnet.allyes.com
+127.0.0.1 zjvnet.allyes.com
 127.0.0.1 allyesbjafa.allyes.com
 127.0.0.1 allyesshafa.allyes.com
 127.0.0.1 bokee.allyes.com
@@ -10305,6 +10322,9 @@ $      下载最新版本的 HostsX。
 #Buzz-time
 127.0.0.1 a.buzz-time.com.cn
 127.0.0.1 ad.buzz-time.com.cn
+#Caogenhui
+127.0.0.1 u.caogenhui.cn
+127.0.0.1 js.caogenhui.cn
 #Chanet
 127.0.0.1 count.chanet.com.cn
 127.0.0.1 file.chanet.com.cn
@@ -10390,6 +10410,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 monitor.yigao.com
 127.0.0.1 p.yigao.com
 127.0.0.1 www.emar.com.cn
+#Feitian
+127.0.0.1 img.feitian001.com
+127.0.0.1 www.feitian001.com
 #Flunion
 127.0.0.1 flunion.cn
 127.0.0.1 js.flunion.cn
@@ -10668,6 +10691,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 un2.banmamedia.com
 127.0.0.1 www.banmamedia.com
 127.0.0.1 www.targetedmedia.com.cn
+#Tbjcw
+127.0.0.1 www.tbjcw.com
+127.0.0.1 f1.tbjfw.com
+127.0.0.1 f2.tbjfw.com
 #TJQ
 127.0.0.1 c18.tjq.com
 127.0.0.1 d1.tjq.com
@@ -10844,6 +10871,10 @@ $      下载最新版本的 HostsX。
 #Yyclick
 127.0.0.1 t.yyclick.com
 127.0.0.1 www.yyclick.com
+#Ze5
+127.0.0.1 code.ze5.com
+127.0.0.1 count.ze5.com
+127.0.0.1 media.ze5.com
 #Zoomino
 127.0.0.1 ads-res.zoomino.cn
 127.0.0.1 zoomino.cn
@@ -14134,6 +14165,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.918kf.com
 127.0.0.1 www.54kfqq.com
 127.0.0.1 www.live800.com
+127.0.0.1 17276.kf.qycn.com
 #Game Pop ad
 127.0.0.1 astd.snsfun.cc
 127.0.0.1 astds3.snsfun.cc
@@ -14319,17 +14351,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 e.ooo1000.com
 127.0.0.1 u.18819.com
 127.0.0.1 s.18819.com
-127.0.0.1 u.caogenhui.cn
-127.0.0.1 js.caogenhui.cn
 127.0.0.1 a.cnzol.com
 127.0.0.1 u.cnzol.com
-127.0.0.1 code.ze5.com
-127.0.0.1 count.ze5.com
-127.0.0.1 media.ze5.com
 127.0.0.1 e.chtahmkt.com
 127.0.0.1 f.chtah.com
-127.0.0.1 img.feitian001.com
-127.0.0.1 www.feitian001.com
 127.0.0.1 googleadsense.xuanhaowang.net
 127.0.0.1 googleadsensejump.xuanhaowang.net
 127.0.0.1 bt.52yeyou.com
@@ -14343,15 +14368,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ad3713.dnsorg.net
 127.0.0.1 afp.dnsorg.net
 127.0.0.1 shell.dnsorg.net
-127.0.0.1 tp.ads80.com
-127.0.0.1 tongji.ads80.com
 127.0.0.1 adcpm.234y.com
 127.0.0.1 cpc.234y.com
 127.0.0.1 cpm.234y.com
-127.0.0.1 counter.hitslink.com
-127.0.0.1 7208853.hitslink.com
-127.0.0.1 tg.01lm.com
-127.0.0.1 tuidl.01lm.com
 127.0.0.1 sd.gogo.com
 127.0.0.1 img.gogo.com
 127.0.0.1 media.17leyi.com
@@ -14362,8 +14381,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 t.xdwan.com
 127.0.0.1 doubleclick.tv002.com
 127.0.0.1 clientclick.tv002.com
-127.0.0.1 js.ta80.com
-127.0.0.1 show.ta80.com
 127.0.0.1 code.336.com
 127.0.0.1 flash.336.com
 127.0.0.1 cpm.feike5.com
@@ -14373,8 +14390,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 c.jmsyzj.com
 127.0.0.1 x4.jmsyzj.com
 127.0.0.1 ab.shiwt.com
-127.0.0.1 f1.tbjfw.com
-127.0.0.1 f2.tbjfw.com
+127.0.0.1 js.cssyouxi.com
+127.0.0.1 www.cssyouxi.com
+127.0.0.1 cimg.1stcngame.com
+127.0.0.1 t.1stcngame.com
 #Malware Pop ad
 127.0.0.1 0831.ch512.com
 127.0.0.1 1.usazm.net
@@ -14481,6 +14500,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 cloud.cashtrafic.info
 127.0.0.1 cn.88db.com
 127.0.0.1 code.178gg.com
+127.0.0.1 code.2800v.net
 127.0.0.1 code.345ads.com
 127.0.0.1 code.3975lm.com
 127.0.0.1 code.51sotu.com
@@ -14493,6 +14513,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 code.myxmdh.com
 127.0.0.1 code.tjlove8.com
 127.0.0.1 code.u.18dx.com
+127.0.0.1 code.ukad.com
 127.0.0.1 code.woiring.com
 127.0.0.1 code.xwadv.com
 127.0.0.1 code.yy32.com
@@ -14608,7 +14629,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 images.9zwar.com
 127.0.0.1 images.dou00.com
 127.0.0.1 images.dsd333.cn
+127.0.0.1 images.niux88.com
 127.0.0.1 images.zhenming.net
+127.0.0.1 img.09dy.com
 127.0.0.1 img.a.07073.com
 127.0.0.1 img.cmsem.com
 127.0.0.1 img.voolee.cn
@@ -14624,9 +14647,12 @@ $      下载最新版本的 HostsX。
 127.0.0.1 js.6dad.com
 127.0.0.1 js.a3p4.com
 127.0.0.1 js.hl58.com
+127.0.0.1 js.jieyanri.com
+127.0.0.1 js.kk7kk.com
 127.0.0.1 js.laishu.com
 127.0.0.1 js.ssrj.net
 127.0.0.1 js.union001.com
+127.0.0.1 js.yimeiads.com
 127.0.0.1 js.zfjiu.com
 127.0.0.1 js1.union001.cn
 127.0.0.1 jscode.v5ad.com
@@ -14651,6 +14677,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 lm.lrswl.com
 127.0.0.1 lt.conngame.com
 127.0.0.1 lwz-url.meiru10.info
+127.0.0.1 lys2009.dxhz26.topnic.net
 127.0.0.1 m.3992929.com
 127.0.0.1 m.menhutong.com.cn
 127.0.0.1 max.gunggo.com
@@ -14676,6 +14703,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 optimized.by.vitalads.net
 127.0.0.1 p.000dn.com
 127.0.0.1 p.131cc.com
+127.0.0.1 p.144gg.com
 127.0.0.1 p.17kuxun.com
 127.0.0.1 p.2866yx.com
 127.0.0.1 p.37cu.com
@@ -14685,6 +14713,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 p.9kele.com
 127.0.0.1 p.cpm360.com
 127.0.0.1 p.eqiso.com
+127.0.0.1 p.ggmm777.com
+127.0.0.1 p.gm99.com
 127.0.0.1 p.haliyuya.com
 127.0.0.1 p.hbyajia.com
 127.0.0.1 p.srwchina.com
@@ -14746,6 +14776,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 show.k184.com
 127.0.0.1 show.sogua.com
 127.0.0.1 sj.51wgg.com
+127.0.0.1 so.boke81.com
 127.0.0.1 stat.doc88.com
 127.0.0.1 stat.ziye8.com
 127.0.0.1 state.urgamer.com
@@ -14757,7 +14788,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 sz.198game.com
 127.0.0.1 t.100tjs.com
 127.0.0.1 t.15yl.com
-127.0.0.1 t.1stcngame.com
 127.0.0.1 t.37lai.com
 127.0.0.1 t.57pk.net
 127.0.0.1 t.5ding.com
@@ -14767,6 +14797,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 t.9kele.com
 127.0.0.1 t.chinayul.com
 127.0.0.1 t.gameyule.com
+127.0.0.1 t.ilepai.com
 127.0.0.1 t.iloveyouxi.com
 127.0.0.1 t.jiuyaoyouxi.com
 127.0.0.1 t.qqcb.com
@@ -14795,11 +14826,15 @@ $      下载最新版本的 HostsX。
 127.0.0.1 tgame.joqoo.com
 127.0.0.1 tj.37wanwan.com
 127.0.0.1 tj4.feesee.com
+127.0.0.1 tk.tj0573.com
+127.0.0.1 tongji.qq3030.com
 127.0.0.1 tongji.wan5d.com
 127.0.0.1 towin.r.the2009.cn
 127.0.0.1 trace.syjcq.com
+127.0.0.1 track.weiyi.com
 127.0.0.1 tuiguang.yirenw.com
 127.0.0.1 ty3.yxfw.com
+127.0.0.1 u.2wad.com
 127.0.0.1 u.51fswd.com
 127.0.0.1 u.56wan.com
 127.0.0.1 u.7town.com
@@ -14844,6 +14879,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 union2.50bang.org
 127.0.0.1 unixpapa.com
 127.0.0.1 up4.kuwan8.com
+127.0.0.1 url7.me
 127.0.0.1 user.dayouyouxi.com
 127.0.0.1 user.game2.cn
 127.0.0.1 uucm.net
@@ -14921,7 +14957,6 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.baobaotao8.com
 127.0.0.1 www.chinesean.com
 127.0.0.1 www.cpmadao.com
-127.0.0.1 www.cssyouxi.com
 127.0.0.1 www.cxgglm.com
 127.0.0.1 www.d1rw.com
 127.0.0.1 www.dianwo98.com
@@ -14965,6 +15000,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.paopaoche.net
 127.0.0.1 www.pfcnc.com
 127.0.0.1 www.qi-yue.com
+127.0.0.1 www.qisulm.com
+127.0.0.1 www.qqhuhu.com
 127.0.0.1 www.qqmohe.com
 127.0.0.1 www.sdgj.net.cn
 127.0.0.1 www.self.com.cn
@@ -14999,6 +15036,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.yj84.com
 127.0.0.1 www.ymd88.com
 127.0.0.1 www.youxi186.com
+127.0.0.1 www.yungame520.com
 127.0.0.1 www.zazgame.com
 127.0.0.1 www.zjbdt.com
 127.0.0.1 www.zk528.com
@@ -15031,27 +15069,23 @@ $      下载最新版本的 HostsX。
 127.0.0.1 yingguoweiku.wfx100.com
 127.0.0.1 yls.1919e.com
 127.0.0.1 yourchinalove.com
-127.0.0.1 www.qqhuhu.com
-127.0.0.1 tongji.qq3030.com
-127.0.0.1 lys2009.dxhz26.topnic.net
-127.0.0.1 js.jieyanri.com
-127.0.0.1 images.niux88.com
-127.0.0.1 js.kk7kk.com
-127.0.0.1 www.yungame520.com
-127.0.0.1 p.144gg.com
-127.0.0.1 p.ggmm777.com
-127.0.0.1 code.2800v.net
-127.0.0.1 code.ukad.com
-127.0.0.1 img.09dy.com
-127.0.0.1 url7.me
-127.0.0.1 track.weiyi.com
-127.0.0.1 so.boke81.com
-127.0.0.1 www.qisulm.com
-127.0.0.1 u.2wad.com
-127.0.0.1 js.yimeiads.com
-127.0.0.1 tk.tj0573.com
-127.0.0.1 t.ilepai.com
-127.0.0.1 p.gm99.com
+127.0.0.1 ads.828ad.com
+127.0.0.1 cdn.6693.cc
+127.0.0.1 j.yo114.cn
+127.0.0.1 js.5566ad.com
+127.0.0.1 js.7788ad.com
+127.0.0.1 js.jingwei.net
+127.0.0.1 js.szvr.com
+127.0.0.1 js.yiwad.com
+127.0.0.1 js1.9wad.com
+127.0.0.1 js2.yxey.net
+127.0.0.1 k8ad.com
+127.0.0.1 upload.u966.com
+127.0.0.1 www.17g.net
+127.0.0.1 www.9tui.net
+127.0.0.1 www.ad-9.com
+127.0.0.1 www.manyan.net
+127.0.0.1 www.yxads.com
 #Other Pop ad
 127.0.0.1 adv.s8bbs.com
 127.0.0.1 adtest.wbcao.com

@@ -1450,6 +1450,10 @@
 0.0.0.0 websidestory.com
 0.0.0.0 support.websidestory.com
 0.0.0.0 www.websidestory.com
+#Hitslink
+0.0.0.0 7208853.hitslink.com
+0.0.0.0 counter.hitslink.com
+0.0.0.0 www.hitslink.com
 #Histats
 0.0.0.0 s10.histats.com
 0.0.0.0 s4.histats.com

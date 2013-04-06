@@ -1,4 +1,10 @@
 @HostsX AdUnionCN
+#01lm
+0.0.0.0 ads.01lm.com
+0.0.0.0 jh.01lm.com
+0.0.0.0 tg.01lm.com
+0.0.0.0 tuidl.01lm.com
+0.0.0.0 www.01lm.com
 #0252
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
@@ -215,6 +221,7 @@
 0.0.0.0 f.9vcpm.cn
 0.0.0.0 v.cpp9v.cn
 0.0.0.0 p.cpm9v.cn
+0.0.0.0 f.cpm9v.cn
 0.0.0.0 jk.chapm.com
 0.0.0.0 pv.chapm.com
 0.0.0.0 v.9vcpc.cn
@@ -353,6 +360,11 @@
 0.0.0.0 www.ads001.com
 0.0.0.0 res1.ads001.com
 0.0.0.0 t.ads001.com
+#Ads80
+0.0.0.0 fmt.ads80.com
+0.0.0.0 tongji.ads80.com
+0.0.0.0 tp.ads80.com
+0.0.0.0 www.ads80.com
 #AdSame
 0.0.0.0 0127.adsame.com
 0.0.0.0 114study.adsame.com
@@ -522,6 +534,7 @@
 0.0.0.0 114.allyes.com
 0.0.0.0 idigger.allyes.com
 0.0.0.0 adzjvnet.allyes.com
+0.0.0.0 zjvnet.allyes.com
 0.0.0.0 allyesbjafa.allyes.com
 0.0.0.0 allyesshafa.allyes.com
 0.0.0.0 bokee.allyes.com
@@ -636,6 +649,9 @@
 #Buzz-time
 0.0.0.0 a.buzz-time.com.cn
 0.0.0.0 ad.buzz-time.com.cn
+#Caogenhui
+0.0.0.0 u.caogenhui.cn
+0.0.0.0 js.caogenhui.cn
 #Chanet
 0.0.0.0 count.chanet.com.cn
 0.0.0.0 file.chanet.com.cn
@@ -721,6 +737,9 @@
 0.0.0.0 monitor.yigao.com
 0.0.0.0 p.yigao.com
 0.0.0.0 www.emar.com.cn
+#Feitian
+0.0.0.0 img.feitian001.com
+0.0.0.0 www.feitian001.com
 #Flunion
 0.0.0.0 flunion.cn
 0.0.0.0 js.flunion.cn
@@ -999,6 +1018,10 @@
 0.0.0.0 un2.banmamedia.com
 0.0.0.0 www.banmamedia.com
 0.0.0.0 www.targetedmedia.com.cn
+#Tbjcw
+0.0.0.0 www.tbjcw.com
+0.0.0.0 f1.tbjfw.com
+0.0.0.0 f2.tbjfw.com
 #TJQ
 0.0.0.0 c18.tjq.com
 0.0.0.0 d1.tjq.com
@@ -1175,6 +1198,10 @@
 #Yyclick
 0.0.0.0 t.yyclick.com
 0.0.0.0 www.yyclick.com
+#Ze5
+0.0.0.0 code.ze5.com
+0.0.0.0 count.ze5.com
+0.0.0.0 media.ze5.com
 #Zoomino
 0.0.0.0 ads-res.zoomino.cn
 0.0.0.0 zoomino.cn
