@@ -20,10 +20,6 @@
   * 覆盖桌面和移动平台以及各种互联网接入设备。
 
 ### 开源许可
-
-[OrzFly](http://orzfly.com/): founder,one creator of [HostsX](http://orztech.com/softwares/hostsx/), a code writter. <br />
-[郭郭](http://weibo.com/vokins?wvr=5&lf=reg): developer, HostsX Data contributors
-
 基于 [GPL v2](http://www.gnu.org/licenses/licenses.zh-cn.html) 开源。
 
 详细内容请您移步[Wiki](https://github.com/orzTech/HostsX/wiki) ：https://github.com/orzTech/HostsX/wiki
