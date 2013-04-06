@@ -100,6 +100,9 @@
 0.0.0.0 21union.com
 0.0.0.0 i.21union.com
 0.0.0.0 www.21union.com
+#365sino
+0.0.0.0 365sino.com
+0.0.0.0 ad.365sino.com
 #37cs
 0.0.0.0 c.37cs.com
 0.0.0.0 code.37cs.com
@@ -893,6 +896,10 @@
 0.0.0.0 static.mediav.com
 0.0.0.0 view.mediav.com
 0.0.0.0 www.mediav.com
+#Mimiduo
+0.0.0.0 a.mimiduo.com
+0.0.0.0 mimiduo.com
+0.0.0.0 union.mimiduo.com
 #Millwardbrownacsr
 0.0.0.0 360buy.a.miaozhen.com
 0.0.0.0 a.cn.miaozhen.com

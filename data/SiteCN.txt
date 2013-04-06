@@ -57,6 +57,7 @@
 0.0.0.0 click.jebe.renren.com
 0.0.0.0 cupid.jebe.renren.com
 0.0.0.0 dian.cupid.jebe.renren.com
+0.0.0.0 shaft.jebe.renren.com
 0.0.0.0 ebp.renren.com
 0.0.0.0 ebpe.renren.com
 0.0.0.0 edm.renren.com
@@ -64,9 +65,9 @@
 0.0.0.0 gamestat.renren.com
 0.0.0.0 imoptj.renren.com
 0.0.0.0 jebe.renren.com
-0.0.0.0 shaft.jebe.renren.com
 0.0.0.0 track.yx.renren.com
 0.0.0.0 jebe.xnimg.cn
+0.0.0.0 gg.xiaonei.com
 #ÌúÑªÍø
 0.0.0.0 ads.tiexue.net
 0.0.0.0 x.itiexue.net
@@ -384,6 +385,7 @@
 0.0.0.0 ashow.pcpop.com
 #Pconline
 0.0.0.0 adv.pconline.com.cn
+0.0.0.0 adunion.pconline.com.cn
 0.0.0.0 count5.pconline.com.cn
 0.0.0.0 imgad0.3conline.com
 0.0.0.0 imgad1.3conline.com
@@ -552,13 +554,16 @@
 0.0.0.0 ad.tom.com
 0.0.0.0 hao.tom.com
 0.0.0.0 p4p.tom.com
+0.0.0.0 hjsm.tom.com
 0.0.0.0 pre1.pub.tom.com
 0.0.0.0 pv.tom.com
 0.0.0.0 sc.tom.com
 0.0.0.0 ulinkdir.tom.com
 0.0.0.0 ulinkjs.tom.com
+0.0.0.0 js.pub.tom.com
 0.0.0.0 tom.allyes.com
 0.0.0.0 adserve2.tomoimg.cn
+0.0.0.0 data.adserve2.tomoimg.cn
 0.0.0.0 xtrack.tomonline-inc.com
 #TomSkype
 0.0.0.0 a2.skype.tom.com

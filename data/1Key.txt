@@ -523,9 +523,11 @@
 #Soso
 0.0.0.0 dr.soso.com
 0.0.0.0 jzclick.soso.com
+0.0.0.0 member.union.soso.com
 0.0.0.0 pingfore.soso.com
-0.0.0.0 v3.toolbar.soso.com
 0.0.0.0 toolbar.soso.com
+0.0.0.0 union.soso.com
+0.0.0.0 v3.toolbar.soso.com
 #XunLei
 0.0.0.0 adcount.sandai.net
 0.0.0.0 analytics-union.sandai.net

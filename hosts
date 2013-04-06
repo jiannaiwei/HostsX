@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304061153
+;version=201304061514
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -1214,9 +1214,11 @@ fe80::1%lo0	localhost
 #Soso
 127.0.0.1 dr.soso.com
 127.0.0.1 jzclick.soso.com
+127.0.0.1 member.union.soso.com
 127.0.0.1 pingfore.soso.com
-127.0.0.1 v3.toolbar.soso.com
 127.0.0.1 toolbar.soso.com
+127.0.0.1 union.soso.com
+127.0.0.1 v3.toolbar.soso.com
 #XunLei
 127.0.0.1 adcount.sandai.net
 127.0.0.1 analytics-union.sandai.net
@@ -3069,6 +3071,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 click.jebe.renren.com
 127.0.0.1 cupid.jebe.renren.com
 127.0.0.1 dian.cupid.jebe.renren.com
+127.0.0.1 shaft.jebe.renren.com
 127.0.0.1 ebp.renren.com
 127.0.0.1 ebpe.renren.com
 127.0.0.1 edm.renren.com
@@ -3076,9 +3079,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 gamestat.renren.com
 127.0.0.1 imoptj.renren.com
 127.0.0.1 jebe.renren.com
-127.0.0.1 shaft.jebe.renren.com
 127.0.0.1 track.yx.renren.com
 127.0.0.1 jebe.xnimg.cn
+127.0.0.1 gg.xiaonei.com
 #铁血网
 127.0.0.1 ads.tiexue.net
 127.0.0.1 x.itiexue.net
@@ -3396,6 +3399,7 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ashow.pcpop.com
 #Pconline
 127.0.0.1 adv.pconline.com.cn
+127.0.0.1 adunion.pconline.com.cn
 127.0.0.1 count5.pconline.com.cn
 127.0.0.1 imgad0.3conline.com
 127.0.0.1 imgad1.3conline.com
@@ -3564,13 +3568,16 @@ $      下载最新版本的 HostsX。
 127.0.0.1 ad.tom.com
 127.0.0.1 hao.tom.com
 127.0.0.1 p4p.tom.com
+127.0.0.1 hjsm.tom.com
 127.0.0.1 pre1.pub.tom.com
 127.0.0.1 pv.tom.com
 127.0.0.1 sc.tom.com
 127.0.0.1 ulinkdir.tom.com
 127.0.0.1 ulinkjs.tom.com
+127.0.0.1 js.pub.tom.com
 127.0.0.1 tom.allyes.com
 127.0.0.1 adserve2.tomoimg.cn
+127.0.0.1 data.adserve2.tomoimg.cn
 127.0.0.1 xtrack.tomonline-inc.com
 #TomSkype
 127.0.0.1 a2.skype.tom.com
@@ -9773,6 +9780,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 21union.com
 127.0.0.1 i.21union.com
 127.0.0.1 www.21union.com
+#365sino
+127.0.0.1 365sino.com
+127.0.0.1 ad.365sino.com
 #37cs
 127.0.0.1 c.37cs.com
 127.0.0.1 code.37cs.com
@@ -10566,6 +10576,10 @@ $      下载最新版本的 HostsX。
 127.0.0.1 static.mediav.com
 127.0.0.1 view.mediav.com
 127.0.0.1 www.mediav.com
+#Mimiduo
+127.0.0.1 a.mimiduo.com
+127.0.0.1 mimiduo.com
+127.0.0.1 union.mimiduo.com
 #Millwardbrownacsr
 127.0.0.1 360buy.a.miaozhen.com
 127.0.0.1 a.cn.miaozhen.com
