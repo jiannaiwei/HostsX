@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304051706
+;version=20130406 952
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -14326,6 +14326,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 code.ze5.com
 127.0.0.1 count.ze5.com
 127.0.0.1 media.ze5.com
+127.0.0.1 e.chtahmkt.com
+127.0.0.1 f.chtah.com
 127.0.0.1 img.feitian001.com
 127.0.0.1 www.feitian001.com
 127.0.0.1 googleadsense.xuanhaowang.net

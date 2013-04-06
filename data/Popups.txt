@@ -216,6 +216,8 @@
 0.0.0.0 code.ze5.com
 0.0.0.0 count.ze5.com
 0.0.0.0 media.ze5.com
+0.0.0.0 e.chtahmkt.com
+0.0.0.0 f.chtah.com
 0.0.0.0 img.feitian001.com
 0.0.0.0 www.feitian001.com
 0.0.0.0 googleadsense.xuanhaowang.net
