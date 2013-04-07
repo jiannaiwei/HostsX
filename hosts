@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304072007
+;version=201304072044
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -5191,6 +5191,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 etology.com
 127.0.0.1 pages.etology.com
 127.0.0.1 srv.etology.com
+#Etracker
+127.0.0.1 etracker.com
+127.0.0.1 www.etracker.com
 #Experclick
 127.0.0.1 nyton.experclick.com
 127.0.0.1 www.experclick.com
@@ -9374,6 +9377,20 @@ $      下载最新版本的 HostsX。
 127.0.0.1 adtgs.com
 127.0.0.1 mnstat.com
 127.0.0.1 n5.adshostnet.com
+127.0.0.1 ligatus.com
+127.0.0.1 ad.ad-srv.net
+127.0.0.1 cdn.adsfac.eu
+127.0.0.1 adserver.freenet.de
+127.0.0.1 fxm.nuggad.net
+127.0.0.1 streaming.ad-balancer.at
+127.0.0.1 cdn.quisma.com
+127.0.0.1 kapital.inqnet.atads.bluelithium.com
+127.0.0.1 adtigerat.adspirit.net
+127.0.0.1 l.addthiscdn.com
+127.0.0.1 yceml.net
+127.0.0.1 cas.criteo.com
+127.0.0.1 i.kissmetrics.com
+127.0.0.1 ads.intergenia.de
 @HostsX AdUnionRU
 #ADbn
 127.0.0.1 ad.pop1.adbn.ru

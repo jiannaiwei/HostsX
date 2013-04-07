@@ -870,6 +870,9 @@
 0.0.0.0 etology.com
 0.0.0.0 pages.etology.com
 0.0.0.0 srv.etology.com
+#Etracker
+0.0.0.0 etracker.com
+0.0.0.0 www.etracker.com
 #Experclick
 0.0.0.0 nyton.experclick.com
 0.0.0.0 www.experclick.com
@@ -5053,3 +5056,17 @@
 0.0.0.0 adtgs.com
 0.0.0.0 mnstat.com
 0.0.0.0 n5.adshostnet.com
+0.0.0.0 ligatus.com
+0.0.0.0 ad.ad-srv.net
+0.0.0.0 cdn.adsfac.eu
+0.0.0.0 adserver.freenet.de
+0.0.0.0 fxm.nuggad.net
+0.0.0.0 streaming.ad-balancer.at
+0.0.0.0 cdn.quisma.com
+0.0.0.0 kapital.inqnet.atads.bluelithium.com
+0.0.0.0 adtigerat.adspirit.net
+0.0.0.0 l.addthiscdn.com
+0.0.0.0 yceml.net
+0.0.0.0 cas.criteo.com
+0.0.0.0 i.kissmetrics.com
+0.0.0.0 ads.intergenia.de
