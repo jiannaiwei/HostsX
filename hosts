@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304061514
+;version=201304072007
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -8095,6 +8095,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 vod.topbucks.com
 127.0.0.1 webmaster.topbucks.com
 127.0.0.1 www.topbucks.com
+#Torchbrowser
+127.0.0.1 lp.torchbrowser.com
+127.0.0.1 yb.torchbrowser.com
 #Tradedoubler
 127.0.0.1 anet.tradedoubler.com
 127.0.0.1 anetch.tradedoubler.com
@@ -9368,6 +9371,9 @@ $      下载最新版本的 HostsX。
 127.0.0.1 www.sq2trk2.com
 127.0.0.1 www.srvbytrking.com
 127.0.0.1 choices.truste.com
+127.0.0.1 adtgs.com
+127.0.0.1 mnstat.com
+127.0.0.1 n5.adshostnet.com
 @HostsX AdUnionRU
 #ADbn
 127.0.0.1 ad.pop1.adbn.ru

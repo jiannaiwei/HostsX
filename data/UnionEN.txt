@@ -3774,6 +3774,9 @@
 0.0.0.0 vod.topbucks.com
 0.0.0.0 webmaster.topbucks.com
 0.0.0.0 www.topbucks.com
+#Torchbrowser
+0.0.0.0 lp.torchbrowser.com
+0.0.0.0 yb.torchbrowser.com
 #Tradedoubler
 0.0.0.0 anet.tradedoubler.com
 0.0.0.0 anetch.tradedoubler.com
@@ -5047,3 +5050,6 @@
 0.0.0.0 www.sq2trk2.com
 0.0.0.0 www.srvbytrking.com
 0.0.0.0 choices.truste.com
+0.0.0.0 adtgs.com
+0.0.0.0 mnstat.com
+0.0.0.0 n5.adshostnet.com
