@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304072044
+;version=20130408 857
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -3027,6 +3027,8 @@ $      下载最新版本的 HostsX。
 127.0.0.1 urchin.tianya.cn
 127.0.0.1 801.tianyaui.com
 127.0.0.1 click.tianyaui.com
+#豆瓣
+127.0.0.1 erebor.douban.com
 #凯迪网
 127.0.0.1 panda.kdnet.net
 127.0.0.1 tracking.kdnet.net

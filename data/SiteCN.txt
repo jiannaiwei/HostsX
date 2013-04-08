@@ -13,6 +13,8 @@
 0.0.0.0 urchin.tianya.cn
 0.0.0.0 801.tianyaui.com
 0.0.0.0 click.tianyaui.com
+#¶¹°ê
+0.0.0.0 erebor.douban.com
 #¿­µÏÍø
 0.0.0.0 panda.kdnet.net
 0.0.0.0 tracking.kdnet.net
