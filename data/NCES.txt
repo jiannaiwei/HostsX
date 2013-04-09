@@ -1,0 +1,4 @@
+#NaoCan Extreme
+0.0.0.0 smtown.com
+0.0.0.0 superjunior.smtown.com
+0.0.0.0 songshuhui.net

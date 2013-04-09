@@ -1,0 +1,47 @@
+@HostsX TaiWan Site
+#Anyway.com.tw
+0.0.0.0 ad.anyway.com.tw
+0.0.0.0 advertisement.anyway.com.tw
+#Chinatimes
+0.0.0.0 ad.cyberone.com.tw
+0.0.0.0 admanager.cyberone.com.tw
+0.0.0.0 marketing.chinatimes.com
+#GoGoBox
+0.0.0.0 ads.pics.gogobox.com.tw
+0.0.0.0 advs.gogobox.com.tw
+0.0.0.0 event.gogobox.com.tw
+#Pchome
+0.0.0.0 adcl.pchome.com.tw
+0.0.0.0 pic.adver.com.tw
+#Udn
+0.0.0.0 ad1.udn.com
+0.0.0.0 ad2.udn.com
+0.0.0.0 ad3.udn.com
+0.0.0.0 ad4.udn.com
+#Yam
+0.0.0.0 ad.blog.yam.com
+0.0.0.0 ad2.yam.com
+0.0.0.0 admd.yam.com
+0.0.0.0 ads.yam.com
+0.0.0.0 rec.n.yam.com
+0.0.0.0 yam.adsbro.com
+#Yahoo Taiwan
+0.0.0.0 ad.wretch.cc
+#TaiwanSites
+0.0.0.0 a.jojos.tw
+0.0.0.0 ad.cacafly.com
+0.0.0.0 ad.funp.com
+0.0.0.0 ad.hiiir.com
+0.0.0.0 ad.jamba.net
+0.0.0.0 ad.jamster.co.uk
+0.0.0.0 ad.obuy.tw
+0.0.0.0 ad.sitemaji.com
+0.0.0.0 ad.snsplus.com
+0.0.0.0 ad.sogi.com.tw
+0.0.0.0 ads.citytalk.tw
+0.0.0.0 ads.doublemax.net
+0.0.0.0 ads.fetnet.net
+0.0.0.0 ads.ign.com
+0.0.0.0 ads.miniclip.com
+0.0.0.0 ads.ttv.com.tw
+0.0.0.0 drd.hauchi.com.tw

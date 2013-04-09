@@ -1,4 +1,4 @@
-@HostsX Virus Blocking
+@HostsX Sites Blocking
 #Phishing
 0.0.0.0 img0.livejasmin.com
 0.0.0.0 imgx0.livejasmin.com
@@ -145,12 +145,10 @@
 0.0.0.0 shop.hoo6.com
 0.0.0.0 shop.liweihui.com
 0.0.0.0 simplewife.ru
-0.0.0.0 smtown.com
 0.0.0.0 sprucewing.ru
 0.0.0.0 stat1.vipstat.com
 0.0.0.0 stats.dnparking.com
 0.0.0.0 su.maca-cn.com
-0.0.0.0 superjunior.smtown.com
 0.0.0.0 tao123.cc
 0.0.0.0 testserver.zoosnet.net
 0.0.0.0 tinglejob.ru
@@ -289,10 +287,6 @@
 #Browser Hijacking
 0.0.0.0 www.114la.com
 0.0.0.0 www.999.com
-0.0.0.0 2345.com
-0.0.0.0 ie.2345.com
-0.0.0.0 www.2345.com
-0.0.0.0 download.2345.com
 0.0.0.0 www.985dh.com
 0.0.0.0 054.cc
 0.0.0.0 1188.com

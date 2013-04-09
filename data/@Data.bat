@@ -1,7 +1,8 @@
 @echo off
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
-del /f Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
+set str=%date:~0,4%%date:~5,2%00
+del /f Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts Xunlei.txt
 echo title HostsX BatchVersion >bat.txt
 echo more +5 %%~fs0^>%%systemroot%%\system32\drivers\etc\hosts >>bat.txt
 echo notepad %%windir%%\system32\drivers\etc\hosts >>bat.txt
@@ -14,7 +15,8 @@ echo ;hostsxversion=0.7.1.18>>Version.txt
 echo ;author=Hostsx Contributor>>Version.txt
 echo ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon>>Version.txt
 echo ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.>>Version.txt
-set files=bat.txt Version.txt Rd.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt Virus.txt Mwsl.txt Popups.txt
+call :Xunlei
+set files=bat.txt Version.txt Rd.txt 1Key.txt Xunlei.txt Mobile.txt SiteEN.txt SiteTW.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt Virus.txt NCES.txt Mwsl.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>HostsX.orzhosts)
 ren HostsX.orzhosts Android.txt
 start hosts.vbs
@@ -27,7 +29,7 @@ echo servers=20130331103039>>"%~dp0..\Version.txt"
 echo sources=20130402091514>>"%~dp0..\Version.txt"
 md "%~dp0..\OS\system\etc"
 copy hosts "%~dp0..\OS\system\etc"
-del /f new.txt Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts
+del /f new.txt Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts Xunlei.txt
 echo 7z u HostsX_updates.zip system\etc\hosts >"%~dp0..\OS\7z.bat"
 echo rd /s/q system >>"%~dp0..\OS\7z.bat"
 echo del hosts >>"%~dp0..\OS\7z.bat"
@@ -35,6 +37,13 @@ echo del %%0 >>"%~dp0..\OS\7z.bat"
 cd %~dp0..\OS
 7z.bat
 exit
+
+:Xunlei
+set /a str+=1
+echo 0.0.0.0 %str%.biz5.sandai.net >>Xunlei.txt
+echo 0.0.0.0 %str%.logic.cpm.cm.sandai.net >>Xunlei.txt
+if not %str%==%date:~0,4%%date:~5,2%31 (goto Xunlei)
+goto :eof
 
 :smarhosts
 wget http://smarthosts.googlecode.com/svn/trunk/hosts
