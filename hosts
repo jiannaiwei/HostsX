@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304091233
+;version=201304091248
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -12153,6 +12153,7 @@ fe80::1%lo0	localhost
 127.0.0.1 smtown.com
 127.0.0.1 superjunior.smtown.com
 127.0.0.1 songshuhui.net
+127.0.0.1 cdn.songshuhui.net
 127.0.0.1 000888.net
 127.0.0.1 002858.com
 127.0.0.1 03-27.com
