@@ -1,4 +1,4 @@
-@HostsX AdUnionEN
+@AdUnion-EN
 #247realmedia
 0.0.0.0 accuweathercollect.247realmedia.com
 0.0.0.0 adv.247realmedia.com
@@ -907,6 +907,9 @@
 0.0.0.0 tas-rs.toboads.com
 0.0.0.0 tas-si.toboads.com
 0.0.0.0 tas2.toboads.si
+#Delivery45
+0.0.0.0 d.delivery45.com
+0.0.0.0 cdn.delivery45.com
 #Digitalnames
 0.0.0.0 digitalnames.net
 0.0.0.0 dnplugin.digitalnames.net

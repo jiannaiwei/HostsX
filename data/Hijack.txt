@@ -1,4 +1,4 @@
-@HostsX Operators Hijack
+@Security Hijack
 #Domain Hijacking
 0.0.0.0 ss.cnnic.cn
 0.0.0.0 searchportal.winindomain.com

@@ -1,5 +1,5 @@
-@HostsX China Site
-@HostsX China Site/SNS
+@Sites-China
+@Sites-China/SNS
 #Tianya
 0.0.0.0 801.tianya.cn
 0.0.0.0 803.tianya.cn
@@ -108,7 +108,7 @@
 #51.com
 0.0.0.0 union.51.com
 0.0.0.0 v3.apic.51.com
-@HostsX China Site/Books
+@Sites-China/Books
 #QiDian
 0.0.0.0 s1.cmfu.com
 0.0.0.0 qidian.adsame.com
@@ -142,7 +142,7 @@
 0.0.0.0 stat.readnovel.com
 #XNTK
 0.0.0.0 b.xntk.com
-@HostsX China Site/News
+@Sites-China/News
 #XinHua
 0.0.0.0 adcenter.xinhuanet.com
 0.0.0.0 embed.xinhuanet.com
@@ -225,7 +225,7 @@
 0.0.0.0 huanqiu.datamaster.com.cn
 #GD
 0.0.0.0 poo.zhuhai.gd.cn
-@HostsX China Site/Games
+@Sites-China/Games
 #tgbus
 0.0.0.0 bill.tgbus.com
 0.0.0.0 g.tgbus.com
@@ -285,7 +285,7 @@
 #GamerSky
 0.0.0.0 imgf.gamersky.com
 0.0.0.0 www1.gamersky.com
-@HostsX China Site/Finance
+@Sites-China/Finance
 #HeXun
 0.0.0.0 ads.hexun.com
 0.0.0.0 analytics.tool.hexun.com
@@ -318,7 +318,7 @@
 0.0.0.0 xc.macd.cn
 #Ccstock
 0.0.0.0 ads.ccstock.cn
-@HostsX China Site/Photo
+@Sites-China/Photo
 #FengNiao
 0.0.0.0 pic.fengniao.com
 0.0.0.0 stat.fengniao.com
@@ -331,7 +331,7 @@
 0.0.0.0 adc.yupoo.com
 #Nphoto
 0.0.0.0 util.nphoto.net
-@HostsX China Site/Shopping
+@Sites-China/Shopping
 #Amazon
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 rcm.amazon.com
@@ -359,7 +359,7 @@
 0.0.0.0 pic.jdunion.com
 #Taojifen
 0.0.0.0 ad.taojifen.net
-@HostsX China Site/IT
+@Sites-China/IT
 #PcHome
 0.0.0.0 ad.adver.com.tw
 0.0.0.0 ad.pchome.net
@@ -447,7 +447,7 @@
 0.0.0.0 counter.csdn.net
 0.0.0.0 z.csdn.net
 0.0.0.0 zi.csdn.net
-@HostsX China Site/Downloads
+@Sites-China/Downloads
 #idown
 0.0.0.0 idown.stsword.cn
 #MuMayi
@@ -486,10 +486,12 @@
 0.0.0.0 jifen.2345.com
 0.0.0.0 union.2345.com
 0.0.0.0 union2.2345.com
+0.0.0.0 jifendownload.2345.cn
+0.0.0.0 www.2345.cn
 0.0.0.0 www.2345.com
 0.0.0.0 my.suda123.com
 0.0.0.0 union.suda123.com
-@HostsX China Site/Cars
+@Sites-China/Cars
 #CheShi
 0.0.0.0 analyze.cheshi.com
 0.0.0.0 click.cheshi.com
@@ -516,7 +518,7 @@
 0.0.0.0 count.pcauto.com.cn
 #ChinaCars
 0.0.0.0 chinacarsafp.allyes.com
-@HostsX China Site/Infos
+@Sites-China/Infos
 #Sofun
 0.0.0.0 clickn.soufun.com
 0.0.0.0 count.soufun.com

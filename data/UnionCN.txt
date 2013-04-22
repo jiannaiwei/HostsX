@@ -1,4 +1,4 @@
-@HostsX AdUnionCN
+@AdUnion-CN
 #01lm
 0.0.0.0 ads.01lm.com
 0.0.0.0 jh.01lm.com
@@ -244,12 +244,6 @@
 0.0.0.0 js.admin6.com
 0.0.0.0 jump.admin6.com
 0.0.0.0 www.admin6.com
-#Acs86
-0.0.0.0 amob.acs86.com
-0.0.0.0 acs86.com
-0.0.0.0 afp.acs86.com
-0.0.0.0 static.acs86.com
-0.0.0.0 tgb.acs86.com
 #Ad123456
 0.0.0.0 c.ad123456.com
 0.0.0.0 tu.ad123456.com

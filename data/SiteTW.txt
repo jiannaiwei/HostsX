@@ -1,5 +1,5 @@
-@HostsX TaiWan Site
-#Anyway.com.tw
+@Sites-TaiWan
+#Anyway
 0.0.0.0 ad.anyway.com.tw
 0.0.0.0 advertisement.anyway.com.tw
 #Chinatimes

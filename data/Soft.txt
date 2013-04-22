@@ -1,4 +1,4 @@
-@Windows SoftAD
+@Shield Soft Ads
 #Avira
 0.0.0.0 notifier.avira.com
 #ESTsoft

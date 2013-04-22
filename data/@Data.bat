@@ -16,7 +16,7 @@ echo ;author=Hostsx Contributor>>Version.txt
 echo ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon>>Version.txt
 echo ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.>>Version.txt
 call :Xunlei
-set files=bat.txt Version.txt Rd.txt 1Key.txt Xunlei.txt Mobile.txt SiteEN.txt SiteTW.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt Virus.txt NCES.txt Mwsl.txt Popups.txt
+set files=bat.txt Version.txt Rd.txt Mobile.txt Game.txt Active.txt Soft.txt SiteEN.txt SiteJP.txt SiteTW.txt SiteCN.txt Media.txt Xunlei.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt Hijacking.txt Virus.txt Phishing.txt Porn.txt Mwsl.txt Popups.txt
 for %%a in (%files%) do (type "%%a">>HostsX.orzhosts)
 ren HostsX.orzhosts Android.txt
 start hosts.vbs
@@ -26,7 +26,7 @@ echo hosts=%date:~0,4%%date:~5,2%%date:~8,2%%TIME:~0,2%%TIME:~3,2%>"%~dp0..\Vers
 echo AcrylicHosts=20130331103038>>"%~dp0..\Version.txt"
 echo fixlist=20130401091927>>"%~dp0..\Version.txt"
 echo servers=20130331103039>>"%~dp0..\Version.txt"
-echo sources=20130402091514>>"%~dp0..\Version.txt"
+echo sources=20130422160315>>"%~dp0..\Version.txt"
 md "%~dp0..\OS\system\etc"
 copy hosts "%~dp0..\OS\system\etc"
 del /f new.txt Android.txt out.txt Version.txt bat.txt hbhosts.txt 1.txt hosts.txt Applenew.txt 1hosts.txt unix.txt out.txt hosts Xunlei.txt
@@ -64,8 +64,7 @@ goto :eof
 rem http://sourceforge.net/projects/dos2unix/
 mac2unix -ascii -n Apple.txt out.txt
 unix2dos -n out.txt Applenew.txt 
-set files=Version.txt Rd.txt Applenew.txt 1Key.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt HijackIP.txt Virus.txt Popups.txt
-for %%a in (%files%) do (type "%%a">>hosts.txt)
+set files=Version.txt Rd.txt Applenew.txt Mobile.txt SiteEN.txt SiteCN.txt Media.txt Active.txt Game.txt Soft.txt UnionEN.txt UnionRU.txt UnionJP.txt UnionCN.txt Dnt.txt Hijack.txt IPBlock.txt Virus.txt Popups.txt
 sed -e "s/0.0.0.0/127.0.0.1/g" hosts.txt > hosts
 move /y hosts "%~dp0..\"
 goto :eof

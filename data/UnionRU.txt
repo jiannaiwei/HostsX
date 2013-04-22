@@ -1,4 +1,4 @@
-@HostsX AdUnionRU
+@AdUnion-RU
 #ADbn
 0.0.0.0 ad.pop1.adbn.ru
 0.0.0.0 ad.top1.adbn.ru

@@ -1,4 +1,4 @@
-@HostsX AdUnionJP
+@AdUnion-JP
 #A8
 0.0.0.0 ad.a8.net
 0.0.0.0 px.a8.net

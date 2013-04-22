@@ -1,4 +1,4 @@
-;version=9:15 2013/4/2
+;version=16:03 2013/4/22
 HostsX 屏蔽数据`https://github.com/orzTech/HostsX/raw/master/hosts
 HostsX 严格屏蔽数据`https://github.com/orzTech/HostsX/raw/master/data/Strictlylist.txt
 Acrylic DNS Proxy 版 HostsX 广告屏蔽数据`https://github.com/orzTech/HostsX/raw/master/AcrylicHosts.txt
@@ -6,7 +6,7 @@ Acrylic DNS Proxy 版 HostsX 广告屏蔽数据`https://github.com/orzTech/HostsX/raw/m
 SmartHosts转向数据`https://smarthosts.googlecode.com/svn/trunk/hosts
 IPv6 版智能转向数据`http://ipv6-hosts.googlecode.com/hg/hosts
 -
-恶意网站实验室（MWSL）数据`https://github.com/orzTech/HostsX/raw/master/data/3rdmwsl.txt
+恶意网站实验室（MWSL）数据`http://www.mwsl.org.cn/hosts/hosts
 MVPS.org 数据`http://www.mvps.org/winhelp2002/hosts.txt
 SomeoneWhoCares.org 数据`http://someonewhocares.org/hosts/hosts
 IT-Mate.co.uk 数据`http://support.it-mate.co.uk/downloads/HOSTS.txt

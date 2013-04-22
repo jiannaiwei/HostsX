@@ -1,4 +1,4 @@
-@HostsX Pop-ups Ads
+@Pop-ups Ads
 #QianMing Pop ad
 0.0.0.0 code.2010qianming.com
 0.0.0.0 code.52qiangming.com
@@ -945,6 +945,7 @@
 0.0.0.0 www.ad-9.com
 0.0.0.0 www.manyan.net
 0.0.0.0 www.yxads.com
+0.0.0.0 t.dichan001.com
 #Other Pop ad
 0.0.0.0 adv.s8bbs.com
 0.0.0.0 adtest.wbcao.com
