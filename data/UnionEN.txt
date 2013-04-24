@@ -3545,6 +3545,10 @@
 0.0.0.0 ads.rubiconproject.com
 0.0.0.0 tap-cdn.rubiconproject.com
 0.0.0.0 optimized-by.rubiconproject.com
+#Scorecardresearch
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 udm.scorecardresearch.com
 #Serving-sys
 0.0.0.0 activity.serving-sys.com
 0.0.0.0 bs.serving-sys.com

@@ -82,7 +82,6 @@
 0.0.0.0 pub.buzz-time.com.cn
 0.0.0.0 imgc.unlitui.com
 0.0.0.0 bsg.unlitui.com
-0.0.0.0 b.scorecardresearch.com
 0.0.0.0 log.51network.com
 #AcFun
 0.0.0.0 img.linekong.com
