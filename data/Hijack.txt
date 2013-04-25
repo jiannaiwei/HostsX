@@ -5,6 +5,8 @@
 #Telcom Hijack
 0.0.0.0 114so.cn
 0.0.0.0 taobao.114so.cn
+0.0.0.0 daohang.114so.cn
+0.0.0.0 114search.114so.cn
 0.0.0.0 sh.114so.cn
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn

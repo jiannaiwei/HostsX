@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304241746
+;version=201304251711
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -11019,6 +11019,8 @@ fe80::1%lo0	localhost
 #Telcom Hijack
 127.0.0.1 114so.cn
 127.0.0.1 taobao.114so.cn
+127.0.0.1 daohang.114so.cn
+127.0.0.1 114search.114so.cn
 127.0.0.1 sh.114so.cn
 127.0.0.1 118114.cn
 127.0.0.1 so.118114.cn
