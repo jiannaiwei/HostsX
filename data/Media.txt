@@ -72,7 +72,6 @@
 #iQiyi
 0.0.0.0 afp.qiyi.com
 0.0.0.0 jsmsg.video.qiyi.com
-0.0.0.0 meta.video.qiyi.com
 0.0.0.0 msg.iqiyi.com
 0.0.0.0 msg.video.qiyi.com
 0.0.0.0 nl.rcd.iqiyi.com
@@ -243,6 +242,7 @@
 0.0.0.0 stat.game.pps.tv
 0.0.0.0 stat.y.pps.tv
 0.0.0.0 ugcad.pps.tv
+0.0.0.0 click.ipd.pps.tv
 0.0.0.0 update.111222.cn
 0.0.0.0 update.base-service.net
 #PPTV

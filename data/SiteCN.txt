@@ -191,6 +191,8 @@
 0.0.0.0 c.iqilu.com
 0.0.0.0 g.iqilu.com
 0.0.0.0 gimg.iqilu.com
+#KankaNews
+0.0.0.0 kknimedia.kankanews.com
 #Voc
 0.0.0.0 click.voc.com.cn
 #ShangDu

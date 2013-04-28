@@ -112,7 +112,6 @@
 127.0.0.1 product.3gmimo.com
 127.0.0.1 stage.3gmimo.com
 #54whr
-127.0.0.1 a.54whr.com
 127.0.0.1 f.54whr.com
 #91
 127.0.0.1 agency.91.com
@@ -260,6 +259,7 @@
 127.0.0.1 survey.china.alibaba.com
 127.0.0.1 www.tao123.com
 127.0.0.1 click.mz.simba.taobao.com
+127.0.0.1 s.click.taobao.com
 127.0.0.1 click.tz.simba.taobao.com
 127.0.0.1 count.taobao.com
 127.0.0.1 haibao.huoban.taobao.com
@@ -383,6 +383,7 @@
 127.0.0.1 sobar.baidu.com
 127.0.0.1 sobartop.baidu.com
 127.0.0.1 spcode.baidu.com
+127.0.0.1 stat.p2sp.baidu.com
 127.0.0.1 tk.baidu.com
 127.0.0.1 tkweb.baidu.com
 127.0.0.1 tongji.baidu.com
@@ -1405,8 +1406,6 @@
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
 127.0.0.1 push.wapx.cn
-#Whalecloud
-127.0.0.1 sns.whalecloud.com
 #Winsmedia
 127.0.0.1 api.winsmedia.net
 127.0.0.1 www.winsmedia.net

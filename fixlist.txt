@@ -1,9 +1,13 @@
-;version=9:19 2013/4/1
+;version=8:29 2013/4/28
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致 搜狐客户端无法打开视频的集数。
 access.tv.sohu.com
 hot.vrs.sohu.com
+$DELETE
+
+#导致麦当劳优惠券无法下载。
+a.54whr.com
 $DELETE
 
 #导致Skype(Tom)用户无法充值的问题。

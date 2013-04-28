@@ -68,6 +68,7 @@
 0.0.0.0 p3.1lo0.net
 0.0.0.0 p4.1lo0.net
 0.0.0.0 p83.1lo0.net
+0.0.0.0 n.1lo0.net
 #114lm
 0.0.0.0 www.114lm.com
 #160ads
@@ -718,6 +719,9 @@
 0.0.0.0 static.doyoo.net
 0.0.0.0 www.doyoo.net
 0.0.0.0 www.looyu.com
+#doudouguo
+0.0.0.0 ck.union.doudouguo.com
+0.0.0.0 js.union.doudouguo.com
 #egooad
 0.0.0.0 i.egooad.cn
 0.0.0.0 code.egooad.com

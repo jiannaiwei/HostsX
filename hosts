@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201304251711
+;version=20130428 908
 ;hostsxversion=0.7.1.18
 ;author=Hostsx Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
@@ -207,7 +207,6 @@ fe80::1%lo0	localhost
 127.0.0.1 product.3gmimo.com
 127.0.0.1 stage.3gmimo.com
 #54whr
-127.0.0.1 a.54whr.com
 127.0.0.1 f.54whr.com
 #91
 127.0.0.1 agency.91.com
@@ -355,6 +354,7 @@ fe80::1%lo0	localhost
 127.0.0.1 survey.china.alibaba.com
 127.0.0.1 www.tao123.com
 127.0.0.1 click.mz.simba.taobao.com
+127.0.0.1 s.click.taobao.com
 127.0.0.1 click.tz.simba.taobao.com
 127.0.0.1 count.taobao.com
 127.0.0.1 haibao.huoban.taobao.com
@@ -478,6 +478,7 @@ fe80::1%lo0	localhost
 127.0.0.1 sobar.baidu.com
 127.0.0.1 sobartop.baidu.com
 127.0.0.1 spcode.baidu.com
+127.0.0.1 stat.p2sp.baidu.com
 127.0.0.1 tk.baidu.com
 127.0.0.1 tkweb.baidu.com
 127.0.0.1 tongji.baidu.com
@@ -1500,8 +1501,6 @@ fe80::1%lo0	localhost
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
 127.0.0.1 push.wapx.cn
-#Whalecloud
-127.0.0.1 sns.whalecloud.com
 #Winsmedia
 127.0.0.1 api.winsmedia.net
 127.0.0.1 www.winsmedia.net
@@ -2753,6 +2752,8 @@ fe80::1%lo0	localhost
 127.0.0.1 c.iqilu.com
 127.0.0.1 g.iqilu.com
 127.0.0.1 gimg.iqilu.com
+#KankaNews
+127.0.0.1 kknimedia.kankanews.com
 #Voc
 127.0.0.1 click.voc.com.cn
 #ShangDu
@@ -3272,7 +3273,6 @@ fe80::1%lo0	localhost
 #iQiyi
 127.0.0.1 afp.qiyi.com
 127.0.0.1 jsmsg.video.qiyi.com
-127.0.0.1 meta.video.qiyi.com
 127.0.0.1 msg.iqiyi.com
 127.0.0.1 msg.video.qiyi.com
 127.0.0.1 nl.rcd.iqiyi.com
@@ -3443,6 +3443,7 @@ fe80::1%lo0	localhost
 127.0.0.1 stat.game.pps.tv
 127.0.0.1 stat.y.pps.tv
 127.0.0.1 ugcad.pps.tv
+127.0.0.1 click.ipd.pps.tv
 127.0.0.1 update.111222.cn
 127.0.0.1 update.base-service.net
 #PPTV
@@ -9323,6 +9324,7 @@ fe80::1%lo0	localhost
 127.0.0.1 p3.1lo0.net
 127.0.0.1 p4.1lo0.net
 127.0.0.1 p83.1lo0.net
+127.0.0.1 n.1lo0.net
 #114lm
 127.0.0.1 www.114lm.com
 #160ads
@@ -9973,6 +9975,9 @@ fe80::1%lo0	localhost
 127.0.0.1 static.doyoo.net
 127.0.0.1 www.doyoo.net
 127.0.0.1 www.looyu.com
+#doudouguo
+127.0.0.1 ck.union.doudouguo.com
+127.0.0.1 js.union.doudouguo.com
 #egooad
 127.0.0.1 i.egooad.cn
 127.0.0.1 code.egooad.com
