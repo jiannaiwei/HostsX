@@ -35,4 +35,4 @@ End Sub
 '------------------------------------------------------------
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 objFSO.DeleteFile(".\new.txt"), True
-MsgBox "HostsX Data had conversion!", vbInformation, "HostsX"
+MsgBox "Hosts Data had conversion!", vbInformation, "Hosts"
