@@ -820,6 +820,7 @@
 127.0.0.1 app.infolife.mobi
 127.0.0.1 cus.infolife.mobi
 #inmobi
+127.0.0.1 www.noreply.inmobi.com
 127.0.0.1 i.w.inmobi.com
 127.0.0.1 i.w.sandbox.inmobi.com
 127.0.0.1 ma.inmobi.com
@@ -876,7 +877,7 @@
 #Mobfox
 127.0.0.1 my.mobfox.com
 127.0.0.1 www.mobfox.com
-#Madserving
+#Adsmogo
 127.0.0.1 api.adsmogo.net
 127.0.0.1 blk.adsmogo.com
 127.0.0.1 blk.adsmogo.mobi
