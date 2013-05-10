@@ -9,7 +9,6 @@
 0.0.0.0 adview.tianya.cn
 0.0.0.0 squidclick.bbs.tianya.cn
 0.0.0.0 stat.tianya.cn
-0.0.0.0 static.tianya.cn
 0.0.0.0 urchin.tianya.cn
 0.0.0.0 801.tianyaui.com
 0.0.0.0 click.tianyaui.com
@@ -340,6 +339,7 @@
 0.0.0.0 rcm-cn.amazon.cn
 #360buy
 0.0.0.0 c.fa.360buy.com
+0.0.0.0 click.union.360buy.com
 0.0.0.0 show.union.360buy.com
 0.0.0.0 union.360buy.com
 #Dangdang
@@ -352,6 +352,8 @@
 0.0.0.0 cps.yintai.com
 #51Buy
 0.0.0.0 stat.51buy.com
+#MeiTuan
+0.0.0.0 r.union.meituan.com
 #Vancl
 0.0.0.0 union.vancl.com
 #moonbasa
@@ -416,7 +418,6 @@
 0.0.0.0 stat.ea3w.com
 #yesky
 0.0.0.0 counter.tianjimedia.com
-0.0.0.0 image.tianjimedia.com
 0.0.0.0 js.tianjimedia.com
 0.0.0.0 more.tianjimedia.com
 0.0.0.0 pv.tianjimedia.com
@@ -477,10 +478,14 @@
 #Rising
 0.0.0.0 alert.rising.com.cn
 #115
+0.0.0.0 pc.115.com
+0.0.0.0 ie.115.com
 0.0.0.0 tongji.115.com
 0.0.0.0 v2.tjj.com
+0.0.0.0 soft.tjj.com
 0.0.0.0 un.i.116.com
 0.0.0.0 un.v.116.com
+0.0.0.0 xiazai.xiazaiba.com
 #2345
 0.0.0.0 2345.com
 0.0.0.0 download.2345.com

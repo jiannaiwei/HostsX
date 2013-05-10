@@ -17,6 +17,7 @@
 127.0.0.1 flv.bn.netease.com
 127.0.0.1 union.netease.com
 127.0.0.1 adc.163.com
+127.0.0.1 analytics.163.com
 127.0.0.1 ntes-analytics.163.com
 127.0.0.1 adclient.163.com
 127.0.0.1 adgeo.163.com
@@ -32,19 +33,26 @@
 127.0.0.1 ud.blog.163.com
 127.0.0.1 union.163.com
 127.0.0.1 a.youdao.com
+127.0.0.1 b.clkservice.youdao.com
 127.0.0.1 clkservice.mail.youdao.com
 127.0.0.1 clkservice.union.youdao.com
 127.0.0.1 clkservice.youdao.com
 127.0.0.1 clkservice2.dict.youdao.com
+127.0.0.1 d.clkservice.youdao.com
 127.0.0.1 dsp.youdao.com
 127.0.0.1 feedback.youdao.com
 127.0.0.1 impservice.chnl.youdao.com
+127.0.0.1 impservice.dictapp.youdao.com
+127.0.0.1 impservice.dictweb.youdao.com
 127.0.0.1 impservice.union.youdao.com
 127.0.0.1 impservice.youdao.com
 127.0.0.1 impservice2.youdao.com
+127.0.0.1 rlogs.youdao.com
 127.0.0.1 tb104x.corp.youdao.com
+127.0.0.1 tb060x.corp.youdao.com
 127.0.0.1 union.youdao.com
 127.0.0.1 adpublish.ydstatic.com
+127.0.0.1 oimageb1.ydstatic.com
 127.0.0.1 oimageb2.ydstatic.com
 #16kxs
 127.0.0.1 ad.16kxs.com
@@ -160,6 +168,7 @@
 127.0.0.1 mmv.admob.com
 127.0.0.1 p.admob.com
 127.0.0.1 r.admob.com
+127.0.0.1 onshow.admob.com
 127.0.0.1 mobileads.google.com
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
@@ -307,6 +316,7 @@
 127.0.0.1 www.tao123.com
 127.0.0.1 click.mz.simba.taobao.com
 127.0.0.1 s.click.taobao.com
+127.0.0.1 s8.taobao.com
 127.0.0.1 click.tz.simba.taobao.com
 127.0.0.1 count.taobao.com
 127.0.0.1 haibao.huoban.taobao.com
@@ -347,6 +357,11 @@
 127.0.0.1 stat.aliunion.cn.yahoo.com
 127.0.0.1 union.yahoo.com.cn
 127.0.0.1 view.aliunion.cn.yahoo.com
+#AndroiDesk
+127.0.0.1 analytic.androidesk.com
+127.0.0.1 img0.androidesk.com
+127.0.0.1 service.androidesk.com
+127.0.0.1 static.androidesk.com
 #Appads
 127.0.0.1 an.appads.com
 127.0.0.1 caggsm-img.appads.com
@@ -814,6 +829,7 @@
 127.0.0.1 www.hdtmobile.com
 #Hiapk
 127.0.0.1 sc.hiapk.com
+127.0.0.1 m.sc.hiapk.com
 #Hotmob
 127.0.0.1 ad.hot-mob.com
 127.0.0.1 www.hot-mob.com
@@ -828,25 +844,34 @@
 127.0.0.1 api.client.iciba.com
 127.0.0.1 app.sjk.ijinshan.com
 127.0.0.1 c.union.ijinshan.com
-127.0.0.1 cf.duba.net
 127.0.0.1 d.union.ijinshan.com
 127.0.0.1 dcys.ijinshan.com
 127.0.0.1 dl.app.ijinshan.com
 127.0.0.1 dl.dc.ijinshan.com
 127.0.0.1 info-push.duba.net
 127.0.0.1 j.union.ijinshan.com
+127.0.0.1 kbd.data.kpns.ijinshan.com
+127.0.0.1 kbd.did.ijinshan.com
+127.0.0.1 kbd1.kpns.ijinshan.com
+127.0.0.1 kbd2.kpns.ijinshan.com
+127.0.0.1 report.sj.ijinshan.com
+127.0.0.1 sj.dcys.ijinshan.com
 127.0.0.1 softdl.ijinshan.com
 127.0.0.1 ssc.union.ijinshan.com
+127.0.0.1 st.ios.ijinshan.com
 127.0.0.1 stat.ijinshan.com
 127.0.0.1 top.dcys.ijinshan.com
 127.0.0.1 union.ijinshan.com
 127.0.0.1 up.app.ijinshan.com
+127.0.0.1 wxfk.dcys.ijinshan.com
+127.0.0.1 zj.dcys.ijinshan.com
 127.0.0.1 db.union.download.kingsoft.com
 127.0.0.1 push.db.kingsoft.com
 127.0.0.1 stat.sp.kingsoft.com
 127.0.0.1 union.jx2.kingsoft.com
 127.0.0.1 union.kingsoft.com
 127.0.0.1 union.wps.kingsoft.com
+127.0.0.1 cf.duba.net
 127.0.0.1 i2c.duba.net
 127.0.0.1 i2u.www.duba.net
 127.0.0.1 ifr.duba.net
@@ -910,6 +935,10 @@
 127.0.0.1 www.lsense.cn
 #Madhouse
 127.0.0.1 www.madhouse.cn
+#M2lux
+127.0.0.1 minisite.m2lux.com
+127.0.0.1 sg.m2lux.com
+127.0.0.1 www.m2lux.com
 #Mgogo
 127.0.0.1 m1.mgogo.com
 127.0.0.1 m.mgogo.com
@@ -1042,10 +1071,8 @@
 127.0.0.1 adpm.app.qq.com
 127.0.0.1 dl.app.qq.com
 127.0.0.1 mw.app.qq.com
-127.0.0.1 softfile.3g.qq.com
 127.0.0.1 sqsh.3g.qq.com
 127.0.0.1 aw.myapp.com
-127.0.0.1 down.myapp.com
 127.0.0.1 www.myapp.com
 127.0.0.1 ad.qq.com
 127.0.0.1 adping.qq.com
@@ -1123,7 +1150,11 @@
 127.0.0.1 community.scoreloop.com
 127.0.0.1 p.scoreloop.com
 #Sina
+127.0.0.1 app.sina.com.cn
+127.0.0.1 api.apps.sina.cn
 127.0.0.1 adimg.mobile.sina.cn
+127.0.0.1 wbapp.mobile.sina.cn
+127.0.0.1 wbclick.mobile.sina.cn
 127.0.0.1 swf.games.sina.com.cn
 127.0.0.1 c.biz.weibo.com
 127.0.0.1 all.vic.sina.com.cn
@@ -1305,9 +1336,11 @@
 127.0.0.1 ping.ie.sogou.com
 127.0.0.1 pingback.ie.sogou.com
 #SuiZong
+127.0.0.1 api.suizong.com
+127.0.0.1 sandbox.sapi.suizong.com
+127.0.0.1 sandbox.suizong.com
 127.0.0.1 sapi.suizong.com
 127.0.0.1 www.suizong.com
-127.0.0.1 sandbox.sapi.suizong.com
 #Tapad
 127.0.0.1 analytics.tapad.com
 127.0.0.1 swappit.tapad.com
@@ -1488,13 +1521,15 @@
 127.0.0.1 xbox.ooqqxx.com
 #Tinmoo
 127.0.0.1 www.tinmoo.com
+#SomeApps
+127.0.0.1 ad.camera360.us
+127.0.0.1 ads.feelingtouch.com
 #WapSite
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
 127.0.0.1 5151you.com
 127.0.0.1 ad-locus.com
 127.0.0.1 ad.belugaboost.com
-127.0.0.1 ad.camera360.us
 127.0.0.1 ad.jiemai-tech.com
 127.0.0.1 ad.leadboltads.net
 127.0.0.1 ad.where.com
@@ -1502,7 +1537,6 @@
 127.0.0.1 ad.zhidian3g.cn
 127.0.0.1 adimg3.search.naver.net
 127.0.0.1 ads.admarvel.com
-127.0.0.1 ads.feelingtouch.com
 127.0.0.1 ads.mopub.com
 127.0.0.1 ads.n-ws.org
 127.0.0.1 ads.namiflow.com
@@ -1514,7 +1548,7 @@
 127.0.0.1 adultmoda.com
 127.0.0.1 analytics.localytics.com
 127.0.0.1 android.bcfads.com
-127.0.0.1 api.suizong.com
+127.0.0.1 api.c.moxiu.com
 127.0.0.1 api.yp.com
 127.0.0.1 api.zhaimob.com
 127.0.0.1 apitest.baoruan.com
@@ -1531,6 +1565,7 @@
 127.0.0.1 client.azrj.cn
 127.0.0.1 content.mobango.com
 127.0.0.1 coolcode.org
+127.0.0.1 coop.down.ishuaji.cn
 127.0.0.1 crowdin.net
 127.0.0.1 d.zqlx.com
 127.0.0.1 dev.adtouchnetwork.net
@@ -1564,6 +1599,7 @@
 127.0.0.1 moreapps.droidhen.com
 127.0.0.1 mpro.e.shifen.com
 127.0.0.1 myapk.cn
+127.0.0.1 n1.f.imoxiu.com
 127.0.0.1 noticemob.com
 127.0.0.1 oa.hierstar.net
 127.0.0.1 oatest.gotoip55.com
@@ -1578,7 +1614,6 @@
 127.0.0.1 rs-staticart.ybcdn.net
 127.0.0.1 s.com2us.net
 127.0.0.1 s.wap.io
-127.0.0.1 sandbox.suizong.com
 127.0.0.1 sdk1.itracker.cn
 127.0.0.1 server.pickwifi.com
 127.0.0.1 static.moreadexchange.com

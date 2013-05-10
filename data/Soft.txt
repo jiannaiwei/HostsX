@@ -110,12 +110,11 @@
 0.0.0.0 ttpack.qianqian.com
 #Maxthon
 0.0.0.0 mk.maxthon.cn
-0.0.0.0 datacn-dl.maxthon.com
 0.0.0.0 stats-a.maxthon.cn
 0.0.0.0 stat-w.maxthon.com
 0.0.0.0 stat.maxthon.com
 0.0.0.0 statcn-c.maxthon.com
-0.0.0.0 kernel-c.maxthon.com
+0.0.0.0 www.007.mx
 #Micronichefinder
 0.0.0.0 www.micronichefinder.com
 0.0.0.0 micronichefinder.com
