@@ -58,6 +58,7 @@
 0.0.0.0 install2.kugou.com
 0.0.0.0 links.kugoo.com
 0.0.0.0 mkg.kugou.com
+0.0.0.0 gg.kugou.com
 0.0.0.0 mobilelog.kugou.com
 0.0.0.0 myonline.kugou.com
 0.0.0.0 opt.kugou.com
@@ -347,6 +348,9 @@
 0.0.0.0 ad.dj527.com
 0.0.0.0 sy.0575dp.com
 0.0.0.0 www.0575dp.com
+#TV002
+0.0.0.0 doubleclick.tv002.com
+0.0.0.0 clientclick.tv002.com
 #XunLei
 0.0.0.0 adcount.sandai.net
 0.0.0.0 analytics-union.sandai.net
@@ -414,3 +418,8 @@
 0.0.0.0 s.gougou.com
 0.0.0.0 un.so.gougou.com
 0.0.0.0 www.155.com
+0.0.0.0 wp.stat.xunlei.com
+0.0.0.0 areainfo.xunlei.com
+0.0.0.0 res.stat.xunlei.com
+0.0.0.0 stat.download.xunlei.com
+0.0.0.0 tracker.movie.xunlei.com

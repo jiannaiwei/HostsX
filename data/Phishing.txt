@@ -1,4 +1,6 @@
 #Phishing Sites
+0.0.0.0 www.bbin-bc.com
+0.0.0.0 www.gaofangxy.com
 0.0.0.0 www.bjad.com.cn
 0.0.0.0 henduan.com
 0.0.0.0 www.ad-safe.com

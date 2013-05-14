@@ -1,4 +1,4 @@
-@Pop-ups Ads
+@Float Ads
 #QianMing Pop ad
 0.0.0.0 code.2010qianming.com
 0.0.0.0 code.52qiangming.com
@@ -25,78 +25,96 @@
 0.0.0.0 www.54kfqq.com
 0.0.0.0 www.live800.com
 0.0.0.0 17276.kf.qycn.com
-#Game Pop ad
-0.0.0.0 astd.snsfun.cc
-0.0.0.0 astds3.snsfun.cc
-0.0.0.0 plsm.snsfun.cc
-0.0.0.0 pmxj.snsfun.cc
+@Game Pop ad
+#000wan
+0.0.0.0 tg.000wan.com
+0.0.0.0 www.000wan.com
+#176
 0.0.0.0 atrack.176.com
 0.0.0.0 mqs.atrack.176.com
 0.0.0.0 mxd.atrack.176.com
-0.0.0.0 gg190.huanlang.com
-0.0.0.0 gg237.huanlang.com
-0.0.0.0 dfhgg.huanlang.com
-0.0.0.0 yktj.yezizhu.com
-0.0.0.0 e8.yezizhu.com
-0.0.0.0 abc.96pk.com
-0.0.0.0 e3.96pk.com
-0.0.0.0 e8.96pk.com
-0.0.0.0 cba.96pk.com
-0.0.0.0 agod.r.sougames.com
-0.0.0.0 bean.r.sougames.com
-0.0.0.0 chess.r.sougames.com
-0.0.0.0 curious.r.sougames.com
-0.0.0.0 eett.r.sougames.com
-0.0.0.0 kerout.r.sougames.com
-0.0.0.0 keyside.r.sougames.com
-0.0.0.0 mysis.r.sougames.com
-0.0.0.0 r.sougames.com
-0.0.0.0 sougames.com
-0.0.0.0 c.qling.com
-0.0.0.0 g.qling.com
-0.0.0.0 kz.zqgame.com
-0.0.0.0 lj.zqgame.com
-0.0.0.0 mhsh.zqgame.com
-0.0.0.0 reg.zqgame.com
-0.0.0.0 regbk.lj.zqgame.com
-0.0.0.0 regbk.td.zqgame.com
-0.0.0.0 regbk.xw.zqgame.com
-0.0.0.0 regbk.zqgame.com
-0.0.0.0 td.zqgame.com
-0.0.0.0 ccnec.com
-0.0.0.0 pv.ccnec.com
-0.0.0.0 space.ccnec.com
-0.0.0.0 www.prealpha.platform.ccnec.com
+#1stwebgame
 0.0.0.0 t.1stwebgame.com
 0.0.0.0 tc.1stwebgame.com
-0.0.0.0 naqigs.com
-0.0.0.0 v.naqigs.com
+#116b
+0.0.0.0 code.116b.com
+0.0.0.0 tt.116b.com
+#155game
+0.0.0.0 link.155game.com
+0.0.0.0 tg.155game.com
+#1717gs
+0.0.0.0 cpv.1717gs.com
+0.0.0.0 v.1717gs.com
+#17hug
+0.0.0.0 ads.17hug.com
+0.0.0.0 member.slb.17hug.com
+#17leyi
+0.0.0.0 media.17leyi.com
+0.0.0.0 images.17leyi.com
+#17pfa
+0.0.0.0 k3.17pfa.com
+0.0.0.0 t2.17pfa.com
+0.0.0.0 kj1.17pfa.com
+#18819
+0.0.0.0 u.18819.com
+0.0.0.0 s.18819.com
+#234y
+0.0.0.0 adcpm.234y.com
+0.0.0.0 cpc.234y.com
+0.0.0.0 cpm.234y.com
+#336
+0.0.0.0 code.336.com
+0.0.0.0 flash.336.com
+#37177
+0.0.0.0 u1346.37117.com
+0.0.0.0 adimg.37117.com
+#371gw
+0.0.0.0 img.371gw.com
+0.0.0.0 p.371gw.com
+#3gm
 0.0.0.0 home.3gm.com.cn
 0.0.0.0 p.3gm.com.cn
-0.0.0.0 c.91wan.com
-0.0.0.0 u.9lwan.com
+#33wan
+0.0.0.0 www.333wan.com
+0.0.0.0 js.333wan.com
+#51wan
 0.0.0.0 51.51wan.com
 0.0.0.0 img2.51wan.com
 0.0.0.0 images.51wan.com
 0.0.0.0 union.51wan.com
 0.0.0.0 union1.51wan.com
-0.0.0.0 g.webgame.com.cn
-0.0.0.0 tg.webgame.com.cn
-0.0.0.0 u.kfwan.com
-0.0.0.0 www.kfwan.com
-0.0.0.0 fc.runup.cn
-0.0.0.0 fc9.runup.cn
-0.0.0.0 image.runup.cn
-0.0.0.0 mediacdn.runup.cn
-0.0.0.0 link.155game.com
-0.0.0.0 tg.155game.com
+#52yeyou
+0.0.0.0 bt.52yeyou.com
+0.0.0.0 bto.52yeyou.com
+#52xiyou
+0.0.0.0 cpm.union.52xiyou.com
+0.0.0.0 s1.pic.union.52xiyou.com
+0.0.0.0 union.52xiyou.com
+#565882
+0.0.0.0 lg3452.565882.com
+0.0.0.0 lg1236.565882.com
+0.0.0.0 lg7894.565882.com
+0.0.0.0 lg3457.565882.com
+#70yx
 0.0.0.0 doc.70yx.com
 0.0.0.0 Han1.70yx.Com
 0.0.0.0 tg.70yx.com
-0.0.0.0 counter.ztgame.com
-0.0.0.0 gd.ztgame.com
-0.0.0.0 jr.ztgame.com
-0.0.0.0 lh.ztgame.com
+#86mmo
+0.0.0.0 tg.86mmo.com
+0.0.0.0 tg2.86mmo.com
+#91wan
+0.0.0.0 c.91wan.com
+0.0.0.0 u.9lwan.com
+#96pk
+0.0.0.0 abc.96pk.com
+0.0.0.0 e3.96pk.com
+0.0.0.0 e8.96pk.com
+0.0.0.0 cba.96pk.com
+#9wee
+0.0.0.0 u.9wee.com
+0.0.0.0 web.9wee.com
+0.0.0.0 www1.9wee.com
+#arpg2
 0.0.0.0 agenda.r.arpg2.com
 0.0.0.0 bean.r.arpg2.com
 0.0.0.0 chess.r.arpg2.com
@@ -124,63 +142,116 @@
 0.0.0.0 xiaohua.r.arpg2.com
 0.0.0.0 xybor.r.arpg2.com
 0.0.0.0 yithgao.r.arpg2.com
-0.0.0.0 cpm.webxgame.com
-0.0.0.0 r.webxgame.com
+#ccnec
+0.0.0.0 ccnec.com
+0.0.0.0 pv.ccnec.com
+0.0.0.0 space.ccnec.com
+0.0.0.0 www.prealpha.platform.ccnec.com
+#cnzol
+0.0.0.0 a.cnzol.com
+0.0.0.0 u.cnzol.com
+#duolegame
+0.0.0.0 tg.duolegame.com
+0.0.0.0 tg1.duolegame.com
+0.0.0.0 tg2.duolegame.com
+#ferrygame
+0.0.0.0 jy.ferrygame.com
+0.0.0.0 u.ferrygame.com
+0.0.0.0 tg.ferrygame.com
+#gocsgo
+0.0.0.0 p.gocsgo.com
+0.0.0.0 t.gocsgo.com
+#gogo
+0.0.0.0 sd.gogo.com
+0.0.0.0 img.gogo.com
+#Hlwan
 0.0.0.0 tg1.hlwan.com
 0.0.0.0 tg2.hlwan.com
 0.0.0.0 111a.hlwan.net
 0.0.0.0 197.hlwan.net
-0.0.0.0 u.9wee.com
-0.0.0.0 web.9wee.com
-0.0.0.0 www1.9wee.com
-0.0.0.0 k3.17pfa.com
-0.0.0.0 t2.17pfa.com
-0.0.0.0 kj1.17pfa.com
+#HuanLang
+0.0.0.0 gg190.huanlang.com
+0.0.0.0 gg237.huanlang.com
+0.0.0.0 dfhgg.huanlang.com
+#kfwan
+0.0.0.0 u.kfwan.com
+0.0.0.0 www.kfwan.com
+#kunlun
 0.0.0.0 xxfy.klonweb.com.cn
 0.0.0.0 unigg.kunlun.com
-0.0.0.0 juu.tg.mybestyouxi.cn
-0.0.0.0 r.mybestyouxi.cn
-0.0.0.0 jy.ferrygame.com
-0.0.0.0 u.ferrygame.com
-0.0.0.0 tg.ferrygame.com
-0.0.0.0 xy.linekong.com
-0.0.0.0 rx.linekong.com
-0.0.0.0 tg.86mmo.com
-0.0.0.0 tg2.86mmo.com
-0.0.0.0 tg.duolegame.com
-0.0.0.0 tg1.duolegame.com
-0.0.0.0 tg2.duolegame.com
-0.0.0.0 sc.subo.me
-0.0.0.0 tg3.subo.me
+#ledu
 0.0.0.0 cdn.ledu.com
 0.0.0.0 pop.ledu.com
 0.0.0.0 xunion.ledu.com
 0.0.0.0 union.ledu.com
-0.0.0.0 p.gocsgo.com
-0.0.0.0 t.gocsgo.com
-0.0.0.0 u1346.37117.com
-0.0.0.0 adimg.37117.com
-0.0.0.0 ads.17hug.com
-0.0.0.0 member.slb.17hug.com
-0.0.0.0 cpm.union.52xiyou.com
-0.0.0.0 s1.pic.union.52xiyou.com
-0.0.0.0 union.52xiyou.com
-0.0.0.0 tg.000wan.com
-0.0.0.0 www.000wan.com
-0.0.0.0 lg3452.565882.com
-0.0.0.0 lg1236.565882.com
-0.0.0.0 lg7894.565882.com
-0.0.0.0 lg3457.565882.com
-0.0.0.0 146.xdwan.cn
-0.0.0.0 161.xdwan.cn
-0.0.0.0 164.xdwan.cn
-0.0.0.0 166.xdwan.cn
-0.0.0.0 cpv.1717gs.com
-0.0.0.0 v.1717gs.com
+#linekong
+0.0.0.0 xy.linekong.com
+0.0.0.0 rx.linekong.com
+#mingbu
 0.0.0.0 ad.mingbu.net
 0.0.0.0 xs.mingbu.net
-0.0.0.0 www.333wan.com
-0.0.0.0 js.333wan.com
+#mybestyouxi
+0.0.0.0 juu.tg.mybestyouxi.cn
+0.0.0.0 r.mybestyouxi.cn
+#naqigs
+0.0.0.0 naqigs.com
+0.0.0.0 v.naqigs.com
+#ooo1000
+0.0.0.0 c.ooo1000.com
+0.0.0.0 d.ooo1000.com
+0.0.0.0 e.ooo1000.com
+#pee
+0.0.0.0 c.pee.cn
+0.0.0.0 c2.pee.cn
+0.0.0.0 c3.pee.cn
+0.0.0.0 count.pee.cn
+0.0.0.0 img.pee.cn
+0.0.0.0 pic.pee.cn
+#Qling
+0.0.0.0 c.qling.com
+0.0.0.0 g.qling.com
+#runup
+0.0.0.0 fc.runup.cn
+0.0.0.0 fc9.runup.cn
+0.0.0.0 image.runup.cn
+0.0.0.0 mediacdn.runup.cn
+#sharele
+0.0.0.0 360.sharele.cn
+0.0.0.0 p.sharele.cn
+0.0.0.0 un.sharele.cn
+#SnsFun
+0.0.0.0 astd.snsfun.cc
+0.0.0.0 astds3.snsfun.cc
+0.0.0.0 go.snsfun.cc
+0.0.0.0 plsm.snsfun.cc
+0.0.0.0 pmxj.snsfun.cc
+0.0.0.0 wly.snsfun.com
+#SouGames
+0.0.0.0 agod.r.sougames.com
+0.0.0.0 bean.r.sougames.com
+0.0.0.0 chess.r.sougames.com
+0.0.0.0 curious.r.sougames.com
+0.0.0.0 eett.r.sougames.com
+0.0.0.0 kerout.r.sougames.com
+0.0.0.0 keyside.r.sougames.com
+0.0.0.0 mysis.r.sougames.com
+0.0.0.0 r.sougames.com
+0.0.0.0 sougames.com
+#subo
+0.0.0.0 sc.subo.me
+0.0.0.0 tg3.subo.me
+#ucjoy
+0.0.0.0 reg.dh.ucjoy.com
+0.0.0.0 reg.gl.ucjoy.com
+0.0.0.0 reg.gow.ucjoy.com
+0.0.0.0 reg.ucjoy.com
+#Webgame
+0.0.0.0 g.webgame.com.cn
+0.0.0.0 tg.webgame.com.cn
+#Webxgmae
+0.0.0.0 cpm.webxgame.com
+0.0.0.0 r.webxgame.com
+#woniu
 0.0.0.0 cpm.xiyou53.com
 0.0.0.0 cpm.woniu666.com
 0.0.0.0 dy.woniu666.com
@@ -188,62 +259,46 @@
 0.0.0.0 dd.woniu.com
 0.0.0.0 tg.dg.woniu.com
 0.0.0.0 tg.x.woniu.com
-0.0.0.0 irs09.com
-0.0.0.0 static.irs09.com
-0.0.0.0 360.sharele.cn
-0.0.0.0 p.sharele.cn
-0.0.0.0 un.sharele.cn
-0.0.0.0 img.371gw.com
-0.0.0.0 p.371gw.com
-0.0.0.0 code.116b.com
-0.0.0.0 tt.116b.com
-0.0.0.0 c.pee.cn
-0.0.0.0 c2.pee.cn
-0.0.0.0 c3.pee.cn
-0.0.0.0 count.pee.cn
-0.0.0.0 img.pee.cn
-0.0.0.0 pic.pee.cn
-0.0.0.0 code.lovekkn.cn
-0.0.0.0 code1.lovekkn.cn
-0.0.0.0 c.ooo1000.com
-0.0.0.0 d.ooo1000.com
-0.0.0.0 e.ooo1000.com
-0.0.0.0 u.18819.com
-0.0.0.0 s.18819.com
-0.0.0.0 a.cnzol.com
-0.0.0.0 u.cnzol.com
-0.0.0.0 e.chtahmkt.com
-0.0.0.0 f.chtah.com
-0.0.0.0 googleadsense.xuanhaowang.net
-0.0.0.0 googleadsensejump.xuanhaowang.net
-0.0.0.0 bt.52yeyou.com
-0.0.0.0 bto.52yeyou.com
-0.0.0.0 yz.szgla.com
-0.0.0.0 yzol.szgla.com
-0.0.0.0 reg.dh.ucjoy.com
-0.0.0.0 reg.gl.ucjoy.com
-0.0.0.0 reg.gow.ucjoy.com
-0.0.0.0 reg.ucjoy.com
-0.0.0.0 ad3713.dnsorg.net
-0.0.0.0 afp.dnsorg.net
-0.0.0.0 shell.dnsorg.net
-0.0.0.0 adcpm.234y.com
-0.0.0.0 cpc.234y.com
-0.0.0.0 cpm.234y.com
-0.0.0.0 sd.gogo.com
-0.0.0.0 img.gogo.com
-0.0.0.0 media.17leyi.com
-0.0.0.0 images.17leyi.com
+#xdwan
+0.0.0.0 146.xdwan.cn
+0.0.0.0 161.xdwan.cn
+0.0.0.0 164.xdwan.cn
+0.0.0.0 166.xdwan.cn
 0.0.0.0 180.xdwan.com
 0.0.0.0 img4.xdwan.com
 0.0.0.0 active.xdwan.com
 0.0.0.0 t.xdwan.com
-0.0.0.0 doubleclick.tv002.com
-0.0.0.0 clientclick.tv002.com
-0.0.0.0 code.336.com
-0.0.0.0 flash.336.com
-0.0.0.0 cpm.feike5.com
-0.0.0.0 ui.feike5.com
+#Yezizhu
+0.0.0.0 yktj.yezizhu.com
+0.0.0.0 e8.yezizhu.com
+#ZQGame
+0.0.0.0 j.zqgame.com
+0.0.0.0 kz.zqgame.com
+0.0.0.0 lj.zqgame.com
+0.0.0.0 mhsh.zqgame.com
+0.0.0.0 reg.zqgame.com
+0.0.0.0 regbk.lj.zqgame.com
+0.0.0.0 regbk.td.zqgame.com
+0.0.0.0 regbk.xw.zqgame.com
+0.0.0.0 regbk.zqgame.com
+0.0.0.0 td.zqgame.com
+#ZTGame
+0.0.0.0 counter.ztgame.com
+0.0.0.0 gd.ztgame.com
+0.0.0.0 jr.ztgame.com
+0.0.0.0 lh.ztgame.com
+#lovekkn
+0.0.0.0 code.lovekkn.cn
+0.0.0.0 code1.lovekkn.cn
+0.0.0.0 e.chtahmkt.com
+0.0.0.0 f.chtah.com
+0.0.0.0 googleadsense.xuanhaowang.net
+0.0.0.0 googleadsensejump.xuanhaowang.net
+0.0.0.0 yz.szgla.com
+0.0.0.0 yzol.szgla.com
+0.0.0.0 ad3713.dnsorg.net
+0.0.0.0 afp.dnsorg.net
+0.0.0.0 shell.dnsorg.net
 0.0.0.0 cpm.ggyad.com
 0.0.0.0 cpp.ggyad.com
 0.0.0.0 c.jmsyzj.com
@@ -253,7 +308,7 @@
 0.0.0.0 www.cssyouxi.com
 0.0.0.0 cimg.1stcngame.com
 0.0.0.0 t.1stcngame.com
-#Malware Pop ad
+@Pop-ups&Malware Ads
 0.0.0.0 0831.ch512.com
 0.0.0.0 1.usazm.net
 0.0.0.0 10000.mm.oishow.com
@@ -450,7 +505,6 @@
 0.0.0.0 ggg.cn0378.com
 0.0.0.0 go.game2me.cn
 0.0.0.0 go.lele.com
-0.0.0.0 go.snsfun.cc
 0.0.0.0 go.wonderad.com
 0.0.0.0 gong.fmx.cn
 0.0.0.0 googlermb.com
@@ -497,7 +551,6 @@
 0.0.0.0 img.xp9365.com
 0.0.0.0 in.kunlun.com
 0.0.0.0 info.uubig.com
-0.0.0.0 j.zqgame.com
 0.0.0.0 jksc.xywy.com
 0.0.0.0 jl100.net
 0.0.0.0 js.11l11.net
@@ -757,7 +810,6 @@
 0.0.0.0 web.7k7k.com
 0.0.0.0 web.ziruo.net
 0.0.0.0 wen.wwwfollow5.com
-0.0.0.0 wly.snsfun.com
 0.0.0.0 wt1.wuming.com
 0.0.0.0 ww.2366.com
 0.0.0.0 ww.jinzhao99.com
@@ -946,33 +998,3 @@
 0.0.0.0 www.manyan.net
 0.0.0.0 www.yxads.com
 0.0.0.0 t.dichan001.com
-#Other Pop ad
-0.0.0.0 adv.s8bbs.com
-0.0.0.0 adtest.wbcao.com
-0.0.0.0 www.cuons.com
-0.0.0.0 www.bozlm.com
-0.0.0.0 www.xuany.cn
-0.0.0.0 1js.shkk365.com
-0.0.0.0 baidu.adsxin.com
-0.0.0.0 pic.qq66qq.com
-0.0.0.0 www.zhenren888.com
-0.0.0.0 wzw.la
-0.0.0.0 tag.tlvmedia.com
-0.0.0.0 nats.interdollars.com
-0.0.0.0 images.adultcammodels.com
-0.0.0.0 www.bravospots.com
-0.0.0.0 pu.trafficshop.com
-0.0.0.0 pcash.imlive.com
-0.0.0.0 cdn.tynt.com
-0.0.0.0 imagefreak001.com
-0.0.0.0 incezt.net
-0.0.0.0 www.999betwin.com
-0.0.0.0 www.88btt.com
-0.0.0.0 hav.tv
-0.0.0.0 4086.qqi.com.tw
-0.0.0.0 refer.ccbill.com
-0.0.0.0 gjsq.me
-0.0.0.0 ad.avsexnight.com
-0.0.0.0 widget.clips4sale.com
-0.0.0.0 click.kink.com
-0.0.0.0 c.actiondesk.com

@@ -1,12 +1,292 @@
-@Sites-Foreign
+@Sites-Australia
+#sensismediasmart
+0.0.0.0 ad.sensismediasmart.com.au
+@Sites-Brazil
+#globo
+0.0.0.0 ads.globo.com
+@Sites-Britain
+#BBC
+0.0.0.0 external.bbc.co.uk
+0.0.0.0 stats.bbc.co.uk
+0.0.0.0 visualscience.external.bbc.co.uk
+@Sites-Germany
+#Blide.de
+0.0.0.0 ad.yieldlab.net
+0.0.0.0 asv.nuggad.net
+0.0.0.0 ced.sascdn.com
+#Chip
+0.0.0.0 adx.chip.de
+#web.de
+0.0.0.0 adclient.uimserv.net
+0.0.0.0 adimg.uimserv.net
+0.0.0.0 creativeproxy.uimserv.net
+0.0.0.0 fips.uimserv.net
+@Sites-Japan
+#Asahi
+0.0.0.0 c.iogous.com
+#Pixiv
+0.0.0.0 img.ads.pixiv.org
+0.0.0.0 serv.ads.pixiv.org
+#Yahoo.co.jp
+0.0.0.0 ai.yimg.jp
+0.0.0.0 ard.yahoo.co.jp
+0.0.0.0 bc.geocities.yahoo.co.jp
+0.0.0.0 rd.ane.yahoo.co.jp
+0.0.0.0 yjaxc.yahoo.co.jp
+@Sites-Korea
+#Auction
+0.0.0.0 adfront.auction.co.kr
+#Chosun
+0.0.0.0 adimg1.chosun.com
+0.0.0.0 cad.chosun.com
+0.0.0.0 hitlog2.chosun.com
+#Naver
+0.0.0.0 nv1.ad.naver.com
+0.0.0.0 nv2.ad.naver.com
+#Gmarket
+0.0.0.0 adscript.gmarket.co.kr
+@Sites-Russia
+#Bigmir
+0.0.0.0 ad0.bigmir.net
+0.0.0.0 ad1.bigmir.net
+0.0.0.0 ad4.bigmir.net
+0.0.0.0 ad5.bigmir.net
+0.0.0.0 ad6.bigmir.net
+0.0.0.0 ad7.bigmir.net
+0.0.0.0 adi.bigmir.net
+0.0.0.0 c.bigmir.net
+0.0.0.0 i.bigmir.net
+0.0.0.0 stat.bigmir.net
+0.0.0.0 h.holder.com.ua
+#Yandex
+0.0.0.0 an.yandex.ru
+@Sites-Singapore
+#AsiaOne
+0.0.0.0 adtag.asiaone.com
+#ZaoBao
+0.0.0.0 ads.zaobao.com
+0.0.0.0 lhzpimedia.allyes.com
+0.0.0.0 creative.allyes.com.cn
+@Sites-TaiWan
+#Anyway
+0.0.0.0 ad.anyway.com.tw
+0.0.0.0 advertisement.anyway.com.tw
+#Chinatimes
+0.0.0.0 ad.cyberone.com.tw
+0.0.0.0 admanager.cyberone.com.tw
+0.0.0.0 marketing.chinatimes.com
+#GoGoBox
+0.0.0.0 ads.pics.gogobox.com.tw
+0.0.0.0 advs.gogobox.com.tw
+0.0.0.0 event.gogobox.com.tw
+#Hinet
+0.0.0.0 adasad.myweb.hinet.net
+0.0.0.0 blogad01.myweb.hinet.net
+0.0.0.0 blogad02.myweb.hinet.net
+#Nownews
+0.0.0.0 ad1.nownews.com
+#Pchome
+0.0.0.0 adcl.pchome.com.tw
+0.0.0.0 pic.adver.com.tw
+#Pixnet
+0.0.0.0 ad.pixnet.in
+0.0.0.0 ad.pixnet.net
+#Udn
+0.0.0.0 ad1.udn.com
+0.0.0.0 ad2.udn.com
+0.0.0.0 ad3.udn.com
+0.0.0.0 ad4.udn.com
+#Yam
+0.0.0.0 ad.blog.yam.com
+0.0.0.0 ad2.yam.com
+0.0.0.0 admd.yam.com
+0.0.0.0 ads.yam.com
+0.0.0.0 rec.n.yam.com
+0.0.0.0 yam.adsbro.com
+#Yahoo Taiwan
+0.0.0.0 ad.wretch.cc
+#SecretChina
+0.0.0.0 ad.secretchina.com
+0.0.0.0 static1.secretchina.com
+0.0.0.0 a.epochtimes.com
+0.0.0.0 ad.epochtimes.com
+0.0.0.0 ads3.epochtimes.com
+#SinoVision
+0.0.0.0 ad.sinovision.net
+#TaiwanSites
+0.0.0.0 a.jojos.tw
+0.0.0.0 ad.cacafly.com
+0.0.0.0 ad.funp.com
+0.0.0.0 ad.hiiir.com
+0.0.0.0 ad.jamba.net
+0.0.0.0 ad.jamster.co.uk
+0.0.0.0 ad.obuy.tw
+0.0.0.0 ad.sitemaji.com
+0.0.0.0 ad.snsplus.com
+0.0.0.0 ad.sogi.com.tw
+0.0.0.0 ads.citytalk.tw
+0.0.0.0 ads.doublemax.net
+0.0.0.0 ads.fetnet.net
+0.0.0.0 ads.ign.com
+0.0.0.0 ads.miniclip.com
+0.0.0.0 ads.ttv.com.tw
+0.0.0.0 drd.hauchi.com.tw
+@Sites-USA
+#Intel
+0.0.0.0 syndication.intel.com
+0.0.0.0 www.cnetdirectintl.com
+0.0.0.0 www91.intel.com
+#Lycos
+0.0.0.0 adbuyer3.lycos.com
+0.0.0.0 ads.lycos.com
+0.0.0.0 ads.tripod.lycos.co.uk
+0.0.0.0 ads.tripod.lycos.de
+0.0.0.0 ads.tripod.lycos.es
+0.0.0.0 ads.tripod.lycos.nl
+0.0.0.0 advertising.lycos.com
+0.0.0.0 client.sidesearch.lycos.com
+0.0.0.0 cm8.lycos.com
+0.0.0.0 fe.lea.lycos.co.uk
+0.0.0.0 guestworld.tripod.lycos.com
+0.0.0.0 hit.webcentre.lycos.co.uk
+0.0.0.0 install.sidesearch.lycos.com
+0.0.0.0 oascentral.lycos.com
+0.0.0.0 ratings.lycos.com
+0.0.0.0 titan.guestworld.tripod.lycos.com
+#Live
+0.0.0.0 analytics.live.com
+0.0.0.0 c.live.com
+0.0.0.0 digg.analytics.live.com
+0.0.0.0 ms.analytics.live.com
+0.0.0.0 rad.live.com
+0.0.0.0 watson.live.com
+0.0.0.0 msnportal.112.2o7.net
+#Msn
+0.0.0.0 ads1.msn.com
+0.0.0.0 g.msn.com
+0.0.0.0 rad.msn.com
+0.0.0.0 a.rad.msn.com
+0.0.0.0 b.rad.msn.com
+0.0.0.0 0.r.msn.com
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 ac2.msn.com
+0.0.0.0 ac3.msn.com
+0.0.0.0 ads.beta1.idss.msn.com
+0.0.0.0 ads.eu.msn.com
+0.0.0.0 ads.msn.com
+0.0.0.0 ads2.msn.com
+0.0.0.0 adsyndication.msn.com
+0.0.0.0 amer.rel.msn.com
+0.0.0.0 analytics.msn.com
+0.0.0.0 analytics.r.msn.com
+0.0.0.0 arc1.msn.com
+0.0.0.0 arc2.msn.com
+0.0.0.0 arc3.msn.com
+0.0.0.0 arc9.msn.com
+0.0.0.0 b.ads1.msn.com
+0.0.0.0 c.msn.com
+0.0.0.0 c.msn.com.cn
+0.0.0.0 catalog.video.msn.com
+0.0.0.0 exp.www.msn.com
+0.0.0.0 h.msn.com
+0.0.0.0 popup.msn.com
+0.0.0.0 r.msn.com
+0.0.0.0 rmads.eu.msn.com
+0.0.0.0 rmads.msn.com
+0.0.0.0 toolbar.msn.com
+0.0.0.0 udc.msn.com
+0.0.0.0 a.global.msads.net
+0.0.0.0 ads1.msads.net
+0.0.0.0 ads2.msads.net
+0.0.0.0 global.msads.net
+0.0.0.0 crl.microsoft.com
+0.0.0.0 rad.microsoft.com
+0.0.0.0 watson.microsoft.com
+#Microsoft
+0.0.0.0 ads.ninemsn.com.au
+0.0.0.0 msnads-wm9.fplive.net
+0.0.0.0 direct.ninemsn.com.au
+0.0.0.0 ads.apn.co.nz
+0.0.0.0 ads.hearstmags.com
+0.0.0.0 ads.itv.com
+0.0.0.0 ads.mediamayhemcorp.com
+0.0.0.0 ads.msn.com.nsatc.net
+0.0.0.0 bidclix.net
+0.0.0.0 collector.deepmetrix.com
+0.0.0.0 fastcounter.bcentral.com
+0.0.0.0 fcstats.bcentral.com
+0.0.0.0 inv.questex.com
+0.0.0.0 madserver.net
+0.0.0.0 msn.serving-sys.com
+0.0.0.0 spd.netconversions.com
+0.0.0.0 subscribe.hearstmags.com
+0.0.0.0 venture.boulevards.com
+0.0.0.0 wa.taunton.com
+0.0.0.0 www.atlasdmt.com
+0.0.0.0 www.bidclix.net
+0.0.0.0 www.deepmetrix.com
+#Myspace
+0.0.0.0 advertise.myspace.com
+0.0.0.0 delb.myspace.com
+0.0.0.0 delb2.myspace.com
+0.0.0.0 demr.myspace.com
+0.0.0.0 fimserve.myspace.com
+0.0.0.0 nb.myspace.com
+0.0.0.0 count.myspace.cn
+0.0.0.0 gg.un.myspace.cn
+#Playboy
+0.0.0.0 pei-ads.playboy.com
+#ABCNews
+0.0.0.0 Adsatt.ABCNews.starwave.com
+0.0.0.0 adsatt.disney.starwave.com
+0.0.0.0 adsatt.espn.starwave.com
+0.0.0.0 adsatt.familyfun.starwave.com
+0.0.0.0 adsatt.go.starwave.com
+0.0.0.0 adsatt.movies.starwave.com
+0.0.0.0 adsintl.starwave.com
+0.0.0.0 espn-ak.starwave.com
+0.0.0.0 odc.starwave.com
+0.0.0.0 3ps.go.com
+0.0.0.0 ad.go.com
+0.0.0.0 adimages.go.com
+0.0.0.0 dcapps.disney.go.com
+0.0.0.0 adsatt.espn.go.com
+0.0.0.0 log.go.com
+0.0.0.0 ngads.go.com
+0.0.0.0 oascentral.abclocal.go.com
+0.0.0.0 seavideo-ak.espn.go.com
+0.0.0.0 w88.go.com
+#Amazon
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 rcm-images.amazon.com
+0.0.0.0 rcm.amazon.com
+0.0.0.0 rcm-cn.amazon.cn
+#Ap.org
+0.0.0.0 ads.mm.ap.org
+0.0.0.0 oascentral.hosted.ap.org
+0.0.0.0 te.ap.org
+0.0.0.0 ads.dixcom.com
+0.0.0.0 ap.search.theplatform.com
 #BNet
 0.0.0.0 bwp.bnet.com
 0.0.0.0 mads.bnet.com
 0.0.0.0 ocp.bnet.com
 0.0.0.0 dw.findarticles.com
+#CNN
+0.0.0.0 ads.cnn.com
+0.0.0.0 cnn.dyn.cnn.com
+0.0.0.0 customad.cnn.com
+0.0.0.0 gdyn.cnn.com
+0.0.0.0 i.l.cnn.net
+0.0.0.0 metrics.cnn.com
+#Discovery
+0.0.0.0 ads.discovery.com
+0.0.0.0 omnikool.discovery.com
 #CBS
 0.0.0.0 ocp.cbs.com
 0.0.0.0 dw.cbs.com
+0.0.0.0 adportal.cbsi.com.cn
 0.0.0.0 dw.cbsi.com.cn
 0.0.0.0 adimg.news.com
 0.0.0.0 bwp.news.com
@@ -75,220 +355,11 @@
 0.0.0.0 om.zdnet.co.uk
 0.0.0.0 pv.zdnet.com.cn
 0.0.0.0 tracker.zdnet.com.au
-#ABCNews
-0.0.0.0 Adsatt.ABCNews.starwave.com
-0.0.0.0 adsatt.disney.starwave.com
-0.0.0.0 adsatt.espn.starwave.com
-0.0.0.0 adsatt.familyfun.starwave.com
-0.0.0.0 adsatt.go.starwave.com
-0.0.0.0 adsatt.movies.starwave.com
-0.0.0.0 adsintl.starwave.com
-0.0.0.0 espn-ak.starwave.com
-0.0.0.0 odc.starwave.com
-0.0.0.0 3ps.go.com
-0.0.0.0 ad.go.com
-0.0.0.0 adimages.go.com
-0.0.0.0 dcapps.disney.go.com
-0.0.0.0 adsatt.espn.go.com
-0.0.0.0 log.go.com
-0.0.0.0 ngads.go.com
-0.0.0.0 oascentral.abclocal.go.com
-0.0.0.0 seavideo-ak.espn.go.com
-0.0.0.0 w88.go.com
-#AOL
-0.0.0.0 ads.aol.co.uk
-0.0.0.0 adserver.aol.fr
-0.0.0.0 ads.newline.aol.com
-0.0.0.0 ads.web.aol.com
-0.0.0.0 advertising.aol.com
-0.0.0.0 affiliate.aol.com
-0.0.0.0 dynamic.aol.com
-0.0.0.0 free.aol.com
-0.0.0.0 o.sa.aol.com
-0.0.0.0 s.sa.aol.com
-0.0.0.0 37.adsonar.com
-0.0.0.0 ads.adsonar.com
-0.0.0.0 ads.tw.adsonar.com
-0.0.0.0 adsonar.com
-0.0.0.0 foxnews.adsonar.com
-0.0.0.0 js.adsonar.com
-0.0.0.0 newsletter.adsonar.com
-0.0.0.0 redir.adsonar.com
-0.0.0.0 ads.patch.com
-0.0.0.0 ar.atwola.com
-0.0.0.0 ar1.atwola.com
-0.0.0.0 ar7.atwola.com
-0.0.0.0 ar9.atwola.com
-0.0.0.0 at.atwola.com
-0.0.0.0 atwola.com
-0.0.0.0 cdn.at.atwola.com
-0.0.0.0 cdn.atwola.com
-0.0.0.0 pr.atwola.com
-0.0.0.0 ads.intergi.com
-0.0.0.0 glb.adtechus.com
-0.0.0.0 ng3.ads.warnerbros.com
-#Ap.org
-0.0.0.0 ads.mm.ap.org
-0.0.0.0 oascentral.hosted.ap.org
-0.0.0.0 te.ap.org
-0.0.0.0 ads.dixcom.com
-0.0.0.0 ap.search.theplatform.com
-#BBC
-0.0.0.0 external.bbc.co.uk
-0.0.0.0 stats.bbc.co.uk
-0.0.0.0 visualscience.external.bbc.co.uk
-#Bigmir
-0.0.0.0 ad0.bigmir.net
-0.0.0.0 ad1.bigmir.net
-0.0.0.0 ad4.bigmir.net
-0.0.0.0 ad5.bigmir.net
-0.0.0.0 ad6.bigmir.net
-0.0.0.0 ad7.bigmir.net
-0.0.0.0 adi.bigmir.net
-0.0.0.0 c.bigmir.net
-0.0.0.0 i.bigmir.net
-#Chip
-0.0.0.0 adx.chip.de
-#Chosun
-0.0.0.0 adimg1.chosun.com
-0.0.0.0 cad.chosun.com
-0.0.0.0 hitlog2.chosun.com
-#CNN
-0.0.0.0 ads.cnn.com
-0.0.0.0 cnn.dyn.cnn.com
-0.0.0.0 customad.cnn.com
-0.0.0.0 gdyn.cnn.com
-0.0.0.0 i.l.cnn.net
-0.0.0.0 metrics.cnn.com
-#Discovery
-0.0.0.0 ads.discovery.com
-0.0.0.0 omnikool.discovery.com
-#Hinet
-0.0.0.0 adasad.myweb.hinet.net
-0.0.0.0 blogad01.myweb.hinet.net
-0.0.0.0 blogad02.myweb.hinet.net
-#Intel
-0.0.0.0 syndication.intel.com
-0.0.0.0 www.cnetdirectintl.com
-0.0.0.0 www91.intel.com
-#Lycos News
-0.0.0.0 adbuyer3.lycos.com
-0.0.0.0 ads.lycos.com
-0.0.0.0 ads.tripod.lycos.co.uk
-0.0.0.0 ads.tripod.lycos.de
-0.0.0.0 ads.tripod.lycos.es
-0.0.0.0 ads.tripod.lycos.nl
-0.0.0.0 advertising.lycos.com
-0.0.0.0 client.sidesearch.lycos.com
-0.0.0.0 cm8.lycos.com
-0.0.0.0 fe.lea.lycos.co.uk
-0.0.0.0 guestworld.tripod.lycos.com
-0.0.0.0 hit.webcentre.lycos.co.uk
-0.0.0.0 install.sidesearch.lycos.com
-0.0.0.0 oascentral.lycos.com
-0.0.0.0 ratings.lycos.com
-0.0.0.0 titan.guestworld.tripod.lycos.com
-#Live
-0.0.0.0 analytics.live.com
-0.0.0.0 c.live.com
-0.0.0.0 digg.analytics.live.com
-0.0.0.0 ms.analytics.live.com
-0.0.0.0 rad.live.com
-0.0.0.0 watson.live.com
-0.0.0.0 msnportal.112.2o7.net
-#MSN Ad Servers
-0.0.0.0 ads1.msn.com
-0.0.0.0 g.msn.com
-0.0.0.0 rad.msn.com
-0.0.0.0 a.rad.msn.com
-0.0.0.0 b.rad.msn.com
-0.0.0.0 0.r.msn.com
-0.0.0.0 a.ads1.msn.com
-0.0.0.0 a.ads2.msn.com
-0.0.0.0 ac2.msn.com
-0.0.0.0 ac3.msn.com
-0.0.0.0 ads.beta1.idss.msn.com
-0.0.0.0 ads.eu.msn.com
-0.0.0.0 ads.msn.com
-0.0.0.0 ads.ninemsn.com.au
-0.0.0.0 ads2.msn.com
-0.0.0.0 adsyndication.msn.com
-0.0.0.0 amer.rel.msn.com
-0.0.0.0 analytics.msn.com
-0.0.0.0 analytics.r.msn.com
-0.0.0.0 arc1.msn.com
-0.0.0.0 arc2.msn.com
-0.0.0.0 arc3.msn.com
-0.0.0.0 arc9.msn.com
-0.0.0.0 b.ads1.msn.com
-0.0.0.0 c.msn.com
-0.0.0.0 c.msn.com.cn
-0.0.0.0 catalog.video.msn.com
-0.0.0.0 direct.ninemsn.com.au
-0.0.0.0 exp.www.msn.com
-0.0.0.0 h.msn.com
-0.0.0.0 msnads-wm9.fplive.net
-0.0.0.0 popup.msn.com
-0.0.0.0 r.msn.com
-0.0.0.0 rmads.eu.msn.com
-0.0.0.0 rmads.msn.com
-0.0.0.0 toolbar.msn.com
-0.0.0.0 udc.msn.com
-#Microsoft
-0.0.0.0 a.global.msads.net
-0.0.0.0 ads1.msads.net
-0.0.0.0 ads2.msads.net
-0.0.0.0 global.msads.net
-0.0.0.0 crl.microsoft.com
-0.0.0.0 rad.microsoft.com
-0.0.0.0 watson.microsoft.com
-#Microsoft via
-0.0.0.0 ads.apn.co.nz
-0.0.0.0 ads.hearstmags.com
-0.0.0.0 ads.itv.com
-0.0.0.0 ads.mediamayhemcorp.com
-0.0.0.0 ads.msn.com.nsatc.net
-0.0.0.0 bidclix.net
-0.0.0.0 collector.deepmetrix.com
-0.0.0.0 fastcounter.bcentral.com
-0.0.0.0 fcstats.bcentral.com
-0.0.0.0 inv.questex.com
-0.0.0.0 madserver.net
-0.0.0.0 msn.serving-sys.com
-0.0.0.0 spd.netconversions.com
-0.0.0.0 subscribe.hearstmags.com
-0.0.0.0 venture.boulevards.com
-0.0.0.0 wa.taunton.com
-0.0.0.0 www.atlasdmt.com
-0.0.0.0 www.bidclix.net
-0.0.0.0 www.deepmetrix.com
-#Myspace
-0.0.0.0 advertise.myspace.com
-0.0.0.0 delb.myspace.com
-0.0.0.0 delb2.myspace.com
-0.0.0.0 demr.myspace.com
-0.0.0.0 fimserve.myspace.com
-0.0.0.0 nb.myspace.com
-0.0.0.0 count.myspace.cn
-0.0.0.0 gg.un.myspace.cn
-#Nownews
-0.0.0.0 ad1.nownews.com
-#Pixnet
-0.0.0.0 ad.pixnet.in
-0.0.0.0 ad.pixnet.net
-#Playboy
-0.0.0.0 pei-ads.playboy.com
-#Pixiv
-0.0.0.0 img.ads.pixiv.org
-0.0.0.0 serv.ads.pixiv.org
-#SecretChina
-0.0.0.0 ad.secretchina.com
-0.0.0.0 static1.secretchina.com
-0.0.0.0 a.epochtimes.com
-0.0.0.0 ad.epochtimes.com
+#Time
+0.0.0.0 tiads.time.com
 #Yahoo.com
 0.0.0.0 a.analytics.yahoo.com
-0.0.0.0 adjax.flickr.yahoo.com
+0.0.0.0 y.analytics.yahoo.com
 0.0.0.0 advision.webevents.yahoo.com
 0.0.0.0 analytics.yahoo.com
 0.0.0.0 asia.pclick.internal.yahoo.com
@@ -332,6 +403,7 @@
 0.0.0.0 nz.adserver.yahoo.com
 0.0.0.0 pn1.adserver.yahoo.com
 0.0.0.0 pn2.adserver.yahoo.com
+0.0.0.0 o.analytics.yahoo.com
 0.0.0.0 s.analytics.yahoo.com
 0.0.0.0 se.adserver.yahoo.com
 0.0.0.0 sg.adserver.yahoo.com
@@ -353,6 +425,7 @@
 0.0.0.0 ybinst7.ec.yimg.com
 0.0.0.0 ybinst8.ec.yimg.com
 0.0.0.0 ybinst9.ec.yimg.com
+
 #Yahoo via
 0.0.0.0 ad.103092804.com
 0.0.0.0 ad.accelerator-media.com

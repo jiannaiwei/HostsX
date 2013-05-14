@@ -146,12 +146,12 @@
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
 0.0.0.0 u.sl.iciba.com
-#QQÍµ·Ë
+#QQceo
 0.0.0.0 ad.qqceo.net
 0.0.0.0 toufei.qqceo.net
 0.0.0.0 toufei2.qqceo.net
 0.0.0.0 nl.tg.laolinow.com
-#QQ³¬ÊÐ
+#QQChaoShi
 0.0.0.0 update.imqzone.com
 #QQvoice
 0.0.0.0 union.qqvoice.com

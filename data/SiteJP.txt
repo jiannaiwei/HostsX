@@ -1,7 +1,0 @@
-@Sites-Japan
-#Yahoo.co.jp
-0.0.0.0 ai.yimg.jp
-0.0.0.0 ard.yahoo.co.jp
-0.0.0.0 bc.geocities.yahoo.co.jp
-0.0.0.0 rd.ane.yahoo.co.jp
-0.0.0.0 yjaxc.yahoo.co.jp

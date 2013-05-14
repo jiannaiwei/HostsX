@@ -102,6 +102,10 @@
 0.0.0.0 union.maccms.com
 #Discuz
 0.0.0.0 stat.discuz.com
+#Dvbbs
+0.0.0.0 union.dvbbs.net
+#GXcms
+0.0.0.0 union.gxcms.com
 #BlogBus
 0.0.0.0 pro.blogbus.com
 #51.com
@@ -156,11 +160,6 @@
 0.0.0.0 sta.play.ifeng.com
 0.0.0.0 stadig.ifeng.com
 0.0.0.0 survey.news.ifeng.com
-#ZaoBao
-0.0.0.0 ads.zaobao.com
-0.0.0.0 adtag.asiaone.com
-0.0.0.0 lhzpimedia.allyes.com
-0.0.0.0 creative.allyes.com.cn
 #Xinmin
 0.0.0.0 iads.xinmin.cn
 #HuiCong
@@ -333,10 +332,6 @@
 #Nphoto
 0.0.0.0 util.nphoto.net
 @Sites-China/Shopping
-#Amazon
-0.0.0.0 rcm-images.amazon.com
-0.0.0.0 rcm.amazon.com
-0.0.0.0 rcm-cn.amazon.cn
 #360buy
 0.0.0.0 c.fa.360buy.com
 0.0.0.0 click.union.360buy.com
@@ -429,6 +424,7 @@
 0.0.0.0 yeskyafp.allyes.com
 0.0.0.0 coc.pagebelt.com
 #eNet
+0.0.0.0 ad4.enet.com.cn
 0.0.0.0 trace.enet.com.cn
 0.0.0.0 enet4.enet.com.cn
 #Byte
@@ -526,6 +522,8 @@
 #ChinaCars
 0.0.0.0 chinacarsafp.allyes.com
 @Sites-China/Infos
+#b2b
+0.0.0.0 acode.b2b.cn
 #Sofun
 0.0.0.0 clickn.soufun.com
 0.0.0.0 count.soufun.com

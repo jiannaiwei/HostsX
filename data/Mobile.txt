@@ -7,7 +7,7 @@
 127.0.0.1 wap.life.nokia.com.cn
 #163
 127.0.0.1 g1.163.com
-127.0.0.1 analytics.ws.126.net
+127.0.0.1 analytics.ws.126.netj
 127.0.0.1 img1.126.net
 127.0.0.1 img2.126.net
 127.0.0.1 letv.ws.126.net
@@ -339,9 +339,10 @@
 127.0.0.1 taobaoafp.allyes.cn
 127.0.0.1 taobaoafp.allyes.com
 127.0.0.1 img.uu1001.cn
+127.0.0.1 cdn.tanx.com
 127.0.0.1 click.tanx.com
 127.0.0.1 p.tanx.com
-127.0.0.1 cdn.tanx.com
+127.0.0.1 union.tanx.com
 127.0.0.1 img.mmcdn.cn
 127.0.0.1 i.mmcdn.cn
 127.0.0.1 www.aliyk.com
@@ -445,7 +446,6 @@
 127.0.0.1 sobar.baidu.com
 127.0.0.1 sobartop.baidu.com
 127.0.0.1 spcode.baidu.com
-127.0.0.1 stat.p2sp.baidu.com
 127.0.0.1 tk.baidu.com
 127.0.0.1 tkweb.baidu.com
 127.0.0.1 tongji.baidu.com
@@ -848,6 +848,7 @@
 127.0.0.1 dcys.ijinshan.com
 127.0.0.1 dl.app.ijinshan.com
 127.0.0.1 dl.dc.ijinshan.com
+127.0.0.1 wdl.cache.ijinshan.com
 127.0.0.1 info-push.duba.net
 127.0.0.1 j.union.ijinshan.com
 127.0.0.1 kbd.data.kpns.ijinshan.com
@@ -879,6 +880,7 @@
 127.0.0.1 labs.duba.net
 127.0.0.1 u.www.duba.net
 127.0.0.1 kinfo.wps.cn
+127.0.0.1 minisite.wps.cn
 127.0.0.1 api.pc120.com
 127.0.0.1 stat.sd.keniu.com
 127.0.0.1 tq.sd.keniu.com
@@ -1150,6 +1152,7 @@
 127.0.0.1 community.scoreloop.com
 127.0.0.1 p.scoreloop.com
 #Sina
+127.0.0.1 admatch.sina.com.cn
 127.0.0.1 app.sina.com.cn
 127.0.0.1 api.apps.sina.cn
 127.0.0.1 adimg.mobile.sina.cn
@@ -1303,6 +1306,7 @@
 127.0.0.1 a1click.cpc.sogou.com
 127.0.0.1 adsence.sogou.com
 127.0.0.1 alpha.brand.sogou.com
+127.0.0.1 brand.sogou.com
 127.0.0.1 config.acc.sogou.com
 127.0.0.1 cpc.brand.sogou.com
 127.0.0.1 cpc.sogou.com
@@ -1463,6 +1467,7 @@
 127.0.0.1 scpworld.com.cn
 127.0.0.1 www.ypzs88.com
 #Weiphone
+127.0.0.1 aoodoo.weiphone.com
 127.0.0.1 aoodooimg.weiphone.com
 #Wooboo
 127.0.0.1 ade.wooboo.com.cn
