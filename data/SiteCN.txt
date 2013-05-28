@@ -18,6 +18,7 @@
 0.0.0.0 panda.kdnet.net
 0.0.0.0 tracking.kdnet.net
 0.0.0.0 super.kdnet.net
+0.0.0.0 super.cat898.com
 #Kaixin001
 0.0.0.0 m222034.kaixin001.com
 #Qihoo

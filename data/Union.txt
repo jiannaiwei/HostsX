@@ -5622,3 +5622,4 @@
 0.0.0.0 yceml.net
 0.0.0.0 ps.ads-omg.net
 0.0.0.0 server.iad.liveperson.net
+0.0.0.0 ad.directrev.com

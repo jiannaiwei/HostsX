@@ -800,6 +800,7 @@
 0.0.0.0 v4.acode.ifocus.cn
 0.0.0.0 vdad.uuzu.com
 0.0.0.0 vdax.uuzu.com
+0.0.0.0 vda72.uuzu.com
 0.0.0.0 vip1.cachecn.com
 0.0.0.0 vs.mr66.com
 0.0.0.0 w2.zxrj400.com
@@ -998,3 +999,4 @@
 0.0.0.0 www.manyan.net
 0.0.0.0 www.yxads.com
 0.0.0.0 t.dichan001.com
+0.0.0.0 mini.37zone.com

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201305141955
+;version=20130528 950
 ;author=Hosts Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -50,6 +50,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ads.ak.facebook.com
 127.0.0.1 creative.ak.facebook.com
 127.0.0.1 creative.ak.fbcdn.net
+69.171.235.16 5-pct.channel.facebook.com
 173.252.100.17 api-read.facebook.com
 173.252.100.17 api.facebook.com
 69.171.237.36 apps.facebook.com
@@ -84,7 +85,7 @@ fe80::1%lo0	localhost
 69.171.233.33 orcart.facebook.com
 69.171.245.18 photos-ak-ash1.facebook.com
 69.171.245.18 photos-ash1.facebook.com
-66.220.149.90 pixel.facebook.com
+173.252.100.27 pixel.facebook.com
 118.214.190.105 profile.ak.facebook.com
 61.213.189.114 profile.ak.fbcdn.net
 69.171.247.22 s-static.facebook.com
@@ -98,7 +99,7 @@ fe80::1%lo0	localhost
 69.63.189.76 star.facebook.com
 61.213.189.98 static.ak.facebook.com
 65.32.34.136 static.ak.fbcdn.net
-69.171.229.17 upload.facebook.com
+173.252.100.27 upload.facebook.com
 66.220.144.41 vpn.tfbnw.net
 120.29.145.50 vthumb.ak.fbcdn.net
 66.220.151.31 vupload.facebook.com
@@ -146,15 +147,15 @@ fe80::1%lo0	localhost
 108.59.10.193 i1.minus.com
 108.59.10.222 i2.minus.com
 #GitHub
-107.21.116.220 help.github.com
-107.22.3.110 status.github.com
-199.27.76.130 raw.github.com
 204.232.175.78 documentcloud.github.com
-204.232.175.78 training.github.com
-204.232.175.94 gist.github.com
 207.97.227.239 github.com
-207.97.227.243 www.github.com
+204.232.175.94 gist.github.com
+107.20.136.254 help.github.com
 207.97.227.252 nodeload.github.com
+199.27.76.130 raw.github.com
+107.22.3.110 status.github.com
+204.232.175.78 training.github.com
+207.97.227.243 www.github.com
 #Flashget Accelerate
 221.123.176.125 s5.flashget.com  
 221.123.176.136 cplog.flashget.com
@@ -504,6 +505,7 @@ fe80::1%lo0	localhost
 203.208.46.200 mt1.google.com
 203.208.46.200 mt2.google.com
 203.208.46.200 mt3.google.com
+#203.208.46.200 mtalk.google.com
 203.208.46.200 mts.google.com
 203.208.46.200 mts.l.google.com
 203.208.46.200 mts0.google.com
@@ -654,6 +656,7 @@ fe80::1%lo0	localhost
 203.208.46.202 images8-focus-opensocial.googleusercontent.com
 203.208.46.202 images9-focus-opensocial.googleusercontent.com
 203.208.46.202 images-docs-opensocial.googleusercontent.com
+203.208.46.202 images-oz-opensocial.googleusercontent.com
 203.208.46.202 k6v18tjr24doa89b55o3na41kn4v73eb-a-oz-opensocial.googleusercontent.com
 203.208.46.202 lh1.googleusercontent.com
 203.208.46.202 lh2.googleusercontent.com
@@ -805,15 +808,12 @@ fe80::1%lo0	localhost
 203.208.46.200 auth.keyhole.com
 203.208.46.200 chrome.angrybirds.com
 203.208.46.200 developer.android.com
-203.208.46.200 developer.chrome.com
 203.208.46.200 domains.googlesyndication.com
 203.208.46.200 earthengine.googlelabs.com
 203.208.46.200 feeds.feedburner.com
 203.208.46.200 g.co
-203.208.46.200 gmail.com
 203.208.46.200 goo.gl
 203.208.46.162 listen.googlelabs.com
-203.208.46.200 m.gmail.com
 203.208.46.200 m.googlemail.com
 203.208.46.200 market.android.com
 203.208.46.163 ngrams.googlelabs.com
@@ -822,8 +822,6 @@ fe80::1%lo0	localhost
 203.208.46.222 ssl.google-analytics.com
 173.194.76.128 static.panoramio.com
 203.208.46.200 www.blogger.com
-203.208.46.200 www.chromium.org
-203.208.46.200 www.gmail.com
 203.208.46.200 www.googleadservices.com
 203.208.46.222 www.google-analytics.com
 203.208.46.200 www.googlelabs.com
@@ -2875,7 +2873,7 @@ fe80::1%lo0	localhost
 127.0.0.1 wap.life.nokia.com.cn
 #163
 127.0.0.1 g1.163.com
-127.0.0.1 analytics.ws.126.netj
+127.0.0.1 analytics.ws.126.net
 127.0.0.1 img1.126.net
 127.0.0.1 img2.126.net
 127.0.0.1 letv.ws.126.net
@@ -3146,10 +3144,11 @@ fe80::1%lo0	localhost
 127.0.0.1 hermes.airad.com
 127.0.0.1 www.airad.com
 #Airpush
-127.0.0.1 apistaging.airpush.com
-127.0.0.1 m.airpush.com
 127.0.0.1 api.airpush.com
+127.0.0.1 apistaging.airpush.com
 127.0.0.1 beta.airpush.com
+127.0.0.1 bugsense.appspot.com
+127.0.0.1 m.airpush.com
 127.0.0.1 ads.adultmoda.com
 127.0.0.1 ad.leadboltapps.net
 127.0.0.1 ad.leadbolt.net
@@ -3182,15 +3181,18 @@ fe80::1%lo0	localhost
 127.0.0.1 p4psearch.china.alibaba.com
 127.0.0.1 survey.china.alibaba.com
 127.0.0.1 www.tao123.com
+127.0.0.1 tao.etao.com
+127.0.0.1 strip.taobaocdn.com
+127.0.0.1 redirect.simba.taobao.com
 127.0.0.1 click.mz.simba.taobao.com
+127.0.0.1 click.tz.simba.taobao.com
+127.0.0.1 click.simba.taobao.com
 127.0.0.1 s.click.taobao.com
 127.0.0.1 s8.taobao.com
-127.0.0.1 click.tz.simba.taobao.com
 127.0.0.1 count.taobao.com
 127.0.0.1 haibao.huoban.taobao.com
 127.0.0.1 pindao.huoban.taobao.com
 127.0.0.1 re.taobao.com
-127.0.0.1 redirect.simba.taobao.com
 127.0.0.1 search8.taobao.com
 127.0.0.1 stat.simba.taobao.com
 127.0.0.1 textlink.simba.taobao.com
@@ -3269,6 +3271,9 @@ fe80::1%lo0	localhost
 127.0.0.1 techcrunch.appstores.com
 127.0.0.1 topix.appstores.com
 #Baidu
+127.0.0.1 br.bmbs.baidu.com
+127.0.0.1 ch.bmbs.baidu.com
+127.0.0.1 www.hao123.com
 127.0.0.1 a.baidu.com
 127.0.0.1 adm.baidu.com
 127.0.0.1 api.share.baidu.com
@@ -3945,6 +3950,7 @@ fe80::1%lo0	localhost
 127.0.0.1 aw.myapp.com
 127.0.0.1 www.myapp.com
 127.0.0.1 ad.qq.com
+127.0.0.1 aid.video.qq.com
 127.0.0.1 adping.qq.com
 127.0.0.1 adsclick.qq.com
 127.0.0.1 adsfile.qq.com
@@ -3962,6 +3968,7 @@ fe80::1%lo0	localhost
 127.0.0.1 adver.pengyou.com
 127.0.0.1 analy.qq.com
 127.0.0.1 c.l.qq.com
+127.0.0.1 cb.l.qq.com
 127.0.0.1 c2.l.qq.com
 127.0.0.1 caclick.qq.com
 127.0.0.1 dmtrack.buy.qq.com
@@ -4020,6 +4027,11 @@ fe80::1%lo0	localhost
 127.0.0.1 community.scoreloop.com
 127.0.0.1 p.scoreloop.com
 #Sina
+127.0.0.1 alitui.weibo.com
+127.0.0.1 biz.weibo.com
+127.0.0.1 c.biz.weibo.com
+127.0.0.1 zymo.mps.weibo.com
+127.0.0.1 zc.biz.weibo.com
 127.0.0.1 admatch.sina.com.cn
 127.0.0.1 app.sina.com.cn
 127.0.0.1 api.apps.sina.cn
@@ -4027,7 +4039,6 @@ fe80::1%lo0	localhost
 127.0.0.1 wbapp.mobile.sina.cn
 127.0.0.1 wbclick.mobile.sina.cn
 127.0.0.1 swf.games.sina.com.cn
-127.0.0.1 c.biz.weibo.com
 127.0.0.1 all.vic.sina.com.cn
 127.0.0.1 8.show.sina.com.cn
 127.0.0.1 ad3.sina.com.cn
@@ -4310,9 +4321,11 @@ fe80::1%lo0	localhost
 127.0.0.1 tw.pub.vpon.com
 127.0.0.1 www.vpon.com
 #Wapsx
+127.0.0.1 app.waps.cn
 127.0.0.1 ads.waps.cn
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
+127.0.0.1 appcdn.wapx.cn
 127.0.0.1 push.wapx.cn
 #Winsmedia
 127.0.0.1 api.winsmedia.net
@@ -4348,12 +4361,15 @@ fe80::1%lo0	localhost
 127.0.0.1 wooboo.com.cn
 127.0.0.1 www.wooboo.com.cn
 127.0.0.1 www1.wooboo.com.cn
+#xinmei365
+127.0.0.1 cdn.xinmei365.com
 #Yijifen
 127.0.0.1 sdk.yijifen.com
 127.0.0.1 www.yijifen.com
 #Youmi
 127.0.0.1 ads.youmi.net
 127.0.0.1 aos.gw.youmi.net
+127.0.0.1 aos.push.youmi.net
 127.0.0.1 aos.wall.youmi.net
 127.0.0.1 go.youmi.net
 127.0.0.1 gw.youmi.net
@@ -4402,6 +4418,7 @@ fe80::1%lo0	localhost
 127.0.0.1 24sp.cc
 127.0.0.1 5151you.com
 127.0.0.1 ad-locus.com
+127.0.0.1 ads.1mobile.com
 127.0.0.1 ad.belugaboost.com
 127.0.0.1 ad.jiemai-tech.com
 127.0.0.1 ad.leadboltads.net
@@ -4497,6 +4514,7 @@ fe80::1%lo0	localhost
 127.0.0.1 wifi01.51y5.com
 127.0.0.1 www.adtouchnetwork.com
 127.0.0.1 www.anadmob.net
+127.0.0.1 www.apperhand.com
 127.0.0.1 www.asiapacificdaily.com.hk
 127.0.0.1 www.gyswad.com
 127.0.0.1 www.handpet.com
@@ -4516,6 +4534,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.wigglestatic.com
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
+127.0.0.1 yjsxjh.duapp.com
 @Shield Game Active
 #Assassin's Creed
 127.0.0.1 onlineconfigservice.ubi.com
@@ -4556,27 +4575,27 @@ fe80::1%lo0	localhost
 127.0.0.1 activation.acronis.com
 127.0.0.1 liveupdate.acronis.com
 #Adobe
-127.0.0.1 lmlicenses.wip4.adobe.com
-127.0.0.1 lm.licenses.adobe.com
-127.0.0.1 activate.adobe.com
-127.0.0.1 practivate.adobe.com
-127.0.0.1 fpdownload.adobe.com
 127.0.0.1 3dns-2.adobe.com
 127.0.0.1 3dns-3.adobe.com
 127.0.0.1 activate-sea.adobe.com
 127.0.0.1 activate-sjc0.adobe.com
-127.0.0.1 adobe-dns.adobe.com
+127.0.0.1 activate.adobe.com
+127.0.0.1 activate.wip3.adobe.com
 127.0.0.1 adobe-dns-2.adobe.com
 127.0.0.1 adobe-dns-3.adobe.com
-127.0.0.1 ereg.adobe.com
-127.0.0.1 hl2rcv.adobe.com
-127.0.0.1 wip3.adobe.com
-127.0.0.1 activate.wip3.adobe.com
-127.0.0.1 ereg.wip3.adobe.com
-127.0.0.1 wwis-dubc1-vip60.adobe.com
+127.0.0.1 adobe-dns.adobe.com
 127.0.0.1 adobe.activate.com
 127.0.0.1 adobeereg.com
+127.0.0.1 ereg.adobe.com
+127.0.0.1 ereg.wip3.adobe.com
+127.0.0.1 fpdownload.adobe.com
+127.0.0.1 hl2rcv.adobe.com
+127.0.0.1 lm.licenses.adobe.com
+127.0.0.1 lmlicenses.wip4.adobe.com
+127.0.0.1 practivate.adobe.com
 127.0.0.1 wip.adobe.com
+127.0.0.1 wip3.adobe.com
+127.0.0.1 wwis-dubc1-vip60.adobe.com
 #Aignes
 127.0.0.1 aignes.com
 127.0.0.1 aignes.net
@@ -5413,6 +5432,7 @@ fe80::1%lo0	localhost
 127.0.0.1 panda.kdnet.net
 127.0.0.1 tracking.kdnet.net
 127.0.0.1 super.kdnet.net
+127.0.0.1 super.cat898.com
 #Kaixin001
 127.0.0.1 m222034.kaixin001.com
 #Qihoo
@@ -12147,6 +12167,7 @@ fe80::1%lo0	localhost
 127.0.0.1 yceml.net
 127.0.0.1 ps.ads-omg.net
 127.0.0.1 server.iad.liveperson.net
+127.0.0.1 ad.directrev.com
 @AdUnion-CN
 #01lm
 127.0.0.1 ads.01lm.com
@@ -12369,10 +12390,12 @@ fe80::1%lo0	localhost
 127.0.0.1 www.g.cn.70e.com
 #7794
 127.0.0.1 code.7794.com
-127.0.0.1 www.7794.com
-127.0.0.1 js.7794.com
+127.0.0.1 images.7794.com
 127.0.0.1 j.7794lm.com
+127.0.0.1 js.7794.com
 127.0.0.1 js.7794lm.com
+127.0.0.1 v.7794.com
+127.0.0.1 www.7794.com
 #77869
 127.0.0.1 778669.com
 127.0.0.1 pv.778669.com
@@ -13977,6 +14000,7 @@ fe80::1%lo0	localhost
 127.0.0.1 error3.wo114.cc
 127.0.0.1 error8.wo114.cc
 127.0.0.1 nfdnserror3.wo.com.cn.zpsn.com
+127.0.0.1 nfdnserror16.wo.com.cn
 127.0.0.1 www6.1616.net
 127.0.0.1 st.1616.net
 127.0.0.1 www.wo116.com
@@ -14318,6 +14342,35 @@ fe80::1%lo0	localhost
 127.0.0.1 www.uibia.com
 127.0.0.1 download.wuji.com
 #Phishing Sites
+127.0.0.1 www.qx-zx.com
+127.0.0.1 temimg.m9o.net
+127.0.0.1 img.qx-zx.com
+127.0.0.1 image.xudiao.com
+127.0.0.1 moluo.ecosways.net
+127.0.0.1 www.yisochina.com
+127.0.0.1 pz.alivcd.com
+127.0.0.1 pz.beilequ.com
+127.0.0.1 jiujiu.dy.beilequ.com
+127.0.0.1 src.lfche.com
+127.0.0.1 jiujiu.mini.22pk.cn
+127.0.0.1 log.zhezi.com
+127.0.0.1 mini.lfche.com
+127.0.0.1 www.000mgg.com
+127.0.0.1 www.bfpet.com
+127.0.0.1 www.cfkfp.com
+127.0.0.1 www.eduyp.com
+127.0.0.1 www.fzlj.net
+127.0.0.1 www.jxhsm.com
+127.0.0.1 www.specc.net
+127.0.0.1 www.sxfqw.com
+127.0.0.1 www.tu6.cn
+127.0.0.1 www.ygbox.com
+127.0.0.1 zixun.wanse.cn
+127.0.0.1 zixun.yingpian.cc
+127.0.0.1 www.ku8dyw.com
+127.0.0.1 www.honghuyy.com
+127.0.0.1 lanm.szrc5.com
+127.0.0.1 www.zhezi.com
 127.0.0.1 www.bbin-bc.com
 127.0.0.1 www.gaofangxy.com
 127.0.0.1 www.bjad.com.cn
@@ -14611,6 +14664,7 @@ fe80::1%lo0	localhost
 127.0.0.1 www.fengxiong.hk
 127.0.0.1 www.qq.com.2012r.in
 127.0.0.1 go2buynow.info
+127.0.0.1 www.yingpian.cc
 #Porn Sites
 127.0.0.1 jzy002.com
 127.0.0.1 s01.hangzhouedm.com
@@ -17602,6 +17656,7 @@ fe80::1%lo0	localhost
 127.0.0.1 v4.acode.ifocus.cn
 127.0.0.1 vdad.uuzu.com
 127.0.0.1 vdax.uuzu.com
+127.0.0.1 vda72.uuzu.com
 127.0.0.1 vip1.cachecn.com
 127.0.0.1 vs.mr66.com
 127.0.0.1 w2.zxrj400.com
@@ -17800,3 +17855,4 @@ fe80::1%lo0	localhost
 127.0.0.1 www.manyan.net
 127.0.0.1 www.yxads.com
 127.0.0.1 t.dichan001.com
+127.0.0.1 mini.37zone.com

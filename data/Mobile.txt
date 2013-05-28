@@ -7,7 +7,7 @@
 127.0.0.1 wap.life.nokia.com.cn
 #163
 127.0.0.1 g1.163.com
-127.0.0.1 analytics.ws.126.netj
+127.0.0.1 analytics.ws.126.net
 127.0.0.1 img1.126.net
 127.0.0.1 img2.126.net
 127.0.0.1 letv.ws.126.net
@@ -278,10 +278,11 @@
 127.0.0.1 hermes.airad.com
 127.0.0.1 www.airad.com
 #Airpush
-127.0.0.1 apistaging.airpush.com
-127.0.0.1 m.airpush.com
 127.0.0.1 api.airpush.com
+127.0.0.1 apistaging.airpush.com
 127.0.0.1 beta.airpush.com
+127.0.0.1 bugsense.appspot.com
+127.0.0.1 m.airpush.com
 127.0.0.1 ads.adultmoda.com
 127.0.0.1 ad.leadboltapps.net
 127.0.0.1 ad.leadbolt.net
@@ -314,15 +315,18 @@
 127.0.0.1 p4psearch.china.alibaba.com
 127.0.0.1 survey.china.alibaba.com
 127.0.0.1 www.tao123.com
+127.0.0.1 tao.etao.com
+127.0.0.1 strip.taobaocdn.com
+127.0.0.1 redirect.simba.taobao.com
 127.0.0.1 click.mz.simba.taobao.com
+127.0.0.1 click.tz.simba.taobao.com
+127.0.0.1 click.simba.taobao.com
 127.0.0.1 s.click.taobao.com
 127.0.0.1 s8.taobao.com
-127.0.0.1 click.tz.simba.taobao.com
 127.0.0.1 count.taobao.com
 127.0.0.1 haibao.huoban.taobao.com
 127.0.0.1 pindao.huoban.taobao.com
 127.0.0.1 re.taobao.com
-127.0.0.1 redirect.simba.taobao.com
 127.0.0.1 search8.taobao.com
 127.0.0.1 stat.simba.taobao.com
 127.0.0.1 textlink.simba.taobao.com
@@ -401,6 +405,9 @@
 127.0.0.1 techcrunch.appstores.com
 127.0.0.1 topix.appstores.com
 #Baidu
+127.0.0.1 br.bmbs.baidu.com
+127.0.0.1 ch.bmbs.baidu.com
+127.0.0.1 www.hao123.com
 127.0.0.1 a.baidu.com
 127.0.0.1 adm.baidu.com
 127.0.0.1 api.share.baidu.com
@@ -1077,6 +1084,7 @@
 127.0.0.1 aw.myapp.com
 127.0.0.1 www.myapp.com
 127.0.0.1 ad.qq.com
+127.0.0.1 aid.video.qq.com
 127.0.0.1 adping.qq.com
 127.0.0.1 adsclick.qq.com
 127.0.0.1 adsfile.qq.com
@@ -1094,6 +1102,7 @@
 127.0.0.1 adver.pengyou.com
 127.0.0.1 analy.qq.com
 127.0.0.1 c.l.qq.com
+127.0.0.1 cb.l.qq.com
 127.0.0.1 c2.l.qq.com
 127.0.0.1 caclick.qq.com
 127.0.0.1 dmtrack.buy.qq.com
@@ -1152,6 +1161,11 @@
 127.0.0.1 community.scoreloop.com
 127.0.0.1 p.scoreloop.com
 #Sina
+127.0.0.1 alitui.weibo.com
+127.0.0.1 biz.weibo.com
+127.0.0.1 c.biz.weibo.com
+127.0.0.1 zymo.mps.weibo.com
+127.0.0.1 zc.biz.weibo.com
 127.0.0.1 admatch.sina.com.cn
 127.0.0.1 app.sina.com.cn
 127.0.0.1 api.apps.sina.cn
@@ -1159,7 +1173,6 @@
 127.0.0.1 wbapp.mobile.sina.cn
 127.0.0.1 wbclick.mobile.sina.cn
 127.0.0.1 swf.games.sina.com.cn
-127.0.0.1 c.biz.weibo.com
 127.0.0.1 all.vic.sina.com.cn
 127.0.0.1 8.show.sina.com.cn
 127.0.0.1 ad3.sina.com.cn
@@ -1442,9 +1455,11 @@
 127.0.0.1 tw.pub.vpon.com
 127.0.0.1 www.vpon.com
 #Wapsx
+127.0.0.1 app.waps.cn
 127.0.0.1 ads.waps.cn
 127.0.0.1 ads.wapx.cn
 127.0.0.1 app.wapx.cn
+127.0.0.1 appcdn.wapx.cn
 127.0.0.1 push.wapx.cn
 #Winsmedia
 127.0.0.1 api.winsmedia.net
@@ -1480,12 +1495,15 @@
 127.0.0.1 wooboo.com.cn
 127.0.0.1 www.wooboo.com.cn
 127.0.0.1 www1.wooboo.com.cn
+#xinmei365
+127.0.0.1 cdn.xinmei365.com
 #Yijifen
 127.0.0.1 sdk.yijifen.com
 127.0.0.1 www.yijifen.com
 #Youmi
 127.0.0.1 ads.youmi.net
 127.0.0.1 aos.gw.youmi.net
+127.0.0.1 aos.push.youmi.net
 127.0.0.1 aos.wall.youmi.net
 127.0.0.1 go.youmi.net
 127.0.0.1 gw.youmi.net
@@ -1534,6 +1552,7 @@
 127.0.0.1 24sp.cc
 127.0.0.1 5151you.com
 127.0.0.1 ad-locus.com
+127.0.0.1 ads.1mobile.com
 127.0.0.1 ad.belugaboost.com
 127.0.0.1 ad.jiemai-tech.com
 127.0.0.1 ad.leadboltads.net
@@ -1629,6 +1648,7 @@
 127.0.0.1 wifi01.51y5.com
 127.0.0.1 www.adtouchnetwork.com
 127.0.0.1 www.anadmob.net
+127.0.0.1 www.apperhand.com
 127.0.0.1 www.asiapacificdaily.com.hk
 127.0.0.1 www.gyswad.com
 127.0.0.1 www.handpet.com
@@ -1648,3 +1668,4 @@
 127.0.0.1 www.wigglestatic.com
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
+127.0.0.1 yjsxjh.duapp.com

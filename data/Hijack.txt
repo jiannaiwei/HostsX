@@ -45,6 +45,7 @@
 0.0.0.0 error3.wo114.cc
 0.0.0.0 error8.wo114.cc
 0.0.0.0 nfdnserror3.wo.com.cn.zpsn.com
+0.0.0.0 nfdnserror16.wo.com.cn
 0.0.0.0 www6.1616.net
 0.0.0.0 st.1616.net
 0.0.0.0 www.wo116.com
