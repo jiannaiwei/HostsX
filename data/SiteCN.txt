@@ -156,7 +156,9 @@
 0.0.0.0 pro.people.com.cn
 #iFeng
 0.0.0.0 bc.ifeng.com
+0.0.0.0 g.ifeng.com
 0.0.0.0 mfp.deliver.ifeng.com
+0.0.0.0 online.3g.ifeng.com
 0.0.0.0 sta.ifeng.com
 0.0.0.0 sta.play.ifeng.com
 0.0.0.0 stadig.ifeng.com

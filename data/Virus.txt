@@ -1,5 +1,18 @@
 @Sites Block
 #VirusDown
+0.0.0.0 www.baxue.com
+0.0.0.0 www.200237.com
+0.0.0.0 www.106309.com
+0.0.0.0 p.junqing123.com
+0.0.0.0 haoranjs.com
+0.0.0.0 ppw.5411.com
+0.0.0.0 yx.4472.com
+0.0.0.0 taobao.4472.com
+0.0.0.0 show.4472.com
+0.0.0.0 ppw.43994.com
+0.0.0.0 he.87hxl.com
+0.0.0.0 dd.fxxzj.com
+0.0.0.0 www.tv5151.com
 0.0.0.0 down.skybk.com
 0.0.0.0 xiazai.vstartdown.com
 0.0.0.0 vip.rrada.org

@@ -247,6 +247,9 @@
 0.0.0.0 www.778669.com
 0.0.0.0 pic183025.images9999.com
 0.0.0.0 pic837013.images9999.com
+#7clink
+0.0.0.0 e.7clink.com
+0.0.0.0 img.7clink.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -1709,6 +1712,10 @@
 0.0.0.0 www.wrating.com
 0.0.0.0 xinmin.wrating.com
 0.0.0.0 ztqq.wrating.com
+#Wumi
+0.0.0.0 app.wumii.com
+0.0.0.0 widget.wumii.cn
+0.0.0.0 widget.wumii.com
 #Wyunion
 0.0.0.0 c.wyunion.com
 0.0.0.0 www.wyunion.com

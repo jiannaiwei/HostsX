@@ -1000,3 +1000,4 @@
 0.0.0.0 www.yxads.com
 0.0.0.0 t.dichan001.com
 0.0.0.0 mini.37zone.com
+0.0.0.0 gamead.kedou.com
