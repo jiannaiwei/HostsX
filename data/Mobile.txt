@@ -1226,6 +1226,7 @@
 127.0.0.1 union.soso.com
 127.0.0.1 v3.toolbar.soso.com
 #Qumi
+127.0.0.1 391he.files.qumi.com
 127.0.0.1 apt.qumi.com
 127.0.0.1 exp.qumi.com
 127.0.0.1 www.qumi.com

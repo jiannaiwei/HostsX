@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201306231730
+;version=201306241517
 ;author=Hosts Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -4123,6 +4123,7 @@ fe80::1%lo0	localhost
 127.0.0.1 union.soso.com
 127.0.0.1 v3.toolbar.soso.com
 #Qumi
+127.0.0.1 391he.files.qumi.com
 127.0.0.1 apt.qumi.com
 127.0.0.1 exp.qumi.com
 127.0.0.1 www.qumi.com
