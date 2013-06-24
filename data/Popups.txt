@@ -993,7 +993,6 @@
 0.0.0.0 www.17g.net
 0.0.0.0 www.9tui.net
 0.0.0.0 www.ad-9.com
-0.0.0.0 www.manyan.net
 0.0.0.0 www.yxads.com
 0.0.0.0 t.dichan001.com
 0.0.0.0 mini.37zone.com
@@ -1010,9 +1009,7 @@
 0.0.0.0 wanhui.17318.cn
 0.0.0.0 zq.91url.com
 0.0.0.0 nl.tg.theooxx.com
-0.0.0.0 www.taobao.com
 0.0.0.0 tg.6fan.com
 0.0.0.0 ad.ad8ad.com
-0.0.0.0 www.feizhou.net
 0.0.0.0 u.x-push.net
 0.0.0.0 text.dotmore.cn

@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201306241608
+;version=201306241617
 ;author=Hosts Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -17980,7 +17980,6 @@ fe80::1%lo0	localhost
 127.0.0.1 www.17g.net
 127.0.0.1 www.9tui.net
 127.0.0.1 www.ad-9.com
-127.0.0.1 www.manyan.net
 127.0.0.1 www.yxads.com
 127.0.0.1 t.dichan001.com
 127.0.0.1 mini.37zone.com
@@ -17997,9 +17996,7 @@ fe80::1%lo0	localhost
 127.0.0.1 wanhui.17318.cn
 127.0.0.1 zq.91url.com
 127.0.0.1 nl.tg.theooxx.com
-127.0.0.1 www.taobao.com
 127.0.0.1 tg.6fan.com
 127.0.0.1 ad.ad8ad.com
-127.0.0.1 www.feizhou.net
 127.0.0.1 u.x-push.net
 127.0.0.1 text.dotmore.cn
