@@ -1744,6 +1744,9 @@
 0.0.0.0 ww.xt918.com
 #Yiqiwin
 0.0.0.0 js.yiqiwin.com
+0.0.0.0 www.yiqiwin.com
+0.0.0.0 ww.yiqiwin.com
+0.0.0.0 gg.yiqiwin.com
 #Yongv
 0.0.0.0 adp.yongv.com
 0.0.0.0 js.yongv.com

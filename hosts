@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201306241556
+;version=201306241608
 ;author=Hosts Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -14069,6 +14069,9 @@ fe80::1%lo0	localhost
 127.0.0.1 ww.xt918.com
 #Yiqiwin
 127.0.0.1 js.yiqiwin.com
+127.0.0.1 www.yiqiwin.com
+127.0.0.1 ww.yiqiwin.com
+127.0.0.1 gg.yiqiwin.com
 #Yongv
 127.0.0.1 adp.yongv.com
 127.0.0.1 js.yongv.com
@@ -17483,7 +17486,6 @@ fe80::1%lo0	localhost
 127.0.0.1 gg.qc101.com
 127.0.0.1 gg.ruiidc.com
 127.0.0.1 gg.www88888q.com
-127.0.0.1 gg.yiqiwin.com
 127.0.0.1 gg1.173hl.com
 127.0.0.1 gg2011.qzkids.com
 127.0.0.1 ggg.cn0378.com
@@ -17798,7 +17800,6 @@ fe80::1%lo0	localhost
 127.0.0.1 wt1.wuming.com
 127.0.0.1 ww.2366.com
 127.0.0.1 ww.jinzhao99.com
-127.0.0.1 ww.yiqiwin.com
 127.0.0.1 ww.zhcpm.com
 127.0.0.1 www-google-analytics.l.goole.com
 127.0.0.1 www.129game.com
@@ -17928,7 +17929,6 @@ fe80::1%lo0	localhost
 127.0.0.1 www.xwadv.com
 127.0.0.1 www.y2126.com
 127.0.0.1 www.yingfa168.com
-127.0.0.1 www.yiqiwin.com
 127.0.0.1 www.yj84.com
 127.0.0.1 www.ymd88.com
 127.0.0.1 www.youxi186.com

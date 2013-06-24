@@ -499,7 +499,6 @@
 0.0.0.0 gg.qc101.com
 0.0.0.0 gg.ruiidc.com
 0.0.0.0 gg.www88888q.com
-0.0.0.0 gg.yiqiwin.com
 0.0.0.0 gg1.173hl.com
 0.0.0.0 gg2011.qzkids.com
 0.0.0.0 ggg.cn0378.com
@@ -814,7 +813,6 @@
 0.0.0.0 wt1.wuming.com
 0.0.0.0 ww.2366.com
 0.0.0.0 ww.jinzhao99.com
-0.0.0.0 ww.yiqiwin.com
 0.0.0.0 ww.zhcpm.com
 0.0.0.0 www-google-analytics.l.goole.com
 0.0.0.0 www.129game.com
@@ -944,7 +942,6 @@
 0.0.0.0 www.xwadv.com
 0.0.0.0 www.y2126.com
 0.0.0.0 www.yingfa168.com
-0.0.0.0 www.yiqiwin.com
 0.0.0.0 www.yj84.com
 0.0.0.0 www.ymd88.com
 0.0.0.0 www.youxi186.com
