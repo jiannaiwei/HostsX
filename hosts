@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201306071111
+;version=201306231730
 ;author=Hosts Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -728,17 +728,18 @@ fe80::1%lo0	localhost
 208.94.0.61	yfrog.com
 208.94.0.61	www.yfrog.com
 #Yahoo
-106.10.171.230	sa.edit.yahoo.com
+98.136.43.76	geo.yahoo.com
+68.142.250.161	l.yimg.com
+96.6.93.227	s.yimg.com
+98.137.88.88	d.yimg.com
+68.142.196.57	c5.ah.yahoo.com
+124.108.120.124	sa.edit.yahoo.com
+66.163.168.247	open.login.yahoo.com
+124.108.97.193	login.yahoo.com
+209.191.92.115	edit.yahoo.com
 209.191.105.102	adjax.flickr.yahoo.com
-98.137.204.87	edit.yahoo.com
-98.138.223.16	geo.yahoo.com
-98.139.235.87	c5.ah.yahoo.com
-98.139.237.162	login.yahoo.com
-98.139.239.184	open.login.yahoo.com
-98.139.240.23	row.bc.yahoo.com
-98.139.240.23	us.bc.yahoo.com
-#Blshe
-59.151.39.126	img.blshe.com
+204.0.5.34	us.js2.yimg.com
+209.191.105.102	adjax.flickr.yahoo.com
 #Friendfeed
 69.171.233.18	friendfeed.com
 69.171.233.18	www.friendfeed.com
@@ -779,7 +780,7 @@ fe80::1%lo0	localhost
 199.47.217.171	www.dropbox.com
 23.21.206.219	forums.dropbox.com
 #Mediafire
-205.196.120.12	mediafire.com
+205.196.120.13	mediafire.com
 205.196.120.6	www.mediafire.com
 #Multiupload
 46.165.221.133	www46.multiupload.com
@@ -787,12 +788,12 @@ fe80::1%lo0	localhost
 46.165.221.135	www48.multiupload.com
 46.165.221.136	www49.multiupload.com
 46.165.221.137	www50.multiupload.com
+46.165.230.34	www2.multiupload.com
 62.212.73.129	www43.multiupload.com
 62.212.73.130	multiupload.com
 62.212.73.130	www32.multiupload.com
 62.212.73.135	www45.multiupload.com
 62.212.73.68	www19.multiupload.com
-62.212.73.70	www12.multiupload.com
 62.212.73.80	www23.multiupload.com
 62.212.73.82	www35.multiupload.com
 83.149.126.15	www34.multiupload.com
@@ -805,21 +806,19 @@ fe80::1%lo0	localhost
 85.17.122.93	www26.multiupload.com
 85.17.123.20	www22.multiupload.com
 85.17.123.32	www30.multiupload.com
+85.17.183.14	www3.multiupload.com
+85.17.183.14	www4.multiupload.com
+85.17.183.14	www5.multiupload.com
+85.17.183.14	www.multiupload.com
 85.17.190.226	www16.multiupload.com
 85.17.190.228	www39.multiupload.com
 85.17.190.229	www17.multiupload.com
 85.17.190.235	www41.multiupload.com
 85.17.190.236	www40.multiupload.com
 85.17.190.241	www44.multiupload.com
-85.17.27.208	www2.multiupload.com
-85.17.27.208	www3.multiupload.com
-85.17.27.208	www4.multiupload.com
-85.17.27.208	www5.multiupload.com
-85.17.27.208	www.multiupload.com
 85.17.73.226	www20.multiupload.com
 85.17.73.227	www15.multiupload.com
 85.17.73.228	www38.multiupload.com
-85.17.73.239	www13.multiupload.com
 85.17.84.98	www28.multiupload.com
 95.211.138.135	www36.multiupload.com
 95.211.138.138	www37.multiupload.com
@@ -865,7 +864,6 @@ fe80::1%lo0	localhost
 208.80.154.226	zh.wiktionary.org
 208.80.154.227	en.wikiquote.org
 208.80.154.227	www.wikiquote.org
-208.80.154.227	zh.wikiquote.org
 208.80.154.228	en.wikibooks.org
 208.80.154.228	www.wikibooks.org
 208.80.154.228	zh.wikibooks.org
@@ -937,6 +935,7 @@ fe80::1%lo0	localhost
 184.51.126.104	a811.phobos.apple.com
 184.51.126.104	a94.phobos.apple.com
 184.51.126.105	a1003.phobos.apple.com
+184.51.126.105	a1012.phobos.apple.com
 184.51.126.105	a1028.phobos.apple.com
 184.51.126.105	a1069.phobos.apple.com
 184.51.126.105	a1071.phobos.apple.com
@@ -963,12 +962,12 @@ fe80::1%lo0	localhost
 184.51.126.105	a1737.phobos.apple.com
 184.51.126.105	a1779.phobos.apple.com
 184.51.126.105	a1813.phobos.apple.com
-184.51.126.105	a1884.phobos.apple.com
 184.51.126.105	a1896.phobos.apple.com
 184.51.126.105	a1909.phobos.apple.com
 184.51.126.105	a1914.phobos.apple.com
 184.51.126.105	a1.phobos.apple.com
 184.51.126.105	a241.phobos.apple.com
+184.51.126.105	a272.phobos.apple.com
 184.51.126.105	a306.phobos.apple.com
 184.51.126.105	a309.phobos.apple.com
 184.51.126.105	a310.phobos.apple.com
@@ -1018,7 +1017,6 @@ fe80::1%lo0	localhost
 184.51.126.106	a1250.phobos.apple.com
 184.51.126.106	a1295.phobos.apple.com
 184.51.126.106	a1341.phobos.apple.com
-184.51.126.106	a1436.phobos.apple.com
 184.51.126.106	a143.phobos.apple.com
 184.51.126.106	a1475.phobos.apple.com
 184.51.126.106	a1507.phobos.apple.com
@@ -1050,13 +1048,11 @@ fe80::1%lo0	localhost
 184.51.126.106	a534.phobos.apple.com
 184.51.126.106	a548.phobos.apple.com
 184.51.126.106	a550.phobos.apple.com
-184.51.126.106	a564.phobos.apple.com
 184.51.126.106	a634.phobos.apple.com
 184.51.126.106	a677.phobos.apple.com
 184.51.126.106	a685.phobos.apple.com
 184.51.126.106	a736.phobos.apple.com
 184.51.126.106	a842.phobos.apple.com
-184.51.126.106	a88.phobos.apple.com
 184.51.126.106	a923.phobos.apple.com
 184.51.126.106	a958.phobos.apple.com
 184.51.126.106	a978.phobos.apple.com
@@ -1071,6 +1067,7 @@ fe80::1%lo0	localhost
 184.51.126.107	a1385.phobos.apple.com
 184.51.126.107	a1427.phobos.apple.com
 184.51.126.107	a1458.phobos.apple.com
+184.51.126.107	a1464.phobos.apple.com
 184.51.126.107	a1480.phobos.apple.com
 184.51.126.107	a1503.phobos.apple.com
 184.51.126.107	a1572.phobos.apple.com
@@ -1127,6 +1124,7 @@ fe80::1%lo0	localhost
 184.51.126.112	a1558.phobos.apple.com
 184.51.126.112	a173.phobos.apple.com
 184.51.126.112	a1805.phobos.apple.com
+184.51.126.112	a1934.phobos.apple.com
 184.51.126.112	a1947.phobos.apple.com
 184.51.126.112	a204.phobos.apple.com
 184.51.126.112	a219.phobos.apple.com
@@ -1173,12 +1171,14 @@ fe80::1%lo0	localhost
 184.51.126.75	a1320.phobos.apple.com
 184.51.126.75	a1324.phobos.apple.com
 184.51.126.75	a1336.phobos.apple.com
+184.51.126.75	a1348.phobos.apple.com
 184.51.126.75	a1420.phobos.apple.com
 184.51.126.75	a1522.phobos.apple.com
 184.51.126.75	a1570.phobos.apple.com
 184.51.126.75	a1594.phobos.apple.com
 184.51.126.75	a1648.phobos.apple.com
 184.51.126.75	a166.phobos.apple.com
+184.51.126.75	a172.phobos.apple.com
 184.51.126.75	a1768.phobos.apple.com
 184.51.126.75	a1770.phobos.apple.com
 184.51.126.75	a1822.phobos.apple.com
@@ -1237,7 +1237,6 @@ fe80::1%lo0	localhost
 184.51.126.80	a1715.phobos.apple.com
 184.51.126.80	a1739.phobos.apple.com
 184.51.126.80	a1798.phobos.apple.com
-184.51.126.80	a1799.phobos.apple.com
 184.51.126.80	a1853.phobos.apple.com
 184.51.126.80	a1882.phobos.apple.com
 184.51.126.80	a1919.phobos.apple.com
@@ -1321,12 +1320,12 @@ fe80::1%lo0	localhost
 184.51.126.81	a592.phobos.apple.com
 184.51.126.81	a606.phobos.apple.com
 184.51.126.81	a618.phobos.apple.com
-184.51.126.81	a660.phobos.apple.com
 184.51.126.81	a678.phobos.apple.com
 184.51.126.81	a684.phobos.apple.com
 184.51.126.81	a698.phobos.apple.com
 184.51.126.81	a708.phobos.apple.com
 184.51.126.81	a738.phobos.apple.com
+184.51.126.81	a792.phobos.apple.com
 184.51.126.81	a858.phobos.apple.com
 184.51.126.81	a894.phobos.apple.com
 184.51.126.81	a900.phobos.apple.com
@@ -1383,6 +1382,7 @@ fe80::1%lo0	localhost
 184.51.126.82	a38.phobos.apple.com
 184.51.126.82	a517.phobos.apple.com
 184.51.126.82	a577.phobos.apple.com
+184.51.126.82	a613.phobos.apple.com
 184.51.126.82	a629.phobos.apple.com
 184.51.126.82	a631.phobos.apple.com
 184.51.126.82	a637.phobos.apple.com
@@ -1407,6 +1407,7 @@ fe80::1%lo0	localhost
 184.51.126.83	a1363.phobos.apple.com
 184.51.126.83	a1400.phobos.apple.com
 184.51.126.83	a140.phobos.apple.com
+184.51.126.83	a1443.phobos.apple.com
 184.51.126.83	a1556.phobos.apple.com
 184.51.126.83	a1569.phobos.apple.com
 184.51.126.83	a1598.phobos.apple.com
@@ -1423,19 +1424,18 @@ fe80::1%lo0	localhost
 184.51.126.83	a1760.phobos.apple.com
 184.51.126.83	a1814.phobos.apple.com
 184.51.126.83	a1826.phobos.apple.com
-184.51.126.83	a1856.phobos.apple.com
 184.51.126.83	a1889.phobos.apple.com
 184.51.126.83	a1898.phobos.apple.com
 184.51.126.83	a1952.phobos.apple.com
 184.51.126.83	a1982.phobos.apple.com
 184.51.126.83	a2000.phobos.apple.com
 184.51.126.83	a212.phobos.apple.com
+184.51.126.83	a253.phobos.apple.com
 184.51.126.83	a266.phobos.apple.com
 184.51.126.83	a2.mzstatic.com
 184.51.126.83	a2.phobos.apple.com
 184.51.126.83	a302.phobos.apple.com
 184.51.126.83	a344.phobos.apple.com
-184.51.126.83	a386.phobos.apple.com
 184.51.126.83	a416.phobos.apple.com
 184.51.126.83	a432.phobos.apple.com
 184.51.126.83	a446.phobos.apple.com
@@ -1450,6 +1450,7 @@ fe80::1%lo0	localhost
 184.51.126.83	a908.phobos.apple.com
 184.51.126.83	a944.phobos.apple.com
 184.51.126.83	a98.phobos.apple.com
+184.51.126.88	a1001.phobos.apple.com
 184.51.126.88	a1011.phobos.apple.com
 184.51.126.88	a1025.phobos.apple.com
 184.51.126.88	a1035.phobos.apple.com
@@ -1460,6 +1461,7 @@ fe80::1%lo0	localhost
 184.51.126.88	a1239.phobos.apple.com
 184.51.126.88	a1245.phobos.apple.com
 184.51.126.88	a1257.phobos.apple.com
+184.51.126.88	a1269.phobos.apple.com
 184.51.126.88	a129.phobos.apple.com
 184.51.126.88	a1359.phobos.apple.com
 184.51.126.88	a1395.phobos.apple.com
@@ -1523,7 +1525,6 @@ fe80::1%lo0	localhost
 184.51.126.88	a945.phobos.apple.com
 184.51.126.89	a1056.phobos.apple.com
 184.51.126.89	a1083.phobos.apple.com
-184.51.126.89	a1101.phobos.apple.com
 184.51.126.89	a1118.phobos.apple.com
 184.51.126.89	a116.phobos.apple.com
 184.51.126.89	a1175.phobos.apple.com
@@ -1539,7 +1540,6 @@ fe80::1%lo0	localhost
 184.51.126.89	a1513.phobos.apple.com
 184.51.126.89	a1528.phobos.apple.com
 184.51.126.89	a1592.phobos.apple.com
-184.51.126.89	a1629.phobos.apple.com
 184.51.126.89	a1634.phobos.apple.com
 184.51.126.89	a1685.phobos.apple.com
 184.51.126.89	a1691.phobos.apple.com
@@ -1571,8 +1571,10 @@ fe80::1%lo0	localhost
 184.51.126.89	a762.phobos.apple.com
 184.51.126.89	a763.phobos.apple.com
 184.51.126.89	a780.phobos.apple.com
+184.51.126.89	a805.phobos.apple.com
 184.51.126.89	a815.phobos.apple.com
 184.51.126.89	a827.phobos.apple.com
+184.51.126.89	a832.phobos.apple.com
 184.51.126.89	a86.phobos.apple.com
 184.51.126.89	a883.phobos.apple.com
 184.51.126.89	a927.phobos.apple.com
@@ -1601,6 +1603,7 @@ fe80::1%lo0	localhost
 184.51.126.90	a1776.phobos.apple.com
 184.51.126.90	a1832.phobos.apple.com
 184.51.126.90	a1841.phobos.apple.com
+184.51.126.90	a1918.phobos.apple.com
 184.51.126.90	a1970.phobos.apple.com
 184.51.126.90	a1986.phobos.apple.com
 184.51.126.90	a243.phobos.apple.com
@@ -1622,7 +1625,6 @@ fe80::1%lo0	localhost
 184.51.126.90	a554.phobos.apple.com
 184.51.126.90	a562.phobos.apple.com
 184.51.126.90	a583.phobos.apple.com
-184.51.126.90	a607.phobos.apple.com
 184.51.126.90	a712.phobos.apple.com
 184.51.126.90	a761.phobos.apple.com
 184.51.126.90	a800.phobos.apple.com
@@ -1666,6 +1668,7 @@ fe80::1%lo0	localhost
 184.51.126.91	a278.phobos.apple.com
 184.51.126.91	a313.phobos.apple.com
 184.51.126.91	a321.phobos.apple.com
+184.51.126.91	a359.phobos.apple.com
 184.51.126.91	a381.phobos.apple.com
 184.51.126.91	a396.phobos.apple.com
 184.51.126.91	a428.phobos.apple.com
@@ -1717,6 +1720,7 @@ fe80::1%lo0	localhost
 184.51.126.96	a1903.phobos.apple.com
 184.51.126.96	a191.phobos.apple.com
 184.51.126.96	a1966.phobos.apple.com
+184.51.126.96	a217.phobos.apple.com
 184.51.126.96	a235.phobos.apple.com
 184.51.126.96	a256.phobos.apple.com
 184.51.126.96	a267.phobos.apple.com
@@ -1772,6 +1776,7 @@ fe80::1%lo0	localhost
 184.51.126.97	a1704.phobos.apple.com
 184.51.126.97	a1838.phobos.apple.com
 184.51.126.97	a1843.phobos.apple.com
+184.51.126.97	a1851.phobos.apple.com
 184.51.126.97	a1916.phobos.apple.com
 184.51.126.97	a1930.phobos.apple.com
 184.51.126.97	a1937.phobos.apple.com
@@ -1779,7 +1784,6 @@ fe80::1%lo0	localhost
 184.51.126.97	a1965.phobos.apple.com
 184.51.126.97	a1975.phobos.apple.com
 184.51.126.97	a1999.phobos.apple.com
-184.51.126.97	a211.phobos.apple.com
 184.51.126.97	a213.phobos.apple.com
 184.51.126.97	a216.phobos.apple.com
 184.51.126.97	a21.phobos.apple.com
@@ -1886,6 +1890,7 @@ fe80::1%lo0	localhost
 184.51.126.99	a1911.phobos.apple.com
 184.51.126.99	a1951.phobos.apple.com
 184.51.126.99	a1958.phobos.apple.com
+184.51.126.99	a1968.phobos.apple.com
 184.51.126.99	a244.phobos.apple.com
 184.51.126.99	a292.phobos.apple.com
 184.51.126.99	a294.phobos.apple.com
@@ -1897,12 +1902,10 @@ fe80::1%lo0	localhost
 184.51.126.99	a533.phobos.apple.com
 184.51.126.99	a549.phobos.apple.com
 184.51.126.99	a56.phobos.apple.com
-184.51.126.99	a653.phobos.apple.com
 184.51.126.99	a662.phobos.apple.com
 184.51.126.99	a67.phobos.apple.com
 184.51.126.99	a68.phobos.apple.com
 184.51.126.99	a6.mzstatic.com
-184.51.126.99	a6.phobos.apple.com
 184.51.126.99	a752.phobos.apple.com
 184.51.126.99	a782.phobos.apple.com
 184.51.126.99	a803.phobos.apple.com
@@ -2180,7 +2183,6 @@ fe80::1%lo0	localhost
 23.0.160.201	a236.phobos.apple.com
 23.0.160.201	a242.phobos.apple.com
 23.0.160.201	a246.phobos.apple.com
-23.0.160.201	a272.phobos.apple.com
 23.0.160.201	a314.phobos.apple.com
 23.0.160.201	a380.phobos.apple.com
 23.0.160.201	a392.phobos.apple.com
@@ -2323,7 +2325,6 @@ fe80::1%lo0	localhost
 23.0.160.207	a1894.phobos.apple.com
 23.0.160.207	a1899.phobos.apple.com
 23.0.160.207	a1906.phobos.apple.com
-23.0.160.207	a1918.phobos.apple.com
 23.0.160.207	a1940.phobos.apple.com
 23.0.160.207	a1978.phobos.apple.com
 23.0.160.207	a226.phobos.apple.com
@@ -2372,7 +2373,6 @@ fe80::1%lo0	localhost
 23.0.160.208	a1376.phobos.apple.com
 23.0.160.208	a1408.phobos.apple.com
 23.0.160.208	a1413.phobos.apple.com
-23.0.160.208	a1443.phobos.apple.com
 23.0.160.208	a1455.phobos.apple.com
 23.0.160.208	a1478.phobos.apple.com
 23.0.160.208	a1493.phobos.apple.com
@@ -2874,23 +2874,21 @@ fe80::1%lo0	localhost
 23.0.160.25	oscdn.apple.com
 23.13.209.54	discussions.apple.com
 23.13.210.46	www.icloud.com
-23.15.8.200	a1464.phobos.apple.com
-23.15.8.200	a1968.phobos.apple.com
-23.15.8.203	a1851.phobos.apple.com
-23.15.8.208	a1012.phobos.apple.com
-23.15.8.208	a832.phobos.apple.com
-23.15.8.209	a1001.phobos.apple.com
-23.15.8.210	a613.phobos.apple.com
-23.15.8.216	a359.phobos.apple.com
+23.15.8.201	a607.phobos.apple.com
+23.15.8.203	a1101.phobos.apple.com
+23.15.8.209	a1799.phobos.apple.com
+23.15.8.210	a1856.phobos.apple.com
+23.15.8.211	a88.phobos.apple.com
+23.15.8.216	a660.phobos.apple.com
 23.15.8.217	a1682.phobos.apple.com
-23.15.8.217	a1934.phobos.apple.com
-23.15.8.219	a805.phobos.apple.com
-23.15.8.224	a1348.phobos.apple.com
-23.15.8.225	a172.phobos.apple.com
-23.15.8.225	a253.phobos.apple.com
-23.15.8.225	a792.phobos.apple.com
-23.15.8.226	a1269.phobos.apple.com
-23.15.8.227	a217.phobos.apple.com
+23.15.8.217	a6.phobos.apple.com
+23.15.8.219	a653.phobos.apple.com
+23.15.8.224	a1436.phobos.apple.com
+23.15.8.224	a386.phobos.apple.com
+23.15.8.225	a1884.phobos.apple.com
+23.15.8.226	a1629.phobos.apple.com
+23.15.8.227	a211.phobos.apple.com
+23.15.8.227	a564.phobos.apple.com
 23.15.8.81	trailers.apple.com
 23.62.236.161	a163.phobos.apple.com
 23.62.236.26	adcdownload.apple.com
@@ -2904,6 +2902,8 @@ fe80::1%lo0	localhost
 127.0.0.1 omsjf.cmgame.com
 127.0.0.1 test.service.ids111.com
 127.0.0.1 wap.life.nokia.com.cn
+127.0.0.1 connect.papayamobile.com
+127.0.0.1 uniview.wostore.cn
 #163
 127.0.0.1 g1.163.com
 127.0.0.1 g.163.com
@@ -2940,6 +2940,7 @@ fe80::1%lo0	localhost
 127.0.0.1 clkservice2.dict.youdao.com
 127.0.0.1 d.clkservice.youdao.com
 127.0.0.1 dsp.youdao.com
+127.0.0.1 dsp-impr.youdao.com
 127.0.0.1 feedback.youdao.com
 127.0.0.1 impservice.chnl.youdao.com
 127.0.0.1 impservice.dictapp.youdao.com
@@ -2952,8 +2953,10 @@ fe80::1%lo0	localhost
 127.0.0.1 tb060x.corp.youdao.com
 127.0.0.1 union.youdao.com
 127.0.0.1 adpublish.ydstatic.com
+127.0.0.1 oimagea3.ydstatic.com
 127.0.0.1 oimageb1.ydstatic.com
 127.0.0.1 oimageb2.ydstatic.com
+127.0.0.1 oimageb8.ydstatic.com
 #16kxs
 127.0.0.1 ad.16kxs.com
 127.0.0.1 wap10.16kxs.com
@@ -2991,6 +2994,7 @@ fe80::1%lo0	localhost
 127.0.0.1 q.leak.360.cn
 127.0.0.1 q.soft.360.cn
 127.0.0.1 qd.code.360.cn
+127.0.0.1 wan.360.cn
 127.0.0.1 qup.f.360.cn
 127.0.0.1 rd.360.cn
 127.0.0.1 s.360.cn
@@ -3011,11 +3015,15 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.3g.cn
 127.0.0.1 cache.3g.cn
 127.0.0.1 dmwap.payway.3g.cn
+127.0.0.1 ds.3g.cn
+127.0.0.1 game.3g.cn
+127.0.0.1 getgolog.3g.cn
 127.0.0.1 gostore.3g.cn
+127.0.0.1 goupdate.3g.cn
 127.0.0.1 imupdate.3g.cn
 127.0.0.1 launchermsg.3g.cn
 127.0.0.1 soft.3g.cn
-127.0.0.1 getgolog.3g.cn
+127.0.0.1 goappcenter.3g.net.cn
 #3gmimo
 127.0.0.1 product.3gmimo.com
 127.0.0.1 stage.3gmimo.com
@@ -3044,6 +3052,9 @@ fe80::1%lo0	localhost
 127.0.0.1 afp.acs86.com
 127.0.0.1 static.acs86.com
 127.0.0.1 tgb.acs86.com
+#Ad-stir
+127.0.0.1 ad.ad-stir.com
+127.0.0.1 js.ad-stir.com
 #Adchina
 127.0.0.1 mobile.adchina.com
 127.0.0.1 www.adchina.com
@@ -3179,12 +3190,13 @@ fe80::1%lo0	localhost
 127.0.0.1 hermes.airad.com
 127.0.0.1 www.airad.com
 #Airpush
+127.0.0.1 ads.adultmoda.com
 127.0.0.1 api.airpush.com
 127.0.0.1 apistaging.airpush.com
+127.0.0.1 appwall.api.airpush.com
 127.0.0.1 beta.airpush.com
 127.0.0.1 bugsense.appspot.com
 127.0.0.1 m.airpush.com
-127.0.0.1 ads.adultmoda.com
 127.0.0.1 ad.leadboltapps.net
 127.0.0.1 ad.leadbolt.net
 #AliAli
@@ -3196,6 +3208,7 @@ fe80::1%lo0	localhost
 127.0.0.1 tw.alimama.cn
 127.0.0.1 acookie.alimama.com
 127.0.0.1 banner.alimama.com
+127.0.0.1 c.alimama.com
 127.0.0.1 cpc.click.alimama.com
 127.0.0.1 gouwu.alimama.com
 127.0.0.1 log.mm.vip.cnz.alimama.com
@@ -3208,6 +3221,10 @@ fe80::1%lo0	localhost
 127.0.0.1 tms.taoke.alimama.com
 127.0.0.1 z.alimama.com
 127.0.0.1 www.alimama.com
+127.0.0.1 download.im.alisoft.com
+127.0.0.1 p3p.alisoft.com
+127.0.0.1 po.im.alisoft.com
+127.0.0.1 tj.alisoft.com
 127.0.0.1 acookie.alibaba.com
 127.0.0.1 cmweb.ilike.alibaba.com
 127.0.0.1 dmtracking.alibaba.com
@@ -3215,25 +3232,31 @@ fe80::1%lo0	localhost
 127.0.0.1 p3p.alibaba.com
 127.0.0.1 p4psearch.china.alibaba.com
 127.0.0.1 survey.china.alibaba.com
-127.0.0.1 www.tao123.com
-127.0.0.1 tao.etao.com
-127.0.0.1 strip.taobaocdn.com
-127.0.0.1 redirect.simba.taobao.com
 127.0.0.1 click.mz.simba.taobao.com
-127.0.0.1 click.tz.simba.taobao.com
 127.0.0.1 click.simba.taobao.com
-127.0.0.1 s.click.taobao.com
-127.0.0.1 s8.taobao.com
-127.0.0.1 s8.m.taobao.com
+127.0.0.1 click.tz.simba.taobao.com
 127.0.0.1 count.taobao.com
+127.0.0.1 dailyupdate.wangwang.taobao.com
+127.0.0.1 files.dailyupdate.wangwang.taobao.com
 127.0.0.1 haibao.huoban.taobao.com
+127.0.0.1 jc.wangwang.taobao.com
 127.0.0.1 pindao.huoban.taobao.com
+127.0.0.1 r.m.taobao.com
 127.0.0.1 re.taobao.com
+127.0.0.1 redirect.simba.taobao.com
+127.0.0.1 s.click.taobao.com
+127.0.0.1 s8.m.taobao.com
+127.0.0.1 s8.taobao.com
 127.0.0.1 search8.taobao.com
 127.0.0.1 stat.simba.taobao.com
 127.0.0.1 textlink.simba.taobao.com
+127.0.0.1 www.tao123.com
+127.0.0.1 img.im.alicdn.com
+127.0.0.1 tao.etao.com
+127.0.0.1 strip.taobaocdn.com
 127.0.0.1 count.tbcdn.cn
 127.0.0.1 taourl.com
+127.0.0.1 cdn.mmstat.com
 127.0.0.1 cnzz.mmstat.com
 127.0.0.1 hz.mmstat.com
 127.0.0.1 p3p.mmstat.com
@@ -3245,9 +3268,12 @@ fe80::1%lo0	localhost
 127.0.0.1 taobaoafp.allyes.cn
 127.0.0.1 taobaoafp.allyes.com
 127.0.0.1 img.uu1001.cn
+127.0.0.1 acookie.tanx.com
 127.0.0.1 cdn.tanx.com
 127.0.0.1 click.tanx.com
+127.0.0.1 ex.tanx.com
 127.0.0.1 p.tanx.com
+127.0.0.1 toruk.tanx.com
 127.0.0.1 union.tanx.com
 127.0.0.1 img.mmcdn.cn
 127.0.0.1 i.mmcdn.cn
@@ -3279,6 +3305,11 @@ fe80::1%lo0	localhost
 127.0.0.1 appdriver.tw
 127.0.0.1 sandbox.appdriver.cn
 127.0.0.1 sandbox.appdriver.tw
+#Appnav
+127.0.0.1 appnav.cn
+127.0.0.1 download.appnav.cn
+127.0.0.1 fe.appnav.cn
+127.0.0.1 www.appnav.cn
 #Appintent
 127.0.0.1 www.appintent.com
 127.0.0.1 mogo.appintent.com
@@ -3315,6 +3346,7 @@ fe80::1%lo0	localhost
 127.0.0.1 bar.baidu.com
 127.0.0.1 bdimg.share.baidu.com
 127.0.0.1 br.bmbs.baidu.com
+127.0.0.1 bs.baidu.com
 127.0.0.1 c.baidu.com
 127.0.0.1 cb.baidu.com
 127.0.0.1 cbjs.baidu.com
@@ -3326,11 +3358,13 @@ fe80::1%lo0	localhost
 127.0.0.1 dl.client.baidu.com
 127.0.0.1 drmcmm.baidu.com
 127.0.0.1 duiwai.baidu.com
+127.0.0.1 duokoo.baidu.com
 127.0.0.1 dzl.baidu.com
 127.0.0.1 e.baidu.com
 127.0.0.1 eclick.baidu.com
 127.0.0.1 eiv.baidu.com
 127.0.0.1 fclick.baidu.com
+127.0.0.1 gdown.baidu.com
 127.0.0.1 gimg.baidu.com
 127.0.0.1 guanjia.baidu.com
 127.0.0.1 hc.baidu.com
@@ -3352,6 +3386,7 @@ fe80::1%lo0	localhost
 127.0.0.1 pos.baidu.com
 127.0.0.1 s.baidu.com
 127.0.0.1 sclick.baidu.com
+127.0.0.1 share.baidu.com
 127.0.0.1 sobar.baidu.com
 127.0.0.1 sobartop.baidu.com
 127.0.0.1 spcode.baidu.com
@@ -3368,6 +3403,7 @@ fe80::1%lo0	localhost
 127.0.0.1 utk.baidu.com
 127.0.0.1 wangmeng.baidu.com
 127.0.0.1 wm.baidu.com
+127.0.0.1 youxi.baidu.com
 127.0.0.1 www.hao123.com
 127.0.0.1 agentchannel.api.duapp.com
 127.0.0.1 channel.api.duapp.com
@@ -3410,6 +3446,11 @@ fe80::1%lo0	localhost
 127.0.0.1 api.push.daoyoudao.com
 127.0.0.1 d.push.daoyoudao.com
 127.0.0.1 www.daoyoudao.com
+#d.cn
+127.0.0.1 3g.d.cn
+127.0.0.1 a.d.cn
+127.0.0.1 res5.d.cn
+127.0.0.1 x.d.cn
 #D.M
 127.0.0.1 apk.91demi.com
 127.0.0.1 hz.91demi.com
@@ -3425,6 +3466,7 @@ fe80::1%lo0	localhost
 127.0.0.1 a.dianjoy.com
 127.0.0.1 www.dianjoy.com
 127.0.0.1 trjoy.dnion.com
+127.0.0.1 dnion-cdn.dianjoy.com
 127.0.0.1 www.dnion.com
 #Domob
 127.0.0.1 api.domob.cn
@@ -3464,14 +3506,16 @@ fe80::1%lo0	localhost
 #eTouch
 127.0.0.1 marketing.etouch.cn
 127.0.0.1 static.etouch.cn
+127.0.0.1 pcstats.suishenyun.net
+127.0.0.1 test.zhwnl.cn
 #Flurry
 127.0.0.1 ad.flurry.com
 127.0.0.1 adlog.flurry.com
 127.0.0.1 ads.flurry.com
 127.0.0.1 data.flurry.com
+127.0.0.1 flurry.cachefly.net
 127.0.0.1 flurry.com
 127.0.0.1 www.flurry.com
-127.0.0.1 flurry.cachefly.net
 #Finedroidads
 127.0.0.1 api2.finedroidads.com
 #Gfan
@@ -3750,6 +3794,15 @@ fe80::1%lo0	localhost
 127.0.0.1 cus.himogo.com
 127.0.0.1 imp.himogo.com
 127.0.0.1 req.himogo.com
+#ipinyou
+127.0.0.1 cm.ipinyou.com
+127.0.0.1 file.ipinyou.com.cn
+127.0.0.1 ipinyou.com
+127.0.0.1 optimus.ipinyou.com
+127.0.0.1 s.ipinyou.com
+127.0.0.1 stats.ipinyou.com
+127.0.0.1 www.ipinyou.com
+127.0.0.1 www.ipinyou.com.cn
 #ijinshan
 127.0.0.1 api.client.iciba.com
 127.0.0.1 app.sjk.ijinshan.com
@@ -3845,16 +3898,18 @@ fe80::1%lo0	localhost
 127.0.0.1 show.lsense.cn
 127.0.0.1 lsense.cn
 127.0.0.1 www.lsense.cn
-#Madhouse
-127.0.0.1 www.madhouse.cn
 #M2lux
 127.0.0.1 minisite.m2lux.com
 127.0.0.1 sg.m2lux.com
 127.0.0.1 www.m2lux.com
+#Madhouse
+127.0.0.1 www.madhouse.cn
 #Mgogo
 127.0.0.1 m1.mgogo.com
 127.0.0.1 m.mgogo.com
 127.0.0.1 www.mgogo.com
+#Mobile1
+127.0.0.1 track.mobile1.com.cn
 #Mobcent
 127.0.0.1 sdk.mobcent.com
 127.0.0.1 img.mobcent.com
@@ -4015,6 +4070,7 @@ fe80::1%lo0	localhost
 127.0.0.1 c.l.qq.com
 127.0.0.1 cb.l.qq.com
 127.0.0.1 c2.l.qq.com
+127.0.0.1 cm.l.qq.com
 127.0.0.1 caclick.qq.com
 127.0.0.1 dmtrack.buy.qq.com
 127.0.0.1 dp3.qq.com
@@ -4066,6 +4122,10 @@ fe80::1%lo0	localhost
 127.0.0.1 toolbar.soso.com
 127.0.0.1 union.soso.com
 127.0.0.1 v3.toolbar.soso.com
+#Qumi
+127.0.0.1 apt.qumi.com
+127.0.0.1 exp.qumi.com
+127.0.0.1 www.qumi.com
 #Rovio
 127.0.0.1 cloud.rovio.com
 127.0.0.1 news-assets.rovio.com
@@ -4073,6 +4133,7 @@ fe80::1%lo0	localhost
 127.0.0.1 community.scoreloop.com
 127.0.0.1 p.scoreloop.com
 #Sina
+127.0.0.1 game.weibo.cn
 127.0.0.1 alitui.weibo.com
 127.0.0.1 biz.weibo.com
 127.0.0.1 c.biz.weibo.com
@@ -4081,6 +4142,9 @@ fe80::1%lo0	localhost
 127.0.0.1 admatch.sina.com.cn
 127.0.0.1 app.sina.com.cn
 127.0.0.1 api.apps.sina.cn
+127.0.0.1 down.sina.cn
+127.0.0.1 market.sina.cn
+127.0.0.1 site.proc.sina.cn
 127.0.0.1 adimg.mobile.sina.cn
 127.0.0.1 wbapp.mobile.sina.cn
 127.0.0.1 wbclick.mobile.sina.cn
@@ -4089,6 +4153,7 @@ fe80::1%lo0	localhost
 127.0.0.1 8.show.sina.com.cn
 127.0.0.1 ad3.sina.com.cn
 127.0.0.1 ad4.sina.com.cn
+127.0.0.1 ad4.sina.com
 127.0.0.1 beacon.sina.com.cn
 127.0.0.1 bf.sina.com.cn
 127.0.0.1 cl.sina.com.cn
@@ -4199,6 +4264,7 @@ fe80::1%lo0	localhost
 127.0.0.1 f10.smaato.net
 127.0.0.1 soma.smaato.net
 #Sohu
+127.0.0.1 3rd.t.sohu.com
 127.0.0.1 atyt.tv.sohu.com
 127.0.0.1 p.aty.sohu.com
 127.0.0.1 ad.mail.sohu.com
@@ -4291,11 +4357,17 @@ fe80::1%lo0	localhost
 #UCWeb
 127.0.0.1 adsclick.uc123.com
 127.0.0.1 ads1.uc.cn
-127.0.0.1 down2.uc.cn
-127.0.0.1 down1.app.uc.cn
 127.0.0.1 adsclick.uc.cn
+127.0.0.1 adslot.uc.cn
+127.0.0.1 down1.app.uc.cn
+127.0.0.1 down2.uc.cn
+127.0.0.1 image.game.uc.cn
+127.0.0.1 m.app.uc.cn
+127.0.0.1 mat.ads.uc.cn
+127.0.0.1 s1.app.uc.cn
 127.0.0.1 sdk.g.uc.cn
 127.0.0.1 sdk.test4.g.uc.cn
+127.0.0.1 tz.m.app.uc.cn
 127.0.0.1 ads1.ucweb.com
 127.0.0.1 down2.ucweb.com
 127.0.0.1 uc.ucweb.com
@@ -4303,14 +4375,15 @@ fe80::1%lo0	localhost
 127.0.0.1 wap.tj.ucweb.com
 127.0.0.1 wap.ycwb.com
 #Umeng
-127.0.0.1 www.umeng.co
-127.0.0.1 ex.umengcloud.com
 127.0.0.1 alog.umeng.co
 127.0.0.1 alog.umeng.com
 127.0.0.1 au.umeng.co
 127.0.0.1 au.umeng.com
+127.0.0.1 ex.umengcloud.com
+127.0.0.1 feedback.umeng.com
 127.0.0.1 oc.umeng.co
 127.0.0.1 oc.umeng.com
+127.0.0.1 www.umeng.co
 127.0.0.1 www.umeng.com
 127.0.0.1 ex.mobmore.com
 127.0.0.1 ex.puata.info
@@ -4408,6 +4481,9 @@ fe80::1%lo0	localhost
 127.0.0.1 wooboo.com.cn
 127.0.0.1 www.wooboo.com.cn
 127.0.0.1 www1.wooboo.com.cn
+#Xageek
+127.0.0.1 stat.xageek.com
+127.0.0.1 msg.xageek.com
 #xinmei365
 127.0.0.1 cdn.xinmei365.com
 #Yijifen
@@ -4429,16 +4505,28 @@ fe80::1%lo0	localhost
 127.0.0.1 cnota.cn
 127.0.0.1 cx.360doo.com
 127.0.0.1 m.ymapp.com
+127.0.0.1 w.ymapp.com
+#Yoyi
+127.0.0.1 t.d.yoyi.tv
+127.0.0.1 t.rc.yoyi.com.cn
+127.0.0.1 t.rs.yoyi.com.cn
+127.0.0.1 yoyi.com.cn
+127.0.0.1 www.yoyi.com.cn
 #Zestadz
 127.0.0.1 a.zestadz.com
 127.0.0.1 assets.zestadz.com
 127.0.0.1 www.zestadz.com
 #Zdworks
-127.0.0.1 clock.stat.zdworks.com
-127.0.0.1 clock.stat2.zdworks.com
+127.0.0.1 cal.report2.zdworks.com
 127.0.0.1 cal.stat.zdworks.com
 127.0.0.1 cal.stat2.zdworks.com
+127.0.0.1 clock.stat.zdworks.com
+127.0.0.1 clock.stat2.zdworks.com
+127.0.0.1 live.zdworks.com
+127.0.0.1 networkimage.zdworks.com
+127.0.0.1 ws.zdworks.com
 127.0.0.1 zpns.zdworks.com
+127.0.0.1 zrs.zdworks.com
 #Gametower
 127.0.0.1 ad.gametower.com.tw
 #Yunyoyo
@@ -4447,6 +4535,8 @@ fe80::1%lo0	localhost
 127.0.0.1 push.yunyoyo.cn
 127.0.0.1 service.yunyoyo.cn
 127.0.0.1 statistics.yunyoyo.cn
+#Yicha
+127.0.0.1 adsmart.yicha.cn
 #GmaeStatM
 127.0.0.1 charge.51mrp.com
 127.0.0.1 gamepie.g188.net
@@ -4461,67 +4551,84 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.camera360.us
 127.0.0.1 ads.feelingtouch.com
 #WapSite
+123.0.0.1 inapppurchase.ollehmarket.com
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
 127.0.0.1 5151you.com
 127.0.0.1 ad-locus.com
-127.0.0.1 ads.1mobile.com
 127.0.0.1 ad.belugaboost.com
+127.0.0.1 ad.flipboard.com
 127.0.0.1 ad.jiemai-tech.com
 127.0.0.1 ad.leadboltads.net
 127.0.0.1 ad.where.com
 127.0.0.1 ad.zhekouku.cn
 127.0.0.1 ad.zhidian3g.cn
+127.0.0.1 ad2.nend.net
 127.0.0.1 adimg3.search.naver.net
+127.0.0.1 ads.1mobile.com
 127.0.0.1 ads.admarvel.com
+127.0.0.1 ads.chompsms.com
 127.0.0.1 ads.mopub.com
 127.0.0.1 ads.n-ws.org
 127.0.0.1 ads.namiflow.com
 127.0.0.1 ads.smartdevicemedia.com
+127.0.0.1 ads.textra.me
 127.0.0.1 ads.xlxtra.com
 127.0.0.1 ads2.greystripe.com
 127.0.0.1 adserver.ubiyoo.com
 127.0.0.1 adsx.greystripe.com
 127.0.0.1 adultmoda.com
 127.0.0.1 analytics.localytics.com
+127.0.0.1 analytics.quarksgames.com
 127.0.0.1 android.bcfads.com
 127.0.0.1 api.c.moxiu.com
 127.0.0.1 api.yp.com
 127.0.0.1 api.zhaimob.com
 127.0.0.1 apitest.baoruan.com
+127.0.0.1 app.domobile.com
 127.0.0.1 app.feeliu.com
 127.0.0.1 appsrv1.mdn2.net
 127.0.0.1 assets.cntdy.mobi
 127.0.0.1 b.zhangshanghui.com
+127.0.0.1 bigfile-ws.static.17c.cn
 127.0.0.1 bos.ads0.nexage.com
 127.0.0.1 c753738.r38.cf2.rackcdn.com
 127.0.0.1 cdn.celtra.com
 127.0.0.1 cdn.ons.ms
 127.0.0.1 cdn.vdopia.com
+127.0.0.1 cdn.youhui.cn
+127.0.0.1 cf.doublemax.net
 127.0.0.1 chinaron.8866.org
 127.0.0.1 client.azrj.cn
 127.0.0.1 content.mobango.com
 127.0.0.1 coolcode.org
 127.0.0.1 coop.down.ishuaji.cn
+127.0.0.1 counter.d.delivery45.com
 127.0.0.1 crowdin.net
 127.0.0.1 d.zqlx.com
+127.0.0.1 data.appflood.com
 127.0.0.1 dev.adtouchnetwork.net
 127.0.0.1 dev.mediafriendsinc.com
 127.0.0.1 dev.say-on.net
 127.0.0.1 display-img.g.atti.com
 127.0.0.1 dl.91rb.com
+127.0.0.1 dmj.dianpufa.com
 127.0.0.1 droidresource.s3.amazonaws.com
 127.0.0.1 edge.reporo.net
 127.0.0.1 em.kongzhong.com
+127.0.0.1 f.aduwant.com
 127.0.0.1 feed.uu.cc
 127.0.0.1 file.aiplay.com.cn
 127.0.0.1 file.bmob.cn
 127.0.0.1 gyswad.com
 127.0.0.1 hi.fywap.com
+127.0.0.1 hk.ads.rrgdata.com
+127.0.0.1 hodosdk.hodomobile.com
 127.0.0.1 hot.icittys.com
 127.0.0.1 i.tapit.com
 127.0.0.1 images.mpression.net
 127.0.0.1 img.ads.taptapnetworks.com
+127.0.0.1 img.zhtao.cn
 127.0.0.1 index.sosohaha.com
 127.0.0.1 jmplead.com
 127.0.0.1 karmicapps.com
@@ -4532,6 +4639,8 @@ fe80::1%lo0	localhost
 127.0.0.1 m.millennialmedia.com
 127.0.0.1 media.motrixi.com
 127.0.0.1 medrx.sensis.com.au
+127.0.0.1 mf.clickforce.com.tw
+127.0.0.1 mizhuan.b0.upaiyun.com
 127.0.0.1 mmedia.com
 127.0.0.1 moreapps.droidhen.com
 127.0.0.1 mpro.e.shifen.com
@@ -4546,7 +4655,6 @@ fe80::1%lo0	localhost
 127.0.0.1 promev3-web.hyxencloud.com
 127.0.0.1 proxy.youdraw.cn
 127.0.0.1 qingp.com
-127.0.0.1 res5.d.cn
 127.0.0.1 revmob.com
 127.0.0.1 rs-staticart.ybcdn.net
 127.0.0.1 s.com2us.net
@@ -4554,11 +4662,16 @@ fe80::1%lo0	localhost
 127.0.0.1 sdk1.itracker.cn
 127.0.0.1 server.pickwifi.com
 127.0.0.1 static.moreadexchange.com
+127.0.0.1 stats.aokp.co
+127.0.0.1 sy-cdnres.unionsy.com
+127.0.0.1 update.estrongs.com
+127.0.0.1 update.m.jj.cn
 127.0.0.1 upyun.cocimg.com
 127.0.0.1 w.sandbox.mkhoj.com
 127.0.0.1 wanpu.com
 127.0.0.1 wap.cellufun.com
 127.0.0.1 wifi01.51y5.com
+127.0.0.1 www.adtilt.com
 127.0.0.1 www.adtouchnetwork.com
 127.0.0.1 www.anadmob.net
 127.0.0.1 www.apperhand.com
@@ -4578,10 +4691,10 @@ fe80::1%lo0	localhost
 127.0.0.1 www.spjoy.com
 127.0.0.1 www.startappexchange.com
 127.0.0.1 www.stickylogic.com
-127.0.0.1 www.wigglestatic.com
 127.0.0.1 www.yoyoegg.com
 127.0.0.1 www.zhesm.com
 127.0.0.1 yjsxjh.duapp.com
+127.0.0.1 ytaow.cn
 @Shield Game Active
 #Assassin's Creed
 127.0.0.1 onlineconfigservice.ubi.com
@@ -4639,6 +4752,7 @@ fe80::1%lo0	localhost
 127.0.0.1 hl2rcv.adobe.com
 127.0.0.1 lm.licenses.adobe.com
 127.0.0.1 lmlicenses.wip4.adobe.com
+127.0.0.1 mobiledl.adobe.com
 127.0.0.1 practivate.adobe.com
 127.0.0.1 wip.adobe.com
 127.0.0.1 wip3.adobe.com
@@ -4829,13 +4943,6 @@ fe80::1%lo0	localhost
 127.0.0.1 imgl.fetionpic.com
 127.0.0.1 minisite.fetionpic.com
 127.0.0.1 minisite0.fetionpic.com
-#AliWangWang
-127.0.0.1 jc.wangwang.taobao.com
-127.0.0.1 p3p.alisoft.com
-127.0.0.1 po.im.alisoft.com
-127.0.0.1 download.im.alisoft.com
-127.0.0.1 dailyupdate.wangwang.taobao.com
-127.0.0.1 files.dailyupdate.wangwang.taobao.com
 #Hotspot Shield
 127.0.0.1 rss2search.com
 127.0.0.1 box.anchorfree.net
@@ -4860,10 +4967,13 @@ fe80::1%lo0	localhost
 127.0.0.1 ttpack.qianqian.com
 #Maxthon
 127.0.0.1 mk.maxthon.cn
-127.0.0.1 stats-a.maxthon.cn
+127.0.0.1 stat-c.maxthon.com
 127.0.0.1 stat-w.maxthon.com
 127.0.0.1 stat.maxthon.com
 127.0.0.1 statcn-c.maxthon.com
+127.0.0.1 stats-a.maxthon.cn
+127.0.0.1 stats-w.maxthon.com
+127.0.0.1 g.dcs.maxthon.com
 127.0.0.1 www.007.mx
 #Micronichefinder
 127.0.0.1 www.micronichefinder.com
@@ -5178,6 +5288,8 @@ fe80::1%lo0	localhost
 127.0.0.1 rcm-images.amazon.com
 127.0.0.1 rcm.amazon.com
 127.0.0.1 rcm-cn.amazon.cn
+127.0.0.1 mads.amazon.com
+127.0.0.1 g-ecx.images-amazon.com
 #Ap.org
 127.0.0.1 ads.mm.ap.org
 127.0.0.1 oascentral.hosted.ap.org
@@ -5589,8 +5701,6 @@ fe80::1%lo0	localhost
 127.0.0.1 pv.zhulang.com
 127.0.0.1 tl.zhulang.com
 127.0.0.1 sjqk.zhulang.com
-#Faloo
-127.0.0.1 s.faloo.com
 #SXcnw
 127.0.0.1 dm.sxcnw.net
 #ZongHeng
@@ -5607,6 +5717,36 @@ fe80::1%lo0	localhost
 127.0.0.1 stat.readnovel.com
 #XNTK
 127.0.0.1 b.xntk.com
+@Sites-China/Shopping
+#360buy
+127.0.0.1 xn--www-t03bf9527b12al00bwqf.360buy.com
+127.0.0.1 c.fa.jd.com
+127.0.0.1 union.m.jd.com
+127.0.0.1 c.fa.360buy.com
+127.0.0.1 click.union.360buy.com
+127.0.0.1 show.union.360buy.com
+127.0.0.1 union.360buy.com
+#Dangdang
+127.0.0.1 a.dangdang.com
+127.0.0.1 central.dangdang.com
+127.0.0.1 union.dangdang.com
+#SuNing
+127.0.0.1 union.suning.com
+#YinTai
+127.0.0.1 cps.yintai.com
+#Yihaodian
+127.0.0.1 union.yihaodian.com
+#51Buy
+127.0.0.1 stat.51buy.com
+#MeiTuan
+127.0.0.1 r.union.meituan.com
+#Vancl
+127.0.0.1 union.vancl.com
+#moonbasa
+127.0.0.1 click.moonbasa.com
+127.0.0.1 static.moonbasa.com
+#Taojifen
+127.0.0.1 ad.taojifen.net
 @Sites-China/News
 #XinHua
 127.0.0.1 adcenter.xinhuanet.com
@@ -5619,8 +5759,10 @@ fe80::1%lo0	localhost
 127.0.0.1 bc.ifeng.com
 127.0.0.1 g.ifeng.com
 127.0.0.1 mfp.deliver.ifeng.com
+127.0.0.1 dolphin.deliver.ifeng.com
 127.0.0.1 online.3g.ifeng.com
 127.0.0.1 sta.ifeng.com
+127.0.0.1 games.ifeng.com
 127.0.0.1 sta.play.ifeng.com
 127.0.0.1 stadig.ifeng.com
 127.0.0.1 survey.news.ifeng.com
@@ -5795,33 +5937,6 @@ fe80::1%lo0	localhost
 127.0.0.1 adc.yupoo.com
 #Nphoto
 127.0.0.1 util.nphoto.net
-@Sites-China/Shopping
-#360buy
-127.0.0.1 c.fa.360buy.com
-127.0.0.1 click.union.360buy.com
-127.0.0.1 show.union.360buy.com
-127.0.0.1 union.360buy.com
-#Dangdang
-127.0.0.1 a.dangdang.com
-127.0.0.1 central.dangdang.com
-127.0.0.1 union.dangdang.com
-#SuNing
-127.0.0.1 union.suning.com
-#YinTai
-127.0.0.1 cps.yintai.com
-#51Buy
-127.0.0.1 stat.51buy.com
-#MeiTuan
-127.0.0.1 r.union.meituan.com
-#Vancl
-127.0.0.1 union.vancl.com
-#moonbasa
-127.0.0.1 click.moonbasa.com
-127.0.0.1 static.moonbasa.com
-#jdunion
-127.0.0.1 pic.jdunion.com
-#Taojifen
-127.0.0.1 ad.taojifen.net
 @Sites-China/IT
 #PcHome
 127.0.0.1 ad.adver.com.tw
@@ -6008,6 +6123,8 @@ fe80::1%lo0	localhost
 127.0.0.1 app-g.39.net
 127.0.0.1 dpvc.39.net
 127.0.0.1 39net.datamaster.com.cn
+#jdunion
+127.0.0.1 pic.jdunion.com
 #XYWY
 127.0.0.1 gg.xywy.com
 #TuNiu
@@ -6215,6 +6332,7 @@ fe80::1%lo0	localhost
 127.0.0.1 hz.lstat.youku.com
 127.0.0.1 l.youku.com
 127.0.0.1 lstat.youku.com
+127.0.0.1 mf.atm.youku.com
 127.0.0.1 nc.youku.com
 127.0.0.1 notice.youku.com
 127.0.0.1 passport-log.youku.com
@@ -6460,6 +6578,7 @@ fe80::1%lo0	localhost
 127.0.0.1 clientclick.tv002.com
 #XunLei
 127.0.0.1 adcount.sandai.net
+127.0.0.1 alarm.xl7.sandai.net
 127.0.0.1 analytics-union.sandai.net
 127.0.0.1 biz4.sandai.net
 127.0.0.1 biz5.sandai.net
@@ -6487,15 +6606,18 @@ fe80::1%lo0	localhost
 127.0.0.1 logictest.cpm.cm.sandai.net
 127.0.0.1 master.dphub.sandai.net
 127.0.0.1 mcfg.sandai.net
+127.0.0.1 mediapv.sandai.net
 127.0.0.1 mpv.sandai.net
 127.0.0.1 pmap.sandai.net
 127.0.0.1 pubstat.sandai.net
 127.0.0.1 pv.cm.sandai.net
 127.0.0.1 ub.dphub.sandai.net
 127.0.0.1 vodsts.sandai.net
+127.0.0.1 wapstat.wap.sandai.net
 127.0.0.1 server1.adpolestar.net
 127.0.0.1 advstat.xunlei.com
 127.0.0.1 analytics-union.xunlei.com
+127.0.0.1 areainfo.xunlei.com
 127.0.0.1 cl.kankan.xunlei.com
 127.0.0.1 client.stat.xunlei.com
 127.0.0.1 cop.my.xunlei.com
@@ -6507,9 +6629,12 @@ fe80::1%lo0	localhost
 127.0.0.1 leiyanstatic.xunlei.com
 127.0.0.1 mediapv.xunlei.com
 127.0.0.1 p4pstatic.xunlei.com
+127.0.0.1 pgv.m.xunlei.com
 127.0.0.1 pv.kankan.stat.xunlei.com
 127.0.0.1 recommend.xunlei.com
 127.0.0.1 record.kuai.xunlei.com
+127.0.0.1 res.stat.xunlei.com
+127.0.0.1 stat.download.xunlei.com
 127.0.0.1 stat.xunlei.com
 127.0.0.1 static.soft.xunlei.com
 127.0.0.1 statis.kankan.xunlei.com
@@ -6517,19 +6642,18 @@ fe80::1%lo0	localhost
 127.0.0.1 thunderqtypv.union.xunlei.com
 127.0.0.1 tips.xmp.kankan.xunlei.com
 127.0.0.1 tj.xunlei.com
+127.0.0.1 tracker.movie.xunlei.com
 127.0.0.1 union.xunlei.com
 127.0.0.1 web.stat.xunlei.com
 127.0.0.1 websts.xunlei.com
+127.0.0.1 wp.stat.xunlei.com
 127.0.0.1 wy.xunlei.com
 127.0.0.1 xmlconf.client.xunlei.com
 127.0.0.1 s.gougou.com
 127.0.0.1 un.so.gougou.com
+
+
 127.0.0.1 www.155.com
-127.0.0.1 wp.stat.xunlei.com
-127.0.0.1 areainfo.xunlei.com
-127.0.0.1 res.stat.xunlei.com
-127.0.0.1 stat.download.xunlei.com
-127.0.0.1 tracker.movie.xunlei.com
 127.0.0.1 20130601.biz5.sandai.net 
 127.0.0.1 20130601.logic.cpm.cm.sandai.net 
 127.0.0.1 20130602.biz5.sandai.net 
@@ -7727,6 +7851,13 @@ fe80::1%lo0	localhost
 #Ad4game
 127.0.0.1 ads.ad4game.com
 127.0.0.1 cdn.ad4game.com
+#adv-adserver
+127.0.0.1 adv-adserver.com
+127.0.0.1 www.adv-adserver.com
+127.0.0.1 www1.adv-adserver.com
+127.0.0.1 www3.adv-adserver.com
+127.0.0.1 www2.adv-adserver.com
+127.0.0.1 www4.adv-adserver.com
 #Atdmt
 127.0.0.1 analytics.atdmt.com
 127.0.0.1 api.atdmt.com
@@ -12217,6 +12348,8 @@ fe80::1%lo0	localhost
 127.0.0.1 ps.ads-omg.net
 127.0.0.1 server.iad.liveperson.net
 127.0.0.1 ad.directrev.com
+127.0.0.1 www.adversalservers.com
+127.0.0.1 go.adversal.com
 @AdUnion-CN
 #01lm
 127.0.0.1 ads.01lm.com
@@ -12282,6 +12415,7 @@ fe80::1%lo0	localhost
 127.0.0.1 f4.1lo0.net
 127.0.0.1 f5.1lo0.net
 127.0.0.1 f6.1lo0.net
+127.0.0.1 91.1lo0.net
 127.0.0.1 p1.1lo0.net
 127.0.0.1 p2.1lo0.net
 127.0.0.1 p3.1lo0.net
@@ -12556,9 +12690,13 @@ fe80::1%lo0	localhost
 127.0.0.1 gfyoyo.adpolestar.net
 127.0.0.1 www.adpolestar.net
 127.0.0.1 as.kejet.com
+127.0.0.1 aw.kejet.net
 127.0.0.1 code.kejet.com
 127.0.0.1 dmacore.kejet.com
+127.0.0.1 dmacore.kejet.net
 127.0.0.1 kejet.com
+127.0.0.1 kejet.net
+127.0.0.1 m.kejet.net
 127.0.0.1 www.kejet.com
 #ADPower
 127.0.0.1 216.adpower.cn
@@ -12650,6 +12788,7 @@ fe80::1%lo0	localhost
 127.0.0.1 tp.ads80.com
 127.0.0.1 www.ads80.com
 #AdSame
+127.0.0.1 cp.adsame.com
 127.0.0.1 0127.adsame.com
 127.0.0.1 114study.adsame.com
 127.0.0.1 1haoeagle.adsame.com
@@ -13099,6 +13238,7 @@ fe80::1%lo0	localhost
 127.0.0.1 iuc.cnzz.com
 127.0.0.1 jiaoliu.cnzz.com
 127.0.0.1 js.adm.cnzz.net
+127.0.0.1 s.adm.cnzz.net
 127.0.0.1 ku6.cnzz.com
 127.0.0.1 liuyan.cnzz.com
 127.0.0.1 mail.cnzz.com
@@ -13120,6 +13260,7 @@ fe80::1%lo0	localhost
 127.0.0.1 quanjing.cnzz.com
 127.0.0.1 rd.cnzz.com
 127.0.0.1 rd1.cnzz.com
+127.0.0.1 s.cnzz.net
 127.0.0.1 s1.cnzz.com
 127.0.0.1 s10.cnzz.com
 127.0.0.1 s100.cnzz.com
@@ -13352,6 +13493,7 @@ fe80::1%lo0	localhost
 127.0.0.1 monitor.yigao.com
 127.0.0.1 p.yigao.com
 127.0.0.1 www.emar.com.cn
+127.0.0.1 eavs02.eqifa.com
 #Feitian
 127.0.0.1 img.feitian001.com
 127.0.0.1 www.feitian001.com
@@ -13536,6 +13678,7 @@ fe80::1%lo0	localhost
 127.0.0.1 mayi.maxreturn.cn
 127.0.0.1 www.maxreturn.cn
 #Mediav
+127.0.0.1 ckmap.mediav.com
 127.0.0.1 click.mediav.com
 127.0.0.1 material.mediav.com
 127.0.0.1 pui.mediav.com
@@ -13551,10 +13694,14 @@ fe80::1%lo0	localhost
 127.0.0.1 mimiduo.com
 127.0.0.1 union.mimiduo.com
 #Millwardbrownacsr
+127.0.0.1 js.miaozhen.com
+127.0.0.1 mse.mbm.cn.miaozhen.com
+127.0.0.1 msg.mbm.cn.miaozhen.com
 127.0.0.1 360buy.a.miaozhen.com
 127.0.0.1 a.cn.miaozhen.com
 127.0.0.1 a.miaozhen.com
 127.0.0.1 d.miaozhen.com
+127.0.0.1 e.mbm.cn.miaozhen.com
 127.0.0.1 e.cn.miaozhen.com
 127.0.0.1 e.miaozhen.com
 127.0.0.1 g.cn.miaozhen.com
@@ -14274,6 +14421,8 @@ fe80::1%lo0	localhost
 127.0.0.1 117.79.236.113
 @Sites Block
 #VirusDown
+127.0.0.1 51yuni.com
+127.0.0.1 www.dshu.cc
 127.0.0.1 www.baxue.com
 127.0.0.1 www.200237.com
 127.0.0.1 www.106309.com
@@ -14412,6 +14561,17 @@ fe80::1%lo0	localhost
 127.0.0.1 www.uibia.com
 127.0.0.1 download.wuji.com
 #Phishing Sites
+127.0.0.1 www.114rm.com
+127.0.0.1 lshh.tk
+127.0.0.1 www.dolls360.com
+127.0.0.1 app.getresponse.com
+127.0.0.1 www.getresponse.com
+127.0.0.1 aq.qq.servcice.coldfaca.asia
+127.0.0.1 sdn.kugou.com
+127.0.0.1 www.pnjc.cn
+127.0.0.1 www.whwjjc.com
+127.0.0.1 ck.n.sibye.com
+127.0.0.1 ctx.n.sibye.com
 127.0.0.1 j1.cosedm.com
 127.0.0.1 cs.ljzbjc.com
 127.0.0.1 shipin1.yezhao.com
@@ -17830,3 +17990,22 @@ fe80::1%lo0	localhost
 127.0.0.1 t.dichan001.com
 127.0.0.1 mini.37zone.com
 127.0.0.1 gamead.kedou.com
+127.0.0.1 f.ajhdf.com
+127.0.0.1 www.xhn743.com
+127.0.0.1 nirath.r.haizhangs.com
+127.0.0.1 go.hxcdn.net
+127.0.0.1 xyx.2g.cn
+127.0.0.1 01ol.ee4kdushuba.com
+127.0.0.1 www.d1ad.com
+127.0.0.1 tj.u17t.com
+127.0.0.1 88.198game.com
+127.0.0.1 wanhui.17318.cn
+127.0.0.1 zq.91url.com
+127.0.0.1 nl.tg.theooxx.com
+127.0.0.1 www.taobao.com
+127.0.0.1 tg.6fan.com
+127.0.0.1 ad.ad8ad.com
+127.0.0.1 y.taolai.cn
+127.0.0.1 www.feizhou.net
+127.0.0.1 u.x-push.net
+127.0.0.1 text.dotmore.cn

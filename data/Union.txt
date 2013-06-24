@@ -1133,6 +1133,13 @@
 #Ad4game
 0.0.0.0 ads.ad4game.com
 0.0.0.0 cdn.ad4game.com
+#adv-adserver
+0.0.0.0 adv-adserver.com
+0.0.0.0 www.adv-adserver.com
+0.0.0.0 www1.adv-adserver.com
+0.0.0.0 www3.adv-adserver.com
+0.0.0.0 www2.adv-adserver.com
+0.0.0.0 www4.adv-adserver.com
 #Atdmt
 0.0.0.0 analytics.atdmt.com
 0.0.0.0 api.atdmt.com
@@ -5623,3 +5630,5 @@
 0.0.0.0 ps.ads-omg.net
 0.0.0.0 server.iad.liveperson.net
 0.0.0.0 ad.directrev.com
+0.0.0.0 www.adversalservers.com
+0.0.0.0 go.adversal.com

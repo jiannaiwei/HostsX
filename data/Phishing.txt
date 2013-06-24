@@ -1,4 +1,15 @@
 #Phishing Sites
+0.0.0.0 www.114rm.com
+0.0.0.0 lshh.tk
+0.0.0.0 www.dolls360.com
+0.0.0.0 app.getresponse.com
+0.0.0.0 www.getresponse.com
+0.0.0.0 aq.qq.servcice.coldfaca.asia
+0.0.0.0 sdn.kugou.com
+0.0.0.0 www.pnjc.cn
+0.0.0.0 www.whwjjc.com
+0.0.0.0 ck.n.sibye.com
+0.0.0.0 ctx.n.sibye.com
 0.0.0.0 j1.cosedm.com
 0.0.0.0 cs.ljzbjc.com
 0.0.0.0 shipin1.yezhao.com

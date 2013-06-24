@@ -1,5 +1,7 @@
 @Sites Block
 #VirusDown
+0.0.0.0 51yuni.com
+0.0.0.0 www.dshu.cc
 0.0.0.0 www.baxue.com
 0.0.0.0 www.200237.com
 0.0.0.0 www.106309.com

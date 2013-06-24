@@ -262,6 +262,8 @@
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 rcm.amazon.com
 0.0.0.0 rcm-cn.amazon.cn
+0.0.0.0 mads.amazon.com
+0.0.0.0 g-ecx.images-amazon.com
 #Ap.org
 0.0.0.0 ads.mm.ap.org
 0.0.0.0 oascentral.hosted.ap.org

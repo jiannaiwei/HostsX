@@ -63,6 +63,7 @@
 0.0.0.0 f4.1lo0.net
 0.0.0.0 f5.1lo0.net
 0.0.0.0 f6.1lo0.net
+0.0.0.0 91.1lo0.net
 0.0.0.0 p1.1lo0.net
 0.0.0.0 p2.1lo0.net
 0.0.0.0 p3.1lo0.net
@@ -337,9 +338,13 @@
 0.0.0.0 gfyoyo.adpolestar.net
 0.0.0.0 www.adpolestar.net
 0.0.0.0 as.kejet.com
+0.0.0.0 aw.kejet.net
 0.0.0.0 code.kejet.com
 0.0.0.0 dmacore.kejet.com
+0.0.0.0 dmacore.kejet.net
 0.0.0.0 kejet.com
+0.0.0.0 kejet.net
+0.0.0.0 m.kejet.net
 0.0.0.0 www.kejet.com
 #ADPower
 0.0.0.0 216.adpower.cn
@@ -431,6 +436,7 @@
 0.0.0.0 tp.ads80.com
 0.0.0.0 www.ads80.com
 #AdSame
+0.0.0.0 cp.adsame.com
 0.0.0.0 0127.adsame.com
 0.0.0.0 114study.adsame.com
 0.0.0.0 1haoeagle.adsame.com
@@ -880,6 +886,7 @@
 0.0.0.0 iuc.cnzz.com
 0.0.0.0 jiaoliu.cnzz.com
 0.0.0.0 js.adm.cnzz.net
+0.0.0.0 s.adm.cnzz.net
 0.0.0.0 ku6.cnzz.com
 0.0.0.0 liuyan.cnzz.com
 0.0.0.0 mail.cnzz.com
@@ -901,6 +908,7 @@
 0.0.0.0 quanjing.cnzz.com
 0.0.0.0 rd.cnzz.com
 0.0.0.0 rd1.cnzz.com
+0.0.0.0 s.cnzz.net
 0.0.0.0 s1.cnzz.com
 0.0.0.0 s10.cnzz.com
 0.0.0.0 s100.cnzz.com
@@ -1133,6 +1141,7 @@
 0.0.0.0 monitor.yigao.com
 0.0.0.0 p.yigao.com
 0.0.0.0 www.emar.com.cn
+0.0.0.0 eavs02.eqifa.com
 #Feitian
 0.0.0.0 img.feitian001.com
 0.0.0.0 www.feitian001.com
@@ -1317,6 +1326,7 @@
 0.0.0.0 mayi.maxreturn.cn
 0.0.0.0 www.maxreturn.cn
 #Mediav
+0.0.0.0 ckmap.mediav.com
 0.0.0.0 click.mediav.com
 0.0.0.0 material.mediav.com
 0.0.0.0 pui.mediav.com
@@ -1332,10 +1342,14 @@
 0.0.0.0 mimiduo.com
 0.0.0.0 union.mimiduo.com
 #Millwardbrownacsr
+0.0.0.0 js.miaozhen.com
+0.0.0.0 mse.mbm.cn.miaozhen.com
+0.0.0.0 msg.mbm.cn.miaozhen.com
 0.0.0.0 360buy.a.miaozhen.com
 0.0.0.0 a.cn.miaozhen.com
 0.0.0.0 a.miaozhen.com
 0.0.0.0 d.miaozhen.com
+0.0.0.0 e.mbm.cn.miaozhen.com
 0.0.0.0 e.cn.miaozhen.com
 0.0.0.0 e.miaozhen.com
 0.0.0.0 g.cn.miaozhen.com

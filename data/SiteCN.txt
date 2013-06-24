@@ -128,8 +128,6 @@
 0.0.0.0 pv.zhulang.com
 0.0.0.0 tl.zhulang.com
 0.0.0.0 sjqk.zhulang.com
-#Faloo
-0.0.0.0 s.faloo.com
 #SXcnw
 0.0.0.0 dm.sxcnw.net
 #ZongHeng
@@ -146,6 +144,36 @@
 0.0.0.0 stat.readnovel.com
 #XNTK
 0.0.0.0 b.xntk.com
+@Sites-China/Shopping
+#360buy
+0.0.0.0 xn--www-t03bf9527b12al00bwqf.360buy.com
+0.0.0.0 c.fa.jd.com
+0.0.0.0 union.m.jd.com
+0.0.0.0 c.fa.360buy.com
+0.0.0.0 click.union.360buy.com
+0.0.0.0 show.union.360buy.com
+0.0.0.0 union.360buy.com
+#Dangdang
+0.0.0.0 a.dangdang.com
+0.0.0.0 central.dangdang.com
+0.0.0.0 union.dangdang.com
+#SuNing
+0.0.0.0 union.suning.com
+#YinTai
+0.0.0.0 cps.yintai.com
+#Yihaodian
+0.0.0.0 union.yihaodian.com
+#51Buy
+0.0.0.0 stat.51buy.com
+#MeiTuan
+0.0.0.0 r.union.meituan.com
+#Vancl
+0.0.0.0 union.vancl.com
+#moonbasa
+0.0.0.0 click.moonbasa.com
+0.0.0.0 static.moonbasa.com
+#Taojifen
+0.0.0.0 ad.taojifen.net
 @Sites-China/News
 #XinHua
 0.0.0.0 adcenter.xinhuanet.com
@@ -158,8 +186,10 @@
 0.0.0.0 bc.ifeng.com
 0.0.0.0 g.ifeng.com
 0.0.0.0 mfp.deliver.ifeng.com
+0.0.0.0 dolphin.deliver.ifeng.com
 0.0.0.0 online.3g.ifeng.com
 0.0.0.0 sta.ifeng.com
+0.0.0.0 games.ifeng.com
 0.0.0.0 sta.play.ifeng.com
 0.0.0.0 stadig.ifeng.com
 0.0.0.0 survey.news.ifeng.com
@@ -334,33 +364,6 @@
 0.0.0.0 adc.yupoo.com
 #Nphoto
 0.0.0.0 util.nphoto.net
-@Sites-China/Shopping
-#360buy
-0.0.0.0 c.fa.360buy.com
-0.0.0.0 click.union.360buy.com
-0.0.0.0 show.union.360buy.com
-0.0.0.0 union.360buy.com
-#Dangdang
-0.0.0.0 a.dangdang.com
-0.0.0.0 central.dangdang.com
-0.0.0.0 union.dangdang.com
-#SuNing
-0.0.0.0 union.suning.com
-#YinTai
-0.0.0.0 cps.yintai.com
-#51Buy
-0.0.0.0 stat.51buy.com
-#MeiTuan
-0.0.0.0 r.union.meituan.com
-#Vancl
-0.0.0.0 union.vancl.com
-#moonbasa
-0.0.0.0 click.moonbasa.com
-0.0.0.0 static.moonbasa.com
-#jdunion
-0.0.0.0 pic.jdunion.com
-#Taojifen
-0.0.0.0 ad.taojifen.net
 @Sites-China/IT
 #PcHome
 0.0.0.0 ad.adver.com.tw
@@ -547,6 +550,8 @@
 0.0.0.0 app-g.39.net
 0.0.0.0 dpvc.39.net
 0.0.0.0 39net.datamaster.com.cn
+#jdunion
+0.0.0.0 pic.jdunion.com
 #XYWY
 0.0.0.0 gg.xywy.com
 #TuNiu
