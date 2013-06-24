@@ -1744,13 +1744,6 @@
 0.0.0.0 ww.xt918.com
 #Yiqiwin
 0.0.0.0 js.yiqiwin.com
-#Yoyi
-0.0.0.0 amps.yoyi.com.cn
-0.0.0.0 atm.yoyi.com.cn
-0.0.0.0 d.yoyi.tv
-0.0.0.0 js.yoyi.tv
-0.0.0.0 server.yoyi.com.cn
-0.0.0.0 www.yoyi.com.cn
 #Yongv
 0.0.0.0 adp.yongv.com
 0.0.0.0 js.yongv.com

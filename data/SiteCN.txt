@@ -144,36 +144,6 @@
 0.0.0.0 stat.readnovel.com
 #XNTK
 0.0.0.0 b.xntk.com
-@Sites-China/Shopping
-#360buy
-0.0.0.0 xn--www-t03bf9527b12al00bwqf.360buy.com
-0.0.0.0 c.fa.jd.com
-0.0.0.0 union.m.jd.com
-0.0.0.0 c.fa.360buy.com
-0.0.0.0 click.union.360buy.com
-0.0.0.0 show.union.360buy.com
-0.0.0.0 union.360buy.com
-#Dangdang
-0.0.0.0 a.dangdang.com
-0.0.0.0 central.dangdang.com
-0.0.0.0 union.dangdang.com
-#SuNing
-0.0.0.0 union.suning.com
-#YinTai
-0.0.0.0 cps.yintai.com
-#Yihaodian
-0.0.0.0 union.yihaodian.com
-#51Buy
-0.0.0.0 stat.51buy.com
-#MeiTuan
-0.0.0.0 r.union.meituan.com
-#Vancl
-0.0.0.0 union.vancl.com
-#moonbasa
-0.0.0.0 click.moonbasa.com
-0.0.0.0 static.moonbasa.com
-#Taojifen
-0.0.0.0 ad.taojifen.net
 @Sites-China/News
 #XinHua
 0.0.0.0 adcenter.xinhuanet.com

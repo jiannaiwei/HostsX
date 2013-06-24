@@ -1016,7 +1016,6 @@
 0.0.0.0 www.taobao.com
 0.0.0.0 tg.6fan.com
 0.0.0.0 ad.ad8ad.com
-0.0.0.0 y.taolai.cn
 0.0.0.0 www.feizhou.net
 0.0.0.0 u.x-push.net
 0.0.0.0 text.dotmore.cn

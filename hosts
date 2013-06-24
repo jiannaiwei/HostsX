@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201306241517
+;version=201306241556
 ;author=Hosts Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -23,7 +23,7 @@ fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
-ff02::3 ip6-allhosts19:51 2013/5/14
+ff02::3 ip6-allhosts
 #MacOS
 fe80::1%lo0	localhost
 255.255.255.255	broadcasthost
@@ -3054,7 +3054,9 @@ fe80::1%lo0	localhost
 127.0.0.1 tgb.acs86.com
 #Ad-stir
 127.0.0.1 ad.ad-stir.com
+127.0.0.1 adtag.ad-stir.com
 127.0.0.1 js.ad-stir.com
+127.0.0.1 rtb.ad-stir.com
 #Adchina
 127.0.0.1 mobile.adchina.com
 127.0.0.1 www.adchina.com
@@ -4508,11 +4510,16 @@ fe80::1%lo0	localhost
 127.0.0.1 m.ymapp.com
 127.0.0.1 w.ymapp.com
 #Yoyi
+127.0.0.1 amps.yoyi.com.cn
+127.0.0.1 atm.yoyi.com.cn
+127.0.0.1 d.yoyi.tv
+127.0.0.1 js.yoyi.tv
+127.0.0.1 server.yoyi.com.cn
 127.0.0.1 t.d.yoyi.tv
 127.0.0.1 t.rc.yoyi.com.cn
 127.0.0.1 t.rs.yoyi.com.cn
-127.0.0.1 yoyi.com.cn
 127.0.0.1 www.yoyi.com.cn
+127.0.0.1 yoyi.com.cn
 #Zestadz
 127.0.0.1 a.zestadz.com
 127.0.0.1 assets.zestadz.com
@@ -5718,36 +5725,6 @@ fe80::1%lo0	localhost
 127.0.0.1 stat.readnovel.com
 #XNTK
 127.0.0.1 b.xntk.com
-@Sites-China/Shopping
-#360buy
-127.0.0.1 xn--www-t03bf9527b12al00bwqf.360buy.com
-127.0.0.1 c.fa.jd.com
-127.0.0.1 union.m.jd.com
-127.0.0.1 c.fa.360buy.com
-127.0.0.1 click.union.360buy.com
-127.0.0.1 show.union.360buy.com
-127.0.0.1 union.360buy.com
-#Dangdang
-127.0.0.1 a.dangdang.com
-127.0.0.1 central.dangdang.com
-127.0.0.1 union.dangdang.com
-#SuNing
-127.0.0.1 union.suning.com
-#YinTai
-127.0.0.1 cps.yintai.com
-#Yihaodian
-127.0.0.1 union.yihaodian.com
-#51Buy
-127.0.0.1 stat.51buy.com
-#MeiTuan
-127.0.0.1 r.union.meituan.com
-#Vancl
-127.0.0.1 union.vancl.com
-#moonbasa
-127.0.0.1 click.moonbasa.com
-127.0.0.1 static.moonbasa.com
-#Taojifen
-127.0.0.1 ad.taojifen.net
 @Sites-China/News
 #XinHua
 127.0.0.1 adcenter.xinhuanet.com
@@ -6652,8 +6629,6 @@ fe80::1%lo0	localhost
 127.0.0.1 xmlconf.client.xunlei.com
 127.0.0.1 s.gougou.com
 127.0.0.1 un.so.gougou.com
-
-
 127.0.0.1 www.155.com
 127.0.0.1 20130601.biz5.sandai.net 
 127.0.0.1 20130601.logic.cpm.cm.sandai.net 
@@ -6988,9 +6963,6 @@ fe80::1%lo0	localhost
 127.0.0.1 www29.a8.net
 #Ad-cloud
 127.0.0.1 ameba.d.ad-cloud.jp
-#Ad-stir
-127.0.0.1 adtag.ad-stir.com
-127.0.0.1 rtb.ad-stir.com
 #Adingo
 127.0.0.1 sh.adingo.jp
 127.0.0.1 sp.adingo.jp.eimg.jp
@@ -14097,13 +14069,6 @@ fe80::1%lo0	localhost
 127.0.0.1 ww.xt918.com
 #Yiqiwin
 127.0.0.1 js.yiqiwin.com
-#Yoyi
-127.0.0.1 amps.yoyi.com.cn
-127.0.0.1 atm.yoyi.com.cn
-127.0.0.1 d.yoyi.tv
-127.0.0.1 js.yoyi.tv
-127.0.0.1 server.yoyi.com.cn
-127.0.0.1 www.yoyi.com.cn
 #Yongv
 127.0.0.1 adp.yongv.com
 127.0.0.1 js.yongv.com
@@ -14568,7 +14533,6 @@ fe80::1%lo0	localhost
 127.0.0.1 app.getresponse.com
 127.0.0.1 www.getresponse.com
 127.0.0.1 aq.qq.servcice.coldfaca.asia
-127.0.0.1 sdn.kugou.com
 127.0.0.1 www.pnjc.cn
 127.0.0.1 www.whwjjc.com
 127.0.0.1 ck.n.sibye.com
@@ -14960,6 +14924,36 @@ fe80::1%lo0	localhost
 127.0.0.1 superjunior.smtown.com
 127.0.0.1 songshuhui.net
 127.0.0.1 cdn.songshuhui.net
+@Rebates-China
+#360buy
+127.0.0.1 xn--www-t03bf9527b12al00bwqf.360buy.com
+127.0.0.1 c.fa.jd.com
+127.0.0.1 union.m.jd.com
+127.0.0.1 c.fa.360buy.com
+127.0.0.1 click.union.360buy.com
+127.0.0.1 show.union.360buy.com
+127.0.0.1 union.360buy.com
+#Dangdang
+127.0.0.1 a.dangdang.com
+127.0.0.1 central.dangdang.com
+127.0.0.1 union.dangdang.com
+#SuNing
+127.0.0.1 union.suning.com
+#YinTai
+127.0.0.1 cps.yintai.com
+#Yihaodian
+127.0.0.1 union.yihaodian.com
+#51Buy
+127.0.0.1 stat.51buy.com
+#MeiTuan
+127.0.0.1 r.union.meituan.com
+#Vancl
+127.0.0.1 union.vancl.com
+#moonbasa
+127.0.0.1 click.moonbasa.com
+127.0.0.1 static.moonbasa.com
+#Taojifen
+127.0.0.1 ad.taojifen.net
 #Malicious Sites
 127.0.0.1 000888.net
 127.0.0.1 002858.com
@@ -18006,7 +18000,6 @@ fe80::1%lo0	localhost
 127.0.0.1 www.taobao.com
 127.0.0.1 tg.6fan.com
 127.0.0.1 ad.ad8ad.com
-127.0.0.1 y.taolai.cn
 127.0.0.1 www.feizhou.net
 127.0.0.1 u.x-push.net
 127.0.0.1 text.dotmore.cn

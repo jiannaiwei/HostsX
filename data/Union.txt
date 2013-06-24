@@ -269,9 +269,6 @@
 0.0.0.0 www29.a8.net
 #Ad-cloud
 0.0.0.0 ameba.d.ad-cloud.jp
-#Ad-stir
-0.0.0.0 adtag.ad-stir.com
-0.0.0.0 rtb.ad-stir.com
 #Adingo
 0.0.0.0 sh.adingo.jp
 0.0.0.0 sp.adingo.jp.eimg.jp

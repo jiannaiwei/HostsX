@@ -157,7 +157,9 @@
 127.0.0.1 tgb.acs86.com
 #Ad-stir
 127.0.0.1 ad.ad-stir.com
+127.0.0.1 adtag.ad-stir.com
 127.0.0.1 js.ad-stir.com
+127.0.0.1 rtb.ad-stir.com
 #Adchina
 127.0.0.1 mobile.adchina.com
 127.0.0.1 www.adchina.com
@@ -1611,11 +1613,16 @@
 127.0.0.1 m.ymapp.com
 127.0.0.1 w.ymapp.com
 #Yoyi
+127.0.0.1 amps.yoyi.com.cn
+127.0.0.1 atm.yoyi.com.cn
+127.0.0.1 d.yoyi.tv
+127.0.0.1 js.yoyi.tv
+127.0.0.1 server.yoyi.com.cn
 127.0.0.1 t.d.yoyi.tv
 127.0.0.1 t.rc.yoyi.com.cn
 127.0.0.1 t.rs.yoyi.com.cn
-127.0.0.1 yoyi.com.cn
 127.0.0.1 www.yoyi.com.cn
+127.0.0.1 yoyi.com.cn
 #Zestadz
 127.0.0.1 a.zestadz.com
 127.0.0.1 assets.zestadz.com

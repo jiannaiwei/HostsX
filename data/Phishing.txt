@@ -5,7 +5,6 @@
 0.0.0.0 app.getresponse.com
 0.0.0.0 www.getresponse.com
 0.0.0.0 aq.qq.servcice.coldfaca.asia
-0.0.0.0 sdn.kugou.com
 0.0.0.0 www.pnjc.cn
 0.0.0.0 www.whwjjc.com
 0.0.0.0 ck.n.sibye.com
