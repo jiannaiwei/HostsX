@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201306241617
+;version=201306241629
 ;author=Hosts Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3258,11 +3258,9 @@ fe80::1%lo0	localhost
 127.0.0.1 strip.taobaocdn.com
 127.0.0.1 count.tbcdn.cn
 127.0.0.1 taourl.com
-127.0.0.1 cdn.mmstat.com
 127.0.0.1 cnzz.mmstat.com
 127.0.0.1 hz.mmstat.com
 127.0.0.1 p3p.mmstat.com
-127.0.0.1 log.mmstat.com
 127.0.0.1 ac.atpanel.com
 127.0.0.1 t.atpanel.com
 127.0.0.1 www.atpanel.com

@@ -361,11 +361,9 @@
 127.0.0.1 strip.taobaocdn.com
 127.0.0.1 count.tbcdn.cn
 127.0.0.1 taourl.com
-127.0.0.1 cdn.mmstat.com
 127.0.0.1 cnzz.mmstat.com
 127.0.0.1 hz.mmstat.com
 127.0.0.1 p3p.mmstat.com
-127.0.0.1 log.mmstat.com
 127.0.0.1 ac.atpanel.com
 127.0.0.1 t.atpanel.com
 127.0.0.1 www.atpanel.com
