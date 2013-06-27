@@ -3,7 +3,7 @@ more +5 %~fs0>%systemroot%\system32\drivers\etc\hosts
 notepad %windir%\system32\drivers\etc\hosts 
 goto :eof 
 
-;version=201306241629
+;version=20130627 819
 ;author=Hosts Contributor
 ;include=kwoktree.OrzFly.jason_jiang.Felix Hsu.linjimmy.ZephyR.atmouse.Ehosts.zhqjsh.JayXon
 ;description=Clean Safe and Useful Hosts file.Thanks EveryOne.
@@ -3087,6 +3087,7 @@ fe80::1%lo0	localhost
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 static.googleadsserving.cn
+127.0.0.1 badad.googleplex.com
 127.0.0.1 mobwin.android.com
 127.0.0.1 schemas.android.com
 127.0.0.1 www.googleapis.com
@@ -4557,7 +4558,7 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.camera360.us
 127.0.0.1 ads.feelingtouch.com
 #WapSite
-123.0.0.1 inapppurchase.ollehmarket.com
+127.0.0.1 inapppurchase.ollehmarket.com
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
 127.0.0.1 5151you.com
@@ -4587,6 +4588,7 @@ fe80::1%lo0	localhost
 127.0.0.1 analytics.localytics.com
 127.0.0.1 analytics.quarksgames.com
 127.0.0.1 android.bcfads.com
+127.0.0.1 api.boatmob.com
 127.0.0.1 api.c.moxiu.com
 127.0.0.1 api.yp.com
 127.0.0.1 api.zhaimob.com
@@ -5678,6 +5680,8 @@ fe80::1%lo0	localhost
 127.0.0.1 init.phpwind.com
 127.0.0.1 nt.phpwind.com
 127.0.0.1 union.phpwind.com
+#Dedecms
+127.0.0.1 ad.dedecms.com
 #Maccms
 127.0.0.1 union.maccms.com
 #Discuz
@@ -10509,6 +10513,9 @@ fe80::1%lo0	localhost
 127.0.0.1 t.pointroll.com
 127.0.0.1 track.pointroll.com
 127.0.0.1 www.pointroll.com
+#Propellerads
+127.0.0.1 ad.propellerads.com
+127.0.0.1 img.propellerads.com
 #Pubdirecte
 127.0.0.1 static.pubdirecte.com
 127.0.0.1 www.pubdirecte.com
@@ -12287,7 +12294,6 @@ fe80::1%lo0	localhost
 127.0.0.1 ligatus.com
 127.0.0.1 marketing.xineurope.com
 127.0.0.1 media.funpic.de
-127.0.0.1 mnstat.com
 127.0.0.1 n5.adshostnet.com
 127.0.0.1 ox-d.majorgeeks.com
 127.0.0.1 ox-i.majorgeeks.com
@@ -12321,6 +12327,9 @@ fe80::1%lo0	localhost
 127.0.0.1 ad.directrev.com
 127.0.0.1 www.adversalservers.com
 127.0.0.1 go.adversal.com
+127.0.0.1 test.spotmx.com
+127.0.0.1 other.nvgroup.nl
+127.0.0.1 r.lumovies.com
 @AdUnion-CN
 #01lm
 127.0.0.1 ads.01lm.com

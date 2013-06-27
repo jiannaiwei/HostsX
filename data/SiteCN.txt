@@ -99,6 +99,8 @@
 0.0.0.0 init.phpwind.com
 0.0.0.0 nt.phpwind.com
 0.0.0.0 union.phpwind.com
+#Dedecms
+0.0.0.0 ad.dedecms.com
 #Maccms
 0.0.0.0 union.maccms.com
 #Discuz

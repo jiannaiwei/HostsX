@@ -3817,6 +3817,9 @@
 0.0.0.0 t.pointroll.com
 0.0.0.0 track.pointroll.com
 0.0.0.0 www.pointroll.com
+#Propellerads
+0.0.0.0 ad.propellerads.com
+0.0.0.0 img.propellerads.com
 #Pubdirecte
 0.0.0.0 static.pubdirecte.com
 0.0.0.0 www.pubdirecte.com
@@ -5595,7 +5598,6 @@
 0.0.0.0 ligatus.com
 0.0.0.0 marketing.xineurope.com
 0.0.0.0 media.funpic.de
-0.0.0.0 mnstat.com
 0.0.0.0 n5.adshostnet.com
 0.0.0.0 ox-d.majorgeeks.com
 0.0.0.0 ox-i.majorgeeks.com
@@ -5629,3 +5631,6 @@
 0.0.0.0 ad.directrev.com
 0.0.0.0 www.adversalservers.com
 0.0.0.0 go.adversal.com
+0.0.0.0 test.spotmx.com
+0.0.0.0 other.nvgroup.nl
+0.0.0.0 r.lumovies.com

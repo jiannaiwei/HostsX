@@ -190,6 +190,7 @@
 127.0.0.1 googleads.g.doubleclick.net
 127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 static.googleadsserving.cn
+127.0.0.1 badad.googleplex.com
 127.0.0.1 mobwin.android.com
 127.0.0.1 schemas.android.com
 127.0.0.1 www.googleapis.com
@@ -1660,7 +1661,7 @@
 127.0.0.1 ad.camera360.us
 127.0.0.1 ads.feelingtouch.com
 #WapSite
-123.0.0.1 inapppurchase.ollehmarket.com
+127.0.0.1 inapppurchase.ollehmarket.com
 127.0.0.1 1.ad-locus.com
 127.0.0.1 24sp.cc
 127.0.0.1 5151you.com
@@ -1690,6 +1691,7 @@
 127.0.0.1 analytics.localytics.com
 127.0.0.1 analytics.quarksgames.com
 127.0.0.1 android.bcfads.com
+127.0.0.1 api.boatmob.com
 127.0.0.1 api.c.moxiu.com
 127.0.0.1 api.yp.com
 127.0.0.1 api.zhaimob.com
