@@ -1,10 +1,12 @@
-@HostsX 防止网络劫持
-#域名劫持
+@Security Hijack
+#Domain Hijacking
 0.0.0.0 ss.cnnic.cn
 0.0.0.0 searchportal.winindomain.com
-#电信劫持
+#Telcom Hijack
 0.0.0.0 114so.cn
 0.0.0.0 taobao.114so.cn
+0.0.0.0 daohang.114so.cn
+0.0.0.0 114search.114so.cn
 0.0.0.0 sh.114so.cn
 0.0.0.0 118114.cn
 0.0.0.0 so.118114.cn
@@ -24,7 +26,7 @@
 0.0.0.0 img.dianxin.cn
 0.0.0.0 union.dianxin.cn
 0.0.0.0 www.dianxin.cn
-#联通劫持
+#Unicom Hijack
 0.0.0.0 lndnserror1.wo.com.cn
 0.0.0.0 sddnserror1.wo.com.cn
 0.0.0.0 sddnserror2.wo.com.cn
@@ -37,16 +39,23 @@
 0.0.0.0 nfdnserror8.wo.com.cn
 0.0.0.0 nfdnserror1.wo.com.cn
 0.0.0.0 nfdnserror14.wo.com.cn
+0.0.0.0 error.wo114.cc
+0.0.0.0 error1.wo114.cc
+0.0.0.0 error2.wo114.cc
+0.0.0.0 error3.wo114.cc
+0.0.0.0 error8.wo114.cc
 0.0.0.0 nfdnserror3.wo.com.cn.zpsn.com
+0.0.0.0 nfdnserror16.wo.com.cn
 0.0.0.0 www6.1616.net
 0.0.0.0 st.1616.net
 0.0.0.0 www.wo116.com
 0.0.0.0 pop.17lele.net
 0.0.0.0 search.yousee.com
 0.0.0.0 sg.yousee.com
-#长城宽带劫持
+0.0.0.0 www.fushenghuo.cn
+#GWB Hijacking
 0.0.0.0 focus.inhe.net
-#各地运营商广告
+#Operators ADS
 0.0.0.0 lc.havod.com
 0.0.0.0 havod.com
 0.0.0.0 www.havod.com

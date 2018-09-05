@@ -1,0 +1,92 @@
+@SmartDirect
+#Localhost
+127.0.0.1   localhost
+::1         localhost
+#Windows
+127.0.0.1 localhost.localdomain localhost
+#Windows8 Active
+67.215.65.132 kms-c.no-ip.org
+2001:470:70:1a1::2 kms-c.no-ip.org
+#Ubuntu
+127.0.1.1   #Fill Your Ubuntu Pc name here
+::1 localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+#MacOS
+fe80::1%lo0	localhost
+255.255.255.255	broadcasthost
+0.0.0.0 advertising.apple.com
+#Operachina
+59.151.106.253 operachina.com
+59.151.106.253 bbs.operachina.com
+59.151.106.253 mini.operachina.com
+59.151.106.253 portal.operachina.com
+59.151.106.253 press.operachina.com
+59.151.106.253 redir.operachina.com
+59.151.106.253 static.operachina.com
+59.151.106.253 wiki.operachina.com
+59.151.106.253 www.operachina.com
+#Soutong
+2001:470:7b:99::2 ipv6.5isotoi5.org
+2001:470:7b:99::2 soutong.iloveyou
+#Feedly
+173.194.79.141 feedly-beta.appspot.com
+173.194.74.121 s3.feedly.com
+#TorProject
+38.229.72.14 www.torproject.org
+#Facebook-NoADs
+0.0.0.0 ads.ak.facebook.com
+0.0.0.0 creative.ak.facebook.com
+0.0.0.0 creative.ak.fbcdn.net
+0.0.0.0 fbcdn-creative-a.akamaihd.net
+#Flickr
+68.142.214.24 flickr.com
+66.196.66.157 www.flickr.com
+68.142.214.43 static.flickr.com
+77.238.160.184 static.flickr.com
+68.142.214.43 farm1.staticflickr.com
+68.142.214.43 mud.farm1.staticflickr.com
+69.147.90.159 farm2.staticflickr.com
+69.147.90.159 sp1.farm2.staticflickr.com
+77.238.160.184 farm3.staticflickr.com
+98.137.205.236 bf1.farm3.staticflickr.com
+216.39.54.34 gq1.farm3.staticflickr.com
+69.147.90.215 sp1.farm3.staticflickr.com
+76.13.18.77 farm4.staticflickr.com
+76.13.18.77 ac4.farm4.staticflickr.com
+67.195.19.62 gq1.farm4.staticflickr.com
+76.13.18.79 farm5.staticflickr.com
+67.195.19.65 gq1.farm5.staticflickr.com
+98.136.171.208 farm6.staticflickr.com
+98.139.21.45 bf1.farm6.staticflickr.com
+98.136.171.208 gq1.farm6.staticflickr.com
+98.138.250.88 farm7.staticflickr.com
+98.139.235.135 bf1.farm7.staticflickr.com
+98.138.250.88 ne1.farm7.staticflickr.com
+#Photobucket
+209.17.69.31 i37.photobucket.com
+209.17.69.33 i37.photobucket.com
+209.17.69.35 i37.photobucket.com
+#Minus
+108.59.10.193 i1.minus.com
+108.59.10.222 i2.minus.com
+#Flashget Accelerate
+221.123.176.125 s5.flashget.com  
+221.123.176.136 cplog.flashget.com
+#YouTube
+203.208.46.206 accounts.youtube.com
+203.208.46.206 apiblog.youtube.com
+203.208.46.206 help.youtube.com
+203.208.46.206 i.ytimg.com
+203.208.46.206 i1.ytimg.com
+203.208.46.206 i2.ytimg.com
+203.208.46.206 i3.ytimg.com
+203.208.46.206 i4.ytimg.com
+203.208.46.206 insight.youtube.com
+203.208.46.206 m.youtube.com
+203.208.46.206 s.ytimg.com
+203.208.46.206 www.youtube.com
+203.208.46.206 ytimg.l.google.com

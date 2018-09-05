@@ -1,4 +1,10 @@
-@HostsX AdUnionCN
+@AdUnion-CN
+#01lm
+0.0.0.0 ads.01lm.com
+0.0.0.0 jh.01lm.com
+0.0.0.0 tg.01lm.com
+0.0.0.0 tuidl.01lm.com
+0.0.0.0 www.01lm.com
 #0252
 0.0.0.0 js.0252.com
 0.0.0.0 jump.0252.com
@@ -57,11 +63,13 @@
 0.0.0.0 f4.1lo0.net
 0.0.0.0 f5.1lo0.net
 0.0.0.0 f6.1lo0.net
+0.0.0.0 91.1lo0.net
 0.0.0.0 p1.1lo0.net
 0.0.0.0 p2.1lo0.net
 0.0.0.0 p3.1lo0.net
 0.0.0.0 p4.1lo0.net
 0.0.0.0 p83.1lo0.net
+0.0.0.0 n.1lo0.net
 #114lm
 0.0.0.0 www.114lm.com
 #160ads
@@ -94,6 +102,9 @@
 0.0.0.0 21union.com
 0.0.0.0 i.21union.com
 0.0.0.0 www.21union.com
+#365sino
+0.0.0.0 365sino.com
+0.0.0.0 ad.365sino.com
 #37cs
 0.0.0.0 c.37cs.com
 0.0.0.0 code.37cs.com
@@ -115,9 +126,70 @@
 0.0.0.0 qm.3bu.cn
 0.0.0.0 img.3bu.cn
 0.0.0.0 mms.3bu.com
+0.0.0.0 mmscode.3bu.com
 0.0.0.0 mmscode1.3bu.com
 0.0.0.0 mmscode2.3bu.com
 0.0.0.0 mmscode3.3bu.com
+#51La
+0.0.0.0 img.users.51.la
+0.0.0.0 js.users.51.la
+0.0.0.0 vip.51.la
+0.0.0.0 web.51.la
+0.0.0.0 web1.51.la
+0.0.0.0 web2.51.la
+0.0.0.0 www.51.la
+#51Yes
+0.0.0.0 51yes.com
+0.0.0.0 count.51yes.com
+0.0.0.0 count10.51yes.com
+0.0.0.0 count11.51yes.com
+0.0.0.0 count12.51yes.com
+0.0.0.0 count13.51yes.com
+0.0.0.0 count14.51yes.com
+0.0.0.0 count15.51yes.com
+0.0.0.0 count16.51yes.com
+0.0.0.0 count17.51yes.com
+0.0.0.0 count18.51yes.com
+0.0.0.0 count19.51yes.com
+0.0.0.0 count20.51yes.com
+0.0.0.0 count21.51yes.com
+0.0.0.0 count22.51yes.com
+0.0.0.0 count23.51yes.com
+0.0.0.0 count24.51yes.com
+0.0.0.0 count25.51yes.com
+0.0.0.0 count26.51yes.com
+0.0.0.0 count27.51yes.com
+0.0.0.0 count28.51yes.com
+0.0.0.0 count29.51yes.com
+0.0.0.0 count3.51yes.com
+0.0.0.0 count30.51yes.com
+0.0.0.0 count31.51yes.com
+0.0.0.0 count32.51yes.com
+0.0.0.0 count33.51yes.com
+0.0.0.0 count34.51yes.com
+0.0.0.0 count35.51yes.com
+0.0.0.0 count36.51yes.com
+0.0.0.0 count37.51yes.com
+0.0.0.0 count38.51yes.com
+0.0.0.0 count39.51yes.com
+0.0.0.0 count4.51yes.com
+0.0.0.0 count40.51yes.com
+0.0.0.0 count41.51yes.com
+0.0.0.0 count42.51yes.com
+0.0.0.0 count43.51yes.com
+0.0.0.0 count44.51yes.com
+0.0.0.0 count45.51yes.com
+0.0.0.0 count46.51yes.com
+0.0.0.0 count47.51yes.com
+0.0.0.0 count48.51yes.com
+0.0.0.0 count49.51yes.com
+0.0.0.0 count50.51yes.com
+0.0.0.0 count5.51yes.com
+0.0.0.0 count6.51yes.com
+0.0.0.0 count7.51yes.com
+0.0.0.0 count8.51yes.com
+0.0.0.0 count9.51yes.com
+0.0.0.0 countt.51yes.com
 #55la
 0.0.0.0 image1.55.la
 0.0.0.0 image2.55.la
@@ -149,10 +221,12 @@
 0.0.0.0 www.g.cn.70e.com
 #7794
 0.0.0.0 code.7794.com
-0.0.0.0 www.7794.com
-0.0.0.0 js.7794.com
+0.0.0.0 images.7794.com
 0.0.0.0 j.7794lm.com
+0.0.0.0 js.7794.com
 0.0.0.0 js.7794lm.com
+0.0.0.0 v.7794.com
+0.0.0.0 www.7794.com
 #77869
 0.0.0.0 778669.com
 0.0.0.0 pv.778669.com
@@ -168,11 +242,15 @@
 0.0.0.0 u493025.778669.com
 0.0.0.0 u592022.778669.com
 0.0.0.0 u923032.778669.com
+0.0.0.0 u484012.778669.com
 0.0.0.0 u948016.778669.com
 0.0.0.0 u349036.778669.com
 0.0.0.0 www.778669.com
 0.0.0.0 pic183025.images9999.com
 0.0.0.0 pic837013.images9999.com
+#7clink
+0.0.0.0 e.7clink.com
+0.0.0.0 img.7clink.com
 #7pk
 0.0.0.0 al.7pk.com
 0.0.0.0 client.7pk.com
@@ -215,6 +293,7 @@
 0.0.0.0 f.9vcpm.cn
 0.0.0.0 v.cpp9v.cn
 0.0.0.0 p.cpm9v.cn
+0.0.0.0 f.cpm9v.cn
 0.0.0.0 jk.chapm.com
 0.0.0.0 pv.chapm.com
 0.0.0.0 v.9vcpc.cn
@@ -234,12 +313,6 @@
 0.0.0.0 js.admin6.com
 0.0.0.0 jump.admin6.com
 0.0.0.0 www.admin6.com
-#Acs86
-0.0.0.0 amob.acs86.com
-0.0.0.0 acs86.com
-0.0.0.0 afp.acs86.com
-0.0.0.0 static.acs86.com
-0.0.0.0 tgb.acs86.com
 #Ad123456
 0.0.0.0 c.ad123456.com
 0.0.0.0 tu.ad123456.com
@@ -265,9 +338,13 @@
 0.0.0.0 gfyoyo.adpolestar.net
 0.0.0.0 www.adpolestar.net
 0.0.0.0 as.kejet.com
+0.0.0.0 aw.kejet.net
 0.0.0.0 code.kejet.com
 0.0.0.0 dmacore.kejet.com
+0.0.0.0 dmacore.kejet.net
 0.0.0.0 kejet.com
+0.0.0.0 kejet.net
+0.0.0.0 m.kejet.net
 0.0.0.0 www.kejet.com
 #ADPower
 0.0.0.0 216.adpower.cn
@@ -353,7 +430,13 @@
 0.0.0.0 www.ads001.com
 0.0.0.0 res1.ads001.com
 0.0.0.0 t.ads001.com
+#Ads80
+0.0.0.0 fmt.ads80.com
+0.0.0.0 tongji.ads80.com
+0.0.0.0 tp.ads80.com
+0.0.0.0 www.ads80.com
 #AdSame
+0.0.0.0 cp.adsame.com
 0.0.0.0 0127.adsame.com
 0.0.0.0 114study.adsame.com
 0.0.0.0 1haoeagle.adsame.com
@@ -522,6 +605,7 @@
 0.0.0.0 114.allyes.com
 0.0.0.0 idigger.allyes.com
 0.0.0.0 adzjvnet.allyes.com
+0.0.0.0 zjvnet.allyes.com
 0.0.0.0 allyesbjafa.allyes.com
 0.0.0.0 allyesshafa.allyes.com
 0.0.0.0 bokee.allyes.com
@@ -636,6 +720,9 @@
 #Buzz-time
 0.0.0.0 a.buzz-time.com.cn
 0.0.0.0 ad.buzz-time.com.cn
+#Caogenhui
+0.0.0.0 u.caogenhui.cn
+0.0.0.0 js.caogenhui.cn
 #Chanet
 0.0.0.0 count.chanet.com.cn
 0.0.0.0 file.chanet.com.cn
@@ -683,6 +770,336 @@
 0.0.0.0 c.xsu.cc
 0.0.0.0 js.xsu.cc
 0.0.0.0 www.xsu.cc
+
+#CNZZ
+0.0.0.0 10 mail.cnzz.com
+0.0.0.0 17k.cnzz.com
+0.0.0.0 1ting.cnzz.com
+0.0.0.0 2008.cnzz.com
+0.0.0.0 a164.cnzz.com
+0.0.0.0 a165.cnzz.com
+0.0.0.0 a166.cnzz.com
+0.0.0.0 a167.cnzz.com
+0.0.0.0 a168.cnzz.com
+0.0.0.0 a169.cnzz.com
+0.0.0.0 a31.cnzz.com
+0.0.0.0 aas.cnzz.com
+0.0.0.0 aas2.cnzz.com
+0.0.0.0 allowip.cnzz.com
+0.0.0.0 b10.cnzz.com
+0.0.0.0 b11.cnzz.com
+0.0.0.0 b15.cnzz.com
+0.0.0.0 b159.cnzz.com
+0.0.0.0 b168.cnzz.com
+0.0.0.0 b169.cnzz.com
+0.0.0.0 b175.cnzz.com
+0.0.0.0 b176.cnzz.com
+0.0.0.0 b177.cnzz.com
+0.0.0.0 b178.cnzz.com
+0.0.0.0 b179.cnzz.com
+0.0.0.0 b23.cnzz.com
+0.0.0.0 b24.cnzz.com
+0.0.0.0 b25.cnzz.com
+0.0.0.0 b31.cnzz.com
+0.0.0.0 b47.cnzz.com
+0.0.0.0 b59.cnzz.com
+0.0.0.0 b6.cnzz.com
+0.0.0.0 b61.cnzz.com
+0.0.0.0 b64.cnzz.com
+0.0.0.0 b65.cnzz.com
+0.0.0.0 b66.cnzz.com
+0.0.0.0 b67.cnzz.com
+0.0.0.0 b68.cnzz.com
+0.0.0.0 b69.cnzz.com
+0.0.0.0 b7.cnzz.com
+0.0.0.0 b70.cnzz.com
+0.0.0.0 b71.cnzz.com
+0.0.0.0 b72.cnzz.com
+0.0.0.0 b73.cnzz.com
+0.0.0.0 b74.cnzz.com
+0.0.0.0 b75.cnzz.com
+0.0.0.0 b76.cnzz.com
+0.0.0.0 b77.cnzz.com
+0.0.0.0 b78.cnzz.com
+0.0.0.0 b79.cnzz.com
+0.0.0.0 b80.cnzz.com
+0.0.0.0 b81.cnzz.com
+0.0.0.0 b82.cnzz.com
+0.0.0.0 b83.cnzz.com
+0.0.0.0 b84.cnzz.com
+0.0.0.0 b85.cnzz.com
+0.0.0.0 b86.cnzz.com
+0.0.0.0 b87.cnzz.com
+0.0.0.0 b88.cnzz.com
+0.0.0.0 b89.cnzz.com
+0.0.0.0 b9.cnzz.com
+0.0.0.0 b90.cnzz.com
+0.0.0.0 b91.cnzz.com
+0.0.0.0 b92.cnzz.com
+0.0.0.0 b93.cnzz.com
+0.0.0.0 b94.cnzz.com
+0.0.0.0 b95.cnzz.com
+0.0.0.0 background.cnzz.com
+0.0.0.0 bbs.cnzz.com
+0.0.0.0 bbs1.cnzz.com
+0.0.0.0 bd.cnzz.com
+0.0.0.0 blog.cnzz.com
+0.0.0.0 c.cnzz.com
+0.0.0.0 cache.adm.cnzz.net
+0.0.0.0 cache.cnzz.com
+0.0.0.0 cas.cnzz.com
+0.0.0.0 ccm.cnzz.com
+0.0.0.0 click.am1.adm.cnzz.net
+0.0.0.0 click.cnzz.com
+0.0.0.0 clickjs.cnzz.com
+0.0.0.0 cnzztest.cnzz.com
+0.0.0.0 daima.cnzz.com
+0.0.0.0 data.cnzz.com
+0.0.0.0 dataso.cnzz.com
+0.0.0.0 dcenter.cnzz.com
+0.0.0.0 diancan.cnzz.com
+0.0.0.0 dns.cnzz.com
+0.0.0.0 doc.cnzz.com
+0.0.0.0 down.cnzz.com
+0.0.0.0 down11.cnzz.com
+0.0.0.0 g16.cnzz.com
+0.0.0.0 go.cnzz.com
+0.0.0.0 googleffffffffd4748891.cnzz.com
+0.0.0.0 help.cnzz.com
+0.0.0.0 hqs1.cnzz.com
+0.0.0.0 hqs4.cnzz.com
+0.0.0.0 hqs9.cnzz.com
+0.0.0.0 hzs10.cnzz.com
+0.0.0.0 hzs12.cnzz.com
+0.0.0.0 hzs13.cnzz.com
+0.0.0.0 hzs14.cnzz.com
+0.0.0.0 hzs8.cnzz.com
+0.0.0.0 hzs9.cnzz.com
+0.0.0.0 icon.cnzz.com
+0.0.0.0 igroup1.cnzz.com
+0.0.0.0 iliuyan.cnzz.com
+0.0.0.0 imcnzz.cnzz.com
+0.0.0.0 imf.cnzz.com
+0.0.0.0 img.cnzz.com
+0.0.0.0 info.cnzz.com
+0.0.0.0 intf.cnzz.com
+0.0.0.0 iuc.cnzz.com
+0.0.0.0 jiaoliu.cnzz.com
+0.0.0.0 js.adm.cnzz.net
+0.0.0.0 s.adm.cnzz.net
+0.0.0.0 ku6.cnzz.com
+0.0.0.0 liuyan.cnzz.com
+0.0.0.0 mail.cnzz.com
+0.0.0.0 new.cnzz.com
+0.0.0.0 newhua.cnzz.com
+0.0.0.0 newstat.cnzz.com
+0.0.0.0 ns1.cnzz.com
+0.0.0.0 ns2.cnzz.com
+0.0.0.0 online.cnzz.com
+0.0.0.0 pw.cnzz.com
+0.0.0.0 pwmail.cnzz.com
+0.0.0.0 pxe.cnzz.com
+0.0.0.0 qjtest.cnzz.com
+0.0.0.0 qs1.cnzz.com
+0.0.0.0 qs2.cnzz.com
+0.0.0.0 qs3.cnzz.com
+0.0.0.0 qs4.cnzz.com
+0.0.0.0 qs7.cnzz.com
+0.0.0.0 quanjing.cnzz.com
+0.0.0.0 rd.cnzz.com
+0.0.0.0 rd1.cnzz.com
+0.0.0.0 s.cnzz.net
+0.0.0.0 s1.cnzz.com
+0.0.0.0 s10.cnzz.com
+0.0.0.0 s100.cnzz.com
+0.0.0.0 s101.cnzz.com
+0.0.0.0 s102.cnzz.com
+0.0.0.0 s103.cnzz.com
+0.0.0.0 s104.cnzz.com
+0.0.0.0 s105.cnzz.com
+0.0.0.0 s106.cnzz.com
+0.0.0.0 s107.cnzz.com
+0.0.0.0 s108.cnzz.com
+0.0.0.0 s109.cnzz.com
+0.0.0.0 s11.cnzz.com
+0.0.0.0 s110.cnzz.com
+0.0.0.0 s111.cnzz.com
+0.0.0.0 s112.cnzz.com
+0.0.0.0 s113.cnzz.com
+0.0.0.0 s114.cnzz.com
+0.0.0.0 s115.cnzz.com
+0.0.0.0 s116.cnzz.com
+0.0.0.0 s117.cnzz.com
+0.0.0.0 s118.cnzz.com
+0.0.0.0 s119.cnzz.com
+0.0.0.0 s12.cnzz.com
+0.0.0.0 s120.cnzz.com
+0.0.0.0 s121.cnzz.com
+0.0.0.0 s122.cnzz.com
+0.0.0.0 s123.cnzz.com
+0.0.0.0 s124.cnzz.com
+0.0.0.0 s125.cnzz.com
+0.0.0.0 s126.cnzz.com
+0.0.0.0 s127.cnzz.com
+0.0.0.0 s128.cnzz.com
+0.0.0.0 s129.cnzz.com
+0.0.0.0 s13.cnzz.com
+0.0.0.0 s130.cnzz.com
+0.0.0.0 s131.cnzz.com
+0.0.0.0 s132.cnzz.com
+0.0.0.0 s133.cnzz.com
+0.0.0.0 s134.cnzz.com
+0.0.0.0 s135.cnzz.com
+0.0.0.0 s136.cnzz.com
+0.0.0.0 s137.cnzz.com
+0.0.0.0 s138.cnzz.com
+0.0.0.0 s139.cnzz.com
+0.0.0.0 s14.cnzz.com
+0.0.0.0 s140.cnzz.com
+0.0.0.0 s141.cnzz.com
+0.0.0.0 s142.cnzz.com
+0.0.0.0 s15.cnzz.com
+0.0.0.0 s16.cnzz.com
+0.0.0.0 s17.cnzz.com
+0.0.0.0 s175.cnzz.com
+0.0.0.0 s18.cnzz.com
+0.0.0.0 s19.cnzz.com
+0.0.0.0 s2.cnzz.com
+0.0.0.0 s20.cnzz.com
+0.0.0.0 s21.cnzz.com
+0.0.0.0 s22.cnzz.com
+0.0.0.0 s23.cnzz.com
+0.0.0.0 s24.cnzz.com
+0.0.0.0 s25.cnzz.com
+0.0.0.0 s26.cnzz.com
+0.0.0.0 s27.cnzz.com
+0.0.0.0 s28.cnzz.com
+0.0.0.0 s29.cnzz.com
+0.0.0.0 s3.cnzz.com
+0.0.0.0 s30.cnzz.com
+0.0.0.0 s31.cnzz.com
+0.0.0.0 s32.cnzz.com
+0.0.0.0 s33.cnzz.com
+0.0.0.0 s34.cnzz.com
+0.0.0.0 s35.cnzz.com
+0.0.0.0 s36.cnzz.com
+0.0.0.0 s37.cnzz.com
+0.0.0.0 s38.cnzz.com
+0.0.0.0 s39.cnzz.com
+0.0.0.0 s4.cnzz.com
+0.0.0.0 s40.cnzz.com
+0.0.0.0 s41.cnzz.com
+0.0.0.0 s42.cnzz.com
+0.0.0.0 s43.cnzz.com
+0.0.0.0 s44.cnzz.com
+0.0.0.0 s45.cnzz.com
+0.0.0.0 s46.cnzz.com
+0.0.0.0 s47.cnzz.com
+0.0.0.0 s48.cnzz.com
+0.0.0.0 s49.cnzz.com
+0.0.0.0 s5.cnzz.com
+0.0.0.0 s50.cnzz.com
+0.0.0.0 s51.cnzz.com
+0.0.0.0 s52.cnzz.com
+0.0.0.0 s53.cnzz.com
+0.0.0.0 s54.cnzz.com
+0.0.0.0 s55.cnzz.com
+0.0.0.0 s56.cnzz.com
+0.0.0.0 s57.cnzz.com
+0.0.0.0 s58.cnzz.com
+0.0.0.0 s59.cnzz.com
+0.0.0.0 s6.cnzz.com
+0.0.0.0 s60.cnzz.com
+0.0.0.0 s61.cnzz.com
+0.0.0.0 s62.cnzz.com
+0.0.0.0 s63.cnzz.com
+0.0.0.0 s64.cnzz.com
+0.0.0.0 s65.cnzz.com
+0.0.0.0 s66.cnzz.com
+0.0.0.0 s67.cnzz.com
+0.0.0.0 s68.cnzz.com
+0.0.0.0 s69.cnzz.com
+0.0.0.0 s7.cnzz.com
+0.0.0.0 s70.cnzz.com
+0.0.0.0 s71.cnzz.com
+0.0.0.0 s72.cnzz.com
+0.0.0.0 s73.cnzz.com
+0.0.0.0 s74.cnzz.com
+0.0.0.0 s75.cnzz.com
+0.0.0.0 s76.cnzz.com
+0.0.0.0 s77.cnzz.com
+0.0.0.0 s78.cnzz.com
+0.0.0.0 s79.cnzz.com
+0.0.0.0 s8.cnzz.com
+0.0.0.0 s80.cnzz.com
+0.0.0.0 s81.cnzz.com
+0.0.0.0 s82.cnzz.com
+0.0.0.0 s83.cnzz.com
+0.0.0.0 s84.cnzz.com
+0.0.0.0 s85.cnzz.com
+0.0.0.0 s86.cnzz.com
+0.0.0.0 s87.cnzz.com
+0.0.0.0 s88.cnzz.com
+0.0.0.0 s89.cnzz.com
+0.0.0.0 s9.cnzz.com
+0.0.0.0 s90.cnzz.com
+0.0.0.0 s91.cnzz.com
+0.0.0.0 s92.cnzz.com
+0.0.0.0 s93.cnzz.com
+0.0.0.0 s94.cnzz.com
+0.0.0.0 s95.cnzz.com
+0.0.0.0 s96.cnzz.com
+0.0.0.0 s97.cnzz.com
+0.0.0.0 s98.cnzz.com
+0.0.0.0 s99.cnzz.com
+0.0.0.0 search.cnzz.com
+0.0.0.0 shop.cnzz.com
+0.0.0.0 si1.cnzz.com
+0.0.0.0 sitedb.cnzz.com
+0.0.0.0 stat.cnzz.com
+0.0.0.0 time.cnzz.com
+0.0.0.0 tool.cnzz.com
+0.0.0.0 union.cnzz.com
+0.0.0.0 unionadmin.cnzz.com
+0.0.0.0 updateimcnzz.cnzz.com
+0.0.0.0 v1.cnzz.com
+0.0.0.0 v10.cnzz.com
+0.0.0.0 v11.cnzz.com
+0.0.0.0 v12.cnzz.com
+0.0.0.0 v13.cnzz.com
+0.0.0.0 v14.cnzz.com
+0.0.0.0 v2.cnzz.com
+0.0.0.0 v3.cnzz.com
+0.0.0.0 v4.cnzz.com
+0.0.0.0 v5.cnzz.com
+0.0.0.0 v6.cnzz.com
+0.0.0.0 v7.cnzz.com
+0.0.0.0 v8.cnzz.com
+0.0.0.0 v9.cnzz.com
+0.0.0.0 w.cnzz.com
+0.0.0.0 wss.cnzz.com
+0.0.0.0 www.cnzz.com
+0.0.0.0 zs1.cnzz.com
+0.0.0.0 zs10.cnzz.com
+0.0.0.0 zs11.cnzz.com
+0.0.0.0 zs12.cnzz.com
+0.0.0.0 zs13.cnzz.com
+0.0.0.0 zs14.cnzz.com
+0.0.0.0 zs15.cnzz.com
+0.0.0.0 zs16.cnzz.com
+0.0.0.0 zs2.cnzz.com
+0.0.0.0 zs25.cnzz.com
+0.0.0.0 zs3.cnzz.com
+0.0.0.0 zs4.cnzz.com
+0.0.0.0 zs5.cnzz.com
+0.0.0.0 zs6.cnzz.com
+0.0.0.0 zs7.cnzz.com
+0.0.0.0 zs8.cnzz.com
+0.0.0.0 zs9.cnzz.com
+0.0.0.0 zvs1.cnzz.com
+0.0.0.0 zvs2.cnzz.com
+0.0.0.0 zzdh.cnzz.com
+0.0.0.0 tui.cnzz.net
 #Csbew
 0.0.0.0 afp.csbew.com
 0.0.0.0 csbew.com
@@ -705,6 +1122,9 @@
 0.0.0.0 static.doyoo.net
 0.0.0.0 www.doyoo.net
 0.0.0.0 www.looyu.com
+#doudouguo
+0.0.0.0 ck.union.doudouguo.com
+0.0.0.0 js.union.doudouguo.com
 #egooad
 0.0.0.0 i.egooad.cn
 0.0.0.0 code.egooad.com
@@ -721,6 +1141,13 @@
 0.0.0.0 monitor.yigao.com
 0.0.0.0 p.yigao.com
 0.0.0.0 www.emar.com.cn
+0.0.0.0 eavs02.eqifa.com
+#Feitian
+0.0.0.0 img.feitian001.com
+0.0.0.0 www.feitian001.com
+#Feike5
+0.0.0.0 cpm.feike5.com
+0.0.0.0 ui.feike5.com
 #Flunion
 0.0.0.0 flunion.cn
 0.0.0.0 js.flunion.cn
@@ -737,6 +1164,13 @@
 0.0.0.0 jcnm.game3737.com
 0.0.0.0 pop.game3737.com
 0.0.0.0 poufo.game3737.com
+#Goingup
+0.0.0.0 counter.goingup.com
+0.0.0.0 www.goingup.com
+#Haodianpu
+0.0.0.0 tblog.tj.haodianpu.com
+0.0.0.0 tongji.haodianpu.com
+0.0.0.0 www.haodianpu.com
 #Heima8
 0.0.0.0 c.heima8.com
 0.0.0.0 dh.heima8.com
@@ -748,6 +1182,11 @@
 0.0.0.0 pic.heima8.com
 0.0.0.0 u.heima8.com
 0.0.0.0 www.heima8.com
+#HeroClick
+0.0.0.0 union.heroclick.cn
+0.0.0.0 p.heroclick.cn
+0.0.0.0 st.heroclick.cn
+0.0.0.0 www.heroclick.cn
 #Hxad
 0.0.0.0 cpc11.hxad.com
 0.0.0.0 cpm2.hxad.com
@@ -756,13 +1195,19 @@
 0.0.0.0 itopnetworks.com
 0.0.0.0 s.itopnetworks.com
 0.0.0.0 www.itopnetworks.com
-#Joywell
-0.0.0.0 adsresult.joywell.com.cn
-0.0.0.0 ubs.joywell.com.cn
+#irs09
+0.0.0.0 irs09.com
+0.0.0.0 static.irs09.com
+#Jiankongbao
+0.0.0.0 exp.jiankongbao.com
+0.0.0.0 stat.jiankongbao.com
 #Jieku
 0.0.0.0 do.jieku.com
 0.0.0.0 files.jieku.com
 0.0.0.0 www.jieku.com
+#Joywell
+0.0.0.0 adsresult.joywell.com.cn
+0.0.0.0 ubs.joywell.com.cn
 #Junnew
 0.0.0.0 xt.junnew.com
 0.0.0.0 img.junnew.com
@@ -852,6 +1297,23 @@
 #Lianmeng
 0.0.0.0 cache.lianmeng.com
 0.0.0.0 online4.lianmeng.com
+0.0.0.0 cn.lianmeng.com
+#Linezing
+0.0.0.0 acookie.linezing.com
+0.0.0.0 data.taobao.linezing.com
+0.0.0.0 dt.tongji.linezing.com
+0.0.0.0 hidden-master.linezing.com
+0.0.0.0 hostmaster.linezing.com
+0.0.0.0 hotclick.app.linezing.com
+0.0.0.0 img.tongji.linezing.com
+0.0.0.0 js.tongji.linezing.com
+0.0.0.0 linezing.com
+0.0.0.0 p3p.linezing.com
+0.0.0.0 pimg.taobao.linezing.com
+0.0.0.0 post.taobao.linezing.com
+0.0.0.0 taobao.linezing.com
+0.0.0.0 tongji.linezing.com
+0.0.0.0 www.linezing.com
 #LinkTech
 0.0.0.0 banner.linktech.cn
 0.0.0.0 click.linktech.cn
@@ -864,20 +1326,30 @@
 0.0.0.0 mayi.maxreturn.cn
 0.0.0.0 www.maxreturn.cn
 #Mediav
+0.0.0.0 ckmap.mediav.com
 0.0.0.0 click.mediav.com
 0.0.0.0 material.mediav.com
 0.0.0.0 pui.mediav.com
 0.0.0.0 secure.mediav.com
-0.0.0.0 show.mediav.com
 0.0.0.0 show.g.mediav.com
+0.0.0.0 show.mediav.com
 0.0.0.0 sina.mediav.com
 0.0.0.0 static.mediav.com
+0.0.0.0 view.mediav.com
 0.0.0.0 www.mediav.com
+#Mimiduo
+0.0.0.0 a.mimiduo.com
+0.0.0.0 mimiduo.com
+0.0.0.0 union.mimiduo.com
 #Millwardbrownacsr
+0.0.0.0 js.miaozhen.com
+0.0.0.0 mse.mbm.cn.miaozhen.com
+0.0.0.0 msg.mbm.cn.miaozhen.com
 0.0.0.0 360buy.a.miaozhen.com
 0.0.0.0 a.cn.miaozhen.com
 0.0.0.0 a.miaozhen.com
 0.0.0.0 d.miaozhen.com
+0.0.0.0 e.mbm.cn.miaozhen.com
 0.0.0.0 e.cn.miaozhen.com
 0.0.0.0 e.miaozhen.com
 0.0.0.0 g.cn.miaozhen.com
@@ -886,6 +1358,7 @@
 0.0.0.0 gs.m.cn.miaozhen.com
 0.0.0.0 sd.cn.miaozhen.com
 0.0.0.0 survey.miaozhen.com
+0.0.0.0 g.mbm.cn.miaozhen.com
 0.0.0.0 www.millwardbrownacsr.com
 #Myad
 0.0.0.0 click.myad.cn
@@ -899,6 +1372,9 @@
 0.0.0.0 vip.myad.cn
 0.0.0.0 www.myad.cn
 0.0.0.0 x2.myad.cn
+#Nuffnang
+0.0.0.0 synad2.nuffnang.com.cn
+0.0.0.0 www.nuffnang.com.cn
 #Ooomm
 0.0.0.0 click1.ooommm.com.cn
 0.0.0.0 click2.ooommm.com.cn
@@ -909,6 +1385,11 @@
 0.0.0.0 ac.q150.com
 0.0.0.0 ia.q150.com
 0.0.0.0 aa.q150.com
+#Qlunion
+0.0.0.0 adp.qlunion.com
+0.0.0.0 qlunion.com
+0.0.0.0 www.qlunion.com
+0.0.0.0 js.qlunion.com
 #Qiyou
 0.0.0.0 www.qiyou.com
 0.0.0.0 img.qiyou.com
@@ -947,10 +1428,33 @@
 0.0.0.0 pic.scupio.com
 0.0.0.0 rec.scupio.com
 0.0.0.0 www.scupio.com
-#Subo
-0.0.0.0 tg2.subo.me
-0.0.0.0 tg26.subo.me
-0.0.0.0 tg5.subo.me
+#Sdo
+0.0.0.0 adrs.sdo.com
+0.0.0.0 bf.snyu.sdo.com
+0.0.0.0 bh.snyu.sdo.com
+0.0.0.0 c.0fb00c0e57.sdo.com
+0.0.0.0 c.aa.sdo.com
+0.0.0.0 dwtracking.sdo.com
+0.0.0.0 feo.staticsdo.com
+0.0.0.0 g.0fb00c0e57.sdo.com
+0.0.0.0 g.aa.sdo.com
+0.0.0.0 ibw.sdo.com
+0.0.0.0 sda.ibw.sdo.com
+0.0.0.0 stat.aa.sdo.com
+0.0.0.0 stat.sdo.com
+0.0.0.0 static.ex.ibw.sdo.com
+0.0.0.0 zytt.0fb00c0e57.sdo.com
+0.0.0.0 de.ap.snyu.com
+0.0.0.0 hot.snyu.com
+0.0.0.0 js.ap.snyu.com
+0.0.0.0 pic.snyu.com
+0.0.0.0 r.snyu.com
+0.0.0.0 res.m.snyu.com
+0.0.0.0 rr.ap.snyu.com
+0.0.0.0 doubleclick.igalive.com
+0.0.0.0 ipagent.igalive.com
+0.0.0.0 js.igalive.com
+0.0.0.0 resource.igalive.com
 #Shendu
 0.0.0.0 union.shendu.com
 0.0.0.0 js.shenduchuanmei.com
@@ -961,6 +1465,16 @@
 0.0.0.0 vipcode.shendu.cc
 0.0.0.0 vipimages.shendu.cc
 0.0.0.0 vipjs.shendu.cc
+#Soua
+0.0.0.0 code1.soua.com
+0.0.0.0 code2.soua.com
+0.0.0.0 code3.soua.com
+0.0.0.0 www.soua.com
+0.0.0.0 union.soua.com
+#Subo
+0.0.0.0 tg2.subo.me
+0.0.0.0 tg26.subo.me
+0.0.0.0 tg5.subo.me
 #T2click
 0.0.0.0 58.t2click.com
 0.0.0.0 adrate.t2click.com
@@ -998,6 +1512,10 @@
 0.0.0.0 un2.banmamedia.com
 0.0.0.0 www.banmamedia.com
 0.0.0.0 www.targetedmedia.com.cn
+#Tbjcw
+0.0.0.0 www.tbjcw.com
+0.0.0.0 f1.tbjfw.com
+0.0.0.0 f2.tbjfw.com
 #TJQ
 0.0.0.0 c18.tjq.com
 0.0.0.0 d1.tjq.com
@@ -1061,6 +1579,7 @@
 0.0.0.0 pics.unionsky.cn
 0.0.0.0 play.unionsky.cn
 0.0.0.0 unionsky.cn
+0.0.0.0 lay.unionsky2.cn
 #Unionwan
 0.0.0.0 www.unionwan.com
 #Viglink
@@ -1144,6 +1663,73 @@
 0.0.0.0 static.games.woyo.com
 0.0.0.0 trace.woyo.com
 0.0.0.0 wyyx.games.woyo.com
+#Wrating
+0.0.0.0 163.wrating.com
+0.0.0.0 ads.wrating.com
+0.0.0.0 ahtv.wrating.com
+0.0.0.0 audit.wrating.com
+0.0.0.0 aweb.wrating.com
+0.0.0.0 baidu.wrating.com
+0.0.0.0 bbs.wrating.com
+0.0.0.0 brand.wrating.com
+0.0.0.0 c.wrating.com
+0.0.0.0 cctv.wrating.com
+0.0.0.0 china.wrating.com
+0.0.0.0 chinacar.wrating.com
+0.0.0.0 chinanews.wrating.com
+0.0.0.0 click.wrating.com
+0.0.0.0 client.wrating.com
+0.0.0.0 cmsn.wrating.com
+0.0.0.0 cnhubei.wrating.com
+0.0.0.0 cri.wrating.com
+0.0.0.0 cyol.wrating.com
+0.0.0.0 eachnet.wrating.com
+0.0.0.0 enet.wrating.com
+0.0.0.0 g.wrating.com
+0.0.0.0 g0.wrating.com
+0.0.0.0 gc.wrating.com
+0.0.0.0 glog.wrating.com
+0.0.0.0 gmsn.wrating.com
+0.0.0.0 hexun.wrating.com
+0.0.0.0 hifly.wrating.com
+0.0.0.0 it168.wrating.com
+0.0.0.0 msn.wrating.com
+0.0.0.0 msnc.wrating.com
+0.0.0.0 ns.wrating.com
+0.0.0.0 ns1.wrating.com
+0.0.0.0 people.wrating.com
+0.0.0.0 pscn.wrating.com
+0.0.0.0 qihoo.wrating.com
+0.0.0.0 qq.wrating.com
+0.0.0.0 redirect.wrating.com
+0.0.0.0 shonline.wrating.com
+0.0.0.0 sina.wrating.com
+0.0.0.0 sohu.wrating.com
+0.0.0.0 sp.wrating.com
+0.0.0.0 survey.wrating.com
+0.0.0.0 sz.wrating.com
+0.0.0.0 szxk.wrating.com
+0.0.0.0 t.wrating.com
+0.0.0.0 t1.wrating.com
+0.0.0.0 t10.wrating.com
+0.0.0.0 t2.wrating.com
+0.0.0.0 t3.wrating.com
+0.0.0.0 t4.wrating.com
+0.0.0.0 t6.wrating.com
+0.0.0.0 t7.wrating.com
+0.0.0.0 t8.wrating.com
+0.0.0.0 t9.wrating.com
+0.0.0.0 taiwan.wrating.com
+0.0.0.0 tom.wrating.com
+0.0.0.0 tongji.wrating.com
+0.0.0.0 vodone.wrating.com
+0.0.0.0 www.wrating.com
+0.0.0.0 xinmin.wrating.com
+0.0.0.0 ztqq.wrating.com
+#Wumi
+0.0.0.0 app.wumii.com
+0.0.0.0 widget.wumii.cn
+0.0.0.0 widget.wumii.com
 #Wyunion
 0.0.0.0 c.wyunion.com
 0.0.0.0 www.wyunion.com
@@ -1158,22 +1744,24 @@
 0.0.0.0 ww.xt918.com
 #Yiqiwin
 0.0.0.0 js.yiqiwin.com
-#Yoyi
-0.0.0.0 atm.yoyi.com.cn
-0.0.0.0 amps.yoyi.com.cn
-0.0.0.0 d.yoyi.tv
-0.0.0.0 js.yoyi.tv
-0.0.0.0 www.yoyi.com.cn
+0.0.0.0 www.yiqiwin.com
+0.0.0.0 ww.yiqiwin.com
+0.0.0.0 gg.yiqiwin.com
 #Yongv
 0.0.0.0 adp.yongv.com
 0.0.0.0 js.yongv.com
 0.0.0.0 jss.yongv.com
 0.0.0.0 apf.whoclick.cn
+0.0.0.0 adp.whoclick.cn
 #Yqit
 0.0.0.0 js.yqit.net
 #Yyclick
 0.0.0.0 t.yyclick.com
 0.0.0.0 www.yyclick.com
+#Ze5
+0.0.0.0 code.ze5.com
+0.0.0.0 count.ze5.com
+0.0.0.0 media.ze5.com
 #Zoomino
 0.0.0.0 ads-res.zoomino.cn
 0.0.0.0 zoomino.cn
@@ -1182,7 +1770,13 @@
 0.0.0.0 tp.zdy.cc
 0.0.0.0 www.zdy.cc
 0.0.0.0 zdy.cc
-#zhubajie
+#Zhanzhang
+0.0.0.0 js.zhanzhang.net
+0.0.0.0 p.zhanzhang.net
+0.0.0.0 s1.zhanzhang.net
+0.0.0.0 s2.zhanzhang.net
+0.0.0.0 s3.zhanzhang.net
+#ZhuBaJie
 0.0.0.0 union.zhubajie.com
 0.0.0.0 list.zhubajie.com
 0.0.0.0 un.zhubajie.com
@@ -1193,3 +1787,16 @@
 0.0.0.0 script.yucmedia.com
 0.0.0.0 serv.yucmedia.com
 0.0.0.0 www.yucmedia.com
+#Do Not Tracking Statistics
+0.0.0.0 icon.ajiang.net
+0.0.0.0 popstat.pppop.cn
+0.0.0.0 static.getclicky.com
+0.0.0.0 static.woopra.com
+0.0.0.0 static.zoomino.cn
+0.0.0.0 stats.norton.com
+0.0.0.0 track.did-it.com
+0.0.0.0 vip1.1tong.com.cn
+0.0.0.0 www.nasboq.com
+0.0.0.0 www.referer.cn
+0.0.0.0 www.zzcount.com
+0.0.0.0 zjomo2.app9.hubspot.com

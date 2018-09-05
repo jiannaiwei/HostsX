@@ -1,4 +1,4 @@
-@Windows 软件广告过滤
+@Shield Soft Ads
 #Avira
 0.0.0.0 notifier.avira.com
 #ESTsoft
@@ -79,13 +79,6 @@
 0.0.0.0 imgl.fetionpic.com
 0.0.0.0 minisite.fetionpic.com
 0.0.0.0 minisite0.fetionpic.com
-#AliWangWang
-0.0.0.0 jc.wangwang.taobao.com
-0.0.0.0 p3p.alisoft.com
-0.0.0.0 po.im.alisoft.com
-0.0.0.0 download.im.alisoft.com
-0.0.0.0 dailyupdate.wangwang.taobao.com
-0.0.0.0 files.dailyupdate.wangwang.taobao.com
 #Hotspot Shield
 0.0.0.0 rss2search.com
 0.0.0.0 box.anchorfree.net
@@ -108,36 +101,16 @@
 0.0.0.0 ttads.ttplayer.com
 0.0.0.0 ttmsg.qianqian.com
 0.0.0.0 ttpack.qianqian.com
-#Kuwo
-0.0.0.0 g.kuwo.cn
-0.0.0.0 wa.kuwo.cn
-0.0.0.0 updatepage.kuwo.cn
-0.0.0.0 g.koowo.com
-0.0.0.0 wa.koowo.com
-0.0.0.0 webstat.kuwo.cn
-#Kugou
-0.0.0.0 dl.ddong.com
-0.0.0.0 game.kugou.com
-0.0.0.0 downmobile.kugou.com
-0.0.0.0 games.kugou.com
-0.0.0.0 install.kugou.com
-0.0.0.0 links.kugoo.com
-0.0.0.0 mkg.kugou.com
-0.0.0.0 myonline.kugou.com
-0.0.0.0 opt.kugou.com
-0.0.0.0 sdn.kugoo.com
-0.0.0.0 sdn.kugou.com
-0.0.0.0 softstart.kugou.com
-0.0.0.0 softstat.kugou.com
-0.0.0.0 yx.kugou.com
 #Maxthon
 0.0.0.0 mk.maxthon.cn
-0.0.0.0 datacn-dl.maxthon.com
-0.0.0.0 stats-a.maxthon.cn
+0.0.0.0 stat-c.maxthon.com
 0.0.0.0 stat-w.maxthon.com
 0.0.0.0 stat.maxthon.com
 0.0.0.0 statcn-c.maxthon.com
-0.0.0.0 kernel-c.maxthon.com
+0.0.0.0 stats-a.maxthon.cn
+0.0.0.0 stats-w.maxthon.com
+0.0.0.0 g.dcs.maxthon.com
+0.0.0.0 www.007.mx
 #Micronichefinder
 0.0.0.0 www.micronichefinder.com
 0.0.0.0 micronichefinder.com
@@ -169,12 +142,12 @@
 0.0.0.0 goto.www.iciba.com
 0.0.0.0 u.iciba.com
 0.0.0.0 u.sl.iciba.com
-#QQ偷匪
+#QQceo
 0.0.0.0 ad.qqceo.net
 0.0.0.0 toufei.qqceo.net
 0.0.0.0 toufei2.qqceo.net
 0.0.0.0 nl.tg.laolinow.com
-#QQ超市
+#QQChaoShi
 0.0.0.0 update.imqzone.com
 #QQvoice
 0.0.0.0 union.qqvoice.com

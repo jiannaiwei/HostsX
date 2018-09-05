@@ -1,11 +1,11 @@
-@Windows ”Œœ∑—È÷§∆¡±Œ
-#Game Assassin's Creed
+@Shield Game Active
+#Assassin's Creed
 127.0.0.1 onlineconfigservice.ubi.com
 127.0.0.1 orbitservice.ubi.com
 127.0.0.1 static3.cdn.ubi.com
 127.0.0.1 ubisoft-orbit-savegames.s3.amazonaws.com
 127.0.0.1 ubisoft-orbit.s3.amazonaws.com
-#Game Command&Conquer
+#Command&Conquer
 127.0.0.1 blazeserver.blazeemu.org
 127.0.0.1 demangler.ea.com
 127.0.0.1 gosgvaprod-qos01.ea.com
@@ -13,7 +13,7 @@
 127.0.0.1 gosredirector.ea.com
 127.0.0.1 gossjcprod-qos01.ea.com
 127.0.0.1 vmp.tools.gos.ea.com
-#Game QUAZAL
+#QUAZAL
 127.0.0.1 cohlive-1.quazal.net
 127.0.0.1 cohlive.quazal.net
 127.0.0.1 reliclive-1.quazal.net

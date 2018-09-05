@@ -1,4 +1,4 @@
-;version=22:27 2013/3/20
+;version=16:35 2013/6/24
 ;author=KwokTree.OrzFly.jason_jiang.ZephyR
 
 #导致 搜狐客户端无法打开视频的集数。
@@ -6,6 +6,9 @@ access.tv.sohu.com
 hot.vrs.sohu.com
 $DELETE
 
+#导致麦当劳优惠券无法下载。
+a.54whr.com
+$DELETE
 
 #导致Skype(Tom)用户无法充值的问题。
 client.skype.tom.com
@@ -71,6 +74,11 @@ $DELETE
 #!导致 淘宝 和 京东 推荐产品的广告链接无法打开。屏蔽此域名可以防止您在不知不觉中通过此链接让一些用户拿到推广收入，不建议用户删除。
 click.union.360buy.com
 s.click.taobao.com
+$DELETE
+
+#!导致 淘宝 手机客户端一直要求设置网络的问题。
+cdn.mmstat.com
+log.mmstat.com
 $DELETE
 
 #导致乐视平板程序FC，无法正常运行！
@@ -173,21 +181,12 @@ dy.ugc.pps.tv
 dyn.ugc.pps.tv
 $DELETE
 
-#导致新浪看视频无法正常播放。
-swf.games.sina.com.cn
-v.iask.com
-$DELETE
-
 #导致新浪IP工具无法正常使用。
 int.dpool.sina.com.cn
 $DELETE
 
 #导致 360 浏览器无法正常更新。
 seupdate.360safe.com
-$DELETE
-
-#!导致 360 系列软件无法在线下载。屏蔽此域名可以防止您在不知不觉中被安装和被安全，不建议用户删除。
-pinst.360.cn
 $DELETE
 
 #导致QQ客户端群搜索页面无法正常显示。
@@ -203,7 +202,6 @@ gs.apple.com
 $DELETE
 
 #导致酷6页面无法正常显示。
-ku6afp.allyes.com
 main.gslb.ku6.com
 gug.ku6cdn.com
 $DELETE
@@ -258,7 +256,6 @@ $DELETE
 $RemoveFromIEBlockedSites
 
 #导致微软部分产品的下载链接无法跳转和打开。
-clk.atdmt.com
 view.atdmt.com
 switch.atdmt.com
 $DELETE
@@ -279,6 +276,12 @@ $DELETE
 hiphotos.baidu.com
 cache.video.qiyi.com
 data.video.qiyi.com
+$DELETE
+
+#导致奇异视频无法正常播放。
+api.cupid.qiyi.com
+policy.cupid.qiyi.com
+show.cupid.qiyi.com
 $DELETE
 
 #导致光影魔术手客户端素材无法正常下载。
@@ -333,10 +336,6 @@ $DELETE
 
 #!导致搜狗拼音无法下载词库，搜狗浏览器无法下载扩展。此域名包含了搜狗拼音的桌面推送广告和弹出提示，不建议用户删除。请访问 http://9bu.org/36 查看更好的解决方案。
 download.ie.sogou.com
-$DELETE
-
-#!导致 部分手机网站 页面无法正常跳转。此域名存放了很多的广告图片和链接跳转，不建议用户删除。请访问 http://9bu.org/38 查看更好的解决方案。
-adsclick.uc123.com
 $DELETE
 
 #导致PPTV搜索时无法完整显示结果的问题。

@@ -1,0 +1,2 @@
+;这是HostsX的脚本中心的版本号文件
+QQextPatch.bat=0.3
